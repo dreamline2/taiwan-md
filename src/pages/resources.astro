@@ -1065,28 +1065,13 @@ const mindmapData = JSON.stringify({ nodes: mindmapNodes, edges: mindmapEdges })
     if (!container) return;
 
     const data = JSON.parse(mindmapData);
-    const width = container.clientWidth;
-    const height = 700;
-
-    const svg = d3.select('#resources-graph')
-      .append('svg')
-      .attr('width', width)
-      .attr('height', height);
-
-    const g = svg.append('g')
-      .attr('transform', `translate(${width/2}, ${height/2})`);
-
-    // Zoom
-    svg.call(d3.zoom().scaleExtent([0.3, 3]).on('zoom', (event) => {
-      g.attr('transform', event.transform);
-    })).call(d3.zoom().transform, d3.zoomIdentity.translate(width/2, height/2).scale(0.85));
 
     // Build hierarchy from flat data
     const root = { id: 'taiwan', label: '🇹🇼 台灣資源', children: [] };
     const catMap = {};
     data.nodes.forEach(n => {
       if (n.group === 'center') return;
-      if (n.size > 10) { // category node
+      if (n.size > 10) {
         const cat = { ...n, children: [] };
         catMap[n.id] = cat;
         root.children.push(cat);
@@ -1099,81 +1084,82 @@ const mindmapData = JSON.stringify({ nodes: mindmapNodes, edges: mindmapEdges })
       }
     });
 
-    // D3 radial tree layout
+    // D3 Tidy Tree — horizontal left-to-right (like Observable @d3/tree/2)
     const hierarchy = d3.hierarchy(root);
-    const treeRadius = Math.min(width, height) / 2 - 40;
-    const tree = d3.tree()
-      .size([2 * Math.PI, treeRadius])
-      .separation((a, b) => (a.parent === b.parent ? 1 : 2) / a.depth);
-    tree(hierarchy);
+    const dx = 18; // vertical spacing between nodes
+    const dy = 220; // horizontal spacing between levels
+    const treeLayout = d3.tree().nodeSize([dx, dy]);
+    treeLayout(hierarchy);
 
-    // Convert polar to cartesian for each node
-    function radialPoint(x, y) {
-      return [y * Math.cos(x - Math.PI / 2), y * Math.sin(x - Math.PI / 2)];
-    }
-    hierarchy.descendants().forEach(d => {
-      const [cx, cy] = radialPoint(d.x, d.y);
-      d.cx = cx;
-      d.cy = cy;
+    // Compute bounding box
+    let x0 = Infinity, x1 = -Infinity;
+    hierarchy.each(d => {
+      if (d.x > x1) x1 = d.x;
+      if (d.x < x0) x0 = d.x;
     });
+    const treeHeight = x1 - x0 + dx * 2;
+    const width = container.clientWidth;
+    const svgHeight = Math.max(700, treeHeight + 40);
 
-    // Draw curved links (Xmind style bezier curves)
-    g.selectAll('.link')
+    const svg = d3.select('#resources-graph')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', svgHeight)
+      .attr('viewBox', [-dy, x0 - dx, width + 40, svgHeight])
+      .style('max-width', '100%')
+      .style('overflow', 'visible');
+
+    const g = svg.append('g');
+
+    // Zoom + pan
+    svg.call(d3.zoom().scaleExtent([0.3, 2]).on('zoom', (event) => {
+      g.attr('transform', event.transform);
+    }));
+
+    // Links — smooth horizontal bezier curves
+    g.append('g')
+      .attr('fill', 'none')
+      .selectAll('path')
       .data(hierarchy.links())
       .join('path')
-      .attr('class', 'link')
       .attr('d', d => {
-        const sx = d.source.cx, sy = d.source.cy;
-        const tx = d.target.cx, ty = d.target.cy;
-        // Bezier curve — smooth Xmind-style connectors
-        const mx = (sx + tx) / 2;
-        return `M${sx},${sy} C${mx},${sy} ${mx},${ty} ${tx},${ty}`;
+        // Horizontal bezier (like d3.linkHorizontal)
+        return `M${d.source.y},${d.source.x} C${(d.source.y + d.target.y) / 2},${d.source.x} ${(d.source.y + d.target.y) / 2},${d.target.x} ${d.target.y},${d.target.x}`;
       })
-      .attr('fill', 'none')
-      .attr('stroke', d => d.target.data.color || '#cbd5e0')
-      .attr('stroke-width', d => d.target.depth === 1 ? 2.5 : 1.5)
+      .attr('stroke', d => d.target.data.color || '#94a3b8')
+      .attr('stroke-width', d => d.target.depth === 1 ? 2 : 1.2)
       .attr('stroke-opacity', 0.5);
 
-    // Draw nodes — positioned with cartesian xy, no rotation
-    const nodeG = g.selectAll('.node')
+    // Nodes
+    const nodeG = g.append('g')
+      .selectAll('g')
       .data(hierarchy.descendants())
       .join('g')
-      .attr('class', 'node')
-      .attr('transform', d => `translate(${d.cx}, ${d.cy})`)
+      .attr('transform', d => `translate(${d.y},${d.x})`)
       .attr('cursor', d => d.data.url ? 'pointer' : 'default');
 
     nodeG.append('circle')
       .attr('r', d => {
-        if (d.depth === 0) return 22;
-        if (d.depth === 1) return 12;
-        return 5;
+        if (d.depth === 0) return 8;
+        if (d.depth === 1) return 6;
+        return 3.5;
       })
       .attr('fill', d => d.data.color || '#94a3b8')
       .attr('stroke', '#fff')
-      .attr('stroke-width', d => d.depth === 0 ? 3 : 1.5);
+      .attr('stroke-width', 1.5);
 
-    // Labels — ALL HORIZONTAL (no rotation), positioned left/right of node
+    // Labels — always horizontal, right of node (or left for root)
     nodeG.append('text')
-      .attr('dy', d => d.depth === 0 ? '0.35em' : '0.35em')
-      .attr('x', d => {
-        if (d.depth === 0) return 0; // center
-        // Right side or left side of the tree
-        const isRight = d.cx >= 0;
-        if (d.depth === 1) return isRight ? 18 : -18;
-        return isRight ? 10 : -10;
-      })
-      .attr('text-anchor', d => {
-        if (d.depth === 0) return 'middle';
-        return d.cx >= 0 ? 'start' : 'end';
-      })
+      .attr('dy', '0.32em')
+      .attr('x', d => d.children ? -12 : 8)
+      .attr('text-anchor', d => d.children ? 'end' : 'start')
       .attr('font-size', d => {
-        if (d.depth === 0) return '15px';
+        if (d.depth === 0) return '14px';
         if (d.depth === 1) return '12px';
         return '10px';
       })
-      .attr('font-weight', d => d.depth <= 1 ? 'bold' : 'normal')
-      .attr('fill', d => d.depth <= 1 ? '#1a1a1a' : '#444')
-      .attr('filter', 'drop-shadow(0 1px 1px rgba(255,255,255,0.95))')
+      .attr('font-weight', d => d.depth <= 1 ? '700' : '400')
+      .attr('fill', d => d.depth === 0 ? '#065f46' : d.depth === 1 ? '#1a1a1a' : '#555')
       .text(d => d.data.label || d.data.name || '');
 
     // Click to navigate
@@ -1184,14 +1170,21 @@ const mindmapData = JSON.stringify({ nodes: mindmapNodes, edges: mindmapEdges })
     });
 
     // Hover effects
-    nodeG.on('mouseover', function(event, d) {
+    nodeG.on('mouseover', function() {
       d3.select(this).select('circle')
-        .transition().duration(200)
+        .transition().duration(150)
         .attr('stroke', '#3b82f6').attr('stroke-width', 3);
+      d3.select(this).select('text')
+        .transition().duration(150)
+        .attr('fill', '#065f46').attr('font-weight', '700');
     }).on('mouseout', function(event, d) {
       d3.select(this).select('circle')
-        .transition().duration(200)
-        .attr('stroke', '#fff').attr('stroke-width', d.depth === 0 ? 3 : 2);
+        .transition().duration(150)
+        .attr('stroke', '#fff').attr('stroke-width', 1.5);
+      d3.select(this).select('text')
+        .transition().duration(150)
+        .attr('fill', d.depth === 0 ? '#065f46' : d.depth === 1 ? '#1a1a1a' : '#555')
+        .attr('font-weight', d.depth <= 1 ? '700' : '400');
     });
   });
 </script>
