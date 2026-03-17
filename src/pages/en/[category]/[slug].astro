@@ -1,0 +1,920 @@
+---
+import { readdir, readFile } from 'fs/promises';
+import { resolve, join, basename } from 'path';
+import matter from 'gray-matter';
+import { categoryConfig, getCategoryConfig, type CategoryKey } from '../../../utils/categoryConfig';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  
+  // 類別對應到資料夾名稱
+  const categoryMapping: Record<string, string> = {
+    'history': 'History',
+    'geography': 'Geography', 
+    'culture': 'Culture',
+    'food': 'Food',
+    'art': 'Art',
+    'music': 'Music',
+    'technology': 'Technology',
+    'nature': 'Nature',
+    'people': 'People',
+    'society': 'Society',
+    'economy': 'Economy',
+    'lifestyle': 'Lifestyle'
+  };
+
+  for (const [categorySlug, folderName] of Object.entries(categoryMapping)) {
+    try {
+      // 英文版本
+      const enFolderPath = resolve(process.cwd(), 'knowledge', 'en', folderName);
+      try {
+        const enFiles = await readdir(enFolderPath);
+        const enMarkdownFiles = enFiles.filter(file => file.endsWith('.md') && !file.startsWith('_'));
+        
+        for (const file of enMarkdownFiles) {
+          const filePath = join(enFolderPath, file);
+          const fileContent = await readFile(filePath, 'utf-8');
+          const { data: frontmatter, content } = matter(fileContent);
+          
+          // 檔案名稱作為 slug（去掉 .md）
+          const slug = basename(file, '.md');
+          
+          paths.push({
+            params: { 
+              category: categorySlug, 
+              slug: slug 
+            },
+            props: {
+              title: frontmatter.title || slug,
+              description: frontmatter.description || '',
+              content: content,
+              frontmatter: frontmatter,
+              lang: 'en'
+            }
+          });
+        }
+      } catch (err) {
+        console.log(`No English folder found for ${folderName}:`, err.message);
+      }
+      
+    } catch (err) {
+      console.log(`Error processing category ${categorySlug}:`, err.message);
+    }
+  }
+
+  console.log(`Generated ${paths.length} paths for English articles`);
+
+  return paths;
+}
+
+import Layout from '../../../layouts/Layout.astro';
+import { marked } from 'marked';
+
+const { title, description, content, frontmatter, lang } = Astro.props;
+const { category, slug } = Astro.params;
+
+const categoryInfo = getCategoryConfig(category);
+if (!categoryInfo) {
+  throw new Error(`Unknown category: ${category}`);
+}
+
+// 推薦文章 (簡化版，取同分類的其他文章)
+const otherCategories = Object.keys(categoryConfig)
+  .filter(cat => cat !== category)
+  .slice(0, 3)
+  .map(cat => ({
+    key: cat,
+    ...categoryConfig[cat as CategoryKey]
+  }));
+
+// 延伸閱讀：同分類的其他英文文章
+const categoryMapping: Record<string, string> = {
+  'history': 'History',
+  'geography': 'Geography', 
+  'culture': 'Culture',
+  'food': 'Food',
+  'art': 'Art',
+  'music': 'Music',
+  'technology': 'Technology',
+  'nature': 'Nature',
+  'people': 'People',
+  'society': 'Society',
+  'economy': 'Economy',
+  'lifestyle': 'Lifestyle'
+};
+
+let relatedArticles: any[] = [];
+try {
+  const folderName = categoryMapping[category as string];
+  if (folderName) {
+    const categoryFolderPath = resolve(process.cwd(), 'knowledge', 'en', folderName);
+    const files = await readdir(categoryFolderPath);
+    const markdownFiles = files.filter(file => file.endsWith('.md') && !file.startsWith('_'));
+    
+    for (const file of markdownFiles) {
+      const articleSlug = basename(file, '.md');
+      if (articleSlug !== slug) { // 排除當前文章
+        const filePath = join(categoryFolderPath, file);
+        const fileContent = await readFile(filePath, 'utf-8');
+        const { data: frontmatter } = matter(fileContent);
+        
+        relatedArticles.push({
+          title: frontmatter.title || articleSlug,
+          slug: articleSlug,
+          description: frontmatter.description || '',
+          category: category
+        });
+      }
+    }
+    
+    // 限制最多 3 篇
+    relatedArticles = relatedArticles.slice(0, 3);
+  }
+} catch (err) {
+  console.log(`Error loading related articles for ${category}:`, err.message);
+}
+
+// Convert [[wikilinks]] to bold text before marked parsing
+function resolveWikilinks(markdownContent: string): string {
+  if (!markdownContent) return markdownContent;
+  // Process [[Page|Display Text]] or [[Page]] → **text** (articles don't need internal links)
+  return markdownContent.replace(/\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g, (_, target, display) => {
+    const label = display || target;
+    return `**${label}**`;
+  });
+}
+
+// Process markdown content with marked
+const resolvedContent = resolveWikilinks(content);
+const processedContent = marked.parse(resolvedContent);
+---
+
+<Layout 
+  title={title}
+  description={description}
+  type="article"
+  datePublished={frontmatter.date || new Date().toISOString()}
+  dateModified={frontmatter.modified || frontmatter.date || new Date().toISOString()}
+  content={content}
+>
+  <!-- Reading Progress Bar -->
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <main class="article-page">
+    <!-- Article Header Banner -->
+    <section class="article-header-banner" style={`background: ${categoryInfo.gradient};`}>
+      <div class="header-content">
+        <nav class="breadcrumb-header">
+          <a href="/en">Home</a>
+          <span class="separator">›</span>
+          <a href={`/en/${category}`}>{categoryInfo.name}</a>
+          <span class="separator">›</span>
+          <span class="current">{title}</span>
+        </nav>
+        
+        <h1 class="article-title-header">{title}</h1>
+        <p class="article-description-header">{description}</p>
+      </div>
+    </section>
+
+    <!-- Article Content -->
+    <div class="container">
+      <article class="article-content">
+        <!-- Meta Information -->
+        <div class="article-meta">
+          <div class="meta-group">
+            <div class="category-badge" style={`background: ${categoryInfo.colorLight}; color: ${categoryInfo.color}; border-color: ${categoryInfo.color};`}>
+              <span class="category-icon">{categoryInfo.icon}</span>
+              <span class="category-name">{categoryInfo.name}</span>
+            </div>
+            
+            {frontmatter.readingTime && (
+              <div class="meta-item">
+                <span class="meta-icon">📖</span>
+                <span>{frontmatter.readingTime} min read</span>
+              </div>
+            )}
+            
+            {frontmatter.date && (
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>{new Date(frontmatter.date).toLocaleDateString('en-US')}</span>
+              </div>
+            )}
+
+            {frontmatter.status && (
+              <div class="meta-item">
+                <span class="status-tag" style={`background: ${categoryInfo.colorLight}; color: ${categoryInfo.color};`}>{frontmatter.status}</span>
+              </div>
+            )}
+          </div>
+          
+          {lang && (
+            <div class="lang-badge">
+              <span class="meta-icon">🌐</span>
+              <span>{lang === 'zh-TW' ? 'Traditional Chinese' : 'English'}</span>
+            </div>
+          )}
+        </div>
+
+        <!-- Main Content -->
+        <div class="content" set:html={processedContent}></div>
+        
+        {frontmatter.source && (
+          <div class="sources">
+            <h3>Sources</h3>
+            <ul>
+              {frontmatter.source.map((url: string) => (
+                <li><a href={url} target="_blank" rel="noopener">{url}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <!-- Tags and Share -->
+        <div class="article-footer">
+          <div class="tags-section">
+            {frontmatter.tags && frontmatter.tags.length > 0 && (
+              <div class="tags">
+                {frontmatter.tags.map((tag: string) => (
+                  <span class="tag" style={`background: ${categoryInfo.colorLight}; color: ${categoryInfo.color};`}>{tag}</span>
+                ))}
+              </div>
+            )}
+          </div>
+          
+          <div class="share-section">
+            <span class="share-label">Share this article:</span>
+            <div class="share-buttons">
+              <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(`https://taiwan.md/en/${category}/${slug}`)}`} 
+                 target="_blank" 
+                 class="share-btn twitter">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                </svg>
+                Twitter
+              </a>
+              <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://taiwan.md/en/${category}/${slug}`)}`} 
+                 target="_blank" 
+                 class="share-btn facebook">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                </svg>
+                Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 延伸閱讀：同分類其他文章 -->
+        {relatedArticles.length > 0 && (
+          <div class="related-articles">
+            <h3 class="related-title">Further Reading</h3>
+            <div class="related-grid">
+              {relatedArticles.map(article => (
+                <a href={`/en/${article.category}/${article.slug}`} class="related-card" style={`border-color: ${categoryInfo.color};`}>
+                  <div class="related-card-content">
+                    <h4 class="related-card-title" style={`color: ${categoryInfo.color};`}>{article.title}</h4>
+                    {article.description && (
+                      <p class="related-card-desc">{article.description}</p>
+                    )}
+                  </div>
+                  <div class="related-card-arrow" style={`color: ${categoryInfo.color};`}>→</div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- More Articles -->
+        <div class="more-articles">
+          <h3 class="more-title">Explore More Aspects of Taiwan</h3>
+          <div class="more-grid">
+            {otherCategories.map(cat => (
+              <a href={`/en/${cat.key}`} class="more-card" style={`border-color: ${cat.color};`}>
+                <div class="more-card-icon" style={`color: ${cat.color};`}>{cat.icon}</div>
+                <div class="more-card-content">
+                  <div class="more-card-name" style={`color: ${cat.color};`}>{cat.name}</div>
+                  <div class="more-card-desc">{cat.description}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </article>
+
+      <!-- Navigation -->
+      <div class="article-navigation">
+        <a href={`/en/${category}`} class="nav-btn back-btn" style={`background: ${categoryInfo.color};`}>
+          ← Back to {categoryInfo.name}
+        </a>
+        <a href="/en" class="nav-btn home-btn">
+          Home
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  // Reading progress bar
+  function updateReadingProgress() {
+    const article = document.querySelector('.content');
+    if (!article) return;
+    
+    const scrolled = window.scrollY;
+    const articleTop = article.offsetTop;
+    const articleHeight = article.offsetHeight;
+    const windowHeight = window.innerHeight;
+    
+    const progress = Math.min(
+      Math.max((scrolled - articleTop + windowHeight * 0.3) / articleHeight * 100, 0),
+      100
+    );
+    
+    const progressBar = document.getElementById('reading-progress');
+    if (progressBar) {
+      progressBar.style.width = progress + '%';
+    }
+  }
+  
+  window.addEventListener('scroll', updateReadingProgress);
+  window.addEventListener('resize', updateReadingProgress);
+  updateReadingProgress();
+</script>
+
+<style define:vars={{ categoryColor: categoryInfo.color, categoryColorLight: categoryInfo.colorLight }}>
+  /* Reading Progress Bar */
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: var(--categoryColor);
+    z-index: 1000;
+    transition: width 0.1s ease;
+  }
+
+  .article-page {
+    min-height: 100vh;
+  }
+
+  /* Header Banner */
+  .article-header-banner {
+    width: 100%;
+    padding: 3rem 2rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .breadcrumb-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .breadcrumb-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .breadcrumb-header a:hover {
+    text-decoration: underline;
+  }
+
+  .separator {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .current {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .article-title-header {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .article-description-header {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    opacity: 0.95;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Article Content */
+  .article-content {
+    margin-bottom: 3rem;
+  }
+
+  .article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #f1f5f9;
+  }
+
+  .meta-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .category-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .category-icon {
+    font-size: 1.1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+
+  .meta-icon {
+    font-size: 1rem;
+  }
+
+  .status-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  .lang-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #f9fafb;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+
+  /* Content Styling */
+  .content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #374151;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    font-family: "Noto Serif TC", "Source Han Serif TC", serif;
+    color: #1f2937;
+    margin: 2rem 0 1rem 0;
+    line-height: 1.3;
+  }
+
+  .content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+
+  .content h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    border-bottom: 3px solid var(--categoryColor);
+    padding-bottom: 0.5rem;
+  }
+
+  .content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .content p {
+    margin-bottom: 1.5rem;
+  }
+
+  .content blockquote {
+    border-left: 6px solid var(--categoryColor);
+    background: linear-gradient(to right, var(--categoryColorLight), transparent);
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: #4b5563;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .content ul, .content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+  }
+
+  .content li {
+    margin-bottom: 0.75rem;
+  }
+
+  .content a {
+    color: var(--categoryColor);
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .content a:hover {
+    text-decoration: none;
+  }
+
+  .content strong {
+    font-weight: 700;
+    color: #1f2937;
+  }
+
+  .content em {
+    font-style: italic;
+  }
+
+  .content img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .content p > em:only-child {
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+  }
+  .content th, .content td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  .content th {
+    background: #f9fafb;
+    font-weight: 600;
+  }
+
+  .content p {
+    margin-bottom: 1.5rem;
+    line-height: 2;
+    text-align: justify;
+  }
+
+  /* Sources */
+  .sources {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #f9fafb;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+  }
+
+  .sources h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+    font-weight: 600;
+  }
+
+  .sources ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sources li {
+    margin-bottom: 0.5rem;
+  }
+
+  .sources a {
+    color: var(--categoryColor);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  .sources a:hover {
+    text-decoration: underline;
+  }
+
+  /* Article Footer */
+  .article-footer {
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-top: 2px solid #f1f5f9;
+  }
+
+  .tags-section {
+    margin-bottom: 2rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .share-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .share-label {
+    color: #6b7280;
+    font-weight: 500;
+  }
+
+  .share-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .share-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #f3f4f6;
+    color: #374151;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .share-btn:hover {
+    background: #e5e7eb;
+    transform: translateY(-1px);
+  }
+
+  .share-btn.twitter:hover {
+    background: #1da1f2;
+    color: white;
+  }
+
+  .share-btn.facebook:hover {
+    background: #1877f2;
+    color: white;
+  }
+
+  /* Related Articles */
+  .related-articles {
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .related-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+  }
+
+  .related-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .related-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background: #f9fafb;
+    border: 1px solid;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .related-card:hover {
+    background: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .related-card-content {
+    flex: 1;
+  }
+
+  .related-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+  }
+
+  .related-card-desc {
+    font-size: 0.875rem;
+    color: #6b7280;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .related-card-arrow {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    transition: transform 0.2s ease;
+  }
+
+  .related-card:hover .related-card-arrow {
+    transform: translateX(3px);
+  }
+
+  /* More Articles */
+  .more-articles {
+    margin: 4rem 0;
+    padding: 3rem 0;
+    border-top: 2px solid #f1f5f9;
+  }
+
+  .more-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 2rem;
+  }
+
+  .more-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .more-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: white;
+    border: 2px solid;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .more-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .more-card-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .more-card-content {
+    flex: 1;
+  }
+
+  .more-card-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .more-card-desc {
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* Navigation */
+  .article-navigation {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+  }
+
+  .nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .back-btn {
+    /* background set by style attribute */
+  }
+
+  .home-btn {
+    background: #6b7280;
+  }
+
+  .nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .article-header-banner {
+      padding: 2rem 1rem;
+    }
+
+    .article-title-header {
+      font-size: 2rem;
+    }
+
+    .article-description-header {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      padding: 1rem;
+    }
+
+    .content {
+      font-size: 1rem;
+    }
+
+    .content h2 {
+      font-size: 1.5rem;
+    }
+
+    .article-meta {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .share-section {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .more-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .article-navigation {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>

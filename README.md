@@ -140,7 +140,7 @@ All images sourced from [Wikimedia Commons](https://commons.wikimedia.org/) with
 ## 👥 Contributors
 
 <a href="https://github.com/frank890417/taiwan-md/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frank890417/taiwan-md" />
+  <img src="https://contrib.rocks/image?repo=frank890417/taiwan-md&max=100&columns=12&anon=1" />
 </a>
 
 ---
