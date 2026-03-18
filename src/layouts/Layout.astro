@@ -37,6 +37,7 @@ const i18n = {
     about: isEn ? 'About' : '關於',
     graph: isEn ? 'Knowledge Graph' : '知識圖譜',
     contribute: isEn ? 'Contribute Guide' : '貢獻指南',
+    changelog: isEn ? 'Update History' : '更新紀錄',
     contact: isEn ? 'Connect' : '聯繫',
     report: isEn ? 'Report Issue' : '回報問題',
     discuss: isEn ? 'Discussions' : '討論區',
@@ -175,6 +176,7 @@ if (currentPath.startsWith('/en')) {
             <a href={isEn ? "/en/about" : "/about"}>{i18n.footer.about}</a>
             <a href={isEn ? "/en/graph" : "/graph"}>{i18n.footer.graph}</a>
             <a href="https://github.com/frank890417/taiwan-md/blob/main/CONTRIBUTING.md" target="_blank">{i18n.footer.contribute}</a>
+            <a href={isEn ? "/en/changelog" : "/changelog"}>{i18n.footer.changelog}</a>
           </div>
           <div class="footer-col">
             <h4>{i18n.footer.contact}</h4>
