@@ -193,14 +193,49 @@ if (currentPath.startsWith('/en')) {
     <script is:inline>
       // Set .md button href based on current path
       const btn = document.getElementById('md-btn');
-      const path = window.location.pathname.replace(/\/$/, '') || '/index';
-      // Link to GitHub raw markdown
-      const ghBase = 'https://github.com/frank890417/taiwan-md/blob/main/knowledge';
-      if (path === '/index' || path === '') {
-        btn.href = ghBase;
+      const pathname = window.location.pathname;
+      const ghBase = 'https://github.com/frank890417/taiwan-md/blob/main';
+      
+      let target = '/README.md'; // Default fallback
+
+      // Handle special pages
+      if (pathname === '/' || pathname === '/en' || pathname === '/en/' || pathname === '/index.html') {
+        target = '/README.md';
+      } else if (pathname.includes('/contribute')) {
+        target = '/CONTRIBUTING.md';
+      } else if (pathname.includes('/resources')) {
+        target = '/knowledge/About/台灣官方網站資源.md';
+      } else if (pathname.includes('/graph')) {
+        target = '/src/pages/graph.astro';
+      } else if (pathname.includes('/about')) {
+        target = '/src/pages/about.astro';
       } else {
-        btn.href = ghBase + '/zh-TW' + path + '.md';
+        // Content pages (Categories or Articles)
+        const isEn = pathname.startsWith('/en/');
+        // Remove /en/ prefix and leading/trailing slashes
+        const cleanPath = pathname.replace(/^\/en/, '').replace(/^\//, '').replace(/\/$/, '').replace('index.html', '');
+        const parts = cleanPath.split('/');
+        
+        if (parts.length > 0 && parts[0]) {
+          const cat = parts[0];
+          // Capitalize first letter of category (history -> History)
+          const catFolder = cat.charAt(0).toUpperCase() + cat.slice(1);
+          
+          // ZH source is in knowledge/Category, EN source is in knowledge/en/Category
+          const prefix = isEn ? '/knowledge/en' : '/knowledge';
+          
+          if (parts.length === 1) {
+            // Category Hub: knowledge/History/_History Hub.md
+            target = `${prefix}/${catFolder}/_${catFolder} Hub.md`;
+          } else {
+            // Article: knowledge/History/article-name.md
+            const slug = decodeURIComponent(parts.slice(1).join('/')); 
+            target = `${prefix}/${catFolder}/${slug}.md`;
+          }
+        }
       }
+      
+      btn.href = ghBase + target;
 
       // Set active nav links
       document.addEventListener('DOMContentLoaded', function() {
