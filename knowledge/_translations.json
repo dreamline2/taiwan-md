@@ -21,9 +21,6 @@
   "en/Art/taiwanese-literature-during-japanese-rule.md": "Art/日治時期文學.md",
   "en/Art/taiwanese-modern-poetry.md": "Art/台灣現代詩.md",
   "en/Art/taiwanese-new-media-art.md": "Art/台灣新媒體藝術.md",
-  "en/Art/taiwanese-cinema.md": "Art/台灣電影.md",
-  "en/Art/taiwanese-modern-poetry.md": "Art/台灣現代詩.md",
-  "en/Art/taiwanese-new-media-art.md": "Art/台灣新媒體藝術.md",
   "en/Art/taiwanese-photography.md": "Art/台灣攝影.md",
   "en/Art/taiwanese-prose.md": "Art/台灣散文.md",
   "en/Art/taiwanese-theater-and-performing-arts.md": "Art/台灣劇場與表演藝術.md",
@@ -31,7 +28,7 @@
   "en/Art/traditional-arts-of-taiwan.md": "Art/台灣傳統藝術.md",
   "en/Art/contemporary-sculpture-in-taiwan.md": "Art/台灣當代雕塑發展.md",
   "en/Art/traditional-taiwanese-arts.md": "Art/台灣傳統藝術.md",
-  "en/Culture/emerging-religions-and-spiritual-culture.md": "Culture/台灣新興宗教與心靈文化.md",
+  "en/Culture/emerging-religions-and-spiritual-culture.md": "Culture/台灣新興宗教与心靈文化.md",
   "en/Culture/ethnic-groups.md": "Culture/族群（閩南客家原住民外省新住民）.md",
   "en/Culture/golden-age-echoes-taiwan-tea-culture.md": "Culture/黃金時代的餘韻：台灣茶文化的流變與工藝.md",
   "en/Culture/hakka-culture-and-language.md": "Culture/客家文化與語言.md",
@@ -131,5 +128,8 @@
   "en/Technology/taiwan-space-industry-development.md": "Technology/台灣太空產業發展.md",
   "en/Technology/taiwan-startup-ecosystem.md": "Technology/台灣新創生態系.md",
   "en/Technology/threads-in-taiwan.md": "Technology/Threads在台灣.md",
-  "en/resources/official-websites.md": "resources/official-websites.md"
+  "en/resources/official-websites.md": "resources/official-websites.md",
+  "en/Art/taiwan-new-media-art.md": "Art/台灣新媒體藝術.md",
+  "en/Art/experimental-and-new-media-art-in-taiwan.md": "Art/台灣實驗與新媒體藝術.md",
+  "en/Art/taiwanese-cinema-from-new-wave-to-international-stage.md": "Art/台灣電影.md"
 }
