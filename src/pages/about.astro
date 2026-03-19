@@ -417,7 +417,8 @@ import Layout from '../layouts/Layout.astro';
         <div class="sponsor-tiers">
           <div class="tier">
             <h3 class="tier-name gold">🥇 Gold Sponsor</h3>
-            <p class="tier-desc">首頁 + About 頁大 Logo、README 專區、社群媒體致謝</p>
+            <p class="tier-price">NT$150,000 / 年</p>
+            <p class="tier-desc">About 頁大 Logo、README 專區、社群媒體致謝、季度影響力報告</p>
             <div class="tier-logos">
               <div class="logo-placeholder">Your Logo Here</div>
             </div>
@@ -425,6 +426,7 @@ import Layout from '../layouts/Layout.astro';
 
           <div class="tier">
             <h3 class="tier-name silver">🥈 Silver Sponsor</h3>
+            <p class="tier-price">NT$50,000 / 年</p>
             <p class="tier-desc">About 頁 Logo、README 致謝</p>
             <div class="tier-logos">
               <div class="logo-placeholder">Your Logo Here</div>
@@ -433,6 +435,7 @@ import Layout from '../layouts/Layout.astro';
 
           <div class="tier">
             <h3 class="tier-name bronze">🥉 Bronze Sponsor</h3>
+            <p class="tier-price">NT$20,000 / 年</p>
             <p class="tier-desc">About 頁文字致謝、README 列名</p>
             <div class="tier-logos">
               <div class="logo-placeholder sm">Your Name Here</div>
@@ -441,6 +444,7 @@ import Layout from '../layouts/Layout.astro';
 
           <div class="tier">
             <h3 class="tier-name community">💚 Community Supporter</h3>
+            <p class="tier-price">NT$500+ / 月</p>
             <p class="tier-desc">個人贊助者，README 感謝名單</p>
             <div class="tier-logos">
               <a href="https://protico.io" target="_blank" class="supporter-link">
@@ -1370,6 +1374,7 @@ import Layout from '../layouts/Layout.astro';
   .tier-name.silver { color: #64748b; }
   .tier-name.bronze { color: #92400e; }
   .tier-name.community { color: #15803d; }
+  .tier-price { font-size: 1.1rem; font-weight: 700; color: #2D5016; margin-bottom: 0.4rem; }
   .tier-desc { font-size: 0.85rem; color: #64748b; margin-bottom: 1rem; }
   .tier-logos { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
   .logo-placeholder {
