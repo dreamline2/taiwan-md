@@ -88,6 +88,21 @@ Four ways, from zero-code to full PR:
 
 ---
 
+## 🖊️ Writing Style & Terminology
+
+We maintain a **[TERMINOLOGY.md](./TERMINOLOGY.md)** to ensure consistent, respectful language across all articles. Key principles:
+
+| Guideline | Rule | Example |
+|-----------|------|---------|
+| 🇹🇼 **National identity** | Use 「台灣」directly; avoid 「台灣地區」「寶島」「本島」 | ✅ 台灣是⋯ ❌ 台灣地區是⋯ |
+| 🏝️ **Literary variation** | 「這座島嶼」OK for prose style & avoiding repetition | ✅ 台灣森林是這座島嶼最珍貴的⋯ |
+| 👵 **台文正字** | Use 「阿媽」(a-má) not 「阿嬤」 | 台文正字，非國語系統用字 |
+| 🗣️ **Language naming** | Use 「台語」not 「閩南語」(per 國家語言發展法) | 語言學語境可用「台語（閩南語）」 |
+
+> **Contributors**: Please read [TERMINOLOGY.md](./TERMINOLOGY.md) before writing or reviewing articles.
+
+---
+
 ## 🏗️ Architecture
 
 ```
