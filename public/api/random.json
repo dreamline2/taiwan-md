@@ -1,59 +1,32 @@
 [
   {
-    "title": "Taiwanese Curators and Artistic Cultural Construction",
-    "description": "From independent curating to museum systems, how Taiwanese curators construct contemporary art's cultural discourse and international dialogue",
+    "title": "Taiwanese New Media Art: Island Creativity in the Digital Age",
+    "description": "",
     "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Art/taiwanese-curators-and-artistic-cultural-construction",
-    "readingTime": 46,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Art/taiwanese-curators-and-artistic-cultural-construction.md"
+    "tags": [
+      "New Media Art",
+      "Digital Art",
+      "Technology Art",
+      "Generative Art",
+      "VR",
+      "p5.js"
+    ],
+    "url": "https://taiwan.md/en/Art/taiwanese-new-media-art",
+    "readingTime": 56,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/Art/taiwanese-new-media-art.md"
   },
   {
-    "title": "台灣原住民文化",
-    "description": "從十六族的多元傳統到當代藝術復振，探索台灣原住民文化的深厚底蘊與現代轉化",
-    "category": "Culture",
-    "tags": [
-      "原住民",
-      "族群文化",
-      "傳統藝術",
-      "正名運動",
-      "當代創作",
-      "語言復振"
-    ],
-    "url": "https://taiwan.md/Culture/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%96%87%E5%8C%96",
-    "readingTime": 23,
-    "featured": true,
+    "title": "台灣海洋生態",
+    "description": "黑潮、珊瑚礁與海洋生物多樣性：台灣海域的生態奇蹟與保育挑戰",
+    "category": "Nature",
+    "tags": [],
+    "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E6%B5%B7%E6%B4%8B%E7%94%9F%E6%85%8B",
+    "readingTime": 19,
+    "featured": false,
     "date": "2026-03-18",
-    "path": "Culture/台灣原住民文化.md"
-  },
-  {
-    "title": "看見台灣 — 歷史上的台灣印象",
-    "description": "從大航海時代到當代，各時代各民族如何看見這座島嶼",
-    "category": "About",
-    "tags": [
-      "quotes",
-      "history",
-      "literature",
-      "culture"
-    ],
-    "url": "https://taiwan.md/About/%E7%9C%8B%E8%A6%8B%E5%8F%B0%E7%81%A3%E5%BC%95%E8%A8%80%E9%9B%86",
-    "readingTime": 14,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "About/看見台灣引言集.md"
-  },
-  {
-    "title": "台灣客家音樂：從山歌到搖滾的文化傳承與創新",
-    "description": "探索台灣客家音樂從傳統山歌、客家八音到林生祥、交工樂隊等現代音樂人的創新歷程，以及金曲獎客語專輯的重要里程碑",
-    "category": "Music",
-    "tags": [],
-    "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E5%AE%A2%E5%AE%B6%E9%9F%B3%E6%A8%82",
-    "readingTime": 13,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "Music/台灣客家音樂.md"
+    "path": "Nature/台灣海洋生態.md"
   },
   {
     "title": "地形與地質",
@@ -74,113 +47,72 @@
     "path": "Geography/地形與地質.md"
   },
   {
-    "title": "台灣原住民當代藝術",
-    "description": "從傳統工藝到當代創作，探索台灣原住民藝術家如何在全球藝術舞台上發聲，重新定義原住民身份與當代藝術的對話",
+    "title": "戰後台灣文學",
+    "description": "",
     "category": "Art",
     "tags": [
-      "原住民藝術",
-      "當代藝術",
-      "傳統工藝",
-      "身份認同",
-      "藝術家",
-      "文化復振"
+      "文學",
+      "戰後",
+      "鄉土文學"
     ],
-    "url": "https://taiwan.md/Art/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E7%95%B6%E4%BB%A3%E8%97%9D%E8%A1%93",
-    "readingTime": 19,
+    "url": "https://taiwan.md/Art/%E6%88%B0%E5%BE%8C%E5%8F%B0%E7%81%A3%E6%96%87%E5%AD%B8",
+    "readingTime": 21,
     "featured": false,
-    "date": "2026-03-20",
-    "path": "Art/台灣原住民當代藝術.md"
+    "date": "2026-03-18",
+    "path": "Art/戰後台灣文學.md"
   },
   {
-    "title": "侯孝賢",
-    "description": "台灣新電影浪潮領軍人物，以詩意鏡頭語言征服國際影壇的電影詩人",
+    "title": "魏德聖",
+    "description": "用電影書寫台灣史詩，從《海角七號》到《賽德克・巴萊》的夢想實踐者",
     "category": "People",
     "tags": [
       "人物",
-      "侯孝賢",
-      "台灣新電影",
       "導演",
-      "威尼斯金獅獎",
-      "坎城影展",
-      "電影藝術"
+      "電影",
+      "台灣電影",
+      "原住民文化",
+      "海角七號",
+      "賽德克巴萊"
     ],
-    "url": "https://taiwan.md/People/%E4%BE%AF%E5%AD%9D%E8%B3%A2",
-    "readingTime": 28,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "People/侯孝賢.md"
-  },
-  {
-    "title": "當代台灣獨立音樂場景",
-    "description": "從地下展演到產業矩陣，解析現代台灣獨立音樂生態圈的發展脈絡與文化影響力",
-    "category": "Music",
-    "tags": [
-      "音樂",
-      "獨立音樂",
-      "live house",
-      "音樂節",
-      "地下音樂",
-      "獨立廠牌"
-    ],
-    "url": "https://taiwan.md/Music/%E7%8D%A8%E7%AB%8B%E9%9F%B3%E6%A8%82%E5%A0%B4%E6%99%AF",
-    "readingTime": 36,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "Music/獨立音樂場景.md"
-  },
-  {
-    "title": "台灣發酵食品與醃製文化",
-    "description": "從臭豆腐到豆腐乳，探索台灣獨特的發酵技術與醃製文化傳統",
-    "category": "Food",
-    "tags": [
-      "發酵食品",
-      "醃製文化",
-      "臭豆腐",
-      "豆腐乳",
-      "泡菜",
-      "傳統技術",
-      "微生物"
-    ],
-    "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E7%99%BC%E9%85%B5%E9%A3%9F%E5%93%81%E8%88%87%E9%86%83%E8%A3%BD%E6%96%87%E5%8C%96",
-    "readingTime": 15,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "Food/台灣發酵食品與醃製文化.md"
-  },
-  {
-    "title": "城市特色與區域文化",
-    "description": "從台北的國際都會到台南的古都風情，台灣各城市如何形塑獨特的地方認同",
-    "category": "Geography",
-    "tags": [
-      "城市",
-      "區域文化",
-      "地方特色",
-      "都市發展",
-      "文化地理"
-    ],
-    "url": "https://taiwan.md/Geography/%E5%9F%8E%E5%B8%82%E7%89%B9%E8%89%B2%E8%88%87%E5%8D%80%E5%9F%9F%E6%96%87%E5%8C%96",
-    "readingTime": 18,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "Geography/城市特色與區域文化.md"
-  },
-  {
-    "title": "台灣穿山甲",
-    "description": "全世界被走私最多的哺乳動物，在台灣找到了一個安全的家",
-    "category": "Nature",
-    "tags": [
-      "穿山甲",
-      "保育",
-      "瀕危物種",
-      "走私",
-      "台北動物園",
-      "生態"
-    ],
-    "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E7%A9%BF%E5%B1%B1%E7%94%B2",
-    "readingTime": 11,
+    "url": "https://taiwan.md/People/%E9%AD%8F%E5%BE%B7%E8%81%96",
+    "readingTime": 8,
     "featured": false,
     "date": "2026-03-19",
-    "path": "Nature/台灣穿山甲.md"
+    "path": "People/魏德聖.md"
+  },
+  {
+    "title": "蕭青陽",
+    "description": "四度入圍葛萊美獎最佳專輯包裝設計的台灣視覺設計師",
+    "category": "People",
+    "tags": [
+      "設計師",
+      "葛萊美獎",
+      "專輯包裝",
+      "視覺設計",
+      "台灣文化"
+    ],
+    "url": "https://taiwan.md/People/%E8%95%AD%E9%9D%92%E9%99%BD",
+    "readingTime": 10,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "People/蕭青陽.md"
+  },
+  {
+    "title": "Annette Lu (Lu Hsiu-lien)",
+    "description": "Pioneer of Taiwan’s women’s movement and the first female vice president in the Chinese-speaking world",
+    "category": "en",
+    "tags": [
+      "people",
+      "politics",
+      "women’s-movement",
+      "vice-president",
+      "Kaohsiung-Incident"
+    ],
+    "url": "https://taiwan.md/en/People/annette-lu",
+    "readingTime": 34,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/People/annette-lu.md"
   },
   {
     "title": "珍珠奶茶",
@@ -201,140 +133,191 @@
     "path": "Food/珍珠奶茶.md"
   },
   {
-    "title": "台灣地方小吃地圖",
-    "description": "從基隆廟口的鼎邊糊到屏東萬巒的豬腳，從新竹的貢丸到台東的釋迦，每個城市都有專屬的味覺DNA。跟著在地人的腳步，探索台灣22個縣市最具代表性的地方小吃，品味島嶼上最真實的庶民文化。",
-    "category": "Food",
-    "tags": [
-      "地方小吃",
-      "在地美食",
-      "縣市特色",
-      "台灣美食地圖",
-      "庶民文化"
-    ],
-    "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E5%9C%B0%E6%96%B9%E5%B0%8F%E5%90%83%E5%9C%B0%E5%9C%96",
-    "readingTime": 21,
-    "featured": true,
-    "date": "2026-03-20",
-    "path": "Food/台灣地方小吃地圖.md"
-  },
-  {
-    "title": "林百里",
-    "description": "廣達電腦創辦人，筆記型電腦代工之王，AI時代的轉型先鋒",
-    "category": "People",
-    "tags": [
-      "企業家",
-      "廣達電腦",
-      "ODM代工",
-      "人工智慧"
-    ],
-    "url": "https://taiwan.md/People/%E6%9E%97%E7%99%BE%E9%87%8C",
-    "readingTime": 5,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "People/林百里.md"
-  },
-  {
-    "title": "臺灣的鯨豚",
-    "description": "全球三分之一鯨豚物種的棲息地——從昔日捕鯨到今日賞鯨，臺灣如何轉身成為海洋生態研究重鎮？",
+    "title": "台灣海洋生態與珊瑚礁保育",
+    "description": "台灣四面環海擁有豐富海洋生態，從珊瑚礁白化危機到鯨豚保育，探討海洋國家公園的保護成效與未來挑戰",
     "category": "Nature",
     "tags": [
-      "台灣",
-      "鯨豚",
-      "海洋",
-      "自然",
-      "保育",
-      "賞鯨",
-      "中華白海豚",
-      "黑潮"
+      "海洋生態",
+      "珊瑚礁保育",
+      "鯨豚保育",
+      "海洋國家公園",
+      "海洋保護區",
+      "生物多樣性"
     ],
-    "url": "https://taiwan.md/Nature/%E8%87%BA%E7%81%A3%E7%9A%84%E9%AF%A8%E8%B1%9A",
-    "readingTime": 10,
+    "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E6%B5%B7%E6%B4%8B%E7%94%9F%E6%85%8B%E8%88%87%E7%8F%8A%E7%91%9A%E7%A4%81%E4%BF%9D%E8%82%B2",
+    "readingTime": 20,
     "featured": false,
-    "date": "2026-03-19",
-    "path": "Nature/臺灣的鯨豚.md"
+    "date": "2026-03-20",
+    "path": "Nature/台灣海洋生態與珊瑚礁保育.md"
   },
   {
-    "title": "台灣眷村菜",
-    "description": "1949大遷移帶來的各省味道，從竹籬笆內的廚房到眷村拆遷後的味覺保存",
-    "category": "Food",
+    "title": "台灣媒體與新聞自由",
+    "description": "從黨國控制到媒體戰國時代：台灣新聞自由的民主化歷程與數位轉型挑戰",
+    "category": "Society",
     "tags": [
-      "眷村菜",
-      "外省菜",
-      "牛肉麵",
-      "大遷移",
-      "竹籬笆"
+      "媒體",
+      "新聞自由",
+      "民主化",
+      "數位轉型",
+      "媒體識讀"
     ],
-    "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E7%9C%B7%E6%9D%91%E8%8F%9C",
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E5%AA%92%E9%AB%94%E8%88%87%E6%96%B0%E8%81%9E%E8%87%AA%E7%94%B1",
+    "readingTime": 16,
+    "featured": false,
+    "date": "2026-03-18",
+    "path": "Society/台灣媒體與新聞自由.md"
+  },
+  {
+    "title": "台灣漫畫與動漫文化",
+    "description": "從漫畫王的黃金年代到CCC創作集的文創復興，台灣漫畫如何在日漫夾擊下找到自己的聲音",
+    "category": "Culture",
+    "tags": [
+      "漫畫",
+      "動漫",
+      "文化創意",
+      "次文化",
+      "青少年文化"
+    ],
+    "url": "https://taiwan.md/Culture/%E5%8F%B0%E7%81%A3%E6%BC%AB%E7%95%AB%E8%88%87%E5%8B%95%E6%BC%AB%E6%96%87%E5%8C%96",
+    "readingTime": 14,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "Culture/台灣漫畫與動漫文化.md"
+  },
+  {
+    "title": "桂綸鎂",
+    "description": "從《不能說的秘密》到國際影展常客，低調演技派女星",
+    "category": "People",
+    "tags": [
+      "桂綸鎂",
+      "演員",
+      "不能說的秘密",
+      "國際影展",
+      "演技派"
+    ],
+    "url": "https://taiwan.md/People/%E6%A1%82%E7%B6%B8%E9%8E%82",
     "readingTime": 11,
     "featured": false,
     "date": "2026-03-19",
-    "path": "Food/台灣眷村菜.md"
+    "path": "People/桂綸鎂.md"
   },
   {
-    "title": "台灣政治環境與選舉制度",
-    "description": "從憲法架構、中央與地方選舉機制，到深層的政黨政治文化，全面解析台灣如何在複雜的地緣政治中，維繫一個活力四射且制度嚴謹的民主社會",
-    "category": "Society",
+    "title": "C.C. Wei",
+    "description": "TSMC President, pioneer of 3nm process technology, semiconductor manufacturing master",
+    "category": "en",
     "tags": [
-      "政治體制",
-      "選舉制度",
-      "半總統制",
-      "地方自治",
-      "公民社會",
-      "數位民主"
+      "tsmc",
+      "semiconductor process",
+      "technological innovation",
+      "manufacturing technology"
     ],
-    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E7%92%B0%E5%A2%83%E8%88%87%E9%81%B8%E8%88%89%E5%88%B6%E5%BA%A6",
+    "url": "https://taiwan.md/en/People/cc-wei",
+    "readingTime": 28,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/People/cc-wei.md"
+  },
+  {
+    "title": "Century of Taiwanese Watercolor Painting",
+    "description": "From the enlightenment of Ishikawa Kin'ichiro during the Japanese colonial period to Chien Chung-Wei's international acclaim today, Taiwanese watercolor painting has flourished for a century, becoming Asia's most vibrant watercolor creative hub.",
+    "category": "en",
+    "tags": [
+      "Art",
+      "watercolor",
+      "painting",
+      "水彩",
+      "art history"
+    ],
+    "url": "https://taiwan.md/en/Art/century-of-taiwanese-watercolor-painting",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/Art/century-of-taiwanese-watercolor-painting.md"
+  },
+  {
+    "title": "Local Street Food Map of Taiwan",
+    "description": "From Keelung temple mouths ding-bian-hu to Pingtung Wanluan pig knuckles, from Hsinchu meatballs to Taitung custard apples, every city has its unique culinary DNA. Follow the footsteps of locals to explore the most representative local delicacies of Taiwan's 22 counties and cities, savoring the most authentic folk culture of this island.",
+    "category": "en",
+    "tags": [
+      "local delicacies",
+      "indigenous cuisine",
+      "regional specialties",
+      "Taiwan food map",
+      "folk culture"
+    ],
+    "url": "https://taiwan.md/en/Food/local-street-food-map-of-taiwan",
+    "readingTime": 73,
+    "featured": true,
+    "date": "2026-03-20",
+    "path": "en/Food/local-street-food-map-of-taiwan.md"
+  },
+  {
+    "title": "Cho-yun Hsu: Bridging East and West as a Master Historian",
+    "description": "Master historian, author of The Course of Chinese History, Professor Emeritus at University of Pittsburgh",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/cho-yun-hsu-bridging-historian",
+    "readingTime": 42,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/People/cho-yun-hsu-bridging-historian.md"
+  },
+  {
+    "title": "Digital ID and Digital Government",
+    "description": "Taiwan's digital government transformation journey, from digital ID controversies to 'My E-Government' one-stop services, exploring innovations and challenges in digital governance",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Technology/digital-id-and-digital-government",
+    "readingTime": 79,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Technology/digital-id-and-digital-government.md"
+  },
+  {
+    "title": "Development of Contemporary Taiwanese Literature",
+    "description": "Exploring the literary development from post-war Taiwan to the present, from modernism to nativist literature, from rural literature debates to multicultural writing",
+    "category": "en",
+    "tags": [
+      "literature",
+      "contemporary literature",
+      "nativist literature",
+      "modernism",
+      "rural literature",
+      "cultural identity"
+    ],
+    "url": "https://taiwan.md/en/Art/development-of-contemporary-taiwanese-literature",
+    "readingTime": 80,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Art/development-of-contemporary-taiwanese-literature.md"
+  },
+  {
+    "title": "Contemporary Indigenous Singer‑Songwriters in Taiwan",
+    "description": "From A‑mei to Suming and Sangpuy, Indigenous artists have carried ancestral languages into modern music—building Taiwan’s most distinctive and globally recognizable sound.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Music/contemporary-indigenous-singer-songwriters",
+    "readingTime": 30,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Music/contemporary-indigenous-singer-songwriters.md"
+  },
+  {
+    "title": "鄧雨賢",
+    "description": "台灣歌謠之父，創作《望春風》《雨夜花》《月夜愁》等經典台語歌謠",
+    "category": "People",
+    "tags": [
+      "音樂",
+      "台語歌謠",
+      "作曲家",
+      "日治時期",
+      "古典音樂",
+      "桃園"
+    ],
+    "url": "https://taiwan.md/People/%E9%84%A7%E9%9B%A8%E8%B3%A2",
     "readingTime": 7,
     "featured": false,
-    "date": "2026-03-18",
-    "path": "Society/台灣政治環境與選舉制度.md"
-  },
-  {
-    "title": "台灣獨立音樂場景演變",
-    "description": "從地下樂團到獨立音樂，探索台灣非主流音樂三十年發展軌跡與文化意義",
-    "category": "Music",
-    "tags": [
-      "獨立音樂",
-      "地下樂團",
-      "搖滾樂",
-      "音樂產業",
-      "次文化"
-    ],
-    "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E7%8D%A8%E7%AB%8B%E9%9F%B3%E6%A8%82%E5%A0%B4%E6%99%AF%E6%BC%94%E8%AE%8A",
-    "readingTime": 26,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "Music/台灣獨立音樂場景演變.md"
-  },
-  {
-    "title": "民主化",
-    "description": "台灣民主化的成功經驗具有重大的歷史與現實意義。它證明了華人社會完全可以建立成熟的民主制度，為全球第三波民主化提供了重要案例。更重要的是，這個轉型過程全程以和平手段進行，沒有經歷大規模暴力衝突，為其他威權國家的民主化提供了珍貴的參考經驗。",
-    "category": "History",
-    "tags": [
-      "歷史",
-      "民主化",
-      "政治"
-    ],
-    "url": "https://taiwan.md/History/%E6%B0%91%E4%B8%BB%E5%8C%96",
-    "readingTime": 10,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "History/民主化.md"
-  },
-  {
-    "title": "台灣資安產業發展",
-    "description": "從政府政策到民間創新，台灣如何在全球網路威脅中建構完整的資訊安全產業生態系",
-    "category": "Technology",
-    "tags": [
-      "資安產業",
-      "網路安全",
-      "數位發展",
-      "資安政策",
-      "技術創新"
-    ],
-    "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E8%B3%87%E5%AE%89%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95",
-    "readingTime": 22,
-    "featured": true,
     "date": "2026-03-19",
-    "path": "Technology/台灣資安產業發展.md"
+    "path": "People/鄧雨賢.md"
   }
 ]

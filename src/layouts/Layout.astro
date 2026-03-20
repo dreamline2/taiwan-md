@@ -340,10 +340,11 @@ const jfClass = [
     <Header />
 
     <script is:inline define:vars={{ searchIndex, isEn }}>
-      document.addEventListener('DOMContentLoaded', function () {
+      function initSearch() {
         var idx = searchIndex;
         var lang = isEn ? 'en' : 'zh-TW';
         var input = document.getElementById('search-input');
+        if (!input) return;
         var results = document.getElementById('search-results');
         var modal = document.getElementById('search-modal');
 
@@ -363,7 +364,7 @@ const jfClass = [
               item.t.toLowerCase().indexOf(q) !== -1 ||
               item.d.toLowerCase().indexOf(q) !== -1 ||
               item.tags.some(function (tag) {
-                return tag.toLowerCase().indexOf(q) !== -1;
+                return String(tag).toLowerCase().indexOf(q) !== -1;
               })
             );
           });
@@ -430,7 +431,20 @@ const jfClass = [
             }
           }
         });
-      });
+      }
+      // Bind search after DOM is ready — handles both SSR and CSR timing
+      function _tryInit() {
+        if (document.getElementById('search-input')) {
+          initSearch();
+        } else {
+          setTimeout(_tryInit, 50);
+        }
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', _tryInit);
+      } else {
+        _tryInit();
+      }
     </script>
 
     <main role="main">
