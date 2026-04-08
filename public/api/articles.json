@@ -28,6 +28,17 @@
     "path": "en/History/228-incident.md"
   },
   {
+    "title": "5G in Taiwan: From TSMC Chips to Smart Factories and Digital Healthcare",
+    "description": "Taiwan's 5G rollout launched in 2020 with NT$136.5 billion in spectrum fees. With TSMC chips powering most 5G base stations worldwide, Taiwan is building smart ports, AI hospitals, and connected factories. A look at the island's digital transformation strategy and where it's heading.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Technology/taiwan-5g-digital-transformation",
+    "readingTime": 70,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Technology/taiwan-5g-digital-transformation.md"
+  },
+  {
     "title": "九天玄女：從黃帝的軍師到台灣陣頭少年的守護神",
     "description": "一個高中畢業的廟會團長，被文建會評審羞辱了十幾年，花11年拿到博士，只為證明帶中輟生打鼓也是藝術。他背後站的，是一位四千年前教黃帝打仗的女神。",
     "category": "Culture",
@@ -370,15 +381,15 @@
     "path": "History/台海危機與兩岸關係發展.md"
   },
   {
-    "title": "台湾牛肉麺",
-    "description": "外省移民の郷愁の味から、台湾を代表する国民食へ。牛肉麺がたどってきた文化融合の歴史と、世界へ広がる魅力をたどる。",
+    "title": "台湾交通システム：一つの島がどうやって自分を90分に圧縮したのか",
+    "description": "1946年、台湾では一夜にして左側通行から右側通行へ切り替わりました。60年後には台湾高速鉄道が394キロの島を90分に縮め、その10年後には1,400万台を超えるスクーターがあらゆる交差点を埋め尽くしました。この島の交通の物語は、そのまま台湾という社会の自己像の物語でもあります。",
     "category": "ja",
     "tags": [],
-    "url": "https://taiwan.md/ja/Food/beef-noodle-soup",
-    "readingTime": 27,
+    "url": "https://taiwan.md/ja/Lifestyle/taiwan-transport-system",
+    "readingTime": 28,
     "featured": false,
-    "date": "2026-03-17",
-    "path": "ja/Food/beef-noodle-soup.md"
+    "date": "2026-04-06",
+    "path": "ja/Lifestyle/taiwan-transport-system.md"
   },
   {
     "title": "台湾企業：TSMC（台湾積体電路製造）",
@@ -497,6 +508,17 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Food/taiwan-breakfast-culture.md"
+  },
+  {
+    "title": "台湾の電子商取引とデジタル決済――島を舞台に繰り返された三つの商戦",
+    "description": "PChomeの24時間配送、Shopeeの補助金攻勢、Coupangのロケット配送、そして電子決済の急拡大。台湾のECと決済が二十年でどう変わったのかを読み解きます。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Technology/taiwan-e-commerce-and-digital-payments",
+    "readingTime": 27,
+    "featured": false,
+    "date": "2026-04-06",
+    "path": "ja/Technology/taiwan-e-commerce-and-digital-payments.md"
   },
   {
     "title": "台湾の辦桌（バンドー）文化",
@@ -664,7 +686,7 @@
     "path": "Food/台灣手搖飲文化.md"
   },
   {
-    "title": "台灣手路菜",
+    "title": "台灣手路菜：意思、由來與辦桌文化的「拿手好菜」",
     "description": "手路菜（台語 tshiú-lōo-tshài）是「拿手好菜」的意思。高雄內門的白堊土種不出作物，卻養出全台密度最高的總鋪師——黃金年代一年辦 25,000 桌，大月營收 1,200 萬。一鍋菜尾湯要花四到八小時，結得好不好，全村隔天都知道。",
     "category": "Food",
     "tags": ["台灣美食", "傳統料理", "辦桌", "手路菜", "總鋪師", "飲食文化"],
@@ -787,7 +809,7 @@
     "category": "History",
     "tags": ["民主", "轉型正義", "政治史", "人權", "社會運動"],
     "url": "https://taiwan.md/History/%E5%8F%B0%E7%81%A3%E6%B0%91%E4%B8%BB%E8%BD%89%E5%9E%8B",
-    "readingTime": 25,
+    "readingTime": 28,
     "featured": true,
     "date": "2026-03-24",
     "path": "History/台灣民主轉型.md"
@@ -1130,6 +1152,17 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "Society/台灣在國際標準中的標示問題.md"
+  },
+  {
+    "title": "台灣地圖怎麼讀：從番薯到衛星的四百年",
+    "description": "1554 年，一個葡萄牙製圖師在八張羊皮上畫出了一座叫「I. Fremosa」的模糊島嶼。他從沒踏上過這座島。四百七十年後，Google Maps 顯示的台灣長什麼樣，取決於你人在哪個國家——這不是技術問題，是政治。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E5%8F%B0%E7%81%A3%E5%9C%B0%E5%9C%96%E6%80%8E%E9%BA%BC%E8%AE%80",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-04-07",
+    "path": "Geography/台灣地圖怎麼讀.md"
   },
   {
     "title": "台灣早餐文化",
@@ -1707,7 +1740,7 @@
     "tags": ["地理", "氣候", "颱風", "梅雨", "氣候變遷"],
     "url": "https://taiwan.md/Geography/%E6%B0%A3%E5%80%99",
     "readingTime": 19,
-    "featured": false,
+    "featured": true,
     "date": "2026-03-31",
     "path": "Geography/氣候.md"
   },
@@ -2652,11 +2685,11 @@
   },
   {
     "title": "台灣選舉與政黨政治",
-    "description": "從黨外運動到多黨民主，台灣如何從威權走向民主的選舉文化演變",
+    "description": "從中壢事件的火光到817萬張選票，台灣如何用半個世紀把投票從戒嚴工具變成全民信仰",
     "category": "History",
     "tags": ["選舉", "民主化", "政黨政治", "黨外運動", "總統直選"],
     "url": "https://taiwan.md/History/%E5%8F%B0%E7%81%A3%E9%81%B8%E8%88%89%E8%88%87%E6%94%BF%E9%BB%A8%E6%94%BF%E6%B2%BB",
-    "readingTime": 17,
+    "readingTime": 22,
     "featured": false,
     "date": "2026-03-20",
     "path": "History/台灣選舉與政黨政治.md"
@@ -3213,6 +3246,17 @@
     "path": "People/呂冠緯.md"
   },
   {
+    "title": "呉大猷",
+    "description": "理論物理学者。中央研究院院長として台湾の基礎科学を支え、楊振寧・李政道という二人のノーベル賞受賞者を育てた、台湾科学史の礎を築いた人物。",
+    "category": "ja",
+    "tags": ["人物", "科学者", "物理学", "教育", "中央研究院"],
+    "url": "https://taiwan.md/ja/People/wu-ta-yu",
+    "readingTime": 14,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ja/People/wu-ta-yu.md"
+  },
+  {
     "title": "宏碁集團 (Acer) - PC 產業的變革先驅",
     "description": "從台灣桃園起家的個人電腦先驅，創造「多品牌、多通路」商業模式，成為全球 PC 產業的變革引擎",
     "category": "Economy",
@@ -3229,7 +3273,7 @@
     "category": "History",
     "tags": ["戒嚴", "威權", "白色恐怖", "轉型正義"],
     "url": "https://taiwan.md/History/%E6%88%92%E5%9A%B4%E6%99%82%E6%9C%9F",
-    "readingTime": 12,
+    "readingTime": 13,
     "featured": true,
     "date": "2026-03-17",
     "path": "History/戒嚴時期.md"
@@ -3341,7 +3385,7 @@
     "category": "People",
     "tags": ["人物", "政治", "民主化", "總統"],
     "url": "https://taiwan.md/People/%E6%9D%8E%E7%99%BB%E8%BC%9D",
-    "readingTime": 16,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-03-22",
     "path": "People/李登輝.md"
@@ -3930,17 +3974,6 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "Technology/科技園區發展.md"
-  },
-  {
-    "title": "穿越海風的信仰：澎湖元宵乞龜與離島文化的深度探索",
-    "description": "探索澎湖獨特的元宵節乞龜文化，從250年歷史中窺見海島子民的智慧與信仰，以及風沙塑造的獨特民俗傳統",
-    "category": "Culture",
-    "tags": ["澎湖", "元宵節", "乞龜", "離島文化", "宮廟", "民俗"],
-    "url": "https://taiwan.md/Culture/%E6%BE%8E%E6%B9%96%E6%B0%91%E4%BF%97%E6%96%87%E5%8C%96",
-    "readingTime": 23,
-    "featured": false,
-    "date": "2026-03-24",
-    "path": "Culture/澎湖民俗文化.md"
   },
   {
     "title": "紀政",
@@ -4809,11 +4842,11 @@
   },
   {
     "title": "黃仁勳",
-    "description": "從肯塔基問題少年感化學校到五兆美元帝國——一個掃廁所的台南男孩如何押注十年後才到來的未來",
+    "description": "從肯塔基寄宿學校到五兆美元帝國——一個掃廁所的台南男孩如何押注十年後才到來的未來",
     "category": "People",
     "tags": ["人物", "黃仁勳", "NVIDIA", "AI", "半導體", "科技", "台南", "GPU"],
     "url": "https://taiwan.md/People/%E9%BB%83%E4%BB%81%E5%8B%B3",
-    "readingTime": 21,
+    "readingTime": 24,
     "featured": true,
     "date": "2026-03-25",
     "path": "People/黃仁勳.md"
@@ -5187,7 +5220,7 @@
     ],
     "url": "https://taiwan.md/Food/%E7%B2%BD%E5%AD%90",
     "readingTime": 16,
-    "featured": false,
+    "featured": true,
     "date": "2026-04-05",
     "path": "Food/粽子.md"
   },
@@ -5318,6 +5351,26 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "Technology/數位身分證與數位政府.md"
+  },
+  {
+    "title": "澎湖民俗文化",
+    "description": "每年正月十五，澎湖兩百多座廟宇同時擲筊、四萬七千斤米龜堆上供桌——這座被東北季風吹了四百年的群島，用乞龜換回出海的人，用石滬困住退潮的魚，用褒歌對唱一整個冬天的寂寞。",
+    "category": "Culture",
+    "tags": [
+      "澎湖",
+      "元宵節",
+      "乞龜",
+      "離島文化",
+      "宮廟",
+      "民俗",
+      "石滬",
+      "媽祖"
+    ],
+    "url": "https://taiwan.md/Culture/%E6%BE%8E%E6%B9%96%E6%B0%91%E4%BF%97%E6%96%87%E5%8C%96",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-03-24",
+    "path": "Culture/澎湖民俗文化.md"
   },
   {
     "title": "緣起故事 — Taiwan.md 的誕生",
@@ -5518,23 +5571,14 @@
     "path": "People/盧彥勳.md"
   },
   {
-    "title": "盧廣仲",
-    "description": "台灣創作歌手、演員，三金得主（金曲、金鐘、金馬），以草根親切形象與獨特唱腔聞名",
+    "title": "盧廣仲：被公車輾過的三金天王",
+    "description": "2003 年台南男孩騎車買宵夜，公車輾過他的腿，粉碎性骨折。住院無聊，撿起表哥給的吉他。22 年後，他是台灣史上最年輕的三金大滿貫得主：金曲、金鐘、金馬，用一把吉他跟一雙斷過的腿走完的路。",
     "category": "People",
-    "tags": [
-      "人物",
-      "盧廣仲",
-      "歌手",
-      "演員",
-      "金曲獎",
-      "三金",
-      "台南",
-      "台灣"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/People/%E7%9B%A7%E5%BB%A3%E4%BB%B2",
-    "readingTime": 9,
+    "readingTime": 20,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-04-07",
     "path": "People/盧廣仲.md"
   },
   {
@@ -5755,6 +5799,25 @@
     "featured": false,
     "date": "2026-03-21",
     "path": "People/聶永真.md"
+  },
+  {
+    "title": "藍染",
+    "description": "它曾經是台灣排名第三的出口商品，讓北台灣的山城一夜致富；後來它消失了半個世紀，直到一群人決定把那抹「台灣藍」從土裡種回來。",
+    "category": "Culture",
+    "tags": [
+      "傳統工藝",
+      "三峽",
+      "卓也小屋",
+      "大菁",
+      "藍靛",
+      "客家文化",
+      "永續時尚"
+    ],
+    "url": "https://taiwan.md/Culture/%E8%97%8D%E6%9F%93",
+    "readingTime": 11,
+    "featured": false,
+    "date": "2026-04-07",
+    "path": "Culture/藍染.md"
   },
   {
     "title": "離島與海洋文化：從石滬密度世界第一到飛魚季生態法律",
@@ -6077,6 +6140,17 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "en/Food/beef-noodle-soup.md"
+  },
+  {
+    "title": "beef-noodle-soup",
+    "description": "",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Food/beef-noodle-soup",
+    "readingTime": 11,
+    "featured": false,
+    "date": null,
+    "path": "ja/Food/beef-noodle-soup.md"
   },
   {
     "title": "Biodiversity on a Small Island: Why Taiwan Is a Global Hotspot",
@@ -6558,17 +6632,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Music/contemporary-indigenous-singer-songwriters.md"
-  },
-  {
-    "title": "Contemporary Pop Music and the Golden Melody Awards",
-    "description": "From the 'Mandopop Grammy' to musical pluralism—exploring the innovation and heritage of Taiwan's pop music scene.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Music/pop-music-and-golden-melody-awards",
-    "readingTime": 22,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/Music/pop-music-and-golden-melody-awards.md"
   },
   {
     "title": "Contemporary Sculpture in Taiwan: From Tradition to the Global Stage",
@@ -7164,6 +7227,17 @@
     "path": "es/History/qing-dynasty-rule.md"
   },
   {
+    "title": "Golden Melody Awards: Taiwan's Grammys and the History of Mandopop",
+    "description": "The Golden Melody Awards have crowned Asia's best music since 1990 — from Teresa Teng and Jay Chou to indie breakthroughs. How Taiwan became the capital of Mandarin pop music, the award categories, winners, and why GMA matters beyond the Chinese-speaking world.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Music/pop-music-and-golden-melody-awards",
+    "readingTime": 22,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/Music/pop-music-and-golden-melody-awards.md"
+  },
+  {
     "title": "Guan Sheng Di Jun: How a Defeated General Became Taiwan's God of Everything",
     "description": "Three Kingdoms warrior Guan Yu died a prisoner, his head taken by an enemy. Seventeen centuries later, he commands the most-visited temple in Taiwan — one that banned incense. How a Chinese general became a uniquely Taiwanese deity.",
     "category": "en",
@@ -7307,6 +7381,17 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "es/People/hou-hsiao-hsien.md"
+  },
+  {
+    "title": "How the KMT Moved to Taiwan in 1949: Government Relocation and Post-War Reconstruction",
+    "description": "When Chiang Kai-shek's Nationalist government retreated to Taiwan in 1949, over 1.2 million soldiers and civilians followed. How this mass relocation reshaped Taiwan's politics, economy, language, and identity for decades.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/History/kmt-government-relocation-and-postwar-reconstruction",
+    "readingTime": 81,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/History/kmt-government-relocation-and-postwar-reconstruction.md"
   },
   {
     "title": "Hsu Shu-ching: Taiwan's Weightlifting Goddess",
@@ -7694,8 +7779,8 @@
     "path": "en/People/jj-lin-singaporean-mandopop-king.md"
   },
   {
-    "title": "Jolin Tsai (蔡依林): Queen of C-Pop and Asia's Most Spectacular Stage Performer",
-    "description": "A dance instructor told her she had no talent. 25 years later, she performs aerial rings 10 meters above the stage with no understudy. Jolin Tsai's career is the story of how discipline defeated genius in pop music.",
+    "title": "Jolin Tsai (蔡依林): Taiwanese Pop Queen — Career, Age, and Rise to Stardom",
+    "description": "Born 1980 in Taipei, Jolin Tsai debuted at 19 and became Asia's most spectacular live performer. From a dance instructor saying she had no talent to aerial rings 10 meters above the stage — her 25-year career proves discipline defeats genius. Full biography and discography.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/People/jolin-tsai",
@@ -7736,17 +7821,6 @@
     "featured": false,
     "date": null,
     "path": "en/Art/kinmen-matsu-guest-house-contemporary-art-museum.md"
-  },
-  {
-    "title": "KMT Government Relocation and Post-War Reconstruction",
-    "description": "The historical background, process, and impact of the Kuomintang government's 1949 relocation to Taiwan, and post-war political, economic, and social reconstruction",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/History/kmt-government-relocation-and-postwar-reconstruction",
-    "readingTime": 81,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/History/kmt-government-relocation-and-postwar-reconstruction.md"
   },
   {
     "title": "Ko Wen-je",
@@ -8001,6 +8075,17 @@
     "path": "en/People/lu-yen-hsun-tennis-champion.md"
   },
   {
+    "title": "lu-rou-fan",
+    "description": "",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Food/lu-rou-fan",
+    "readingTime": 11,
+    "featured": false,
+    "date": null,
+    "path": "ja/Food/lu-rou-fan.md"
+  },
+  {
     "title": "Lung Ying-tai",
     "description": "Author of 'Wild Fire,' one of the most influential essayists in the Chinese-speaking world and former Taiwan Minister of Culture",
     "category": "en",
@@ -8079,18 +8164,10 @@
     "path": "en/History/martial-law-era.md"
   },
   {
-    "title": "Mayday (五月天): How Five High School Students Built Asia's Biggest Concert Empire",
-    "description": "30 concerts at Beijing's Bird's Nest. 21 million tickets sold. From a 1997 BBS nickname to a band that fills stadiums across Asia — Mayday rewrote what a rock concert means in the Chinese-speaking world.",
+    "title": "Mayday (五月天): Members, Origins, and How Five Taiwanese Students Built a Concert Empire",
+    "description": "Ashin, Monster, Stone, Masa, and Ming from Taipei — Mayday's five members have sold 21 million concert tickets and played 30 shows at Beijing's Bird's Nest. From a 1997 high school BBS nickname to Asia's biggest rock band. Members, history, and impact.",
     "category": "en",
-    "tags": [
-      "people",
-      "band",
-      "rock",
-      "mandarin-music",
-      "golden-melody-awards",
-      "concerts",
-      "music-industry"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/mayday-band",
     "readingTime": 32,
     "featured": false,
@@ -8493,6 +8570,24 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "en/History/qing-dynasty-rule.md"
+  },
+  {
+    "title": "Quanta Computer: The Taiwanese Company That Makes One-Third of the World's Laptops",
+    "description": "Founded by Barry Lam in 1988, Quanta Computer manufactures laptops for Apple, Dell, and HP — and now builds AI servers for the world's largest cloud providers. From a Taipei factory fire to a $40B revenue giant. Company history, products, and strategy.",
+    "category": "en",
+    "tags": [
+      "Economy",
+      "Enterprises",
+      "Electronics Manufacturing",
+      "ODM",
+      "AI Cloud",
+      "Laptops"
+    ],
+    "url": "https://taiwan.md/en/Economy/taiwanese-companies-quanta-computer",
+    "readingTime": 38,
+    "featured": false,
+    "date": "2026-03-21",
+    "path": "en/Economy/taiwanese-companies-quanta-computer.md"
   },
   {
     "title": "Ray (YouTuber)",
@@ -9082,17 +9177,6 @@
     "path": "en/Economy/foxconn-precision-industry.md"
   },
   {
-    "title": "Taiwan Democratization",
-    "description": "On March 18, 1980, Shih Ming-teh abandoned his 60,000-character defense statement in a Kaohsiung military court and asked the judge to sentence him to death. The young lawyers defending the accused — Chen Shui-bian, Hsieh Chang-ting, Su Tseng-chang — all became president or premier within twenty years. A show trial meant to crush dissent accidentally manufactured Taiwan's next generation of political leaders.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/History/taiwan-democratization",
-    "readingTime": 63,
-    "featured": true,
-    "date": "2026-03-31",
-    "path": "en/History/taiwan-democratization.md"
-  },
-  {
     "title": "Taiwan Electric Vehicle Industry Chain Development",
     "description": "From battery technology to charging infrastructure, exploring Taiwan's complete EV ecosystem and 2030 net-zero transition strategy",
     "category": "en",
@@ -9463,17 +9547,10 @@
     "path": "en/People/taiwan-people-knowledge-base-roadmap.md"
   },
   {
-    "title": "Taiwan Railway History",
-    "description": "From Liu Mingchuan's Qing dynasty railway to the Japanese longitudinal line to high-speed rail: How railways shaped Taiwan's urban development and cultural memory",
+    "title": "Taiwan Railway History: From Qing Dynasty Tracks to High-Speed Rail",
+    "description": "Liu Mingchuan built East Asia's first government railway in 1887. Japan laid the north-south trunk line. Today Taiwan's HSR covers 345 km in 90 minutes. How 130 years of railways shaped the island's cities, economy, and cultural memory.",
     "category": "en",
-    "tags": [
-      "railway",
-      "transportation infrastructure",
-      "urban development",
-      "Liu Mingchuan",
-      "longitudinal line",
-      "high-speed rail"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/History/taiwan-railway-history",
     "readingTime": 53,
     "featured": false,
@@ -9712,17 +9789,6 @@
     "path": "en/Culture/ethnic-groups.md"
   },
   {
-    "title": "Taiwan's 5G Revolution: How a Chip Powerhouse Is Building Asia's Smartest Island",
-    "description": "Taiwan launched 5G in 2020 with NT$136.5B in spectrum fees. With TSMC chips inside most 5G base stations worldwide, the island is turning semiconductor dominance into a digital transformation testbed — smart factories, autonomous ports, and AI-powered healthcare.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Technology/taiwan-5g-digital-transformation",
-    "readingTime": 70,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/Technology/taiwan-5g-digital-transformation.md"
-  },
-  {
     "title": "Taiwan’s Agricultural Landscapes and Industry Belts",
     "description": "How a small island’s geography shapes tea terraces, rice plains, and tropical orchards—and a shift toward refined, high‑value farming",
     "category": "en",
@@ -9885,6 +9951,17 @@
     "path": "en/Technology/taiwan-cybersecurity-industry-development.md"
   },
   {
+    "title": "Taiwan's Democratic Transition: When Authoritarianism Dug Its Own Grave",
+    "description": "Every act of repression manufactured more resisters. From the February 28 Incident to the Sunflower Movement, how one island made its dictatorship train the very people who buried it.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/History/taiwan-democratization",
+    "readingTime": 83,
+    "featured": true,
+    "date": "2026-03-24",
+    "path": "en/History/taiwan-democratization.md"
+  },
+  {
     "title": "Taiwan's Digital Animation and Imagery Industry",
     "description": "From groundbreaking visual effects studios to internationally acclaimed animated films, Taiwan has quietly become one of Asia's most important hubs for digital animation and visual storytelling.",
     "category": "en",
@@ -9913,8 +9990,8 @@
     "path": "en/Technology/e-commerce-and-digital-payment-ecosystem.md"
   },
   {
-    "title": "Taiwan's Economic Miracle: From Agricultural Society to Asian Tiger",
-    "description": "From 1960-1990, Taiwan created a remarkable economic miracle, transforming from an agricultural society to an industrialized nation, joining South Korea, Hong Kong, and Singapore as the 'Four Asian Tigers'",
+    "title": "Taiwan's Economic Miracle Explained: How a Farm Island Became an Asian Tiger",
+    "description": "In 1960 Taiwan's per-capita GDP was $163. By 1990 it was $8,000. The story of export zones, TSMC's founding, and the policies that turned a war-torn agricultural island into one of the Four Asian Tigers alongside South Korea, Hong Kong, and Singapore.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/History/taiwan-economic-miracle-from-agriculture-to-asian-tiger",
@@ -10497,6 +10574,17 @@
     "path": "en/Technology/taiwan-startup-ecosystem.md"
   },
   {
+    "title": "Taiwan's Traditional Chinese Orchestra Music: How Erhu and Pipa Found a New Voice",
+    "description": "From the Taipei Chinese Orchestra to indigenous polyphony — how Taiwan transformed mainland Chinese instruments into a distinct musical tradition. History, key ensembles, and the Hakka-indigenous fusion reshaping traditional Chinese orchestra today.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Music/taiwanese-traditional-chinese-orchestra-music",
+    "readingTime": 87,
+    "featured": false,
+    "date": "2026-04-04",
+    "path": "en/Music/taiwanese-traditional-chinese-orchestra-music.md"
+  },
+  {
     "title": "Taiwan’s Traditional Markets and Market Culture",
     "description": "A living archive of everyday Taiwan, where commerce, community, and memory meet before sunrise",
     "category": "en",
@@ -10536,8 +10624,8 @@
     "path": "en/Food/taiwan-vegetarian-culture.md"
   },
   {
-    "title": "Taiwan's White Terror",
-    "description": "Political persecution during the martial law period (1949-1987), literature bans, and post-democratization rehabilitation and transitional justice",
+    "title": "Taiwan's White Terror (1949-1987): Martial Law, Political Persecution, and Transitional Justice",
+    "description": "During 38 years of martial law, an estimated 140,000 Taiwanese were imprisoned for political dissent. The White Terror silenced writers, jailed opposition leaders, and shaped a generation. How Taiwan confronted this history after democratization.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/History/taiwan-white-terror",
@@ -10616,24 +10704,6 @@
     "path": "en/Art/taiwanese-comics-and-illustration.md"
   },
   {
-    "title": "Taiwanese Companies: Quanta Computer",
-    "description": "From a factory fire to global laptop dominance — how Barry Lam built an AI-era empire from the ashes",
-    "category": "en",
-    "tags": [
-      "Economy",
-      "Enterprises",
-      "Electronics Manufacturing",
-      "ODM",
-      "AI Cloud",
-      "Laptops"
-    ],
-    "url": "https://taiwan.md/en/Economy/taiwanese-companies-quanta-computer",
-    "readingTime": 38,
-    "featured": false,
-    "date": "2026-03-21",
-    "path": "en/Economy/taiwanese-companies-quanta-computer.md"
-  },
-  {
     "title": "Taiwanese Companies: Realtek Semiconductor",
     "description": "Seven engineers, NT$2 million startup capital, and a little crab that crawled into every computer worldwide",
     "category": "en",
@@ -10674,17 +10744,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Art/taiwanese-experimental-and-new-media-art.md"
-  },
-  {
-    "title": "Taiwanese Guoyue: The Island Sound That Grew from Chinese Instruments",
-    "description": "The erhu and pipa that crossed the Taiwan Strait in 1949 now play Bunun polyphony and Hakka mountain songs. How Taiwan's traditional Chinese orchestra music evolved into a species distinct from the mainland.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Music/taiwanese-traditional-chinese-orchestra-music",
-    "readingTime": 87,
-    "featured": false,
-    "date": "2026-04-04",
-    "path": "en/Music/taiwanese-traditional-chinese-orchestra-music.md"
   },
   {
     "title": "Taiwanese Homophone Taboos: Why the Number \"Four\" Makes an Entire Society Skip Floors",
@@ -10877,6 +10936,17 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "en/Culture/taiwanese-tea-culture-and-living-aesthetics.md"
+  },
+  {
+    "title": "tapioca-milk-tea",
+    "description": "",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Food/tapioca-milk-tea",
+    "readingTime": 24,
+    "featured": false,
+    "date": null,
+    "path": "ja/Food/tapioca-milk-tea.md"
   },
   {
     "title": "Té de Burbujas",
@@ -11753,6 +11823,24 @@
     "path": "en/Society/zoo-and-exhibition-animal-ethics.md"
   },
   {
+    "title": "대만 길거리 음식",
+    "description": "1987년 춘수이탕의 한 번의 실수가 버블티를 60개국으로 보냈다. 대만 길거리 음식은 청대 이민자들의 생존 도구에서 오늘날 23만 3천 개 노점이 떠받치는 4,000억 대만달러 산업으로 성장했다. 그 성공 공식은 정교함이 아니라, “일단 해보자”는 풀뿌리식 용기에 있다.",
+    "category": "ko",
+    "tags": [
+      "Food",
+      "길거리 음식",
+      "야시장",
+      "대만 요리",
+      "문화 소프트파워",
+      "이민 음식"
+    ],
+    "url": "https://taiwan.md/ko/Food/taiwanese-street-food",
+    "readingTime": 32,
+    "featured": false,
+    "date": "2026-03-28",
+    "path": "ko/Food/taiwanese-street-food.md"
+  },
+  {
     "title": "대만의 야시장 문화",
     "description": "관리 대상 야시장 164곳, 타이난은 평균 3만 8천 명당 1곳. 사원 앞마당에서 국제 관광 명소로 이어진 대만 야시장의 역사",
     "category": "ko",
@@ -11781,6 +11869,17 @@
     "featured": false,
     "date": "2026-03-30",
     "path": "ko/Food/bubble-tea.md"
+  },
+  {
+    "title": "オードリー・タン（唐鳳）",
+    "description": "8歳で学校を離れて独学でプログラミングを学び、世界初のトランスジェンダーの閣僚として、オープンソースの精神でデジタル民主主義を再定義した人物",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/audrey-tang",
+    "readingTime": 23,
+    "featured": false,
+    "date": "2026-03-21",
+    "path": "ja/People/audrey-tang.md"
   },
   {
     "title": "オープンソースコミュニティとg0v",

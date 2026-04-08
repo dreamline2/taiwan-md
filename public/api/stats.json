@@ -1,8 +1,8 @@
 {
-  "totalArticles": 898,
+  "totalArticles": 907,
   "totalCategories": 20,
-  "estimatedContributors": 60,
-  "totalTags": 2280,
+  "estimatedContributors": 61,
+  "totalTags": 2281,
   "categories": [
     {
       "name": "en",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Culture",
-      "count": 40
+      "count": 41
     },
     {
       "name": "History",
@@ -38,7 +38,7 @@
     },
     {
       "name": "ja",
-      "count": 27
+      "count": 33
     },
     {
       "name": "Art",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Geography",
-      "count": 18
+      "count": 19
     },
     {
       "name": "About",
@@ -82,7 +82,7 @@
     },
     {
       "name": "ko",
-      "count": 2
+      "count": 3
     }
   ],
   "topTags": [
@@ -104,7 +104,7 @@
     },
     {
       "name": "台灣",
-      "count": 15
+      "count": 14
     },
     {
       "name": "歷史",
@@ -112,7 +112,7 @@
     },
     {
       "name": "金曲獎",
-      "count": 13
+      "count": 12
     },
     {
       "name": "音樂",
@@ -120,10 +120,6 @@
     },
     {
       "name": "Technology",
-      "count": 12
-    },
-    {
-      "name": "people",
       "count": 12
     },
     {
@@ -136,6 +132,14 @@
     },
     {
       "name": "原住民",
+      "count": 11
+    },
+    {
+      "name": "教育",
+      "count": 11
+    },
+    {
+      "name": "people",
       "count": 11
     },
     {
@@ -161,15 +165,11 @@
     {
       "name": "製造業",
       "count": 10
-    },
-    {
-      "name": "教育",
-      "count": 10
     }
   ],
   "languageDistribution": {
-    "zh-TW": 898,
+    "zh-TW": 907,
     "en": 0
   },
-  "lastUpdated": "2026-04-07T01:32:14.642Z"
+  "lastUpdated": "2026-04-08T02:41:48.416Z"
 }
