@@ -1,15 +1,22 @@
-id: 吐瓦魯
-category: daily-life
-fork_type: semantic
+id: 吐瓦魯
+category: names
+subcategory: 地名
+fork_type: B
 
 display:
-  taiwan: 圖瓦盧
-  china: 吐瓦魯
+  taiwan: 吐瓦魯
+  china: 图瓦卢
+
+etymology:
+  origin: ''
+  taiwan_path: 台灣用法
+  china_path: 中國用法
+  fork_point: ''
 
 notes: ''
 
 sources:
-  - 'fanhuaji-config'
+  - 'rajatim/zhtw (MIT) — geography.json'
 
-added: '2026-03-31'
-updated: '2026-03-31'
+added: '2026-04-08'
+updated: '2026-04-08'
