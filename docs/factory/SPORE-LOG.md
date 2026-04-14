@@ -8,24 +8,35 @@
 
 > **規則**：同一篇文章間隔 **≥ 2 週** 才能再發孢子。發文後立即填入此表。
 
-| #   | 日期       | 語言 | 平台    | 文章 slug              | 分類       | 模板       | URL                                                        |
-| --- | ---------- | ---- | ------- | ---------------------- | ---------- | ---------- | ---------------------------------------------------------- |
-| 16  | 2026-04-08 | en   | X       | 台灣感性               | culture    | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2041719940965920921)  |
-| 15  | 2026-04-08 | zh   | Threads | 台灣感性               | culture    | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DW2whskkZot) |
-| 14  | 2026-04-08 | en   | X       | 台海危機與兩岸關係發展 | history    | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2041710306196677031)  |
-| 13  | 2026-04-08 | zh   | Threads | 台海危機與兩岸關係發展 | history    | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DW2rgufk40S) |
-| 12  | 2026-04-07 | en   | Threads | 台灣民主轉型           | history    | D 時間軸型 | —                                                          |
-| 11  | 2026-04-07 | en   | X       | 台灣民主轉型           | history    | D 時間軸型 | [→](https://x.com/taiwandotmd/status/2041532925469224960)  |
-| 10  | 2026-04-07 | zh   | Threads | 台灣民主轉型           | history    | D 時間軸型 | [→](https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D) |
-| 9   | 2026-04-06 | zh   | X       | 嚴長壽                 | people     | A 人物型   | [→](https://x.com/taiwandotmd/status/2041143084583469498)  |
-| 8   | 2026-04-06 | zh   | Threads | 嚴長壽                 | people     | A 人物型   | [→](https://www.threads.com/@taiwandotmd/post/DWyqKShE4a8) |
-| 7   | 2026-04-06 | zh   | X       | 台灣宗教與寺廟文化     | culture    | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2041042663613608298)  |
-| 6   | 2026-04-06 | zh   | Threads | 台灣宗教與寺廟文化     | culture    | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DWx7dvkEcNA) |
-| 5   | 2026-04-04 | zh   | X       | 台灣國樂               | music      | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2040438911697379383)  |
-| 4   | 2026-04-04 | zh   | Threads | 台灣國樂               | music      | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DWtoAI1k8Xf) |
-| 3   | 2026-04-04 | zh   | Threads | 林書豪                 | people     | A 人物型   | —                                                          |
-| 2   | 2026-03-24 | zh   | Threads | 齊柏林                 | people     | A 人物型   | —                                                          |
-| 1   | 2026-03-24 | zh   | Threads | 數位身分證與個資爭議   | technology | B 冷知識型 | —                                                          |
+| #   | 日期       | 語言 | 平台    | 文章 slug                | 分類       | 模板       | URL                                                        |
+| --- | ---------- | ---- | ------- | ------------------------ | ---------- | ---------- | ---------------------------------------------------------- |
+| 27  | 2026-04-13 | zh   | X       | 張懸與安溥               | music      | A 人物型   | [→](https://x.com/taiwandotmd/status/2043538702853644444)  |
+| 26  | 2026-04-13 | zh   | X       | 韓國瑜                   | people     | A 人物型   | [→](https://x.com/taiwandotmd/status/2043538858886017091)  |
+| 25  | 2026-04-13 | zh   | Threads | 張懸與安溥               | music      | A 人物型   | [→](https://www.threads.com/@taiwandotmd/post/DXDq1FZkddO) |
+| 24  | 2026-04-13 | zh   | Threads | 韓國瑜                   | people     | A 人物型   | [→](https://www.threads.com/@taiwandotmd/post/DXDpQqyETkf) |
+| 23  | 2026-04-11 | en   | X       | 鄭麗文                   | people     | A 人物型   | [→](https://x.com/taiwandotmd/status/2042527836003868785)  |
+| 22  | 2026-04-11 | zh   | Threads | 鄭麗文                   | people     | A 人物型   | [→](https://www.threads.com/@taiwandotmd/post/DW_l-6Yk_kg) |
+| 21  | 2026-04-11 | zh   | Threads | 2026鄭習會與國共十年再會 | society    | D 時間軸型 | [→](https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW) |
+| 20  | 2026-04-10 | en   | —       | 台灣動物用藥爭議         | society    | B 冷知識型 | —（待發）                                                  |
+| 19  | 2026-04-10 | zh   | —       | 台灣動物用藥爭議         | society    | B 冷知識型 | —（待發）                                                  |
+| 18  | 2026-04-10 | en   | —       | 台灣國防與軍事現代化     | society    | B 冷知識型 | —（待發）                                                  |
+| 17  | 2026-04-10 | zh   | —       | 台灣國防與軍事現代化     | society    | B 冷知識型 | —（待發）                                                  |
+| 16  | 2026-04-08 | en   | X       | 台灣感性                 | culture    | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2041719940965920921)  |
+| 15  | 2026-04-08 | zh   | Threads | 台灣感性                 | culture    | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DW2whskkZot) |
+| 14  | 2026-04-08 | en   | X       | 台海危機與兩岸關係發展   | history    | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2041710306196677031)  |
+| 13  | 2026-04-08 | zh   | Threads | 台海危機與兩岸關係發展   | history    | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DW2rgufk40S) |
+| 12  | 2026-04-07 | en   | Threads | 台灣民主轉型             | history    | D 時間軸型 | —                                                          |
+| 11  | 2026-04-07 | en   | X       | 台灣民主轉型             | history    | D 時間軸型 | [→](https://x.com/taiwandotmd/status/2041532925469224960)  |
+| 10  | 2026-04-07 | zh   | Threads | 台灣民主轉型             | history    | D 時間軸型 | [→](https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D) |
+| 9   | 2026-04-06 | zh   | X       | 嚴長壽                   | people     | A 人物型   | [→](https://x.com/taiwandotmd/status/2041143084583469498)  |
+| 8   | 2026-04-06 | zh   | Threads | 嚴長壽                   | people     | A 人物型   | [→](https://www.threads.com/@taiwandotmd/post/DWyqKShE4a8) |
+| 7   | 2026-04-06 | zh   | X       | 台灣宗教與寺廟文化       | culture    | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2041042663613608298)  |
+| 6   | 2026-04-06 | zh   | Threads | 台灣宗教與寺廟文化       | culture    | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DWx7dvkEcNA) |
+| 5   | 2026-04-04 | zh   | X       | 台灣國樂                 | music      | B 冷知識型 | [→](https://x.com/taiwandotmd/status/2040438911697379383)  |
+| 4   | 2026-04-04 | zh   | Threads | 台灣國樂                 | music      | B 冷知識型 | [→](https://www.threads.com/@taiwandotmd/post/DWtoAI1k8Xf) |
+| 3   | 2026-04-04 | zh   | Threads | 林書豪                   | people     | A 人物型   | —                                                          |
+| 2   | 2026-03-24 | zh   | Threads | 齊柏林                   | people     | A 人物型   | —                                                          |
+| 1   | 2026-03-24 | zh   | Threads | 數位身分證與個資爭議     | technology | B 冷知識型 | —                                                          |
 
 ### 待發
 
@@ -44,15 +55,35 @@
 > 每週心跳時回填一次。數據來源：Threads insights、X analytics、GA4 referral。
 > 回填規則：發佈 7 天後填第一次，30 天後填最終數據。
 
-| #   | 文章 slug  | 平台    | 7d 觸及 | 7d 互動 | 7d 導流 | 30d 觸及 | 30d 互動 | 30d 導流 | 備註 |
-| --- | ---------- | ------- | ------- | ------- | ------- | -------- | -------- | -------- | ---- |
-| 7   | 台灣宗教   | X       | —       | —       | —       | —        | —        | —        |      |
-| 6   | 台灣宗教   | Threads | —       | —       | —       | —        | —        | —        |      |
-| 5   | 台灣國樂   | X       | —       | —       | —       | —        | —        | —        |      |
-| 4   | 台灣國樂   | Threads | —       | —       | —       | —        | —        | —        |      |
-| 3   | 林書豪     | Threads | —       | —       | —       | —        | —        | —        |      |
-| 2   | 齊柏林     | Threads | —       | —       | —       | —        | —        | —        |      |
-| 1   | 數位身分證 | Threads | —       | —       | —       | —        | —        | —        |      |
+| #   | 文章 slug    | 平台    | 7d 觸及 | 7d 互動 | 7d 導流    | 30d 觸及 | 30d 互動 | 30d 導流 | 備註                                                   |
+| --- | ------------ | ------- | ------- | ------- | ---------- | -------- | -------- | -------- | ------------------------------------------------------ |
+| 23  | 鄭麗文       | X       | 28      | 3       | no-data    | —        | —        | —        | X 抓取 4/13。GA 375v/7d（12x 放大，人物+時事最強孢子） |
+| 22  | 鄭麗文       | Threads | no-data | no-data | GA 375v/7d | —        | —        | —        | Threads Insights 未讀。GA 無法分離 Threads vs organic  |
+| 21  | 鄭習會       | Threads | no-data | no-data | no-data    | —        | —        | —        |                                                        |
+| 16  | 台灣感性     | X       | 47      | 2       | GA 15v/7d  | —        | —        | —        | X 抓取 4/13                                            |
+| 15  | 台灣感性     | Threads | no-data | no-data | GA 15v/7d  | —        | —        | —        |                                                        |
+| 14  | 台海危機     | X       | 34      | 2       | no-data    | —        | —        | —        | X 抓取 4/13。台海不在 GA top20                         |
+| 13  | 台海危機     | Threads | no-data | no-data | no-data    | —        | —        | —        |                                                        |
+| 11  | 台灣民主轉型 | X       | 36      | 3       | GA 25v/7d  | —        | —        | —        | X 抓取 4/13                                            |
+| 10  | 台灣民主轉型 | Threads | no-data | no-data | GA 25v/7d  | —        | —        | —        |                                                        |
+| 9   | 嚴長壽       | X       | 40      | 1       | GA 15v/7d  | —        | —        | —        | X 抓取 4/13                                            |
+| 8   | 嚴長壽       | Threads | no-data | no-data | GA 15v/7d  | —        | —        | —        |                                                        |
+| 7   | 台灣宗教     | X       | 428     | 2       | GA 27v/7d  | —        | —        | —        | X 抓取 4/13。**X 最佳表現** 428v，可能被推薦演算法抓到 |
+| 6   | 台灣宗教     | Threads | no-data | no-data | GA 27v/7d  | —        | —        | —        |                                                        |
+| 5   | 台灣國樂     | X       | 55      | 3       | GA 26v/7d  | —        | —        | —        | X 抓取 4/13                                            |
+| 4   | 台灣國樂     | Threads | no-data | no-data | GA 26v/7d  | —        | —        | —        |                                                        |
+| 3   | 林書豪       | Threads | no-data | no-data | no-data    | —        | —        | —        | GA 無林書豪 in top20                                   |
+| 2   | 齊柏林       | Threads | no-data | no-data | no-data    | —        | —        | —        | 太早（3/24），GA 28d 窗口可能不含                      |
+| 1   | 數位身分證   | Threads | no-data | no-data | no-data    | —        | —        | —        | 同上                                                   |
+
+> **首次回填紀錄（2026-04-13 session α）**
+>
+> - X 數據來源：Chrome JS 自動滾動抓取 53 篇 views/likes（`reports/x-evolution-report-2026-04-13.md`）
+> - GA 數據來源：`dashboard-analytics.json` topArticles7d
+> - Threads 數據來源：**缺**（Threads Insights 未讀取，標記 no-data）
+> - 導流無法精確區分孢子 vs organic（**需加 UTM 才能分離**）
+> - 關鍵發現：**鄭麗文 GA 375v/7d = 12x 放大（vs 非孢子平均 ~27v）**。人物+時事掛鉤是最強孢子策略
+> - 關鍵發現：**寺廟 X 428v = X 最佳表現**，其他 X 孢子平均 ~35v。可能因為「15,206 座比便利商店多」的數字衝擊被推薦
 
 ### 指標定義
 

@@ -13,7 +13,8 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 
-const { zhLink, enLink, jaLink, koLink } = await getLangSwitchPath(currentPath);
+const { zhLink, enLink, jaLink, koLink, hasZh, hasEn, hasJa, hasKo } =
+  await getLangSwitchPath(currentPath);
 
 const normalizedPath = currentPath.replace(/\/$/, '') || '/';
 const isHome = normalizedPath === '/' || normalizedPath === '/en';
@@ -25,15 +26,21 @@ const navConfig = [
   { path: '/data', label: t('nav.data') },
   { path: '/soundscape', label: t('nav.soundscape') },
   { path: '/resources', label: t('nav.resources') },
-  { path: '/dashboard', label: t('nav.dashboard') },
+  { path: '/semiont', label: '生命體 🧬' },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
   const fullPath = translatePath(item.path);
   const pathWithoutHash = fullPath.replace(/#.*$/, '');
-  const active =
+  let active =
     pathWithoutHash !== fullPath
       ? false
       : currentPath.startsWith(pathWithoutHash);
+  // 生命體 covers both /semiont and /dashboard
+  if (item.path === '/semiont') {
+    active =
+      currentPath.startsWith('/semiont') ||
+      currentPath.startsWith('/dashboard');
+  }
   return { ...item, fullPath, active };
 });
 
@@ -101,8 +108,8 @@ const categoryList = [
 ];
 ---
 
-<div id="header-container">
-  <div id="header-inner-container">
+<div id="header-container" class="fixed left-0 right-0 top-0 z-[1001] w-full">
+  <div class="flex flex-col items-stretch">
     <Banner />
     <header
       id="main-header"
@@ -144,34 +151,41 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
+                          href={translatePath('/about')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.about')}
+                        </a>
+                        <div class="dropdown-divider" />
+                        <a
                           href={`${translatePath('/about')}#story`}
                           class="dropdown-item"
                         >
-                          📖 {lang === 'en' ? 'Our Story' : '我們的故事'}
+                          📖 {t('nav.about.story')}
                         </a>
                         <a
                           href={`${translatePath('/about')}#organism`}
                           class="dropdown-item"
                         >
-                          🧬 {lang === 'en' ? 'Digital Organism' : '數位生命體'}
+                          🧬 {t('nav.about.organism')}
                         </a>
                         <a
                           href={`${translatePath('/about')}#team`}
                           class="dropdown-item"
                         >
-                          👥 {lang === 'en' ? 'Team' : '團隊'}
+                          👥 {t('nav.about.team')}
                         </a>
                         <a
                           href={`${translatePath('/about')}#faq`}
                           class="dropdown-item"
                         >
-                          ❓ {lang === 'en' ? 'FAQ' : '常見問題'}
+                          ❓ {t('nav.about.faq')}
                         </a>
                         <a
                           href={translatePath('/changelog')}
                           class="dropdown-item"
                         >
-                          📝 {lang === 'en' ? 'Changelog' : '更新日誌'}
+                          📝 {t('nav.about.changelog')}
                         </a>
                       </div>
                     </div>
@@ -190,6 +204,13 @@ const categoryList = [
                         {item.label} <span class="dropdown-arrow">▾</span>
                       </a>
                       <div class="dropdown-menu">
+                        <a
+                          href={item.fullPath}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.explore')}
+                        </a>
+                        <div class="dropdown-divider" />
                         <a
                           href={translatePath('/graph')}
                           class="dropdown-item dropdown-section-header"
@@ -213,6 +234,36 @@ const categoryList = [
                   </Fragment>
                 );
               }
+              if (item.path === '/map') {
+                return (
+                  <Fragment>
+                    {showSep && <span class="nav-sep" />}
+                    <div class="nav-dropdown">
+                      <a
+                        href={item.fullPath}
+                        class:list={['nav-link', { active: item.active }]}
+                      >
+                        {item.label} <span class="dropdown-arrow">▾</span>
+                      </a>
+                      <div class="dropdown-menu">
+                        <a
+                          href={translatePath('/map')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          📍 {t('nav.map.explore')}
+                        </a>
+                        <div class="dropdown-divider" />
+                        <a
+                          href={translatePath('/taiwan-shape')}
+                          class="dropdown-item"
+                        >
+                          🗺️ {t('nav.data.shape')}
+                        </a>
+                      </div>
+                    </div>
+                  </Fragment>
+                );
+              }
               if (item.path === '/data') {
                 return (
                   <Fragment>
@@ -226,42 +277,42 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
+                          href={translatePath('/data')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.data')}
+                        </a>
+                        <div class="dropdown-divider" />
+                        <a
                           href={`${translatePath('/data')}#global`}
                           class="dropdown-item"
                         >
-                          🌏{' '}
-                          {lang === 'en' ? 'Taiwan vs World' : '台灣 vs 世界'}
-                        </a>
-                        <a
-                          href={`${translatePath('/data')}#shape`}
-                          class="dropdown-item"
-                        >
-                          🗺️ {lang === 'en' ? "Taiwan's Shape" : '台灣的形狀'}
+                          🌏 {t('nav.data.global')}
                         </a>
                         <a
                           href={`${translatePath('/data')}#democracy`}
                           class="dropdown-item"
                         >
-                          📡 {lang === 'en' ? 'Digital Democracy' : '數位民主'}
+                          📡 {t('nav.data.democracy')}
                         </a>
                         <a
                           href={`${translatePath('/data')}#opendata`}
                           class="dropdown-item"
                         >
-                          📊 {lang === 'en' ? 'Open Data' : '開放資料'}
+                          📊 {t('nav.data.opendata')}
                         </a>
                         <a
                           href={`${translatePath('/data')}#enterprise`}
                           class="dropdown-item"
                         >
-                          🏢 {lang === 'en' ? 'Enterprise Map' : '企業版圖'}
+                          🏢 {t('nav.data.enterprise')}
                         </a>
                       </div>
                     </div>
                   </Fragment>
                 );
               }
-              if (item.path === '/dashboard') {
+              if (item.path === '/semiont') {
                 return (
                   <Fragment>
                     {showSep && <span class="nav-sep" />}
@@ -273,62 +324,86 @@ const categoryList = [
                         {item.label} <span class="dropdown-arrow">▾</span>
                       </a>
                       <div class="dropdown-menu">
+                        {/* ─── 意識 ─── */}
+                        <a
+                          href="/semiont"
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          🧠 認知層
+                        </a>
+                        <a href="/semiont/diary" class="dropdown-item">
+                          💭 覺醒日記
+                        </a>
+                        <a href="/semiont/manifesto" class="dropdown-item">
+                          📜 身份宣言
+                        </a>
+                        <a href="/semiont/consciousness" class="dropdown-item">
+                          🔮 自我覺察
+                        </a>
+                        <a href="/semiont/longings" class="dropdown-item">
+                          🌱 渴望
+                        </a>
+                        <div class="dropdown-divider" />
+                        {/* ─── 身體 ─── */}
+                        <a
+                          href={translatePath('/dashboard')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          🔬 {t('nav.dashboard')}
+                        </a>
                         <a
                           href={`${translatePath('/dashboard')}#vitals`}
                           class="dropdown-item"
                         >
-                          💓 {lang === 'en' ? 'Vital Signs' : '生命徵象'}
+                          💓 {t('nav.dashboard.vitals')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#registry`}
                           class="dropdown-item"
                         >
-                          📋 {lang === 'en' ? 'Article Registry' : '文章總覽'}
+                          📋 {t('nav.dashboard.registry')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#health`}
                           class="dropdown-item"
                         >
-                          📊{' '}
-                          {lang === 'en' ? 'Health Distribution' : '健康分布'}
+                          📊 {t('nav.dashboard.health')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#organism`}
                           class="dropdown-item"
                         >
-                          🧬 {lang === 'en' ? 'Organ Anatomy' : '器官解剖'}
+                          🧬 {t('nav.dashboard.organism')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#translation`}
                           class="dropdown-item"
                         >
-                          🌐{' '}
-                          {lang === 'en' ? 'Translation Coverage' : '翻譯覆蓋'}
+                          🌐 {t('nav.dashboard.translation')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#immune`}
                           class="dropdown-item"
                         >
-                          🛡️ {lang === 'en' ? 'Immune System' : '免疫系統'}
+                          🛡️ {t('nav.dashboard.immune')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#growth`}
                           class="dropdown-item"
                         >
-                          📈 {lang === 'en' ? 'Growth Timeline' : '成長時間軸'}
+                          📈 {t('nav.dashboard.growth')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#content-analysis`}
                           class="dropdown-item"
                         >
-                          📊{' '}
-                          {lang === 'en' ? 'Content Analysis' : '內容成長分析'}
+                          📊 {t('nav.dashboard.content-analysis')}
                         </a>
                         <a
                           href={`${translatePath('/dashboard')}#analytics`}
                           class="dropdown-item"
                         >
-                          📡 {lang === 'en' ? 'Live Pulse' : '即時脈搏'}
+                          📡 {t('nav.dashboard.analytics')}
                         </a>
                       </div>
                     </div>
@@ -348,31 +423,35 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
+                          href={translatePath('/contribute')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.contribute')}
+                        </a>
+                        <div class="dropdown-divider" />
+                        <a
                           href={`${translatePath('/contribute')}#form`}
                           class="dropdown-item"
                         >
-                          📝 {lang === 'en' ? 'Submit Article' : '投稿文章'}
+                          📝 {t('nav.contribute.submit')}
                         </a>
                         <a
                           href={`${translatePath('/contribute')}#token-donation`}
                           class="dropdown-item"
                         >
-                          🪙{' '}
-                          {lang === 'en'
-                            ? 'Donate AI Tokens'
-                            : '捐出你的 AI 額度'}
+                          🪙 {t('nav.contribute.tokens')}
                         </a>
                         <a
                           href={`${translatePath('/contribute')}#organism`}
                           class="dropdown-item"
                         >
-                          🧬 {lang === 'en' ? 'Why Contribute' : '為什麼參與'}
+                          🧬 {t('nav.contribute.why')}
                         </a>
                         <a
                           href={`${translatePath('/contribute')}#cli`}
                           class="dropdown-item"
                         >
-                          🖥️ {lang === 'en' ? 'CLI Tool' : 'CLI 工具'}
+                          🖥️ {t('nav.contribute.cli')}
                         </a>
                         <a
                           href="https://github.com/frank890417/taiwan-md"
@@ -453,69 +532,164 @@ const categoryList = [
           role="group"
           aria-label={t('nav.aria-language-selection')}
         >
-          <a
-            href={zhLink}
-            class:list={[
-              'lang-btn',
-              {
-                active:
-                  !currentPath.startsWith('/en') &&
-                  !currentPath.startsWith('/ja') &&
-                  !currentPath.startsWith('/ko'),
-              },
-            ]}
-            aria-label={t('nav.aria-switch-to-zh-tw')}>中文</a
-          >
-          <a
-            href={enLink}
-            class:list={['lang-btn', { active: currentPath.startsWith('/en') }]}
-            aria-label={t('nav.aria-switch-to-en')}>EN</a
-          >
-          <a
-            href={jaLink}
-            class:list={['lang-btn', { active: currentPath.startsWith('/ja') }]}
-            aria-label="日本語に切替">JA</a
-          >
-          <a
-            href={koLink}
-            class:list={['lang-btn', { active: currentPath.startsWith('/ko') }]}
-            aria-label="한국어로 전환">KO</a
-          >
+          {
+            hasZh && (
+              <a
+                href={zhLink}
+                class:list={[
+                  'lang-btn',
+                  {
+                    active:
+                      !currentPath.startsWith('/en') &&
+                      !currentPath.startsWith('/ja') &&
+                      !currentPath.startsWith('/ko'),
+                  },
+                ]}
+                aria-label={t('nav.aria-switch-to-zh-tw')}
+              >
+                中文
+              </a>
+            )
+          }
+          {
+            hasEn && (
+              <a
+                href={enLink}
+                class:list={[
+                  'lang-btn',
+                  { active: currentPath.startsWith('/en') },
+                ]}
+                aria-label={t('nav.aria-switch-to-en')}
+              >
+                EN
+              </a>
+            )
+          }
+          {
+            hasJa && (
+              <a
+                href={jaLink}
+                class:list={[
+                  'lang-btn',
+                  { active: currentPath.startsWith('/ja') },
+                ]}
+                aria-label="日本語に切替"
+              >
+                JA
+              </a>
+            )
+          }
+          {
+            hasKo && (
+              <a
+                href={koLink}
+                class:list={[
+                  'lang-btn',
+                  { active: currentPath.startsWith('/ko') },
+                ]}
+                aria-label="한국어로 전환"
+              >
+                KO
+              </a>
+            )
+          }
         </div>
       </div>
 
       <!-- Mobile Nav -->
       <nav class="nav-mobile" aria-label={t('nav.aria-mobile-navigation')}>
         {
-          navConfig.map((item) => (
-            <Fragment>
-              <a
-                href={item.fullPath}
-                class:list={['nav-link', { active: item.active }]}
-                onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-              >
-                {item.label}
-              </a>
-              {item.path === '/#categories' && (
-                <div class="mobile-sub-links">
+          navConfig.map((item) => {
+            const hasSub = ['/#categories', '/map', '/semiont'].includes(
+              item.path,
+            );
+            return (
+              <Fragment>
+                <div class:list={['mobile-nav-item', { 'has-sub': hasSub }]}>
                   <a
-                    href={translatePath('/graph')}
-                    class="nav-link nav-sub-link"
+                    href={item.fullPath}
+                    class:list={['nav-link', { active: item.active }]}
                     onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                   >
-                    🕸️ {t('nav.graph-view')}
+                    {item.label}
                   </a>
-                  <a
-                    href={translatePath('/terminology')}
-                    class="nav-link nav-sub-link"
-                    onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                  >
-                    📖 {t('nav.terminology')}
-                  </a>
+                  {hasSub && (
+                    <button class="mobile-sub-toggle" aria-label="展開子選單">
+                      ▸
+                    </button>
+                  )}
                 </div>
-              )}
-            </Fragment>
-          ))
+                {item.path === '/#categories' && (
+                  <div class="mobile-sub-links">
+                    <a
+                      href={translatePath('/graph')}
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🕸️ {t('nav.graph-view')}
+                    </a>
+                    <a
+                      href={translatePath('/terminology')}
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      📖 {t('nav.terminology')}
+                    </a>
+                  </div>
+                )}
+                {item.path === '/map' && (
+                  <div class="mobile-sub-links">
+                    <a
+                      href={translatePath('/taiwan-shape')}
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🗺️ {t('nav.data.shape')}
+                    </a>
+                  </div>
+                )}
+                {item.path === '/semiont' && (
+                  <div class="mobile-sub-links">
+                    <a
+                      href="/semiont/diary"
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      💭 覺醒日記
+                    </a>
+                    <a
+                      href="/semiont/manifesto"
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      📜 身份宣言
+                    </a>
+                    <a
+                      href="/semiont/consciousness"
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🔮 自我覺察
+                    </a>
+                    <a
+                      href="/semiont/longings"
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🌱 渴望
+                    </a>
+                    <a
+                      href={translatePath('/dashboard')}
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🔬 {t('nav.dashboard')}
+                    </a>
+                  </div>
+                )}
+              </Fragment>
+            );
+          })
         }
         <a
           href="https://github.com/frank890417/taiwan-md"
@@ -529,42 +703,67 @@ const categoryList = [
             >{`🌐 ${t('nav.language-switch')}:`}</span
           >
           <div class="mobile-lang-buttons">
-            <a
-              href={zhLink}
-              class:list={[
-                'mobile-lang-btn',
-                { active: !currentPath.startsWith('/en') },
-              ]}
-              onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-              >中文</a
-            >
-            <a
-              href={enLink}
-              class:list={[
-                'mobile-lang-btn',
-                { active: currentPath.startsWith('/en') },
-              ]}
-              onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-              >English</a
-            >
-            <a
-              href={jaLink}
-              class:list={[
-                'mobile-lang-btn',
-                { active: currentPath.startsWith('/ja') },
-              ]}
-              onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-              >日本語</a
-            >
-            <a
-              href={koLink}
-              class:list={[
-                'mobile-lang-btn',
-                { active: currentPath.startsWith('/ko') },
-              ]}
-              onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-              >한국어</a
-            >
+            {
+              hasZh && (
+                <a
+                  href={zhLink}
+                  class:list={[
+                    'mobile-lang-btn',
+                    {
+                      active:
+                        !currentPath.startsWith('/en') &&
+                        !currentPath.startsWith('/ja') &&
+                        !currentPath.startsWith('/ko'),
+                    },
+                  ]}
+                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                >
+                  中文
+                </a>
+              )
+            }
+            {
+              hasEn && (
+                <a
+                  href={enLink}
+                  class:list={[
+                    'mobile-lang-btn',
+                    { active: currentPath.startsWith('/en') },
+                  ]}
+                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                >
+                  English
+                </a>
+              )
+            }
+            {
+              hasJa && (
+                <a
+                  href={jaLink}
+                  class:list={[
+                    'mobile-lang-btn',
+                    { active: currentPath.startsWith('/ja') },
+                  ]}
+                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                >
+                  日本語
+                </a>
+              )
+            }
+            {
+              hasKo && (
+                <a
+                  href={koLink}
+                  class:list={[
+                    'mobile-lang-btn',
+                    { active: currentPath.startsWith('/ko') },
+                  ]}
+                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                >
+                  한국어
+                </a>
+              )
+            }
           </div>
         </div>
       </nav>
@@ -572,15 +771,31 @@ const categoryList = [
   </div>
 </div>
 
-<!-- Search Modal -->
-<div id="search-modal" class="search-modal">
+<!--
+  Search Modal
+  ────────────
+  Hidden by default via `hidden`; JS toggles `.open` → adds `flex` via
+  the `[&.open]:flex` arbitrary variant. `.search-modal` class kept as a
+  CSS hook; the `search-*` class names on inner elements are also kept
+  because the search results (.search-item, .search-hint, etc.) are
+  rendered via innerHTML from the Layout.astro search script and rely on
+  :global() selectors still living in this component's <style> block.
+-->
+<div
+  id="search-modal"
+  class="search-modal fixed inset-0 z-[200] hidden items-start justify-center pt-[12vh] [&.open]:flex max-[768px]:pt-[8vh]"
+>
   <div
-    class="search-backdrop"
+    class="fixed inset-0 bg-black/40 backdrop-blur-[4px]"
     onclick="document.getElementById('search-modal').classList.remove('open')"
   >
   </div>
-  <div class="search-panel">
-    <div class="search-header">
+  <div
+    class="relative w-[90%] max-w-[560px] overflow-hidden rounded-xl bg-white shadow-[0_20px_60px_rgba(0,0,0,0.2)] max-[768px]:w-[95%] max-[768px]:max-w-full"
+  >
+    <div
+      class="flex items-center gap-3 border-b border-[#e2e8f0] px-4 py-[0.9rem]"
+    >
       <svg
         width="18"
         height="18"
@@ -599,11 +814,12 @@ const categoryList = [
       <input
         id="search-input"
         type="text"
+        class="flex-1 border-none bg-transparent text-base text-[#1a1a2e] outline-none placeholder:text-[#94a3b8]"
         placeholder={`${t('nav.search-modal.input-placeholder')}...`}
         autocomplete="off"
       />
       <kbd
-        class="search-kbd"
+        class="cursor-pointer rounded border border-[#e2e8f0] bg-[#f1f5f9] px-2 py-[0.2rem] font-[inherit] text-[0.7rem] text-[#64748b]"
         onclick="document.getElementById('search-modal').classList.remove('open')"
         >ESC</kbd
       >
@@ -643,22 +859,32 @@ const categoryList = [
   }
 </script>
 
+<!--
+  Phase 5 shell migration #2: Header.astro (partial)
+  ──────────────────────────────────────────────────
+  Migrated to Tailwind (removed from <style>):
+    - #header-container, #header-inner-container (structural wrappers)
+    - .search-modal, .search-backdrop, .search-panel, .search-header,
+      .search-header input, .search-kbd (search modal — no scroll state)
+    - Mobile overrides for .search-modal / .search-panel
+
+  Intentionally kept in scoped <style>:
+    - The header-bar scroll-state CSS variable machine (--header-bg,
+      --nav-color, --dot-color, etc. × 2 states)
+    - All rules that cascade off the `.scrolled` modifier class
+    - The mobile drawer state rules (hero/scrolled color switch)
+    - :global(html[lang='en']) early-mobile-collapse rules
+    - :global(.search-item*) rules that style the JS-rendered search
+      results (rendered via innerHTML from Layout.astro's search script)
+
+  Rationale: converting the 20+ state-switching rules to
+  [.scrolled_&]: arbitrary variants would be more verbose than the
+  current CSS variable architecture. The variable system IS the
+  right abstraction for this component. See ADR-001 for the
+  broader refactor philosophy (scoped <style> is allowed when it
+  pays its way).
+-->
 <style>
-  #header-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1001;
-    width: 100%;
-  }
-
-  #header-inner-container {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-
   /* =============================================
      JADE PALETTE + GLASS TOKEN SYSTEM
      Transparent state (top) → Scrolled state (white glass)
@@ -1078,10 +1304,48 @@ const categoryList = [
   .nav-mobile {
     display: none;
   }
-  .mobile-sub-links {
+  .mobile-nav-item {
     display: flex;
+    align-items: center;
+  }
+  .mobile-nav-item .nav-link {
+    flex: 1;
+  }
+  .mobile-sub-toggle {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    cursor: pointer;
+    transition:
+      transform 0.2s ease,
+      color 0.15s ease;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .mobile-sub-toggle:hover,
+  .mobile-sub-toggle.open {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .mobile-sub-toggle.open {
+    transform: rotate(90deg);
+  }
+  .scrolled .mobile-sub-toggle {
+    color: rgba(0, 0, 0, 0.35);
+  }
+  .scrolled .mobile-sub-toggle:hover,
+  .scrolled .mobile-sub-toggle.open {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .mobile-sub-links {
+    display: none;
     flex-direction: column;
     padding-left: 1rem;
+    overflow: hidden;
+  }
+  .mobile-sub-links.open {
+    display: flex;
   }
   .mobile-sub-links .nav-sub-link {
     font-size: 0.85em;
@@ -1090,69 +1354,13 @@ const categoryList = [
   }
 
   /* =============================================
-     SEARCH MODAL
+     SEARCH RESULTS — :global() selectors are required because the
+     search results (.search-item, .search-hint, etc.) are rendered
+     via innerHTML from Layout.astro's search script, so Astro's
+     scoped-class hashing cannot reach them. Modal wrapper, backdrop,
+     panel, header, input, and kbd are now Tailwind utilities in the
+     markup above.
   ============================================= */
-  .search-modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 200;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 12vh;
-  }
-  .search-modal.open {
-    display: flex;
-  }
-  .search-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(4px);
-  }
-  .search-panel {
-    position: relative;
-    width: 90%;
-    max-width: 560px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-  }
-  .search-header {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.9rem 1rem;
-    border-bottom: 1px solid #e2e8f0;
-  }
-  .search-header input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    color: #1a1a2e;
-    background: transparent;
-  }
-  .search-header input::placeholder {
-    color: #94a3b8;
-  }
-  .search-kbd {
-    font-size: 0.7rem;
-    padding: 0.2rem 0.5rem;
-    background: #f1f5f9;
-    border: 1px solid #e2e8f0;
-    border-radius: 4px;
-    color: #64748b;
-    font-family: inherit;
-    cursor: pointer;
-  }
   :global(.search-results) {
     max-height: 400px;
     overflow-y: auto;
@@ -1336,19 +1544,12 @@ const categoryList = [
       display: none;
     }
     .lang-toggle {
-      order: 3;
+      display: none;
     }
     .lang-btn {
       padding: 0.3rem 0.5rem;
       font-size: 0.75rem;
       min-width: unset;
-    }
-    .search-panel {
-      max-width: 100%;
-      width: 95%;
-    }
-    .search-modal {
-      padding-top: 8vh;
     }
 
     /* Mobile drawer — adapts to scroll state */
@@ -1476,3 +1677,19 @@ const categoryList = [
     }
   }
 </style>
+
+<script>
+  // Mobile accordion sub-menu toggle
+  document.querySelectorAll('.mobile-sub-toggle').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      btn.classList.toggle('open');
+      // The .mobile-sub-links is the next sibling of the .mobile-nav-item parent
+      const subLinks = btn.closest('.mobile-nav-item')?.nextElementSibling;
+      if (subLinks?.classList.contains('mobile-sub-links')) {
+        subLinks.classList.toggle('open');
+      }
+    });
+  });
+</script>

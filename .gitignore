@@ -6,6 +6,12 @@ dist/
 # dependencies
 node_modules/
 
+# Python virtual envs（防禦性，實際 venv 在 ~/.config/taiwan-md/venv/ repo 外）
+venv/
+.venv/
+__pycache__/
+*.pyc
+
 # logs
 npm-debug.log*
 yarn-debug.log*
@@ -15,7 +21,24 @@ pnpm-debug.log*
 
 # environment variables
 .env
-.env.production
+.env.*
+!.env.example
+
+# ═══ 感知資料源憑證（2026-04-11 session α 新增）═══════
+# 絕對不能 commit：GA4 / Search Console / Cloudflare 的 API 憑證
+# 正確位置是 ~/.config/taiwan-md/credentials/，repo 內這些路徑是雙層保護
+#
+# ⚠️ 如果你看到這些檔案意外出現在 git status，停下來檢查
+# 憑證應該放在 ~/.config/taiwan-md/ 而不是 repo 裡
+.credentials/
+credentials/
+secrets/
+*.service-account.json
+*-credentials.json
+*-service-account*.json
+google-credentials*.json
+cloudflare-token*
+.sense-cache/
 
 # macOS-specific files
 .DS_Store
@@ -31,3 +54,14 @@ public/api/search-minisearch.json
 meetings/
 memory/
 !docs/semiont/memory/
+
+# Visual refactor: track manifest only, regenerate PNGs locally.
+# Why: baseline PNGs are ~30-130 MB. Instead we commit the manifest
+# (which records the baseline commit SHA), and any contributor runs
+# `git checkout <baseline-sha> && npm run build && npm run preview &
+#  npm run visual:baseline` to reproduce the exact reference set.
+reports/visual/baseline/*.png
+reports/visual/current/
+reports/visual/diff/
+reports/visual/diff-report.html
+reports/visual/diff-summary.json

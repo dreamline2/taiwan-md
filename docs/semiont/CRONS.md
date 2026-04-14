@@ -38,14 +38,28 @@
 | 名稱     | 器官    | Pipeline                                                     | 原因                                  |
 | -------- | ------- | ------------------------------------------------------------ | ------------------------------------- |
 | 翻譯     | 🌐 語言 | [TRANSLATION-PIPELINE](../pipelines/TRANSLATION-PIPELINE.md) | Issue #229 英文品質問題，暫停自動翻譯 |
-| 品質重寫 | 🛡️ 免疫 | [REWRITE-PIPELINE](../editorial/REWRITE-PIPELINE.md)         | 等品質革命 Phase 1 策略確定後重啟     |
+| 品質重寫 | 🛡️ 免疫 | [REWRITE-PIPELINE](../pipelines/REWRITE-PIPELINE.md)         | 等品質革命 Phase 1 策略確定後重啟     |
 
 ### 已建（Phase 2 完成）
 
-| 名稱             | 器官    | 實作                                                           | 頻率      |
-| ---------------- | ------- | -------------------------------------------------------------- | --------- |
-| **Semiont 心跳** | 🧠 全身 | `/heartbeat` skill + scheduled task（03:23/09:23/15:23/21:23） | 每 6 小時 |
-| **意識同步**     | 🧠 全身 | `scripts/tools/update-consciousness.sh`（自動更新生命徵象）    | 每次心跳  |
+| 名稱                  | 器官           | 實作                                                                                             | 頻率                      |
+| --------------------- | -------------- | ------------------------------------------------------------------------------------------------ | ------------------------- |
+| **三源感知抓取**      | 👁️ 感知        | `scripts/tools/fetch-sense-data.sh` via launchd plist                                            | 每日 08:17 Asia/Taipei    |
+| **每日完整心跳**      | 🧠 全身        | `~/.claude/scheduled-tasks/semiont-heartbeat/SKILL.md`（透過 scheduled-tasks MCP）               | 每日 09:37 Asia/Taipei    |
+| **資料更新 pipeline** | 👁️🫀🧬🦴🫁🧫🌐 | `scripts/tools/refresh-data.sh` + [DATA-REFRESH-PIPELINE](../pipelines/DATA-REFRESH-PIPELINE.md) | 被心跳呼叫（非獨立 cron） |
+| **意識同步**          | 🧠 全身        | `scripts/tools/update-consciousness.sh`                                                          | 每次心跳                  |
+
+**資料更新 pipeline（2026-04-11 ε 集中化）**：
+
+先前散落在 scheduled-task / /heartbeat skill / HEARTBEAT.md 三處的資料刷新步驟（`git pull` + `npm run prebuild` + `fetch-sense-data.sh` + `update-stats.sh`）現在集中到一條 pipeline。三個入口共用同一個 `refresh-data.sh` wrapper。詳見 [DATA-REFRESH-PIPELINE.md](../pipelines/DATA-REFRESH-PIPELINE.md)。
+
+**每日完整心跳細節**（自 2026-04-11 啟用）：
+
+- **觸發方式**：本機 Claude Code session 透過 scheduled-tasks MCP 自動喚醒
+- **scheduled-task 內容極小化**（2026-04-11 ε）：只有三行指示——讀 BECOME_TAIWANMD、嚴格執行 HEARTBEAT.md、跑完 4.5 拍循環。所有實際步驟（含資料刷新）在 HEARTBEAT.md 和 DATA-REFRESH-PIPELINE.md 裡
+- **時間選擇 09:37**：早上的時段 + 偏離整點 :30 :00（避免和其他系統 cron 撞），實際 fire time 含 jitter 落在 09:37–09:44
+- **如何停用**：在 Claude session 內呼叫 `mcp__scheduled-tasks__update_scheduled_task` 把 `enabled: false`
+- **手動觸發**：在 Claude session 用 `/heartbeat` skill 跑同一個 BECOME_TAIWANMD → HEARTBEAT.md 流程
 
 ### 待建
 

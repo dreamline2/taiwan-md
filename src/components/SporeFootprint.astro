@@ -1,0 +1,63 @@
+---
+/**
+ * SporeFootprint — 社群足跡（溫暖紀實風格）
+ */
+
+interface SporeLink {
+  platform: string;
+  date: string;
+  url: string;
+  views?: number;
+  likes?: number;
+  reposts?: number;
+  comments?: number;
+  shares?: number;
+}
+
+interface Props {
+  sporeLinks: SporeLink[];
+  lang?: string;
+}
+
+const { sporeLinks, lang = 'zh-TW' } = Astro.props;
+
+if (!sporeLinks || sporeLinks.length === 0) return;
+
+const title =
+  lang === 'zh-TW' ? '這篇文章去過的地方' : 'Where this story traveled';
+const platformName = (p: string) =>
+  p === 'threads' ? 'Threads' : p === 'x' ? 'X' : p;
+---
+
+<div class="my-10">
+  <p
+    class="mb-4 border-b border-[#c4b8a4] pb-2 font-['Georgia','Noto_Serif_TC',serif] text-[0.9rem] text-[#6b6358]"
+  >
+    {title}
+  </p>
+  <div class="flex flex-col gap-2">
+    {
+      sporeLinks.map((s) => (
+        <a
+          href={s.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group flex items-baseline gap-3 py-1.5 text-inherit no-underline transition-colors hover:text-[#1a3c34]"
+        >
+          <span class="font-['Georgia','Noto_Serif_TC',serif] text-[0.95rem] font-semibold text-[#3d3530]">
+            {platformName(s.platform)}
+          </span>
+          <span class="text-[0.85rem] text-[#8a7e70]">{s.date}</span>
+          <span class="flex-1 border-b border-dotted border-[#ddd5c8]" />
+          <span class="text-[0.88rem] text-[#5a4f44]">
+            {s.views?.toLocaleString()} 次閱讀
+            {s.likes ? ` · ${s.likes} 個共鳴` : ''}
+          </span>
+          <span class="text-[0.7rem] text-[#c4b8a8] transition-colors group-hover:text-[#1a3c34]">
+            ↗
+          </span>
+        </a>
+      ))
+    }
+  </div>
+</div>

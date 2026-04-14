@@ -1,9 +1,7 @@
 {
   "version": "3.2",
-  "timestamp": "2026-04-08T02:47:34Z",
+  "timestamp": "2026-04-13T16:43:19Z",
   "total": 1,
-  "flagged": 1,
-  "files": [
-    { "file": "knowledge/History/台海危機與兩岸關係發展.md", "score": 4 }
-  ]
+  "flagged": 0,
+  "files": []
 }

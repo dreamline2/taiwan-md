@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
 import ProticoScript from '../components/ProticoScript.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
@@ -9,12 +10,26 @@ const t = useTranslations(lang);
 
 <Layout title={t('about.meta.title')} description={t('about.meta.description')}>
   <div class="about-page">
+    <!--
+      Phase 7.5 deepening — about.template.astro
+      Section wrappers and single-use feature blocks inlined.
+      Repeating patterns (timeline, naming-card, stat-item,
+      trait-card, reef-item, fact-item, founder-card, press-card,
+      faq-card, sponsor-card) kept scoped — they repeat 3-17 times
+      per section and inlining them would bloat the markup.
+      Shared .section-inner / .section-title / .section-subtitle
+      stay scoped as design primitives used across 6 sections.
+    -->
     <!-- Section 1: 為什麼叫 Taiwan.md？ -->
-    <section class="naming-section" id="story">
+    <section id="story">
+      <PageHero
+        containerWidth="wide"
+        padding="default"
+        titleColor="#1a3c34"
+        title={t('about.naming.title')}
+        subtitle={t('about.naming.subtitle')}
+      />
       <div class="section-inner">
-        <h1 class="section-title">{t('about.naming.title')}</h1>
-        <p class="section-subtitle">{t('about.naming.subtitle')}</p>
-
         <div class="naming-grid">
           <div class="naming-card">
             <div class="naming-icon">{t('about.naming.tech.icon')}</div>
@@ -81,7 +96,7 @@ const t = useTranslations(lang);
     </section>
 
     <!-- Section 2: Taiwan.md 的誕生 -->
-    <section class="origin-section">
+    <section class="bg-[#f9fafb] px-4 py-16">
       <div class="section-inner">
         <h2 class="section-title">{t('about.origin.title')}</h2>
         <p class="section-subtitle">{t('about.origin.subtitle')}</p>
@@ -318,7 +333,10 @@ const t = useTranslations(lang);
     </section>
 
     <!-- Section 2.5: Taiwan.md 是活的 -->
-    <section class="organism-section" id="organism">
+    <section
+      class="bg-[linear-gradient(135deg,#0a2e2e_0%,#0d3b3b_50%,#0a2e2e_100%)] px-4 py-16 text-[#e0f0f0] [&_.section-subtitle]:mx-auto [&_.section-subtitle]:mb-8 [&_.section-subtitle]:max-w-[640px] [&_.section-subtitle]:text-center [&_.section-subtitle]:text-[#a0c8c8] [&_.section-title]:text-[#5fd4d4]"
+      id="organism"
+    >
       <div class="section-inner">
         <h2 class="section-title">{t('about.organism.title')}</h2>
         <p class="section-subtitle">{t('about.organism.subtitle')}</p>
@@ -469,7 +487,7 @@ const t = useTranslations(lang);
     </section>
 
     <!-- Section 3: 創辦人與協作團隊 -->
-    <section class="team-section" id="team">
+    <section class="py-16" id="team">
       <div class="section-inner">
         <h2 class="section-title">{t('about.team.title')}</h2>
         <p class="section-subtitle">{t('about.team.subtitle')}</p>
@@ -1071,7 +1089,7 @@ const t = useTranslations(lang);
       </div>
     </section>
 
-    <section class="sponsors-section">
+    <section class="bg-[linear-gradient(135deg,#fef9f0,#fdf4e8)] px-8 py-16">
       <div class="sponsors-inner">
         <h2 class="section-title">{t('about.sponsors.title')}</h2>
         <p class="sponsors-desc" set:html={t('about.sponsors.desc.html')} />
@@ -1262,7 +1280,7 @@ const t = useTranslations(lang);
     </section>
 
     <!-- Section: FAQ -->
-    <section class="faq-section" id="faq">
+    <section class="mx-auto max-w-[800px] px-8 py-16" id="faq">
       <div class="section-inner">
         <h2 class="section-title">{t('about.faq.title')}</h2>
         <p class="section-subtitle">{t('about.faq.subtitle')}</p>
@@ -1334,7 +1352,7 @@ const t = useTranslations(lang);
 
     <!-- Section: Contact -->
 
-    <section class="contact-section">
+    <section class="bg-[#f9fafb] px-4 pt-16 pb-12">
       <div class="section-inner">
         <h2 class="section-title">{t('about.contact.title')}</h2>
         <p class="section-subtitle">{t('about.contact.subtitle')}</p>
@@ -1407,26 +1425,19 @@ const t = useTranslations(lang);
     padding: 0 2rem;
   }
 
-  </div>
-
-  <!-- Protico Community Chat Bubble — sponsored by Howie Young -->
-  <ProticoScript />
-</Layout>
-
-<style>
-  /* ===== Global ===== */
-  .about-page {
-    padding-bottom: 0;
-  }
-
   .section-inner {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 2rem;
   }
 
+  /* Phase 7.6 font hotfix: `font-family` removed so the first section's
+     h1 (`.section-title.hero-title`) can be overridden by justfont's
+     dynamically-injected `.hero-title { font-family: rixingsong-semibold }`
+     rule. The other 5 section h2s still inherit `var(--font-title)` from
+     global.css `@layer base` `h1-h6` rule, so visually nothing changes
+     for them. */
   .section-title {
-    font-family: var(--font-title, 'Noto Serif TC', serif);
     font-size: 2.5rem;
     font-weight: 900;
     color: #1a3c34;
@@ -1441,20 +1452,6 @@ const t = useTranslations(lang);
     font-size: 1.15rem;
     margin-bottom: 3rem;
     line-height: 1.6;
-  }
-
-  /* ===== Section 1: 為什麼叫 Taiwan.md？ ===== */
-  .naming-section {
-    padding: 4rem 0 3rem;
-  }
-
-  .naming-section .section-title {
-    font-family: var(--font-title, 'Noto Serif TC', serif);
-    font-size: 3.5rem;
-    font-weight: 900;
-    color: #1a3c34;
-    letter-spacing: -0.02em;
-    margin-bottom: 0.75rem;
   }
 
   /* Naming Story */
@@ -1533,15 +1530,6 @@ const t = useTranslations(lang);
   .vision-emphasis {
     font-weight: 500;
     color: #1f2937 !important;
-  }
-
-  /* ===== Section 2: Taiwan.md 的誕生 ===== */
-  .origin-section {
-    padding: 4rem 0;
-    background: #f9fafb;
-    margin: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   /* Timeline */
@@ -1739,24 +1727,6 @@ const t = useTranslations(lang);
     border-radius: 12px;
   }
 
-  /* ===== Section 2.5: Taiwan.md 是活的 (Organism) — 濃縮版 ===== */
-  .organism-section {
-    padding: 4rem 0;
-    background: linear-gradient(135deg, #0a2e2e 0%, #0d3b3b 50%, #0a2e2e 100%);
-    color: #e0f0f0;
-    margin: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .organism-section .section-title {
-    color: #5fd4d4;
-  }
-  .organism-section .section-subtitle {
-    color: #a0c8c8;
-    text-align: center;
-    max-width: 640px;
-    margin: 0 auto 2rem;
-  }
   .organism-intro {
     text-align: center;
     max-width: 680px;
@@ -2168,14 +2138,6 @@ const t = useTranslations(lang);
     color: #1f2937;
   }
 
-  /* ===== Section 4: 協作團隊 ===== */
-  .team-section {
-    padding: 4rem 0;
-    margin: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   /* 協作哲學移到最上面 */
   .team-philosophy {
     background: white;
@@ -2409,14 +2371,6 @@ const t = useTranslations(lang);
   }
 
   /* ===== Section 5: 聯繫我們 ===== */
-  .contact-section {
-    padding: 4rem 0 3rem;
-    background: #f9fafb;
-    margin: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .contact-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2514,11 +2468,6 @@ const t = useTranslations(lang);
     transform: translateY(-1px);
   }
 
-  /* ===== Section 6: 贊助與合作夥伴 ===== */
-  .sponsors-section {
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #fef9f0, #fdf4e8);
-  }
   .sponsors-inner {
     max-width: 900px;
     margin: 0 auto;
@@ -2857,13 +2806,6 @@ const t = useTranslations(lang);
       flex-direction: column;
       align-items: center;
     }
-  }
-
-  /* ===== FAQ SECTION ===== */
-  .faq-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 4rem 2rem;
   }
 
   .faq-list {

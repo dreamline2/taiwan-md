@@ -1,44 +1,44 @@
 {
-  "totalArticles": 898,
+  "totalArticles": 1196,
   "totalCategories": 20,
-  "estimatedContributors": 60,
-  "totalTags": 2280,
+  "estimatedContributors": 80,
+  "totalTags": 2870,
   "categories": [
     {
-      "name": "en",
-      "count": 390
+      "name": "Society",
+      "count": 39
     },
     {
-      "name": "Culture",
-      "count": 40
+      "name": "en",
+      "count": 399
     },
     {
       "name": "History",
-      "count": 27
+      "count": 32
     },
     {
-      "name": "Society",
-      "count": 27
+      "name": "Culture",
+      "count": 42
+    },
+    {
+      "name": "ja",
+      "count": 256
     },
     {
       "name": "Music",
-      "count": 21
+      "count": 25
     },
     {
       "name": "Economy",
-      "count": 47
-    },
-    {
-      "name": "People",
-      "count": 131
+      "count": 49
     },
     {
       "name": "Lifestyle",
       "count": 16
     },
     {
-      "name": "ja",
-      "count": 27
+      "name": "People",
+      "count": 135
     },
     {
       "name": "Art",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Technology",
-      "count": 27
+      "count": 29
     },
     {
       "name": "Nature",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Geography",
-      "count": 18
+      "count": 19
     },
     {
       "name": "About",
@@ -74,7 +74,7 @@
     },
     {
       "name": "es",
-      "count": 34
+      "count": 36
     },
     {
       "name": "resources",
@@ -82,37 +82,81 @@
     },
     {
       "name": "ko",
-      "count": 2
+      "count": 28
     }
   ],
   "topTags": [
     {
+      "name": "企業",
+      "count": 58
+    },
+    {
       "name": "Economy",
-      "count": 55
+      "count": 57
     },
     {
       "name": "人物",
-      "count": 51
+      "count": 54
     },
     {
-      "name": "企業",
-      "count": 31
+      "name": "経済",
+      "count": 25
+    },
+    {
+      "name": "民主化",
+      "count": 19
+    },
+    {
+      "name": "原住民族",
+      "count": 19
+    },
+    {
+      "name": "文化",
+      "count": 17
+    },
+    {
+      "name": "民間信仰",
+      "count": 15
+    },
+    {
+      "name": "歴史",
+      "count": 15
     },
     {
       "name": "半導體",
       "count": 15
     },
     {
-      "name": "台灣",
+      "name": "AI",
       "count": 15
     },
     {
-      "name": "歷史",
+      "name": "ODM",
+      "count": 14
+    },
+    {
+      "name": "教育",
+      "count": 14
+    },
+    {
+      "name": "台灣",
+      "count": 14
+    },
+    {
+      "name": "政治",
       "count": 13
     },
     {
-      "name": "金曲獎",
+      "name": "製造業",
       "count": 13
+    },
+    {
+      "name": "歷史",
+      "count": 12
+    },
+    {
+      "name": "金曲獎",
+      "count": 12
     },
     {
       "name": "音樂",
@@ -121,55 +165,11 @@
     {
       "name": "Technology",
       "count": 12
-    },
-    {
-      "name": "people",
-      "count": 12
-    },
-    {
-      "name": "原住民族",
-      "count": 11
-    },
-    {
-      "name": "數位轉型",
-      "count": 11
-    },
-    {
-      "name": "原住民",
-      "count": 11
-    },
-    {
-      "name": "民間信仰",
-      "count": 10
-    },
-    {
-      "name": "民主化",
-      "count": 10
-    },
-    {
-      "name": "台灣文化",
-      "count": 10
-    },
-    {
-      "name": "ODM",
-      "count": 10
-    },
-    {
-      "name": "History",
-      "count": 10
-    },
-    {
-      "name": "製造業",
-      "count": 10
-    },
-    {
-      "name": "教育",
-      "count": 10
     }
   ],
   "languageDistribution": {
-    "zh-TW": 898,
+    "zh-TW": 1196,
     "en": 0
   },
-  "lastUpdated": "2026-04-07T01:32:14.642Z"
+  "lastUpdated": "2026-04-14T01:49:50.293Z"
 }

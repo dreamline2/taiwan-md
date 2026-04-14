@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
@@ -13,9 +14,32 @@ const isEn = lang === 'en';
 >
   <main class="dashboard">
     <!-- Hero -->
-    <section class="hero">
+    <!--
+      Phase 7.5 partial migration — dashboard.template.astro
+      Hero section moved to inline Tailwind. `.ekg-line` + its
+      @keyframes ekgDraw animation stay scoped (the animation can't
+      be reached via Tailwind arbitrary utilities without promoting
+      the keyframes to global.css — too small a win to justify).
+      Inner sections (vitals-grid, dashboard cards, organism
+      anatomy, etc.) remain scoped — ~170 classes with tight JS
+      coupling.
+    -->
+    <!--
+      Dashboard hero is a structural outlier: a rounded-card gradient
+      shell with an animated EKG SVG background and a JS-updated stats
+      row. PageHero can't absorb the shell (would need `bgShape=rounded`
+      + `<slot name=background>` + new stats slot for one consumer), so
+      we NEST PageHero inside the custom shell to handle the standard
+      title/subtitle/footer axis, and keep the EKG + stats as custom
+      siblings. Partial migration: structural consistency for the
+      "this page has a title" part, custom code only where it's truly
+      unique.
+    -->
+    <section
+      class="page-hero-dashboard-shell relative mb-4 overflow-hidden rounded-2xl bg-[linear-gradient(135deg,#1a1a2e_0%,#2d1b69_60%,#1a1a2e_100%)] text-white"
+    >
       <svg
-        class="hero-ekg"
+        class="pointer-events-none absolute left-0 top-1/2 h-[60px] w-full -translate-y-1/2 opacity-60"
         viewBox="0 0 600 60"
         preserveAspectRatio="none"
         aria-hidden="true"
@@ -27,36 +51,67 @@ const isEn = lang === 'en';
           stroke="rgba(139,92,246,0.25)"
           stroke-width="2"></path>
       </svg>
-      <h1 class="hero-title">
-        <span class="hero-emoji">🔬</span>
-        {t('dashboard.hero.title')}
-      </h1>
-      <p class="hero-subtitle">{t('dashboard.hero.subtitle')}</p>
-      <p class="hero-desc">{t('dashboard.hero.description')}</p>
-      <a
-        href="https://github.com/frank890417/taiwan-md/tree/main/docs/semiont"
-        target="_blank"
-        rel="noopener"
-        class="hero-cognition-link"
+      <PageHero
+        containerWidth="full"
+        padding="compact"
+        bgTone="dark"
+        titleVariant="inherit"
+        titleWeight="bold"
+        titleSize="sm"
       >
-        {
-          isEn
-            ? '→ Cognitive Layer (Self-Awareness System)'
-            : '→ 前往認知層（自我覺察系統）'
-        }
-      </a>
-      <div class="hero-stats" id="hero-stats">
-        <div class="hero-stat">
-          <span class="hero-stat-value" id="hero-stat-articles">—</span>
-          <span class="hero-stat-label">{isEn ? 'Articles' : '文章'}</span>
+        <Fragment slot="title">
+          <span class="relative text-[1.8rem]">🔬</span>
+          <span class="relative">{t('dashboard.hero.title')}</span>
+        </Fragment>
+        <Fragment slot="subtitle">{t('dashboard.hero.subtitle')}</Fragment>
+        <Fragment slot="meta">{t('dashboard.hero.description')}</Fragment>
+        <Fragment slot="footer">
+          <a
+            href="https://github.com/frank890417/taiwan-md/tree/main/docs/semiont"
+            target="_blank"
+            rel="noopener"
+            class="inline-block text-[0.85rem] text-[#94a3b8] no-underline opacity-80 transition-opacity duration-200 hover:text-[#cbd5e1] hover:opacity-100"
+          >
+            {
+              isEn
+                ? '→ Cognitive Layer (Self-Awareness System)'
+                : '→ 前往認知層（自我覺察系統）'
+            }
+          </a>
+        </Fragment>
+      </PageHero>
+      <div
+        class="relative mb-8 flex justify-center gap-12 max-[768px]:gap-6"
+        id="hero-stats"
+      >
+        <div class="flex flex-col items-center">
+          <span
+            class="text-[2.8rem] font-black leading-[1.1] [font-variant-numeric:tabular-nums]"
+            id="hero-stat-articles">—</span
+          >
+          <span
+            class="mt-[0.3rem] text-[0.85rem] uppercase tracking-[0.05em] opacity-70"
+            >{isEn ? 'Articles' : '文章'}</span
+          >
         </div>
-        <div class="hero-stat">
-          <span class="hero-stat-value" id="hero-stat-languages">—</span>
-          <span class="hero-stat-label">{isEn ? 'Languages' : '語言'}</span>
+        <div class="flex flex-col items-center">
+          <span
+            class="text-[2.8rem] font-black leading-[1.1] [font-variant-numeric:tabular-nums]"
+            id="hero-stat-languages">—</span
+          >
+          <span
+            class="mt-[0.3rem] text-[0.85rem] uppercase tracking-[0.05em] opacity-70"
+            >{isEn ? 'Languages' : '語言'}</span
+          >
         </div>
-        <div class="hero-stat">
-          <span class="hero-stat-value" id="hero-stat-contributors">—</span>
-          <span class="hero-stat-label">{isEn ? 'Contributors' : '貢獻者'}</span
+        <div class="flex flex-col items-center">
+          <span
+            class="text-[2.8rem] font-black leading-[1.1] [font-variant-numeric:tabular-nums]"
+            id="hero-stat-contributors">—</span
+          >
+          <span
+            class="mt-[0.3rem] text-[0.85rem] uppercase tracking-[0.05em] opacity-70"
+            >{isEn ? 'Contributors' : '貢獻者'}</span
           >
         </div>
       </div>
@@ -321,16 +376,20 @@ const isEn = lang === 'en';
       <p class="section-subtitle">
         {
           isEn
-            ? 'Traffic & audience insights (last 30 days)'
-            : '流量與受眾洞察（近 30 天）'
+            ? 'GA behavior + Search intent + Cloudflare edge signals'
+            : 'GA 行為 + 搜尋意圖 + Cloudflare 邊緣訊號'
         }
       </p>
       <div class="analytics-grid">
         <div class="analytics-totals" id="analytics-totals"></div>
-        <div class="analytics-sources" id="analytics-sources"></div>
+        <div class="analytics-sources" id="analytics-insights"></div>
       </div>
       <div class="analytics-detail-grid">
-        <div class="analytics-pages" id="analytics-pages"></div>
+        <div class="analytics-pages analytics-full" id="analytics-pages"></div>
+        <div class="analytics-pages analytics-full" id="analytics-articles-7d">
+        </div>
+        <div class="analytics-pages analytics-full" id="analytics-search"></div>
+        <div class="analytics-pages" id="analytics-crawlers"></div>
         <div class="analytics-countries" id="analytics-countries"></div>
       </div>
     </section>
@@ -348,6 +407,20 @@ const isEn = lang === 'en';
     <footer class="dashboard-footer" id="dashboard-footer"></footer>
   </main>
 </Layout>
+
+<!-- d3 + d3-cloud for Search Console word cloud layout (loaded globally as UMD,
+     attach to window.d3 and window.d3.layout.cloud). is:inline keeps Astro from
+     bundling. Use defer to not block first paint; renderAnalytics waits on d3
+     before drawing the cloud. -->
+<script
+  is:inline
+  defer
+  src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script
+  is:inline
+  defer
+  src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.min.js"
+></script>
 
 <script define:vars={{ lang }}>
   const isEn = lang === 'en';
@@ -1270,6 +1343,7 @@ const isEn = lang === 'en';
 
     // Tooltip interaction
     const tooltip = document.getElementById('growth-tooltip');
+    const tooltipMargin = 12;
     container.querySelectorAll('.growth-dot-hover').forEach((el) => {
       el.addEventListener('mouseenter', function (e) {
         const idx = parseInt(this.dataset.idx, 10);
@@ -1277,13 +1351,33 @@ const isEn = lang === 'en';
         const mmdd = d.date.slice(5).replace('-', '/');
         tooltip.innerHTML = `<strong>${mmdd}</strong><br>+${d.daily} ${isEn ? 'new' : '新增'}<br>${isEn ? 'Total' : '累計'}: ${d.cumulative}`;
         tooltip.style.display = 'block';
+        tooltip.style.visibility = 'hidden';
         const cx = xPos(idx);
         const cy = yPos(d.cumulative);
-        tooltip.style.left = Math.min(cx, w - 100) + 'px';
-        tooltip.style.top = cy - 60 + 'px';
+        const tooltipWidth = tooltip.offsetWidth;
+        const tooltipHeight = tooltip.offsetHeight;
+        const minLeft = container.scrollLeft + tooltipMargin;
+        const maxLeft =
+          container.scrollLeft +
+          container.clientWidth -
+          tooltipWidth -
+          tooltipMargin;
+        const preferredLeft = cx + tooltipMargin;
+        const left = Math.max(minLeft, Math.min(preferredLeft, maxLeft));
+        const minTop = tooltipMargin;
+        const maxTop = chartH - tooltipHeight - tooltipMargin;
+        const preferredTop = cy - tooltipHeight - tooltipMargin;
+        const top =
+          preferredTop >= minTop
+            ? preferredTop
+            : Math.min(cy + tooltipMargin, maxTop);
+        tooltip.style.left = `${left}px`;
+        tooltip.style.top = `${Math.max(minTop, top)}px`;
+        tooltip.style.visibility = 'visible';
       });
       el.addEventListener('mouseleave', () => {
         tooltip.style.display = 'none';
+        tooltip.style.visibility = 'visible';
       });
     });
   }
@@ -1519,47 +1613,226 @@ const isEn = lang === 'en';
 
   // ── Next Steps ──
   // ── GA4 Analytics ──
+  // Wait for d3 + d3-cloud to be available on window (they're loaded via
+  // `<script is:inline defer>` tags in the head, so they finish asynchronously).
+  // Returns a promise that resolves when both are ready, or rejects after timeout.
+  function waitForD3(timeoutMs = 5000) {
+    return new Promise((resolve, reject) => {
+      const start = Date.now();
+      const check = () => {
+        if (
+          typeof window.d3 !== 'undefined' &&
+          window.d3.layout &&
+          window.d3.layout.cloud
+        ) {
+          resolve(window.d3);
+        } else if (Date.now() - start > timeoutMs) {
+          reject(
+            new Error(
+              'd3 + d3-cloud failed to load within ' + timeoutMs + 'ms',
+            ),
+          );
+        } else {
+          setTimeout(check, 50);
+        }
+      };
+      check();
+    });
+  }
+
+  // Render a d3-cloud SVG into the given container. Responsive: 16:9 max aspect
+  // ratio, uses the container's own width. Based on
+  // https://observablehq.com/@d3/word-cloud
+  function renderWordCloudSvg(container, wordCloudData, isEn) {
+    if (!container || !wordCloudData || !wordCloudData.length) return;
+
+    waitForD3()
+      .then((d3) => {
+        const parentWidth =
+          container.clientWidth || container.parentElement?.clientWidth || 800;
+        // Max 16:9 aspect; scale height from width, bounded between 320 and 720
+        const width = Math.max(320, Math.min(1200, parentWidth));
+        const height = Math.max(
+          320,
+          Math.min(720, Math.round((width * 9) / 16)),
+        );
+
+        // Log-scaled font-size with a wide dynamic range so the long tail is
+        // visibly smaller than the top queries:
+        //   range: 9px → 78px (≈8.7x ratio)
+        //   1-impression query lands at exactly the minimum (t=0)
+        //   top query lands at maximum (t=1)
+        const maxImp = wordCloudData[0]?.impressions || 1;
+        const logMax = Math.log(Math.max(maxImp, 2));
+        const FONT_MIN = 9;
+        const FONT_MAX = 78;
+        const fontSizeFor = (imp) => {
+          if (logMax === 0) return Math.round((FONT_MIN + FONT_MAX) / 2);
+          // Math.max(imp, 1) ensures log is defined; log(1)=0 lands at FONT_MIN
+          const t = Math.log(Math.max(imp, 1)) / logMax;
+          return Math.round(FONT_MIN + (FONT_MAX - FONT_MIN) * t);
+        };
+
+        const words = wordCloudData.map((w) => ({
+          text: w.query,
+          size: fontSizeFor(w.impressions),
+          impressions: w.impressions,
+          clicks: w.clicks,
+        }));
+
+        // Fixed seed so layout is stable across renders (less jarring on refresh)
+        let seed = 1;
+        const seededRandom = () => {
+          seed = (seed * 9301 + 49297) % 233280;
+          return seed / 233280;
+        };
+
+        d3.layout
+          .cloud()
+          .size([width, height])
+          .words(words)
+          .padding(2)
+          .rotate(() => 0)
+          .font('"Noto Sans TC", "Source Han Sans TC", system-ui, sans-serif')
+          .fontSize((d) => d.size)
+          .random(seededRandom)
+          .spiral('archimedean')
+          .on('end', (laidOut) => {
+            drawWordCloud(container, laidOut, width, height, isEn);
+          })
+          .start();
+      })
+      .catch((err) => {
+        console.warn('[dashboard] word cloud fallback:', err.message);
+        container.innerHTML = `<div class="sc-wordcloud-fallback">${isEn ? 'Word cloud unavailable' : '文字雲載入失敗'}</div>`;
+        container.removeAttribute('aria-busy');
+      });
+  }
+
+  // Draw the laid-out word cloud into the container as an SVG. d3-cloud has
+  // positioned each word; we just translate to those coordinates.
+  function drawWordCloud(container, words, width, height, isEn) {
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(svgNS, 'svg');
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+    svg.setAttribute('class', 'sc-wordcloud-svg');
+    svg.setAttribute('role', 'img');
+    svg.setAttribute(
+      'aria-label',
+      isEn ? 'Search Console query word cloud' : 'Search Console 關鍵字文字雲',
+    );
+
+    const g = document.createElementNS(svgNS, 'g');
+    g.setAttribute('transform', `translate(${width / 2}, ${height / 2})`);
+    svg.appendChild(g);
+
+    for (const w of words) {
+      const text = document.createElementNS(svgNS, 'text');
+      text.setAttribute('text-anchor', 'middle');
+      text.setAttribute(
+        'transform',
+        `translate(${w.x.toFixed(1)}, ${w.y.toFixed(1)}) rotate(${w.rotate})`,
+      );
+      text.setAttribute('font-size', String(w.size));
+      text.setAttribute(
+        'font-family',
+        '"Noto Sans TC", "Source Han Sans TC", system-ui, sans-serif',
+      );
+      text.setAttribute('fill', w.clicks > 0 ? '#6366f1' : '#94a3b8');
+      text.setAttribute('font-weight', w.clicks > 0 ? '600' : '500');
+      text.setAttribute(
+        'class',
+        w.clicks > 0 ? 'sc-word sc-word-clicked' : 'sc-word',
+      );
+      text.textContent = w.text;
+
+      const titleEl = document.createElementNS(svgNS, 'title');
+      titleEl.textContent =
+        w.clicks > 0
+          ? `${w.text} — ${w.impressions} ${isEn ? 'impressions' : '曝光'} · ${w.clicks} ${isEn ? 'clicks' : '點擊'}`
+          : `${w.text} — ${w.impressions} ${isEn ? 'impressions' : '曝光'}`;
+      text.appendChild(titleEl);
+
+      g.appendChild(text);
+    }
+
+    container.innerHTML = '';
+    container.appendChild(svg);
+    container.removeAttribute('aria-busy');
+  }
+
   function renderAnalytics(data) {
     const totalsEl = document.getElementById('analytics-totals');
-    const sourcesEl = document.getElementById('analytics-sources');
+    const insightsEl = document.getElementById('analytics-insights');
     const pagesEl = document.getElementById('analytics-pages');
+    const articles7dEl = document.getElementById('analytics-articles-7d');
+    const searchEl = document.getElementById('analytics-search');
+    const crawlersEl = document.getElementById('analytics-crawlers');
     const countriesEl = document.getElementById('analytics-countries');
     if (!totalsEl) return;
 
-    const t = data.totals;
+    const ga = data.ga || {};
+    const gaDays = ga.days || 28;
+    const search = data.searchConsole7d || data.searchConsole24h || {};
+    const searchPeriodDays = data.searchConsole7d ? 7 : 1;
+    // Prefer cloudflare7d (fresh from CF cache, 7-day window) over the older
+    // cloudflare24h which stayed hand-curated with the last known aiCrawlers
+    // breakdown. aiCrawlers is carried forward from cloudflare24h by the
+    // generator since Free tier can't refresh it.
+    const cloudflare = data.cloudflare7d || data.cloudflare24h || {};
+    const cloudflareDays = cloudflare.days || (data.cloudflare7d ? 7 : 1);
+    const t = ga.totals || data.totals || {};
     const fmtNum = (n) => (typeof n === 'number' ? n.toLocaleString() : n);
+    const fmtPct = (n) =>
+      typeof n === 'number' && Number.isFinite(n) ? `${n.toFixed(1)}%` : n;
+    const fmtRank = (n) =>
+      typeof n === 'number' && Number.isFinite(n) ? n.toFixed(2) : n;
+    const gaHighlights = ga.highlights || [];
+    const topPages = ga.topPages || data.topPages || [];
+    const topArticles7d = ga.topArticles7d || [];
+    const topQueries = search.topQueries || [];
+    const opportunities = search.opportunities || [];
+    const crawlers = cloudflare.aiCrawlers?.crawlers || [];
+    const topCountries =
+      cloudflare.traffic?.topCountries || data.countries || [];
 
     // Totals row
     totalsEl.innerHTML = [
       {
         icon: '👁️',
-        value: fmtNum(t.pageViews),
-        label: isEn ? 'Page Views' : '頁面瀏覽',
-      },
-      {
-        icon: '👤',
         value: fmtNum(t.activeUsers),
-        label: isEn ? 'Visitors' : '訪客',
-      },
-      {
-        icon: '🔄',
-        value: fmtNum(t.sessions),
-        label: isEn ? 'Sessions' : '工作階段',
+        label: isEn ? 'Active Users (GA)' : '活躍使用者（GA）',
       },
       {
         icon: '🆕',
         value: fmtNum(t.newUsers),
-        label: isEn ? 'New Users' : '新訪客',
+        label: isEn ? 'New Users (GA)' : '新使用者（GA）',
       },
       {
         icon: '⏱️',
-        value: Math.round(parseFloat(t.avgSessionDuration)) + 's',
-        label: isEn ? 'Avg Duration' : '平均停留',
+        value:
+          typeof t.avgEngagementSeconds === 'number'
+            ? `${Math.round(t.avgEngagementSeconds)}s`
+            : `${Math.round(parseFloat(t.avgSessionDuration || 0))}s`,
+        label: isEn ? 'Avg Engagement' : '平均互動',
       },
       {
-        icon: '↩️',
-        value: t.bounceRate + '%',
-        label: isEn ? 'Bounce Rate' : '跳出率',
+        icon: '⚡',
+        value: fmtNum(t.events),
+        label: isEn ? 'Events (GA)' : '事件數（GA）',
+      },
+      {
+        icon: '🔎',
+        value: fmtNum(search.totals?.clicks),
+        label: isEn
+          ? `Search Clicks (${searchPeriodDays}d)`
+          : `搜尋點擊（近 ${searchPeriodDays} 天）`,
+      },
+      {
+        icon: '🤖',
+        value: fmtNum(cloudflare.aiCrawlers?.detectedRequests),
+        label: isEn ? 'AI Crawls' : 'AI 爬取',
       },
     ]
       .map(
@@ -1571,58 +1844,227 @@ const isEn = lang === 'en';
       )
       .join('');
 
-    // Traffic sources
-    if (sourcesEl && data.sources) {
-      const maxSessions = data.sources[0]?.sessions || 1;
-      sourcesEl.innerHTML =
-        `<h3 class="subsection-title">${isEn ? '🔗 Traffic Sources' : '🔗 流量來源'}</h3>` +
-        data.sources
-          .slice(0, 8)
-          .map((s) => {
-            const pct = ((s.sessions / maxSessions) * 100).toFixed(0);
-            const label =
-              s.source === '(direct)'
-                ? isEn
-                  ? 'Direct'
-                  : '直接造訪'
-                : s.source;
-            return `<div class="ga-source-row">
-            <span class="ga-source-name">${label}</span>
-            <div class="ga-source-bar-track">
-              <div class="ga-source-bar-fill" style="width:${pct}%"></div>
-            </div>
-            <span class="ga-source-count">${s.sessions.toLocaleString()}</span>
-          </div>`;
-          })
-          .join('');
-    }
-
-    // Top pages
-    if (pagesEl && data.topPages) {
-      pagesEl.innerHTML =
-        `<h3 class="subsection-title">${isEn ? '🏆 Popular Pages' : '🏆 熱門頁面'}</h3>` +
-        '<div class="ga-pages-list">' +
-        data.topPages
-          .slice(0, 12)
-          .map((p, i) => {
-            const name =
-              p.path === '/'
-                ? isEn
-                  ? 'Home'
-                  : '首頁'
-                : decodeURIComponent(p.path.replace(/^\/|\/$/g, ''));
-            return `<div class="ga-page-row">
-            <span class="ga-page-rank">${i + 1}</span>
-            <a href="${p.path}" target="_blank" rel="noopener" class="ga-page-name">${name}</a>
-            <span class="ga-page-pv">${p.pageViews.toLocaleString()} PV</span>
-          </div>`;
-          })
+    // Multi-source summary
+    if (insightsEl) {
+      const brandShare =
+        search.totals?.clicks > 0
+          ? Math.round(
+              ((search.brand?.clicks || 0) / search.totals.clicks) * 100,
+            )
+          : 0;
+      const successfulCrawls = cloudflare.aiCrawlers?.http200 || 0;
+      insightsEl.innerHTML =
+        `<h3 class="subsection-title">${isEn ? '🧭 Signal Readout' : '🧭 訊號判讀'}</h3>` +
+        '<div class="ga-callouts">' +
+        [
+          {
+            title: isEn ? 'Behavior' : '站內行為',
+            body: isEn
+              ? `${ga.label || 'Recent GA window'} shows home still dominates, while graph/dashboard/map are sticky utility pages.`
+              : `${ga.label || '最近 GA 觀測窗'} 顯示首頁仍是主漏斗，但圖譜、Dashboard、地圖已是高黏著工具頁。`,
+            meta:
+              gaHighlights
+                .slice(0, 2)
+                .map((item) => `${item.title} ${fmtNum(item.views)}`)
+                .join(' · ') || '',
+          },
+          {
+            title: isEn ? 'Search' : '搜尋意圖',
+            body: isEn
+              ? `Only ${fmtNum(search.totals?.clicks)} clicks came in over the last 24h, and ${brandShare}% were brand searches. Discovery is still ahead of capture.`
+              : `過去 24 小時只有 ${fmtNum(search.totals?.clicks)} 次點擊，其中 ${brandShare}% 仍是品牌詞。被看見的速度，仍快於被接住的速度。`,
+            meta: opportunities[0]
+              ? `${opportunities[0].query} · ${fmtNum(opportunities[0].impressions)} imp · #${fmtRank(opportunities[0].position)}`
+              : '',
+          },
+          {
+            title: isEn ? 'Edge + AI' : '邊緣與 AI',
+            body: isEn
+              ? `${fmtNum(cloudflare.aiCrawlers?.detectedRequests)} AI crawler requests arrived in the last 24h; ${fmtNum(successfulCrawls)} returned HTTP 200.`
+              : `過去 24 小時 Cloudflare 看見 ${fmtNum(cloudflare.aiCrawlers?.detectedRequests)} 次 AI crawler 請求，其中 ${fmtNum(successfulCrawls)} 次成功拿到 HTTP 200。`,
+            meta: cloudflare.aiCrawlers?.topCrawler
+              ? `${cloudflare.aiCrawlers.topCrawler.name} ${fmtNum(cloudflare.aiCrawlers.topCrawler.requests)} · ${cloudflare.aiCrawlers.topPath?.path || ''}`
+              : '',
+          },
+        ]
+          .map(
+            (item) => `<div class="ga-callout">
+              <div class="ga-callout-title">${item.title}</div>
+              <div class="ga-callout-body">${item.body}</div>
+              <div class="ga-callout-meta">${item.meta}</div>
+            </div>`,
+          )
           .join('') +
         '</div>';
     }
 
-    // Countries
-    if (countriesEl && data.countries) {
+    // Helper: render a GA page/article list (clickable rows → new tab, 2-col layout)
+    const renderGaList = (rows, titleText) => {
+      const items = rows.slice(0, 20);
+      const mid = Math.ceil(items.length / 2);
+      const leftItems = items.slice(0, mid);
+      const rightItems = items.slice(mid);
+
+      const renderItem = (p, i) => {
+        const rawTitle = p.title
+          ? p.title.replace(/\s+\|\s+Taiwan\.md$/, '')
+          : '';
+        const fallbackName =
+          p.path === '/' || p.path === ''
+            ? isEn
+              ? 'Home'
+              : '首頁'
+            : decodeURIComponent((p.path || '').replace(/^\/|\/$/g, ''));
+        const name = rawTitle || fallbackName;
+        const href = p.path || '/';
+        return `<a class="ga-page-row ga-page-row-link" href="${href}" target="_blank" rel="noopener noreferrer">
+            <span class="ga-page-rank">${i + 1}</span>
+            <span class="ga-page-name">${name}</span>
+            <span class="ga-page-pv">${fmtNum(p.views || p.pageViews)} ${isEn ? 'views' : '瀏覽'}</span>
+          </a>`;
+      };
+
+      return (
+        `<h3 class="subsection-title">${titleText}</h3>` +
+        '<div class="ga-pages-list-2col">' +
+        '<div class="ga-pages-list-col">' +
+        leftItems.map((p, i) => renderItem(p, i)).join('') +
+        '</div>' +
+        '<div class="ga-pages-list-col">' +
+        rightItems.map((p, i) => renderItem(p, i + mid)).join('') +
+        '</div>' +
+        '</div>'
+      );
+    };
+
+    // GA top pages — top 20 pages (28d window, deduped by normalized path)
+    if (pagesEl && topPages.length) {
+      const pagesTitle = isEn
+        ? `🏆 GA Top Pages (last ${gaDays}d)`
+        : `🏆 GA 熱門頁面（近 ${gaDays} 天）`;
+      pagesEl.innerHTML = renderGaList(topPages, pagesTitle);
+    }
+
+    // GA top articles — last 7 days, excludes hubs/meta pages via regex filter
+    if (articles7dEl && topArticles7d.length) {
+      const articlesTitle = isEn
+        ? '📰 GA Top Articles (last 7d)'
+        : '📰 GA 熱門文章（近 7 天）';
+      articles7dEl.innerHTML = renderGaList(topArticles7d, articlesTitle);
+    }
+
+    // Search Console — 7-day data (falls back to 24h if 7d not present)
+    if (searchEl && topQueries.length) {
+      const scLabel = isEn
+        ? `🔎 Search Console (${searchPeriodDays}d)`
+        : `🔎 Search Console（近 ${searchPeriodDays} 天）`;
+
+      // Word cloud: all queries with ≥1 impression. Rendered via d3-cloud
+      // layout (see https://observablehq.com/@d3/word-cloud) into an SVG
+      // with max 16:9 aspect ratio. The actual d3.layout.cloud() call happens
+      // after the innerHTML is set (see renderWordCloudSvg below).
+      const wordCloud = search.wordCloud || [];
+      let wordCloudHtml = '';
+      if (wordCloud.length) {
+        const cloudTitle = isEn
+          ? `☁️ All Queries (${wordCloud.length})`
+          : `☁️ 所有關鍵字（${wordCloud.length} 個）`;
+        wordCloudHtml =
+          `<h4 class="ga-block-title">${cloudTitle}</h4>` +
+          `<div class="sc-wordcloud-container" aria-busy="true">
+             <div class="sc-wordcloud-loading">${isEn ? 'Building cloud…' : '計算中⋯'}</div>
+           </div>`;
+      }
+
+      searchEl.innerHTML =
+        `<h3 class="subsection-title">${scLabel}</h3>` +
+        `<div class="ga-subtle">${
+          isEn
+            ? `${fmtNum(search.totals?.impressions)} impressions · ${fmtNum(search.totals?.clicks)} clicks · ${fmtPct(search.totals?.ctr)} CTR`
+            : `${fmtNum(search.totals?.impressions)} 曝光 · ${fmtNum(search.totals?.clicks)} 點擊 · ${fmtPct(search.totals?.ctr)} CTR`
+        }</div>` +
+        (() => {
+          const qItems = topQueries.slice(0, 20);
+          const qMid = Math.ceil(qItems.length / 2);
+          const renderQ = (q, i) => `<div class="sc-query-row">
+              <span class="sc-query-rank">${i + 1}</span>
+              <span class="sc-query-label">${q.query}</span>
+              <span class="sc-query-clicks">${fmtNum(q.clicks)} ${isEn ? 'clicks' : '點擊'}</span>
+              <span class="sc-query-impr">${fmtNum(q.impressions)} ${isEn ? 'impr' : '曝光'}</span>
+              <span class="sc-query-ctr">${fmtPct(q.ctr)}</span>
+              <span class="sc-query-pos">#${fmtRank(q.position)}</span>
+            </div>`;
+          return (
+            '<div class="sc-queries-grid">' +
+            '<div class="sc-queries-col">' +
+            qItems
+              .slice(0, qMid)
+              .map((q, i) => renderQ(q, i))
+              .join('') +
+            '</div>' +
+            '<div class="sc-queries-col">' +
+            qItems
+              .slice(qMid)
+              .map((q, i) => renderQ(q, i + qMid))
+              .join('') +
+            '</div>' +
+            '</div>'
+          );
+        })() +
+        (opportunities.length
+          ? `<h4 class="ga-block-title">${isEn ? 'Best Next Fixes' : '優先補洞'}</h4>` +
+            '<div class="ga-mini-list">' +
+            opportunities
+              .slice(0, 5)
+              .map(
+                (q) => `<div class="ga-mini-row">
+                  <span class="ga-mini-label">${q.query}</span>
+                  <span class="ga-mini-meta">${fmtNum(q.impressions)}i / #${fmtRank(q.position)}</span>
+                </div>`,
+              )
+              .join('') +
+            '</div>'
+          : '') +
+        wordCloudHtml;
+
+      // Now the container exists in the DOM — render the d3-cloud SVG into it.
+      // Runs async (waits for d3 CDN scripts to finish loading).
+      if (wordCloud.length) {
+        renderWordCloudSvg(
+          searchEl.querySelector('.sc-wordcloud-container'),
+          wordCloud,
+          isEn,
+        );
+      }
+    }
+
+    // Cloudflare AI crawler watch
+    if (crawlersEl && crawlers.length) {
+      const maxRequests = crawlers[0]?.requests || 1;
+      crawlersEl.innerHTML =
+        `<h3 class="subsection-title">${isEn ? '🤖 AI Crawl Watch' : '🤖 AI 爬行監測'}${cloudflare.aiCrawlersStale ? ' <span class="ga-stale-hint" title="Last refreshed snapshot — Free tier cannot auto-fetch user-agent breakdown">●</span>' : ''}</h3>` +
+        `<div class="ga-kpi-strip">
+          <span>${isEn ? 'Allowed' : '允許'} ${fmtNum(cloudflare.aiCrawlers?.allowedRequests)}</span>
+          <span>HTTP 200 ${fmtNum(cloudflare.aiCrawlers?.http200)}</span>
+          <span>${isEn ? 'Failed' : '失敗'} ${fmtNum(cloudflare.aiCrawlers?.unsuccessfulRequests)}</span>
+        </div>` +
+        crawlers
+          .slice(0, 8)
+          .map((crawler) => {
+            const pct = ((crawler.requests / maxRequests) * 100).toFixed(0);
+            return `<div class="ga-source-row">
+              <span class="ga-source-name">${crawler.name}</span>
+              <div class="ga-source-bar-track">
+                <div class="ga-source-bar-fill" style="width:${pct}%"></div>
+              </div>
+              <span class="ga-source-count">${fmtNum(crawler.requests)}</span>
+            </div>`;
+          })
+          .join('');
+    }
+
+    // Countries / regions
+    if (countriesEl && topCountries.length) {
       const countryFlags = {
         Taiwan: '🇹🇼',
         'United States': '🇺🇸',
@@ -1649,22 +2091,23 @@ const isEn = lang === 'en';
         Spain: '🇪🇸',
         Italy: '🇮🇹',
       };
-      const maxUsers = data.countries[0]?.users || 1;
+      const maxUsers = topCountries[0]?.requests || topCountries[0]?.users || 1;
       countriesEl.innerHTML =
-        `<h3 class="subsection-title">${isEn ? '🌍 Visitor Geography' : '🌍 訪客地理分布'}</h3>` +
+        `<h3 class="subsection-title">${isEn ? `🌍 Edge Geography (${cloudflareDays}d)` : `🌍 邊緣流量地理（近 ${cloudflareDays} 天）`}</h3>` +
         '<div class="ga-countries-list">' +
-        data.countries
-          .slice(0, 12)
+        topCountries
+          .slice(0, 8)
           .map((c) => {
             const flag = countryFlags[c.country] || '🌐';
-            const pct = ((c.users / maxUsers) * 100).toFixed(0);
+            const count = c.requests || c.users;
+            const pct = ((count / maxUsers) * 100).toFixed(0);
             return `<div class="ga-country-row">
             <span class="ga-country-flag">${flag}</span>
             <span class="ga-country-name">${c.country}</span>
             <div class="ga-country-bar-track">
               <div class="ga-country-bar-fill" style="width:${pct}%"></div>
             </div>
-            <span class="ga-country-count">${c.users.toLocaleString()}</span>
+            <span class="ga-country-count">${fmtNum(count)}</span>
           </div>`;
           })
           .join('') +
@@ -1830,26 +2273,9 @@ const isEn = lang === 'en';
     background: #fafbfc;
   }
 
-  .hero {
-    text-align: center;
-    padding: 3rem 2rem 2rem;
-    background: linear-gradient(135deg, #1a1a2e 0%, #2d1b69 60%, #1a1a2e 100%);
-    color: #fff;
-    border-radius: 16px;
-    margin-bottom: 1rem;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero-ekg {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    transform: translateY(-50%);
-    opacity: 0.6;
-    pointer-events: none;
-  }
+  /* EKG animation kept scoped — the animation name can't be
+     referenced from a Tailwind arbitrary utility without moving
+     the @keyframes to global.css. Too small a win to justify. */
   .ekg-line {
     stroke-dasharray: 800;
     stroke-dashoffset: 800;
@@ -1868,63 +2294,6 @@ const isEn = lang === 'en';
       stroke-dashoffset: -800;
       opacity: 0.3;
     }
-  }
-  .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    position: relative;
-  }
-  .hero-emoji {
-    font-size: 1.8rem;
-  }
-  .hero-subtitle {
-    font-size: 1.1rem;
-    opacity: 0.8;
-    margin-bottom: 0.3rem;
-    position: relative;
-  }
-  .hero-desc {
-    opacity: 0.8;
-    font-size: 0.9rem;
-    position: relative;
-  }
-  .hero-cognition-link {
-    display: inline-block;
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
-    color: #94a3b8;
-    text-decoration: none;
-    opacity: 0.8;
-    transition: opacity 0.2s;
-  }
-  .hero-cognition-link:hover {
-    opacity: 1;
-    color: #cbd5e1;
-  }
-  .hero-stats {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 1.5rem;
-    position: relative;
-  }
-  .hero-stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero-stat-value {
-    font-size: 2.8rem;
-    font-weight: 900;
-    line-height: 1.1;
-    font-variant-numeric: tabular-nums;
-  }
-  .hero-stat-label {
-    font-size: 0.85rem;
-    opacity: 0.7;
-    margin-top: 0.3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
   }
 
   .section {
@@ -2529,6 +2898,7 @@ const isEn = lang === 'en';
     pointer-events: none;
     z-index: 10;
     white-space: nowrap;
+    max-width: calc(100% - 24px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
@@ -2859,15 +3229,9 @@ const isEn = lang === 'en';
     .dashboard {
       padding: 1rem;
     }
-    .hero-title {
-      font-size: 1.5rem;
-    }
-    .hero-stats {
-      gap: 1.5rem;
-    }
-    .hero-stat-value {
-      font-size: 2rem;
-    }
+    /* .hero-title / .hero-stats / .hero-stat-value orphan responsive
+       overrides removed in Phase 7.6 font hotfix — hero is inline
+       Tailwind now (max-md:text-[1.5rem] etc. on the h1 directly). */
     .vitals-grid {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -2898,13 +3262,6 @@ const isEn = lang === 'en';
       gap: 0.6rem;
     }
     .vital-value {
-      font-size: 1.8rem;
-    }
-    .hero-stats {
-      flex-direction: column;
-      gap: 0.8rem;
-    }
-    .hero-stat-value {
       font-size: 1.8rem;
     }
     .organ-grid {
@@ -2956,8 +3313,28 @@ const isEn = lang === 'en';
   }
   .analytics-detail-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
+  }
+  .analytics-full {
+    grid-column: 1 / -1;
+  }
+  .ga-pages-list-2col {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .ga-pages-list-col {
+    flex: 1;
+    min-width: 0;
+  }
+  @media (max-width: 720px) {
+    .analytics-detail-grid {
+      grid-template-columns: 1fr;
+    }
+    .ga-pages-list-2col {
+      flex-direction: column;
+      gap: 0;
+    }
   }
   .analytics-pages,
   .analytics-countries,
@@ -2967,6 +3344,8 @@ const isEn = lang === 'en';
     border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: 12px;
     padding: 1.2rem;
+    overflow: hidden;
+    min-width: 0;
   }
   .ga-source-row,
   .ga-country-row {
@@ -3025,6 +3404,20 @@ const isEn = lang === 'en';
     padding: 0.35rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   }
+  a.ga-page-row-link {
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.15s ease;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border-radius: 6px;
+  }
+  a.ga-page-row-link:hover {
+    background: rgba(139, 92, 246, 0.08);
+  }
+  a.ga-page-row-link:hover .ga-page-name {
+    color: #8b5cf6;
+  }
   .ga-page-rank {
     width: 22px;
     height: 22px;
@@ -3057,12 +3450,214 @@ const isEn = lang === 'en';
     color: #64748b;
     flex-shrink: 0;
   }
-  @media (max-width: 768px) {
-    .analytics-detail-grid {
-      grid-template-columns: 1fr;
+  .ga-callouts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.8rem;
+  }
+  .ga-callout {
+    padding: 0.95rem;
+    border-radius: 10px;
+    background: rgba(248, 250, 252, 0.85);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+  }
+  .ga-callout-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 0.35rem;
+  }
+  .ga-callout-body {
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: #334155;
+  }
+  .ga-callout-meta,
+  .ga-subtle {
+    margin-top: 0.45rem;
+    font-size: 0.75rem;
+    color: #64748b;
+  }
+  .ga-mini-list {
+    margin-top: 0.7rem;
+  }
+  .ga-mini-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+  .ga-mini-label {
+    flex: 1;
+    font-size: 0.82rem;
+    color: #0f172a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .ga-mini-meta,
+  .ga-kpi-strip {
+    font-size: 0.76rem;
+    color: #64748b;
+    flex-shrink: 0;
+  }
+  .ga-kpi-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 0.45rem 0 0.75rem;
+    font-weight: 600;
+  }
+  .ga-block-title {
+    margin: 1rem 0 0.3rem;
+    font-size: 0.82rem;
+    color: #334155;
+  }
+  .ga-stale-hint {
+    display: inline-block;
+    color: #f59e0b;
+    font-size: 0.6rem;
+    vertical-align: middle;
+    margin-left: 0.3rem;
+    cursor: help;
+  }
+  /* Search Console word cloud — d3-cloud SVG layout, 16:9 max aspect.
+     Container provides the dashed-purple "cloud field" background; the SVG
+     inside is auto-sized to fit. */
+  .sc-wordcloud-container {
+    margin-top: 0.4rem;
+    padding: 0.75rem;
+    background: rgba(99, 102, 241, 0.03);
+    border: 1px dashed rgba(99, 102, 241, 0.15);
+    border-radius: 12px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .sc-wordcloud-container[aria-busy='true'] {
+    min-height: 320px;
+  }
+  .sc-wordcloud-loading,
+  .sc-wordcloud-fallback {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-style: italic;
+  }
+  .sc-wordcloud-svg {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+  .sc-word {
+    cursor: default;
+    transition:
+      fill 0.15s ease,
+      opacity 0.15s ease;
+  }
+  .sc-word:hover {
+    fill: #4338ca !important;
+    opacity: 1;
+  }
+  .sc-wordcloud-svg:hover .sc-word:not(:hover) {
+    opacity: 0.5;
+  }
+
+  /* Search Console 7d — richer per-query row */
+  .sc-queries-grid {
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .sc-queries-col {
+    flex: 1;
+    min-width: 0;
+  }
+  @media (max-width: 720px) {
+    .sc-queries-grid {
+      flex-direction: column;
+      gap: 0;
     }
+  }
+  .sc-query-row {
+    display: grid;
+    grid-template-columns: 22px minmax(0, 1fr) auto auto auto auto;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    font-size: 0.78rem;
+  }
+  .sc-query-rank {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366f1;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  .sc-query-label {
+    color: #0f172a;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+  }
+  .sc-query-clicks {
+    color: #0f172a;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+  .sc-query-impr,
+  .sc-query-ctr,
+  .sc-query-pos {
+    color: #64748b;
+    font-variant-numeric: tabular-nums;
+  }
+  .sc-query-pos {
+    color: #94a3b8;
+  }
+  @media (max-width: 768px) {
     .analytics-totals {
       grid-template-columns: repeat(3, 1fr);
+    }
+    .ga-mini-row {
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .sc-query-row {
+      grid-template-columns: 22px minmax(0, 1fr) auto;
+      row-gap: 0.15rem;
+    }
+    .sc-query-impr,
+    .sc-query-ctr,
+    .sc-query-pos {
+      display: none;
+    }
+    .ga-source-name,
+    .ga-country-name {
+      width: 90px;
+      font-size: 0.75rem;
+    }
+    .ga-source-count,
+    .ga-country-count {
+      width: 45px;
+      font-size: 0.7rem;
+    }
+    .ga-page-pv {
+      font-size: 0.7rem;
+    }
+    .ga-page-name {
+      font-size: 0.78rem;
     }
   }
 </style>

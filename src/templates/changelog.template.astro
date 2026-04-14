@@ -1,67 +1,200 @@
 ---
+import CommitLog from '../components/commits/CommitLog.astro';
 import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+import { fetchCommitFeed, commitType } from '../lib/commits';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { changelogUI } from '../i18n/changelog';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const cl = changelogUI[lang] || changelogUI['en'];
+const { commits, source } = await fetchCommitFeed(9999);
 
-// Fetch commit history from GitHub API (works in shallow clone CI/CD environments)
-let commits: { hash: string; date: string; message: string; author: string }[] =
-  [];
-try {
-  const res = await fetch(
-    'https://api.github.com/repos/frank890417/taiwan-md/commits?per_page=100',
-  );
-  if (res.ok) {
-    const data = await res.json();
-    commits = data.map((c: any) => ({
-      hash: c.sha,
-      date: c.commit.author.date,
-      message: c.commit.message.split('\n')[0],
-      author: c.commit.author.name,
-    }));
-  }
-} catch (e) {
-  console.warn('Failed to fetch commits from GitHub API:', e);
-}
+const sourceLabel =
+  lang === 'zh-TW'
+    ? source === 'git'
+      ? '來自專案 git 紀錄'
+      : source === 'cache'
+        ? '來自 build 時快取的 commit feed'
+        : source === 'github'
+          ? '來自 GitHub commit feed'
+          : '目前無法取得更新資料'
+    : source === 'git'
+      ? 'From local git history'
+      : source === 'cache'
+        ? 'From the build-time cached commit feed'
+        : source === 'github'
+          ? 'From the GitHub commit feed'
+          : 'Updates are temporarily unavailable';
 
-// Group commits by date
-const grouped: Record<string, typeof commits> = {};
+// Group by day for left nav
+const grouped: Record<string, number> = {};
 for (const commit of commits) {
-  const day = commit.date.slice(0, 10); // YYYY-MM-DD
-  if (!grouped[day]) grouped[day] = [];
-  grouped[day].push(commit);
-}
-const sortedDays = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
-
-function formatDate(dateStr: string) {
-  const d = new Date(dateStr);
-  return d.toLocaleDateString(t('changelog.locale'), {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    weekday: 'short',
-  });
+  const day = commit.date.slice(0, 10);
+  grouped[day] = (grouped[day] || 0) + 1;
 }
 
-function commitIcon(msg: string) {
-  if (msg.startsWith('feat')) return '✨';
-  if (msg.startsWith('fix')) return '🐛';
-  if (msg.startsWith('content')) return '📝';
-  if (msg.startsWith('docs')) return '📖';
-  if (msg.startsWith('style')) return '🎨';
-  if (msg.startsWith('refactor')) return '♻️';
-  if (msg.startsWith('chore')) return '🔧';
-  return '📌';
+// Group days by month
+const months: Record<string, string[]> = {};
+for (const day of Object.keys(grouped)) {
+  const month = day.slice(0, 7);
+  if (!months[month]) months[month] = [];
+  months[month].push(day);
+}
+const sortedMonths = Object.keys(months).sort((a, b) => b.localeCompare(a));
+for (const m of sortedMonths) {
+  months[m].sort((a, b) => b.localeCompare(a));
 }
 
-// Pass translations to the inline script
-const translations = {
-  justNow: t('changelog.time.just-now'),
-  minutesAgo: t('changelog.time.minutes-ago'),
-  hoursAgo: t('changelog.time.hours-ago'),
-  daysAgo: t('changelog.time.days-ago'),
-};
+// Count by type for filter pills
+const typeCounts: Record<string, number> = { all: commits.length };
+for (const commit of commits) {
+  const ct = commitType(commit.message);
+  typeCounts[ct] = (typeCounts[ct] || 0) + 1;
+}
+
+function formatMonth(monthStr: string): string {
+  const [y, m] = monthStr.split('-');
+  if (lang === 'zh-TW') return `${y} 年 ${parseInt(m)} 月`;
+  if (lang === 'ja') return `${y}年${parseInt(m)}月`;
+  if (lang === 'ko') return `${y}년 ${parseInt(m)}월`;
+  const names = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+  return `${names[parseInt(m) - 1]} ${y}`;
+}
+
+const filterTypes = [
+  {
+    key: 'all',
+    icon: '',
+    label:
+      lang === 'zh-TW'
+        ? '全部'
+        : lang === 'ja'
+          ? 'すべて'
+          : lang === 'ko'
+            ? '전체'
+            : 'All',
+  },
+  {
+    key: 'rewrite',
+    icon: '✍️',
+    label:
+      lang === 'zh-TW'
+        ? '重寫'
+        : lang === 'ja'
+          ? '書き直し'
+          : lang === 'ko'
+            ? '재작성'
+            : 'Rewrite',
+  },
+  {
+    key: 'evolve',
+    icon: '🧬',
+    label:
+      lang === 'zh-TW'
+        ? '進化'
+        : lang === 'ja'
+          ? '進化'
+          : lang === 'ko'
+            ? '진화'
+            : 'Evolve',
+  },
+  {
+    key: 'translate',
+    icon: '🌐',
+    label:
+      lang === 'zh-TW'
+        ? '翻譯'
+        : lang === 'ja'
+          ? '翻訳'
+          : lang === 'ko'
+            ? '번역'
+            : 'Translate',
+  },
+  {
+    key: 'feat',
+    icon: '✨',
+    label:
+      lang === 'zh-TW'
+        ? '功能'
+        : lang === 'ja'
+          ? '機能'
+          : lang === 'ko'
+            ? '기능'
+            : 'Feature',
+  },
+  {
+    key: 'fix',
+    icon: '🐛',
+    label:
+      lang === 'zh-TW'
+        ? '修復'
+        : lang === 'ja'
+          ? '修正'
+          : lang === 'ko'
+            ? '수정'
+            : 'Fix',
+  },
+  {
+    key: 'merge',
+    icon: '🔀',
+    label:
+      lang === 'zh-TW'
+        ? '合併'
+        : lang === 'ja'
+          ? 'マージ'
+          : lang === 'ko'
+            ? '병합'
+            : 'Merge',
+  },
+  {
+    key: 'content',
+    icon: '📝',
+    label:
+      lang === 'zh-TW'
+        ? '內容'
+        : lang === 'ja'
+          ? 'コンテンツ'
+          : lang === 'ko'
+            ? '콘텐츠'
+            : 'Content',
+  },
+  {
+    key: 'maintenance',
+    icon: '🔧',
+    label:
+      lang === 'zh-TW'
+        ? '維護'
+        : lang === 'ja'
+          ? 'メンテ'
+          : lang === 'ko'
+            ? '유지보수'
+            : 'Maintenance',
+  },
+];
+
+const searchPlaceholder =
+  lang === 'zh-TW'
+    ? '搜尋更新紀錄...'
+    : lang === 'ja'
+      ? '更新履歴を検索...'
+      : lang === 'ko'
+        ? '업데이트 검색...'
+        : 'Search updates...';
 ---
 
 <Layout
@@ -69,295 +202,272 @@ const translations = {
   description={t('changelog.meta.description')}
   lang={lang}
 >
-  <div class="changelog-page">
-    <header class="changelog-header">
-      <h1>{t('changelog.header.title')}</h1>
-      <p class="changelog-subtitle">
-        {t('changelog.header.subtitle')}
-      </p>
-      <p class="changelog-meta">
-        {lang === 'zh-TW' ? '共 ' : ''}{commits.length}
-        {t('changelog.header.meta.updates')} · {
-          t('changelog.header.meta.synced')
-        }
-        <a
-          href="https://github.com/frank890417/taiwan-md/commits/main"
-          target="_blank">GitHub</a
+  <div
+    class="mx-auto max-w-[1100px] px-8 pb-24 pt-16 max-[768px]:max-w-full max-[768px]:px-4 max-[768px]:pb-16 max-[768px]:pt-12"
+  >
+    {/* Hero */}
+    <div class="mb-10">
+      <PageHero
+        containerWidth="full"
+        padding="compact"
+        titleFont="sans"
+        titleTracking="wide"
+        titleSize="sm"
+        title={t('changelog.header.title')}
+        subtitle={t('changelog.header.subtitle')}
+      >
+        <p
+          slot="meta"
+          class="[&>a:hover]:underline [&>a]:text-[#3b82f6] [&>a]:no-underline"
         >
-      </p>
-    </header>
+          {lang === 'zh-TW' ? '共 ' : ''}{commits.length}{' '}
+          {t('changelog.header.meta.updates')} · {sourceLabel} ·
+          <a
+            href="https://github.com/frank890417/taiwan-md/commits/main"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
+      </PageHero>
+    </div>
 
-    <div class="changelog-timeline">
-      {
-        sortedDays.map((day, i) => (
-          <div class="changelog-day">
-            <div class="day-indicator">
-              <div class="day-dot" />
-              <div class="day-line" />
-            </div>
-            <div class="day-body">
-              <div class="day-header">
-                <h2>{formatDate(day)}</h2>
-                <span class="day-count">
-                  {grouped[day].length} {t('changelog.day.updates')}
-                </span>
-              </div>
-              <div class="day-commits">
-                {grouped[day].map((commit) => (
-                  <div class="commit-item">
-                    <span class="commit-icon">
-                      {commitIcon(commit.message)}
+    {/* Search + Filter Controls */}
+    <div
+      id="changelog-controls"
+      class="sticky top-[64px] z-20 -mx-4 mb-6 border-b border-[#e2e8f0] bg-white/95 px-4 py-3 backdrop-blur-sm max-[768px]:top-[56px]"
+    >
+      <div class="mb-3">
+        <input
+          type="text"
+          id="changelog-search"
+          placeholder={searchPlaceholder}
+          class="w-full rounded-lg border border-[#d1d5db] bg-white px-4 py-2.5 text-sm text-[#1f2937] outline-none transition-colors placeholder:text-[#9ca3af] focus:border-[#3b82f6] focus:ring-2 focus:ring-[#3b82f6]/20"
+        />
+      </div>
+      <div
+        class="flex flex-wrap gap-2 max-[768px]:overflow-x-auto max-[768px]:flex-nowrap max-[768px]:pb-1"
+      >
+        {
+          filterTypes
+            .filter((f) => f.key === 'all' || (typeCounts[f.key] || 0) > 0)
+            .map((f) => (
+              <button
+                class:list={[
+                  'filter-pill whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition-all',
+                  f.key === 'all'
+                    ? 'border-[#3b82f6] bg-[#3b82f6] text-white'
+                    : 'border-[#e2e8f0] bg-white text-[#64748b] hover:border-[#94a3b8] hover:bg-[#f8fafc]',
+                ]}
+                data-type={f.key}
+              >
+                {f.icon}
+                {f.icon ? ' ' : ''}
+                {f.label}
+                <span class="ml-1 opacity-60">{typeCounts[f.key] || 0}</span>
+              </button>
+            ))
+        }
+      </div>
+      <div id="filter-status" class="mt-2 hidden text-xs text-[#64748b]"></div>
+    </div>
+
+    {/* Two-column layout */}
+    <div class="grid grid-cols-[200px_1fr] gap-8 max-lg:grid-cols-1">
+      {/* Left: Date Navigation */}
+      <nav
+        id="date-nav"
+        class="sticky top-[180px] max-h-[calc(100vh-12rem)] overflow-y-auto pr-2 max-lg:hidden"
+        style="scrollbar-color: rgba(26,60,52,0.12) transparent; scrollbar-width: thin;"
+      >
+        {
+          sortedMonths.map((month) => (
+            <div class="mb-5">
+              <h3 class="mb-2 text-[0.7rem] font-bold uppercase tracking-wider text-[#94a3b8]">
+                {formatMonth(month)}
+              </h3>
+              <div class="flex flex-col gap-0.5">
+                {months[month].map((day) => (
+                  <a
+                    href={`#day-${day}`}
+                    class="date-nav-link flex items-center justify-between rounded-md px-2.5 py-1.5 text-[0.8rem] text-[#64748b] no-underline transition-colors hover:bg-[#f1f5f9] hover:text-[#1e293b]"
+                    data-day={day}
+                  >
+                    <span>{day.slice(5)}</span>
+                    <span class="text-[0.7rem] text-[#94a3b8]">
+                      {grouped[day]}
                     </span>
-                    <div class="commit-content">
-                      <p class="commit-message">{commit.message}</p>
-                      <div class="commit-meta">
-                        <span class="commit-author">{commit.author}</span>
-                        <span class="commit-time" data-date={commit.date}>
-                          {new Date(commit.date).toLocaleTimeString([], {
-                            hour: '2-digit',
-                            minute: '2-digit',
-                          })}
-                        </span>
-                        <a
-                          href={`https://github.com/frank890417/taiwan-md/commit/${commit.hash}`}
-                          target="_blank"
-                          class="commit-hash"
-                        >
-                          {commit.hash.slice(0, 7)}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  </a>
                 ))}
               </div>
             </div>
-          </div>
-        ))
-      }
+          ))
+        }
+      </nav>
+
+      {/* Right: Commit Timeline */}
+      <div id="commit-list">
+        <CommitLog
+          commits={commits}
+          lang={lang}
+          variant="timeline"
+          locale={t('changelog.locale')}
+          dayUpdatesLabel={t('changelog.day.updates')}
+          emptyTitle={lang === 'zh-TW'
+            ? '目前暫時抓不到更新紀錄'
+            : 'Update history is temporarily unavailable'}
+          emptyDescription={lang === 'zh-TW'
+            ? '這頁現在會優先讀取 git，失敗時會退回 build-time 快取與 GitHub，避免部署後整頁空白。'
+            : 'This page now prefers git, then falls back to a build-time cache and GitHub to avoid shipping an empty changelog.'}
+          emptyLinkHref="https://github.com/frank890417/taiwan-md/commits/main"
+          emptyLinkLabel="GitHub"
+          relativeTimeLabels={{
+            justNow: t('changelog.time.just-now'),
+            minutesAgo: t('changelog.time.minutes-ago'),
+            hoursAgo: t('changelog.time.hours-ago'),
+            daysAgo: t('changelog.time.days-ago'),
+          }}
+        />
+      </div>
     </div>
   </div>
-
-  <script is:inline define:vars={{ translations }}>
-    function updateRelativeTimes() {
-      const timeElements = document.querySelectorAll('.commit-time');
-      const now = new Date();
-
-      timeElements.forEach((el) => {
-        const date = new Date(el.getAttribute('data-date'));
-        const diffInSeconds = Math.floor((now - date) / 1000);
-
-        let relativeTime = '';
-        if (diffInSeconds < 60) {
-          relativeTime = translations.justNow;
-        } else if (diffInSeconds < 3600) {
-          relativeTime = `${Math.floor(diffInSeconds / 60)} ${translations.minutesAgo}`;
-        } else if (diffInSeconds < 86400) {
-          relativeTime = `${Math.floor(diffInSeconds / 3600)} ${translations.hoursAgo}`;
-        } else if (diffInSeconds < 2592000) {
-          relativeTime = `${Math.floor(diffInSeconds / 86400)} ${translations.daysAgo}`;
-        } else {
-          relativeTime = date.toLocaleDateString();
-        }
-
-        el.textContent = relativeTime;
-      });
-    }
-
-    // Update on load and then every minute
-    updateRelativeTimes();
-    setInterval(updateRelativeTimes, 60000);
-  </script>
 </Layout>
 
-<style>
-  .changelog-page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 4rem 2rem 6rem;
+<script is:inline>
+  // ── Search + Type Filter ─────────────────────────
+  const searchInput = document.getElementById('changelog-search');
+  const pills = document.querySelectorAll('.filter-pill');
+  const items = document.querySelectorAll('.commit-log-item');
+  const dayGroups = document.querySelectorAll('.changelog-day-group');
+  const dateNavLinks = document.querySelectorAll('.date-nav-link');
+  const filterStatus = document.getElementById('filter-status');
+
+  let activeType = 'all';
+
+  function getItemType(item) {
+    return item.getAttribute('data-type') || 'other';
   }
 
-  .changelog-header {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
+  function applyFilters() {
+    const query = (searchInput?.value || '').toLowerCase().trim();
+    let visibleCount = 0;
+    let totalCount = items.length;
 
-  .changelog-header h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #1a1a2e;
-    margin-bottom: 0.75rem;
-    font-family:
-      'jf-jinxuanlatte', 'Noto Sans TC', 'Source Han Sans TC', sans-serif;
-    letter-spacing: 0.05em;
-  }
+    items.forEach((item) => {
+      const msg = item.querySelector('p')?.textContent?.toLowerCase() || '';
+      const author =
+        item.querySelector('.font-semibold')?.textContent?.toLowerCase() || '';
+      const type = getItemType(item);
 
-  .changelog-subtitle {
-    font-size: 1.15rem;
-    color: #64748b;
-    margin-bottom: 1rem;
-    font-weight: 500;
-  }
+      const matchesSearch =
+        !query || msg.includes(query) || author.includes(query);
+      const matchesType = activeType === 'all' || type === activeType;
+      const visible = matchesSearch && matchesType;
 
-  .changelog-meta {
-    font-size: 0.9rem;
-    color: #94a3b8;
-  }
+      item.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
 
-  .changelog-meta a {
-    color: #3b82f6;
-    text-decoration: none;
-  }
+    // Hide day groups where all items are hidden
+    dayGroups.forEach((group) => {
+      const visibleItems = group.querySelectorAll(
+        '.commit-log-item:not([style*="display: none"])',
+      );
+      const dayContainer = group;
+      dayContainer.style.display = visibleItems.length ? '' : 'none';
 
-  .changelog-meta a:hover {
-    text-decoration: underline;
-  }
+      // Update count badge
+      const badge = group.querySelector('.rounded-full.bg-\\[\\#f1f5f9\\]');
+      if (badge && visibleItems.length) {
+        const dayLabel = badge.textContent.replace(/\d+/, '');
+        badge.textContent = visibleItems.length + dayLabel;
+      }
+    });
 
-  /* Timeline */
-  .changelog-timeline {
-    display: flex;
-    flex-direction: column;
-  }
+    // Update left nav visibility + counts
+    dateNavLinks.forEach((link) => {
+      const day = link.getAttribute('data-day');
+      const dayGroup = document.getElementById('day-' + day);
+      if (dayGroup) {
+        const hidden = dayGroup.style.display === 'none';
+        link.style.display = hidden ? 'none' : '';
+        if (!hidden) {
+          const countEl = link.querySelector('span:last-child');
+          const visibleItems = dayGroup.querySelectorAll(
+            '.commit-log-item:not([style*="display: none"])',
+          );
+          if (countEl) countEl.textContent = String(visibleItems.length);
+        }
+      }
+    });
 
-  .changelog-day {
-    display: grid;
-    grid-template-columns: 32px 1fr;
-    gap: 0 1rem;
-  }
+    // Hide empty month headers
+    document.querySelectorAll('#date-nav > div').forEach((monthSection) => {
+      const visibleLinks = monthSection.querySelectorAll(
+        '.date-nav-link:not([style*="display: none"])',
+      );
+      monthSection.style.display = visibleLinks.length ? '' : 'none';
+    });
 
-  .day-indicator {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .day-dot {
-    width: 12px;
-    height: 12px;
-    background: #22c55e;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    outline: 2px solid #22c55e;
-    flex-shrink: 0;
-    margin-top: 0.3rem;
-  }
-
-  .day-line {
-    width: 2px;
-    flex: 1;
-    background: linear-gradient(180deg, #22c55e, #e2e8f0);
-    margin-top: 4px;
-    min-height: 1rem;
-  }
-
-  .day-body {
-    padding-bottom: 2rem;
-  }
-
-  .day-header {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-  }
-
-  .day-header h2 {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #1f2937;
-    margin: 0;
-  }
-
-  .day-count {
-    font-size: 0.8rem;
-    color: #94a3b8;
-    background: #f1f5f9;
-    padding: 0.15rem 0.6rem;
-    border-radius: 10px;
-    font-weight: 500;
-  }
-
-  .day-commits {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .commit-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    padding: 0.75rem 1rem;
-    background: #fafbfc;
-    border-radius: 10px;
-    border: 1px solid #f1f5f9;
-    transition: all 0.2s ease;
-  }
-
-  .commit-item:hover {
-    background: #f0fdf4;
-    border-color: #d1fae5;
-  }
-
-  .commit-icon {
-    font-size: 1.1rem;
-    flex-shrink: 0;
-    margin-top: 0.1rem;
-  }
-
-  .commit-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .commit-message {
-    font-size: 0.95rem;
-    color: #1f2937;
-    margin: 0 0 0.3rem;
-    line-height: 1.5;
-    font-weight: 600;
-    word-break: break-word;
-  }
-
-  .commit-meta {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    font-size: 0.8rem;
-    color: #94a3b8;
-  }
-
-  .commit-author {
-    font-weight: 500;
-  }
-
-  .commit-hash {
-    font-family: 'SF Mono', 'Fira Code', monospace;
-    color: #3b82f6;
-    text-decoration: none;
-    font-size: 0.78rem;
-  }
-
-  .commit-hash:hover {
-    text-decoration: underline;
-  }
-
-  @media (max-width: 768px) {
-    .changelog-page {
-      padding: 3rem 1rem 4rem;
-    }
-
-    .changelog-header h1 {
-      font-size: 2rem;
-    }
-
-    .commit-item {
-      padding: 0.6rem 0.75rem;
+    // Status text
+    if (filterStatus) {
+      if (query || activeType !== 'all') {
+        filterStatus.textContent = `${visibleCount} / ${totalCount}`;
+        filterStatus.classList.remove('hidden');
+      } else {
+        filterStatus.classList.add('hidden');
+      }
     }
   }
 
-  .commit-time {
-    color: #94a3b8;
-    margin: 0 0.5rem;
-    font-size: 0.85rem;
+  if (searchInput) {
+    searchInput.addEventListener('input', applyFilters);
   }
-</style>
+
+  pills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const type = pill.getAttribute('data-type') || 'all';
+      activeType = type;
+
+      pills.forEach((p) => {
+        const isActive = p.getAttribute('data-type') === type;
+        p.classList.toggle('border-[#3b82f6]', isActive);
+        p.classList.toggle('bg-[#3b82f6]', isActive);
+        p.classList.toggle('text-white', isActive);
+        p.classList.toggle('border-[#e2e8f0]', !isActive);
+        p.classList.toggle('bg-white', !isActive);
+        p.classList.toggle('text-[#64748b]', !isActive);
+      });
+
+      applyFilters();
+    });
+  });
+
+  // ── Active Date Tracking (IntersectionObserver) ──
+  const dayElements = document.querySelectorAll(
+    '.changelog-day-group[id^="day-"]',
+  );
+
+  if (dayElements.length && dateNavLinks.length) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const day = entry.target.id.replace('day-', '');
+            dateNavLinks.forEach((link) => {
+              const isActive = link.getAttribute('data-day') === day;
+              link.classList.toggle('bg-[#eff6ff]', isActive);
+              link.classList.toggle('text-[#1e40af]', isActive);
+              link.classList.toggle('font-bold', isActive);
+            });
+            break;
+          }
+        }
+      },
+      { rootMargin: '-100px 0px -70% 0px', threshold: 0 },
+    );
+
+    dayElements.forEach((el) => observer.observe(el));
+  }
+</script>
