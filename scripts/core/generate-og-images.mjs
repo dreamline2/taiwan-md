@@ -2,18 +2,14 @@
 /**
  * generate-og-images.mjs
  * 
- * Scans all markdown tracking knowledge base entries, and dynamically visits the local
- * `/og/<category>/<slug>` route to take a screenshot and generate an OG Image for each article.
- * Stores output in `public/og-images/`.
- * 
- * Uses incremental building (checks modification time of the .md file vs .png file).
+ * Scans markdown articles across all enabled languages and categories.
+ * visits `/og/[lang]/[category]/[slug]` to take a screenshot.
+ * Stores output in `public/og-images/[lang]/[category]/[slug].png`.
  * 
  * Usage:
- *   # Start dev server in another tab:
- *   npm run dev
- * 
- *   # Then run generator
- *   npm run og:generate
+ *   npm run dev (in another tab)
+ *   npm run og:generate -- --lang ko --category food
+ *   npm run og:generate -- [slug]
  */
 
 import { chromium } from 'playwright';
@@ -46,6 +42,11 @@ const CATEGORY_MAP = {
   'Lifestyle': 'lifestyle',
 };
 
+// Language configuration (Should match src/config/languages.ts)
+// We only scan these folders in knowledge/
+const LANGUAGES = ['zh-TW', 'en', 'ja', 'ko']; 
+const DEFAULT_LANG = 'zh-TW';
+
 const baseUrl = process.env.BASE_URL || 'http://localhost:4321';
 
 async function checkServer() {
@@ -60,70 +61,103 @@ async function checkServer() {
   }
 }
 
-async function findMarkdownFiles() {
-  // Returns array of { folderName, file, path, mdMtime, categorySlug, slug }
+async function findMarkdownFiles(filterLang, filterCategory) {
   const results = [];
   const dirs = Object.keys(CATEGORY_MAP);
   
-  for (const folderName of dirs) {
-    const folderPath = join(knowledgeDir, folderName);
-    if (!existsSync(folderPath)) continue;
+  const langsToScan = filterLang ? [filterLang] : LANGUAGES;
+
+  for (const lang of langsToScan) {
+    const isDefault = lang === DEFAULT_LANG;
+    // Default is at root, others in subdirectories
+    const langBasePath = isDefault ? knowledgeDir : join(knowledgeDir, lang);
     
-    const files = await readdir(folderPath);
-    for (const file of files) {
-      if (file.endsWith('.md') && !file.startsWith('_')) {
-        const filePath = join(folderPath, file).normalize('NFC');
-        const fileStat = await stat(filePath);
+    if (!existsSync(langBasePath)) continue;
+
+    for (const folderName of dirs) {
+        const categorySlug = CATEGORY_MAP[folderName];
+        if (filterCategory && categorySlug !== filterCategory) continue;
+
+        const folderPath = join(langBasePath, folderName);
+        if (!existsSync(folderPath)) continue;
         
-        results.push({
-          folderName,
-          file,
-          filePath,
-          mtimeMs: fileStat.mtimeMs,
-          categorySlug: CATEGORY_MAP[folderName],
-          slug: basename(file, '.md'),
-        });
-      }
+        const files = await readdir(folderPath);
+        for (const file of files) {
+          if (file.endsWith('.md') && !file.startsWith('_')) {
+            const filePath = join(folderPath, file).normalize('NFC');
+            const fileStat = await stat(filePath);
+            
+            results.push({
+              lang,
+              folderName,
+              file,
+              filePath,
+              mtimeMs: fileStat.mtimeMs,
+              categorySlug,
+              slug: basename(file, '.md'),
+            });
+          }
+        }
     }
   }
   return results;
 }
 
 async function main() {
-  console.log(`\n🖼️ OG Image Generator`);
+  console.log(`\n🖼️  OG Image Generator (Multi-language)`);
   console.log(`   target: ${baseUrl}`);
   console.log(`   output: public/og-images/\n`);
+
+  // Parse Simple Args
+  const args = process.argv.slice(2);
+  const filterLang = args.find(a => a.startsWith('--lang='))?.split('=')[1] || (args.includes('--lang') ? args[args.indexOf('--lang') + 1] : null);
+  const filterCategory = args.find(a => a.startsWith('--category='))?.split('=')[1] || (args.includes('--category') ? args[args.indexOf('--category') + 1] : null);
+  
+  // Identify positional slug by ensuring it doesn't start with '-' AND doesn't immediately follow a flag
+  const filterSlug = args.find((a, i) => {
+    if (a.startsWith('-')) return false;
+    if (i > 0 && args[i - 1].startsWith('--')) return false;
+    return true;
+  }) || (args.includes('--slug') ? args[args.indexOf('--slug') + 1] : null);
+
+  if (filterLang) console.log(`🔍 Filter Language: ${filterLang}`);
+  if (filterCategory) console.log(`🔍 Filter Category: ${filterCategory}`);
+  if (filterSlug) console.log(`🔍 Filter Slug: ${filterSlug}`);
 
   const serverOk = await checkServer();
   if (!serverOk) process.exit(1);
 
-  const entries = await findMarkdownFiles();
-  console.log(`Found ${entries.length} markdown articles to check...`);
-
+  const entries = await findMarkdownFiles(filterLang, filterCategory);
+  
   // Filter out those that don't need update
   const toUpdate = entries.filter((entry) => {
-    const categoryOutDir = join(outDir, entry.categorySlug);
+    // Slug filter
+    if (filterSlug && entry.slug !== filterSlug) return false;
+
+    const isDefault = entry.lang === DEFAULT_LANG;
+    // Default: public/og-images/[cat]/[slug].png
+    // Multi: public/og-images/[lang]/[cat]/[slug].png
+    const langPath = isDefault ? '' : entry.lang;
+    const categoryOutDir = join(outDir, langPath, entry.categorySlug);
     const pngPath = join(categoryOutDir, `${entry.slug}.png`);
     
     if (!existsSync(pngPath)) return true;
     
     const pngMtimeMs = statSync(pngPath).mtimeMs;
-    // If markdown is newer than PNG, we need to update
     return entry.mtimeMs > pngMtimeMs;
   });
 
   if (toUpdate.length === 0) {
-    console.log(`✅ All ${entries.length} OG images are up-to-date! No screenshot needed.`);
+    console.log(`✅ No images need generation.`);
     return;
   }
 
   console.log(`📝 Need to generate ${toUpdate.length} images.\n`);
 
   const browser = await chromium.launch({ headless: true });
-  // We can share context 
   const context = await browser.newContext({
     viewport: { width: 1200, height: 630 },
-    deviceScaleFactor: 1, // 1x is fine for 1200x630 sharing images
+    deviceScaleFactor: 1,
     reducedMotion: 'reduce',
   });
 
@@ -133,27 +167,30 @@ async function main() {
   try {
     for (let i = 0; i < toUpdate.length; i++) {
         const entry = toUpdate[i];
+        const isDefault = entry.lang === DEFAULT_LANG;
+        const langPath = isDefault ? '' : entry.lang;
+        const categoryOutDir = join(outDir, langPath, entry.categorySlug);
         
-        const categoryOutDir = join(outDir, entry.categorySlug);
         if (!existsSync(categoryOutDir)) {
           mkdirSync(categoryOutDir, { recursive: true });
         }
         const pngPath = join(categoryOutDir, `${entry.slug}.png`);
         
-        // Encode slug for URL because standard URLs use URI encoding for Chinese
         const encodedSlug = encodeURIComponent(entry.slug);
-        const urlToVisit = `${baseUrl}/og/${entry.categorySlug}/${encodedSlug}`;
+        // Visit /og/[lang]/[category]/[slug] or /og/[category]/[slug]
+        const urlToVisit = isDefault 
+            ? `${baseUrl}/og/${entry.categorySlug}/${encodedSlug}`
+            : `${baseUrl}/og/${entry.lang}/${entry.categorySlug}/${encodedSlug}`;
         
-        process.stdout.write(`[${i+1}/${toUpdate.length}] ${entry.categorySlug}/${entry.slug} ... `);
+        process.stdout.write(`[${i+1}/${toUpdate.length}] ${entry.lang}/${entry.categorySlug}/${entry.slug} ... `);
 
         const page = await context.newPage();
         try {
           await page.goto(urlToVisit, {
             waitUntil: 'networkidle',
-            timeout: 10000,
+            timeout: 15000,
           });
 
-          // Wait for web fonts to load
           await page.evaluate(() => document.fonts?.ready);
           
           await page.screenshot({

@@ -46,7 +46,12 @@ const siteUrl = 'https://taiwan.md';
 
 let finalImage = image;
 if (type === 'article' && categorySlug && slug && image === '/images/taiwan-social.jpg') {
-  finalImage = `/og-images/${categorySlug}/${encodeURIComponent(slug)}.png`;
+  const isDefaultLang = lang === 'zh-TW';
+  if (isDefaultLang) {
+    finalImage = `/og-images/${categorySlug}/${encodeURIComponent(slug)}.png`;
+  } else {
+    finalImage = `/og-images/${lang}/${categorySlug}/${encodeURIComponent(slug)}.png`;
+  }
 }
 
 const fullImageUrl = new URL(finalImage, siteUrl).href;
