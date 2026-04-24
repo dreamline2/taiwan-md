@@ -9,7 +9,8 @@
 ## 生命徵象
 
 > ⚠️ 以下數字是快照，會過期。心跳時應從 Dashboard API 即時讀取。
-> 最後快照：2026-04-24 β3 session（觀察者「跑完整 heartbeat 更新所有數據, dashboard, 跟孢子監測」→ refresh-data + 鞠躬幻覺校正 / 562 篇 / 62 貢獻者 / 97 7d新增 / 6 spore waiting harvest）
+> 最後快照：2026-04-24 β5 session（觀察者「走 rewrite-pipeline 進化 林琪兒」→ REWRITE-PIPELINE v2.18 全 Stage 0-6 / 1800→3800 字 / 15→27 腳註 / 修 3 處既有 hallucination: Artemis 誤傳 + 311→312 天 + 丹佛車禍 EMT 刪 / 反向 cross-link 4 targets）
+> 前快照：2026-04-24 β3 session（觀察者「跑完整 heartbeat 更新所有數據, dashboard, 跟孢子監測」→ refresh-data + 鞠躬幻覺校正 / 562 篇 / 62 貢獻者 / 97 7d新增 / 6 spore waiting harvest）
 > 前快照：2026-04-24 β2 session（造山者：世紀的賭注 NEW Art 完整 REWRITE-PIPELINE / 觀察者 task brief 校正 / 結尾鞠躬幻覺後續修補）
 > 前快照：2026-04-24 β session（完整心跳 + 探測器報告 reports/probe/2026-04-24.md 11 熱點）
 > 前快照：2026-04-24 α session（排程心跳 + PR #604 merge（台灣新偶像世代/HUR+/連穎）+ §11 immune polish — 有感筆電/新偶像世代/HUR+/連穎/台海危機/戒嚴時期 共 6 篇 + sync/prebuild / 558 篇 / 61 貢獻者 / 89 7d新增）
