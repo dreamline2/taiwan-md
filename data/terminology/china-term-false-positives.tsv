@@ -1,0 +1,30 @@
+# china-term-false-positives.tsv
+# Format: <china_term>\t<false_positive_pattern>\t<note>
+# 任何在文章中出現「china_term」的計數，會扣除「false_positive_pattern」的計數
+# 同一個 china_term 可有多筆 false-positive pattern（多列）
+# 任何 contributor 遇到偽陽性可直接 PR 加一行，不用改 quality-scan.sh code
+# Lines starting with # are comments and ignored.
+#
+# 觸發背景：2026-04-23 #597 @notoriouslab 報告「博客來」被誤判為「博客」
+# 設計來源：#597 方案 2（@notoriouslab 提案 + @Zaious + @frank890417 一致同意）
+#
+# Schema 欄位（tab-separated）：
+#   1. china_term       : quality-scan.sh 偵測到的中國用語
+#   2. false_pos_pattern: 文章中包含 china_term 但實際是台灣正確用語的 pattern
+#   3. note             : 簡短說明（≥ 5 字）
+#
+# ────────────────────────────────────────────────────────────────────
+博客	博客來	書店通路品牌名，含「博客」字串但非中國用語
+算法	演算法	台灣正確用語「演算法」含「算法」字串
+算法	貪婪演算法	演算法子類別
+算法	貪心算法	貪心演算法另一寫法（仍為台灣語境）
+高清	高清愿	人名高清愿（裕隆集團創辦人之一），含「高清」字串
+高清	清高	「高潔的人」，"高""清" 倒序組合
+信息化	信息化的	policy 文獻引用（中性形容歷史過程）
+網絡	網絡層	OSI 七層模型「網絡層」是電腦科學標準術語
+網絡	類神經網絡	專業術語含「網絡」字串
+質量	質量單位	物理學術語（國際單位制的 mass）
+質量	質量守恆	物理定律
+質量	質量數	化學術語（atomic mass number）
+鼠標	老鼠	單純含「鼠」字
+鼠標	標記	單純含「標」字（無「鼠標」連用）

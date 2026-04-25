@@ -415,26 +415,39 @@ scan_file() {
 
   # ── 15. CHINA-TERM（中國用語偵測）──
   # 從 data/terminology/ YAML 萃取 A 類必換詞 + 硬編碼常見詞
+  # False-positive 排除清單從 data/terminology/china-term-false-positives.tsv 讀
+  # （2026-04-25 #597 方案 2：external TSV，contributor 可直接 PR 加 false-positive 不用改 code）
   local china_terms=(
     "視頻" "質量" "軟件" "硬件" "博主" "博客" "點贊" "互聯網"
     "內存" "人工智能" "操作系統" "數據庫" "信息化" "服務器" "算法"
     "屏幕" "打印機" "網絡" "盒飯" "出租車" "鼠標" "硬盤" "寬帶"
     "U盤" "優盤" "移動端" "公交車" "地鐵站" "煤氣" "高清" "下載量"
   )
+  local fp_file="data/terminology/china-term-false-positives.tsv"
   local china_hits=0
   local china_found=""
   for cterm in "${china_terms[@]}"; do
     local count
     count=$(grep -c "$cterm" "$f" 2>/dev/null) || count=0
     if [[ $count -gt 0 ]]; then
-      # 扣除已知台灣用語包含中國用語子字串的誤判
-      # 例：「算法」會誤判台灣正確用語「演算法」
+      # 扣除已知台灣用語包含中國用語子字串的偽陽性
+      # 例：「算法」誤判台灣正確用語「演算法」
+      # 例：「博客」誤判書店品牌「博客來」
       local false_pos
       false_pos=0
-      case "$cterm" in
-        "算法") false_pos=$(grep -c "演算法" "$f" 2>/dev/null) || false_pos=0 ;;
-        "高清") false_pos=$(grep -c "高清愿" "$f" 2>/dev/null) || false_pos=0 ;;
-      esac
+      if [[ -f "$fp_file" ]]; then
+        # TSV format: cterm\tpattern\tnote
+        # 對每筆 cterm 配對的 pattern 累加扣除
+        while IFS=$'\t' read -r tsv_cterm tsv_pattern _; do
+          [[ "$tsv_cterm" =~ ^# ]] && continue
+          [[ -z "$tsv_cterm" ]] && continue
+          if [[ "$tsv_cterm" == "$cterm" ]]; then
+            local fp_count
+            fp_count=$(grep -c "$tsv_pattern" "$f" 2>/dev/null) || fp_count=0
+            false_pos=$((false_pos + fp_count))
+          fi
+        done < "$fp_file"
+      fi
       count=$((count - false_pos))
       if [[ $count -gt 0 ]]; then
         china_hits=$((china_hits + count))
