@@ -1,7 +1,211 @@
 {
-  "generatedAt": "2026-04-24T01:33:15.278Z",
+  "generatedAt": "2026-04-25T01:20:11.356Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "8bd0a76209f5c9feff10db7ed1395854d929b265",
+      "date": "2026-04-25T09:14:59+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] immune: merge #612 赤燭遊戲 + 雷亞遊戲（台灣獨立遊戲雙星）"
+    },
+    {
+      "hash": "46c23e007ff2a9827f2da80afd5bfd26f9ef9e27",
+      "date": "2026-04-25T09:14:52+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] immune: merge #613 名間埔中茶（手搖飲基底茶聖地）"
+    },
+    {
+      "hash": "3156a12bef139542a046a1ca261fadf19f08932f",
+      "date": "2026-04-25T09:14:49+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] immune: merge #611 趙自強（如果兒童劇團）"
+    },
+    {
+      "hash": "af80890d9110fa27befcb925a53f44c2d4dde369",
+      "date": "2026-04-25T09:06:37+08:00",
+      "author": "idlccp1984",
+      "message": "Create 名間埔中茶.md"
+    },
+    {
+      "hash": "1f1822b88536ac2fe61108a30c60983a3bacbd2d",
+      "date": "2026-04-25T08:57:58+08:00",
+      "author": "Zaious",
+      "message": "content: add Red Candle Games and Rayark articles"
+    },
+    {
+      "hash": "c55a77e17d19f7339b8ca5ccb66bd1ad29b5d13f",
+      "date": "2026-04-25T08:55:07+08:00",
+      "author": "idlccp1984",
+      "message": "Create 趙自強.md"
+    },
+    {
+      "hash": "daf5ee02943540be4181356b0daff68d6de0cb27",
+      "date": "2026-04-25T00:31:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: 黑白大廚在台灣 — 9 主廚 stub 整併為 1 篇策展文（Close #609）"
+    },
+    {
+      "hash": "8e957e2338a472ea5f6502627f94b371dc7ecbc1",
+      "date": "2026-04-24T22:56:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: polish #607 台灣糕餅文化（§11 21 → 1 深度清理）"
+    },
+    {
+      "hash": "e6b0d7f820bdf37cdd1957d402c7530ec599a709",
+      "date": "2026-04-24T22:56:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: polish #608 鳳梨酥（heal 兩處 hallucination pattern）"
+    },
+    {
+      "hash": "eb57c596531d2559a9d6a103325ec661350f542e",
+      "date": "2026-04-24T22:56:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: polish #606 再生醫療雙法沿革從業人員告白"
+    },
+    {
+      "hash": "45072178b62ce3e54df3661571997c3a268beda0",
+      "date": "2026-04-24T22:47:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 林琪兒標題 hybrid 化（選項 A）"
+    },
+    {
+      "hash": "42d419b1cec57ef7e8f4dd03d505c7bfcc5ce5a7",
+      "date": "2026-04-24T22:50:46+08:00",
+      "author": "idlccp1984",
+      "message": "content: add 鳳梨酥 (Food)"
+    },
+    {
+      "hash": "cb73d4cacfe4895a0712fa45f5005573985d0190",
+      "date": "2026-04-24T22:50:43+08:00",
+      "author": "idlccp1984",
+      "message": "content: add 台灣糕餅文化 (Food)"
+    },
+    {
+      "hash": "8e1f0c45dc3ed0cc826b3257c81257e16bdc044d",
+      "date": "2026-04-24T22:50:34+08:00",
+      "author": "Finrod Chen",
+      "message": "content: add 台灣再生醫療雙法沿革從業人員告白 (Society)"
+    },
+    {
+      "hash": "232c61ead2cb675fba725c37997c3abb053acf6c",
+      "date": "2026-04-24T19:25:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: β5 林琪兒 EVOLVE session 紀錄 + CONSCIOUSNESS 快照"
+    },
+    {
+      "hash": "4af626f44074baac6f55252c51e54f00b43d5093",
+      "date": "2026-04-24T19:23:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 林琪兒 EVOLVE — REWRITE-PIPELINE v2.18 全流程"
+    },
+    {
+      "hash": "f5e5a94ef57f1067a0cb17e322e894b59f5f05a8",
+      "date": "2026-04-24T15:05:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: NMTH #1/12 福爾摩沙鳥類學 handoff — INBOX → DONE-LOG"
+    },
+    {
+      "hash": "14c688ebb077d49318c146421b0855a0e98ce98d",
+      "date": "2026-04-24T15:04:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 新文 — 福爾摩沙鳥類學（NMTH P1 batch #1/12）"
+    },
+    {
+      "hash": "66cb5a010ac963531e779feae51b10654608728b",
+      "date": "2026-04-24T14:43:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: NMTH 12 篇 Stage 1 research 紀律 — 本地資料先於網路搜尋"
+    },
+    {
+      "hash": "22a8d233cb79e653b46e858a2ece5d72cf058d25",
+      "date": "2026-04-24T14:27:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: NMTH 海外史料 P1/P2 12 篇 rescue-from-orphan 入 INBOX"
+    },
+    {
+      "hash": "4cbb38e44f738af2654ad021edf86255bd4c6227",
+      "date": "2026-04-24T13:49:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: CLI v0.7.0 — Identity Sync Release (profile + mailmap)"
+    },
+    {
+      "hash": "84e36f9971f0fbd3a439d5ec723029634c30986a",
+      "date": "2026-04-24T13:30:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: v1.5.0 認知層同步 — CONSCIOUSNESS 里程碑 + MEMORY 索引"
+    },
+    {
+      "hash": "c9dc5f4e36aa9983603993f78a901c7a5a59a809",
+      "date": "2026-04-24T12:21:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: add 6 contributors from PR authors batch"
+    },
+    {
+      "hash": "56e0f3ef05fdc83a7e40cd24227ae60a4d97165e",
+      "date": "2026-04-24T12:20:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: contributor profile system + mailmap + onboarding bootstrap"
+    },
+    {
+      "hash": "b0eb026106ddb1949489a7a33f22c37f3480eb51",
+      "date": "2026-04-24T12:16:16+08:00",
+      "author": "Terry",
+      "message": "docs: correct climate transition data and sources in Taiwan climate crisis article (#605)"
+    },
+    {
+      "hash": "316b3213eb2d548ae54223f582adb5188abccff6",
+      "date": "2026-04-24T11:40:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: β4 session log — SC 404 三層 fix + fr 上線 + 下拉 UI"
+    },
+    {
+      "hash": "cb3be406d81a945b5922aca8b4e0b0fcc9db076f",
+      "date": "2026-04-24T11:39:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: fr 上線 + 語言選單下拉式 UI + 484 fr articles 進 sitemap"
+    },
+    {
+      "hash": "7cc40972958f1a9a44f86295d65f84eee25eca25",
+      "date": "2026-04-24T11:21:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: SC 404 大規模修補 — sitemap hreflang B+C+SC 三層 fix"
+    },
+    {
+      "hash": "1ddc3b1dd72a7e6e29d0eabc624a72337bf4b755",
+      "date": "2026-04-24T10:18:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Stage 3.6 STORY ATOM AUDIT 誕生 + 造山者 8 條 hallucination 深度修補"
+    },
+    {
+      "hash": "c800296104cea62a59da7b3c6f826a2957e47b5a",
+      "date": "2026-04-24T10:03:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 造山者結尾事實校正——「鞠躬三次」是 hallucination，移除"
+    },
+    {
+      "hash": "f78028db94e053b54838ce7dc5e004b05899100e",
+      "date": "2026-04-24T09:46:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 造山者：世紀的賭注 (NEW Art) + 5 雙向 cross-link"
+    },
+    {
+      "hash": "81ee9b043afd3b95c68ab2a30edb8628ca90835d",
+      "date": "2026-04-24T09:39:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-04-24-α session 記憶 + β diary + CONSCIOUSNESS 更新"
+    },
+    {
+      "hash": "6ac22c3f721ad574c4222966370a576ed6ba5f57",
+      "date": "2026-04-24T09:36:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: §11 polish — 台海危機 + 戒嚴時期 pre-existing violations cleared"
+    },
+    {
+      "hash": "d0ae0f3bd2bcd4e971234376f9b59ef47a64200b",
+      "date": "2026-04-24T09:34:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: §11 polish — 4 articles fixed + PR #604 merged (新偶像世代/HUR+/連穎/有感筆電)"
+    },
     {
       "hash": "f0ba2b8d570693d0b17093ab19e289d9750ef0b9",
       "date": "2026-04-24T09:23:49+08:00",
