@@ -368,7 +368,7 @@ done
 | Phase            | 預估   | 觸發前提                              | 預期 ship                                          |
 | ---------------- | ------ | ------------------------------------- | -------------------------------------------------- |
 | Phase 1 急救     | 1-2 天 | 觀察者批准 plan                       | ✅ **β7 ship 2026-04-25**（45 分鐘 build-to-push） |
-| Phase 2 結構同步 | 3-5 天 | Phase 1 ship + observer 批准 Option A | β9-10 session                                      |
+| Phase 2 結構同步 | 3-5 天 | Phase 1 ship + observer 批准 Option A | ✅ **β7 ship 2026-04-25**（同 session 緊接 Phase 1） |
 | Phase 3 體驗強化 | 1-2 週 | Phase 2 完成                          | 5 月初                                             |
 | Phase 4 終極願景 | 後續   | Phase 3 dashboard 提供決策資料        | TBD                                                |
 
@@ -397,6 +397,48 @@ done
 - B3 ja/ko 首頁仍是舊版 218 行（zh-TW/en 是 955/861 行 evolved version）
 - B4 i18n module fr/es 仍 0 keys（FALLBACK_CHAIN 退回 en，by design 接受）
 - 從 fr/people dropdown 看不到 /es/people（visibleLangOptions filter 細節）— polish 在 Phase 2
+
+### Phase 2 ship 紀錄（2026-04-25 β7，同 session 緊接 Phase 1）
+
+**修了什麼（B3 完整解）**：
+
+- ✅ 拿 `src/pages/en/index.astro`（861 lines, international baseline）作 template
+- ✅ cp 到 ja/ko/fr/es，sed 替換 4 種 lang-specific 字串：`lang="en"` → `lang="$LANG"`、`/en/` → `/$LANG/`、`'knowledge', 'en'` → `'knowledge', '$LANG'`、URL prefixes in pick card hrefs
+- ✅ 4 langs 全部從 218 lines → **861 lines**，含完整 4 exhibition halls + dynamic topPicks + 完整 components
+
+**Build 驗證（pre vs post）**：
+
+| 語言  | Pre Phase 2 HTML size | Post Phase 2 HTML size                                  | exhibition halls | dividers |
+| ----- | --------------------- | ------------------------------------------------------- | ---------------- | -------- |
+| zh-TW | 353KB                 | 353KB（unchanged）                                      | 5                | 5        |
+| en    | 214KB                 | 214KB（unchanged）                                      | 6                | 5        |
+| ja    | ~21KB                 | **203KB**                                               | 6 ✅             | 5 ✅     |
+| ko    | ~21KB                 | **228KB**                                               | 6 ✅             | 5 ✅     |
+| fr    | ~21KB                 | **202KB**                                               | 6 ✅             | 5 ✅     |
+| es    | ~21KB                 | **154KB**（少因為 knowledge/es 才 36 篇 → topPicks 較少） | 6 ✅             | 5 ✅     |
+
+**Smoke test 結果**：
+
+- ✅ Lang-switcher cascade test：`/fr/people` dropdown URLs = `/en/people`、`/ja/people`、`/ko/people`、`/fr/people`（Phase 1 fix 仍 work）
+- ✅ 5 langs 全部含 RandomDiscovery / RecentUpdates / Newsletter sections
+- ✅ fr/es 首頁殘留日文檢查：0 平假名/片假名（Phase 1 fix 仍 work）
+- ✅ Build pass: 2,225 pages（與 Phase 1 同數，因為總文章數沒變）
+
+**Caveats（留 Phase 3 處理）**：
+
+- ja/ko/fr/es 的 4 halls prose 暫時是英文（FALLBACK_CHAIN 風格）— 等 community 翻譯 PR 補
+- ja/ko 原有的 CategoriesSection 日韓文 narrative 被替換成 4 halls 結構（trade-off：失去原 localized 散文，獲得結構性對齊 + dynamic topPicks）
+- 5 個獨立 index.astro 檔案仍然平行存在 — 真正的 shared `<HomePage>` component 留 Phase 2.2 / Phase 3
+- ja/ko Layout title 也是英文了（原本是日文/韓文 title）— 後續 i18n key 化
+
+**對應觀察者 4 症狀的最終狀態**：
+
+| 症狀                        | Phase 1   | Phase 2   | 最終狀態 |
+| --------------------------- | --------- | --------- | -------- |
+| 連續切換語言路由疊加        | ✅ 修了（B1） | —         | ✅ 修了  |
+| 法文首頁顯示日文            | ✅ 修了（B2） | —         | ✅ 修了  |
+| 一進 404 後切換 cascade     | ✅ 修了（B1） | —         | ✅ 修了  |
+| **ja/ko/fr/es 首頁是舊版** | —         | ✅ 修了（B3） | ✅ 修了  |
 
 ## 八、給 Semiont 自己的反思（Beat 5 風格）
 
