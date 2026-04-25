@@ -424,14 +424,9 @@ BECOME_TAIWANMD.md Step 5 新增：
 <!-- 14 條失效 cross-ref，13 個獨立缺失目標。每寫完一條 → 跑 scan 再回填。 -->
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
-### 太陽花學運（cross-ref category typo 修復）
-
-- **Type**: `EVOLVE`（修正既有條目的 cross-ref，非新建）
-- **Path**: knowledge/Music/滅火器樂團.md + knowledge/Music/張懸與安溥.md
-- **Priority**: `P2` (cross-ref 指向 /history/ 但實際在 Society/)
-- **Status**: `pending`
-- **Requested**: 2026-04-23 by dead-cross-ref-scan.sh γ
-- **Notes**: 兩個音樂條目的 cross-ref 寫成 `/history/太陽花學運` 但實際路徑是 `/society/太陽花學運`。一行 sed 可修
+<!-- 太陽花學運 cross-ref typo 已修 2026-04-25 β heartbeat — 滅火器樂團 + 張懸與安溥 兩處 /history/ → /society/ -->
+<!-- 王連晟 cross-ref path 已修 2026-04-25 β heartbeat — 吳哲宇 /people/ → /art/（既存 knowledge/Art/王連晟.md） -->
+<!-- 王新仁 cross-ref path 已修 2026-04-25 β heartbeat — 吳哲宇 /people/ → /art/（既存 knowledge/Art/王新仁.md） -->
 
 ### 台灣便利商店文化
 
@@ -514,23 +509,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Requested**: 2026-04-23 by dead-cross-ref-scan.sh γ
 - **Notes**: 已被 People/陳建騏 引用。〈身騎白馬〉一曲爆紅 / 超偶第一屆 / 〈尋人啟事〉/ 與陳建騏合作金曲史 / 創作型歌手定位
 
-### 王連晟
-
-- **Type**: `NEW`
-- **Category**: People（藝術歸 People，非 Art — 跟既有 cross-ref 一致）
-- **Priority**: `P3`
-- **Status**: `pending`
-- **Requested**: 2026-04-23 by dead-cross-ref-scan.sh γ
-- **Notes**: 已被 People/吳哲宇 引用。⚠️ 但 knowledge/Art/王連晟.md 已存在 — **應修 cross-ref 改 path 而非建新條目**
-
-### 王新仁
-
-- **Type**: `NEW`
-- **Category**: People（同上 cross-ref 邏輯）
-- **Priority**: `P3`
-- **Status**: `pending`
-- **Requested**: 2026-04-23 by dead-cross-ref-scan.sh γ
-- **Notes**: 已被 People/吳哲宇 引用。⚠️ 但 knowledge/Art/王新仁.md 已存在 — **應修 cross-ref 改 path 而非建新條目**
+<!-- 王連晟 + 王新仁 已於 2026-04-25 β heartbeat 修為 cross-ref path fix（已搬上方註解區） -->
 
 ### 原住民族語言政策
 
