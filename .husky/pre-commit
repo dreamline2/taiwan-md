@@ -127,6 +127,23 @@ if echo "$staged_any" | grep -qE 'src/config/languages\.(ts|mjs)$'; then
   fi
 fi
 
+# ═══ Hardcoded language array detector（2026-04-25 β7 新增）═══
+# 對應 i18n-evolution-roadmap audit B6：違反 LANGUAGES_REGISTRY SSOT
+# 任何 ['en','ja','ko'] 等 hardcoded 語言清單 → 改從 LANGUAGES 動態 derive
+# 警告模式：找到 = exit 1，需明確處理才能 commit
+staged_lang_files=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null \
+  | grep -E '\.(ts|tsx|mjs|cjs|js|astro|sh)$' \
+  | grep -vE '(node_modules|dist|src/config/languages\.|scripts/tools/check-hardcoded-langs)' \
+  || true)
+if [ -n "$staged_lang_files" ]; then
+  if ! bash scripts/tools/check-hardcoded-langs.sh --staged; then
+    echo ""
+    echo "💡 對應 reports/i18n-evolution-roadmap-2026-04-25.md §B6"
+    echo "  跳過此檢查（緊急修復）：git commit --no-verify"
+    exit 1
+  fi
+fi
+
 # ═══ Narrative scope pollution detector（2026-04-11 session α）═══
 # 同一個 commit 理論上只該動一個 narrative domain。多 domain 通常表示
 # 並行 agent 互相污染。警告模式（不擋），要求 commit message 聲明。

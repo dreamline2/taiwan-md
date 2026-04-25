@@ -12,51 +12,60 @@ import NewsletterSection from '../../components/home/NewsletterSection.astro';
 import ContributeSection from '../../components/home/ContributeSection.astro';
 import { fetchRecentCommits } from '../../lib/commits';
 
+// 2026-04-25 β7 Phase 1：fix B2 (i18n-evolution-roadmap audit)
+// 此頁面 prose 暫時使用英文（fr 跟 es FALLBACK_CHAIN 預設語言），
+// 直到 community 提供 fr 翻譯 PR。Phase 2 結構同步後此檔將改為從
+// shared homepage components import，不再各自獨立維護。
+
 const recentCommits = await fetchRecentCommits();
 
 const readingPathSteps = [
   {
     href: '/fr/history/japanese-colonial-era',
-    title: '植民地から民主主義へ：台湾の歴史',
-    description: '権威主義から民主主義へ、アジア初の平和的移行の奇跡',
+    title: 'From Colony to Democracy: Taiwan’s History',
+    description:
+      'From authoritarianism to democracy: Asia’s first peaceful transition.',
     time: '6 min',
   },
   {
     href: '/fr/culture/taiwan-religion-and-temple-culture',
-    title: '多元一体：台湾の文化',
-    description: '多様な民族が共に織りなす、色彩豊かな文化の基盤',
+    title: 'Plural Yet One: Taiwan’s Culture',
+    description:
+      'A vibrant cultural fabric woven by many ethnic groups together.',
     time: '7 min',
   },
   {
     href: '/fr/food/night-market-culture',
-    title: '最もリアルな台湾の味：夜市文化',
-    description: '世界一の密度を誇る庶民グルメの社交空間',
+    title: 'The Most Real Taste of Taiwan: Night Markets',
+    description:
+      'The world’s densest street-food and social space rolled into one.',
     time: '5 min',
   },
   {
     href: '/fr/technology/semiconductor-industry',
-    title: '護国神山：半導体産業',
-    description: 'TSMCはいかにして小さな島を世界のテクノロジーの心臓にしたか',
+    title: 'The Silicon Shield: Semiconductors',
+    description:
+      'How TSMC turned a small island into the heart of global tech.',
     time: '8 min',
   },
   {
     href: '/fr/lifestyle/convenience-store-culture',
-    title: '生活のOS：コンビニエンスストア',
-    description: '単なる店舗ではなく、国全体のインフラ',
+    title: 'The OS of Daily Life: Convenience Stores',
+    description: 'Not just shops — they are the country’s infrastructure.',
     time: '4 min',
   },
 ];
 
 const readingPathFooterItems = [
-  { icon: '⏱️', label: '合計30分' },
-  { icon: '🎯', label: '5つの主要分野' },
-  { icon: '🌟', label: '台湾を完全理解' },
+  { icon: '⏱️', label: '~30 minutes total' },
+  { icon: '🎯', label: '5 core themes' },
+  { icon: '🌟', label: 'A complete picture of Taiwan' },
 ];
 ---
 
 <Layout
-  title="オープンソース台湾ナレッジベース"
-  description="オープンソース、AI対応の台湾総合ナレッジベース。歴史、文化、グルメ、音楽、テクノロジーなど12の主要テーマを網羅する660以上の記事。コミュニティが共同で編纂し、世界に本当の台湾を紹介します。"
+  title="Open-source knowledge base of Taiwan"
+  description="An open-source, AI-friendly comprehensive knowledge base of Taiwan. 660+ articles spanning 12 themes — history, culture, food, music, technology and more — collaboratively curated by the community to introduce the real Taiwan to the world."
   lang="fr"
 >
   <HeroSection />
@@ -67,37 +76,41 @@ const readingPathFooterItems = [
 
   <ReadingPath
     lang="fr"
-    title="📖 どこから始めればいいかわからない？"
-    subtitle="この5つの記事で、30分で本当の台湾を知ろう"
+    title="📖 Not sure where to start?"
+    subtitle="Five articles, thirty minutes — and you’ll know the real Taiwan."
     steps={readingPathSteps}
     footerItems={readingPathFooterItems}
     continueHref="#categories"
-    continueLabel="さらに多くのテーマを探索する →"
+    continueLabel="Explore more themes →"
   />
 
   <FeatureCards
     lang="fr"
-    sectionTitle="なぜ Taiwan.md が必要なのか？"
+    sectionTitle="Why Taiwan.md?"
     cards={[
       {
         icon: '🎯',
-        title: 'キュレーション視点',
-        description: '丁寧にキュレートされた深い物語、百科事典的な羅列ではない',
+        title: 'Curated, not encyclopedic',
+        description:
+          'Carefully curated, deep narratives — not encyclopedic enumerations.',
       },
       {
         icon: '🤖',
-        title: 'AI フレンドリー設計',
-        description: '構造化されたコンテンツで、AIも台湾の複雑さを理解できる',
+        title: 'AI-friendly by design',
+        description:
+          'Structured content so AI can also grasp Taiwan’s complexity.',
       },
       {
         icon: '🌍',
-        title: '多言語国際視野',
-        description: 'ローカルの視点から出発し、国際言語で台湾の物語を伝える',
+        title: 'Multilingual, international',
+        description:
+          'Starting from local perspectives, telling Taiwan’s story in international languages.',
       },
       {
         icon: '📚',
-        title: '完全多面的',
-        description: '12以上の分野を網羅し、台湾の立体的で完全な姿を提示',
+        title: 'Comprehensive and many-sided',
+        description:
+          '12+ thematic areas, presenting Taiwan as a three-dimensional whole.',
       },
     ]}
   />
@@ -105,105 +118,123 @@ const readingPathFooterItems = [
   <CategoriesSection>
     <Fragment slot="prose">
       <p>
-        この島はわずか36,000平方キロメートルだが、世界の縮図を内包している。
-        3,952メートルの玉山の頂から太平洋の深海溝まで、
-        <a href="/fr/geography" class="topic-pill">🗺️ ここの地理</a
-        >は造山運動のライブ中継そのものだ——
-        プレートの衝突、火山の噴火、断層の移動、400万年間途切れることのない地質交響曲が、
-        この世界で最も若く、最もダイナミックな美しい島を生み出した。
+        This island is only 36,000 km², but it contains a microcosm of the
+        world. From Yushan’s 3,952-meter peak to the Pacific’s deep trenches,
+        <a href="/fr/geography" class="topic-pill">🗺️ its geography</a>
+        is orogeny live-streamed — plate collisions, volcanic eruptions, faulting,
+        four million years of geological symphony shaping one of the youngest, most
+        dynamic, most beautiful islands on Earth.
       </p>
 
       <p>
-        400年前、オランダ人が台南にゼーランディア城を築いた。その後のすべての統治者——
-        鄭氏、清帝国、日本、国民党——がこの島に自らの銘文を刻んだ。
-        しかし台湾を真に台湾たらしめたのは、権威主義から民主主義への<a
-          href="/fr/history"
-          class="topic-pill">📜 長い覚醒</a
-        >である。二・二八の血と涙から戒厳令解除の歓声まで、美麗島から太陽花まで、
-        すべての苦痛と抵抗が、この島の魂をより鮮明にした。
+        Four hundred years ago, the Dutch built Fort Zeelandia in Tainan. Every
+        regime since — Koxinga’s, the Qing, Japan, the KMT — left their mark on
+        the island. But what truly made Taiwan, Taiwan, was the
+        <a href="/fr/history" class="topic-pill">📜 long awakening</a>
+        from authoritarianism to democracy. From the blood and tears of 228 to the
+        cheers when martial law lifted, from Formosa to Sunflower — every pain and
+        resistance sharpened the island’s soul.
       </p>
 
       <p>
-        この土地には多重の血が流れている。先住民族は6,000年間ここに暮らし、
-        17世紀以降に渡来した閩南人、客家人、戦後に中国各省から移住した外省人、
-        近年の新住民と移住労働者——それぞれが自らの言語、信仰、記憶を持ち込んだ。
-        <a href="/fr/culture" class="topic-pill">🎭 台湾の文化</a
-        >は溶炉ではなくパズルだ——
-        一つ一つのピースが自らの色と形を保ちながら、前例のない絵を組み上げている。
+        Multiple bloodlines flow through this land. Indigenous peoples have
+        lived here 6,000 years; Hoklo and Hakka came after the 17th century;
+        mainlanders after WWII; new immigrants and migrant workers in recent
+        decades — each bringing their language, faith and memory.
+        <a href="/fr/culture" class="topic-pill">🎭 Taiwan’s culture</a>
+        is not a melting pot but a mosaic — every piece keeping its color and shape,
+        together forming a picture seen nowhere else.
       </p>
 
       <p>
-        台湾のどの夜市に入っても、閩南の牡蠣オムレツ、日本の天ぷら、
-        戦後の退役軍人が持ち込んだ山東ネギ餅の香りが同時に漂ってくる。
-        <a href="/fr/food" class="topic-pill">🍜 この島の味</a
-        >は、移民史の味覚バージョンだ。屋台の人情味からミシュランの精緻な技まで、
-        台湾人は食で物語を語り、料理で記憶を保存する。
+        Walk into any night market in Taiwan and you’ll smell oyster omelet from
+        southern Fujian, Japanese tempura, and scallion pancakes brought by
+        veterans from Shandong all in the same breath.
+        <a href="/fr/food" class="topic-pill">🍜 The flavors of this island</a>
+        are migration history, written by the tongue. From street-stall warmth to
+        Michelin precision, Taiwanese tell stories with food and preserve memory through
+        cuisine.
       </p>
 
       <p>
-        蝶の王国はロマンチックな比喩ではなく、生態学的現実だ。オランダより小さいこの島に、
-        59,000種を超える生物がひしめき合っている——世界の陸地面積の0.025%に、全生物種の2.5%が集まる。
-        <a href="/fr/nature" class="topic-pill">🌿 台湾の自然</a
-        >は立体的な進化の教科書だ：
-        熱帯雨林から高山ツンドラまで、サンゴ礁から黒潮まで、種はここで進化し、分化し、共存する。
-        しかし産業発展の代償も山河に刻まれ、環境保護と開発の綱引きは続いている。
+        Calling Taiwan a butterfly kingdom is no romantic metaphor — it’s
+        ecological fact. On an island smaller than the Netherlands live more
+        than 59,000 species: 0.025% of Earth’s land area holding 2.5% of all
+        known species.
+        <a href="/fr/nature" class="topic-pill">🌿 Taiwan’s nature</a>
+        is a vertical textbook of evolution: tropical rainforest to alpine tundra,
+        coral reefs to the Kuroshio current — species evolve, diverge, coexist. Yet
+        industrial development has scarred the mountains and rivers; the tug-of-war
+        between conservation and growth continues.
       </p>
 
       <p>
-        頼和、楊逵から白先勇、朱天心まで、霧峰林家から辜振甫一族まで、
-        <a href="/fr/people" class="topic-pill">👥 台湾の人物</a
-        >は時代の縮図だ。 個人の伝記にとどまらず、この島がいかに隙間で生き延び、
-        困難の中に希望を見出してきたかの集合的記憶である。すべての物語の背後に、
-        大きな時代の中の小さな人々の粘り強さと選択がある。
+        From Lai He and Yang Kui to Pai Hsien-yung and Chu T’ien-hsin; from the
+        Lin family of Wufeng to the Koo dynasty —
+        <a href="/fr/people" class="topic-pill">👥 Taiwan’s people</a>
+        are the era in miniature. More than personal biographies, they are the collective
+        memory of how this island survived in the cracks and found hope amid hardship.
+        Behind every story: the resilience and choices of small individuals inside
+        enormous times.
       </p>
 
       <p>
-        廟会の八家将から現代アートのヴェネチア・ビエンナーレまで、
-        <a href="/fr/art" class="topic-pill">🎨 台湾の芸術</a
-        >は伝統と革新の対話だ。
-        交趾陶とデジタルインスタレーション、伝統演劇と実験劇場、
-        先住民のトーテムと現代絵画——アーティストたちは問い続ける：
-        この時代に創作でどう応えるか？グローバル化の中でいかにローカル性を保つか？
+        From temple-fair eight-generals to contemporary art at the Venice
+        Biennale,
+        <a href="/fr/art" class="topic-pill">🎨 Taiwan’s art</a>
+        is dialogue between tradition and innovation. Cochin pottery and digital installation,
+        traditional opera and experimental theater, indigenous totems and contemporary
+        painting — artists keep asking: how do we respond with creation in this era?
+        How do we preserve the local within globalization?
       </p>
 
       <p>
-        先住民の古謡から鄧雨賢の「望春風」まで、キャンパスフォークソングから金曲奨まで、
-        <a href="/fr/music" class="topic-pill">🎵 台湾の音</a>は島の鼓動だ。
-        音楽は民族、言語、世代の壁を越え、集合的記憶を最も結束させる媒体となった。
-        五月天が小巨蛋で叫ぶ声も、先住民が集落で歌う古謡も、
-        同じ物語を語っている：私たちは誰か、どこから来たのか。
+        From indigenous ancient ballads to Teng Yu-hsien’s &ldquo;Bāng
+        Chhun-hong,&rdquo; from campus folk to the Golden Melody Awards,
+        <a href="/fr/music" class="topic-pill">🎵 Taiwan’s sound</a>
+        is the island’s pulse. Music crosses ethnic, linguistic, and generational
+        lines, becoming the most cohesive medium of collective memory. Mayday’s shouts
+        at the Taipei Arena and indigenous elders chanting in their villages tell
+        the same story: who we are and where we come from.
       </p>
 
       <p>
-        TSMCのウェハーは単なるシリコンチップではなく、世界のテクノロジー地図における台湾の位置を証明するものだ。
-        <a href="/fr/technology" class="topic-pill">💻 このテクノロジー島</a
-        >は受託製造から革新的R&Dへ、
-        ハードウェアの優位性からソフトウェアのブレイクスルーへと進化した。しかし技術発展は課題ももたらす：
-        デジタルデバイド、AI代替、サイバーセキュリティの脅威——台湾はテクノロジーの波に乗りつつ、溺れないでいられるか？
+        TSMC’s wafers are not mere silicon chips; they are proof of Taiwan’s
+        position on the global tech map.
+        <a href="/fr/technology" class="topic-pill">💻 This tech island</a>
+        evolved from contract manufacturing to innovative R&D, from hardware advantage
+        to software breakthroughs. But technology brings its own challenges: digital
+        divide, AI substitution, cybersecurity threats — can Taiwan ride the tech
+        wave without drowning?
       </p>
 
       <p>
-        アジア四小龍から半導体帝国へ、<a href="/fr/economy" class="topic-pill"
-          >📈 台湾の経済奇跡</a
+        From Asian Tiger to semiconductor empire,
+        <a href="/fr/economy" class="topic-pill">📈 Taiwan’s economic miracle</a
         >
-        は小国の大戦略の典型例だ。しかし奇跡の裏には数えきれない残業の夜、 細かなコスト管理、止まることのない効率追求がある。
-        今や米中貿易戦争とグローバルサプライチェーンの再編に直面し、台湾はいかに経済の伝説を書き続けるのか？
+        is a textbook case of small-state grand strategy. But behind the miracle:
+        countless overtime nights, granular cost control, unstopping pursuit of efficiency.
+        Now facing the US-China trade war and global supply chain reshuffling, can
+        Taiwan keep writing the legend?
       </p>
 
       <p>
-        <a href="/fr/society" class="topic-pill">⚖️ 台湾社会</a
-        >のキーワードは「多様性」と「包摂」だ。
-        アジア初の同性婚合法化から、移行期正義の継続的推進まで、
-        原発国民投票から年金改革まで、台湾人は対立の中で対話し、
-        衝突の中で合意を見出す方法を学んでいる。ここは民主主義の練習場であり、未来の実験室だ。
+        The keywords for
+        <a href="/fr/society" class="topic-pill">⚖️ Taiwan society</a>
+        are diversity and inclusion. From Asia’s first marriage equality to ongoing
+        transitional justice, from nuclear referendum to pension reform — Taiwanese
+        are learning to dialogue inside opposition, to find consensus inside conflict.
+        This is democracy’s practice ground; the laboratory of the future.
       </p>
 
       <p>
-        台湾人の<a href="/fr/lifestyle" class="topic-pill">🏠 ライフスタイル</a
-        >は利便性と人情味の融合だ。コンビニの密度は世界一だが、夜市の温もりは唯一無二。
-        24時間営業の都市リズムの中にも、近所の挨拶と気遣いが残っている。
-        グローバル化の奔流の中で、台湾人はいかに自らの生活哲学を守るのか？
-        答えはおそらく、「ご飯食べた？」という日常の挨拶の中にある。
+        Taiwanese
+        <a href="/fr/lifestyle" class="topic-pill">🏠 lifestyle</a>
+        is convenience fused with human warmth. Convenience-store density is world-leading,
+        yet night-market warmth remains one of a kind. Inside the 24-hour rhythm of
+        the city, neighborhood greetings and care still endure. In the rush of globalization,
+        how do Taiwanese keep their own life-philosophy? The answer is probably hidden
+        in the everyday greeting: &ldquo;Have you eaten?&rdquo;
       </p>
     </Fragment>
   </CategoriesSection>

@@ -1,9 +1,16 @@
 import { ui, defaultLang, showDefaultLang } from './ui';
 import type { Lang } from '../types';
+import { ALL_LANGUAGE_CODES } from '../config/languages';
+
+// 2026-04-25 β7 Phase 1：fix B5（i18n-evolution-roadmap audit）
+// 之前用 `lang in ui` 檢查，ui object 只 import 4 個 i18n module（en/ja/ko/zh-TW）
+// → fr/es 頁面被 getLangFromUrl 偵測為 zh-TW（i18n module 缺 keys 但 LANGUAGE 是合法）
+// 改用 LANGUAGES_REGISTRY 的 ALL_LANGUAGE_CODES 檢查，與 routing 對齊
+const _validLangCodes = new Set<string>(ALL_LANGUAGE_CODES);
 
 export function getLangFromUrl(url: URL): Lang {
   const [, lang] = url.pathname.split('/');
-  if (lang in ui) return lang as Lang;
+  if (_validLangCodes.has(lang)) return lang as Lang;
   return defaultLang;
 }
 

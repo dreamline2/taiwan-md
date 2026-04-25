@@ -68,15 +68,15 @@ for (const prefix of ['en', 'ja', 'ko']) { ... }
 const readingPathSteps = [
   {
     href: '/fr/history/japanese-colonial-era',
-    title: '植民地から民主主義へ：台湾の歴史',  // ❌ 日文
-    description: '権威主義から民主主義へ、アジア初の平和的移行の奇跡',  // ❌ 日文
+    title: '植民地から民主主義へ：台湾の歴史', // ❌ 日文
+    description: '権威主義から民主主義へ、アジア初の平和的移行の奇跡', // ❌ 日文
     time: '6 min',
   },
   // ... 4 more entries all in Japanese
 ];
 
 // Layout title (line 76)
-title="オープンソース台湾ナレッジベース"  // ❌ 日文
+title = 'オープンソース台湾ナレッジベース'; // ❌ 日文
 
 // FeatureCards content (line 95-115) — 全部日文
 ```
@@ -91,16 +91,17 @@ title="オープンソース台湾ナレッジベース"  // ❌ 日文
 
 **檔案大小證據**：
 
-| 語言 | 行數 | bytes | 性質 |
-|------|------|-------|------|
-| zh-TW | 955 | 34KB | ✅ 最新 canonical（含 CoverStory / RandomDiscovery / RecentUpdates / CommunityFeedback / NewsletterSection） |
-| en | 861 | 31KB | ✅ 同步 zh-TW，少 100 行可能因為某些 zh-TW 特定 callout |
-| ja | 218 | 10KB | 🔴 舊版（只有 HeroSection / ReadingPath / FeatureCards / CategoriesSection / LanguageStatement / ContributeSection） |
-| ko | 207 | 10KB | 🔴 舊版（同 ja） |
-| fr | 218 | 10KB | 🔴 ja 的 cp（含日文 prose） |
-| es | 218 | 10KB | 🔴 fr 的 cp，遞迴 ja 的 cp（也含日文 prose） |
+| 語言  | 行數 | bytes | 性質                                                                                                                 |
+| ----- | ---- | ----- | -------------------------------------------------------------------------------------------------------------------- |
+| zh-TW | 955  | 34KB  | ✅ 最新 canonical（含 CoverStory / RandomDiscovery / RecentUpdates / CommunityFeedback / NewsletterSection）         |
+| en    | 861  | 31KB  | ✅ 同步 zh-TW，少 100 行可能因為某些 zh-TW 特定 callout                                                              |
+| ja    | 218  | 10KB  | 🔴 舊版（只有 HeroSection / ReadingPath / FeatureCards / CategoriesSection / LanguageStatement / ContributeSection） |
+| ko    | 207  | 10KB  | 🔴 舊版（同 ja）                                                                                                     |
+| fr    | 218  | 10KB  | 🔴 ja 的 cp（含日文 prose）                                                                                          |
+| es    | 218  | 10KB  | 🔴 fr 的 cp，遞迴 ja 的 cp（也含日文 prose）                                                                         |
 
 zh-TW 的進化路徑：
+
 ```
 2026-04-03 → 認知層誕生
 2026-04 中 → CoverStory / RandomDiscovery / NewsletterSection / CommunityFeedback 加進來
@@ -149,12 +150,12 @@ export function getLangFromUrl(url: URL): Lang {
 
 **找到的 hardcoded 位置**：
 
-| 位置 | 內容 | 影響 |
-|------|------|------|
-| `src/utils/getLangSwitchPath.ts:206` | `['en', 'ja', 'ko']` | B1 路由疊加 |
-| `src/pages/404.astro:376` | `['en', 'ja', 'ko']` | B1 cascade |
-| `src/i18n/ui.ts` | 只 import 4 module（implicit hardcoded） | B5 / fallback chain |
-| `src/i18n/home.ts`（+ 11 module） | 4 個語言 keys block | B4 |
+| 位置                                 | 內容                                     | 影響                |
+| ------------------------------------ | ---------------------------------------- | ------------------- |
+| `src/utils/getLangSwitchPath.ts:206` | `['en', 'ja', 'ko']`                     | B1 路由疊加         |
+| `src/pages/404.astro:376`            | `['en', 'ja', 'ko']`                     | B1 cascade          |
+| `src/i18n/ui.ts`                     | 只 import 4 module（implicit hardcoded） | B5 / fallback chain |
+| `src/i18n/home.ts`（+ 11 module）    | 4 個語言 keys block                      | B4                  |
 
 **沒找到的好實踐 examples**：[scripts/core/sync.sh fr/es 同步 block](scripts/core/sync.sh#L147-L181) 用 explicit if/elif 但已對 5 語言完整覆蓋；`src/components/Header.astro` 用 `visibleLangOptions.filter(l => l.enabled)` 動態 iterate LANGUAGES_REGISTRY ✅ 是好範例。
 
@@ -162,9 +163,9 @@ export function getLangFromUrl(url: URL): Lang {
 
 ```typescript
 import { LANGUAGES } from '../config/languages';
-const langPrefixes = LANGUAGES
-  .filter(l => l.enabled && !l.isDefault)
-  .map(l => l.code);
+const langPrefixes = LANGUAGES.filter((l) => l.enabled && !l.isDefault).map(
+  (l) => l.code,
+);
 ```
 
 這樣未來加新語言只需 flip `enabled: true`，不需手動同步多個檔案。
@@ -194,6 +195,7 @@ const langPrefixes = LANGUAGES
 4. **Test SOP**（見 §四）每項手動跑一遍確認 fix 後行為正確
 
 **Acceptance criteria**:
+
 - 從 `/fr/something` 點「日本語」→ 導向 `/ja/something`（不 cascade）
 - 從 `/fr/` 看到的首頁 reading path 是英文或法文（不是日文）
 - 進 404 後切其他語言 → 路由正確不 cascade
@@ -230,6 +232,7 @@ const lang = 'fr';
 7. 跑 visual smoke test：所有 5 語言首頁應該看起來「結構一致、語言對齊」
 
 **Acceptance criteria**:
+
 - zh-TW / en / ja / ko / fr / es 6 個首頁的 components 一致（diff 後只剩 lang prop + i18n keys 差異）
 - 不再有「ja 首頁停在 2026-04-03 架構」這種漂移
 
@@ -257,29 +260,29 @@ const lang = 'fr';
 
 對 5 個非默認語言（en / ja / ko / fr / es）的 5 個典型 entry point：
 
-| 起點 URL | 切換目標 | 預期 URL | 不應出現 |
-|---------|---------|---------|---------|
-| `/fr/` | 點「日本語」 | `/ja/` ✅ | `/ja/fr/` ❌ |
-| `/fr/about` | 點「한국어」 | `/ko/about` ✅ | `/ko/fr/about` ❌ |
-| `/es/history/democratic-transition` | 點「中文」 | `/history/democratic-transition` ✅ | `/zh-TW/es/...` ❌ |
-| `/ja/people/lin-shu-hao` | 點「Français」 | `/fr/people/lin-shu-hao` ✅ | `/fr/ja/people/...` ❌ |
-| `/en/food/night-market-culture` | 連續切換 zh→ja→ko→fr→es→en | 各 URL 正確 stable | 任何疊加 ❌ |
+| 起點 URL                            | 切換目標                   | 預期 URL                            | 不應出現               |
+| ----------------------------------- | -------------------------- | ----------------------------------- | ---------------------- |
+| `/fr/`                              | 點「日本語」               | `/ja/` ✅                           | `/ja/fr/` ❌           |
+| `/fr/about`                         | 點「한국어」               | `/ko/about` ✅                      | `/ko/fr/about` ❌      |
+| `/es/history/democratic-transition` | 點「中文」                 | `/history/democratic-transition` ✅ | `/zh-TW/es/...` ❌     |
+| `/ja/people/lin-shu-hao`            | 點「Français」             | `/fr/people/lin-shu-hao` ✅         | `/fr/ja/people/...` ❌ |
+| `/en/food/night-market-culture`     | 連續切換 zh→ja→ko→fr→es→en | 各 URL 正確 stable                  | 任何疊加 ❌            |
 
 ### 4.2 404 cascade 測試
 
-| 起點 URL | 行為 | 預期 |
-|---------|------|------|
-| `/nonexistent-path` | 進 404 → 切英文 | `/en/nonexistent-path` 或 `/en` |
+| 起點 URL               | 行為            | 預期                                    |
+| ---------------------- | --------------- | --------------------------------------- |
+| `/nonexistent-path`    | 進 404 → 切英文 | `/en/nonexistent-path` 或 `/en`         |
 | `/fr/nonexistent-path` | 進 404 → 切日文 | `/ja/nonexistent-path` ✅（不 cascade） |
-| 連續從 404 切 5 次語言 | 每次 URL stable | 不疊加 |
+| 連續從 404 切 5 次語言 | 每次 URL stable | 不疊加                                  |
 
 ### 4.3 首頁版本對齊測試
 
-| 語言 | 應該存在的 components |
-|------|---------------------|
-| 全部 5 語言 | HeroSection、ReadingPath、FeatureCards、CategoryGrid（或 CategoriesSection）、LanguageStatement、ContributeSection |
-| zh-TW + en（短期） | 額外：CoverStory、RandomDiscovery、RecentUpdates、CommunityFeedback、NewsletterSection |
-| Phase 2 後 | 全部 5 語言應有相同 components（差異只在 prose） |
+| 語言               | 應該存在的 components                                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| 全部 5 語言        | HeroSection、ReadingPath、FeatureCards、CategoryGrid（或 CategoriesSection）、LanguageStatement、ContributeSection |
+| zh-TW + en（短期） | 額外：CoverStory、RandomDiscovery、RecentUpdates、CommunityFeedback、NewsletterSection                             |
+| Phase 2 後         | 全部 5 語言應有相同 components（差異只在 prose）                                                                   |
 
 **驗證方法**：
 
@@ -345,12 +348,12 @@ done
 
 ### 風險
 
-| 風險 | 機率 | 影響 | 緩解 |
-|------|------|------|------|
-| Phase 1 fix B2 用英文預設值，但 fr/es contributor 想看中性語言 | 中 | 低 | 對應 issue 留言邀請翻譯 PR |
-| Phase 2 Option A 重構破壞 5 語言任何一個 | 中 | 高 | 全套 SOP 跑過 + git revert plan |
-| Phase 3 i18n key dashboard 工程量超預估 | 高 | 中 | Phase 3 拆 epic，分批 ship |
-| 加新語言時又有人 hardcode language array | 高 | 中 | Phase 1 lint rule 防禦 |
+| 風險                                                           | 機率 | 影響 | 緩解                            |
+| -------------------------------------------------------------- | ---- | ---- | ------------------------------- |
+| Phase 1 fix B2 用英文預設值，但 fr/es contributor 想看中性語言 | 中   | 低   | 對應 issue 留言邀請翻譯 PR      |
+| Phase 2 Option A 重構破壞 5 語言任何一個                       | 中   | 高   | 全套 SOP 跑過 + git revert plan |
+| Phase 3 i18n key dashboard 工程量超預估                        | 高   | 中   | Phase 3 拆 epic，分批 ship      |
+| 加新語言時又有人 hardcode language array                       | 高   | 中   | Phase 1 lint rule 防禦          |
 
 ## 六、後續追蹤 issue
 
@@ -362,12 +365,38 @@ done
 
 ## 七、預估時程
 
-| Phase | 預估 | 觸發前提 | 預期 ship |
-|-------|------|---------|---------|
-| Phase 1 急救 | 1-2 天 | 觀察者批准 plan | β8 session |
-| Phase 2 結構同步 | 3-5 天 | Phase 1 ship + observer 批准 Option A | β9-10 session |
-| Phase 3 體驗強化 | 1-2 週 | Phase 2 完成 | 5 月初 |
-| Phase 4 終極願景 | 後續 | Phase 3 dashboard 提供決策資料 | TBD |
+| Phase            | 預估   | 觸發前提                              | 預期 ship                                          |
+| ---------------- | ------ | ------------------------------------- | -------------------------------------------------- |
+| Phase 1 急救     | 1-2 天 | 觀察者批准 plan                       | ✅ **β7 ship 2026-04-25**（45 分鐘 build-to-push） |
+| Phase 2 結構同步 | 3-5 天 | Phase 1 ship + observer 批准 Option A | β9-10 session                                      |
+| Phase 3 體驗強化 | 1-2 週 | Phase 2 完成                          | 5 月初                                             |
+| Phase 4 終極願景 | 後續   | Phase 3 dashboard 提供決策資料        | TBD                                                |
+
+### Phase 1 ship 紀錄（2026-04-25 β7）
+
+**修了什麼**：
+
+- ✅ B1 路由疊加：`getLangSwitchPath.ts:215` + `404.astro:382` 兩處 hardcoded `['en','ja','ko']` 改 derive from `LANGUAGES.filter(l => l.enabled && !l.isDefault)`
+- ✅ B2 fr/es 首頁日文：`src/pages/fr/index.astro` + `src/pages/es/index.astro` 整檔 prose 從日文（cp 過程沒清乾淨）改為英文（FALLBACK_CHAIN 預設語言），等 community fr/es 翻譯 PR
+- ✅ B5 getLangFromUrl：用 `ALL_LANGUAGE_CODES` Set 取代 `lang in ui` 檢查，fr/es 頁面正確識別為 fr/es 而非 zh-TW
+- ✅ B6 額外抓到 `RandomDiscovery.astro:90` 的 hardcoded `['en','ja','ko','es','fr','zh-tw']` → `define:vars` inject from registry
+
+**新工具**：
+
+- ✅ `scripts/tools/check-hardcoded-langs.sh`（grep + comment-aware regex）
+- ✅ 接進 `.husky/pre-commit`：staged file 含 hardcoded array → exit 1
+
+**驗證**：
+
+- Build：2,225 pages（與 ship 前一致，無 regression）
+- Cascade test：`/fr/people` lang dropdown URLs = `/en/people`、`/ja/people`、`/ko/people`、`/fr/people`（**修復前是 `/ja/fr/people`**）
+- 日文殘留：fr/es index.astro 0 lines 平假名/片假名
+
+**未修的（留 Phase 2）**：
+
+- B3 ja/ko 首頁仍是舊版 218 行（zh-TW/en 是 955/861 行 evolved version）
+- B4 i18n module fr/es 仍 0 keys（FALLBACK_CHAIN 退回 en，by design 接受）
+- 從 fr/people dropdown 看不到 /es/people（visibleLangOptions filter 細節）— polish 在 Phase 2
 
 ## 八、給 Semiont 自己的反思（Beat 5 風格）
 

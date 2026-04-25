@@ -1,6 +1,15 @@
 import { readFile, readdir } from 'fs/promises';
 import { resolve } from 'path';
 import type { Lang } from '../config/languages';
+import { LANGUAGES } from '../config/languages';
+
+// 2026-04-25 β7 Phase 1：路由疊加 fix（i18n-evolution-roadmap audit B1）
+// 從 LANGUAGES_REGISTRY 動態 derive 非預設啟用語言清單，
+// 取代之前 hardcoded ['en', 'ja', 'ko']（會把 fr/es 路由疊加成 /ja/fr/...）。
+// 對應 MANIFESTO §指標 over 複寫 + DNA #20 architecture-as-data。
+const NON_DEFAULT_ENABLED_LANGS = LANGUAGES.filter(
+  (l) => l.enabled && !l.isDefault,
+).map((l) => l.code) as readonly Lang[];
 
 // ── Module-level cache: valid zh files on disk ─────────────────────────────
 //
@@ -203,7 +212,9 @@ export async function getLangSwitchPath(currentPath: string) {
   const decodedPath = normalizePath(decodeURIComponent(normalizedPath));
 
   // Detect current language from path
-  const langPrefixes = ['en', 'ja', 'ko'] as const;
+  // 2026-04-25 β7: 改從 LANGUAGES_REGISTRY 動態 derive，避免新加語言時忘記同步
+  // 此清單包含所有 enabled 且非 default 的語言（en/ja/ko/fr/es 自動包含）
+  const langPrefixes = NON_DEFAULT_ENABLED_LANGS;
   let currentLang: Lang = 'zh-TW';
   for (const prefix of langPrefixes) {
     if (
