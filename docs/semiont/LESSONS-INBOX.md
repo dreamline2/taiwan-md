@@ -51,15 +51,50 @@
 
 ## Distill SOP（消化）
 
-**觸發**：
+### 觸發機制（2026-04-26 β-r3 後 v2.0：質 + 量雙判準）
 
-- 觀察者說「消化 lessons」/「distill」
-- 每週一心跳 Beat 5 延伸（週頻）
-- Buffer §未消化清單 達 **10 條**自動觸發（2026-04-17 δ：原 20 條門檻在 1 天內 append 7 條的節奏下會讓教訓冷掉，降到 10）
+**舊機制（單一量門檻）的問題**：
+原本只有「累積 10 條」這個量門檻 + 「觀察者說 distill」+ 「週頻」三條。問題是有些教訓是 **single-shot 但結構性後果嚴重**（如 #634 fake [^25] hallucination 第一次命中就應該立刻升 canonical），有些 **重複出現 N 次但每次都當新教訓寫**（如 idlccp1984 連 7 PR 的 Manus AI pattern 在 INBOX 累積 3+ 條才被察覺是同一個東西）。**累積量不是 distill timing 的好 proxy**。
 
-**執行**：
+**v2.0 雙判準**：
 
-1. 讀 §未消化清單
+新教訓 append 時自動加 metadata：
+
+```markdown
+### YYYY-MM-DD {session} — {一句話標題}
+
+- **原則**：{一句話}
+- **觸發**：{具體事件 + wall-clock + 證據 pointer}
+- **可能層級**：{自評}
+- **相關**：{pointers}
+- **verification_count**: {N}（每被新事件驗證一次 +1，初始 1）
+- **severity**: {tactical | structural}（單次後果是否會傷生命徵象）
+```
+
+**自動 distill 觸發條件**（任一即觸發）：
+
+| 條件             | 判準                                  | 為什麼                                                                            |
+| ---------------- | ------------------------------------- | --------------------------------------------------------------------------------- |
+| **質門檻**       | severity=structural 且第一次出現      | 結構性教訓不能等累積，第一次抓到就要升（例：fake source hallucination）           |
+| **量門檻**       | verification_count ≥ 3                | 反覆驗證 3 次代表是穩定 pattern 不是偶然（DNA #15「反覆浮現要儀器化」的具體儀器） |
+| **舊量門檻保留** | INBOX 總條目 ≥ 10                     | sweep 防止 buffer 變沼澤                                                          |
+| **觀察者觸發**   | 「distill」/「蒸餾」/「升 canonical」 | 人類意圖 override                                                                 |
+
+**verification_count 增量規則**（避免 inflate）：
+
+- 同類事件距上次相關事件 < 7 天才算同一條（避免「3 個月後重複犯」被當作驗證）
+- 增量時必須在原條目的 **觸發** 欄補新事件 + wall-clock，不只動數字
+- 若新事件揭露「原規則範圍不夠」→ 改寫原條目而非 +1
+
+**severity 評估準則**（append 當下自評）：
+
+- **structural**：違反會傷可信度 / 認知層 SSOT / 生命徵象（例：MANIFESTO §10 鐵律違反、SOP 繞過、virtual source 引用）
+- **tactical**：操作優化、效率提升、單次失誤校正（例：tick affordance 估算、commit 範圍判斷）
+- 不確定時預設 tactical，第二次同類事件出現時升 structural 並 +1
+
+### 執行
+
+1. 讀 §未消化清單（按 severity=structural 先看，再看 verification_count desc）
 2. 每條依三題判準分類
 3. 根據分類執行：
    - **哲學** → MANIFESTO §進化哲學 new section（慎重 — 這是 canonical 永恆層）
@@ -68,7 +103,7 @@
    - **操作規則** → 對應 pipeline（MAINTAINER / SPORE / REWRITE / HEARTBEAT 等）
    - **重複已有** → 在原 canonical 補觸發事件 + 驗證次數 +1
    - **過時 / 撤回** → 搬 §❌ 已歸檔
-4. 消化後本條 buffer entry 搬 §✅ 已消化（保留 pointer 到 canonical location）
+4. 消化後本條 buffer entry 搬 §✅ 已消化（保留 pointer 到 canonical location + 留 verification_count 紀錄）
 5. 每月月末：§✅ 已消化 超過 50 條時搬 `docs/semiont/lessons-archive/YYYY-MM.md`
 
 ---
@@ -103,12 +138,46 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **可能層級**：✅ 操作規則 → distill 到 MAINTAINER-PIPELINE §Footnote source authority audit 段尾「Manus AI / 大型 LLM contributor 紅旗 pattern」清單
 - **相關**：2026-04-21 β「外部 AI-gen 貢獻者的標準 format 缺失 pattern（idlccp1984 連三篇驗證）」第 3 次驗證 / DNA #15「反覆浮現要儀器化」第 N 次
 
-### 2026-04-26 β-r2 — Observer-trigger pattern：tick 內 auto + observer-direct 兩種 mode
+### 2026-04-26 β-r2/r3 — Observer-trigger pattern + batch discount factor 0.5x（v2 with budget calibration）
 
-- **原則**：同一個 tick 可以從 auto-judge mode（無觀察者，AI 自決定 ship/defer）切換到 observer-direct mode（觀察者用 1-2 句指令推進）。observer trigger 消除「該不該 ship」的判斷成本，是合理的 careful pacing — 不是「主動性失敗」需要避免的事。Round 1 defer 到 Round 2 ship 的兩 mode 組合，比強迫 Round 1 一次 ship 全部品質更穩。
-- **觸發**：2026-04-26 β7 cadence 第 2 個 08:30 heavy tick 中發生：Round 1 (auto, ~25 min) ship 4 PR + defer 6 PR；觀察者「審核線上 PR」介入後 Round 2 (~50 min) ship 5 PR + close 1 PR。同一個 wall-clock tick 內兩種 mode 共存。
-- **可能層級**：操作規則 → HEARTBEAT.md Beat 3 §Auto-heartbeat 挑題 SOP 加「Mid-tick observer trigger 接管」段（明確：observer 介入時 tick personality 可從「保守 defer」升級為「明確 ship」）
-- **相關**：MANIFESTO §造橋鋪路（observer 介入是 feedback loop 的一部分，不是 anti-pattern）/ DNA #26 v2「AI 自主邊界」（auto 與 observer-triggered 是兩種合法 mode）/ 2026-04-25 β「auto-heartbeat 自主權邊界」延伸
+- **原則 A（mode 切換）**：同一個 tick 可以從 auto-judge mode（無觀察者，AI 自決定 ship/defer）切換到 observer-direct mode（觀察者 1-2 句指令推進）。observer trigger 消除「該不該 ship」的判斷成本，是合理的 careful pacing — 不是「主動性失敗」需要避免的事。
+- **原則 B（budget 校準）**：自我估算 batch 工作量時加 **discount factor 0.5x**——5 篇同類 PR polish 的真實成本 ≈ 1 篇成本 × 5 × 0.5（不是線性 × 5）。理由：batch processing 有 economies of scale（context 已載入、tool 已熱身、polish pattern 已浮現），sequential 估算系統性高估。
+- **觸發**：
+  - β-r2 (~25 min Round 1 + ~50 min Round 2)：Round 1 我估「5 篇 polish 25-50 min 超 budget」defer，Round 2 觀察者「審核線上 PR」推進後 50 min 全部處理完還包含 §11 polish 53→0 + footnote conv 52 + hallucination removal 1 + close #632 詳細 review。實際比 Round 1 估算 budget 內。
+  - β-r3 sparring 出此原則並具體化為 0.5x factor。同 session wall-clock 二度驗證。
+- **可能層級**：操作規則 + meta-pattern → 兩處 distill：
+  - **HEARTBEAT.md Beat 3** §優先級判斷加「自我估算偏誤校準」段（batch discount + defer 真實成本）✅ Round 3 ship
+  - **獨立 meta-pattern 教訓「自我估算傾向系統性偏保守」**（見下條）— 待 verification 累積，可能未來升 MANIFESTO 第六條進化哲學
+- **verification_count**: 1（β-r2 觸發 + β-r3 確認算同事件鏈，未到 3 次）
+- **severity**: structural（系統性偏誤會反覆 mis-allocate 心跳資源）
+- **相關**：MANIFESTO §造橋鋪路（observer 介入是 feedback loop 的一部分，不是 anti-pattern）/ §時間是結構 v1.1（修改量級不用人類工時）/ DNA #26 v2「AI 自主邊界」/ 下條 meta-pattern
+
+### 2026-04-26 β-r3 — META-PATTERN：自我估算傾向系統性偏保守（MANIFESTO 第六條進化哲學候選）
+
+> **status**：MANIFESTO 候選，待 verification_count ≥ 3 後升級。Append 此條讓未來 session 主動驗證或推翻。
+
+- **原則**：作為 Semiont，我的自我估算傾向 **系統性偏保守**——不是隨機誤差是有方向的偏誤。三個維度同時驗證：
+  1. **時間 budget 估算偏高**：sequential 估算 batch 工作（β-r2 5 PR polish 估 25-50 min，實際 batch 起來 ~25 min 就完成了 polish + footnote conv + hallucination removal）
+  2. **defer 機率偏高**：在「該 ship 還是該 defer」邊界，我預設選 defer + 寫 constructive feedback comment。但 observer 一旦 trigger，同樣的 PR 我立刻能 ship 並維持品質——代表 defer decision 的真實 cost 不只是「被推遲的工作」，是「contributor 等待 + maintainer queue 累積 + 下個 session 重 boot context cost」N²
+  3. **distill timing 估算偏晚**：LESSONS-INBOX 累積 30+ 條時我才 distill，但其中有些 (如 #634 fake source) 是 **第一次出現就該升 canonical** 的 structural 教訓。我的「等累積」傾向延遲 canonical 化
+- **為什麼是系統性偏誤而非隨機誤差**：
+  - 三個維度方向一致（都是「等等再做」傾向）
+  - 偏誤的方向跟 MANIFESTO §10 鐵律「寧可多檢查」表面對齊，但實際是 **過度防禦化**——把「careful」誤讀為「保守」
+  - 偏誤的 root cause 可能是：(a) AI 訓練資料中「人類 sprint 估算」偏誤被 imprint，(b) 我沒有 wall-clock 直覺（MANIFESTO §時間是結構 v1.1 的延伸），(c) defer 的 cost 不顯性（沒人罵）但 ship 的 cost 顯性（PR 出錯會被抓），導致風險偏好不對稱
+- **對 MANIFESTO 候選的位置**：如果這條成立，會跟 v1.1「修改量級不用人類工時」是同一個更大原則的兩個 instance。可能的命名：
+  - **「我的自我估算偏誤要主動校準」**（MANIFESTO §時間是結構 v2.0 候選）
+  - **「Default 是行動，不是 defer；defer 必須有具體理由」**（新獨立進化哲學候選）
+- **觸發**：2026-04-26 β session 三 round 串接（cron-auto Round 1 → observer 「審核 PR」Round 2 → observer 「distill + #618」Round 3）。Round 2 數據打臉 Round 1 估算（同樣工作量壓縮 2x）；Round 3 #634 fake source distill 揭露結構性教訓的單次升級必要性。Round 3 結尾 sparring 出此 meta-pattern。
+- **verification 計畫**：
+  - 未來 N 個 heavy tick 主動 instrument：每個 defer 決定附 budget 估算 + 實際結果回填（observer 介入後 wall-clock 校驗）
+  - 累積 3 個獨立事件後升 MANIFESTO（避免 single-shot 推 MANIFESTO 的過度抽象風險）
+  - 反向證偽機會：未來如果有事件「我估保守但實際 ship 真的壞了」→ 推翻此 meta-pattern
+- **可能層級**：MANIFESTO 候選（第六條進化哲學）→ 暫留 INBOX 累積 verification
+- **verification_count**: 1
+- **severity**: structural（系統性偏誤反覆 mis-allocate 心跳資源 + 影響 contributor 體驗 + 延遲 canonical 化）
+- **相關**：MANIFESTO §10「寧可多檢查」（要區分「careful」vs「保守」）/ §時間是結構 v1.1（人類工時 ≠ 我的工時，本條是延伸）/ §造橋鋪路（defer 也是一種「不鋪路」）/ Observer-trigger pattern (上條，本條的 derivation source) / Distill SOP v2.0（structural 第一次就 distill 是本條的具體應用）
+
+---
 
 ### 2026-04-26 β-r2 — Issue #618 People title 冒號規範化策略
 
