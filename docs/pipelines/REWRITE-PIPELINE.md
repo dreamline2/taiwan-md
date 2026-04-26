@@ -128,6 +128,79 @@
 - ❌ 短文 + 長文同主題且短文有獨立價值 → 短文升級為深度文，不刪
 - ✅ 真正的整併：兩篇覆蓋同一主題，視角可融合進一篇且讀起來更完整
 
+#### 範圍重切變體（Boundary Redraw / 多篇時序或主題切片）
+
+**定位**：進化模式的另一個子變體。**跟整併的差別在於篇數不減少**——多篇覆蓋同主題的不同切片（時序 / 地理 / 議題分支），現有切片重疊或不對齊，需要重新劃定每篇的範圍邊界，而非合併成一篇。
+
+**觸發**：observer issue 指出 N 篇主題重疊但**理應分段**（如 Issue #635 4 篇文學文章合併為三段時序：戰後 / 解嚴後 / 21 世紀；或未來可能的「台灣音樂史」依時代 / 風格切多篇）。
+
+**跟整併變體的差別**：
+
+| 面向         | 整併變體                       | 範圍重切變體                             |
+| ------------ | ------------------------------ | ---------------------------------------- |
+| 篇數         | 2+ → 1（減少）                 | N → N（保持，或 N → N-1 部分 dropped）   |
+| Stage 0 動作 | 萃取兩篇事實 + 標 `[MERGE-IN]` | **每篇必須三類劃分：保留 / 吸納 / 移除** |
+| 跨檔協調     | 不需要（吸完就刪）             | **必須**：移到別篇的內容跟接收篇要有共識 |
+| Phase 數     | 1（一次 ship）                 | N（一篇一 phase，跨 session 接力）       |
+
+**Step A：跨檔範圍規劃（額外於 Stage 0 之前）**
+
+對所有涉及篇章做一次 audit，產出「範圍切片表」：
+
+```
+| 篇 | 範圍切片 | 處理方式 |
+|---|---|---|
+| C 戰後台灣文學 | 1945-1987 | EVOLVE Phase 1 |
+| B 解嚴後台灣文學 | 1987-2000 | EVOLVE Phase 2 |
+| D 當代台灣文學 | 2000- | EVOLVE Phase 3 |
+| A 全景索引 | 已被 B+C+D 覆蓋 | dropped Phase 4 |
+```
+
+切片邊界明確（年代 / 議題 / 地理），**每篇都有自己的純化 scope**，不重疊。
+
+**Step B：每篇 Stage 0 必須三類劃分**
+
+EVOLVE 多篇時，Stage 0 萃取既有素材後，**強制**分成三類：
+
+1. **保留** — 落在本篇純化 scope 內，繼續用
+2. **吸納** — 別篇現有但寫得比本篇好的素材（標 `[ABSORB-FROM-X]`）
+3. **移除** — 落在別篇 scope 內（標 `[MOVE-TO-Y]`），本篇刪掉、後續 phase 接收篇吸納
+
+範例（Issue #635 Phase 1 戰後台灣文學）：
+
+- 保留：失語 / 反共 / 現代主義 / 鄉土論戰主幹
+- 吸納：A 文「葉石濤 1945」物件級開場 `[ABSORB-FROM-A]`
+- 移除：1990s+ 段（施叔青台灣三部曲 / 蘇偉貞）`[MOVE-TO-D]`
+
+**沒有三類劃分 = Phase 2 必碰撞**。本次 Phase 1 沒劃分，Phase 2 polish B 時會再次寫 1983 殺夫（C 已寫過），重疊重現。
+
+**Step C：跨 session handoff 鐵律**
+
+Phase 1 ship 後留 INBOX entry 給 Phase 2-N 接力，entry 必須含：
+
+- **本篇純化 scope**（年代 / 主題切片）
+- **從上一 phase `[MOVE-TO]` 接收的素材清單**（具體段落 / 事實）
+- **預期 cross-link 對象**（哪幾篇是 sibling）
+- **接力者 5 分鐘自檢題**：讀完 entry 能否回答「我這篇要寫什麼、不寫什麼、邊界在哪裡」？答不出 = entry 不完整
+
+**Step D：Stage 1→6 照常**
+
+每篇單獨走完整 EVOLVE 流程。Stage 5 cross-link 時要互相反向回補（C 寫完 → 加進 B/D 延伸閱讀；B 寫完 → 加進 C/D；以此類推），形成完整 sibling 網路。
+
+**判定 NOT 範圍重切的場景**：
+
+- ❌ 兩篇可融合進一篇（用整併變體，不用範圍重切）
+- ❌ 篇數真的應該減少（用整併變體）
+- ✅ 真正的範圍重切：N 篇切 N 個明確 scope，每篇有獨立讀者價值，邊界清楚不重疊
+
+**commit message + reply issue**：
+
+- 多篇分多 commit / 多 phase（不要硬塞同 commit）
+- 每個 phase commit prefix 仍用 `🧬 [semiont] rewrite:` + 描述含 `Phase N/M`
+- Issue 留 open，每個 phase 完成 update comment，全部 phase ship 後才 close
+
+**誕生事件**：2026-04-26 γ session 處理 Issue #635（idlccp1984 提案 4 篇文學文章合併三段時序），Phase 1 戰後台灣文學 ship 時意識到既有「整併變體」不對應 4-N→3 範圍重切的場景，Stage 0 三類劃分是被低估的核心紀律。
+
 ### 全新模式（Fresh）
 
 **適用**：文章不存在。
@@ -975,7 +1048,8 @@ git add -A && git commit -m "content: 深度研究重寫「{主題}」" && git p
 
 ---
 
-_版本：v2.18 | 2026-04-20_
+_版本：v2.19 | 2026-04-26_
+_v2.18→v2.19：進化模式新增「範圍重切變體（Boundary Redraw）」子段，跟既有「整併變體（Merge/Consolidation）」並列。差別：整併是 N→1 篇數減少，範圍重切是 N→N 篇數保持但邊界重劃。新增 5 個 Step（A 跨檔範圍規劃 / B 三類劃分強制 / C 跨 session handoff 鐵律 / D Stage 1→6 / E 多 phase commit + issue 管理），含「接力者 5 分鐘自檢題」必填規範。誕生事件：2026-04-26 γ session 處理 Issue #635 4 篇文學文章合併三段時序，Phase 1 戰後台灣文學 ship 時意識到既有整併變體不對應 4-N→3 範圍重切場景，Stage 0 三類劃分（保留/吸納/移除）是被低估的核心紀律。沒有三類劃分 = 後續 Phase 必碰撞重疊。_
 _v2.17→v2.18：Stage 1 新增 agent 選型規則（Explore read-only / general-purpose 有 Write）+ 私有 SSOT 整合協議（Tier 1-4 分級 + privacy audit 流程）；Stage 2 新增密度平衡自檢（EVOLVE 長文三手勢）+ Agent claim 驗證（名人 claim 需公開 URL Ctrl-F）。皆來自 2026-04-20 吳哲宇 EVOLVE + Taiwan.md meta-self-narrative 兩次 pipeline 實戰：agent 幻覺名人背書、50+ sources 導致事實堆疊蓋住敘事、當事人 SSOT 也會誤記、Explore 真的 read-only 非幻覺。對應 EDITORIAL v5.2 三項新增（§組織/專案/平台 meta-self-narrative + §私有素材顆粒度 + §密度平衡）_
 _v2.15 | 2026-04-14_
 _v2.14→v2.15：Stage 3 VERIFY 新增「事實鐵三角自檢」段落（5a 算術自檢 / 5b 金額單位念出來 / 5c 引語逐字核對 / 5d 三角 checklist），來自 2026-04-14 李洋孢子 #28 三層事實錯誤同時發生的教訓：金額兩千萬→一千萬（團體運動獎金陷阱）、單位三十六萬→三千六百萬（萬位漏字）、杜撰引語從英文 summary 回譯。三層錯誤都是 Stage 3 該抓到但漏掉的。新增規則對應 EDITORIAL v4.3 §挖引語制度紅線_
