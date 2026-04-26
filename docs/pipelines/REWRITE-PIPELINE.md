@@ -53,6 +53,81 @@
 
 **然後進入 Stage 1（研究），研究範圍 = 舊文缺口 + 正常研究流程。**
 
+#### 整併變體（Merge / Consolidation）
+
+**定位**：進化模式的子變體。流程跟進化模式一模一樣，只多兩件事：(1) 開頭多一道「保留誰」的判定，(2) 結尾多一道路徑改寫（redirect + 翻譯鏡像清理 + cross-link）。其他所有 Stage（1→2→3→3.5→3.6→4→5）照常走。
+
+**觸發**：observer issue 指出兩篇（或多篇）主題重疊（如 #609 黑白大廚 9→1、#626 台灣交通 2→1、#635 戰後到現代文學）。
+
+**Step A：選 canonical（額外於 Stage 0 之前）**
+
+比較候選文章，挑一篇當保留方。判準（按優先序）：
+
+1. **EVOLVE 狀態**：已 EVOLVE 過的場景式 > 未 EVOLVE 的條列式
+2. **腳註密度與一手來源**：高 > 低
+3. **`lastHumanReview: true` 優先**
+4. **slug 持續性**：對外連結多的 slug 優先保留（少斷鏈）
+5. **category 切合度**：主題真正屬於哪個 category（#626 交通歸 Lifestyle 比 Geography 自然）
+
+**Step B：把要刪那篇的獨有素材帶進 canonical**
+
+走 Stage 0 素材萃取時，**兩篇都要萃**：
+
+- canonical 的事實清單：照常
+- 將被刪那篇的事實清單：標 `[MERGE-IN]`，列出「對方有但 canonical 沒有的視角/場景/數據」
+- Stage 1 研究範圍 = canonical 缺口 + `[MERGE-IN]` 視角的補強查證
+
+範例（#626）：Geography 篇獨有「中央山脈/桃機/高雄港」三個視角 → 標 `[MERGE-IN]` → Stage 1 補查雪山隧道 12.9km、桃機 4,400 萬客、高雄港全球排名第 18 → Stage 2 寫成 canonical 的兩段新章節。
+
+**Step C：Stage 1→3.6 照常進化模式跑**
+
+不另立規則。EVOLVE canonical 篇就是 EVOLVE，幻覺鐵律與原子審計照常。
+
+**Step D：路徑改寫（額外於 Stage 5 之後）**
+
+整併獨有的收尾，**四件事缺一不可**：
+
+1. **Astro redirect（5 lang 全寫）** — `astro.config.mjs` `redirects:` 區塊：
+
+   ```javascript
+   '/{old-category}/{zh-slug}': '/{new-category}/{zh-slug}/',
+   '/en/{old-category}/{en-slug}': '/en/{new-category}/{new-en-slug}/',
+   '/ja/{old-category}/{ja-slug}': '/ja/{new-category}/{new-ja-slug}/',
+   '/ko/{old-category}/{ko-slug}': '/ko/{new-category}/{new-ko-slug}/',
+   '/fr/{old-category}/{fr-slug}': '/fr/{new-category}/{new-fr-slug}/',
+   ```
+
+   **不可省任一語系**——舊 URL 在 SC / 外站可能任何語系都有 backlink。漏一個語系就漏一條 SEO 流量。
+
+2. **刪除被併方原檔（5 lang + sync 鏡像）**：
+   - `knowledge/{old-category}/{原檔}.md`（zh-TW）
+   - `knowledge/{en,ja,ko,fr}/{old-category}/{translation-slug}.md`
+   - 跑 `bash scripts/sync.sh`，`src/content/` 鏡像會跟著刪
+   - 確認 `git status` 顯示 zh-TW + 4 lang knowledge + 對應 src/content 全部 deleted
+
+3. **Cross-link audit**：
+   - `grep -rn "被刪 slug" knowledge/ src/` — 找所有引用
+   - 出現的 wikilink / markdown link 改指 canonical（或刪除）
+   - Hub 頁面（`_*.md`）裡的舊條目改指 canonical
+
+4. **Build verify**：
+   - `npm run build` 必須過（會驗 redirect 語法）
+   - 隨機開一個被刪的舊 URL 試 redirect 是否真的轉到 canonical
+   - sitemap 應減少對應數量的 entry
+
+**Step E：commit message + reply issue**
+
+- commit prefix 用 `🧬 [evolve+merge]`（不是純 `[evolve]`）
+- commit body 列：保留誰、為何、EVOLVE 進去什麼、刪了哪幾個檔、設了哪幾條 redirect
+- reply issue 必附 commit hash，並說明「未來類似問題會走整併變體 SOP」
+
+**判定 NOT 整併的場景**（避免誤用）：
+
+- ❌ 主題相關但角度不同（如「捷運」vs「高鐵」） → 兩篇都留，互相 cross-link
+- ❌ 一篇是 Hub、一篇是深度文 → 兩篇都留，Hub 連深度文
+- ❌ 短文 + 長文同主題且短文有獨立價值 → 短文升級為深度文，不刪
+- ✅ 真正的整併：兩篇覆蓋同一主題，視角可融合進一篇且讀起來更完整
+
 ### 全新模式（Fresh）
 
 **適用**：文章不存在。

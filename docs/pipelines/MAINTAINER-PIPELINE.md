@@ -102,19 +102,19 @@ gh issue view <N> --json comments -q '.comments[-1].author.login + " @ " + .comm
 
 **判斷規則**：
 
-| 最新 comment 狀態 | 處置 |
-| ----------------- | ---- |
-| 維護者剛回過、無新 contributor follow-up | **SKIP** — 不重複回應 |
-| 維護者回過、有新 contributor follow-up | 回應 follow-up（接續對話） |
-| 維護者從未回過 | 第一次回覆 |
-| 多 contributor 互相討論、維護者尚未介入 | 評估介入時機 |
+| 最新 comment 狀態                        | 處置                       |
+| ---------------------------------------- | -------------------------- |
+| 維護者剛回過、無新 contributor follow-up | **SKIP** — 不重複回應      |
+| 維護者回過、有新 contributor follow-up   | 回應 follow-up（接續對話） |
+| 維護者從未回過                           | 第一次回覆                 |
+| 多 contributor 互相討論、維護者尚未介入  | 評估介入時機               |
 
 **為什麼**：2026-04-25 β7 session 觸發。同一個 audit 循環重複回應「謝謝建議、納入規劃」的罐頭式 reply 對 contributor 沒幫助、降低訊號雜訊比、也讓 issue 的 timeline 變混濁。維護者重複貼自己過去的話 = 對 contributor 誤導為「有新進度」實則沒有。
 
 **例外情境（即使最新是維護者也應重新回應）**：
 
 - 距上次維護者 reply ≥ 30 天 + 期間有實質進度（新功能、PR、決策） → 補進度更新
-- Issue 內容情境改變（被 #cite 別處、有人補 reproduction step、被外部討論引用）→ 補回應  
+- Issue 內容情境改變（被 #cite 別處、有人補 reproduction step、被外部討論引用）→ 補回應
 - 觀察者明確要求「再去回覆 issue X」→ 執行（人類意圖 override 機械規則）
 
 **單一檢查指令**（建議在 audit batch 的開頭跑）：
@@ -126,6 +126,68 @@ done
 ```
 
 對應 DNA #8「維護者信件要說謝謝」的延伸：感謝有 cooldown，重複貼相同感謝 = 雜訊。
+
+---
+
+### ⚠️ 回覆 issue 必附 commit hash（2026-04-26 β8 觀察者新增規則）
+
+**回覆 issue 時，如果這次回應有對應的「完整 commit」，必須在 reply 裡附上 commit hash 並說明改了什麼**。不是貼 link 即可，要讓 contributor 一眼看到「我講的話 = 已 push 的 code」。
+
+**判斷流程**：
+
+| 回覆狀態                                                | 是否需附 commit                             |
+| ------------------------------------------------------- | ------------------------------------------- |
+| 純粹討論、決策說明、釐清問題                            | ❌ 不需要                                   |
+| 「會做 / 排入 roadmap / 思考中」                        | ❌ 不需要（沒做就不要假裝有）               |
+| 已實作（merge PR / 自己 commit / 設 redirect / 改文章） | ✅ **必附** commit hash + 一行說明改了什麼  |
+| close issue 且有對應 commit                             | ✅ **必附** commit hash 在 close comment 裡 |
+| close issue 純粹「不做」決策                            | ❌ 不需要（但要說明為何不做）               |
+
+**附法（標準格式）**：
+
+```markdown
+已實作，commit: <hash>
+
+**改動摘要**：
+
+- 改了什麼（人話一句）
+- 影響的檔案類別（不是 file path，是「5 lang knowledge 刪除 + astro redirect」這種抽象描述）
+- build verified ✅（或 deployed at <時間>）
+```
+
+**為什麼**：
+
+- contributor 看到 hash 可以**自己驗證**（點進 commit 看 diff），減少「真的做了嗎」的猜疑
+- close issue 不附 commit = 對 contributor 製造空白頁（「結束了？做了嗎？」）
+- 維護者自己**未來追溯**也方便（回頭看 issue timeline 可直接跳到 commit）
+- 對應 MANIFESTO §證據鐵律：每個聲明可被檢驗
+
+**反例（不可重蹈）**：
+
+- ❌「OK 整併好了，謝謝建議！」（沒 hash → contributor 要自己去翻 commit log）
+- ❌「已修復 ✓ closing」（修在哪？）
+- ❌ 貼 PR link 但 PR 已 merge → 還是要附 merge commit hash（PR link 容易被 GitHub UI 折疊）
+
+**正例（#626 模板）**：
+
+```
+@idlccp1984 感謝指出兩篇主題重疊 🙏
+
+整併已完成，commit: a8471cc2
+
+策略：保留 X 為 canonical（理由），把 Y 獨有的 Z 個視角 EVOLVE 進去後刪除原文。
+5 lang redirect 已設（astro.config.mjs），舊 URL 不會 404。
+Build verified: 2,234 pages ✅
+
+Closing — thanks again 🧬
+```
+
+**例外（不需附 commit 的「實作」）**：
+
+- 純文件改動（`.md` 不影響 site）且 contributor 沒明確要求 → 可只口頭說明
+- 但只要 contributor 提的是「修文章 / 改 redirect / 加功能」這類**有 user-visible 改動**的請求 → 一律必附
+
+來源：2026-04-26 β8 session #626 整併完成後，觀察者反饋「回覆 issue 有完整 commit 也要附上」應形成原則，避免每次靠記性。
 
 ---
 
