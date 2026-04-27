@@ -9,14 +9,13 @@ translatedFrom: 'People/蔡英文.md'
 
 # Tsai Ing-wen
 
-Tsai Ing-wen 蔡英文 is an important milestone in Taiwan's political history, serving as the 14th and 15th President of the Republic of China, and Taiwan's first female head of state. Her political career witnesses the deepening and development of Taiwan's democracy. Her transformation from scholar to politician embodies Taiwan society's acceptance of diversity and inclusion, as well as breakthroughs for women in the political field. Tsai Ing-wen is not only Taiwan's political leader but also an important symbol of democratic development in Asia.
+Tsai Ing-wen (蔡英文) is a major milestone in Taiwan's political history, serving as the 14th and 15th President of the Republic of China (2016–2024), and Taiwan's first female head of state.[^1][^2] Her political career witnesses the deepening of Taiwan's democracy, transforming from a scholar and trade negotiator into a political leader who embodied Taiwan's acceptance of diversity and inclusion.[^3][^4][^5]
 
 ## Early Life and Educational Background
 
 ### Family Origins and Growing Environment
 
-**Family Background:**
-Born on August 31, 1956, in Zhongshan District, Taipei, Tsai Ing-wen was the youngest of 11 children in a traditional Hakka family. Her father, Tsai Jie-sheng 蔡潔生, ran an auto repair business, and her mother, Chang Jin-feng 張金鳳, was a housewife. The family has Paiwan indigenous heritage, a diverse ethnic background that influenced her later understanding of Taiwan's multiculturalism.
+Born on August 31, 1956, in Zhongshan District, Taipei, Tsai Ing-wen was the youngest of 11 children in a family with Hakka and Paiwan indigenous heritage.[^3] Her father, Tsai Jie-sheng (蔡潔生), ran an auto repair business serving US military vehicles before entering real estate. Her Paiwan heritage (with the name Tjuku) made her the first president in Taiwan's history with indigenous blood.[^3]
 
 **Academic Journey:**
 Showing excellence from a young age, Tsai received a complete higher education with family support. In 1978, she graduated from the Department of Law at National Taiwan University, demonstrating strong interest in law and politics.
@@ -27,7 +26,7 @@ Showing excellence from a young age, Tsai received a complete higher education w
 In 1980, she obtained a Master of Laws degree from Cornell University, specializing in international trade law. Her study experience in the US exposed her to advanced democratic systems and rule of law concepts, laying the foundation for her future political philosophy.
 
 **Doctoral Degree in the UK:**
-In 1984, she earned a Ph.D. in Law from the London School of Economics and Political Science (LSE), focusing on international economic law. The European academic environment cultivated her international vision and rigorous academic thinking.
+In 1984, she earned a Ph.D. in Law from the London School of Economics and Political Science (LSE), focusing on international economic law with her thesis "Unfair trade practices and safeguard actions."[^7] Despite later political attacks questioning its existence, LSE issued a formal statement in 2019 confirming her degree as authentic and valid.[^7]
 
 **Academic Specialization:**
 Tsai's academic expertise concentrated on international trade law, WTO legal systems, and competition law. This specialized knowledge provided a profound foundation for her later handling of cross-strait trade and international affairs.
@@ -39,8 +38,7 @@ Tsai's academic expertise concentrated on international trade law, WTO legal sys
 **Academic Achievements:**
 After returning to Taiwan in 1984, Tsai taught at National Chengchi University and Soochow University, specializing in international economic law. She was not only an excellent scholar but also beloved by students for her rigorous scholarship and innovative teaching methods.
 
-**Policy Participation:**
-In the 1990s, Tsai began participating in government legal reform and international negotiations, using her professional knowledge to assist Taiwan's integration into the international economic system, particularly WTO accession negotiations.
+In the 1990s, Tsai began participating in government legal reform and international negotiations, serving as a legal advisor for Taiwan's GATT/WTO accession—a role where she excelled at securing space for a small economy amidst major powers.[^8]
 
 **Interdisciplinary Influence:**
 As a legal scholar, Tsai's research didn't stop at the academic level but focused on applying theory to Taiwan's actual development needs.
@@ -52,8 +50,7 @@ As a legal scholar, Tsai's research didn't stop at the academic level but focuse
 **National Security Council Advisor (1999-2000):**
 Tsai formally participated in government work for the first time as an advisor to the National Security Council, beginning her transition from scholar to policy maker.
 
-**MAC Chairperson (2000-2004):**
-During the Chen Shui-bian administration, she served as Chairperson of the Mainland Affairs Council (MAC), responsible for formulating and executing cross-strait policies. This experience gave her deep insight into the complexity of cross-strait relations and established her professional reputation in cross-strait policy.
+During the Chen Shui-bian administration, she served as Chairperson of the Mainland Affairs Council (MAC, 2000–2004), becoming a key architect of cross-strait policy despite not being a member of the DPP at the time.[^8]
 
 **Cross-Strait Policy Philosophy:**
 At the MAC, Tsai advocated "active management, effective opening" 積極管理、有效開放 cross-strait policies, emphasizing promoting exchanges while maintaining Taiwan's subjectivity.
@@ -84,8 +81,7 @@ Facing a defeated DPP, Tsai promoted organizational reform and route adjustments
 **First Female Presidential Candidate:**
 In 2012, Tsai represented the DPP in the presidential election, becoming the first female presidential candidate in Taiwan's history, itself an important milestone in Taiwan's democratic development.
 
-**Election Result:**
-Although losing to Ma Ying-jeou by 800,000 votes, Tsai's rational, moderate image and deep policy discourse accumulated a broad base of public opinion support.
+Although losing to Ma Ying-jeou by 800,000 votes, her concession speech—urging supporters "You can be sad, but don't give up"—became a defining moment for her leadership.[^1]
 
 **Reflection after Defeat:**
 After the loss, Tsai engaged in deep reflection, adjusting political routes and placing more emphasis on social communication and public needs.
@@ -94,8 +90,7 @@ After the loss, Tsai engaged in deep reflection, adjusting political routes and 
 
 ### 2016 Presidential Election
 
-**Historic Victory:**
-On January 16, 2016, Tsai was elected the 14th President with a record 6.89 million votes (56.12%), becoming Taiwan's first female head of state and Asia's first female president not from a political dynasty.
+On January 16, 2016, Tsai was elected the 14th President with 6.89 million votes (56.12%), becoming Taiwan's first female head of state and Asia's first female president not from a political dynasty.[^2]
 
 **Alternation of Power:**
 This election achieved the third alternation of political power in Taiwan's history. The DPP returned to power and secured a legislative majority, forming a complete governance structure.
@@ -105,8 +100,7 @@ Tsai's election received international attention, viewed as an important breakth
 
 ### 2020 Re-election Success
 
-**Highest Vote Count in History:**
-On January 11, 2020, Tsai was successfully re-elected as the 15th President with a historic high of 8.17 million votes (57.13%), demonstrating powerful public support.
+On January 11, 2020, Tsai was successfully re-elected as the 15th President with a historic high of 8.17 million votes (57.13%), the highest count in Taiwan's democratic history.[^6]
 
 **International Attention:**
 The re-election took place against the backdrop of Hong Kong's anti-extradition protests and the US-China trade war. Tsai's victory was seen by the international community as the Taiwanese people's persistence in democratic values.
@@ -115,8 +109,7 @@ The re-election took place against the backdrop of Hong Kong's anti-extradition 
 
 ### Cross-Strait Relations Policy
 
-**Maintaining the Status Quo:**
-Tsai advocates a policy of "maintaining the status quo," preserving peace and stability in the Taiwan Strait without provocation or submission.
+Tsai advocates a policy of "maintaining the status quo," a stance that saw increased pressure from Beijing as they cut off official communication channels following her refusal to accept the "1992 Consensus."[^9]
 
 **Four Commitments:**
 Commitment to the existence of the Republic of China; commitment that the Republic of China and the People's Republic of China are not subordinate to each other; commitment to sovereignty being inviolable and unannexable; and commitment that the future of the Republic of China (Taiwan) must follow the will of the Taiwanese people.
@@ -131,14 +124,12 @@ Strengthening economic, trade, and investment cooperation with 18 countries in S
 
 ### Social Reform
 
-**Marriage Equality:**
-Promoting the legalization of same-sex marriage, making Taiwan the first place in Asia to recognize same-sex marriage.
+On May 24, 2019, following a landmark constitutional ruling, Taiwan became the first place in Asia to legalize same-sex marriage.[^4]
 
 **Pension Reform:**
 Driving pension reform for military, civil servants, and teachers to ensure system sustainability. Although the process was controversial, it demonstrated determination for reform.
 
-**Transitional Justice:**
-Establishing the Transitional Justice Commission to address unjust legacies from the authoritarian period.
+Establishing the Transitional Justice Commission to address authoritarian legacies. Notably, on August 1, 2016, she issued a formal apology to Taiwan's indigenous peoples on behalf of the government, the first of its kind in history.[^5]
 
 ## International Relations and Diplomatic Achievements
 
@@ -155,8 +146,7 @@ Despite suppression from China, Taiwan's participation in international organiza
 
 ### International Performance during Pandemic
 
-**Pandemic Prevention Achievement:**
-During the COVID-19 pandemic, Taiwan's prevention performance received international recognition, making "Taiwan can help" a resounding international brand.
+During the COVID-19 pandemic, Taiwan's performance—including its "mask-rationing" system and contact tracing—was hailed internationally as the "Taiwan Model."[^10]
 
 **Mask Diplomacy:**
 Donating masks and other supplies to various countries demonstrated humanitarian concern and enhanced Taiwan's international image.
@@ -200,8 +190,7 @@ The nuclear-free homeland policy faces technical and cost challenges during exec
 
 ### External Pressure
 
-**Cross-Strait Relations:**
-Facing military threats and diplomatic suppression from China, maintaining Taiwan's security and dignity is the greatest test.
+Facing military threats, such as the major PLA exercises following US Speaker Nancy Pelosi's 2022 visit, where China launched 11 ballistic missiles and significantly increased median line crossings.[^9][^11]
 
 **International Space:**
 Under the backdrop of China's rise, expanding Taiwan's international space remains a major challenge.
@@ -227,7 +216,7 @@ As an important female political leader in Asia, Tsai's success serves as a demo
 **Democratic Paragon:**
 Taiwan's democratic practice under Tsai's leadership provides valuable experience for other developing democracies.
 
-## Influence After Leaving Office
+On May 20, 2024, Tsai left office, handing over to her vice president Lai Ching-te, marking the first time a single party won three consecutive terms in Taiwan's history.[^12]
 
 ### Political Legacy
 
@@ -255,8 +244,7 @@ Demonstrating a successful model of scholars entering politics, providing refere
 
 ### Lifestyle
 
-**Cat Lover:**
-Tsai is a well-known cat lover, owning several cats and frequently sharing life with them on social media.
+Tsai is a well-known cat lover, sharing her home with cats like Tsai Hsiang-hsiang (a rescue tiger tabby) and Tsai A-tsai.[^14]
 
 **Reading Habits:**
 Maintaining extensive reading habits, covering history, literature, politics, and other fields.
@@ -278,10 +266,32 @@ As Taiwan's first female president, Tsai's historical status is established. Her
 
 ---
 
-_References:_
+## References
 
-- Official Website of the Office of the President, ROC
-- Democratic Progressive Party Historical Data
-- Central Election Commission Election Records
-- News Media Reports and Political Analysis
-- Academic Research Papers and Political Biographies
+[^1]: [Wikipedia: Tsai Ing-wen](https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7) — Contains records of her political career, 2012 concession speech, and election data.
+
+[^2]: [Central Election Commission: 2016 Presidential Election](https://www.cec.gov.tw/) — Official results: Tsai won with 6,894,744 votes (56.12%).
+
+[^3]: [ETtoday: Tsai Ing-wen's Indigenous Heritage](https://www.ettoday.net/news/20160514/694830.htm) — Details on her Paiwan heritage and family background.
+
+[^4]: [BBC News: Taiwan legalises same-sex marriage](https://www.bbc.com/news/world-asia-48305708) — Coverage of the 2019 legislation making Taiwan an Asian pioneer in equality.
+
+[^5]: [Office of the President: President Tsai Apologizes to Indigenous Peoples](https://www.president.gov.tw/NEWS/20603) — Full text of the historic 2016 apology.
+
+[^6]: [Central Election Commission: 2020 Presidential Election](https://www.cec.gov.tw/) — Official results: Tsai won with 8,170,231 votes (57.13%).
+
+[^7]: [LSE Statement on PhD of Dr. Tsai Ing-wen](https://www.lse.ac.uk/News/Latest-news-from-LSE/2019/j-October-2019/LSE-statement-on-PhD-of-Dr-Tsai-Ing-wen) — LSE's 2019 confirmation of her degree authenticity.
+
+[^8]: [Wikipedia: Tsai Ing-wen (Early Career)](https://en.wikipedia.org/wiki/Tsai_Ing-wen) — Details on WTO negotiations and MAC tenure.
+
+[^9]: [CSIS ChinaPower: 2022 in ADIZ Violations - China Dials Up the Pressure on Taiwan](https://chinapower.csis.org/analysis/2022-adiz-violations-china-dials-up-pressure-on-taiwan/) — Analysis of PLA activities in 2022.
+
+[^10]: [NPR: How Taiwan Battled Covid-19](https://www.npr.org/sections/goatsandsoda/2020/07/15/887616529/) — Reporting on the "Taiwan Model."
+
+[^11]: [CNN: Pelosi's Taiwan Visit](https://edition.cnn.com/2022/08/02/politics/nancy-pelosi-taiwan/) — Report on the 2022 visit and military response.
+
+[^12]: [Focus Taiwan: Lai Ching-te wins 2024 presidential election](https://focustaiwan.tw/politics/202401130014) — Reporting on the first third-term win for a single party.
+
+[^13]: [TIME: The 100 Most Influential People 2020](https://time.com/collection/100-most-influential-people-2020/5888228/tsai-ing-wen/) — Tsai's inclusion in the TIME 100.
+
+[^14]: [Reuters: Taiwan's cat-loving president](https://www.reuters.com/article/us-taiwan-president-cats-idUSKCN0Z005V) — Feature on her cats and public image.

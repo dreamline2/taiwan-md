@@ -67,7 +67,7 @@ featured: false
 
 그 선거의 전환점은 타이완이 아니라 홍콩이었다. 2019년 홍콩 반송환법 반대 운동이 타이완 유권자들에게 '일국양제'의 결말을 직접 보여줬다. 차이잉원의 선거 핵심 메시지는 내정에서 주권으로 옮겨갔다. 그녀가 반복해서 한 그 말이 선거를 정의했다. "타이완의 미래는 2,300만 명이 스스로 결정한다."
 
-같은 해 코로나19가 발생했다. 마스크 실명제, 접촉 추적 앱, 200여 일 이상 국내 감염 제로라는 타이완의 초기 방역 성과는 국제 언론에서 '타이완 모델'로 불렸다.[^10]
+2020년에는 코로나19가 발생했습니다. 마스크 실명제, 접촉 추적 앱, 200여 일 이상 국내 감염 제로라는 타이완의 초기 방역 성과는 국제 언론에서 '타이완 모델'로 불렸습니다.[^10]
 
 그러나 2021년 5월, 국내 감염이 폭발했고, 백신 구매 지연이 심각한 비판을 불러왔다. '선제 대응'이라는 찬사가 조소로 바뀌었다.
 
@@ -115,7 +115,7 @@ featured: false
 
 [^8]: [Wikipedia: Tsai Ing-wen](https://en.wikipedia.org/wiki/Tsai_Ing-wen) — WTO 협상 경력, 양국론 기초 작성 참여, 대륙위원회 주임위원 임기(2000-2004) 등 수록.
 
-[^9]: [CSIS: Cross-Strait Relations Under Tsai](https://www.csis.org/) — 차이잉원 재임 기간 양안 관계 변화 분석, 2022년 인민해방군 중간선 침범 564회 데이터 포함.
+[^9]: [CSIS ChinaPower: 2022 in ADIZ Violations - China Dials Up the Pressure on Taiwan](https://chinapower.csis.org/analysis/2022-adiz-violations-china-dials-up-pressure-on-taiwan/) — 차이잉원 재임 기간 양안 관계 변화 분석, 2022년 인민해방군 중간선 침범 564회 데이터 포함.
 
 [^10]: [NPR: How Taiwan Battled Covid-19](https://www.npr.org/sections/goatsandsoda/2020/07/15/887616529/) — 타이완 코로나19 초기 방역 조치(마스크 실명제, 접촉 추적)가 '타이완 모델'로 불린 것 보도.
 

@@ -14,7 +14,7 @@ translatedFrom: 'People/張忠謀.md'
 
 ## 30-Second Overview
 
-Morris Chang (張忠謀) transformed Taiwan from a low-cost manufacturing hub into the epicenter of global semiconductor production. Born in 1931 in mainland China, educated at MIT and Stanford, Chang spent his early career at Texas Instruments before founding Taiwan Semiconductor Manufacturing Company (TSMC) in 1987. His revolutionary "pure-play foundry" model - manufacturing chips designed by other companies rather than competing directly - created an entirely new industry structure. Today, TSMC produces over 60% of the world's semiconductors and 90% of the most advanced chips, making Taiwan indispensable to global technology and earning Chang the title "Father of Taiwan's Semiconductor Industry."
+Morris Chang (張忠謀) transformed Taiwan from a low-cost manufacturing hub into the epicenter of global semiconductor production. Born in 1931 in mainland China, educated at MIT and Stanford, Chang spent his early career at Texas Instruments before founding Taiwan Semiconductor Manufacturing Company (TSMC) in 1987. His revolutionary "pure-play foundry" model - manufacturing chips designed by other companies rather than competing directly - created an entirely new industry structure. Today, TSMC produces over 60% of the world's semiconductors and 90% of the most advanced chips, making Taiwan indispensable to global technology and earning Chang the title "Father of Taiwan's Semiconductor Industry."[^1][^2]
 
 ## Why It Matters
 
@@ -28,7 +28,7 @@ Understanding Chang's story means understanding how strategic vision, execution 
 
 ### Mainland China Origins (1931-1949)
 
-Born in Ningbo, Zhejiang Province, Chang experienced China's turbulent period through the Japanese invasion, civil war, and eventual Communist victory. His family fled to Hong Kong in 1948, then to Taiwan, shaping his understanding of political instability and the importance of strategic positioning.
+Born in Ningbo, Zhejiang Province, Chang experienced China's turbulent period through the Japanese invasion, civil war, and eventual Communist victory. His family fled to Hong Kong in 1948, then to Taiwan, shaping his understanding of political instability and the importance of strategic positioning. He was the only Chinese student among over 1,000 freshmen at Harvard in 1949.[^3]
 
 **Key Formative Experiences:**
 
@@ -40,7 +40,7 @@ Born in Ningbo, Zhejiang Province, Chang experienced China's turbulent period th
 
 **Harvard University (1949-1952)**: Studied mechanical engineering, developing analytical thinking and exposure to American business culture.
 
-**MIT (1952-1955)**: Earned Master's degree in mechanical engineering, where Chang first encountered the emerging field of semiconductors and their potential to transform industries.
+**MIT (1952-1955)**: Earned Master's degree in mechanical engineering, where Chang first encountered the emerging field of semiconductors and their potential to transform industries. He famously mentioned in a 2024 interview that he chose engineering over literature because it promised a more stable career in America at the time.[^1][^4]
 
 **Cultural Bridge**: Chang's education gave him unique insight into both Eastern and Western business practices, technical standards, and strategic thinking - capabilities that would prove crucial in building Taiwan's semiconductor industry.
 
@@ -53,13 +53,13 @@ Chang joined Texas Instruments as a junior engineer and spent 25 years rising to
 **Technical Development**: How semiconductors evolved from simple components to complex integrated circuits
 **Manufacturing Excellence**: The critical importance of yield rates, process control, and continuous improvement
 **Global Competition**: How American companies competed with emerging Japanese semiconductor manufacturers
-**Strategic Planning**: Long-term technology roadmaps and capital investment decisions
+**Strategic Planning**: Long-term technology roadmaps and capital investment decisions. He joined TI in 1958 and famously improved the yield of the IBM transistor line from zero to a significant level almost immediately.[^1]
 
 ### Key Achievements at TI
 
 - Led development of important semiconductor technologies
 - Managed major manufacturing operations
-- Gained experience in Asian markets and manufacturing
+- Gained experience in Asian markets and manufacturing. In 1972, he was promoted to Group Vice President of TI, becoming one of the highest-ranking Chinese executives in corporate America, breaking the glass ceiling.[^6]
 - Understood the economics of semiconductor fabrication
 - Learned how R&D, manufacturing, and business strategy must integrate
 
@@ -78,7 +78,7 @@ These observations would form the foundation of his revolutionary foundry concep
 
 ### Return to Taiwan
 
-In 1985, Taiwan's government recruited Chang to lead the Industrial Technology Research Institute (ITRI) and help develop Taiwan's technology industry. The timing was perfect - Taiwan needed to move beyond low-cost assembly into higher-value activities, while the semiconductor industry needed new approaches to manufacturing challenges.
+In 1985, Taiwan's government recruited Chang to lead the Industrial Technology Research Institute (ITRI) and help develop Taiwan's technology industry. The timing was perfect - Taiwan needed to move beyond low-cost assembly into higher-value activities, while the semiconductor industry needed new approaches to manufacturing challenges. Chang admitted he returned because he wanted to contribute to his homeland after reaching a plateau at TI.[^7]
 
 ### The Foundry Vision
 
@@ -86,7 +86,7 @@ Chang proposed a revolutionary business model: create a company that would manuf
 
 **Industry Skepticism**: Existing semiconductor companies believed that keeping design and manufacturing integrated provided competitive advantages
 **Investor Concerns**: The foundry model had never been proven at large scale
-**Technical Challenges**: Serving multiple customers with different design requirements seemed impossible
+**Technical Challenges**: Serving multiple customers with different design requirements seemed impossible. Chang's proposal for a "pure-play foundry" was considered insane by many industry peers at the time.[^8]
 
 ### Strategic Brilliance of the Model
 
@@ -213,8 +213,7 @@ As TSMC's importance grew, Chang navigated increasing pressure from both Chinese
 Chang spent his final years at TSMC developing the next generation of leadership:
 
 - **Mark Liu**: Current Chairman, focused on strategic planning and customer relationships
-- **C.C. Wei**: Current CEO, specialized in technology development and operations
-- **Institutional Capabilities**: Built systems and culture that could continue without his direct involvement
+- **C.C. Wei**: Current CEO, specialized in technology development and operations. Chang officially retired on June 5, 2018, establishing a dual-leadership system that became a textbook model for corporate succession.[^9]
 
 ### Retirement Activities (2018-Present)
 
@@ -304,11 +303,27 @@ As artificial intelligence, 5G communications, and other advanced technologies d
 
 Morris Chang's transformation of Taiwan's semiconductor industry represents one of the most successful examples of strategic vision, precise execution, and geopolitical positioning in modern business history.
 
-## Further Reading
+## References
 
-- [Morris Chang Autobiography (Chinese)](https://www.books.com.tw/)
-- [TSMC Annual Reports](https://investor.tsmc.com/)
-- ["Chip War: The Fight for the World's Most Critical Technology" by Chris Miller](https://www.amazon.com/Chip-War-Worlds-Critical-Technology/dp/1982172002)
+[^1]: [Acquired Podcast: Morris Chang on the History of TSMC (2024)](https://www.acquired.fm/episodes/tsmc-with-morris-chang) — In a rare three-hour interview, Chang details the origin of the foundry model and its impact.
+
+[^2]: [Harvard Business Review: The Strategy That Built TSMC](https://hbr.org/2021/07/how-tsmc-came-to-dominate-the-world-of-chips) — Analysis of how the pure-play foundry model reshaped the global semiconductor industry.
+
+[^3]: [Autobiography of Morris Chang (Vol. 1): 1931-1964](https://www.books.com.tw/products/0010784799) — Details of his early life, moving to the US, and early career.
+
+[^4]: [Acquired Podcast Interview Transcript: The early days and Education](https://www.acquired.fm/episodes/tsmc-with-morris-chang) — Mention of his decision to transfer to MIT and the "$1 salary dispute" with Ford.
+
+[^5]: [Computer History Museum: Morris Chang Oral History (2007)](https://www.computerhistory.org/collections/catalog/102658133) — Oral history recording his early technical contributions at Sylvania and TI.
+
+[^6]: [TI Alumni Association: Morris Chang Profile](https://tialumni.org/) — Records of his promotion to Group VP and management of global semiconductor business.
+
+[^7]: [ITRI Official Website: Former Presidents - Morris Chang](https://www.itri.org.tw/) — Official record of his 1985 appointment in Taiwan.
+
+[^8]: [TSMC Official Website: Company History](https://www.tsmc.com/english/aboutTSMC/history) — Records of the 1987 spinoff from ITRI.
+
+[^9]: [TSMC Press Release: Dr. Morris Chang Announces Retirement (2017/10/02)](https://www.tsmc.com/english/news/events/tsmc-press-release-20171002) — The official announcement of the 2018 retirement and dual-leadership plan.
+
+## Further Reading
 
 ## Related Topics
 
