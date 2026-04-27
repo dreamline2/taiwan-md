@@ -1,7 +1,6 @@
 ---
 import { readdir, readFile } from 'fs/promises';
 import { resolve, join, basename } from 'path';
-import { execSync } from 'child_process';
 import matter from 'gray-matter';
 import Layout from '../../layouts/Layout.astro';
 import { marked } from 'marked';
@@ -18,75 +17,23 @@ import {
   getCategoryConfigs,
   type CategoryKey,
 } from '../../utils/categoryConfig';
+import {
+  buildGitInfoCache,
+  emptyGitInfo,
+  type GitInfo,
+} from '../../utils/contributors';
 
 // ── Git helpers ───────────────────────────────────────────────────────────────
-let _gitCache: Map<
-  string,
-  {
-    contributors: string[];
-    lastModified: string;
-    commitHash: string;
-    revisionCount: number;
-  }
-> | null = null;
+let _gitCache: Map<string, GitInfo> | null = null;
 
 function buildGitCache() {
   if (_gitCache) return _gitCache;
-  _gitCache = new Map();
-  try {
-    const logOutput = execSync(
-      `git log -z --name-only --format="COMMIT|%H|%aI|%an" -- "knowledge/"`,
-      { encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 },
-    );
-    let currentHash = '';
-    let currentDate = '';
-    let currentAuthor = '';
-
-    // git log -z: commit headers and filenames are SEPARATE NUL-terminated tokens.
-    // Format: "COMMIT|hash|date|author\0\nfilename\0COMMIT|...\0\nfilename\0"
-    for (let token of logOutput.split('\0')) {
-      // git prepends a \n before the first filename after each commit header
-      token = token.replace(/^\n+/, '').trim();
-      if (!token) continue;
-
-      if (token.startsWith('COMMIT|')) {
-        const parts = token.split('|');
-        currentHash = parts[1] || '';
-        currentDate = parts[2] || '';
-        currentAuthor = parts[3] || '';
-      } else if (token.startsWith('knowledge/') && token.endsWith('.md')) {
-        const key = resolve(process.cwd(), token).normalize('NFC');
-        let entry = _gitCache.get(key);
-        if (!entry) {
-          entry = {
-            contributors: [],
-            lastModified: currentDate,
-            commitHash: currentHash,
-            revisionCount: 0,
-          };
-          _gitCache.set(key, entry);
-        }
-        entry.revisionCount += 1;
-        if (currentAuthor && !entry.contributors.includes(currentAuthor)) {
-          entry.contributors.push(currentAuthor);
-        }
-      }
-    }
-  } catch (e) {
-    console.error('Git cache error:', (e as Error).message);
-  }
+  _gitCache = buildGitInfoCache('knowledge/');
   return _gitCache;
 }
 
 function getGitInfo(filePath: string) {
-  return (
-    buildGitCache().get(filePath) || {
-      contributors: [],
-      lastModified: '',
-      commitHash: '',
-      revisionCount: 0,
-    }
-  );
+  return buildGitCache().get(filePath) || emptyGitInfo();
 }
 
 // ── Category → folder mapping ─────────────────────────────────────────────────
@@ -145,12 +92,7 @@ export async function getStaticPaths() {
         const fileContent = await readFile(filePath, 'utf-8');
         const { data: frontmatter, content } = safeMatter(fileContent);
         const slug = basename(file, '.md');
-        let gitInfo = {
-          contributors: [] as string[],
-          lastModified: '',
-          commitHash: '',
-          revisionCount: 0,
-        };
+        let gitInfo = emptyGitInfo();
         try {
           gitInfo = getGitInfo(filePath);
         } catch {}
@@ -399,6 +341,11 @@ const estimatedReadingTime =
 const articleUrl = `https://taiwan.md/${category}/${slug}`;
 const encodedUrl = encodeURIComponent(articleUrl);
 const encodedTitle = encodeURIComponent(title);
+
+// ── Screenshot mode (?shot=1) — toggled client-side ────────────────────────
+// Astro static build strips search params at prerender; so a tiny inline
+// script toggles `data-shot="1"` on <main> at runtime. Used by
+// scripts/tools/generate-spore-image.mjs for spore image generation.
 ---
 
 <Layout
@@ -412,6 +359,8 @@ const encodedTitle = encodeURIComponent(title);
   content={content}
   tags={frontmatter.tags}
   category={categoryInfo.name}
+  slug={slug}
+  categorySlug={category}
 >
   <!-- Reading progress bar -->
   <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
@@ -425,6 +374,9 @@ const encodedTitle = encodeURIComponent(title);
     meta-subcategory in the meta strip (not present in en/ja/ko).
     Prose font is 'Noto Serif TC' instead of 'Inter'.
   -->
+  <!-- Shot-mode watermark 已移至 src/layouts/Layout.astro 共用（2026-04-22 β）。
+       JS toggle + CSS 同樣搬走，四語言 article page 統一支援 ?shot=1 模式。 -->
+
   <main class="article-page min-h-screen bg-[#f8f1e9]" lang="zh-TW">
     <!-- ── Hero ─────────────────────────────────────────────────── -->
     <ArticleHero
@@ -484,6 +436,35 @@ const encodedTitle = encodeURIComponent(title);
             )
           }
         </div>
+
+        <!-- LifeTree CTA banner (experimental feature, links to standalone page) -->
+        {
+          frontmatter.lifeTree && (
+            <a
+              href={`/lifetree/${slug}`}
+              class="lifetree-cta group mb-8 flex items-center justify-between gap-4 rounded-xl border border-dashed border-[rgba(139,92,246,0.4)] bg-gradient-to-r from-[rgba(139,92,246,0.06)] to-[rgba(236,72,153,0.04)] px-5 py-4 no-underline transition-all duration-200 hover:border-solid hover:border-[#8B5CF6] hover:shadow-md"
+              data-experimental
+            >
+              <div class="flex items-center gap-3">
+                <span class="text-2xl" aria-hidden="true">
+                  🌳
+                </span>
+                <div>
+                  <p class="m-0 font-['Inter',system-ui,sans-serif] text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[#8B5CF6]">
+                    Experimental · 實驗型功能
+                  </p>
+                  <p class="m-0 mt-0.5 font-['Noto_Serif_TC',serif] text-[0.95rem] font-medium text-[#1a3c34]">
+                    {frontmatter.lifeTree.protagonist} 的人生分支樹（
+                    {frontmatter.lifeTree.nodes?.length || 0} 個 turning point）
+                  </p>
+                </div>
+              </div>
+              <span class="flex items-center gap-1 font-['Inter',system-ui,sans-serif] text-[0.85rem] font-medium text-[#8B5CF6] transition-transform duration-200 group-hover:translate-x-1">
+                看樹 →
+              </span>
+            </a>
+          )
+        }
 
         <!-- Prose body (split at 延伸閱讀 if SSODT sections present) -->
         {
@@ -775,7 +756,6 @@ const encodedTitle = encodeURIComponent(title);
     </div><!-- /article-shell -->
 
     {/* SSODT sections moved inside article-shell, before AI Disclaimer */}
-    }
 
     <!-- ── Related articles ───────────────────────────────────────── -->
     {
@@ -924,7 +904,9 @@ const encodedTitle = encodeURIComponent(title);
   </main>
 </Layout>
 
-<!-- ── Scripts ──────────────────────────────────────────────────────────────── -->
+<!-- Screenshot mode (?shot=1) 的 JS toggle + CSS 已搬到 src/layouts/Layout.astro
+     + src/styles/shot-mode.css（2026-04-22 β），四語言 article page 共用。 -->
+
 <script>
   // Reading progress bar
   function updateProgress() {
@@ -986,6 +968,11 @@ const encodedTitle = encodeURIComponent(title);
     catColorLight: categoryInfo.colorLight,
   }}
 >
+  /* ── Screenshot mode (?shot=1) global overrides moved to <style is:global>
+     above the main <style> block — Astro scoped CSS doesn't cross
+     component boundaries (ArticleHero section, Layout header/footer).
+     ──────────────────────────────────────────────────────────────────── */
+
   /* ── Reading progress ──────────────────────────────────────────────────── */
   /* ── Reading progress (JS animates width via requestAnimationFrame,
      `var(--catColor)` comes from the `define:vars` block above) ─ */

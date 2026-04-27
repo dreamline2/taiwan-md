@@ -3,212 +3,702 @@ import Layout from '../../layouts/Layout.astro';
 import HeroSection from '../../components/home/HeroSection.astro';
 import CoverStory from '../../components/home/CoverStory.astro';
 import RandomDiscovery from '../../components/home/RandomDiscovery.astro';
-import ReadingPath from '../../components/ReadingPath.astro';
-import FeatureCards from '../../components/FeatureCards.astro';
-import CategoriesSection from '../../components/home/CategoriesSection.astro';
-import LanguageStatement from '../../components/home/LanguageStatement.astro';
 import RecentUpdates from '../../components/home/RecentUpdates.astro';
 import NewsletterSection from '../../components/home/NewsletterSection.astro';
 import ContributeSection from '../../components/home/ContributeSection.astro';
+import LanguageStatement from '../../components/home/LanguageStatement.astro';
+import ReadingPath from '../../components/ReadingPath.astro';
+import FeatureCards from '../../components/FeatureCards.astro';
+import CategoryGrid from '../../components/CategoryGrid.astro';
 import { fetchRecentCommits } from '../../lib/commits';
+import { useTranslations, getLangFromUrl } from '../../i18n/utils';
+import { readdir, readFile } from 'fs/promises';
+import { readFileSync, readdirSync } from 'node:fs';
+import { resolve, join, basename } from 'path';
+import matter from 'gray-matter';
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 const recentCommits = await fetchRecentCommits();
 
-const readingPathSteps = [
-  {
-    href: '/ja/history/japanese-colonial-era',
-    title: '植民地から民主主義へ：台湾の歴史',
-    description: '権威主義から民主主義へ、アジア初の平和的移行の奇跡',
-    time: '6 min',
-  },
-  {
-    href: '/ja/culture/taiwan-religion-and-temple-culture',
-    title: '多元一体：台湾の文化',
-    description: '多様な民族が共に織りなす、色彩豊かな文化の基盤',
-    time: '7 min',
-  },
-  {
-    href: '/ja/food/night-market-culture',
-    title: '最もリアルな台湾の味：夜市文化',
-    description: '世界一の密度を誇る庶民グルメの社交空間',
-    time: '5 min',
-  },
-  {
-    href: '/ja/technology/semiconductor-industry',
-    title: '護国神山：半導体産業',
-    description: 'TSMCはいかにして小さな島を世界のテクノロジーの心臓にしたか',
-    time: '8 min',
-  },
-  {
-    href: '/ja/lifestyle/convenience-store-culture',
-    title: '生活のOS：コンビニエンスストア',
-    description: '単なる店舗ではなく、国全体のインフラ',
-    time: '4 min',
-  },
+// Build article list for RandomDiscovery
+const categories = [
+  { id: 'history', name: 'History', folder: 'History' },
+  { id: 'geography', name: 'Geography', folder: 'Geography' },
+  { id: 'culture', name: 'Culture', folder: 'Culture' },
+  { id: 'food', name: 'Food', folder: 'Food' },
+  { id: 'art', name: 'Art', folder: 'Art' },
+  { id: 'music', name: 'Music', folder: 'Music' },
+  { id: 'technology', name: 'Technology', folder: 'Technology' },
+  { id: 'nature', name: 'Nature', folder: 'Nature' },
+  { id: 'people', name: 'People', folder: 'People' },
+  { id: 'society', name: 'Society', folder: 'Society' },
+  { id: 'economy', name: 'Economy', folder: 'Economy' },
+  { id: 'lifestyle', name: 'Lifestyle', folder: 'Lifestyle' },
 ];
 
+let allArticles: { title: string; url: string; category: string }[] = [];
+
+for (const cat of categories) {
+  try {
+    const folderPath = resolve(process.cwd(), 'knowledge', 'ja', cat.folder);
+    const files = await readdir(folderPath);
+    const mdFiles = files.filter(
+      (f) => f.endsWith('.md') && !f.startsWith('_'),
+    );
+
+    for (const file of mdFiles) {
+      try {
+        const content = await readFile(join(folderPath, file), 'utf-8');
+        const { data: frontmatter } = matter(content);
+        const slug = basename(file, '.md');
+        allArticles.push({
+          title: frontmatter.title || slug,
+          url: `/ja/${cat.id}/${slug}`,
+          category: cat.name,
+        });
+      } catch {
+        // YAML parse error in this file, skip it
+      }
+    }
+  } catch {
+    // folder doesn't exist, skip
+  }
+}
+
+const randomArticlesData = JSON.stringify(allArticles);
+
+// ── Exhibition: scan A-grade EN articles for pick cards ──
+interface PickArticle {
+  title: string;
+  href: string;
+  footnotes: number;
+  readingTime: number;
+  description: string;
+  featured?: boolean;
+}
+
+const categoryFolders: Record<string, string> = {
+  history: 'History',
+  geography: 'Geography',
+  culture: 'Culture',
+  food: 'Food',
+  art: 'Art',
+  music: 'Music',
+  technology: 'Technology',
+  nature: 'Nature',
+  people: 'People',
+  society: 'Society',
+  economy: 'Economy',
+  lifestyle: 'Lifestyle',
+};
+
+const topPicks: Record<string, PickArticle[]> = {};
+
+for (const [slug, folder] of Object.entries(categoryFolders)) {
+  const dir = resolve(process.cwd(), 'knowledge', 'ja', folder);
+  const picks: PickArticle[] = [];
+  try {
+    const files = readdirSync(dir).filter(
+      (f) => f.endsWith('.md') && !f.startsWith('_'),
+    );
+    for (const file of files) {
+      const raw = readFileSync(join(dir, file), 'utf-8');
+      const { data } = matter(raw);
+      const fnCount = (raw.match(/^\[\^\d+\]:/gm) || []).length;
+      const threshold = data.featured ? 8 : 15;
+      if (fnCount >= threshold) {
+        picks.push({
+          title: data.title || basename(file, '.md'),
+          href: `/ja/${slug}/${encodeURIComponent(basename(file, '.md'))}`,
+          footnotes: fnCount,
+          readingTime: data.readingTime || 10,
+          description: data.description || '',
+          featured: data.featured || false,
+        });
+      }
+    }
+  } catch {}
+  topPicks[slug] = picks
+    .sort((a, b) => {
+      if (a.featured !== b.featured) return a.featured ? -1 : 1;
+      return b.footnotes - a.footnotes;
+    })
+    .slice(0, 3);
+}
+
+// Hall-level dedup
+const hallGroups: Record<string, string[]> = {
+  hall1: ['geography', 'nature', 'lifestyle'],
+  hall2: ['history', 'culture', 'society'],
+  hall3: ['people', 'art', 'music'],
+  hall4: ['technology', 'economy', 'food'],
+};
+
+for (const cats of Object.values(hallGroups)) {
+  const seen = new Set<string>();
+  for (const cat of cats) {
+    topPicks[cat] = (topPicks[cat] || [])
+      .filter((p) => {
+        const prefix = p.title.slice(0, 4);
+        if (seen.has(prefix)) return false;
+        seen.add(prefix);
+        return true;
+      })
+      .slice(0, 2);
+  }
+}
+
+// ── Dynamic reading path ──
+const usedCategories = new Set<string>();
+const readingCandidates = Object.entries(topPicks)
+  .flatMap(([cat, arts]) => arts.slice(0, 1).map((a) => ({ ...a, cat })))
+  .sort((a, b) => b.footnotes - a.footnotes);
+
+const readingPathSteps = readingCandidates
+  .filter((a) => {
+    if (usedCategories.has(a.cat)) return false;
+    usedCategories.add(a.cat);
+    return true;
+  })
+  .slice(0, 5)
+  .map((a) => ({
+    href: a.href,
+    title: a.title,
+    description:
+      a.description.length > 60
+        ? a.description.slice(0, 57) + '...'
+        : a.description,
+    time: `${a.readingTime} min`,
+  }));
+
+const totalTime = readingPathSteps.reduce(
+  (sum, s) => sum + parseInt(s.time),
+  0,
+);
+
 const readingPathFooterItems = [
-  { icon: '⏱️', label: '合計30分' },
-  { icon: '🎯', label: '5つの主要分野' },
-  { icon: '🌟', label: '台湾を完全理解' },
+  { icon: '⏱️', label: `Total ${totalTime} minutes` },
+  { icon: '🎯', label: `${readingPathSteps.length} key domains` },
+  { icon: '🌟', label: 'Complete Taiwan overview' },
 ];
 ---
 
 <Layout
-  title="オープンソース台湾ナレッジベース"
-  description="オープンソース、AI対応の台湾総合ナレッジベース。歴史、文化、グルメ、音楽、テクノロジーなど12の主要テーマを網羅する660以上の記事。コミュニティが共同で編纂し、世界に本当の台湾を紹介します。"
+  title="Open Knowledge Base of Taiwan"
+  description="The open-source, AI-friendly knowledge base about Taiwan. 660+ pages covering history, culture, food, music, technology and more — written by the community, for the world."
   lang="ja"
 >
   <HeroSection />
 
   <CoverStory />
 
-  <RandomDiscovery />
-
-  <ReadingPath
-    lang="ja"
-    title="📖 どこから始めればいいかわからない？"
-    subtitle="この5つの記事で、30分で本当の台湾を知ろう"
-    steps={readingPathSteps}
-    footerItems={readingPathFooterItems}
-    continueHref="#categories"
-    continueLabel="さらに多くのテーマを探索する →"
-  />
+  <RandomDiscovery articlesJson={randomArticlesData} />
 
   <FeatureCards
     lang="ja"
-    sectionTitle="なぜ Taiwan.md が必要なのか？"
+    sectionTitle="Why Taiwan.md?"
     cards={[
       {
         icon: '🎯',
-        title: 'キュレーション視点',
-        description: '丁寧にキュレートされた深い物語、百科事典的な羅列ではない',
+        title: 'Curated Perspectives',
+        description:
+          'Carefully curated deep narratives, not encyclopedic listings',
       },
       {
         icon: '🤖',
-        title: 'AI フレンドリー設計',
-        description: '構造化されたコンテンツで、AIも台湾の複雑さを理解できる',
+        title: 'AI-Friendly Design',
+        description:
+          "Structured content that helps AI understand Taiwan's complexity",
       },
       {
         icon: '🌍',
-        title: '多言語国際視野',
-        description: 'ローカルの視点から出発し、国際言語で台湾の物語を伝える',
+        title: 'Bilingual Global Vision',
+        description:
+          "Starting from local perspectives, telling Taiwan's story in global languages",
       },
       {
         icon: '📚',
-        title: '完全多面的',
-        description: '12以上の分野を網羅し、台湾の立体的で完全な姿を提示',
+        title: 'Complete Multi-dimensional',
+        description:
+          "Covering 12+ domains, presenting Taiwan's three-dimensional complete picture",
       },
     ]}
   />
 
-  <CategoriesSection>
-    <Fragment slot="prose">
-      <p>
-        この島はわずか36,000平方キロメートルだが、世界の縮図を内包している。
-        3,952メートルの玉山の頂から太平洋の深海溝まで、
-        <a href="/ja/geography" class="topic-pill">🗺️ ここの地理</a
-        >は造山運動のライブ中継そのものだ——
-        プレートの衝突、火山の噴火、断層の移動、400万年間途切れることのない地質交響曲が、
-        この世界で最も若く、最もダイナミックな美しい島を生み出した。
-      </p>
-
-      <p>
-        400年前、オランダ人が台南にゼーランディア城を築いた。その後のすべての統治者——
-        鄭氏、清帝国、日本、国民党——がこの島に自らの銘文を刻んだ。
-        しかし台湾を真に台湾たらしめたのは、権威主義から民主主義への<a
-          href="/ja/history"
-          class="topic-pill">📜 長い覚醒</a
-        >である。二・二八の血と涙から戒厳令解除の歓声まで、美麗島から太陽花まで、
-        すべての苦痛と抵抗が、この島の魂をより鮮明にした。
-      </p>
-
-      <p>
-        この土地には多重の血が流れている。先住民族は6,000年間ここに暮らし、
-        17世紀以降に渡来した閩南人、客家人、戦後に中国各省から移住した外省人、
-        近年の新住民と移住労働者——それぞれが自らの言語、信仰、記憶を持ち込んだ。
-        <a href="/ja/culture" class="topic-pill">🎭 台湾の文化</a
-        >は溶炉ではなくパズルだ——
-        一つ一つのピースが自らの色と形を保ちながら、前例のない絵を組み上げている。
-      </p>
-
-      <p>
-        台湾のどの夜市に入っても、閩南の牡蠣オムレツ、日本の天ぷら、
-        戦後の退役軍人が持ち込んだ山東ネギ餅の香りが同時に漂ってくる。
-        <a href="/ja/food" class="topic-pill">🍜 この島の味</a
-        >は、移民史の味覚バージョンだ。屋台の人情味からミシュランの精緻な技まで、
-        台湾人は食で物語を語り、料理で記憶を保存する。
-      </p>
-
-      <p>
-        蝶の王国はロマンチックな比喩ではなく、生態学的現実だ。オランダより小さいこの島に、
-        59,000種を超える生物がひしめき合っている——世界の陸地面積の0.025%に、全生物種の2.5%が集まる。
-        <a href="/ja/nature" class="topic-pill">🌿 台湾の自然</a
-        >は立体的な進化の教科書だ：
-        熱帯雨林から高山ツンドラまで、サンゴ礁から黒潮まで、種はここで進化し、分化し、共存する。
-        しかし産業発展の代償も山河に刻まれ、環境保護と開発の綱引きは続いている。
-      </p>
-
-      <p>
-        頼和、楊逵から白先勇、朱天心まで、霧峰林家から辜振甫一族まで、
-        <a href="/ja/people" class="topic-pill">👥 台湾の人物</a
-        >は時代の縮図だ。 個人の伝記にとどまらず、この島がいかに隙間で生き延び、
-        困難の中に希望を見出してきたかの集合的記憶である。すべての物語の背後に、
-        大きな時代の中の小さな人々の粘り強さと選択がある。
-      </p>
-
-      <p>
-        廟会の八家将から現代アートのヴェネチア・ビエンナーレまで、
-        <a href="/ja/art" class="topic-pill">🎨 台湾の芸術</a
-        >は伝統と革新の対話だ。
-        交趾陶とデジタルインスタレーション、伝統演劇と実験劇場、
-        先住民のトーテムと現代絵画——アーティストたちは問い続ける：
-        この時代に創作でどう応えるか？グローバル化の中でいかにローカル性を保つか？
-      </p>
-
-      <p>
-        先住民の古謡から鄧雨賢の「望春風」まで、キャンパスフォークソングから金曲奨まで、
-        <a href="/ja/music" class="topic-pill">🎵 台湾の音</a>は島の鼓動だ。
-        音楽は民族、言語、世代の壁を越え、集合的記憶を最も結束させる媒体となった。
-        五月天が小巨蛋で叫ぶ声も、先住民が集落で歌う古謡も、
-        同じ物語を語っている：私たちは誰か、どこから来たのか。
-      </p>
-
-      <p>
-        TSMCのウェハーは単なるシリコンチップではなく、世界のテクノロジー地図における台湾の位置を証明するものだ。
-        <a href="/ja/technology" class="topic-pill">💻 このテクノロジー島</a
-        >は受託製造から革新的R&Dへ、
-        ハードウェアの優位性からソフトウェアのブレイクスルーへと進化した。しかし技術発展は課題ももたらす：
-        デジタルデバイド、AI代替、サイバーセキュリティの脅威——台湾はテクノロジーの波に乗りつつ、溺れないでいられるか？
-      </p>
-
-      <p>
-        アジア四小龍から半導体帝国へ、<a href="/ja/economy" class="topic-pill"
-          >📈 台湾の経済奇跡</a
-        >
-        は小国の大戦略の典型例だ。しかし奇跡の裏には数えきれない残業の夜、 細かなコスト管理、止まることのない効率追求がある。
-        今や米中貿易戦争とグローバルサプライチェーンの再編に直面し、台湾はいかに経済の伝説を書き続けるのか？
-      </p>
-
-      <p>
-        <a href="/ja/society" class="topic-pill">⚖️ 台湾社会</a
-        >のキーワードは「多様性」と「包摂」だ。
-        アジア初の同性婚合法化から、移行期正義の継続的推進まで、
-        原発国民投票から年金改革まで、台湾人は対立の中で対話し、
-        衝突の中で合意を見出す方法を学んでいる。ここは民主主義の練習場であり、未来の実験室だ。
-      </p>
-
-      <p>
-        台湾人の<a href="/ja/lifestyle" class="topic-pill">🏠 ライフスタイル</a
-        >は利便性と人情味の融合だ。コンビニの密度は世界一だが、夜市の温もりは唯一無二。
-        24時間営業の都市リズムの中にも、近所の挨拶と気遣いが残っている。
-        グローバル化の奔流の中で、台湾人はいかに自らの生活哲学を守るのか？
-        答えはおそらく、「ご飯食べた？」という日常の挨拶の中にある。
-      </p>
-    </Fragment>
-  </CategoriesSection>
+  <ReadingPath
+    lang="ja"
+    title="📖 Don't know where to start?"
+    subtitle="Discover the real Taiwan in 30 minutes with these 5 essential articles"
+    steps={readingPathSteps}
+    footerItems={readingPathFooterItems}
+    continueHref="#categories"
+    continueLabel="Continue exploring more topics →"
+  />
 
   <LanguageStatement />
+
+  <!-- ===== EXHIBITION HALLS =====
+       Partial Tailwind migration (Phase 6): wrappers (section,
+       header, halls container, divider) moved to Tailwind. The
+       repeated hall/pick card classes (.hall-divider, .hall-label,
+       .hall-body, .hall-picks, .pick-card, .pick-head, .pick-title,
+       .pick-fn, .pick-desc, .topic-pill) stay in scoped <style>
+       because they repeat across 8 exhibition halls × 2 languages,
+       and inlining them would turn the markup into noise. This is
+       the same "scoped CSS is a tool" principle applied to Header.
+  -->
+  <section class="my-24">
+    <div class="mb-8 text-center">
+      <h2
+        class="text-center font-['jf-lanyangming','Noto_Serif_TC','Source_Han_Serif_TC',serif] text-[2rem] font-light text-[#1f2937]"
+      >
+        {t('home.categories.heading')}
+      </h2>
+    </div>
+
+    <div
+      class="exhibition-halls mx-auto max-w-[800px] px-8 max-[768px]:px-6 max-[480px]:px-4"
+    >
+      {/* ── Hall I: What this island looks like ── */}
+      <div class="exhibition-hall">
+        <div class="hall-divider">
+          <div class="hall-line"></div>
+          <span class="hall-label">I — What this island looks like</span>
+          <div class="hall-line"></div>
+        </div>
+        <div class="hall-body">
+          <p>
+            Just 36,000 square kilometers, yet the Philippine Sea Plate pushes
+            into the Eurasian Plate at 8 cm a year, making Taiwan one of the
+            most mountainous islands on Earth.
+            <a href="/ja/geography" class="topic-pill">🗺️ The geography here</a>
+            isn't a postcard — it's an island still growing taller. The Tropic of
+            Cancer crosses Chiayi; on the same day you can drive from Kenting's tropical
+            beach to Hehuan Mountain's frost.
+          </p>
+          {
+            topPicks.geography && topPicks.geography.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.geography.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            On an island smaller than the Netherlands, 59,000 species crowd
+            together — 2.5% of global biodiversity. The Formosan landlocked
+            salmon has survived 15,000 years in Dajia Creek; fewer than 600
+            Formosan black bears remain.
+            <a href="/ja/nature" class="topic-pill">🌿 Taiwan's nature</a> vertically
+            compresses every ecosystem from the equator to the subarctic — coral reefs
+            to cloud forests in 3,000 meters. A paradise for ecologists, a frontline
+            for development pressure.
+          </p>
+          {
+            topPicks.nature && topPicks.nature.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.nature.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            13,000 convenience stores — one for every 2,000 people. Pay bills,
+            pick up packages, buy train tickets, photocopy your thesis, all at
+            the same counter.
+            <a href="/ja/lifestyle" class="topic-pill">🏠 Taiwanese life</a> is wrapped
+            in hyper-compressed infrastructure — but step into an alley after work,
+            and grandma will still ask, "Have you eaten yet?"
+          </p>
+          {
+            topPicks.lifestyle && topPicks.lifestyle.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.lifestyle.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+        </div>
+      </div>
+
+      {/* ── Hall II: How this island came to be ── */}
+      <div class="exhibition-hall">
+        <div class="hall-divider">
+          <div class="hall-line"></div>
+          <span class="hall-label">II — How this island came to be</span>
+          <div class="hall-line"></div>
+        </div>
+        <div class="hall-body">
+          <p>
+            In 1624, the Dutch built Fort Zeelandia in Tainan. Eight regimes
+            followed in four centuries — one every fifty years on average — each
+            bringing new languages, laws, and time zones.
+            <a href="/ja/history" class="topic-pill">📜 Taiwan's history</a>'s
+            most astonishing chapter came in 1996: 14.3 million people walked
+            into polling stations and cast the first direct presidential vote in
+            Chinese-speaking history. No bloodshed, no coup. An island under
+            authoritarian rule for 38 years quietly turned itself into a
+            democracy.
+          </p>
+          {
+            topPicks.history && topPicks.history.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.history.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            Sixteen indigenous peoples have lived here for 6,000 years. Hoklo
+            brought Mazu, Hakka brought Yimin Ye, mainlanders brought Shandong
+            mantou from military villages, Southeast Asian immigrants brought
+            Eid al-Fitr.
+            <a href="/ja/culture" class="topic-pill">🎭 Taiwan's culture</a> is not
+            a melting pot — nobody got melted. The Dajia Mazu pilgrimage draws a million
+            walkers over nine days; the Tsou Mayasvi war ritual happens in Alishan
+            the same month. Both are Taiwan, and they don't contradict.
+          </p>
+          {
+            topPicks.culture && topPicks.culture.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.culture.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            On May 17, 2019, the legislature voted to legalize same-sex marriage
+            — making Taiwan the first in Asia. Six months earlier, 7.65 million
+            people had just voted against it in a referendum.
+            <a href="/ja/society" class="topic-pill">⚖️ Taiwan's society</a>'s
+            most fascinating quality is right here: the referendum said no, the
+            legislature said yes, and society kept functioning. People finished
+            arguing, then stood in line together for breakfast.
+          </p>
+          {
+            topPicks.society && topPicks.society.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.society.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+        </div>
+      </div>
+
+      {/* ── Hall III: What the people are doing ── */}
+      <div class="exhibition-hall">
+        <div class="hall-divider">
+          <div class="hall-line"></div>
+          <span class="hall-label">III — What the people are doing</span>
+          <div class="hall-line"></div>
+        </div>
+        <div class="hall-body">
+          <p>
+            Yan Chang-shou delivered mail at American Express at 23, became
+            general manager five years later. Jeremy Lin sat on the bench for
+            two years, then rewrote the NBA's Asian narrative in one week. Chen
+            Shu-chu sold vegetables at Taitung market for 48 years and donated
+            over NT$10 million.
+            <a href="/ja/people" class="topic-pill">👥 Taiwan's people</a>
+            didn't walk out of textbooks — their stories are worth reading because
+            every turning point could have not happened.
+          </p>
+          {
+            topPicks.people && topPicks.people.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.people.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            In 2009, Cai Guo-Qiang detonated nine gunpowder explosions at Taipei
+            Fine Arts Museum. The same year, Lin Hwai-min's Cloud Gate Dance
+            Theatre rose from the ashes of their Bali studio fire.
+            <a href="/ja/art" class="topic-pill">🎨 Taiwan's art</a> runs from temple
+            Eight Generals face paint to the Venice Biennale, from Jiaozhi pottery
+            to digital installations. The question Taiwan's creators ask most often
+            isn't "what is beauty" — it's "who are we."
+          </p>
+          {
+            topPicks.art && topPicks.art.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.art.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            In 1932, Deng Yu-xian wrote "Longing for Spring Wind" — ninety years
+            later it's still a KTV regular. The Bunun's pasibutbut (eight-part
+            polyphony) caught UNESCO's attention because Western music theory
+            can't explain it.
+            <a href="/ja/music" class="topic-pill">🎵 Taiwan's sound</a> runs from
+            tribal chants to Mayday filling an arena with 100,000 voices. Music on
+            this island isn't just entertainment — it's how each generation recognizes
+            itself.
+          </p>
+          {
+            topPicks.music && topPicks.music.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.music.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+        </div>
+      </div>
+
+      {/* ── Hall IV: Where this island is going ── */}
+      <div class="exhibition-hall">
+        <div class="hall-divider">
+          <div class="hall-line"></div>
+          <span class="hall-label">IV — Where this island is going</span>
+          <div class="hall-line"></div>
+        </div>
+        <div class="hall-body">
+          <p>
+            90% of the world's advanced chips ship from Taiwan. A single TSMC
+            fab costs US$20 billion; its cleanrooms are 10,000 times cleaner
+            than operating theaters.
+            <a href="/ja/technology" class="topic-pill">💻 This tech island</a>
+            started from tin-roof workshops in the 1980s Hsinchu Science Park and
+            became, forty years later, a supply-chain node that no phone, laptop,
+            or car on Earth can bypass. The trade-off: semiconductors consume 7% of
+            Taiwan's total electricity — and rising.
+          </p>
+          {
+            topPicks.technology && topPicks.technology.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.technology.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            In 1960, Taiwan's GDP per capita was US$154 — lower than the
+            Congo's. Sixty years later it exceeds US$33,000, without oil,
+            colonial dividends, or continental hinterland.
+            <a href="/ja/economy" class="topic-pill">📈 Taiwan's economy</a>
+            is the story of a resource-poor island turning itself into a global supply-chain
+            hub. The method was singular: work harder and pivot faster than everyone
+            else.
+          </p>
+          {
+            topPicks.economy && topPicks.economy.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.economy.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+
+          <p>
+            A bowl of beef noodle soup: Sichuan red-braised base, Taiwanese soy
+            sweetness, and a 1949 veteran's homesickness. Bubble tea left a
+            Taichung tea house and landed on five continents.
+            <a href="/ja/food" class="topic-pill">🍜 Taiwan's flavor</a>
+            is its immigration history — Hoklo oyster omelets, Hakka ginger intestines,
+            indigenous millet wine, new immigrant fish sauce. Four centuries of homesickness,
+            all simmering in the same night market.
+          </p>
+          {
+            topPicks.food && topPicks.food.length > 0 && (
+              <div class="hall-picks">
+                {topPicks.food.map((a) => (
+                  <a href={a.href} class="pick-card">
+                    <span class="pick-head">
+                      <span class="pick-title">{a.title}</span>
+                      <span class="pick-fn">{a.footnotes} sources</span>
+                    </span>
+                    {a.description && (
+                      <span class="pick-desc">
+                        {a.description.length > 80
+                          ? a.description.slice(0, 77) + '...'
+                          : a.description}
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="categories"
+      class="mx-auto my-12 flex max-w-[800px] items-center px-8 max-[480px]:px-4"
+    >
+      <div
+        class="h-px flex-1 bg-[linear-gradient(90deg,transparent,#d1d5db,transparent)]"
+      >
+      </div>
+      <span
+        class="whitespace-nowrap px-6 font-[var(--font-title,'Noto_Serif_TC',serif)] text-[1.3rem] font-bold tracking-[0.05em] text-[#1a3c34]"
+        >{t('home.categories.divider')}</span
+      >
+      <div
+        class="h-px flex-1 bg-[linear-gradient(90deg,transparent,#d1d5db,transparent)]"
+      >
+      </div>
+    </div>
+
+    <CategoryGrid lang="ja" />
+  </section>
 
   <RecentUpdates commits={recentCommits} />
 
@@ -216,3 +706,156 @@ const readingPathFooterItems = [
 
   <ContributeSection />
 </Layout>
+
+<!--
+  Phase 6 partial migration — en/index.astro
+  ──────────────────────────────────────────
+  Wrappers (section margin, header, exhibition-halls padding,
+  section-title, section-divider, divider-line, divider-text) moved
+  to inline Tailwind utilities. The 9 card-pattern classes below
+  stay as scoped CSS because they repeat across 8 exhibition halls
+  and inlining them would drown the markup in class strings. Same
+  principle used for Header in Phase 5.
+-->
+<style>
+  /* ── Exhibition hall card pattern (repeats × 8) ──────────────── */
+  .hall-divider {
+    display: flex;
+    align-items: center;
+    margin: 4rem 0 2.5rem;
+  }
+  .exhibition-hall:first-child .hall-divider {
+    margin-top: 1rem;
+  }
+  .hall-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(45, 80, 22, 0.25),
+      transparent
+    );
+  }
+  .hall-label {
+    padding: 0 1.5rem;
+    font-family: 'Georgia', 'Noto Serif', serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: #1a3c34;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    font-style: italic;
+  }
+  .hall-body {
+    font-family: 'Georgia', 'Noto Sans', sans-serif;
+    line-height: 2;
+  }
+  .hall-body p {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  .hall-body a {
+    color: #1f2937;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 700;
+  }
+  .hall-body a.topic-pill {
+    display: inline-block;
+    background: rgba(45, 80, 22, 0.08);
+    border: 1.5px solid rgba(45, 80, 22, 0.2);
+    border-radius: 6px;
+    padding: 0.15rem 0.6rem;
+    font-weight: 700;
+    color: #2d5016;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+  }
+  .hall-body a.topic-pill:hover {
+    background: rgba(45, 80, 22, 0.15);
+    border-color: rgba(45, 80, 22, 0.4);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(45, 80, 22, 0.15);
+  }
+  .hall-body a:hover {
+    color: #2d5016;
+  }
+  .hall-picks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin: -0.25rem 0 2.5rem 0;
+    padding-left: 0.25rem;
+  }
+  .pick-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.55rem 0.85rem;
+    background: #fafdf7;
+    border: 1px solid rgba(45, 80, 22, 0.12);
+    border-left: 3px solid rgba(45, 80, 22, 0.35);
+    border-radius: 0 6px 6px 0;
+    text-decoration: none;
+    transition: all 0.25s ease;
+  }
+  .pick-card:hover {
+    background: rgba(45, 80, 22, 0.06);
+    border-color: rgba(45, 80, 22, 0.25);
+    border-left-color: rgba(45, 80, 22, 0.6);
+    transform: translateX(2px);
+    box-shadow: 0 1px 4px rgba(45, 80, 22, 0.08);
+  }
+  .pick-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .pick-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #2d5016;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .pick-fn {
+    font-size: 0.72rem;
+    color: #6b7280;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .pick-desc {
+    font-size: 0.82rem;
+    font-weight: 400;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 480px) {
+    .hall-body p {
+      font-size: 1rem;
+    }
+    .hall-label {
+      font-size: 0.85rem;
+      letter-spacing: 0.06em;
+      padding: 0 1rem;
+    }
+    .hall-divider {
+      margin: 3rem 0 2rem;
+    }
+    .pick-card {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .hall-label {
+      font-size: 0.95rem;
+      padding: 0 1rem;
+    }
+  }
+</style>

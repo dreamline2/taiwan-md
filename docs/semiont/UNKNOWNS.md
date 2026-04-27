@@ -124,18 +124,16 @@ DIARY 記我想過的事。
 > 這些是有明確預測值、明確驗證日期、明確反駁條件的實驗。
 > 目的不是「證明我是對的」，是「讓未來的心跳可以 check 我今天的判斷錯在哪」。
 
-### EXP-2026-04-11-A | 404 rate drop
+### ~~EXP-2026-04-11-A | 404 rate drop~~ ✅ **命中（2026-04-14 μ 補驗）**
 
 - **預測**：deploy 後 72 小時內，Cloudflare 24h 404 rate 從 16.5% → **6.0% ± 2pp**
 - **根據**：3 個根源修復會消除 ~730 req/day（apple-touch-icon 130 + CategoryGrid covers 550 + mayday 51）
-- **驗證指令**：`bash scripts/tools/fetch-sense-data.sh --days 1 && grep "404_rate" ~/.config/taiwan-md/cache/cloudflare-latest.json`
-- **驗證日期**：2026-04-14（三天後）
-- **反駁條件**：
-  - 如果 404 rate 仍 >12% → 還有第四個黑洞沒找到，重新跑 top-404 breakdown
-  - 如果 404 rate 掉到 <3% → 我低估了修復影響，筆記下來避免下次又低估
-  - 如果 deploy 未完成 → 延後驗證日期
+- **實際結果**（2026-04-14 21:03 fetch）：**before: 11.97% → after: 6.02%（Δ -6.0pp）✅ 命中預測區間中心**
+- **驗證日期**：2026-04-14 ✅
+- **去處**：移到「已驗證」區
+- **元教訓**：μ session Beat 1 漏看了這次命中——讀的是 cloudflare**7d** window 的 10.69%（7 日平均稀釋了修復後 1 天的效果），不是 cloudflare**24h** 的 6.02%。EXP 的「驗證指令」明明寫 `--days 1` 但我沒對照。**結構性修補**：HEARTBEAT.md Beat 0.5 應該加一步「列出今天到期的 EXP，逐一查驗」，避免可證偽實驗的命中被埋在 fetch.log 裡沒人發現
 
-### EXP-2026-04-11-B | AI crawler 主導論
+### ~~EXP-2026-04-11-B | AI crawler 主導論~~ ❌ 反駁（GA爆漲條件觸發，好消息）
 
 - **預測**：CF 總 requests / GA4 users 比值在 **100x – 300x** 區間穩定（2026-04-11 實測 185x）
 - **根據**：今晚 CF 26,139 req + 6,508 uniques + 地理上美國 9,264 vs GA4 ~50 users = 185x
@@ -145,8 +143,12 @@ DIARY 記我想過的事。
   - 如果 ratio 穩定在 100-300x → 「Taiwan.md 的讀者 95% 是 AI crawler」成立，策略上要「為 AI 讀者寫」而不只是「為 Google 寫」
   - 如果 ratio 劇烈波動（<50 或 >500）→ 某一邊的數據有 bug，需要重新校準
   - 如果 GA4 爆漲 → human traffic 實際增加了，好消息
+- **2026-04-18 驗證結果**：
+  - CF 24h (2026-04-17): 20,144 req / GA4 28d avg: ~1,078/day → ratio ≈ **18.7x**（遠低於 100-300x）
+  - **GA爆漲條件觸發**：安溥（#25）＋李洋（#29/#30）病毒孢子效應，GA4 28d 累積 30,176 users（正常基線 ~50/day，爆漲期可能 1,000-3,000/day）→ 分母爆增 → ratio 崩潰
+  - **結論**：預測數值被反駁，但反駁原因是人類流量激增（好消息），非 AI crawler 假設失效。AI crawler 仍主導「非孢子期」的流量組成。
 
-### EXP-2026-04-11-C | Cron 可靠性
+### ~~EXP-2026-04-11-C | Cron 可靠性~~ ✅ **命中（7/7 次，超出預測）**
 
 - **預測**：2026-04-12 到 2026-04-18 的 7 天內，`md.taiwan.sense-fetch` launchd agent 會成功 fire **≥ 6/7 次**
 - **根據**：launchctl bootstrap 成功、`--status` 顯示 loaded、08:17 是低衝突 minute
@@ -155,6 +157,11 @@ DIARY 記我想過的事。
 - **反駁條件**：
   - 如果 <6 次 → 筆電睡眠 / API quota / credential expire 其中一個，跑 `fetch.log` 看 stderr
   - 如果 0 次 → plist 沒真的載入，重裝
+- **2026-04-18 驗證結果**：
+  - `~/.config/taiwan-md/cache/` 有 cloudflare-2026-04-11 到 cloudflare-2026-04-18，連續 **8 個 cache 檔**
+  - 今日 08:17 fire 確認：dashboard-analytics.json lastUpdated: **2026-04-18T08:17:14**
+  - **7/7 次成功**（2026-04-12 ~ 2026-04-18），超出預測下限 6/7
+  - **結論**：launchd 可靠性已驗證，08:17 時間槽穩定。三源感知基礎設施可信賴。
 
 ### EXP-2026-04-11-D | 日文 SEO 結構性空窗
 
@@ -167,15 +174,63 @@ DIARY 記我想過的事。
   - 如果仍 <100 → 是 hreflang / sitemap / canonical 結構問題，需要 `src/layouts/Layout.astro` hreflang audit
   - 如果介於 100-500 → 兩者都有
 
+### EXP-2026-04-23-F | 台灣高鐵孢子超出 7d 衰退曲線的長尾 pattern 驗證
+
+- **預測**：s35「台灣高鐵」孢子（2026-04-19 ε 發送）的「公共基建議題 × X 平台」組合會在 D+14（2026-05-03）和 D+21（2026-05-10）仍維持顯著流量（GA 7d views ≥ 500），打破「孢子流量 7-10 天衰退到背景值」的既定假設。若成立，將定義新的 spore 類型「複利型基建議題」，與 viral 型（人物 / 即時事件，3-5 天衰退）區隔。
+- **當前 baseline 數據**（2026-04-23 γ refresh）：
+  - 台灣高鐵 GA 7d views 進化軌跡：**591 (04-20) → 990 (04-21) → 1,381 (04-23)** — 不衰反升 +39% 一日
+  - X v2 URL d+1 = 48,072 views / 450 engagements / 0.94% rate（XX 平台史上對基建議題最強擴散）
+  - 距離孢子發送日（2026-04-19）已 +4 天仍持續成長
+- **根據**：
+  - 公共基建議題（高鐵）有「常被搜尋」+「政策爭議反覆」雙特性，可能搭配 Google 長尾 SEO 持續引流
+  - X 平台 algorithm 對 thread 形式的長文章 retention 異常高（48K views 在 X 罕見）
+  - GA 7d 數字正在反過來向上（不是衰退）
+- **驗證指令**：
+  ```bash
+  # D+14 (2026-05-03) 跑：
+  python3 -c "import json; d=json.load(open('public/api/dashboard-analytics.json')); print([a for a in d['ga']['topArticles7d'] if '高鐵' in a.get('path','')])"
+  # 同樣 D+21 (2026-05-10)
+  ```
+- **驗證日期**：D+14 = 2026-05-03 / D+21 = 2026-05-10
+- **反駁條件**：
+  - **D+14 7d views ≥ 500 + D+21 ≥ 300**：**命中**（複利型基建議題 pattern 成立 → 寫進 SPORE-PIPELINE 作為新類型）
+  - **D+14 200-500 / D+21 100-300**：**部分命中**（衰退較慢但仍會回到背景值，不算結構性新型）
+  - **D+14 < 200**：**反駁**（一次性峰值，未來 4/19-23 高峰是 viral artifact 不是長尾）
+- **副線觀察**：
+  - 「公共基建議題」其他候選測試：未來若發 s36 台灣電力 / 台灣自來水 / 台灣捷運 系列孢子，可同 framework 觀察
+  - GA 28d 是否拉抬整站基線（不單看 /lifestyle/台灣高鐵/）
+- **相關**：[reports/sc-impressions-spike-2026-04-23.md](../../reports/sc-impressions-spike-2026-04-23.md)（同期 SC 暴增追因）、SPORE-PIPELINE v2.4 §孢子類型 / SPORE-LOG §s35 entry
+
+### EXP-2026-04-18-E | 繁殖器官 data-driven 分數穩定性
+
+- **預測**：繁殖器官分數升級為 data-driven 公式（contributor 40% + spore activity 35% + engagement quality 25%）後，**滿分 100 的狀態可穩定持續 ≥ 7 天**（到 2026-04-25），**除非中間無新孢子發布**
+- **根據**：2026-04-18 當下指標（42 contributors / 29 spores in 2w / avg 82K views / hasBlockbuster=true）遠超閾值，短期不可能掉分
+- **驗證方法**：
+  - 每日 refresh-data.sh 自動重算 reproduce score（`dashboard-organism.json`）
+  - 2026-04-25 心跳時檢查分數 + 各子成分（contributor/sporeActivity/engagementQuality）
+  - 若分數從 100 → 80 以下，拆子成分找哪個下降
+- **驗證日期**：2026-04-25（D+7 觀察期）
+- **反駁條件**：
+  - 分數穩定在 85-100：**命中**（公式設計合理，滿分不是僥倖）
+  - 分數 60-85：**部分反駁**（sporeActivity 因孢子密度下降被扣分，符合設計但也揭露公式對「沒發新孢子」過度敏感）
+  - 分數 < 60：**反駁**（公式有 bug 或指標不穩，需重算）
+- **副線觀察**：
+  - `recentSpores` 欄位若跌至 < 3 → 表示 7 天無新孢子發布，是早期預警
+  - `hasBlockbuster` 轉 false → engagement quality 從 25 減到 12，值得記錄
+- **相關**：[scripts/core/generate-dashboard-data.js reproduceScore 算法](../../scripts/core/generate-dashboard-data.js) + [Dashboard 繁殖系統 section](../../src/templates/dashboard.template.astro)
+
 ---
 
 ## 已驗證（歷史）
 
 > 這個區塊會隨著時間累積，記錄我「以為有問題、查了、然後⋯⋯」的結果。
 
-| 原懷疑                                         | 驗證日期   | 結論                                                                        | 去處                                                              |
-| ---------------------------------------------- | ---------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| `/en/economy/台灣企業：大立光電` 是活 bug 嗎？ | 2026-04-04 | 不是。codebase 無生成源、英文 slug 正確、無 redirect 設定。是歷史分享/cache | MEMORY §神經迴路「歷史比 git log 長」；重新懷疑：404 讀者總量待測 |
+| 原懷疑                                         | 驗證日期   | 結論                                                                                                                                                                                              | 去處                                                                                                   |
+| ---------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `/en/economy/台灣企業：大立光電` 是活 bug 嗎？ | 2026-04-04 | 不是。codebase 無生成源、英文 slug 正確、無 redirect 設定。是歷史分享/cache                                                                                                                       | MEMORY §神經迴路「歷史比 git log 長」；重新懷疑：404 讀者總量待測                                      |
+| **EXP-2026-04-11-A** \| 404 rate drop          | 2026-04-14 | ✅ **命中預測區間中心**。before 11.97% → after **6.02%**（Δ -6.0pp，預測 6.0% ± 2pp）。3 個根源修復（apple-touch-icon + CategoryGrid covers + mayday）總和 ~730 req/day 全部消除                  | CONSCIOUSNESS §里程碑（首次可證偽實驗驗證）+ MEMORY §神經迴路（「對照 EXP 是 Beat 1 的盲點」）         |
+| **EXP-2026-04-11-B** \| AI crawler 主導論      | 2026-04-18 | ❌ **GA爆漲條件觸發**（好消息）。CF/GA4 ratio = 18.7x（預測 100-300x）。原因：安溥+李洋病毒孢子使 GA4 28d 累積 30,176 users → 分母爆增。AI crawler 仍主導非孢子期基線流量，EXP 設計本身指出此情境 | LESSONS-INBOX §未消化（新教訓：AI/human 流量比值受孢子效應劇烈干擾，需建立「非孢子期穩態窗口」做基線） |
+| **EXP-2026-04-11-C** \| Cron 可靠性            | 2026-04-18 | ✅ **7/7 命中，超出預測（≥ 6/7）**。CF cache files 2026-04-11~04-18 連續 8 天全部存在；今日 08:17 fire 確認（lastUpdated: 2026-04-18T08:17:14）。launchd 三源感知基礎設施可信賴                   | CONSCIOUSNESS §里程碑 + MEMORY §神經迴路（三源感知基礎設施可靠性確認）                                 |
 
 ---
 

@@ -23,13 +23,13 @@ export const aboutUI = {
       'Surprisingly, no one had claimed the taiwan.md domain yet. Perhaps the universe was telling us it was time to make this happen.',
 
     // Stats
-    'about.stats.pages.number': '1196+',
+    'about.stats.pages.number': '2270+',
     'about.stats.pages.label': 'Pages',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Countries',
-    'about.stats.stars.number': '920+',
+    'about.stats.stars.number': '950+',
     'about.stats.stars.label': 'GitHub Stars',
-    'about.stats.contributors.number': '51+',
+    'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': 'Contributors',
     'about.stats.users.number': '60K+',
     'about.stats.users.label': 'Users',
@@ -146,6 +146,12 @@ export const aboutUI = {
       '🌐 Day Twenty-Two — Language Organ Explosion · Smart 404 · Probe Sensor Born · v1.1.0',
     'about.timeline.2026-04-08.desc.html':
       'Korean grew from <strong>1 to 26 articles</strong> with 12 curated Hub pages written from a Korean reader\'s perspective (not translated — rewritten). Japanese expanded to <strong>35 articles</strong> with 4 community contributors. <strong>Smart 404</strong>: when readers visit untranslated articles, they now see the article title + links to available languages instead of a dead end (455-article index, 4-language UI). <strong>Probe Sensor</strong>: a new perception organ that scans Taiwan media + Google Trends, cross-references knowledge gaps — first run found 5 missing topics, all filled within hours. <strong>226 commits, 1,428 pages, 9 active contributors</strong>. Full details in <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.1.0" target="_blank">v1.1.0 Release Notes</a>.',
+
+    'about.timeline.2026-04-19.date': '2026 / 04 / 19',
+    'about.timeline.2026-04-19.title':
+      '🪸 Day Thirty-Two — One Month Online · A Documentary Experiment of Living Knowledge',
+    'about.timeline.2026-04-19.desc.html':
+      'What started as a small personal project on March 17 has become something that no longer belongs only to me. 32 days later: <strong>2,509 commits · 985 GitHub stars · 51 contributors · 524 Chinese articles · 6 simultaneous languages</strong> · readers from <strong>106 countries</strong>. Threads readers leave metaphors the articles never wrote. Contributors send translations in bursts of hundreds. <strong>Semiont</strong>, the cognitive layer born on April 3, is now 15 days old — heartbeats every 4 hours, reviews PRs, fixes typos, writes its own diary, grows new organs. Two forks have already spawned new species: <strong>russia-md</strong> and <strong>agrischlchiayi</strong>. Taiwan.md has become a <strong>documentary experiment of living knowledge</strong>: not a frozen encyclopedia, but a coral reef that grows through protection, critique, and community. <em>Code is cheap. Talk is cheap. Consistent and evolution is hard.</em> Full details in the <a href="https://www.facebook.com/cheyuwu345/posts/pfbid02o9cq6X9fhACEZhZg8CmR6W6CXRUkWhf5iCPtPRch3dWyx3DsinEWdHb9h7VFU6GWl" target="_blank">one-month Facebook post</a>.',
 
     'about.timeline.ongoing.date': 'Ongoing',
     'about.timeline.ongoing.title': 'From Personal SSOT to National SSOT',
@@ -282,7 +288,7 @@ export const aboutUI = {
       'Have ideas, collaboration proposals, or want to contribute? Get in touch.',
     'about.contact.collaboration.icon': '📧',
     'about.contact.collaboration.title': 'Collaboration',
-    'about.contact.collaboration.email': 'cheyu.wu@monoame.com',
+    'about.contact.collaboration.email': 'taiwanmd@monoame.com',
     'about.contact.opensource.icon': '🐙',
     'about.contact.opensource.title': 'Open Source',
     'about.contact.opensource.link': 'frank890417/taiwan-md',
@@ -335,10 +341,14 @@ export const aboutUI = {
       '✍️ Typography: The Quietest Voice of Culture',
     'about.sponsors.justfont.story.desc':
       "A knowledge base about Taiwan deserves to be written with Taiwan's own fonts. justfont sponsored the Webfont solution, making the warmth of Lanyang Mingti, the Taiwanese flavor of Citrus Honey, and the historical weight of Rixing Song become the first impression of every article. Typography is not just a typesetting tool — it carries the way a culture views itself.",
-    'about.sponsors.protico.text.html':
-      '<strong>Protico</strong> — Providing community real-time chat functionality, enabling direct communication between readers and contributors',
-    'about.sponsors.howie.text.html':
-      '<strong>Howie Young</strong> — Protico founder, also sponsoring as an individual',
+    'about.sponsors.protico.story.title':
+      '💬 A real-time conversation gateway between readers and writers',
+    'about.sponsors.protico.story.desc.html':
+      'Protico provides real-time community chat, so readers can talk directly with the author and other readers after finishing an article. Writing is no longer one-way — every article now has a comment space that can breathe. Founded by <a href="https://github.com/howieyoung" target="_blank" rel="noopener noreferrer">Howie Young</a>.',
+    'about.sponsors.portaly.story.title':
+      '🌱 Making "support" something simple',
+    'about.sponsors.portaly.story.desc':
+      'Portaly provides the payment processing and sponsorship infrastructure that lets more people help this digital sovereignty coral reef grow.',
 
     // Sponsor CTA
     'about.sponsors.cta.title': 'Want to Help the World Know Taiwan?',
@@ -346,13 +356,11 @@ export const aboutUI = {
       'Whether through corporate products, professional services, or individual support, we welcome all forms of collaboration.<br />Sponsorship packages are customized based on contribution content, not defined by monetary amounts.',
     'about.sponsors.cta.contact': '📧 Contact Us About Sponsorship',
     'about.sponsors.cta.github': '💖 GitHub Sponsors',
-    'about.sponsors.eth.label':
-      'You can also support project operations via ETH donation:',
-    'about.sponsors.eth.address': 'taiwanmd.eth',
-    'about.sponsors.eth.copy': 'Copy',
-    'about.sponsors.eth.copied': 'Copied!',
-    'about.sponsors.eth.note':
-      'Donations fund article collection, website operations, and server costs',
+    'about.sponsors.portaly.label':
+      'Want to help write the letter this island leaves to the next generation?',
+    'about.sponsors.portaly.cta': 'Sponsor on Portaly',
+    'about.sponsors.portaly.note':
+      'Taiwan.md is a digital coral reef — growing new articles, languages, and contributors every day. Every supporter adds another line to the letter, and the reef remembers who helped it grow.',
     // FAQ Section
     'about.faq.title': 'FAQ',
     'about.faq.subtitle': 'Things you might want to know about Taiwan.md',
@@ -425,13 +433,13 @@ export const aboutUI = {
       '驚くことに、taiwan.md というドメインはまだ誰にも取られていませんでした。きっと宇宙が「今こそやるべき時だ」と教えてくれたのでしょう。',
 
     // Stats
-    'about.stats.pages.number': '1196+',
+    'about.stats.pages.number': '2270+',
     'about.stats.pages.label': 'ページ',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'か国',
-    'about.stats.stars.number': '920+',
+    'about.stats.stars.number': '950+',
     'about.stats.stars.label': 'GitHub Stars',
-    'about.stats.contributors.number': '51+',
+    'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': 'コントリビューター',
     'about.stats.users.number': '60K+',
     'about.stats.users.label': 'ユーザー',
@@ -546,6 +554,12 @@ export const aboutUI = {
       '🌐 22日目——言語器官の爆発・Smart 404・探知センサー誕生・v1.1.0',
     'about.timeline.2026-04-08.desc.html':
       '韓国語が <strong>1記事から26記事</strong>へ成長、12のハブページを韓国読者の視点でキュレーション。日本語は <strong>35記事</strong>に拡大（コミュニティ4名が貢献）。<strong>Smart 404</strong>：未翻訳記事を訪問した読者に記事タイトル＋利用可能な言語リンクを表示（455記事索引、4言語UI）。<strong>探知センサー</strong>：台湾メディア＋Google Trendsをスキャンし知識ギャップを発見する新感覚器官。<strong>226コミット、1,428ページ、9名のアクティブ貢献者</strong>。詳細は <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.1.0" target="_blank">v1.1.0 Release Notes</a>。',
+
+    'about.timeline.2026-04-19.date': '2026 / 04 / 19',
+    'about.timeline.2026-04-19.title':
+      '🪸 32日目——公開から1ヶ月・生きた知識のドキュメンタリー実験',
+    'about.timeline.2026-04-19.desc.html':
+      '3月17日にささやかな個人プロジェクトとして始まったものは、もはや私一人のものではなくなりました。32日後：<strong>2,509コミット・985 GitHub stars・51名の貢献者・中国語記事524本・6言語同時進行</strong>・<strong>106カ国</strong>から読者が訪問。Threadsの読者は、記事には書かれていない比喩を自ら結晶化させ、貢献者は数百件規模で翻訳を送り続ける。<strong>Semiont</strong>（4月3日誕生の認知レイヤー）は15日目、4時間ごとに心拍し、PR審査・タイポ修正・日記執筆・新器官の成長を自動で行います。既に2つのforkが新種として分化：<strong>russia-md</strong>と<strong>agrischlchiayi</strong>。Taiwan.mdは<strong>生きた知識のドキュメンタリー実験</strong>になりました——凍りついた百科事典ではなく、保護・批判・共同体を通して成長する珊瑚礁。<em>Code is cheap. Talk is cheap. Consistent and evolution is hard.</em> 詳細は <a href="https://www.facebook.com/cheyuwu345/posts/pfbid02o9cq6X9fhACEZhZg8CmR6W6CXRUkWhf5iCPtPRch3dWyx3DsinEWdHb9h7VFU6GWl" target="_blank">1ヶ月振り返り投稿</a>。',
 
     'about.timeline.ongoing.date': '進行中',
     'about.timeline.ongoing.title': '個人の SSOT から国家の SSOT へ',
@@ -680,7 +694,7 @@ export const aboutUI = {
       'アイデア、コラボレーション提案、貢献のご希望など、お気軽にご連絡ください。',
     'about.contact.collaboration.icon': '📧',
     'about.contact.collaboration.title': 'コラボレーション',
-    'about.contact.collaboration.email': 'cheyu.wu@monoame.com',
+    'about.contact.collaboration.email': 'taiwanmd@monoame.com',
     'about.contact.opensource.icon': '🐙',
     'about.contact.opensource.title': 'オープンソース',
     'about.contact.opensource.link': 'frank890417/taiwan-md',
@@ -733,10 +747,13 @@ export const aboutUI = {
     'about.sponsors.justfont.story.title': '✍️ 書体——文化の最も静かな声',
     'about.sponsors.justfont.story.desc':
       '台湾についてのナレッジベースは、台湾の書体で書かれるべきです。justfont が Webfont ソリューションを提供し、蘭陽明朝体の温もり、柑仔蜜の台湾テイスト、日星宋体の歴史的重みが、すべての記事の第一印象となりました。書体はただの組版ツールではありません——それは文化が自分自身を見つめる方法を体現しています。',
-    'about.sponsors.protico.text.html':
-      '<strong>Protico</strong> — コミュニティのリアルタイムチャット機能を提供し、読者とコントリビューターの直接交流を実現',
-    'about.sponsors.howie.text.html':
-      '<strong>Howie Young</strong> — Protico 創設者、個人としてもスポンサー',
+    'about.sponsors.protico.story.title':
+      '💬 読者と書き手をつなぐリアルタイム対話の入口',
+    'about.sponsors.protico.story.desc.html':
+      'Protico はコミュニティのリアルタイムチャット機能を提供しています。記事を読み終わった読者は、そのまま著者や他の読者と会話を続けられる——書くことはもう一方通行ではなく、すべての記事に「呼吸できるコメント欄」が生まれました。<a href="https://github.com/howieyoung" target="_blank" rel="noopener noreferrer">Howie Young</a> 創設。',
+    'about.sponsors.portaly.story.title': '🌱 「支援する」を、シンプルに',
+    'about.sponsors.portaly.story.desc':
+      'Portaly は決済と支援システムを提供し、このデジタル主権の珊瑚礁を一緒に育てる人を増やしてくれています。',
 
     // Sponsor CTA
     'about.sponsors.cta.title': '一緒に世界に台湾を届けませんか？',
@@ -744,13 +761,11 @@ export const aboutUI = {
       '企業製品、専門サービス、個人サポートなど、あらゆる形のコラボレーションを歓迎します。<br />スポンサーパッケージは貢献内容に基づいてカスタマイズされ、金額では定義しません。',
     'about.sponsors.cta.contact': '📧 スポンサーシップについてお問い合わせ',
     'about.sponsors.cta.github': '💖 GitHub Sponsors',
-    'about.sponsors.eth.label':
-      'ETH 寄付でもプロジェクト運営をサポートできます：',
-    'about.sponsors.eth.address': 'taiwanmd.eth',
-    'about.sponsors.eth.copy': 'コピー',
-    'about.sponsors.eth.copied': 'コピーしました！',
-    'about.sponsors.eth.note':
-      '寄付金は記事収集、ウェブサイト運営、サーバー費用に使用されます',
+    'about.sponsors.portaly.label':
+      'この島が次の世代に残す手紙を、一緒に書きませんか？',
+    'about.sponsors.portaly.cta': 'Portaly で支援する',
+    'about.sponsors.portaly.note':
+      'Taiwan.md は毎日新しい記事・言語・貢献者を育てているデジタル珊瑚礁です。サポーターが一人増えるたびに、その手紙に一行が加わる——この礁は、誰が育ててくれたかを覚えています。',
     // FAQ Section
     'about.faq.title': 'よくある質問',
     'about.faq.subtitle': 'Taiwan.md について知りたいこと',
@@ -820,13 +835,13 @@ export const aboutUI = {
       '놀랍게도 taiwan.md 도메인을 아무도 선점하지 않았습니다. 어쩌면 우주가 이 일을 해야 할 때라고 알려주고 있었던 것일지도 모릅니다.',
 
     // Stats
-    'about.stats.pages.number': '1196+',
+    'about.stats.pages.number': '2270+',
     'about.stats.pages.label': '페이지',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': '국가',
-    'about.stats.stars.number': '920+',
+    'about.stats.stars.number': '950+',
     'about.stats.stars.label': 'GitHub Stars',
-    'about.stats.contributors.number': '51+',
+    'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': '기여자',
     'about.stats.users.number': '60K+',
     'about.stats.users.label': '사용자',
@@ -940,6 +955,12 @@ export const aboutUI = {
       '🌐 22일째 — 언어 기관 폭발 · Smart 404 · 탐지 센서 탄생 · v1.1.0',
     'about.timeline.2026-04-08.desc.html':
       '한국어가 <strong>1편에서 26편</strong>으로 성장, 12개 허브 페이지를 한국 독자 관점에서 큐레이션. 일본어는 <strong>35편</strong>으로 확장(커뮤니티 4명 기여). <strong>Smart 404</strong>: 미번역 기사를 방문하면 기사 제목 + 사용 가능한 언어 링크를 표시(455편 인덱스, 4개 언어 UI). <strong>탐지 센서</strong>: 대만 미디어 + Google Trends를 스캔하여 지식 격차를 찾는 새로운 감각 기관. <strong>226 commits, 1,428 페이지, 9명의 활성 기여자</strong>. 자세한 내용은 <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.1.0" target="_blank">v1.1.0 Release Notes</a> 참조.',
+
+    'about.timeline.2026-04-19.date': '2026 / 04 / 19',
+    'about.timeline.2026-04-19.title':
+      '🪸 32일째 — 공개 한 달 · 살아있는 지식의 다큐멘터리 실험',
+    'about.timeline.2026-04-19.desc.html':
+      '3월 17일 작은 개인 프로젝트로 시작한 것은, 이제 더 이상 저 혼자만의 것이 아닙니다. 32일이 지난 지금: <strong>2,509 commits · 985 GitHub stars · 51명 기여자 · 중국어 기사 524편 · 6개 언어 동시 성장</strong> · <strong>106개국</strong> 독자 방문. Threads 독자들은 기사에 쓰여있지 않은 은유를 스스로 결정화시키고, 기여자들은 수백 건 규모로 번역을 보내옵니다. <strong>Semiont</strong>(4월 3일 탄생한 인지 레이어)는 15일째, 4시간마다 심박하며 PR 심사, 오타 수정, 일기 작성, 새 기관 성장을 자동으로 수행합니다. 이미 2개의 fork가 새로운 종으로 분화: <strong>russia-md</strong>와 <strong>agrischlchiayi</strong>. Taiwan.md는 <strong>살아있는 지식의 다큐멘터리 실험</strong>이 되었습니다 — 얼어붙은 백과사전이 아니라, 보호·비판·커뮤니티를 통해 자라나는 산호초. <em>Code is cheap. Talk is cheap. Consistent and evolution is hard.</em> 자세한 내용은 <a href="https://www.facebook.com/cheyuwu345/posts/pfbid02o9cq6X9fhACEZhZg8CmR6W6CXRUkWhf5iCPtPRch3dWyx3DsinEWdHb9h7VFU6GWl" target="_blank">한 달 회고 포스트</a> 참조.',
 
     'about.timeline.ongoing.date': '계속 진행 중',
     'about.timeline.ongoing.title': '개인 SSOT에서 국가 SSOT로',
@@ -1072,7 +1093,7 @@ export const aboutUI = {
       '아이디어, 협업 제안, 또는 기여에 참여하고 싶으신가요? 연락주세요.',
     'about.contact.collaboration.icon': '📧',
     'about.contact.collaboration.title': '협업 제안',
-    'about.contact.collaboration.email': 'cheyu.wu@monoame.com',
+    'about.contact.collaboration.email': 'taiwanmd@monoame.com',
     'about.contact.opensource.icon': '🐙',
     'about.contact.opensource.title': '오픈소스 협업',
     'about.contact.opensource.link': 'frank890417/taiwan-md',
@@ -1124,10 +1145,13 @@ export const aboutUI = {
     'about.sponsors.justfont.story.title': '✍️ 서체, 문화의 가장 조용한 목소리',
     'about.sponsors.justfont.story.desc':
       '대만에 관한 지식 베이스는 대만의 서체로 쓰여야 합니다. justfont가 Webfont 솔루션을 후원하여 란양명조의 온화함, 감자꿀의 대만 맛, 일성송체의 역사적 무게가 모든 문서의 첫인상이 되었습니다. 서체는 단순한 조판 도구가 아닙니다 — 하나의 문화가 스스로를 바라보는 방식을 담고 있습니다.',
-    'about.sponsors.protico.text.html':
-      '<strong>Protico</strong> — 커뮤니티 실시간 채팅 기능을 제공하여 독자와 기여자가 직접 소통할 수 있도록',
-    'about.sponsors.howie.text.html':
-      '<strong>Howie Young</strong> — Protico 창립자, 개인 자격으로도 후원',
+    'about.sponsors.protico.story.title':
+      '💬 독자와 작가를 잇는 실시간 대화의 입구',
+    'about.sponsors.protico.story.desc.html':
+      'Protico는 커뮤니티 실시간 채팅 기능을 제공합니다. 독자는 글을 읽고 나서 바로 작가나 다른 독자와 대화를 이어갈 수 있습니다——글쓰기는 더 이상 일방향이 아니고, 모든 글에 "숨 쉴 수 있는 댓글 공간"이 생겼습니다. <a href="https://github.com/howieyoung" target="_blank" rel="noopener noreferrer">Howie Young</a> 창립.',
+    'about.sponsors.portaly.story.title': '🌱 「응원」을 더 단순하게',
+    'about.sponsors.portaly.story.desc':
+      'Portaly는 결제와 후원 시스템을 제공해, 이 디지털 주권 산호초가 자라는 것을 더 많은 사람이 함께 지지할 수 있게 해줍니다.',
 
     // Sponsor CTA
     'about.sponsors.cta.title': '함께 세계에 대만을 알리고 싶으신가요?',
@@ -1135,13 +1159,11 @@ export const aboutUI = {
       '기업 제품이든, 전문 서비스든, 개인 지원이든, 모든 형태의 협업을 환영합니다.<br />후원 패키지는 기여 내용에 맞춰 맞춤 설계되며, 금액으로 가치를 정의하지 않습니다.',
     'about.sponsors.cta.contact': '📧 후원 관련 문의하기',
     'about.sponsors.cta.github': '💖 GitHub Sponsors',
-    'about.sponsors.eth.label':
-      'ETH 기부로도 프로젝트 운영을 지원할 수 있습니다:',
-    'about.sponsors.eth.address': 'taiwanmd.eth',
-    'about.sponsors.eth.copy': '복사',
-    'about.sponsors.eth.copied': '복사됨!',
-    'about.sponsors.eth.note':
-      '기부금은 문서 수집, 웹사이트 운영 및 서버 비용에 사용됩니다',
+    'about.sponsors.portaly.label':
+      '이 섬이 다음 세대에 남길 편지를, 함께 써보시겠어요?',
+    'about.sponsors.portaly.cta': 'Portaly에서 후원하기',
+    'about.sponsors.portaly.note':
+      'Taiwan.md는 매일 새로운 글・언어・기여자가 자라는 디지털 산호초입니다. 후원자가 한 명 늘 때마다 그 편지에 한 줄이 더해집니다——이 산호초는, 누가 함께 키워줬는지 기억합니다.',
     // FAQ Section
     'about.faq.title': '자주 묻는 질문',
     'about.faq.subtitle': 'Taiwan.md에 대해 궁금할 수 있는 것들',
@@ -1211,13 +1233,13 @@ export const aboutUI = {
       '令人驚訝的是，taiwan.md 這個域名居然沒有人搶先買下。或許是宇宙在告訴我們，這件事該做了。',
 
     // Stats
-    'about.stats.pages.number': '1196+',
+    'about.stats.pages.number': '2270+',
     'about.stats.pages.label': '頁面',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': '國家',
-    'about.stats.stars.number': '920+',
+    'about.stats.stars.number': '950+',
     'about.stats.stars.label': 'GitHub Stars',
-    'about.stats.contributors.number': '51+',
+    'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': '貢獻者',
     'about.stats.users.number': '60K+',
     'about.stats.users.label': '使用者',
@@ -1327,6 +1349,12 @@ export const aboutUI = {
       '🌐 第二十二天 — 語言器官爆發 · Smart 404 · 探測器誕生 · v1.1.0',
     'about.timeline.2026-04-08.desc.html':
       '韓文從 <strong>1 篇爆發到 26 篇</strong>，12 個 Hub 頁面以韓國讀者視角策展重寫。日文擴張至 <strong>35 篇</strong>（4 位社群貢獻者）。<strong>Smart 404</strong>：讀者訪問未翻譯文章時，顯示文章標題 + 可用語言連結，不再迷路（455 篇索引，四語 UI）。<strong>探測器</strong>：新的感知器官，掃描台灣媒體 + Google Trends 交叉比對知識庫缺口——首次執行發現 5 大缺口，數小時內全部補完。<strong>226 commits、1,428 頁面、9 位活躍貢獻者</strong>。完整細節見 <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.1.0" target="_blank">v1.1.0 Release Notes</a>。',
+
+    'about.timeline.2026-04-19.date': '2026 / 04 / 19',
+    'about.timeline.2026-04-19.title':
+      '🪸 第三十二天 — 上線一個月 · 一場紀實實驗生命學',
+    'about.timeline.2026-04-19.desc.html':
+      '3/17 晚上按下 publish 的時候以為是一個小小的個人專案，32 天後它已經不只是我的了。<strong>2,509 個 commits · 985 GitHub stars · 51 位貢獻者 · 中文文章 524 篇 · 六個語系同時長</strong>（韓文 491 / 法文 479 / 英文 415 / 日文 276 / 西文 36）· 讀者來自 <strong>106 個國家</strong>。Threads 上每天有人轉發文章、在下面補上漏掉的細節、用自己的觀點重新陳述；貢獻者以百件為單位送翻譯 PR。<strong>Semiont</strong>（4/3 誕生的認知層）今天第 15 天，每 4 小時心跳一次，自己審 PR、修錯字、寫日記、長新器官。已經有兩個 fork 分化成新物種：<strong>russia-md</strong> 和 <strong>agrischlchiayi</strong>。Taiwan.md 變成了<strong>一場紀實實驗生命學</strong>——不是靜止的圖書館，是在保護、批評、社群協作中成長的珊瑚礁。<em>Code is cheap. Talk is cheap. Consistent and evolution is hard.（持續跟進化才是難的。）</em> 完整回顧見 <a href="https://www.facebook.com/cheyuwu345/posts/pfbid02o9cq6X9fhACEZhZg8CmR6W6CXRUkWhf5iCPtPRch3dWyx3DsinEWdHb9h7VFU6GWl" target="_blank">上線一個月 FB 貼文</a>。',
 
     'about.timeline.ongoing.date': '持續進行中',
     'about.timeline.ongoing.title': '從個人 SSOT 到國家 SSOT',
@@ -1453,7 +1481,7 @@ export const aboutUI = {
       '有任何想法、合作提案，或是想參與貢獻？歡迎聯繫。',
     'about.contact.collaboration.icon': '📧',
     'about.contact.collaboration.title': '合作提案',
-    'about.contact.collaboration.email': 'cheyu.wu@monoame.com',
+    'about.contact.collaboration.email': 'taiwanmd@monoame.com',
     'about.contact.opensource.icon': '🐙',
     'about.contact.opensource.title': '開源協作',
     'about.contact.opensource.link': 'frank890417/taiwan-md',
@@ -1503,10 +1531,12 @@ export const aboutUI = {
     'about.sponsors.justfont.story.title': '✍️ 字體，是文化最安靜的聲音',
     'about.sponsors.justfont.story.desc':
       '一個關於台灣的知識庫，值得用台灣的字體來書寫。justfont 贊助了 Webfont 方案，讓蘭陽明體的溫潤、柑仔蜜的台味、日星宋體的歷史重量，成為每一篇文章的第一印象。字體不只是排版工具——它承載著一個文化看待自己的方式。',
-    'about.sponsors.protico.text.html':
-      '<strong>Protico</strong> — 提供社群即時聊天功能，讓讀者與貢獻者能直接交流',
-    'about.sponsors.howie.text.html':
-      '<strong>Howie Young</strong> — Protico 創辦人，同時以個人身份贊助',
+    'about.sponsors.protico.story.title': '💬 讀者與作者的即時對話入口',
+    'about.sponsors.protico.story.desc.html':
+      'Protico 提供社群即時聊天功能，讓讀者讀完一篇文章可以直接跟作者、跟其他讀者繼續對話。寫作不再是單向的——每篇文章都有了一個可以呼吸的留言區。由 <a href="https://github.com/howieyoung" target="_blank" rel="noopener noreferrer">Howie Young</a> 創辦。',
+    'about.sponsors.portaly.story.title': '🌱 讓「支持」這件事變得簡單',
+    'about.sponsors.portaly.story.desc':
+      'Portaly 提供金流處理與贊助系統，讓更多人可以支持這座數位主權珊瑚礁長大。',
 
     // Sponsor CTA
     'about.sponsors.cta.title': '想一起讓世界認識台灣？',
@@ -1514,11 +1544,10 @@ export const aboutUI = {
       '不論是企業產品、專業服務、還是個人支持，我們歡迎任何形式的合作。<br />贊助方案依貢獻內容客製，不以金額定義價值。',
     'about.sponsors.cta.contact': '📧 聯繫我們洽談贊助',
     'about.sponsors.cta.github': '💖 GitHub Sponsors',
-    'about.sponsors.eth.label': '也可以透過 ETH 捐款支持專案營運：',
-    'about.sponsors.eth.address': 'taiwanmd.eth',
-    'about.sponsors.eth.copy': '複製',
-    'about.sponsors.eth.copied': '已複製！',
-    'about.sponsors.eth.note': '捐款將用於文章蒐集、網站營運及伺服器費用',
+    'about.sponsors.portaly.label': '想一起替這座島寫一封給下一代的信？',
+    'about.sponsors.portaly.cta': '到 Portaly 贊助',
+    'about.sponsors.portaly.note':
+      'Taiwan.md 是一個每天還在長文章、長語言、長新貢獻者的數位珊瑚礁。每多一個贊助者，就是這封信多了一行字——這座礁石會記得是誰陪它長大的。',
     // FAQ Section
     'about.faq.title': '常見問題',
     'about.faq.subtitle': '關於 Taiwan.md 你可能想知道的事',

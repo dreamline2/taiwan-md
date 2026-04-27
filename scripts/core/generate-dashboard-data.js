@@ -10,6 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
+import { LANGUAGES } from '../../src/config/languages.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,8 +49,11 @@ const CATEGORIES = [
   'Technology',
 ];
 
-// Translation language directories
-const TRANSLATION_LANGS = ['en', 'es', 'ja', 'ko'];
+// Translation language directories — sourced from registry so adding a
+// language only requires editing src/config/languages.json.
+const TRANSLATION_LANGS = LANGUAGES.filter((l) => !l.isDefault).map(
+  (l) => l.code,
+);
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -279,12 +283,17 @@ function getGitInfo(filePath) {
 // ---------------------------------------------------------------------------
 // Slug derivation from Chinese filename
 // ---------------------------------------------------------------------------
+// MUST preserve original case — Astro's [category]/[slug].astro uses
+// `basename(file, '.md')` which preserves case. Lowercasing here produced
+// broken dashboard links (TikTok → tiktok, Dcard → dcard, 台灣YouBike →
+// 台灣youbike, etc.). Bug fix 2026-04-15 γ session: 32 files had uppercase
+// in filename, ~20 were driving a significant chunk of the CF 404 rate.
+// See PR #517 (Link1515) who identified the symptom.
 function deriveSlug(fileName) {
   // fileName without .md extension
   return fileName
-    .toLowerCase()
     .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9\u4e00-\u9fff\u3400-\u4dbf-]/g, '')
+    .replace(/[^a-zA-Z0-9\u4e00-\u9fff\u3400-\u4dbf-]/g, '')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '');
 }
@@ -552,6 +561,8 @@ async function main() {
   // =========================================================================
   // dashboard-articles.json
   // =========================================================================
+  // 保持 array 格式（backward compat for CLI + dashboard）。timestamp 共用
+  // dashboard-vitals.json 的 lastUpdated（同批生成）。
   fs.writeFileSync(
     path.join(OUTPUT_DIR, 'dashboard-articles.json'),
     JSON.stringify(articles, null, 2),
@@ -683,6 +694,7 @@ async function main() {
   }
 
   const translationsData = {
+    lastUpdated: now.toISOString(),
     languages,
     summary,
     matrix,
@@ -739,7 +751,9 @@ async function main() {
     : 0;
   const breathScore = workflowCount >= 3 ? 85 : workflowCount >= 1 ? 60 : 20;
 
-  // Reproduce (community): count recent PRs/contributors via git shortlog
+  // Reproduce (community): 2026-04-18 δ-late — data-driven from dashboard-spores.json
+  // 原 v1: 純 git contributors count → 忽略孢子播撒 + 放大效應 + 互動率
+  // v2: contributor (40%) × spore activity (35%) × engagement quality (25%)
   let recentContributors = 0;
   try {
     const shortlog = execSync('git shortlog -sn --since="30 days ago" HEAD', {
@@ -748,14 +762,74 @@ async function main() {
     });
     recentContributors = shortlog.trim().split('\n').filter(Boolean).length;
   } catch {}
-  const reproduceScore =
+  const contributorScore =
     recentContributors >= 5
-      ? 85
+      ? 40
       : recentContributors >= 2
-        ? 60
+        ? 28
         : recentContributors >= 1
-          ? 40
-          : 15;
+          ? 18
+          : 5;
+
+  // Read dashboard-spores.json if present (2026-04-18 δ-late, generate-dashboard-spores.py 產出)
+  let sporeActivityScore = 0;
+  let engagementScore = 0;
+  let reproduceMetrics = { recentContributors };
+  try {
+    const sporePath = path.join(
+      PROJECT_ROOT,
+      'public/api/dashboard-spores.json',
+    );
+    if (fs.existsSync(sporePath)) {
+      const s = JSON.parse(fs.readFileSync(sporePath, 'utf8'));
+      // Spore activity 35 分: 最近 7 天發過 spore + 近 4 週 pulse 健康度
+      const weeks = s.weeklyPulse || [];
+      const recentPublish = weeks
+        .slice(-2)
+        .reduce((a, w) => a + w.published, 0);
+      sporeActivityScore =
+        recentPublish >= 4
+          ? 35
+          : recentPublish >= 2
+            ? 25
+            : recentPublish >= 1
+              ? 15
+              : 5;
+
+      // Engagement quality 25 分: Top 5 平均 views_7d + 是否有 ≥ 1 則超過 50K
+      const tops = (s.topPerformers || []).slice(0, 5);
+      const hasBlockbuster = tops.some((t) => (t.views || 0) >= 50000);
+      const avgTopViews =
+        tops.length > 0
+          ? tops.reduce((a, t) => a + (t.views || 0), 0) / tops.length
+          : 0;
+      engagementScore =
+        hasBlockbuster && avgTopViews >= 30000
+          ? 25
+          : hasBlockbuster
+            ? 18
+            : avgTopViews >= 5000
+              ? 12
+              : avgTopViews > 0
+                ? 6
+                : 0;
+
+      reproduceMetrics = {
+        recentContributors,
+        recentSpores: recentPublish,
+        topPerformerCount: tops.length,
+        topPerformerAvgViews: Math.round(avgTopViews),
+        hasBlockbuster,
+      };
+    }
+  } catch (err) {
+    // Fallback: use contributor-only scoring
+  }
+
+  const reproduceScore = Math.min(
+    contributorScore + sporeActivityScore + engagementScore,
+    100,
+  );
 
   // Senses (perception): check if GA4, social links, issues templates exist
   const hasGA = fs.existsSync(
@@ -870,9 +944,15 @@ async function main() {
     };
   }
 
-  // Overall translation score: weighted average across all active languages
+  // Overall translation score: weighted average across enabled languages only.
+  // Preview languages (enabled:false in src/config/languages.ts) have content
+  // but no UI/routes, so they'd drag the score down artificially. Bug fix
+  // 2026-04-15: fr landing 403 preview articles dropped score 78→67 overnight.
+  const enabledCodes = new Set(
+    LANGUAGES.filter((l) => l.enabled && !l.isDefault).map((l) => l.code),
+  );
   const activeLangs = TRANSLATION_LANGS.filter(
-    (l) => (languageCoverage[l] || 0) > 0,
+    (l) => enabledCodes.has(l) && (languageCoverage[l] || 0) > 0,
   );
   const translationScore =
     activeLangs.length > 0
@@ -955,8 +1035,11 @@ async function main() {
         metaphor: '社群繁殖力',
         emoji: '🧫',
         score: reproduceScore,
-        trend: recentContributors >= 3 ? 'up' : 'stable',
-        metrics: { recentContributors },
+        trend:
+          reproduceMetrics.hasBlockbuster || recentContributors >= 3
+            ? 'up'
+            : 'stable',
+        metrics: reproduceMetrics,
       },
       {
         id: 'senses',

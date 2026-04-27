@@ -17,19 +17,103 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 2026-04-22 β post-mortem: run 24782448133 `npx playwright install --with-deps`
+    # silent hang 6 小時才被 default 360 min timeout 殺掉。加 30 分上限避免重演。
+    timeout-minutes: 35
+    env:
+      # 防 apt-get 互動 prompt（Playwright --with-deps 會呼叫 sudo apt-get）
+      DEBIAN_FRONTEND: noninteractive
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Node
+      # 把檔案 mtime 從 git log 還原（修「每次 CI 都全量重產 OG」bug）
+      # git checkout 會把所有檔案 mtime 設成 checkout 當下，這步讓 mtime 改回
+      # 最後 commit 該檔的時間，讓 og:generate 的 mtime incremental 能正確運作
+      - name: Restore file mtimes from git history
+        uses: chetan/git-restore-mtime-action@v2
+      - name: Setup Node (with npm cache)
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm' # Tier 1-2: 快取 npm 下載（不是 node_modules 本體）
       - name: Install dependencies
-        run: npm install
+        run: npm ci --prefer-offline --no-audit
       - name: Validate frontmatter (changed files)
         run: node scripts/core/test-frontmatter.mjs --ci
+
+      # ── Tier 1-3: Astro content collection parse cache ─────────────────
+      # .astro/ 放 Astro 6 的 content collection 解析結果（frontmatter 標準化
+      # + schema 驗證）。cache hit 時 Astro build 可以跳過重 parse。
+      # 任一 md 改變 → cache miss → Astro 重 parse（而且 hashFiles 會重算 key）
+      - name: Restore Astro content collection cache
+        uses: actions/cache@v4
+        with:
+          path: .astro
+          key: astro-${{ runner.os }}-${{ hashFiles('src/content/**/*.md', 'knowledge/**/*.md', 'astro.config.mjs') }}
+          restore-keys: |
+            astro-${{ runner.os }}-
+
+      # ── OG 圖片生成（2026-04-22 β v3 統一架構）──────────────────────────
+      # 用 ?shot=1 模式（與 scripts/tools/generate-spore-image.mjs 共用渲染源）
+      # 輸出 1200×630 JPG 85 到 public/og-images/，被 Astro build 搬進 dist/
+      # Incremental：md 或模板 mtime 比 JPG 新才重產（配合 git-restore-mtime-action）
+      # 首次 ~20 分 / cache hit <1 分
+      # 失敗安全網：SEO.astro 有 existsSync fallback，OG 生圖掛了 deploy 仍成功
+      - name: Restore OG image cache
+        uses: actions/cache@v4
+        with:
+          path: public/og-images
+          key: og-images-${{ hashFiles('knowledge/**/*.md', 'src/pages/[category]/[slug].astro', 'src/pages/**/[category]/[slug].astro', 'src/components/ArticleHero.astro', 'src/layouts/Layout.astro', 'src/styles/shot-mode.css') }}
+          restore-keys: |
+            og-images-
+
+      # ── Tier 1-1: Playwright chromium binary cache ─────────────────────
+      # `npx playwright install chromium` 每次會下載 ~130 MB（~90-120s）。
+      # Cache 依 playwright 版本決定 key，版本沒變就直接用。
+      #
+      # 2026-04-22 β post-mortem（run 24782448133 silent hang）:
+      # 原本 `--with-deps` 把 apt-get install 塞在同一步 → 偶發 silent hang。
+      # 拆成 install-deps（系統套件、always run、短）+ install chromium
+      # （binary、conditional），觀察 log 時能更精確定位問題。
+      - name: Restore Playwright cache
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - name: Install Playwright system deps (always)
+        timeout-minutes: 5
+        run: npx --no-install playwright install-deps chromium
+      - name: Install Playwright Chromium binary
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        timeout-minutes: 5
+        run: npx --no-install playwright install chromium
+      - name: Generate OG images (incremental via ?shot=1)
+        run: |
+          set -o pipefail
+          # 背景啟 Astro dev server（產圖來源頁面）
+          npm run dev > /tmp/astro-dev.log 2>&1 &
+          DEV_PID=$!
+          # 等 server 起來（最多 60 秒）
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:4321/ > /dev/null 2>&1; then
+              echo "✓ dev server up after ${i}×2s"
+              break
+            fi
+            sleep 2
+          done
+          # Incremental 產圖（cache hit 的跳過，mtime 比對）
+          # 失敗不 block deploy — SEO.astro fallback 會退回預設圖
+          npm run og:generate || {
+            echo "⚠️  OG generation partial failure — SEO fallback kicks in"
+            tail -50 /tmp/astro-dev.log
+          }
+          # 關掉 dev server
+          kill $DEV_PID 2>/dev/null || true
+          pkill -f "astro dev" 2>/dev/null || true
+
       - name: Build
         run: npm run build
       - name: Upload artifact
