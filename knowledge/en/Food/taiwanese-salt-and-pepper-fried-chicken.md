@@ -24,7 +24,7 @@ When night settles over Taiwan, the air begins to carry a familiar perfume—hot
 
 ## The sociology of the fried chicken stall
 
-The origins of Taiwanese salt-and-pepper chicken are generally traced back to the mid-1970s. One prominent account credits the first stall to a vendor in Taipei's Ximending district around 1975, who adapted traditional frying techniques to create bite-sized, seasoned snacks.[^2] Another competing historical narrative points to 1979 in Tainan, where local vendors began mass-marketing the dish as a specialized night-market staple.[^3]
+The origins of Taiwanese salt-and-pepper chicken are generally traced back to the mid-1970s. One prominent account credits the first stall to a vendor in Taipei's Ximending district around 1975, who adapted traditional frying techniques to create bite-sized, seasoned snacks.[^2] Another competing historical narrative points to 1979 in Tainan, where local vendors began mass-marketing the dish as a specialized night-market staple.
 
 The **鹹酥雞 stall** is not just a vendor—it is a night-time gathering point. Unlike formal restaurants, these stalls feel like neighborhood living rooms. People chat, compare orders, and trade recommendations while they wait. The stall becomes a temporary community built from the shared expectation of flavor.
 
@@ -80,12 +80,4 @@ _References:_
 
 [^2]: [Liberty Times: Searching for the origin of Taiwanese Salt and Pepper Chicken](https://food.ltn.com.tw/article/10125) — Liberty Times: Searching for the origin of Taiwanese Salt and Pepper Chicken
 
-[^3]: [Tainan Food Records: The 1979 Tainan Salt and Pepper Chicken Revolution](https://www.tainan.gov.tw/) — Tainan Food Records: The 1979 Tainan Salt and Pepper Chicken Revolution
-
 [^4]: [Common Health Magazine: The nutritional and culinary value of Taiwanese Basil](https://www.commonhealth.com.tw/article/78912) — Common Health Magazine: The nutritional and culinary value of Taiwanese Basil
-
-[^5]: [Han Liang-lu (韓良露): The Anthropology of Street Food](https://www.booklife.com.tw/) — Han Liang-lu (韓良露): The Anthropology of Street Food
-
-[^6]: [Wang Ming-ke (王明珂): A Study of Taiwan Night Market Culture](https://www.sinica.edu.tw/) — Wang Ming-ke (王明珂): A Study of Taiwan Night Market Culture
-
-[^7]: [Taiwan Night Market Official Guide](https://www.nightmarket.tw/) — Taiwan Night Market Official Guide

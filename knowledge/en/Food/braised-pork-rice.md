@@ -50,9 +50,9 @@ As these villages dispersed and disappeared, their recipes traveled into city ne
 
 ## The 2011 “National Dish” Debate
 
-In 2011, braised pork rice became the center of a diplomatic and cultural firestorm. The _Michelin Green Guide Taiwan_ erroneously claimed the dish originated from Shandong province in China.[^3] This assertion sparked widespread outrage in Taiwan, leading then-Taipei Mayor Hau Lung-bin to organize a massive protest event where over 1,000 bowls of authentic Taiwanese braised pork rice were distributed to prove its local identity.[^4]
+In 2011, braised pork rice became the center of a diplomatic and cultural firestorm. The _Michelin Green Guide Taiwan_ erroneously claimed the dish originated from Shandong province in China. This assertion sparked widespread outrage in Taiwan, leading then-Taipei Mayor Hau Lung-bin to organize a massive protest event where over 1,000 bowls of authentic Taiwanese braised pork rice were distributed to prove its local identity.
 
-Later that year, a media poll in Taiwan crowned braised pork rice the “national dish,” beating competitors like beef noodle soup (牛肉麵) and oyster omelets (蚵仔煎). CNN also listed it at the top of its "40 Taiwanese Foods We Can't Live Without" list, further cementing its status as a culinary icon.[^5]
+Later that year, a media poll in Taiwan crowned braised pork rice the “national dish,” beating competitors like beef noodle soup (牛肉麵) and oyster omelets (蚵仔煎). CNN also listed it at the top of its "40 Taiwanese Foods We Can't Live Without" list, further cementing its status as a culinary icon.
 
 ## Globalization and Cultural Export
 
@@ -84,13 +84,3 @@ _References:_
 [^1]: [CNN Travel: 40 Taiwanese foods we can't live without](http://www.cnn.com/travel/article/40-taiwan-food/index.html) — CNN Travel: 40 Taiwanese foods we can't live without
 
 [^2]: [Liberty Times: The linguistic and culinary divide between Northern and Southern Braised Pork Rice](https://food.ltn.com.tw/article/10452) — Liberty Times: The linguistic and culinary divide between Northern and Southern Braised Pork Rice
-
-[^3]: [BBC News: Michelin's 'Shandong' claim over Taiwan's braised pork rice](https://www.bbc.com/news/world-asia-pacific-14066371) — BBC News: Michelin's 'Shandong' claim over Taiwan's braised pork rice
-
-[^4]: [Taipei City Government: Mayor Hau Lung-bin defends local origin of Braised Pork Rice](https://www.gov.taipei/News_Content.aspx?n=D001237&s=7D001237) — Taipei City Government: Mayor Hau Lung-bin defends local origin of Braised Pork Rice
-
-[^5]: [United Daily News: Braised Pork Rice voted Taiwan's National Dish](https://udn.com/news/story/7270/2534567) — United Daily News: Braised Pork Rice voted Taiwan's National Dish
-
-[^6]: [Chiao Tung (焦桐): The Cultural History of Taiwanese Cuisine](https://www.2-fish.com.tw/) — Chiao Tung (焦桐): The Cultural History of Taiwanese Cuisine
-
-[^7]: [Taiwan Tourism Bureau: Official Guide to Local Delicacies](https://www.taiwan.net.tw/) — Taiwan Tourism Bureau: Official Guide to Local Delicacies

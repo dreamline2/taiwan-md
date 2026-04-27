@@ -14,7 +14,7 @@ translatedFrom: 'Food/牛肉麵.md'
 
 # Beef Noodle Soup
 
-A steaming bowl of beef noodle soup, with its rich broth, tender beef, and chewy noodles, has become Taiwan's most iconic national dish. What appears to be a simple noodle soup actually carries the nostalgic memories of mainlander immigrants, witnesses Taiwan's history of ethnic integration, and has evolved from street food to a shining star on the international culinary stage.[^1] Beef noodle soup isn't just a bowl of noodles—it's the ultimate symbol of Taiwan's diverse and inclusive food culture.
+A steaming bowl of beef noodle soup, with its rich broth, tender beef, and chewy noodles, has become Taiwan's most iconic national dish. What appears to be a simple noodle soup actually carries the nostalgic memories of mainlander immigrants, witnesses Taiwan's history of ethnic integration, and has evolved from street food to a shining star on the international culinary stage. Beef noodle soup isn't just a bowl of noodles—it's the ultimate symbol of Taiwan's diverse and inclusive food culture.
 
 ![Taiwanese Beef Noodle Soup](/images/wiki/5be514264de6.jpg)
 _Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwanese_beef_noodles.jpg) | CC BY-SA 2.0 | Photographer unknown_
@@ -27,7 +27,7 @@ In Taiwan's traditional agricultural society, there was a deeply rooted belief t
 
 ### Nostalgic Creation by Mainlander Immigrants
 
-The birth of beef noodle soup was a process of fusion and innovation. Veterans from Sichuan province, settled in Kaohsiung's Gangshan district, were the main promoters of the spicy "red-braised" profile, utilizing local fermented bean paste (doubanjiang) to recreate the flavors of their hometown.[^3] In Taipei, the "Gongyuan Beef Noodle" stall, established around 1962 near the 228 Peace Memorial Park, is often cited as one of the earliest pioneers in popularized beef noodle soup.[^4]
+The birth of beef noodle soup was a process of fusion and innovation. Veterans from Sichuan province, settled in Kaohsiung's Gangshan district, were the main promoters of the spicy "red-braised" profile, utilizing local fermented bean paste (doubanjiang) to recreate the flavors of their hometown.[^3] In Taipei, the "Gongyuan Beef Noodle" stall, established around 1962 near the 228 Peace Memorial Park, is often cited as one of the earliest pioneers in popularized beef noodle soup.
 
 **Military Food Culture:**
 In the military, beef was an important protein source. Veterans brought the stewing techniques they learned in the army to civilian life, beginning to prepare beef dishes in Taiwan.
@@ -354,18 +354,10 @@ With advancing internationalization, Taiwanese beef noodle soup is shining on th
 
 _References:_
 
-[^1]: [Encyclopedia of Taiwan: The evolution of Taiwanese Beef Noodle Soup](https://nrch.culture.tw/) — Encyclopedia of Taiwan: The evolution of Taiwanese Beef Noodle Soup
-
 [^2]: [The News Lens: Why didn't old Taiwanese people eat beef?](https://www.thenewslens.com/article/115535) — The News Lens: Why didn't old Taiwanese people eat beef?
 
 [^3]: [Liberty Times: The origin of Gangshan Doubanjiang and Beef Noodle Soup](https://food.ltn.com.tw/article/10125) — Liberty Times: The origin of Gangshan Doubanjiang and Beef Noodle Soup
 
-[^4]: [Taipei City Government: History of Taipei Beef Noodle Culture](https://www.gov.taipei/) — Taipei City Government: History of Taipei Beef Noodle Culture
-
 [^5]: [CNN Travel: World's 40 best foods - Taiwanese Beef Noodle Soup](http://www.cnn.com/travel/article/world-best-food-dishes/index.html) — CNN Travel: World's 40 best foods - Taiwanese Beef Noodle Soup
 
-[^6]: [Michelin Guide Taiwan: Bib Gourmand Beef Noodle Recommendations](https://guide.michelin.com/tw/en/article/features/michelin-guide-taipei-beef-noodle-recommendations) — Michelin Guide Taiwan: Bib Gourmand Beef Noodle Recommendations
-
 [^7]: [Taipei International Beef Noodle Festival Official Website](https://tpebeefnoodle.com.tw/) — Taipei International Beef Noodle Festival Official Website
-
-[^8]: [Tourism Bureau, MOTC - Taiwan Cuisine Guide](https://www.taiwan.net.tw/) — Tourism Bureau, MOTC - Taiwan Cuisine Guide

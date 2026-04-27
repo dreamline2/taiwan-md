@@ -25,7 +25,7 @@ translatedFrom: 'Food/台灣早餐文化.md'
 
 At 6:30 AM, Taiwan's streets begin to awaken. Breakfast shop aunties have been busy for an hour already—dan bing (蛋餅, egg crepes) sizzling on griddles, golden you tiao (oil sticks) tumbling in oil vats, and soy milk machines humming as they grind fresh soybeans. For Taiwanese people, breakfast is more than just a morning meal; it is a massive cultural phenomenon. According to 2023 statistics, the number of registered breakfast shops in Taiwan has surpassed 18,919, exceeding even the density of the island's ubiquitous convenience stores.[^1][^2]
 
-Taiwan breakfast's uniqueness lies not just in abundant choices, but in its fusion of Chinese and Western cultural essences. Approximately 50% of Taiwanese people choose to eat breakfast out, supporting a market with an estimated annual value of 200 billion TWD.[^2][^3]
+Taiwan breakfast's uniqueness lies not just in abundant choices, but in its fusion of Chinese and Western cultural essences. Approximately 50% of Taiwanese people choose to eat breakfast out, supporting a market with an estimated annual value of 200 billion TWD.[^2]
 
 ![Taiwan Breakfast Shop](/images/wiki/taiwan_breakfast.jpg)
 _Image source: Typical Taiwan breakfast shop with dan bing, hamburgers, and soy milk_
@@ -47,7 +47,7 @@ This eating pattern began changing during Japanese rule. Japanese brought regula
 
 ### Post-War Cultural Fusion
 
-After 1949, large numbers of mainlander immigrants brought northern Chinese food culture. Notably, **Yonghe Soy Milk** is said to have originated around 1955 near the Zhongzheng Bridge in Yonghe, New Taipei City. Founded by military veterans to serve bridge construction workers, it later pioneered the 24-hour business model that became a hallmark of Taiwanese breakfast culture.[^4][^5]
+After 1949, large numbers of mainlander immigrants brought northern Chinese food culture. Notably, **Yonghe Soy Milk** is said to have originated around 1955 near the Zhongzheng Bridge in Yonghe, New Taipei City. Founded by military veterans to serve bridge construction workers, it later pioneered the 24-hour business model that became a hallmark of Taiwanese breakfast culture.[^5]
 
 **Mainlander Culinary Contributions:**
 
@@ -366,10 +366,6 @@ _References:_
 
 [^2]: [FoodNext: The 200 billion TWD breakfast market - Taiwan's eating-out ratio ranks top globally](https://www.foodnext.net/news/newssafe/paper/5593574824) — FoodNext: The 200 billion TWD breakfast market - Taiwan's eating-out ratio ranks top globally
 
-[^3]: [Ministry of Economic Affairs: Report on the Growth of the Chain Breakfast Market](https://www.moea.gov.tw/) — Ministry of Economic Affairs: Report on the Growth of the Chain Breakfast Market
-
-[^4]: [Yonghe Soy Milk Official History: The 1955 legend under the Zhongzheng Bridge](https://www.soymilk.com.tw/about.php) — Yonghe Soy Milk Official History: The 1955 legend under the Zhongzheng Bridge
-
 [^5]: [China Times: From veteran's nostalgia to 24-hour landmark](https://www.chinatimes.com/realtimenews/20241011001135-260405) — China Times: From veteran's nostalgia to 24-hour landmark
 
 [^6]: [Liberty Times: Batter-style vs. Flour-wrap Dan Bing - The aesthetics of breakfast schools](https://food.ltn.com.tw/article/7405) — Liberty Times: Batter-style vs. Flour-wrap Dan Bing - The aesthetics of breakfast schools
@@ -377,8 +373,6 @@ _References:_
 [^7]: [Wikipedia: History and brand disputes of Mei Er Mei in Taiwan](https://zh.wikipedia.org/zh-tw/%E7%BE%8E%E8%80%8C%E7%BE%8E) — Wikipedia: History and brand disputes of Mei Er Mei in Taiwan
 
 [^8]: [CommonWealth Magazine: Lin Kun-yan, the father of chain breakfast shops](https://www.cw.com.tw/article/5095345) — CommonWealth Magazine: Lin Kun-yan, the father of chain breakfast shops
-
-[^9]: [Taiwan Tourism Bureau: Official Guide to Taiwan's Culinary Culture](https://www.taiwan.net.tw/) — Taiwan Tourism Bureau: Official Guide to Taiwan's Culinary Culture
 
 ## Further Reading
 
