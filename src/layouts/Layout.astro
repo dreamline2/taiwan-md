@@ -850,6 +850,20 @@ const jfClass = [
           .forEach((l) => l.classList.add('active'));
       }
     </script>
+
+    <!--
+      2026-04-27 全站 hash anchor 平滑捲動 + navbar offset
+      ──────────────────────────────────────────────────
+      改用純 CSS 解（見 global.css §scroll-padding-top）：
+        - html { scroll-padding-top: 92px; scroll-behavior: smooth; }
+        - prefers-reduced-motion: scroll-behavior: auto
+      （刻意不疊 scroll-margin-top on heading，會 additive 變雙倍 offset）
+
+      原本寫過 rAF 自寫動畫繞 Chrome「smooth scroll 被 cancel」的疑似 bug，
+      實情是 hidden tab 的 rAF 被 throttle 到 ~1Hz（凍結）造成的測試假象，
+      回到 visible tab 後 native smooth scroll 完全正常。教訓 commit 在
+      global.css 的 comment 裡，避免下次 contributor 重蹈覆轍。
+    -->
   </body>
 </html>
 

@@ -390,12 +390,21 @@ const encodedTitle = encodeURIComponent(title);
       lang="zh-TW"
     />
 
-    <!-- ── Three-column body ─────────────────────────────────────── -->
+    <!-- ── Three-column body ───────────────────────────────────────
+         2026-04-27 fix: removed `items-start` from grid parent + made
+         TOC/sidebar wrapper divs `h-full`. Reason: `items-start` makes
+         each grid cell shrink to content height; the TOC's wrapper div
+         was therefore the same height as the TOC nav itself, leaving
+         no scroll-room for `position: sticky` to engage. Now grid cells
+         stretch to row height (= tall article body) and sticky works
+         inside the tall wrapper.
+    -->
     <div
-      class="mx-auto grid max-w-[1280px] grid-cols-[220px_1fr_200px] [grid-template-areas:'toc_body_sidebar'] items-start gap-14 px-8 pb-20 pt-16 max-lg:grid-cols-1 max-lg:[grid-template-areas:'body'_'sidebar'] max-lg:gap-8 max-lg:px-6 max-lg:pb-16 max-lg:pt-10 max-[640px]:px-4 max-[640px]:pb-12 max-[640px]:pt-6"
+      class="mx-auto grid max-w-[1280px] grid-cols-[220px_1fr_200px] [grid-template-areas:'toc_body_sidebar'] gap-14 px-8 pb-20 pt-16 max-lg:grid-cols-1 max-lg:[grid-template-areas:'body'_'sidebar'] max-lg:gap-8 max-lg:px-6 max-lg:pb-16 max-lg:pt-10 max-[640px]:px-4 max-[640px]:pb-12 max-[640px]:pt-6"
     >
-      <!-- Left: Table of Contents -->
-      <div class="[grid-area:toc] max-lg:hidden" aria-label="目錄欄">
+      <!-- Left: Table of Contents (h-full lets the wrapper inherit grid row height,
+           giving the inner sticky nav room to scroll within) -->
+      <div class="h-full [grid-area:toc] max-lg:hidden" aria-label="目錄欄">
         <TableOfContents content={processedContent} />
       </div>
 
@@ -735,8 +744,12 @@ const encodedTitle = encodeURIComponent(title);
         </div>
       </article>
 
-      <!-- Right: Sidebar -->
-      <div class="col-sidebar">
+      <!-- Right: Sidebar
+           h-full + [grid-area:sidebar] for the same reason as TOC wrapper —
+           need wrapper to fill grid row height so the inner sticky aside
+           has scroll room.
+      -->
+      <div class="h-full [grid-area:sidebar] max-lg:h-auto">
         <ArticleSidebar
           title={title}
           tags={frontmatter.tags}
