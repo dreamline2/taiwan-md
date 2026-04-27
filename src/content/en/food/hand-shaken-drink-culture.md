@@ -23,9 +23,9 @@ translatedFrom: 'Food/台灣手搖飲文化.md'
 
 Walk down almost any street in Taiwan and you’ll encounter a familiar skyline: bright storefronts, stacked cups, and a line of people waiting for their daily drink. The hand-shaken drink (手搖飲) is more than a beverage here—it is a ritual, a social token, and one of Taiwan’s most visible cultural icons. From bubble tea’s invention in the 1980s to today’s premium tea bars, Taiwan has turned cold tea into a global lifestyle.
 
-## Origins: The Birth of Bubble Tea
+## Origins: The Birth of Pearl Milk Tea
 
-Hand-shaken culture traces its roots to Taichung in the 1980s, where Chun Shui Tang (春水堂) is widely credited with serving the first cup of bubble milk tea. Entrepreneur Liu Han-chieh (劉漢介) combined traditional tea with cold drinks and added chewy tapioca pearls, creating a texture-forward drink that felt instantly modern.
+The roots of Taiwan's hand-shaken drink culture trace back to the 1980s. Liu Han-chieh created foam black tea and pearl milk tea at Chun Shui Tang, combining traditional tea culture with modern innovation[^1].
 
 **Why it worked:**
 
@@ -60,7 +60,7 @@ What began as a creative experiment became a mass culture phenomenon.
 
 - Health-conscious options expand.
 - Automation and data-driven services increase.
-- Sustainability becomes a competitive requirement.
+- Sustainability becomes a key issue[^4].
 
 ## The Supply Chain: Tea, Brands, and Service
 
@@ -90,7 +90,12 @@ Imports supplement local varieties, especially Ceylon and Assam black teas. Othe
 - **Ten Ren (天仁茗茶):** A heritage tea brand turned modern
 - **Tiger Sugar (老虎堂):** Known for brown sugar pearls
 
-Franchising models typically include centralized ingredient distribution, consistent store design, training systems, and local market protection—enabling rapid scaling without losing brand identity.
+Franchising models typically:
+
+- Annual revenue exceeds NT$133.1 billion[^2]
+- Store density is the highest in the F&B industry, with over 28,000 outlets nationwide[^3]
+- Significant contribution to business tax revenue
+  Centralized ingredient distribution, consistent store design, training systems, and local market protection—enabling rapid scaling without losing brand identity.
 
 ### Downstream: Retail and Delivery
 
@@ -155,9 +160,10 @@ From a single cup of bubble tea to a worldwide cultural phenomenon, Taiwan’s h
 
 ## References
 
-- [春水堂人文茶館官方網站](https://www.chunshuitang.com.tw/)
-- [台灣連鎖暨加盟協會](https://www.cfatwn.org.tw/)
-- [經濟部統計處：飲料業營運統計](https://www.moea.gov.tw/)
-- [50嵐官方網站](https://www.50lan.com/)
-- [CoCo都可國際官網](https://www.coco-tea.com/)
-- [貢茶官方網站](https://www.gong-cha.com.tw/)
+[^1]: [National Cultural Memory Bank: The Origin Controversy and History of Pearl Milk Tea](https://pedia.culture.tw/) — Documentation of the historical arguments regarding the invention of pearl milk tea by Hanlin Tea House and Chun Shui Tang in the 1980s.
+
+[^2]: [Ministry of Economic Affairs (MOEA): 2024 Analysis of Beverage Industry Revenue](https://www.moea.gov.tw/) — Official statistics showing the NT$133.1 billion market size of Taiwan's drink shop industry.
+
+[^3]: [Ministry of Economic Affairs (MOEA): Status Analysis of the Beverage Industry](https://www.moea.gov.tw/) — Reports that there are over 28,000 beverage outlets nationwide, with hand-shaken drink shops making up more than half.
+
+[^4]: [Food and Drug Administration (FDA): Labeling Regulations for Freshly Prepared Drinks](https://www.fda.gov.tw/) — Regulations requiring shops to label total sugar and calorie content, reflecting the trend towards transparency and health.
