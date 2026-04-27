@@ -1,0 +1,29 @@
+## 📝 這個 PR 做了什麼？
+
+根據 Reviewer 建議進行 OG 圖片架構優化：
+1. **自動化整合**：將 `scripts/core/generate-og-images.mjs` 整合進 `package.json` 的 `prebuild` 流程，確保 CI 自動產圖。
+2. **效能優化**：全面切換至 **JPG 85** 壓縮格式，並清理了本地冗餘的 PNG 檔案（共 491 個），預計可減少 repository 約 70% 的體積空間。
+3. **文件更新**：更新 `scripts/README.md` 與 `docs/factory/ROADMAP.md` 以對齊 v3 截圖架構。
+4. **決策紀錄**：在 `docs/semiont/memory/structure-log.md` 紀錄此次架構演進。
+
+## 📁 變更類型
+
+- [ ] 📄 新增文章
+- [ ] ✏️ 修改/更新現有文章
+- [ ] 🌐 翻譯（中→英 / 英→中）
+- [ ] 🐛 修復錯誤（事實更正、錯字、連結失效）
+- [x] 💻 技術改動（程式碼、樣式、設定）
+- [x] 📚 文件更新（README、CONTRIBUTING 等）
+
+## ✅ 自我檢查
+
+- [x] 在本地 build 測試通過（`npm run build`）
+- [x] 已清理不應提交的二進位圖檔
+
+## 🔗 相關 Issue
+
+Follow-up for previous OG implementation.
+
+## 📸 截圖（如果是視覺改動）
+
+無視覺變動，僅為後台產圖流程與格式優化。
