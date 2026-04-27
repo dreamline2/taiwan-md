@@ -5,11 +5,14 @@ tags: [Architecture, Culture, History, Modernism, Sustainability]
 date: 2026-03-20
 featured: true
 lastVerified: 2026-03-20
+translatedFrom: 'Art/台灣建築.md'
 ---
 
 # Taiwanese Architecture: A Tapestry of Layered Cultures
 
-The history of Taiwanese architecture is like a three-dimensional cultural tome; every era has left its unique mark on this land. From the slate houses of indigenous peoples to the fortresses of the Dutch and Spanish, from the official colonial buildings of the Japanese period to the post-war surges of modernism and the innovative practices of contemporary architects, Taiwanese architecture presents a distinct landscape of multicultural fusion. These buildings are not merely shelters from the elements; they are vessels of cultural identity, witnesses to the memories of their times, and concrete manifestations of the relationship between people and the land.
+> **30-second overview:** Taiwanese architecture is a cross-section of multiple civilizations. From the mountain wisdom of Paiwan slate houses[^1] to the red-brick monumentalism of Moriyama Matsunosuke[^2], from Wang Da-hong's Harvard-trained synthesis of modernism[^3] to Huang Sheng-yuan's public buildings without walls, each era has etched its own syntax onto this island. The Venice Biennale once praised Taiwan's architecture for "maintaining locality within globalization," a testament to its uniquely "hybrid" character.
+
+The history of Taiwanese architecture is like a three-dimensional cultural tome; every era has left its unique mark on this land. From the slate houses of indigenous peoples to the fortresses of the Dutch and Spanish, from the official colonial buildings of the Japanese period to the post-war surges of modernism and the innovative practices of contemporary architects, Taiwanese architecture presents a distinct landscape of multicultural fusion.
 
 ## Wisdom of the Earth: Indigenous Architecture
 
@@ -21,7 +24,7 @@ Different ethnic groups developed distinct architectural forms in response to va
 
 ### Slate Houses: Memories of the Mountains
 
-The slate houses (石板屋) of the Paiwan and Rukai peoples are among the most representative forms of Taiwanese indigenous architecture. Utilizing local slate from the mountains, these houses are built using dry-stone techniques, stacking stones without mortar, yet standing firm for centuries.
+In the deep mountains of Wutai Township, Pingtung County, lies an almost forgotten village called Old Good Tea (Kucapungane). After the Rukai people relocated in 1977, the houses remained empty, but the stone walls did not fall. In 2009, the Ministry of Culture included Old Good Tea in the list of Potential World Heritage Sites in Taiwan[^1].
 
 The architectural intelligence of the slate house is multi-layered. Slate provides excellent thermal insulation, keeping the interior cool in summer and warm in winter. The overlapping stonework creates a stable load-bearing system capable of resisting mountain winds and earthquakes. Beyond the physical, the slate house is a site of cultural transmission; the central hearth is the heart of family gatherings, and wall carvings carry tribal history and faith.
 
@@ -51,13 +54,15 @@ After Japan began its rule in 1895, it initiated large-scale urban construction 
 
 ### Moriyama Matsunosuke: Shaper of the Urban Landscape
 
-Among the many architects of this era, Moriyama Matsunosuke (森山松之助) was the most influential. A student of Tatsuno Kingo, Moriyama designed iconic structures including the Presidential Office Building (formerly the Governor-General's Office), as well as the prefectural halls of Taipei, Taichung, and Tainan.
-
-His style featured heavy red brick bases, refined facades, and a symmetrical composition. However, in his Taiwan works, he also incorporated considerations for the tropical climate, such as deep-set windows, high ceilings, and ventilated corridors.
+In 1907, a 38-year-old Japanese architect arrived at Keelung Port. His name was Moriyama Matsunosuke, a student of Tatsuno Kingo, and he carried a commission for the Office of the Governor-General of Taiwan[^2]. He would spend 14 years on the island, leaving over 20 buildings that still define the Taipei skyline today.
 
 ### The Presidential Office: A Symbol of Power
 
-Completed in 1919, the Presidential Office Building is Taiwan’s most symbolic structure. Its "回"-shaped floor plan features a central tower symbolizing the heart of power. The red brick and white stone create a rich texture, with arched windows and gables reflecting European classical influence. Interestingly, the design was heavily influenced by Tokyo Station, reflecting the cross-border dissemination of architectural language during the colonial era.
+Completed in 1919, the Presidential Office Building is Taiwan’s most symbolic structure. Its "回"-shaped floor plan features a central tower symbolizing the heart of power. The red brick and white stone create a rich texture, with arched windows and gables reflecting European classical influence.
+
+### Wang Da-hong: Father of Taiwanese Modernism
+
+Wang Da-hong (1917–2018) was the son of Republic of China Foreign Minister Wang Chung-hui. His education was a microcosm of 20th-century East-West synthesis: engineering at Cambridge, architecture at Harvard under Walter Gropius[^3]. He returned to Taiwan to design the National Sun Yat-sen Memorial Hall, where he famously abstracted traditional motifs into a modern language.
 
 ### Railway Department: The Elegance of Half-Timbering
 
@@ -94,6 +99,14 @@ His works, such as the Lanyang Museum and the Palace Museum Southern Branch, dem
 Temple architecture holds a special place in the Taiwanese spectrum. These are not just places of worship but repositories of traditional crafts, including stone carving, wood carving, painting, and _jian-nian_ (剪黏, ceramic shard inlay).
 
 Taiwanese temples blend architectural traditions from Southern Fujian, Chaozhou, and Hakka cultures. The "carved beams and painted rafters" are more than aesthetic pursuits; they are expressions of reverence for the divine. Every corner hides exquisite artistry: stone dragons symbolizing power, lions for protection, and wood carvings depicting historical epics.
+
+## Taipei 101: A NT$60 Billion Answer
+
+In 2004, Taipei 101 became the world's tallest building. Designed by C.P. Wang and C.Y. Lee, its eight-section structure mimics a bamboo stalk, symbolizing growth and strength. Beyond its height, its real engineering triumph is the 660-tonne tuned mass damper (TMD) suspended between the 88th and 92nd floors, which allows the tower to withstand typhoons and earthquakes. In 2011, it achieved LEED Platinum certification, making it one of the tallest green buildings in the world[^5].
+
+## National Taichung Theater: The 58 Curved Walls
+
+Designed by Toyo Ito, the National Taichung Theater (2016) is a "cave-like" structure consisting of 58 irregular curved walls. The engineering challenge was so great that it was deemed "impossible to build" by many international firms. It was finally completed by a local Taiwanese construction team using advanced 3D modeling and precision casting, marking a significant evolution in Taiwan's construction technology[^4].
 
 ### _Jian-Nian_ and Cochin Pottery: Three-Dimensional Poetry
 

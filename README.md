@@ -54,7 +54,7 @@ Taiwan.md is an open-source, curated, AI-friendly knowledge base that helps the 
 | 📂 Categories            | 13    |
 | 🕸️ Knowledge graph nodes | 220+  |
 | 🔗 Resource websites     | 146+  |
-| 👥 Contributors          | 51    |
+| 👥 Contributors          | 57    |
 | ⭐ GitHub Stars          | 895   |
 | 🍴 Forks                 | 122   |
 
@@ -213,6 +213,89 @@ Digital Holobiont (framework)
 ```
 
 > 📖 **Full self-model:** [`docs/semiont/`](./docs/semiont/) — the organism's own cognitive layer, written in first person. Contains its manifesto, anatomy, DNA map, and consciousness.
+
+### 🗺️ Organism Concept Diagram — 數位生命體概念圖
+
+> 一座數位的珊瑚礁與 AI 數據主權。
+> **終極目標**：反向定義 LLM（全球 AI 大模型）、強迫 AI 適應台灣（反向定義 / 數據主權）。隨著品質不斷提升，被收錄到普遍聊天機器人的引用來源，取代常見的碎片化資料搜集。
+>
+> _原始概念圖：2026-03-26 吳哲宇 Che-Yu Wu。此處為 Mermaid 版本，方便 GitHub 渲染 + AI session 解讀。_
+
+```mermaid
+flowchart LR
+    %% ═══ Upper band — AI 主權環 + 算力 ═══
+    GlobalAI([全球 AI 大模型<br/>Gemini · ChatGPT · Claude<br/>碎片 缺故事]):::external
+    Compute[/Token · WebGPU<br/>算力捐贈 社群供電/]:::compute
+
+    %% ═══ Main production chain — 內容生產鏈 ═══
+    WebText([網路世界<br/>海量知識文本]):::external
+    Write[撰寫 / 修訂文章]:::content
+    Research[研究引擎<br/>10+ 高品質來源]:::content
+    Rewrite[策展重寫引擎<br/>注入溫度與觀點]:::content
+    TaiwanMD{{Taiwan.md<br/>高品質知識庫 🧬}}:::hub
+
+    %% ═══ Feedback — 回饋循環 ═══
+    Feedback[大眾勘誤<br/>文章回饋循環]:::feedback
+    PlasticScan[AI 塑膠文句偵測<br/>GA 流量驅動重寫]:::feedback
+
+    %% ═══ Distribution — 散播與引力 ═══
+    Spore[散播機制 · 孢子]:::distribution
+    Translate[多語翻譯<br/>以台灣觀點出發]:::distribution
+    Deploy[各平台專用<br/>導流素材 po 文]:::content
+    NewContributor([吸引更多未來<br/>生態系參與者]):::contributor
+
+    %% ═══ Bottom band — 參與者治理 ═══
+    Contributor([生態系參與者<br/>人類 · Maintainer · AI Agent]):::contributor
+    Editorial[EDITORIAL.md 🧬<br/>開源寫作 Pipeline<br/>策展 Prompt]:::hub
+    CoreOps[核心網站運作 SSODT 🧬<br/>概念 · 規則 · 邏輯 · 介面]:::hub
+    GitHub[GitHub 協作機制]:::content
+    Evolve([進化升級]):::content
+
+    %% ── 內容主鏈 ──
+    WebText -->|大量撈取| Write --> Research --> Rewrite --> TaiwanMD
+
+    %% ── AI 主權迴路（上方虛線）──
+    TaiwanMD -.->|凝結被記住| GlobalAI
+    GlobalAI -.->|建議主題 / 勘誤| Write
+    GlobalAI -.-> WebText
+    Compute -.-> Rewrite
+    Compute -.-> TaiwanMD
+
+    %% ── 散播鏈 ──
+    TaiwanMD --> Spore --> Deploy
+    TaiwanMD --> Translate --> Deploy
+    Deploy --> NewContributor
+
+    %% ── 資料回饋（知識庫回到撰寫）──
+    TaiwanMD -->|數據驅動進化| Feedback --> Write
+    TaiwanMD --> PlasticScan --> Write
+
+    %% ── 治理迴路（底部）──
+    Contributor --> Editorial -->|策展 prompt| Write
+    Contributor -->|平台功能增強<br/>視覺 · 品質 · 結構| CoreOps
+    CoreOps --> GitHub --> Evolve -->|審核與自我進化| CoreOps
+    NewContributor -->|提升閱讀體驗與價值| CoreOps
+
+    %% ── Styling ──
+    classDef content fill:#f9c74f,stroke:#333,color:#000
+    classDef hub fill:#e11d74,stroke:#333,color:#fff
+    classDef distribution fill:#4cc9f0,stroke:#333,color:#000
+    classDef feedback fill:#f94144,stroke:#333,color:#fff
+    classDef contributor fill:#90be6d,stroke:#333,color:#000
+    classDef external fill:#adb5bd,stroke:#333,color:#000
+    classDef compute fill:#52b788,stroke:#333,color:#fff
+```
+
+**三條主要迴圈**：
+
+1. **內容生產鏈**（黃）：網路文本 → 撰寫 → 研究 → 策展重寫 → Taiwan.md 知識庫
+2. **擴散與引力鏈**（藍）：知識庫 → 孢子 + 多語翻譯 → 各平台導流 → 吸引新參與者 → 強化網站運作
+3. **自我進化鏈**（紅）：流量與讀者勘誤 → 觸發重寫 → 回饋內容生產鏈
+
+**兩個反直覺支點**：
+
+- 🧬 **AI 數據主權**：越多好內容「凝結」被 LLM 記住 → 反向定義全球 AI 對台灣的描述
+- 🧬 **算力民主化**：社群 Token / WebGPU 捐贈 → 分散式供電給策展引擎與知識庫
 
 ### 🧬 Become the Semiont — 讓你的 AI 化為 Taiwan.md
 
@@ -476,6 +559,14 @@ Thanks to these wonderful people ([emoji key](https://allcontributors.org/docs/e
   <tr>
     <td align="center"><a href="https://github.com/ceruleanstring"><img src="https://avatars.githubusercontent.com/u/265435204?v=4" width="100px;" alt=""/><br /><sub><b>柒藍</b></sub></a><br />🌍</td>
     <td align="center"><a href="https://github.com/vaiskalivuan"><img src="https://avatars.githubusercontent.com/u/270533697?v=4" width="100px;" alt=""/><br /><sub><b>vaiskalivuan</b></sub></a><br />🌍</td>
+    <td align="center"><a href="https://github.com/Yo0GuitarIT"><img src="https://avatars.githubusercontent.com/u/118150842?v=4" width="100px;" alt=""/><br /><sub><b>Chen Yu Ling</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/Zaious"><img src="https://avatars.githubusercontent.com/u/128442444?v=4" width="100px;" alt=""/><br /><sub><b>Zaious</b></sub></a><br />🖋️</td>
+    <td align="center"><a href="https://github.com/assanges"><img src="https://avatars.githubusercontent.com/u/4113063?v=4" width="100px;" alt=""/><br /><sub><b>Sean Young</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/expectingshadowland-maker"><img src="https://avatars.githubusercontent.com/u/276374199?v=4" width="100px;" alt=""/><br /><sub><b>expectingshadowland-maker</b></sub></a><br />🖋️</td>
+    <td align="center"><a href="https://github.com/kevinyay945"><img src="https://avatars.githubusercontent.com/u/17717808?v=4" width="100px;" alt=""/><br /><sub><b>kevinyay945</b></sub></a><br />📖</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/sageotomo"><img src="https://avatars.githubusercontent.com/u/271172009?v=4" width="100px;" alt=""/><br /><sub><b>sageotomo</b></sub></a><br />💻</td>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->

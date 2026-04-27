@@ -457,7 +457,12 @@ const otherCategories = categories
     <div
       class="mx-auto max-w-[1200px] px-8 py-8 max-[768px]:px-4 max-[768px]:py-4"
     >
-      {/* Main two-column layout: sidebar + content */}
+      {
+        /* Main two-column layout: sidebar + content
+           Sticky aside must keep content-height (`self-start` / `h-fit`) so
+           the parent flex (= taller article column) provides the scroll
+           context. Items-start on parent enforces that. */
+      }
       {
         articles.length > 0 ? (
           <div class="mt-4 flex items-start gap-8 max-[768px]:flex-col max-[768px]:gap-0">
@@ -471,7 +476,8 @@ const otherCategories = categories
                   {subcategoryGroups.map((group) => (
                     <a
                       href={`#sub-${group.name}`}
-                      class="flex items-center justify-between rounded px-2 py-[0.35rem] text-[0.82rem] text-[#475569] no-underline transition-all duration-150 hover:bg-[rgba(45,80,22,0.06)] hover:text-[var(--categoryColor,#2d5016)] max-[768px]:rounded-2xl max-[768px]:border max-[768px]:border-[#e2e8f0] max-[768px]:bg-[#f8fafc] max-[768px]:px-[0.6rem] max-[768px]:py-1 max-[768px]:text-[0.78rem]"
+                      data-sub-link={group.name}
+                      class="subcat-nav-link flex items-center justify-between rounded border-l-2 border-transparent px-2 py-[0.35rem] text-[0.82rem] text-[#475569] no-underline transition-all duration-150 hover:bg-[rgba(45,80,22,0.06)] hover:text-[var(--categoryColor,#2d5016)] max-[768px]:rounded-2xl max-[768px]:border max-[768px]:border-[#e2e8f0] max-[768px]:bg-[#f8fafc] max-[768px]:px-[0.6rem] max-[768px]:py-1 max-[768px]:text-[0.78rem]"
                     >
                       {group.name}
                       <span class="min-w-[1.2rem] rounded-lg bg-[#f1f5f9] px-[0.35rem] py-[0.1rem] text-center text-[0.7rem] text-[#94a3b8]">
@@ -739,7 +745,7 @@ const otherCategories = categories
     if (!grid) return;
 
     const cards = Array.from(
-      grid.querySelectorAll('.article-card'),
+      grid.querySelectorAll('.article-row'),
     ) as HTMLElement[];
     const subcategorySections = Array.from(
       grid.querySelectorAll('.subcategory-section'),
@@ -790,7 +796,7 @@ const otherCategories = categories
       // Hide subcategory sections with no visible cards
       subcategorySections.forEach((section) => {
         const sectionCards = section.querySelectorAll(
-          '.article-card',
+          '.article-row',
         ) as NodeListOf<HTMLElement>;
         const anyVisible = Array.from(sectionCards).some(
           (c) => c.style.display !== 'none',
@@ -845,6 +851,19 @@ const otherCategories = categories
     categoryColorLight: categoryInfo.colorLight,
   }}
 >
+  /* 2026-04-27 sticky sidebar highlight 對應 IntersectionObserver
+     用 plain CSS 而非 Tailwind 的 [&.active]: arbitrary variant，原因：
+     Tailwind v4 在 dev/build 時對 `[&.active]:bg-[var(--categoryColor,...)]`
+     的 var() + arbitrary value 組合 JIT 不穩定，部分 production build
+     拿不到該 CSS rule。改用 page-scoped <style> 直接寫 `.active` 規則
+     可保證命中（且 categoryColor 已透過 define:vars 暴露）。 */
+  .subcat-nav-link.active {
+    background-color: rgba(45, 80, 22, 0.08);
+    border-left-color: var(--categoryColor, #2d5016);
+    color: var(--categoryColor, #2d5016);
+    font-weight: 600;
+  }
+
   .category-page {
     min-height: 100vh;
   }
@@ -2316,4 +2335,63 @@ const otherCategories = categories
     createLegend();
     renderSunburst();
   });
+</script>
+
+<!--
+  2026-04-27 sticky sidebar highlight：當使用者捲動到某個 subcategory 區塊
+  （如「音樂與表演」「政治人物」），左側 sticky 主題側邊欄對應連結加 .active
+  class。是 page-scoped <style> 規則（不是 Tailwind 變體）負責視覺效果。
+  is:inline = 不被 Vite 處理，避免 TS/HMR 路徑出錯導致 IIFE 不執行。
+-->
+<script is:inline>
+  (function () {
+    function init() {
+      var links = document.querySelectorAll('.subcat-nav-link[data-sub-link]');
+      if (!links.length) return;
+      var sections = [];
+      for (var i = 0; i < links.length; i++) {
+        var name = links[i].dataset.subLink;
+        var el = name ? document.getElementById('sub-' + name) : null;
+        if (el) sections.push(el);
+      }
+      if (!sections.length) return;
+      function setActive(name) {
+        for (var j = 0; j < links.length; j++) {
+          links[j].classList.toggle(
+            'active',
+            links[j].dataset.subLink === name,
+          );
+        }
+      }
+      var observer = new IntersectionObserver(
+        function (entries) {
+          var intersecting = entries.filter(function (e) {
+            return e.isIntersecting;
+          });
+          if (!intersecting.length) return;
+          // pick the section closest to the top of the trigger zone
+          var top = intersecting.reduce(function (best, e) {
+            return e.boundingClientRect.top < best.boundingClientRect.top
+              ? e
+              : best;
+          });
+          var id = top.target.id; // 'sub-XXX'
+          if (id.indexOf('sub-') === 0) setActive(id.slice(4));
+        },
+        {
+          // 觸發區 = viewport 上 1/4（從頂端 -10% 到底部 -65%）
+          rootMargin: '-10% 0px -65% 0px',
+          threshold: 0,
+        },
+      );
+      sections.forEach(function (s) {
+        observer.observe(s);
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
 </script>

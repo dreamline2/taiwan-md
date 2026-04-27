@@ -18,18 +18,19 @@ scripts/
 
 ## 🔴 core/ — Build Pipeline（npm run build 自動觸發）
 
-| 腳本                          | 語言 | 用途                                           |
-| ----------------------------- | ---- | ---------------------------------------------- |
-| `sync.sh`                     | bash | 同步 knowledge/ → src/content/（SSOT 複製）    |
-| `generate-api.js`             | node | 產生 `public/api/*.json`（文章列表、搜尋索引） |
-| `generate-dashboard-data.js`  | node | 產生 Dashboard 4 支 JSON API                   |
-| `generate-map-markers.js`     | node | 產生地圖標記資料                               |
-| `generate-content-stats.js`\* | node | 被 generate-api 呼叫，統計各分類文章數         |
-| `build-search-index.mjs`      | node | 建構全文搜尋索引                               |
-| `post-build-check.mjs`        | node | Build 後煙霧測試（驗證頁面數量、分類健康）     |
-| `test-frontmatter.mjs`        | node | Pre-commit hook：驗證 frontmatter 格式         |
+| 腳本                          | 語言 | 用途                                                          |
+| ----------------------------- | ---- | ------------------------------------------------------------- |
+| `sync.sh`                     | bash | 同步 knowledge/ → src/content/（SSOT 複製）                   |
+| `generate-api.js`             | node | 產生 `public/api/*.json`（文章列表、搜尋索引）                |
+| `generate-dashboard-data.js`  | node | 產生 Dashboard 4 支 JSON API                                  |
+| `generate-map-markers.js`     | node | 產生地圖標記資料                                              |
+| `generate-content-stats.js`\* | node | 被 generate-api 呼叫，統計各分類文章數                        |
+| `build-search-index.mjs`      | node | 建構全文搜尋索引                                              |
+| `post-build-check.mjs`        | node | Build 後煙霧測試（驗證頁面數量、分類健康）                    |
+| `test-frontmatter.mjs`        | node | Pre-commit hook：驗證 frontmatter 格式                        |
+| `generate-og-images.mjs`      | node | **自動化 OG 圖產生器 v3** — 支援多語系、增量生成、JPG 85 壓縮 |
 
-**執行順序**：`sync.sh` → `generate-*.js` → Astro build → `post-build-check.mjs`
+**執行順序**：`sync.sh` → `generate-*.js` → `generate-og-images.mjs` → Astro build → `post-build-check.mjs`
 
 ## 🟡 tools/ — 日常操作
 
@@ -51,6 +52,12 @@ bash scripts/tools/quality-scan.sh                    # 全量掃描
 bash scripts/tools/quality-scan.sh knowledge/Art/X.md  # 單檔掃描
 bash scripts/tools/quality-scan.sh --sort --diff       # 排序 + 差分
 bash scripts/tools/review-pr.sh 123                    # 審核 PR #123
+
+# --- OG Image 相關 (v3 統一架構) ---
+npm run og:generate                                   # 增量產圖 (JPG 85, ?shot=1 模式)
+npm run og:generate -- --force                        # 強制全部重產
+npm run og:generate -- --slug 牛肉麵                  # 產出單一文章 OG 圖
+npm run og:generate -- --lang ko --category food      # 產出韓文食物系列
 ```
 
 ## 🟢 utils/ — 維護工具（偶爾使用）
@@ -93,4 +100,4 @@ bash scripts/tools/review-pr.sh 123                    # 審核 PR #123
 
 ---
 
-_最後更新：2026-03-28_
+_最後更新：2026-04-23 (v3 OG 自動化)_

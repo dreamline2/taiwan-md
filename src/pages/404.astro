@@ -2,6 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import fs from 'fs';
 import path from 'path';
+import { LANGUAGES, DEFAULT_LANGUAGE } from '../config/languages';
+
+// 2026-04-25 β7 Phase 1：fix B1 cascade (i18n-evolution-roadmap audit)
+// 從 LANGUAGES_REGISTRY 動態 derive，取代之前 hardcoded ['en', 'ja', 'ko']
+// 透過 define:vars inject 給 client-side script
+const nonDefaultLangCodes = LANGUAGES.filter(
+  (l) => l.enabled && l.code !== DEFAULT_LANGUAGE.code,
+).map((l) => l.code);
 
 // Read article index at build time (inline into page)
 let articleIndex: Record<
@@ -365,15 +373,17 @@ const categories = [
   </main>
 </Layout>
 
-<script define:vars={{ articleIndex, i18n }}>
+<script define:vars={{ articleIndex, i18n, nonDefaultLangCodes }}>
   (() => {
     const main = document.querySelector('.error-page');
     const pathname = window.location.pathname;
 
     // Detect language from URL
+    // 2026-04-25 β7: 用 LANGUAGES_REGISTRY-derive 清單取代 hardcoded ['en','ja','ko']
+    // 修復「進 fr/es 404 後切其他語言會路由疊加」的 cascade bug
     let lang = 'zh-TW';
     let pathWithoutLang = pathname;
-    for (const prefix of ['en', 'ja', 'ko']) {
+    for (const prefix of nonDefaultLangCodes) {
       if (pathname.startsWith(`/${prefix}/`) || pathname === `/${prefix}`) {
         lang = prefix;
         pathWithoutLang = pathname.slice(prefix.length + 1) || '/';

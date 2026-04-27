@@ -1,5 +1,15 @@
 import { readFile, readdir } from 'fs/promises';
 import { resolve } from 'path';
+import type { Lang } from '../config/languages';
+import { LANGUAGES } from '../config/languages';
+
+// 2026-04-25 β7 Phase 1：路由疊加 fix（i18n-evolution-roadmap audit B1）
+// 從 LANGUAGES_REGISTRY 動態 derive 非預設啟用語言清單，
+// 取代之前 hardcoded ['en', 'ja', 'ko']（會把 fr/es 路由疊加成 /ja/fr/...）。
+// 對應 MANIFESTO §指標 over 複寫 + DNA #20 architecture-as-data。
+const NON_DEFAULT_ENABLED_LANGS = LANGUAGES.filter(
+  (l) => l.enabled && !l.isDefault,
+).map((l) => l.code) as readonly Lang[];
 
 // ── Module-level cache: valid zh files on disk ─────────────────────────────
 //
@@ -58,6 +68,12 @@ export async function getLangSwitchPath(currentPath: string) {
   let enLink = '/en';
   let jaLink = '/ja';
   let koLink = '/ko';
+  // 2026-04-24 β3: fr added with basePath fallback only (UI strings fall
+  // back to en via FALLBACK_CHAIN in utils.ts). Precise article mapping for
+  // fr will be added when fr entries are populated in knowledge/_translations.json.
+  let frLink = '/fr';
+  // 2026-04-25: es added with same basePath fallback pattern as fr.
+  let esLink = '/es';
 
   const normalizePath = (path: string) => {
     if (!path) return '/';
@@ -176,10 +192,12 @@ export async function getLangSwitchPath(currentPath: string) {
           const enEntry = zhToEnEntry[zhFile];
           const langCatSlug =
             categoryFolderToSlug[langParts[1]] || langParts[1].toLowerCase();
-          const urlCatSlug = enEntry ? enEntry.catSlug : langCatSlug;
-          const urlSlug = enEntry ? enEntry.slug : langParts[2];
-          const langUrl = `/${langPrefix}/${urlCatSlug}/${urlSlug}`;
-          addTranslation(langUrl, zhUrl, langPrefix);
+          if (enEntry) {
+            const canonicalLangUrl = `/${langPrefix}/${enEntry.catSlug}/${enEntry.slug}`;
+            addTranslation(canonicalLangUrl, zhUrl, langPrefix);
+          }
+          const nativeLangUrl = `/${langPrefix}/${langCatSlug}/${langParts[2]}`;
+          addTranslation(nativeLangUrl, zhUrl, langPrefix);
         }
       } else if (langParts.length === 2 && zhParts.length === 1) {
         const langPrefix = langParts[0];
@@ -194,8 +212,10 @@ export async function getLangSwitchPath(currentPath: string) {
   const decodedPath = normalizePath(decodeURIComponent(normalizedPath));
 
   // Detect current language from path
-  const langPrefixes = ['en', 'ja', 'ko'] as const;
-  let currentLang: 'zh-TW' | 'en' | 'ja' | 'ko' = 'zh-TW';
+  // 2026-04-25 β7: 改從 LANGUAGES_REGISTRY 動態 derive，避免新加語言時忘記同步
+  // 此清單包含所有 enabled 且非 default 的語言（en/ja/ko/fr/es 自動包含）
+  const langPrefixes = NON_DEFAULT_ENABLED_LANGS;
+  let currentLang: Lang = 'zh-TW';
   for (const prefix of langPrefixes) {
     if (
       normalizedPath.startsWith(`/${prefix}/`) ||
@@ -222,6 +242,8 @@ export async function getLangSwitchPath(currentPath: string) {
   enLink = basePath === '/' ? '/en' : `/en${basePath}`;
   jaLink = basePath === '/' ? '/ja' : `/ja${basePath}`;
   koLink = basePath === '/' ? '/ko' : `/ko${basePath}`;
+  frLink = basePath === '/' ? '/fr' : `/fr${basePath}`;
+  esLink = basePath === '/' ? '/es' : `/es${basePath}`;
 
   // Availability flags — true = the translation was explicitly found in the
   // map (confident link), false = using basePath fallback (may 404).
@@ -250,6 +272,13 @@ export async function getLangSwitchPath(currentPath: string) {
   let hasEn = true;
   let hasJa = true;
   let hasKo = true;
+  // 2026-04-24 β3: fr availability — for article pages, mark unavailable
+  // until fr translation mapping exists in knowledge/_translations.json.
+  // Non-article pages always show fr (basePath fallback always works for
+  // hub pages like /fr/about/, /fr/, etc.).
+  let hasFr = !isArticlePage;
+  // 2026-04-25: es availability — same logic as fr.
+  let hasEs = !isArticlePage;
 
   // Try to resolve through translation maps for more precise linking
   if (currentLang === 'zh-TW') {
@@ -339,9 +368,13 @@ export async function getLangSwitchPath(currentPath: string) {
     zhLink,
     jaLink,
     koLink,
+    frLink,
+    esLink,
     hasEn,
     hasZh,
     hasJa,
     hasKo,
+    hasFr,
+    hasEs,
   };
 }

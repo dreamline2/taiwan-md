@@ -71,12 +71,21 @@ def reexec_in_venv():
 
 
 def query_sc(service, site_url, dimensions, start_date, end_date, row_limit=500):
-    """Query Search Console Search Analytics API."""
+    """Query Search Console Search Analytics API.
+
+    dataState="all" includes fresh (not-yet-finalized) data so we match what
+    the GSC UI displays. Without it, zero-click high-impression queries from
+    the last 1-2 days silently drop out of the result set. (2026-04-20 fix —
+    dashboard showed 2,458 imp while GSC UI showed 2,747 for the same 7-day
+    window, and high-impression queries like 鄧麗君 / taipei population were
+    missing from the cache.)
+    """
     body = {
         "startDate": start_date,
         "endDate": end_date,
         "dimensions": dimensions,
         "rowLimit": row_limit,
+        "dataState": "all",
     }
     return (
         service.searchanalytics()
@@ -133,16 +142,32 @@ def main():
 
     service = build("searchconsole", "v1", credentials=credentials, cache_discovery=False)
 
-    # SC has ~3 day lag, so end on "today - 3 days"
-    end_date = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
-    start_date = (datetime.now() - timedelta(days=args.days + 3)).strftime("%Y-%m-%d")
+    # GSC UI typically publishes data with a 2-day lag, so end on "today - 2
+    # days". Previously the lag was 3 days, which made the dashboard window
+    # trail GSC's own chart by a full day and skipped the freshest data point.
+    # args.days is the window size (7 = one week inclusive), so start = end -
+    # (N-1) gives exactly N calendar days inclusive.
+    end_date = (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%d")
+    start_date = (datetime.now() - timedelta(days=args.days + 1)).strftime("%Y-%m-%d")
 
     print(f"🔎 Fetching Search Console ({site_url}, {start_date} → {end_date})...", file=sys.stderr)
 
     try:
+        # Site totals — queried without dimensions. SC's privacy filters drop
+        # anonymized queries from query-dimensioned rows, so summing the
+        # queries list under-reports site totals by ~90% (observed 2,747 vs
+        # real 38,080 for 7d, 2026-04-20). Only a dimension-less query gives
+        # the numbers you see in the GSC UI header.
+        totals_raw = query_sc(service, site_url, [], start_date, end_date, row_limit=1)
         countries = query_sc(service, site_url, ["country"], start_date, end_date, row_limit=100)
-        queries = query_sc(service, site_url, ["query"], start_date, end_date, row_limit=200)
-        pages = query_sc(service, site_url, ["page"], start_date, end_date, row_limit=200)
+        # SC API sorts rows by clicks DESC, then impressions — so zero-click
+        # but high-impression queries (e.g. 鄧麗君 478 imp / 0 clicks) land
+        # after ALL clicked rows. We need rowLimit big enough to reach them.
+        # 2000 covers our current query tail; the hard cap is 25000. Pages
+        # bumped similarly so hub pages with zero-click impressions aren't
+        # silently dropped.
+        queries = query_sc(service, site_url, ["query"], start_date, end_date, row_limit=2000)
+        pages = query_sc(service, site_url, ["page"], start_date, end_date, row_limit=1000)
         devices = query_sc(service, site_url, ["device"], start_date, end_date, row_limit=10)
     except Exception as e:
         fail(f"Search Console API error: {type(e).__name__}: {e}")
@@ -159,8 +184,13 @@ def main():
             for r in rows.get("rows", [])
         ]
 
-    total_clicks = sum(r.get("clicks", 0) for r in queries.get("rows", []))
-    total_impressions = sum(r.get("impressions", 0) for r in queries.get("rows", []))
+    totals_row = (totals_raw.get("rows") or [{}])[0]
+    total_clicks = totals_row.get("clicks", 0)
+    total_impressions = totals_row.get("impressions", 0)
+    total_position = totals_row.get("position", 0)
+    # Kept for debugging the query-dim vs site-total gap.
+    query_sum_clicks = sum(r.get("clicks", 0) for r in queries.get("rows", []))
+    query_sum_impressions = sum(r.get("impressions", 0) for r in queries.get("rows", []))
 
     output = {
         "fetched_at": datetime.now().isoformat(),
@@ -170,6 +200,15 @@ def main():
             "clicks": total_clicks,
             "impressions": total_impressions,
             "ctr": round(total_clicks / total_impressions, 4) if total_impressions else 0,
+            "position": round(total_position, 2),
+            # How much of the site totals is covered by the named queries we
+            # can see (the rest is anonymized by SC privacy filters).
+            "query_dim_clicks": query_sum_clicks,
+            "query_dim_impressions": query_sum_impressions,
+            "query_dim_coverage_pct": (
+                round(query_sum_impressions / total_impressions * 100, 1)
+                if total_impressions else 0
+            ),
         },
         "countries": simplify(countries),
         "queries": simplify(queries),
@@ -178,12 +217,93 @@ def main():
     }
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    # 2026-04-24 β3: 404 偵測常態化
+    # 抽 SC pages 對照 dist/sitemap-0.xml URL set，找出可能是 404 的 URL
+    # （Google 嘗試 crawl 但 site 已不存在的頁面仍會在 SC pages dim 中出現）
+    site_url_set = set()
+    sitemap_path = Path.cwd() / "dist" / "sitemap-0.xml"
+    if sitemap_path.exists():
+        try:
+            sitemap_xml = sitemap_path.read_text()
+            # 抽所有 <loc>...</loc> 內的 URL
+            import re
+            loc_urls = re.findall(r"<loc>(https://taiwan\.md[^<]+)</loc>", sitemap_xml)
+            for u in loc_urls:
+                # Normalize: strip query string, trailing punctuation
+                clean = u.split("?")[0].rstrip("/")
+                site_url_set.add(clean)
+                site_url_set.add(clean + "/")
+            # 抽 hreflang alternate URLs（這些也是 site claims to have）
+            href_urls = re.findall(
+                r'<xhtml:link[^>]+href="(https://taiwan\.md[^"]+)"', sitemap_xml
+            )
+            for u in href_urls:
+                clean = u.split("?")[0].rstrip("/")
+                site_url_set.add(clean)
+                site_url_set.add(clean + "/")
+        except Exception as e:
+            print(f"⚠️  Sitemap 解析失敗: {e}", file=sys.stderr)
+
+    potential_404 = []
+    if site_url_set:
+        for p in output["pages"]:
+            page_url = p["keys"][0]
+            clean = page_url.split("?")[0].rstrip("/")
+            if clean not in site_url_set and clean + "/" not in site_url_set:
+                potential_404.append({
+                    "url": page_url,
+                    "impressions": p["impressions"],
+                    "clicks": p["clicks"],
+                    "position": p["position"],
+                })
+        # Sort by impressions desc — biggest 404 leak first
+        potential_404.sort(key=lambda x: -x["impressions"])
+
+    # 統計各語言 404 分佈（從 URL prefix 推 lang）
+    lang_404_count = {}
+    for p in potential_404:
+        url = p["url"]
+        if "/en/" in url:
+            lang = "en"
+        elif "/ja/" in url:
+            lang = "ja"
+        elif "/ko/" in url:
+            lang = "ko"
+        elif "/fr/" in url:
+            lang = "fr"
+        elif "/es/" in url:
+            lang = "es"
+        else:
+            lang = "zh-TW"
+        lang_404_count[lang] = lang_404_count.get(lang, 0) + 1
+
+    output["potential_404"] = {
+        "total": len(potential_404),
+        "by_lang": lang_404_count,
+        "top_50": potential_404[:50],
+        "_note": (
+            "URLs 出現在 SC impressions 但不在 sitemap 內 = "
+            "Google 仍嘗試 crawl 已不存在的頁面。修法：加 redirect 或讓 sitemap 重新 indexable。"
+        ),
+    }
+
     latest_path = CACHE_DIR / "search-console-latest.json"
     dated_path = CACHE_DIR / f"search-console-{datetime.now().strftime('%Y-%m-%d')}.json"
     latest_path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
     dated_path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
 
     print(f"✅ SC: {total_clicks:,} clicks / {total_impressions:,} impressions ({args.days}d)", file=sys.stderr)
+    if site_url_set:
+        print(
+            f"🔍 SC 404 偵測: {len(potential_404)} 個 SC URLs 不在 sitemap "
+            f"({sum(p['impressions'] for p in potential_404):,} impressions 流失)",
+            file=sys.stderr,
+        )
+        if lang_404_count:
+            for lang, cnt in sorted(lang_404_count.items(), key=lambda x: -x[1]):
+                print(f"   {lang}: {cnt}", file=sys.stderr)
+    else:
+        print(f"⚠️  Sitemap 不存在或解析失敗，跳過 404 偵測", file=sys.stderr)
     print(f"   → {latest_path}", file=sys.stderr)
 
     # Find high-impression, low-CTR opportunities (Bamboo Drum metric)

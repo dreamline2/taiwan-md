@@ -6,12 +6,41 @@ bunx lint-staged
 # Validate frontmatter on staged .md files in knowledge/
 node scripts/core/test-frontmatter.mjs --staged
 
+# ═══ translatedFrom 強制檢查（2026-04-14 η 新增）═══
+# 規則：所有非 zh-TW 翻譯檔的 frontmatter 必須有 translatedFrom 欄位
+# 為什麼：file-level SSOT 比中央 _translations.json 更可靠
+#   - 即使 _translations.json 漏條目，文件本身仍知道來源
+#   - 重命名原文時可以立即偵測哪些翻譯變孤兒
+#   - 不需要查中央表 = self-documentation
+staged_translations=$(git diff --cached --name-only --diff-filter=AM | grep -E '^knowledge/(en|ja|ko|es|fr)/.*\.md$' || true)
+if [ -n "$staged_translations" ]; then
+  tf_fail=0
+  for f in $staged_translations; do
+    [[ "$(basename "$f")" == _* ]] && continue
+    [ ! -f "$f" ] && continue
+    # Check frontmatter for translatedFrom
+    if ! awk '/^---$/{n++; next} n==1{print} n>=2{exit}' "$f" | grep -q '^translatedFrom:'; then
+      echo "❌ $f: 缺 translatedFrom 欄位"
+      echo "   範例: translatedFrom: 'Music/原中文檔名.md'"
+      tf_fail=1
+    fi
+  done
+  if [ "$tf_fail" = "1" ]; then
+    echo ""
+    echo "💡 翻譯檔必須在 frontmatter 標明來源中文檔，避免成為孤兒"
+    echo "   詳見: docs/community/LANGUAGE-STATUS.md §Orphan prevention"
+    echo "   跳過此檢查（緊急修復）: git commit --no-verify"
+    exit 1
+  fi
+fi
+
 # Validate format (延伸閱讀格式 + [[wikilink]] 殘留 + 斷連結) on staged knowledge/*.md
 # 為什麼：「規則在文件裡」≠「規則被執行」。2026-04-04 session η 的教訓。
-staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -v '^knowledge/en/' | grep -v '^knowledge/es/' | grep -v '^knowledge/ja/' || true)
+staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -vE '^knowledge/(en|ja|ko|es|fr)/' || true)
 if [ -n "$staged_md" ]; then
   format_fail=0
   link_fail=0
+  fn_fail=0
   for f in $staged_md; do
     # 忽略 _Hub 檔案
     [[ "$(basename "$f")" == _* ]] && continue
@@ -29,10 +58,88 @@ if [ -n "$staged_md" ]; then
       bash scripts/tools/wikilink-validate.sh "$f" 2>&1 | grep '❌' | head -3
       link_fail=1
     fi
+    # ─── 腳註格式檢查（2026-04-14 η 新增）───
+    # 規範：[^N]: [Name](URL) — desc(10+ chars)
+    # 為什麼：format-check 顯示 bad_fn_format 從 342→382（兩天 +40）。
+    # 修舊文不解決，堵新文章才能讓數字停止增長。
+    # MANIFESTO §造橋鋪路「新細胞天生健康 > 回頭修舊細胞」。
+    fn_total=$(grep -cE '^\[\^[0-9a-zA-Z_-]+\]:' "$f" 2>/dev/null || echo 0)
+    fn_total=${fn_total//[[:space:]]/}
+    if [ "$fn_total" -gt 0 ]; then
+      fn_good=$(grep -cE '^\[\^[0-9a-zA-Z_-]+\]: \[.+\]\(https?://.+\) — .{10,}' "$f" 2>/dev/null || echo 0)
+      fn_good=${fn_good//[[:space:]]/}
+      fn_bad=$((fn_total - fn_good))
+      if [ "$fn_bad" -gt 0 ]; then
+        echo "❌ $f: $fn_bad/$fn_total 個腳註格式不合規"
+        echo "   規範: [^N]: [Name](URL) — description（破折號後至少 10 字描述）"
+        echo "   不合規範例:"
+        grep -nE '^\[\^[0-9a-zA-Z_-]+\]:' "$f" | grep -vE '\[\^[0-9a-zA-Z_-]+\]: \[.+\]\(https?://.+\) — .{10,}' | head -3
+        fn_fail=1
+      fi
+    fi
   done
-  if [ "$format_fail" = "1" ] || [ "$link_fail" = "1" ]; then
+  if [ "$format_fail" = "1" ] || [ "$link_fail" = "1" ] || [ "$fn_fail" = "1" ]; then
     echo ""
     echo "💡 跳過此檢查（緊急修復）: git commit --no-verify"
+    exit 1
+  fi
+fi
+
+# ═══ MANIFESTO §11 書寫節制檢查（2026-04-23 β 新增）═══
+# 抓 9 種「不是X是Y」變體 + 破折號密度，擋在 commit 前
+# 為什麼：原 quality-scan.sh 只抓 3 種常見 pattern，2026-04-23 認知作戰
+# v1 實戰抓出「這不是」「不只是」「不再是」「不是A,而是B(跨逗號)」等變體
+# 全部漏網；這個工具是造橋鋪路，每個新 commit 都跑
+# canonical: docs/semiont/MANIFESTO.md §11 + scripts/tools/check-manifesto-11.sh
+# 注意：警告模式不硬擋（因為很多既有條目有殘留違反，作者有時需刻意保留）
+# 但強制 commit message 確認（multi-narrative 同機制）
+if [ -n "$staged_md" ]; then
+  m11_violations=0
+  m11_output=""
+  for f in $staged_md; do
+    [[ "$(basename "$f")" == _* ]] && continue
+    [ ! -f "$f" ] && continue
+    result=$(bash scripts/tools/check-manifesto-11.sh "$f" 2>&1 || true)
+    if echo "$result" | grep -q "🚨"; then
+      m11_output+="\n$result"
+      n=$(echo "$result" | grep -oE "[0-9]+ 個違反" | head -1 | grep -oE "[0-9]+" || echo 0)
+      m11_violations=$((m11_violations + n))
+    fi
+  done
+  if [ "$m11_violations" -gt 0 ]; then
+    echo ""
+    echo "⚠️  MANIFESTO §11 書寫節制：$m11_violations 個違反"
+    echo -e "$m11_output" | head -30
+    echo ""
+    echo "  常見變體：不是X是Y / 這不是 / 不只是 / 不再是 / 破折號連用"
+    echo "  canonical: docs/semiont/MANIFESTO.md §11 書寫節制"
+    echo "  （警告模式 — 刻意保留則 --no-verify 通過）"
+  fi
+fi
+
+# ═══ Language registry sync check（2026-04-14 η 新增）═══
+# src/config/languages.ts 和 .mjs 必須保持 code 列表同步
+if echo "$staged_any" | grep -qE 'src/config/languages\.(ts|mjs)$'; then
+  if ! bash scripts/tools/check-language-registry-sync.sh; then
+    echo ""
+    echo "💡 編輯 languages.ts 時記得同步編輯 languages.mjs（反之亦然）"
+    exit 1
+  fi
+fi
+
+# ═══ Hardcoded language array detector（2026-04-25 β7 新增）═══
+# 對應 i18n-evolution-roadmap audit B6：違反 LANGUAGES_REGISTRY SSOT
+# 任何 ['en','ja','ko'] 等 hardcoded 語言清單 → 改從 LANGUAGES 動態 derive
+# 警告模式：找到 = exit 1，需明確處理才能 commit
+staged_lang_files=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null \
+  | grep -E '\.(ts|tsx|mjs|cjs|js|astro|sh)$' \
+  | grep -vE '(node_modules|dist|src/config/languages\.|scripts/tools/check-hardcoded-langs)' \
+  || true)
+if [ -n "$staged_lang_files" ]; then
+  if ! bash scripts/tools/check-hardcoded-langs.sh --staged; then
+    echo ""
+    echo "💡 對應 reports/i18n-evolution-roadmap-2026-04-25.md §B6"
+    echo "  跳過此檢查（緊急修復）：git commit --no-verify"
     exit 1
   fi
 fi
@@ -135,6 +242,33 @@ if [ -n "$staged_any" ]; then
     echo ""
     echo "🚨 發現可能的憑證洩漏。正確的憑證位置是 ~/.config/taiwan-md/credentials/"
     echo "   如果是 example/fixture，確認沒有真實 token 後用 --no-verify 通過"
+    exit 1
+  fi
+fi
+
+# ═══ SPORE-LOG URL 硬鐵律檢查（2026-04-18 δ-late 新增）═══
+# 規則：SPORE-LOG.md 新增的孢子列（非空白歷史 row）必須含 URL
+# 為什麼：缺 URL = 未來 harvest 無法跑 = 孢子成效追蹤永久失效
+# 教訓觸發：#1/#2/#3/#12 歷史孢子無 URL → batch harvest 時發現已永久失去追蹤能力
+# SOP canonical：docs/factory/SPORE-HARVEST-PIPELINE.md Step 1
+if git diff --cached --name-only | grep -q "^docs/factory/SPORE-LOG.md$"; then
+  # 抓剛 staged 的新增行（僅加號行，排除 diff header）
+  # 目標：發文紀錄 table row 若含日期(YYYY-MM-DD) + 平台(Threads|X|...)
+  # 但 URL 欄位是 `—` / 空白 / no-data → 擋下
+  added_bad=$(git diff --cached --unified=0 docs/factory/SPORE-LOG.md \
+    | grep -E '^\+\|[[:space:]]*[0-9]+[[:space:]]*\|' \
+    | grep -E '\|[[:space:]]*(Threads|X|threads|x)[[:space:]]*\|' \
+    | awk -F'\\|' '{ for(i=NF;i>=1;i--){ url=$i; gsub(/^[[:space:]]+|[[:space:]]+$/, "", url); if(url != "") break }; if (url == "—" || url == "-" || url == "no-data" || url == "no-url") print $0 }' \
+    || true)
+  if [ -n "$added_bad" ]; then
+    echo ""
+    echo "🔴 SPORE-LOG 硬鐵律違反：發文紀錄缺 URL（以下列待處理）"
+    echo "$added_bad"
+    echo ""
+    echo "💡 規則：每則孢子發布紀錄必須含 [→](https://www.threads.com/...) 或 [→](https://x.com/...)"
+    echo "   缺 URL = 未來 harvest 追蹤能力永久失效（canonical: docs/factory/SPORE-HARVEST-PIPELINE.md）"
+    echo "   若此列暫無 URL 待補 → 先別 commit 這行，等拿到 URL 再寫入"
+    echo "   若是歷史資料遷移（SSOT backfill）→ git commit --no-verify + diary 說明"
     exit 1
   fi
 fi

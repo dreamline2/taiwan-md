@@ -9,6 +9,7 @@ lastHumanReview: false
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Taiwanese_Beef_Noodle_Soup.jpg/960px-Taiwanese_Beef_Noodle_Soup.jpg"
 imageAlt: "Taiwanese Beef Noodle Soup"
 imageCredit: "Wikimedia Commons, CC BY-SA"
+translatedFrom: 'Food/牛肉麵.md'
 ---
 
 # Beef Noodle Soup
@@ -22,13 +23,11 @@ _Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwa
 
 ### From Taboo to Delicacy
 
-In Taiwan's traditional agricultural society, there was a deeply rooted belief that "cattle are helpers, not food." Cattle were essential partners in farming, and there was a folk custom against eating beef. There was even a saying: "Not eating beef is better than eating your own flesh," showing the reverence for cattle.
-
-This dietary taboo underwent a dramatic transformation after 1949. With the relocation of the Kuomintang (KMT) government to Taiwan, large numbers of military personnel and their families moved to Taiwan from various provinces of China, bringing different food cultures and cooking techniques—including the practice of eating beef.
+In Taiwan's traditional agricultural society, there was a deeply rooted belief that "cattle are helpers, not food." Cattle were essential partners in farming, and there was a folk custom against eating beef. This dietary taboo underwent a dramatic transformation after 1949 with the relocation of the Kuomintang (KMT) government to Taiwan, which brought different food cultures—including the practice of eating beef.[^2]
 
 ### Nostalgic Creation by Mainlander Immigrants
 
-The birth of beef noodle soup was a process of fusion and innovation:
+The birth of beef noodle soup was a process of fusion and innovation. Veterans from Sichuan province, settled in Kaohsiung's Gangshan district, were the main promoters of the spicy "red-braised" profile, utilizing local fermented bean paste (doubanjiang) to recreate the flavors of their hometown.[^3] In Taipei, the "Gongyuan Beef Noodle" stall, established around 1962 near the 228 Peace Memorial Park, is often cited as one of the earliest pioneers in popularized beef noodle soup.
 
 **Military Food Culture:**
 In the military, beef was an important protein source. Veterans brought the stewing techniques they learned in the army to civilian life, beginning to prepare beef dishes in Taiwan.
@@ -355,7 +354,10 @@ With advancing internationalization, Taiwanese beef noodle soup is shining on th
 
 _References:_
 
-- [Taipei International Beef Noodle Festival Official Website](https://tpebeefnoodle.com.tw/)
-- [Taiwan Michelin Guide](https://guide.michelin.com/tw/zh_TW)
-- [Beef Noodle Soup - Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%89%9B%E8%82%89%E9%BA%B5)
-- [Tourism Bureau, MOTC - Taiwan Cuisine](https://www.taiwan.net.tw/)
+[^2]: [The News Lens: Why didn't old Taiwanese people eat beef?](https://www.thenewslens.com/article/115535) — The News Lens: Why didn't old Taiwanese people eat beef?
+
+[^3]: [Liberty Times: The origin of Gangshan Doubanjiang and Beef Noodle Soup](https://food.ltn.com.tw/article/10125) — Liberty Times: The origin of Gangshan Doubanjiang and Beef Noodle Soup
+
+[^5]: [CNN Travel: World's 40 best foods - Taiwanese Beef Noodle Soup](http://www.cnn.com/travel/article/world-best-food-dishes/index.html) — CNN Travel: World's 40 best foods - Taiwanese Beef Noodle Soup
+
+[^7]: [Taipei International Beef Noodle Festival Official Website](https://tpebeefnoodle.com.tw/) — Taipei International Beef Noodle Festival Official Website

@@ -1,64 +1,68 @@
 {
-  "totalArticles": 1196,
-  "totalCategories": 20,
-  "estimatedContributors": 80,
-  "totalTags": 2870,
+  "totalArticles": 2270,
+  "totalCategories": 21,
+  "estimatedContributors": 57,
+  "totalTags": 5309,
   "categories": [
     {
+      "name": "History",
+      "count": 33
+    },
+    {
+      "name": "ko",
+      "count": 481
+    },
+    {
       "name": "Society",
-      "count": 39
+      "count": 52
     },
     {
       "name": "en",
-      "count": 399
-    },
-    {
-      "name": "History",
-      "count": 32
+      "count": 411
     },
     {
       "name": "Culture",
-      "count": 42
+      "count": 51
     },
     {
       "name": "ja",
-      "count": 256
+      "count": 269
+    },
+    {
+      "name": "People",
+      "count": 186
     },
     {
       "name": "Music",
       "count": 25
     },
     {
-      "name": "Economy",
-      "count": 49
-    },
-    {
-      "name": "Lifestyle",
-      "count": 16
-    },
-    {
-      "name": "People",
-      "count": 135
-    },
-    {
-      "name": "Art",
-      "count": 25
-    },
-    {
       "name": "Food",
-      "count": 29
+      "count": 43
+    },
+    {
+      "name": "Economy",
+      "count": 51
     },
     {
       "name": "Technology",
-      "count": 29
+      "count": 37
+    },
+    {
+      "name": "Lifestyle",
+      "count": 20
+    },
+    {
+      "name": "Art",
+      "count": 31
     },
     {
       "name": "Nature",
-      "count": 26
+      "count": 32
     },
     {
       "name": "Geography",
-      "count": 19
+      "count": 21
     },
     {
       "name": "About",
@@ -73,16 +77,16 @@
       "count": 1
     },
     {
+      "name": "fr",
+      "count": 480
+    },
+    {
       "name": "es",
       "count": 36
     },
     {
       "name": "resources",
       "count": 2
-    },
-    {
-      "name": "ko",
-      "count": 28
     }
   ],
   "topTags": [
@@ -92,15 +96,55 @@
     },
     {
       "name": "Economy",
-      "count": 57
+      "count": 52
     },
     {
       "name": "人物",
-      "count": 54
+      "count": 52
+    },
+    {
+      "name": "인물",
+      "count": 30
+    },
+    {
+      "name": "기업",
+      "count": 30
+    },
+    {
+      "name": "경제",
+      "count": 27
     },
     {
       "name": "経済",
       "count": 25
+    },
+    {
+      "name": "ODM",
+      "count": 25
+    },
+    {
+      "name": "Économie",
+      "count": 25
+    },
+    {
+      "name": "peuples autochtones",
+      "count": 23
+    },
+    {
+      "name": "TSMC",
+      "count": 22
+    },
+    {
+      "name": "AI",
+      "count": 21
+    },
+    {
+      "name": "文化",
+      "count": 20
+    },
+    {
+      "name": "personnalité",
+      "count": 20
     },
     {
       "name": "民主化",
@@ -111,65 +155,30 @@
       "count": 19
     },
     {
-      "name": "文化",
-      "count": 17
-    },
-    {
-      "name": "民間信仰",
-      "count": 15
-    },
-    {
-      "name": "歴史",
-      "count": 15
+      "name": "g0v",
+      "count": 18
     },
     {
       "name": "半導體",
-      "count": 15
-    },
-    {
-      "name": "AI",
-      "count": 15
-    },
-    {
-      "name": "ODM",
-      "count": 14
-    },
-    {
-      "name": "教育",
-      "count": 14
+      "count": 17
     },
     {
       "name": "台灣",
-      "count": 14
+      "count": 17
     },
     {
-      "name": "政治",
-      "count": 13
-    },
-    {
-      "name": "製造業",
-      "count": 13
-    },
-    {
-      "name": "歷史",
-      "count": 12
-    },
-    {
-      "name": "金曲獎",
-      "count": 12
-    },
-    {
-      "name": "音樂",
-      "count": 12
-    },
-    {
-      "name": "Technology",
-      "count": 12
+      "name": "culture",
+      "count": 17
     }
   ],
   "languageDistribution": {
-    "zh-TW": 1196,
+    "zh-TW": 2270,
     "en": 0
   },
-  "lastUpdated": "2026-04-14T01:49:50.293Z"
+  "lastUpdated": "2026-04-27T03:03:48.776Z",
+  "stars": 959,
+  "forks": 143,
+  "zhPages": 1859,
+  "enPages": 411,
+  "totalPages": 2270
 }

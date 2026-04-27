@@ -2,6 +2,11 @@
 dist/
 # generated types
 .astro/
+# generated spore images (produced by scripts/tools/generate-spore-image.mjs)
+public/spore-images/
+# generated OG images (produced by scripts/core/generate-og-images.mjs)
+# CI 或本地按需產生，不入 repo — 避免 500+ 文章 × 4 語言 × binary 膨脹
+public/og-images/
 
 # dependencies
 node_modules/
@@ -51,6 +56,29 @@ cloudflare-token*
 public/api/random.json
 public/api/random.json
 public/api/search-minisearch.json
+
+# ═══ 自動生成的資料檔案（由 npm run prebuild 在 CI 重生，不該進 git）═══
+# 對應 PR #551 洞察（dreamline2 誤 commit auto-generated JSON）：
+# 所有下列檔案都是每次 prebuild 重新產生，commit 會造成：
+#   (a) 無謂的 diff 污染
+#   (b) 貢獻者 fork 跑 build 產生假 PR noise
+#   (c) merge conflict 機率大增（每日衡量級異動）
+# 仍保留追蹤的：src/data/{map-markers,changelog-feed}.json（build-time import，
+# 讓 npm run dev 從 fresh clone 能直接跑）
+public/api/article-index.json
+public/api/articles.json
+public/api/dashboard-articles.json
+public/api/dashboard-vitals.json
+public/api/dashboard-translations.json
+public/api/dashboard-organism.json
+# 2026-04-26 β8: contributors.json 從 .gitignore 移除（保留作為 CI fallback baseline）
+# 觸發：CF Pages CI 共享 IP 撞 GitHub anon rate limit (60/hr) → writeFallback wipe → Dashboard 顯示 0
+# 修正：commit 一份 good baseline + generator 在 API 失敗時 preserve 上一筆好的資料
+# 永久解：Cloudflare Pages 加 GH_TOKEN env var（5,000/hr limit，從此不再撞 anon 上限）
+# public/api/contributors.json
+# dashboard-spores.json 不列入：由 scripts/tools/generate-dashboard-spores.py 產出，
+# 該 script 只在 refresh-data.sh 跑（不在 npm run prebuild 內），需要保留在 git 才能讓 CI deploy 有資料
+
 meetings/
 memory/
 !docs/semiont/memory/
@@ -65,3 +93,16 @@ reports/visual/current/
 reports/visual/diff/
 reports/visual/diff-report.html
 reports/visual/diff-summary.json
+
+# Semiont worktree 多 session 隔離（2026-04-20 δ）
+.worktrees/
+
+# Contributor profile：個人化 Taiwan.md 互動設定
+# `.example.yml` 是模板，入 git；`.local.yml` 是每個 contributor 自己的 profile，不 commit
+# 詳見 .taiwanmd/README.md
+.taiwanmd/contributor.local.yml
+
+# Claude Code 本機啟動設定 / cron lock（2026-04-27 β heartbeat 加入）
+# launch.json = IDE 啟動設定（單機）；scheduled_tasks.lock = cron 執行 PID lock
+.claude/launch.json
+.claude/scheduled_tasks.lock

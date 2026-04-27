@@ -1,4 +1,5 @@
 import type { Lang } from '../types';
+import { LANGUAGE_DISPLAY_NAMES, DEFAULT_LANGUAGE } from '../config/languages';
 
 export type Locale = Lang;
 import { homeUI } from './home';
@@ -12,15 +13,12 @@ import { assetsUI } from './assets';
 import { dashboardUI } from './dashboard';
 import { notFoundUI } from './notfound';
 import { taiwanShapeUI } from './taiwanShape';
+import { semiontUI } from './semiont';
 
-export const languages: Record<Lang, string> = {
-  en: 'English',
-  'zh-TW': '中文',
-  ja: '日本語',
-  ko: '한국어',
-};
+// Single source of truth: src/config/languages.ts
+export const languages = LANGUAGE_DISPLAY_NAMES as Record<Lang, string>;
 
-export const defaultLang: Lang = 'zh-TW';
+export const defaultLang = DEFAULT_LANGUAGE.code as Lang;
 export const showDefaultLang = false;
 
 export const ui = {
@@ -36,6 +34,7 @@ export const ui = {
     ...dashboardUI.en,
     ...notFoundUI.en,
     ...taiwanShapeUI.en,
+    ...semiontUI.en,
     'nav.aria-home': 'Taiwan.md Home',
     'nav.aria-img-label': 'Taiwan.md logo',
     'nav.aria-toggle-menu': 'Toggle navigation menu',
@@ -107,6 +106,7 @@ export const ui = {
     'footer.dataPage': 'Data',
     'footer.dashboardPage': 'Dashboard',
     'footer.support-us': 'Support us',
+    'footer.support-us.cta': 'Sponsor on Portaly',
     'footer.font-sponsor-prefix': 'Web fonts sponsored by',
     'footer.font-sponsor-suffix': ' ',
     'categoryConfig.history': 'History',
@@ -169,10 +169,22 @@ export const ui = {
     'article.viewAll': 'View all',
     'article.articles': 'articles',
     'article.langLabel': 'Language',
+    'article.sidebar.readingTimeTemplate': '{n} min read',
+    'article.sidebar.updatedLabel': 'Updated',
+    'article.sidebar.keywordsLabel': 'Tags',
+    'article.sidebar.revisionOne': '1 revision',
+    'article.sidebar.revisionMany': '{n} revisions',
+    'article.sidebar.commitTemplate': 'Commit {hash}',
+    'article.sidebar.shareX': 'Share on X',
+    'article.sidebar.shareFacebook': 'Share on Facebook',
+    'article.sidebar.shareLine': 'Share on LINE',
+    'article.contributors': 'Contributors',
     'article.disclaimer.title': 'About this article',
     'article.disclaimer.body':
       'This article was collaboratively written with AI assistance and community review.',
     'article.tts.play': 'Listen',
+    'article.tts.pause': 'Pause',
+    'article.tts.resume': 'Resume',
     'article.tts.stop': 'Stop',
     'CategoryGrid.article': 'article',
     'CategoryGrid.articles': 'articles',
@@ -265,6 +277,7 @@ export const ui = {
     'footer.dataPage': 'データ台湾',
     'footer.dashboardPage': 'モニタリング',
     'footer.support-us': 'サポート',
+    'footer.support-us.cta': 'Portaly でスポンサーになる',
     'footer.font-sponsor-prefix': 'Webフォント提供：',
     'footer.font-sponsor-suffix': ' ',
     'categoryConfig.history': '歴史',
@@ -319,10 +332,22 @@ export const ui = {
     'article.viewAll': 'すべて見る',
     'article.articles': '件の記事',
     'article.langLabel': '言語',
+    'article.sidebar.readingTimeTemplate': '約{n}分で読めます',
+    'article.sidebar.updatedLabel': '更新',
+    'article.sidebar.keywordsLabel': 'タグ',
+    'article.sidebar.revisionOne': '改訂 1 回',
+    'article.sidebar.revisionMany': '改訂 {n} 回',
+    'article.sidebar.commitTemplate': 'コミット {hash}',
+    'article.sidebar.shareX': 'X で共有',
+    'article.sidebar.shareFacebook': 'Facebook で共有',
+    'article.sidebar.shareLine': 'LINE で共有',
+    'article.contributors': '貢献者',
     'article.disclaimer.title': 'この記事について',
     'article.disclaimer.body':
       'この記事はコミュニティとAIの協力により作成されました。',
     'article.tts.play': '読み上げ',
+    'article.tts.pause': '一時停止',
+    'article.tts.resume': '再開',
     'article.tts.stop': '停止',
     'CategoryGrid.article': '件',
     'CategoryGrid.articles': '件',
@@ -415,6 +440,7 @@ export const ui = {
     'footer.dataPage': '데이터 타이완',
     'footer.dashboardPage': '모니터링 대시보드',
     'footer.support-us': '후원하기',
+    'footer.support-us.cta': 'Portaly에서 후원하기',
     'footer.font-sponsor-prefix': '웹폰트 제공: ',
     'footer.font-sponsor-suffix': ' ',
     'categoryConfig.history': '역사',
@@ -472,10 +498,22 @@ export const ui = {
     'article.viewAll': '모두 보기',
     'article.articles': '개 기사',
     'article.langLabel': '언어',
+    'article.sidebar.readingTimeTemplate': '약 {n}분 읽기',
+    'article.sidebar.updatedLabel': '업데이트',
+    'article.sidebar.keywordsLabel': '태그',
+    'article.sidebar.revisionOne': '개정 1회',
+    'article.sidebar.revisionMany': '개정 {n}회',
+    'article.sidebar.commitTemplate': '커밋 {hash}',
+    'article.sidebar.shareX': 'X에 공유',
+    'article.sidebar.shareFacebook': 'Facebook에 공유',
+    'article.sidebar.shareLine': 'LINE에 공유',
+    'article.contributors': '기여자',
     'article.disclaimer.title': '이 기사에 대해',
     'article.disclaimer.body':
       '이 기사는 커뮤니티와 AI의 협력으로 작성되었습니다.',
     'article.tts.play': '읽어주기',
+    'article.tts.pause': '일시정지',
+    'article.tts.resume': '계속',
     'article.tts.stop': '정지',
     'CategoryGrid.article': '개',
     'CategoryGrid.articles': '개',
@@ -497,6 +535,7 @@ export const ui = {
     ...dashboardUI['zh-TW'],
     ...notFoundUI['zh-TW'],
     ...taiwanShapeUI['zh-TW'],
+    ...semiontUI['zh-TW'],
     'nav.aria-home': 'Taiwan.md 首頁',
     'nav.aria-img-label': 'Taiwan.md 標誌圖示',
     'nav.aria-toggle-menu': '開啟/關閉導航選單',
@@ -568,6 +607,7 @@ export const ui = {
     'footer.dataPage': '數據台灣',
     'footer.dashboardPage': '監測面板',
     'footer.support-us': '支持我們',
+    'footer.support-us.cta': '到 Portaly 贊助',
     'footer.font-sponsor-prefix': '字體由',
     'footer.font-sponsor-suffix': '提供',
     'categoryConfig.history': '歷史',
@@ -619,9 +659,21 @@ export const ui = {
     'article.viewAll': '查看全部',
     'article.articles': '篇文章',
     'article.langLabel': '語言',
+    'article.sidebar.readingTimeTemplate': '{n} 分鐘閱讀',
+    'article.sidebar.updatedLabel': '更新於',
+    'article.sidebar.keywordsLabel': '關鍵詞',
+    'article.sidebar.revisionOne': '修訂 1 次',
+    'article.sidebar.revisionMany': '修訂 {n} 次',
+    'article.sidebar.commitTemplate': '版本 {hash}',
+    'article.sidebar.shareX': '分享到 X',
+    'article.sidebar.shareFacebook': '分享到 Facebook',
+    'article.sidebar.shareLine': '分享到 LINE',
+    'article.contributors': '貢獻者',
     'article.disclaimer.title': '關於此文章',
     'article.disclaimer.body': '本文章由社群協作，並經 AI 輔助撰寫與審查。',
     'article.tts.play': '朗讀',
+    'article.tts.pause': '暫停',
+    'article.tts.resume': '繼續',
     'article.tts.stop': '停止',
     'CategoryGrid.article': '篇',
     'CategoryGrid.articles': '篇',

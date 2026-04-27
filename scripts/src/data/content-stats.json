@@ -1,20 +1,20 @@
 {
   "categories": {
-    "About": 12,
-    "Art": 53,
-    "Culture": 86,
-    "Economy": 88,
-    "Food": 54,
-    "Geography": 23,
-    "History": 69,
+    "About": 19,
+    "Art": 107,
+    "Culture": 177,
+    "Economy": 187,
+    "Food": 117,
+    "Geography": 58,
+    "History": 130,
     "Language": 1,
-    "Lifestyle": 28,
-    "Music": 33,
-    "Nature": 33,
-    "People": 173,
-    "Society": 78,
-    "Technology": 62,
-    "resources": 2,
+    "Lifestyle": 63,
+    "Music": 88,
+    "Nature": 90,
+    "People": 514,
+    "Society": 176,
+    "Technology": 126,
+    "resources": 4,
     "people": 2
   },
   "dailyGrowth": [
@@ -125,7 +125,63 @@
     {
       "date": "2026-04-13",
       "count": 3
+    },
+    {
+      "date": "2026-04-14",
+      "count": 168
+    },
+    {
+      "date": "2026-04-15",
+      "count": 30
+    },
+    {
+      "date": "2026-04-16",
+      "count": 1
+    },
+    {
+      "date": "2026-04-17",
+      "count": 7
+    },
+    {
+      "date": "2026-04-18",
+      "count": 15
+    },
+    {
+      "date": "2026-04-19",
+      "count": 11
+    },
+    {
+      "date": "2026-04-20",
+      "count": 13
+    },
+    {
+      "date": "2026-04-21",
+      "count": 7
+    },
+    {
+      "date": "2026-04-22",
+      "count": 2
+    },
+    {
+      "date": "2026-04-23",
+      "count": 2
+    },
+    {
+      "date": "2026-04-24",
+      "count": 11
+    },
+    {
+      "date": "2026-04-25",
+      "count": 10
+    },
+    {
+      "date": "2026-04-26",
+      "count": 10
+    },
+    {
+      "date": "2026-04-27",
+      "count": 5
     }
   ],
-  "updated": "2026-04-14"
+  "updated": "2026-04-27"
 }

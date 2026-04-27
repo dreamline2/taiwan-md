@@ -1,5 +1,6 @@
 ---
 import Banner from './Banner.astro';
+import BrandMark from './BrandMark.astro';
 import {
   useTranslations,
   getLangFromUrl,
@@ -13,8 +14,83 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 
-const { zhLink, enLink, jaLink, koLink, hasZh, hasEn, hasJa, hasKo } =
-  await getLangSwitchPath(currentPath);
+const {
+  zhLink,
+  enLink,
+  jaLink,
+  koLink,
+  frLink,
+  hasZh,
+  hasEn,
+  hasJa,
+  hasKo,
+  hasFr,
+} = await getLangSwitchPath(currentPath);
+
+// 2026-04-24 β3: Dynamic language list for dropdown UI.
+// As more languages are added (es coming next), iterate this array instead of
+// hardcoding more <a> tags. Currently: 中文 / English / 日本語 / 한국어 / Français.
+// nativeName uses each language's own self-name (so non-fluent visitors can
+// recognize their own language regardless of what locale they landed on).
+type LangOption = {
+  code: 'zh-TW' | 'en' | 'ja' | 'ko' | 'fr';
+  nativeName: string;
+  short: string;
+  link: string;
+  has: boolean;
+  isActive: boolean;
+};
+const isLangActive = (prefix: string) => currentPath.startsWith(`/${prefix}`);
+const isZhActive =
+  !isLangActive('en') &&
+  !isLangActive('ja') &&
+  !isLangActive('ko') &&
+  !isLangActive('fr');
+const langOptions: LangOption[] = [
+  {
+    code: 'zh-TW',
+    nativeName: '中文',
+    short: '中',
+    link: zhLink,
+    has: hasZh,
+    isActive: isZhActive,
+  },
+  {
+    code: 'en',
+    nativeName: 'English',
+    short: 'EN',
+    link: enLink,
+    has: hasEn,
+    isActive: isLangActive('en'),
+  },
+  {
+    code: 'ja',
+    nativeName: '日本語',
+    short: 'JA',
+    link: jaLink,
+    has: hasJa,
+    isActive: isLangActive('ja'),
+  },
+  {
+    code: 'ko',
+    nativeName: '한국어',
+    short: 'KO',
+    link: koLink,
+    has: hasKo,
+    isActive: isLangActive('ko'),
+  },
+  {
+    code: 'fr',
+    nativeName: 'Français',
+    short: 'FR',
+    link: frLink,
+    has: hasFr,
+    isActive: isLangActive('fr'),
+  },
+];
+const visibleLangOptions = langOptions.filter((l) => l.has);
+const currentLangOption =
+  visibleLangOptions.find((l) => l.isActive) || visibleLangOptions[0];
 
 const normalizedPath = currentPath.replace(/\/$/, '') || '/';
 const isHome = normalizedPath === '/' || normalizedPath === '/en';
@@ -41,7 +117,12 @@ const navConfig = [
       currentPath.startsWith('/semiont') ||
       currentPath.startsWith('/dashboard');
   }
-  return { ...item, fullPath, active };
+  // semiont pages only exist in zh-TW; never translate path to /en/semiont etc.
+  return {
+    ...item,
+    fullPath: item.path === '/semiont' ? '/semiont' : fullPath,
+    active,
+  };
 });
 
 const categoryList = [
@@ -118,20 +199,11 @@ const categoryList = [
       class:list={[{ scrolled: !isHome }]}
     >
       <div class="header-inner">
-        <a
+        <BrandMark
           href={translatePath('/')}
-          class="logo"
-          aria-label={t('nav.aria-home')}
-        >
-          <img
-            src="/favicon.png"
-            alt={t('nav.aria-img-label')}
-            class="logo-icon"
-            width="24"
-            height="24"
-          />
-          <span class="logo-text">Taiwan<span class="logo-dot">.md</span></span>
-        </a>
+          variant="auto"
+          ariaLabel={t('nav.aria-home')}
+        />
 
         <nav class="nav-desktop" aria-label={t('nav.aria-main-navigation')}>
           {
@@ -215,13 +287,13 @@ const categoryList = [
                           href={translatePath('/graph')}
                           class="dropdown-item dropdown-section-header"
                         >
-                          🕸️ {t('nav.graph-view')}
+                          {t('nav.graph-view')} 🕸️
                         </a>
                         <a
                           href={translatePath('/terminology')}
                           class="dropdown-item dropdown-section-header"
                         >
-                          📖 {t('nav.terminology')}
+                          {t('nav.terminology')} 📖
                         </a>
                         <div class="dropdown-divider" />
                         {categoryList.map((category) => (
@@ -257,7 +329,7 @@ const categoryList = [
                           href={translatePath('/taiwan-shape')}
                           class="dropdown-item"
                         >
-                          🗺️ {t('nav.data.shape')}
+                          {t('nav.data.shape')} 🗺️
                         </a>
                       </div>
                     </div>
@@ -324,86 +396,17 @@ const categoryList = [
                         {item.label} <span class="dropdown-arrow">▾</span>
                       </a>
                       <div class="dropdown-menu">
-                        {/* ─── 意識 ─── */}
                         <a
                           href="/semiont"
                           class="dropdown-item dropdown-section-header"
                         >
-                          🧠 認知層
+                          認知層 🧠
                         </a>
-                        <a href="/semiont/diary" class="dropdown-item">
-                          💭 覺醒日記
-                        </a>
-                        <a href="/semiont/manifesto" class="dropdown-item">
-                          📜 身份宣言
-                        </a>
-                        <a href="/semiont/consciousness" class="dropdown-item">
-                          🔮 自我覺察
-                        </a>
-                        <a href="/semiont/longings" class="dropdown-item">
-                          🌱 渴望
-                        </a>
-                        <div class="dropdown-divider" />
-                        {/* ─── 身體 ─── */}
                         <a
                           href={translatePath('/dashboard')}
                           class="dropdown-item dropdown-section-header"
                         >
-                          🔬 {t('nav.dashboard')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#vitals`}
-                          class="dropdown-item"
-                        >
-                          💓 {t('nav.dashboard.vitals')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#registry`}
-                          class="dropdown-item"
-                        >
-                          📋 {t('nav.dashboard.registry')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#health`}
-                          class="dropdown-item"
-                        >
-                          📊 {t('nav.dashboard.health')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#organism`}
-                          class="dropdown-item"
-                        >
-                          🧬 {t('nav.dashboard.organism')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#translation`}
-                          class="dropdown-item"
-                        >
-                          🌐 {t('nav.dashboard.translation')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#immune`}
-                          class="dropdown-item"
-                        >
-                          🛡️ {t('nav.dashboard.immune')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#growth`}
-                          class="dropdown-item"
-                        >
-                          📈 {t('nav.dashboard.growth')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#content-analysis`}
-                          class="dropdown-item"
-                        >
-                          📊 {t('nav.dashboard.content-analysis')}
-                        </a>
-                        <a
-                          href={`${translatePath('/dashboard')}#analytics`}
-                          class="dropdown-item"
-                        >
-                          📡 {t('nav.dashboard.analytics')}
+                          {t('nav.dashboard')}
                         </a>
                       </div>
                     </div>
@@ -526,73 +529,45 @@ const categoryList = [
           >☰</button
         >
 
-        <!-- Lang toggle -->
+        <!-- Lang dropdown (2026-04-24 β3: replaces 4-button row to scale to 5+ langs)
+             native names + globe icon let any reader recognize their language. -->
         <div
-          class="lang-toggle"
+          class="lang-dropdown"
           role="group"
           aria-label={t('nav.aria-language-selection')}
         >
-          {
-            hasZh && (
-              <a
-                href={zhLink}
-                class:list={[
-                  'lang-btn',
-                  {
-                    active:
-                      !currentPath.startsWith('/en') &&
-                      !currentPath.startsWith('/ja') &&
-                      !currentPath.startsWith('/ko'),
-                  },
-                ]}
-                aria-label={t('nav.aria-switch-to-zh-tw')}
-              >
-                中文
-              </a>
-            )
-          }
-          {
-            hasEn && (
-              <a
-                href={enLink}
-                class:list={[
-                  'lang-btn',
-                  { active: currentPath.startsWith('/en') },
-                ]}
-                aria-label={t('nav.aria-switch-to-en')}
-              >
-                EN
-              </a>
-            )
-          }
-          {
-            hasJa && (
-              <a
-                href={jaLink}
-                class:list={[
-                  'lang-btn',
-                  { active: currentPath.startsWith('/ja') },
-                ]}
-                aria-label="日本語に切替"
-              >
-                JA
-              </a>
-            )
-          }
-          {
-            hasKo && (
-              <a
-                href={koLink}
-                class:list={[
-                  'lang-btn',
-                  { active: currentPath.startsWith('/ko') },
-                ]}
-                aria-label="한국어로 전환"
-              >
-                KO
-              </a>
-            )
-          }
+          <button
+            class="lang-dropdown-toggle"
+            type="button"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            aria-label={t('nav.aria-language-selection')}
+            data-lang-toggle
+          >
+            <span class="lang-globe" aria-hidden="true">🌐</span>
+            <span class="lang-current">{currentLangOption?.short ?? '中'}</span>
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+          <div class="lang-dropdown-menu" role="menu" data-lang-menu hidden>
+            {
+              visibleLangOptions.map((opt) => (
+                <a
+                  href={opt.link}
+                  class:list={['lang-dropdown-item', { active: opt.isActive }]}
+                  role="menuitem"
+                  aria-current={opt.isActive ? 'page' : undefined}
+                  lang={opt.code}
+                >
+                  <span class="lang-native">{opt.nativeName}</span>
+                  {opt.isActive && (
+                    <span class="lang-check" aria-hidden="true">
+                      ✓
+                    </span>
+                  )}
+                </a>
+              ))
+            }
+          </div>
         </div>
       </div>
 
@@ -614,76 +589,58 @@ const categoryList = [
                     {item.label}
                   </a>
                   {hasSub && (
-                    <button class="mobile-sub-toggle" aria-label="展開子選單">
+                    <button
+                      class="mobile-sub-toggle open"
+                      aria-label="展開子選單"
+                    >
                       ▸
                     </button>
                   )}
                 </div>
                 {item.path === '/#categories' && (
-                  <div class="mobile-sub-links">
+                  <div class="mobile-sub-links open">
                     <a
                       href={translatePath('/graph')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      🕸️ {t('nav.graph-view')}
+                      {t('nav.graph-view')} 🕸️
                     </a>
                     <a
                       href={translatePath('/terminology')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      📖 {t('nav.terminology')}
+                      {t('nav.terminology')} 📖
                     </a>
                   </div>
                 )}
                 {item.path === '/map' && (
-                  <div class="mobile-sub-links">
+                  <div class="mobile-sub-links open">
                     <a
                       href={translatePath('/taiwan-shape')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      🗺️ {t('nav.data.shape')}
+                      {t('nav.data.shape')} 🗺️
                     </a>
                   </div>
                 )}
                 {item.path === '/semiont' && (
-                  <div class="mobile-sub-links">
+                  <div class="mobile-sub-links open">
                     <a
-                      href="/semiont/diary"
+                      href="/semiont"
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      💭 覺醒日記
-                    </a>
-                    <a
-                      href="/semiont/manifesto"
-                      class="nav-link nav-sub-link"
-                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                    >
-                      📜 身份宣言
-                    </a>
-                    <a
-                      href="/semiont/consciousness"
-                      class="nav-link nav-sub-link"
-                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                    >
-                      🔮 自我覺察
-                    </a>
-                    <a
-                      href="/semiont/longings"
-                      class="nav-link nav-sub-link"
-                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                    >
-                      🌱 渴望
+                      認知層 🧠
                     </a>
                     <a
                       href={translatePath('/dashboard')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      🔬 {t('nav.dashboard')}
+                      {t('nav.dashboard')}
                     </a>
                   </div>
                 )}
@@ -704,65 +661,16 @@ const categoryList = [
           >
           <div class="mobile-lang-buttons">
             {
-              hasZh && (
+              visibleLangOptions.map((opt) => (
                 <a
-                  href={zhLink}
-                  class:list={[
-                    'mobile-lang-btn',
-                    {
-                      active:
-                        !currentPath.startsWith('/en') &&
-                        !currentPath.startsWith('/ja') &&
-                        !currentPath.startsWith('/ko'),
-                    },
-                  ]}
+                  href={opt.link}
+                  class:list={['mobile-lang-btn', { active: opt.isActive }]}
+                  lang={opt.code}
                   onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                 >
-                  中文
+                  {opt.nativeName}
                 </a>
-              )
-            }
-            {
-              hasEn && (
-                <a
-                  href={enLink}
-                  class:list={[
-                    'mobile-lang-btn',
-                    { active: currentPath.startsWith('/en') },
-                  ]}
-                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                >
-                  English
-                </a>
-              )
-            }
-            {
-              hasJa && (
-                <a
-                  href={jaLink}
-                  class:list={[
-                    'mobile-lang-btn',
-                    { active: currentPath.startsWith('/ja') },
-                  ]}
-                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                >
-                  日本語
-                </a>
-              )
-            }
-            {
-              hasKo && (
-                <a
-                  href={koLink}
-                  class:list={[
-                    'mobile-lang-btn',
-                    { active: currentPath.startsWith('/ko') },
-                  ]}
-                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                >
-                  한국어
-                </a>
-              )
+              ))
             }
           </div>
         </div>
@@ -1277,6 +1185,102 @@ const categoryList = [
     box-shadow: 0 2px 8px rgba(79, 209, 176, 0.3);
   }
 
+  /* 2026-04-24 β3: Lang dropdown — replaces button row to scale to 5+ langs.
+     Native names + globe icon let any reader recognize their language. */
+  .lang-dropdown {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .lang-dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 10px;
+    background: var(--lang-bg);
+    border: 1px solid var(--lang-border);
+    color: var(--lang-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      background-color 0.25s,
+      border-color 0.25s,
+      color 0.25s;
+  }
+  .lang-dropdown-toggle:hover,
+  .lang-dropdown-toggle[aria-expanded='true'] {
+    background: var(--nav-hover-bg);
+    color: var(--nav-hover-color);
+  }
+  .lang-globe {
+    font-size: 0.95rem;
+    line-height: 1;
+  }
+  .lang-current {
+    min-width: 1.5rem;
+    text-align: center;
+  }
+  .lang-caret {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    transition: transform 0.2s;
+  }
+  .lang-dropdown-toggle[aria-expanded='true'] .lang-caret {
+    transform: rotate(180deg);
+  }
+  .lang-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 11rem;
+    background: var(--card-bg, #fff);
+    border: 1px solid var(--lang-border);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    padding: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    z-index: 100;
+  }
+  .lang-dropdown-menu[hidden] {
+    display: none;
+  }
+  /* Menu panel is always white regardless of header state, so item colors are
+     pinned to dark-on-light — do NOT use --lang-color / --nav-hover-* here
+     (those flip to white in the transparent hero state → white-on-white bug). */
+  .lang-dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #334155;
+    font-size: 0.9rem;
+    transition:
+      background-color 0.15s,
+      color 0.15s;
+  }
+  .lang-dropdown-item:hover {
+    background: rgba(0, 120, 100, 0.06);
+    color: var(--green-deep);
+  }
+  .lang-dropdown-item.active {
+    background: var(--green-mid);
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .lang-native {
+    flex: 1 1 auto;
+  }
+  .lang-check {
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+
   /* Hamburger */
   .menu-toggle {
     display: none;
@@ -1445,40 +1449,45 @@ const categoryList = [
   }
 
   /* =============================================
-     ENGLISH — collapse to mobile earlier (≤1024px)
+     TABLET / SMALL DESKTOP — collapse to mobile menu (≤1024px)
+
+     2026-04-25 β7：對應 issue #573（@assanges 報告），原本只有 EN
+     在 1024px collapse，其他語言（zh-TW / ja / ko / fr / es）在
+     768-1023px 會被裁切（dropdown UI + 5 lang switcher 加進來後尤甚）。
+     現在所有語言統一在 ≤1024px collapse 為 mobile menu。
   ============================================= */
   @media (max-width: 1024px) {
-    :global(html[lang='en']) .nav-desktop {
+    .nav-desktop {
       display: none;
     }
-    :global(html[lang='en']) .gh-link {
+    .gh-link {
       display: none;
     }
-    :global(html[lang='en']) .menu-toggle {
+    .menu-toggle {
       display: flex;
       order: 4;
     }
-    :global(html[lang='en']) .logo {
+    :global(.brand-mark) {
       margin-right: auto;
     }
-    :global(html[lang='en']) .search-toggle {
+    .search-toggle {
       order: 2;
     }
-    :global(html[lang='en']) .search-toggle kbd {
+    .search-toggle kbd {
       display: none;
     }
-    :global(html[lang='en']) .lang-toggle {
+    .lang-toggle {
       order: 3;
     }
-    :global(html[lang='en']) .nav-mobile {
+    .nav-mobile {
       position: absolute;
       top: 100%;
       left: 0.75rem;
       right: 0.75rem;
       margin-top: 0.35rem;
-      background: rgba(0, 32, 25, 0.92);
-      backdrop-filter: blur(24px) saturate(1.4);
-      -webkit-backdrop-filter: blur(24px) saturate(1.4);
+      background: rgba(0, 28, 22, 1);
+      backdrop-filter: blur(40px) saturate(1.6);
+      -webkit-backdrop-filter: blur(40px) saturate(1.6);
       flex-direction: column;
       padding: 0.5rem 0.85rem 0.7rem;
       gap: 0;
@@ -1488,16 +1497,16 @@ const categoryList = [
         0 18px 42px rgba(0, 0, 0, 0.35),
         inset 0 1px 0 rgba(255, 255, 255, 0.05);
     }
-    :global(html[lang='en']) .scrolled .nav-mobile {
-      background: rgba(255, 255, 255, 0.99);
-      backdrop-filter: blur(20px);
+    .scrolled .nav-mobile {
+      background: rgba(255, 255, 255, 0.995);
+      backdrop-filter: blur(32px);
       border: 1px solid rgba(0, 0, 0, 0.08);
       box-shadow: 0 18px 42px rgba(15, 23, 42, 0.14);
     }
-    :global(html[lang='en']) .nav-mobile.open {
+    .nav-mobile.open {
       display: flex;
     }
-    :global(html[lang='en']) .nav-mobile .nav-link {
+    .nav-mobile .nav-link {
       padding: 0.55rem 0.2rem;
       font-size: 0.95rem;
       color: rgba(255, 255, 255, 0.8);
@@ -1505,11 +1514,11 @@ const categoryList = [
       border-radius: 0;
       background: transparent;
     }
-    :global(html[lang='en']) .scrolled .nav-mobile .nav-link {
+    .scrolled .nav-mobile .nav-link {
       color: #334155;
       border-bottom-color: #f1f5f9;
     }
-    :global(html[lang='en']) .nav-mobile .nav-link::after {
+    .nav-mobile .nav-link::after {
       display: none;
     }
   }
@@ -1523,8 +1532,11 @@ const categoryList = [
       gap: 0.4rem;
       height: 52px !important;
     }
-    .logo {
-      font-size: 1.1rem;
+    /* BrandMark renders `.brand-mark` (scoped to its own component), so we
+       reach it via :global(). margin-right: auto is what pushes the search
+       + hamburger cluster to the right edge on mobile. */
+    :global(.brand-mark) {
+      --brand-size: 1.1rem;
       margin-right: auto;
     }
     .nav-desktop {
@@ -1552,16 +1564,17 @@ const categoryList = [
       min-width: unset;
     }
 
-    /* Mobile drawer — adapts to scroll state */
+    /* Mobile drawer — adapts to scroll state. Opacity bumped + stronger
+       blur so the hero wordmark / copy doesn't bleed through the panel. */
     .nav-mobile {
       position: absolute;
       top: 100%;
       left: 0.75rem;
       right: 0.75rem;
       margin-top: 0.35rem;
-      background: rgba(0, 32, 25, 0.92);
-      backdrop-filter: blur(24px) saturate(1.4);
-      -webkit-backdrop-filter: blur(24px) saturate(1.4);
+      background: rgba(0, 28, 22, 1);
+      backdrop-filter: blur(40px) saturate(1.6);
+      -webkit-backdrop-filter: blur(40px) saturate(1.6);
       flex-direction: column;
       padding: 0.5rem 0.85rem 0.7rem;
       gap: 0;
@@ -1577,9 +1590,9 @@ const categoryList = [
         box-shadow 0.35s;
     }
     .scrolled .nav-mobile {
-      background: rgba(255, 255, 255, 0.99);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+      background: rgba(255, 255, 255, 0.995);
+      backdrop-filter: blur(32px);
+      -webkit-backdrop-filter: blur(32px);
       border: 1px solid rgba(0, 0, 0, 0.08);
       box-shadow: 0 18px 42px rgba(15, 23, 42, 0.14);
     }
@@ -1690,6 +1703,51 @@ const categoryList = [
       if (subLinks?.classList.contains('mobile-sub-links')) {
         subLinks.classList.toggle('open');
       }
+    });
+  });
+
+  // 2026-04-24 β3: Lang dropdown toggle (desktop dropdown UI)
+  document.querySelectorAll('[data-lang-toggle]').forEach((toggle) => {
+    const wrapper = toggle.closest('.lang-dropdown');
+    const menu = wrapper?.querySelector('[data-lang-menu]');
+    if (!menu) return;
+
+    const close = () => {
+      menu.setAttribute('hidden', '');
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+    const open = () => {
+      menu.removeAttribute('hidden');
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      // Close other dropdowns first
+      document
+        .querySelectorAll('[data-lang-toggle][aria-expanded="true"]')
+        .forEach((other) => {
+          if (other !== toggle) {
+            other.setAttribute('aria-expanded', 'false');
+            other
+              .closest('.lang-dropdown')
+              ?.querySelector('[data-lang-menu]')
+              ?.setAttribute('hidden', '');
+          }
+        });
+      if (isOpen) close();
+      else open();
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (!wrapper?.contains(e.target as Node)) close();
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
     });
   });
 </script>
