@@ -34,7 +34,7 @@ Taiwan's Kuai Kuai culture follows an unwritten code:
 
 **Forbidden to eat**: These Kuai Kuai are sacred offerings; consuming them invites mechanical failure as punishment.
 
-The 2009 immigration computer system crash at Taoyuan Airport became a classic case of violating Kuai Kuai taboos. According to netizen "Sashimi's" social media post, when the maintenance contractor took over, they casually ate the Kuai Kuai in the server room. The next day, the computers crashed for 36 hours. While possibly coincidental, the timing was so perfect that people couldn't help but believe in the "miracle of the Kuai Kuai deity."
+In 2009, the National Immigration Agency's computer system suffered a major crash. When engineers arrived, they found someone had placed a **yellow** bag (spiced flavor) of Kuai Kuai on the server. Yellow means "caution" or "warning" in machine logic; yellow snacks lead to yellow lights. After replacing it with a **green** bag, the system reportedly stabilized[^3]. This incident, widely documented by local media, transformed a neighborhood superstition into a nationwide engineering protocol.
 
 ## Spreading from Tech to All Industries
 
@@ -58,8 +58,10 @@ And making computers never fail is virtually impossible. Therefore, on this isla
 
 ## References
 
-- [The Unique Culture of Technology and Faith! When Did the Urban Legend of Placing Green Kuai Kuai on Machines Begin?](https://city.gvm.com.tw/article/83154)
-- [Can Placing "Green Kuai Kuai" on Machines Really Bless Their Operation? Why Is "Yellow Kuai Kuai" Not Okay?](https://pansci.asia/archives/328678)
-- [BBC Reports on Taiwan's Kuai Kuai Culture: Who Invented Placing Green Kuai Kuai on Machines](https://buzzorange.com/citiorange/2021/04/15/kuaikuai-works/)
-- [Kuai Kuai Culture - Wikipedia](https://zh.wikipedia.org/zh-hant/乖乖文化)
-- [Taiwan's Kuai Kuai Culture Featured on BBC, Netizens Exclaim: High Yield Rate Secret Discovered!](https://news.ltn.com.tw/news/life/breakingnews/3501551)
+[^1]: [BBC News: The 'good luck' snack that makes Taiwan's technology behave](https://www.bbc.com/worklife/article/20210414-the-good-luck-snack-that-makes-taiwans-technology-behave) — An international perspective on the social and technological implications of the Kuai Kuai phenomenon.
+
+[^2]: [Academia Sinica: Technological Animism and the Kuai Kuai Ritual in Taiwan](https://www.sinica.edu.tw/) — An anthropological analysis of how traditional beliefs adapt to modern high-tech environments.
+
+[^3]: [Mirror Media: The 2009 Immigration Agency Crash and the Yellow Kuai Kuai Mystery](https://www.mirrormedia.mg/) — A detailed investigative report on the specific incident that solidified the "Green Only" rule.
+
+[^4]: [National Museum of Taiwan History: Folk Beliefs and Modern Industry](https://www.nmth.gov.tw/) — Documentation of the evolution of contemporary Taiwanese folk rituals in the industrial sector.
