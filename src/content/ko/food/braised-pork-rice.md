@@ -19,7 +19,7 @@ translatedFrom: 'Food/台灣滷肉飯.md'
 # 대만 루로우판 (滷肉飯)
 
 ![타이중의 루로우판](/images/food/braised-pork-rice.jpg)
-_Credit: Wikimedia Commons, CC BY-SA (File:Braised_pork_rice_in_Taichung.jpg)_
+_이미지 출처: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Braised_pork_rice_in_Taichung.jpg) | CC BY-SA | 촬영자 미상_
 
 소박한 루로우판 한 그릇에는 대만 서민들의 집단적인 기억이 담겨 있습니다. 겉보기에는 평범해 보이는 이 요리는 대만 음식 역사에 깊은 발자취를 남겼습니다. 1949년 이후 쥐안춘(眷村, 군인 마을)에서 고향을 그리워하며 먹던 맛으로 시작하여, 점차 온 섬의 국민 요리로 발전했으며, 심지어 '정통'을 둘러싼 남북 논쟁까지 불러일으켰습니다.[^1]
 
