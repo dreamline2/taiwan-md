@@ -20,6 +20,9 @@ translatedFrom: 'Food/台灣滷肉飯.md'
 
 # Braised Pork Rice (滷肉飯)
 
+![Braised Pork Rice in Taichung](/images/food/braised-pork-rice.jpg)
+_Credit: Wikimedia Commons, CC BY-SA (File:Braised_pork_rice_in_Taichung.jpg)_
+
 A humble bowl of braised pork rice—lǔròu fàn (滷肉飯)—is one of Taiwan’s most emotional foods. It is a dish that tastes like home, late-night sustenance, and childhood memory all at once. What looks simple—pork, soy, and steamed rice—actually carries a complex story of migration, adaptation, and cultural identity. In Taiwan, this bowl is not just comfort food; it is a national conversation.[^1]
 
 ## The Naming War: 滷肉飯 vs. 肉燥飯

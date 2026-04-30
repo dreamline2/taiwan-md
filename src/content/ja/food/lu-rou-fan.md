@@ -10,13 +10,16 @@ featured: true
 category: 'Food'
 lastVerified: 2026-03-19
 lastHumanReview: false
-image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Braised_pork_rice_in_Taichung.jpg/960px-Braised_pork_rice_in_Taichung.jpg'
+image: '/images/food/braised-pork-rice.jpg'
 imageAlt: '台中の魯肉飯'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
 translatedFrom: 'Food/台灣滷肉飯.md'
 ---
 
 # 台湾魯肉飯（ルーローファン）
+
+![台中の魯肉飯](/images/food/braised-pork-rice.jpg)
+_Credit: Wikimedia Commons, CC BY-SA (File:Braised_pork_rice_in_Taichung.jpg)_
 
 一杯の魯肉飯に、台湾の庶民が紡いできた集合的な記憶が詰まっています。一見シンプルなこの料理は、台湾の食の歴史に深く刻まれた一品です。1949年以降、眷村（けんそん）で故郷を偲ぶ味として始まり、やがて全島民が愛する国民食へと成長し、さらには「正統性」をめぐる南北論争まで引き起こしました。[^1]
 

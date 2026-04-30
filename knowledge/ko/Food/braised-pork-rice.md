@@ -10,15 +10,18 @@ featured: true
 category: 'Food'
 lastVerified: 2026-03-19
 lastHumanReview: false
-image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Braised_pork_rice_in_Taichung.jpg/960px-Braised_pork_rice_in_Taichung.jpg'
+image: '/images/food/braised-pork-rice.jpg'
 imageAlt: '타이중의 루로우판'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
 translatedFrom: 'Food/台灣滷肉飯.md'
 ---
 
-# 루로우판 (滷肉飯)
+# 대만 루로우판 (滷肉飯)
 
-루로우판(돼지고기 조림 덮밥) 한 그릇에는 대만 서민들의 집단적인 기억이 담겨 있습니다. 이 평범해 보이는 요리는 대만의 음식 역사에 깊은 발자취를 남겼습니다. 1949년 이후 쥔춘(眷村, 군인과 그 가족이 모여 살던 마을)에서 고향을 그리워하는 맛으로 시작하여, 점차 전 섬의 국민 음식으로 발전했고, 심지어 '정통성'에 관한 남북 간의 논쟁을 불러일으키기도 했습니다.[^1]
+![타이중의 루로우판](/images/food/braised-pork-rice.jpg)
+_Credit: Wikimedia Commons, CC BY-SA (File:Braised_pork_rice_in_Taichung.jpg)_
+
+소박한 루로우판 한 그릇에는 대만 서민들의 집단적인 기억이 담겨 있습니다. 겉보기에는 평범해 보이는 이 요리는 대만 음식 역사에 깊은 발자취를 남겼습니다. 1949년 이후 쥐안춘(眷村, 군인 마을)에서 고향을 그리워하며 먹던 맛으로 시작하여, 점차 온 섬의 국민 요리로 발전했으며, 심지어 '정통'을 둘러싼 남북 논쟁까지 불러일으켰습니다.[^1]
 
 ## 이름 전쟁: 루로우판 vs. 로우자오판
 
