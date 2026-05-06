@@ -2,10 +2,14 @@
 # refresh-data.sh — 心跳用的單一資料刷新入口
 #
 # 依序執行：
-#   1. git pull --rebase origin main      (hard abort on conflict)
-#   2. bash scripts/tools/fetch-sense-data.sh    (CF + GA4 + SC + dashboard-analytics merger)
-#   3. npm run prebuild                   (dashboard-vitals/organism/articles/translations JSONs)
-#   4. bash scripts/tools/update-stats.sh (README + stats.json)
+#   1.   git pull --rebase origin main             (hard abort on conflict)
+#   2.   fetch-sense-data.sh                        (CF + GA4 + SC + dashboard-analytics merger)
+#   2.5. sync-translations-json.py                  (sync _translations.json from frontmatter SSOT)
+#   2.8. generate-dashboard-spores.py               (spore dashboard from SPORE-LOG)
+#   2.9. i18n-coverage-audit.sh --json-out          (UI string coverage dashboard) ← 2026-05-02 added
+#   3.   npm run prebuild                           (dashboard-vitals/organism/articles/translations)
+#   4.   update-stats.sh                            (README + stats.json)
+#   5.   verify-dashboard-freshness                 (check all dashboard-*.json mtime today) ← 2026-05-02 added
 #
 # 失敗策略：
 #   - git 層級失敗 → hard abort（需人類介入）
@@ -18,6 +22,7 @@
 #
 # 詳見：docs/pipelines/DATA-REFRESH-PIPELINE.md
 # 2026-04-11 session ε 建造
+# 2026-05-02 γ-late: 加 Step 2.9 i18n-coverage + Step 5 verify (DNA #43 — silent stale risk)
 
 set -o pipefail
 cd "$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
@@ -34,7 +39,7 @@ echo -e "${DIM}═════════════════════�
 echo ""
 
 # Step 1 — git sync (HARD ABORT on conflict)
-echo -e "${GRN}[1/4]${RST} Git sync..."
+echo -e "${GRN}[1/5]${RST} Git sync..."
 if git diff-index --quiet HEAD -- 2>/dev/null; then
   if git pull --rebase origin main 2>&1 | tail -5; then
     echo -e "${DIM}   ✓ up to date with origin/main${RST}"
@@ -50,7 +55,7 @@ fi
 echo ""
 
 # Step 2 — three-source sense fetch (soft fail)
-echo -e "${GRN}[2/4]${RST} 三源感知抓取..."
+echo -e "${GRN}[2/5]${RST} 三源感知抓取..."
 if bash scripts/tools/fetch-sense-data.sh 2>&1 | grep -E '^\[|^   [✅⚠️❌]|^📁|^[✅⚠️❌]' | tail -20; then
   true
 else
@@ -60,15 +65,31 @@ echo ""
 
 # Step 2.5 — sync _translations.json from translatedFrom frontmatter (SSOT)
 # 為什麼: file-level translatedFrom 是 SSOT，_translations.json 是 derived cache
-echo -e "${GRN}[2.5/4]${RST} sync _translations.json from frontmatter..."
+echo -e "${GRN}[2.5/5]${RST} sync _translations.json from frontmatter..."
 if python3 scripts/tools/sync-translations-json.py 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ _translations.json synced${RST}"
 fi
 echo ""
 
+# Step 2.7 — extract structured metrics from SPORE-LOG narrative SSOT (2026-05-03 SSOT)
+# 為什麼: 「最後 harvest」column 是 narrative SSOT（人類寫進 D+7/D+30 數字），但
+# 「7d 觸及/互動」/「30d 觸及/互動」 structured columns 沒 auto-derive → dashboard
+# generator 看 structured 列為主，narrative 寫對了仍判 OVERDUE / rate=null。
+# 本 step auto-parse narrative → fill structured columns，讓 SSOT 跟 derived 同步。
+# DNA #15「反覆浮現要儀器化」第 N+5 次 instantiation。
+# 觸發：5/3 dashboard 顯示 #45 #53 65K views 但 — Rate 互動，且 OVERDUE flag false
+# alarm — 即使 SPORE-LOG narrative 已有完整 D+7 backfill。
+echo -e "${GRN}[2.7/5]${RST} extract structured spore metrics from narrative..."
+if python3 scripts/tools/extract-spore-metrics.py --apply 2>&1 | tail -3; then
+  echo -e "${DIM}   ✓ structured metrics derived${RST}"
+else
+  echo -e "${YEL}⚠️  extract-spore-metrics 部分失敗 — 心跳繼續${RST}"
+fi
+echo ""
+
 # Step 2.8 — generate dashboard-spores.json from SPORE-LOG + SPORE-HARVESTS (2026-04-18 δ-late)
 # 為什麼: 繁殖器官的 data-driven 感知；Dashboard 孢子面板的資料源
-echo -e "${GRN}[2.8/4]${RST} generate dashboard-spores.json..."
+echo -e "${GRN}[2.8/5]${RST} generate dashboard-spores.json..."
 if python3 scripts/tools/generate-dashboard-spores.py 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ dashboard-spores.json generated${RST}"
 else
@@ -76,8 +97,19 @@ else
 fi
 echo ""
 
+# Step 2.9 — generate dashboard-i18n.json from src/i18n/*.ts (2026-05-02 γ-late)
+# 為什麼: UI 字串覆蓋率 dashboard 之前 12 小時 stale，原因是這個生成步驟沒進 refresh pipeline
+# 觸發: 哲宇看 dashboard 發現 ja 顯示 97% 但實際已經 100%（DNA #43）
+echo -e "${GRN}[2.9/5]${RST} generate dashboard-i18n.json (UI string coverage)..."
+if bash scripts/tools/i18n-coverage-audit.sh --json-out public/api/dashboard-i18n.json 2>&1 | tail -3; then
+  echo -e "${DIM}   ✓ dashboard-i18n.json generated${RST}"
+else
+  echo -e "${YEL}⚠️  i18n-coverage-audit 部分失敗 — 心跳繼續${RST}"
+fi
+echo ""
+
 # Step 3 — prebuild dashboard data (soft fail)
-echo -e "${GRN}[3/4]${RST} npm run prebuild..."
+echo -e "${GRN}[3/5]${RST} npm run prebuild..."
 if npm run prebuild > /tmp/prebuild.log 2>&1; then
   tail -6 /tmp/prebuild.log
   echo -e "${DIM}   ✓ dashboard JSON 已重生${RST}"
@@ -88,8 +120,21 @@ fi
 rm -f /tmp/prebuild.log
 echo ""
 
+# Step 3.5 — refresh public/llms.txt content stats (2026-05-04, DNA #43)
+# 為什麼: llms.txt 是 LLM training pipeline 的 robots.txt-equivalent，
+# 內含文章數 / 語言覆蓋 / contributors 等 stat，必須跟 dashboard-vitals 同步。
+# 之前手動維護導致 4/14 snapshot 過時 ~3 週才被外部 reviewer (Grok) 抓到。
+# 純機械 regex replace，<100ms，無 LLM call。
+echo -e "${GRN}[3.5/5]${RST} refresh public/llms.txt content stats..."
+if python3 scripts/tools/refresh-llms-txt.py 2>&1 | tail -3; then
+  echo -e "${DIM}   ✓ llms.txt 已同步 dashboard-vitals${RST}"
+else
+  echo -e "${YEL}⚠️  refresh-llms-txt 部分失敗 — 心跳繼續${RST}"
+fi
+echo ""
+
 # Step 4 — GitHub stats (soft fail)
-echo -e "${GRN}[4/4]${RST} GitHub stats..."
+echo -e "${GRN}[4/5]${RST} GitHub stats..."
 if bash scripts/tools/update-stats.sh > /tmp/stats.log 2>&1; then
   tail -5 /tmp/stats.log
   echo -e "${DIM}   ✓ README/stats 已刷新${RST}"
@@ -98,6 +143,56 @@ else
   tail -5 /tmp/stats.log
 fi
 rm -f /tmp/stats.log
+echo ""
+
+# Step 4.5 — extract build perf trend (2026-05-03 sleepy-colden, DNA #15 N+6)
+# 為什麼: 12 天內 per-page render time 漲 70%（98ms → 167ms）沒人發現，因為
+# build 效能不在 dashboard freshness check 範圍。本 step 把 GitHub Actions
+# build duration 抓出來、aggregate、寫進 dashboard-build-perf.json，未來
+# regression 在第 3 天而非第 12 天 flag。
+echo -e "${GRN}[4.5/5]${RST} extract build perf trend..."
+if node scripts/core/extract-build-perf.mjs --runs 30 2>&1 | tail -5; then
+  echo -e "${DIM}   ✓ dashboard-build-perf.json updated${RST}"
+else
+  echo -e "${YEL}⚠️  extract-build-perf 部分失敗 — 心跳繼續${RST}"
+fi
+echo ""
+
+# Step 5 — verify dashboard freshness (2026-05-02 γ-late, DNA #43)
+# 為什麼: refresh-data.sh 只有 invoke generators，沒驗證每個 dashboard JSON 都有今天的 mtime。
+# 結果: 如果某個 generator silent skip / fail / 不在 pipeline 裡，user 看到 12h ago timestamp 才發現。
+# 這條 verify 把每個 public/api/dashboard-*.json 的 mtime 跟今天比，列出 stale 的。
+echo -e "${GRN}[5/5]${RST} verify dashboard freshness..."
+TODAY=$(date +%Y-%m-%d)
+STALE_COUNT=0
+STALE_LIST=""
+for f in public/api/dashboard-*.json; do
+  [ -f "$f" ] || continue
+  MTIME_DATE=$(stat -f "%Sm" -t "%Y-%m-%d" "$f" 2>/dev/null || stat -c "%y" "$f" 2>/dev/null | cut -d' ' -f1)
+  if [ "$MTIME_DATE" != "$TODAY" ]; then
+    STALE_COUNT=$((STALE_COUNT + 1))
+    STALE_LIST="$STALE_LIST   ❌ $(basename $f) — mtime $MTIME_DATE\n"
+  fi
+done
+if [ "$STALE_COUNT" -eq 0 ]; then
+  echo -e "${DIM}   ✓ 全部 $(ls public/api/dashboard-*.json | wc -l | tr -d ' ') 個 dashboard JSON 都是今天 mtime${RST}"
+else
+  echo -e "${RED}❌ $STALE_COUNT 個 dashboard 不是今天 mtime（generator 漏跑了？）${RST}"
+  echo -e "$STALE_LIST"
+  echo -e "${YEL}   修復: 把對應的 generator 加進 refresh-data.sh${RST}"
+fi
+echo ""
+
+# Step 5.5 — spore data SSOT validation (2026-05-03 objective-khorana day 2)
+# 為什麼: dashboard freshness check 只看 mtime，不檢查 spore 解析正確性。
+# 過去發現 generator parser bug (K suffix) silent fail → views_latest=null but mtime fresh.
+# 這條跑 validate-spore-data.py 主動檢查 SPORE-LOG / dashboard JSON 內容一致性。
+echo -e "${GRN}[5.5/6]${RST} spore data SSOT validation..."
+if python3 scripts/tools/validate-spore-data.py 2>&1 | tail -4 | head -3; then
+  echo -e "${DIM}   ✓ spore data validation passed${RST}"
+else
+  echo -e "${RED}⚠️  spore data validation reported issues — see above${RST}"
+fi
 echo ""
 
 echo -e "${DIM}═══════════════════════════════════${RST}"

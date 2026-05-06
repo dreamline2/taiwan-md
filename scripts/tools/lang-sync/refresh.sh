@@ -7,15 +7,20 @@
 #   refresh.sh Technology/半導體產業.md en --print  # stdout 印 brief
 #   refresh.sh Technology/半導體產業.md en --apply --sha-only  # 已手動翻譯完，更新 frontmatter
 #
+# 設計：純投影模式（pure projection，2026-04-29 cheyu insight）
+#   zh-TW 是 SSOT，譯文是當下投影。Brief 不讀既有譯文也不算 diff——
+#   反正都會被覆蓋寫，讀進來只是 (a) 浪費 context tokens (b) agent 會去
+#   「保留風格」或「patch diff」而非乾淨從 zh 投影一次。
+#
 # 工作流：
-#   1. 讀 zh source + diff-since-translation 結果 + 既有 en 翻譯 + TRANSLATE_PROMPT.md
+#   1. 讀 zh source（HEAD）+ TRANSLATE_PROMPT.md 翻譯規則
 #   2. 組合成單一 brief.md 檔（.lang-sync-tasks/{lang}/{slug}.brief.md）
-#   3. 把 brief 給 agent (CLI / Claude Code Agent / 人類 contributor) 翻譯 → 寫回 en 檔
+#   3. Agent 從零投影一次（覆蓋寫，不 patch、不 preserve、不 diff）
 #   4. --apply --sha-only：翻譯完成後更新 frontmatter 三欄位（重設 sourceCommitSha 為 zh HEAD）
 #
-# 設計：refresh.sh 不直接 spawn agent。
-# 由 lang-sync batch-refresh.sh 或 maintainer 用 brief 內容餵 agent。
-# 這樣 agent runtime 跟工具解耦（Claude Code / Cursor / 純人類都能用）。
+# refresh.sh 不直接 spawn agent。由 lang-sync batch-refresh.sh 或 maintainer
+# 把 brief 內容餵 agent。這樣 agent runtime 跟工具解耦（Claude Code / Cursor /
+# 純人類都能用）。
 
 set -euo pipefail
 
@@ -90,39 +95,21 @@ print(f'   translatedAt: $NOW')
   exit 0
 fi
 
-# --- Build brief ---
+# --- Build brief (pure projection mode) ---
 ZH_HEAD_SHA=$(git -C "$REPO" log -1 --format='%h' -- "knowledge/$ZH_REL")
 ZH_HEAD_DATE=$(git -C "$REPO" log -1 --format='%aI' -- "knowledge/$ZH_REL")
 
-# Get current source SHA from translation if exists
-CURRENT_SHA=""
-DIFF_BLOCK=""
-if [[ -n "$TRANS_REL" ]]; then
-  TRANS_FULL="$REPO/knowledge/$TRANS_REL"
-  CURRENT_SHA=$(python3 -c "
-import re
-c = open('$TRANS_FULL').read()
-m = re.search(r\"^sourceCommitSha:\s*['\\\"]?([^'\\\"\\n]+?)['\\\"]?\\s*$\", c, re.M)
-print(m.group(1) if m else '')
-")
-  if [[ -n "$CURRENT_SHA" ]] && [[ "$CURRENT_SHA" != "pre-toolkit" ]] && git -C "$REPO" cat-file -e "$CURRENT_SHA" 2>/dev/null; then
-    DIFF_BLOCK=$(git -C "$REPO" diff "$CURRENT_SHA..HEAD" -- "knowledge/$ZH_REL" 2>/dev/null || true)
-  fi
-fi
-
-# Generate brief
+# Generate brief — zh source only, agent投影一次 from scratch.
 {
-  echo "# Translation refresh brief"
+  echo "# Translation projection brief"
   echo ""
-  echo "**Task**: Update \`$LANG\` translation for \`$ZH_REL\`"
-  echo "**Mode**: $([[ -z "$TRANS_REL" ]] && echo "MISSING (translate from scratch)" || echo "STALE (refresh from diff)")"
+  echo "**Task**: Project \`$ZH_REL\` zh-TW HEAD into \`$LANG\`"
+  echo "**Output path**: \`knowledge/${TRANS_REL:-$LANG/$ZH_REL}\`"
   echo "**zh HEAD**: \`$ZH_HEAD_SHA\` ($ZH_HEAD_DATE)"
-  echo "**Current sourceCommitSha**: \`${CURRENT_SHA:-N/A}\`"
   echo ""
   echo "## Required output"
-  echo "1. Translate (if missing) or update (if stale) the file: \`knowledge/$LANG/${TRANS_REL#$LANG/}\`"
-  echo "   (existing path: \`${TRANS_REL:-NEW}\`)"
-  echo "2. Preserve frontmatter (translatedFrom must remain)"
+  echo "1. Translate the file from scratch — overwrite, do NOT patch existing translation."
+  echo "2. Preserve frontmatter (translatedFrom must remain)."
   echo "3. After translating, run:"
   echo "   \`bash scripts/tools/lang-sync/refresh.sh $ZH_REL $LANG --apply --sha-only\`"
   echo "   to bump sourceCommitSha to current zh HEAD."
@@ -140,24 +127,6 @@ fi
   echo '```markdown'
   cat "$ZH_FULL"
   echo '```'
-  echo ""
-  if [[ -n "$TRANS_REL" ]]; then
-    echo "## Existing $LANG translation (will be replaced)"
-    echo ""
-    echo '```markdown'
-    cat "$TRANS_FULL"
-    echo '```'
-    echo ""
-    if [[ -n "$DIFF_BLOCK" ]]; then
-      echo "## zh changes since last translation"
-      echo ""
-      echo '```diff'
-      echo "$DIFF_BLOCK" | head -300
-      echo '```'
-      echo ""
-      echo "_If diff is small, prefer surgical patches over full rewrite._"
-    fi
-  fi
 } > "$BRIEF_FILE"
 
 echo "✅ Brief written: $BRIEF_FILE"

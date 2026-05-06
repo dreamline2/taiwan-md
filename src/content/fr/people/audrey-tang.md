@@ -1,153 +1,168 @@
 ---
 title: 'Audrey Tang'
-description: "Autodidacte dès l'âge de 8 ans, première ministre transgenre au monde, elle réinvente la démocratie numérique grâce à l'esprit open source"
+description: "Déscolarisée à 8 ans pour apprendre la programmation en autodidacte, première ministre transgenre au monde, elle redéfinit la démocratie numérique par l'esprit du logiciel libre."
 date: 2026-03-21
-tags: [Personnalité, Audrey Tang, Ministère du Numérique, g0v, transgenre, programmation, gouvernement ouvert, vTaiwan]
-subcategory: 'Éducation et société'
+tags:
+  [
+    'Personnalité',
+    'Audrey Tang',
+    'Ministère du Développement numérique',
+    'g0v',
+    'Transgenre',
+    'Programmation',
+    'Gouvernement ouvert',
+    'vTaiwan',
+  ]
+subcategory: '教育與社會'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 10
-featured: true
+readingTime: 12
+lastVerified: 2026-05-02
+lastHumanReview: false
 translatedFrom: 'People/唐鳳.md'
-lastVerified: 2026-03-21
+sourceCommitSha: '32e53d5b'
+sourceContentHash: 'sha256:eaf0eba2e4a68e41'
+sourceBodyHash: 'sha256:c6c324b6990ea5dc'
+translatedAt: '2026-05-02T08:50:00+08:00'
 ---
 
 # Audrey Tang
 
-> **En 30 secondes :** Née en 1981, Audrey Tang commence à apprendre la programmation seule à 8 ans. En 2005, à 24 ans, elle entame une transition de genre. En 2012, elle cofonde g0v, le mouvement citoyen de la technologie civique. En 2016, à 35 ans, elle devient la première personnalité politique transgenre à occuper un poste ministériel dans le monde. Armée de la philosophie « hack don't attack », elle introduit les outils numériques au sein du gouvernement et fait de Taïwan un modèle mondial de gouvernement ouvert.
+> **Aperçu en 30 secondes :** Née en 1981, Audrey Tang commence à apprendre la programmation en autodidacte à 8 ans. En 2005, à 24 ans, elle subit une opération de réassignation de genre. En 2012, elle co-fonde g0v (« gov-zero »). En 2016, à 35 ans, elle devient la première personne transgenre dans le monde à exercer une fonction ministérielle. Avec l'esprit du logiciel libre « hack don't attack », elle a fait entrer les outils numériques dans le gouvernement et fait de Taïwan une référence mondiale du gouvernement ouvert.
 
-Le 1er octobre 2016, Audrey Tang entre au cabinet du Premier ministre à 35 ans. Elle devient la plus jeune ministre de l'histoire de Taïwan, et la première personne transgenre publiquement déclarée à occuper une fonction ministérielle dans le monde. Mais sa véritable rupture n'est pas identitaire — c'est une rupture de pensée : réimaginer la démocratie participative avec la logique du code.
+Le 1er octobre 2016, à 35 ans, Audrey Tang entre au Yuan exécutif et devient la plus jeune ministre sans portefeuille de l'histoire de Taïwan, et la première personne ouvertement transgenre au monde à exercer une fonction de niveau ministériel. Mais sa véritable percée n'est pas dans son identité, elle est dans sa manière de penser : redessiner la participation démocratique avec la logique du code.
 
-Du prodige autodidacte de 8 ans à la ministre qui pilote la transformation numérique de Taïwan, son parcours révèle la capacité d'inclusion de la société taïwanaise et annonce une nouvelle ère de participation politique à l'âge numérique.
+De l'enfant prodige déscolarisée à 8 ans à la ministre pilotant la transformation numérique de Taïwan, la trajectoire d'Audrey Tang manifeste à la fois la capacité d'inclusion de la société taïwanaise et les nouvelles possibilités de participation politique à l'ère numérique.
 
-## Quitter l'école à 8 ans, décrocher à 14 ans
+## Déscolarisée à 8 ans, sortie du système à 14 ans : la voie de l'autodidacte
 
-Née le **18 avril 1981**, Audrey Tang (dont le nom d'origine est Tang Zonghàn) manifeste dès l'enfance des traits qui la distinguent de ses pairs. Son quotient intellectuel dépasse les 180 — les médias la surnomment « le génie informatique de Taïwan » — mais ce don exceptionnel ne lui rend pas la scolarité plus facile.
+Née le **18 avril 1981**, Audrey Tang (de son ancien nom Tang Tsung-han) montre dès l'enfance des traits différents de ses pairs. Selon ETtoday, son QI dépasse 180 ; elle est surnommée « le génie taïwanais de l'informatique ». Mais la haute intelligence ne lui assure pas un parcours scolaire serein.
 
-Les difficultés d'adaptation à l'environnement scolaire la conduisent à changer trois maternelles et six écoles primaires en neuf ans. À 8 ans, elle quitte officiellement le système scolaire pour apprendre à la maison. Sa mère, Li Yaqing, militante pour la réforme de l'éducation, l'emmène même en Allemagne pour explorer des pédagogies alternatives et étudier les méthodes d'enseignement expérimental.
+**L'inadaptation à l'école** la conduit à changer 3 maternelles et 6 écoles primaires en 9 ans. À 8 ans, elle quitte officiellement l'école et apprend à la maison. Sa mère, Lee Ya-ching, est une réformatrice de l'éducation ; elle l'emmène même en Allemagne découvrir des pédagogies alternatives et étudier les méthodes de l'éducation expérimentale.
 
-À 14 ans, elle obtient une admission directe au lycée Jiànguó — l'un des plus prestigieux de Taïwan — mais prend une décision stupéfiante : renoncer à cette voie pour se consacrer entièrement à l'autoapprentissage. Ce choix, au Taïwan des années 1990, n'était pas sans faire parler.
+À 14 ans, Audrey Tang est admise par voie d'excellence au lycée Chien Kuo, mais elle prend une décision étonnante : renoncer à l'enseignement traditionnel et apprendre seule. C'est un événement remarqué dans le Taïwan des années 1990 — un jeune génie quittant volontairement le sommet du système éducatif.
 
-**C'est à 14 ans également que commence son initiation à la programmation.** Sans professeur, sans programme, elle apprend exclusivement à travers les documentations techniques et les communautés en ligne. Cette expérience d'apprentissage autonome forge la philosophie qui guidera plus tard ses engagements pour l'éducation ouverte et le partage des savoirs.
+**L'éveil à la programmation** se fait aussi à 14 ans. Sans professeur ni cours, elle apprend uniquement par la lecture de documentations techniques et la participation à des communautés en ligne. Cette expérience d'apprentissage autonome posera les fondations idéologiques de son engagement futur pour l'éducation ouverte et le partage des savoirs.
 
-## Ingénieure à 19 ans dans la Silicon Valley, transition à 24 ans
+## Ingénieure dans la Silicon Valley à 19 ans, transition à 24 ans
 
-En **2000**, à 19 ans, Tang Zonghàn travaille déjà comme ingénieure dans une entreprise de logiciels en Californie. Elle révèle un talent exceptionnel dans le domaine des langages de programmation, en particulier Perl et Haskell.
+En **2000**, à 19 ans, elle est déjà ingénieure logiciel dans une entreprise de la Silicon Valley en Californie. Elle révèle un talent stupéfiant pour les langages de programmation, en particulier Perl et Haskell.
 
-Elle lance le **projet Pugs** — une tentative ambitieuse d'implémenter Perl 6 en Haskell. Bien que le projet s'essoufle en 2006, il laisse une trace importante dans la communauté Perl à travers ses contributions d'amorçage. Cette démarche — utiliser un langage pour en implémenter un autre — témoigne de sa maîtrise de la théorie des langages de programmation.
+Elle lance le **projet Pugs**, une tentative majeure d'implémenter Perl 6 en Haskell. Bien que le projet ait stagné en 2006, sa contribution de bootstrap dans la communauté Perl est importante. Ce défi technique — « implémenter un langage à l'aide d'un autre » — illustre sa profonde maîtrise de la théorie des langages de programmation.
 
-**Fin 2005**, à 24 ans, elle prend l'une des décisions les plus significatives de sa vie : entamer une réassignation de genre, assumer publiquement son identité transgenre et changer son prénom en Audrey Tang. Dans un entretien pour le magazine CommonWealth, elle déclare simplement : « Je suis certaine d'être une femme. »
+**Fin 2005**, à 24 ans, elle prend l'une des décisions les plus importantes de sa vie : opération de réassignation de genre, coming out public, et changement de nom de « Tang Tsung-han » en « Tang Feng » (Audrey en anglais). Dans une interview à _CommonWealth Magazine_, elle déclare : « Je suis certaine que je suis une femme. »
 
-Ce geste porte une signification profonde pour la société taïwanaise de l'époque. Elle démontre par sa trajectoire que les personnes transgenres peuvent jouer un rôle essentiel dans leur domaine professionnel, contribuant de manière décisive au mouvement pour les droits LGBTQ+ à Taïwan. Sa famille lui apporte un soutien sans faille.
+Cette décision a une grande valeur d'exemple dans la société taïwanaise de l'époque. Par ses propres actes, elle prouve que les personnes transgenres peuvent jouer un rôle clé dans des domaines professionnels, et apporte une contribution importante au mouvement des droits LGBTQ+ à Taïwan. Heureusement, sa famille lui apporte une compréhension et un soutien complets.
 
-## g0v : « hack don't attack »
+## g0v gov-zero : hack don't attack
 
-En **2012**, Audrey Tang et quelques amis fondent g0v (prononcé « gov zero ») — la plus importante communauté de technologie civique à Taïwan. Le nom s'inspire du remplacement du domaine gouvernemental « gov » par « g0v », symbolisant le projet de réimaginer l'État en binaire, avec des zéros et des uns.
+En **2012**, Audrey Tang co-fonde g0v (prononcé « gov zero ») avec quelques amis partageant ses idées — la plus importante communauté de technologie civique de Taïwan. Le nom vient de la transformation du domaine gouvernemental « gov » en « g0v », symbolisant la réinvention du gouvernement par la langue numérique des 0 et des 1.
 
-La philosophie centrale de g0v est **« hack don't attack »** : ne pas s'attaquer aux institutions existantes, mais les améliorer par la technique. Cet esprit reflète une participation citoyenne constructive — avancer par la pratique, non par la critique.
+L'idée centrale de g0v est **« hack don't attack »** — ne pas attaquer le système existant, mais l'améliorer par la technique. Cette approche reflète un esprit de participation citoyenne constructive : faire avancer la société par la mise en œuvre, et non seulement par la critique.
 
-**Parmi les projets phares :**
+**Projets clés :**
 
-- **Visualisation du budget de l'État central** : transformer les épais documents budgétaires en graphiques interactifs accessibles à tous
-- **Parlement en vidéo (IVOD)** : organiser les enregistrements des sessions législatives pour permettre une recherche thématique rapide
-- **MoeDict (萌典)** : une plateforme de dictionnaire chinois en accès libre, à laquelle Audrey Tang a personnellement contribué
+- **Visualisation du budget central** : transformer les volumineux et opaques documents budgétaires en graphiques interactifs.
+- **IVOD du Yuan législatif** : indexer les vidéos des séances législatives pour permettre aux citoyens de retrouver rapidement les débats sur un sujet précis.
+- **MoeDict (Mengdian)** : plateforme ouverte de dictionnaire chinois, à laquelle Audrey Tang a personnellement participé.
 
-Le succès de g0v attire l'attention internationale. Des communautés de technologie civique du monde entier viennent à Taïwan s'inspirer du modèle, qui est reproduit dans d'autres pays.
+Le succès de g0v attire l'attention internationale et devient un cas d'école du mouvement mondial de technologie civique. Des communautés de tech civique du monde entier viennent à Taïwan apprendre l'expérience g0v, et le modèle est répliqué dans d'autres pays.
 
-## vTaiwan : une expérience de démocratie numérique
+## vTaiwan : une expérience innovante de démocratie numérique
 
-**Entre 2014 et 2015**, Audrey Tang est conseillère pour la plateforme vTaiwan, initiative du cabinet pour l'adaptation réglementaire du monde virtuel — premier point de contact avec la sphère gouvernementale.
+**De 2014 à 2015**, Audrey Tang est conseillère du programme « vTaiwan » du Yuan exécutif sur l'adaptation des règles aux mondes virtuels — c'est le début de sa coopération avec le gouvernement.
 
-La plateforme vTaiwan traite les questions réglementaires liées à l'économie numérique en s'appuyant sur des mécanismes de participation digitale innovants. Elle utilise Pol.is, un outil de synthèse des opinions capable d'analyser et de visualiser de grands volumes de contributions pour en extraire convergences et divergences.
+La plateforme vTaiwan traite des questions réglementaires liées à l'économie numérique, en utilisant des mécanismes innovants de participation numérique. Elle s'appuie sur la technologie Pol.is d'agrégation d'opinions, capable d'analyser et de visualiser de grandes quantités d'avis pour identifier consensus et divergences.
 
-**Le cas le plus emblématique est la régulation d'Uber.** Grâce au dialogue structuré de la plateforme, gouvernement, opérateurs, chauffeurs et passagers parviennent à dégager un certain consensus, fournissant une base solide pour encadrer l'économie collaborative à Taïwan.
+**Le cas de réussite le plus connu est le débat sur la réglementation d'Uber.** Grâce au mécanisme de dialogue de la plateforme, gouvernement, opérateurs, chauffeurs et passagers parviennent à un certain consensus, fournissant une référence importante pour la régulation taïwanaise de l'économie collaborative.
 
-L'approche de vTaiwan est reconnue internationalement comme une référence en matière de démocratie numérique, et de nombreux gouvernements envoient des délégations à Taïwan pour s'en inspirer.
+L'approche innovante de vTaiwan est saluée internationalement comme un exemple de démocratie numérique ; de nombreux pays envoient des délégations à Taïwan pour s'en inspirer.
 
-## Entrée au gouvernement à 35 ans : la première ministre transgenre dans le monde
+## Au gouvernement à 35 ans : première ministre sans portefeuille transgenre au monde
 
-**Le 1er octobre 2016**, le Premier ministre Lin Quan nomme Audrey Tang, 35 ans, au poste de ministre sans portefeuille. Elle devient ainsi :
+Le **1er octobre 2016**, le Premier ministre Lin Chuan nomme Audrey Tang, 35 ans, ministre sans portefeuille. Elle devient :
 
-- la plus jeune ministre de l'histoire de Taïwan
-- la première personne publiquement transgenre à occuper un poste de rang ministériel dans le monde
-- la première « ministre du Numérique » de Taïwan
+- la plus jeune ministre sans portefeuille de l'histoire de Taïwan ;
+- la première personne ouvertement transgenre au monde à exercer une fonction de niveau ministériel ;
+- la première « ministre du Numérique » de Taïwan.
 
-Sans appartenance partisane, Audrey Tang entre au gouvernement grâce à son expertise technique et à son engagement civique. Sa nomination traduit la volonté du gouvernement Tsai Ing-wen de valoriser la diversité des compétences.
+À la différence des politiciens traditionnels, Audrey Tang n'a pas d'attache partisane ; elle entre au gouvernement par son expertise technique et son expérience d'engagement social. Sa nomination témoigne de l'attention du gouvernement Tsai Ing-wen à la diversité des talents.
 
-**Elle introduit des modes de travail inédits :**
+**Les innovations de méthode de travail qu'elle introduit comprennent :**
 
-- **Télétravail** : pas de bureau fixe, elle travaille de manière nomade (bien avant la pandémie de COVID-19)
-- **Transparence radicale** : toutes les réunions de travail sont intégralement retranscrites et rendues publiques (sauf lorsque la sécurité nationale ou la vie privée est en jeu)
-- **Culture collaborative** : elle privilégie les partenariats aux hiérarchies, et travaille avec les ministères sur la base d'une relation d'égal à égal
+- **Travail à distance** : pas besoin de bureau fixe, travail mobile (déjà pratiqué avant la pandémie de COVID-19).
+- **Ouverture et transparence** : toutes les réunions de travail sont publiées sous forme de transcriptions intégrales (sauf en cas de secret d'État ou de vie privée).
+- **Culture collaborative** : la collaboration plutôt que le commandement, en relation de partenariat avec les ministères.
 
-## La gestion numérique de la crise COVID-19
+## La performance remarquable de la lutte numérique contre la COVID-19
 
-**Pendant la pandémie**, Audrey Tang fait preuve d'une remarquable capacité à gérer la crise et pilote le développement de plusieurs outils numériques de lutte contre l'épidémie.
+**Pendant la pandémie**, Audrey Tang fait preuve d'une capacité exceptionnelle de gestion de crise et pilote plusieurs outils numériques sanitaires :
 
-**La carte des masques** est l'outil le plus populaire des premières semaines de crise. Ce système permet aux citoyens de consulter en temps réel les stocks de masques dans les pharmacies, améliorant considérablement l'efficacité de leur distribution. En 24 heures, plus d'un million d'utilisateurs y ont recours.
+La **carte des masques** est l'outil numérique le plus apprécié au début de la pandémie. Le système permet de connaître en temps réel les stocks de masques en pharmacie et améliore considérablement la distribution. Plus d'un million de personnes utilisent le système dans les 24 heures suivant son lancement.
 
-**Le système de prise de rendez-vous pour la vaccination** simplifie la planification des injections et reçoit des retours très positifs. Sa capacité de traitement passe de 100 000 à 1 million de créneaux par jour, plaçant Taïwan parmi les pays les plus efficaces dans sa campagne vaccinale.
+Le **système de réservation des vaccins** facilite la prise de rendez-vous et reçoit un large accueil. La capacité de traitement passe de 100 000 à un million de personnes par jour, plaçant Taïwan en tête mondiale pour l'efficacité de la vaccination.
 
-L'expérience taïwanaise de gestion numérique de la pandémie est saluée dans le monde entier, et Audrey Tang gagne en visibilité sur la scène internationale.
+L'expérience numérique sanitaire de Taïwan est saluée internationalement, ce qui vaut à Audrey Tang une attention accrue sur la scène mondiale.
 
-## Première ministre du Ministère du Numérique
+## Première ministre du Ministère du Développement numérique
 
-**Le 27 août 2022**, le Ministère du Numérique est officiellement créé et Audrey Tang en est nommée première ministre, jusqu'au 20 mai 2024. C'est une étape décisive dans l'histoire de l'organisation gouvernementale taïwanaise : la gouvernance numérique passe du stade expérimental à l'institutionnalisation.
+Le **27 août 2022**, le Ministère du Développement numérique est officiellement créé ; Audrey Tang en est nommée première ministre, jusqu'au 20 mai 2024. C'est un jalon important dans l'histoire organisationnelle du gouvernement taïwanais : la gouvernance numérique passe de l'expérimentation à l'institutionnalisation.
 
-Le Ministère du Numérique regroupe les compétences numériques jusqu'alors éparpillées entre différents ministères — télécommunications, cybersécurité, économie numérique — pour construire un cadre de gouvernance numérique cohérent.
+Le ministère intègre les attributions numériques jusqu'alors dispersées entre plusieurs ministères, dont les télécommunications, la cybersécurité et l'économie numérique, pour bâtir une architecture de gouvernance numérique plus complète.
 
-**Parmi les politiques importantes conduites sous sa direction :**
+**Politiques importantes promues sous son mandat :**
 
-- **Renforcement de la résilience numérique** : consolidation de la cybersécurité et protection des infrastructures critiques
-- **Accélération de la transformation numérique** : accompagnement des entreprises et organisations dans leur montée en compétences numériques
-- **Garantie des droits numériques** : promotion de la protection de la vie privée et de l'égalité d'accès au numérique
+- **Renforcement de la résilience numérique** : sécurité de l'information et protection des infrastructures critiques.
+- **Accélération de la transformation numérique** : aide aux entreprises et organisations pour monter en compétences numériques.
+- **Garantie des droits humains numériques** : protection de la vie privée, équité numérique.
 
-## Une philosophie politique : l'anarchisme conservateur
+## La philosophie politique de l'« anarchisme conservateur »
 
-Audrey Tang se définit comme « anarchiste conservatrice » — une formule qui semble paradoxale mais exprime sa vision politique singulière : croire que le meilleur gouvernement est celui qui intervient le moins, tout en préservant avec prudence les institutions qui fonctionnent bien.
+Audrey Tang se définit comme « anarchiste conservatrice » — concept apparemment contradictoire qui reflète sa philosophie politique singulière : le meilleur gouvernement est celui qui intervient le moins, mais il faut conserver avec précaution les bonnes institutions existantes.
 
-Elle est profondément influencée par le principe **« Code is Law »** : à l'ère numérique, le code informatique règle les comportements humains au même titre que la loi. C'est pourquoi le processus d'écriture du code doit lui aussi être démocratique et transparent.
+Elle est profondément influencée par l'idée **« Code is Law »** : à l'ère numérique, le code régit les comportements comme la loi. C'est pourquoi le processus d'écriture du code doit lui aussi être démocratique et transparent.
 
-**Ses convictions fondamentales :**
+**Ses convictions centrales :**
 
-- **Neutralité de la technologie** : la technologie doit rester neutre et servir tout le monde
-- **Conception participative** : toute politique affectant les citoyens doit être conçue avec leur participation
-- **Gouvernance décentralisée** : le pouvoir doit être distribué au maximum pour élargir la prise de décision
+- **Neutralité de la technique** : la technique elle-même doit rester neutre et servir tout le monde.
+- **Conception participative** : toute politique affectant les citoyens doit être conçue avec eux.
+- **Gouvernance décentralisée** : le pouvoir doit être réparti autant que possible, pour que davantage de personnes participent à la décision.
 
-## Rayonnement international et reconnaissance mondiale
+## Influence internationale et reconnaissance mondiale
 
-Le modèle de gouvernance innovant d'Audrey Tang est hautement reconnu à l'étranger :
+Le modèle de gouvernance innovant d'Audrey Tang est largement salué :
 
-- En **2019**, elle figure dans la liste des « 100 penseurs mondiaux » du magazine *Foreign Policy*
-- *Time* magazine la désigne comme innovatrice numérique
-- Elle a été Jeune Leader Mondial du Forum économique mondial
+- **2019** : sélectionnée parmi les « 100 grands penseurs mondiaux » par _Foreign Policy_.
+- Choisie par _Time_ comme innovatrice numérique.
+- Membre des Young Global Leaders du Forum économique mondial.
 
-Sa conférence TED, *How digital innovation can fight pandemics and strengthen democracy*, présente au monde l'expérience de gouvernance numérique de Taïwan. De nombreux gouvernements envoient des représentants à Taïwan pour étudier le modèle qu'elle a contribué à construire.
+Sa conférence TED « How digital innovation can fight pandemics and strengthen democracy » présente au monde l'expérience taïwanaise. De nombreux gouvernements envoient des délégations à Taïwan pour étudier son modèle.
 
-## Une influence durable sur la société taïwanaise
+## Une influence profonde sur la société taïwanaise
 
-**Une nouvelle culture politique :** La façon de travailler d'Audrey Tang — ouverte et transparente — fixe un nouveau standard pour la politique taïwanaise et pousse l'ensemble de l'appareil gouvernemental vers plus de transparence.
+**Changement de la culture politique :** la méthode de travail ouverte et transparente d'Audrey Tang impose un nouveau standard à la culture politique taïwanaise et tire l'ensemble de l'appareil gouvernemental vers plus de transparence.
 
-**La construction d'une société numérique :** En promouvant les données ouvertes et la technologie civique, elle contribue à élever le niveau général de culture numérique dans la société taïwanaise.
+**Construction d'une société numérique :** par la promotion des données ouvertes et de la technologie civique, elle aide à élever le niveau global de littératie numérique de la société.
 
-**La pratique des valeurs pluralistes :** Son identité transgenre et son parcours atypique font d'elle un exemple vivant de la diversité à l'œuvre à Taïwan.
+**Mise en pratique des valeurs plurielles :** son identité transgenre et son parcours non traditionnel font école pour la pratique des valeurs plurielles dans la société taïwanaise.
 
-**Une influence sur la philosophie éducative :** Son propre cheminement autodidacte encourage le développement d'alternatives pédagogiques et donne à davantage de familles et d'élèves le courage d'emprunter des voies hors des sentiers battus.
-
----
-
-L'histoire d'Audrey Tang est une légende contemporaine faite de courage, d'innovation et d'ouverture à l'autre. Du prodige qui quitte l'école à 8 ans à la pionnière mondiale de la gouvernance numérique, elle illustre les possibilités d'une société plurielle.
-
-Elle n'a pas seulement transformé la culture politique et l'environnement numérique de Taïwan — elle a montré au monde entier comment la technologie peut renforcer la démocratie et faire avancer la société. Dans le grand mouvement de l'ère numérique, ses idées et ses pratiques continueront d'ouvrir des chemins, inspirant ceux qui souhaitent bâtir ensemble, avec créativité et bienveillance, une société numérique meilleure.
+**Influence sur les idées éducatives :** son succès comme autodidacte soutient le développement d'une éducation plurielle et encourage parents et élèves à oser des chemins éducatifs alternatifs.
 
 ---
 
-**Pour aller plus loin :**
+L'histoire d'Audrey Tang est une légende contemporaine de courage, d'innovation et d'inclusion. De l'enfant déscolarisée à 8 ans à la pionnière mondiale de la gouvernance numérique, elle montre par sa propre vie les possibilités d'une société plurielle.
 
-- Wu Ta-you — de la science à la technologie, l'héritage intellectuel taïwanais ; en tant que président de l'Academia Sinica, il a jeté les fondations du système de recherche scientifique de Taïwan
+Elle n'a pas seulement changé la culture politique et l'environnement numérique de Taïwan ; elle montre aussi au monde comment utiliser la technologie pour favoriser la démocratie et le progrès social. Dans la grande vague de l'ère numérique, ses idées et ses pratiques continueront d'orienter le chemin et d'inspirer toujours plus de personnes à bâtir, par l'innovation et l'inclusion, une meilleure société numérique.
 
-## Sources
+---
 
-- https://women.nmth.gov.tw/?p=20105
-- https://zh.wikipedia.org/zh-hant/%E5%94%90%E9%B3%B3
-- https://moda.gov.tw/aboutus/ministers-since-2022/1527
+**Pour aller plus loin** :
+
+- [Wu Ta-you](/people/吳大猷) — Filiation de l'élite intellectuelle taïwanaise, des sciences fondamentales à la technologie. Wu Ta-you, en tant que président de l'Academia Sinica, a posé les bases du système de recherche scientifique de Taïwan.
+- [Hsiao Shang-nung](/people/蕭上農) — Co-fondateur d'INSIDE et d'iCook, qui définit également son rôle dans la sphère technologique taïwanaise par sa traversée de plusieurs domaines.
+
+## Références
+
+- [Femmes de Taïwan — Première ministre transgenre, première ministre du Numérique de Taïwan : Audrey Tang](https://women.nmth.gov.tw/?p=20105)
+- [Wikipédia — Audrey Tang](https://zh.wikipedia.org/zh-hant/%E5%94%90%E9%B3%B3)
+- [Ministère du Développement numérique — Ministres successifs](https://moda.gov.tw/aboutus/ministers-since-2022/1527)

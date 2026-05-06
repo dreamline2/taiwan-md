@@ -2,7 +2,14 @@
 title: 'Paul Ching-Wu Chu'
 description: 'Superconductivity physicist who led the landmark 1987 breakthrough at liquid-nitrogen temperatures'
 date: 2026-03-19
-tags: ['physicist', 'superconductivity', 'Nobel-Prize-candidate', 'Academia-Sinica', 'University-of-Houston']
+tags:
+  [
+    'physicist',
+    'superconductivity',
+    'Nobel-Prize-candidate',
+    'Academia-Sinica',
+    'University-of-Houston',
+  ]
 subcategory: '科學與學術'
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -11,6 +18,7 @@ featured: true
 translatedFrom: 'People/朱經武.md'
 sourceCommitSha: '4af626f4'
 sourceContentHash: 'sha256:9903e2c37b2cac97'
+sourceBodyHash: 'sha256:f63f17fd12a83b6a'
 translatedAt: '2026-04-29T14:30:19Z'
 ---
 
@@ -34,7 +42,7 @@ The significance of this breakthrough lay in its dramatic reduction of the cost 
 
 Chu's high-temperature superconductors held not only enormous practical value but also profound implications for theoretical physics. The traditional BCS theory could not fully explain the mechanism behind high-temperature superconductivity, prompting the global physics community to fundamentally reconsider the nature of the phenomenon. His discovery triggered a worldwide surge of superconductivity research that became known as "superconductivity fever."
 
-His results were swiftly published in leading journals such as *Physical Review Letters* and immediately attracted intense attention from the international scientific community. Laboratories around the world raced to replicate and extend his experiments, driving rapid advances in superconductor research.
+His results were swiftly published in leading journals such as _Physical Review Letters_ and immediately attracted intense attention from the international scientific community. Laboratories around the world raced to replicate and extend his experiments, driving rapid advances in superconductor research.
 
 ## International Academic Standing and Honors
 

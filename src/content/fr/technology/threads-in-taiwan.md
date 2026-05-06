@@ -1,8 +1,16 @@
 ---
-title: 'Threads à Taïwan : du substitut de Twitter au terrain d''expression de la culture « Cui »'
-description: 'Alors que l''engouement pour Threads s''essouffle à l''échelle mondiale, Taïwan suit une trajectoire radicalement différente — 3,5 millions d''utilisateurs, deuxième marché mondial, champion du temps d''utilisation. La plateforme est devenue la place publique numérique où la génération Z s''exprime, où les politiques « descendent parmi le peuple » et où les mèmes fleurissent, redessinant tout l''écosystème des réseaux sociaux taïwanais.'
+title: "Threads à Taïwan : du substitut de Twitter au terrain d'expression de la culture « Cui »"
+description: "Alors que l'engouement pour Threads s'essouffle à l'échelle mondiale, Taïwan suit une trajectoire radicalement différente — 3,5 millions d'utilisateurs, deuxième marché mondial, champion du temps d'utilisation. La plateforme est devenue la place publique numérique où la génération Z s'exprime, où les politiques « descendent parmi le peuple » et où les mèmes fleurissent, redessinant tout l'écosystème des réseaux sociaux taïwanais."
 date: 2026-03-24
-tags: ['réseaux sociaux', 'culture numérique', 'Threads', 'génération Z', 'communication politique', 'forum en ligne']
+tags:
+  [
+    'réseaux sociaux',
+    'culture numérique',
+    'Threads',
+    'génération Z',
+    'communication politique',
+    'forum en ligne',
+  ]
 author: 'Taiwan.md Translation Team'
 readingTime: 15
 featured: true
@@ -10,6 +18,10 @@ category: 'Technology'
 subcategory: 'Culture sociale et numérique'
 lastVerified: 2026-03-24
 translatedFrom: 'Technology/Threads在台灣.md'
+sourceCommitSha: '800114ea'
+sourceContentHash: 'sha256:0c7725f61abaf247'
+sourceBodyHash: 'sha256:be91d069d3d81840'
+translatedAt: '2026-04-14T12:32:55+08:00'
 ---
 
 # Threads à Taïwan : du substitut de Twitter au terrain d'expression de la culture « Cui »
@@ -29,6 +41,7 @@ Cette scène de nuit en apparence banale se répète partout à Taïwan. Tandis 
 Ce constat surprend. Lancé par Meta en juillet 2023, Threads était présenté comme le concurrent direct de Twitter (désormais X). Aux États-Unis, il a connu une croissance fulgurante suivie d'un refroidissement rapide ; en Europe, des problèmes réglementaires ont même retardé son lancement. Mais à Taïwan, la plateforme a emprunté une trajectoire tout à fait différente.
 
 **Les chiffres parlent d'eux-mêmes :**
+
 - **3,5 millions d'utilisateurs** : estimation du nombre d'utilisateurs à Taïwan, deuxième marché mondial (derrière les États-Unis seulement)
 - **Champion mondial du temps d'utilisation** : les utilisateurs taïwanais passent plus de temps sur Threads que ceux de n'importe quel autre pays
 - **300 millions d'actifs mensuels dans le monde** : fin 2024, Threads dépasse les 300 millions d'utilisateurs actifs mensuels à l'échelle mondiale
@@ -73,6 +86,7 @@ Cette conception trouve sa niche parfaite dans la culture internet taïwanaise �
 Après les élections présidentielle et législatives de 2024, les politiciens taïwanais ont réalisé que les médias traditionnels et Facebook ne touchaient plus les jeunes électeurs. Ils ont massivement migré vers « Cui ». Mais ce n'est pas une simple migration de plateforme — c'est un **changement fondamental dans la façon de communiquer**.
 
 **Contrairement aux publications politiques formelles sur Facebook**, les hommes et femmes politiques adoptent sur Threads :
+
 - **Un ton accessible** : aborder les politiques publiques dans un langage quotidien
 - **L'humour et l'autodérision** : reconnaître ses erreurs, se moquer de soi-même
 - **La réactivité** : répondre directement aux commentaires du public, sans passer par des attachés de presse
@@ -99,11 +113,13 @@ Autrefois, le débat politique taïwanais était concentré sur certains forums 
 Dcard était la plus grande plateforme de discussion anonyme pour les étudiants taïwanais, mais Threads offre une alternative plus immédiate et plus ouverte :
 
 **Les limites de Dcard :**
+
 - Nécessite une inscription pour accéder au contenu complet
 - Un système de sous-forums centré sur les universités, relativement fermé
 - L'anonymat peut dégénérer en défouloir émotionnel
 
 **Les atouts de Threads :**
+
 - Consultation libre, sans barrière à l'entrée
 - Des échanges intergénérationnels, pas limités aux étudiants
 - Le lien avec Instagram apporte une responsabilité mesurée
@@ -115,6 +131,7 @@ Résultat : un grand volume de trafic de conversation et d'actualité a migré d
 PTT n'accepte plus de nouveaux inscrits depuis des années, ce qui a vieilli sa base d'utilisateurs. Les jeunes consultent encore PTT pour « prendre le pouls », mais participent rarement aux discussions. Threads comble ce vide :
 
 **L'évolution du mode de réaction aux événements d'actualité :**
+
 - **Avant** : une info paraît → on va sur PTT voir ce que les gens en pensent → l'opinion se forme
 - **Maintenant** : une info paraît → on va sur Cui voir les réactions en temps réel → on participe → on contribue à façonner l'opinion
 
@@ -139,10 +156,12 @@ Le marketing traditionnel sur les réseaux sociaux valorisait les visuels soign�
 **Exemples de succès :**
 
 **IKEA Taïwan** : « Ce que la vie ne peut pas régler, IKEA s'en chargera » (jeu de mots en taïwanais)
+
 - Résultat : 830 000 vues, 41 000 likes
 - Clés du succès : humour ancré localement + humanisation de la marque
 
 **Ba Yao He Cha** : cette marque de boissons de Kaohsiung a trois fois plus d'abonnés sur Threads que sur Instagram
+
 - Stratégie : interactions quotidiennes, réponses aux commentaires, participation aux discussions tendance
 - Résultat : plus de 30 000 abonnés, une croissance qui dépasse largement celle des autres plateformes
 
@@ -167,6 +186,7 @@ Cette tendance remodèle la structure de l'économie des influenceurs à Taïwan
 Threads est devenu un vivier important de mèmes et d'expressions populaires sur internet à Taïwan :
 
 **Les mèmes incontournables :**
+
 - **« Cui You »** (脆友) : le terme que les utilisateurs de Threads utilisent pour se désigner mutuellement, créant un sentiment d'appartenance communautaire
 - **« Cui Ji Le »** (脆急了) : exprime l'agacement face à un contenu vu sur Threads
 - **« Cui Li Hen Zan »** (脆力很讚) : utilisé pour saluer du contenu Threads de qualité
@@ -188,24 +208,26 @@ Ces phénomènes de localisation montrent que Threads n'est pas seulement une pl
 D'après plusieurs études :
 
 **Profil des utilisateurs :**
+
 - **La génération Z en majorité** : les 18-25 ans représentent environ 60 % des utilisateurs
 - **Concentration des diplômés du supérieur** : les bac+2 et au-delà représentent 70 %
 - **Distribution urbaine** : Taipei, Nouveau Taipei, Taichung et Kaohsiung concentrent 65 % des utilisateurs totaux
 
 **Horaires d'utilisation :**
+
 - **Pic de fin de nuit** : entre 23 h et 2 h du matin
 - **Trajet domicile-travail** : 8 h-9 h et 18 h-19 h
 - **Frénésie du week-end** : le temps d'utilisation les jours non ouvrés est supérieur de 40 % à celui des jours ouvrés
 
 **Préférences de contenu :**
 
-| Type de contenu | Part des publications |
-|---|---|
-| Expression émotionnelle | 35 % |
-| Discussion d'actualité | 25 % |
-| Partage de vie quotidienne | 20 % |
-| Mèmes et humour | 15 % |
-| Autre | 5 % |
+| Type de contenu            | Part des publications |
+| -------------------------- | --------------------- |
+| Expression émotionnelle    | 35 %                  |
+| Discussion d'actualité     | 25 %                  |
+| Partage de vie quotidienne | 20 %                  |
+| Mèmes et humour            | 15 %                  |
+| Autre                      | 5 %                   |
 
 ### Les effets en profondeur sur la société taïwanaise
 
@@ -227,11 +249,13 @@ Si l'algorithme peut briser les chambres d'écho, il amplifie aussi les contenus
 Avec la croissance du nombre d'utilisateurs, Threads fait face aux défis communs à toutes les plateformes sociales :
 
 **Dégradation de la qualité de l'information :**
+
 - Accélération de la propagation des fausses informations
 - Prolifération des contenus émotionnellement manipulateurs
 - Les discussions sérieuses noyées dans le bruit
 
 **Pression de la monétisation :**
+
 - Fin 2024, Meta a commencé à tester les publicités sur Threads
 - La commercialisation pourrait altérer la logique algorithmique
 - La tension entre expérience utilisateur et impératifs financiers
@@ -259,11 +283,13 @@ La forte dépendance de Taïwan à une seule plateforme peut engendrer des risqu
 ### Développements à court terme (2026-2027)
 
 **Phase de consolidation des fonctionnalités :**
+
 - Déploiement officiel du système publicitaire, avec impact sur l'écosystème des contenus
 - Intégration du direct, du shopping et d'autres fonctionnalités
 - Amélioration continue de la compréhension des contenus en chinois
 
 **Phase de maturité de l'écosystème :**
+
 - Mise en place d'une économie des créateurs de contenus
 - Entrée officielle des institutions gouvernementales et publiques
 - Intégration accrue des médias d'information
@@ -271,11 +297,13 @@ La forte dépendance de Taïwan à une seule plateforme peut engendrer des risqu
 ### Évolution à moyen terme (2027-2030)
 
 **Intensification de la concurrence entre plateformes :**
+
 - TikTok et YouTube lancent des fonctionnalités de réseau social textuel
 - Les plateformes locales (comme la nouvelle version de PTT) reviennent dans la compétition
 - L'attention des utilisateurs se fragmente davantage
 
 **Évolution du cadre réglementaire :**
+
 - Entrée en vigueur de nouvelles lois comme la loi sur les services d'intermédiation numérique
 - Renforcement des mécanismes de lutte contre la désinformation
 - Établissement de standards de gouvernance des données entre plateformes
@@ -283,11 +311,13 @@ La forte dépendance de Taïwan à une seule plateforme peut engendrer des risqu
 ### Impact à long terme (2030 et au-delà)
 
 **Transformations structurelles de la société :**
+
 - La première génération de « natifs Cui » arrive à l'âge adulte et influence l'évolution de la culture internet taïwanaise
 - La frontière entre médias traditionnels et nouveaux médias s'estompe davantage
 - La communication politique achève sa transition numérique
 
 **Risques et opportunités potentiels :**
+
 - Le Web3 et les plateformes sociales décentralisées pourraient bouleverser l'ordre établi
 - La question de la frontière entre contenus générés par IA et discussions entre vrais utilisateurs
 - Le succès de la localisation d'une plateforme internationale pourrait être reproduit dans d'autres régions
@@ -317,6 +347,7 @@ Ces questions n'ont pas de réponse toute faite. Mais leurs réponses dessineron
 ### Thèmes connexes
 
 ### Ressources de recherche
+
 - [Taiwan FactCheck Center](https://tfc-taiwan.org.tw/) — Centre taïwanais de vérification des faits
 - [Politiques de gouvernance numérique du Ministère du Numérique](https://moda.gov.tw/) — Politiques gouvernementales de gouvernance numérique
 - [Taiwan Network Information Center TWNIC](https://www.twnic.net.tw/) — Enquêtes sur les comportements d'utilisation d'internet à Taïwan

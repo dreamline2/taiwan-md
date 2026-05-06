@@ -1,0 +1,77 @@
+# article-health.config.toml — SSOT 文章健檢工具的 declarative config.
+#
+# 設計提案：reports/article-health-ssot-design-2026-05-04.md
+# Canonical 寫作品質規則：docs/editorial/EDITORIAL.md
+#
+# Phases 1-7 shipped 2026-05-04. 9 plugins registered:
+#   cjk-punct / frontmatter-title / prose-health / footnote-format /
+#   footnote-density / wikilink-target / link-target / format-structure /
+#   image-health
+#
+# link-target added 2026-05-04 jovial-feistel session — Phase 1 (casing,
+# HARD, auto-fix) caught 649 `]( /lang/UpperCase/...)` broken-routing
+# violations across 209 files; Phase 2 (existence, WARN) cross-checks
+# every link target against `knowledge/{lang}/{Category}/*.md` filesystem.
+# Source-layer counterpart of post-build `verify-internal-links.sh`.
+
+[meta]
+version = 1
+canonical_doc = "docs/editorial/EDITORIAL.md"
+phase = "7-pre-commit-wired"
+
+# ── Per-check severity / options ─────────────────────────────────────────────
+# Plugin defaults are set in each module (DEFAULT_SEVERITY). Override here.
+# (No overrides currently — plugin defaults are appropriate.)
+
+# ── Stage profiles ───────────────────────────────────────────────────────────
+
+[profiles.pre-commit]
+# Pre-commit hook gate. HARD violations block; WARN reported but allowed.
+# Matches legacy inline-check severity model so .husky/pre-commit can flip.
+checks = [
+  "cjk-punct",
+  "frontmatter-title",
+  "footnote-format",
+  "wikilink-target",
+  "link-target",
+  "format-structure",
+]
+fail_on = "hard"
+
+[profiles."rewrite-stage-3"]
+# REWRITE-PIPELINE Stage 3 (Verify): quality-scan ≤ 3 budget.
+checks = ["prose-health"]
+fail_on = "score-budget"
+
+[profiles."rewrite-stage-3-5"]
+# Stage 3.5 FactCheck — citation health.
+checks = ["footnote-format", "footnote-density"]
+fail_on = "hard"
+
+[profiles."rewrite-stage-4"]
+# Stage 4 Format.
+checks = ["format-structure", "wikilink-target", "link-target", "cjk-punct"]
+fail_on = "hard"
+
+[profiles."rewrite-stage-4-5"]
+# Stage 4.5 Media.
+checks = ["image-health"]
+fail_on = "hard"
+
+[profiles.release-pr]
+# 全跑、嚴格 (both HARD and WARN trigger fail). 用於人工 release review。
+checks = "*"
+fail_on = "warn"
+
+[profiles.ci-deploy]
+# CI 自動部署 gate — 全跑、只擋 HARD violations。WARN 是 advisory（dashboard
+# + human review 看），不應擋 deploy。2026-05-04 加入：release-pr 對既存
+# 4,378 個 advisory WARN 無法在 CI 觸發點修完，需要分離 strict release
+# review (release-pr) 跟 deploy gate (ci-deploy) 兩個用途。
+checks = "*"
+fail_on = "hard"
+
+[profiles.dashboard]
+# 全跑、不擋、JSON output for site dashboards.
+checks = "*"
+fail_on = "never"

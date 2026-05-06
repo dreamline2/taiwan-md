@@ -9,6 +9,10 @@ author: 'Taiwan.md Translation Team'
 featured: true
 lastVerified: 2026-03-19
 translatedFrom: 'History/史前時代與原住民.md'
+sourceCommitSha: '800114ea'
+sourceContentHash: 'sha256:eba099f97dfd72b7'
+sourceBodyHash: 'sha256:8c391dd4c70e68f1'
+translatedAt: '2026-04-14T05:07:23+08:00'
 ---
 
 # 선사 시대와 원주민

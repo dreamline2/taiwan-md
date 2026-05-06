@@ -119,11 +119,11 @@
 # 0. SSOT 同步（⚠️ 必做！只改 knowledge/，sync 到 src/content/）
 bash scripts/sync.sh
 
-# 1. 空洞分數檢測（必須 ≤ 3）
-bash tools/quality-scan.sh --json 2>&1 | \
+# 1. 空洞分數檢測（HARD = 0，WARN ≤ 3）
+python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health --output=json 2>&1 | \
   python3 -c "import json,sys; d=json.load(sys.stdin); \
-  matches=[f for f in d['files'] if '[文章名關鍵字]' in f['file']]; \
-  print(f'Score: {matches[0][\"score\"]}') if matches else print('Score: 0 (PASS)')"
+  v=d.get('violations',[]); h=sum(1 for x in v if x['severity']=='HARD'); w=sum(1 for x in v if x['severity']=='WARN'); \
+  print(f'HARD: {h} / WARN: {w}')"
 
 # 2. Build 驗證（必須不炸）
 npx astro build 2>&1 | tail -3

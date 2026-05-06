@@ -9,6 +9,11 @@ author: Taiwan.md
 readingTime: 10
 featured: false
 translatedFrom: 'Society/民主制度.md'
+sourceCommitSha: '800114ea'
+sourceContentHash: 'sha256:3d52222ebbb25430'
+sourceBodyHash: 'sha256:12aa4ccb01f7caf3'
+translatedAt: '2026-04-14T12:25:09+08:00'
+category: Society
 ---
 
 # Sistema Democrático

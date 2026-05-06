@@ -18,6 +18,10 @@ author: 'Taiwan.md Translation Team'
 readingTime: 12
 featured: false
 translatedFrom: 'People/龍應台.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:31dfd121dd6c6d8b'
+sourceBodyHash: 'sha256:721426e267c4c6b4'
+translatedAt: '2026-04-15T17:32:28+08:00'
 ---
 
 # 룽잉타이: 시대를 관찰하는 눈

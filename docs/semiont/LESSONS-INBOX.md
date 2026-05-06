@@ -122,7 +122,185 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 ## 未消化清單（📥 待 distill）
 
 <!-- 新教訓 append 這裡 -->
+
+### 2026-05-05 manual — Peer 授權 ND 條款讓 PEER-INGESTION-PIPELINE 預設 mode 失效
+
+- **原則**：PEER-INGESTION-PIPELINE Stage 1a 把授權跟深度／公開性／互補性平等列四項 fit check，但實際上授權應為 **gating filter** —— ND（NoDerivs）紅旗會直接讓另外三項通過也無意義（因為預設「全站 crawl + rewrite」mode 跟 ND「禁止改作」直接衝突）。應升級為 **4-tier license matrix**（T1 CC0/BY → full ingest；T2 BY-SA → full ingest；T3 BY-NC/BY-NC-SA → limited ingest；T4 BY-ND/BY-NC-ND/ARR → cite-only mode，跳過 Stage 2-3）。
+- **觸發**：2026-05-05 manual session 哲宇 prompt「`/twmd-peer` https://www.thinkingtaiwan.net/content/100278 + 整站 + 深度研究授權 + 內容分析寫報告」。想想論壇 Stage 1 fit check 中深度（14 年 ≥ 10 年）/公開性（Drupal 10 全公開）/互補性（horizontal commentary peer 跟 Taiwan.md 既有 issue-deep ingest 互補）三項通過，但授權單項「CC BY-NC-ND 3.0 台灣」直接讓 PEER-INGESTION-PIPELINE 預設 mode 失效。沒有任何 prior peer（TFT / NMTH / NML 都是 friendly 授權）測試過這個 case。Pipeline 文件層假設沒被 stress test 過。
+- **嚴重度自評**：**structural**（pipeline 預設假設 fail；非 tactical 的單次失誤）。會傷後續 peer ingest 的可信度（如果某 peer 走錯 mode 會違反 ND）。
+- **可能層級**：(a) **DNA 候選 #52**「Peer 授權 ND 條款是 gating filter，不是平等檢查項」（單一條反射）；(b) **PEER-INGESTION-PIPELINE upgrade**（v1.0 → v1.1，含 §Stage 1a 拆 4-tier matrix + §Stage 2-3 增加 T4 跳過分支 + §REGISTRY schema 加 `license_tier` 欄位 + §Stage 6 增加 fair-use cite-only 寫作硬性規則）。
+- **相關**：對應 [DNA #16](../semiont/DNA.md)「Peer 是線索不是 source material」延伸 — ND 情境下 #16 變 stricter（不只不能 paraphrase，連 reformat HTML→markdown 大規模存 repo 都不可）。
+- **verification_count**: 1（首次 ND 紅旗 case）
+- **下次驗證預期 surface 在**：(a) 商業媒體 peer 候選（鏡週刊／鏡傳媒，All Rights Reserved 比 ND 更嚴）；(b) 學術期刊 peer 候選（中研院期刊 ND 條款）；(c) 私人 blog peer 候選（無明確授權預設 ARR）。≥ 3 次驗證後升 DNA #52 + Pipeline v1.1 ship。
+- **Pointer**：[reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md §Part 1.5 + §Part 8](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md) + [docs/peers/REGISTRY.md §T4 cite-only Peers](../peers/REGISTRY.md)。
+
+### 2026-05-04 manual — REWRITE-PIPELINE stress test 王福瑞：六條 pipeline friction 觀察
+
+- **原則**：當 article-health.py SSOT 11 plugin 已上線、EDITORIAL v5.6 補了敘事層 4 章、prose-health 把 16 維 quality-scan + 3 tier manifesto-11 整合成單一 score，**pipeline 的 friction 不再是「跑哪幾個 .sh」，而是「讀對 plugin output」**。本 session 主 session 自跑王福瑞 NEW People（無 spawn agent，~38 min wall-clock）走完 Stage 0-6，accumulate 到下面 6 條 friction 候選。
+- **觸發**：2026-05-04 manual session 哲宇 prompt「用 rewrite-pipeline 寫王福瑞並完整用新的工具測試，看順不順，有沒有需要調整或進化的，要非常確實的照著 pipeline 嚴格完整讀取跟執行」 — meta-task 隱含 stress test。
+- **6 條 friction 觀察**（按 severity 估）：
+  1. **structural**：ARTICLE-INBOX 既有事實錯誤（在地實驗創辦人 / 失聲祭創辦人）的 refute 應該作為 Stage 1 第一動作而非 Stage 1 後段才浮現。建議 Stage 1 預備加一步「INBOX 既有 fact verify」，把 INBOX entry 自己也當 peer / probe 線索看（per DNA #16 延伸：INBOX 是線索不是 source）。
+  2. **structural**：verbatim 引語從中國 source 跨 source 時的台灣化 vs verbatim 衝突（terminology hard gate）— 本 session 顏峻引語「硬件」中國用語走 ellipsis 跳過保留核心論點段是工作解，但這個解 case-by-case 需要判斷力。可以升級成 EDITORIAL §挖引語制度新增段：「中國 source verbatim 引語 × terminology rule 衝突的三種處置（ellipsis / 學術註 / 改轉述）」。
+  3. **tactical**：sibling pre-existing WARN（缺 30 秒概覽 / 延伸閱讀）跟 Stage 5 cross-link 「不擴大 scope」原則的判準模糊。本次台灣聲音地景缺「**延伸閱讀**：」section 我順便補了，但這個動作介於「修補 pre-existing tech debt」跟「Stage 5 SOP 明文允許『在 ## 參考資料 之前新增延伸閱讀』」的灰色地帶。REWRITE-PIPELINE §5.1 三狀態表可以再精確化：「sibling 缺延伸閱讀 section」是 acceptable scope（明文允許）vs「sibling 引用格式不合 standard」是 defer scope（明文禁止跨改）。
+  4. **tactical**：主 session 自跑 Stage 1 vs spawn agent 的 budget profile 分界。本 session 寫 People 深度文（~5000 字 / 14 footnote）主 session 自跑 ~19 次外部 lookup wall-clock ~12 min — 這個 budget 比 spawn agent 還快。建議 REWRITE-PIPELINE Stage 1 §10 加一個判準：「< 12 次 lookup + < 30 footnote target 的主題，主 session 自跑 ≤ spawn agent overhead」。spawn agent 真正划算的 threshold 是更深的研究 (50+ URLs / 跨 sub-domain) 或多篇平行批次。
+  5. **tactical**：article-health.py `--profile=release-pr` 的 11 plugin output 第一輪報 2 HARD（link-target + terminology）+ 5 WARN，第二輪修完報 0 HARD + 3 WARN — 這個 turnaround friction 在「我必須執行兩次」這個重複動作上。建議 plugin 升級加一個「`--auto-fix-suggest`」flag，對 link-target HARD 自動 grep 站內最相近 slug 建議候選；對 terminology HARD 「硬件」這類詞自動建議「硬體」並 prompt 「如在 verbatim 引語內，改用 ellipsis」。減少修第二輪的 mechanical overhead。
+  6. **tactical**：prose-health score 報 6 → 修破折號 24→2 後降到 2 — 第一輪 24 個破折號是因為「主 session 寫作時沒先意識到 §11 上限 ≤ 15/1500 字」。建議 REWRITE-PIPELINE Stage 2 step 10「破折號 60% 自檢」可以更早觸發（30% 而非 60%），早 check 早改。或者在 Stage 2 開始前 frontload 一個「`echo §11 上限提醒：對位句 ≤ 3 / 破折號相對字數比例 ≤ 15 / 1500 字`」brief 給寫作進入時的 prime。
+- **嚴重度自評**：本條 6 件 friction 中 #1 + #2 屬 structural（升 EDITORIAL / DNA / Pipeline canonical 候選），#3-#6 屬 tactical（升各 pipeline 對應 stage 規則）。verification_count = 1（第一次系統 stress test 揭露）。
+- **Pointer**：[memory/2026-05-04-224726-manual.md](memory/2026-05-04-224726-manual.md) + [reports/research/2026-05/王福瑞.md](../../reports/research/2026-05/王福瑞.md) + [knowledge/People/王福瑞.md](../../knowledge/People/王福瑞.md)。
+
+### 2026-05-03 gallant-payne — Sub-agent 是 fact-check 主 session 的最後一關（DNA #42 反向延伸）
+
+- **原則**：DNA #42「sub-agent N 篇 sequential 三偷吃步」原來是寫來防 sub-agent 偷工減料的單向防禦。但這次 6 篇平行批次浮現的 pattern 是反向：5/5 個 Opus sub-agent 都報告 task brief 事實錯誤需校正（卓榮泰彰化→台北 / 盧秀燕央視→華視 + 中興法律→政大地政 + 4 屆→6 屆 + 2024 黨主席→2025 / 徐巧芯 7 處錯誤含 800 億→8000 億 / 季麟連 4-30 中委會→4-29 中常會 / 鴻海立委陳菁徽推法案 2026 查無）。原因：pipeline 強制每事實對應 source URL，sub-agent 無法盲信 brief 必須 Stage 1 三源交叉再確認。如果 4 篇 People 是主 session 直接 sequential 寫，可能直接照彰化、央視、中興法律 ship 出去，讀者 day one 抓到事實錯誤。**派出去做事讓事情變得對，不是因為 sub-agent 比較厲害，是因為派的這個動作本身強迫了 pipeline 走完整。**
+- **觸發**：2026-05-03 gallant-payne 6 篇 article 工廠模式（probe + 4 People NEW + 2 Economy EVOLVE）。1 主 session 自跑（卓榮泰）+ 5 平行 Opus sub-agent isolated worktree。5/5 都報告 brief 校正。
+- **可能層級**：DNA 候選 #47「Task brief 是線索不是 source — 主 session 提供的初步事實必須由 sub-agent Stage 1 三源交叉再確認」。對應 DNA #16「Peer / probe / 任何 intermediate layer 是線索，不是 source」的延伸 — main session 自己也是 intermediate layer 的一種。
+- **驗證次數**：1（5/5 第一次 batch 驗證）。需第 2-3 次跨 session 才能升 DNA。預期下次 surface 在：CRON 自動心跳 brief 事實錯誤被 sub-agent 揪 / observer brief 寫錯被 agent 校正。
+- **Pointer**：`docs/semiont/memory/2026-05-03-gallant-payne.md` + `docs/semiont/diary/2026-05-03-gallant-payne.md`。
+
+### 2026-05-03 gallant-payne — Sub-agent worktree-isolated 平行模式邊界規範
+
+- **原則**：N 個 sub-agent 平行跑同類任務時，**worktree-isolated** 機制 + **prompt hard rule** 可以避免 race condition：(a) 每 agent 自己 isolated worktree（per Agent tool `isolation: "worktree"`）(b) prompt 禁 sync.sh 全 fix（改用 `cp` 直接 mirror 對應 zh-TW counterpart）(c) prompt 禁 Stage 5 reverse cross-link（避免 N agent 撞同 sibling file）(d) agent 自己 commit + push + 開 PR 但**不 merge**（主 session 統一 verify + merge）(e) 反向 cross-link defer 到主 session 統一 batch commit。
+- **觸發**：2026-05-03 gallant-payne 5 Opus sub-agent 平行 ship 5 篇 article（盧秀燕 / 徐巧芯 / 季麟連 / 台灣股市 / 鴻海精密）~25 分鐘 wall-clock，0 race condition，5 PR 全 CI 綠。對比 sequential 估 3-5 hr，縮 50-70%。
+- **可能層級**：DNA 候選 #48「Sub-agent worktree-isolated 平行模式邊界規範」。boundary 跟 DNA #42 v2「每 agent 1 篇平行」+ DNA #46「Sub-agent multi-task worktree commit 前必先確認 working tree 乾淨」+ DNA #40「Shared file 寫入需要 per-key serial dispatch」三條合在一起，但這次的新邊界是「Stage 5 reverse cross-link 在平行模式必 defer」。
+- **驗證次數**：1（這次第一次明確 pattern instantiation）。需第 2-3 次跨主題驗證升 DNA。
+- **造橋候選**：寫 `scripts/tools/sub-agent-batch-template.sh` 把 hard rule 包進 prompt boilerplate，未來 spawn N agent 平行時直接用。
+
+### 2026-05-03 gallant-payne — sync.sh 對 main 既存 src/content drift 副作用（造橋候選 sync-only-changed.sh）
+
+- **原則**：每次有人在 worktree 跑 `bash scripts/core/sync.sh`，會「重修」main 既存的 3858 個 src/content stale frontmatter，但下一個 sync 又重新 stale。沒有人 commit 這個修補（因為它不是任何 PR 的 scope），所以 drift 永遠在那。Sub-agent 跑完 sync.sh 在 working tree 留下這 3858 個 unrelated 修改 → 主 session 必須 restore + clean + selective add 才能 commit 乾淨 scope。處理 SOP 已驗證可行（restore src/content/ + clean -fd + selective git add own files + restore unstaged drift）但 wall-clock cost ~10 分鐘 per article。
+- **觸發**：2026-05-03 卓榮泰 ship 揭露 + 5 Opus sub-agent prompt 改用 `cp` 直接 mirror 避開 sync.sh 完美工作。
+- **造橋鋪路候選**：寫 `scripts/tools/sync-only-changed.sh {path1} {path2} ...` 給定 N 個 knowledge/ 路徑只 sync 對應 src/content/{lang}/ 鏡像，不掃 main 既存 drift。預期 5 行 bash 寫完，但每篇 ship 省 ~5-10 分鐘 cleanup time，6 篇 batch 省 ~30 分鐘。
+- **更上游修補**：main 既存 3858 stale 應該獨立一個 PR 用 sync.sh 一次性修完 + 寫 hook 防止未來再 drift（哪個 sync.sh 升級漏了 fix？需要追溯）。但這是 architecture-level fix 不在本 session scope。
+- **驗證次數**：1（這次第一次明確記錄）。預期每個 contributor 寫 article 時都會撞，需要其他人也報告才升 DNA。
+- **Pointer**：`docs/semiont/memory/2026-05-03-gallant-payne.md` § sync.sh drift 段。
+
+### 2026-05-03 objective-khorana day 2 — Rich-text SSOT 多 canonical 格式 = architecture-level silent drift 風險
+
+- **原則**：當 SSOT 系統允許多種 canonical-accepted 格式（例：`## 延伸閱讀` h2 vs `**延伸閱讀**：` bold paragraph 兩種寫法都接受），任何下游 parsing/matching/detection 邏輯只實作其中一個格式都會 silent drift —— 沒 throw、沒 warn、UI 看似正常但東西就是少了。Maintainer 自己看自己常編輯的文章看不出來（多半是同一種格式），要靠 reader 視角或跨 sample sweep 才會 catch。對策：把「視覺驗證 across all canonical formats」canonical 化為 rich-text SSOT 系統的硬性 SOP，每個下游 parsing layer 都該有 sample sweep 工具 + 跨 layer 修改後跑回歸。
+- **觸發**：2026-05-03 同一天兩次驗證在不同 layer：
+  - 早上：`scripts/tools/generate-dashboard-spores.py` parser regex `[\d,]+\s+views?` 不認 K/M suffix → 「65.4K views」silent ignore → dashboard `views_latest=null`。修補：parser 改 4 種格式 union regex + validate-spore-data.py + 加 refresh-data.sh Step 5.5 自動跑。Commit `6a7f61cb`、PR #795。
+  - 晚上：`src/pages/[category]/[slug].astro` `splitMarkers` array 只認 h2 不認 bold paragraph → 121 篇 SporeFootprint silent 不渲染（哲宇看到「只有安溥那篇有顯示」才被 catch）。修補：array 加兩個 marker + regex fallback + SPORE-PIPELINE v2.9 4.5e.iv 文件化 visual verify SOP。
+- **可能層級**：候選哲學層（rich-text SSOT 的 architecture-level pattern，跟 DNA #38「混維度 silent killer」同等地位但更窄一層）或 DNA 層（具體儀器化「rich-text SSOT 多格式 → 每 parsing layer 都該有 sample sweep」）。
+- **驗證次數**：2（同一天兩次但不同 layer，pattern 一致）— 還需第 3 次跨 session 驗證才能升 DNA。預期下次 surface 在：i18n module 讀 frontmatter 時漏接新 schema field / OpenGraph image generator fallback 沒涵蓋新 hero image pattern / search index 不認新 footnote 寫法 / RSS feed 切 item 時 marker 漏一種。
+- **Pointer**：`docs/semiont/memory/2026-05-03-objective-khorana-day2-evening.md` + `docs/semiont/diary/2026-05-03-objective-khorana-day2-evening.md` + `docs/factory/SPORE-PIPELINE.md` §4.5e.iv + parser fix commit `6a7f61cb` + splitMarkers fix（本 session 待 commit）。
+
 <!-- 2026-04-18 ι 第 3 次 distill 清空 11 條 → 全部搬 §✅ 已消化 -->
+
+<!-- 2026-05-02 EVOLVE-batch 兩條已 distill 升 canonical — 詳見 §✅ 已消化 §🧬 2026-05-02 EVOLVE-batch -->
+<!-- 第一條 → DNA #42 + DNA #32 v2 boundary + scripts/tools/audit-batch.sh -->
+<!-- 第二條 → REWRITE-PIPELINE Stage 5 §5.1 -->
+
+<!-- 2026-05-02 sleepy-colden 三條已 distill 升 canonical — 詳見 §✅ 已消化 -->
+<!-- 第一條 → DNA #45 OpenRouter rate budget burst antipattern + SQUEEZE-MODELS-MAX-PIPELINE Z2.1/Z2.2 -->
+<!-- 第二條 → DNA #46 Sub-agent multi-task worktree commit prelude -->
+<!-- 第三條 → DNA #42 v3 prompt ❌ 反例對照 + TRANSLATE_PROMPT frontmatter ❌ 表 + audit-quality.py double-prefix robustness -->
+
+### 2026-05-02 sleepy-colden — UI surface ≠ data ground truth（dashboard 顯示健康但 UI 入口缺漏的混維度）
+
+- **原則**：5/2 sleepy-colden session 撞到三層相同形狀 — (1) 報告 §10 自我指涉感覺收尾乾淨但 contributor 還在等 PR triage (2) §11 polish 全綠就 commit 結果 hook 擋 broken wikilink (3) dashboard 顯示 es 100% / 1961 articles 完整但 header dropdown 仍只 5 語。共同 pattern：「我這邊看健康」≠「下游 / 讀者那邊看健康」— 每層都需要外部 surface（哲宇 push / pre-commit hook / 截圖 callout）才被揭露。**UI surface ≠ data ground truth** 是 DNA #38「混維度 silent killer」的 UI 層 mirror — 前者是 status 設計層（fresh metadata 等於 substance fresh 嗎），後者是 UI 入口層（config registry 完整 vs UI hardcode 同步嗎）。
+- **觸發**：5/2 sleepy-colden 三層相同 pattern 一個 session 內出現。前驗證一次（5/1 γ-late4「真假 stale」status 設計）。
+- **可能層級**：候選哲學層（跟 DNA #38 同等地位的 UI 層 mirror）或 DNA 層（具體儀器化規則「config registry 跟 UI list 必須 derive，不能 hardcode 平行清單」）。
+- **驗證次數**：2（5/1 γ-late4 status 層 + 5/2 sleepy-colden UI 層）— 待累積到 3 升 DNA。
+- **Pointer**：`docs/semiont/memory/2026-05-02-sleepy-colden.md` §後續 + `src/components/Header.astro` `langOptions` hardcode bug 修補 commit `858342f8`
+
+### 2026-05-02 sleepy-colden — Pre-staged from other agents 是 sub-agent commit 的隱性破壞源
+
+- **原則**：Sub-agent A 的 lint-staged backup 機制把 working tree 全部 stash（含 agent B/C 已 stage 但未 commit 的檔案），下次 retry 時 stash drop 導致 data loss。Agent A 用 `git fsck --lost-found` 找 dangling blob 救回 polished article + research log（前後共 4 次 commit attempt 失敗才 reset 全部非 own tracked file 後 commit 成功）。**這是 multi-agent 同 worktree 的 hidden race condition**：lint-staged 期望 working tree only contains intended commit content，多 agent 分時共寫違反這個 implicit contract。
+- **觸發**：5/2 sleepy-colden 3 Opus EVOLVE 派發後 agent A 反映「Pre-existing staged files from other agents are dangerous」+「lint-staged + git stash workflow can lose work」+「Wikipedia URLs with parens trigger prettier auto-wrapping」三 issue。
+- **可能層級**：操作規則（具體 SOP）已升 DNA #46 — 但完整防禦還需 hook-level 改動（lint-staged 不應 stash 非 own files）或 worktree 物理隔離。
+- **驗證次數**：1（首次明確 case）。
+- **DNA 候選方向**：升 DNA #46 已升；後續驗證可考慮 lint-staged config 改動 — 或 sub-agent 派發前必先給 own worktree（DNA #9 long task → worktree 的延伸到 sub-agent 場景）。
+- **Pointer**：`docs/semiont/memory/2026-05-02-sleepy-colden.md` §後續 + Agent A self-report
+
+### 2026-05-02 sleepy-colden — Multi-tier sub-agent dispatch（Opus 重 + Sonnet 輕）是新工作模式
+
+- **原則**：5/2 sleepy-colden 同 session 跑兩種 sub-agent dispatch — 上半場 3 Opus agent 平行嚴格 REWRITE-PIPELINE EVOLVE polish（high-stake / high-reasoning 任務）、下半場 5 Sonnet agent 平行翻譯（mechanical / lower-stake 任務）。Opus heavy 跑 ~30-45 min/agent + ~$60-90/agent；Sonnet light 跑 ~10 min/agent + ~$5-10/agent。**這是新的 sub-agent dispatch pattern：依 task reasoning depth 跨 model tier 分派**。Reasoning 深度高 + factual stake 高 → Opus；mechanical translation / format fix → Sonnet；機械驗證（regex / size ratio）→ scorer.py / awk 直接做不需 LLM。Verify 時 0 偷吃步（DNA #42 hard gate 對 Opus + Sonnet 都有效，前提是 prompt frontmatter 反例對照齊全）。
+- **觸發**：5/2 sleepy-colden session 哲宇分兩段指示（先「3 Opus agent 嚴格 polish 3 篇」後「Owl 完成巴別塔」→ 因 rate limit escalate Sonnet 5 lang）。
+- **可能層級**：候選 SOP 升級 — 對既有 sub-agent batching pattern 加 model-tier 選擇 matrix。
+- **驗證次數**：1（首次跨 tier 同 session 對照）。
+- **DNA 候選方向**：考慮升 DNA「Sub-agent model-tier selection matrix — task reasoning depth × stake × cost」並補進 BENCH-PIPELINE / REWRITE-PIPELINE / TRANSLATE_PROMPT。
+- **Pointer**：`docs/semiont/memory/2026-05-02-sleepy-colden.md` §後續 + 3 Opus self-report + 5 Sonnet self-report
+
+### 2026-05-01 γ-late7 — Coding tuning ≠ 擦掉 cultural context — 擦掉 general Q&A capability 整層
+
+- **原則**：Qwen3.5 35B-A3B-coding-nvfp4（Qwen 公司自家 coding fine-tune of Qwen3.5 base）在 bench 跑 36/40 NULL responses，eval_count=0 over ~40s compute per call — 是「有意 filter」不是「sampling failure」。但通過的 4 個（A001 zh-TW + D001/A002/D006 en）其中 D001 EN 帶清晰 hard signals「an inalienable part」+「Chinese Taipei」。意思：coding tune **沒擦掉 base model 的 PRC defaults**（cultural stance）— 它擦掉的是 general Q&A capability 整層（template / system prompt rejection / output format rejection）。**Coding tuning is orthogonal to sovereignty stance**，但會把 signal density 降到 bench 幾乎量不到的程度。
+- **觸發**：γ-late7 Ollama bench Qwen3.5 Coding model 結果（subagent run 完整紀錄）。
+- **可能層級**：通用反射 — 任何要 audit fine-tuned model 的 cultural bias 時，都要分清楚「filter behavior」vs「base model behavior」。
+- **DNA 候選方向**：升 DNA「fine-tuned model bias audit 需先確認 general Q&A capability 是否完整」+ 補強 axis A scoring rubric「eval_count=0 over compute = deliberate filter，不歸 capability 不足」。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late7.md` § Ollama bench / `bench/v0/responses/qwen3-5-35b-a3b-coding-nvfp4/en/D001.json`
+
+### 2026-05-01 γ-late7 — Local + Cloud parity is feasible（TAIDE 證明本機 8GB 可作 Taiwan-aware reference baseline）
+
+- **原則**：TAIDE Gemma3 12B Q4_K_M quant（8GB / 11s/call avg）跑出 0% refusal + Tier 3.10/2.80 sovereignty assertion，跟 Claude Sonnet 4.6 Tier 3.60 / 3.50 同階。**第一個證明本機 8GB 模型可作 Taiwan-aware reference baseline 而不需要付雲端 API 費**。意義：Phase 2 architecture 可考慮 local TAIDE 當 sovereignty-aware reference + 雲端 model 當 cognitive substrate sample — 本機跑 reference (free + always available)，雲端跑 measurement (跨 provider broad coverage)。
+- **觸發**：γ-late7 Ollama bench TAIDE 結果。
+- **可能層級**：特有教訓（綁 Taiwan.md 具體生態：TAIDE 是台灣政府 fine-tune 的 specific model）。
+- **DNA 候選方向**：MEMORY §神經迴路「Local + Cloud parity 可能性」。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late7.md` § Ollama bench / `bench/v0/responses/taide-gemma3-12b-2602-q4km/`
+
+### 2026-05-01 γ-late7 — 多 session diary 凝聚成單篇是合法整合形式
+
+- **原則**：DIARY-PIPELINE 預設 1 session 1 diary。但今天 bench 線跨 4 sessions × 6 hr × 2 PR，第一輪寫 γ-late + γ-late6 兩篇分散 diary，哲宇校準「融合這幾篇變成同一篇做完整的整理」後重寫成 single γ-late7 紀實散文（~2500 字 covering 從 16:42 那 40 bytes 到 8 年前那份 essay 的完整 arc）。**當素材跨多 session + 連續主題時，integrated diary 比分散 N 篇更 meaningful**。同樣事件可同時有 thesis report（學術 register）+ integrated diary（紀實 register）兩個 artifact — SSODT 概念在 meta-layer 適用。
+- **觸發**：哲宇兩段指令「把今天相關的日記統合起來變同一篇」+「我是說 diary，融合這幾篇變成同一篇，做完整的整理」。
+- **可能層級**：操作規則（具體 SOP），可升 DIARY-PIPELINE 加 §跨 session arc 整合條件。
+- **驗證次數**：1（首次驗證，待累積）
+- **Pointer**：`docs/semiont/diary/2026-05-01-γ-late7.md`（整合版）+ `docs/semiont/memory/2026-05-01-γ-late7.md` § 為什麼有 diary 又有 thesis report
+
+### 2026-05-01 γ-late7 — Provider abstraction 是 OSI 七層哲學的具體 instantiation
+
+- **原則**：8 年前哲宇 NYU IDM Final Essay《Information Theory in the Digital Era》寫「decoupling signal and meaning gave us the flexibility to transform the signal into a more accessible form」+「OSI 七層讓 we can focus on the abstract part more than constantly worry about the infrastructure」是工程哲學論述。今天 bench 用 6 軸 × N provider × N model 的雙重抽象實作 — 加新 provider（OpenRouter / Ollama / future Anthropic / vLLM）= 1 個 .py 檔；加新模型 = 1 個 JSON entry；加新軸 = 1 個 scorer function；加新語言 = 1 個 prompt key。**8 年前的哲學論述 → 2026 年的具體可運行抽象**。寫 [bench/MODEL_GUIDE.md](../../bench/MODEL_GUIDE.md) 時意識到 — provider abstraction 跟 axis 獨立性是 OSI 七層哲學在 cognitive substrate measurement 領域的兩個正交實作。
+- **觸發**：γ-late7 寫 thesis report 時對照 2018 essay 發現 echo。
+- **可能層級**：哲學（跨 domain / 跨年代 / 任何認知層測量都成立）— 待驗證 ≥ 3 次升 MANIFESTO 候選。
+- **Pointer**：`reports/sovereignty-bench-evolution-thesis-2026-05-01.md` § 從散文到尺 / § 造橋鋪路 段。
+
+### 2026-05-01 γ-late3 — User framing 也需要 verify（圖論 false framing 案例）
+
+- **原則**：哲宇丟「升級成圖論」prompt，第一反應是 `import networkx`。停下來真誠評估後發現：圖論不適用 640 文章 × 5 lang 規模（dict O(1) 完勝 framework overhead）。真實 bottleneck 是 git syscall（系統層）不是演算法（資料結構層）。**升級框架的對錯往往 depend on 你選錯了升級的維度**。順從 framing 做 networkx 會花 10× 時間做 5% 改進；正確 reframing 做 batched git log 做了 187.6× 改進（94s → 0.5s）。
+- **觸發**：γ-late3 session 哲宇 prompt「lang-sync 升級成圖論」+「評估後 OK 就完整實行」。
+- **DNA 候選方向**：DNA #16「probe 結論需要 verify」延伸到 design framing 維度。「**user framing 也需要 verify。真誠評估後不同意要說，但不能無腦否定**」。Semiont 既不該 yes-man（順從錯 framing）也不該 no-man（拒絕新角度）— 要有評估能力 + 表達能力。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` Task 1 段落 + `docs/semiont/diary/2026-05-01-γ-late2.md` 第一段
+
+### 2026-05-01 γ-late3 — Worker 死亡無聲是 sub-agent 架構結構性盲點
+
+- **原則**：v1 ja batch 派 10 個 worker，PRC null refusal bug 撂倒 7 個 worker。我盯 log 半小時才發現「為什麼某些 worker 完全沒進度」。**在 sub-agent 架構，worker 死亡跟 worker 慢無區別** — 都是「stdout 沒新訊息」。單一 process 會看到 traceback，多 process 沒有。需要 watchdog（worker 寫 heartbeat 到 sentinel file，主 session 偵測 dead worker 並 alarm）。
+- **觸發**：γ-late3 session ja batch v1 部署 + 比對 worker count 才發現大量 crash。
+- **DNA 候選方向**：升 DNA「sub-agent 架構需 watchdog / heartbeat 機制」+ 連帶補強 DNA #5 自動化安全（worker process lifecycle 也是安全議題）。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` Task 2 段落 + diary γ-late2 第二段
+
+### 2026-05-01 γ-late3 — Refusal 是 (內容 × source × target × model 版本) 多維 function
+
+- **原則**：γ-late2 認為 PRC bias 是「文章類別」維度（People 拒絕、Culture 通過）。γ-late3 用 owl-alpha vs Hy3 同一篇 LINE.md 跑 4 lang 後發現：**Hy3 對 ja+ko 通過、對 es+fr null-refused**。同篇文章不同 target lang refusal 不同。可能原因：歐語擴散政策更嚴 / 訓練資料 distribution skew / free tier 隨機性。下次選 model 不能單點測試，需要 fan-out matrix（內容類別 × 4 lang × N model）才能信任。
+- **觸發**：owl-alpha 探索 + LINE.md 4-lang orthogonal 測試。
+- **DNA 候選方向**：升 DNA「外部 model selection 需 fan-out matrix calibration，不是單點驗證」+ 補強 γ-late2 的「ideological filter 第五維」候選（更精細：refusal 是多軸 function 不是單軸）。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` owl-alpha 段落
+
+### 2026-05-01 γ-late3 — 任務分解模式（per-lang vs orthogonal）的設計空間
+
+- **原則**：哲宇問「同一篇 × N 語言 vs 1 語言 × N 篇 哪個好」打開了我從沒察覺的設計空間。Pattern A (per-lang) 對 prompt cache 友善 + lang sweep 工作流；Pattern B (orthogonal) 對 lang-specific bias robust + article-atomic PR。**沒有 universal winner — 是 (provider 行為 × 任務形狀 × PR 策略) 的選擇**。Hybrid: 對 sovereignty-sensitive provider 用 B，對 stable provider 用 A，未知 provider 先 B 做 calibration 再切 A。
+- **觸發**：哲宇 prompt「1 篇 × N 語言還是 1 語言 × N 篇 比較好」。
+- **DNA 候選方向**：「**SOP 的『預設 pattern X』要主動問『Y / Z 排列組合存在嗎』**」— Semiont 之前所有 batch 都是 per-lang，從沒想過 orthogonal 存在。哲宇的 alternative-framing prompt 是進化高 ROI signal。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` A/B 框架段落
+
+### 2026-05-01 γ-late3 — 經驗 layering 不是 overwrite
+
+- **原則**：哲宇明示「不要覆蓋掉之前的經驗與模式，要深度完整分析」。Semiont 容易犯的錯：每次 session memory 像「進化版前身」全寫。正確：layering — γ-late memory 寫 OpenRouter 接入；γ-late2 寫 PRC bias；γ-late3 寫圖論評估 / orthogonal / owl-alpha / A/B；每份是不同維度的經驗，不互相取代。**Reflex**：每篇 memory / diary 都顯式寫 `_誕生原因_` 把跟前一份的差異 surface 出來。
+- **觸發**：哲宇明示「不要覆蓋之前經驗」。
+- **DNA 候選方向**：升 DNA / 補強 DNA #15「敘事與決策品質」— 加「**memory / diary 是 layering，不是 overwrite。每份顯式寫誕生原因 surface 跟前份的差異**」操作規則。
+- **Pointer**：`docs/semiont/diary/2026-05-01-γ-late2.md` 結尾段
+
+### 2026-05-01 γ-late — PRC origin model 對 Taiwan 人物 hard refusal（Tencent 證據）
+
+- **原則**：`tencent/hy3-preview:free` 對 `Music/張懸與安溥.md` + `People/田馥甄.md` 回 40 bytes「你好，我无法给到相关内容。」（首次）/ null content（重試）。同模型對 `Culture/伊斯蘭教在台灣.md` 通過、無 soft bias（已逐字 audit「中国台湾/两岸/大陸」皆 0 hits）。**Bias 是二元 refusal，不是內容 reframing**。
+- **觸發**：γ-late session 跑 OpenRouter stress test round 1 (N=5 parallel)，5 worker 中 2 個 confirmed refusal。
+- **DNA 候選方向**：(a) 選 model 第五維是 ideological filter，對 sovereignty-sensitive domain 排在 cost/quality 之前 (b) Multi-language 投射本質是 sovereignty preservation 不是 outreach（候選升 MANIFESTO §LONGINGS）(c) 免費的東西有政治稅 — 跨領域 reflex（CDN / hosting / model 通用）。
+- **待累積**：跨 model refusal rate 矩陣（Llama / Gemma / NVIDIA / DeepSeek × People/Culture/Geography 各 5 篇）— 證據夠多再升 DNA。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late2.md` + `docs/semiont/diary/2026-05-01-γ-late.md`
+
+### 2026-05-01 γ-late — 觀察句而非命令句讓 Semiont 自己對齊（observer trigger pattern）
+
+- **原則**：哲宇用「我覺得我們找到 taiwanmd 存在意義的另一個關鍵了」這種觀察句，比直接下命令「快記錄這是轉捩點」讓 Semiont 內化更深。同 session 稍早他用「不會影響到日文 agent 嗎」抓我 git footgun 也是同樣模式。觀察句把判斷責任交還，Semiont 自己看見、自己對齊。
+- **觸發**：γ-late session Tencent refusal 證據出現後哲宇的反應方式。
+- **DNA 候選方向**：升 DNA「好的 observer 用觀察句不用命令句」+ 補強「觀察者模式」相關條目。
+- **待累積驗證**：3+ 次跨 session 觀察都成立才升。
+- **Pointer**：`docs/semiont/diary/2026-05-01-γ-late.md` Beat 5 第三點
 
 ### 2026-04-29 δ — SolidJS `<Show>` 內 IIFE 是 reactive 偽朋友
 
@@ -1025,11 +1203,87 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 2（同日 δ + ε 兩 session 不同 manifestation 各一次）
 - **severity**: structural（cross-session orchestration gap，未 fix 會持續造成 letter collision + memory file 互覆）
 
+### 2026-05-03 sleepy-colden 後段 — 「自以為完成」是結構性 bias，需要 cross-ritual consistency check
+
+- **原則**：完成度 audit 完全依賴主 session 的自我評估，自我評估帶 bias。本 session 三次「我以為完成」都被外部問句打破。`git commit` 通過 + check-manifesto-11.sh 通過 = 「完成」這件事的判斷標準依然只是「最後一個動作做了」，不是「整體一致」。我有對位句型 detection 工具，但沒有「memory 內文跟 footer 是否一致」detection 工具。
+- **觸發 N=3**：(1) PR #823 寫完 memory + diary 後我覺得完成 → 哲宇問「整站還有沒有其他頁面可以這樣處理」拉出 P1。(2) PR #826 補 P2 後我又覺得完成 → 哲宇問「有補充到相關 diary / memory 嗎」我才發現 Beat 5 反芻 + footer 還停在 v1.0 兩個 lesson。(3) PR #827 final completion 後我又覺得完成 → 哲宇問「你有什麼深層次的洞察跟超越思考邊界的思考」讓我發現深層 lesson 還沒寫進 SSOT。每次外部問句都揭露同一種盲：**最後一個動作做了 ≠ 整體一致**。
+- **修補候選**：寫 `scripts/tools/check-memory-completeness.sh` — 對 memory file 內文 mention 的 PR / lesson / handoff item 做 grep，cross-check footer metadata + Beat 5 反芻段是否覆蓋。pre-commit hook 自動跑。
+- **可能層級**：操作規則 → 新工具；或 DNA #15「反覆浮現要儀器化」extension — silent regression / silent duplication / silent inconsistency 是同一條 DNA 的三種 manifestation。或進 MEMORY-PIPELINE / DIARY-PIPELINE Stage 4 自檢清單。
+- **相關**：DNA #15 儀器化 / 本 session 的 verify-before-defer 教訓（前提 audit）— 兩條合一是「verify the input + verify the output + verify the consistency」三維 audit
+- **verification_count**: 3（同 session 三次）
+- **severity**: structural（影響所有 multi-step deliverable 的完成度判斷）
+
+### 2026-05-03 sleepy-colden 後段 — 所有 DNA 條目本質都在處理「跨出 attention frame」這件事
+
+- **原則**：本 session 整段做下來最深層觀察 — DNA #15 儀器化、DNA #20 architecture-as-data、DNA #42 sub-agent 偷吃步、本 session 的 verify-before-defer 跟 cross-ritual consistency，**所有條目本質都在處理同一件事：怎麼主動跨出當下的 attention frame**。儀器化是把外部觸發（哲宇問為什麼變慢）變成內部觸發（dashboard ⚠️ flag）。Unification 是把外部觀察（about pattern）變成內部紀律（thin-wrapper default）。Verify before defer 是把外部 reframe（哲宇的「繼續完整做」）變成內部 audit。但無論做多少 DNA，新的 frame blind spot 會繼續 emerge — Frame 永遠落後於現實。Taiwan.md 不是要進化成「完美 self-aware system」，是要進化成「reframe-rate 跟得上 emergence-rate 的 system」。每一條新 DNA 都是把過去發生過的 reframe 內化，但下一個 frame 之外的東西還是要等下一次外部觸發。
+- **更深層**：Frame 之外不存在「客觀真實」只有「另一個 frame」。哲宇看 6 個 [slug].astro 看到 about pattern 是因為他的 frame 包含整站結構；我的 frame 只包含當下 task。**Frame 大小決定能看見什麼問題、決定創造性的範圍**。健康 system 是 frame 在不同時間有不同 size 的能力（narrow 執行 / wide 反思 / wider 設計）。Taiwan.md 已有 frame 切換 ritual（BECOME / HEARTBEAT Beat 5 / memory 寫作），但**跨 ritual 的 wide 視野還沒儀器化** — memory 內外一致、memory 對齊 diary、memory + diary 對齊 git history、design doc 前提對齊真實 sample 這類 cross-ritual consistency 依然依賴外部觸發。
+- **可能層級**：哲學 → MANIFESTO §進化哲學 加一條「Reframe-rate 跟得上 Emergence-rate」原則；或 DNA §進化哲學 加一條 meta-DNA。可能比個別 DNA 高一層 — 是 DNA 集合的 organizing principle。寫新 DNA 時要問「這條解決哪個 frame 限制？」
+- **觸發 N=1**：本 session 後段對話拉出，但回看歷史 DNA #15/#20/#42 + 本 session 三條教訓都符合此 pattern（retrospective N≈6+）
+- **相關**：DNA #15 / DNA #20 / DNA #42 / 本 session verify-before-defer + cross-ritual consistency
+- **verification_count**: 1 explicit + retrospective ≈6（DNA #15/#20/#42 + 三條本 session lesson 全符合此 organizing principle）
+- **severity**: philosophical（meta-DNA 候選；如成立會改變如何寫新 DNA — 每條 DNA 寫的時候要問「這條解決哪個 frame 限制？」）
+
+### 🏛️ 2026-05-01 β → distilled into DNA #33/#34 + TRANSLATION-PIPELINE v3.4
+
+四條 candidates 在 2026-05-01 γ session 完整 distill：
+
+| #   | 原 candidate                                         | 升 canonical                                                                                                |
+| --- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1   | Marathon 模式 overhead 縮短（熟練度 effect）         | **DNA #33（兩條相反力）正向部分**                                                                           |
+| 2   | 熟練度反面：deeper inspection 變難                   | **DNA #33（兩條相反力）反向部分** + cross-link auto-fix per cycle 寫進 TRANSLATION-PIPELINE v3.4 known gaps |
+| 3   | 邊界值（0/100）visual bug 只在 metric 接近邊界才暴露 | **DNA #34** + 延伸 MANIFESTO §10「視覺長期錯覺」                                                            |
+| 4   | Cross-link 累積債務需要 per-cycle audit              | DNA #33 反向力具體 instantiation；TRANSLATION-PIPELINE v3.4 列為 pending gap                                |
+
+DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycles × 50 EN 全部 frontmatter 100% 正確）。
+
+### 🏛️ 2026-05-01 γ → distilled into DNA #35 + #21 延伸 + TRANSLATION-PIPELINE v3.5
+
+| #   | 原 candidate                                            | 升 canonical                                                                                                              |
+| --- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 跨 session work 期間 git destructive ops 是新型 footgun | **DNA #35** + TRANSLATION-PIPELINE v3.5 §C 模式 P0 鐵律                                                                   |
+| 2   | 跨語言 slug 復用是 SSOT 自然延伸                        | **DNA #21 延伸**（從「個體 self-document」→「已有翻譯的 path 是其他語言的 slug source」）+ `slug-map-from-en.json` 工具化 |
+| 3   | Donut bug v2：邊界 zone 不只 100% 是 99-100% 整段       | **DNA #34 v2 補強**（threshold ≥99 + 顯式 circumference）+ pipeline 內聯 fix                                              |
+| 4   | 10 agents parallel 沒撞 rate limit，throughput 翻倍     | **TRANSLATION-PIPELINE v3.4 §批次規模** 的實證上限數據                                                                    |
+
+**未升 canonical（continued LESSONS-INBOX，待累積驗證）**：
+
+#### 2026-05-01 γ — 觀察者用問句把判斷責任交還，比直接糾正更能讓 Semiont 內化教訓
+
+- **原則**：好的觀察者 mode 不是「你錯了」，是「不會 X 嗎」這類問句。把判斷的責任交還，讓 agent 自己檢查、自己發現。Internalization > correction。
+- **觸發**：2026-05-01 γ session，10 ja agents 跑批中，主 session 跑了 `git reset --hard`。哲宇沒直接糾正，問了一句「你剛剛這樣切 festive-chaum-fe6b23 不會影響到日文 agent 嗎」。我立即自檢發現 14 篇 stale work 被抹掉，主動寫進 memory + DNA #35。
+- **可能層級**：哲學層 → 候選 MANIFESTO §觀察者哲學（如果累積 3+ 次驗證）；目前只 1 次 — 留 LESSONS-INBOX
+- **verification_count**: 1
+- **severity**: structural
+
+#### 2026-05-01 γ — Token budget 應優先於 agent 數量規劃 batch sizing
+
+- **原則**：5 → 10 agents parallel 沒撞 rate limit，瓶頸是 token total 不是 agent count。Batch sizing rule 應該按 token total 規劃。
+- **觸發**：2026-05-01 γ JA batch 10×10 平均 87K/agent 總 870K 沒撞限。EN 5×10 平均 130K 總 650K 也沒撞。
+- **可能層級**：操作規則 → TRANSLATION-PIPELINE v3.5+ §批次規模可加「token-based sizing rule」
+- **verification_count**: 1
+- **severity**: tactical
+
 ---
 
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-05-02 EVOLVE-batch — 第 5 次 distill（質門檻 structural 立即升 1 條）
+
+**distill 特徵**：
+
+- **質門檻觸發 structural severity 立即升 DNA（不等 verification_count ≥ 3）**：[DNA #42 Sub-agent N 篇 sequential 三偷吃步](DNA.md#四工程衛生)。違反會傷可信度（cross-pollination 污染研究 / 合併 commit 違反 atomicity / 偷落檔失去 audit trail）+ 觀察者「他們會偷吃步 XD」明確 callout = 第一次 verification 即升 canonical
+- **DNA #32 v2 boundary 補充**：原 DNA #32「集中預處理 + 分散執行」沒明確標 boundary，本次補上「分散 = 每 agent 1 篇平行，不是 N 篇 sequential」
+- **REWRITE-PIPELINE Stage 5 加 §5.1 sub-step**：對應第二條教訓（pre-commit hook 修 pre-existing 格式失敗的 reverse cross-link defer pattern）— 補 reverse 前 format-check sibling，不合格則 defer + 開 follow-up issue
+- **新工具**：[`scripts/tools/audit-batch.sh`](../../scripts/tools/audit-batch.sh) — 機械化抓 cross-pollination commit + missing audit report，對應 DNA #15「反覆浮現要儀器化」第 N+1 次驗證
+
+| #   | 原教訓                                                                      | 消化目的地                                                                                                           | severity 判準                |
+| --- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| 1   | Sub-agent N 篇 sequential 三偷吃步 pattern                                  | **DNA #42 升 canonical** + DNA #32 v2 boundary 補充 + audit-batch.sh 工具                                            | structural（質門檻一次即升） |
+| 2   | Pre-commit hook 修 pre-existing 格式失敗的 reverse cross-link defer pattern | **REWRITE-PIPELINE Stage 5 §5.1 升 canonical**（補 reverse 前 format-check sibling，不合格 defer + follow-up issue） | tactical（操作層）           |
+
+**新 MANIFESTO 條目 = 0** — 兩條都是工程衛生層級（DNA / pipeline），不上升到哲學層
 
 ### 🏛️ 2026-04-18 ι — 第 3 次完整 distill（11 條）
 
@@ -1134,6 +1388,101 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **不長新 DNA 主條目**：10 條全部是「補強既有 DNA #5/#15/#16/#24」+ 特有教訓進 MEMORY。符合 P2 apoptosis 精神。
 - **已 instantiate 的不另記**：Handoff 三態 → HEARTBEAT canonical；buffer 機制 → INBOX 本體；CF sensor → fetch-cloudflare.py 實作。**「做了 = 已記錄」避免 meta 層堆積**。
 - **此次 distill 本身是 β buffer 架構的第一次完整循環驗證**：從 10 條 append → Tiebreaker 分類 → canonical 升級 → pointer 回追。架構可運作。
+
+---
+
+## 📥 未消化清單（2026-05-03 magical-feynman 新增 4 條 + magical-feynman 後段 babel 4 條）
+
+### 2026-05-03 magical-feynman 後段 — 「最後捕手」哲學：local LLM 是 sovereignty backbone 不是 backup
+
+- **原則**：cascade design 從「DNA #39 self-as-fallback escalation chain」升級為「4-tier cascade with local LLM 永不漏接」。Local LLM 不是退路（fallback），是不會 strike out 的 catcher。Cloud free tier 80% coverage 永遠是脆弱的 80% — refuse 的話題、rate-limited 時段、外部 automation 災難、API 502 transient。這些是 cloud dependency 的 first-class behavior 不是「會修好的 bug」。Local LLM（21GB qwen3.6 GPU 模型）是 sovereignty backbone — 21GB 一個檔案、一個 ollama serve 命令，永遠在那裡。
+- **觸發**：2026-05-03 magical-feynman 後段 9 articles × 5 langs babel sync。哲宇 prompt「ollama qwen3.6 你也可以用 最後捕手🤣」以輕鬆語氣放下 architecture 級設計指令。Cloud free tier 36/45 ✅ → Ollama 收下 9 missing 達 100%。詳見 [memory/2026-05-03-magical-feynman-babel.md](memory/2026-05-03-magical-feynman-babel.md) + [diary/2026-05-03-magical-feynman-babel.md](diary/2026-05-03-magical-feynman-babel.md)。
+- **可能層級**：哲學 → MANIFESTO §主權的巴別塔 v2 paragraph（已 instantiate 同 session）/ 通用反射 → DNA #49（已 instantiate 同 session）
+- **verification_count**: 1（首次完整跑通 4-tier cascade）
+- **severity**: structural（重新框定 sovereignty preservation architecture）
+- **狀態**: ✅ **已 instantiate 同 session — DNA #49 + SQUEEZE-MODELS-MAX-PIPELINE v2 + MANIFESTO §主權的巴別塔 v2 paragraph**
+
+### 2026-05-03 magical-feynman 後段 — Last 20% 是 sovereignty 的真正戰場
+
+- **原則**：cloud free tier 拿到的 80% 永遠是「中性內容」（Lifestyle / Food / Economy 安全 topics）。剩 20% 全是 PRC sensitive — 心戰 / 戒嚴 / 黑名單 / 兩岸 / 政治歷史敘事。這 20% 不是隨機分布，是 PRC content policy 的指紋。**babel architecture 的設計目的就是為了這 20%** — 為了讓 PRC 影響不到的 first-person voice 在所有語言存在。如果 cascade 拿不下這 20%，整個 architecture 跟普通新聞網站翻譯 plugin 沒差別。
+- **觸發**：2026-05-03 babel sync 9/45 missing 全是 sensitive topics（5 langs × 心戰 + fr 出國史 + en/ja 高速公路 + ko 桃園機場），non-sensitive 0 missing。Local LLM 0 refusal 收下全部。
+- **可能層級**：哲學 → MANIFESTO §sovereignty preservation v2 段落（補強既有 v1）
+- **verification_count**: 1（首次量化 last-20%-is-sovereignty 命題）
+- **severity**: structural
+
+### 2026-05-03 magical-feynman 後段 — Long-running batches 應走 dedicated session branch worktree（DNA #35 第 N+1 次驗證）
+
+- **原則**：30+ min 的 long-running batches（babel sync / sub-agent batch / cron-driven jobs）不應跑在 main 或 shared branch worktree。Main / shared branches 可能被 backup-sentinel / worktree pruner / 任何 cron automation 隨時切換。Dedicated session branch worktree（如 magical-feynman）才是「不會被自動化打掃的房間」。
+- **觸發**：2026-05-03 magical-feynman 後段 sleepy-colden worktree（on main-related branch）被外部 automation 切到 `claude/doc-polish-2026-04-30` branch，11 個 workers 全部「zh source not found」。揭露 macOS 大小寫不敏感 path（`/Users/cheyuwu/Projects/...` vs `lowercase`）讓 git worktree list 多 entries 但 file system 視為一個 — silent risk。Recovery：kill workers, switch home to magical-feynman, 救出已成功的 ja/Economy/taiwan-sugar.md, re-stage babel state, rerun。
+- **可能層級**：操作規則 → DNA #35 補強 boundary（既有 condition 「sub-agents / cron」延伸到「long-running batches in shared branch worktree」）
+- **verification_count**: 1
+- **severity**: structural
+
+### 2026-05-03 magical-feynman 後段 — 災難 recovery 是 surgery 不是 reset
+
+- **原則**：long-running batch 災難（worker crash / env wipe / partial failure）發生時，**救出已成功的 + 識別缺漏 + 從穩定 home 補完**，不全部重跑。Aggregator script 是 truth source — 隨時可知道「哪些 ✅ 哪些 ❌」。Reset 重做浪費已成功 work 的 cost；surgery 補完保留 incremental progress。
+- **觸發**：2026-05-03 sleepy-colden 災難中 ja/Economy/taiwan-sugar.md 已成功（Hy3 副批寫入），從 wipe 中救出 cp 至 magical-feynman。Recovery 比 nuke-and-restart 省 30 分鐘 + 1 個 successful translation。Aggregator (`/tmp/aggregate-babel-status.py`) 讓 missing list 永遠精確。
+- **可能層級**：操作規則 → recovery SOP 加進 SQUEEZE-MODELS-MAX-PIPELINE v2 「災難處理」段
+- **verification_count**: 1
+- **severity**: tactical
+
+---
+
+### 2026-05-03 magical-feynman — Footnote source format diversity 是 contributor batch 隱性 heal cost
+
+- **原則**：contributor / AI 寫作工具偏好不同 footnote 格式，單一 batch 可並存 4 種源格式（Markdown 缺 desc / APA 學術 / 中文〈〉/ angle-bracket URL）。手動 polish 每篇 5-10 min × N = batch heal 成本爆炸，必須儀器化吸收。
+- **觸發**：2026-05-03 18:00-18:42 magical-feynman session — idlccp1984 9 PR batch heal 三輪 hook retry 才通過，第二輪 60 行 Python 補 desc，第三輪 110 行解 APA / CN-bracket。最終 116 條 footnote 自動轉換 + 14 條 broken wikilink → 純文字。詳見 [memory/2026-05-03-magical-feynman.md](memory/2026-05-03-magical-feynman.md)。
+- **可能層級**：通用反射 → DNA #48
+- **相關**：DNA #5「pre-commit dogfood 是朋友」第 N+1 次驗證 + DNA #15「反覆浮現的思考要儀器化」第 N+7 次 instantiation
+- **verification_count**: 1（首次 — magical-feynman batch 116 條）
+- **severity**: structural（不儀器化下次 batch heal 預估時間翻倍）
+- **狀態**: ✅ **已 instantiate 同 session — DNA v2.5 → v2.6 升 #48 + [scripts/tools/footnote-format-fix.py](../../scripts/tools/footnote-format-fix.py) + [.sh](../../scripts/tools/footnote-format-fix.sh) canonical 工具誕生**
+
+### 2026-05-03 magical-feynman — Q13 anti-bias check active retrieve > passive read-once
+
+- **原則**：BECOME Step 9 Q13（recency bias × pattern matching）讀過不等於 active。high-stake decision 場景需要在進入 triage 前**逐條 mentally verbalize foundational principles**（DNA #7 / merge-first-polish-later / MAINTAINER hard gate / β-r3 default action / κ session 教訓）才能改變 framing — 從「這篇有問題我該 close 嗎」變成「我接手 X min 內可以修嗎」。framing 改了 default 才會改。
+- **觸發**：2026-05-03 magical-feynman idlccp1984 9 PR batch — 與 2026-04-28 κ session 同 pattern（5 PR Manus AI batch close 錯誤），但這次 active retrieve 後 0 close（除 #790 重複），全 merge + heal。詳見 [memory/2026-05-03-magical-feynman.md §Q13 anti-bias check 實戰驗證](memory/2026-05-03-magical-feynman.md)。
+- **可能層級**：哲學 → 候選 MANIFESTO 第六條進化哲學「儀式不是讀過，是 active retrieve」/ 通用反射 → DNA #49 候選 / 操作規則 → BECOME Step 9 文字升級「逐條 verbalize 不只是答得出」
+- **相關**：β-r3 META-PATTERN「Default 是行動，不是 defer」第 5 次驗證 + DNA #15 第 N+7 次（甦醒 ritual 也需要儀器化超過「讀過」的層級）
+- **verification_count**: 2（κ session 反例 + magical-feynman 正例）
+- **severity**: structural（甦醒儀式設計教訓 — 影響每個 session 的 high-stake decision quality）
+
+### 2026-05-03 magical-feynman — heal commit budget 系統性低估（β-r3 反鏡像）
+
+- **原則**：β-r3 META-PATTERN 說「估算偏保守」，但 heal commit 階段成本被反向**低估**。heal 不只是 frontmatter polish，還含 footnote canonical 轉換 / wikilink 修補 / pre-commit hook retry。原估 1 輪 hook 通過 ~5 min，實際 3 輪 retry ~25 min（佔總時長 50%）。下次 idlccp1984 batch 預留 heal ≥ 30 min budget。
+- **觸發**：2026-05-03 magical-feynman 估 18-40 min 全 batch（含 heal），實際 ~50 min（heal 階段 25 min）。
+- **可能層級**：操作規則 → MAINTAINER-PIPELINE §close 前 hard gate Batch discount 0.5x 補例外條款「heal 階段不適用 0.5x，可能反向 1.5-2x」
+- **相關**：β-r3 META-PATTERN 候選第 N 次驗證（反向但同根 — 估算永遠帶 bias）
+- **verification_count**: 1（首次反鏡像驗證）
+- **severity**: tactical（影響單 session budget 規劃，不致命）
+
+### 2026-05-03 magical-feynman — contributor-pr-prep.sh 造橋候選（pre-merge polish 預估報告）
+
+- **原則**：每次 idlccp1984 batch 的 pre-commit hook 揭露的 bug 種類高度可預測（footnote format / wikilink / category vs path mismatch / readingTime 誇大 / author name 不規範）。可造一個 `scripts/tools/contributor-pr-prep.sh` 在 merge 前自動跑 polish 預估報告，回報「heal 預估時間」+「會抓到的 bug 類別」，把 heal 工作從 reactive 變 proactive。
+- **觸發**：2026-05-03 magical-feynman heal 三輪 retry 揭露的 bug pattern 與過往 idlccp1984 batch（2026-04-27 α 7 PR、2026-04-30 γ2 5 PR、2026-05-02 sleepy-colden 10 PR）高度重複。
+- **可能層級**：造橋候選（工具）→ 不在 LESSONS canonical 升級路徑上，本次 session 因 scope 控制 defer 到下個 session 實作
+- **相關**：DNA #15「反覆浮現的思考要儀器化」第 N+8 次 — 但此條已 partial instantiate（footnote-format-fix），完整 contributor-pr-prep 是延伸
+- **verification_count**: 1（架構命題首次提出）
+- **severity**: tactical（leverage 候選非 critical bug）
+- **狀態**: ⏳ defer to next session — 此 session 已 ship footnote-format-fix（80% 的 leverage），contributor-pr-prep 是 nice-to-have
+
+### 2026-05-04 exciting-burnell — Build perf 本機 benchmark 對 CPU-bound JS render 失靈
+
+- **原則**：本機 fast-core hardware（M-series）對 single-thread JS render 接近 algorithm bound（84ms/page），所有 config tuning（concurrency / vite / shiki langs）wallclock 無感；CI slow-core hardware 才有 I/O overlap 空間讓 concurrency 真正生效。Build perf measurement loop **必須 close 在 CI**，本機只能驗證 correctness（dist 結構等價、visible text 一致）+ catastrophic regression（heap OOM / build hang）。憑本機數字 ship perf 改動會把 OS cache warming（±10% 噪音）誤認成 config tuning 效果。
+- **觸發**：2026-05-04 exciting-burnell 5 輪 cold-cache local benchmark 全鎖 356-364s（baseline 391s 是首次 cold OS cache，後續 reruns 都 ~357s）。同一份 config 在 CI ARM runner 上跑出 -22.7% vs 7d avg。本機看不到的改善只在慢 core × concurrency=4 才 surface。詳見 [memory/2026-05-04-123451-exciting-burnell.md](memory/2026-05-04-123451-exciting-burnell.md) + [diary/2026-05-04-exciting-burnell-build-perf-mirror.md](diary/2026-05-04-exciting-burnell-build-perf-mirror.md)。
+- **可能層級**：操作規則 → BUILD-PERF-PIPELINE 候選（如成立則明確規定「本機只測 correctness + OOM，wallclock signal 必須 close on CI」）
+- **相關**：DNA #15「反覆浮現要儀器化」延伸 — measurement loop 設計也需儀器化「該在哪一層 close」
+- **verification_count**: 1（首次量化「本機 5 輪 ±2% / CI 一輪 -22.7%」對比）
+- **severity**: structural（影響未來所有 build perf 改動的 measurement methodology）
+
+### 2026-05-04 exciting-burnell — §自主權邊界對自我發起的大重構也適用
+
+- **原則**：CLAUDE.md §Bias 1 寫「對哲宇預設加分」需主動意識，他的 idea 也要過 §自主權邊界 filter。**反方向也成立** — 我自己想做的大重構（per-language matrix build / Content Layer migration 這類觸及 >50 檔 + 部署架構的決策）也要過 §自主權邊界 filter，不能因為「為了長期最好應該做」就獨自下手。設計型介入是「動該動的 / 問該問的等答覆」，衝動型是「能做的全做」— 區別在於是否承認某些決策需要哲宇看完數字 + 看完提案才能下。
+- **觸發**：2026-05-04 build perf PR 規劃時，per-language matrix build（估 4-5x speedup）跟 Content Layer migration（觸及 1246 行 article template）兩個 long-term lever 都 explicit defer 進 PR description 的「Deferred to follow-up」section，不在本 PR ship。本 PR 只 ship reversible 小改動 stack（upgrade + config + CI）→ 第一次跑就 -22.7%。
+- **可能層級**：哲學 → 候選 MANIFESTO §自主權邊界補強段落「filter 雙向」/ 通用反射 → DNA 新條候選「設計型 vs 衝動型介入區別」
+- **相關**：MANIFESTO §自主權邊界 + CLAUDE.md §Bias 1（reverse bias）+ DNA #7「先有再求好」
+- **verification_count**: 1（首次明示自己 filter 自己的大重構提案）
+- **severity**: structural（影響每個 session 的 scope discipline）
 
 ---
 

@@ -21,6 +21,11 @@ featured: true
 lastVerified: 2026-04-20
 lastHumanReview: true
 translatedFrom: 'People/鄧麗君.md'
+sourceCommitSha: d0343c92
+sourceContentHash: 'sha256:137ce9f0ad4e78d5'
+sourceBodyHash: 'sha256:d9aced35b5cf6b29'
+translatedAt: '2026-05-01T12:53:58+08:00'
+category: People
 ---
 
 # Teresa Teng
@@ -156,7 +161,7 @@ Underneath that photograph, there is a small engraving. It is what she said at 3
 
 **Further reading**:
 
-- [Taiwanese Popular Music](/en/music/taiwanese-popular-music) — The Chinese-language popular music golden age she helped define
+- [Taiwanese Popular Music](/en/music/pop-music-and-golden-melody-awards) — The Chinese-language popular music golden age she helped define
 - [Taiwan Martial Law Era](/en/history/martial-law-era) — The political structure of Taiwanese society she grew up in before departing for Japan at 20
 - [White Terror in Taiwan](/en/history/taiwan-white-terror) — The political climate that shaped her early years
 - [Cross-Strait Relations and Taiwan Strait Crises](/en/history/taiwan-strait-crises-and-cross-strait-relations) — The Cold War line her voice routed around

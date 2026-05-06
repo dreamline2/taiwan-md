@@ -9,6 +9,12 @@ featured: false
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Economy/台灣企業：宏碁.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:197235760e486f5d'
+sourceBodyHash: 'sha256:bbb87048282a48a9'
+translatedAt: '2026-05-01T15:38:13+08:00'
+subcategory: '企業列傳'
+category: Economy
 ---
 
 > **30-second overview**

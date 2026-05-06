@@ -763,7 +763,7 @@ REWRITE Stage 2 寫完 prose 後、進 Stage 4 之前，**必須跑 FACTCHECK-PI
 - **範圍**：
   - 全文 high-risk atom 抽取（引語 + 數字 + 人名 + 獎項 + 地點門牌號碼 + 場景動作 detail）
   - 每個 atom 對 source URL 至少做一次驗證（中文 source 用中文 prompt 要求逐字）
-  - footnote URL 健康檢查跑 `bash scripts/tools/check-footnote-urls.sh <article>`
+  - footnote URL 健康檢查跑 `ARTICLE_HEALTH_NETWORK=1 python3 scripts/tools/article-health.py <article> --check=footnote-url`
 - **觸發 spawn agent 升級為 Full Mode 的條件**：
   - article tier = A 級（≥ 50 footnotes 或 ≥ 3000 字 或 含直接引語 ≥ 10 句）
   - article 對象為真人且可能引發人權／政治／法律敏感
@@ -813,25 +813,17 @@ REWRITE Stage 2 寫完 prose 後、進 Stage 4 之前，**必須跑 FACTCHECK-PI
 **🛠️ 強制執行（不是建議，是反射）：**
 
 ```bash
-# 1. 格式健康 7 維度（含延伸閱讀格式、[[wikilink]] 殘留、斷連結）
-bash scripts/tools/format-check.sh knowledge/{Category}/{文章}.md
-
-# 2. 所有 inline [[wikilink]] 目標存在性
-bash scripts/tools/wikilink-validate.sh knowledge/{Category}/{文章}.md
-
-# 3. MANIFESTO §11 書寫節制全變體檢查（2026-04-23 β 新增）
-# 抓 9 種「不是X是Y」對位句型 + 破折號密度
-# 原本 quality-scan.sh 只抓「不是X而是Y」「不僅X更是Y」3 種，
-# 認知作戰 v1 實戰抓出「這不是」「不只是」「不再是」「不是A,而是B(跨逗號)」
-# 等變體全部漏網。這個工具是造橋鋪路。
-bash scripts/tools/check-manifesto-11.sh knowledge/{Category}/{文章}.md
+# 一個 SSOT 入口跑全部三維度（format-structure + wikilink-target + prose-health）
+python3 scripts/tools/article-health.py knowledge/{Category}/{文章}.md --profile=rewrite-stage-4
+# 或一次跑所有 11 plugin（含 prose-health Tier 1-3 §11 對位 + 破折號密度）
+python3 scripts/tools/article-health.py knowledge/{Category}/{文章}.md --profile=release-pr
 ```
 
-**Pre-commit hook 已自動執行這三項檢查**（format-check + wikilink-validate 於 2026-04-04 建立；check-manifesto-11 於 2026-04-23 β 新增）。
+**Pre-commit hook 已自動執行這三項檢查**（SSOT pre-commit profile 自 2026-05-04 Phase 10 接管原本散在 format-check / wikilink-validate / check-manifesto-11 三個 .sh 的 inline check）。
 如果被擋：按提示修正，不要用 `--no-verify` 繞過。繞過 = 下次有人會重複同樣的錯。
 
 > **為什麼要強制？** 2026-04-04 我在台灣國樂的延伸閱讀寫了 7 個 `[[wikilink]]`，忘記 Astro 不渲染。
-> 規則在本文件 v2.10 已經寫過、工具 `check-wikilinks.sh` 存在、我還自己造了 `wikilink-validate.sh`——
+> 規則在本文件 v2.10 已經寫過、工具 wikilink validation 存在——
 > 然後還是寫錯了。教訓：**擁有工具 ≠ 使用工具**。所以現在寫進 pre-commit 強制執行。
 
 #### 多語言 visual smoke test（DNA #19 + i18n Phase 3 #11，hard gate for 大型 refactor）
@@ -1036,7 +1028,7 @@ _2014 年 8 月 27 日，林琪兒穿艙外活動服（Extravehicular Mobility U
 #### §4.5f 圖片健康檢查（P0 工具強制）
 
 ```bash
-bash scripts/tools/article-image-health.sh knowledge/{Category}/{slug}.md
+python3 scripts/tools/article-health.py knowledge/{Category}/{slug}.md --check=image-health
 ```
 
 預期檢查：
@@ -1105,6 +1097,28 @@ bash scripts/tools/article-image-health.sh knowledge/{Category}/{slug}.md
 **Commit 格式：** `cross-link: 為「{文章名}」建立雙向延伸閱讀`
 
 **⚠️ 只改延伸閱讀區塊。不要順便「改善」其他文章的內容。**
+
+#### §5.1 Reverse cross-link sibling 格式預檢（v2.21 新增，2026-05-02 EVOLVE-batch 教訓）
+
+補 reverse cross-link 進 sibling 文章前，**強制跑 sibling 格式預檢**：
+
+```bash
+python3 scripts/tools/article-health.py knowledge/{Category}/{sibling}.md --check=format-structure
+```
+
+三種狀態對應動作：
+
+| sibling 格式狀態                             | 動作                                                                                                   |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| ✅ PASS                                      | 直接補 reverse cross-link，commit                                                                      |
+| ⚠️ WARNING（pre-existing 警告 / 不影響功能） | 仍可 commit（hook 接受 warning），commit message 說明「sibling 有 pre-existing X warning」             |
+| ❌ FAIL（pre-existing 不合格）               | **DEFER reverse cross-link** + 開 follow-up issue 標 sibling 需獨立 EVOLVE，不繞過 hook 也不擴大 scope |
+
+**為什麼這條是硬規則**：補 reverse cross-link 是 Stage 5 的 1 行修改，不該把 sibling 的 pre-existing tech debt 帶進來變成大改。如果 sibling 真的不合格（例：書目格式 footnote 沒 URL），應該開獨立 EVOLVE issue 處理那篇，不該因為一個 cross-link 強行碰整個 sibling。
+
+**觸發**：2026-05-02 EVOLVE-batch — 兩廳院 EVOLVE 嘗試補 reverse cross-link 進中正紀念堂，pre-commit hook 失敗（中正紀念堂有 12 條書目格式 footnote pre-existing 不合 Taiwan.md `[^n]: [Name](URL) — desc` standard）。Sub-agent D 試圖用 hook auto-reformat 通過，失敗。Defer 到獨立 EVOLVE issue 是正確處理。
+
+**對應 LESSONS-INBOX**：[2026-05-02 EVOLVE-batch — Pre-commit hook 修改 pre-existing 格式失敗的 reverse cross-link defer pattern](../semiont/LESSONS-INBOX.md)。
 
 ---
 
@@ -1212,7 +1226,7 @@ git log --oneline --since='2026-03-20' | grep -i 'rewrite:' | head -30
 
 ```bash
 bash scripts/core/sync.sh
-bash scripts/tools/quality-scan.sh knowledge/[Category]/[文章名].md    # ≤ 3 才 commit
+python3 scripts/tools/article-health.py knowledge/[Category]/[文章名].md --check=prose-health    # HARD = 0、WARN ≤ 3 才 commit
 git add knowledge/[Category]/[文章名].md src/content/
 git commit -m "rewrite: [文章名] — EDITORIAL v4 + Pipeline v2.5"
 git push
@@ -1252,7 +1266,7 @@ git push
 # 寫完文章後一次跑完 Stage 3 驗證
 bash scripts/core/sync.sh
 npm run build
-bash scripts/tools/quality-scan.sh
+python3 scripts/tools/article-health.py --all --profile=release-pr
 # 全部通過才 commit
 git add -A && git commit -m "content: 深度研究重寫「{主題}」" && git push
 ```
@@ -1263,6 +1277,6 @@ _current: v2.20 | 2026-04-28 ι_
 
 **最近 milestone**（完整 changelog → `git log docs/pipelines/REWRITE-PIPELINE.md`）：
 
-- **v2.20**（2026-04-28）— 新增 Stage 1.7 媒體素材研究 + Stage 4.5 媒體插入 / 8 sub-step 涵蓋圖 license / transcript / aspect ratio / caption / alt text / article-image-health.sh hard gate。設計理由 → [`reports/rewrite-pipeline-media-stage-design-2026-04-28-ι.md`](../../reports/rewrite-pipeline-media-stage-design-2026-04-28-ι.md)
+- **v2.20**（2026-04-28）— 新增 Stage 1.7 媒體素材研究 + Stage 4.5 媒體插入 / 8 sub-step 涵蓋圖 license / transcript / aspect ratio / caption / alt text / image-health hard gate（2026-05-04 Phase 6 SSOT 化為 `article-health.py --check=image-health`）。設計理由 → [`reports/rewrite-pipeline-media-stage-design-2026-04-28-ι.md`](../../reports/rewrite-pipeline-media-stage-design-2026-04-28-ι.md)
 - **v2.18**（2026-04-21）— Stage 1 agent 選型規則（Explore read-only / general-purpose 有 Write）+ 私有 SSOT 整合 Tier 1-4 + Stage 2 密度平衡自檢 + Agent claim 驗證。對應 EDITORIAL v5.2 三項
 - **v2.15**（2026-04-14）— Stage 3 VERIFY「事實鐵三角自檢」段（5a 算術 / 5b 金額單位 / 5c 引語逐字 / 5d checklist）。源自李洋孢子 #28 三層事實錯誤教訓（per DNA #23）

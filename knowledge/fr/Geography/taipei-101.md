@@ -25,9 +25,13 @@ category: 'Geography'
 author: 'Taiwan.md Translation Team'
 readingTime: 8
 featured: false
-translatedFrom: 'Geography/台北101.md'
+translatedFrom: "Geography/台北101.md"
 lastVerified: 2026-03-23
 lastHumanReview: false
+sourceCommitSha: "a05d2431"
+sourceContentHash: "sha256:0b35412227ffb8b0"
+sourceBodyHash: 'sha256:7d381eeb77a43103'
+translatedAt: "2026-04-15T17:33:26+08:00"
 ---
 
 # Sur une île en mouvement, ils ont bâti une tour qui touche le ciel

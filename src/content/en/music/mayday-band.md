@@ -1,25 +1,26 @@
 ---
-title: 'Mayday (五月天): The Taiwanese Band That Turned Rock Concerts into an Empire'
-description: "Mayday is Taiwan's biggest rock band. Members Ashin (born Beitou, Taipei), Monster (Hsinchu), Masa (Kaohsiung), Stone (Taipei), and Guan You (Miaoli) formed at Taipei's Affiliated Senior High School in 1995. From a 1997 BBS nickname to 30 shows at Beijing's Bird's Nest and 320,000 tickets sold in 10 minutes at Taipei Dome. Their story, controversies, and cultural impact."
-category: Music
+title: 'Mayday'
+description: "In 1997, five Affiliated High School students signed up for a music festival using a BBS username. Thirty years later they sold 320,000 tickets to Taipei Dome in ten minutes, played 30 shows at Beijing's Bird's Nest — and at that same stage said four words that broke Taiwan's heart."
+category: 'Music'
 tags:
-  [
-    Mayday,
-    五月天,
-    Ashin,
-    Taiwanese band,
-    rock music,
-    Mandarin music,
-    concerts,
-    Golden Melody Awards,
-    Taipei Dome,
-    lip-sync controversy,
-  ]
+  - 'Mayday'
+  - 'Ashin'
+  - 'rock music'
+  - 'Mandarin music'
+  - 'concerts'
+  - 'Golden Melody Awards'
+  - 'Affiliated High School'
+  - 'lip-sync controversy'
+  - 'Taipei Dome'
 date: 2026-03-23
-readingTime: 12min
+readingTime: 12
 lastVerified: 2026-04-13
 lastHumanReview: '2026-04-13'
 translatedFrom: 'Music/五月天.md'
+sourceCommitSha: 'eb0744ad'
+sourceContentHash: 'sha256:683ec3194ba4aa3c'
+sourceBodyHash: 'sha256:7f6b080a953be003'
+translatedAt: '2026-05-01T13:19:11+08:00'
 ---
 
 # Mayday (五月天)
@@ -96,9 +97,9 @@ Mayday will keep singing. But after those four words in 2024, when Taiwanese fan
 
 ## Further Reading
 
-- [Taiwan Pop Music](/en/music/台灣流行音樂/)
-- [Fire EX! (滅火器)](/en/music/滅火器樂團/)
-- [Taiwan Indie Music](/en/music/台灣獨立音樂/)
+- [Taiwan Pop Music](/en/music/pop-music-and-golden-melody-awards/)
+- [Fire EX! (滅火器)](/en/music/fire-ex/)
+- [Taiwan Indie Music](/en/music/indie-music-scene/)
 
 ## References
 

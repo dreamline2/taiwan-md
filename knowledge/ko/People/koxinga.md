@@ -9,6 +9,10 @@ author: 'Taiwan.md Translation Team'
 readingTime: 12
 featured: false
 translatedFrom: 'People/鄭成功.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:c09723b8f613b890'
+sourceBodyHash: 'sha256:8cc0f510721f307f'
+translatedAt: '2026-04-14T19:25:23+08:00'
 ---
 
 # 정성공 (鄭成功): 일본에서 태어나 중국에서 자라고 대만에서 죽은 37년

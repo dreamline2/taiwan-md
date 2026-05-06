@@ -6,6 +6,11 @@ tags: ['Niu Cheng-Ze', 'Director', 'Actor', 'Monga', 'Controversy']
 subcategory: 'Film & Theater'
 lastVerified: 2026-03-19
 translatedFrom: 'People/鈕承澤.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:c412539523fe8a6a'
+sourceBodyHash: 'sha256:542c1db901d15440'
+translatedAt: '2026-04-14T12:25:09+08:00'
+category: People
 ---
 
 # Niu Cheng-Ze: Talent and Controversy in Taiwan Cinema

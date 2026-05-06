@@ -10,6 +10,10 @@ category: Culture
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Culture/台灣原住民族16族文化地圖.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:36ecabdcaffefea4'
+sourceBodyHash: 'sha256:561ea7184d1651ca'
+translatedAt: '2026-04-14T12:25:09+08:00'
 ---
 
 # Taiwan's 16 Indigenous Peoples: A Cultural Map

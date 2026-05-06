@@ -22,6 +22,10 @@ featured: true
 lastVerified: 2026-04-08
 lastHumanReview: true
 translatedFrom: 'Culture/台灣感性.md'
+sourceCommitSha: b1d38be3
+sourceContentHash: 'sha256:785a3e1b4966025f'
+sourceBodyHash: 'sha256:3803abbb5597e9da'
+translatedAt: '2026-05-01T12:53:58+08:00'
 ---
 
 # Taiwanese Sensibility: How Korea Fell in Love with Taiwan's Streets

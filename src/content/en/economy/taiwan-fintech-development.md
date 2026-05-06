@@ -1,439 +1,166 @@
 ---
-title: 'FinTech Development in Taiwan'
-description: "From regulatory sandboxes to digital banks: The evolution and innovation of Taiwan's FinTech ecosystem."
-date: 2026-03-20
+title: 'Taiwan Fintech Development'
+description: "A Wall Street whiz kid returns to Taiwan to found a mobile payment company; nine years later, the company is seized by court order and its bank accounts hold less than NT$1,000. This is not just one person's story — it is the tale of an entire island caught between 'openness' and 'loss of control' over a decade of fintech."
+date: 2026-04-06
+author: 'Taiwan.md'
+category: Economy
+subcategory: '金融與科技'
 tags:
   [
+    'Fintech',
     'FinTech',
     'Digital Banking',
     'Mobile Payment',
-    'Blockchain',
     'Regulatory Sandbox',
-    'Digital Transformation',
+    'Neobank',
+    'Electronic Payment',
   ]
-author: 'Taiwan.md'
-difficulty: 'intermediate'
-readingTime: 16
+readingTime: 12
+lastVerified: 2026-04-06
+lastHumanReview: false
 featured: false
-lastVerified: 2026-03-20
-category: 'Economy'
-translatedFrom: 'Economy/台灣金融科技發展.md'
+translatedFrom: Economy/台灣金融科技發展.md
+sourceCommitSha: 2d0c126f
+sourceContentHash: sha256:c4241632c676aa85
+sourceBodyHash: sha256:b0709e8ad615db88
+translatedAt: 2026-05-03T23:14:05+08:00
 ---
 
-# FinTech Development in Taiwan
+# Taiwan Fintech Development
 
-## 30-Second Overview
+> **30-Second Overview:** On July 10, 2025, the parent company of JKO Pay — Taiwan's largest homegrown mobile payment platform — was seized by court order, and its five bank accounts held less than NT$1,000 combined. Nine years earlier, founder Hu Yijia had returned to Taiwan from Wall Street vowing to make payments in Taiwan as convenient as in China. What happened in between? Taiwan's fintech journey began with a 2015 policy white paper, traversed the regulatory sandbox, a mobile payment war, three neobanks accumulating NT$9 billion in losses, and the central bank's digital New Taiwan dollar trials — every step a tightrope walk between "let innovation run" and "don't let it crash."
 
-Taiwan's FinTech industry began gaining momentum in 2015 with the government's "FinTech Development Strategy White Paper." Through policies such as regulatory sandboxes, the opening of digital-only banks, and the promotion of electronic payments, Taiwan has built a leading FinTech ecosystem in Asia. From the ubiquity of mobile payments like **LINE Pay** and **JKOPAY** to the innovation of digital banks like **Rakuten International Commercial Bank** and **LINE Bank**, Taiwan has made significant breakthroughs in payments, lending, investment, and insurance. As of 2024, Taiwan's FinTech industry scale is estimated at approximately NT$120 billion, employing over 30,000 professionals, and serving as a key driver for the digital transformation of the financial sector.
+## The Wall Street Whiz Kid Returns
 
-**Keywords:** Digital Banking, Mobile Payment, Regulatory Sandbox, Blockchain, AI, Open Banking
+In 2015, a young man in his early thirties returned to Taiwan from China and founded JKO Pay.
 
-## Why It Matters
+His name is Hu Yijia. A graduate of National Chiao Tung University's applied mathematics department and a Columbia University master's degree holder, he had worked as a hedge fund analyst on Wall Street, earning an annual salary exceeding NT$10 million. The media called him the "Wall Street Whiz Kid." But what brought him back to Taiwan was not nostalgia — he had spent several years in Suzhou, China, where he witnessed firsthand how Alipay and WeChat Pay transformed the spending habits of over a billion people. He wanted to bring the same revolution to Taiwan.[^1]
 
-The development of FinTech in Taiwan holds multiple strategic significances:
+His family background was no less remarkable: his grandfather Hu Xin served as Chiang Kai-shek's chief of bodyguards, and his father Hu Dingwu was formerly chairman of China Development Financial Holding and chairman of Taipei 101. Connections in the financial world were something Hu Yijia was born with.[^2]
 
-- **Economic Transformation Engine:** Driving digitalization in the traditional financial sector to enhance competitiveness and efficiency.
-- **Financial Inclusion:** Lowering barriers to financial services through technology, promoting inclusivity for underserved populations.
-- **Innovation Ecosystem:** Cultivating startups and attracting international capital and talent.
-- **International Competitiveness:** Establishing a leading position in technology and services within the Asia-Pacific region.
-- **Quality of Life:** Providing the public with more convenient, secure, and personalized financial services.
+JKO Pay obtained its electronic payment license in 2018 and officially launched, aggressively capturing market share with high cashback rewards. By 2020, JKO Pay had become Taiwan's largest homegrown mobile payment brand, with over 6 million users. Hu Yijia publicly challenged LINE Pay and declared plans to take JKO Pay to the Emerging Stock Market in 2024 and the main board in 2025.[^3]
 
-## Evolution of Taiwan's FinTech
+Then things began to go sideways.
 
-### Initial Phase (2015-2017): Establishing the Policy Framework
+## The Day NT$3.6 Billion Vanished
 
-**Government Policy Push:**
+In 2023, Zhan Jingshan, chairman of Taishan Enterprise, acquired a 40% stake in JKO Financial Technology for NT$3.6 billion. But a fierce battle for corporate control erupted within Taishan, and after a new team took over the board, they filed a lawsuit challenging the transaction.
 
-- **Dec 2015:** The Financial Supervisory Commission (FSC) released the "FinTech Development Strategy White Paper."
-- **May 2016:** Establishment of the "FinTech Office."
-- **Apr 2017:** Passage of the _Financial Technology Development and Innovative Experimentation Act_ (often referred to as the Regulatory Sandbox Act).
+In July 2025, the court ruled the transaction invalid and ordered JKO Financial Technology to return the NT$3.6 billion. When court officers executed the seizure, they discovered something startling: the combined deposits across JKO Financial Technology's five bank accounts totaled less than NT$1,000.[^4]
 
-**Key Milestones:**
+On the day of the seizure, nearly 300 employees were abruptly told to work from home, and the office signage was taken down. Hu Yijia was subsequently indicted by prosecutors on charges of breach of trust under special circumstances, placed under travel restrictions, and at one point faced electronic ankle monitoring.[^5]
 
-- Establishment of the regulatory sandbox system.
-- Enactment of special laws for third-party payments.
-- Launch of the **FinTechSpace** innovation hub.
+> **📝 Curator's Note**
+> The user funds within JKO Pay itself are safe — under the _Electronic Payment Institutions Act_, all stored-value funds are held in segregated trust accounts by custodian banks, completely isolated from the parent company's finances. The Financial Supervisory Commission (FSC) has repeatedly emphasized this point. But the image of "bank accounts holding less than NT$1,000" has already dealt a severe blow to the trust foundation of Taiwan's fintech startups.
 
-**Ecosystem Foundation:**
+This was not Hu's first clash with regulators. As early as 2020, the FSC fined JKO Securities Investment Trust NT$3 million for seven violations related to the "Tuofubao" product — including misleading investors and undermining corporate governance — and removed Hu from his directorship at JKO SIT. His response at the time was a public rebuttal directed at the FSC.[^6]
 
-- Traditional financial institutions began digital transformation.
-- A wave of FinTech startups was founded.
-- International capital started paying attention to the Taiwan market.
+The JKO story is a microcosm of Taiwan's decade of fintech: the policy door was opened, but those who charged through too fast did not necessarily arrive safely.
 
-### Development Phase (2018-2020): Rise of Applications
+## One Law That Changed the Game
 
-**Ubiquity of Digital Payments:**
+Rewind to 2015. That year, the FSC published the _Fintech Development Strategy White Paper_, declaring Taiwan's embrace of FinTech. Two years later, the _Fintech Innovation Experiment Act_ passed the Legislative Yuan — the first dedicated fintech law in Asia, making Taiwan one of the few countries globally with a legal framework for a "regulatory sandbox."[^7]
 
-- **LINE Pay:** Entered Taiwan in 2014 and surpassed 5 million users by 2018, leveraging the massive popularity of the LINE messaging app.
-- **JKOPAY (街口支付):** A homegrown brand that rose rapidly to become a market leader.
-- **Apple Pay / Google Pay:** International giants expanded their footprint in Taiwan.
+The sandbox logic is simple: you have a financial innovation idea, but current regulations don't allow it? Apply to enter the sandbox, experiment within a limited scope, and if it succeeds, regulations will be amended to legalize it; if it fails, you won't be penalized.
 
-**Regulatory Sandbox Achievements:**
+It sounds beautiful. In practice, it proved more conservative than imagined.
 
-- **2019:** **Bagel Pay** became the first authorized blockchain cross-bank transfer application.
-- **2020:** KGI Bank's robo-advisor service passed experimentation.
-- Cumulative approval of 15 innovation experiment cases.
+Joinvest is one of the few success stories to graduate from the sandbox — the company operates a bond group-buying platform that allows retail investors to pool funds and purchase bonds previously accessible only to institutional investors. It entered the sandbox for experimentation in 2021, and the results earned FSC recognition for being "innovative and conducive to financial inclusion," directly driving amendments to the _Standards for Establishment of Securities Firms_.[^8]
 
-**Digitalization of Finance:**
+But the numbers on the other side are less encouraging. Seven years after the sandbox launched, the total number of approved experiments has been modest, and the number that truly "graduated" and drove regulatory amendments is even smaller. Critics say Taiwan's sandbox has thresholds that are too high, reviews that are too slow, and experimental periods that are too short — turning it into a system that "looks open but is actually conservative."[^9]
 
-- Banks launched digital-only accounts (e.g., Richart by Taishin Bank).
-- The insurance industry developed InsurTech solutions.
-- The securities industry adopted robo-advisors.
+> "Taiwan's regulatory sandbox is one of the most comprehensive legal frameworks in the world, but the problem is not the framework — it's the speed of execution."
+> — Chambers and Partners, _Fintech 2025: Taiwan_[^9]
 
-### Mature Phase (2021-Present): Ecosystem Completion
+## The Payment War Inside Your Phone
 
-**Opening of Digital Banks:**
+In 2026 Taiwan, walking into any convenience store, pulling out a smartphone at checkout is already more common than pulling out a wallet.
 
-- **July 2021:** **Rakuten International Commercial Bank** and **LINE Bank** officially opened for business.
-- **Jan 2022:** **NEXT Bank (將來銀行)** launched.
-- The era of pure internet banks officially began.
+According to FSC statistics, as of the end of 2025, the total number of electronic payment account users in Taiwan reached 34.45 million — on an island of 23 million people, this figure means the majority of adults hold at least one electronic payment account. The government's target of "90% mobile payment penetration by 2025" was essentially met.[^10]
 
-**Open Banking Initiative:**
+But "penetration" does not mean "unification." Taiwan's mobile payment market is a free-for-all:
 
-- **Phase 1 (2019):** Public product information inquiry.
-- **Phase 2 (2020):** Consumer information inquiry.
-- **Phase 3 (2021):** Transaction-based services.
+LINE Pay, leveraging LINE's social network foundation, sits firmly at the top with over 8 million users. iPASS Corporation (iPASS MONEY), building on its electronic stored-value card infrastructure, surged to the highest user count. JKO Pay still had over 6 million users before the controversy erupted. Add to that Quan Pay, FEPay, Easy Wallet, Taiwan Pay, Apple Pay, and Google Pay — consumers have an average of three to four payment apps on their phones, and store counters are plastered with QR code stickers from different brands.[^11]
 
-**Innovative Tech Applications:**
+> **💡 Did You Know?**
+> The fragmentation of Taiwan's mobile payment landscape is partly due to convenience store chains picking sides: 7-Eleven promotes OPEN Wallet and icash Pay, while FamilyMart pushes FEPay. The payment territories of the two major convenience store chains, to a certain extent, determine which app sits in Taiwanese people's pockets.
 
-- Blockchain applications in trade finance.
-- AI in risk control and customer service.
-- Widespread adoption of biometric authentication.
+This is a far cry from China's "Alipay + WeChat Pay" duopoly. Taiwan has no single dominant super-app — instead, it's a hundred flowers blooming, or, more honestly, a hundred fiefdoms at war. Consumers benefit (you can tap your phone almost everywhere), but integration efficiency is low, and every player is burning cash to grab market share.
 
-## Regulatory Sandbox and Innovation Experiments
+## Three Banks, NT$9 Billion in Tuition
 
-### Design Philosophy
+In 2021, Taiwan ushered in the neobank era.
 
-**Core Principles:**
+LINE Bank, Rakuten Bank, and Next Bank opened for business one after another. Their selling point was "never go to a bank" — online account opening, high-interest demand deposits, 24-hour service, using technology to redesign the traditional banking experience.
 
-- **Limited Authorization:** Allowing innovation under controlled risks.
-- **Time-Bound:** Setting specific experiment durations and participant limits.
-- **Risk Control:** Establishing comprehensive supervisory mechanisms.
+Four years later, the numbers on the books are brutal: the three have accumulated combined losses exceeding NT$9 billion.[^12]
 
-**Application Process:**
+But the loss story reads differently depending on perspective. LINE Bank's account count surged to 2.29 million, with a loan-to-deposit ratio of 85.93%, and in December 2025 it achieved the first monthly pre-tax profit in Taiwan's neobank history — the amount was NT$11 million, not a huge sum, but symbolically enormous. LINE Bank has declared its intention to reach over NT$100 million in annual profit in 2026 and to erase cumulative losses within three and a half years.[^13]
 
-1. **Proposal:** Innovators submit an experiment plan.
-2. **Review:** Regulators assess risks and feasibility.
-3. **Approval:** Issuance of an innovation experiment permit.
-4. **Monitoring:** Continuous supervision during execution.
-5. **Evaluation:** Deciding whether to amend regulations to allow the innovation permanently.
+Next Bank has 550,000 accounts and Rakuten Bank has 320,000 — a clear gap in scale, but both are narrowing their losses. Rakuten Bank is approaching its capital increase threshold and is planning a new round of fundraising.[^14]
 
-### Key Case Studies
+> **📝 Curator's Note**
+> The neobank predicament is not unique to Taiwan. Challenger banks worldwide — the UK's Monzo, Brazil's Nubank — all burned cash for scale in their early years. The real question is: Taiwan's market has only 23 million people, and traditional bank density is among the highest in the world (more than one branch per square kilometer). Neobanks are competing with 38 commercial banks for the same population. The NT$9 billion in tuition buys the opportunity to survive in this crowded market.
 
-**Bagel Pay (Blockchain Payment):**
+## Digital Hakka Coin: The Central Bank's Caution
 
-- **Tech Feature:** Using blockchain for cross-bank transfers.
-- **Value:** Lowering transaction costs and time.
-- **Outcome:** Verified technical feasibility and accumulated user experience data.
+As central banks around the world research central bank digital currencies (CBDCs), Taiwan's central bank has taken a very Taiwanese path.
 
-**Robo-Advisors:**
+In 2025, the central bank partnered with the Ministry of Digital Affairs and the Hakka Affairs Council to launch the "Digital Hakka Coin" pilot — not a full-scale issuance of a digital New Taiwan dollar, but a small-scale test across 70 key Hakka cultural development zones in 11 counties and cities. Users could spend via de-identified, anonymous wallets, with the pilot valid through June 30, 2026.[^15]
 
-- **Scenario:** Automated investment advice based on user profiles.
-- **Tech Base:** Machine learning and big data analytics.
-- **Impact:** Lowering the threshold for wealth management services.
+Central Bank Governor Yang Chin-long's attitude has been consistently cautious. He stated that the central bank would hold multiple public hearings and forums in 2025 to broadly gather opinions from all sectors, but that there is "no specific timeline" for formally issuing a digital New Taiwan dollar.[^16]
 
-**Pure Internet Insurance:**
+This "test a small piece first, listen to all opinions before deciding" pace stands in stark contrast to China's large-scale rollout of the digital yuan. Taiwan's central bank does not want to be a pioneer — it wants to be the faultless follower.
 
-- **Model:** Fully online insurance services.
-- **Target:** Digital natives.
-- **Focus:** Consumer protection and information security.
+## An Island's Financial Experiment
 
-### Impact of the System
+A decade has passed.
 
-**Promoting Innovation:**
+How much of the vision outlined in that 2015 white paper — Taiwan as an Asia-Pacific fintech hub — has been realized? The answer is: partially, but not in the way originally imagined.
 
-- Over 40 approved experiment cases.
-- Covering payments, lending, investment, and insurance.
-- Driving new financial service models.
+Mobile payment has indeed become widespread, but not through one super-app — through a chaotic battle among more than a dozen brands. Neobanks have indeed arrived, but the three combined still account for fewer than 3.2 million accounts, a negligible share of total bank accounts nationwide. The regulatory sandbox has indeed operated, but the graduation rate is low enough to raise the question of whether it is a launchpad or a display case.
 
-**Regulatory Adaptation:**
+The JKO NT$3.6 billion storm made one thing clear: the greatest tension in Taiwan's fintech has never been a technical problem — it is a trust problem. Regulation too loose, and you breed the next JKO; regulation too tight, and innovation suffocates inside the sandbox.
 
-- Experiment results feed back into regulatory amendments.
-- Establishing flexible supervisory mechanisms.
-- Modernizing financial regulations.
+In December 2025, LINE Bank reported its first monthly profit — an amount so small it could be ignored, but the entire industry was watching. Hu Yijia wore an electronic ankle monitor; LINE Bank counted its first dollar of profit. The same island, the same industry, two radically different endings unfolding simultaneously.
 
-## The Digital Payment Ecosystem
+**Further Reading**:
 
-### Market Landscape and Competition
-
-**International Players:**
-
-- **LINE Pay:** Market share approx. 35%, over 8 million users. deeply integrated into daily life.
-- **Apple Pay:** High penetration among iOS users.
-- **Google Pay:** Integrated into the Android ecosystem.
-
-**Local Players:**
-
-- **JKOPAY (街口支付):** The largest local electronic payment provider, with around 6 million users.
-- **Pi Wallet (Pi 拍錢包):** Under the PChome e-commerce group.
-- **GAMA PAY (橘子支付):** Background in the gaming industry.
-
-**Banking System:**
-
-- **Taiwan Pay:** A common standard promoted by the Ministry of Finance and banks.
-- Individual bank mobile payment apps.
-
-### Technology and Security
-
-**Payment Tech:**
-
-- **NFC:** Mainstream technology for contactless payments.
-- **QR Code:** Widely adopted for its low cost and ease of use.
-- **Biometrics:** Fingerprint and facial recognition for authentication.
-
-**Security Measures:**
-
-- **Tokenization:** Protecting credit card information.
-- **Multi-Factor Authentication (MFA):** Enhancing transaction security.
-- **Real-time Risk Control:** AI detection of abnormal transactions.
-
-**Compliance:**
-
-- _Act Governing Electronic Payment Institutions._
-- Personal Data Protection Act.
-- Anti-Money Laundering (AML) regulations.
-
-### Expanding Usage Scenarios
-
-**Retail:**
-
-- Convenience stores (7-11, FamilyMart) fully support digital payments.
-- Hypermarkets (Carrefour, Costco).
-- Traditional markets are gradually adopting digital payments.
-
-**Transportation:**
-
-- MRT systems (Taipei, Taoyuan, Kaohsiung).
-- Bus systems nationwide.
-- Taxis (Uber, local fleets).
-
-**Daily Life:**
-
-- Chain restaurants.
-- Smart parking lots.
-- Medical institutions (registration fees, health checkups).
-
-## Innovation in Digital Banking
-
-### Pure Internet Bank Models
-
-**Rakuten International Commercial Bank:**
-
-- **Positioning:** Pure digital bank.
-- **Features:** High-interest savings, simplified account opening.
-- **Tech:** 24-hour online customer service, AI financial assistants.
-
-**LINE Bank:**
-
-- **Shareholders:** LINE Corp, Fubon Bank, Standard Chartered, telecom operators.
-- **Advantage:** Leveraging the massive LINE social ecosystem.
-- **Innovation:** Social features in banking, "Gamified" savings.
-
-**NEXT Bank (將來銀行):**
-
-- **Investors:** Chunghwa Telecom, Mega Bank, Shin Kong Group, PX Mart.
-- **Tech:** Blockchain applications, open API architecture.
-- **Highlights:** Instant account opening, "N point" ecosystem integration.
-
-### Service Innovations
-
-**Optimized Onboarding:**
-
-- **Remote Account Opening:** Video KYC (Know Your Customer).
-- **Fast Approval:** AI-driven automated review processes.
-- **Paperless:** Fully digital operations.
-
-**Personalization:**
-
-- **Smart Wealth Management:** Investment advice based on behavior.
-- **Dynamic Limits:** Real-time credit assessment and limit adjustments.
-- **Customized Products:** Financial products designed around customer needs.
-
-**Ecosystem Integration:**
-
-- **Embedded Finance:** Banking services integrated into shopping, dining, and transport apps.
-- **Third-Party Services:** Connecting external services via APIs.
-- **Cross-Industry Collaboration:** Partnerships with e-commerce and telecom sectors.
-
-## Blockchain and Emerging Tech
-
-### Blockchain Applications
-
-**Trade Finance:**
-
-- **Digitized Letters of Credit:** Improving efficiency.
-- **Supply Chain Finance:** Lowering financing costs for SMEs.
-- **Cross-Border Payments:** Reducing time and fees.
-
-**Identity Verification:**
-
-- **Digital ID:** Blockchain-based identity systems.
-- **KYC Sharing:** Simplifying verification across institutions.
-- **Data Sharing:** Secure cross-institutional data exchange.
-
-**Asset Tokenization:**
-
-- **Real Estate Tokens:** Lowering investment thresholds.
-- **NFTs:** Digital art authentication and trading.
-- **Bond Tokenization:** Enhancing liquidity.
-
-### Artificial Intelligence Integration
-
-**Risk Control:**
-
-- **Credit Scoring:** Machine learning for precision.
-- **AML Monitoring:** Detecting suspicious patterns.
-- **Fraud Prevention:** Real-time anomaly detection.
-
-**Customer Service:**
-
-- **Chatbots:** Natural Language Processing (NLP) applications.
-- **Robo-Advisors:** Algorithmic trading and advice.
-- **Personal Assistants:** Smart financial planning.
-
-**Operational Optimization:**
-
-- **RPA (Robotic Process Automation):** Automating routine tasks.
-- **Predictive Analytics:** Risk early warning systems.
-
-### Open Banking and the API Economy
-
-**Phase 1 Achievements:**
-
-- Public disclosure of bank product information.
-- Transparency facilitating comparison platforms.
-
-**Phase 2 Progress:**
-
-- Customer-authorized data inquiry.
-- Account balances and transaction history access.
-- Integration with third-party wealth management platforms.
-
-**Phase 3 Outlook:**
-
-- Transaction initiation services.
-- Cross-bank account management.
-- Deeper financial service integration.
-
-## Ecosystem and Environment
-
-### Incubation Mechanisms
-
-**FinTechSpace:**
-
-- **Purpose:** A one-stop service platform funded by the FSC.
-- **Tenants:** Over 120 FinTech startups.
-- **Services:** Technical support, regulatory consulting, matchmaking.
-
-**Accelerators:**
-
-- **AppWorks:** Focuses on AI and Blockchain, connecting Taiwan and Southeast Asia.
-- **Taishin Bank Accelerator:** Banking-driven innovation.
-- **E.SUN Innovation Academy:** Talent cultivation.
-
-**Government Support:**
-
-- Venture capital funds.
-- Tax incentives.
-- Regulatory assistance.
-
-### Talent and Academia
-
-**Academic Research:**
-
-- **NTU FinTech Center:** Leading academic research.
-- **NCCU FinTech Research Center:** Industry-academia collaboration.
-- **NYCU Institute of Finance:** Focus on financial engineering.
-
-**Certifications:**
-
-- FinTech proficiency certifications.
-- Blockchain professional certifications.
-- Data analyst licenses.
-
-## RegTech Development
-
-### Needs and Solutions
-
-**Compliance Automation:**
-
-- **AML:** Automated transaction monitoring.
-- **KYC:** Digital identity verification.
-- **Risk Management:** Real-time assessment.
-
-**Regulatory Reporting:**
-
-- **Tracking:** Automated updates on regulatory changes.
-- **Reporting:** Automated generation and submission of regulatory reports.
-
-### Benefits
-
-**For Institutions:**
-
-- Compliance costs reduced by 30-50%.
-- Processing speed improved by 80%.
-- Human errors reduced by 90%.
-
-**For Regulators:**
-
-- Enhanced supervision efficiency.
-- Increased market transparency.
-- Strengthened risk warning capabilities.
-
-## Challenges and Future Outlook
-
-### Challenges
-
-**Information Security:**
-
-- Rising cyber threats and data breaches require multi-layered defense architectures.
-
-**Market Competition:**
-
-- Intense competition leads to price wars and necessitates product differentiation.
-- Tech giants (Big Tech) entering finance pose a threat to incumbents.
-
-**Regulatory Balance:**
-
-- Balancing innovation with risk control remains a constant challenge.
-- Adapting regulations to keep pace with rapid technological change.
-
-### Future Trends
-
-**Technology:**
-
-- **Deepening AI:** More precise models and automation.
-- **Mature Blockchain:** Cross-chain tech and CBDC exploration.
-- **Quantum Readiness:** Preparing encryption for the post-quantum era.
-
-**Service Models:**
-
-- **Embedded Finance:** Invisible financial services integrated into non-financial scenarios.
-- **Subscription Finance:** Membership-based models.
-- **Sustainable Finance:** Integrating ESG into FinTech.
-
-**Market Prospects:**
-
-- By 2030, digital account penetration is expected to reach 90%.
-- FinTech industry value is projected to reach NT$300 billion.
-- Taiwan aims to become a key FinTech hub in the Asia-Pacific region.
-
-## Conclusion
-
-Taiwan's FinTech journey showcases a successful blend of policy guidance, technological innovation, and market demand. From early regulatory sandboxes to today's thriving digital banking sector, Taiwan has built a robust ecosystem.
-
-This is not just a technological revolution but a fundamental shift in service mindset—from "product-centric" to "customer-centric," and from "standardized services" to "personalized experiences."
-
-Looking ahead, Taiwan's FinTech industry faces both opportunities and challenges. Sustaining innovation, strengthening cybersecurity, and expanding into international markets will be key. Taiwan stands at the forefront of this financial revolution, using technology to create a better financial life for its people.
+- [Semiconductor Industry](/technology/半導體產業) — Another Taiwanese industry that began with policy support and ultimately reshaped the global landscape
+- [Startup Ecosystem](/economy/新創生態系) — The full picture of Taiwan's startup scene, where JKO Pay took root
+- [E-Commerce and Digital Payment Ecosystem](/technology/電子商務與數位支付生態系) — The e-commerce infrastructure behind mobile payments
+- [Taiwan Stock Market and Capital Markets](/economy/台灣股市與資本市場) — From brokerage phone lines to smartphone-based dollar-cost averaging: the evolution of financial infrastructure and capital markets
 
 ## References
 
-1. Financial Supervisory Commission, "FinTech Development Strategy White Paper" (2015-2025).
-2. Economic Daily News, "Blockchain Wallets Breaking Payment Borders" (2020).
-3. Cathay Financial Holdings, "What is FinTech? Understanding Technology and Applications" (2024).
-4. [FinTechSpace Official Website](https://www.fintechspace.com.tw/).
-5. Banking Bureau, FSC, "Annual Report on Digital Banking Development" (2021-2024).
-6. Taiwan FinTech Association, "Taiwan FinTech Industry White Paper" (2023).
-7. PwC Taiwan, "Taiwan FinTech Survey Report" (2024).
-8. The Bankers Association of the Republic of China, "Open Banking Promotion Report" (2022).
-9. International Monetary Fund (IMF), "Taiwan FinTech Development Assessment" (2023).
+[^1]: [SET News 〈Not Relying on Dad! Wall Street Whiz Kid Crosses Into Tech, Hu Yijia Creates Mobile Payment App〉](https://www.setn.com/News.aspx?NewsID=102101) — Background report on Hu Yijia's return from Wall Street to found a startup, including his Columbia University education and hedge fund experience.
+
+[^2]: [ETtoday 〈Illustrious Family Background and Experience! Wealthy Third-Generation "Scholar" Hu Yijia Gave Up NT$20 Million Salary to Found JKO Pay〉](https://www.ettoday.net/news/20180326/1138208.htm) — Hu Yijia's family background: grandfather Hu Xin (Chief of Bodyguards), father Hu Dingwu (Chairman of China Development Financial, Chairman of Taipei 101).
+
+[^3]: [Mirror Media 〈JKO Pay Issues Challenge, Hu Yijia Allies with Taishin to Take on LINE〉](https://www.mirrormedia.mg/story/20190402fin007/) — JKO Pay's market strategy to challenge LINE Pay and IPO plans.
+
+[^4]: [Commercial Times 〈The Vanished NT$3.6 Billion — Nearly Triggered a "Lose-Lose" Chain Reaction〉](https://www.ctee.com.tw/news/20250720700014-430301) — In 2025, the NT$3.6 billion equity transaction between Taishan and JKO Financial Technology was ruled invalid; at the time of seizure, five bank accounts held less than NT$1,000.
+
+[^5]: [ETtoday 〈JKO's "Wall Street Whiz Kid" Falls Under Electronic Ankle Monitor, NT$3.6 Billion Dispute Leads to Seizure〉](https://www.ettoday.net/news/20250712/2994873.htm) — Details of Hu Yijia's indictment on breach of trust charges, travel restrictions, and electronic ankle monitoring.
+
+[^6]: [Voicettank 〈JKO's Vanished NT$3.6 Billion: From China's Payment Experience to "Startup Exceptionalism"〉](https://voicettank.org/20250714-1/) — A retrospective on JKO's "Tuofubao" regulatory violations and the FSC's supervisory challenges.
+
+[^7]: [ICLG, _Fintech Laws and Regulations Report 2025: Taiwan_](https://iclg.com/practice-areas/fintech-laws-and-regulations/taiwan) — Taiwan's _Fintech Innovation Experiment Act_ took effect in April 2018, the first dedicated fintech law in Asia.
+
+[^8]: [Global Legal Insights, _Fintech Laws and Regulations 2025: Taiwan_](https://www.globallegalinsights.com/practice-areas/fintech-laws-and-regulations/taiwan/) — Joinvest's bond group-buying platform graduated from the sandbox and drove amendments to the _Standards for Establishment of Securities Firms_.
+
+[^9]: [Chambers and Partners, _Fintech 2025: Taiwan — Trends and Developments_](https://practiceguides.chambers.com/practice-guides/fintech-2025/taiwan/trends-and-developments) — International legal community's assessment of Taiwan's regulatory sandbox as "comprehensive in framework but insufficient in execution speed."
+
+[^10]: [National Development Council 〈Mobile Payment Penetration Hits New High, Moving Toward a New Digital Nation Lifestyle〉](https://www.ndc.gov.tw/nc_27_33762) — Government's 2025 target of 90% mobile payment penetration; total electronic payment account users reached 34.45 million.
+
+[^11]: [Storm Media 〈JKO Loses! Taiwan's Favorite Mobile Payment Is This One — "7.08 Million People Use It"〉](https://www.storm.mg/lifestyle/11083093) — User rankings for iPASS, JKO Pay, and Quan Pay, with monthly transaction volume of NT$3.9 billion.
+
+[^12]: [Storm Media 〈Taiwan's 3 Neobanks "Accumulated Losses Exceed NT$9 Billion"! FSC Reveals Key Reasons for Losses〉](https://www.storm.mg/lifestyle/11106859) — As of the end of 2025, the three neobanks accumulated NT$9.072 billion in losses, including account numbers and loan-to-deposit ratios for each.
+
+[^13]: [PChome News 〈Neobanks May Bid Farewell to the Cash-Burning Era, LINE Bank Turns Monthly Profit of NT$11 Million〉](https://news.pchome.com.tw/finance/cardu/20260304/index-17725686541784241003.html) — LINE Bank achieved its first monthly pre-tax profit of NT$11 million in December 2025, targeting over NT$100 million in annual profit for 2026.
+
+[^14]: [Commercial Times 〈Over 3 Million Accounts Yet NT$8.7 Billion in Cumulative Losses... Neobanks Strive for Profitability, This One Named as Fastest to Turn Around〉](https://www.ctee.com.tw/news/20260102700085-439901) — Current status of the three neobanks' account numbers and capital increase plans; LINE Bank named as the fastest to turn around.
+
+[^15]: [BlockTempo 〈2025 Taiwan Cryptocurrency Industry Report〉](https://www.blocktempo.com/2025-taiwan-cryptocurrency-industry-report/) — The central bank and Hakka Affairs Council launched the "Digital Hakka Coin" pilot, covering 70 key Hakka cultural zones across 11 counties and cities, valid through June 2026.
+
+[^16]: [XREX 〈"Digital New Taiwan Dollar" Is Here! Central Bank Launches CBDC Prototype Platform〉](https://xrex.io/taiwan-cbdc-zh/) — Central Bank Governor Yang Chin-long stated that public hearings would be held to broadly gather opinions, but there is "no specific timeline" for formal issuance.

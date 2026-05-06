@@ -1,159 +1,185 @@
 ---
-title: '라이칭더: 광부 가정 출신 공중보건 의사, 총통이 되다'
-description: '타이완 제16대 총통, 중화민국 헌정사상 최초로 부총통 신분으로 총통 선거에 출마해 당선된 정치인'
-date: '2026-03-19'
-tags: ['총통', '의사', '정치인', '민주진보당', '공중보건', '타이난']
-subcategory: '정치·민주주의'
+title: "Lai Ching-te: Public Health Physician from a Miner's Family to the Presidential Palace"
+description: 'The 16th President of the Republic of China, the first political figure in the constitutional history of the Republic of China to run for president as Vice President and successfully win election.'
+date: 2026-03-19
+tags:
+  [
+    'President',
+    'Physician',
+    'Political Figure',
+    'Democratic Progressive Party',
+    'Public Health',
+    'Tainan',
+  ]
+subcategory: 'Politics and Democracy'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
 readingTime: 12
-featured: true
+lastVerified: 2026-03-19
+lastHumanReview: false
 translatedFrom: 'People/賴清德.md'
+sourceCommitSha: '2d0c126f'
+sourceContentHash: 'sha256:db48b107f3fcda38'
+translatedAt: '2026-05-04T00:41:57+08:00'
 ---
 
-# 라이칭더: 광부 가정 출신 공중보건 의사, 총통이 되다
+# Lai Ching-te: Public Health Physician from a Miner's Family to the Presidential Palace
 
-## 30초 요약
+## 30-Second Overview
 
-라이칭더(賴清德)는 중화민국 제16대 총통으로, 1959년 신베이(新北) 완리(萬里)의 광부 가정에서 태어났다. 재활의학을 거쳐 하버드 공중보건 석사를 취득한 후, 1996년 의사직을 내려놓고 정계에 입문했다. 국대 대표, 입법위원, 타이난 시장, 행정원장, 부총통을 역임하고 2024년 총통에 당선됐다. 헌정사상 최초로 부총통 신분으로 총통 선거에 출마해 당선된 정치인이며, 렌잔(連戰)에 이어 행정원장·부총통·총통을 모두 역임한 두 번째 정치인이기도 하다.
+Lai Ching-te, the 16th President of the Republic of China, was born in 1959 in a miner's family in Wanli, New Taipei. Starting with rehabilitation medicine, he underwent Harvard public health training and left medicine for politics in 1996. He served as a Delegate to the National Convention, Legislator, Mayor of Tainan, Premier of the Executive Yuan, and Vice President, before being elected President in 2024. He is the first political figure in constitutional history to run for president as Vice President and successfully win election. He is also the second political figure, after Lien Chan, to have served as Premier of the Executive Yuan, Vice President, and President.
 
-**키워드**: 의사 출신 정치인, 타이난 시장, 헌정 최초 사례, 광부의 아들, 공중보건
+**Keywords**: Physician entering politics, Mayor of Tainan, Constitutional first, Son of a miner, Public health
 
-## 의사의 길: 세 겹의 의학적 배경
+## Benevolent Healer: A Unique Background of Triple Medical Expertise
 
-### 완리에서 타이완대학까지: 운명을 바꾼 학업의 여정
+### From Wanli to National Taiwan University: The Educational Path That Changed Destiny
 
-1959년 10월 6일, 라이칭더는 신베이시 완리구 광부 가정에서 태어났다. 두 살 때 아버지가 광산 사고로 세상을 떠나자 어머니는 재봉과 막노동으로 홀로 여섯 자녀를 키웠다. 이 힘든 유년 시절이 서민 민심을 읽는 그의 감각을 키웠고, 훗날 정치 스타일에서 드러나는 '풀뿌리 정치'의 바탕이 됐다.
+On October 6, 1959, Lai Ching-te was born in Wanli District, New Taipei City, into a miner's family. His father died in a mining disaster when Lai was two years old, and his mother raised six children alone through tailoring and odd jobs. This difficult childhood cultivated his sensitivity to the sentiments of the grassroots, which also shaped his "grassroots" political style in later years.
 
-라이칭더는 타이완대학 재활의학과, 청공(成功)대학 의학과를 졸업하고 미국 하버드대학 공중보건대학원 석사 학위를 취득했다. 이로써 **제3의학(재활), 제2의학(임상), 제1의학(공중보건)** 전문성을 고루 갖춘 타이완의 드문 의사가 됐다. 이 폭넓은 의학 훈련은 그의 사고방식에 영향을 미쳤고, '실증 기반 행정'이라는 그의 정치 스타일의 근원이 됐다.
+Lai Ching-te graduated from the Department of Rehabilitation Medicine at National Taiwan University and the Post-Baccalaureate Department of Medicine at National Cheng Kung University. He also obtained a Master's degree from the Harvard T.H. Chan School of Public Health. This makes him a physician with rare expertise in **Third Medicine (Rehabilitation), Second Medicine (Clinical Medicine), and First Medicine (Public Health)**. This comprehensive medical training not only influenced his way of thinking but also became the foundation of his "empirical logic" governing style.
 
-### 하버드 시절: 공공정책적 시야의 형성
+### Harvard Years: The Formation of a Public Policy Perspective
 
-1993년 하버드 공중보건대학원에서 보건정책·관리를 전공한 라이칭더는 이곳에서 선진 공공정책 이론과 실증 연구 방법론을 접했다. 개별 환자의 치료에서 사회 전체의 건강 관리로 시야를 넓힌 이 경험은, 훗날 '정밀 행정'과 '데이터 기반 의사결정'이라는 그의 정치 스타일로 이어졌다.
+In 1993, Lai Ching-te went to the Harvard T.H. Chan School of Public Health for further study, majoring in Health Policy and Management. During his time at Harvard, he was exposed to advanced public policy concepts and empirical research methods. This experience allowed him to expand from treating individual patients to thinking about the health management of the entire society. His "precision governance" and "data-driven decision-making" style, which he later demonstrated in his political career, largely stems from this public health training.
 
-1994년 귀국해 청공대학병원 총의로 재직하던 시기는 타이완 민주화의 중요한 분기점과 맞물렸다. 그는 의사가 사회 전체의 '건강'에 더 큰 영향을 미칠 수 있지 않을까 고민하기 시작했다.
+In 1994, Lai Ching-te returned to Taiwan to serve as the Chief Resident at National Cheng Kung University Hospital, during a critical moment of Taiwan's democratization. He began to think: Can a physician transcend the individual level and have a greater impact on the "health" of the entire society?
 
-## 의사에서 정치인으로: 타이완 해협 위기의 전환점
+## Leaving Medicine for Politics: A Historical Turning Point in the Taiwan Strait Crisis
 
-### 천딩난의 영향: 공공 사무에 발을 딛다
+### Inspired by Chen Ding-Nan: Entering Public Affairs
 
-1994년 타이완 최초의 성장(省長) 직선제가 실시됐다. 라이칭더는 민주진보당 후보 천딩난(陳定南)의 '타이난 의사 후원회 회장'을 자원해 맡으며 공공 활동에 첫발을 내딛었다. 천딩난의 청렴 이미지와 개혁 정신은 라이칭더의 정치적 가치관 형성에 깊은 영향을 줬다.
+In 1994, Taiwan held its first direct election for Provincial Governor. Lai Ching-te voluntarily served as the President of the "Tainan Physicians Support Association" for the Democratic Progressive Party candidate Chen Ding-Nan. This marked the starting point of his involvement in public affairs. Chen Ding-Nan's clean image and reformist ideals deeply influenced Lai Ching-te's political values.
 
-### 1996년 타이완 해협 미사일 위기: 결정적 선택
+### The 1996 Taiwan Strait Missile Crisis: A Key Decision
 
-1996년 중국이 타이완을 향해 미사일 훈련을 실시하며 양안 긴장이 최고조에 달했다. 이 위기 앞에서 라이칭더는 의사직을 내려놓고 정계 입문이라는 중대 결단을 내렸다. 그는 훗날 이렇게 회고했다. "그때 타이완의 민주와 자유를 지켜야 할 사람이 필요하다고 느꼈습니다. 그 책임감이 수술 메스 대신 마이크를 잡게 했습니다."
+In 1996, China conducted missile exercises targeting Taiwan, and the situation in the Taiwan Strait was tense. Facing this crisis, Lai Ching-te made a major life decision: to formally leave medicine for politics. He later recalled: "At that time, I felt that Taiwan's democracy and freedom needed someone to guard them. This sense of responsibility made me put down the scalpel and pick up the microphone."
 
-같은 해 타이난에서 최다 득표로 국민대회 대표에 당선됐다. 아이러니하게도 첫 번째 정치 임무가 '국민대회 폐지'였다. 이 상징적인 출발—구체제를 허무는 것부터 시작—은 그의 정치 인생 전반에 걸쳐 타이완 민주주의의 심화·개혁과 함께했음을 예고했다.
+In the same year, he was elected as a Delegate to the National Convention in Tainan City with the highest number of votes. Ironically, his first political task was to "abolish the National Convention Delegates." This carried profound symbolic significance: starting from abolishing the old system, his political career has been accompanied by the deepening and reform of Taiwan's democracy.
 
-## 정치 역정: 국회에서 총통부까지의 30년
+## Political Journey: From the Legislature to the Presidential Palace Over Thirty Years
 
-### 입법위원 시기(1998~2010): 전문 의정으로 명성 구축
+### Legislative Yuan Period (1998-2010): Establishing Reputation through Professional Legislative Inquiry
 
-1998년부터 2010년까지 입법위원을 4선 연임하며 전문적 의정 활동과 청렴한 이미지로 이름을 알렸다. 의학적 배경을 살려 건강보험 개혁, 공중보건 정책 등에서 전문적인 영향력을 발휘했다. 이 시기 '충분한 준비, 상세한 자료'라는 의정 스타일이 확립됐으며, 의회에서는 '라이신(賴神)'이라는 별명을 얻었다.
+From 1998 to 2010, Lai Ching-te was re-elected for four terms as a Legislator, known for his professional legislative inquiry and clean image. He leveraged his medical background to exert professional influence on issues such as healthcare reform and public health policies. During this period, he established a legislative inquiry style characterized by "being well-prepared and having detailed data," earning him the nickname "Lai Shen" (God Lai) in the Legislative Yuan.
 
-### 타이난 시장 시기(2010~2017): 도시 행정의 성공 모델
+### Mayor of Tainan Period (2010-2017): A Successful Model of Urban Governance
 
-2010년 현·시 통합 개편 후 초대 타이난 시장에 당선돼 2014년에는 재선에 성공했다. 8년의 재임 기간 동안 타이난을 '문화 수도'이자 '저탄소 도시'로 만들었다.
+After the merger of counties and cities into municipalities in 2010, Lai Ching-te was elected as the first Mayor of Tainan and was successfully re-elected in 2014. During his eight-year term as Mayor, he transformed Tainan into a "Cultural Capital" and a "Low-Carbon City."
 
-**주요 성과:**
+**Key Achievements Include:**
 
-- **문화 행정 혁신**: '타이난 400' 문화 브랜드 추진, 고적 복원, 문화창조 산업 발전
-- **스마트 도시 구축**: 4G 네트워크 구축, 디지털 거버넌스 추진
-- **환경 선도**: 태양광 발전 추진, 전국 그린에너지 시범 도시 달성
-- **사회 복지**: 노인 건강보험 지원 확대, 공공 보육 추진
+- **Cultural Governance Innovation**: Promoted the "Tainan 400" cultural brand, restored historical sites, and developed the cultural and creative industry.
+- **Smart City Construction**: Established 4G networks and promoted digital governance.
+- **Environmental Pioneer**: Promoted solar photovoltaics, becoming a green energy demonstration city in Taiwan.
+- **Social Welfare**: Expanded health insurance subsidies for the elderly and promoted publicly operated daycare centers.
 
-타이난 경험은 라이칭더가 '개인 치료'에서 '도시 행정'으로 성공적으로 전환했음을 입증했다.
+Lai Ching-te's experience in Tainan proved his successful transition from "treating individuals" to "governing a city."
 
-### 행정원장 시기(2017~2019): 국정 추진과 도전
+### Premier of the Executive Yuan Period (2017-2019): Policy Implementation and Challenges
 
-2017년 행정원장에 취임한 라이칭더는 연금 개혁, 에너지 전환, 전망 기반 건설 등 중요 정책 과제에 직면해 소통·조정 능력과 정책 집행력을 발휘했다. 논란도 적지 않았지만, 추진한 장기요양 2.0과 디지털 국가 정책 등은 타이완 디지털 전환의 기반이 됐다.
+In 2017, Lai Ching-te succeeded as the Premier of the Executive Yuan. Facing major policy challenges such as pension reform, energy transition, and the Forward-Looking Infrastructure Development Plan, he demonstrated abilities in "communication and coordination" and "policy execution." Although he encountered numerous controversies during this period, the Long-Term Care 2.0 and Digital Nation policies he promoted laid the foundation for Taiwan's digital transformation.
 
-### 부총통 시기(2020~2024): 국제 외교의 개척
+### Vice President Period (2020-2024): Pioneer of International Diplomacy
 
-부총통으로서 여러 차례 타이완을 대표해 외국을 방문했다. 특히 2023년 '민주 파트너 상생 방문(民主夥伴共榮之旅)'에서 미국을 경유해 주요 정치인들과 회동하며 타이완의 국제적 존재감을 높였다. 의학 배경과 영어 능력은 국제 무대에서 중요하게 작용했다.
+During his tenure as Vice President, Lai Ching-te represented Taiwan on multiple overseas visits. Notably, in 2023, during his "Tour of Democratic Partnership and Prosperity," he had layovers in the United States and met with important political figures, showcasing Taiwan's international visibility. His medical background and English proficiency played important roles in international settings.
 
-## 2024년 총통 선거: 헌정 사례를 새로 쓴 승리
+## 2024 Presidential Election: A Victory Creating a Constitutional Precedent
 
-### 역사적인 선거 결과
+### Historic Election Results
 
-2024년 1월 13일, 샤오메이친(蕭美琴)을 러닝메이트로 삼은 라이칭더는 40.05%의 득표율로 총통에 당선됐다. 이로써 여러 헌정 기록이 세워졌다.
+On January 13, 2024, Lai Ching-te, with Hsiao Bi-kim as his running mate, was elected President with 40.05% of the votes. This set multiple constitutional records:
 
-1. **헌정사상 최초로 부총통 신분으로 총통 선거에 출마해 당선**
-2. **최초의 의사 출신 총통**
-3. **민진당 3회 연속 집권을 이끈 주역**
-4. **행정원장·부총통·총통을 모두 역임한 두 번째 정치인**
+1. **The first political figure to successfully run for president as Vice President**
+2. **The first president with a professional medical background**
+3. **The driving force behind the Democratic Progressive Party's third consecutive term in office**
+4. **The second political figure to have served as Premier of the Executive Yuan, Vice President, and President**
 
-### 선거 전략: 전문 행정 대 정치 경쟁
+### Campaign Characteristics: Professional Governance vs. Political Competition
 
-라이칭더의 선거 주축은 '전문적 국정 운영'과 '실용 외교'였다. 주요 공약으로는 민주주의 심화와 제도 개혁 지속, 국방 강화와 국제 협력, 그린에너지 전환과 디지털 경제 추진, 사회 안전망 강화가 있었다.
+Lai Ching-te's campaign core themes were "professional governance" and "pragmatic diplomacy." He proposed:
 
-## 총통 임기(2024~)
+- Continuing the deepening of democracy and institutional reform
+- Strengthening national defense and international cooperation
+- Promoting green energy transition and the digital economy
+- Improving the social safety net
 
-### 국정 방향
+## Presidential Term (2024-)
 
-취임 후 라이칭더는 의학적 배경을 국정 논리의 기반으로 삼아 '실증'과 '예방'의 행정 논리를 강조했다. 주요 정책 방향으로는 국방 강화와 국제 협력, 그린에너지 전환과 디지털 경제, 사회 안전망과 장기요양 체계 완비가 있다.
+### Governance Direction
 
-### 국제 관계
+After taking office, Lai Ching-te used his medical background as the basis for his governance narrative, emphasizing the governance logic of "empirical evidence" and "prevention." Key policy directions include:
 
-전임자의 '친미·우일(親美友日)' 노선을 이어받아 국제 보건 협력, 기후변화 등의 의제에서 타이완의 참여 공간을 모색했다. 그러나 스스로를 '대만독립 운동가'로 규정한 발언이 베이징의 강경 대응을 불러일으키며, 양안 관계는 임기 내 최대 외교 과제로 남아 있다.
+- Strengthening national defense and international cooperation
+- Promoting green energy transition and the digital economy
+- Improving the social safety net and long-term care system
 
-## 라이칭더 현상: 다양한 시각
+### International Relations
 
-### 지지자 시각
+Continuing the previous administration's "Pro-US, Friendly to Japan" route, Lai Ching-te seeks space for Taiwan's participation in international health cooperation and climate change issues. However, his self-identification as a "pragmatic independence worker" has led Beijing to adopt a harder stance, making cross-strait relations the greatest diplomatic challenge of his term.
 
-- 타이완 정치의 '전문적 행정'에 대한 기대를 대표
-- 풀뿌리 출신이 사회 계층 이동 가능성을 체현
-- 의학 훈련이 합리적 의사결정 스타일로 이어짐
+## The Lai Ching-te Phenomenon: Diverse Perspectives
 
-### 비판자 시각
+### Supporters' Views
 
-- 의학 배경이 정치 전문성과 동일하지 않으며 '의사 치국' 서사가 과대 포장됨
-- 소수 정부 집권의 어려움, 여야 소통 능력 부족
-- 공약 이행률에 대한 의문
-- 양안 정책의 유연성 부족
+- Represents the expectation of Taiwan's politics for "professional governance"
+- Grassroots origin reflects social class mobility
+- Medical training brings a rational decision-making style
 
-## 논란과 도전
+### Critics' Views
 
-### 정치적 입장 논란
+- A medical background does not equate to political expertise; the "physician governing the country" narrative is overly packaged
+- Difficulty in governing with a minority government; insufficient cross-party communication skills
+- Questionable fulfillment rate of campaign promises
+- Lack of flexibility in cross-strait policy
 
-- **'대만독립 운동가' 발언**: 2017년 행정원장 시절 스스로를 "실용적인 대만독립 운동가"라고 공개 언급해 양안 관계를 긴장시켰다. 지지자들은 '솔직한 말'로, 비판자들은 '무책임한 갈등 조장'으로 받아들였다.
-- **양안 노선 논쟁**: 야당 진영은 양안 정책의 유연성 결여가 타이완 해협의 위기를 고조시킬 수 있다고 우려한다.
+## Controversies and Challenges
 
-### 공약 이행 격차
+Lai Ching-te's political career has been accompanied by continuous controversies and criticisms:
 
-- **3교대 간호사 비율**: 2024년 총통 선거 당시 '3교대 간호사 배치 비율 법제화'를 공약했으나, 2026년 현재까지 추진 속도가 더디다는 비판을 받고 있으며 간호계의 요구가 계속되고 있다.
-- **해외 치과 의사 학력 인정 논란**: 오랫동안 이어진 해외 치과 학력 인정 문제에 대해 의사 출신 총통으로서 해결책을 내놓을 것으로 기대됐으나 명확한 정책이 나오지 않고 있다.
-- **에너지 정책**: 탈핵 정책에 따른 전력 공급 안정성 문제가 지속적으로 제기되고 있다.
+### Political Stance Controversies
 
-### 집권 기간의 정치 대립
+- **"Pragmatic Independence Worker" Remarks**: In 2017, while serving as Premier, he publicly referred to himself as a "pragmatic independence worker," causing tensions in cross-strait relations and a strong backlash from Beijing. Supporters view this as "telling the truth," while critics believe it irresponsibly escalates confrontation.
+- **Cross-Strait Route Debate**: The opposition questions that his cross-strait policy lacks flexibility and may exacerbate Taiwan Strait risks.
 
-- **부원당과 야당 관계**: 집권 후 여야 대립이 심화됐고, 야당은 여러 사법 사건에 정치적 의도가 담겼다고 비판한다.
-- **소수 정부의 어려움**: 민진당이 입법원 과반을 차지하지 못해 정책 추진에 거듭 난관을 맞고 있다.
-- **행정원장 시절**: 노동기준법 재개정('1주 1휴 재개정')이 노동계의 강한 반발을 불렀다.
+### Gap Between Policy Promises and Execution
 
-### 행정 스타일 비판
+- **Three-Shift Nurse-to-Patient Ratio**: During the 2024 presidential election, he promised to enact the "three-shift nurse-to-patient ratio" into law, which the Nursing Association viewed as a key campaign promise. As of 2026, the policy has been criticized for slow progress, with the nursing community continuing to demand the fulfillment of the promise.
+- **Bobo Dentist Controversy**: Long-standing controversies over the certification of his overseas dental medical qualifications remain. As a president with a medical background, Lai Ching-te was expected to propose solutions, but no clear policy has emerged to date.
+- **Energy Policy**: The stability of power supply under the "Nuclear-Free Homeland" policy continues to be questioned.
 
-'의사 출신 정치인'이라는 서사 프레임이 과도하게 미화됐다는 지적도 있다. '진단→치료→추적관찰'이라는 행정 논리가 실제 국정에서 얼마나 실현되고 있는지에 대한 의문도 제기된다. 의학 배경이 곧 훌륭한 정치적 결단으로 이어지지는 않는다는 비판이다.
+### Political Polarization During Governance
 
-## 역사적 평가
+- **Relations between the Executive, Legislative, and Party**: Polarization between the ruling and opposition camps has intensified after taking office. The opposition criticizes that multiple judicial cases have political targeting.
+- **Minority Government Dilemma**: The Democratic Progressive Party does not hold a majority in the Legislative Yuan, causing obstacles in policy implementation.
+- **Premier Period**: The Labor Standards Act Amendment (the "One Day Off, Seven Days Work" re-amendment) sparked strong protests from labor groups.
 
-라이칭더는 여러 헌정 기록을 세웠고(최초의 부총통 출마 당선, 최초의 의사 출신 총통), 그의 정치 인생은 완리 광부의 아들이 총통부에 오르는 타이완 사회 계층 이동의 가능성을 보여준다.
+### Criticism of Governance Style
 
-그러나 현직 총통으로서 역사적 평가는 아직 쓰이는 중이다. 지지자들은 '전문 행정'의 새 전형으로 보지만, 비판자들은 공약 성과와 실제 행정 사이의 간극을 문제 삼는다. 타이완 사회의 최종 평가는 임기 내 정책 이행 수준과 양안 관계의 향방에 달려 있다.
+Some public opinion believes that the narrative framework of "physician entering politics" is overly beautified, questioning whether the "diagnosis → treatment → follow-up" governance logic is truly implemented in actual state affairs. Critics point out that a medical background does not necessarily equate to good political decision-making ability.
 
-**더 읽어보기**
+## Historical Position
 
-- [2026 정시후이: 국공 지도자의 10년 만의 재회](/society/2026鄭習會與國共十年再會)
-- [샤오메이친](/people/蕭美琴) — 라이칭더의 부총통 파트너
-- [타이완 국방과 군사 현대화](/society/台灣國防與軍事現代化)
-- [타이완 민주 전환](/history/台灣民主轉型)
-- [리양](/people/李洋) — 역대 최연소 내각 구성원, 초대 체육부 장관
+Lai Ching-te has set multiple constitutional records (the first Vice President to successfully run for president, the first physician president). His political career embodies the possibility of social class mobility in Taiwan—from the son of a miner in Wanli to the Presidential Palace.
 
-## 참고 자료
+However, as the current president, his historical position is still being written. Supporters view him as a new model of "professional governance," while critics believe there is a gap between his governance effectiveness and election promises. Taiwan society's final evaluation of him will depend on the degree of policy fulfillment and the direction of cross-strait relations during his future term.
 
-- [중화민국 총통부 공식 웹사이트, 총통 소개](https://www.president.gov.tw/Page/694)
-- [위키피디아 '라이칭더' 항목](https://zh.wikipedia.org/zh-tw/%E8%B3%B4%E6%B8%85%E5%BE%B7)
-- [《천하잡지》 역대 관련 인터뷰 보도](https://www.cw.com.tw/article/5128853)
-- [청공대학 의학원 학력 자료](https://www.ncku.edu.tw/)
-- [중앙선거위원회 2024년 총통 선거 공보](https://bulletin.cec.gov.tw/)
-- [타이난시 정부 역대 시정 보고](https://www.tainan.gov.tw/News.aspx?n=4975&sms=13709)
+**Further Reading**:
+
+- [2026 Tsai-Xi Meeting: The Ten Minutes of the Decade Reunion of KMT and CCP Leaders](/society/2026鄭習會與國共十年再會) — The other protagonist of this drama, the one deliberately left out of the frame
+- [Hsiao Bi-kim](/people/蕭美琴) — Lai Ching-te's Vice Presidential running mate, from Washington D.C. Representative to the War Cat Vice President
+- [Taiwan National Defense and Military Modernization](/society/台灣國防與軍事現代化) — The most representative policy during Lai Ching-te's term: the 1.25 trillion special budget and the M1A2T tank battalion becoming operational
+- [Taiwan Democratic Transition](/history/台灣民主轉型) — The fact that a miner's son from Wanli can become president is itself a product of democratic transition
+- [Li Yang](/people/李洋) — The youngest cabinet member in history, sworn in by Lai Ching-te personally, and the first Minister of Sports
+- [Shen Pei-yang](/people/沈伯洋) — A non-caucus legislator of the DPP listed on the "Stubborn Independence Forces" list, who in 2025 became the first Taiwanese elected political figure to be filed by China for the crime of splitting the country
+- [Chuo Rong-tai](/people/卓榮泰) — Lai Ching-te's first Premier of the Executive Yuan in 2024, a coordinator for 38 years, who in December 2025 became the first Premier not to countersign the Financial and Property Law in a constitutional first
+- [Hsu Chiao-hsin](/people/徐巧芯) — The KMT legislator who repeatedly clashed with Lai Ching-te on the questioning platform, the main proponent of the 800 billion version of the 2026 military procurement controversy
+
+## References
+
+- [Official Website of the Presidential Office, Republic of China, Presidential Introduction](https://www.president.gov.tw/Page/694)
+- [Wikipedia "Lai Ching-te" Entry](https://zh.wikipedia.org/zh-tw/%E8%B3%B4%E6%B8%85%E5%BE%B7)
+- [Various Related Interview Reports from _Cw Magazine_](https://www.cw.com.tw/article/5128853)
+- [Educational Records from National Cheng Kung University College of Medicine](https://www.ncku.edu.tw/)
+- [Central Election Commission 2024 Presidential Election Gazetteer](https://bulletin.cec.gov.tw/)
+- [Tainan City Government Annual Governance Reports](https://www.tainan.gov.tw/News.aspx?n=4975&sms=13709)

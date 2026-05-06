@@ -8,6 +8,11 @@ author: Taiwan.md
 readingTime: 10
 featured: false
 translatedFrom: 'Food/台灣小吃.md'
+sourceCommitSha: '800114ea'
+sourceContentHash: 'sha256:5204a1234af866a0'
+sourceBodyHash: 'sha256:8280e871af75b399'
+translatedAt: '2026-04-14T12:25:09+08:00'
+category: Food
 ---
 
 # Comida Callejera Taiwanesa

@@ -399,15 +399,15 @@ C: {audit 盲區：哪些 footnote 沒實 fetch / 哪些 source 無法 cross-che
 
 ## 工具化路徑（待造）
 
-| 工具                                    | 用途                                                  | 優先序                 |
-| --------------------------------------- | ----------------------------------------------------- | ---------------------- |
-| `scripts/tools/extract-atoms.sh`        | Phase 2 自動 grep 候選 atom                           | P1                     |
-| `scripts/tools/check-footnote-urls.sh`  | Phase 3 批次 curl 檢查所有 footnote URL 是否 200      | P0（最簡單，最大 ROI） |
-| `scripts/tools/audit-quotes.sh`         | Phase 4 對每個引號 atom spawn WebFetch verbatim check | P2                     |
-| `scripts/tools/factcheck-arithmetic.py` | Phase 5 算術 sanity check（數字 atom 帶單位推算）     | P3                     |
-| `scripts/tools/factcheck-pipeline.sh`   | 整套 wrapper：跑 Phase 1-6 全自動                     | P4                     |
+| 工具                                                      | 用途                                                  | 優先序           |
+| --------------------------------------------------------- | ----------------------------------------------------- | ---------------- |
+| `scripts/tools/extract-atoms.sh`                          | Phase 2 自動 grep 候選 atom                           | P1               |
+| `article-health.py --check=footnote-url --network` (SSOT) | Phase 3 批次 HEAD 檢查所有 footnote URL 是否 200      | ✅ P0 已 SSOT 化 |
+| `scripts/tools/audit-quotes.sh`                           | Phase 4 對每個引號 atom spawn WebFetch verbatim check | P2               |
+| `scripts/tools/factcheck-arithmetic.py`                   | Phase 5 算術 sanity check（數字 atom 帶單位推算）     | P3               |
+| `scripts/tools/factcheck-pipeline.sh`                     | 整套 wrapper：跑 Phase 1-6 全自動                     | P4               |
 
-優先 P0：`check-footnote-urls.sh` 一個 script 就能避免大半的 🔴 DEAD-LINK。
+優先 P0：`article-health.py --check=footnote-url --network` 一個指令就能避免大半的 🔴 DEAD-LINK。
 
 ---
 
@@ -417,7 +417,7 @@ C: {audit 盲區：哪些 footnote 沒實 fetch / 哪些 source 無法 cross-che
 - [ ] 我對中文 source 是否一律用中文 prompt 要求逐字？
 - [ ] 所有 ❌ HARD-FIX 是否都有具體修補建議（刪哪段、換哪個 source、改成什麼 hedge）？
 - [ ] 是否保留了 audit trail（append 到 research 檔）？
-- [ ] 修補後是否重跑 quality-scan / §11 / format-check？
+- [ ] 修補後是否重跑 `article-health.py --profile=release-pr`（含 prose-health / format-structure / wikilink-target / footnote-format 等所有 plugin）？
 - [ ] commit message 是否完整列出每個 ❌ + 🔴 的修補？
 - [ ] 殘留 ⚠️ SOFT-FIX 是否寫入 LESSONS-INBOX 或 ARTICLE-INBOX 作為 follow-up？
 - [ ] 是否有 atom 我沒查到（audit 盲區）？明確列出。
@@ -460,14 +460,14 @@ REWRITE Stage 2 寫完 prose 後、進 Stage 4 之前必跑。設計思路是「
 
 **範圍**（Phase 1-6 簡化版）：
 
-| Phase                        | Quick Mode 怎麼跑                                                                                    |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Phase 1 SCOPE                | 直接判 article 為 B/C 級即跑 Quick；A 級跑 Quick 後加跑 Full                                         |
-| Phase 2 ATOMIC DECOMPOSITION | **採樣**：grep 抽出引語 + 數字 + 英文人名 + 獎項 + 場景動作 detail（其他類 skip）；目標 ~20-40 atoms |
-| Phase 3 SOURCE AUTHORITY     | 跑 `bash scripts/tools/check-footnote-urls.sh <article>` 攔截 🔴 DEAD-LINK                           |
-| Phase 4 CLAIM VERBATIM       | 對採樣 atoms WebFetch；中文 source 用中文 prompt 要求逐字                                            |
-| Phase 5 CROSS-CLAIM          | 算術自檢 + 「首位 / 第一個」claim 確認                                                               |
-| Phase 6 TRIAGE & APPLY       | 0 個 ❌ + 0 個 🔴 才進 REWRITE Stage 4；⚠️ SOFT-FIX 列入 commit message 後可 ship                    |
+| Phase                        | Quick Mode 怎麼跑                                                                                                      |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Phase 1 SCOPE                | 直接判 article 為 B/C 級即跑 Quick；A 級跑 Quick 後加跑 Full                                                           |
+| Phase 2 ATOMIC DECOMPOSITION | **採樣**：grep 抽出引語 + 數字 + 英文人名 + 獎項 + 場景動作 detail（其他類 skip）；目標 ~20-40 atoms                   |
+| Phase 3 SOURCE AUTHORITY     | 跑 `ARTICLE_HEALTH_NETWORK=1 python3 scripts/tools/article-health.py <article> --check=footnote-url` 攔截 🔴 DEAD-LINK |
+| Phase 4 CLAIM VERBATIM       | 對採樣 atoms WebFetch；中文 source 用中文 prompt 要求逐字                                                              |
+| Phase 5 CROSS-CLAIM          | 算術自檢 + 「首位 / 第一個」claim 確認                                                                                 |
+| Phase 6 TRIAGE & APPLY       | 0 個 ❌ + 0 個 🔴 才進 REWRITE Stage 4；⚠️ SOFT-FIX 列入 commit message 後可 ship                                      |
 
 **升級 Full Mode 的條件**（任一觸發）：
 
@@ -477,7 +477,7 @@ REWRITE Stage 2 寫完 prose 後、進 Stage 4 之前必跑。設計思路是「
 
 **Quick Mode hard gate**（REWRITE Stage 4 才進得去）：
 
-- [ ] `check-footnote-urls.sh` 0 個 🔴 DEAD-LINK
+- [ ] `article-health.py --check=footnote-url --network` 0 個 🔴 DEAD-LINK
 - [ ] 所有引號 atom verbatim 對齊 source（無 quote re-paraphrase / third-person flip）
 - [ ] 所有獎項 / 精確日期 / 英文人名 atom 至少 1 個 source 支持（HRC 級 atom 必兩源）
 - [ ] 所有 ❌ HARD-FIX 已修補完

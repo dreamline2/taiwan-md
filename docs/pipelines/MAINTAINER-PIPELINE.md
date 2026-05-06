@@ -336,16 +336,23 @@ Closing — thanks again 🧬
 
 **Quick fix 清單**（看到這些不 close、改 polish）：
 
-- `author: 'Manus AI' / 'ChatGPT' / 'Claude'` → 1 行改 `'Taiwan.md Contributors'`
+- `author: 'Manus AI' / 'ChatGPT' / 'Claude' / 'Semiont' / 'Taiwan.md'` → 1 行改 `'Taiwan.md Contributors'`
 - `featured: true` 在 `lastHumanReview: false` → 1 行改 false
 - `readingTime` 誇大（25 但只 90 行）→ 1 行修正
-- footnote APA 格式 / 缺 `:` / 缺 em-dash → regex batch 修
+- **Footnote 多源格式**（APA `Author. (date). *Title*. URL` / 中文〈Title〉，URL / Markdown 缺 desc / angle-bracket `(<URL>)`）→ `python3 scripts/tools/footnote-format-fix.py --apply <files>`（DNA #48 canonical：60+ domain → desc 自動 resolve，4 source format 統一轉 `[^N]: [Title](URL) — desc`，dry-run default）
 - vague non-citation（「可參考相關文獻」）→ 補一個維基或泛科學 source
-- §11 對位句型 / 破折號超標 → 替換 5-10 處
+- §11 對位句型 / 破折號超標 → 替換 5-10 處（`python3 scripts/tools/article-health.py <file> --check=prose-health`）
 - 缺 `## 參考資料` / `## 延伸閱讀` heading → append
 - path 錯位（檔案在 root 不在分類資料夾）→ `git mv`
-- frontmatter category vs path mismatch → `git mv` 或改 frontmatter
+- frontmatter category vs path mismatch → `git mv` 或改 frontmatter（canonical category：About / Art / Culture / Economy / Food / Geography / History / Language / Lifestyle / Music / Nature / People / Society / Technology — `Infrastructure` / `transportation` / 中文 category 名常被誤填）
 - 「參考來源」/「參考」非 canonical → 改「參考資料」
+- Broken `[[wikilink]]` 目標不存在 → 純文字（per neural circuit「目標 article 無對應 → 轉純文字」）
+- 列表中 `- [[X]] — desc`（Astro 不渲染）→ `- [X](/category/slug) — desc` 或純文字
+- frontmatter 重複 `---` 行（contributor agent 偶爾複製錯）→ 刪除多餘那行
+- tags 未 quote 的純數字（如 `[2025, ...]` → `['2025', ...]`，YAML number→string）→ 加單引號
+
+**Heal commit budget 校準**（per LESSONS-INBOX 2026-05-03 magical-feynman）：
+batch heal 階段成本被系統性**低估**（β-r3 反鏡像）。實測 idlccp1984 9 PR batch heal 階段佔總時長 ~50%（25/50 min），footnote source format diversity 是隱性 cost。**Batch discount 0.5x 不適用 heal 階段**——預留 ≥ 30 min budget 跑 hook 多輪 retry。`scripts/tools/footnote-format-fix.py` 吸收 80% 的重複工作，剩下 wikilink + frontmatter + URL 邊界 case 仍需人工。
 
 **真正該 close 的清單**（>30 min 或 contributor judgment 必須）：
 
@@ -584,13 +591,18 @@ Taiwan.md 自動呼吸循環：
 
 ## 權限管理
 
-| 角色  | 能 Merge？                      | 說明       |
-| ----- | ------------------------------- | ---------- |
-| admin | ✅ 可 `--admin` 跳過 protection | 專案擁有者 |
-| write | ⚠️ 可互相 approve + merge       | 核心貢獻者 |
+> **Canonical SOP 在 [CONTRIBUTOR-SYSTEM-PIPELINE.md](CONTRIBUTOR-SYSTEM-PIPELINE.md)** — 涵蓋五階梯定義、升降級觸發、inactive 政策（60 天 soft check-in / 90 天 demote）、mercy demote、復活路徑、`gh api` 指令速查。本節僅保留快速速查。
+
+| 對外角色 | API value | 能 Merge？                      | 對應階梯                 |
+| -------- | --------- | ------------------------------- | ------------------------ |
+| Admin    | `admin`   | ✅ 可 `--admin` 跳過 protection | Lv.4 Core Team           |
+| Write    | `push`    | ⚠️ 可互相 approve + merge       | Lv.3 Maintainer          |
+| Triage   | `triage`  | ❌ 只能標 label / 指派          | Lv.2 Trusted Contributor |
 
 Branch protection：需 1 approval，`enforce_admins: false`。
 目前策略：先不鎖，出狀況再調整。
+
+⚠️ **降級 / 移除 collaborator 動作必走 [CONTRIBUTOR-SYSTEM-PIPELINE §6 Inactivity Demotion 7 步](CONTRIBUTOR-SYSTEM-PIPELINE.md#6-inactivity-detection--demotion-pipeline-)**——禁止靜默調整。
 
 ---
 

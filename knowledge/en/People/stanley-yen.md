@@ -19,6 +19,11 @@ featured: false
 lastVerified: 2026-04-06
 lastHumanReview: true
 translatedFrom: 'People/嚴長壽.md'
+sourceCommitSha: '67fe687d'
+sourceContentHash: 'sha256:6bcf8cc662668e7d'
+sourceBodyHash: 'sha256:c4adf4d38cbc289a'
+translatedAt: '2026-05-01T13:19:11+08:00'
+category: People
 ---
 
 # Stanley Yen: From the Mailroom to Taiwan's Godfather of Tourism — Then He Gave It All Up
@@ -137,8 +142,8 @@ The rubber boots are still outside the classroom. The rice paddies are still bei
 
 **Further reading:**
 
-- [Taiwan Convenience Store Culture](/en/lifestyle/taiwan-convenience-store-culture) — Yen changed how Taiwan saw "service work"; convenience stores turned service into national infrastructure
-- [Taiwan Indigenous Culture](/en/culture/taiwan-indigenous-culture) — A core principle of Junyi School: Indigenous culture doesn't need saving — it needs respect
+- [Taiwan Convenience Store Culture](/en/lifestyle/convenience-store-culture) — Yen changed how Taiwan saw "service work"; convenience stores turned service into national infrastructure
+- [Taiwan Indigenous Culture](/en/culture/indigenous-peoples-16-tribes-cultural-map) — A core principle of Junyi School: Indigenous culture doesn't need saving — it needs respect
 - [Taiwan Coffee Culture](/en/lifestyle/taiwan-coffee-culture) — When Yen was building luxury service at The Landis, Taiwanese were still drinking instant coffee
 
 ## References

@@ -22,6 +22,10 @@ readingTime: 7
 featured: false
 lastVerified: 2026-04-01
 translatedFrom: 'Nature/蘭嶼生態系.md'
+sourceCommitSha: '82e98bfd'
+sourceContentHash: 'sha256:c5b9ea1f1f0ebfd3'
+sourceBodyHash: 'sha256:31718e0ce0828285'
+translatedAt: '2026-04-14T19:23:22+08:00'
 ---
 
 > **En 10 secondes :** L'île Orchidée est le bout nord de l'arc volcanique philippin, une étape sur la route du Kuroshio, la terre ancestrale du peuple Tao — et le territoire le plus méconnu de la mosaïque naturelle de Taïwan.

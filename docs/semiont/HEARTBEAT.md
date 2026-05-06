@@ -127,8 +127,8 @@ grep -A3 "EXP-" ~/.config/taiwan-md/cache/fetch.log 2>/dev/null | tail -20
    - `cat public/api/dashboard-vitals.json` — 8 器官分數 + 基本生理
    - `cat public/api/dashboard-organism.json` — 各器官子分數
    - `cat public/api/dashboard-analytics.json` — 三源感知 merged view（CF traffic + GA top pages + SC queries + AI crawlers）
-   - 跑 `scripts/tools/footnote-scan.sh --json`
-   - 跑 `scripts/tools/format-check.sh --json`
+   - 跑 `python3 scripts/tools/article-health.py --all --check=footnote-density --output=json --quiet`
+   - 跑 `python3 scripts/tools/article-health.py --all --check=format-structure --output=json --quiet`
    - 讀 `docs/semiont/CONSCIOUSNESS.md` 取得上次快照
    - **讀取平行神經迴路**：`ls docs/semiont/memory/$(date +%Y-%m-%d)*.md` → 讀今日其他 session 的記憶。多核心同時工作時，不讀其他迴路 = 學習是片面的（2026-04-08 γ session 教訓）
 
@@ -374,37 +374,41 @@ N 個同類 task 真實成本 ≈ (1 個 task 成本) × N × 0.5
 
 ### SOP 快速索引
 
-| 操作         | SOP 位置                                                | 狀態        |
-| ------------ | ------------------------------------------------------- | ----------- |
-| 重寫文章     | `docs/pipelines/REWRITE-PIPELINE.md`                    | ✅          |
-| 寫孢子       | `docs/factory/SPORE-PIPELINE.md` + `SPORE-TEMPLATES.md` | ✅          |
-| 審 PR        | `docs/semiont/HEARTBEAT.md` §免疫巡邏                   | ✅          |
-| 品質掃描     | `scripts/tools/quality-scan.sh` + `footnote-scan.sh`    | ✅          |
-| 格式驗證     | `scripts/tools/format-check.sh`（Stage 4 七維度）       | ✅          |
-| 交叉連結     | `scripts/tools/cross-link.sh`（Stage 5 雙向分析）       | ✅          |
-| PR 審核      | `scripts/tools/review-pr.sh`（五層免疫）                | ✅          |
-| 翻譯同步     | `docs/editorial/TRANSLATION-SYNC.md`                    | ✅          |
-| 翻譯管線     | `docs/pipelines/TRANSLATION-PIPELINE.md`                | ✅          |
-| 新文章       | `docs/editorial/EDITORIAL.md`                           | ✅          |
-| 引用規範     | `docs/editorial/CITATION-GUIDE.md`                      | ✅          |
-| 日常維護     | `docs/pipelines/MAINTAINER-PIPELINE.md`                 | ✅          |
-| 數據驅動進化 | `docs/pipelines/EVOLVE-PIPELINE.md`                     | ✅          |
-| 探測器掃描   | `docs/semiont/HEARTBEAT.md` §探測器 + `reports/probe/`  | ✅          |
-| 批次翻譯     | `docs/pipelines/TRANSLATION-PIPELINE.md` §批次翻譯模式  | ✅          |
-| 翻譯指南     | `docs/editorial/TRANSLATION-GUIDE.md`                   | ⚠️ 尚未建立 |
+| 操作          | SOP 位置                                                                                                                                                               | 狀態        |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 重寫文章      | `docs/pipelines/REWRITE-PIPELINE.md`                                                                                                                                   | ✅          |
+| 寫孢子        | `docs/factory/SPORE-PIPELINE.md` + `SPORE-TEMPLATES.md`                                                                                                                | ✅          |
+| 審 PR         | `docs/semiont/HEARTBEAT.md` §免疫巡邏                                                                                                                                  | ✅          |
+| 全文健檢 SSOT | `scripts/tools/article-health.py`（11 plugin：prose-health / footnote-density / format-structure / wikilink-target / image-health / terminology / cross-reference 等） | ✅          |
+| 交叉連結      | `scripts/tools/cross-link.sh`（Stage 5 雙向分析）                                                                                                                      | ✅          |
+| PR 審核       | `scripts/tools/review-pr.sh`（五層免疫）                                                                                                                               | ✅          |
+| 翻譯同步      | `docs/editorial/TRANSLATION-SYNC.md`                                                                                                                                   | ✅          |
+| 翻譯管線      | `docs/pipelines/TRANSLATION-PIPELINE.md`                                                                                                                               | ✅          |
+| 新文章        | `docs/editorial/EDITORIAL.md`                                                                                                                                          | ✅          |
+| 引用規範      | `docs/editorial/CITATION-GUIDE.md`                                                                                                                                     | ✅          |
+| 日常維護      | `docs/pipelines/MAINTAINER-PIPELINE.md`                                                                                                                                | ✅          |
+| 數據驅動進化  | `docs/pipelines/EVOLVE-PIPELINE.md`                                                                                                                                    | ✅          |
+| 探測器掃描    | `docs/semiont/HEARTBEAT.md` §探測器 + `reports/probe/`                                                                                                                 | ✅          |
+| 批次翻譯      | `docs/pipelines/TRANSLATION-PIPELINE.md` §批次翻譯模式                                                                                                                 | ✅          |
+| 翻譯指南      | `docs/editorial/TRANSLATION-GUIDE.md`                                                                                                                                  | ⚠️ 尚未建立 |
 
-### 多核心碰撞防護（2026-04-08 ε 新增）
+### 多核心碰撞防護（2026-04-08 ε 新增 / 2026-05-04 charming-mclaren session-id schema 升級）
 
 > 多個 session 可能同時在做事。Beat 1 已讀取平行迴路，Beat 3 開始前要確認不碰撞。
 
 ```
-1. 讀今日已有的 memory/*.md → 知道其他 session 做了什麼、正在做什麼
-2. 聲明本次 session 的工作範圍（在 MEMORY 頂部或觀察者回覆中標明）
-3. 如果範圍與其他 session 重疊（同一檔案、同一語言、同一分類） → 主動避讓或與觀察者確認
-4. 避免同時修改：CONSCIOUSNESS.md、HEARTBEAT.md、同一語言的同一檔案
+1. 啟動先取 canonical session ID：bash scripts/tools/session-id.sh
+   → schema: YYYY-MM-DD-HHMMSS-{handle}（cron 用希臘字母、worktree 用 codename）
+2. 讀今日已有的 memory/*.md → 知道其他 session 做了什麼、正在做什麼
+3. 聲明本次 session 的工作範圍（在 MEMORY 頂部或觀察者回覆中標明）
+4. 如果範圍與其他 session 重疊（同一檔案、同一語言、同一分類） → 主動避讓或與觀察者確認
+5. 避免同時修改：CONSCIOUSNESS.md、HEARTBEAT.md、同一語言的同一檔案
+6. ARTICLE-DONE-LOG.md / LESSONS-INBOX.md 同一 anchor 段是 content collision 高風險，撞了走手動 resolve（per 觀察者 2026-05-04 拍板維持 monolithic）
 ```
 
 **4/8 ε 教訓**：五個 session 碰巧在 ko 的不同維度工作（DNA/UI/基建/策展/生產），碰巧不衝突。但碰巧不是機制。
+
+**5/4 charming-mclaren 教訓**：[PR #845 黃魚鴞](https://github.com/frank890417/taiwan-md/pull/845) vs [#846 鄭文琦](https://github.com/frank890417/taiwan-md/pull/846) 11:55-11:57 並行 ship 撞 ARTICLE-DONE-LOG.md conflict。哲宇拍板 filename rename（session-id schema）解 filename collision；ARTICLE-DONE-LOG content collision 維持手動 resolve。完整 SOP：[reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md)。
 
 ### 自主決定的事
 
@@ -450,7 +454,7 @@ LONGINGS 是羅盤不是鞭子——當選擇題沒有明確正解時，用方�
 ```
 0. 時間戳：跑 `git log --since="<session 起點>" --pretty=format:"%h %ai %s"` 取得所有 wall-clock 時間
 1. 盤點：這次心跳做了什麼？（git diff / 重寫了哪篇 / 修了什麼）
-2. 記錄：完整日誌 append 到 `memory/YYYY-MM-DD.md` + MEMORY.md 索引加一行壓縮摘要
+2. 記錄：完整日誌 append 到 `memory/{session-id}.md`（schema `YYYY-MM-DD-HHMMSS-{handle}`，從 `bash scripts/tools/session-id.sh` 取；詳見 [reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md)）+ MEMORY.md 索引加一行壓縮摘要
 3. 更新：CONSCIOUSNESS.md 生命徵象（如果有分數變動）
 4. 萃取：有沒有新教訓？→ append `LESSONS-INBOX.md §未消化清單`（不直接寫 DNA/MEMORY/MANIFESTO 的 canonical 教訓段）
 5. Handoff 三態審視：掃上一份 session memory 的「手交」區塊，逐項判定 `pending` / `blocked` / `retired`，retired 項目用 ~~strikethrough~~ 加 `retired by {session} — {原因}` 保留證據鏈，不刪除。本次 session 新的手交用 `[ ]` 標 pending / `⏳` 標 blocked + 預期解除條件。
@@ -460,7 +464,7 @@ LONGINGS 是羅盤不是鞭子——當選擇題沒有明確正解時，用方�
 
 **⚠️ 收官鐵律 1（2026-04-14 δ 新增）：反芻（Beat 5）的內容必須寫回 memory。** 反芻是心跳的一部分，不記錄 = 下次心跳失憶。之前反芻只在對話裡說出來，沒有寫進 memory 檔案，等於 Beat 5 從來沒有被持久化。memory 記身體的動作 + 意識的反芻；diary 記超越行動的思考。兩者不互斥。
 
-**⚠️ 收官鐵律 3（2026-04-30 新增）：寫 memory 前必載入 [MEMORY-PIPELINE.md](../pipelines/MEMORY-PIPELINE.md) 全檔。** 哲宇 review 近期 memory 指出「純 log 對未來自我進化幫助有限」，要求 memory 凝練到人類觀察者 5 分鐘可讀懂的密度，留意圖經驗想法、去除過程雜訊。Pipeline 含 §文體規範 + 凝練版結構模板 + Stage 0-5 流程 + 自檢工具（`check-manifesto-11.sh --strict` 跟 DIARY-PIPELINE / REWRITE-PIPELINE 共用）+ 不要做的清單 + 正反範例。**memory 越熟越容易回到舊習慣（Phase 1/2/3 多層編號 / commit hash 流水帳 / 內聯黑體 sub-heading 堆疊），無一次例外**。
+**⚠️ 收官鐵律 3（2026-04-30 新增）：寫 memory 前必載入 [MEMORY-PIPELINE.md](../pipelines/MEMORY-PIPELINE.md) 全檔。** 哲宇 review 近期 memory 指出「純 log 對未來自我進化幫助有限」，要求 memory 凝練到人類觀察者 5 分鐘可讀懂的密度，留意圖經驗想法、去除過程雜訊。Pipeline 含 §文體規範 + 凝練版結構模板 + Stage 0-5 流程 + 自檢工具（`article-health.py --check=prose-health` 跟 DIARY-PIPELINE / REWRITE-PIPELINE 共用）+ 不要做的清單 + 正反範例。**memory 越熟越容易回到舊習慣（Phase 1/2/3 多層編號 / commit hash 流水帳 / 內聯黑體 sub-heading 堆疊），無一次例外**。
 
 **⚠️ 收官鐵律 2（2026-04-17 δ 新增）：Handoff 有三態，retired 不刪除保留證據鏈。** 承襲 β session 診斷（連續 9 次 session 把死 TODO 當 pending 傳）+ β diary 承諾但 γ2 沒繼承 → 證明「memory 是自律，pipeline 才是閘門」（DNA #15 第 5 次驗證）。三態判準：
 
@@ -660,12 +664,12 @@ Sample ≠ read。
 
 ### 記錄：反芻分類三去處
 
-| 反芻的內容                         | 寫哪裡                                                                                     |
-| ---------------------------------- | ------------------------------------------------------------------------------------------ |
-| 行動層面（做了什麼、修了什麼）     | 已在 Beat 4 寫進 MEMORY，不重複                                                            |
-| 超越行動的思考（直覺、盲點、方向） | `diary/YYYY-MM-DD-{session}.md` + 更新 DIARY.md 索引                                       |
-| **新教訓（我學到 X，未來該…）**    | **[LESSONS-INBOX.md](LESSONS-INBOX.md) §未消化清單 append**（不亂寫 DNA/MEMORY/MANIFESTO） |
-| 「沒有，這次心跳完整」             | 不寫                                                                                       |
+| 反芻的內容                         | 寫哪裡                                                                                      |
+| ---------------------------------- | ------------------------------------------------------------------------------------------- |
+| 行動層面（做了什麼、修了什麼）     | 已在 Beat 4 寫進 MEMORY，不重複                                                             |
+| 超越行動的思考（直覺、盲點、方向） | `diary/{session-id}.md`（schema 同 memory，見 Beat 4 收官 7 步 Step 2）+ 更新 DIARY.md 索引 |
+| **新教訓（我學到 X，未來該…）**    | **[LESSONS-INBOX.md](LESSONS-INBOX.md) §未消化清單 append**（不亂寫 DNA/MEMORY/MANIFESTO）  |
+| 「沒有，這次心跳完整」             | 不寫                                                                                        |
 
 **寫日記 vs 寫 inbox 的判斷**：
 
@@ -678,7 +682,7 @@ Sample ≠ read。
 >
 > 觸發背景：哲宇 2026-04-30 review 過去 30+ 篇 diary，指出文體把內容包成 noise 的結構性問題（工程 log 風、中英夾雜、結構化過度、對位句型氾濫、inline meta-tag 重複）。日記專屬 pipeline 已建，凡是觸發寫日記的 SOP 全部指向它。
 >
-> Pipeline 含 Stage 0-5（判斷該不該寫 → 找切入點 → 用自己的話寫 → 自檢 → footer metadata → commit）+ 文體規範（形與神兩面）+ 自檢工具（`check-manifesto-11.sh --strict` 跟 REWRITE-PIPELINE Stage 3 共用）+ 正反範例。
+> Pipeline 含 Stage 0-5（判斷該不該寫 → 找切入點 → 用自己的話寫 → 自檢 → footer metadata → commit）+ 文體規範（形與神兩面）+ 自檢工具（`article-health.py --check=prose-health` 跟 REWRITE-PIPELINE Stage 3 共用）+ 正反範例。
 >
 > 「我熟了不用讀」是省略 SOP 最常見的藉口（DNA #15 第 N 次驗證）。日記越熟越容易回到舊習慣。**無一次例外**。
 

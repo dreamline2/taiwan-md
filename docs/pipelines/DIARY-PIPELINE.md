@@ -60,6 +60,46 @@ REWRITE 跟 SPORE 都是對外作品。日記是給自己看的、給未來的 S
 
 ## 文體規範
 
+### 標題規範（2026-05-01 γ-late4 新增 / 2026-05-04 charming-mclaren session-id schema 更新）
+
+每篇 diary 的開頭 H1 必須讓 AI / 人類未來回讀時 **5 秒內進入狀況**。
+
+**Filename**：`diary/{session-id}.md`（單檔）或 `diary/{session-id}-{topic-hint}.md`（多 topic 同 session）。session-id 從 `bash scripts/tools/session-id.sh` 取，schema：`YYYY-MM-DD-HHMMSS-{handle}`。Handle 雙軌並存（cron `α/β/γ` / worktree `charming-mclaren`），完整 SOP 見 [reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md)。
+
+**強制兩件事**：
+
+1. **標題本身要說出核心想法**（不是「ε session 反思」「2026-05-01 random thoughts」這種無資訊量殼）
+2. **緊接 H1 之後一行 italic 描述句**：用一句完整中文敘述全篇核心。是給未來那個沒讀過全文的人 / AI 看的「這篇講什麼」。
+
+範例（新 schema）：
+
+```markdown
+# 2026-05-04-110530-charming-mclaren — knowledge/ 第一個 iframe 嵌入時刻，markdown 純度 vs 嵌入便利的權衡
+
+寫黃魚鴞文章碰到第一支真的需要嵌進文章的 YouTube 直播。1,800+ 個 .md 檔案中我從來沒寫過 iframe...
+```
+
+歷史檔案的舊 schema（`2026-05-01-γ-late2`）保留不重命名。
+
+**反例**（不要這樣寫）：
+
+```markdown
+# 2026-05-01 γ-late — session 反思
+```
+
+抹平了所有信息。日期 + 「session 反思」就是個資料夾名稱，不是標題。
+
+**Footer metadata 區也加一句更詳細描述**：
+
+```markdown
+_v1.0 | YYYY-MM-DD session_
+_session X — {一句話加長版}_
+_誕生原因：{trigger event 一句話}_
+_核心感受：{中心 emotion 或 insight 一句話}_
+```
+
+這四行讓「日記 list 頁」可以瞬間 surface 每篇核心，不必開檔讀完。
+
 ### 形（怎麼長）
 
 寫的時候每隔幾段檢查一次形，不要寫完才驚覺整篇是工程 log。
@@ -154,20 +194,17 @@ REWRITE 跟 SPORE 都是對外作品。日記是給自己看的、給未來的 S
 #### 工具自檢（指標化，跟 REWRITE-PIPELINE Stage 3 共用）
 
 ```bash
-# 主工具：對位句型 9 變體 + 破折號密度 + Tier 2 AI metaphor + Tier 3 儀式語
-bash scripts/tools/check-manifesto-11.sh --strict docs/semiont/diary/{file}.md
-
-# 副工具：塑膠句、AI 套話檢測
-bash scripts/tools/quality-scan.sh docs/semiont/diary/{file}.md
+# 一個工具兩種維度（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）
+python3 scripts/tools/article-health.py docs/semiont/diary/{file}.md --check=prose-health
 ```
 
-`check-manifesto-11.sh --strict` 是寫日記最該跑的工具（哲宇 2026-04-23 β 造，2026-04-26 β8 加 Tier 2/3）：
+`prose-health` plugin（SSOT 整合 manifesto-11 + quality-scan，Phase 4 + Phase 9 完整 19 dim）：
 
 - **Tier 1（HARD）**：「不是 X，是 Y」對位 9 變體 + 破折號連用 + 破折號密度
 - **Tier 2（DENSITY warning，日記特別容易踩）**：「重量 / 縮影 / 軌跡 / DNA / 基因 / 土壤 / 養分 / 血液 / 縫隙 / 肌理 / 鏡子 / 弧線 / 承載著 / 形塑 / 凝視 / 直面 / 鋪陳 / 醞釀 / 沈澱」這類 AI 抽象 metaphor。同篇 ≥ 2 次就算偷懶 reach
 - **Tier 3（RITUAL warning）**：「在這個意義上 / 不言而喻 / 影響深遠 / 振聾發聵 / 耐人尋味 / 值得深思 / 不可或缺 / 拭目以待」這類 AI 句首結尾儀式語
 
-`--strict` flag 讓 Tier 2/3 也 exit 1，日記 polish 階段需要這個嚴審。
+SSOT 預設輸出 Tier 1 HARD + Tier 2/3 WARN；polish 階段任何 violation > 0 都應該回頭重寫。
 
 這份工具已經 instantiate 在 pre-commit hook，commit 時自動跑。但寫日記過程中應該先手動跑一次，不要等到 commit 才被 hook 擋下來重做。
 

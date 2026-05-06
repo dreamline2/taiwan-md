@@ -9,6 +9,10 @@ author: 'Taiwan.md Translation Team'
 featured: false
 readingTime: 7
 translatedFrom: 'People/郭正光.md'
+sourceCommitSha: 'fb57de30'
+sourceContentHash: 'sha256:e00af3b07adcb778'
+sourceBodyHash: 'sha256:beb2338ff10788ce'
+translatedAt: '2026-04-14T19:25:17+08:00'
 ---
 
 # 궈정광

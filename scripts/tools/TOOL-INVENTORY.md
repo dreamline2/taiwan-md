@@ -2,44 +2,91 @@
 
 > 相關：[docs/semiont/DNA.md](../../docs/semiont/DNA.md)（工具基因）| [UNKNOWNS.md](../../docs/semiont/UNKNOWNS.md)（已知未知）
 
-18 個工具。它們檢查什麼維度、互相怎麼配合、哪裡有重疊、哪裡有缺口。
+> **2026-05-04 SSOT migration完成**：27+ scattered tools 收攏成 11 plugin SSOT
+> entry point `scripts/tools/article-health.py`。8 個 deprecated shell script
+> 在 cleanup-1-4 完全刪除（wikilink-validate.sh / format-check.sh /
+> check-manifesto-11.sh / quality-scan.sh / footnote-scan.sh /
+> check-footnote-urls.sh / article-image-health.sh / footnote-format-fix.sh）。
+> 詳見 `reports/article-health-ssot-design-2026-05-04.md`.
+
+---
+
+## SSOT plugin matrix（auto-gen，don't edit by hand）
+
+由 `scripts/tools/article-health.py --inventory` 自動產生：
+
+| Check               | Dimension     | Default Severity | Editorial Ref                                 | Auto-fix? |
+| ------------------- | ------------- | ---------------- | --------------------------------------------- | --------- |
+| `cjk-punct`         | punctuation   | hard             | EDITORIAL.md §半形標點禁用                    | ✓         |
+| `cross-reference`   | structure     | info             | EDITORIAL.md §wikilink                        | —         |
+| `footnote-density`  | citation      | warn             | A-F grading（原 footnote-scan）               | —         |
+| `footnote-format`   | citation      | hard             | .husky/pre-commit footnote format gate        | —         |
+| `footnote-url`      | citation      | warn             | network HEAD check（opt-in）                  | —         |
+| `format-structure`  | structure     | warn             | EDITORIAL.md §三                              | —         |
+| `frontmatter-title` | frontmatter   | warn             | EDITORIAL.md §Title 五原則                    | —         |
+| `image-health`      | media         | hard             | REWRITE-PIPELINE Stage 4.5f / DNA #30         | —         |
+| `prose-health`      | prose-quality | warn             | EDITORIAL.md §quality-scan + MANIFESTO.md §11 | —         |
+| `terminology`       | language      | hard             | TERMINOLOGY.md                                | —         |
+| `wikilink-target`   | structure     | hard             | EDITORIAL.md §wikilink                        | —         |
+
+CLI entry：
+
+```bash
+# 單檔全 profile
+python3 scripts/tools/article-health.py knowledge/Nature/黃魚鴞.md
+
+# 特定 profile (pre-commit / rewrite-stage-3 / release-pr / dashboard)
+python3 scripts/tools/article-health.py file.md --profile=pre-commit
+
+# 單 check
+python3 scripts/tools/article-health.py file.md --check=cjk-punct
+
+# 全 zh-TW sweep + JSON
+python3 scripts/tools/article-health.py --all --output=json
+```
+
+7 stage profiles 對應到 REWRITE-PIPELINE Stage 1-5 + pre-commit + release + dashboard。
+
+---
+
+## Legacy tool matrix
+
+下方表格紀錄原始 27+ 工具中**未被 SSOT 涵蓋**的部分 + facade 狀態。SSOT-already-covered 的工具在
+`scripts/tools/lib/article_health/checks/` 找對應 plugin。
 
 ---
 
 ## 覆蓋矩陣
 
-| 工具                          | 檢查維度                                                                    | 被誰呼叫               | 重疊 / 備註                                                      |
-| ----------------------------- | --------------------------------------------------------------------------- | ---------------------- | ---------------------------------------------------------------- |
-| **people-title-check.sh**     | People/ 類 title 冒號三明治遵守率（EDITORIAL §原則 5，Issue #618）          | 手動（advisory）       | 新工具 v1.0（2026-04-27），不擋 commit；dashboard KPI 用         |
-| **quality-scan.sh**           | 塑膠句、破折號、稀薄段落、教科書開場等 15 維                                | 手動 + 心跳 + 回爐流程 | 核心內容品質掃描                                                 |
-| **footnote-scan.sh**          | 腳註覆蓋率 A-F 等級、引用健康度                                             | 手動 + 心跳 + release  | 核心引用品質掃描                                                 |
-| **format-check.sh**           | 延伸閱讀、參考資料標題、腳註格式、wikilink 殘留、30秒概覽、反向連結（7 維） | 手動                   | **整合了 check-wikilinks.sh**                                    |
-| **check-wikilinks.sh**        | 列表項目中的 [[wikilink]] 殘留                                              | format-check.sh        | 已被 format-check 吸收                                           |
-| **wikilink-validate.sh**      | 所有 inline [[X]] 和 [[X\|Y]] 的目標存在性                                  | **pre-commit hook**    | 新工具（2026-04-04），補足 format-check 只檢查延伸閱讀區塊的不足 |
-| **cross-link.sh**             | Stage 5 雙向延伸閱讀分析                                                    | 手動（Stage 5）        | 跟 format-check 有重疊（反向連結維度）                           |
-| **review-pr.sh**              | 五層免疫審核（CI 門檻）                                                     | PR 時手動 / CI         | 聚合器：呼叫 quality-scan、footnote-scan 等                      |
-| **terminology-audit.py**      | 用語規範掃描（兩岸差異詞）                                                  | 手動                   |                                                                  |
-| **terminology-clean.py**      | 用語規範修復                                                                | 手動                   | terminology-audit 的配對                                         |
-| **terminology-fix.py**        | 用語規範批次修復                                                            | 手動                   | 跟 terminology-clean 差異待確認 ⚠️                               |
-| **terminology-dedup.py**      | 跨來源全域去重：找出 (taiwan, china) 配對完全相同的重複條目，不論來源       | 手動                   | `--fix` 自動合併重複；新來源批量匯入後應執行                     |
-| **check-freshness.js**        | 文章新鮮度（lastVerified 時效）                                             | 手動                   |                                                                  |
-| **generate-content-stats.js** | 內容統計（字數、分類分布）                                                  | Dashboard + cron       |                                                                  |
-| **update-stats.sh**           | 更新統計數據                                                                | cron                   |                                                                  |
-| **update-consciousness.sh**   | 從 Dashboard API 同步生命徵象到 CONSCIOUSNESS.md                            | 每次心跳               | 曾有截斷 bug（ε session 修復）                                   |
-| **assign-subcategory.cjs**    | 自動歸類文章到 subcategory                                                  | 手動                   |                                                                  |
-| **manage-featured.sh**        | 管理精選文章標記                                                            | 手動                   |                                                                  |
-| **translate.sh**              | 翻譯流程工具                                                                | 手動                   | Cron 目前暫停                                                    |
+| 工具                          | 檢查維度                                                                         | 被誰呼叫          | 重疊 / 備註                                                              |
+| ----------------------------- | -------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------ |
+| **people-title-check.sh**     | People/ 類 title 冒號三明治遵守率（EDITORIAL §原則 5，Issue #618）               | 手動（advisory）  | 新工具 v1.0（2026-04-27），不擋 commit；dashboard KPI 用                 |
+| **cross-link.sh**             | Stage 5 雙向延伸閱讀互動分析                                                     | 手動（Stage 5）   | 與 SSOT cross-reference plugin 互補（互動式 prompt vs 自動掃）           |
+| **review-pr.sh**              | 五層免疫審核（CI 門檻）                                                          | PR 時手動 / CI    | 聚合器：呼叫 article-health.py + 其他檢查                                |
+| **footnote-format-fix.py**    | 4 source format normalizer + 60+ domain → desc 自動 resolve                      | 手動 / batch heal | 唯一保留的 .py auto-fix（DNA #48 canonical）                             |
+| **check-cjk-punct.py**        | CJK 標點 auto-fix（SSOT plugin 也有 check 但 .py 提供 --fix）                    | 手動 / pre-commit | SSOT cjk-punct plugin 的 facade fix wrapper                              |
+| **terminology-yaml-audit.py** | YAML 詞庫交叉驗證（Issue #288 Step 3：3-tier 報告 — 自動刪 / 高可信留 / 人工審） | 手動              | 跟 SSOT terminology plugin 互補（plugin 掃文章；audit 掃 YAML 詞庫品質） |
+| **terminology-yaml-clean.py** | YAML 詞庫清理（display.china messy entries：含 `/` 或括號說明的清整）            | 手動              | yaml-audit 的對應 fix                                                    |
+| **terminology-yaml-dedup.py** | YAML 詞庫跨來源去重：(taiwan, china) 配對重複偵測                                | 手動              | `--fix` 自動合併重複；新來源批量匯入後應執行                             |
+| **terminology-prose-fix.py**  | 文章 prose 中國用語批次修復：A 類 → 台灣用語                                     | 手動              | 跟 yaml-\* 三工具不同：操作 knowledge/ 文章而非 data/ YAML               |
+| **verify-internal-links.sh**  | 站內連結 broken ratio < 1%                                                       | postbuild + 手動  | 對 dist/ 跑（需 build 後才能跑）                                         |
+| **check-freshness.js**        | 文章新鮮度（lastVerified 時效）                                                  | 手動              |                                                                          |
+| **generate-content-stats.js** | 內容統計（字數、分類分布）                                                       | Dashboard + cron  |                                                                          |
+| **update-stats.sh**           | 更新統計數據                                                                     | cron              |                                                                          |
+| **update-consciousness.sh**   | 從 Dashboard API 同步生命徵象到 CONSCIOUSNESS.md                                 | 每次心跳          | 曾有截斷 bug（ε session 修復）                                           |
+| **assign-subcategory.cjs**    | 自動歸類文章到 subcategory                                                       | 手動              |                                                                          |
+| **manage-featured.sh**        | 管理精選文章標記                                                                 | 手動              |                                                                          |
+| **translate.sh**              | 翻譯流程工具                                                                     | 手動              | Cron 目前暫停                                                            |
 
 ---
 
 ## 🔴 重疊與冗餘
 
-| 問題                           | 重疊工具                                                             | 建議                                                       |
-| ------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------- |
-| wikilink 殘留檢查重複兩次      | check-wikilinks.sh + format-check.sh                                 | check-wikilinks 已被 format-check 吸收，保留作 legacy 入口 |
-| wikilink 目標驗證覆蓋不完整    | format-check（只檢查延伸閱讀區塊）+ wikilink-validate（全文 inline） | **兩者互補，不重疊**                                       |
-| 反向連結檢查重複               | cross-link.sh + format-check.sh                                      | format-check 有維度 7，cross-link 是互動工具，功能不同     |
-| terminology 三個工具的差異不明 | terminology-audit/clean/fix                                          | ⚠️ 需要文件說明三者分工                                    |
+| 問題                              | 重疊工具                               | 建議                                                        |
+| --------------------------------- | -------------------------------------- | ----------------------------------------------------------- |
+| ✅ wikilink/format/§11 三者重疊   | 已 SSOT 化（cleanup-1-4 刪 8 個 .sh）  | wikilink-target / format-structure / prose-health 三 plugin |
+| 反向連結檢查重複                  | cross-link.sh + cross-reference plugin | cross-reference 自動掃描，cross-link.sh 互動 prompt，互補   |
+| ✅ terminology 工具命名 ambiguity | 已 rename per audit O5 (cleanup-1-4)   | yaml-{audit,clean,dedup} vs prose-fix 自說明 scope          |
 
 ---
 
@@ -79,5 +126,6 @@
 
 ---
 
-_v1.0 | 2026-04-04_
-_建立原因：session η 發現 wikilink-validate 跟 format-check 部分重疊，但沒有機制盤點。「造新工具時不知道跟現有工具重疊嗎？」是結構性盲點_
+_v1.0 | 2026-04-04_ — original 18-tool matrix
+_v2.0 | 2026-05-04_ — SSOT migration; 8 plugins consolidated into article-health.py
+_v2.0 建立原因_：session η 留下的 27 工具實情已 drift 9 個未列、3-way duplication（quality-scan / check-manifesto-11 / review-pr.sh L2）。SSOT migration 把規則 canonical 收攏到 plugin + TOML config，未來新工具加 plugin 一個指令 inventory 自動更新。詳見 `reports/article-health-ssot-design-2026-05-04.md`.

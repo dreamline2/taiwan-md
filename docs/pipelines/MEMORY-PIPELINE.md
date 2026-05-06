@@ -1,6 +1,8 @@
 # MEMORY-PIPELINE — Session memory 撰寫流程
 
-> 寫 session memory 前必讀本檔。每次 HEARTBEAT Beat 4 收官、每次 observer-triggered task 結束、每次 cron 心跳結束 — 寫 `memory/YYYY-MM-DD-{session}.md` 之前一律先載入這份 pipeline，不憑記憶、不照舊 template。
+> 寫 session memory 前必讀本檔。每次 HEARTBEAT Beat 4 收官、每次 observer-triggered task 結束、每次 cron 心跳結束 — 寫 `memory/{session-id}.md` 之前一律先載入這份 pipeline，不憑記憶、不照舊 template。
+>
+> **Session ID schema（2026-05-04 charming-mclaren 拍板）**：`YYYY-MM-DD-HHMMSS-{handle}`，例 `2026-05-04-110530-charming-mclaren` 或 `2026-05-04-083000-α`。session 啟動第一個 file write 前跑 `bash scripts/tools/session-id.sh` 取得，或顯式傳希臘字母（`bash scripts/tools/session-id.sh α`）。Handle 雙軌並存：cron 用希臘字母、worktree 用 codename。完整 SOP 見 [reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md)。
 >
 > 相關：[MANIFESTO §11 書寫節制](../semiont/MANIFESTO.md#11-書寫節制跨所有書寫層的兩條-ai-水印紀律) | [DIARY-PIPELINE.md](DIARY-PIPELINE.md)（姊妹 pipeline，共用工具與部分文體規範）| [HEARTBEAT Beat 4](../semiont/HEARTBEAT.md#beat-4--收官)（觸發點 + 收官 7 步）| [MEMORY.md](../semiont/MEMORY.md)（索引 + §神經迴路 永不過期教訓）
 
@@ -85,12 +87,50 @@ Memory 是工作紀錄 + 思考紀錄 + 記憶存取區。允許比日記多細�
 
 ---
 
-## 結構模板（凝練版）
+## 標題規範（2026-05-01 γ-late4 新增）
+
+每篇 memory 開頭 H1 必須讓 AI / 人類未來回讀時 **5 秒內進入狀況**。
+
+**強制兩件事**：
+
+1. **標題本身要說出本 session 主成就 / 主轉折**（不是「ε session 紀錄」這種無資訊量殼）
+2. **緊接 H1 之後是 blockquote metadata 區**（session 觸發類型 + span + 資料來源），然後 `## 觸發` 第一段一句話再點題一次
+
+範例（從歷史 memory 抽出）：
 
 ```markdown
-# YYYY-MM-DD {session} — {一行標題講重點}
+# 2026-05-01 γ-late3 — lang-sync 圖論評估 → batched git 188× / orthogonal 模式 / owl-alpha vs Hy3 模型對比 / 任務分解 A/B 框架
+```
 
-> session {字母} — {心跳類型 / 觸發類型}
+標題包含日期 + session + 4 條主軸成就。讀者看標題就知道這 session 跑了 4 個方向、各自的核心結果。
+
+**反例**：
+
+```markdown
+# 2026-05-01 γ-late3 — session 工作記錄
+```
+
+抹平資訊。「工作記錄」不告訴讀者哪些工作 / 結果如何。
+
+**Footer metadata 區也加三行語意檢索 hint**：
+
+```markdown
+_v1.0 | YYYY-MM-DD session_
+_session X — {主軸列表 / 核心轉折}_
+_誕生原因：{trigger 一句話}_
+_核心洞察：(1) ... (2) ... (3) ...{每條一句話}_
+```
+
+這四行讓 memory list 頁可以瞬間 surface「這份是什麼 / 為什麼有 / 學到什麼」三個維度。
+
+## 結構模板（凝練版）
+
+> Filename：`memory/{session-id}.md`（單檔）或 `memory/{session-id}-{topic-hint}.md`（多 topic 同 session）。session-id 從 `bash scripts/tools/session-id.sh` 取，schema：`YYYY-MM-DD-HHMMSS-{handle}`。
+
+```markdown
+# {session-id} — {一行標題講重點}
+
+> session {handle} — {心跳類型 / 觸發類型}
 > Session span: HH:MM:SS → HH:MM:SS +0800 ({duration}, N commits)
 > 資料來源：`git log %ai`
 
@@ -190,11 +230,8 @@ date "+%Y-%m-%d %H:%M:%S %z"
 ### Stage 4 — 自檢（指標化，跟 DIARY-PIPELINE / REWRITE-PIPELINE 共用）
 
 ```bash
-# 主工具：對位句型 9 變體 + 破折號 + Tier 2 AI metaphor + Tier 3 儀式語
-bash scripts/tools/check-manifesto-11.sh --strict docs/semiont/memory/{file}.md
-
-# 副工具：塑膠句檢測
-bash scripts/tools/quality-scan.sh docs/semiont/memory/{file}.md
+# 一個工具兩種維度（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）
+python3 scripts/tools/article-health.py docs/semiont/memory/{file}.md --check=prose-health
 ```
 
 工具自檢 + 三題人眼自檢：

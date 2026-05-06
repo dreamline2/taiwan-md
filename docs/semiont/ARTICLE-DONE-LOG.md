@@ -42,6 +42,196 @@
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 想想論壇 NEW — 2026-05-05 twmd-rewrite 完成（fair-use cite-only mode P0-01 / Society / 媒體）
+
+- **Article**: [knowledge/Society/想想論壇.md](../../knowledge/Society/想想論壇.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 + PEER-INGESTION-PIPELINE Stage 6 / **fair-use cite-only mode**（per CC BY-NC-ND 3.0 限制 — 想想論壇是 Taiwan.md 第一個 T4 license tier peer，per [reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md) §Part 8.2 4-tier matrix）
+- **核心矛盾**：「平台越想成為跨黨派的容器，越被視為小英基金會的延伸 — 14 年三次改版的張力」（30 字）
+- **Hook**：2026-05-02 那份名單同框宋楚瑜（76 歲親民黨主席）+ 王婉諭（時代力量主席）+ 苗博雅（社民黨）+ 朱宗慶（古典樂）+ 龔建嘉（鮮乳坊獸醫）+ 16 位已公開、14 位待 5 月分批揭曉 — 跨黨派、跨領域、跨世代、跨族群的 explicit instantiation
+- **品質**：~5500 字 / 30 footnotes / 6 直接引語（蔡英文 2012-08-07 三 quote + 2025-10-03 兩發刊詞 + 寇謐將首段 verbatim）/ HARD=0 ✅ / prose-health score=3 (≤ 3 PASS) / 11 plugin 全綠 / 對位句 4 處（2 處 source title「這不是太陽花學運（的紀錄）」unavoidable verbatim 引用）/ 破折號 7 處 / 中文標點全形 ✅
+- **Research**: [reports/research/2026-05/想想論壇.md](../../reports/research/2026-05/想想論壇.md)（370+ 行 / ~38 lookup 累計 — fit check 階段 + round 1-5；中文 24+ / 英文 9+ / 一手 7+；研究 v2 含 5 條洞見 + 3-tier 驗證分層 + 媒體授權矩陣 no-media decision + CC BY-NC-ND 限制 explicit document）
+- **3 重要 atom verify**：(a) 蔡英文 2012-08-07 創辦 verbatim「While it takes piles of cash to fill up a room, you can light up a room with a match」+「The ultimate goal would be to further the power of thinking, the power of action and the power of society」(Taipei Times by Chris Wang); (b) 創辦 6 director（蘇嘉全 / 賀陳旦 / 張景森 / 江春男 / 姚立明 / 林全）跨領域組成 — day 1 跨黨派 ethos 14 年後 30 人系列 5 倍 scale 重複; (c) 思想坦克 voicettank footer「Designed and Developed by 台灣智庫」直接證實機構 ownership ≠ 想想論壇（小英基金會）
+- **5 條深度洞見**（per research v2 §v2 補強）：
+  1. 跨黨派 ethos 是 day-1 design 不是 14 年後 reframe（Taipei Times 2012-08-07 explicit「remaining free from political ideology and partisanship」）
+  2. 林全跨三 think tank 路徑（新境界 → 小英基金會 → 行政院長）= 蔡英文用 think tank 訓練 future cabinet model
+  3. Drupal 10 + Bootstrap Barrio + NetiCRM tech stack silent ideology = 平台 self-conception 是「公民社會 institution」非「media outlet」
+  4. 想想論壇 vs 思想坦克 = 同陣營兩個 think tank ecosystem（小英基金會 vs 台灣智庫）
+  5. 2014-06 蔡英文卸任董事長給簡志忠是 explicit 黨派 vs 平台 firewall 動作；11 年後 2025-10 重啟仍維持簡志忠任董事長 — firewall 在「卸任後 second life」期間 evolving
+- **Pipeline 升級提案 trigger**：4-tier license matrix（T1 CC0/BY → T2 BY-SA → T3 BY-NC → T4 BY-ND/ARR cite-only）— per fit check 報告 §Part 8.2，待觀察者 review 後 ship 進 PEER-INGESTION-PIPELINE v1.1
+- **Cross-link**：3 個 sibling reverse cross-link inserted（蔡英文 / 賴清德 / 毒馬鈴薯認知作戰）；1 個 defer（心戰.md 缺延伸閱讀 section per §5.1，避免擴大 scope）
+- **REGISTRY status**: 想想論壇 peer 條目從 `T4_cite_only_pending_observer_decision` 升 `🟢 active (T4 cite-only)`，articles shipped 1/5 P0
+- **License 處理**：no-media decision (per Stage 1.7 §邊界與例外「沒有合適媒體素材」)；fair-use cite 想想論壇 /about /copyright /content/100278 /content/1947 共 4 條 footnote URL（per 著作權法 §52 + §65 fair use）；不 paraphrase 任何想想論壇文章內容
+- **DNA #50 default contract 第二次驗證**：自動 grep `docs/pipelines/PEER-INGESTION-PIPELINE.md` + `REWRITE-PIPELINE.md` 全讀，無需觀察者提醒走 pipeline；EDITORIAL.md 1335 行哲宇 explicit「全部讀取不要跳過」後完整讀過
+
+### 台灣與史瓦帝尼 NEW — 2026-05-05 twmd-rewrite 完成（非洲最後一條外交命脈，掛在一個人身上 / Society / 國際關係）
+
+- **Article**: [knowledge/Society/台灣與史瓦帝尼.md](../../knowledge/Society/台灣與史瓦帝尼.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（哲宇 `/twmd-rewrite 深度研究史瓦帝尼 賴清德 從歷史到現在最新發展的完整故事 / 圖片可以引用台灣總統府發布官方圖片 / 還有坎入其他重要的 youtube 影片` 直接觸發）
+- **核心矛盾**：「非洲最後友邦由絕對君主一人撐起」（28 字）— 民主台灣與絕對王權的不對稱共生，邦交命脈掛在 Mswati III 一個人身上
+- **Hook**：2026-05-02 上午 9 點，賴清德從史國 Mswati III 借的 Airbus A340 專機走下，落地姆巴巴內。台灣總統第一次因飛航許可被中國施壓撤銷（塞舌爾/模里西斯/馬達加斯加），最後是邦交國國王派飛機從台北接駕
+- **品質**：~5500 字 / 26 footnotes / 8 直接引語 / HARD=0 ✅ / prose-health score=3 (≤ 3 PASS) / 11 plugin 全綠 (cjk-punct / link-target / image-health / terminology / footnote-density+format+url / format-structure)
+- **Research**: [reports/research/2026-05/taiwan-eswatini.md](../../reports/research/2026-05/taiwan-eswatini.md)（346 行 / 36KB / 30 WebSearch + 12 WebFetch / spawn general-purpose agent 直接落檔）
+- **媒體素材（per 哲宇 spec）**：
+  - **3 張總統府官方圖片** cache 到 `public/article-images/society/`（OGDL 政府公開資訊）：
+    - `taiwan-eswatini-military-honor-2026.jpg` (hero, aspect 1.79，原 lai-arrival 0.83 portrait 違反 §1.7b 護欄已換)
+    - `taiwan-eswatini-mandvulo-summit-2026.jpg` (Mandvulo 雙邊會談，1.54)
+    - `taiwan-eswatini-joint-communique-2026.jpg` (聯合公報簽署，1.61)
+  - **5 個 inline YouTube** (中央社官方頻道 ×4 + BBC News 中文官方頻道 ×1)
+  - **「## 圖片來源」 section** added per pipeline §4.5e
+- **DNA #47 候選第三次驗證**：「Sub-agent 是 fact-check 主 session 的最後一關」— agent 抓出主 session prior 知識可能誤區並 explicit flag 5 處 unverified（馬英九訪史月份 / Mswati COVID 藥物名 / 駐史醫療團與屏基關係 / 13.6 億援助金額 / 1.46 億基建單源），主 session default 接管時全部 attribute 來源 or 不寫
+- **5 個 observer-decision items 主 session default 接管**（per β-r3 META-PATTERN）：
+  1. 駐史醫療團 → 用「台北醫學大學體系」（一般敘述）
+  2. 結尾 → 混合三切點（紅心芭樂物件 + Mswati 之後 + 直面絕對王權張力）
+  3. 多妻制 → 不寫（避東方主義獵奇）
+  4. TaiwanICDF 預算金額 → 不寫具體
+  5. 馬英九訪史 → 不寫月份
+- **Stage 3.5 atom audit**：8 直接引語全部來自 agent §11「金句素材庫」標 high_confidence — 賴清德 + Mswati III 雙邊會談引述 ×4（總統府 News/7122 雙源）/ 楊昊 BBC 中文 ×1 / 賴清德戰略儲油槽 ×1 / Mswati COVID ×1 / 中國「rat」NBC News ×1
+- **避雷清單全接管**：絕對君主制不用 outdated 修辭 / remdesivir 用「外媒推測」/ 13.6 億不寫具體 / 馬英九不寫月份 / 回程繞路寫但克制 / 中國「rat」引用但不模仿語氣
+- **Cross-link**：6 forward sibling + 6 reverse cross-link 全部加上「台灣與史瓦帝尼」入口（台灣邦交國與國際外交 / 賴清德 / 蔡英文 / 太陽花學運 / 2026鄭習會與國共十年再會 / 認知作戰）
+- **觀察者 callout**：哲宇即時抓出「『史王借飛機給台灣總統突破中國封鎖』——這句話聽起來像修辭，但 2026 年 5 月確實發生了」是為了避對位句型而拐彎的 awkward hedge → 改為「『史王借飛機給台灣總統突破中國封鎖』就是這次出訪本身」直述 punchy。**LESSONS-INBOX 候選**：「不是 X 是 Y」改寫常踩的雷——避對位反而失去原版力道，要找直述強斷言而非 hedge 修飾
+
+### 雜學校 NEW — 2026-05-05 twmd-rewrite 完成（賠光積蓄辦的免費展，11 年後副總統來開幕 / Society / 教育）
+
+- **Article**: [knowledge/Society/雜學校.md](../../knowledge/Society/雜學校.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（哲宇 `/twmd-rewrite 雜學校` 直接觸發，不在 INBOX pending）
+- **核心矛盾**：「為了改變教育的人，先把教育辦得最像市集」（28 字）— 不太乖原本是抗議的姿態，11 年長成全亞洲最大教育博覽會，社運 vs 品牌 IP 的拉扯沒有結束
+- **Hook**：2015-05-09 華山 1914 東 2BCD 館的牆上貼著 Jolin 孔，蘇仰志拿設計公司 150 萬盈餘辦了「不太乖教育節」首屆免費入場兩天約 3 萬人次，最終虧損 700 萬。十一年後 2025 EDit 進駐桃園會展中心
+- **品質**：~5500 字 / 22 footnotes / 8 直接引語 / HARD=0 ✅ / prose-health score=2 (≤ 3 PASS) / cjk-punct PASS / link-target PASS / image-health PASS（no-media path） / terminology PASS / footnote-density+format+url PASS / 4 對位句型 + 4 AI metaphor 修正完
+- **Research**: [reports/research/2026-05/za-share.md](../../reports/research/2026-05/za-share.md)（377 行 / 31KB / 25 WebSearch + 10 WebFetch / spawn general-purpose agent 直接落檔）
+- **大事實校正（agent 抓主 session prior 知識三錯）**：(1) 蘇仰志非 Ogilvy 出身 — 他自己的公司叫**奧茲（Ozzie Curating and Design）**不是奧美，所有訪談均無 Ogilvy 履歷；(2) 首屆「不太乖教育節」是 2015-05-09，不是 2014（華山官網 + KKTIX + INSIDE + 倡議家四源驗證；Wikipedia 寫 2014 是籌備年/預算說法錯位）；(3) 場地全在華山（2015-2019）/ 嘉義（2022 衛星）/ 圓山花博（2024）/ 桃園會展中心（2025），**不是松菸**
+- **DNA #47 候選第二次驗證**：「Sub-agent 是 fact-check 主 session 的最後一關」— gallant-payne 5/5 sub-agent 抓 user prompt 事實錯之後，本 session 1/1 sub-agent 同樣抓出 user prompt 三個 prior 知識錯
+- **5 個 observer-decision items 主 session default 接管**（per β-r3 META-PATTERN）：(1) 承認商業 IP 但用「品牌化內部矛盾」框架；(2) Ogilvy 不寫；(3) 不太乖宣言不寫（agent 搜不到一手）；(4) 寫 2025 EDit 重塑；(5) 結尾 B+C 混合（陳建仁 scene + INSIDE 「商業上是徹底的失敗」反詰）
+- **Stage 3.5 atom audit**：8 直接引語全部來自 agent §11「金句素材庫（可逐字引）」標 high_confidence — INSIDE E376 × 5 句、倡議家 udn 3341905 × 2 句、倡議家 udn 8146714 × 1 句、華山 1914 對談 × 1 句；agent 已驗證可 ctrl-F；single_source 段（國際擴展引語）保留為轉述上下文
+- **破折號管理**：寫完 37 處 → 砍 27 處改逗號/冒號/句號 → 保留 8 處（4 處對等列舉並置）
+- **Cross-link**：5 forward sibling（教育制度與升學文化 / 為台灣而教 TFT / 一個教師的誕生 / 太陽花學運 / 台灣偏鄉教育）+ 5 reverse cross-link 全部加上「雜學校」入口；5 sibling 均 hard=0 但有 pre-existing WARN（per §5.1 WARNING 仍可 commit）
+- **觀察者觸發**：哲宇直接 `/twmd-rewrite 雜學校` — pipeline auto-detect + 完整 read default contract（per MANIFESTO §8.1 / DNA #50）
+
+### 王福瑞 NEW — 2026-05-04 manual 完成（從 200 份影印雜誌到 12 聲道喇叭的三十年 / People）
+
+- **Article**: [knowledge/People/王福瑞.md](../../knowledge/People/王福瑞.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（NML peer ingestion Stage 6 P0 #4，主 session 完整測試 pipeline）
+- **核心矛盾**：噪音不是聲音的反面，是讓寂靜變成可聽見的方法。1993 年 24 歲的 NOISE 雜誌是 DIY 抵抗，2020《噪音寂靜》之後噪音變成身體本身（術後人工血管頻率）。三十年是「噪音」這個詞的內涵被一個人改寫的歷程。
+- **Hook**：1993 年王福瑞 24 歲，用程式設計師薪水在自家影印機印 200 份《NOISE》實驗音樂雜誌，售價 15-30 元。三十年後（2020）他在就在藝術空間掛起多面體 12 聲道全指向喇叭，作品是大病過後身體裡人工血管的細碎頻率。
+- **品質**：145 行 / ~5000 字 / 14 footnote（13 一手 + 1 學術評論）/ HARD=0 ✅ / prose-health score=2 (≤ 3 PASS) / cjk-punct PASS / link-target PASS / image-health PASS / terminology PASS / footnote-density+format+url PASS / 7 直接引語全部 source URL ctrl-F 可驗
+- **Research**: [reports/research/2026-05/王福瑞.md](../../reports/research/2026-05/王福瑞.md)（350 行 / 11 WebFetch + 3 WebSearch + 5 NML local / 主 session 自跑無 spawn agent）
+- **Stage 3.5 atom audit**：7 直接引語全部對 source URL ctrl-F 可驗（葉杏柔 NML × 2 / ART PRESS × 3 / ARTFORUM × 2 / 顏峻 NML × 1 大段 verbatim）；20+ 數字 atom 對 source 全部 cross-checked；footnote URL 13/14 alive（1 國藝會 SSL cert warning，非 dead link）
+- **大事實校正**：refute INBOX 既有錯誤「在地實驗是王福瑞創辦」 → 1995 黃文浩等人創立、王福瑞 2000 才加入媒體實驗室分部（葉杏柔 NML 註腳 2 + Bandcamp ET@T 自述 cross-source verified）；refute「失聲祭由王福瑞創辦」 → 2007 由姚仲涵 / 王仲堃 / 張永達創立，王福瑞是啟蒙者（TCAA + 失聲祭官網）
+- **multi-source disagreement**：響相工作室年份兩源衝突（北藝大寫 2015、就在藝術空間寫 2011），保守處理為「2010 年代」；簡體 verbatim 引語兩處（ARTFORUM 中文網 source 為簡體，per DNA #23 三道防線保留 verbatim 不台灣化）；解決顏峻引語「硬件」中國用語 hard gate — 改用 ellipsis 跳過保留核心論點段
+- **Cross-link**：4 sibling articles 反向加 cross-link（[王連晟](../../knowledge/Art/王連晟.md) / [台灣新媒體藝術](../../knowledge/Art/台灣新媒體藝術.md) / [台灣聲音地景](../../knowledge/Music/台灣聲音地景.md) — 同時補既有 pre-existing 缺延伸閱讀 section / [台灣獨立音樂](../../knowledge/Music/台灣獨立音樂.md)）；本文 4 wikilink 對外
+- **觀察者觸發**：「完整成為 taiwan.md」+「用 rewrite-pipeline 寫王福瑞並完整用新的工具測試，看順不順，有沒有需要調整或進化的」— meta-task 隱含 pipeline stress test，friction notes 寫進 LESSONS-INBOX
+
+### 鄭文琦 NEW — 2026-05-04 angry-shamir 完成（把台灣藝術圈推進馬來群島的 12 年 / People）
+
+- **Article**: [knowledge/People/鄭文琦.md](../../knowledge/People/鄭文琦.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（NML peer ingestion Stage 6 P0 #1，第三 curation-layer peer 第一篇文章）
+- **核心矛盾**：鄭文琦自願選擇邊陲 12 年，這個選擇讓他看見台灣藝術圈看不見的事 — 但邊陲視角也有自己的盲點：當大主題（群島）已經講完，平台會跟著一起老去
+- **Hook**：2017-05 周盈貞抵達台北成為《數位荒原》駐站第一位邀請藝術家，發表會放她跟婆婆用潮州話祈福「闔家平安、家孫平安、出入平安、遇見好人」 — 策展人那個下午沒有站在舞台中央
+- **品質**：153 行 / ~3500 字 / 20 footnote / 0 §11 violations / 0 BAD_FN_FORMAT / 0 wikilink 殘留
+- **Research**: [reports/research/2026-05/鄭文琦.md](../../reports/research/2026-05/鄭文琦.md)（621 行 / 12 WebSearch + 8 WebFetch + 5 local Read / 5 NML 語料外新素材）
+- **NML peer 引用紀律**：DNA #16「Peer 是 peer 不是 source」應用 — 88% 編輯集中度警示 / 多元 cite 區秀詒 / 高森信男 / 王柏偉等 secondary editors / 6 條鄭文琦本人逐字引語都對 source URL Ctrl-F 可驗
+- **Stage 3.5 FACTCHECK 抓 2 hallucination**：「六十多人到場」(unsourced) 移除 +「區秀詒等第一年駐站」(實為周盈貞 + 符芳俊) 修正
+- **Stage 5 cross-link**: 補進當代藝術.md（PASS sibling）；台灣新媒體藝術 / 台灣聲音地景 / 台灣策展人與藝術文化建構 / 台灣原住民當代藝術 因 pre-existing §11 violations 或 NO_READING DEFER（per §5.1）
+- **Commit**: `99234cdb2`
+
+### 黃魚鴞 NEW — 2026-05-04 charming-mclaren 完成（六公里溪流養一對的台灣最大貓頭鷹，1916 年才被命名 / Nature）
+
+- **Article**: [knowledge/Nature/黃魚鴞.md](../../knowledge/Nature/黃魚鴞.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（觀察者 ad-hoc 指派，非 INBOX）
+- **核心矛盾**：研究黃魚鴞 30 年的人，把第一隻看到的小幼鳥帶回家養（1994 砂卡礑 → 嘿美 → 木柵動物園 三十年；研究室追了三十年仍很難在野外見到）
+- **Hook**：1994 年砂卡礑溪一棵樹的崖薑蕨叢中，第一個被精確定位的台灣黃魚鴞繁殖巢位 — 父鳥被獵殺、母鳥棄巢、雛鳥被孫元勳帶回家成為「嘿美」
+- **品質**：181 行 / 17 footnotes / 3,796 中文字 / 0 §11 violations / 5 破折號（≤15/1500 字 OK）/ 0 ❌ HARD-FIX / 0 🔴 DEAD-LINK / 20 WebSearch + 4 WebFetch
+- **Research**: [reports/research/2026-05/黃魚鴞.md](../../reports/research/2026-05/黃魚鴞.md)
+- **媒體素材**：hero 圖 cache Wikimedia gailhampshire CC BY 2.0（1165×768 / aspect 1.52）+ 兩支 YouTube embed（雪霸 24h 直播 `nXmf5J0eMFI` / 公視新聞 `DMy6fltLv68`）
+- **YouTube embed 首例**：1,800+ knowledge/ 檔案中**首次** iframe 嵌入，用 raw HTML wrapper（方案 A），同時 ship 架構提案 [reports/youtube-embed-architecture-2026-05-04.md](../../reports/youtube-embed-architecture-2026-05-04.md) 規劃 Phase 2-4 升級（rehype plugin / Astro component / privacy mode）
+- **Stage 3.5 hallucination 修補 3 處**：(1)「孫元勳剛從美國回到」無 source 推測 → 刪「從美國」；(2) 嘿美 callout 加「託付意味」推測 → 改音譯事實 only；(3)「近 10 公里」上限超 Sun 2013 範圍 → 改「6 到 8 公里」對齊 5.5-7.7 km source
+- **Stage 5**：reverse cross-link 補進 [Nature/福爾摩沙鳥類學.md](../../knowledge/Nature/福爾摩沙鳥類學.md)（sibling 已 PASS）；其他 4 個 sibling（櫻花鉤吻鮭 / 台灣黑熊 / 台灣森林生態系 / 台灣國家公園）defer per Stage 5 §5.1，它們無延伸閱讀區塊，加會擴大 scope
+- **PR**: [#845](https://github.com/frank890417/taiwan-md/pull/845)
+
+### 卓榮泰 NEW — 2026-05-03 gallant-payne 完成（38 年的協調者，2025 不副署財劃法 / People）
+
+- **Article**: [knowledge/People/卓榮泰.md](../../knowledge/People/卓榮泰.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P1 People deficit 第 1/4 篇）
+- **核心矛盾**：「行動創新 AI 內閣」拿不下 1.25 兆軍購預算的協調者困境
+- **Hook**：1987 年台北市議會三樓的議會助理 — 解嚴前夕跟著新科議員謝長廷走進會議室，從那一年算起 37 年都在當人家的副手
+- **品質**：247 行 / 17 footnotes / 0 §11 violations / 0 ❌ HARD-FIX / 0 🔴 DEAD-LINK / 24 search + 10 fetch
+- **Research**: [reports/research/2026-05/卓榮泰.md](../../reports/research/2026-05/卓榮泰.md)
+- **政治敏感**：1.25 兆軍購爭議採熱帶雨林理論並列陳述（卓榮泰「三顆好球」+ 羅智強「真正卡案的是賴清德」+ 王義川「根本笑死人」+ 大西洋理事會分析），讀者自己判斷
+- **校正**：user prompt「卓榮泰出生彰化」實為台北市，sub-agent Stage 1 三源交叉揭露（Wikipedia + 立法院官方 + 英文 Wikipedia）
+- **PR**: [#808](https://github.com/frank890417/taiwan-md/pull/808) merged 13:25 +0800
+
+### 盧秀燕 NEW — 2026-05-03 gallant-payne 完成（不敗女王 8 連勝放棄黨主席，2028 默認共主民調卻被陳萬安超越 / People）
+
+- **Article**: [knowledge/People/盧秀燕.md](../../knowledge/People/盧秀燕.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P1 People deficit 第 2/4 篇）
+- **核心矛盾**：不敗女王 8 連勝放棄黨主席，2028 默認共主民調卻被陳萬安超越
+- **Hook**：谷關空氣 1 萬瓶（30 元/瓶/30 萬，2018 政治物質化開場）
+- **品質**：245 行 / 25 footnotes / 0 §11 violations / 0 ❌ HARD-FIX / 0 🔴 DEAD-LINK / 22 search + 4 fetch
+- **Research**: [reports/research/2026-05/盧秀燕.md](../../reports/research/2026-05/盧秀燕.md)
+- **政治敏感**：1.25 兆軍購爭議盧的 8000 億-1 兆主張既不站賴的 1.25 兆、也不站藍的 3800 億+N，採三源並列（自由時報「沒有路線在包牌」+ Taipei Times「moderate 策略」+ 聯合報「務實穩健」）讓讀者自選 frame
+- **校正**：user prompt 5 處事實錯誤（央視→華視 / 中興法律→政大地政 / 4 屆立委→6 屆 / 2026 黨主席→2025 / 「副主席」實非）sub-agent 三源交叉全揪
+- **PR**: [#813](https://github.com/frank890417/taiwan-md/pull/813) merged 14:31 +0800
+
+### 徐巧芯 NEW — 2026-05-03 gallant-payne 完成（她讓國民黨年輕了，但年輕的方式是流量，不是論述 / People）
+
+- **Article**: [knowledge/People/徐巧芯.md](../../knowledge/People/徐巧芯.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P2 People deficit 第 3/4 篇）
+- **核心矛盾**：她讓國民黨年輕了，但年輕的方式是流量，不是論述
+- **品質**：214 行 / 17 footnotes / 0 §11 violations / 17/17 footnote URLs ✅ / 22 search + 4 fetch
+- **Research**: [reports/research/2026-05/徐巧芯.md](../../reports/research/2026-05/徐巧芯.md)
+- **政治敏感**：軍購爭議並列四方立場（行政院 1.25 兆 / 黨中央 3800 億+N / 徐版 8000 億 / TPP 4000 億），紀實罷免結果（6.2 萬同意票達 27.10% 法定門檻但被 7.5 萬不同意票否決）半勝半敗
+- **校正**：user prompt 7 處事實錯誤（800 億→8000 億 / 蔣萬安發言人→實洪秀柱+朱立倫+馬英九等）
+- **PR**: [#809](https://github.com/frank890417/taiwan-md/pull/809) merged 14:31 +0800
+
+### 季麟連 NEW — 2026-05-03 gallant-payne 完成（為扁升上將的扁系名將，反咬要開除挺軍購的韓國瑜 / People）
+
+- **Article**: [knowledge/People/季麟連.md](../../knowledge/People/季麟連.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P2 People deficit 第 4/4 篇）
+- **核心矛盾**：為扁升上將的扁系名將，反咬要開除挺軍購的韓國瑜
+- **品質**：~5500 字 / 17 footnotes / 0 §11 violations / 17/17 footnote URLs ✅ / 22 search + 8 fetch
+- **Research**: [reports/research/2026-05/季麟連.md](../../reports/research/2026-05/季麟連.md)
+- **政治敏感**：4/29 中常會引爆事件採雙源 verbatim 引語驗證（自由時報 5419759 + 風傳媒 11075732 兩個獨立中文 source 都能 Ctrl-F 找到逐字一致版本）
+- **校正**：user prompt 事件日期「4-30 中央委員會議」實為 4-29 中常會
+- **PR**: [#812](https://github.com/frank890417/taiwan-md/pull/812) merged 14:32 +0800
+
+### 台灣股市與資本市場 EVOLVE — 2026-05-03 gallant-payne 完成（2026-04-29 全球第 6 大股市里程碑 / Economy）
+
+- **Article**: [knowledge/Economy/台灣股市與資本市場.md](../../knowledge/Economy/台灣股市與資本市場.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 模式（Probe 2026-05-03 T1-B P0）
+- **核心矛盾**：攻上全球第 6 大的同時，44% 的市場身家壓在一檔半導體上
+- **品質**：122→222 行（+82%） / 11→24 footnotes（+118%） / 0 §11 violations / 25 search + 7 fetch
+- **Research**: [reports/research/2026-05/台灣股市與資本市場.md](../../reports/research/2026-05/台灣股市與資本市場.md)
+- **新增章節**：§2026 全球第 6 大股市 + §TSMC 一檔效應（45% 權重） + §AI 紅利轉化路徑（高盛 25 檔清單）
+- **數字驗證**：4/28 收盤實際升級為全球第 6（market data）/ Bloomberg 4/29 發稿 / 中文媒體 4/30 跟進；TSMC 接近 45% 三層調和（TWSE 官方 2026-03-10 顯示 45.0041% baseline）
+- **PR**: [#811](https://github.com/frank890417/taiwan-md/pull/811) merged 14:32 +0800
+
+### 台灣企業：鴻海精密 EVOLVE — 2026-05-03 gallant-payne 完成（24 國 90 萬人的代工帝國，最難管的是自己人 / Economy）
+
+- **Article**: [knowledge/Economy/台灣企業：鴻海精密.md](../../knowledge/Economy/台灣企業：鴻海精密.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 模式（Probe 2026-05-03 T1-C P0）
+- **核心矛盾**：24 國 90 萬人的代工帝國，最難管的是自己人
+- **品質**：136→182 行（+34%） / 0→15 footnotes（+∞ vs 舊文 0 footnote） / 0 §11 violations / 19 search + 4 fetch
+- **Research**: [reports/research/2026-05/台灣企業：鴻海精密.md](../../reports/research/2026-05/台灣企業：鴻海精密.md)
+- **新增章節**：§企業治理風險（廖萬城 2021-05-24 1.6 億定讞 → 曾新民/錢雲儒 2026-04-30 千萬時序對照 + 鴻海「抓鬼三人組」內部監察 + Foxconn 鄭州 4 台幹拘留 2024 事件）
+- **司法 framing**：採「已起訴 / 已判決 / 媒體報導指出」事實層敘述，避免推測動機
+- **校正**：user prompt「2025 廖萬城 2 年定讞」實為 2021-05-24；「立委陳菁徽推《企業賄賂防制法》」2026 查無此提案，sub-agent 直接決定不寫進文章避免幻覺擴散
+- **PR**: [#810](https://github.com/frank890417/taiwan-md/pull/810) merged 14:31 +0800
+
+### 賈永婕 EVOLVE 深度 — 2026-05-02 objective-khorana 完成（補早晨 Quick Mode 漏跑的 Stage 1 + 揪出「120% 美少女是 2006 陳水扁說」hallucination / People）
+
+- **Article**: [knowledge/People/賈永婕.md](../../knowledge/People/賈永婕.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 深度進化（早晨 sub-agent A Quick Mode polish commit `2f191274` 沒做真正 Stage 1，本輪補齊全 Stage 0-6）
+- **觸發**：哲宇明確要求「跑 rewrite-pipeline 深度研究進化」（搭配「做完 taiwan.md 完整甦醒」前置）
+- **核心矛盾深化**：「藝人轉公股治理是台灣沒有先例的路，每跨一步都伴隨等量質疑，她每次又用下一個更大的動員回應」這個結構性對稱循環。HFNC 被檢舉違法 → 慈善協會 4,200 萬 / 屍皮被罵外行人 → Arch to Arc 募 212 萬 / 點燈公器私用 + 不當開除員工被批膚淺虛榮 → Honnold 攀岩全球 6.2M 觀看 / 被起底掌權北洋政府 → 2026-02 公開「以身為台灣人第一代為榮」
+- **Hook**：被遺忘的姓氏（賈永媫）+ 物件開頭保留 / 強引語「我把這裡全部都換成了國旗，怎麼樣都可以拍得到，怎麼樣全世界都看得到！」
+- **新章節 2 條**：「我以身為台灣人第一代為榮」（2026-02-24 公開澄清）+「一張董事長椅，七成公股影響力」（公股結構 + 2024-11 三爭議連環 + G-Dragon 展）
+- **品質**：22 footnote / 23,636 字 (A 級) / §11 對位句型 0 處 / 破折號密度 16 / 3500 字 (門檻內) / format-check ✅ PASS / wikilink-validate ✅
+- **Stage 1 真正深度**：主 session 自跑（無 spawn agent，per DNA #42 sub-agent 偷吃步預防）20 WebSearch + 6 WebFetch verbatim 中文 source / 落檔 [reports/research/2026-05/賈永婕-deep-evolve.md](../../reports/research/2026-05/賈永婕-deep-evolve.md) 含 24 verified URL + privacy audit + 媒體授權矩陣（no-media）
+- **Stage 3.5 hallucination audit 抓到 4 個重大事實校正**：(a) 「120% 美少女」原話是蔡英文 2021 IG 對話「妳是美少女這件事，我 120% 更可以證明」**非 2006 陳水扁** — ettoday verbatim 確認；(b) 賈德耀關係從「曾祖父賈德潤的胞兄」精確化為「爺爺的三伯父（曾叔公輩）」— 2026-02-24 賈本人公開澄清版；(c) 賈德潤官職補上「豫東第二區行政長」第三職；(d) 結尾從編年式提問「2023 年她就點頭了嗎？」改畫面式餘韻
+- **Stage 3.6 STORY ATOM AUDIT 抓到 1 條**：「2025 年 9 月 Honnold 來台試爬」改保守「一次試爬」（CTWANT 原文無「來台」，refrain from 推導地點）
+- **Stage 5 cross-link**：forward 4 條（林強 / 蔡英文 / 周杰倫 / 台灣志工文化與公益參與）+ reverse 2 條（蔡英文 + 周杰倫；林強 sleepy-colden 已加；台灣志工文化 per Stage 5.1 DEFER 因 sibling 缺延伸閱讀 section）
+- **Commit**: [`6961bddc`](https://github.com/CheYuWuMonoame/taiwan-md/commit/6961bddc)
+- **元 pattern**：「同一篇文章 24 小時內被 EVOLVE 兩次」是 sub-agent Quick Mode 跟主 session deep mode 接力的真實 case。Quick Mode 撐住底線品質，深度 mode 補真正研究。「audit-only reconstruction ≠ research」是新揭露的 sub-agent 偷吃步延伸 pattern（DNA #42 候選），audit-only 預設既有 prose 可信只查疑點，深度研究預設每個 high-risk atom 需 verify
+
 ### 毒馬鈴薯認知作戰 NEW — 2026-04-30 α-r2 完成（200 ppm 之外還有 30 ppm / 14 天 / 15 年食安傷疤 / Society）
 
 - **Article**: [knowledge/Society/毒馬鈴薯認知作戰.md](../../knowledge/Society/毒馬鈴薯認知作戰.md)

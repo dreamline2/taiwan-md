@@ -1,10 +1,13 @@
 ---
 import '../styles/global.css';
 import '../styles/shot-mode.css';
+import '../styles/dark-polish.css';
 import SEO from '../components/SEO.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BrandMark from '../components/BrandMark.astro';
+import ReaderSettings from '../components/ReaderSettings.astro';
+import HeadInlineScripts from '../components/HeadInlineScripts.astro';
 
 import type { Lang } from '../config/languages';
 
@@ -22,6 +25,22 @@ interface Props {
   slug?: string;
   categorySlug?: string;
   noindex?: boolean;
+  /**
+   * Opt this surface into the floating ReaderSettings panel
+   * (light/auto/dark theme + text-size + plain-text link) and
+   * the FOUC-safe pre-paint theme init script.
+   *
+   * Contract for opting in: the surface MUST be dark-mode tested.
+   * Per-surface dark polish lives in `src/styles/dark-polish.css`
+   * scoped under the surface's <main class="..."> hook (e.g.
+   * `main.article-page`, `main.category-page`). Don't enable
+   * this on a surface that hasn't been visually audited dark —
+   * the panel will toggle data-theme on <html> globally and a
+   * surface without dark coverage will look broken.
+   *
+   * Default: false. Article + category-hub templates opt in.
+   */
+  readerSettings?: boolean;
 }
 
 const { lang = 'zh-TW' } = Astro.props;
@@ -40,11 +59,21 @@ const {
   slug,
   categorySlug: propCategorySlug,
   noindex,
+  readerSettings = false,
 } = Astro.props;
 
 // Search index now loaded via /api/search-index.json (fetch API)
 const isEn = lang === 'en';
-const categorySlug = category?.toLowerCase() || '';
+// categorySlug: prefer the English URL slug passed explicitly (e.g. 'food',
+// 'history') so the body's `jf-{slug}` class matches the English selectors
+// the justfont SDK config below uses (`.jf-food h1`, `.jf-history h1`).
+// Pre-2026-05-04 this took `category?.toLowerCase()` which ALSO captured the
+// localized display name (`自然`, `美食`) and produced classes like `jf-自然`
+// that no SDK selector matched — the category-specific font rules were dead
+// in production. Falling back to the old behavior for callers that don't
+// pass categorySlug (utility pages still get `jf-${category}` like before).
+const categorySlug =
+  propCategorySlug?.toLowerCase() || category?.toLowerCase() || '';
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isHome = currentPath === '/' || currentPath === '/en';
 // justfont: only put the body font class on <body> to avoid rate-limit.
@@ -113,61 +142,10 @@ const jfClass = [
       slug={slug}
       categorySlug={propCategorySlug}
     />
-    <!-- Screenshot mode (?shot=1) — early toggle to avoid flash ──────────
-         在 paint 之前就把 data-shot 屬性打上 <html>/<main>，讓 shot-mode.css
-         的 global overrides 立刻生效。支援 ?title= / ?desc= query override。
-         與 scripts/core/generate-og-images.mjs + generate-spore-image.mjs 協作。
-         原本寫在 src/pages/[category]/[slug].astro，2026-04-22 β 搬到 Layout
-         讓四語言 article page 全部共用。 ─────────────────────────────────── -->
-    <script is:inline>
-      (function () {
-        try {
-          var qs = new URLSearchParams(location.search);
-          if (qs.get('shot') !== '1') return;
-          document.documentElement.setAttribute('data-shot', '1');
-          // og=1 額外標記：shot-mode.css 會套 OG 專用 override（Noto Serif TC、
-          // 3.75rem 略縮、12vh 緊湊、line-clamp）。不傳 og=1 則走 Spore 預設
-          // （justfont rixingsong-semibold、4.5rem poster 氣勢）
-          if (qs.get('og') === '1') {
-            document.documentElement.setAttribute('data-og', '1');
-          }
-          // DOM 還沒 parse 完，先 queue，等 body 可 query 再貼
-          var apply = function () {
-            var m = document.querySelector('main.article-page');
-            if (m) m.setAttribute('data-shot', '1');
-            var titleOverride = qs.get('title');
-            if (titleOverride) {
-              var h1 = document.querySelector('.hero-title');
-              if (h1) h1.textContent = titleOverride;
-            }
-            var descOverride = qs.get('desc');
-            if (descOverride) {
-              var p = document.querySelector(
-                'main.article-page > section > div:nth-child(2) > p',
-              );
-              if (p) {
-                p.textContent = descOverride;
-              } else {
-                var inner = document.querySelector(
-                  'main.article-page > section > div:nth-child(2)',
-                );
-                var hero = inner && inner.querySelector('.hero-title');
-                if (inner && hero) {
-                  var np = document.createElement('p');
-                  np.textContent = descOverride;
-                  hero.insertAdjacentElement('afterend', np);
-                }
-              }
-            }
-          };
-          if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', apply);
-          } else {
-            apply();
-          }
-        } catch (_) {}
-      })();
-    </script>
+    <!-- Pre-paint inline scripts: shot-mode + reader-settings FOUC init.
+         2026-05-03 sleepy-colden Tier 2.6: 抽到 src/components/HeadInlineScripts.astro
+         讓 Layout 主結構乾淨。原本 ~150 行 inline 邏輯都在這裡。 -->
+    <HeadInlineScripts readerSettings={readerSettings} />
     <script
       is:inline
       async
@@ -203,7 +181,7 @@ const jfClass = [
         '_setFont',
         'jf-jinxuanlatte-regular',
         'css',
-        'body > main p, body > main li, body > main td',
+        'main p, main li, main td',
       ]);
       _jf.push([
         '_setFont',
@@ -212,6 +190,24 @@ const jfClass = [
         'jf-jinxuanlatte',
       ]);
       _jf.push(['_setFont', 'jf-jinxuanlatte-regular', 'weight', 400]);
+      // jinxuanlatte-semibold (weight 600) for article + hub body headings
+      // (.prose h2-h6). 2026-05-04 user 把更多 jinxuanlatte 變體加進 project
+      // 65854 (book/regular/medium/semibold/bold) — 此處挑 semibold 給內文
+      // 標題視覺重量。alias 同 jf-jinxuanlatte，browser 依 font-weight 600
+      // 自動 match 到此變體（regular weight 400 仍給內文）。
+      _jf.push([
+        '_setFont',
+        'jf-jinxuanlatte-semibold',
+        'css',
+        '.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6',
+      ]);
+      _jf.push([
+        '_setFont',
+        'jf-jinxuanlatte-semibold',
+        'alias',
+        'jf-jinxuanlatte',
+      ]);
+      _jf.push(['_setFont', 'jf-jinxuanlatte-semibold', 'weight', 600]);
       _jf.push([
         '_setFont',
         'jf-lanyanghei-extrabold',
@@ -236,9 +232,24 @@ const jfClass = [
       _jf.push(['_setFont', 'jf-lanyangming-book', 'css', 'main blockquote']);
       _jf.push(['_setFont', 'jf-lanyangming-book', 'alias', 'jf-lanyangming']);
       _jf.push(['_setFont', 'jf-lanyangming-book', 'weight', 300]);
-      _jf.push(['_setFont', 'jf-kamabit', 'css', '.jf-food h1, .hero-title']);
+      _jf.push(['_setFont', 'jf-kamabit', 'css', '.jf-food h1']);
       _jf.push(['_setFont', 'jf-kamabit', 'alias', 'jf-kamabit']);
       _jf.push(['_setFont', 'jf-kamabit', 'weight', 700]);
+      // rixingsong-semibold: applied to .hero-title (site-wide hero titles)
+      // AND .jf-history h1 (history articles). Status as of 2026-05-04:
+      // justfont's rixingsong subsetter is **character-set dependent broken**:
+      //   ✅ /history/二二八事件 → loaded
+      //   ✅ /history/19世紀的樟腦戰爭：世界要的香氣，藏在原住民的山 → loaded
+      //   ❌ /nature/黃魚鴞:六公里溪流養一對,1,800 公尺烏心石上的夜行猛禽
+      //      → FontFace `Invalid font data` (probable trigger: rare glyph
+      //      `鴞` missing from rixingsong master, or ASCII punctuation).
+      // Other 5 site fonts parse cleanly across all subsets tested.
+      // SDK injects single-name `font-family: rixingsong-semibold` (no
+      // fallback chain) — global.css overrides with a chain rule scoped to
+      // `html.jf-active .hero-title` so when rixingsong fails to load the
+      // browser falls back to Noto Serif TC instead of UA-default serif.
+      // .jf-history h1 takes its fallback from the static .jf-history h1
+      // rule in global.css (also rixingsong → Noto Serif TC chain).
       _jf.push([
         '_setFont',
         'rixingsong-semibold',
@@ -809,6 +820,13 @@ const jfClass = [
     >
       .md
     </a>
+
+    <!-- Reader settings: theme + size + plain-text link
+         (Issue #615 / idlccp1984 reader options, 2026-05-01 γ-late)
+         v1.2 (2026-05-04 zen-mendeleev): gated by explicit `readerSettings`
+         prop on Layout. Surfaces opt in by passing readerSettings={true}
+         (and audit dark CSS in dark-polish.css before doing so). -->
+    {readerSettings && <ReaderSettings lang={lang} />}
 
     <script is:inline>
       // Set .md button href based on current path

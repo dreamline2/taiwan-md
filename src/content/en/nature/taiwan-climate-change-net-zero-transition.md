@@ -1,172 +1,177 @@
 ---
-title: "Taiwan's Climate Change and Net-Zero Transition"
-description: 'Taiwan faces severe climate change impacts, from intensifying extreme weather to the 2050 net-zero carbon emission goals. Exploring opportunities and challenges in the energy transition process'
-date: 2026-03-20
+title: "Taiwan's Climate Crisis and Net-Zero Transition"
+description: 'Warming at nearly half the global rate, 98% of energy imported — an island bets NT$9 trillion on rebuilding its own energy system'
+date: 2026-04-04
+author: 'Taiwan.md'
+category: 'Nature'
+subcategory: '保育與環境'
 tags:
   [
-    'climate change',
-    'net-zero transition',
-    'energy transition',
-    'extreme weather',
-    '2050 net-zero',
-    'renewable energy',
+    '氣候變遷',
+    '淨零轉型',
+    '能源轉型',
+    '離岸風電',
+    '太陽光電',
+    '碳權交易',
+    '極端氣候',
   ]
-author: 'Taiwan.md Contributors'
 readingTime: 14
-featured: false
-category: 'Nature'
-lastVerified: 2026-03-20
-lastHumanReview: false
+lastVerified: 2026-04-04
+lastHumanReview: 2026-04-04
+featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
+sourceCommitSha: '14c7b362'
+sourceContentHash: 'sha256:a139d73d65e0ebe1'
+sourceBodyHash: 'sha256:6ee4b6b98fc76b72'
+translatedAt: '2026-05-03T23:14:05+08:00'
 ---
 
-# Taiwan's Climate Change and Net-Zero Transition
+# Taiwan's Climate Crisis and Net-Zero Transition
 
-As an island nation, Taiwan experiences climate change impacts particularly acutely. From intensifying typhoons to frequent extreme rainfall, climate change is no longer a distant threat but a present reality. In 2022, Taiwan declared its 2050 net-zero emissions target, beginning a profound transformation affecting society and the economy.
+> **At a glance in 30 seconds:** Taiwan has warmed 1.6°C over the past century — nearly half again as fast as the global average. Climate scientist Hsu Huang-hsiung of Academia Sinica has warned that under the worst-case scenario, Taiwan could lose its winters after 2060. Meanwhile, this island — which imports 98% of its energy — is pushing through the largest energy transition in its history. In 2024, renewable energy's share of electricity generation broke through 11.6%, and installed offshore wind capacity reached 4.5 GW. The government plans to invest NT$9 trillion to achieve net-zero emissions by 2050. But the costs of transition are surfacing: Changhua fishermen sued the government for "destroying fishermen's livelihoods," the May 13 blackout exposed grid fragility, and the carbon exchange, open for two years, is still finding its footing on pricing.
 
-## Climate Change Manifestations in Taiwan
+In the summer of 2017, Hsu Huang-hsiung of Academia Sinica's Research Center for Environmental Changes stared at the data on his screen and made a prediction his colleagues were reluctant to say publicly: if emissions trends continue unchanged, Taiwan's winters could vanish entirely after 2060[^1]. Not shortened — gone. The number of winter days would drop to zero, and summer would stretch to seven months.
 
-### Temperature Change Trends
+This is not science fiction. From 1911 to 2020, Taiwan's average annual temperature has already risen 1.6°C — nearly one and a half times the global average increase of 1.1°C over the same period[^1]. The number of days in Taipei exceeding 35°C has surged from 3 per year in the 1960s to 15 per year in the past decade[^2]. Southern Taiwan is worse: Tainan and Kaohsiung now see more than 30 extreme-heat days per year.
 
-According to Central Weather Bureau statistics, Taiwan's average temperature has risen approximately 1.6°C over the past century, exceeding the global average of 1.1°C. This warming rate has accelerated markedly since the 1980s. Taipei's annual average temperature rose from 21.9°C in 1890 to 23.8°C in 2020, an increase of 1.9°C.
+In the same building, Wang Chung-ho of the Institute of Earth Sciences was running a different set of numbers. His conclusion was equally unsettling: the rate of sea-level rise around Taiwan is twice the global average[^3]. Multiple modeling studies indicate that sea-level rise and storm surges will expose Taiwan's low-lying western coast to higher flood-overflow risk. Among the six special municipalities, New Taipei, Tainan, and Kaohsiung face particularly high exposure in terms of population and land area.
 
-Hot weather days continue increasing. In Taipei, days exceeding 35°C averaged 3 per year in the 1960s, rising to an average of 15 per year in the recent decade. Southern regions face more severe conditions, with Tainan and Kaohsiung experiencing over 30 hot weather days annually.
+The research of Hsu and Wang points to the same conclusion: Taiwan is feeling the effects of climate change faster than most places on the planet.
 
-### Changing Precipitation Patterns
+## When Rain No Longer Follows the Rules
 
-Taiwan's precipitation patterns show obvious changes. While total rainfall hasn't decreased significantly, distribution has become more uneven. Rainy seasons are more concentrated while dry seasons become drier. Spring precipitation has notably decreased, causing frequent spring droughts. In 2021, Taiwan experienced its worst drought in 56 years, with reservoir levels reaching historic lows.
+Rising temperatures are only the surface symptom. The deeper change is hidden in the rain.
 
-Extreme precipitation events are increasing. Days with rainfall exceeding 200 millimeters rose from an annual average of 5 days in the 1960s to 8 days in recent years. During 2009's Typhoon Morakot, Liugui in Kaohsiung received 2,884 millimeters in 24 hours, setting Taiwan's rainfall record. Such "extreme precipitation" has become the new normal.
+Taiwan's total precipitation has not decreased significantly, but the character of the rain has changed: it doesn't fall when it should, and when it does, it pours. Spring rainfall has dropped sharply, and the dry season has become drier. In 2021, Taiwan experienced its worst drought in 56 years, with reservoir storage rates hitting record lows and TSMC dispatching water trucks to supply its fabs[^4]. That same year in May, two major blackouts struck the island in quick succession.
 
-### Sea Level Rise Threats
+The frequency of extreme rainfall is also climbing. Days with single-day precipitation exceeding 200 mm have increased from an annual average of 5 in the 1960s to 8 in recent years. In 2009, Typhoon Morakot set a record of 2,884 mm of cumulative rainfall at the Alishan station[^5] — three days of rain equivalent to Taipei's entire annual total. During that disaster, Xiaolin Village in Kaohsiung's Jiaxian District was buried by a landslide from Xiandu Mountain in the early morning hours, killing 491 people[^6].
 
-Taiwan's coastal areas face sea level rise threats. According to Ministry of Interior surveys, Taiwan's sea level rises approximately 3.4 millimeters annually, exceeding the global average. Southwestern coastal regions simultaneously face land subsidence problems, with areas like Dongshi in Chiayi and Xuejia in Tainan experiencing even faster relative sea level rise.
+> "Each chair represents a family member." Survivor Wang Min-liang later told visitors at Xiaolin Memorial Park. He founded the Guangming Xiaolin community and led the tribe's Manazu dance troupe on tours across Taiwan. (From PTS _Our Island_)
 
-Coastal cities including Keelung, Tamsui, and Kaohsiung have begun planning sea level rise response strategies. Projections suggest Taiwan's sea level will rise 18-59 centimeters by 2100, affecting approximately 910,000 residents' safety.
+Morakot was not an accident — it was a preview. The 2024 _National Climate Change Science Report_, led by Hsu Huang-hsiung, notes that extreme rainfall events currently occurring once every 50 years could become once-in-10-year events in the future[^7]. Yunlin, Tainan, and Keelung are the areas at highest coastal flood risk.
 
-### Ecosystem Impacts
+## The Bill for the World's 22nd-Largest Emitter
 
-Climate change creates obvious impacts on Taiwan's ecosystems. High-altitude glacial relict plant habitats shrink, with species like Taiwan juniper (玉山圓柏) and Taiwan fir (台灣冷杉) facing survival pressure. Coral bleaching events occur frequently, with 2020 showing dramatic coral coverage declines in Kenting, Green Island, and Orchid Island.
+Taiwan is not only a victim of climate change — it is also a contributor.
 
-Agriculture faces direct impacts. Rice-suitable cultivation areas shift to higher elevations, fruit tree flowering periods advance, and pest occurrence patterns change. Tropical fruits like mangoes and lychees experience unstable yields due to insufficient chilling periods. Fisheries are also affected, with nearshore fish species composition changing and traditional fishing grounds shifting northward.
+For an island of 23 million people, Taiwan's carbon emissions are disproportionately large: measured by fossil-fuel CO₂ emissions, annual output is approximately 280 million tonnes, with per-capita emissions of about 11.7 tonnes, placing it in the global top tier. Depending on the database and statistical methodology, Taiwan ranks around 22nd globally[^8]. Emissions are heavily concentrated in energy use and electricity supply, with the energy sector accounting for the largest share — and the power generation mix remains the core source of decarbonization pressure.
 
-## Taiwan's Current Carbon Emissions
+The root of the problem lies in the generation structure. In 2024, Taiwan's electricity generation mix was approximately 42.4% gas, 39.3% coal (gas surpassing coal for the first time), about 11.6% renewables, and 4.2% nuclear[^20]. This is still a fossil-fuel-heavy energy system — and Taiwan imports 98% of its energy. Energy security and the climate crisis are the same problem.
 
-Taiwan ranks as the world's 22nd largest greenhouse gas emitter, with per capita emissions of approximately 11.6 metric tons, exceeding the global average of 4.8 metric tons. Total emissions reach about 280 million metric tons CO2 equivalent, with energy sectors accounting for 94%, industrial processes 3.6%, and agriculture and waste each contributing about 1%.
+The industrial structure makes things worse. Taiwan's manufacturing sector is dominated by energy-intensive industries: steel, petrochemicals, cement, and paper account for 60% of industrial emissions. These industries are largely export-oriented, and the EU's Carbon Border Adjustment Mechanism (CBAM), entering full enforcement in 2026, will raise carbon costs and reporting requirements for high-carbon exports to Europe — steel, cement, aluminum, fertilizers, electricity, and hydrogen[^9].
 
-### Emissions by Sector
+On April 22, 2021 — World Earth Day — President Tsai Ing-wen uttered the line that has been quoted ever since: "The 2050 net-zero transition is the world's goal, and it is also Taiwan's goal."[^10] This was more than political rhetoric — the following year, the National Development Council released a complete roadmap listing 12 key strategies, with an estimated investment need of NT$9 trillion.
 
-The electricity sector represents the largest emission source at 49% of national emissions. Taiwan Power Company's generation mix comprises 45% coal, 36% natural gas, 6.4% renewables, and 11% nuclear. Industry accounts for 21%, transportation 13%, and residential/commercial 11%.
+Taiwan has entered a transition it cannot afford to fail.
 
-Taiwan's manufacturing centers on high energy-intensive industries. Four major energy-consuming industries—steel, petrochemicals, cement, and paper—account for 60% of industrial sector emissions. These export-oriented industries face pressure from international carbon border adjustment mechanisms.
+## Wind in the Strait
 
-### Historical Change Trajectory
+The Taiwan Strait is one of the best wind resources on the planet. This geographic fact has made offshore wind the central bet of the energy transition.
 
-Taiwan's greenhouse gas emissions peaked at 295 million metric tons in 2007, subsequently declining slightly due to industrial restructuring and energy efficiency policies. However, reduction magnitude remains limited, with 285 million metric tons in 2019, still far from reduction targets.
+From near-zero in 2016 to approximately 4.5 GW of cumulative installed capacity by March 2026[^11], Taiwan's offshore wind expansion has been among the fastest in Asia. Denmark's Ørsted completed the 920 MW Da Changhua Phase II Southwest and Northwest wind farms off the coast of Changhua[^12]. The third phase of zonal development, launched in 2026, has an allocated capacity of 3.6 GW, with a target of grid connection between 2030 and 2031[^11].
 
-International comparison of per capita emissions reveals Taiwan's challenges. Taiwan's per capita emissions match those of the United States and Australia, representing 1.7 times Japan's and 1.3 times South Korea's levels. This reflects Taiwan's high energy-intensive economic structure and lifestyle patterns.
+The government's blueprint is even larger: 13 GW of offshore wind by 2030, and a stretch goal of 55 GW by 2050.
 
-## 2050 Net-Zero Emissions Pathway Planning
+But the turbines at sea bring more than electricity — they bring conflict. In February 2022, more than a hundred Changhua fishermen marched to the Executive Yuan to protest, accusing the government of "destroying fishermen's livelihoods" for the sake of wind power[^13]. The navigation exclusion zones drawn around offshore wind farms have locked them out of waters their families have fished for generations. This was not an emotional outburst — in May 2025, a court ruled the navigation restrictions illegal, marking the first time a court challenged the spatial governance of offshore wind in Taiwan[^14].
 
-### Policy Development Process
+> What the fishermen said was not "no to wind power" — it was "why should we bear the cost of transition." This question should have been answered before the first turbine foundation was poured, but it was not taken seriously until the gavel fell.
 
-Taiwan's climate policy has evolved through several stages. The 2008 **Greenhouse Gas Reduction and Management Act** set targets to reduce 2050 emissions to 50% of 2005 levels. The 2015 **Climate Change Response Act** adjusted targets to net-zero emissions by 2050. In 2022, the National Development Council presented the "2050 Net-Zero Emissions Pathway and Strategy," establishing transformation directions.
+Solar PV has taken a different path. In 2024, installed solar PV capacity reached 14,281 MW, accounting for 68% of total renewable capacity, with generation of 14.9 billion kWh[^15]. Rooftop, ground-mounted, floating, and agrivoltaic models have made solar the backbone of renewable energy.
 
-This pathway includes 12 key strategies: wind and solar power, hydrogen energy, advanced energy, power systems and energy storage, energy efficiency, transport electrification, circular economy zero waste, natural carbon sinks, net-zero green living, green finance, just transition, and international cooperation. The government estimates NT$9 trillion investment requirements.
+But solar has its own battleground. Agrivoltaic policy has drawn accusations of "fake farming, real power generation." Some farmers have sidelined agricultural production to focus on PV income, forcing the Ministry of Agriculture to step up inspections. On an island with only 790,000 hectares of farmland, the use of every plot is a political question.
 
-### Energy Transition Planning
+## That Afternoon: May 13
 
-Energy transition forms the core of net-zero transformation. The government plans renewable energy to reach 20% by 2025, 30% by 2030, and nearly 100% by 2050. Major development projects include offshore wind, solar photovoltaics, geothermal, and biomass energy.
+At 2:37 PM on May 13, 2021, at the Lubei Extra-High-Voltage Substation of the Xingda Power Plant in Kaohsiung, an operator opened switch number 3541 — he was supposed to open 3542[^16].
 
-Offshore wind represents a priority project. Taiwan Strait wind conditions are favorable, with government planning for 20.6GW offshore wind capacity by 2035. Third-phase zonal development systems have launched, expecting to release 1.5GW capacity annually from 2026-2035.
+This human error triggered a busbar ground fault, tripping four generating units and instantly losing 2.2 GW of capacity. From 3:00 PM, six rolling blackout rounds were implemented across the island, each lasting 50 minutes, affecting approximately 4 million households. To make matters worse, solar output declined as the sun set, and the drought had curtailed hydroelectric generation. It was not until 7:00 PM, when coal units came back online, and 8:00 PM that full power was restored.
 
-Solar photovoltaic targets include 20GW by 2025 and 40GW by 2030. Besides large solar farms, the government promotes building-integrated photovoltaics (BIPV) and encourages rooftop installations. Agrovoltaics (combining agriculture with photovoltaics) also represents a development focus.
+Four days later, on May 17, Xingda Unit No. 1 failed again, and a second round of blackouts hit. The two events together affected more than 5.62 million households[^16].
 
-### Industrial Transformation Strategies
+May 13 and May 17 exposed more than human error — they revealed how fragile a power system in the midst of transition really is. Renewables are inherently intermittent: when the sun sets, the power stops; when the wind dies, the power stops. The government's answer is energy storage: a plan to reach 1.5 GW of battery storage by 2025 and scale up to 8.6 GW by 2030. But storage costs remain high, and the technology is still maturing.
 
-Manufacturing represents a reduction priority. Steel industry plans to introduce hydrogen-based steelmaking technology, petrochemicals develop bio-based chemicals, and cement industry promotes carbon capture, utilization, and storage (CCUS). The semiconductor industry commits to 100% renewable energy use, with TSMC planning net-zero emissions by 2050.
+This is the most honest face of the energy transition: the old system is no longer sufficient, and the new system is not yet ready.
 
-Transportation sectors promote electrification. The government sets targets for 100% electric city buses by 2030, 100% electric new motorcycles by 2035, and 100% electric new cars by 2040. This accompanies charging infrastructure development, targeting 12,000 charging stations by 2025.
+## Putting a Price on Carbon
 
-Building sectors promote green and smart buildings. New buildings must use green building labels, while existing buildings undergo energy efficiency improvements. Residential and commercial sector energy reduction targets 30% electricity consumption reduction by 2030 compared to 2005 levels.
+On August 7, 20223, the Taiwan Carbon Exchange was inaugurated in Kaohsiung's Asia New Bay area, with an initial paid-in capital of NT$1 billion and a planned capitalization of NT$1.5 billion — the Taiwan Stock Exchange contributing NT$600 million and the National Development Fund NT$400 million[^17]. On December 22 of the same year, the first batch of international carbon credit transactions was completed: 45 companies purchased approximately 88,500 tonnes of CO₂-equivalent international carbon credits for over US$800,000[^17].
 
-## Energy Transition Challenges and Conflicts
+In 2025, the domestic carbon fee system officially launched, marking Taiwan's "Year One of Carbon Pricing."[^18] Formosa Plastics' energy efficiency improvement project was listed at NT$3,000 per tonne, and Hanbao Livestock's biogas power generation project was priced at NT$3,000–4,000. But the market is still finding its way: trading volume remains low, and businesses generally consider domestic carbon credit prices too high.
 
-### Power Supply-Demand Balance
+Meanwhile, tech giants like TSMC and Foxconn have been staking claims on another front. Under the RE100 initiative, these companies have committed to 100% renewable energy use. TSMC plans to achieve net-zero emissions by 2050. When international clients treat green electricity as a supply chain prerequisite, green power supply ceases to be an environmental issue — it becomes an issue of industrial survival.
 
-Renewable energy intermittency challenges power system stability. Solar photovoltaics cannot generate at night, offshore wind depends on weather conditions. The May 15 and 17, 2021 blackout incidents exposed power system vulnerabilities, raising questions about energy policy.
+In his 2024 National Day address, President Lai Ching-te announced the launch of a "Second Energy Transition," encompassing three pillars: diversified green energy, deep energy conservation, and advanced energy storage[^19]. His targets: 20% renewable energy share by 2026, 30% by 2030. But in 2025, the renewable share remained significantly below the original 20% target — depending on the statistical basis, it stood at approximately 12.7% to 13.1%[^20]. The Ministry of Economic Affairs has since revised its estimate, stating that the 20% mark is expected to be reached from November 2026, with approximately 30% by 2030.
 
-Energy storage systems become critical infrastructure. The government plans 1.5GW battery energy storage by 2025, reaching 8.6GW by 2030. However, storage costs remain high with developing technology.
+## More Than Cutting Emissions
 
-Reserve capacity rates generate controversy. Taiwan Power Company plans 10.9% reserve capacity for 2023, below historical 15% levels. The Ministry of Economic Affairs emphasizes this reflects international norms, but industry worries about supply stability.
+Mitigation is only half the work. The other half is adapting to changes that have already occurred.
 
-### Land Use Competition
+Taiwan's cities are learning to become "sponges." Taipei, New Taipei, Taichung, and Kaohsiung have developed climate adaptation plans to increase rainwater retention and infiltration capacity and mitigate the urban heat island effect. The Chiayi County Government has already launched a relocation assistance program for high-risk coastal areas — a difficult acknowledgment that some places will eventually become unsuitable for habitation.
 
-Renewable energy development faces land acquisition difficulties. Solar farms compete with agricultural land, offshore wind conflicts with fishing activities, and onshore wind overlaps with ecological reserves. Offshore wind development in Changhua coastal areas has triggered fishermen protests.
+Agriculture is also adapting. The Taiwan Agricultural Research Institute is breeding drought- and heat-tolerant crop varieties and promoting precision irrigation. But the impact of climate change on agriculture and fisheries is comprehensive: mangoes and lychees suffer from insufficient chilling hours and unstable yields; nearshore fish species composition is shifting, with traditional fishing grounds moving northward; coral bleaching in 2020 devastated reefs around Kenting, Green Island, and Orchid Island[^21].
 
-Agrovoltaic policies attempt to resolve land competition but generate ongoing controversy during implementation. Some farmers abandon agricultural production, focusing on photovoltaic income, raising questions about "fake agrovoltaics, real land use changes." The Council of Agriculture has strengthened inspection mechanisms.
+Taiwan is not a UN member and cannot sign the Paris Agreement as a nation. But Taiwanese businesses and cities have joined international climate action through non-governmental frameworks such as RE100 and SBTi, carving out a place on the global decarbonization map by another route.
 
-### Social Acceptance Issues
+## A NT$9 Trillion Bet
 
-Energy facility social acceptance represents a transition bottleneck. Wind turbine noise, landscape impacts, and ecological conflicts trigger local opposition. Onshore wind development in Zhunan, Miaoli, faced strong protests with residents forming self-help groups.
+In May 2025, the Changhua ruling sent shockwaves through the energy sector. The court said fishermen's rights could not be sacrificed for wind power — but offshore wind remains an indispensable piece of the net-zero puzzle. The legal system resolved one case, but it did not resolve the fundamental question: who bears the cost of transition?
 
-Nuclear decommissioning radioactive waste disposal creates another social controversy. Lanyu's Tao people demand nuclear waste removal, but final disposal site selection proves difficult. Although the 2021 nuclear referendum was defeated, social opinions on nuclear energy remain divided.
+Taiwan's net-zero transition is an engineering project fighting simultaneously against physical laws and political realities. Physically, this island is warming faster than the global average, typhoons are stronger than before, and sea levels are rising faster than elsewhere. Politically, every wind turbine, every solar panel, every increase in the electricity rate carries the weight of a vote.
 
-### Economic Transition Pressures
+In Hsu Huang-hsiung's models, Taiwan after 2060 has no winter. In coastal risk assessments, the low-lying western regions face mounting pressure from sea-level rise and storm surges. And off the coast of Changhua, the turbine blades keep turning, and the fishing boats keep going out.
 
-Traditional high-carbon industries face transition pressure. The EU's Carbon Border Adjustment Mechanism (CBAM) expects formal implementation in 2026, impacting Taiwan's steel, cement, and chemical exports. Companies need low-carbon technology investments, increasing operational costs.
+Whether NT$9 trillion can buy a different future, no one knows. But the consequences of not spending that money are already becoming visible.
 
-Employment structure adjustments represent core just transition issues. Coal plant decommissioning affects worker employment, while petrochemical industry transformation impacts related supply chains. The government promotes "just transition" policies, providing skills training and career transition assistance, but effectiveness awaits assessment.
+---
 
-Electricity price adjustments also generate sensitive issues. Renewable energy feed-in tariffs exceed traditional generation costs, pushing up electricity expenses. Industry demands maintaining low electricity prices for competitiveness, but prices reflecting costs represent basic market mechanisms.
+**Further Reading**:
 
-## Adaptation Strategies and Disaster Prevention Planning
+- [History of Taiwan's Environmental Movement](/nature/台灣環境運動史) — From anti-nuclear to anti-air-pollution, how Taiwan's environmental consciousness shaped today's climate policy
+- [Taiwan's Marine Ecology and Coral Reef Conservation](/nature/台灣海洋生態與珊瑚礁保育) — How climate change is impacting coral reef ecosystems around Taiwan
+- [Industrial Transformation and Economic Development Trajectory](/economy/產業轉型與經濟發展軌跡) — From energy-intensive manufacturing to green energy industry: the long arc of Taiwan's economic restructuring
+- [Taiwan's Agricultural Modernization](/economy/台灣農業現代化發展) — The agricultural transformation pressures and land-use conflicts behind agrivoltaics
+- [Plum Rain](/nature/梅雨) — The face of "spring rains that don't come, plum rains that concentrate": the 1981 Taoyuan-Hsinchu-Miaoli downpour, the TAMEX field experiment, and the 2020 conclusion that "the plum rains were extreme"
 
-Besides mitigating greenhouse gas emissions, Taiwan must adapt to climate changes already occurring. The National Science and Technology Center for Disaster Reduction established climate change risk assessment frameworks, identifying vulnerable areas and adaptation priorities.
+## References
 
-### Water Resource Management
+[^1]: [United Daily News Vision Project: Interview with Hsu Huang-hsiung](https://ubrand.udn.com/ubrand/story/123658/5679341) — Academia Sinica Research Center for Environmental Changes Distinguished Research Fellow Hsu Huang-hsiung's team analyzed Taiwan temperature data from 1911–2020, finding that Taiwan has warmed 1.6°C over the century, winter days have been cut by nearly half, and under the worst-case scenario, the number of winter days could reach zero after 2060.
 
-Water resource adaptation represents a priority item. The government promotes "intelligent water resource management," including smart water supply networks, water demand forecasting, and drought backup mechanisms. Reclaimed water utilization targets 12% by 2030, with seawater desalination plants under construction.
+[^2]: [Central Weather Administration Climate Change Information Platform](https://www.cwb.gov.tw/V8/C/C/C04/index.html) — Taiwan's historical climate observation database, containing century-long records of temperature, rainfall, and extreme weather events from stations across the island.
 
-Agricultural adaptation includes crop breeding, cultivation technique adjustments, and irrigation system improvements. Agricultural research institutes cultivate drought and heat-resistant varieties while promoting precision agriculture technology. Fisheries adaptation includes aquaculture upgrades, technology improvements, and fishing ground adjustments.
+[^3]: [CSRone Sustainability Think Tank: Interview with Wang Chung-ho](https://csrone.com/topics/8024) — Academia Sinica Institute of Earth Sciences Adjunct Research Fellow Wang Chung-ho has long tracked sea-level changes around Taiwan, noting that the rate of rise around Taiwan exceeds the global average; the description here adopts more conservative risk language to avoid simplifying different research scenarios into absolute conclusions.
 
-### Urban Adaptation Planning
+[^4]: [BBC Chinese: Taiwan's Worst Drought in 56 Years (2021)](https://www.bbc.com/zhongwen/trad/chinese-news-56699038) — Report on the 2021 drought in central and southern Taiwan, with reservoir storage rates falling below 10% and tech firms including TSMC activating emergency water truck measures.
 
-Urban areas promote "sponge city" concepts, increasing rainwater retention and infiltration capacity. Cities including Taipei, New Taipei, Taichung, and Kaohsiung have formulated climate change adaptation plans, including flood control facility improvements, heat island effect mitigation, and green infrastructure construction.
+[^5]: [National Science and Technology Center for Disaster Reduction: Typhoon Morakot Disaster Records](https://den.ncdr.nat.gov.tw/1132/1188/1204/2447/2505/) — Official disaster archive recording Typhoon Morakot's cumulative rainfall of 2,884 mm at the Alishan station, the highest in Taiwan's meteorological observation history.
 
-Coastal area sea level rise adaptation strategies include seawall heightening, wetland restoration, and relocation planning. Chiayi County government has launched coastal area relocation assistance programs, helping high-risk area residents relocate.
+[^6]: [The Reporter: Investigation into the Destruction of Xiaolin Village](https://www.twreporter.org/a/bookreview-typhoon-morakot-xiaolin-village-disaster-causes) — In-depth investigation of the Xiandu Mountain landslide that buried Xiaolin Village and the full context of the 491 deaths, including geological causes and early warning system failures.
 
-### Health Risk Management
+[^7]: [Environmental Information Center: 2024 National Climate Change Science Report](https://e-info.org.tw/node/239052) — Coverage of key findings from the latest scientific report led by Hsu Huang-hsiung: 50-year extreme rainfall events may become 10-year events, and days above 36°C may increase by 75.
 
-Climate change health impacts require systematic responses. The Centers for Disease Control established climate-sensitive disease surveillance systems, including heat injuries, dengue fever, and enterovirus. High temperature warning systems issue alerts during summer, reminding citizens to prevent heat injuries.
+[^8]: [Environmental Protection Administration Greenhouse Gas Emission Statistics](https://ghgreg.epa.gov.tw/) — Taiwan's official greenhouse gas emission database, containing historical national emission inventories, sectoral emissions, and per-capita emission data.
 
-Air quality deterioration and climate change mutually exacerbate each other. The Environmental Protection Administration strengthens air quality monitoring and promotes cross-regional air pollution prevention. Health risk assessments indicate each 10 microgram/cubic meter PM2.5 increase raises cardiovascular disease risk by 6%.
+[^9]: [EU Carbon Border Adjustment Mechanism Official Page](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en) — CBAM entered its transitional phase in October 2023 and full implementation in 2026, covering six product categories: steel, cement, aluminum, fertilizers, electricity, and hydrogen.
 
-## International Cooperation and Challenges
+[^10]: [Office of the President Press Release: President Tsai Ing-wen's 2021 World Earth Day Address](https://www.president.gov.tw/News/26056) — President Tsai's first declaration as president that "the 2050 net-zero transition is the world's goal, and it is also Taiwan's goal," setting the policy tone for the subsequent NDC net-zero roadmap.
 
-Taiwan's participation in international climate governance faces political limitations, but engages through non-governmental organizations, enterprises, and city networks. Taiwan companies actively participate in international initiatives like RE100 and SBTi, committing to 100% renewable energy use.
+[^11]: [Ministry of Economic Affairs Energy Administration: Offshore Wind Phase 3 Zonal Development Mechanism Announcement](https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=122229) — MOEA announcement of March 27, 2026, noting that as of March 26, 2026, Taiwan's cumulative installed offshore wind capacity was approximately 4.5 GW, with Phase 3 allocated capacity at 3.6 GW and a grid connection target of 2030–2031.
 
-Carbon credit trading represents future development priorities. Taiwan's carbon credit exchange officially opened in August 2023, but international carbon credit certification and trading mechanisms remain under development. International carbon market rules significantly impact Taiwan enterprise participation costs.
+[^12]: [PV Magazine: Taiwan solar and offshore wind targets](https://www.pv-magazine.com/2025/01/13/taiwan-to-add-8-2-gw-of-solar-offshore-wind-by-end-of-2026/) — Report on Ørsted's completion of the 920 MW Da Changhua Phase II Southwest and Northwest wind farms, and Taiwan's plan to add 8.2 GW of solar PV and offshore wind by the end of 2026.
 
-Regarding technology cooperation, Taiwan collaborates with Japan, Germany, Denmark, and others on offshore wind and hydrogen energy technology. Semiconductor industry net-zero transition experiences can also be exported to other countries.
+[^13]: [Environmental Information Center: Changhua Fishermen Protest Offshore Wind (2022)](https://e-info.org.tw/node/233449) — Report on over a hundred fishermen marching to the Executive Yuan to protest offshore wind farm navigation exclusion zones blocking generational fishing grounds, chanting "destroying fishermen's livelihoods."
 
-## Prospects and Outlook
+[^14]: [Environmental Information Center: Court Rules Offshore Wind Navigation Restrictions Illegal (2025)](https://e-info.org.tw/node/241327) — Taiwan's first court ruling challenging the spatial governance of offshore wind, finding that navigation restrictions infringed on fishermen's rights, sending shockwaves through the energy sector.
 
-Taiwan's net-zero transition represents complex social engineering requiring close coordination of technological innovation, institutional reform, and social consensus. Success depends on balancing environmental goals, economic development, and social equity.
+[^15]: [Taiwan Power Company: Renewable Energy Generation Statistics](https://www.taipower.com.tw/tc/page.aspx?mid=204) — Taipower official statistics, containing historical data on installed capacity and generation by renewable energy type.
 
-Short-term, Taiwan needs to accelerate renewable energy deployment, strengthen grid resilience, and promote industrial transformation. Medium-term goals involve establishing comprehensive low-carbon economic systems, with long-term vision of becoming an Asia-Pacific net-zero demonstration.
+[^16]: [Taipower: Preliminary Investigation of the May 13 Blackout](https://www.taipower.com.tw/2289/2323/2324/7706/); [Ministry of Economic Affairs: Review Report on the May 13 and May 17 Blackouts](https://www.moea.gov.tw/MNS/populace/news/wHandNews_File.ashx?file_id=95610) — Official documents explaining the misoperation of switch 3541 in the May 13 incident, the instantaneous loss of approximately 2.2 GW of supply capacity, approximately 4 million affected households, and the May 17 event and subsequent review.
 
-Climate change presents global challenges and opportunities for Taiwan's transformation and upgrading. Through innovative technology, circular economy, and green finance development, Taiwan can find new competitive advantages in global net-zero competition. However, this requires joint efforts from government, enterprises, and civil society, plus citizens' deep understanding and active participation in sustainable development.
+[^17]: [Office of the President Press Release: Inauguration of the Taiwan Carbon Exchange](https://www.president.gov.tw/News/27785); [Taiwan Stock Exchange 2023 Annual Report](https://www.twse.com.tw/downloads/zh/about/company/Annual/112/P2.pdf); [CnYES: Taiwan Carbon Exchange Expected to Launch by End of July, Operating on a North-South Division Model](https://news.cnyes.com/news/id/5193262) — The Carbon Exchange was inaugurated on August 7, 2023; per TWSE and NDC Fund planning, the planned capitalization is NT$1.5 billion with initial paid-in capital of NT$1.0 billion, with TWSE contributing NT$600 million and the NDC Fund NT$400 million. The TWSE annual report also records the first batch of international carbon credit transactions totaling 88,520 tCO₂e, with 27 participating companies (45 including financial holding subsidiaries).
 
-## Reference Materials
+[^18]: [KPMG Taiwan: Carbon Pricing Trend Analysis (2025)](https://kpmg.com/tw/zh/home/insights/2025/02/2025-kpmg-insight/carbon-pricing.html) — Analysis of market dynamics following the launch of Taiwan's carbon fee system in 2025, including domestic carbon credit pricing (Formosa Plastics NT$3,000/tonne, Hanbao Livestock NT$3,000–4,000/tonne) and the challenge of low trading volume.
 
-- [National Development Council - 2050 Net-Zero Emissions Pathway and Strategy](https://www.ndc.gov.tw/nc_27_35473) — Official net-zero transition policy documents
-- [Central Weather Bureau Climate Change Information Platform](https://www.cwb.gov.tw/V8/C/C/C04/index.html) — Taiwan climate change observation data
-- [Environmental Protection Administration Greenhouse Gas Emission Statistics](https://ghgreg.epa.gov.tw/) — Official Taiwan greenhouse gas emission data
-- [National Science and Technology Center for Disaster Reduction](https://www.ncdr.nat.gov.tw/) — Climate disaster risk assessment and adaptation strategies
-- [Bureau of Energy Renewable Energy Information Network](https://www.re.org.tw/) — Renewable energy development policies and statistics
-- [ITRI Net-Zero Sustainable Strategy Office](https://www.itri.org.tw/NetZero/) — Industrial net-zero transition technology research
-- [Taiwan Climate Change Projection Information and Adaptation Knowledge Platform](https://tccip.ncdr.nat.gov.tw/) — Scientific research and adaptation knowledge
-- [Taiwan Corporate Sustainability Forum](https://www.bcsd.org.tw/) — Corporate sustainability and net-zero initiatives
-- IPCC Sixth Assessment Report - Climate change impact assessment for Asia
-- "Taiwan Climate Change Science Report," Ministry of Science and Technology, 2017
+[^19]: [Reccessary: Outlook on Taiwan Energy Policy 2025](https://www.reccessary.com/zh-tw/news/how-will-taiwan-energy-policy-evolve-2025) — Report on President Lai Ching-te's 2024 National Day announcement of the "Second Energy Transition" policy direction: diversified green energy, deep energy conservation, and advanced energy storage.
+
+[^20]: [Ministry of Economic Affairs Energy Administration Statistics: Generation Mix by Fuel Type](https://service.moea.gov.tw/EE521/common/Common.aspx?code=M&no=9); [Ministry of Environment Energy Information Platform: Electricity Generation Mix](https://energy.moenv.gov.tw/electricity-generation-mix/2408.html); [United Daily News: MOEA Says Renewable Share to Reach 20% from November 2026](https://money.udn.com/money/story/7307/8712340) — Per MOEA Energy Administration statistics, 2024 figures were approximately 42.4% gas, 39.3% coal, 11.5%–11.6% renewables, and 4.2% nuclear; the MOENV Energy Information Platform shows the renewable share of total national generation at 13.1% for 2025, while the commonly cited Taipower system generation-procurement structure figure is approximately 12.7%, the two using different methodologies. The MOEA stated in May 2025 that the 20% mark is expected from November 2026, reaching approximately 30% by 2030.
+
+[^21]: [Taiwan Reef Check Report (2020)](https://www.teia.tw/zh-hant/natural-valley/reefcheck/) — Annual coral reef survey led by the Taiwan Environmental Information Association, documenting the 2020 mass coral bleaching event at Kenting, Green Island, and Orchid Island.

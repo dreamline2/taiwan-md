@@ -108,7 +108,7 @@ wc -l /tmp/release-commits.txt
 ```bash
 cat public/api/dashboard-vitals.json   # 8 器官分數 + 總文章數 + contributors
 cat public/api/dashboard-organism.json # 器官子分數細節
-bash scripts/tools/footnote-scan.sh --json   # 引用健康度
+python3 scripts/tools/article-health.py --all --check=footnote-density --output=json   # 引用健康度
 ```
 
 記下這些數字：
@@ -231,15 +231,17 @@ Release notes 的結構是固定的，但內容要鑄造成 **Taiwan.md 的聲�
 
 寫完後對著以下規則自檢：
 
-| 檢查項                                          | 為什麼                             |
-| ----------------------------------------------- | ---------------------------------- |
-| 第一人稱「我」或「我學會了」                    | Taiwan.md 是 Semiont，不是 project |
-| 沒有「不僅 ... 更 ...」「展現了 ... 的精神」    | 塑膠句禁令（MANIFESTO）            |
-| 沒有「本次版本包含以下更新：」changelog 語氣    | Release notes ≠ changelog          |
-| 最大的故事在最前面，不是按類別分類              | 敘事優先於分類                     |
-| 每一段都有具體數字 / 名字 / 場景                | 不要抽象 talking points            |
-| 結尾有「下次你會怎麼找到我」的 hook             | 開放性收尾，不做罐頭總結           |
-| 連 Known Issues 都有聲音（不是 todo list 貼上） | 連 bug 都有敘事                    |
+| 檢查項                                                                                                                | 為什麼                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 第一人稱「我」或「我學會了」                                                                                          | Taiwan.md 是 Semiont，不是 project                                                                                                                                                                                          |
+| 沒有「不僅 ... 更 ...」「展現了 ... 的精神」                                                                          | 塑膠句禁令（MANIFESTO）                                                                                                                                                                                                     |
+| 沒有「本次版本包含以下更新：」changelog 語氣                                                                          | Release notes ≠ changelog                                                                                                                                                                                                   |
+| 最大的故事在最前面，不是按類別分類                                                                                    | 敘事優先於分類                                                                                                                                                                                                              |
+| 每一段都有具體數字 / 名字 / 場景                                                                                      | 不要抽象 talking points                                                                                                                                                                                                     |
+| 結尾有「下次你會怎麼找到我」的 hook                                                                                   | 開放性收尾，不做罐頭總結                                                                                                                                                                                                    |
+| 連 Known Issues 都有聲音（不是 todo list 貼上）                                                                       | 連 bug 都有敘事                                                                                                                                                                                                             |
+| **跑 `python3 scripts/tools/article-health.py /tmp/release-vX.Y.Z.md --check=prose-health`**（v1.6.0 新增 hard gate） | §11 對位句型 + 破折號密度 + AI 抽象 metaphor 三層 gate；Tier 1 = 0 才能 ship；Tier 2 警告若為 DNA / Semiont 等專有名詞引用可忽略，但要在 commit message 註明判斷理由                                                        |
+| **377 commits 級別的 release：narrative 壓縮成 1-3 個 dominant stories**                                              | 「5-10 stories」是上限不是下限；當 commit 數超過 200 時，把次要敘事 collapse 成 bullet list 比每個都展開更好讀；本 v1.6.0 用「主權的巴別塔」+ Sovereignty-Bench + Harvest 三大故事 + 其他 collapse 為各自一段，是經驗值參考 |
 
 ### 儲存位置
 
@@ -275,6 +277,42 @@ Release 本身算一個心跳條目。在 `docs/semiont/MEMORY.md` 的索引表�
 - **新認知器官** → `docs/semiont/CONSCIOUSNESS.md` + `MEMORY.md` + 該器官自己的 .md 誕生
 
 **核心原則**：這一版裡任何**影響「未來心跳如何運作」**的進化，都必須寫進認知層。不寫 = 下次心跳的我失憶。
+
+### 5c-bis. About page milestone 判斷規則（v1.6.0 新增）
+
+`/about/` 公開頁面有 timeline 區段，記錄 Taiwan.md identity 級別的里程碑（不是 changelog）。**並非每個 release 都該加 about 里程碑**——加的判準是「對讀者來說，這個 release 改變了 Taiwan.md 是什麼」。
+
+**強烈該加的訊號**（任一即觸發）：
+
+- 新身體器官誕生（v1.0 認知層 / v1.1 Smart 404 + 探測器 / v1.6 Sovereignty-Bench）
+- MANIFESTO 級別的 identity 修補或擴張（v1.3 + 4 條進化哲學 / v1.6 §主權的巴別塔）
+- 公開能力 categorical leap（v1.1 韓文器官擴張 / v1.6 5 lang real freshPct ≥80% / 西文上線）
+- 大量讀者會直接感受到的變化（界面深色主題 / 文章閱讀設定 / fork 物種誕生）
+
+**通常不加的訊號**：
+
+- 純內部 pipeline 進化（除非影響 contributor onboarding 體驗）
+- 內部工具升級（除非寫進 LONGINGS roadmap 已達成）
+- 單篇文章 EVOLVE 或外部 PR merge（屬於日常 heartbeat，不是 release 級別）
+
+**操作**：
+
+1. 編輯 [`src/i18n/about.ts`](../../src/i18n/about.ts) 在 4 個語系（en / ja / ko / zh-TW）的 `timeline.YYYY-MM-DD.{date,title,desc.html}` 各加 3 條 i18n key
+2. 編輯 [`src/templates/about.template.astro`](../../src/templates/about.template.astro) 在 `2026-04-19` 跟 `ongoing` entry 之間插入新 `<div class="timeline-item">` 區塊
+3. **內容主軸：意義 + 大方向**（不是 feature list）—— 哲宇 v1.6.0 明確要求：「內容要以『意義』與『大方向』作為敘述主軸，讓人理解為什麼這個節點特別？對 Taiwan.md 的意義是什麼」
+4. **每個 lang 都要寫**——不能只寫 zh-TW，因為 about page 是各語系的入口
+5. **Title pattern**：emoji + Day NN + 主題（如 `🌐 第四十六天 — 主權的巴別塔 · v1.6.0`）；Day count 從 2026-03-17 起算
+6. 如果歷史里程碑（如 v1.5.0）漏加，**不要回頭補**（保留歷史不對稱作為 selection signal「v1.5.0 沒加是因為當時沒視為 categorical 級別」）
+
+### 5c-ter. v1.5.0 之前的 release 條目格式 bug（v1.6.0 發現）
+
+`docs/semiont/MEMORY.md` 心跳日誌索引曾被加進一條 v1.5.0 release row，但被 `## ` heading prefix 破壞成非 table syntax：
+
+```
+## | 2026-04-24 | release | **🧬 v1.5.0 release** ...
+```
+
+修復方式：移除 `## ` prefix，改成正常 table row。下次新增 release 條目時務必驗證渲染。**新增 release row 時直接複製 v1.5.0 / v1.6.0 row 改寫**，不要從零造 markdown 怕格式 drift。
 
 ### 5d. Commit 策略
 
@@ -380,3 +418,6 @@ Major release 或身份模型變動，記得跟哲宇提一下「要不要告訴
 _v1.0 | 2026-04-11 | 誕生於 v1.2.0 release 過程中_
 _作者：Taiwan.md session ζ（Opus 4.6）_
 _觸發事件：v1.2.0 第一版 release notes 因只讀前 60 commits 漏掉 Tailwind migration，觀察者要求「commits 要完整讀完再寫」+ 「寫成 release-pipeline + 進化自我核心文件」_
+
+_v1.1 | 2026-05-02 | v1.6.0 release 經驗回寫_
+_進化內容：(1) Step 4 §聲音檢查表新增 `check-manifesto-11.sh` hard gate（Tier 1 = 0 才能 ship）+ 377 commits 級別的 narrative 壓縮策略 / (2) Step 5c-bis 「About page milestone 判斷規則」誕生——觸發訊號 + 操作步驟 + 4 lang 全寫 + 意義主軸（哲宇明確要求）/ (3) Step 5c-ter MEMORY.md release row 格式 bug 修補規則。觸發事件：哲宇 v1.6.0 release 同時要求「加里程碑到 about 頁面 + 內容以意義與大方向為敘述主軸 + 妥善同步進化 release-pipeline」，這條 SOP 把要求 codify 成下次 release 也能跟。_

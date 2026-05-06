@@ -303,7 +303,7 @@ src/content/         ← ⚙️ 投影層（自動產生，不要手動改）
 2. 按照 [EDITORIAL.md](./docs/editorial/EDITORIAL.md) 標準撰寫內容
 3. 執行 `bash scripts/sync.sh`（同步到 `src/content/`）
 4. 執行 `npm run build` 驗證（確認 frontmatter 正確）
-5. 執行 `bash tools/quality-scan.sh` 品質檢測（分數 ≤ 3）
+5. 執行 `python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health` 品質檢測（HARD 0、WARN ≤ 3）
 6. 提交 PR
 
 ```bash
@@ -311,7 +311,7 @@ src/content/         ← ⚙️ 投影層（自動產生，不要手動改）
 echo "寫好文章後..."
 bash scripts/sync.sh          # knowledge/ → src/content/
 npm run build                  # 驗證 build
-bash tools/quality-scan.sh # 品質檢測
+python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health  # 品質檢測
 git add -A && git commit -m "content: 新增 XXX 文章"
 ```
 
@@ -347,7 +347,7 @@ bun run dev  # 或 npm run dev
 - [ ] **有來源**：至少 5 個可查證來源（含 URL），2+ 一手來源
 - [ ] **策展人聲音**：每 2-3 段有一句觀點或反思，不只是資料堆疊
 - [ ] **禁止 bullet list 灌水**：用敘事散文寫作，bullet list 僅用於真正的清單
-- [ ] **quality-scan.sh 分數 ≤ 3**：跑 `bash tools/quality-scan.sh` 確認
+- [ ] **prose-health 分數 ≤ 3**：跑 `python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health` 確認
 
 #### 一般自我檢查
 
@@ -587,7 +587,12 @@ Taiwan.md 採用**漸進式信任**的模式。每個人都從 Contributor 開�
 **注意事項：**
 
 - Maintainer 不自己 merge 自己的 PR（需另一位 Maintainer review）
-- 超過 30 天無活動會被標記 inactive，60 天後自動降級為 Trusted Contributor
+- **Inactivity 政策**（v1.0 2026-04-30 修訂，比舊版更溫和）：
+  - 0–60 天：正常追蹤，不採取行動
+  - 60–90 天：友善 soft check-in（issue 或 DM 問候，不變更權限）
+  - 90+ 天：暫時降級為 Trusted Contributor，可隨時 1-click 復活
+  - 例外：如果持續被 review-request ping 但無回應 ≥ 2 次 → 可提前 mercy demote（必附完整通訊範本）
+  - 完整 SOP / 通訊範本 / 復活路徑 → [CONTRIBUTOR-SYSTEM-PIPELINE.md](docs/pipelines/CONTRIBUTOR-SYSTEM-PIPELINE.md)
 - 可隨時主動申請降級或休假（不是什麼丟臉的事）
 
 ---

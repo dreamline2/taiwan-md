@@ -10,6 +10,10 @@ featured: false
 lastVerified: 2026-03-23
 lastHumanReview: false
 translatedFrom: 'Culture/無名小站.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:e0339531e5d43f7e'
+sourceBodyHash: 'sha256:fef7d909d291cdc3'
+translatedAt: '2026-04-14T12:25:09+08:00'
 ---
 
 > **30-Second Overview:** Wretch.cc was Taiwan's pioneering social platform founded by National Chiao Tung University student Jian Zhiyu in 1999.

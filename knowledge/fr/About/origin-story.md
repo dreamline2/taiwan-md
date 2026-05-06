@@ -11,6 +11,10 @@ featured: true
 translatedFrom: 'About/緣起故事.md'
 lastVerified: 2026-03-19
 lastHumanReview: false
+sourceCommitSha: '818f3cc1'
+sourceContentHash: 'sha256:90a44cb111462766'
+sourceBodyHash: 'sha256:0005a5514ea5f5fb'
+translatedAt: '2026-04-15T17:35:10+08:00'
 ---
 
 # L'histoire des origines de Taiwan.md

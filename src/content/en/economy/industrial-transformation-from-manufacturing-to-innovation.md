@@ -11,12 +11,19 @@ tags:
     'manufacturing',
     'high-tech',
   ]
+subcategory: '經濟發展'
 author: 'Taiwan.md'
 difficulty: 'intermediate'
 readingTime: 15
 featured: true
 lastVerified: 2026-03-19
+lastHumanReview: false
 translatedFrom: 'Economy/台灣產業轉型升級.md'
+sourceCommitSha: '800114ea'
+sourceContentHash: 'sha256:4035b995bd717d6f'
+sourceBodyHash: 'sha256:81ddde0be3d6c345'
+translatedAt: '2026-05-01T14:11:02+08:00'
+category: Economy
 ---
 
 # Taiwan's Industrial Transformation: From Manufacturing Powerhouse to Innovation Nation
