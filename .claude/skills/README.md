@@ -59,6 +59,12 @@
 | `/twmd-refresh`     | 「資料更新 / refresh」 | [DATA-REFRESH-PIPELINE](../../docs/pipelines/DATA-REFRESH-PIPELINE.md) |
 | `/twmd-batch-audit` | 「sub-agent 後驗證」   | DNA #32 + #42 + audit-batch.sh                                         |
 
+### 🔀 Fork → upstream PR（結構性雷點）
+
+| Skill                     | Trigger                                                                              | Pointer                                                                               |
+| ------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| `fp-working-pr-principle` | 「upstream PR」「fork PR」「開 PR 到 upstream」「假巨型 diff」「co-authored Cursor」 | [`.claude/skills/fp-working-pr-principle/SKILL.md`](fp-working-pr-principle/SKILL.md) |
+
 ### 🛠️ 既有（taiwanmd- prefix，雙軌共存）
 
 | Skill                | 用途                                       |
