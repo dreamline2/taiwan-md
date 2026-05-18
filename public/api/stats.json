@@ -1,44 +1,52 @@
 {
-  "totalArticles": 2303,
-  "totalCategories": 21,
-  "estimatedContributors": 154,
-  "totalTags": 5435,
+  "totalArticles": 4307,
+  "totalCategories": 20,
+  "estimatedContributors": 57,
+  "totalTags": 5687,
   "categories": [
     {
-      "name": "History",
-      "count": 36
+      "name": "es",
+      "count": 706
     },
     {
       "name": "ko",
-      "count": 478
+      "count": 710
     },
     {
-      "name": "Society",
-      "count": 58
+      "name": "fr",
+      "count": 726
     },
     {
       "name": "en",
-      "count": 411
-    },
-    {
-      "name": "Culture",
-      "count": 52
+      "count": 727
     },
     {
       "name": "ja",
-      "count": 267
+      "count": 715
+    },
+    {
+      "name": "History",
+      "count": 41
+    },
+    {
+      "name": "Society",
+      "count": 73
+    },
+    {
+      "name": "Culture",
+      "count": 60
     },
     {
       "name": "People",
-      "count": 200
+      "count": 219
     },
     {
       "name": "Music",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Food",
-      "count": 47
+      "count": 52
     },
     {
       "name": "Economy",
@@ -46,23 +54,23 @@
     },
     {
       "name": "Technology",
-      "count": 44
+      "count": 46
     },
     {
       "name": "Lifestyle",
-      "count": 19
-    },
-    {
-      "name": "Geography",
-      "count": 25
-    },
-    {
-      "name": "Art",
-      "count": 30
+      "count": 28
     },
     {
       "name": "Nature",
-      "count": 32
+      "count": 37
+    },
+    {
+      "name": "Geography",
+      "count": 42
+    },
+    {
+      "name": "Art",
+      "count": 33
     },
     {
       "name": "About",
@@ -73,61 +81,73 @@
       "count": 2
     },
     {
-      "name": "Language",
-      "count": 1
-    },
-    {
-      "name": "fr",
-      "count": 477
-    },
-    {
-      "name": "es",
-      "count": 36
-    },
-    {
       "name": "resources",
       "count": 2
     }
   ],
   "topTags": [
     {
-      "name": "企業",
-      "count": 58
-    },
-    {
       "name": "Economy",
-      "count": 52
+      "count": 76
     },
     {
       "name": "人物",
-      "count": 52
+      "count": 63
     },
     {
-      "name": "인물",
-      "count": 30
+      "name": "企業",
+      "count": 60
     },
     {
-      "name": "기업",
-      "count": 30
-    },
-    {
-      "name": "경제",
-      "count": 27
-    },
-    {
-      "name": "経済",
-      "count": 25
+      "name": "科技與企業",
+      "count": 34
     },
     {
       "name": "ODM",
+      "count": 31
+    },
+    {
+      "name": "文學",
+      "count": 26
+    },
+    {
+      "name": "體育",
+      "count": 26
+    },
+    {
+      "name": "半導體",
+      "count": 26
+    },
+    {
+      "name": "기업",
+      "count": 26
+    },
+    {
+      "name": "政治",
       "count": 25
     },
     {
-      "name": "Économie",
+      "name": "金曲獎",
       "count": 25
     },
     {
-      "name": "peuples autochtones",
+      "name": "原住民",
+      "count": 24
+    },
+    {
+      "name": "民主化",
+      "count": 23
+    },
+    {
+      "name": "文化",
+      "count": 23
+    },
+    {
+      "name": "AI",
+      "count": 23
+    },
+    {
+      "name": "高雄",
       "count": 23
     },
     {
@@ -135,45 +155,26 @@
       "count": 22
     },
     {
-      "name": "AI",
-      "count": 21
+      "name": "YouTuber",
+      "count": 22
     },
     {
-      "name": "文化",
-      "count": 20
+      "name": "音樂",
+      "count": 22
     },
     {
-      "name": "personnalité",
-      "count": 20
-    },
-    {
-      "name": "民主化",
-      "count": 19
-    },
-    {
-      "name": "原住民族",
-      "count": 19
-    },
-    {
-      "name": "半導體",
-      "count": 18
-    },
-    {
-      "name": "g0v",
-      "count": 18
-    },
-    {
-      "name": "台灣",
-      "count": 18
-    },
-    {
-      "name": "culture",
-      "count": 17
+      "name": "인물",
+      "count": 22
     }
   ],
   "languageDistribution": {
-    "zh-TW": 2303,
+    "zh-TW": 4307,
     "en": 0
   },
-  "lastUpdated": "2026-04-29T17:47:56.217Z"
+  "lastUpdated": "2026-05-17T22:12:44.753Z",
+  "stars": 991,
+  "forks": 147,
+  "zhPages": 3580,
+  "enPages": 727,
+  "totalPages": 4307
 }

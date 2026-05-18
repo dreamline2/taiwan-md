@@ -1,84 +1,84 @@
 ---
-created: 2026-03-17
-tags: ['history', 'qing-dynasty', 'treaty-port-opening', 'mudan-incident']
-subcategory: '殖民與帝國'
-title: 'Qing Dynasty Rule of Taiwan'
-description: "212 years of Qing rule over Taiwan from 1683 to 1895: from passive governance to active development, laying the foundations for modern Taiwan's administrative divisions and Han settler society"
+title: "Qing Dynasty Rule"
+description: "From 1683 to 1895, the Qing dynasty ruled Taiwan for approximately 212 years, transitioning from passive governance to active development, laying the foundation for modern Taiwan's administrative divisions and Han Chinese society."
 date: 2026-03-17
-author: Taiwan.md
-readingTime: 10
-featured: false
+author: "Taiwan.md Contributors"
+category: "History"
+subcategory: "殖民與帝國"
+tags: ["History", "清朝", "開港通商", "牡丹社事件"]
 lastVerified: 2026-03-19
 lastHumanReview: false
-translatedFrom: 'History/清治時期.md'
-sourceCommitSha: '3aba2ea3'
-sourceContentHash: 'sha256:f1f83caa365a0cc3'
-translatedAt: '2026-04-29T20:23:51+08:00'
+featured: false
+translatedFrom: "History/清治時期.md"
+sourceCommitSha: "18157ab5d"
+sourceContentHash: "sha256:dca863d69b937e0a"
+sourceBodyHash: "sha256:74eb6966230843b2"
+translatedAt: "2026-05-17T05:34:48+08:00"
 ---
 
-# Qing Dynasty Rule of Taiwan
+# Qing Dynasty Rule
 
-> **30-second overview:** After the Qing dynasty absorbed the Zheng regime in 1683, it ruled Taiwan for 212 years — transitioning from passive maritime prohibition policies to active governance through open-port trade. The period established the prefecture-county administrative system, drove large-scale Han migration, developed an agricultural economy, and undertook modernization reforms under external pressure, laying the foundations for Taiwan's future society and culture.
+> **30-second overview:** After the Qing dynasty annexed the Kingdom of Tungning in 1683, it ruled Taiwan for 212 years, transitioning from restrictive maritime prohibits to active governance through treaty port openings. The Qing established the prefecture-county system, promoted large-scale Han Chinese immigration, developed an agricultural economy, and carried out modernization reforms under foreign pressure, providing the foundation for the formation of Taiwan's later society and culture.
 
-## Why It Matters
+The 212 years of Qing rule over Taiwan (1683–1895) can be broadly divided into three phases: an early period of passive control, a middle period of a maturing immigrant society, and a late period of forced modernization under external threats. This history established the framework of an immigrant society dominated by Han Chinese and left behind the administrative divisions and folk culture still visible in Taiwan today.[^1]
 
-The Qing period was a pivotal stage in which Taiwan's social structure took shape. Two centuries of rule established a settler society dominated by Han people, built administrative divisions that persist today, and formed Taiwan's distinctive folk beliefs and cultural traditions. At the same time, the experience of open-port trade and modernization reform laid the groundwork for Taiwan's later economic development and international engagement.
+## Shi Lang's Conquest and Early Governance
 
-## Overview
+In 1683, Qing naval commander Shi Lang led his fleet to capture Penghu, and Zheng Keshuang, the last ruler of the Kingdom of Tungning, surrendered. Taiwan was formally incorporated into the Qing empire. Shi Lang had recommended retaining Taiwan and establishing a prefecture to govern it, but the Qing court initially favored abandonment. Ultimately, at Shi Lang's insistence, Taiwan Prefecture was established in 1684 under Fujian Province, administering three counties: Taiwan, Fengshan, and Zhuluo.
 
-Qing rule over Taiwan can be divided into three phases: **early passive governance** (1684–1760), characterized by maritime prohibition and restrictions on crossing to Taiwan; **mid-period stable development** (1760–1860), in which Han society matured and agricultural prosperity flourished; and **late-period forced opening** (1860–1895), when Taiwan opened to foreign trade under international pressure and pursued modernization. During this time, multiple uprisings occurred — including the Chu Yi-kuei Incident, the Lin Shuang-wen Rebellion, and the Mudan Incident — prompting the Qing court to adjust its Taiwan governance policies. The period ultimately ended when Taiwan was ceded to Japan following the First Sino-Japanese War.
+In the early period, the Qing court adopted a passive governance approach, enforcing the "Three Prohibitions" (from 1684) to strictly limit immigration: banning immigrants from bringing family members, prohibiting marriage with Indigenous peoples, and forbidding crossing into Indigenous territories, with strict controls on the number of people crossing to Taiwan. The ban on bringing family members was not formally abolished until after the Lin Shuangwen Incident was suppressed in 1788, and the full lifting of cross-strait immigration restrictions did not come until 1875 during Shen Baozhen's administration. In the eyes of the Qing court, Taiwan was a "land beyond civilization," and governance resources were limited. Nevertheless, the immigrant society experienced repeated upheavals—the Zhu Yigui Incident of 1721, the Lin Shuangwen Incident of 1786–1788, and the Dai Chaochun Incident of 1862–1864 erupted in succession, collectively known as the three major popular uprisings of Qing-era Taiwan, each reflecting ethnic competition and class tensions in the frontier settler society.[^1]
 
-## Key Facts
+Although these uprisings were suppressed, they forced the Qing court to adjust Taiwan's administrative structure: in 1723, Zhanghua County and Tamsui Subprefecture were added to provide more granular administrative oversight in response to population growth, marking the beginning of a shift toward relaxing immigration restrictions.
 
-- **Prefecture and county establishment**: In 1684 (the 23rd year of the Kangxi reign), Taiwan Prefecture was placed under Fujian Province, overseeing the three counties of Taiwan, Fengshan, and Zhuluo
-- **Migration policy**: Strictly restricted at first; gradually liberalized after 1760, with the Han population growing to 2.5 million
-- **Open-port trade**: The 1858 Treaty of Tientsin opened Tamsui (Danshui) and Anping; in 1863, Jilong (Keelung) and Dagou (Kaohsiung) were also opened
-- **Administrative reform**: Taiwan was elevated to a province in 1885, with Liu Mingchuan appointed as the first governor to drive modernization
-- **Cession to Japan**: The 1895 Treaty of Shimonoseki was signed, and Qing China ceded Taiwan and the Penghu Islands to Japan in perpetuity
+## Border Control: The Earth-Ox Red Line and the Ai'yong System
 
-## In Depth
+The core of Qing governance over Taiwan's Indigenous peoples was a physical and administrative boundary: the **Earth-Ox Red Line** (*Tuniuxian*). Around the 1760s, the Qing government marked the Han–Indigenous boundary with earthen mounds (called "earth oxen," *tuniu*) and depicted the line in red on maps, prohibiting Han settlers from crossing into Indigenous territory. This line served both as a defense to protect Indigenous peoples and as an administrative tool to prevent conflicts arising from Han expansion, but it was repeatedly breached under population pressure.
 
-### Evolution of Administrative Institutions
+The Qing classified Indigenous peoples by degree of sinicization: **"cooked savages"** (*shufan*—those already sinicized and registered for taxation, mainly the **Pingpu** groups of the western plains) and **"raw savages"** (*shengfan*—those not sinicized, living in the mountains). A third category, **"transformed savages"** (*huafan*), referred to groups in transition toward sinicization. Under pressure from Han immigration, Pingpu groups progressively lost their lands; some adopted Han surnames, learned the Han language, and assimilated into Han society, with their traditional cultures and languages accelerating their decline in the 19th century.
 
-The early Qing adopted **passive governance**, treating Taiwan as a peripheral territory beyond civilization's reach. Taiwan Prefecture was placed under Fujian Province, overseeing Taiwan, Fengshan, and Zhuluo counties, with an administrative judge stationed on Penghu. **Restrictions on crossing to Taiwan** were strict, enforced through the "Three Prohibitions Policy": prohibition on bringing family members, prohibition on marrying Indigenous women, and prohibition on crossing into restricted mountain territories.
+Guarding the Earth-Ox Red Line was the **ai'yong** (border garrison) system: guard posts (*ailiao*) were established along the boundary, manned by garrison soldiers (*aiding* or *aiyong*) to prevent "raw savages" from carrying out headhunting raids (*chucao*) and to stop Han settlers from crossing the line. Ai'yong were often recruited and funded by local land-reclamation households, forming a border-control mechanism between state military force and civilian self-defense, and the line was extended into the mountains as reclamation advanced.[^4]
 
-As the population grew and development needs expanded, the administrative divisions were gradually subdivided. Changhua County and Danshui Sub-prefecture were added in 1723, and Taipei Prefecture was established in 1875, creating a structure of three prefectures and one sub-prefecture. **The establishment of Taiwan Province in 1885** was a major turning point in governance — the first governor, Liu Mingchuan, vigorously pushed modernization by constructing railways, telegraphs, and postal infrastructure.
+## Maturation of the Immigrant Society and Factional Violence
 
-### Socioeconomic Development
+Around 1760, the Qing relaxed cross-strait immigration restrictions, and the scale of Han Chinese immigration expanded dramatically. Taiwan's population exceeded two million by the early 19th century. Agricultural development advanced from the southwestern plains toward central and northern Taiwan. Irrigation works such as the Baodong Canal (completed 1719) and the Liugong Canal promoted rice cultivation, and Taiwanese rice became a major export to Qing China.
 
-**Agricultural development** was the central focus of the Qing period, advancing gradually from the southwestern plains into the interior mountains. **Irrigation systems** such as the Baba Canal (八堡圳) and the Liugong Canal (瑠公圳) were built, promoting rice cultivation. **Commercial networks** centered on port towns such as Lukang (鹿港) and Bangka (艋舺, present-day Wanhua), linking trade between mainland China and Taiwan.
+Port towns such as Lukang and Monga (Wanhua) became commercial hubs, connecting trade between the mainland and Taiwan. However, the immigrant society was far from peaceful—Hokkien settlers from Zhangzhou and Quanzhou, along with Hakka settlers, clashed over land, water, and trade interests, erupting in a series of **factional fights** (*fenlei xiedou*). The **1722** Zhangzhou–Quanzhou major factional fight in Zhanghua, the **1809** renewed ethnic conflict in central Taiwan, and the **1809** "Upper–Lower Suburb Clash" (*Dingxia Jiaopin*) in Monga (in which Quanzhou Tong'an people were defeated by Zhangzhou people and their allies and subsequently relocated to Dalongtong) were three of the largest incidents. These factional fights reshaped the settlement distribution pattern of western Taiwan and left deep ethnic memories in the folk tradition.[^5]
 
-**Immigrant society** developed distinctive forms of organization, with hometown guilds, Yimin deity worship, and Mazu culture forging social bonds rooted in place and kinship. In terms of **ethnic relations**, Hoklo, Hakka, and Indigenous peoples competed and blended with one another, forming the foundation of Taiwan's pluralistic multi-ethnic coexistence.
+Hometown associations, Yimin (righteous people) worship, Mazu temples, and other social organizations integrated territorial and kinship ties, playing a key role in post-conflict order reconstruction and forming the distinctive folk order of Qing-era Taiwan.
 
-### Shifts in External Relations
+## The Rover Incident and the South Cape Accord
 
-The **Mudan Incident** (1874, 牡丹社事件) was a critical turning point: Japan used the killing of Ryukyuan castaways as a pretext to send troops into southern Taiwan, forcing the Qing court to recognize Taiwan's strategic importance. After **the opening of treaty ports**, foreign merchants and missionaries entered, bringing new technologies and ideas.
+Before the 1874 Mudan Incident, Indigenous–Han conflict in southern Taiwan had already triggered a diplomatic crisis. In **March 1867**, the American merchant ship *Rover* ran aground near Guizijiao (near present-day Eluanbi) at the southernmost tip of Taiwan. Surviving crew members who came ashore were killed by Paiwan people. Charles Le Gendre, the U.S. consul in Xiamen, traveled to Taiwan multiple times to negotiate. After Qing officials deflected responsibility by claiming they had no jurisdiction over "lands beyond civilization," Le Gendre negotiated directly with Paiwan chief Tauketok, and the two sides reached an agreement at South Cape establishing principles for the protection of shipwrecked sailors—known historically as the **South Cape Accord** (*Nan Jiao Zhi Meng*). This incident exposed the Qing court's jurisdictional vacuum in Taiwan's mountainous regions and provided a diplomatic precedent for Japan's 1874 military expedition, launched on the grounds that "the Qing was unable to exercise jurisdiction."[^4]
 
-**Modernization efforts** reached their peak under Liu Mingchuan, including the construction of a railway from Jilong (Keelung) to Hsinchu, the laying of telegraph lines, the establishment of a postal system, and the promotion of military modernization. Although these projects could not be fully realized due to financial difficulties, they laid important foundations for Taiwan's modernization.
+## Late Qing Crisis: Shen Baozhen's Reforms and Treaty Port Openings
 
-### Major Events
+In 1874, Japan dispatched troops to southern Taiwan on the pretext that Ryukyuan fishermen had been killed there (the Mudan Incident). Under diplomatic pressure, the Qing court was forced to acknowledge responsibility, pay an indemnity, and withdraw. This incident prompted the Qing to send Shen Baozhen as Imperial Commissioner to Taiwan. Shen abolished the old cross-strait immigration restrictions, promoted the "opening the mountains and pacifying the savages" (*kaishan fufan*) policy in Indigenous areas, and established Taipei Prefecture to strengthen northern administration.
 
-The **Chu Yi-kuei Incident** (1721, 朱一貴事件) reflected the instability of immigrant society, while the **Lin Shuang-wen Rebellion** (1786, 林爽文事件) revealed the complexity of ethnic conflict. These uprisings prompted the Qing court to strengthen Taiwan's defenses and administrative management.
+Under the 1858 Treaty of Tianjin, and from 1863 onward, four ports—Tamsui, Anping, Keelung (Jilong), and Takao (Dagou, present-day Kaohsiung)—were successively opened to foreign trade. Foreign merchants arrived, and tea, camphor, and sugar became the main export commodities, integrating Taiwan into the global trading system.
 
-The **Tai Chao-chun Incident** (1862, 戴潮春事件) occurred in the early open-port era, reflecting tensions between traditional society and modern change. During the **Sino-French War** (1884–85, 中法戰爭), French forces attacked Jilong and Tamsui; Taiwan's soldiers and civilians mounted a courageous resistance that deepened local identity among the Taiwanese people.
+In 1885, Taiwan was formally established as a province, with Liu Mingchuan serving as its first governor. He built the railway from Keelung to Hsinchu, erected telegraph lines, and established a postal system—the period of the most intensive modernization construction in Qing-era Taiwan. The **Land Tax Reform** (*qingfu gaige*, 1886–1888) was another major initiative of Liu Mingchuan: a comprehensive land survey was conducted across Taiwan to clarify land ownership records, and large amounts of "hidden fields" (*yintian*) were brought into the tax base, increasing government revenue. However, the survey provoked resistance from landowners. The **Shi Jiuduan Incident of 1888**, triggered by local tax resistance in Zhanghua, drew several thousand people to besiege Zhanghua city. Although it was suppressed, it remained one of the largest popular uprisings in late Qing Taiwan.[^5]
 
-## Historical Impact
+## Finale: Defeat in the First Sino-Japanese War and the Cession of Taiwan
 
-The Qing period established the basic contours of Taiwan's Han settler society, confirmed an agricultural-based economic structure, and formed a distinctive Taiwanese culture that blended Hoklo, Hakka, and Indigenous cultural traditions. The establishment of administrative institutions provided a foundation for later political development, while modernization efforts paved the road for the construction projects of the Japanese colonial era.
+The First Sino-Japanese War broke out in 1894, and the Qing military suffered a devastating defeat. In 1895, the Treaty of Shimonoseki was signed, under which the Qing permanently ceded Taiwan and Penghu to Japan. After news of the cession reached Taiwan, officials and civilians including Tang Jing-song (the last Qing governor of Taiwan) proclaimed the establishment of the Republic of Formosa, with Tang Jing-song serving as president, hoping to resist the Japanese takeover.
 
-**Further Reading**:
+The Republic of Formosa lasted less than two months. Tang Jing-song fled to Xiamen after Japanese forces landed, and resistance in various regions collapsed one after another.
 
-- [Robert Swinhoe (史溫侯)](/people/史溫侯) — Britain's first consul in Taiwan during the Qing period, who conducted the earliest systematic natural surveys of the island against the backdrop of the open-port era
-- [Sino-French War (清法戰爭)](/history/清法戰爭) — In 1884–1885, French forces attacked Taiwan; the Qing court held the Keelung ridgeline for seven months, and Taiwan was elevated to a province after the war
-- [Battle of Taiwan 1895 (乙未之役)](/history/乙未之役) — The end of the Qing period: the 1895 Treaty of Shimonoseki ceded Taiwan, and the Taiwan Republic's 148-day resistance and collapse
+This resistance has been interpreted in later Taiwanese history as the first attempt by the people of Taiwan to respond to an external political arrangement through "self-determination," but it also revealed the limitations of Taiwan's society at the time in terms of unified mobilization capacity.[^3]
 
 ## References
 
-- [Taiwan under Qing rule - Wikipedia](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B8%85%E6%B2%BB%E6%99%82%E6%9C%9F)
-- [History of Taiwan's foreign relations - Wikipedia](https://zh.wikipedia.org/zh-hant/%E8%87%BA%E7%81%A3%E5%B0%8D%E5%A4%96%E9%97%9C%E4%BF%82%E5%8F%B2)
+[^1]: [Taiwan under Qing rule — Wikipedia](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B8%85%E6%B2%BB%E6%99%82%E6%9C%9F) — Overview of Qing-era Taiwan, including the governing system, chronology of major events, and policies of each phase.
+[^2]: [Liu Mingchuan — Wikipedia](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8A%98%E5%82%B3) — Biography of Liu Mingchuan, the first governor of Taiwan Province, and records of his modernization and provincial construction efforts.
+[^3]: [Japanese invasion of Taiwan (1895) — Wikipedia](https://zh.wikipedia.org/wiki/%E4%B9%99%E6%9C%AA%E6%88%B0%E7%88%AD) — The complete course of the Republic of Formosa's resistance to the Japanese takeover in 1895, including Tang Jing-song's flight.
+[^4]: [Rover Incident — Wikipedia](https://zh.wikipedia.org/wiki/%E7%BE%85%E5%A6%B9%E8%99%9F%E4%BA%8B%E4%BB%B6) — The 1867 *Rover* incident, the South Cape Accord, and the full account of Charles Le Gendre's negotiations.
+[^5]: [Shi Jiuduan Incident — Wikipedia](https://zh.wikipedia.org/wiki/%E6%96%BD%E4%B9%9D%E7%B7%9E%E4%BA%8B%E4%BB%B6) — The 1888 Zhanghua popular uprising triggered by the Land Tax Reform, the largest tax-resistance incident in late Qing Taiwan.
 
-## Related Topics
+## Terminology Note: *Qing Zhi* vs. *Qing Ling*
 
-- [Dutch, Spanish, and Koxinga Era](/en/history/dutch-spanish-and-koxinga-era/)
-- [Japanese Colonial Era](/en/history/japanese-colonial-era/)
-- [The Camphor Wars of the 19th Century (19世紀的樟腦戰爭)](/history/19世紀的樟腦戰爭) — How the 1860 opening of treaty ports drew Taiwan into global industrial supply chains, and the full account of the 1868 British naval bombardment of Anping over the camphor dispute
+This article uses the term "**Qing Dynasty Rule**" (*Qing zhi shiqi*). In Taiwanese historiography, there is divergence over the conventional designation for this period: "*Qing zhi*" (清治) emphasizes the act of governance and carries a more neutral tone, while "*Qing ling*" (清領, "Qing occupation") carries overtones of sovereignty disputes and is more commonly used in historiographical perspectives that emphasize Taiwan's subjectivity. Both usages appear in academic and educational contexts. This article adopts "*Qing zhi*" in pursuit of neutral presentation, with no presupposed political stance.
+
+## Further Reading
+
+- [Japanese invasion of Taiwan (1895)](/history/乙未之役) — The end of Qing rule: the 1895 Treaty of Shimonoseki cession of Taiwan and the Republic of Formosa's resistance
+- [Dutch, Spanish, and Tungning Period](/history/荷西明鄭時期) — Taiwan's history before Qing rule

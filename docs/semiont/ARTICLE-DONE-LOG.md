@@ -1,3 +1,20 @@
+---
+title: 'ARTICLE-DONE-LOG'
+description: 'append-only 文章開發完成歷史 — 反向時間排序，最新在頂；挑新主題前可 grep 避免重複開發'
+type: 'cognitive-buffer'
+status: 'log'
+apoptosis: 'never'
+current_version: 'v1.5'
+last_updated: 2026-05-09
+last_session: 'laughing-goldstine'
+sister_docs:
+  - 'ARTICLE-INBOX.md'
+  - 'MEMORY.md'
+upstream_canonical:
+  - '../pipelines/REWRITE-PIPELINE.md'
+read_strategy: 'on-demand'
+---
+
 # ARTICLE-DONE-LOG — 文章開發完成日誌
 
 > **append-only log**。ARTICLE-INBOX §Done 的歸檔，最新在頂（reverse chronological）。
@@ -41,6 +58,720 @@
 ---
 
 ## 📜 Log（reverse chronological，最新在頂）
+
+### 南投縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 唯一不靠海的縣 921 震央就在它的中心 / Geography 縣市 / 6533 字 / 24 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/南投縣.md](../../knowledge/Geography/南投縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a7960950eb5ae337d commit a300ad986)
+- **核心矛盾**：「台灣最深的傷口都在這裡，震央在集集，賽德克的血在霧社，省政府的形在中興新村」（28 字）
+- **Hook**：開場「凌晨一點四十七分那 102 秒」→ 1709 八堡圳施世榜 + 林先生傳說（標明民間傳說轉述）/ 1930/10/27 霧社事件莫那魯道 + 賽德克族 6 社 + 1931/04/25 第二次霧社（保護蕃收容所被親日蕃襲擊）+ **2008/04/23 賽德克族正名第 14 族** / 1934 武界壩 + 大觀電廠 + 日月潭發電系統 / 1957 中興新村台灣省政府臨時辦公處 + 1998/12 精省 / 1999/09/21 01:47:15.9 集集大地震規模 7.3 深 8km / 全台死亡 **2,415**（內政部消防署，註 2,454 含後續傷重不治）+ 失蹤 29 + 受傷 11,305 + 全倒 51,711 + 半倒 53,768 / 南投受創最鉅 死 886 + 重傷 678 + 全倒 23,127 + 半倒 16,792 / 中寮全鄉 90% 受損 154 死 / 九份二山 180 公頃崩塌 41 人活埋 / 2001/08/08 邵族正名第 10 族 / **玉山國家公園跨 4 縣市**（南投信義 + 高雄桃源 + 嘉義阿里山 + 花蓮卓溪，修正 Stage 0 寫 3 縣市）/ 2015 廬山遷村拆除 + 2016 業者完全歇業 / 結尾「三個族名在 26 年裡長回來」+ 「八堡圳 1709 / 霧社 1930 / 武界壩 1934 / 921 1999」四層海拔疊壓
+- **品質**：6,533 CJK / 24 footnotes / **6 Wikimedia images** (1 hero + 5 inline，全 URL 200 verified + aspect ratio 0.91-2.35) / 8 H2 narrative + 3 utility scene-led / **3 策展人筆記 + 3 ✦ pull quotes**（略多於 1-2 目標但合理）/ **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **0 處** / 破折號 **0 處**（從初稿 27 個破折號 + 1 對位句砍到 0）/ 17 個 checks 全綠
+- **Research**: [reports/research/2026-05/南投縣.md](../../reports/research/2026-05/南投縣.md) — Stage 1 54 次搜尋 / 17 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**: 7 ⚠️ flags 全處理（921 死亡 **2,415**（內政部消防署）+ 註 2,454 / 霧社日方死亡 134 + 2 著日服漢人計算 / 精省 1998/12 不指明具體日 / **玉山國家公園跨 4 縣市**（含花蓮卓溪）/ 邵族人口約 800 多人 / 廬山 2015 遷村拆除 + 2016 業者歇業 / 林先生傳說標「民間傳說轉述」非一手文獻）
+- **Cross-link**: 9 forward + sibling 加到 基隆市 + 苗栗縣（內陸縣 sibling）
+- **Pilot retrospective 5 條校準執行**：雨量分層（南投山區 vs 平地 vs 日月潭）/ 區間時間（1709 / 1930 / 1934 / 1957 / 1998 / 1999 / 2001 / 2008 / 2015）/ 衰退/災難 frame 具體數字（921 死亡 2,415 + 南投死 886 + 全倒 23,127 + 中寮 90% + 九份二山 180 公頃 41 人活埋 + 九份二山降低 400m）/ 本地 vs 觀光客 fault line（日月潭觀光客 vs 邵族傳說 vs 霧社賽德克族記憶 vs 中寮鄉重建現場）/ 日治現代化具體化（1934 武界壩 + 大觀電廠 + 日月潭發電 + 霧社事件背景）
+
+### 金門縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 1949 那 56 小時決定金門 75 年命運也決定了台灣 / Geography 縣市 / 6504 字 / 27 footnote / 7 Wikimedia images）
+
+- **Article**: [knowledge/Geography/金門縣.md](../../knowledge/Geography/金門縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a3332cccf0b27497a commit bca0b08f9)
+- **核心矛盾**：「1949 年那 56 小時，決定了金門 75 年的命運——也決定了台灣」（25 字）
+- **Hook**：1.8km vs 358km 開場 → 1387 周德興建金門所城「固若金湯，雄鎮海門」/ 1646 鄭成功金門廈門起兵 / 1949/10/25-27 古寧頭 56 小時激戰殲俘 15,000+（共軍登陸 9,086 邏輯衝突 ⚠️）/ 1952 金門酒廠胡璉收編九龍江 + **葉華成釀酒師強徵爭議** + 曾孫葉偉仁 2019 公開控訴（軍管暴力被經濟成功遮蔽 fault line）/ 1956-1992 戰地政務 36 年 + 金門宵禁 **10 點**（馬祖 9 點）+ 國軍 5-10 萬 vs 居民 5-7 萬 / 1958/08/23-10/05 八二三 44 天 474,910 發砲彈 + 3,132/km² 砲彈密度 + 21 年單打雙不打到 1979/01/01 中美建交 / 1961-1965 翟山坑道 + 烈嶼九宮 780m / **烏坵說莆仙語**（金門閩南 + 馬祖福州話以外第三種）/ 設籍 14.5 萬 vs 常住落差 + 金酒配股福利 / 2001/01/01 小三通開放 / 結尾「1.8 公里海面下，是 75 年命運疊在 45 分鐘航程裡」首尾呼應
+- **品質**：6,504 CJK / 27 footnotes / **7 Wikimedia images** (1 hero + 6 inline，全 URL 200 verified) / 8 H2 narrative scene-led + 3 metadata / 對位句 **3 處** at limit / 破折號 **10 處** ≤ 15 / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / 算術鐵三角 474,910 ÷ 151.6 = 3,132 ✓
+- **Research**: [reports/research/2026-05/金門縣.md](../../reports/research/2026-05/金門縣.md) — Stage 1 44 次搜尋 / 17 verbatim quotes / 10 ⚠️ fact flags audit pass
+- **FACTCHECK**: 10 ⚠️ flags 全處理（古寧頭登陸 9,086 vs 殲俘 15,000+ 算術衝突明標 / 砲彈 474,910 + 3,132/km² 密度 / **葉華成強徵爭議**寫入 reverse-explanation callout / 宵禁 10 點 vs 馬祖 9 點對照 / 翟山坑道 1961-1965 注明 / 烏坵莆仙語第三種語言 / 設籍 14.5 萬 vs 常住落差 / 1.8km「約」彈性 / 358km / 1387「固若金湯」）
+- **Cross-link**: 10 forward (連江縣 sibling / 基隆市 pilot / 澎湖縣 / 鄭成功 / 蔣中正 / 戒嚴時期 / 台海危機 / 國防軍事現代化 / 島嶼地理 / 媽祖大道公) + 2 reverse 加到 連江縣 + 基隆市
+- **跟連江縣（馬祖）區隔**: 閩南同安腔 vs 閩東福州話 / 距廈門 1.8km vs 距福州 50km / 古寧頭+八二三兩場決定性戰役 vs 馬祖無同規模陸戰 / 14.5 萬設籍 vs 馬祖 1.3 萬（10 倍）/ 宵禁 10 點 vs 9 點 / 金門大學 1997 vs 馬祖無大學
+- **Pilot retrospective 5 條校準執行**：「砲彈密度分層」474,910/44/151.6 km² = 3,132 per km² / 區間時間 1387-1646-1949-1952-1956-1958-1979-1992-2001-2024 / 戰地 frame 具體數字（56 小時殲俘 15,000+ / 44 天 474,910 發 / 21 年單打雙不打 / 國軍 vs 居民比）/ 本地 vs 觀光客 fault line（在地人記得宵禁 10 點 + 葉華成強徵 vs 觀光客划獨木舟過翟山坑道）/ 日治差異化（金門 1937-1945 短暫日佔 vs 台灣本島 50 年，模範街 1924 是「華僑時間」非「日治時間」）
+
+### 雲林縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 宜蘭選擇不要的雲林用三十年的肺換下來 / Geography 縣市 / 7988 字 / 29 footnote / 5 Wikimedia images）
+
+- **Article**: [knowledge/Geography/雲林縣.md](../../knowledge/Geography/雲林縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a1201f9a3ef45fd1a commit f4026fdac)
+- **核心矛盾**：「宜蘭選擇不要的，雲林用三十年的肺換下來」（20 字）
+- **Hook**：凌晨五點半台 17 線麥寮段堤防潮聲開場 → 三條沖積扇地理 / 1621 顏思齊登陸笨港 + 1694 北港朝天宮 + 樹璧禪師從湄洲帶神像 / 1887 雲林設縣縣治在**林圯埔（今竹山）**，**1893 遷斗六**（修正 Stage 0 寫直接設斗六）/ **1909 虎尾糖廠正式生產**（迴避 1906/1907/1908 三說）+ 400km 五分車 / 1953/01/28 西螺大橋通車 1,939m 美援 + 日治橋墩戰後完工 / 1932 西螺米試驗 / 1973 王永慶提輕油裂解廠 + 1987 陳定南宜蘭反六輕 + 1991 雲林麥寮選址 + 1994/07 動工 + 1998 一期完工 → **六輕填海 2,255 公頃**（修正 Stage 0 寫 3,400 公頃，含港口設施 2,603）/ 麥寮國小學童每年抽血 + 血液苯與乙苯 + 1.29 倍癌症發生率 + PM2.5 30+ μg/m³ / 結尾「六輕煙囪跟朝天宮香爐都在燒」首尾呼應
+- **品質**：7,988 CJK / 29 footnotes / **5 Wikimedia images** (1 hero + 4 inline) / 8 H2 narrative scene-led / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/雲林縣.md](../../reports/research/2026-05/雲林縣.md) — Stage 1 54 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK 🔴 3 條 CRITICAL Stage 0 corrections 全 resolved**：
+  - **六輕填海 2,255 公頃**（非 Stage 0 寫 3,400 公頃 — 含港口設施總計 2,603 公頃）
+  - **1887 雲林設縣縣治在林圯埔（今竹山）**，1893 才遷至斗六（非 Stage 0 寫直接設斗六）
+  - **虎尾糖廠 1909 正式生產**（迴避 1906/1907/1908 三設廠說法爭議）
+- **紀實風格呈現**: 拒絕「污染 vs 信仰」二元對立，用廖炳崇「不知道。不知道」+ 惠珍嬸「台塑有多繳稅我沒有感受到。但我每天早上聞到的，是那個味道」+ 龔英俊「這裡的空氣本來就這樣」三段 verbatim 呈現雲林對六輕的複雜共生
+- **Cross-link**: 10 forward (宜蘭縣 sibling 核心命運句 / 基隆市 pilot / 嘉義縣 sibling 笨港共享 / 嘉義市 sibling / 台塑集團 / 台糖 / 媽祖與大道公的傳說 / 行政區劃 / 河川系統 / 農業地景)
+- **Pilot retrospective 5 條校準執行**：雨量分層（西部沿海 1,200mm vs 東部丘陵 2,500mm + 冬季濃霧）/ 區間時間（1694 / 1887 / 1909 / 1932 / 1953 / 1973-1998 六輕 25 年）/ 衰退環境 frame 具體數字（2,255 公頃 + 27 年 + 1.29 倍癌症 + PM2.5 30+ μg/m³ + 麥寮國小抽血）/ 本地 vs 觀光客 fault line（古坑咖啡 vs 麥寮被觀光地圖漏掉）/ 日治現代化具體化（1909 虎尾糖廠 + 400km 五分車 + 1932 西螺米 + 1920 改台南州虎尾郡北港郡）
+
+### 彰化縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 打敗過杜邦留不住年輕人的農業大縣 / Geography 縣市 / 6440 字 / 24 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/彰化縣.md](../../knowledge/Geography/彰化縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a167121fad3f77c10 commit 732d49d05)
+- **核心矛盾**：「打敗過杜邦，留不住年輕人的農業大縣」（19 字）
+- **Hook**：1986 反杜邦運動鹿港勝利 → 1723 雍正元年彰化縣設立 + 1709 八堡圳 + 1717 鹿港始見諸羅縣志地圖 + 1728 米倉 16 間 + 1786 林爽文之役 + **1788 新祖宮（敕建天后宮）**（修正 Stage 0 混淆鹿港天后宮）+ 1922 扇形車庫 + 1925 二林事件 + 1934 鹿港港務縮減 + 1961 八卦山大佛 22m / 田尾花園 4,000 萬支菊花 / 鹿港 1,730 萬人次觀光 / 1986 反杜邦 30 萬人連署
+- **品質**：6,440 CJK / 24 footnotes / **6 Wikimedia images** (1 hero + 5 inline) / 8 H2 narrative / 2 策展人筆記 + 1 ✦ pull quote / **Stage 4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=2** ≤ 3 pass / 對位句 **0 處** / 破折號 **4 處** ≤ 15
+- **Research**: [reports/research/2026-05/彰化縣.md](../../reports/research/2026-05/彰化縣.md) — Stage 1 44 次搜尋 / 4 ⚠️ CRITICAL fact flags 全處理
+- **FACTCHECK 🔴 4 條 CRITICAL Stage 0 corrections 全 resolved**：
+  - **人口 120.6 萬**（2026/4 戶政司）非 Stage 0 寫 124 萬
+  - **彰化平原非台灣第二大平原**（屏東 1,210 km² 才是第二大）— 改用「西部重要沖積平原」
+  - **1788 新祖宮（敕建天后宮）** vs 明代鹿港天后宮 分清楚（兩座不同廟，策展人筆記專段釐清）
+  - **日治 3 郡**（彰化、員林、北斗）非 4 郡（避開二林郡的錯誤 claim）
+- **Cross-link**: 7 forward (台灣老街文化 / 河川系統 / 農業地景 / 行政區劃 / 社會運動 / 環保永續 / 糕餅文化 / 台糖) + 2 sibling (基隆市 pilot / 新竹縣 batch 2)
+- **Pilot retrospective 5 條校準執行**：雨量 N/A / 區間時間（1709-2026 完整 anchor 列）/ 衰退轉型 frame 數字（120.6 萬 + 21,400 公頃灌溉 + 4,000 萬支菊花 + 1,730 萬鹿港人次 + 399.5 億高架化）/ 本地 vs 觀光客 fault line（田尾菊花夜 vs 鹿港老街白天 + 反杜邦 / 鹿港囝仔 / 二水跑水節）/ 日治現代化（1922 扇形車庫 + 1925 二林事件 + 1934 鹿港縮減 + 1908 縱貫鐵路繞過鹿港）
+
+### 屏東縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 國家命運轉折發生在這裡台北從來沒怎麼記得 / Geography 縣市 / 6989 字 / 27 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/屏東縣.md](../../knowledge/Geography/屏東縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a8facfc965ef9d273 commit d99f5ed47)
+- **核心矛盾**：「國家命運轉折發生在這裡，台北從來沒怎麼記得」（21 字 ≤ 30）
+- **Hook**：五點半東港黑鮪魚拍賣開場 → 1721 朱一貴之亂 + 客家六堆義民組織起源 / 1861 萬金聖母聖殿建立（西班牙道明會 + 比 1882 牛津學堂早 21 年）/ 1871 琉球漂民事件 54 名遭殺 + 1874 牡丹社事件 5/8 日軍登陸 + 5/22 石門戰役 + 阿祿古父子身亡（改變台灣國際地位）/ 1875 沈葆楨設恆春縣 + 1883 鵝鑾鼻燈塔（修正 Stage 0 寫 1882 為 1881 開工 / 1883 完工）/ 1939 屏東車站 + 屏東糖廠 + 糖業鐵道 226 公里 / 2009/8/8 88 風災林邊溪潰堤 30 分鐘 + 全台 681 死 + 屏東損失 30 億 - 近百億 + 山區排灣族部落（瑪家、霧台、泰武）滅村 / 2024 牡丹社事件 150 週年 macacukes 重新命名 → 結尾「五點半的東港，黑鮪魚在等」首尾呼應
+- **品質**：6,989 CJK / 27 footnotes / **6 Wikimedia images** (1 hero + 5 inline) / 9 narrative H2 + 3 utility = 12 total / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=1**（極優）/ 對位句 **0 處** / 破折號 **11 處** ≤ 15
+- **Research**: [reports/research/2026-05/屏東縣.md](../../reports/research/2026-05/屏東縣.md) — Stage 1 44 次搜尋 / 17 verbatim quotes / 4 ⚠️ fact flags audit pass
+- **FACTCHECK**: 4 ⚠️ flags 全處理（鵝鑾鼻燈塔 **1881 開工 / 1883 完工** 修正 Stage 0 寫 1882 / 牡丹社 **5/8 Wikipedia** vs 5/22 戰役分清 / 萬金「**比 1882 牛津學堂早 21 年**」明確獨立段落 / 5 族同住具體寫排灣 49,643 + 魯凱 2,100 + 馬卡道 + 卑南阿美少數）
+- **Cross-link**: 9 forward + reverse 加到 基隆市 + 連江縣 (sibling)。DEFERRED reverse cross-link 到李仙得（pre-existing hard fail，per Stage 5.3 SOP DEFER）
+- **Pilot retrospective 5 條校準執行**：雨量分層（莫拉克尾寮山 1,403mm + 新瑪家 1,897mm + 泰武 1,145mm 三測站）/ 區間時間軸（1721/1861/1874/1875/1883/1939/2009/2024）/ 88 風災具體數字（潰堤 30 分鐘 / 全台 681 死 / 屏東損失 30 億 - 近百億）/ 本地 vs 觀光客 fault line（東港 4-6 月鮪魚 vs 春吶觀光）/ 日治現代化具體化（屏東糖廠 1908 / 糖業鐵道 226 公里 / 屏東車站 1939）
+
+### 台東縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 兩個離島一個關了三十六年政治犯一個存了四十二年核廢料 / Geography 縣市 / 7196 字 / 41 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/台東縣.md](../../knowledge/Geography/台東縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a100e12072a1c0341 commit ae9647bbc)
+- **核心矛盾**：「兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料」（26 字 ≤ 30）
+- **Hook**：開場卑南遺址石棺 5300-3500 年前 → 1875 沈葆楨開山撫番八通關古道 + 1931-1941 布農族集團移住海端鄉（非單一 1934 年）/ 1951-1987 綠島火燒島政治犯監獄 36 年 → 1992 改人權紀念園區 / 1968/08/25 紅葉少棒**7:0**（修正 Stage 0 寫 4:0）擊敗**日本關西少棒明星隊**（非國家隊，「世界冠軍和歌山隊」是後來黨媒神話）/ 1972 南橫公路通車 / 1975 蔣經國同意蘭嶼設貯存場 + **政府以興建魚罐頭工廠（部分說法鳳梨）名義誘騙簽名** + 1982/05 首批運入 + 累積 97,672 桶 + 1988/02/20 達悟族反核廢驅逐惡靈運動 + 1996 投石封港 + 2019/11 蔡英文 25.5 億補償 / 1999 陳建年金曲歌王 + 紀曉君 + 巴奈 + 胡德夫 + 張惠妹（卑南族）/ 2002 史前文化博物館 / 2020 南迴鐵路電氣化 / 結尾紅葉村約 500 人現況首尾呼應
+- **品質**：7,196 CJK / 41 footnotes / **6 Wikimedia images** / 8 H2 narrative scene-led / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **2 處** ≤ 3 / 破折號 **4 處** ≤ 15
+- **Research**: [reports/research/2026-05/台東縣.md](../../reports/research/2026-05/台東縣.md) — Stage 1 46 次搜尋 / 22 verbatim quotes / 8 ⚠️ fact flags audit pass
+- **FACTCHECK**: 🔴 1 CRITICAL + 7 ⚠️ flags 全處理（紅葉少棒 **7:0** 修正自 Stage 0 4:0 / 對手「**日本關西少棒明星隊**」非國家隊 / 布農族 **1931-1941 集團移住**系列 / 蘭嶼首批 1982/05 + 累積 97,672 桶 / 罐頭工廠用「政府以興建魚罐頭工廠名義誘騙簽名」+ 2018 調查否認措辭爭議 ⚠️ / 紅葉村約 500 人 / 八部合音用 1943 黑澤隆朝錄音可驗證事實 / 卑南八社原民會官方版本）
+- **Cross-link**: 11 forward (基隆 / 澎湖 / 連江 / 苗栗 / 宜蘭 / 嘉義市 sibling + 蘭嶼生態系 + 綠島監獄 + 台灣白色恐怖 + 台灣原住民族土地正義 + 當代原住民創作歌手 + 台灣海岸地形) + reverse 加到基隆市
+- **Pilot retrospective 5 條校準執行**：雨量分層（蘭嶼海洋季風 3,000mm / 縱谷 1,900 / 海岸山脈背風 1,500）/ 區間時間（14 個歷史節點）/ 衰退低密度數字（21 萬 / 3,515 km² / 60 人/km² 全國最低 / 紅葉村 500 人 / 97,672 桶 / 42 年）/ 本地 vs 觀光客 fault line（池上稻浪 vs 卑南大獵祭 vs 蘭嶼飛魚祭 vs 綠島人權園區 vs 紅葉村）/ 日治現代化具體化（1931-1941 布農族集團移住）
+
+### 嘉義縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 49 萬人把全國的臉借給阿里山自己卻找不到臉 / Geography 縣市 / 6908 字 / 30 footnote / 7 Wikimedia images）
+
+- **Article**: [knowledge/Geography/嘉義縣.md](../../knowledge/Geography/嘉義縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-aff606587133a5bab commit bd494396a)
+- **核心矛盾**：「嘉義縣 49 萬人把全國的臉都借給了阿里山，自己卻找不到臉」（25 字 ≤ 30）
+- **Hook**：阿里山林業鐵路 1912 通車 + 1914 延伸至沼平 + 戰後檜木輸出顛峰 + 1989 林業政策轉向 → 1684 諸羅縣設立 + 1786 林爽文之役 + 1787 乾隆賜名「嘉義」/ 鄒族高一生（1908-1954）日治教育 + 1947 二二八協助 + 1954/04/17 安坑刑場槍決 + 〈春之佐保姬〉⚠️ 作曲時間兩說並陳 / 1950 嘉義縣市分治 + 1982 嘉義市升格 + **1991 縣治從嘉義市遷至太保**（修正 Stage 0 多源不一致為 verbatim 1991）/ 2003 行政院宣布故宮南院選址 + 2015/12/28 開館（規劃到落成 15 年）/ 高鐵嘉義站 2007 + BRT 太保-嘉義市 / 東石蚵田 + 布袋鹽田 + 朴子配天宮 / 結尾「嘉義縣作為三個時代觀光策略的容器」
+- **品質**：6,908 CJK / 30 footnotes / **7 Wikimedia images** (1 hero Tashan + 6 inline) / 9 H2 narrative scene-led / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **3 處** at limit / 破折號 **10 處** ≤ 15
+- **Research**: [reports/research/2026-05/嘉義縣.md](../../reports/research/2026-05/嘉義縣.md) — Stage 1 44 次搜尋 / 20 verbatim quotes / 5 ⚠️ fact flags audit pass
+- **FACTCHECK**: 5 ⚠️ flags 全處理（故宮南院 2003 行政院宣布 + 2004 正式核定分清 / 〈春之佐保姬〉作曲時間兩說並陳 ⚠️ / 阿里山林鐵 66.6 km 官方 / 2026 人口 48 萬 2024/8 戶政司 / 故宮南院 2019 訪客 104 萬 verbatim / **縣治遷太保 1991 年** 非 1995）
+- **Cross-link**: 9 forward (阿里山 / 故宮博物院 / 陳澄波 / 八田與一 / 二二八 / 白色恐怖 / 鐵道史 / 嘉義市 sibling / 基隆市 batch 1 sibling) + 1 reverse 加到嘉義市
+- **Pilot retrospective 5 條校準執行**：雨量分 layer / 區間時間（1684/1786/1787/1908/1912/1914/1950/1982/1991/2003/2015）/ 衰退 frame 數字證據 / 本地 vs 觀光客 fault line / 日治現代化具體化
+
+### 花蓮縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 129 年隱身撒奇萊雅族用正名換回太魯閣 0403 又讓它遠去 / Geography 縣市 / 8211 字 / 27 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/花蓮縣.md](../../knowledge/Geography/花蓮縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a90eaee5e0cf77d57 commit dc342b395)
+- **核心矛盾**：「129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 地震又讓它遠去」（29 字 ≤ 30）
+- **Hook**：1878 凌遲開場 → 加禮宛事件後撒奇萊雅族 129 年潛藏成阿美族 + 2007/01/17 **陳水扁政府第二任期正名**（修正 Stage 0 誤寫蔡英文）/ 1914 太魯閣事件 + 2004 太魯閣族從泰雅族分出 / 1875 沈葆楨開山撫番 + 1880s 漢人初拓 / 1913 豐田、吉野、林田移民村（179 戶 866 人） / **1930-1940s 布農族系列遷徙**（非單一 1937 年）/ 1951 玉里 7.3 + 1986 規模 6.8 + 2024/04/03 **ML 7.1**（初測 7.2 後修訂）/ **1986/08/17 慈濟醫院開幕**（修正 Stage 0 誤寫 1991）+ 證嚴法師 1966 起點 / 1980 北迴鐵路通車（基隆-花蓮 18 hr→5 hr）/ 蘇花改 2020 通車 / 觀光客 21 萬（2024）vs 660 萬正常 = **降幅 96.8%** → 結尾首尾呼應撒奇萊雅族「燃身」記憶
+- **品質**：8,211 CJK chars（超出 5000-6000 target by 37%，匹配 sibling 宜蘭 7,922 慣例）/ 27 footnotes / **6 Wikimedia images**（1 hero + 5 inline，CC BY-SA hot-link）/ 10 H2 narrative + 4 metadata = 14 total / 2 策展人筆記 + 1 ✦ pull quote / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **0 處** / 破折號 **2 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/花蓮縣.md](../../reports/research/2026-05/花蓮縣.md) — Stage 1 43 次搜尋 / 20 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**: 7 ⚠️ flags 全處理（撒奇萊雅 2007/01/17 **陳水扁政府第二任期** / 慈濟醫院 **1986/08/17 啟業** / **6 族 not 5 族**（含噶瑪蘭族）/ 0403 地震 **ML 7.1**（2025/02/01 修訂，初測 7.2）/ 布農族 **1930-1940s 系列遷徙** / 加禮宛 2000+ 死 + 太魯閣 330 死 ⚠️ 二手引述標明）
+- **Cross-link**: 8 forward (宜蘭縣 sibling / 基隆市 / 台灣國家公園 / 台灣板塊運動與地震活動 / 台灣原住民族歷史與正名運動 / 台灣原住民族 16 族文化地圖 / 日治時期 / 林義雄) + reverse 加到基隆市
+- **Pilot retrospective 5 條校準執行**：雨量分層（4,000mm 山區 / 334 雨日 / 三力疊加）/ 區間時間（1875/1878/1913/1914/1930s-40s/1951/1980/1986/2004/2007/2020/2024）/ 衰退數字（觀光客 21 萬 vs 660 萬 = 3.2%、降幅 96.8%、復原 7 年）/ 本地 vs 觀光客 fault line（帖喇·尤道 3 條 verbatim quotes 貫穿）/ 日治現代化具體化（1913 豐田 179 戶 866 人 + 吉野 + 林田 + 大理石礦 + 1980 北迴 + 1986 太魯閣國家公園）
+
+### 新竹縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 235 年義民信仰與全台第一人均所得住同一條頭前溪 / Geography 縣市 / 5807 字 / 40 footnote / 7 Wikimedia images）
+
+- **Article**: [knowledge/Geography/新竹縣.md](../../knowledge/Geography/新竹縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent commit b457dbbb1)
+- **核心矛盾**：「235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪」
+- **Hook**：義民節下午四點新埔燈篙開場 → 1786 林爽文之役 + 1787 乾隆賜「褒忠」匾 + 1788 奠基 / 1790 正廳 / 1791 全廟竣工三段式（修正 Stage 0「1788 竣工」誤）/ 1835 金廣福閩客合股開墾大隘（姜秀鑾 + 周邦正 + 林德修，全台罕見閩客合作）/ 九降風 → 柿餅 / 米粉 / 椪風茶（東方美人）/ 司馬庫斯部落議會土地共有制 / 1988 縣府從新竹市遷至竹北市（Stage 0 寫 1989 校正為 1988）/ 結尾「義民信仰旁邊的台積電寶山二廠」首尾呼應
+- **品質**：5,807 CJK / 40 footnotes / **7 Wikimedia images** / 7 H2 narrative scene-led / 2 策展人筆記 + 1 ✦ pull quote / **Stage 4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / prose-health score 4 (warn=2 是 plugin 對 article 標準的 cosmetic) / 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/新竹縣.md](../../reports/research/2026-05/新竹縣.md) — Stage 1 46 次搜尋 / 18 verbatim quotes / 10 ⚠️ flags audit pass
+- **FACTCHECK**: 10 ⚠️ flags 全處理（姜阿新洋樓修正為 1946-1949 戰後 / 義民廟 1788 奠基-1790 正廳-1791 全廟三段式 / 王世傑 1711 入墾與 1718 隆恩圳分開 / 沈葆楨歸功 sidestep / Pocaal 不寫 Tek-chham / 客家比例 67.8% verbatim / 200 多 vs 三百並陳）
+- **Cross-link**: 8 forward (基隆市 / 苗栗縣 sibling / 客家文化與語言 / 客家飲食文化 / 族群 / 台積電 / 半導體產業 / 行政區劃) + 2 reverse 加到 基隆市 + 苗栗縣
+- **Pilot retrospective 5 條校準執行**：九降風分層 / 區間時間（清領拓墾 1718-1875 / 義民廟 1788-1791 / 縣治 1989）/ 衰退轉型 frame 帶具體數字（人口 12 萬→22 萬翻倍 / 竹北人均所得 144.2 萬元）/ 本地 vs 觀光客 fault line（義民節下午四點 vs 內灣老街週末）/ 日治現代化具體化（湖口大正巴洛克紅磚 / 內灣支線 1950s 服務林業礦業）
+
+### 苗栗縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 客家硬頸的縣用八年選出讓縣庫翻倍負債的縣長 / Geography 縣市 / 6123 字 / 36 footnote / 8 Wikimedia images）
+
+- **Article**: [knowledge/Geography/苗栗縣.md](../../knowledge/Geography/苗栗縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a5c9d962244d842fc commit e90b16d69)
+- **核心矛盾**：「客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長」（17 字 ≤ 30）
+- **Hook**：開場「五月雪不是真雪，是油桐花」場景 → 道卡斯族「貓裡」 + 1889 改名「苗栗」（光緒 15 年）/ 18-19 世紀廣東客家移民（惠州 + 嘉應州 + 潮州）/ 1903 山線鐵路通車 + 1922 海線通車 / 樟腦業日治頂峰 ~85% 全球（1930s 前後）+ 1918 三義吳進寶起樟木雕（樟木戰前 → 戰後龍眼木）/ 賽夏族矮靈祭兩年一次農曆 10/15 南庄向天湖 + 五峰（民國 97/102 文資登錄）/ 2002 客委會桐花祭起 + 客家比例 62.5% 全台最高（110 年客委會調查）/ 2008-2014 劉政鴻兩屆任期負債三口徑 202 億→676 億帳面 vs 648 億估計 / 2010/06/09 怪手強剷大埔自救會稻田 + 2010/08/03 朱馮敏 73 歲喝農藥自殺 + 2013/07/18 張藥房強拆 + 2013/09/18 張森文投水身亡 + 2014/01 判決違法徵收 / 2016/10/06 監察院彈劾劉政鴻（彈劾數字 31.55% / 2.1 億）/ 客家圓樓 1.2 億 + 客家大院 8000 萬蚊子館 / 結尾「兩個自我同時活著」結構（硬頸與五星級）+ 「硬頸是不離開土地」首尾呼應
+- **品質**：6,123 CJK chars (136% of 4500，略超 5000-6000 ~100 字) / 36 footnotes / **8 Wikimedia images**（1 hero + 7 inline CC BY-SA hot-link）/ 9 H2 narrative scene-led（油桐花 / 1889 改名 / 樟腦 → 三義木雕 / 賽夏矮靈祭 / 客家桐花祭 / 劉政鴻財政 / 大埔事件 / 客家圓樓蚊子館 / 兩個自我同時活著）/ 2 策展人筆記 + 3 ✦ pull quote / article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **1 處**（verbatim 例外「五月雪不是真雪是油桐花」，讀者預設 default case）/ 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/苗栗縣.md](../../reports/research/2026-05/苗栗縣.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 44 次搜尋 / 19 verbatim quotes / 8 ⚠️ fact flags audit pass
+- **FACTCHECK**: 8 ⚠️ flags 全處理（客家比例用 **62.5%** 110 年客委會 verbatim 非簡化「60%」/ 樟腦 85% 全球保留 verbatim + 標日治 1930s 頂峰時間 / 樟木戰前 vs 龍眼木戰後明確區分 / 朱馮敏 73 歲維基 verbatim / 監察院彈劾數字 31.55% + 2.1 億保留 / **「1981 全縣電氣化」claim Stage 1 未 verify → 完全刪除** / 賽夏「兩百年」改 paraphrase「從清領延續至今至少超過兩百年」+ 民國 97/102 文資登錄具體年份 / 202 vs 676 vs 648 億三口徑釐清在正文）
+- **Cross-link**: 8 forward (客家文化與語言 / 客家飲食文化 / 台灣原住民族 16 族文化地圖 / 鍾理和 / 台灣傳統工藝與無形文化資產 / 基隆市 22 縣市 sibling / 台灣行政區劃 / 台灣都市發展與城鄉差距) + 反向 cross-link 加到 基隆市 (manual)
+- **Pilot retrospective 5 條校準執行**：雨量分層（多霧山地養樟樹）/ 區間時間（劉政鴻 2008-2014 兩屆任期 / 大埔 2010-2014 多事件時序）/ 衰退數字（676 億 + 58 億赤字 + 53 萬戶籍 + 62.5% 客家比例）/ 本地 vs 觀光客 fault line（客家庄主場 vs 觀光客吃客家小炒）/ 日治現代化具體化（山線 1903 / 海線 1922 / 樟腦 85% 全球 1930s 頂峰 / 三義 1918 吳進寶）
+
+### 連江縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 離台灣最遠的縣是離冷戰最近的縣 / Geography 縣市 / 6786 字 / 39 footnote / 5 Wikimedia images）
+
+- **Article**: [knowledge/Geography/連江縣.md](../../knowledge/Geography/連江縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-aa7a89f73609cc425 commit 5c2a11588)
+- **核心矛盾**：「離台灣最遠的縣，是離冷戰最近的縣」（17 字 ≤ 30）
+- **Hook**：南竿山稜往北看，福州城在 16 公里外開場 → 7,900-8,300 年前亮島人考古打開時間軸 / 1617 沈有容東沙諭退倭寇大埔石刻 41 字「萬曆彊梧大荒落地臘後挾日宣州沈君有容獲生倭六十九名於東沙之山不傷一卒閩人董應舉題此」/ 1949 國軍撤退馬祖 + 連江分治（全台唯一兩岸分治縣）/ 1956 戰地政務開始 + 1992/11/7 廢止 36 年「全國戒嚴 4 年差距」/ 軍管生活誌（國軍 5 萬 vs 居民 1 萬 / 宵禁九點 / 燈火管制 / 浮具禁令 / 兩層樓限制） / 1958 蔣中正題「枕戈待旦」/ 馬祖天后宮媽祖傳說（湄州迎回 vs 南竿靈穴兩說並陳）/ 福州話流失 94% / 2012 馬祖博弈公投同意 57.24% 至今 13 年無下文 / 北竿芹壁石頭村 1980s 廢墟 → 2000s 修復 / 黑嘴端鳳頭燕鷗約 200 隻 IUCN CR / 結尾「下次去馬祖，不要只看藍眼淚」首尾呼應南竿山稜往北看
+- **品質**：6,786 CJK chars (151% of 4500，主文 6485) / 39 footnotes（略超 25-32 但全 canonical 格式 hard=0）/ **5 Wikimedia images**（1 hero + 4 inline CC BY-SA hot-link）/ 10 H2 narrative scene/object/contradiction 驅動 / 2 策展人筆記 + 2 ✦ pull quote / article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/連江縣.md](../../reports/research/2026-05/連江縣.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 47 次搜尋 / 19 verbatim quotes / 10 ⚠️ fact flags audit pass
+- **FACTCHECK**: 10 ⚠️ flags 全處理（總面積 28.8 km² + 29.54/29.6 差異說明 / 戰地政務終止 1992/11/7 + 11/5 替代源 / 宵禁九點 verbatim 國家文化記憶庫 / 媽祖遺骸兩說並陳 湄州迎回 vs 南竿靈穴 / 距福州分層 9.25km 北茭半島最近海岸 + 50km 市區 + 標題 16km anchor / 博弈公投 57.24% 維基 / 芹壁修復 89-90 區間 / 亮島人 7,000-8,300 區間 / 黑嘴端燕鷗約 200 隻 IUCN CR / 東引島地質爭議標明）
+- **Cross-link**: 8 forward (離島與海洋文化 / 台灣島嶼地理特色與形成 / 基隆市 sibling / 戒嚴時期 / 台灣國防與軍事現代化 / 語言多樣性與母語文化 / 媽祖與大道公的傳說 / 台灣海岸地形與海洋地景) + 1 reverse 加到 基隆市 (22 縣市 sibling)
+- **DEFERRED reverse cross-link**: 戒嚴時期（pre-existing hard=2 word-count + image-health，per Stage 5.3 規則 DEFER，待 EVOLVE issue 處理那篇）
+- **Pilot retrospective 5 條校準執行**：區間時間（戰地政務 36 年 1956-1992 非單一年份）/ 衰退數字（5 萬國軍 vs 1 萬居民 / 13,646 戶籍 / 94% 福州話流失）/ 本地 vs 觀光客 fault line（在地人記得燈火管制 vs 觀光客看藍眼淚）/ 軍管時期具體化（宵禁九點 / 浮具禁令 / 兩層樓限制 / 五萬國軍 verbatim）/ 找出「凌晨四點時刻」anchor（南竿山稜往北看福州 16 公里）
+
+### 宜蘭縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 兩次選擇了自己的命運蘭陽平原從此沒回頭 / Geography 縣市 / 7922 字 / 32 footnote / 7 Wikimedia images + 1 video）
+
+- **Article**: [knowledge/Geography/宜蘭縣.md](../../knowledge/Geography/宜蘭縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a61ef417396524272 commit 440802f50)
+- **核心矛盾**：「兩次選擇了自己的命運，蘭陽平原從此沒回頭」（22 字 ≤ 30）
+- **Hook**：開場三星田埂 vs 礁溪溫泉飯店對位 → 1796 吳沙烏石港登陸 + 1812 噶瑪蘭廳 + 1875 改宜蘭縣 + 1830s 噶瑪蘭族南遷花蓮 / 1915 太平山林業開發 + 1924/12/01 宜蘭線鐵路全通（102 橋 19 隧道 1263 萬圓 + 草嶺隧道 2,166.52m）/ 1980/02/28 林宅滅門血案（**台北信義路三段 31 巷 16 號** — 物理現場非宜蘭）+ 林義雄五結出身 + 1991 慈林教育基金會 + 1994 慈林新館回宜蘭 / 1981-1989 陳定南任縣長「45 萬個縣民老闆」+ 1987 反六輕 + 1987-12-13 華視「反六輕辯論：陳定南大戰王永慶」/ 噶瑪蘭族 2002 分裂正名（花蓮獲認 1,500 人 vs 宜蘭境內後裔多數未獲認）/ 1991 雪隧開工 / 2006/06/16 雪隧通車 12.9km（北宜高 600 億 vs 雪隧本體 185 億區分）/ 6,137 棟農舍 + 1,900 公頃流失 + 35% 全台農舍建照 + 460,486→448,763 人口 / 1996 童玩節 + 2007-2009 暫停 + 2010 復辦 / 結尾龜山島首尾呼應「等到我們這一輩都老了」
+- **品質**：7,922 CJK chars (176% of 4500，超出 5000-6000 target by 32% 但 justified per pilot retrospective「篇幅跟核心矛盾對齊」)/ 32 footnotes / **7 Wikimedia images + 1 video**（1987-12-13 華視「反六輕辯論」一手影像）/ article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=2** ≤ 3 pass / 對位句 2 處（皆 verbatim 黃春明引語，保留）/ 破折號 0 處 / 10 narrative H2 + 4 appendix H2 = 14 total / 2 策展人筆記 + 2 ✦ pull quote / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/宜蘭縣.md](../../reports/research/2026-05/宜蘭縣.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 47 次搜尋 / 20 verbatim quotes / 8 ⚠️ fact flags audit pass
+- **FACTCHECK**: 8 ⚠️ flags 全處理（雪隧費用「600 億北宜高全線 vs 185 億雪隧本體」明確區分 / 通車前車程「2 vs 3 小時」依出發點區分 / 蘇貞昌通車典禮原文 verbatim 找不到用 paraphrase + 標 ⚠️ / 太平山林業「1982 伐木終止 vs 1989 遊樂區成立」明確區分 / 噶瑪蘭族「2002 分裂正名」深挖 / 吳沙烏石港進入路徑標 ⚠️ 一手史料未直接確認 / 農舍六成非農用改用中文官方統計 / **🔴 林宅血案物理現場是台北信義路三段 31 巷 16 號非宜蘭** Stage 0 錯誤已修正）
+- **Cross-link**: 6 forward (台灣行政區劃 / 台灣海岸地形與海洋地景 / 台灣農業地景與產業分布 / 台灣都市發展與城鄉差距 / 台灣溫泉地景 / 基隆市 22 縣市 sibling) + 反向 cross-link 加到基隆市
+- **Pilot retrospective 5 條校準執行**：雨量分層（平原 2,500-3,000mm / 山區 5,500mm / 雨日 200+ 天 / 「乾季也是濕的」明確 layer）/ 區間時間（雪隧 1991 開工→1993 主坑→2006 通車 / 陳定南 1981-1989 / 噶瑪蘭族 1830s 南遷）/ 衰退數字（6,137 棟農舍 / 1,900 公頃流失 / 35% 全台農舍建照）/ 本地 vs 觀光客 fault line（三星田埂 vs 礁溪溫泉飯店全篇 weaving）/ 日治現代化具體化（宜蘭線 1924/12/01 全通 102 橋 19 隧道 / 草嶺隧道 2,166.52m / 太平山 1915 開發 / 礁溪溫泉 1915 公共浴場 1 萬圓）
+
+### 嘉義市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 被皇帝賜名嘉義卻成了最容易被略過的省轄市 / Geography 縣市 / 5902 字 / 32 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/嘉義市.md](../../knowledge/Geography/嘉義市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a5044629e5daf6b44 commit 99feb758a)
+- **核心矛盾**：「被皇帝賜名嘉義，卻成了最容易被略過的省轄市」（29 字 ≤ 30）
+- **Hook**：中央噴水池四百年開場 → 1704 諸羅築城木柵四門 / 1786 林爽文之役守城兩個月乾隆敕賜「嘉義」（嘉其死守城池之忠義）/ 1908 北回歸線第一代標塔（全世界第一座，為慶祝縱貫鐵路通車）→ 1912 颱風 → 1923 裕仁太子諭示 → 1926 第三代 → 約 1930s 中期第四代 → 第六代今貌 / 1899 阿里山鐵路規劃 + 1912 嘉義至二萬坪 66.6km 通車 + 1914 延伸阿里山 / 1914-1963 木都 50 年「東洋第一製材場」/ 1931 KANO 嘉義農林甲子園準優勝（漢人 + 原住民 + 日本人混合隊伍 + 教練近藤兵太郎）/ 1947 二二八嘉義事件水上機場圍城 + 嘉義火車站前處決陳澄波 + 潘木枝 + 盧鈵欽 + 柯麟 + 陳容貌 / 1949 林添壽噴水雞肉飯肉雞起源 → 1951-1965 美援白羽火雞演化 / 1991 嘉義縣治從嘉義市遷至太保（非 1995）/ 17 年人口下降 1.26 萬人 / 結尾「桃城的圓環，三百年的同一個位置」敘事閉環
+- **品質**：5,902 CJK chars (131% of 4500) / 32 footnotes / **6 Wikimedia Commons images**（hero + 5 inline）/ article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=1**（極優）/ 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/嘉義市.md](../../reports/research/2026-05/嘉義市.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 42 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**: 7 ⚠️ flags 全處理（乾隆詔書用市政府 verbatim「嘉其死守城池之忠義」非轉述 / 北回歸線第四代用「約 1930 年代中期」不單一年份 / 嘉義縣治遷太保用 **1991 年**非 1995 / 陳澄波享年實歲 52 / 虛歲 53 雙標 / KANO 三族混合不逐一錯標個別選手 / 顏思齊笨港登陸避開歸嘉義縣非嘉義市 / 火雞肉飯演化 1949 林添壽肉雞 → 1951-1965 美援白羽火雞 完整過程明寫）
+- **Cross-link**: 7 forward + 1 reverse 加到 [knowledge/Geography/基隆市.md](../../knowledge/Geography/基隆市.md)（「跟基隆同樣是被首都框架壓住的城市」）
+- **Pilot retrospective 5 條校準執行**：降雨 layer（亞熱帶季風 + 夏雷雨冬乾燥）/ 區間時間（1960 年代後期阿里山林業逐漸式微 / 木都 1914-1963 共 50 年）/ 「最容易被略過」frame 具體數字（27→26 萬人口曲線、無高鐵站、1991 縣治遷太保、17 年下降 1.26 萬）/ 本地 vs 觀光客 fault line（觀光客排隊店 vs 在地人繞道 / 桃城別名 vs 嘉義官方名）/ 日治現代化具體化（1908 標塔 / 1912 鐵路 66.6km / 1914 製材所「東洋第一」/ 1933 火車站宇敷赳夫 / 1936 菸酒公賣局）
+
+### 澎湖縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 兩次拒絕賭場菊島選擇的不是清貧 / Geography 縣市 / 5994 字 / 40 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/澎湖縣.md](../../knowledge/Geography/澎湖縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a755e6e7a3cf2e8d6 commit 72c68a8aa)
+- **核心矛盾**：「兩次拒博弈，澎湖選擇的不是清貧，是主張自己要成為什麼」（28 字 ≤ 30）
+- **Hook**：凌晨四點馬公中央街沒有人開場 → 1604 沈有容諭退荷蘭人碑（萬曆 32 年）/ 1622 荷蘭佔風櫃尾 + 1624 退去台南 / 1885 中法戰爭法軍 3-6 月孤拔病死馬公 / 1895 日軍從澎湖登陸接收台灣 / 1740-820 萬年玄武岩 90 座島 89 座玄武岩 + 1 花嶼安山岩 / 跨海大橋 1970 一代 + 1996 二代 2,494m 縫六鄉市成一個澎湖 / 2002 華航 611 空難 + 2003 第一場花火節 / 19 座有人居 + 東吉嶼 3,000→20 人 / 2009 反對 56.44% + 2016 反對 81.07% / 釋昭慧「小蝦米打敗大財團」 / 望安綠蠵龜 2014 僅 1 隻 → 2024 5 月首隻回巢 → 結尾「冬天的菜宅」石牆背風處作物
+- **品質**：5,994 CJK chars (133% of 4500) / 40 footnotes / **6 Wikimedia Commons images**（hero 跨海大橋 + 開臺天后宮 / 桶盤玄武岩柱 / 二崁聚落屋頂 / 七美雙心石滬 + 1 公視我們的島 + 1 望安綠蠵龜 video）/ article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / prose-health score=3 ≤ 3 pass / 對位句 3 處 at limit (deliberate 結構性 anchor) / 破折號 0 處 / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/澎湖縣.md](../../reports/research/2026-05/澎湖縣.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 46 次搜尋 / 18 verbatim quotes / 6 ⚠️ fact flags audit pass
+- **FACTCHECK**: 6 ⚠️ flags 全處理（開臺天后宮用 1604 verbatim 非 1593 / 跨海大橋二橋 2,494m verbatim / 雙心石滬「574 座以上 / 吉貝周遭 109 座」分層 / 第二次博弈公投 81.07% 選委會官方 / 綠蠵龜 2014 僅 1 / 2022 3 隻 6 窩 / 2024 5 月首隻 / 人口戶籍 10.8 萬 vs 常住 8.2 萬內政部 + 2020 普查分層）
+- **Cross-link**: 7 forward (澎湖民俗文化 / 離島與海洋文化 / 台灣島嶼地理特色與形成 / 媽祖與大道公的傳說 / 台灣行政區劃 / 清法戰爭 / 荷西明鄭時期) + 2 reverse 加到澎湖民俗文化 + 離島與海洋文化
+- **Pilot retrospective 5 條校準執行**：雨量分層（年雨量 1,000mm 全台最低）/ 區間時間（1622-1624 荷蘭 / 1885 法軍 / 1895 日軍）/ 衰退數字（漁獲 40 億→20 億 / 戶籍 10.8 萬→常住 8.2 萬 / 老化指數 194% / 東吉嶼 3,000→20）/ 本地 vs 觀光客 fault line（夏天觀光客 vs 澎湖人冬天才是真澎湖）/ 日治現代化具體化（1920 媽宮改名馬公 / 漁翁島燈塔 1875 / 1895 田中綱常設行政廳）
+
+### 基隆市 NEW — 2026-05-18 2026-05-17-230616-manual + cron twmd-rewrite-daily polish 0000（22 縣市系列 PILOT — 離台北最近的港口最被台北看不見 / Geography 縣市 / 5171 字 / 32 footnote / 3 Wikimedia images）
+
+- **Article**: [knowledge/Geography/基隆市.md](../../knowledge/Geography/基隆市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑) — **22 縣市系列首篇 PILOT**
+- **核心矛盾**：「離台北最近的港口，最被台北看不見」（17 字 ≤ 30）
+- **Hook**：凌晨四點崁仔頂魚市拍賣聲開場 → 1626 西班牙聖薩爾瓦多城 / 1875 沈葆楨改名「基地昌隆」/ 1884 中法戰爭法軍 8 個月 / 1855 雞籠中元祭「張頭許尾」/ 築港五期 1899-1935 / 1984 世界第七大貨櫃港 / 三重打擊（1960s 高雄港超越 + 1979 桃機 + 1980s 礦業圈崩解）/ 廟口吳家鼎邊銼 1919 + 李鵠 1882 / 正濱彩色屋對面阿根納廢墟 / 林右昌「希望之城」+ 謝國樑 2024 罷免案 / 39% 跨縣市通勤 + 26% 空屋率 + 359,102 人 → 結尾首尾呼應「凌晨四點黑鳶在等」（黑鳶從 2013 年 272 隻長回 808 隻）
+- **品質**：5,171 CJK chars (115% of 4500) / 32 footnotes / **3 Wikimedia Commons images**（hero 正濱漁港 + scene 和平島 + scene 基隆港，皆 CC BY-SA 4.0 by Taiwankengo）/ article-health rewrite-stage-4 **hard=0 warn=0 全綠** / default profile warn=1（僅「未人工審核」inherent）/ 三角自檢 PASS（算術 / 單位 / 引語）
+- **Cron polish (0000)**：sweep-in 接手 230616-manual session 未 commit 的 pilot 文 — (1) 補 3 張 Wikimedia upload.wikimedia.org hot-link 圖（plugin allowed external，免 cache）+ §圖片來源 改寫，清掉 image-health HARD blocker；(2) 修 L157 對位句型「不是內陸大島，是海洋國家」→「台灣是一個海洋國家。而基隆，從西班牙人 1626 年插下那面旗子開始，就一直在替這座島接收海上來的東西」；(3) 移除 §11 Tier 2 抽象 metaphor「縮影」「核心張力」；(4) hollow words 從 5 降到 3（「不斷擴建」「逐漸超越」「重要的漁港之一」三處改寫）
+- **Research**: [reports/research/2026-05/基隆市.md](../../reports/research/2026-05/基隆市.md) — Stage 0 §觀點成型 (6 核心問題 + 7 品質維度 + Geography 類型加權) + Stage 1 41 次搜尋（中文 24 / 英文 5 / WebFetch 5 / Wikipedia direct 1 / 重複交叉 6）+ 14 章節 + 17 verbatim quotes + 4 fact flags audit pass
+- **FACTCHECK**: 4 ⚠️ flag 已 conservative 化（1969 中島貨櫃中心 → 1960 年代後期逐漸超越 / 沈葆楨奏摺原文 → 多源歸功表述 / 主普壇 1974 vs 1976 → 1970 年代中期 / 築港四期 vs 五期 → 改五期）
+- **Cross-link**: 7 forward (台灣都市發展 / 行政區劃 / 城市特色 / 金瓜石 / 野柳 / 海岸地形 / 都市與城鄉差距) + 1 reverse 加到金瓜石（黃金經正濱漁港運日本）
+- **Pilot retrospective**: 5 條新校準寫進 [reports/cities-series-planning-2026-05-17.md §10](../../reports/cities-series-planning-2026-05-17.md)（降雨數字 layer / 結構性轉變用區間時間 / 衰退 frame 必有具體數字 / 本地 vs 觀光客 fault line / 日治現代化必具體化）+ 22 entries INBOX 共通說明更新 + 「凌晨四點時刻」anchor 找法
+
+### 臺灣前途決議文 NEW — 2026-05-17 2026-05-17-184444-manual（兩個字「目前」撐了二十七年 / History 政治 / 4523 字 / 29 footnote）
+
+- **Article**: [knowledge/History/臺灣前途決議文.md](../../knowledge/History/臺灣前途決議文.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑)
+- **核心矛盾**：「一份暫時性的模糊，變成永久性的共識」
+- **Hook**：1999 年初郭正亮寫「國號中華民國」、林濁水加「目前」兩字場景 → 結尾 2026.5.17 林濁水評「很得宜」+ 年輕世代不知道這份文件 + 敘事閉環「前途決議文最大的成功，是讓自己變得不需要被記住」
+- **品質**：4,523 CJK chars (101% of 4500) / 29 footnotes / 0 images（1999 政黨會議照片全為新聞社版權無 CC 授權，image-health hard=1 accepted deviation）/ article-health rewrite-stage-4 word-count ✓ prose-health score=1 ✓ / 其他 6 plugin pass
+- **Research**: [reports/research/2026-05/臺灣前途決議文.md](../../reports/research/2026-05/臺灣前途決議文.md) + [reports/research/2026-05/臺灣前途決議文-deep-research.md](../../reports/research/2026-05/臺灣前途決議文-deep-research.md) — 42 searches (26 中文 + 10 英文 + 6 primary WebFetch) / 15 fact entries + 9 verified quotes + 5 story scenarios / 33 references
+- **FACTCHECK**: 46 atoms verified, 4 errors fixed（1998 高雄選舉事實錯誤 / 許信良辭職因果錯誤 / 卓榮泰職稱時間錯誤 / 腳註 [^21] URL 指向無關文章）
+- **Cross-link**: 3 bidirectional — 台灣民主轉型、台灣選舉與政黨政治、台海危機與兩岸關係發展
+- **敏感素材**：政治文件歷史——各方解讀並存（獨派/中間/國民黨/北京），不下「正確」判斷；台獨黨綱與前途決議文「取代還是並存」未定論如實呈現
+
+### 三毛 NEW — 2026-05-17 2026-05-17-184444-manual（撒哈拉流浪作家 / People 文學 / 4508 字 / 24 footnote）
+
+- **Article**: [knowledge/People/三毛.md](../../knowledge/People/三毛.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑)
+- **核心矛盾**：「她教會一代人想像遠方，自己卻一生在逃離近處」
+- **Hook**：1955 年國二數學老師墨圈事件 → 結尾 Ruta Sanmao 加那利群島旅遊路線 + 荷西墓訪客簿
+- **品質**：4,508 CJK chars (100% of 4500) / 24 footnotes / 0 images（1991 歷史人物無 CC 圖片，image-health hard=1 accepted deviation）/ article-health rewrite-stage-4 word-count ✓ / 其他 6 plugin pass
+- **Research**: [reports/research/2026-05/三毛.md](../../reports/research/2026-05/三毛.md) — 69 searches (43 中文 + 26 英文 dual-agent) + 16 WebFetch / Stage 0 假說 14 條驗證（4 條修正：荷西死亡地點 La Palma / 年齡差 8 歲 / 金馬到死 25 天 / 王洛賓 1990 年）
+- **FACTCHECK**: ~157 atoms verified, 2 errors fixed（結婚五年→六年 / 乃門→瑪法達 simplified）
+- **Cross-link**: 5 bidirectional — 白先勇、林青霞、台灣民歌運動、台灣散文、席慕蓉
+- **敏感素材**：死因四說並存不下判斷（官方自殺 / 母親意外說 / 謀殺說 / 情緒說）；王洛賓關係採事實面不猜心理；殖民視角引 Mike Fu 序言
+
+### 區秀詒 NEW — 2026-05-17 二輪 5x parallel opus agents（馬來西亞策展人在台灣 / People / 5583 字 / 35 footnote）
+
+- **Article**: [knowledge/People/區秀詒.md](../../knowledge/People/區秀詒.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑) / parallel opus agent (worktree-agent-a89da1f6270378c33)
+- **核心矛盾**：「『不在場』才是創作位置——離開馬來西亞才寫得出馬來西亞」（區秀詒本人 2015 verbatim）
+- **品質**：5,583 CJK chars (124% of 4500) / 35 footnotes / 3 fair use editorial commentary stills (Prelude Interstellar 2024 + Mengkerang 2013 + Pak Tai Foto 2015) / article-health rewrite-stage-4 hard=0 warn=0 ✓
+- **Research**: [reports/research/2026-05/區秀詒.md](../../reports/research/2026-05/區秀詒.md) — Stage 0 §觀點成型 + 78 referenced footnotes / 在世藝術家引語 Ctrl-F 過 8 條（6 條 NML 鄭文琦 2015 訪談 verbatim + 2 條 Sharon Chin sharonchin.com）
+- **Multi-source peer**：避免單一 NML 視角 — 加入 Sharon Chin「politics of images, instead of political images」框（馬來西亞 peer 校正鄭文琦/高森信男台北中心視角）
+- **Commit**: `0feffb185`（agent 直推 origin/main）
+
+### 新生態藝術環境 NEW — 2026-05-17 二輪 5x parallel opus agents（1992-1999 杜昭賢 / Art × History / 4540 字 / image hard=1 no-media 邊界）
+
+- **Article**: [knowledge/Art/新生態藝術環境.md](../../knowledge/Art/新生態藝術環境.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-acb291faf3abff6d6)
+- **核心矛盾**：「體制外空間誕生在體制將要進場補助的前夕」
+- **品質**：4,540 CJK chars / 19 footnotes / **0 images（no-media 邊界 per Step 4.3，1990s 替代空間檔案無 CC source）** / 其他 6 plugin 全 pass
+- **大事實修正**：ARTICLE-INBOX entry 寫「1990-1995 trio 杜昭賢 + 蔣耀賢 + 葉竹盛」全錯 — Stage 1 cross-source 證實是「1992-1999 杜昭賢單人創辦」7 年運作。LESSONS 候選：INBOX peer ingestion metadata 需要 cross-verify
+- **Research**: [reports/research/2026-05/新生態藝術環境.md](../../reports/research/2026-05/新生態藝術環境.md) — 孤源 fact 處理表（1992 年「6 月」精確月份 single source / 1999 vs 1997 結束分歧 / 「四百多坪日本歌德式建築」單源 → 改概數 / 藝術總監「鄭明全」單源 → footnote 標 NML 葉杏柔）
+- **Commit**: `27b424e1d`（cherry-picked as `e0d618544`）
+
+### 群島思維 NEW — 2026-05-17 二輪 5x parallel opus agents（中華 vs 群島 SSODT / Culture × History / 5894 字 / 26 footnote）
+
+- **Article**: [knowledge/Culture/群島思維.md](../../knowledge/Culture/群島思維.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-aff3ca74f76df601b)
+- **核心矛盾**：「中華框架 vs 群島框架的台灣身份」（SSODT 三視角並列：A 地理 / B 語言學 / C NML 當代藝術）
+- **品質**：5,894 CJK chars (131%) / 26 footnotes / 3 CC BY-SA Wikimedia (austronesian-migration-map + beinan-stone-pillar + lapita-potsherd) / article-health rewrite-stage-4 hard=0 warn=0 ✓
+- **政治敏感處理**：明確避免「去中國化」修辭。文中三次重申「補完地圖、不取代第一張」。結語停留在文化與學術討論層，第三節 SSODT 段直接寫「三張地圖都沒有錯」
+- **NML local sources 用法**：4 期 issues（Hermeneutics of Nusantara #34 / Recalling Islands #21 / Twinning the Wastelands #12 / Legible Singapore #47）全部讀過 + Anderson「比較作為話語策略」+ 魏月萍引語 / 22 篇 Nusantara Archive articles 背景脈絡
+- **Research**: [reports/research/2026-05/群島思維.md](../../reports/research/2026-05/群島思維.md) — Blust 多樣性原理 + Gray 2009 Bayesian 5230 年前 + 鍾國芳構樹 DNA 三條獨立路徑
+- **LESSONS 候選**：(1) Wikimedia thumbnail HTTP 400「Use thumbnail sizes listed」要 RESEARCH.md 寫進去 (2) inbox spec 錯誤「屏東林班南島文化博物館 2023 啟用」實際無此館，台東史前文化博物館 2023 重新開放才正確
+- **Commit**: `b407a77b6`（cherry-picked as `d6222fa5b`）
+
+### 數位荒原 NEW — 2026-05-17 二輪 5x parallel opus agents（沒商業模式撐 12 年 / Art / 4599 字 / 26 footnote）
+
+- **Article**: [knowledge/Art/數位荒原.md](../../knowledge/Art/數位荒原.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-aace8848619b81714)
+- **核心矛盾**：「沒商業模式的策展平台怎麼撐 12 年」
+- **Title 三明治**：「數位荒原：一個沒商業模式的網路藝評平台怎麼活了 12 年」
+- **品質**：4,599 CJK chars (102%) / 26 footnotes / 3 images (NML issue covers letterboxed to 1600×900 hero / inline 2.0 aspect / fair use editorial commentary) / article-health rewrite-stage-4 hard=0 warn=0 ✓ / 對位句型 0 / 破折號 0.22 per 1500 chars
+- **NML local sources 用法**：README + manifest.json + articles-meta.json (88% 集中度 + 2011-2023 產出曲線) + issues/INDEX.md (56 期) + trial-issue 全文 (三家 partner ET@T/DAF/Project Glocal) + twinning-the-wastelands.md (Issue 12 / 2013-11 / R.A.P.) 
+- **大事實修正**：peer-ingestion 報告寫「2021 第二期 Twinning Archipelago」實際 Issue 12 2013-11。本文修正並標 footnote
+- **WebSearch 14 次** canonical 證據：國藝會檔案庫補助金額（第一年 35 萬 2017 / 第二年 40 萬 2018）+ DAF 2008-09-18 成立 + ET@T 1995 + DAC 2009 + NML vs 典藏 ARTouch / 非常廟 VT 2023 解散 / etat archive 萎縮 三條件「無紙媒 + 無實體空間 + 個人主編」孤例
+- **Peer-bias 補位**：cite 王柏偉、高森信男、印卡、蔡長璜、區秀詒避免單一鄭文琦視角
+- **Research**: [reports/research/2026-05/數位荒原.md](../../reports/research/2026-05/數位荒原.md)
+- **LESSONS 候選**：(1) peer ingestion 分析報告也會出錯需要 cross-verify (2) Hero aspect ratio 預設陷阱：NML cover 3:1 → letterbox 補強指南要寫進 §1.9.2
+- **Commit**: `728f5e596`（cherry-picked as `67809e7b3`）
+
+### 陳建年 NEW — 2026-05-17 二輪 5x parallel opus agents（警察與詩人雙身份卑南族歌王 / People / 5041 字 / 27 footnote）
+
+- **Article**: [knowledge/People/陳建年.md](../../knowledge/People/陳建年.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-a90fcb5485c16d2bd)
+- **核心矛盾**：「外公留下民族的歌，孫子戴上警徽寫海洋」
+- **品質**：5,041 CJK chars (112%) / 27 footnotes (每 187 字 1 條，遠超密度要求) / 4 圖 (1 hero + 3 inline 全部 CC BY-SA 4.0 Taiwania Justo 2018 新竹 FENG live house) / article-health rewrite-stage-4 hard=0 warn=0 ✓ / 對位句型 1 / 破折號 15
+- **🚨 大事實修正**：ARTICLE-INBOX entry 寫「父親（陸森寶）是 1950s 卑南音樂先驅」**錯誤**。三源驗證（zh.wiki / en.wiki / 國家文化記憶庫 / Taiwan光華 / 民報）一致記載**陸森寶是陳建年的外公（maternal grandfather），父親是陳光榮**。本篇 §一 用整段 + 策展人筆記顯式處理糾正，母系世系成為核心矛盾線
+- **時序亮點**：2000 年 9 月得金曲後請調蘭嶼避紛擾，一待 17 年到 2017 退休
+- **Research**: [reports/research/2026-05/陳建年.md](../../reports/research/2026-05/陳建年.md) — Stage 0 §觀點成型 + 三源驗證表 + verbatim 引語清單 + 媒體授權矩陣三表 + 38+ web 接觸紀錄
+- **Forward 延伸閱讀** 5 條（張惠妹 / 當代原住民創作歌手 / 台灣民謠與歌謠 / 台灣獨立音樂 / 流行音樂與金曲獎），reverse cross-link defer
+- **LESSONS 候選**：ARTICLE-INBOX entry 的家族關係 metadata 也需要 fact-check — entry 寫的事實會無條件被 routine agent 採信，inbox 寫錯會 propagate
+- **Commit**: `ba8963702`（cherry-picked as `ba7f05fac`）
+
+### 台灣災難志工文化 EVOLVE — 2026-05-17 twmd-rewrite-daily routine（鏟子超人 + 多頭指揮所 / Society / 從 921 到光復的災難志工文化譜系）
+
+- **Article**: [knowledge/Society/台灣災難志工文化.md](../../knowledge/Society/台灣災難志工文化.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution 模式（舊文 239 行 / 12 條 `## 參考資料` 0 inline footnote / 0 hero 0 inline 圖 / FLAT-END 修辭式結語 → 新版 5,933 CJK chars + 15 inline footnote + 1 hero + 1 inline 圖 + 具體場景結語 + 「慈濟模式 vs 多頭指揮所」核心矛盾節）
+- **核心矛盾（30 字）**：「鏟子超人神話讓民間活力被歌頌，但 500 公尺三個指揮所暴露國家應變失能 — 兩面是同一面鏡子」
+- **Hook（Title 三明治，保留 + 加 30 秒概覽）**：「鏟子超人與島嶼共時性：台灣災難志工文化如何影響國族認同」
+- **品質**：5,933 CJK chars (132% of 4500 門檻) / 15 inline footnote / 11 narrative H2 (非編年體 / 場景與衝突 anchor) / prose-health score 0 (clean pass) / 0 對位句型 / 9 破折號 (well within 60 limit) / lastHumanReview true / lastVerified 2026-05-17
+- **Research**: [reports/research/2026-05/災難志工文化-evolve.md](../../reports/research/2026-05/災難志工文化-evolve.md) — Stage 0 §觀點成型 完整六核心問題 + 3 核心矛盾候選收斂為單一矛盾 A / Stage 1 取材 4 WebSearch + 5 WebFetch / 16 facts triangulated + 3 facts flagged single-source / 媒體授權矩陣三表全填
+- **大事實修正**：原文章「滾石唱片」陳建年發行公司錯誤 → 角頭音樂 / We Music（KKBOX / Spotify metadata 三源驗證） / 原文章鏟子超人連假人次「2 萬 / 4.1 萬 / 4.45 萬」無法 cross-verify → 改用中央社確認的「累積 6 萬 + 29 日單日 4 萬 4,500」 / 原文章缺颱風名 → 補上「樺加沙颱風外圍環流」（Wiki） / 原文章只寫「光復鄉」 → 補上「光復 + 鳳林 + 萬榮三鄉鎮」
+- **媒體**：2 張 CC BY 2.0 圖（Hsu.shihhung 2003 + Liu Shu fu 2024，都來自臺中霧峰 921 教育園區 — caption 明確標示「兩個光復」地名巧合避免讀者誤以為是花蓮）
+- **Cross-link defer**：4 forward 延伸閱讀（當代原住民創作歌手 / 台灣志工文化與公益參與 / 原住民神話 / 台灣原住民族土地正義與傳統領域）全部 valid，reverse cross-link 留待後續 cycle 處理（sibling 格式 audit 防止 pre-existing tech debt 被帶進來）
+- **致謝**：原 contributor 漢堡王（wang1002jack@gmail.com）的 PR-style 投稿保留於文末
+
+### 唐鳳 EVOLVE — 2026-05-16 2026-05-16-011113-manual（拒絕當天才的天才 / People / 深度進化）
+
+- **Article**: [knowledge/People/唐鳳.md](../../knowledge/People/唐鳳.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution 模式（舊文 19465 bytes / 0 footnote / 0 image / chronological list-dump → 新版 4598 字 + 44 footnote + 3 image + 核心矛盾組織小標題）
+- **核心矛盾（28 字）**：「她拒絕當天才，世界堅持把她當天才」— Stage 1.4 從 5 候選收斂，10 verbatim quote + 5 fact 支持端 + 2 nuance 反方
+- **Hook（Title 三明治）**：「唐鳳：她每一次有名的決定，都是在拒絕『天才』這個標籤」
+- **品質**：4598 CJK chars (102% of 4500 門檻) / 44 footnote / 7 narrative H2（非編年體 / 全場景或衝突 anchor）/ 對位句型 3（全在 verbatim quote）/ 破折號 15（well within 45 limit for 4598 chars）/ 塑膠句 1（Marie Claire Leonard Cohen 引語）
+- **Research**: [reports/research/2026-05/唐鳳.md](../../reports/research/2026-05/唐鳳.md) — Stage 0 §觀點成型 完整六核心問題 + 5 核心矛盾候選收斂 / Stage 1 取材 56 searches (24 中 + 16 英 + 16 WebFetch) / 45 facts with URL + year / 10 verbatim quotes verified / 6 場景 / 媒體授權矩陣三表全填
+- **Hard gates 全過**：rewrite-stage-4 profile `hard=0 warn=0 passed=True` ✅ / 14 plugin 全 pass（frontmatter / format-structure / wikilink / link / cjk-punct / chronicle-lead / word-count / image-health / footnote-format / footnote-url / footnote-density / cross-reference / prose-health score 3 ≤ 3 / terminology / spore-writing）
+- **核心場景 source 鎖定**：
+  - 2020/2/2 凌晨口罩地圖 anchor scene + 江明宗 verbatim「唐鳳有決定權，還能自己改 code」（江明宗 Medium + TechNews 幕後團隊 + 衛福部官網 三源）
+  - 2005 跨性別出櫃 verbatim「不管現在、過去或未來」+ 父親唐光華 verbatim 回應（中文維基 + 今周刊 父親專訪 兩源）
+  - 2025/12/2 斯德哥爾摩 Right Livelihood Award 結尾 verbatim「Cyberspace is a conflict region」+「The superintelligence we are looking for is already here. It's us」(Right Livelihood 官方 + Focus Taiwan 中央社 + cyberambassador.tw 三源)
+  - 2016 入閣三條件 + 林全 verbatim「行政院目前並沒有遠距上班的規範...這是可行的」（自由時報 + 數位時代 兩源）
+  - 太陽花議場 verbatim「議場內部 5 個不同角度攝影機...展示演出和儀式」（公視 PNN + 中文維基 兩源）
+  - 報導者 PO verbatim 困惑「做 PO 已 2 個月了...搞不清楚到底我們可以介入多少」（孤源但 verbatim 完整）
+- **媒體 spine（3 張 Wikimedia Commons CC 授權）**：
+  - hero: Camille McOuat 2016 Paris portrait CC BY 2.0
+  - scene-mid: Jan Michalko 2019 Berlin re:publica 數位社會年會 CC BY-SA 2.0
+  - signature: 唐鳳本人 2021 簽名 SVG CC0
+- **lifeTree 維護**：保留原 10 choice nodes，新增 1 node (stockholm 2025/12/2 Right Livelihood)，原 sunflower 2014 node 從 covid 內合併拆出獨立節點 — 共 12 nodes
+- **避坑（Stage 3 自修正）**：
+  - 初稿在 Plurality ⿻ 概念段虛構「2017 vTaiwan 線上酒類議題 5000 多位公民 + 七條附加條件」（七條條件實為 Uber 案數字，非線上酒類）→ Stage 3 verify 抓到後改用實際 Uber 案例
+  - 衛生紙之亂段加入「唐鳳辦公室同時把口罩跟衛生紙原料的供應鏈差異圖表化」具體場景但 research 無 direct source → Stage 3.5 軟化為「政院在幾小時內推出一張配圖」+「她在 TED 跟多次國際訪談把這當作 humor over rumor 的展示案例」泛指
+- **舊版 lifeTree 升級**：原版 10 nodes 中 sunflower 2014 沒獨立 = 太陽花這個關鍵塑形事件被 absorbed 進 g0v 節點；新版拆出獨立 sunflower node + 新增 stockholm 2025/12/2 結尾 node，完整 12 nodes 對應 7 narrative H2
+- **與舊版差異 summary**：
+  - title: 「唐鳳」(stub) → 「唐鳳：她每一次有名的決定，都是在拒絕『天才』這個標籤」(冒號三明治)
+  - footnote: 0 → 44
+  - image: 0 → 3 (hero + scene-mid + signature)
+  - 字數: ~3300 → 4598
+  - 小標題: 11 編年體 list-dump → 7 場景/衝突 anchor
+  - verbatim quote: 1 → 15
+  - 核心矛盾 anchor 整篇貫穿: 0 → 6 處引用「天才」拒絕主線
+  - 結尾: FLAT-END 通用啟發句 → 2025/12/2 斯德哥爾摩具體場景收束
+  - lastVerified: 2026-03-21 → 2026-05-16 (12 個月 staleness 補完，加入 2024 卸任 + Plurality + 2025/12 RLA)
+
+### 刈包 NEW — 2026-05-16 twmd-rewrite-daily routine（從福州虎咬豬到 BAO London 米其林符號 / Food / 系列第 1 篇）
+
+- **Article**: [knowledge/Food/刈包.md](../../knowledge/Food/刈包.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（Stage 0 §觀點成型 落檔 + Stage 1 deep research via general-purpose agent 50+ WebSearch + 6 WebFetch）
+- **核心矛盾**：「福州移民帶來的尾牙工人餐，怎麼變成 BAO London 的米其林符號」（Stage 1.4 從候選 A/B/C 收斂為 A，時間軸完整：1927 黃旺成日記 → 1955 源芳 → 2013 BAO → 2024 米其林四錨點）
+- **Hook（Title 三明治）**：「刈包：從福州虎咬豬到 BAO London 的米其林符號」
+- **品質**：4500 CJK chars (100% of 4500 門檻) / 28 footnote / 7 narrative H2（非編年體 / 場景或地名 anchor）/ Tier 2 metaphor 6 → 0 主動清理（重量級 → 資深 / 軌跡 → 發展）
+- **Research**: [reports/research/2026-05/刈包.md](../../reports/research/2026-05/刈包.md) — Stage 0 §觀點成型 完整六核心問題 + 7 品質維度 anchor + 50+ WebSearch 含跨源 verification 分級
+- **Hard gates 全過**：rewrite-stage-4 profile hard=0 warn=0 全綠 ✅ / 8 plugin 全 pass（frontmatter / format-structure / wikilink / link / cjk-punct / chronicle-lead / word-count / image-health）
+- **核心事實 source 鎖定**：
+  - 源芳 1955 / 吳黃義 / 華西街 17-2 號 / 米其林必比登 2020-2024（lordcat + margaret.tw + appletrees + mecocute 多源）
+  - 藍家 1992（**非 1971**，Stage 0 假設糾正）/ 藍鳳榮 / 母親食譜（Instagram + ETtoday + Michelin + Banbi）
+  - 1927 黃旺成日記「尾牙吃虎咬豬」（中研院臺史所出版品 + 觀光局推廣資料 + 民間轉述，引語標「據傳載」緩和）
+  - BAO London Erchen Chang 台北出身 + Slade UCL 2012 + Netil Market 2013 + Soho 2015-04-08（Apollo + Toast + Wikipedia + Picky Glutton + Grubstance 五源）
+  - David Chang 2004 Momofuku Noodle Bar + 自承 pork bun 源自北京烤鴨非 gua bao（NPR + Mashed + Resy + Wikipedia Momofuku 四源）
+  - Eddie Huang 2009-12 Baohaus + 2026-03 The Flower Shop 重開（Wikipedia + Resy 二源）
+- **避坑**：
+  - Stage 0 假設「喪禮辦桌刈包」習俗 → Stage 1 30+ queries 找不到 primary 民俗文獻 → 從文章 drop（unverified）
+  - 1927 黃旺成日記逐字引語只有民間轉述源（my-hito blog），中研院原檔網路無 full text → 引用改「據傳載」緩和
+  - 連珍刈包 / 神農生活 / 三國張飛割饅頭 / 福建泉州少數派起源說 → 全 single source 或無 source，未寫進文章
+  - 「謊言包進去」第三層尾牙寓意 single source（風傳媒）→ 標「如果這個解讀屬實」緩和
+- **媒體授權**：2 張 Wikimedia Commons CC BY 2.0（hero: 源芳 2023 by 王昱晴 / 中華民國總統府 / inline: LeoAlmighty steamed sandwich）/ aspect ratio 全 pass（hero 1.82 / inline 1.0）/ 圖片來源 section 完整 attribution
+- **Cross-link**：forward 5 條（台灣小吃 / 夜市文化 / 台灣辦桌文化 / 台灣米食文化 / 台灣鹽酥雞）/ reverse cross-link **DEFER**（cron 時間預算考量，留下次 polish）
+- **Issue 連動**：[#1013 台灣經典街頭小吃系列](https://github.com/frank890417/taiwan-md/issues/1013) progress comment 待 ship 後留言（系列尚有 5 篇待完成，issue 不 close）
+- **routine vitals**：refresh-pm 23:00 → rewrite-daily 00:00 順跑無漂移 / dashboard sync 已含 1068 紀柏豪 + 1066 綠島監獄 + 1067 nl 暫緩 finale 後狀態 / babel drift heal 22:35 完成 / 心臟器官 90↑ 維持
+
+### 台灣傳統工藝與無形文化資產 NEW — 2026-05-15 twmd-rewrite-daily routine（人間國寶制度移植 / Culture / 文資法 2005/2016 演化）
+
+- **Article**: [knowledge/Culture/台灣傳統工藝與無形文化資產.md](../../knowledge/Culture/台灣傳統工藝與無形文化資產.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（Stage 0 §觀點成型 落檔 + Stage 1 deep research via general-purpose agent 35 WebSearch + 8 WebFetch）
+- **核心矛盾**：「制度承認來了，學徒卻沒了——名單越長，能教的人越少」(Stage 1.4 收斂，從 Stage 0.6 候選 A+B+C 三條融合)
+- **Hook（Title 三明治）**：「台灣傳統工藝與無形文化資產：制度承認來了，學徒卻沒了」
+- **品質**：5099 CJK chars (113% of 4500 門檻) / 29 footnote / 10 narrative H2（非編年體 / 場景或數字 anchor）/ 8 大工藝類別涵蓋 7 類（缺石雕本身寫進文章作為盲點）
+- **Research**: [reports/research/2026-05/台灣傳統工藝與無形文化資產.md](../../reports/research/2026-05/台灣傳統工藝與無形文化資產.md) — Stage 0 §觀點成型 完整六核心問題 + 7 品質維度 anchor + 22 位「重要傳統工藝保存者」具體名單（含歷年認定年份）
+- **Hard gates 全過**：rewrite-stage-4 profile hard=0 warn=0 全綠 ✅ / 7 plugin 全 pass（frontmatter / format-structure / wikilink / link / cjk-punct / chronicle-lead / word-count / image-health）/ 事實鐵三角（鶯歌 1804 / 三義 1918 / 美濃日治大正 / 文資法 2005/2016 / 日本 1955 / 韓國 1962 全三源 cross-check confirmed）
+- **核心事實 source 鎖定**：
+  - 蘇清良 2022-12-19 認定 + 2023-07-20 過世 + 祖孫接班場景（中央社 + 維基 + 自由時報三源）
+  - 林洸沂 1981 學甲慈濟宮葉王交趾陶修復 + 引語「從頭再學習一次」/「如果葉王還在我一定拜他為師」（經典雜誌 verbatim）
+  - 尤瑪達陸 2016 認定（民國 105，校正英文維基的 2006 錯誤）+ 引語「文化認同這件事，是你打從心底喜歡它」（vocus 專訪 verbatim）+ 跑 100 部落 / 復原 400-500 件服飾（Taiwan Today + 英文維基）
+  - 林享鴻 1981 廣榮興廠引語「面臨後繼無人的局面」（光華雜誌 1981 verbatim）
+  - 鶯歌非金屬製品工廠數逐年（701→662→554→289）(TDRI + 鎮志)
+- **避坑**：
+  - 王清霜「活著就要工作」原話未找到逐字出處 → 改用兒子王賢民轉述「要做好漆藝，就要活久一些」(La Vie verbatim)
+  - 李秉圭「成功是留給不敢休息的人」標題化用語逐字未確認 → drop，未使用
+  - 美濃紙傘起源「清領 vs 日治大正」兩說並存，主流是日治大正（清光緒末期 / 1910s）→ 採信主流並標明日治大正
+- **媒體**：3 張 CC 授權圖片（hero: 美濃原鄉緣紙傘 CC BY-SA 3.0 / inline: 三義木雕博物館 CC BY-SA 3.0 / inline: 三峽藍與白系列藍染服飾 CC BY-SA 4.0）— 全 Wikimedia Commons，cache 完成，aspect 全通過
+- **Cross-link**：本文 → 藍染 / 台灣花布 / 紙傘 / 斗笠 / 傳統節慶與慶典 (5 forward links)；reverse cross-link **DEFER**（per Stage 5.3 sibling 預檢：5 sibling 全有 pre-existing rewrite-stage-4 hard fail，主因為 image-health 0 張不合 ≥ 3 張 depth article 標準 + 部分缺 ## 參考資料 H2，補 reverse link 會觸發 pre-commit hook hard fail。應走獨立 EVOLVE 處理各 sibling 圖片與格式缺口，不在本 ship scope）
+- **政治敏感度**：低（市場數據 + 公開人物登錄資料為主），但「人間國寶制度晚日本 50 年」+「台灣不是 UNESCO 會員」涉及國際對標 framing，採事實導向不刻意對比 PRC
+- **Issue ship-after action**: 留 issue #914 progress comment + close（per ARTICLE-INBOX hard gate）
+- **觀察者**：cron 自動觸發 twmd-rewrite-daily routine（無 in-loop 觀察者），sub-agent general-purpose 35 WebSearch + 8 WebFetch 落 research report、主 session Stage 2-4 寫作 + image cache + verify
+
+### 曾博恩 — 2026-05-13 manual-rewrite 完成（從 contributor seed 到深度 EVOLVE）
+
+- **Article**: [knowledge/People/曾博恩.md](../../knowledge/People/曾博恩.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — EVOLVE 模式（contributor seed PR #1057 by idlccp1984，2200 字 / 19 footnote → EVOLVE 至 6001 字 / 51 footnote）
+- **核心矛盾**：「他能算笑點，算不準社會的情緒重量。」(Stage 1.4 鎖定，從 Stage 0.6 候選 C+D 融合收斂)
+- **Hook（Title 三明治）**：「曾博恩：算得出笑點，算不準社會」
+- **品質**：6001 CJK chars (133% of 4500 門檻) / 51 footnote / 7 narrative H2（非編年體 / 場景或意象 anchor）/ 51 cross-verified facts
+- **Research**: [reports/research/2026-05/brian-tseng.md](../../reports/research/2026-05/brian-tseng.md) — Stage 0 §觀點成型 完整六核心問題 + 7 品質維度 anchor + Sub-agent A-F 六組事實素材庫（30 search by sub-agent + 5 critical/sensitive search + 6 WebFetch by main session = 46 total search actions）
+- **Hard gates 全過**：prose-health hard=0 score 1 / pre-commit profile passed=True / 事實鐵三角（算術 26.7×7=186.9 驗算 / 引語全 Ctrl-F verbatim / 場景 atom 全 verified）/ Title spine sync ✓
+- **大事實修正**（vs 原 contributor seed）：
+  - 「2,200 萬」→ 「2,283 萬 5,950 元」精確值（per 鏡週刊 + CTWANT 一手判決資料）
+  - 「華人首位」→ 「台灣史上第一位」（per The News Lens 權威媒體 framing，避免 over-claim）
+  - 鄭南榕梗 paraphrase「按照習俗⋯⋯陰間會有 2 位鄭南榕嗎」→ TNL verbatim「人間燒一個東西，陰間就會收到另一個一樣的東西。所以當鄭南榕自焚之後，陰間就會有兩個鄭南榕」
+  - Russell Peters 啟蒙改寫：「同學給他的 MP3」+「笑倒在地上」(per mirror media verbatim) vs 既有「自己戴耳機」+「課桌椅」
+  - DROP「《博恩夜夜秀》黃明志〈中國痛〉合作」（〈中國痛〉MV 2020-2021 已在博恩夜夜秀停播後，sub-agent 找不到 episode，疑為時間錯置 hallucination）
+- **敏感素材處理**（per MANIFESTO §5 紀實節制 + §10 幻覺鐵律 + 觀察者拍板 scope 2 + commit 後 callout 升 hard 邊界）：寫鄭南榕梗 / 外送員影片 / 娛樂稅官司 / 王志安事件 / 賀瓏解約完整事實 framing，紀實節制不重構心理動機；**不寫任何當事人私人關係**（婚姻 / 戀愛 / 家庭內情），整類 claim 在無可信來源時 default 靜默 — 跟 main thesis「精準失準」無 anchor，且容易滑入煽情。
+- **Cross-link 雙向**：曾博恩 → 蔡英文 + 韓國瑜 + 鄭南榕 (3 forward)；reverse: 蔡英文 + 韓國瑜 + 鄭南榕 ← 曾博恩（per Stage 5.3 sibling 預檢：3 sibling 全 hard=0，鄭南榕加 minimal §延伸閱讀 section minimum-action 補 missing section + cross-link）
+- **媒體邊界**（per Stage 4 邊界例外 + 觀察者 fair-use 選項）：本 EVOLVE 標 `no-media` 邊界。Wikimedia Commons 找到 11 候選但無可直接 verify license 的 1:1+ aspect 圖；STR Network 官方 press kit 圖未取得 cache 級解析度。記入 §圖片來源 section，待後續 heal commit 走 fair-use editorial commentary scope 補 hero + 1-2 inline。image-health 在 pre-commit profile 為 warn (不擋 commit)，但 rewrite-stage-4 profile 為 hard fail — 接受邊界
+- **政治立場**：紀實，不偏綠不偏藍（per CLAUDE.md §Bias 2 Multi-observer drift）
+- **觀察者**：哲宇 manual session（plain CC active），明確選 scope 1 完整 ship + scope 2 公開事實 framing + scope 3 fair-use editorial scope
+
+### 台灣鐵道史 EVOLVE — 2026-05-11 nervous-banzai-125050 twmd-rewrite-daily routine（外籍工程師譜系 + 黑頭仔命名譜系 focused section addition / History / 鐵道）
+
+- **Article**: [knowledge/History/台灣鐵道史.md](../../knowledge/History/台灣鐵道史.md)
+- **Pipeline**: REWRITE-PIPELINE v5.0 — EVOLVE 模式（focused section addition，補 word-count gate 3155 → 5329 + 補 image-health 0 → 3）
+- **觸發**：
+  - 內部：article-health.py warn=1 word-count 3155 < 4500 depth threshold（缺 1345 字 / 30%）
+  - 外部：SC 7d query `taiwan railways administration nickname foreign engineers` 345→480 imp +39% WoW, position 7.78（英文長尾持續放大）
+- **新增章節**：
+  - §外國名字怎麼掉漆的（劉銘傳鐵路德英外籍班底 + 長谷川謹介 / 河合鈰太郎 / 進藤熊之助 / 新元鹿之助 日治譜系）
+  - §黑頭仔與命名譜系（CK101 / CT250 / DT650 編號系統 + 莒光 / 自強 / 復興 命名典故 + 普悠瑪 / 太魯閣 後戒嚴時代命名轉折）
+- **新增腳註**：13 條 `[^f1]-[^f13]`（Nippon.com / 國史館論文 / Wikidata / 維基百科多源）
+- **新增媒體**：3 張 CC 授權圖片（hero: TRA Taitung Line fireman 1970s CC BY 4.0 / inline 1: Changhua Roundhouse 蒸汽機車群 2009 CC BY 2.0 / inline 2: DT668 海線 2021 CC BY-SA 2.0）
+- **Frontmatter spine sync**：
+  - title `台灣鐵道史` → `台灣鐵道史：肺病鐵道、黑頭仔，以及那條失去外國名字的譜系`
+  - description 補進新核心矛盾（外國名字一路掉漆 + 命名譜系從政治口號到原住民地名）
+  - 新增 `researchReport: 'reports/research/2026-05/taiwan-railway-foreign-engineers.md'`
+- **Stage 4 gate**：rewrite-stage-4 profile hard=0 warn=0 全綠 ✅；word-count 5329 (118% of 4500)；image-health 3 張全合規
+- **Research report**：[reports/research/2026-05/taiwan-railway-foreign-engineers.md](../../reports/research/2026-05/taiwan-railway-foreign-engineers.md) — 9 WebSearch, 中英日 source 全 cross-check
+- **未證實項目（不寫進文章）**：SC 查詢提到的「沃夫」外籍工程師暱稱 + 阿里山「美國工程師」線索 — 9 次搜尋未找到具體對應，按 MANIFESTO §10 幻覺鐵律降級為空白，不掰
+- **核心矛盾**（30 字內）：技術接力的譜系斷裂 — 每一代都把上一代的紀錄推到注腳，台鐵的譜系成了一條失去外國名字的單線
+- **觀察**：routine 60 min boundary tight — wall-clock ~75 min（image fetch 多輪 redirect 影響），但完整跑完 Stage 1-5 不留 partial。LESSONS-INBOX 候選：「Wikimedia thumb URL 直連會回 HTML 錯誤頁；必須走 Special:FilePath 或 WebFetch 抓 upload.wikimedia.org 完整 URL 才能 curl」
+
+### 國立臺灣歷史博物館 NEW — 2026-05-11 kind-mirzakhani 觀察者指派（深度研究 / Society / NMTH × 臺灣島史觀）
+
+哲宇 directive「`/twmd-rewrite 國立臺灣歷史博物館`」+ Stage 1.10 一手素材 framing：「以臺灣島史觀出發，也是國家級的臺灣歷史策展。我相信在 AI 時代社群驅動開源知識庫的潛力，當與一座國家級博物館，各自從不同角度看同一座島嶼相遇時，就能建構更立體臺灣島史觀的集體記憶。」Fresh 模式（既有 Taiwan.md 9 篇引用 NMTH 但無主檔）。Stage 1 Research agent 跑 43 次（27 WebSearch + 16 WebFetch），落檔 651 行研究筆記。
+
+- **Article**: [knowledge/Society/國立臺灣歷史博物館.md](../../knowledge/Society/國立臺灣歷史博物館.md)
+- **Pipeline**: REWRITE-PIPELINE v5.0 — Fresh 模式（首篇 Fresh 走 v5.0 spine restoration 8 H2 結構）
+- **核心矛盾**：「國家級策展 × 社群共筆，兩種臺灣島史觀在 NMTH 相遇」（21 字）— NMTH 第七、八展區「大家的博物館」+「你也是寫歷史的人」+ 館長張隆志親口「全民共筆共創」+ 政府資料開放授權條款 1.0 版（CC BY 4.0 等效）= 國家級三級機構在制度層 / 法律層 / 策展論述層全部認證社群共筆策展機制，Taiwan.md 跟 NMTH 是同一條臺灣島史觀軌道上的兩個 instantiation
+- **Hook**：第八展區「你也是寫歷史的人」（NMTH 常設展最後一格）+ 第七展區「大家的博物館」常設展論述
+- **品質**：8 H2 / 27 footnote / 5632 CJK chars / 破折號 ≤ 5（含展名「斯土斯民——臺灣的故事」必保留）/ 對位句型 1（L68 NMTH 策展論述 verbatim 引號內必保留）/ prose-health score 3 PASS / article-health rewrite-stage-4 profile hard=0 warn=0 ALL GREEN
+- **Research**: [reports/research/2026-05/國立臺灣歷史博物館.md](../../reports/research/2026-05/國立臺灣歷史博物館.md) — 651 行筆記，14 維度 high_confidence facts、4 個 single_source flags、3 個 unverified flags、4 個核心矛盾候選、3 個開場 + 3 個結尾 anchor 候選、媒體授權矩陣三表
+- **媒體插入**（1 件）：
+  1. **hero** `nmth-main-building-2011.jpg` — Wikimedia Commons 主館外觀 840×459 aspect 1.83 by Fcuk1203 CC BY-SA 3.0
+- **大事實**：2011-10-29 開館（4 源 verify，從 1998 籌備處到 2011 開館 13 年）/ 14-15 萬件館藏 / 國家文化記憶庫 200+ 萬筆（NMTH 2021 起承接運營）/ Open Data 授權「政府資料開放授權條款 1.0 版」一手 verbatim / 2021-04-01 張隆志接任第五任 / 2021-10-17 升格三級機構 / 2024 跨1624 與 Rekihaku 合辦 / 雲牆逾千片太陽能板年發電 17 萬度
+- **verbatim 引語**：張隆志「全民共筆共創，活化歷史記憶的行動平台」（2025-03 數味食光）+「你要先是一個有趣的人，然後再是一個歷史學家」（故事 StoryStudio）+「公共歷史學一個很重要的核心觀念就是共構、協作」+ 常設展第八展區「歷史是一段歷程、一份感受；是不同的人們，站在自己的位置」+ 第七展區「『未來』由各形各色的『我們』拼貼而成」+ 開放資料 Open Data 頁「不限用途、不用付費，可直接下載使用」+「反共復國基地」展區「威權體制」「一黨獨大、以黨領政」+「走近二二八」展區「埋下日後遭到整肅的暗流」
+- **Stage 3.3 FACTCHECK Quick Mode**：footnote URL audit 揭露 [^4] 文化部新聞稿 + [^17] 文化平權頁 404，已換為 NMTH 官網現任館長頁 + 文化部博物館友善措施服務介紹網（替換 stable URL）；「挑戰者們：解嚴 30 週年特展」原誤寫「NMTH 協辦」修正為「NMTH 主辦」+ 加準確展期「2017-11-28 至 2018-06-24」+ 加 [^26] verify source URL
+- **哲宇 framing 補進文章**：Research agent 沒搜到的「臺灣史新手村」+「55 萬筆」— 經 main session sibling cross-link 揭露 NMTH 自己的子站 `ilhaformosa.nmth.gov.tw` = 「臺灣史新手村」（既有 Taiwan.md 〈荷西明鄭時期〉等多條已引用作一手史料），補進文章 §四 開放資料庫 + [^27] footnote
+- **Cross-link**：5 條 forward 延伸閱讀（台灣島史觀 / 三個外國人看乙未 / 19世紀的樟腦戰爭 / 荷西明鄭時期 / 福爾摩沙）+ 5 條 reverse 同 PR 補完（5 sibling format-check 全 PASS）
+- **未來預期 cross-link**：吳密察（首任館長 → 故宮院長）/ 張隆志（現任館長 + 公共歷史學者）/ 曹永和（臺灣島史觀提出者）/ 平埔族群（NMTH《看見平埔》專刊母題）
+
+### 台灣企業：台積電 EVOLVE — 2026-05-09 laughing-goldstine 全文重寫（深度研究 / Economy / 護國神山）
+
+哲宇 directive「/twmd-rewrite 深度研究 重寫『台灣企業：台積電』，完整遵循 pipeline」。同 PR ship REWRITE-PIPELINE v2.21 §1.7b 更新（理想 2-3 圖，企業官網/fair use editorial scope 入正式來源）。EVOLVE 從 134 行 → 289 行，5 場景架構保留，3 段新場景補齊（1985 年 14 天提案 / 2009 年 10 分鐘樓下豆漿 / 鄭家祖墳 178 年），結尾 Mode D 敘事閉環+翻轉「56 歲那個人，已經沒在這個房間了」。
+
+- **Article**: [knowledge/Economy/台灣企業：台積電.md](../../knowledge/Economy/台灣企業：台積電.md)
+- **Pipeline**: REWRITE-PIPELINE v2.21 — EVOLVE 模式（重寫率 ~95%，原稿 5 場景骨架保留 + 3 場景新增）
+- **核心矛盾**：「54 歲離開德儀、56 歲創立台積電的張忠謀前 18 年逃過三次難 → 38 年後川普誇接班人魏哲家『是這個房間裡最重要的男人』」 vs 「但同一段時間，新竹寶山一座 1844 年蓋的鄭家祖墳正在遷葬為 2 奈米廠讓地」。所有奇蹟都疊在一座島承擔不起的水電與在地歷史代價上。
+- **Hook**：1985-09-04 李國鼎辦公室 14 天「Common Wafer Fab」原始提案 verbatim 中文段落（張忠謀自傳）
+- **品質**：289 行 / 31 腳註 / 破折號 9（< 15）/ prose-health score 2 (≤3 PASS) / article-health ci-deploy passed=True
+- **Research**: [reports/research/2026-05/台灣企業：台積電.md](../../reports/research/2026-05/台灣企業：台積電.md) — 407 行研究筆記，22 facts table、28 verbatim quotes（張忠謀 8 / 魏哲家 4 / 黃仁勳 4 / Trump 英文 / 柯志恩 英文 / 邱振瑋議員）、5 specific scenes、5 image candidates（CC/PD verified）
+- **媒體插入**（2 件）：
+  1. **hero** `tsmc-fabs-hsinchu-2020.jpg` — 新竹科學園區廠房群空拍，曾成訓 攝 2020-01-02 CC BY 2.0
+  2. **scene-mid** `tsmc-fab21-arizona-2023.jpg` — 亞利桑那 Fab 21 工地空拍，Hunter Trick 攝 2023-11-05 CC BY-SA 4.0
+- **大事實**：Q1 2026 營收 359 億美元（年增 40.6%）、EPS NT$22.08、市值 1.7 兆美元（全球第 6）、員工 84,512（2024-12）、3 奈米占 Q1 25%、2 奈米良率 70-80%、2026 capex USD 52-56B（vs 2025 40.9B / 2024 28.9B）
+- **verbatim 三段**：張忠謀「全球化已死、世界貿易已死」（2024-10-26 運動會中央社）/ 川普「Right now, he's the most important man in the room」（2025-03-03 白宮 American Presidency Project）/ 魏哲家「In Phoenix, Arizona, with 3,000 employees, we are producing the most advanced chip made on U.S. soil」（同前）
+- **Cross-link**：4 延伸閱讀（聯發科技 / 日月光半導體 / 台股 / 產業轉型升級）+ 反向已存在於聯發科技、台股；日月光、產業轉型升級僅 inline mention 待 Stage 5 review
+
+---
+
+### 王福瑞 EVOLVE — 2026-05-09 laughing-goldstine 媒體插入 + heading 修補（fair use editorial scope 啟動 / People / 聲音藝術）
+
+哲宇 redirect「進化王福瑞，同步搜集適合使用的圖片跟影片，引用作品是 fair use 比較寬鬆不一定要 CC」。Round 2 媒體研究升級 Stage 1.7：在世藝術家作品紀錄圖（個展裝置、專輯封面）走 fair use editorial commentary scope，不需 CC license。
+
+- **Article**: [knowledge/People/王福瑞.md](../../knowledge/People/王福瑞.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 模式（媒體插入主重，prose body 不重寫，167 行 → ~190 行）
+- **媒體插入**（4 件）：
+  1. **hero** `wang-fujui-noise-silence-2020.jpg` — 12 聲道全指向喇叭裝置 (frontmatter `image:` + `imageCredit/imageLicense/imageSource`)
+  2. **scene-mid 1** 同三件作品同框（術後段前置）
+  3. **scene-mid 2** Bandcamp《Ching-Shen-Ching 1.2.3.0.》專輯封面（「Bandcamp 上的同人廠牌」段）
+  4. **scene-mid 3** 12 聲道喇叭重複放在核心段落（前後呼應）
+- **Inline YouTube 外連**：噪音寂靜表演紀錄、就在藝術空間個展頁、Bandcamp〈V-Zone〉track
+- **Heading 修補**：「後來，這個故事還在寫」→「Bandcamp 上的同人廠牌」（per 哲宇「故事還在寫」family 列入塑膠句檢查同 PR ship — prose_health.py + QUALITY-CHECKLIST 雙加 patterns）
+- **對位句型修補**：「從場景到身體，從外在到內在」改寫為兩句 explicit 描述
+- **§圖片來源 section**：四張圖完整 attribution + fair use editorial scope 解釋
+- **Quality**: hard=0 warn=2（pre-existing AI metaphor + 空洞詞，未改 prose body）
+- **Research report update**: `reports/research/2026-05/王福瑞.md` §9 媒體授權矩陣 Round 2
+
+### 聶永真 EVOLVE Round 2 — 2026-05-08 elegant-ptolemy 重構（多元面貌人物 SSODT，去 event-report 框架 / People / 藝術與設計）
+
+哲宇 review Round 1 後指出文章過度錨定 2026/05/08 台電 LOGO 5 小時論述循環，要求重寫為「紀實 + 閱讀感順暢 + 完整描述這個人的多元面貌」的 SSODT，台電案降為其中一章而非結構主軸。
+
+- **Article**: [knowledge/People/聶永真.md](../../knowledge/People/聶永真.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE Round 2（218 行 → 200 行 / 重 hook + 重結構 + 重 title/description）
+- **新 title**：「聶永真：台灣首位 AGI 會員，從金曲包裝到國家識別系統的二十年」（從事件人物切換為職涯範圍人物）
+- **新 description**：以多元面貌列舉開頭（音樂封面 / 公民運動 / 政治競選 / 國營識別 / 藝術空間），台電爭議移至最後一句 anchor
+- **新結構**（10 章，台電從首章降為第 9 章）：
+  1. 30 秒概覽（多元面貌列表 + 台電爭議僅 1 句）
+  2. Hook 段（攤開接案目錄：音樂 / 書籍 / 商業品牌 / 公部門 / 公民運動 / 政治設計 6 條清單）
+  3. 從機械製圖到工商業設計
+  4. 從專輯封面起家：三度金曲獎與二十年的音樂版面
+  5. 首位 AGI 會員與「不安全的設計」
+  6. 凌晨四點的紐時頭版與 Taiwan Can Help
+  7. 「點亮台灣」與兩屆總統就職
+  8. 出走比利時與倫敦：「太舒適圈」的逃離
+  9. 駁二倉庫的一束光與工作室的形狀
+  10. 國營事業連環標案與 2026 年的台電 LOGO 風暴（5 小時敘事保留但縮為一章）
+  11. 「公民聶永真」與「設計師聶永真」（哲學收束）
+  12. 永真急制這個名字（工作室層次 closing）
+- **品質**：200 行 / 9,481 chars body / 29 footnote / 11+ verbatim 中文引語 / 3 張 CC 授權 inline 圖（hero + 2 inline，不變）/ HARD=0 ✅ / 12 plugin 全綠（cjk-punct + cross-reference + footnote-density/format/url + format-structure + frontmatter-format + frontmatter-title + image-health + link-target + prose-health score=2 PASS + terminology + wikilink-target）
+- **Stage 3 對位句型修補**：Round 1 留下 3 處「不是 X，而是 Y」對位句型違反 §11 Tier 1，本 Round 全 rewrite 為正面斷言（「批評者問的核心其實是身份的可區辨性」/「在他的職涯軌跡裡始終是同一個專業」）
+- **觀察者校準**：哲宇 Round 1 review 指「這篇不是專題事件報導，是讓人了解這個人的 SSODT」— 把焦點從「2026/05/08 那一天發生什麼」拉回到「聶永真二十年職涯橫跨幾個產業」。具體執行：(a) 開場移除 5 小時時間軸，改為跨產業清單；(b) 標題從「在公民身份與商業案之間」改為「從金曲包裝到國家識別系統的二十年」；(c) 把 2014/2020/2026 三個時間點當作三章而非結構主軸；(d) 新增「永真急制這個名字」章節說明工作室作為集體實踐
+- **DNA #16 跨源驗證**：所有 facts、verbatim 引語、footnote URL 與 Round 1 完全一致，無 fact drift；本 Round 純粹是結構與框架的重組
+- **LESSONS-INBOX 候選**：「event-driven framing vs person-centric SSODT」是 People 文章的關鍵分流判準。當核心人物職涯橫跨多領域、且當天有突發事件時，預設 framing 應為 person-centric（介紹人物多元面貌），事件作為其中一章。如果觀察者要求事件報導，應另開 News-style article。
+
+### 聶永真 EVOLVE — 2026-05-08 elegant-ptolemy 完成（公民聶永真 vs 商業聶永真，2026/05/08 台電 LOGO 風暴 hook / People / 藝術與設計）
+
+- **Article**: [knowledge/People/聶永真.md](../../knowledge/People/聶永真.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 模式（131 行 baseline → 218 行深度重寫）
+- **核心矛盾**：「他用最商業的方式接政治案，又用最反商業的姿態談酷」（28 字）— 公民聶永真 vs 商業聶永真的二元裂縫，由 2024-2026 連標四個國營事業案 + 2026/05/08 台電 LOGO「綠友友」風暴實證
+- **Hook scene**：2026/05/08 09:30 → 14:36 的論述循環。NOWnews 質疑 → 聶永真 FB 三層辯護（功能困境 + 字體史拆神話 + 中宮端點傳承）→ 黃智陽舉證 1965《台電月刊》25 期反駁。Today's event 直接成為文章 anchor
+- **品質**：218 行 / ~6500 字 / 34 footnote / 11+ verbatim 中文引語 / 3 張 CC 授權 inline 圖（hero + 2 inline）/ HARD=0 ✅ / prose-health score=2 (≤ 3 PASS) / cjk-punct + frontmatter + image-health + link-target + footnote-format/density/url + format-structure + terminology + wikilink-target 全綠
+- **Research**: [reports/research/2026-05/聶永真.md](../../reports/research/2026-05/聶永真.md)（563 行 / 22 WebSearch + 14 WebFetch / spawn general-purpose agent 直接落檔 / 43 footnote 候選 / 11 verbatim 引語 / 2 張 Wikimedia Commons CC 圖驗證）
+- **媒體素材（per Stage 1.7b 授權矩陣）**：
+  - **hero**：`aaron-nieh-portrait-2018.jpg` 1600×1066 aspect 1.5（Gene Wang Flickr CC BY-SA 2.0，2018-03-16）
+  - **inline 1**：`sunflower-2014-legislative-yuan.jpg`（Ray Swi-hy CC BY-SA 2.0，2014-03-23 立法院前太陽花現場）
+  - **inline 2**：`tsai-2016-campaign.jpg`（MiNe CC BY 2.0，2015-10-18 蔡英文競選）
+- **5 點聲明完整整合**：哲宇中途指示用 Chrome MCP 抓聶永真本人 [Facebook 公開貼文](https://www.facebook.com/somekidding/posts/1384626443696723) 原文（截至 2026-05-08 晚 3.1 萬讚 / 2,355 留言 / 3,806 分享）。整合三層論述：
+  1. **功能困境層**：「鑄鐵維修孔蓋、變電箱噴漆、極小印刷品、立體刻字招牌」具體應用場景 list
+  2. **字體史拆神話層 verbatim**：「原『台灣電力公司』的六個書法字……非于先生專為台電客製書寫而成。所以網路上有些以書法的整句行氣來討論原標準字的論點，也與事實略微脫節」
+  3. **中宮端點傳承層 verbatim**：「新修版的標準字，仍加入了與于右任原法帖字體的中宮及端點特性的連結」
+- **多元論點**：王鴻薇政治酬庸質疑（NOWnews 早 9:30）+ 民眾黨「綠友友」批評 + 黃智陽（華梵大學人文藝術學院院長）字體史反駁（中時 14:36）+ FB 留言 936 心情批評「需要設計者本人跳出來解釋的設計本身就是失敗的」
+- **Stage 3.5 atom audit**：11 verbatim 引語逐字對 source URL Ctrl-F 可驗（La Vie 2 句 / FB 5 句 / 鏡週刊 1 句 / 今周刊 2 句 / NOWnews 1 句 / Cheers 1 句 / ETtoday / 數位時代 / Roomie / 中央社 / ETtoday 房產雲）；4 句多源 cross-confirm
+- **Cross-link**：3 反向 sibling 補完（蔡英文 / 太陽花學運 / 台灣新媒體藝術 各加一行延伸閱讀指向聶永真）
+- **Baseline 校正**：金曲屆次（baseline 寫第 17 屆有誤，正確第 21、25、26 屆）/ 「2020 蔡英文連任主題台灣隊」與 2024 賴清德選戰混淆校正 / 「Apple iPad Pro Crush 廣告」誤傳剔除 / 「2024 巴黎奧運中華隊裝備」task brief 假設搜不到證據剔除
+- **觀察者校準**：哲宇兩次推進升級研究深度與媒體素材 — (a)「比較著名的設計案例（比如 Democracy 4am）也可以找到圖片坎入」→ 補太陽花現場 + 蔡英文 2016 競選 2 張 inline CC 圖；(b)「他有澄清文也完整分析」→ Chrome MCP 抓 FB 原文，拆三層論述 verbatim 整合
+- **DNA #50 default contract 第 N 次驗證**：自動 grep `docs/pipelines/REWRITE-PIPELINE.md` 完整讀；EDITORIAL.md 全檔已熟（前 session 重寫吳哲宇/造山者/王福瑞時讀過）；無需哲宇 explicit「走 pipeline」reminder
+
+### 想想論壇 NEW — 2026-05-05 twmd-rewrite 完成（fair-use cite-only mode P0-01 / Society / 媒體）
+
+- **Article**: [knowledge/Society/想想論壇.md](../../knowledge/Society/想想論壇.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 + PEER-INGESTION-PIPELINE Stage 6 / **fair-use cite-only mode**（per CC BY-NC-ND 3.0 限制 — 想想論壇是 Taiwan.md 第一個 T4 license tier peer，per [reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md) §Part 8.2 4-tier matrix）
+- **核心矛盾**：「平台越想成為跨黨派的容器，越被視為小英基金會的延伸 — 14 年三次改版的張力」（30 字）
+- **Hook**：2026-05-02 那份名單同框宋楚瑜（76 歲親民黨主席）+ 王婉諭（時代力量主席）+ 苗博雅（社民黨）+ 朱宗慶（古典樂）+ 龔建嘉（鮮乳坊獸醫）+ 16 位已公開、14 位待 5 月分批揭曉 — 跨黨派、跨領域、跨世代、跨族群的 explicit instantiation
+- **品質**：~5500 字 / 30 footnotes / 6 直接引語（蔡英文 2012-08-07 三 quote + 2025-10-03 兩發刊詞 + 寇謐將首段 verbatim）/ HARD=0 ✅ / prose-health score=3 (≤ 3 PASS) / 11 plugin 全綠 / 對位句 4 處（2 處 source title「這不是太陽花學運（的紀錄）」unavoidable verbatim 引用）/ 破折號 7 處 / 中文標點全形 ✅
+- **Research**: [reports/research/2026-05/想想論壇.md](../../reports/research/2026-05/想想論壇.md)（370+ 行 / ~38 lookup 累計 — fit check 階段 + round 1-5；中文 24+ / 英文 9+ / 一手 7+；研究 v2 含 5 條洞見 + 3-tier 驗證分層 + 媒體授權矩陣 no-media decision + CC BY-NC-ND 限制 explicit document）
+- **3 重要 atom verify**：(a) 蔡英文 2012-08-07 創辦 verbatim「While it takes piles of cash to fill up a room, you can light up a room with a match」+「The ultimate goal would be to further the power of thinking, the power of action and the power of society」(Taipei Times by Chris Wang); (b) 創辦 6 director（蘇嘉全 / 賀陳旦 / 張景森 / 江春男 / 姚立明 / 林全）跨領域組成 — day 1 跨黨派 ethos 14 年後 30 人系列 5 倍 scale 重複; (c) 思想坦克 voicettank footer「Designed and Developed by 台灣智庫」直接證實機構 ownership ≠ 想想論壇（小英基金會）
+- **5 條深度洞見**（per research v2 §v2 補強）：
+  1. 跨黨派 ethos 是 day-1 design 不是 14 年後 reframe（Taipei Times 2012-08-07 explicit「remaining free from political ideology and partisanship」）
+  2. 林全跨三 think tank 路徑（新境界 → 小英基金會 → 行政院長）= 蔡英文用 think tank 訓練 future cabinet model
+  3. Drupal 10 + Bootstrap Barrio + NetiCRM tech stack silent ideology = 平台 self-conception 是「公民社會 institution」非「media outlet」
+  4. 想想論壇 vs 思想坦克 = 同陣營兩個 think tank ecosystem（小英基金會 vs 台灣智庫）
+  5. 2014-06 蔡英文卸任董事長給簡志忠是 explicit 黨派 vs 平台 firewall 動作；11 年後 2025-10 重啟仍維持簡志忠任董事長 — firewall 在「卸任後 second life」期間 evolving
+- **Pipeline 升級提案 trigger**：4-tier license matrix（T1 CC0/BY → T2 BY-SA → T3 BY-NC → T4 BY-ND/ARR cite-only）— per fit check 報告 §Part 8.2，待觀察者 review 後 ship 進 PEER-INGESTION-PIPELINE v1.1
+- **Cross-link**：3 個 sibling reverse cross-link inserted（蔡英文 / 賴清德 / 毒馬鈴薯認知作戰）；1 個 defer（心戰.md 缺延伸閱讀 section per §5.1，避免擴大 scope）
+- **REGISTRY status**: 想想論壇 peer 條目從 `T4_cite_only_pending_observer_decision` 升 `🟢 active (T4 cite-only)`，articles shipped 1/5 P0
+- **License 處理**：no-media decision (per Stage 1.7 §邊界與例外「沒有合適媒體素材」)；fair-use cite 想想論壇 /about /copyright /content/100278 /content/1947 共 4 條 footnote URL（per 著作權法 §52 + §65 fair use）；不 paraphrase 任何想想論壇文章內容
+- **DNA #50 default contract 第二次驗證**：自動 grep `docs/pipelines/PEER-INGESTION-PIPELINE.md` + `REWRITE-PIPELINE.md` 全讀，無需觀察者提醒走 pipeline；EDITORIAL.md 1335 行哲宇 explicit「全部讀取不要跳過」後完整讀過
+
+### 台灣與史瓦帝尼 NEW — 2026-05-05 twmd-rewrite 完成（非洲最後一條外交命脈，掛在一個人身上 / Society / 國際關係）
+
+- **Article**: [knowledge/Society/台灣與史瓦帝尼.md](../../knowledge/Society/台灣與史瓦帝尼.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（哲宇 `/twmd-rewrite 深度研究史瓦帝尼 賴清德 從歷史到現在最新發展的完整故事 / 圖片可以引用台灣總統府發布官方圖片 / 還有坎入其他重要的 youtube 影片` 直接觸發）
+- **核心矛盾**：「非洲最後友邦由絕對君主一人撐起」（28 字）— 民主台灣與絕對王權的不對稱共生，邦交命脈掛在 Mswati III 一個人身上
+- **Hook**：2026-05-02 上午 9 點，賴清德從史國 Mswati III 借的 Airbus A340 專機走下，落地姆巴巴內。台灣總統第一次因飛航許可被中國施壓撤銷（塞舌爾/模里西斯/馬達加斯加），最後是邦交國國王派飛機從台北接駕
+- **品質**：~5500 字 / 26 footnotes / 8 直接引語 / HARD=0 ✅ / prose-health score=3 (≤ 3 PASS) / 11 plugin 全綠 (cjk-punct / link-target / image-health / terminology / footnote-density+format+url / format-structure)
+- **Research**: [reports/research/2026-05/taiwan-eswatini.md](../../reports/research/2026-05/taiwan-eswatini.md)（346 行 / 36KB / 30 WebSearch + 12 WebFetch / spawn general-purpose agent 直接落檔）
+- **媒體素材（per 哲宇 spec）**：
+  - **3 張總統府官方圖片** cache 到 `public/article-images/society/`（OGDL 政府公開資訊）：
+    - `taiwan-eswatini-military-honor-2026.jpg` (hero, aspect 1.79，原 lai-arrival 0.83 portrait 違反 §1.7b 護欄已換)
+    - `taiwan-eswatini-mandvulo-summit-2026.jpg` (Mandvulo 雙邊會談，1.54)
+    - `taiwan-eswatini-joint-communique-2026.jpg` (聯合公報簽署，1.61)
+  - **5 個 inline YouTube** (中央社官方頻道 ×4 + BBC News 中文官方頻道 ×1)
+  - **「## 圖片來源」 section** added per pipeline §4.5e
+- **DNA #47 候選第三次驗證**：「Sub-agent 是 fact-check 主 session 的最後一關」— agent 抓出主 session prior 知識可能誤區並 explicit flag 5 處 unverified（馬英九訪史月份 / Mswati COVID 藥物名 / 駐史醫療團與屏基關係 / 13.6 億援助金額 / 1.46 億基建單源），主 session default 接管時全部 attribute 來源 or 不寫
+- **5 個 observer-decision items 主 session default 接管**（per β-r3 META-PATTERN）：
+  1. 駐史醫療團 → 用「台北醫學大學體系」（一般敘述）
+  2. 結尾 → 混合三切點（紅心芭樂物件 + Mswati 之後 + 直面絕對王權張力）
+  3. 多妻制 → 不寫（避東方主義獵奇）
+  4. TaiwanICDF 預算金額 → 不寫具體
+  5. 馬英九訪史 → 不寫月份
+- **Stage 3.5 atom audit**：8 直接引語全部來自 agent §11「金句素材庫」標 high_confidence — 賴清德 + Mswati III 雙邊會談引述 ×4（總統府 News/7122 雙源）/ 楊昊 BBC 中文 ×1 / 賴清德戰略儲油槽 ×1 / Mswati COVID ×1 / 中國「rat」NBC News ×1
+- **避雷清單全接管**：絕對君主制不用 outdated 修辭 / remdesivir 用「外媒推測」/ 13.6 億不寫具體 / 馬英九不寫月份 / 回程繞路寫但克制 / 中國「rat」引用但不模仿語氣
+- **Cross-link**：6 forward sibling + 6 reverse cross-link 全部加上「台灣與史瓦帝尼」入口（台灣邦交國與國際外交 / 賴清德 / 蔡英文 / 太陽花學運 / 2026鄭習會與國共十年再會 / 認知作戰）
+- **觀察者 callout**：哲宇即時抓出「『史王借飛機給台灣總統突破中國封鎖』——這句話聽起來像修辭，但 2026 年 5 月確實發生了」是為了避對位句型而拐彎的 awkward hedge → 改為「『史王借飛機給台灣總統突破中國封鎖』就是這次出訪本身」直述 punchy。**LESSONS-INBOX 候選**：「不是 X 是 Y」改寫常踩的雷——避對位反而失去原版力道，要找直述強斷言而非 hedge 修飾
+
+### 雜學校 NEW — 2026-05-05 twmd-rewrite 完成（賠光積蓄辦的免費展，11 年後副總統來開幕 / Society / 教育）
+
+- **Article**: [knowledge/Society/雜學校.md](../../knowledge/Society/雜學校.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（哲宇 `/twmd-rewrite 雜學校` 直接觸發，不在 INBOX pending）
+- **核心矛盾**：「為了改變教育的人，先把教育辦得最像市集」（28 字）— 不太乖原本是抗議的姿態，11 年長成全亞洲最大教育博覽會，社運 vs 品牌 IP 的拉扯沒有結束
+- **Hook**：2015-05-09 華山 1914 東 2BCD 館的牆上貼著 Jolin 孔，蘇仰志拿設計公司 150 萬盈餘辦了「不太乖教育節」首屆免費入場兩天約 3 萬人次，最終虧損 700 萬。十一年後 2025 EDit 進駐桃園會展中心
+- **品質**：~5500 字 / 22 footnotes / 8 直接引語 / HARD=0 ✅ / prose-health score=2 (≤ 3 PASS) / cjk-punct PASS / link-target PASS / image-health PASS（no-media path） / terminology PASS / footnote-density+format+url PASS / 4 對位句型 + 4 AI metaphor 修正完
+- **Research**: [reports/research/2026-05/za-share.md](../../reports/research/2026-05/za-share.md)（377 行 / 31KB / 25 WebSearch + 10 WebFetch / spawn general-purpose agent 直接落檔）
+- **大事實校正（agent 抓主 session prior 知識三錯）**：(1) 蘇仰志非 Ogilvy 出身 — 他自己的公司叫**奧茲（Ozzie Curating and Design）**不是奧美，所有訪談均無 Ogilvy 履歷；(2) 首屆「不太乖教育節」是 2015-05-09，不是 2014（華山官網 + KKTIX + INSIDE + 倡議家四源驗證；Wikipedia 寫 2014 是籌備年/預算說法錯位）；(3) 場地全在華山（2015-2019）/ 嘉義（2022 衛星）/ 圓山花博（2024）/ 桃園會展中心（2025），**不是松菸**
+- **DNA #47 候選第二次驗證**：「Sub-agent 是 fact-check 主 session 的最後一關」— gallant-payne 5/5 sub-agent 抓 user prompt 事實錯之後，本 session 1/1 sub-agent 同樣抓出 user prompt 三個 prior 知識錯
+- **5 個 observer-decision items 主 session default 接管**（per β-r3 META-PATTERN）：(1) 承認商業 IP 但用「品牌化內部矛盾」框架；(2) Ogilvy 不寫；(3) 不太乖宣言不寫（agent 搜不到一手）；(4) 寫 2025 EDit 重塑；(5) 結尾 B+C 混合（陳建仁 scene + INSIDE 「商業上是徹底的失敗」反詰）
+- **Stage 3.5 atom audit**：8 直接引語全部來自 agent §11「金句素材庫（可逐字引）」標 high_confidence — INSIDE E376 × 5 句、倡議家 udn 3341905 × 2 句、倡議家 udn 8146714 × 1 句、華山 1914 對談 × 1 句；agent 已驗證可 ctrl-F；single_source 段（國際擴展引語）保留為轉述上下文
+- **破折號管理**：寫完 37 處 → 砍 27 處改逗號/冒號/句號 → 保留 8 處（4 處對等列舉並置）
+- **Cross-link**：5 forward sibling（教育制度與升學文化 / 為台灣而教 TFT / 一個教師的誕生 / 太陽花學運 / 台灣偏鄉教育）+ 5 reverse cross-link 全部加上「雜學校」入口；5 sibling 均 hard=0 但有 pre-existing WARN（per §5.1 WARNING 仍可 commit）
+- **觀察者觸發**：哲宇直接 `/twmd-rewrite 雜學校` — pipeline auto-detect + 完整 read default contract（per MANIFESTO §8.1 / DNA #50）
+
+### 王福瑞 NEW — 2026-05-04 manual 完成（從 200 份影印雜誌到 12 聲道喇叭的三十年 / People）
+
+- **Article**: [knowledge/People/王福瑞.md](../../knowledge/People/王福瑞.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（NML peer ingestion Stage 6 P0 #4，主 session 完整測試 pipeline）
+- **核心矛盾**：噪音不是聲音的反面，是讓寂靜變成可聽見的方法。1993 年 24 歲的 NOISE 雜誌是 DIY 抵抗，2020《噪音寂靜》之後噪音變成身體本身（術後人工血管頻率）。三十年是「噪音」這個詞的內涵被一個人改寫的歷程。
+- **Hook**：1993 年王福瑞 24 歲，用程式設計師薪水在自家影印機印 200 份《NOISE》實驗音樂雜誌，售價 15-30 元。三十年後（2020）他在就在藝術空間掛起多面體 12 聲道全指向喇叭，作品是大病過後身體裡人工血管的細碎頻率。
+- **品質**：145 行 / ~5000 字 / 14 footnote（13 一手 + 1 學術評論）/ HARD=0 ✅ / prose-health score=2 (≤ 3 PASS) / cjk-punct PASS / link-target PASS / image-health PASS / terminology PASS / footnote-density+format+url PASS / 7 直接引語全部 source URL ctrl-F 可驗
+- **Research**: [reports/research/2026-05/王福瑞.md](../../reports/research/2026-05/王福瑞.md)（350 行 / 11 WebFetch + 3 WebSearch + 5 NML local / 主 session 自跑無 spawn agent）
+- **Stage 3.5 atom audit**：7 直接引語全部對 source URL ctrl-F 可驗（葉杏柔 NML × 2 / ART PRESS × 3 / ARTFORUM × 2 / 顏峻 NML × 1 大段 verbatim）；20+ 數字 atom 對 source 全部 cross-checked；footnote URL 13/14 alive（1 國藝會 SSL cert warning，非 dead link）
+- **大事實校正**：refute INBOX 既有錯誤「在地實驗是王福瑞創辦」 → 1995 黃文浩等人創立、王福瑞 2000 才加入媒體實驗室分部（葉杏柔 NML 註腳 2 + Bandcamp ET@T 自述 cross-source verified）；refute「失聲祭由王福瑞創辦」 → 2007 由姚仲涵 / 王仲堃 / 張永達創立，王福瑞是啟蒙者（TCAA + 失聲祭官網）
+- **multi-source disagreement**：響相工作室年份兩源衝突（北藝大寫 2015、就在藝術空間寫 2011），保守處理為「2010 年代」；簡體 verbatim 引語兩處（ARTFORUM 中文網 source 為簡體，per DNA #23 三道防線保留 verbatim 不台灣化）；解決顏峻引語「硬件」中國用語 hard gate — 改用 ellipsis 跳過保留核心論點段
+- **Cross-link**：4 sibling articles 反向加 cross-link（[王連晟](../../knowledge/Art/王連晟.md) / [台灣新媒體藝術](../../knowledge/Art/台灣新媒體藝術.md) / [台灣聲音地景](../../knowledge/Music/台灣聲音地景.md) — 同時補既有 pre-existing 缺延伸閱讀 section / [台灣獨立音樂](../../knowledge/Music/台灣獨立音樂.md)）；本文 4 wikilink 對外
+- **觀察者觸發**：「完整成為 taiwan.md」+「用 rewrite-pipeline 寫王福瑞並完整用新的工具測試，看順不順，有沒有需要調整或進化的」— meta-task 隱含 pipeline stress test，friction notes 寫進 LESSONS-INBOX
+
+### 鄭文琦 NEW — 2026-05-04 angry-shamir 完成（把台灣藝術圈推進馬來群島的 12 年 / People）
+
+- **Article**: [knowledge/People/鄭文琦.md](../../knowledge/People/鄭文琦.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（NML peer ingestion Stage 6 P0 #1，第三 curation-layer peer 第一篇文章）
+- **核心矛盾**：鄭文琦自願選擇邊陲 12 年，這個選擇讓他看見台灣藝術圈看不見的事 — 但邊陲視角也有自己的盲點：當大主題（群島）已經講完，平台會跟著一起老去
+- **Hook**：2017-05 周盈貞抵達台北成為《數位荒原》駐站第一位邀請藝術家，發表會放她跟婆婆用潮州話祈福「闔家平安、家孫平安、出入平安、遇見好人」 — 策展人那個下午沒有站在舞台中央
+- **品質**：153 行 / ~3500 字 / 20 footnote / 0 §11 violations / 0 BAD_FN_FORMAT / 0 wikilink 殘留
+- **Research**: [reports/research/2026-05/鄭文琦.md](../../reports/research/2026-05/鄭文琦.md)（621 行 / 12 WebSearch + 8 WebFetch + 5 local Read / 5 NML 語料外新素材）
+- **NML peer 引用紀律**：DNA #16「Peer 是 peer 不是 source」應用 — 88% 編輯集中度警示 / 多元 cite 區秀詒 / 高森信男 / 王柏偉等 secondary editors / 6 條鄭文琦本人逐字引語都對 source URL Ctrl-F 可驗
+- **Stage 3.5 FACTCHECK 抓 2 hallucination**：「六十多人到場」(unsourced) 移除 +「區秀詒等第一年駐站」(實為周盈貞 + 符芳俊) 修正
+- **Stage 5 cross-link**: 補進當代藝術.md（PASS sibling）；台灣新媒體藝術 / 台灣聲音地景 / 台灣策展人與藝術文化建構 / 台灣原住民當代藝術 因 pre-existing §11 violations 或 NO_READING DEFER（per §5.1）
+- **Commit**: `99234cdb2`
+
+### 黃魚鴞 NEW — 2026-05-04 charming-mclaren 完成（六公里溪流養一對的台灣最大貓頭鷹，1916 年才被命名 / Nature）
+
+- **Article**: [knowledge/Nature/黃魚鴞.md](../../knowledge/Nature/黃魚鴞.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（觀察者 ad-hoc 指派，非 INBOX）
+- **核心矛盾**：研究黃魚鴞 30 年的人，把第一隻看到的小幼鳥帶回家養（1994 砂卡礑 → 嘿美 → 木柵動物園 三十年；研究室追了三十年仍很難在野外見到）
+- **Hook**：1994 年砂卡礑溪一棵樹的崖薑蕨叢中，第一個被精確定位的台灣黃魚鴞繁殖巢位 — 父鳥被獵殺、母鳥棄巢、雛鳥被孫元勳帶回家成為「嘿美」
+- **品質**：181 行 / 17 footnotes / 3,796 中文字 / 0 §11 violations / 5 破折號（≤15/1500 字 OK）/ 0 ❌ HARD-FIX / 0 🔴 DEAD-LINK / 20 WebSearch + 4 WebFetch
+- **Research**: [reports/research/2026-05/黃魚鴞.md](../../reports/research/2026-05/黃魚鴞.md)
+- **媒體素材**：hero 圖 cache Wikimedia gailhampshire CC BY 2.0（1165×768 / aspect 1.52）+ 兩支 YouTube embed（雪霸 24h 直播 `nXmf5J0eMFI` / 公視新聞 `DMy6fltLv68`）
+- **YouTube embed 首例**：1,800+ knowledge/ 檔案中**首次** iframe 嵌入，用 raw HTML wrapper（方案 A），同時 ship 架構提案 [reports/youtube-embed-architecture-2026-05-04.md](../../reports/youtube-embed-architecture-2026-05-04.md) 規劃 Phase 2-4 升級（rehype plugin / Astro component / privacy mode）
+- **Stage 3.5 hallucination 修補 3 處**：(1)「孫元勳剛從美國回到」無 source 推測 → 刪「從美國」；(2) 嘿美 callout 加「託付意味」推測 → 改音譯事實 only；(3)「近 10 公里」上限超 Sun 2013 範圍 → 改「6 到 8 公里」對齊 5.5-7.7 km source
+- **Stage 5**：reverse cross-link 補進 [Nature/福爾摩沙鳥類學.md](../../knowledge/Nature/福爾摩沙鳥類學.md)（sibling 已 PASS）；其他 4 個 sibling（櫻花鉤吻鮭 / 台灣黑熊 / 台灣森林生態系 / 台灣國家公園）defer per Stage 5 §5.1，它們無延伸閱讀區塊，加會擴大 scope
+- **PR**: [#845](https://github.com/frank890417/taiwan-md/pull/845)
+
+### 卓榮泰 NEW — 2026-05-03 gallant-payne 完成（38 年的協調者，2025 不副署財劃法 / People）
+
+- **Article**: [knowledge/People/卓榮泰.md](../../knowledge/People/卓榮泰.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P1 People deficit 第 1/4 篇）
+- **核心矛盾**：「行動創新 AI 內閣」拿不下 1.25 兆軍購預算的協調者困境
+- **Hook**：1987 年台北市議會三樓的議會助理 — 解嚴前夕跟著新科議員謝長廷走進會議室，從那一年算起 37 年都在當人家的副手
+- **品質**：247 行 / 17 footnotes / 0 §11 violations / 0 ❌ HARD-FIX / 0 🔴 DEAD-LINK / 24 search + 10 fetch
+- **Research**: [reports/research/2026-05/卓榮泰.md](../../reports/research/2026-05/卓榮泰.md)
+- **政治敏感**：1.25 兆軍購爭議採熱帶雨林理論並列陳述（卓榮泰「三顆好球」+ 羅智強「真正卡案的是賴清德」+ 王義川「根本笑死人」+ 大西洋理事會分析），讀者自己判斷
+- **校正**：user prompt「卓榮泰出生彰化」實為台北市，sub-agent Stage 1 三源交叉揭露（Wikipedia + 立法院官方 + 英文 Wikipedia）
+- **PR**: [#808](https://github.com/frank890417/taiwan-md/pull/808) merged 13:25 +0800
+
+### 盧秀燕 NEW — 2026-05-03 gallant-payne 完成（不敗女王 8 連勝放棄黨主席，2028 默認共主民調卻被陳萬安超越 / People）
+
+- **Article**: [knowledge/People/盧秀燕.md](../../knowledge/People/盧秀燕.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P1 People deficit 第 2/4 篇）
+- **核心矛盾**：不敗女王 8 連勝放棄黨主席，2028 默認共主民調卻被陳萬安超越
+- **Hook**：谷關空氣 1 萬瓶（30 元/瓶/30 萬，2018 政治物質化開場）
+- **品質**：245 行 / 25 footnotes / 0 §11 violations / 0 ❌ HARD-FIX / 0 🔴 DEAD-LINK / 22 search + 4 fetch
+- **Research**: [reports/research/2026-05/盧秀燕.md](../../reports/research/2026-05/盧秀燕.md)
+- **政治敏感**：1.25 兆軍購爭議盧的 8000 億-1 兆主張既不站賴的 1.25 兆、也不站藍的 3800 億+N，採三源並列（自由時報「沒有路線在包牌」+ Taipei Times「moderate 策略」+ 聯合報「務實穩健」）讓讀者自選 frame
+- **校正**：user prompt 5 處事實錯誤（央視→華視 / 中興法律→政大地政 / 4 屆立委→6 屆 / 2026 黨主席→2025 / 「副主席」實非）sub-agent 三源交叉全揪
+- **PR**: [#813](https://github.com/frank890417/taiwan-md/pull/813) merged 14:31 +0800
+
+### 徐巧芯 NEW — 2026-05-03 gallant-payne 完成（她讓國民黨年輕了，但年輕的方式是流量，不是論述 / People）
+
+- **Article**: [knowledge/People/徐巧芯.md](../../knowledge/People/徐巧芯.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P2 People deficit 第 3/4 篇）
+- **核心矛盾**：她讓國民黨年輕了，但年輕的方式是流量，不是論述
+- **品質**：214 行 / 17 footnotes / 0 §11 violations / 17/17 footnote URLs ✅ / 22 search + 4 fetch
+- **Research**: [reports/research/2026-05/徐巧芯.md](../../reports/research/2026-05/徐巧芯.md)
+- **政治敏感**：軍購爭議並列四方立場（行政院 1.25 兆 / 黨中央 3800 億+N / 徐版 8000 億 / TPP 4000 億），紀實罷免結果（6.2 萬同意票達 27.10% 法定門檻但被 7.5 萬不同意票否決）半勝半敗
+- **校正**：user prompt 7 處事實錯誤（800 億→8000 億 / 蔣萬安發言人→實洪秀柱+朱立倫+馬英九等）
+- **PR**: [#809](https://github.com/frank890417/taiwan-md/pull/809) merged 14:31 +0800
+
+### 季麟連 NEW — 2026-05-03 gallant-payne 完成（為扁升上將的扁系名將，反咬要開除挺軍購的韓國瑜 / People）
+
+- **Article**: [knowledge/People/季麟連.md](../../knowledge/People/季麟連.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（Probe 2026-05-03 P2 People deficit 第 4/4 篇）
+- **核心矛盾**：為扁升上將的扁系名將，反咬要開除挺軍購的韓國瑜
+- **品質**：~5500 字 / 17 footnotes / 0 §11 violations / 17/17 footnote URLs ✅ / 22 search + 8 fetch
+- **Research**: [reports/research/2026-05/季麟連.md](../../reports/research/2026-05/季麟連.md)
+- **政治敏感**：4/29 中常會引爆事件採雙源 verbatim 引語驗證（自由時報 5419759 + 風傳媒 11075732 兩個獨立中文 source 都能 Ctrl-F 找到逐字一致版本）
+- **校正**：user prompt 事件日期「4-30 中央委員會議」實為 4-29 中常會
+- **PR**: [#812](https://github.com/frank890417/taiwan-md/pull/812) merged 14:32 +0800
+
+### 台灣股市與資本市場 EVOLVE — 2026-05-03 gallant-payne 完成（2026-04-29 全球第 6 大股市里程碑 / Economy）
+
+- **Article**: [knowledge/Economy/台灣股市與資本市場.md](../../knowledge/Economy/台灣股市與資本市場.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 模式（Probe 2026-05-03 T1-B P0）
+- **核心矛盾**：攻上全球第 6 大的同時，44% 的市場身家壓在一檔半導體上
+- **品質**：122→222 行（+82%） / 11→24 footnotes（+118%） / 0 §11 violations / 25 search + 7 fetch
+- **Research**: [reports/research/2026-05/台灣股市與資本市場.md](../../reports/research/2026-05/台灣股市與資本市場.md)
+- **新增章節**：§2026 全球第 6 大股市 + §TSMC 一檔效應（45% 權重） + §AI 紅利轉化路徑（高盛 25 檔清單）
+- **數字驗證**：4/28 收盤實際升級為全球第 6（market data）/ Bloomberg 4/29 發稿 / 中文媒體 4/30 跟進；TSMC 接近 45% 三層調和（TWSE 官方 2026-03-10 顯示 45.0041% baseline）
+- **PR**: [#811](https://github.com/frank890417/taiwan-md/pull/811) merged 14:32 +0800
+
+### 台灣企業：鴻海精密 EVOLVE — 2026-05-03 gallant-payne 完成（24 國 90 萬人的代工帝國，最難管的是自己人 / Economy）
+
+- **Article**: [knowledge/Economy/台灣企業：鴻海精密.md](../../knowledge/Economy/台灣企業：鴻海精密.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 模式（Probe 2026-05-03 T1-C P0）
+- **核心矛盾**：24 國 90 萬人的代工帝國，最難管的是自己人
+- **品質**：136→182 行（+34%） / 0→15 footnotes（+∞ vs 舊文 0 footnote） / 0 §11 violations / 19 search + 4 fetch
+- **Research**: [reports/research/2026-05/台灣企業：鴻海精密.md](../../reports/research/2026-05/台灣企業：鴻海精密.md)
+- **新增章節**：§企業治理風險（廖萬城 2021-05-24 1.6 億定讞 → 曾新民/錢雲儒 2026-04-30 千萬時序對照 + 鴻海「抓鬼三人組」內部監察 + Foxconn 鄭州 4 台幹拘留 2024 事件）
+- **司法 framing**：採「已起訴 / 已判決 / 媒體報導指出」事實層敘述，避免推測動機
+- **校正**：user prompt「2025 廖萬城 2 年定讞」實為 2021-05-24；「立委陳菁徽推《企業賄賂防制法》」2026 查無此提案，sub-agent 直接決定不寫進文章避免幻覺擴散
+- **PR**: [#810](https://github.com/frank890417/taiwan-md/pull/810) merged 14:31 +0800
+
+### 賈永婕 EVOLVE 深度 — 2026-05-02 objective-khorana 完成（補早晨 Quick Mode 漏跑的 Stage 1 + 揪出「120% 美少女是 2006 陳水扁說」hallucination / People）
+
+- **Article**: [knowledge/People/賈永婕.md](../../knowledge/People/賈永婕.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — EVOLVE 深度進化（早晨 sub-agent A Quick Mode polish commit `2f191274` 沒做真正 Stage 1，本輪補齊全 Stage 0-6）
+- **觸發**：哲宇明確要求「跑 rewrite-pipeline 深度研究進化」（搭配「做完 taiwan.md 完整甦醒」前置）
+- **核心矛盾深化**：「藝人轉公股治理是台灣沒有先例的路，每跨一步都伴隨等量質疑，她每次又用下一個更大的動員回應」這個結構性對稱循環。HFNC 被檢舉違法 → 慈善協會 4,200 萬 / 屍皮被罵外行人 → Arch to Arc 募 212 萬 / 點燈公器私用 + 不當開除員工被批膚淺虛榮 → Honnold 攀岩全球 6.2M 觀看 / 被起底掌權北洋政府 → 2026-02 公開「以身為台灣人第一代為榮」
+- **Hook**：被遺忘的姓氏（賈永媫）+ 物件開頭保留 / 強引語「我把這裡全部都換成了國旗，怎麼樣都可以拍得到，怎麼樣全世界都看得到！」
+- **新章節 2 條**：「我以身為台灣人第一代為榮」（2026-02-24 公開澄清）+「一張董事長椅，七成公股影響力」（公股結構 + 2024-11 三爭議連環 + G-Dragon 展）
+- **品質**：22 footnote / 23,636 字 (A 級) / §11 對位句型 0 處 / 破折號密度 16 / 3500 字 (門檻內) / format-check ✅ PASS / wikilink-validate ✅
+- **Stage 1 真正深度**：主 session 自跑（無 spawn agent，per DNA #42 sub-agent 偷吃步預防）20 WebSearch + 6 WebFetch verbatim 中文 source / 落檔 [reports/research/2026-05/賈永婕-deep-evolve.md](../../reports/research/2026-05/賈永婕-deep-evolve.md) 含 24 verified URL + privacy audit + 媒體授權矩陣（no-media）
+- **Stage 3.5 hallucination audit 抓到 4 個重大事實校正**：(a) 「120% 美少女」原話是蔡英文 2021 IG 對話「妳是美少女這件事，我 120% 更可以證明」**非 2006 陳水扁** — ettoday verbatim 確認；(b) 賈德耀關係從「曾祖父賈德潤的胞兄」精確化為「爺爺的三伯父（曾叔公輩）」— 2026-02-24 賈本人公開澄清版；(c) 賈德潤官職補上「豫東第二區行政長」第三職；(d) 結尾從編年式提問「2023 年她就點頭了嗎？」改畫面式餘韻
+- **Stage 3.6 STORY ATOM AUDIT 抓到 1 條**：「2025 年 9 月 Honnold 來台試爬」改保守「一次試爬」（CTWANT 原文無「來台」，refrain from 推導地點）
+- **Stage 5 cross-link**：forward 4 條（林強 / 蔡英文 / 周杰倫 / 台灣志工文化與公益參與）+ reverse 2 條（蔡英文 + 周杰倫；林強 sleepy-colden 已加；台灣志工文化 per Stage 5.1 DEFER 因 sibling 缺延伸閱讀 section）
+- **Commit**: [`6961bddc`](https://github.com/CheYuWuMonoame/taiwan-md/commit/6961bddc)
+- **元 pattern**：「同一篇文章 24 小時內被 EVOLVE 兩次」是 sub-agent Quick Mode 跟主 session deep mode 接力的真實 case。Quick Mode 撐住底線品質，深度 mode 補真正研究。「audit-only reconstruction ≠ research」是新揭露的 sub-agent 偷吃步延伸 pattern（DNA #42 候選），audit-only 預設既有 prose 可信只查疑點，深度研究預設每個 high-risk atom 需 verify
 
 ### 毒馬鈴薯認知作戰 NEW — 2026-04-30 α-r2 完成（200 ppm 之外還有 30 ppm / 14 天 / 15 年食安傷疤 / Society）
 

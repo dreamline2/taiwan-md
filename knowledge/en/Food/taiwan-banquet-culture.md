@@ -1,256 +1,155 @@
 ---
-title: 'Taiwan Roadside Banquet Culture'
-description: "How an industry that defies quantification became Taiwan's most resilient cultural vessel—from Kangxi era to pandemic winter"
-date: 2026-03-23
+title: 'Taiwanese Bandoh Banquet Culture'
+description: "An industry that has existed since the Qing dynasty produced the world's densest concentration of master banquet chefs on Taiwan's most barren land. The pandemic made 90 percent of orders evaporate, but what insiders truly worry about has never been unemployment; it is the loss of transmission."
+date: 2026-03-30
+author: 'Taiwan.md'
+category: 'Food'
+subcategory: '飲食場景'
 tags:
   [
-    'roadside banquet',
-    'pān-toh',
-    'master chef',
-    'Taiwanese feast',
-    'community culture',
-    'traditional skills',
+    'Bandoh Banquets',
+    'Master Banquet Chefs',
+    'Roadside Banquets',
+    'Taiwanese Banquets',
+    'Community Culture',
+    'Traditional Skills',
     'Neimen',
-    'human connection',
+    'Human Warmth',
   ]
-category: 'Food'
-readingTime: 8
-lastVerified: 2026-03-23
+readingTime: 7
+lastVerified: 2026-03-30
 lastHumanReview: false
-image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/The_End_of_Ghost_Festival_Party_at_Dongsha_Tzufu_Temple_20170919a.jpg/960px-The_End_of_Ghost_Festival_Party_at_Dongsha_Tzufu_Temple_20170919a.jpg'
-imageAlt: 'Taiwan roadside banquet scene'
-imageCredit: 'Wikimedia Commons, CC BY-SA'
+featured: false
 translatedFrom: 'Food/台灣辦桌文化.md'
+sourceCommitSha: 'e10215bc7'
+sourceContentHash: 'sha256:e2be36c59e728de7'
+sourceBodyHash: 'sha256:842ed79eba1c0756'
+translatedAt: '2026-05-12T11:51:04+08:00'
 ---
 
-# Taiwan Roadside Banquet Culture (辦桌)
+# Taiwanese Bandoh Banquet Culture
 
-> **30-second overview:** An industry that existed since the Kangxi era of the Qing Dynasty,
-> nurturing the world's highest density of master chefs on Taiwan's most barren land.
-> During the pandemic, roadside banquet orders plummeted 90%, yet this unquantifiable,
-> barely sustainable industry remains Taiwan's most resilient cultural vessel—recording every major life event from birth to death.
+> **30-second overview:** Setting out at 3:30 a.m. to prepare ingredients, catching trout that have escaped in a downpour, dismantling canvas tents in a typhoon: this is the daily life of a master banquet chef, and also a snapshot of Taiwan's 300-year bandoh banquet culture. At its peak, the small township of Neimen in Kaohsiung produced 150 master banquet chefs. In the pandemic year, 90 percent of orders disappeared. Today, a 40-year-old counts as a "young chef" in the industry, and among chefs under 30, fewer than 2 out of 10 can be found. What insiders worry about is not market contraction, but the disappearance of an entire body of knowledge about life rituals spanning the worlds of humans, gods, and spirits.
 
-March 2020. Master Chef Xue Menghui from Kaohsiung's Neimen District received his 500th cancellation call. All orders for the 2nd and 3rd lunar months vanished. This second-generation master from a banquet family could only work at a friend's lunch box shop, trading his "shovel-sized wok spatula" for a small ladle serving "ants climbing a tree."
+At 5 p.m., in the auditorium of a school in Kaohsiung, 120 banquet tables were about to begin when a torrential rainstorm suddenly arrived. Water rose to calf height, the frames of the canvas tents bent under the weight of the rain, stoves were extinguished, pots and basins floated on the water, and even the trout waiting to go into the wok swam away by the dozen.
 
-That year, Taiwan's roadside banquet industry saw orders plunge 90%. But the real crisis wasn't unemployment—it was the disappearance of tradition.
+Veteran Tainan master banquet chef Wang Yi-yong arrived to inspect the site and did not call a halt. He asked staff to cut holes in the tent fabric to drain the water, move the kitchen equipment under the eaves, then rolled up his sleeves and began catching fish.
 
-When Xue flipped through his father's work diary from the 1990s, the entire lunar calendar was packed with bookings: 25,000 tables per year, 10+ events on busy days. Now, 500 tables a year is cause for celebration. From "two days off per month" to "five days off per week," this industry that predates the Qing Dynasty is racing against time.
+In the end, only one trout was missing, made up with ingredients from the spare table. Every guest had food to eat.
+
+This was not an exception. This was the standard.
+
+## The Civil Arena and the Martial Arena
+
+People often say that restaurants are a "civil arena," while bandoh is a "martial arena." The comparison is not only about physical strength.
+
+**No matter how fierce the wind and rain, no matter whether bridges collapse or roads give way, as long as the host family has not canceled, the master banquet chef must complete the mission.** Culinary skill is the baseline; crisis management is the core competitive capacity. In a full bandoh event, the master banquet chef simultaneously plays the roles of executive chef, event director, and logistics coordinator: canvas tents, tables, chairs, bowls, plates, ingredient suppliers, and the deployment of water-foot workers all fall under one person's responsibility. The site is not fixed, the time is not fixed, and the personnel are not fixed. In management terms, this is the most difficult model of outside catering.
+
+On the night of Typhoon Morakot in 2009, Neimen master banquet chef Hsueh Meng-hui was in Fengshan cooking for a deity's birthday peace banquet. The wind and rain were severe; the canvas tents were blown down, and an iron frame struck a cook on the head before the host family decided to evacuate. After he sent the water-foot workers back to Qiwei and Shanlin, every bridge back to Neimen had already been cut off. He was trapped in a 7-ELEVEN all night, with the raging torrents of the Nanzixian River rolling past like the sea.
+
+"What I fear most is making guests wait in distress, so as soon as I got home I rushed to the phone," Hsueh said. The next day, he still had an event to handle for Guanyin Bodhisattva's birthday. (The Reporter, 2020)
 
 > **📝 Curator's Note**
-> Roadside banquets aren't just about a meal business—they're Taiwan's only cultural vessel
-> that spans life and death, connecting the human, divine, and spirit realms.
-> Losing pān-toh means losing an entire knowledge system of life rituals.
+> The "martial arena" spirit of bandoh is precisely what restaurant culture has found increasingly difficult to reproduce. A Michelin restaurant manages an environment with a fixed kitchen, fixed staff, and fixed equipment; a bandoh chef builds a temporary kitchen from scratch in an unfamiliar place every time. Someone who can catch fish in a downpour and keep serving the banquet is Taiwan's most hard-edged field cook.
 
-## The Forgotten Industry Genesis: Older Than You Think
+## A Kingdom of Master Banquet Chefs Raised by Badlands
 
-### The "Master Chefs" of Kangxi Era
+The place with the highest density of bandoh in Taiwan is a stretch of land where almost no crops can survive.
 
-**In 1902, Japanese colonial researchers conducting the "Temporary Investigation of Taiwan's Old Customs" discovered that "pān-toh" was already common terminology in late-Qing Taiwan.**
+Neimen District in Kaohsiung is surrounded by mountains on all sides. Its soil is highly alkaline chalky earth, unfavorable for farming; only thorny bamboo can survive there. In the 1960s, Neimen residents who had originally supplied woven bamboo goods to banana farmers in Qishan watched low-cost cardboard boxes take away the market for bamboo baskets, and began moving into the bandoh industry in waves.
 
-Academia Sinica's Institute of Taiwan History associate researcher Zeng Pincang found evidence from historical ledgers and diaries that as early as the Kangxi period, Taiwanese people habitually "set tables for banquets," hiring professional chefs (called "zǒng pù," "dāo zhǐ," or "dāo zhǔ") to cook at home.
+Natural barrenness instead became an advantage. With no other choices, Neimen residents expanded quickly through a system of "masters leading apprentices." Second and third cooks set up their own operations after completing their training, and water-foot workers accumulated experience before becoming chefs themselves. **At its peak, among Neimen's population of 14,000 there were 150 master banquet chefs; one in every five households made a living from bandoh, and the community could cook more than 20,000 tables at the same time**, becoming the settlement with the world's highest density of master banquet chefs.
 
-This predates most "traditional industries" in Taiwan. While other trades trace origins to the Japanese colonial period, roadside banqueting had already operated on Taiwan's soil for over 300 years.
+Today, Hsueh Meng-hui estimates that only about 30 to 40 chefs remain locally, roughly one-quarter of the peak.
 
-**The leap to professionalization occurred in the 1950s.** Before the 1950s, rural banquet chefs were mostly "part-timers"—villagers slightly better at cooking than their neighbors, with limited menu repertoires and hosts providing all ingredients.
+## Roots Three Centuries Deep
 
-The turning point came during Taiwan's economic boom. Some part-time cooks discovered that banquet profits exceeded farming income, pushing the industry toward professionalization.
+Bandoh is not a modern invention. Modern people only think it is.
 
-### The Neimen Miracle: Barren Land Breeds Master Chef Kingdom
+In 1902, the Japanese colonial government conducted a "Provisional Survey of Taiwan's Old Customs" and recorded a term already in common use in late Qing Taiwan: "bandoh." It was explained as "preparing tables, arranging wine and food, and setting out a feast." Research by the Institute of Taiwan History at Academia Sinica has found that as early as the Kangxi period of the Qing dynasty, Taiwanese people were already accustomed to commissioning cooks to set up tables and hold banquets. That predates most things called "traditional" in Taiwan by at least a century.
 
-The most dramatic development happened in Kaohsiung's Neimen District.
+From the Qing period to the 1950s, bandoh chefs were mostly part-time workers: villagers whose cooking skills were somewhat better than their neighbors', with ingredients sometimes even prepared by the host family. **The real turning point toward professionalization came during Taiwan's economic takeoff.** When the profits from part-time banquet catering began to exceed farming income, an industry was born almost imperceptibly.
 
-**This mountain-ringed land has highly alkaline limestone soil unsuitable for farming—only hardy bamboo survives.** In the 1960s, as paper boxes replaced bamboo baskets in the packaging industry, Neimen people pivoted to banquet catering.
+> **💡 Did you know?**
+> Qing-era bandoh followed the rule of "ten days before, eight days after": for a wedding banquet, the date was chosen six months in advance; a week before the event, an earthen stove was built with mud bricks; neighbors lent tables, chairs, bowls, and plates; after the meal, leftover "caiwei soup" was distributed to relatives and neighbors who had helped. That whole-village process was the earliest form of bandoh. Food was the final element; everything before it was human obligation and affection.
 
-Resource scarcity became an advantage. Neimen people had no choice but to perfect banquet craft.
+## The "HeySong Grand Hotel" of Auspicious Lunar Calendar Days
 
-**By 2005, Taiwan's most barren Neimen District had cultivated the world's densest master chef community: 150 master chefs among 14,000 residents—1 in every 5 households lived from banqueting.** Operating simultaneously, they could cater over 20,000 tables.
+If one had to choose the golden age of bandoh, almost every old master names the same person: Lee Teng-hui.
 
-> **💡 Did You Know**
-> Neimen's banquet legend began with a master chef nicknamed "Tang Pig's Foot."
-> In the 1970s, he actively trained disciples who established their own operations
-> and trained apprentices, rapidly expanding across Taiwan through this "mentor-apprentice" network.
+Hsueh Meng-hui habitually remembers the industry's rises and falls by presidential terms. In his memory, the 12 years from 1988 to 2000, when Lee Teng-hui served as president, were the true heyday. It was not only the traditional "eight celebrations and one mourning" that called for banquets: engagements, weddings, one-month baby celebrations, post-wedding visits to the bride's natal family, business openings, birthday banquets, housewarmings, and funerals. Even a child getting into a doctoral program or winning money on pigeon racing was reason enough to invite guests and hold a bandoh banquet. On auspicious red-letter days in the lunar calendar, temple entrances and roadside spaces were filled with "HeySong Grand Hotels." In earlier years, canvas tents were often provided by beverage companies and printed with HeySong Sarsaparilla advertisements, making them a byword for bandoh.
 
-## Eighteen Skills: Master Chefs Beyond Cooking
+Hsueh Meng-hui's father, Hsueh Ching-chi, filled an entire farmer's almanac as his work diary: **25,000 tables in a year**, more than 10 events rushed through in a single major day, and **3,000 tables in a large lunar month, bringing monthly revenue of NT$12 million**. In that era, when the Hsueh family went out to run banquets, they would detour as far as Shanlin District, half an hour away by car, to pick up water-foot workers.
 
-### "Civil" vs "Military" Venues
+| Hsueh Ching-chi era (1990s)                    | Hsueh Meng-hui period (pre-pandemic)                           |
+| ---------------------------------------------- | -------------------------------------------------------------- |
+| Average of 1,000 tables in a small lunar month | 500 tables in a large lunar month was already cause for relief |
+| 25,000 tables for the full year                | Several thousand tables for the full year                      |
 
-People often describe restaurants as "civil venues" and roadside banquets as "military venues."
+The turning point came around the third year of Chen Shui-bian's presidency, in 2003. As Taiwan's industries moved westward to China, small and medium-sized enterprise clients gradually decreased. Some old clients stopped booking for two consecutive years; only after asking did chefs learn that the companies had already gone bankrupt.
 
-**Master chefs face challenges beyond culinary skills—no matter storm or flood, bridge collapse or road break, if hosts don't cancel, they must deliver.** They master crisis management, not Michelin-level refined cuisine.
+## The Code of Twelve Dishes
 
-Veteran Tainan master chef Wang Yiyong will never forget the "underwater banquet": hosting 120 tables in a Kaohsiung school auditorium when evening storms flooded ankle-deep water, bent tent frames, extinguished stoves, and sent prepared trout swimming away—10+ fish escaped.
+A standard bandoh banquet has 12 to 14 dishes, with its own structure of introduction, development, turn, and conclusion.
 
-Wang immediately ordered workers to puncture the tent for drainage, moved equipment under eaves, rolled up sleeves, and started "fishing." Missing only one trout, backup table ingredients saved the day, ensuring every guest was fed.
+Cold dishes open the appetite while guests take their seats. The second dish, a thick soup, warms the stomach. The third and fourth dishes are the climactic main courses: lobster, red crab, Buddha Jumps Over the Wall, with "commoner" or "aristocratic" versions depending on the budget per table. Once braised napa cabbage appears, it means all the dishes after it are major dishes. Fried tangyuan signals the ending of a wedding banquet. Funeral banquets must include gua bao, whose tiger-mouth shape bites down on and carries away bad luck. Housewarming banquets avoid meatballs and other round "balls," because the word sounds like "finished." A newborn's one-month banquet includes a whole chicken, symbolizing completeness and perfection.
 
-**The night of Typhoon Morakot was more terrifying.** Xue Menghui was catering a peace feast in Fengshan when strong winds collapsed the tent, iron frames struck a chef's head, forcing evacuation. After rushing workers back to Qiwei and Shanlin, bridges to Neimen were completely severed. Trapped overnight at 7-ELEVEN with floodwaters 200 meters away: "Tomorrow there's another event for Guanyin's birthday. I was anxious but couldn't drive out—Nanzi River roared like an ocean."
+Behind every dish is a ritual language; every plating decision is a judgment by a folk-custom consultant.
 
-### Master Chef Evolution: From Physical Labor to Management
+> **📝 Curator's Note**
+> Research by the National Museum of Taiwan History notes that bandoh contains three meanings of communal eating: humans and gods eating together after seasonal rites and festivals; humans and spirits eating together after Universal Salvation rites, establishing harmony with "good brothers," or wandering spirits; and hosts and guests eating together in celebrations within life rituals. The master banquet chef is also a folk-custom consultant. Should one buy pork knuckle noodles and return to one's natal family in an intercalary fourth lunar month? How should offerings be arranged? Which ingredients are taboo in which occasions? They know best. If Taiwan loses bandoh, what it loses is not only a set of dishes, but a ritual knowledge system spanning birth, aging, illness, and death.
 
-**Modern master chefs aren't just cooks—they're "executive chefs" and "event directors" combined.**
+## The Generational Break: Forty Counts as Young
 
-Complete banquet supply chains include: tent suppliers, table/chair rentals, dishware, ingredients, fruits, beverages. Master chefs orchestrate everything—client acquisition, cost control, menu planning, role delegation, on-site supervision, quality maintenance.
+"In outside catering, a 40-year-old chef counts as young. Most people only take over because they have family roots in the trade. Among 30-year-old chefs, you cannot find even 2 out of 10, and water-foot workers are generally aging," said New Taipei City master banquet chef Lee Chun-hsiang, describing the northern Taiwan situation he has observed. (The Reporter, 2020)
 
-From modern management perspectives, roadside banquets have three variables: "unfixed time, unfixed location, unfixed personnel"—the highest difficulty catering service.
+Only **2%** of culinary school graduates enter outside catering. The reason is direct: for a noon event, one must set out at 3:30 a.m.; working hours are long and the stove area is hot. "Young people stand there for a while and start complaining until they drool. They might as well work in a restaurant with air conditioning." Quick-minded chefs switch to opening restaurants or wedding banquet halls; more older chefs choose retirement once they can no longer keep working. What they take with them is not just technique.
 
-## Golden Era: Every Auspicious Day Had "Blackpine Hotels"
+Lee Chun-hsiang also said: "The older generation of chefs did everything themselves, from slaughtering pigs and chickens to making pudding and cakes for dessert. Now there are outsourcing vendors and frozen foods, so apprentices cannot learn much. Over time, everyone becomes lazy. They cannot be bothered to kill swamp eels or eels; they would rather get ready-made ingredients, reheat them, and cook them through. Some labor-intensive dishes disappear this way."
 
-### 1988-2000: The Banquet Heyday of Lee Teng-hui Era
+The "chicken, pork stomach, and softshell turtle" from the film _Zone Pro Site_, in which a softshell turtle and free-range chicken are stuffed into a pig stomach and stewed for three hours, is now almost no longer made by anyone.
 
-Xue Menghui remembers industry changes by presidential terms. In his memory, banquet prosperity rode Taiwan's Ten Major Construction Projects, but the true golden era was 1988-2000—Lee Teng-hui's 12 years.
+## The Pandemic: The Longest Winter
 
-**That era went beyond traditional "eight celebrations, one mourning" (engagement, wedding, full month, homecoming, business opening, birthday, housewarming, remarriage, and funeral) to include PhD graduations and pigeon racing victories.**
+In 2020, more than 500 tables of Hsueh Meng-hui's orders for the second and third lunar months were canceled. A second-generation member of a bandoh family, accustomed to using a spatula the size of a shovel, could only switch to holding a small soup ladle to pack lunchboxes.
 
-On lunar calendar auspicious days, temple squares and roadsides hosted "Blackpine Hotels"—banquet tents often provided by beverage sponsors bearing Blackpine soda ads, becoming synonymous with roadside banquets.
+_The Reporter_ interviewed nearly 10 master banquet chefs across northern and southern Taiwan, who reported that outside catering orders had shrunk by at least **90%**. Ministry of Economic Affairs statistics showed that in April 2020, revenue in the outside catering and group meal contracting sector fell **32.3%** year on year. But that figure still underestimated reality: most bandoh operators had no business registration and therefore could not be counted in the statistics at all.
 
-Hosts spent generously on lobsters, mud crabs, and premium ingredients. In the 1990s, Xue's father annually catered company year-end parties at Qianzhen and Nanzi export processing zones with 90% factory occupancy.
+> **✦** "We are not only worried about this year. We are even more worried that people not inviting others to bandoh will become a habit." — Tainan master banquet chef Tsai Yu-feng (The Reporter, 2020)
 
-**During peak periods—lunar months 2-3 for festivals and year-end wedding/company banquet season—Xue's family could serve 3,000 tables monthly, earning NT$12 million (US$400,000) in monthly revenue.**
+In northern Taiwan, the difficulties of bandoh involve another layer of spatial politics. When Lee Chun-hsiang holds bandoh banquets in New Taipei City, road closures and applications for road-use rights are required, and complaints from neighbors are commonplace. "Even when we are frying things, nearby residents start scolding us and say they will report us to the Environmental Protection Bureau for creating air pollution. The more agitated ones even throw things down from upstairs to drive us away." Taipei City's activity centers and elementary school auditoriums almost never lend space for banquets. Without even a place to land, transmission is out of the question.
 
-### Decline Begins: Industrial Westward Movement and Globalization Impact
+> **⚠️ Contested View**
+> Cultural historian Yen Chen-yu argues that the pandemic was both a blow and an opportunity: after SARS, the priority was economic recovery, but before COVID-19 Taiwan had already entered an "era of cultural transmission," with more resources available for preserving traditional culture. Critics worry, however, that once hotel banquets become the new habit, bandoh will struggle to recover even after the pandemic ends. A change in market preference is not merely a personal choice; it is a shift in the collective cognition of an entire society, and is difficult to reverse.
 
-The turning point came around Chen Shui-bian's third year (2003).
+## Reverse Flows Overseas
 
-As Taiwan industries moved to China, SME clients decreased. Some longtime customers stopped booking for two years straight—discovering they'd gone bankrupt.
+Ironically, bandoh has found a new stage overseas.
 
-From Xue's memory, Neimen banqueting shifted from "2 days off monthly" to "5 days off weekly." His father's generation averaged 1,000 tables in slow months; pre-pandemic, 500 tables in busy months deserved celebration. Currently, Neimen hosts around 30-40 master chefs—a quarter of peak numbers.
+Taiwanese chef Tony Tung of the California restaurant Good To Eat has devoted herself to promoting bandoh in the United States, translating it as "Roadside Banquet." At her restaurant, she offers a bandoh-style set meal every Sunday, allowing Taiwanese people living abroad to revisit memories of the round table. In January 2025, she invited Master A-tsan, a Neimen master banquet chef, to hold a traditional bandoh banquet in Taipei, drawing overseas diners to make a special trip back to Taiwan for the experience.
 
-## Vanishing Skills and Cultural Gaps
-
-### Ancient Recipe Crisis
-
-**The signature dish "Chicken-Pig Belly-Turtle" from the movie "Zone Pro Site" is virtually extinct.**
-
-This dish requires stuffing soft-shell turtle and chicken into pig belly, stewing for 3 hours—too labor-intensive. The once-popular "Chestnut Chicken" from 40 years ago (sweet-flavored with chestnuts, water chestnuts, chicken) disappeared in the health-conscious era.
-
-Tainan Xuanshan Seafood Banquet Hall chairman and third-generation "Shi Family" master chef Shi Zongrong analyzes: "Ancient recipes disappear first due to labor intensity, second due to changing generational tastes."
-
-**More seriously, basic skills are vanishing.** Northern master chef Li Junxiang observes: "Old masters handled everything from slaughtering pigs and chickens to making puddings and cakes. Now with outsourced suppliers and frozen foods, apprentices learn incomplete techniques."
-
-Cost considerations drive masters to focus on select refined dishes while using frozen foods or outsourcing others, denying apprentices complete learning opportunities. "Eventually everyone becomes lazy—reluctant to kill eels or fish, preferring pre-prepared items for quick heating."
-
-### New Blood Gap: 40-Year-Olds Count as Young Masters
-
-**Currently in banquet catering, "40-year-olds count as young masters" with under-30 chefs being "1-2 out of 10."**
-
-Only 2% of culinary school graduates enter catering. The reason is practical: "Lunch events require 3:30 AM departure, long hours, hot stove work. Young people complain after standing briefly, preferring restaurant work with air conditioning."
-
-Smart master chefs pivot to restaurants, wedding venues, or upscale outdoor catering. But more retire, taking old flavors and banquet customs with them.
-
-## Cultural Functions: Beyond Food
-
-### Tri-Realm Communal Dining Culture
-
-**Roadside banquets' true value isn't cuisine—it's the complete life ritual knowledge they carry.**
-
-Taiwan History Museum research identifies three communal dining meanings:
-
-1. **Human-Divine Communion**: Post-ritual banquets achieving human-divine connection (seasonal celebrations)
-2. **Human-Spirit Communion**: Post-ancestor worship and Ghost Festival dining, establishing harmony with spirits
-3. **Host-Guest Communion**: Life ceremony celebrations and interpersonal relationship building
-
-**Master chefs simultaneously serve as "folk consultants"**—How to prepare full-month gifts? How to arrange offerings? Which foods are forbidden at funerals? Should daughters bring pig knuckle noodles home during leap months? Ask master chefs.
-
-Cultural worker Yan Zhenyu laments: "Modern people imagine banquets as just group dining. But banquets should be life ritual or seasonal gatherings—each occasion has meaning."
-
-### Final Bastion of Community Cohesion
-
-**In an era of individualism, roadside banquets preserve rare "collective values."**
-
-Traditional banquets follow "ten days before, eight days after" preparation: weddings planned six months ahead, clay stoves built a week prior, neighbors lending tables and dishware, post-meal sharing of "leftover soup" with helping neighbors.
-
-This mutual aid network is now rare, but the spirit continues. During the pandemic, Neimen master chefs set up temple square stalls selling signature dishes, maintaining traditional mutual care.
-
-> **⚠️ Controversial View**
-> Some consider banquet culture too conservative for modern urban life.
-> Supporters argue it's Taiwan's few complete preserved living cultural systems, worthy of protection rather than replacement.
-
-## Modern Challenges and Innovation Breakthroughs
-
-### Triple Urban Blow
-
-**Space Constraints**: Urban high-rises require road permits for banquets, risking neighbor complaints about noise and pollution.
-
-**Interpersonal Distance**: Reduced neighborly assistance availability, preference for restaurant/hotel banquets.
-
-**Mindset Changes**: Auspicious days once determined by lunar calendar and deities; now weekend scheduling for guest attendance; immigrants may not follow traditional Taiwan banquet customs.
-
-New Taipei master chef Li Junxiang's experience is typical: "We fry foods and nearby residents complain, threatening environmental bureau reports for pollution. Extreme cases involve throwing objects from upstairs."
-
-### Micro-Wedding Rise
-
-**Under inflation and declining birth rates, Taiwan weddings trend toward polarization.**
-
-Traditional multi-dozen table events are no longer mainstream, with average wedding tables reduced to 15-25, even sub-10 micro-weddings. For masters accustomed to large-scale operations, this presents new challenges.
-
-Millennial Huang Jiayu, inheriting father "Tofu Master" Huang Mouyuan's business, finds couples choosing banquets not for traditional flavors but nostalgic atmosphere. "But venue problems alone are overwhelming—Taipei activity centers and school auditoriums almost never lease for banquets."
-
-### Unexpected International Opportunities
-
-**Ironically, banquet culture finds new stages overseas.**
-
-California's Good To Eat restaurant's Taiwanese chef Tony Tung dedicates herself to promoting "Roadside Banquets" in America. January 2025, she collaborated with Neimen master chef A-Can, hosting traditional banquets at Taipei's Xianzi Temple, attracting international food lovers to Taiwan.
-
-Overseas Taiwanese yearning for banquets reflects this culture's scarcity in modern Taiwan.
-
-## Pandemic Winter: Ultimate Resilience Test
-
-### 90% Order Evaporation in 2020
-
-**COVID-19 impact on banquet catering exceeded SARS by 10x.**
-
-Ministry of Economic Affairs statistics show April 2020 catering/group meal revenue down 32.3% annually, but this doesn't reflect banquet industry reality—many operators lack business registration. _The Reporter_ interviews with nearly 10 master chefs revealed at least 90% order shrinkage.
-
-Xue Menghui lost 500+ tables in lunar months 2-3, with annual bookings dropping from expected thousands to mere hundreds. Tainan's Cai Yufeng, who previously handled 1,000 peace feast tables pre-SARS (reduced to 600 post-SARS), might face another 50% cut post-pandemic.
-
-**Operators' deepest fear isn't annual losses but "people getting used to not hosting banquets."**
-
-### Government Relief Blind Spots
-
-Many master chefs without business registration "fail the first hurdle"; many never borrow from banks, lacking credit history for loan approval.
-
-Conversely, "assistants" (master chef helpers) accessed relief most easily—eligible recipients received monthly NT$10,000 for 3 months under "Self-employed or Indefinite Employer Worker Living Subsidies."
-
-**First day of 2020 relief applications saw long queues at catering unions and chef unions across counties.**
-
-### Unexpected Inheritance Opportunity
-
-Cultural worker Yan Zhenyu sees pandemic as both blow and stimulus: "SARS occurred during economy-first era with post-pandemic economic recovery focus. But pre-COVID-19, Taiwan had entered cultural inheritance era with increased traditional culture preservation funding."
-
-**During pandemic, some master chefs began documenting skills while younger generations renewed interest in this disappearing culture.** Since 2021, Tainan City government hosts "Four Seasons Banquets," combining tourism with banquet culture promotion.
-
-## Future Vision: Balancing Culture and Industry
-
-### Preservation vs Innovation Dialectic
-
-**The real challenge isn't technical loss but cultural disconnection.**
-
-Yan reminds: "Recording banquet cooking skills isn't difficult, but inheriting banquet spirit requires understanding banquet meaning within seasonal festivals, folk customs, and life cycles."
-
-Young master chefs understand culinary science but face commercial pressure for novelty, struggling to maintain local flavors. "Others showcase tuna, so I showcase tuna—forgetting what's uniquely ours."
-
-### Redefining Government Roles
-
-Currently, banquet skills lack cultural asset protection and systematic inheritance mechanisms.
-
-Li Junxiang suggested culinary schools include ancient recipes in curricula; schools responded: "Would anyone use these?" This reflects fundamental conflict between pragmatism and cultural value.
-
-**Perhaps what's needed isn't protecting an industry but preserving a knowledge system.**
+In Taiwan, bandoh is changing from an everyday ritual into a kind of cultural pilgrimage. Scarcity, in turn, has become its new identity.
 
 ---
 
-**Roadside banquet culture's core isn't culinary refinement but the complete life wisdom it carries.** From birth celebrations to wedding homecomings, ancestral worship to final farewells—every major life moment has corresponding banquet rituals.
+The chalk badlands of Neimen, Kaohsiung remain barren, and the canvas tents have long since been taken down.
 
-In globalization and digitalization, this 300-year cultural vessel reminds us: true value isn't scale or output but what it preserves. When the last master chef sets down the wok spatula, Taiwan loses not just ancient recipes but an entire cultural code for understanding life and connecting communities.
+Hsueh Ching-chi's farmer's almanac diary, filled on every page, is the object his son Hsueh Meng-hui treasures most, and also the truest archaeological site of the entire industry. Those densely packed orders: celebration banquets for pigeon-racing winnings, gratitude banquets for admission to doctoral programs, Mazu birthday banquets at temple entrances. What they record is not merely dishes, but a system Taiwanese people once collectively recognized: what kinds of moments were worth gathering for, what should be eaten, who should preside, and how to say farewell.
 
-Neimen's limestone badlands remain barren, but the banquet culture that once flourished here proves one thing: **the most tenacious isn't survival of the fittest, but cultural resilience.**
+How much of that tacit understanding remains?
 
----
+**Further Reading**:
+
+- [Apple Sidra](/food/蘋果西打) — The golden carbonated drink whose formula was purchased from the United States in 1965 and whose place at bandoh wedding banquet tables has not changed in 60 years, along with the corporate history behind it: three sets of foreign trademark owners, two food-safety incidents involving sediment, and land sales to repay debts
 
 ## References
 
-- [Mountain Delicacies and Sea Treasures Can't Compare to Human Warmth](https://collections.nmth.gov.tw/article.aspx?a=251) - National Museum of Taiwan History
-- [The Longest Winter for Master Chefs and Assistants](https://www.twreporter.org/a/after-covid-19-fading-taiwan-flavor-roadside-banquet-culture) - The Reporter
-- [roadside banquet in Taiwan](https://www.wearegoodtoeat.com/roadside-banquet-in-taiwan) - Good To Eat (International English perspective)
-- [辦桌](https://zh.wikipedia.org/zh-hant/%E8%BE%A6%E6%A1%8C) - Wikipedia
-- [Gallery: Neimen Master Chefs Serve Human Connection](https://www.epochtimes.com/b5/18/2/15/n10145314.htm) - Epoch Times
-- [Banquet Splendor: Come Eat Pān-toh!](https://nspp.mofa.gov.tw/nspp/news.php?unit=406&post=238126) - Ministry of Foreign Affairs
+- [【疫後消失的老味道之一】總舖師與水腳最漫長的寒冬](https://www.twreporter.org/a/after-covid-19-fading-taiwan-flavor-roadside-banquet-culture) (The Reporter, 2020) (first-hand interview reporting)
+- [山珍海味都比不上的人情味，辦桌文化從何時開始席捲全臺？](https://collections.nmth.gov.tw/article.aspx?a=251) (National Museum of Taiwan History, primary source)
+- [roadside banquet in Taiwan](https://www.wearegoodtoeat.com/roadside-banquet-in-taiwan) (Good To Eat, English-language international perspective)
+- [辦桌 — Wikipedia](https://zh.wikipedia.org/zh-hant/%E8%BE%A6%E6%A1%8C)
+- [跟著新竹總鋪師直擊台灣辦桌現場，揭密宴席菜單、出菜順序和辦桌文化](https://smiletaiwan.cw.com.tw/article/4216) (Smile Taiwan)
+- [最有人情味的「辦桌」文化大揭密！宴席菜單、出菜順序及總鋪師的好手路](https://lifestyle.heho.com.tw/archives/60486) (Heho Lifestyle, 2023)
+- [2023 餐飲業外燴及團膳承包業分析](https://www.twtrend.com/trend-detail/food-and-beverage-service-activities-2023/) (TW Trend, statistical data)
+
+Related topics for this entry: [night market culture](/en/Food/night-market-culture/), [Taiwanese street food](/en/Food/taiwanese-street-food/), Taiwanese food culture.

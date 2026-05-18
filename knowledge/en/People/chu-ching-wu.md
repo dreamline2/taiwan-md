@@ -1,73 +1,105 @@
 ---
-title: 'Paul Ching-Wu Chu'
-description: 'Superconductivity physicist who led the landmark 1987 breakthrough at liquid-nitrogen temperatures'
+title: 'Paul Ching-Wu Chu: Co-discoverer of High-Temperature Superconductivity at Tc=93K, Breaking Through the Liquid-Nitrogen Temperature in 1987'
+description: 'Born in Hunan in 1941, Paul Ching-Wu Chu is a Taiwanese American physicist. In January 1987, he and Maw-Kuen Wu jointly discovered yttrium barium copper oxide (YBCO) with Tc=93K, crossing the liquid-nitrogen temperature threshold and opening the era of high-temperature superconductivity. From 2001 to 2009 he served as president of the Hong Kong University of Science and Technology. In March 2026, he published a new Tc=151K breakthrough in PNAS and remains active in research at age 85.'
 date: 2026-03-19
-tags: ['physicist', 'superconductivity', 'Nobel-Prize-candidate', 'Academia-Sinica', 'University-of-Houston']
-subcategory: '科學與學術'
-lastVerified: 2026-03-19
-lastHumanReview: false
+author: 'Taiwan.md'
 category: 'People'
-featured: true
+subcategory: '科學與學術'
+tags:
+  [
+    'Science and Academia',
+    'Physicist',
+    'Superconductors',
+    'HKUST',
+    'University of Houston',
+  ]
+readingTime: 7
+lastVerified: 2026-05-07
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '4af626f4'
-sourceContentHash: 'sha256:9903e2c37b2cac97'
-translatedAt: '2026-04-29T14:30:19Z'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:34bc5d357a3cdf52'
+sourceBodyHash: 'sha256:2ddbffb7dbb01585'
+translatedAt: '2026-05-16T05:07:54+08:00'
+# design_rationale:
+#   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超導體史上跨越液氮門檻的那一天。"
+#   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
+#   where_it_hedges: "諾貝爾候選資格為外界推測而非官方確認；2026 Tc=151K 以中時報導為準"
 ---
 
-# Paul Ching-Wu Chu: Pioneer of Superconductivity Research
+# Paul Ching-Wu Chu: Co-discoverer of High-Temperature Superconductivity at Tc=93K, Breaking Through the Liquid-Nitrogen Temperature in 1987
 
-Paul Ching-Wu Chu (朱經武), born in 1941 in Hunan province, is a Taiwanese-American physicist and one of the world's foremost experts in superconductivity research. In 1987, he successfully broke through the critical threshold of liquid-nitrogen-temperature superconductivity — an achievement widely regarded as a landmark moment in the history of physics, and one that has made him a perennial candidate for the Nobel Prize in Physics.
+> **30-second overview:** Paul Ching-Wu Chu was born in Hunan in 1941. After graduating from the Department of Physics at National Cheng Kung University, he went to the United States and earned a PhD in physics from the University of California, San Diego.[^1] In January 1987, his University of Houston team and Maw-Kuen Wu of the University of Alabama jointly discovered yttrium barium copper oxide (YBCO) with Tc=93K, crossing the liquid-nitrogen temperature threshold (77K) for the first time and opening the era of high-temperature superconductivity.[^2] From July 2001 to 2009 he served as president of the Hong Kong University of Science and Technology.[^3] In March 2026, he published a new Tc=151K breakthrough in PNAS,[^4] and remains active in research at age 85.
 
-## Educational Background and Academic Formation
+## 1941: From Hunan to Taiwan
 
-Chu moved to Taiwan as a child with his family, graduated from the physics department at National Cheng Kung University, then traveled to the United States to pursue a master's degree at Fordham University before completing his PhD in physics at the University of California, San Diego. During his graduate years in the United States, he specialized in solid-state physics and materials science, developing a deep and abiding interest in the phenomenon of superconductivity.
+Paul Ching-Wu Chu was born in Hunan in 1941. As a child, he moved with his family to Taiwan and studied in the Department of Physics at National Cheng Kung University. After graduating, he went to the United States, first earning a master's degree at Fordham University and then entering the University of California, San Diego, where he received his PhD in physics.[^1]
 
-After receiving his doctorate, Chu held teaching positions at Cleveland State University, the University of Houston, and other institutions. In 1979, he became a full professor in the physics department at the University of Houston, where he established his own superconductivity research team. It was here that he began the work that would change the course of scientific history.
+In 1979, he formally became a professor in the Department of Physics at the University of Houston, where he built a superconductivity research team and began superconductivity research that has continued for nearly half a century.
 
-## The Historic 1987 Breakthrough
+The University of Houston was not among the most elite institutions in physics research at the time, but this choice gave Chu more room to establish his own research direction. He did not work within the established school frameworks of the most prestigious universities; instead, in a relatively free environment, he pushed superconductivity research toward temperature levels that no one had expected.
 
-In January 1987, Chu and his research team discovered superconductivity above liquid-nitrogen temperature (77 K) in an yttrium-barium-copper-oxide system. This finding shattered the long-held assumption that superconductors could only operate at extremely low temperatures, achieving for the first time the goal of maintaining a superconducting state using relatively inexpensive liquid nitrogen.
+## January 1987: YBCO Tc=93K and Maw-Kuen Wu's Simultaneous Breakthrough
 
-The significance of this breakthrough lay in its dramatic reduction of the cost barrier for superconducting technology. Previously, superconductors required costly liquid helium to maintain ultra-low temperatures, severely limiting their practical use. Chu's discovery ushered in the era of "high-temperature superconductivity," laying the foundation for broad real-world applications of the technology.
+In January 1987, Chu's University of Houston team discovered that yttrium barium copper oxide (YBCO) had a critical temperature of 93K, exceeding the boiling point of liquid nitrogen (77K) for the first time. Almost simultaneously, a University of Alabama team led by Maw-Kuen Wu achieved the same breakthrough: two teams conquered this threshold in parallel.[^2]
 
-## Scientific Significance of High-Temperature Superconductors
+The significance of this number lies in the fact that 77K is the temperature of liquid nitrogen. Liquid nitrogen is dozens of times cheaper than liquid helium, and Tc exceeding 77K meant that high-temperature superconducting materials could be cooled with liquid nitrogen, greatly reducing practical costs. This discovery triggered a "superconductivity fever" in physics, with laboratories around the world racing to follow up.
 
-Chu's high-temperature superconductors held not only enormous practical value but also profound implications for theoretical physics. The traditional BCS theory could not fully explain the mechanism behind high-temperature superconductivity, prompting the global physics community to fundamentally reconsider the nature of the phenomenon. His discovery triggered a worldwide surge of superconductivity research that became known as "superconductivity fever."
+The result was published in _Physical Review Letters_ and has been cited tens of thousands of times.[^2]
 
-His results were swiftly published in leading journals such as *Physical Review Letters* and immediately attracted intense attention from the international scientific community. Laboratories around the world raced to replicate and extend his experiments, driving rapid advances in superconductor research.
+Chu and Maw-Kuen Wu achieved this breakthrough almost simultaneously. Two independent teams reaching the same conclusion at nearly the same time is a classic case of "parallel discovery" in the history of science. It shows both that the solution to this problem had become "ripe" at that moment, and that competition can accelerate the logic of scientific breakthroughs.
 
-## International Academic Standing and Honors
+The 1987 superconductivity breakthrough set off a wave of "superconductivity fever": _The New York Times_ reported it on the front page, and the American Physical Society's annual meeting saw scenes the media called the "Woodstock of Physics," with hundreds of physicists waiting late into the night for reports of the latest experimental data. This social reaction showed one thing: at certain moments, scientific breakthroughs can pierce the academic world and enter the public imagination directly. High-temperature superconductivity was one such moment.
 
-Chu's contributions have been recognized across the international academic world at the highest level. He was elected to the U.S. National Academy of Sciences and the American Academy of Arts and Sciences, and received numerous honors including the U.S. National Medal of Science and election as an academician of Academia Sinica (中央研究院) in Taiwan. He has been a perennial Nobel Prize in Physics candidate; although the award has not yet come, his contributions are firmly inscribed in the history of physics.
+## President of HKUST: July 2001 to 2009
 
-In terms of scholarly output, Chu has published more than 700 academic papers, with citations numbering in the tens of thousands. Many of the students he mentored have become important figures in international superconductivity research, forming a vast and influential academic network.
+On July 1, 2001, Chu took office as the third president of the Hong Kong University of Science and Technology, serving until 2009.[^3] During his tenure, he promoted development in the physical sciences and raised HKUST's standing in the international academic community. After stepping down, he returned to the University of Houston to continue his research.
 
-## A Bridge for Cross-Strait Academic Exchange
+The role of HKUST president shifted Chu from researcher to institution builder. During his tenure, he continued to strengthen HKUST's positioning as a research university, advancing physics, engineering, and business. This transition, from measuring critical temperatures in the laboratory to planning university strategy in an administrative office, was the most unusual transformation in his career. It also shows that his abilities were not limited to experimental design.
 
-Chu has long been dedicated to fostering international academic collaboration, and particularly scientific exchange among Taiwan, mainland China, and Hong Kong. He has been invited on multiple occasions to conduct academic visits in Taiwan and the mainland, helping to establish superconductivity research centers and cultivate local research talent. In 1994, his election as an academician of Academia Sinica further deepened his ties with Taiwan's academic community.
+## March 2026: Tc=151K, a New PNAS Breakthrough
 
-In 2001, Chu was appointed president of the Hong Kong University of Science and Technology (HKUST), during which time he actively promoted the university's development in the physical sciences and fostered collaboration between Hong Kong and the global academic community. His leadership made a significant contribution to raising HKUST's international standing.
+In March 2026, Chu published a paper in the _Proceedings of the National Academy of Sciences_ (PNAS), reporting a superconducting critical temperature of Tc=151K in a new material.[^4] Although 151K is above the temperature of dry ice (195K) and still requires cooling, this breakthrough further expands the usable temperature range of superconducting materials.
 
-## Prospects for Superconductivity Applications
+The movement from Tc=93K in 1987 to 151K in 2026 shows that high-temperature superconductivity research has not yet reached its endpoint after 39 years. Every new Tc record reopens the question: "Is room-temperature superconductivity possible?" If room-temperature superconductors are realized, they will fundamentally change the infrastructure costs of power transmission, maglev transportation, quantum computing, and many other fields.
 
-Chu's research carries not only fundamental scientific value but also significant applied potential. High-temperature superconductors have promising applications in magnetic levitation trains, power transmission, magnetic resonance imaging, and many other fields — with the prospect of catalyzing a technological revolution. Although these applications still face cost and engineering challenges, ongoing research continues to broaden the horizon of future possibilities.
+When this result was published, Chu was 85 years old and still leading a laboratory at the University of Houston.
 
-He has maintained a keen interest in the commercialization of superconducting technology, collaborating with multiple companies to develop related applications. He believes that superconducting technology will ultimately become a major technological pillar of the twenty-first century, bringing profound transformation to human society.
+## Academic Identity and Honors
 
-## A Model of Scientific Spirit
+Chu is a member of the U.S. National Academy of Sciences and the American Academy of Arts and Sciences, and was elected an Academician of Academia Sinica in 1994.[^1] He has published more than 700 academic papers and has long been regarded as a candidate for the Nobel Prize in Physics.
 
-Chu's success lies not only in his specific scientific discoveries but also in the scientific ethos he embodies. He emphasizes the importance of basic research, believing that only through deep understanding of natural phenomena at their root can true technological breakthroughs be achieved. His research methodology is rigorous and meticulous, with exacting standards for experimental data.
+Those 700 papers span from the 1987 superconductivity breakthrough to the latest PNAS result in 2026. This combination of volume and duration is rare among experimental physicists. It represents not merely output, but the ability of one laboratory to remain at the frontier of the same problem, how to raise the critical temperature, for nearly half a century.
 
-As an outstanding representative of scientists of Chinese heritage, Chu's achievements have inspired countless younger scholars. He has demonstrated that scientists from Taiwan can hold important positions at the very apex of international research, setting a model for the broader Chinese-speaking scientific community.
+Chu has long been nominated by outside observers as a candidate for the Nobel Prize in Physics, but this candidacy is external speculation, not official confirmation. The 1987 Nobel Prize for high-temperature superconductivity was ultimately awarded that same year to Swiss physicists Bednorz and Müller, whose pioneering work discovered cuprate superconductors. Chu's YBCO breakthrough is seen as the key advance immediately afterward, but it did not receive equivalent recognition.
 
-## Further Reading
+The year in which he received the U.S. National Medal of Science requires further confirmation. His confirmed academic honors include: Academician of Academia Sinica (1994), member of the U.S. National Academy of Sciences, and member of the American Academy of Arts and Sciences.
 
-- [Wu Ta-You (吳大猷)](/en/people/tai-yu-wu/) — The founder of physics in Taiwan, belonging to the same postwar generation of Taiwanese scientists who built influence within the American academic system as Chu
-- [Lee Yuan-Tseh (李遠哲)](/en/people/lee-yuan-tseh/) — Nobel laureate in chemistry and another representative who went from Taiwan to the international scientific elite
-- Lin Chi-Er (林琪兒) — A Taipei-born NASA astronaut and medical doctor, showing how a dual Taiwanese-American cultural background can flourish across different disciplines
+**Common formulation -> more precise reading:** Chu is often called the "father of high-temperature superconductivity," but this title needs precise positioning. He is the co-discoverer of YBCO Tc=93K, in parallel with Maw-Kuen Wu; Bednorz and Müller were the earlier pioneers of cuprate superconductivity. In this context, "father" refers to someone who crossed the practical threshold of liquid-nitrogen temperature, not to the inventor of the research direction of high-temperature superconductivity itself.
+
+> 🎙️ **Curator's note:** The meaning of that number in January 1987, 93K, in the history of physics lies not in how high its absolute value was, but in the fact that it crossed a concrete application threshold. Tc > 77K = liquid nitrogen can be used = costs fall from "only top laboratories can do this" to "industrially feasible." This crossing changed the entire downstream imagination of superconductivity research.
+>
+> Chu's presidency at HKUST (2001-2009) gave him, beyond his identity as a Taiwanese American physicist, another role as a builder of higher education in Asia. The coexistence of these two identities in him represents a typical trajectory of global mobility among Taiwanese science and engineering talent from the 1970s to the 2000s: foundational training in Taiwan, research in the United States, and institution building elsewhere in Asia.
+>
+> That he was still publishing a PNAS paper in 2026 at age 85 is itself a statement about scientific vitality: superconductivity research has not ended, and neither has he.
+>
+> From physics at National Cheng Kung University to the University of California, San Diego; from the University of Houston to HKUST, Chu's career path is a standard template for the global mobility of Taiwanese science and engineering talent. At the same time, because of that 93K in 1987, it became an exceptional case. His story shows that a standard path can lead to nonstandard results, provided that enough time is invested in the right problem.
+
+From Hunan to Taiwan, from National Cheng Kung University to the University of California, San Diego, from the University of Houston to the Hong Kong University of Science and Technology and then to PNAS, Chu's career spans nearly half a century of superconductivity research. From Tc=93K to 151K, he has remained alongside that rising temperature curve.
+
+There are 39 years between the 1987 breakthrough and the 2026 PNAS paper. Over those 39 years, superconductivity research went through repeated peaks and troughs, and many physicists who entered the field at the time moved on to other subjects. Chu did not. This long-term commitment to a single problem is one of his most distinctive qualities among physicists.
+
+**Further reading:** [Paul Ching-Wu Chu — Wikipedia](https://zh.wikipedia.org/wiki/朱經武) ｜ [ETHW: High-Temperature Superconductivity Milestone](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987)
 
 ## References
 
-- [Chu Ching-Wu — Academia Sinica](https://db1x.sinica.edu.tw/textdb/academicians/02.php?func=22&_op=?ID:M075) — Academician profile
-- [Superconductivity Research — University of Houston Physics Department](https://www.uh.edu/nsm/physics/) — Research institution profile
-- [High-Temperature Superconductivity Discovery — Physical Review Letters](https://journals.aps.org/prl/) — Original publication journal
+[^1]: [Wikipedia: Paul Ching-Wu Chu](https://zh.wikipedia.org/wiki/朱經武) — Confirms birth in 1941, National Cheng Kung University Department of Physics, PhD from the University of California, San Diego, University of Houston professorship, and Academia Sinica Academician status (1994).
+
+[^2]: [ETHW: High-Temperature Superconductivity Milestone (1987)](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987) — Confirms the January 1987 YBCO Tc=93K breakthrough, the joint discovery by Paul Ching-Wu Chu (University of Houston) and Maw-Kuen Wu (University of Alabama), and publication in _Physical Review Letters_.
+
+[^3]: [Hong Kong University of Science and Technology: Past Presidents](https://www.ust.hk/) — Confirms that Chu took office as president of HKUST on July 1, 2001, and served until 2009.
+
+[^4]: [China Times: Paul Ching-Wu Chu's 2026 PNAS Tc=151K Breakthrough](https://www.chinatimes.com/realtimenews/20260330004531-260408) — Includes reporting on the March 2026 PNAS paper and the new Tc=151K record.
+
+[^5]: [Academia Sinica: Academician Paul Ching-Wu Chu Profile](https://db1x.sinica.edu.tw/textdb/academicians/02.php?func=22&_op=?ID:M075) — Confirms Academician status and records of academic contributions.

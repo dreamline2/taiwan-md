@@ -1,131 +1,133 @@
 ---
-title: "Chen Yu-Hsun: Taiwan's Warm Comedy Film Magician"
-description: "Taiwan's comedy film director behind 'Tropical Fish,' 'Zone Pro Site,' and 'My Missing Valentine'"
-date: 2026-03-20
-tags:
-  [
-    'Chen Yu-Hsun',
-    'director',
-    'comedy film',
-    'Tropical Fish',
-    'Zone Pro Site',
-    'My Missing Valentine',
-  ]
-subcategory: 'Film & Theater'
-lastVerified: 2026-03-20
-translatedFrom: 'People/陳玉勳.md'
+title: "Chen Yu-hsun"
+description: "Taiwanese comedy film director, creator of Tropical Fish, Zone Pro Sergeant, and My Missing Valentine"
+date: 2026-03-19
+author: "Taiwan.md"
+category: "People"
+subcategory: "電影與戲劇"
+tags: ["陳玉勳", "導演", "喜劇電影", "熱帶魚", "總鋪師", "消失的情人節"]
+lastVerified: 2026-03-19
+lastHumanReview: "true"
+featured: "false"
+translatedFrom: "People/陳玉勳.md"
+sourceCommitSha: "f712b7242"
+sourceContentHash: "sha256:bc132f506d9946e5"
+sourceBodyHash: "sha256:ae4d7d2f8418495d"
+translatedAt: "2026-05-17T05:34:48+08:00"
 ---
 
-# Chen Yu-Hsun: Taiwan's Warm Comedy Film Magician
+# Chen Yu-hsun: Taiwan's Warm Magician of Comedy Cinema
 
-Chen Yu-Hsun (陳玉勳) is Taiwan's most representative comedy film director, renowned for works like _Tropical Fish_ (熱帶魚), _Zone Pro Site_ (總鋪師), and _My Missing Valentine_ (消失的情人節). His films are filled with uniquely Taiwanese humor and humanistic warmth, expertly exploring profound life themes within absurd situations. In 2021, _My Missing Valentine_ won the Golden Horse Award for Best Feature Film, proving the international potential of Taiwan's local comedy cinema.
+From *Tropical Fish* in 1995 to *My Missing Valentine* in 2020, Chen Yu-hsun built a distinctive creative grammar for Taiwanese homegrown comedy cinema across five feature films. His work is suffused with Taiwanese humor and human warmth, and he has a gift for exploring profound life issues within absurd situations. *My Missing Valentine* winning Best Narrative Feature at the 57th Golden Horse Awards stands as the most powerful external validation of that grammar.
 
-## A Military Dependents' Village Boy's Cinema Dreams
+## A Military Village Boy's Film Dream
 
-Born in Taipei on May 28, 1960, Chen Yu-Hsun grew up in a military dependents' village (眷村) where his father was a serviceman. The multicultural background and strong human warmth of the military dependents' villages provided rich material for his future creative works.
+Chen Yu-hsun (born May 28, 1960) was born in Taipei. His father was a military serviceman, and he grew up in a military dependents' village (*juancun*). The multicultural milieu of the *juancun*—where migrants from every province of China lived side by side—and its dense web of human connections provided concrete source material for his later work.
 
-During his middle school years, Chen began his exposure to cinema, deeply influenced by Hollywood comedy masters like Billy Wilder and Frank Capra. He discovered that films could convey profound emotions through laughter, and decided to make this his life's pursuit.
+He first encountered cinema in middle school and was deeply influenced by Hollywood comedy masters such as Billy Wilder and Frank Capra. He discovered that film could convey deep emotion through laughter and decided to make it his life's calling.
 
-In 1982, he graduated from Chinese Culture University's Drama and Cinema Department, receiving comprehensive film education. During university, he produced multiple short films, demonstrating his natural talent and passion for comedy genres.
+He graduated from the National Taiwan University of Arts (formerly the National Art Academy)[^1], receiving a comprehensive film education. During college he directed several short films that revealed both a natural gift for and a deep love of the comedy genre.
 
-## Creative Training in the Advertising Industry
+## Creative Training in the Advertising World
 
-After graduation, Chen Yu-Hsun entered the advertising industry, an experience that profoundly influenced his later filmmaking. The fast pace and creative demands of advertising trained his ability to precisely control rhythm and visual effects.
+After graduation, Chen Yu-hsun entered the advertising industry. The fast pace and creative demands of advertising trained him to control rhythm and visual impact with precision—skills that left a clear imprint on his later filmmaking.
 
-During his time in advertising, Chen directed countless creative commercials and won numerous advertising awards. He learned to capture audience attention in the shortest possible time—a skill extremely useful in filmmaking.
+During his years in advertising, Chen directed countless creative commercials and won multiple advertising awards. He learned how to seize an audience's attention in the shortest possible time, a skill that proved highly practical in filmmaking.
 
-In the early 1990s, Taiwan's advertising industry flourished, and Chen Yu-Hsun, along with contemporaries like Tsai Ming-liang (蔡明亮) and Yi Zhi-yan (易智言), all transitioned from advertising to film, forming Taiwan cinema's new generation.
+The early 1990s were a period of expansion for Taiwan's advertising industry. Chen Yu-hsun, along with many contemporaries such as Tsai Ming-liang and I-Chen Ko, transitioned from advertising into cinema, forming a new generation of Taiwanese filmmakers.
 
-## Debut Film: _Tropical Fish_
+## Feature Debut: *Tropical Fish*
 
-In 1995, Chen Yu-Hsun released his debut film _Tropical Fish_, a low-budget production that created a miracle in Taiwan cinema history. The film used absurd humor to depict a frustrated man accidentally caught up in a kidnapping case.
+In 1995, Chen Yu-hsun released his feature debut *Tropical Fish*, a low-budget production that created a miracle in Taiwanese cinema history. The film uses absurdist humor to tell the story of a down-and-out man who accidentally gets caught up in a kidnapping case.
 
-_Tropical Fish's_ success lay in its unique Taiwanese humor style. Chen skillfully employed Taiwan's cultural elements to create a comedy genre with local characteristics. Though the characters faced difficulties, they always maintained an optimistic attitude.
+The success of *Tropical Fish* lies in its distinctly Taiwanese comedic style. Chen skillfully drew on Taiwan's cultural elements to create a comedy genre with authentic local flavor. The characters, despite facing adversity, maintain an optimistic outlook throughout.
 
-The film won the 32nd Golden Horse Award for Best Original Screenplay and achieved box office success. _Tropical Fish_ proved the market potential of Taiwan's local comedy films, paving the way for subsequent creators.
+The film won Best Original Screenplay at the 32nd Golden Horse Awards and was a box-office success[^4]. *Tropical Fish* proved the market potential for homegrown Taiwanese comedy cinema and opened a path for subsequent creators.
 
 ## Exploring Romantic Comedy
 
-After _Tropical Fish_, Chen continued exploring different types of comedy films. 1997's _Love Go Go_ (愛情來了) attempted the romantic comedy format. Though box office performance was average, it demonstrated his deep understanding of female characters.
+After *Tropical Fish*, Chen Yu-hsun continued to explore different types of comedy. *Love Go Go* (1997) attempted the romantic comedy form; while its box-office performance was modest, it demonstrated his deep understanding of female characters.
 
-2000's _Love You Love Me_ (愛你愛我) employed more mature narrative techniques, exploring modern urbanites' romantic dilemmas. Chen began integrating more life contemplation into comedy, showing his directorial growth.
+*Betelnut Beauty* (2000) employed a more mature narrative approach, exploring the romantic dilemmas of modern urbanites. Chen began incorporating more philosophical reflection into his comedies, showing clear growth in directorial skill.
 
-Though works from this period didn't have the sensational impact of _Tropical Fish_, they accumulated rich creative experience for Chen and deepened his understanding of comedy film essence.
+Although the works of this period did not generate the same sensation as *Tropical Fish*, they allowed Chen to accumulate sufficient creative experience and develop a deeper understanding of the essence of comedy cinema.
 
-## Return to Glory: _Zone Pro Site_
+## Return to Glory: *Zone Pro Sergeant*
 
-After years of quiet cultivation, Chen Yu-Hsun released _Zone Pro Site_ in 2013, again proving his creative strength. The film, set against the backdrop of Tainan's outdoor banquet (辦桌) culture, depicted three head chefs competing for the "Zone Pro Site" title.
+After years of relative quiet, Chen Yu-hsun released *Zone Pro Sergeant* in 2013, once again proving his creative power. Set against the backdrop of Tainan's *banto* (outdoor banquet) culture, the film tells the story of three chefs competing for the title of "Zone Pro Sergeant"—the master of the banquet table.
 
-_Zone Pro Site's_ success lay in its deep excavation of Taiwan's traditional culture. Chen presented the essence of banquet culture through comedy, helping young audiences understand traditional craft values.
+The success of *Zone Pro Sergeant* lies in its deep excavation of traditional Taiwanese culture. Chen presented the essence of *banto* culture through comedy, helping younger audiences appreciate the value of traditional craftsmanship.
 
-The film assembled a star cast including Feng Sheng-ze (豐盛澤), Yang You-ning (楊祐寧), and Brigitte Lin (林青霞), achieving good balance between commercial and artistic success. _Zone Pro Site_ was not only a box office success but also received critical acclaim.
+The film assembled a star-studded cast including Yang You-ning and [Brigitte Lin](/en/People/brigitte-lin-legendary-actress/), striking a strong balance between commercial appeal and artistic merit. *Zone Pro Sergeant* was both a box-office hit and critically acclaimed.
 
-## Magical Realism: _My Missing Valentine_
+## Magical Realism: *My Missing Valentine*
 
-2020's _My Missing Valentine_ was Chen's most ambitious work, fusing romance, comedy, and magical realism elements. The film depicted the male protagonist's fantastical search for true love amidst temporal chaos.
+The 2020 film *My Missing Valentine* is Chen Yu-hsun's most ambitious work, blending romance, comedy, magical realism, and other elements. It tells the fantastical story of a male protagonist searching for true love amid temporal dislocations.
 
-Released during the COVID-19 pandemic, the film's space-time displacement concept unexpectedly acquired special contemporary significance. Chen skillfully combined science fiction elements with Taiwanese comedy, creating a unique viewing experience.
+The film was released during the COVID-19 pandemic, and its themes of time and space dislocation took on a special resonance with the era. Chen skillfully combined science-fiction elements with Taiwanese comedy to create a unique viewing experience.
 
-_My Missing Valentine_ won five major awards at the 57th Golden Horse Awards, including Best Feature Film—the pinnacle of Chen's career. This work proved Taiwan's local cinema competitiveness in international markets.
+*My Missing Valentine* won five awards at the 57th Golden Horse Awards, including Best Narrative Feature—the peak of Chen's career[^3]. The film demonstrated the international competitiveness of homegrown Taiwanese cinema.
 
-## Constructing Taiwanese Humor
+## Constructing "Taiwanese Humor"
 
-Chen Yu-Hsun's greatest contribution was constructing a unique "Taiwanese humor" cinematic language. His humor isn't merely comedic but carries rich human warmth and cultural characteristics.
+Chen Yu-hsun's most recognizable contribution is the construction of a cinematic language of "Taiwanese humor." His comedies are grounded in human warmth; the absurd situations are merely the shell, while the interior contains meticulous observation of Taiwanese society and culture.
 
-He excels at discovering absurd elements in daily life, presenting social phenomena through exaggerated techniques. This humorous approach both entertains audiences and provokes reflection on reality.
+He has a talent for discovering absurd elements in everyday life and presenting social phenomena through exaggeration. This mode of humor entertains audiences while also provoking reflection on reality.
 
-Chen's character creation particularly emphasizes characters' essential goodness. Even antagonists display human complexity, avoiding stereotypical treatment.
+Chen's characterizations place special emphasis on the fundamental goodness of his characters. Even antagonists are shown in their full human complexity, avoiding one-dimensional treatment.
 
-## Focus on Taiwanese Culture
+## A Focus on Taiwanese Culture
 
-Chen's films consistently focus on preserving and transmitting Taiwan's local culture. From _Tropical Fish's_ urban marginal figures to _Zone Pro Site's_ traditional crafts, he uses cinema to record Taiwan society's diverse aspects.
+Chen Yu-hsun's films have always been concerned with the preservation and transmission of Taiwanese local culture. From the urban marginals of *Tropical Fish* to the traditional craftsmanship of *Zone Pro Sergeant*, he uses cinema to document the diverse faces of Taiwanese society.
 
-He particularly values dialect usage, believing language is culture's important carrier. In his films, Taiwanese Hokkien (台語), Hakka, and other dialects receive proper respect and presentation.
+He places particular importance on the use of dialects, believing that language is a vital carrier of culture. In his films, Taiwanese Hokkien, Hakka, and other dialects receive the respect and representation they deserve.
 
-Chen also focuses on socially disadvantaged groups, often featuring ordinary people as protagonists, showcasing their resilience and kindness. This humanistic concern is an important characteristic of his works.
+Chen also pays attention to socially disadvantaged groups. His films often center on ordinary, overlooked people, showcasing their resilience and kindness. This humanitarian concern is a defining feature of his work.
 
-## Collaboration with Actors
+## Working with Actors
 
-Chen excels at discovering and nurturing actors; many non-professional actors demonstrate outstanding performances under his guidance. He believes authentic emotion is more important than sophisticated technique.
+Chen Yu-hsun has a gift for discovering and nurturing acting talent, and many non-professional actors have delivered outstanding performances under his direction. He believes genuine emotion matters more than polished technique.
 
-He established long-term collaborative relationships with comedy actors like Guo Zi-qian (郭子乾), Peng Cha-cha (澎恰恰), and Feng Sheng-ze, forming unique performance styles. These actors all delivered excellent performances in his films.
+He has built long-term collaborative relationships with comedy actors such as Kuo Tzu-gan and Peng Chia-chia, developing a distinctive performance style. These actors have all delivered memorable work in his films.
 
-Chen also values nurturing newcomers, giving young actors performance opportunities. His films became important stepping stones for many actors' career development.
+Chen also values the cultivation of newcomers, giving young actors opportunities to perform. Quite a few actors first came to prominence in his films before going on to further career development.
 
 ## Production Philosophy and Industry Thinking
 
-As a director, Chen also cares about Taiwan's film industry development. He insists on localization routes, believing Taiwan films should leverage their cultural advantages.
+As a director, Chen Yu-hsun also cares about the development of the Taiwanese film industry. He insists on a localized approach, believing that Taiwanese cinema should leverage its own cultural strengths.
 
-He advocates for refined low-budget productions, proving that good creativity and execution are more important than massive investments. This philosophy provided feasible development directions for Taiwan's independent cinema.
+He advocates for the refinement of low-budget productions, demonstrating that good ideas and execution matter more than massive investment. This philosophy offers a viable development path for independent Taiwanese cinema.
 
-Chen actively participates in film industry discussions, providing professional opinions for Taiwan film policy formulation. He hopes to create better environments for young creators to display their talents.
+Chen also actively participates in industry discussions, providing professional input on Taiwanese film policy. He hopes to create a better environment for young creators to realize their talents.
 
-## International Perspective and Local Roots
+## International Vision and Local Roots
 
-Though deeply cultivating local themes, Chen maintains an international perspective. His works have gained attention at overseas film festivals, proving Taiwan culture's international appeal.
+Despite his deep engagement with local subject matter, Chen Yu-hsun has always maintained an international perspective. His work has drawn attention at overseas film festivals, proving the international appeal of Taiwanese culture.
 
-He believes the more local, the more international—Taiwan films need not deliberately cater to international markets but should showcase their unique cultural characteristics.
+He believes that the more local something is, the more international it becomes—that Taiwanese cinema need not cater deliberately to international markets but should instead showcase its own unique cultural character.
 
-_My Missing Valentine's_ success in international markets validated his creative philosophy. Taiwan films can maintain local characteristics while gaining international recognition.
+The international success of *My Missing Valentine* validated his creative philosophy. Taiwanese cinema can maintain its local identity while earning international recognition.
 
 ## Influence on Young Directors
 
-Chen's success encouraged many young directors to invest in comedy filmmaking. He proved Taiwan audiences' demand and support for quality local comedy.
+Chen Yu-hsun's success has inspired many young directors to pursue comedy filmmaking. He has proven the demand and support among Taiwanese audiences for quality homegrown comedy.
 
-He willingly shares creative experience, frequently participating in film education activities. Many young directors have gained inspiration from his works and philosophies.
+He is also generous in sharing his creative experience and frequently participates in film education activities. Many young directors have drawn inspiration from his work and his philosophy.
 
-The Taiwanese comedy film tradition established by Chen provided Taiwan cinema with a sustainable development path. His influence will continue inspiring the next generation of creators.
+The tradition of Taiwanese-style comedy cinema that Chen has established offers a proven path for Taiwanese cinema—one that does not rely on big budgets but wins through cultural rootedness and emotional authenticity.
 
-## Future Creations and Expectations
+## Current Creative Status
 
-Chen Yu-Hsun expresses he will continue creating comedy films reflecting Taiwan social realities. He hopes to promote social understanding and harmony while entertaining audiences.
+In recent years, Chen Yu-hsun has continued on the comedy path, staying committed to localized subject matter. He believes that the more specifically Taiwanese the details, the more likely they are to resonate with international audiences. This proposition has been validated by the overseas reception of *My Missing Valentine*.
 
-He also plans to attempt other film genres but will maintain consistent humanistic concern and Taiwanese characteristics. Audiences expect him to bring more heartwarming works.
+He also pays attention to talent development in the Taiwanese film industry, arguing that giving young directors the chance to practice is more direct than any policy subsidy. His cinematic language excels in specificity—letting audiences feel Taiwan through a plate of *banto* dishes or a back alley, rather than through slogans.
 
-As Taiwan comedy cinema's representative figure, Chen Yu-Hsun's works have become important assets of Taiwan's film culture. He used cinema to prove humor's power, bringing endless joy and contemplation to Taiwan society.
+After thirty years of filmmaking, Chen Yu-hsun's work remains instantly recognizable because he has always placed the concrete details of Taiwanese life at the heart of his stories.
 
 ## References
 
-- [Chen Yu-Hsun — Taiwan Cinema](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12518) — Director's filmography
-- [57th Golden Horse Awards — Taipei Golden Horse Film Festival](https://www.goldenhorse.org.tw/) — _My Missing Valentine_ award records
-- [Taiwan Film History — Taiwan Film and Audiovisual Institute](https://www.tfai.org.tw/) — Comedy film development context
+[^1]: Wikipedia, "Chen Yu-hsun" entry, alma mater: National Taiwan University of Arts (formerly National Art Academy), https://zh.wikipedia.org/zh-tw/%E9%99%B3%E7%8E%89%E5%8B%B3
+[^2]: Taiwan Cinema, Chen Yu-hsun filmography, https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12518
+[^3]: Taipei Golden Horse Film Festival, 57th Golden Horse Awards *My Missing Valentine* award record, https://www.goldenhorse.org.tw/
+[^4]: Taipei Golden Horse Film Festival, 32nd Golden Horse Awards *Tropical Fish* Best Original Screenplay, https://www.goldenhorse.org.tw/
+[^5]: Taiwan Film and Audiovisual Institute, The development of Taiwanese comedy cinema, https://www.tfai.org.tw/

@@ -1,60 +1,107 @@
 ---
-title: 'Wei Te-sheng'
-description: "Writing Taiwan's epic through cinema, from Cape No. 7 to Seediq Bale—a dream practitioner"
+title: 'Wei Te-sheng: The Taiwanese Epic Filmmaker from Yongkang 1969, from Cape No. 7’s Hundred-Million Box Office to Venice Competition'
+description: 'Born on August 16, 1969, in Yongkang Township, Tainan County (today Yongkang District, Tainan City). Department of Electrical Engineering, Far East Junior College of Technology. In 2008, Cape No. 7 grossed NT$530 million (a Taiwan cinema record). In 2011, Warriors of the Rainbow: Seediq Bale was selected for the main competition at the 68th Venice Film Festival, competing for the Golden Lion, and won Best Feature Film at the 48th Golden Horse Awards. He is currently preparing the epic Taiwan Trilogy project.'
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '電影與戲劇'
 tags:
   [
-    People,
-    Director,
-    Cinema,
-    Taiwanese cinema,
-    Indigenous culture,
-    Cape No. 7,
-    Seediq Bale,
+    'Film and Theater',
+    'Director',
+    'Taiwanese Cinema',
+    'Indigenous Culture',
+    'Cape No. 7',
+    'Seediq Bale',
+    'Tainan',
   ]
-subcategory: 'Film & Theater'
-lastVerified: 2026-03-20
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "5.3億票房+威尼斯主競賽——這兩個節點才能說清楚他在台灣電影史的位置：一個商業奇蹟與一個藝術認可，不是同一件事。"
+#   whats_excluded: "霧社事件歷史背景完整分析；台灣三部曲資金籌募細節；《海角七號》演員逐一介紹"
+#   where_it_hedges: "《海角七號》票房5.3億：來源P0確認「破億」，5.3億此數字為現有資料常見說法（建議確認官方統計）"
+lastVerified: 2026-05-07
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/魏德聖.md'
+sourceCommitSha: '8eeedef0c'
+sourceContentHash: 'sha256:d2c501904d21b8d0'
+sourceBodyHash: 'sha256:4147951068d47d09'
+translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-Wei Te-sheng, born August 16, 1969, in Yongkang, Tainan, is one of Taiwan's most representative film directors. He set Taiwanese box office records with "Cape No. 7" (海角七號) and demonstrated epic cinematic vision with "Seediq Bale" (賽德克・巴萊), transforming from an unknown assistant director into a key figure who rewrote Taiwan's film industry landscape. His works not only achieved commercial success but, more importantly, rekindled Taiwanese audiences' confidence in local cinema.
+# Wei Te-sheng: The Taiwanese Epic Filmmaker from Yongkang 1969, from Cape No. 7’s Hundred-Million Box Office to Venice Competition
 
-## Early Education and Cinematic Awakening
+> **30-second overview:** Wei Te-sheng was born on August 16, 1969, in Yongkang Township, Tainan County (today Yongkang District, Tainan City).[^1] He studied electrical engineering at Far East Junior College of Technology (now Far East University) and, after graduation, entered the film industry as an assistant director.[^1] In 2008, he directed Cape No. 7, which grossed approximately NT$530 million, becoming Taiwan’s highest-grossing film at the time (P0⚠️ confirms “over NT$100 million”; NT$530 million is a commonly cited figure, and official statistics should be checked).[^2] In 2011, Warriors of the Rainbow: Seediq Bale was selected for the main competition at the 68th Venice International Film Festival, competing for the Golden Lion.[^3] That same year, Warriors of the Rainbow: Seediq Bale won Best Feature Film at the 48th Golden Horse Awards.[^4] He is currently preparing the epic Taiwan Trilogy project.
 
-Wei Te-sheng showed intense interest in visual creation from childhood, beginning to shoot short films with an 8mm camera during high school. Despite modest family circumstances, his passion for film never diminished. He studied electrical engineering at Far East University of Science and Technology—a seemingly unrelated technical background that actually cultivated his sensitivity to technical aspects, which proved invaluable in his later filmmaking.
+## August 16, 1969: Yongkang, Tainan
 
-In the early 1990s, Wei entered the film industry as an assistant director, learning filmmaking techniques from several renowned directors. Though working behind the scenes, he carefully observed every aspect of production—from scriptwriting and on-set coordination to post-production editing—gradually accumulating comprehensive filmmaking experience. This seemingly long apprenticeship laid a solid foundation for his later independent directorial work.
+Wei Te-sheng was born on August 16, 1969, in Yongkang Township, Tainan County (today Yongkang District, Tainan City).[^1] He studied electrical engineering at Far East Junior College of Technology (now Far East University), and his technical training sharpened his sensitivity to production craft.[^1]
 
-## The Miracle of Cape No. 7
+In the 1990s, Wei entered the film industry as an assistant director, learning on the crews of several Taiwanese directors. Taiwan’s film industry was in a prolonged downturn at the time, with very little room for local productions in theatrical distribution; most young people did not see “filming Taiwanese stories” as a viable career. In 1995, he wrote and directed a seven-minute short film titled Duo Da as a self-recommendation for an assistant position with Edward Yang (A Brighter Summer Day). That self-introduction in the language of cinema was one of the most representative attempts of his early career.[^1]
 
-"Cape No. 7," released in 2008, set a box office record of NT$530 million, becoming the highest-grossing Taiwanese film in Taiwan's cinema history. This film's success wasn't just commercial; more importantly, it reignited Taiwanese audiences' enthusiasm for local cinema. Prior to this, Taiwan's film market had long been dominated by Hollywood blockbusters and Hong Kong films, with domestic productions having virtually no survival space.
+Coming from an engineering background, his sensitivity to staging, visual language, and timelines came from years of observation on film sets rather than formal film-school training. This “unorthodox path” may also be one reason he later proved able to break from the conventions of Taiwanese cinema.
 
-The success of "Cape No. 7" was no accident. Wei spent years crafting the screenplay, skillfully combining a modern love story with historical memories from the Japanese colonial period, offering both commercial entertainment value and art film depth. The beautiful scenery of Hengchun, portrayals of common people's daily lives, and outstanding performances by actors including Jay Chou became topics of widespread discussion among audiences.
+## Seediq Came Before Cape No. 7
 
-More importantly, Wei demonstrated remarkable determination and perseverance during production. To complete the film, he didn't hesitate to sell his house for funding, even mortgaging his future. This spirit of risking everything for one's dreams became an inspirational example for Taiwan's cultural and creative industries.
+Wei Te-sheng’s desire to make Warriors of the Rainbow: Seediq Bale predated Cape No. 7 by more than a decade. In 2000, he spent NT$500,000 of his own money to shoot a five-minute proof-of-concept short for Seediq Bale, then carried it around in search of financing. No one was willing to invest.[^1]
 
-## The Epic Pursuit of Seediq Bale
+Taiwan’s film-investment environment told him that the subject was a commercial dead end. His choice was to first make a film that could attract the market, then use the trust it earned to secure the chance to film the Wushe Incident. Cape No. 7 was the execution of that strategy.
 
-The success of "Cape No. 7" gave Wei greater creative space, and he immediately threw himself into the more challenging "Seediq Bale" project. This epic film based on the Wushe Incident (霧社事件) had a production budget of NT$700 million, making it the largest investment in Taiwan's film history.
+This logic of “first opening the road, then walking the road he wanted to walk” is a key to understanding Wei’s career. He was not a director who “happened to make a hit film,” but a person with a clear long-term goal who reached it strategically.
 
-"Seediq Bale" was divided into two parts—"The Sun Flag" (太陽旗) and "The Rainbow Bridge" (彩虹橋)—released in 2011. The film recreated the historical scenes of the 1930 Wushe Incident, depicting the tragic story of Seediq tribal chief Mona Rudao leading his people in resistance against Japanese rule. Wei not only had to handle complex historical background but also face challenges of linguistic and cultural differences, making the filming process extraordinarily difficult.
+## 2008: Cape No. 7 and Approximately NT$530 Million at the Box Office
 
-The film received high artistic recognition, not only being selected for the Venice Film Festival but also showing the international film community Taiwan's production capabilities. While its box office performance didn't match "Cape No. 7," "Seediq Bale's" cultural value and historical significance were far more profound. It introduced more people to indigenous culture and prompted fresh examination of Taiwan's complex historical memory.
+In 2008, Wei Te-sheng wrote, directed, and independently assembled financing for Cape No. 7, using NT$5 million in borrowed money as the initial production budget and combining a contemporary love story with historical memory from the Japanese colonial period.[^2] During production, nearly all of his friends were pessimistic; some told him outright, “You will definitely have to run away.” His response was: “I think I filmed it very well.”[^5]
 
-## The Ultimate Dream of Taiwan Trilogy
+After its release, the film set a Taiwanese box-office record of approximately NT$530 million (P0 confirms “over NT$100 million”; NT$530 million is a commonly cited figure in existing materials, and the Taiwan Creative Content Agency should be consulted to confirm the precise number).[^2] The figure broke the historical record for locally produced Taiwanese films and renewed audience confidence that “Taiwanese stories can be told well.”
 
-After completing "Seediq Bale," Wei didn't rest but conceived the even grander "Taiwan Trilogy" (臺灣三部曲) project. This plan envisions three films depicting different periods of Taiwan history—the Dutch colonial period, Zheng family rule, and Qing dynasty era of the 17th century. The entire project's budget is estimated to exceed NT$4.5 billion, making it Taiwan's most ambitious film venture in history.
+> 📝 **Curator’s note:** Behind the “miracle” of Cape No. 7 was a premise that is easily overlooked: Wei Te-sheng himself faced enormous financial pressure. Had the box office failed, he would have personally shouldered a vast debt. He made the wager without any safety net. That makes the line “Only those who believe can see miracles” not cheap, outdated motivational broth, but a literal description of the situation.[^5]
 
-To realize this dream, Wei even planned to build a "Formosa Dreamland" theme park in Tainan, recreating the 17th-century Taijiang Inner Sea landscape. Although the project has progressed slowly due to fundraising difficulties, Wei has never given up, continuously promoting the plan through various means, hoping to complete this "Taiwan Epic Film Trilogy."
+## 2011: Warriors of the Rainbow: Seediq Bale: Venice Competition, Golden Horse Best Feature Film
 
-## Impact on Taiwan's Film Industry
+The success of Cape No. 7 gave Wei Te-sheng access to production funding that would previously have been impossible. In 2011, he directed Warriors of the Rainbow: Seediq Bale (released in two parts, The Sun Flag and The Rainbow Bridge), based on the 1930 Wushe Incident, in which Taiwan’s Indigenous Seediq people resisted Japanese colonial rule. Its production budget was approximately NT$700 million, more than one hundred times the production cost of Cape No. 7.[^3]
 
-Wei's success lies not only in personal artistic achievement but also in his driving force for Taiwan's entire film industry. "Cape No. 7" proved Taiwan cinema's market potential, encouraging more creators to develop local subject matter. "Seediq Bale" demonstrated Taiwan's technical filmmaking standards, helping international film circles rediscover Taiwanese cinema.
+The film was selected for the **main competition at the 68th Venice International Film Festival**, where it competed for the Golden Lion (not the Berlin Film Festival or the Busan Film Festival).[^3] That same year, it won Best Feature Film at the 48th Golden Horse Awards.[^4]
 
-He also actively cultivates new generation filmmakers through his production company Fruitlion Production, supporting young directors' creative projects. Wei often says, "Film is a dream-making industry, but dreams need someone to put them into practice." This passion and sense of responsibility for cinema has influenced many subsequent film workers.
+(Note: Some materials incorrectly identify the festival as Berlin or Busan; the P0-confirmed Venice main competition should be treated as authoritative.)
 
-## The Never-Give-Up Dreamer
+When discussing his interpretive perspective on the Wushe Incident, Wei Te-sheng once said: “**When people interpret the Wushe Incident, most stand from the perspective of the Japanese or the Han Chinese. No one has ever stood from the perspective of a man on the battlefield.**” He wanted to film Indigenous pride: “Han Chinese people often say they want to help them, but they have never tried to understand their pride.”[^5] This perspective is the central contribution of Warriors of the Rainbow: Seediq Bale to film history: it gave the Wushe Incident its first mainstream cinematic narrative truly belonging to a Seediq point of view.
 
-From assistant director to renowned director, from selling his house to make films to raising billions in funding, Wei's career is a legend about dreams and persistence. He once said, "I'm not a genius; I just love film more than others and am more willing to sacrifice everything for cinema." This pure creative passion is precisely the vital force that enables Taiwan cinema to rise again from adversity.
+## The Taiwan Trilogy Epic Project
 
-Although the "Taiwan Trilogy" filming project still faces numerous difficulties, Wei has never given up. He continues promoting the importance of Taiwan's historical culture in various venues, interpreting this land's stories from a filmmaker's perspective. Regardless of whether he ultimately completes all his planned projects, Wei has already proven through his works that Taiwan cinema has the ability to tell its own stories and the strength to shine on the international stage.
+After Warriors of the Rainbow: Seediq Bale, Wei Te-sheng conceived the more expansive Taiwan Trilogy project, planned as three films presenting different periods of Taiwanese history, from seventeenth-century Dutch rule to the Ming-Zheng period and the Qing dynasty, with an estimated total budget exceeding NT$4.5 billion.[^5] He also proposed the “City of Abundance” theme-park project, intended to recreate seventeenth-century Taiwanese historical scenes through immersive experience.
+
+The project faces immense financial pressure and execution challenges. Wei has publicly said that if Taiwan Trilogy can truly be completed, he would be willing to fully explain these twenty-five years of his filmmaking path. Behind that sentence lies a director’s final wager on his own “belief.”[^5]
+
+Wei Te-sheng’s entire path can be summarized in one sentence: “**Only those who believe can see miracles!**”[^5] From the NT$5 million loan for Cape No. 7, to the NT$700 million budget for Warriors of the Rainbow: Seediq Bale, to the NT$4.5 billion concept for Taiwan Trilogy, each step has been harder than the last, and at every step he has kept going.
+
+## His Place in Taiwanese Film History
+
+Before Wei Te-sheng, locally produced Taiwanese films had nearly disappeared from the market. The artistic achievements of the “Taiwan New Cinema” generation, including Hou Hsiao-hsien and Edward Yang, had received international recognition, but the box office had long remained weak, and theater screens had largely yielded to Hollywood and Hong Kong films.
+
+Cape No. 7 was not merely the success of a single film. It convinced Taiwanese audiences that “Taiwanese stories are worth watching,” and it also convinced investors that “Taiwanese films can be made.” This structural shift became the precondition for a later group of Taiwanese commercial films to take shape.
+
+Seen from this angle, Wei Te-sheng’s significance in Taiwanese film history has two layers: one is the work itself, namely the artistic and commercial achievements of Cape No. 7 and Warriors of the Rainbow: Seediq Bale; the other is that he changed how Taiwanese audiences and film investors imagined “local cinema.” That is the longer-term influence.[^5]
+
+The common account is that his films are “miracles,” accidents produced by a fortunate convergence of timing, place, and people. Another reading is this: behind that accident was one person spending a full twenty years walking the path of “first make a short film → seek funding → fail → shift to a smaller subject → exchange a small success for larger funding.” Miracles are often the longest contingency plan.
+
+There are no shortcuts in film. From the electrical engineering department of a junior college in Yongkang to the main competition at Venice, Wei Te-sheng has used only one method: keep believing, and keep walking.
+
+Born in Yongkang, Tainan, in 1969; unable to find funding after spending NT$500,000 in 2000 to shoot five minutes; NT$530 million at the box office in 2008; Venice main competition in 2011: this line is not a miracle. It is endurance.
+
+**Further reading:** [Wei Te-sheng — Wikipedia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Taiwan Cinema Database: Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Golden Horse Awards official website](https://www.goldenhorse.org.tw/)
+
+## References
+
+[^1]: [Wikipedia: Wei Te-sheng](https://zh.wikipedia.org/zh-tw/魏德聖) — Confirms that he was born on August 16, 1969, in Yongkang Township, Tainan County (today Yongkang District, Tainan City), and graduated from the Department of Electrical Engineering at Far East Junior College of Technology.
+
+[^2]: [Taiwan Cinema Database: Cape No. 7](https://taiwancinema.bamid.gov.tw/) — Confirms Cape No. 7 was released in 2008 and grossed over NT$100 million (approximately NT$530 million; official box-office statistics should be consulted for confirmation).
+
+[^3]: [Wikipedia: Warriors of the Rainbow: Seediq Bale](https://zh.wikipedia.org/zh-tw/賽德克·巴萊) — Confirms that Warriors of the Rainbow: Seediq Bale was selected in 2011 for the main competition at the 68th Venice International Film Festival, competing for the Golden Lion (not Berlin/Busan).
+
+[^4]: [Golden Horse Awards: 48th Best Feature Film](https://www.goldenhorse.org.tw/fpp/completed/detail/53) — Confirms that Warriors of the Rainbow: Seediq Bale won Best Feature Film at the 48th Golden Horse Awards.
+
+[^5]: [Business Today: How Wei Te-sheng Enlarged His Movie Dream (2020)](https://businesstoday.com.tw/article/category/183016/post/202008050003/) — Includes quotations such as “friends said you would definitely have to run away” and “Only those who believe can see miracles,” as well as background on Taiwan Trilogy’s funding and plans.
+
+[^6]: [Taiwan Cinema: Interview with Wei Te-sheng: Cape No. 7, a Film Built from Courage and NT$50 Million](https://taiwancinema.bamid.gov.tw/Infofeatures/InfofeaturesContent/?ContentUrl=57066) — An in-depth report on the production process of Cape No. 7, including firsthand records of fundraising and production challenges.

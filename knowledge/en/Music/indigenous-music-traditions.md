@@ -1,165 +1,288 @@
 ---
-title: 'Indigenous Music Traditions of Taiwan: Songs as Memory, Ritual, and Living History'
-description: 'A cultural map of Taiwan’s 16 Indigenous peoples through song—polyphonic prayer, harvest dance, mouth harps, and the living archives of language and ritual.'
+title: 'Indigenous Music Traditions of Taiwan'
+description: 'Explore the rich musical culture of Taiwan''s 16 indigenous groups, from ancient chants to traditional instruments, witnessing millennia of cultural heritage'
 date: 2026-03-18
-tags:
-  [
-    'Indigenous peoples',
-    'traditional music',
-    'ritual',
-    'oral history',
-    'Pasibutbut',
-    'mouth harp',
-  ]
 author: 'Taiwan.md'
-difficulty: 'intermediate'
-readingTime: 12
-featured: true
 category: 'Music'
+subcategory: '傳統音樂'
+tags: ['原住民', '傳統音樂', '文化傳承', '樂器', '祭典']
+readingTime: 12
 lastVerified: 2026-03-19
-translatedFrom: 'Music/台灣原住民音樂傳統.md'
+lastHumanReview: false
+featured: true
+translatedFrom: Music/台灣原住民音樂傳統.md
+sourceCommitSha: f712b7242
+sourceContentHash: sha256:650169e89b146c12
+sourceBodyHash: sha256:e36393445cb958f3
+translatedAt: 2026-05-17T05:34:48+08:00
 ---
 
-# Indigenous Music Traditions of Taiwan: Songs as Memory, Ritual, and Living History
+# Indigenous Music Traditions of Taiwan
 
-## 30‑second overview
+The musical traditions of Taiwan's indigenous peoples represent the oldest sonic memory on this land. Each of the 16 groups has developed a unique musical culture — from the jaw harp of the Atayal to the polyphonic singing of the Bunun, from the Harvest Festival dances of the Pangcah (Amis) to the pestle music of the Thao. These melodies, passed down over thousands of years, record each group's history, beliefs, and life wisdom.
 
-Taiwan’s Indigenous music is the island’s oldest sound archive. Across **16 Indigenous peoples**, songs are not “folk entertainment” but cultural infrastructure: **ritual prayer, work rhythm, social memory, and language preservation**. From the Bunun **Pasibutbut** polyphonic prayer to the Atayal **mouth harp (口簧琴, lubuw)**, from the Amis **Harvest Festival (豐年祭, Ilisin)** dances to the Thao **pounding‑song (杵音)**, music is inseparable from place, ancestors, and everyday life. Today, urban migration and language loss threaten continuity, while revival movements, education, and digital archiving aim to keep these traditions alive.
+## 30-Second Overview
 
-**Keywords:** Pasibutbut, mouth harp, Harvest Festival, ritual songs, Indigenous languages, oral history
+Taiwanese indigenous music is centered on vocal song, complemented by natural instruments such as the jaw harp, nose flute, and wooden pestles. The most renowned examples include the Bunun "Eight-Part Harmony" (Pasibutbut), Atayal jaw harp performance, Pangcah Harvest Festival song and dance, and Thao pestle music. These musical forms serve as the core vehicle for tribal life, ritual activities, and cultural transmission — not merely artistic entertainment.
 
-## Why it matters
+**Keywords:** Eight-Part Harmony (Pasibutbut), jaw harp, Harvest Festival (Ilisin), pestle music, ritual songs, tribal culture
 
-Indigenous music in Taiwan is a living record of migration, cosmology, and social structure. It preserves **endangered languages**, encodes collective memory, and reveals how communities understand land, seasons, and ancestry. To listen to these songs is to hear a worldview—one where music is not performance alone, but **a tool of social cohesion and spiritual communication**.
+---
 
-## Music as cultural architecture
+## Cultural Significance of Ancient Sounds
 
-### Ritual music: sound as communication with ancestors
+Indigenous music is a direct expression of life and cosmology. Every song carries a specific cultural function:
 
-Many songs are ceremonial, acting as bridges between the living and the spiritual world. The **Bunun Pasibutbut** (“Prayer for the Millet Harvest”) layers voices in a slow, spiraling polyphony to “invite” a good harvest. The **Paiwan Five‑Year Ceremony songs** are likewise an important ritual to welcome ancestors back to the village. These are not optional performances; they are **central to spiritual life**.
+### Ritual Music
 
-### Work songs: labor into rhythm
+Ritual songs serve as a sacred medium of communication between the people, ancestral spirits, and nature. The Bunun "Prayer for Millet Harvest" (Pasibutbut) uses complex harmonies to mimic natural sounds, in the belief that it will move the gods to grant a bountiful harvest; the Paiwan Five-Year Festival songs are an important ceremony to welcome the return of ancestral spirits.
 
-In many communities, work and song are inseparable. The **Thao pounding‑song (杵音)** grew from women pounding millet—wooden pestles of different lengths create multiple pitches, forming a percussive ensemble. Fishing, weaving, and farming each have their own songs, synchronizing movement and reinforcing communal bonds.
+### Work Songs
 
-### Oral history: songs as archives
+Songs sung during daily labor coordinate work rhythms and unite collective strength. The pestle rhythms of Thao women pounding millet, the call songs of the Pangcah while fishing, and the gentle humming of the Atayal while weaving all transform arduous work into beautiful music.
 
-Indigenous songs are **living histories**. The **Puyuma Nanwang ancient chants (南王古調)** preserve ancestral narratives. **Rukai epic songs** tell of clouded‑leopard myths and ancestral migrations. When the language fades, these songs are often the last carriers of cultural detail.
+### Life Narratives
 
-## A tour of signature traditions
+Songs are living history books of the tribe, recording migration histories, heroic deeds, love stories, and life wisdom. The "Nanwang Ancient Melodies" of the Puyuma preserve the collective memory of the group over millennia, while the epic songs of the Rukai recount myths of the clouded lily and the lily flower.
 
-### Amis (Pangcah)
+---
 
-- **Region:** Hualien and Taitung plains
-- **Style:** Massed singing and circle dance
-- **Key ritual:** **Harvest Festival (Ilisin)**—large‑scale communal dance
-- **Sound:** bright, rhythmic, often pentatonic
+## A Tour of the 16 Groups' Musical Characteristics
 
-Amis music emphasizes **collective voice**. During Ilisin, communities form circles; men and women sing and dance in counter‑patterns, the bamboo rattles **kakeng** marking the pulse.
+### Pangcah (Amis)
 
-### Atayal (Atayal)
+**Distribution:** Hualien and Taitung plains
+**Musical characteristics:** Equal emphasis on song and dance, skilled in group singing
+**Representative instruments:** Bamboo bells (Kakeng), hide drums
+**Famous ceremony:** Harvest Festival (Ilisin) song and dance, with men and women singing in alternating groups
+**Musical style:** Bright, lively melodies with a strong sense of rhythm, commonly using the pentatonic scale
 
-- **Region:** Mountain areas of northern and central Taiwan
-- **Signature instrument:** **Mouth harp (口簧琴, lubuw)**
-- **Function:** courtship, communication, personal expression
+The Pangcah Harvest Festival is one of the most representative indigenous celebrations in Taiwan. During the festival, tribe members form circles singing and dancing; men in traditional attire step in unison while women shake bamboo bells as accompaniment, voices and dance perfectly intertwined.
 
-The mouth harp produces a haunting, intimate timbre. Players use breath and mouth cavity resonance to shape pitch—an acoustic technology of remarkable subtlety.
+### Atayal
 
-### Bunun (Bunun)
+**Distribution:** Mountainous areas of Hsinchu, Miaoli, Taichung, and Nantou
+**Musical characteristics:** A highly developed jaw harp culture
+**Representative instrument:** Jaw harp (Lubuw)
+**Famous forms:** Improvised performance, solo singing
+**Musical style:** Wide vocal range, rich ornamentation, nuanced emotional expression
 
-- **Region:** Central and eastern highlands
-- **Signature form:** **Pasibutbut** polyphony
+The Atayal jaw harp is a treasure of Taiwanese indigenous music. The player places a bamboo or copper reed against the mouth, using airflow vibration and oral resonance to produce different pitches. The jaw harp serves simultaneously as a musical instrument, a token of courtship, and a medium of communication, occupying a special place in Atayal culture.
 
-Bunun polyphony is internationally celebrated. Eight vocal parts interlock to create rising harmonic textures, often described as “bees in flight.” It is one of the world’s most distinctive polyphonic traditions.
+### Bunun
 
-### Paiwan (Paiwan)
+**Distribution:** Mountainous areas of Nantou, Hualien, and Taitung
+**Musical characteristics:** The Eight-Part Harmony (Pasibutbut) is internationally renowned
+**Representative instrument:** Bow harp (Kani-hungan)
+**Famous forms:** Multi-part singing, prayer songs
+**Musical style:** Complex harmonies, awe-inspiring sonic effects
 
-- **Region:** Southern mountain areas
-- **Signature instrument:** **Double‑pipe nose flute (雙管鼻笛, palingtuluan)**
-- **Social structure:** music reflects hierarchical status
+The Bunun Pasibutbut is a four-part chorus that, through reinforced chest resonance and throat singing, produces an eight-part overtone effect (mabungbung, maidadu, mandaza, mahosngas)[^2], mimicking the sound of a swarm of bees in flight. Tribe members believe this can move the gods to grant a bountiful millet harvest.
 
-The nose flute is traditionally reserved for nobility, and its slow, ornate melodies carry a sense of ceremonial gravity.
+### Paiwan
 
-### Thao (Thao)
+**Distribution:** Mountainous areas of Pingtung and Taitung
+**Musical characteristics:** A hierarchical society reflected in the music
+**Representative instrument:** Double-tube nose flute (Palingtuluan)
+**Famous forms:** Ancient song transmission, Five-Year Festival songs
+**Musical style:** Long, flowing melodies with complex ornamentation, possessing an aristocratic quality
 
-- **Region:** Sun Moon Lake
-- **Signature sound:** **Pounding‑song (杵音)**
+The Paiwan double-tube nose flute is an instrument exclusive to men of the noble class.[^3] Its low, distant sound is often used for courtship and expressing longing, making it the most distinctive element of Paiwan musical culture.
 
-Pestles and wooden boards create a pitched percussion ensemble—music born directly from daily labor.
+### Rukai
 
-### Other peoples (highlights)
+**Distribution:** Mountainous areas of Kaohsiung, Pingtung, and Taitung
+**Musical characteristics:** Multi-part choral singing
+**Famous forms:** Epic songs, chieftain songs
+**Musical style:** Solemn and dignified, rich in harmony
 
-- **Tao (Yami):** songs of the flying‑fish season and ocean life
-- **Saisiyat:** **Pasta’ay (矮人祭)** songs and dance
-- **Tsou:** war and ceremonial songs
-- **Seediq / Truku / Sakizaya / Kanakanavu / Hla’alua:** each with distinctive ceremonial repertoires and language‑specific vocal techniques
+### Puyuma
 
-## Instruments: nature as the workshop
+**Distribution:** Taitung plains
+**Musical characteristics:** Nanwang Ancient Melodies
+**Famous singers:** Hometown of Chang Hui-mei (A-Mei) and Chen Chien-nien
+**Musical style:** Beautiful melodies, emotionally rich
 
-Indigenous instruments are typically built from **bamboo, wood, stone, shell, and animal skin**.
+### Thao
 
-- **Mouth harp (Atayal):** bamboo or metal tongue vibrated by breath
-- **Nose flute (Paiwan):** double pipes, one melodic, one drone
-- **Bamboo rattles (Amis):** seed‑filled tubes marking dance rhythms
-- **Wooden pestles (Thao):** tuned by length for multiple pitches
-- **Stone slabs (Paiwan):** resonant stone percussion
+**Distribution:** Sun Moon Lake area
+**Musical characteristics:** Pestle music culture
+**Representative instruments:** Wooden pestles, pestle board
+**Famous forms:** Harvest pestle music, ancestral spirit ritual songs
+**Musical style:** Strongly rhythmic, bearing the character of work songs
 
-These instruments reveal a deep **acoustic knowledge of materials**, where the landscape itself becomes an instrument.
+Thao pestle music originated as a work song while women pounded millet, later developing into an artistic performance.[^4] Wooden pestles of different lengths strike the pestle board to produce different pitches, combined with the singers' voices to create a unique sonic effect.
 
-## The modern challenge: continuity under pressure
+### Other Groups
 
-### Urban migration and cultural dislocation
+The Tsou are known for their war ritual songs and mythological narrative songs; the Saisiyat's Pasta'ay (Dwarf Festival) songs and dances are a grand cross-tribal ceremony held every two years.
 
-As many Indigenous people move to cities for education and work, the communal setting where songs naturally live becomes fragmented. Music becomes “performance” rather than daily practice, and fewer young people experience ritual in its full context.
+The Tao (Orchid Island) preserve their oceanic life through plank boat songs and flying fish festival songs; the Truku weaving songs and hunting songs narrate the labor rhythms of the mountains and forests.
 
-### Language loss
+The Sakizaya fire deity ritual songs and the Seediq headhunting songs and weaving songs each record different threads of tribal life; the Hla'alua are known for their Sacred Shell Festival songs, while the Kanakanavu have the Mikong Festival songs passed down through generations.
 
-Many songs use archaic or ceremonial vocabulary. When the language weakens, the song’s full meaning fades. Music revival therefore depends on **language revitalization**, not just performance.
+The Siraya preserve one of the few surviving musical memories of the Pingpu (Plains Indigenous) peoples through the "Night Ceremony at Xiangtian Lake"; tribe members chant songs in the half-lost Siraya language, and the Kong-kài (public shrine) rituals continue to this day in the Tainan area, becoming an important symbol of the Pingpu cultural revitalization movement.
 
-### Tourism and simplification
+The Tao's large ship-launching ceremony encircling songs feature multiple singers alternating chants around a plank boat, with rhythms matching the cadence of ocean waves, carrying a distinct maritime civilization character. The multi-part choral traditions of the Truku and Seediq left a rich record in Japanese-era field recordings and remain important material for comparative musicology to this day.
 
-Tourism offers exposure and income, but it can flatten ritual into spectacle. Sacred songs risk becoming entertainment—**a shift that alters meaning**.
+---
 
-## Revival and innovation
+## The Natural Wisdom of Traditional Instruments
 
-### Cultural revitalization
+Indigenous instruments are crafted from natural materials, each embodying the group's life wisdom and aesthetic sensibility.
 
-Since the 1980s, Indigenous rights movements have helped establish cultural centers, community archives, and revival groups dedicated to recording and teaching traditional songs.
+### Bamboo Instruments
 
-### Digital preservation
+- **Jaw harp (Atayal Lubuw):** A split bamboo piece fitted with a copper reed, producing a crisp, clear tone
+- **Nose flute (Paiwan Palingtuluan):** A double-tube design, one side without holes, the other with 3–4 holes
+- **Bamboo bells (Pangcah Kakeng):** Bamboo tubes containing seeds that rattle when shaken
 
-- **Audio digitization** of fragile tapes
-- **Video documentation** of ceremonies
-- **Transcription projects** to convert oral repertoires into notation
+### Wooden Instruments
 
-### Education and intergenerational transfer
+- **Wooden pestles (Thao):** Different lengths produce different pitches
+- **Wooden drums:** Hollowed from tree trunks, producing deep, powerful sounds
+- **Bow harp (Bunun):** A bamboo bow with a string, using oral resonance
 
-- Indigenous language education in schools
-- Community workshops and youth ensembles
-- University‑level Indigenous music research programs
+### Other Materials
 
-### Contemporary creativity
+- **Stone slab instrument (Paiwan):** Utilizing the acoustic properties of shale
+- **Hide drums:** Stretched with Formosan muntjac or wild boar hide
+- **Shell instruments:** Coastal groups using conch shells to produce sound
 
-A new generation of Indigenous artists blends traditional elements with modern genres—world music, jazz, electronic—while keeping cultural roots visible. This is not dilution; it is **a living adaptation**.
+---
 
-## International significance
+## The Role of Music in Ceremonies
 
-- The **Bunun Pasibutbut** is often cited by ethnomusicologists as a rare polyphonic treasure.
-- Japanese scholar **Kurosawa Takatomo (1943)** recorded Bunun voices, later included in international archives—sometimes discussed alongside the global “sounds of Earth.”
-- Taiwan’s Indigenous music offers a case study in how small‑population cultures maintain complex musical systems.
+### Seasonal Rituals
 
-## If you want to experience it
+Indigenous ceremonial music is closely tied to the agricultural calendar. Spring planting ceremonies and rain-prayer rituals, along with summer millet weeding ceremonies, mark different stages of the farming cycle; in autumn, the Harvest Festival and millet harvest ceremonies take center stage, while winter concludes with ancestral spirit ceremonies and year-end festivals.
 
-- Attend Indigenous festivals (when invited) such as **Ilisin** (Amis) or **Pasta’ay** (Saisiyat)
-- Visit museums and cultural parks: **Shung Ye Museum of Formosan Aborigines**, **National Museum of Prehistory**
-- Explore official archives and cultural databases listed below
+### Life Rites
+
+At birth there are naming songs and announcement songs; upon reaching adulthood, coming-of-age songs and (among tattooed groups) facial tattooing songs mark this turning point.
+
+- **Wedding:** Bride-fetching songs, congratulatory songs
+- **Funeral:** Lament songs, spirit-sending songs
+
+### Social Functions
+
+Music plays multiple roles in tribal society. Songs are living history books, preserving historical knowledge through oral transmission across generations; young men and women get to know each other through antiphonal singing, where the voice serves as both emotional expression and a social medium.
+
+- **Healing function:** Certain songs are believed to have the power to cure illness
+- **Unifying function:** Group singing and dancing strengthen tribal solidarity
+
+---
+
+## Modern Challenges to Musical Transmission
+
+### Urbanization
+
+As large numbers of indigenous people have migrated to cities, traditional music has lost its original living soil. Younger generations grow up in urban environments without the cultural immersion of the tribe, and traditional musical skills face the crisis of a broken chain of transmission.
+
+### Language Loss
+
+Many traditional songs use archaic tribal vocabulary, even languages that have already disappeared. The loss of language directly threatens the integrity of musical traditions, and much deep cultural meaning may be lost forever.
+
+### Commercialization
+
+While the rise of tourism has given indigenous music greater visibility, commercial packaging often simplifies and distorts the original meaning of the music, turning sacred ceremonial music into entertainment performances.
+
+### Adaptation to Modernity
+
+How to allow indigenous music to find a place in modern society while preserving its spiritual traditions is an important challenge of our time.
+
+---
+
+## Revitalization and Innovation
+
+### Cultural Revitalization Movement
+
+Since the 1980s, with the rise of the Taiwanese indigenous rights movement, musical and cultural revitalization has become an important issue.[^5] Various groups have established cultural revitalization organizations dedicated to the documentation, organization, and transmission of traditional songs.
+
+In 1996, the government formally recognized the collective rights of indigenous peoples. Indigenous cultural centers were established in cities and counties across Taiwan, and music fieldwork and oral history projects received public funding, creating a revitalization landscape driven jointly by grassroots advocacy and policy support.
+
+### Digital Preservation
+
+Digital technology has provided new avenues for preserving ancient music: researchers have converted old cassette tapes to digital formats, used video to fully document ceremonial rituals, and attempted to transcribe oral music into written scores, allowing the next generation to access their group's sonic heritage even outside the tribe.
+
+Government agencies and nonprofit organizations have also launched multiple online archival projects, making songs from each group publicly available online in the form of audio files, lexical annotations, and cultural context descriptions, enabling tribe members and researchers across Taiwan to access them in real time.
+
+### Educational Outreach
+
+School mother-tongue curricula have incorporated indigenous language and music courses into the formal syllabus; various groups have also attempted to establish tribal schools centered on tribal culture, and higher education institutions have gradually established indigenous music studies programs, forming a multi-layered transmission network from community to academia.
+
+### Contemporary Innovation
+
+A new generation of indigenous musicians, while maintaining traditional foundations, continues to experiment with cross-genre work: collaborating with contemporary music and world music, promoting traditional music through online platforms, and participating in world music festivals to engage in dialogue with other indigenous musical traditions. These efforts have given traditional music new visibility in the contemporary context.
+
+### Cross-Genre Experiments and Representative Cases
+
+Pangcay artist Sangpuy presents the aesthetics of traditional chanting through barefoot singing and a magnetic voice. His 2012 album *dalan* won the Golden Melody Award for Best Indigenous Language Singer, and he has toured Japan and Europe. Tao artist Suming incorporates electronic beats with tribal language, offering a modern interpretation of tribal life. Paiwan artist Abao (Aljenljeng Tjaluvie) won the 2020 Golden Melody Award for Album of the Year with her all-indigenous-language electronic album *kinakaian: Mother's Tongue*, marking the most groundbreaking milestone for Taiwanese indigenous music in the mainstream market.
+
+The overtone structure of the Bunun Pasibutbut has also entered academic and artistic applications: tribal music workers such as Mayaw Biho have integrated tribal chanting into film scores, and the indigenous musical elements in films such as *Warriors of the Rainbow: Seediq Bale* have introduced a wider audience to the depth of this sonic world.
+
+Indigenous-language songs simultaneously play a key role in language preservation. When tribal vocabulary is woven into melody, the retention effect of sonic memory often surpasses that of text alone. Indigenous-language song corpus projects launched by research institutions attempt to use song to preserve the final contours of tribal languages before they disappear.
+
+---
+
+## World Standing and Cultural Value
+
+Taiwanese indigenous music holds an important place in world ethnomusicology:
+
+### Academic Value
+
+- The **Bunun Eight-Part Harmony** has been hailed by musicologists as a "treasure of world music"
+- The **multi-part singing tradition** is unique in the Oceania region
+- **Instrument craftsmanship** demonstrates ancient acoustic wisdom
+- **Evidence of Austronesian dispersal:** The high correlation between Taiwanese indigenous multi-part singing and Oceanic ethnic music supports the musical evidence for the "Out of Taiwan" hypothesis
+- **Oral tradition studies:** How a non-literate society uses music to carry historical memory is an important intersecting topic in ethnography and cognitive science
+
+### International Influence
+
+- In 1952, Japanese scholar Kurosawa Takatomo submitted a recording of the Bunun Pasibutbut to UNESCO, shocking the international ethnomusicology community[^1]
+- Indigenous singers have repeatedly achieved distinction at international music festivals
+- Taiwanese indigenous music has become an important case study in world ethnomusicology research
+- Contemporary artists such as Sangpuy and Abao have been invited to perform at European and American music festivals, bringing Taiwanese indigenous music into the international popular music landscape
+- The Bunun Pasibutbut has been cited by multiple European conservatories as a field teaching case for the study of natural overtone phenomena
+
+### Cultural Significance
+
+Indigenous music is an important component of human cultural diversity, reminding us that in the tide of globalization, the preservation of cultural uniqueness holds profound value.
+
+Taiwan, as an important origin point of the Austronesian language family, is home to 16 indigenous groups who preserve some of the oldest sounds on Earth. The disappearance of every ancient song means the silencing of a unique way of perceiving the world; the revitalization of every song represents the preservation of humanity's intellectual heritage.
+
+---
+
+## Further Exploration
+
+To gain a deeper understanding of Taiwan's indigenous music traditions, consider:
+
+### On-Site Experience
+
+The most direct way is to visit various tribal villages and experience the singing and dancing firsthand at ceremonies such as the Harvest Festival and the Millet Festival; indigenous cultural parks also offer more accessible viewing opportunities suitable for first-time visitors.
+
+### Learning Resources
+
+The Indigenous Peoples Committee cultural database, the Taiwan Music Center archives, and indigenous research centers at various universities provide entry points at different levels of depth, from online browsing to academic research.
+
+### Related Sites
+
+The Shung Ye Museum of Formosan Aborigines in Taipei is an important venue for permanent exhibitions; the National Museum of Prehistory in Taitung presents the deep threads of indigenous culture from an archaeological perspective. The Hualien County Indigenous Cultural Museum and the Pingtung County Indigenous Cultural Park each focus on local groups, offering performances and interactive experiences.
+
+---
 
 ## References
 
-- [Council of Indigenous Peoples, Taiwan](https://www.cip.gov.tw/)
-- 明立國，《台灣原住民音樂之美》，晨星出版社，2006。[作者介紹](https://par.npac-ntch.org/tw/article/author/2656)
-- 呂鈺秀，《台灣音樂史》，五南文化，2003。[博客來](https://www.books.com.tw/products/0010906148)
-- 許常惠，《台灣音樂史初稿》，全音樂譜出版社，1991。[三民網路書店](https://www.sanmin.com.tw/product/index/000268139)
-- [台灣原住民族歷史語言文化大辭典網路版](http://210.240.125.35/citing/)
-- [中央研究院民族學研究所數位典藏](https://c.iis.sinica.edu.tw/)
-- [臺灣原住民族圖書資訊中心](https://tiprc.apc.gov.tw/)
+- [Official Website of the Council of Indigenous Peoples](https://www.cip.gov.tw/)
+- Ming Li-guo, *The Beauty of Taiwan's Indigenous Music*, Morning Star Publishing, 2006. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
+- Lü Yu-hsiu, *A History of Music in Taiwan*, Wu-Nan Culture, 2003. [Books.com.tw](https://www.books.com.tw/products/0010906148)
+- Hsü Chang-hui, *First Draft of a History of Music in Taiwan*, Whole Music Publishing, 1991. [Sanmin Online Bookstore](https://www.sanmin.com.tw/product/index/000268139)
+- [Online Edition of the Encyclopedic Dictionary of Taiwan's Indigenous Peoples' History, Language, and Culture](http://210.240.125.35/citing/)
+- [Institute of Ethnology, Academia Sinica — Digital Archives](https://c.iis.sinica.edu.tw/)
+- [Taiwan Indigenous Peoples Resource Center](https://tiprc.apc.gov.tw/)
+
+[^1]: Lü Yu-hsiu, *A History of Music in Taiwan*, Wu-Nan Culture, 2003, pp. 42–43. In 1952, Kurosawa Takatomo submitted a recording of the Bunun Pasibutbut to UNESCO, sparking widespread discussion in the international ethnomusicology community. [Books.com.tw](https://www.books.com.tw/products/0010906148)
+[^2]: Ming Li-guo, *The Beauty of Taiwan's Indigenous Music*, Morning Star Publishing, 2006, pp. 88–91. Pasibutbut is in fact four vocal parts; through natural overtones, it presents the effect of eight parts on a spectrograph. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
+[^3]: Ming Li-guo, *The Beauty of Taiwan's Indigenous Music*, p. 120. The Paiwan double-tube nose flute was traditionally restricted to noble-class men, closely tied to the group's hierarchical system. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
+[^4]: Hsü Chang-hui, *First Draft of a History of Music in Taiwan*, Whole Music Publishing, 1991, p. 157. The process by which Thao pestle music developed from agricultural work songs into a performing art is recorded here. [Sanmin Online Bookstore](https://www.books.com.tw/product/index/000268139)
+[^5]: Council of Indigenous Peoples, *White Paper on Indigenous Cultural Revitalization Policy*, 2019. https://www.cip.gov.tw/

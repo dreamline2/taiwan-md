@@ -9,7 +9,11 @@ author: 'Taiwan.md Translation Team'
 readingTime: 8
 featured: false
 lastVerified: 2026-03-22
-translatedFrom: 'People/高俊明.md'
+translatedFrom: "People/高俊明.md"
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:eaeba845240b369e'
+sourceBodyHash: 'sha256:b37aec09305a898c'
+translatedAt: "2026-04-14T19:19:52+08:00"
 ---
 
 > **En 30 secondes :** Le pasteur Kao Chun-ming (1929-2019) a purgé 4 ans de prison pour avoir caché le fugitif Shih Ming-teh après l'incident de Formosa de 1979 — alors qu'ils ne se connaissaient presque pas, s'étant croisés deux fois à peine dans des lieux publics. C'est une histoire de choix moral : confronté à un conflit entre obligation éthique et risque personnel, il a choisi l'éthique.
@@ -92,7 +96,7 @@ Le gouvernement du Kuomintang entreprit une infiltration systématique et une d�
 
 ## Poèmes de prison et paroles de sortie
 
-Durant ses quatre années au centre de détention militaire de Xindian, Kao écrivit le poème en taïwanais *Tsì-phah hōo hé sio* (Les épines brûlées par le feu), qui lui valut en 2006 le Prix du meilleur parolier dans la catégorie musique traditionnelle et artistique aux Golden Melody Awards (17e édition).
+Durant ses quatre années au centre de détention militaire de Xindian, Kao écrivit le poème en taïwanais _Tsì-phah hōo hé sio_ (Les épines brûlées par le feu), qui lui valut en 2006 le Prix du meilleur parolier dans la catégorie musique traditionnelle et artistique aux Golden Melody Awards (17e édition).
 
 Le 15 août 1984, Kao fut libéré avant terme. Dans sa déclaration à la sortie de prison, il dit :
 

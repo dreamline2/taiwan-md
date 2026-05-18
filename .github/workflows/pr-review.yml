@@ -4,6 +4,18 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
+    # 2026-05-03 cross-lang-baseline post-mortem: PR #797 1435 file change 撞
+    # GitHub Actions「Argument list too long」shell limit。PR review 只對
+    # CONTENT / ENGINEERING change 有意義 — 純 docs/ memory/ diary/ reports/
+    # PR 跳過避免 false-fail + 加速 CI。
+    paths:
+      - 'knowledge/**'
+      - 'src/**'
+      - 'scripts/**'
+      - 'astro.config.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/**'
 
 permissions:
   contents: read
@@ -29,7 +41,20 @@ jobs:
           # content review because main had just gained Hello-Nico.md, which
           # 2-dot diff reported as "deleted in PR head". See:
           # https://github.com/frank890417/taiwan-md/actions/runs/24703099747
-          FILES=$(git diff --name-only --diff-filter=ACMR ${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }})
+          #
+          # 2026-05-06 jovial-feistel fix: for fork PRs, the head SHA isn't in
+          # the local clone, so `base.sha...head.sha` returned empty and the
+          # workflow false-classified every fork PR as `pr_type=engineering`
+          # then SKIPPED review entirely. Fall back to the merge ref's two
+          # parents (HEAD^1 = base, HEAD^2 = fork's PR head) which
+          # actions/checkout@v4 fetched as part of the synthetic merge commit.
+          FILES=$(git diff --name-only --diff-filter=ACMR \
+            "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" \
+            2>/dev/null)
+          if [ -z "$FILES" ] && git rev-parse HEAD^2 >/dev/null 2>&1; then
+            echo "ℹ️  Falling back to merge-parents diff (likely fork PR)"
+            FILES=$(git diff --name-only --diff-filter=ACMR HEAD^1...HEAD^2)
+          fi
           echo "all_files<<EOF" >> $GITHUB_OUTPUT
           echo "$FILES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT

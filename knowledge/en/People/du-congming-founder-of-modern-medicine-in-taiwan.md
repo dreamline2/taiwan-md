@@ -12,7 +12,13 @@ tags:
   ]
 subcategory: 'Science & Academia'
 lastVerified: 2026-03-19
+category: 'People'
+author: 'Taiwan.md'
 translatedFrom: 'People/杜聰明.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:cda33c38cf5ae9bc'
+sourceBodyHash: 'sha256:f0f1f0e7889b7e24'
+translatedAt: '2026-05-17T06:10:00Z'
 ---
 
 # Du Congming: The Pioneer of Modern Medicine in Taiwan

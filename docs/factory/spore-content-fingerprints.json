@@ -1,0 +1,25 @@
+{
+  "_schema": "spore-content-fingerprints v1.0",
+  "_purpose": "URL-to-fingerprint mapping for harvest mismatch detection (LESSONS-INBOX 2026-05-16 #5 instrumentation)",
+  "_format": {
+    "key": "spore URL (e.g. https://x.com/.../status/123)",
+    "value": {
+      "fingerprint": "sha256 16-char hex of (first_sentence + emoji set + utm_campaign)",
+      "first_recorded": "ISO timestamp",
+      "first_sentence": "verbatim first sentence (audit aid)",
+      "emojis": "list of signature emoji chars",
+      "utm_campaign": "s{N} or empty",
+      "spore_id": "associated #N from SPORE-LOG (optional)"
+    }
+  },
+  "fingerprints": {
+    "https://x.com/taiwandotmd/status/2053101189034860856": {
+      "fingerprint": "872bef011794e0bd",
+      "first_recorded": "2026-05-16T12:06:32",
+      "first_sentence": "1979 雷虎在台中做玩具飛機 🏭 → 2025-09-21 Overkill 通過 Blue UAS",
+      "emojis": ["🏭"],
+      "utm_campaign": "s71",
+      "spore_id": "71"
+    }
+  }
+}

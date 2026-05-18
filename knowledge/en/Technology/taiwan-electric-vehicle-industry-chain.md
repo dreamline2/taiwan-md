@@ -1,7 +1,10 @@
 ---
-title: 'Taiwan Electric Vehicle Industry Chain Development'
-description: "From battery technology to charging infrastructure, exploring Taiwan's complete EV ecosystem and 2030 net-zero transition strategy"
+title: 'Development of Taiwan’s Electric Vehicle Industry Chain'
+description: 'From battery technology to charging infrastructure, an exploration of Taiwan’s complete electric vehicle industry ecosystem and its 2030 net-zero transition strategy'
 date: 2026-03-18
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '半導體與硬體'
 tags:
   [
     'electric vehicles',
@@ -10,619 +13,351 @@ tags:
     'net-zero transition',
     'green transportation',
   ]
-author: 'Taiwan.md'
-difficulty: 'intermediate'
 readingTime: 14
-featured: true
 lastVerified: 2026-03-19
+lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/台灣電動車產業鏈發展.md'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:85f80872ad09b54c'
+sourceBodyHash: 'sha256:3683724639161321'
+translatedAt: '2026-05-15T14:23:13+08:00'
 ---
 
-# Taiwan Electric Vehicle Industry Chain Development
+# Development of Taiwan’s Electric Vehicle Industry Chain
 
 ## 30-Second Overview
 
-Taiwan's electric vehicle industry chain encompasses a complete ecosystem from battery materials and components to system integration. Under the government's 2050 net-zero transition policy, the goal is set for 2030 passenger vehicle electrification, with public transportation taking priority. Taiwan has established a comprehensive fast-charging and battery-swapping network for electric scooters, with electric scooter fast-charging standards adopted by IEC as international standards. Industrial advantages focus on semiconductors, battery materials, and motor control systems, while vehicle manufacturing and battery cell technology still need breakthroughs, accelerating development through international cooperation and technology transfer.
+Taiwan’s electric vehicle industry chain covers a complete ecosystem, from battery materials and components to systems integration. Under the government’s 2050 net-zero transition policy, Taiwan has set a 2030 electrification target for passenger transport vehicles, with public transportation given priority. Taiwan has already built a comprehensive charging and battery-swapping network in the electric scooter sector, and its fast-charging specification for electric scooters has been incorporated by the IEC into international standards. Taiwan’s industrial strengths are concentrated in semiconductors, battery materials, and motor control systems, but breakthroughs are still needed in complete-vehicle manufacturing and battery cell technology. Development is being accelerated through international cooperation and technology transfer.
 
-**Keywords**: EV industry chain, battery technology, charging infrastructure, net-zero transition, transportation electrification
+**Keywords**: electric vehicle industry chain, battery technology, charging infrastructure, net-zero transition, vehicle electrification
 
 ## Why It Matters
 
-Electric vehicle industry development holds multiple strategic significance for Taiwan:
+The development of the electric vehicle industry carries multiple layers of strategic significance for Taiwan. The transport sector accounts for 14% of Taiwan’s greenhouse gas emissions; electrification is a major pathway for carbon reduction and a key part of the 2050 net-zero target. For industry, the shift toward the electric vehicle supply chain means moving from traditional automotive parts contract manufacturing into high-value-added electronic systems integration, while reducing dependence on imported oil.
 
-- **Net-zero transition key**: Transportation accounts for 14% of Taiwan's greenhouse gas emissions; electrification is the primary path to carbon reduction
-- **Industrial transformation opportunity**: Shifting from traditional auto parts to EV supply chains, creating new growth momentum
-- **Energy security**: Reducing dependence on imported oil, enhancing energy autonomy
-- **Air quality improvement**: Zero-emission characteristics of EVs help improve urban air quality
-- **International competitiveness**: Seizing global EV market opportunities, maintaining manufacturing advantages
-- **Employment opportunities**: EV-related industries projected to create 200,000 jobs
+- **Improved air quality**: The zero-emission characteristics of electric vehicles help improve urban air quality
+- **International competitiveness**: Capturing opportunities in the global electric vehicle market helps sustain Taiwan’s manufacturing advantage
+- **Employment opportunities**: Electric vehicle-related industries are estimated to create 200,000 jobs
 
 ## Global Electric Vehicle Market Trends
 
 ### Rapid Market Growth
 
-Global EV market shows explosive growth:
+Global electric vehicle sales rose from 3.1 million units in 2020 to 14.2 million units in 2023, growing nearly fivefold in three years, with a compound annual growth rate of 35%. China dominates the global market with a 60% share, followed by the European Union and the United States in second and third place.
 
-**Market Scale Statistics**:
+**Major market distribution (2023)**:
 
-- 2020: Global EV sales 3.1 million units
-- 2023: Global EV sales 14.2 million units
-- 2026 projection: Global EV sales 30 million units
-- **Compound annual growth rate reaches 35%**
-
-**Major Market Distribution**:
-
-- **China**: 60% of global EV market, annual sales 8.5 million units (2023)
-- **EU**: Annual sales 3.1 million units, 22% market share
-- **USA**: Annual sales 1.5 million units, 11% market share
-- **Other regions**: 1 million units, including Japan, Korea, India, etc.
+China accounted for 60% of the global electric vehicle market with 8.5 million units; the European Union ranked second with 3.1 million units, or a 22% market share; and the United States ranked third with 1.5 million units, or 11%. Japan, South Korea, India, and other regions together accounted for approximately 1 million units.
 
 ### Technology Development Trends
 
-EV technology continues evolving:
+The evolution of electric vehicle technology spans three dimensions: battery chemistry, autonomous driving, and business models. These dimensions are accelerating their convergence with one another.
 
-**Battery Technology Breakthroughs**:
+**Battery technology breakthroughs**:
 
-- Lithium iron phosphate (LFP) battery costs down 70%
-- Solid-state battery commercialization timeline accelerated
-- Fast charging technology reduced from 30 minutes to 15 minutes
-- Battery density improved to 300Wh/kg
+The cost of lithium iron phosphate batteries (LFP) has fallen by 70%, while the commercialization timeline for solid-state batteries is also accelerating. Fast-charging technology has reduced charging time from 30 minutes to 15 minutes, and battery density has reached 300 Wh/kg.
 
-**Autonomous Driving Integration**:
+**Autonomous driving integration**:
 
-- L3 autonomous driving commercialization
-- Integration of EVs with intelligent driving systems
-- Vehicle-to-everything (V2X) technology maturity
+Level 3 autonomous driving is entering commercialization. Electric vehicles and intelligent driving systems are becoming deeply integrated, while vehicle-to-everything (V2X) technology is approaching maturity.
 
-**Business Model Innovation**:
+**Business model innovation**:
 
-- Battery leasing models widespread
-- Charging-as-a-Service (CaaS) emergence
-- Mobility-as-a-Service (MaaS) integration
+Three new business models—battery leasing, charging as a service (CaaS), and mobility as a service (MaaS)—are being implemented in multiple markets, changing traditional patterns of vehicle purchase and use.
 
-## Taiwan Electric Vehicle Industry Chain Layout
+## Taiwan’s Electric Vehicle Industry Chain Layout
 
-### Complete Industrial Ecosystem
+### A Complete Industrial Ecosystem
 
-Taiwan has established a complete EV industry chain from upstream materials to downstream applications:
+Building on its foundation in semiconductor manufacturing, Taiwan has established a complete electric vehicle industry chain that spans upstream key materials, midstream component systems, and downstream complete-vehicle manufacturing.
 
 #### Upstream: Key Materials
 
-**Battery Materials**:
+**Battery materials**:
 
-- **Cathode materials**: ProLogium, Aleees
-- **Anode materials**: Formosa Plastics, Eternal Chemical
-- **Electrolytes**: Swancor, Chi Mei
-- **Separators**: BenQ Materials, CSG Holding
+Cathode materials are supplied by Kangpu (ProLogium) and Aleees-KY, while anode materials come from Formosa Plastics and Eternal Materials. Electrolytes are supplied by Swancor and Chi Mei Corporation, while separators are handled by BenQ Materials and China General Plastics.
 
-**Rare Earth Materials**:
+**Rare earth materials**:
 
-- Taiwan has advantages in rare earth processing
-- Permanent magnet material suppliers: Taiwan Magnetic Technology
-- Established supply chain partnerships with Japan and Australia
+Taiwan has advantages in rare earth processing. Taiwan Magnetic Technology is the main local supplier of permanent magnetic materials, and Taiwan has established supply chain partnerships with Japan and Australia to diversify raw material risks.
 
 #### Midstream: Components and Systems
 
-**Battery Systems**:
+**Battery systems**:
 
-- **Battery cells**: ProLogium (leading solid-state battery technology)
-- **Battery Management Systems (BMS)**: Simplo, SurePower
-- **Battery packaging**: Delta Electronics, Phihong
+Battery cells are led by ProLogium, which has advanced solid-state battery technology. Battery management systems (BMS) are handled by Simplo and Dynapack, while battery packaging and systems integration are completed by Delta Electronics and Phihong Technology.
 
-**Motors and Control Systems**:
+**Motors and control systems**:
 
-- **Motors**: Delta Electronics, Teco Electric, Tatung
-- **Inverters**: Delta Electronics, Shihlin Electric
-- **Controllers**: Lite-On Technology, Wistron
+Motors are supplied by Delta Electronics, TECO Electric & Machinery, and Tatung. Inverters are handled by Delta Electronics and Shihlin Electric, while controllers are supplied by Lite-On Technology and Wistron.
 
-**Power Electronics**:
+**Power electronics**:
 
-- **Power semiconductors**: TSMC, UMC, Vanguard
-- **Charging chips**: MediaTek, Realtek
-- **Power management ICs**: Richtek, Anpec
+Power semiconductors are supplied by TSMC, UMC, and Vanguard International Semiconductor. Charging chips are developed by MediaTek and Realtek, while power management ICs are mainly supplied by Richtek and Anpec.
 
-#### Downstream: Vehicle Manufacturing
+#### Downstream: Complete-Vehicle Manufacturing
 
-**Electric Scooters**:
+**Electric scooters**:
 
-- **Gogoro**: Global leader in electric scooters and battery swapping systems
-- **KYMCO**: Ionex electric vehicle platform
-- **SYM**: Collaborating with Delta Electronics on EV development
-- **China Motor Corporation**: eMOVING electric scooters
+Gogoro dominates the market with its globally leading battery-swapping system. Kymco competes with its Ionex electric vehicle platform. Sanyang is developing products in cooperation with Delta Electronics, while China Motor has launched the eMOVING series.
 
-**Electric Cars**:
+**Electric cars and electric buses**:
 
-- **Yulon Group**: Luxgen electric vehicle brand
-- **Foxconn**: Model C, Model E, Model T three vehicle types
-- **Delta Electronics**: Collaborating with car manufacturers on electric commercial vehicles
-- **China Motor Corporation**: e-moving commercial vehicles
+In passenger vehicles, Yulon Group is developing its Luxgen electric brand. Foxconn has introduced three models: Model C (sedan), Model E (SUV), and Model T (bus). China Motor also offers e-moving commercial vehicles. Electric buses are supplied domestically by RAC Electric Vehicles and Tang Eng Iron Works, while Tron Energy has cooperated with BMW to introduce technology.
 
-**Electric Buses**:
+### Foxconn Technology Group’s Electric Vehicle Layout
 
-- **RAC Electric Vehicles**: Domestic electric buses
-- **Tang Eng Iron Works**: Electric bus manufacturing
-- **King Long Electric**: Collaborating with BMW on electric buses
+Foxconn’s comprehensive layout in electric vehicles spans three levels: platforms, products, and vertical integration. Centered on the MIH open platform, it aims to attract a supplier ecosystem.
 
-### Foxconn Technology Group EV Layout
+The MIH electric vehicle open platform was established in 2020, with more than 2,000 companies joining the alliance[^9]. By lowering the threshold for electric vehicle development through an open software and hardware platform, it serves as Foxconn’s core tool for building an ecosystem.
 
-Foxconn's comprehensive layout in the EV field:
+Among the three mass-production models, the Model C is a luxury sedan with a range of 700 kilometers, the Model E is a luxury SUV scheduled for mass production in 2024, and the Model T is an electric bus that has entered operational testing.
 
-**MIH Electric Vehicle Open Platform**:
+**Vertical integration strategy**:
 
-- Established in 2020, aiming to build EV ecosystem
-- Over 2,000 companies joined the alliance
-- Open software/hardware platform, reducing EV development barriers
+Foxconn is vertically integrating three key layers in the supply chain: batteries, through cooperation with CATL to establish a battery plant in Taiwan; semiconductors, through TSMC’s supply of automotive chips; and software, through the development of automotive operating systems and autonomous driving technology. In international cooperation, Foxconn has separately formed a joint venture with Stellantis, cooperated with the Indonesian government on a production base, and discussed electric vehicle cooperation with Saudi Arabia.
 
-**Three Electric Vehicle Products**:
-
-- **Model C**: Luxury sedan, 700km range
-- **Model E**: Luxury SUV, mass production in 2024
-- **Model T**: Electric bus, operational testing commenced
-
-**Vertical Integration Strategy**:
-
-- Batteries: Collaborating with CATL to establish Taiwan battery factory
-- Semiconductors: Through TSMC supplying EV chips
-- Software: Developing automotive OS and autonomous driving technology
-
-**International Cooperation**:
-
-- Joint venture with Stellantis to establish Taiwan factory
-- Collaborating with Indonesian government on EV production base
-- Discussing EV cooperation with Saudi Arabia
-
-## 2030 Transportation Electrification Policy
+## 2030 Vehicle Electrification Policy[^3]
 
 ### Net-Zero Transition Strategy
 
-Transportation electrification is a key strategy in Taiwan's 2050 net-zero transition pathway:
+Taiwan’s 2050 net-zero transition pathway identifies vehicle electrification as a core strategy, advancing in three stages: 35% electrification of passenger transport by 2030, 100% electrification of newly sold automobiles by 2040, and net zero in the transport sector by 2050.
 
-**Policy Goals**:
+**Policy targets**:
 
-- 35% electrification rate for passenger vehicles by 2030
-- 100% electrification for new public buses by 2030
-- 100% electrification for new car sales by 2040
-- Net-zero emissions in transportation sector by 2050
+The phased targets are: 35% electrification of passenger transport vehicles and 100% electrification of newly purchased buses by 2030; 100% electrification of newly sold automobiles by 2040; and net-zero emissions in the transport sector by 2050.
 
-**Promotion Strategy**:
+The promotion strategy prioritizes public transportation as a demonstration field, accompanied by infrastructure-first deployment, localization of key technologies in the industry chain, and the improvement of the relevant legal and regulatory environment.
 
-1. **Public transport priority**: Government leading by example
-2. **Infrastructure first**: Building charging networks
-3. **Industry chain support**: Key technology localization
-4. **Regulatory environment preparation**: Improving related legal systems
+### 2030 Passenger Transport Vehicle Electrification Plan
 
-### 2030 Passenger Vehicle Electrification Plan
+The government has formulated separate promotion plans for passenger transport, taxis, and freight vehicles, pairing subsidies with target volumes to compel replacement:
 
-Government formulates specific promotion plans for passenger vehicles:
+For electric buses, the 2030 target is 8,000 vehicles. Each replacement may receive a subsidy of up to NT$10 million, along with five years of operating cost subsidies and support from 1,000 dedicated charging stations. For electric taxis, the 2030 target is 20,000 vehicles. Purchase subsidies range from NT$1 million to NT$1.5 million per vehicle, with preferential rates at public charging stations and support for platform cooperation. Freight vehicle electrification prioritizes light trucks, with a 2030 target of 30% electrification, demonstration projects in cooperation with the logistics industry, and an initial focus on last-mile delivery in metropolitan areas.
 
-**Electric Bus Promotion**:
+### Charging Infrastructure Construction
 
-- **Target quantity**: 8,000 electric buses by 2030
-- **Replacement subsidies**: Up to NT$10 million per vehicle
-- **Operational subsidies**: 5-year operational cost subsidies
-- **Charging facilities**: 1,000 dedicated charging stations
+The density and convenience of charging infrastructure directly affect consumers’ willingness to purchase electric vehicles. Taiwan’s public charging stations remain insufficient and must be substantially expanded between 2025 and 2030:
 
-**Electric Taxis**:
+The construction targets are 7,200 public charging stations by 2025 and 25,000 by 2030. Fast-charging stations should cover highways at a density of one station every 20 kilometers, while metropolitan areas should reach a density of two to three stations per square kilometer.
 
-- **Target quantity**: 20,000 electric taxis by 2030
-- **Purchase subsidies**: NT$1-1.5 million per vehicle
-- **Charging benefits**: Preferential rates at public charging stations
-- **Operational support**: Platform cooperation promoting electric fleets
+Charging stations are divided by use scenario: DC fast-charging stations are located on highways, at interchanges, and in commercial districts; AC slow-charging stations cover residential communities, office buildings, and parking lots; ultra-fast charging is deployed along major corridors and transport hubs; and wireless charging is first tested in demonstration areas and specific road sections.
 
-**Freight Vehicle Electrification**:
+**Charging service operating model**:
 
-- **Light freight vehicles**: 30% electrification rate by 2030
-- **Delivery operators**: Pilot programs with logistics companies
-- **Last mile delivery**: Priority for electric freight vehicles in urban areas
-
-### Charging Infrastructure Development
-
-Complete charging networks are key to EV adoption:
-
-**Charging Station Construction Goals**:
-
-- 2025: 7,200 public charging stations
-- 2030: 25,000 public charging stations
-- Fast charging coverage: One station every 20km on highways
-- Urban charging density: 2-3 stations per square kilometer
-
-**Charging Station Type Distribution**:
-
-- **DC fast charging**: Highways, interchanges, commercial areas
-- **AC slow charging**: Residential communities, office buildings, parking lots
-- **Ultra-fast charging**: Major arteries and transportation hubs
-- **Wireless charging**: Demonstration areas and specific road segments
-
-**Charging Service Business Models**:
-
-- **Government-led**: Taipower establishing basic charging network
-- **Private investment**: Encouraging private sector investment and operation
-- **Integrated services**: Combined with convenience stores, gas stations
-- **Smart management**: Real-time information, reservation services, dynamic pricing
+Taiwan Power Company leads the construction of the basic charging network, while private operators are encouraged to invest in and operate charging services. Composite services, combining convenience stores and gas stations, improve ease of use, while smart management systems provide real-time information, reservation services, and dynamic pricing.
 
 ## Battery Technology Development
 
-### Battery Technology Routes
+### Battery Technology Pathways
 
-Taiwan's battery technology development covers multiple technology routes:
+Taiwan’s battery technology development covers multiple technological pathways:
 
-#### Lithium Iron Phosphate (LFP) Batteries
+#### Lithium Iron Phosphate Batteries (LFP)
 
-**Technical Features**:
+**Technical characteristics**:
 
-- High safety, long cycle life
+- High safety and long cycle life
 - Lower cost, suitable for large vehicles
-- Excellent high-temperature performance
+- Good high-temperature performance
 
-**Taiwan Companies**:
+**Taiwanese manufacturers**:
 
-- Aleees: Cathode material supplier
-- ProLogium Materials: Battery cell manufacturing
-- Delta Electronics: Battery system integration
+- Aleees-KY: cathode material supplier
+- Coremax Materials: battery cell manufacturing
+- Delta Electronics: battery systems integration
 
 #### Ternary Lithium Batteries (NCM/NCA)
 
-**Technical Features**:
+**Technical characteristics**:
 
-- High energy density, lightweight
-- Suitable for passenger car applications
-- Excellent fast charging performance
+- High energy density and light weight
+- Suitable for passenger vehicle applications
+- Excellent fast-charging performance
 
-**Development Challenges**:
+**Development challenges**:
 
-- Requires cobalt metal, higher cost
-- Thermal runaway risk requires management
-- Relatively shorter cycle life
+- Requires cobalt metal, resulting in higher cost
+- Thermal runaway risks must be managed
+- Cycle life is relatively shorter
 
 #### Solid-State Batteries
 
-**Technical Advantages**:
+**Technical advantages**:
 
-- High energy density up to 400Wh/kg
+- Energy density as high as 400 Wh/kg
 - Significantly improved safety
-- Supports rapid charging
+- Supports fast charging
 
-**Taiwan Leading Technology**:
-**ProLogium**:
+**Taiwan’s leading technology**:
 
-- Global solid-state battery technology leader
-- Established pilot production line, mass production by 2026
-- Collaborating with Mercedes, BMW and other manufacturers
-- Invested by Formosa Plastics, China Development
+ProLogium Technology is a global leader in solid-state battery technology. Its Dunkirk plant in France is expected to enter mass production in 2028[^1], not 2026, and plant construction is currently advancing. In 2022, it signed a cooperation agreement with Mercedes-Benz and received investment from Formosa Plastics and China Development Financial.
 
 ### Battery Industry Chain Challenges
 
-**Technical Challenges**:
+**Technical challenges**:
 
-- Battery cell manufacturing technology still needs breakthroughs
-- Technology gap with Chinese, Japanese, Korean manufacturers
-- Production scale economics yet to be established
+Battery cell manufacturing technology is where the gap between Taiwan and major companies in China, Japan, and South Korea is most apparent. Economies of scale in production capacity also remain to be established.
 
-**Supply Chain Risks**:
+**Supply chain risks**:
 
-- Key raw materials depend on imports
-- High volatility in lithium, cobalt, nickel prices
-- Geopolitical impacts on supply stability
+Key raw materials such as lithium, cobalt, and nickel are highly dependent on imports. Price volatility and geopolitical risks create hidden concerns over supply stability. Solutions include strengthening international technology cooperation, establishing strategic raw material reserves, and developing battery recycling technology to reduce dependence on raw materials.
 
-**Solution Strategies**:
-
-- Strengthening international technical cooperation
-- Establishing strategic raw material reserves
-- Developing battery recycling technology
-
-## Electric Scooter Success Model
+## The Successful Electric Scooter Model
 
 ### Gogoro Ecosystem
 
-Taiwan electric scooters hold leading positions globally:
+Taiwan’s electric scooters occupy a leading position among comparable global markets, and Gogoro’s battery-swapping model is especially distinctive: it replaces “selling batteries” with “energy as a service,” allowing users to avoid bearing the risk of battery depreciation.
 
-**Innovative Business Model**:
+**Innovative business model**:
 
-- **Battery swapping system**: GoStation battery swap stations
-- **Energy as a Service**: Monthly subscription system
-- **Open platform**: Cooperation with other scooter manufacturers
+Gogoro replaces traditional battery sales with “energy as a service”: users pay a monthly subscription fee and obtain fully charged battery packs through GoStation swapping stations, without bearing the risk of battery depreciation. Gogoro also pursues an open platform strategy, cooperating with scooter manufacturers such as Kymco and Sanyang to share battery-swapping infrastructure.
 
-**Market Results**:
+**Market results**:
 
-- Over 90% market share of Taiwan electric scooters
-- Over 2,400 battery swap stations
-- Over 400,000 daily battery swaps
-- User base exceeding 500,000
+Gogoro’s share of Taiwan’s electric scooter market exceeds 90%. Its battery-swapping network covers more than 2,500 locations as of 2024[^2], with more than 400,000 battery swaps per day and approximately 650,000 Gogoro riders as of 2024[^2].
 
-**Technical Standardization**:
+**Technical standardization**:
 
-- Fast charging specifications certified as IEC international standard
-- Battery specifications open to other manufacturers
-- Establishing Taiwan electric scooter industry standards
+Gogoro’s fast-charging specification has received IEC international standard certification[^5]. Its battery specifications are open to use by other manufacturers, helping align Taiwan’s electric scooter industry standards with international standards.
 
-**International Expansion**:
+**International expansion**:
 
-- Entering India, China, Israel markets
-- Cooperating with local governments to establish swap networks
-- Technology licensing model for overseas expansion
+Gogoro has entered the Indian, Chinese, and Israeli markets, exporting its battery-swapping system through technology licensing and working with local governments to establish local swapping networks.
 
-### Industry Chain Completeness
+### Completeness of the Industry Chain
 
-Taiwan electric scooter industry chain has high maturity:
+Taiwan’s electric scooter industry chain is among the more mature in Asian markets, with local manufacturers covering complete vehicles, components, and charging and battery-swapping systems.
 
-**Vehicle Manufacturing**:
-
-- Gogoro, KYMCO, SYM, Yamaha
-- Annual production capacity exceeding 500,000 units
-- Exports to Europe and America
-
-**Key Components**:
-
-- Motors: Teco Electric, Tatung
-- Controllers: Delta Electronics, Lite-On
-- Batteries: Simplo, SurePower
-
-**Charging/Swapping Systems**:
-
-- Charging equipment: Delta Electronics, Phihong
-- Operating platform: Gogoro Network
-- Maintenance service: Nationwide service network
+Taiwan’s electric scooter supply chain is highly complete: complete vehicles are mainly produced by Gogoro, Kymco, Sanyang, and Yamaha, with annual production capacity exceeding 500,000 units and some exports to European and American markets. For key components, motors are supplied by TECO and Tatung, controllers by Delta Electronics and Lite-On, and batteries by Simplo and Dynapack. The charging and battery-swapping ecosystem is supported by charging equipment from Delta Electronics and Phihong, the Gogoro Network operating platform, and a maintenance service network spread across Taiwan.
 
 ## Industrial Policy and Support Measures
 
+Taiwan’s electric vehicle policy covers regulation, finance, and industry. Through subsidies and demonstration projects, the government stimulates market demand while supporting local supply chains in building mass-production capacity. Public transportation electrification is being used first as a demonstration field, driving technical validation and economies of scale.
+
 ### Government Promotion Strategy
 
-**Regulatory Environment Preparation**:
+Regulatory preparation includes drafting the Electric Vehicle Development Act, charging facility installation standards, a battery recycling management system, and vehicle safety certification rules. In fiscal incentives, passenger vehicle purchase subsidies reach up to NT$90,000, scooter subsidies reach NT$7,200, and buyers also receive a five-year license tax reduction or exemption, exemption from fuel tax, and preferential public parking rates. Industrial support is advanced simultaneously through an electric vehicle industry development program, subsidies for key technology R&D, industrial cluster formation, and talent development programs.
 
-- Electric Vehicle Development Act formulation
-- Charging facility installation standards
-- Battery recycling management system
-- Vehicle safety certification regulations
+### Support for R&D and Innovation
 
-**Financial Incentive Measures**:
-
-- Purchase subsidies: Up to NT$90,000 for passenger cars, NT$7,200 for scooters
-- License fee exemption: EVs exempt from license fees for 5 years
-- Fuel tax exemption: EVs exempt from fuel tax
-- Parking benefits: Preferential rates at public parking lots
-
-**Industrial Support Policies**:
-
-- Electric vehicle industry development program
-- Key technology R&D subsidies
-- Industrial cluster establishment
-- Talent development programs
-
-### R&D Innovation Support
-
-**Technology Project Investment**:
-
-- MOEA Technology Department EV programs
-- MOST advanced technology R&D
-- NCSIST defense technology civilian conversion
-- ITRI technology transfer
-
-**Industry-Academia Cooperation Promotion**:
-
-- University EV programs
-- Corporate internship training plans
-- International technology exchange
-- Patent layout strategies
-
-**Verification Testing Platforms**:
-
-- Automotive Research & Testing Center (ARTC)
-- Battery testing verification laboratories
-- Charging facility inspection certification
-- Intelligent driving test fields
+The R&D support system covers two levels: government technology projects, including the Ministry of Economic Affairs Department of Industrial Technology electric vehicle program, Ministry of Science and Technology advanced technology R&D, National Chung-Shan Institute of Science and Technology defense technology transfer to civilian use, and Industrial Technology Research Institute technology transfer; and industry-academia cooperation, including university electric vehicle programs, corporate internships, international technical exchanges, and patent portfolios. On the validation side, the Automotive Research & Testing Center (ARTC) provides battery testing, charging facility inspection, and smart driving test sites, filling the certification gap between R&D and mass production.
 
 ## International Cooperation and Investment
 
 ### Foreign Investment in Taiwan
 
-**Major Investment Cases**:
+**Major investment cases**:
 
-**Tesla Supply Chain**:
+Taiwanese manufacturers are deeply embedded in Tesla’s supply chain: Hota Industrial supplies drive shafts, Delta Electronics supplies charging pile equipment, Quanta is responsible for autonomous driving computers, and TSMC handles foundry production of automotive chips. Among European automakers, BMW cooperates with Tron Energy on electric buses, Mercedes-Benz has signed a solid-state battery cooperation agreement with ProLogium, and Stellantis has formed a production joint venture with Foxconn. Japanese automakers are also actively building their presence: Toyota is advancing electric vehicle cooperation through Hotai Motor, Honda has launched technical cooperation with Sanyang, and Nissan has established a battery testing center in Taiwan.
 
-- Hota Industrial: Tesla drive shaft supplier
-- Delta Electronics: Charging pile equipment supply
-- Quanta Computer: Autonomous driving computers
-- TSMC: Automotive chip foundry
+### Overseas Investment by Taiwanese Manufacturers
 
-**European Automaker Cooperation**:
-
-- BMW collaborating with King Long Electric on electric buses
-- Mercedes-Benz cooperating with ProLogium on solid-state batteries
-- Stellantis joint venture with Foxconn for production
-
-**Japanese Automaker Layout**:
-
-- Toyota collaborating with Hotai Motor on EVs
-- Honda technical cooperation with SYM scooters
-- Nissan establishing battery testing center in Taiwan
-
-### Taiwan Companies' Overseas Investment
-
-**Southeast Asia Market Layout**:
-
-- Foxconn establishing EV production base in Indonesia
-- Gogoro entering Indian market
-- Delta Electronics establishing charging equipment factory in Thailand
-
-**US Market Progress**:
-
-- Delta Electronics building charging network in US
-- Quanta establishing autonomous vehicle R&D center in US
-- Hota establishing EV parts factory in US
+Taiwanese manufacturers’ overseas layouts are concentrated along two axes: Southeast Asia and the United States. In Southeast Asia, Foxconn is establishing an electric vehicle production base in Indonesia, Gogoro has entered the Indian market, and Delta Electronics has set up a charging equipment plant in Thailand. In the United States, Delta Electronics is building a charging network, Quanta has established an autonomous vehicle R&D center, and Hota has set up an electric vehicle parts plant, advancing on three fronts.
 
 ## Technological Innovation and R&D
 
 ### Key Technology Development
 
-**Automotive Semiconductors**:
-Taiwan has global leading advantages in automotive chips:
+**Automotive semiconductors**:
 
-- TSMC: Advanced automotive chip processes
-- MediaTek: Automotive infotainment chips
-- Realtek: Automotive Ethernet chips
-- Richtek: Power management chips
+Taiwan has a global leading advantage in automotive chips: TSMC provides advanced processes for automotive chips, MediaTek is responsible for in-vehicle infotainment chips, Realtek focuses on automotive Ethernet chips, and Richtek supplies power management chips.
 
-**Intelligent Driving Technology**:
+**Smart driving technology**:
 
-- ITRI: Autonomous driving system R&D
-- III: Vehicle networking communication technology
-- Foxconn: Autonomous vehicle open platform
-- Quanta: AI computing platform
+The Industrial Technology Research Institute leads autonomous driving system R&D, the Institute for Information Industry is responsible for vehicle-to-everything communications technology, Foxconn has introduced an autonomous vehicle open platform, and Quanta provides an AI computing platform. The four institutions divide responsibilities to complete the overall technology stack.
 
-**Lightweight Materials**:
+**Lightweight materials**:
 
-- Formosa Plastics: Carbon fiber composites
-- China Steel: High-strength steel
-- Taiwan Chemical: Engineering plastics
-- Nan Ya Plastics: Composite materials
+Formosa Plastics supplies carbon fiber composite materials, China Steel provides high-strength steel, and Formosa Chemicals & Fibre and Nan Ya are respectively responsible for engineering plastics and composite materials, jointly supporting demand for electric vehicle lightweighting.
 
 ### Innovative Application Models
 
-**Vehicle Networking Integration**:
+**Vehicle-to-everything integration**:
 
-- V2G (Vehicle to Grid) bidirectional charging
-- V2X communication technology applications
-- Intelligent transportation system integration
-- Remote diagnostics and maintenance
+V2G bidirectional charging turns electric vehicles into energy storage nodes in the power grid. V2X communications, smart transportation system integration, and remote diagnostics further upgrade electric vehicles from transportation tools into intelligent mobility platforms.
 
-**Sharing Economy Integration**:
+**Integration with the sharing economy**:
 
-- Electric vehicle sharing services
-- Battery sharing networks
-- Charging pile sharing platforms
-- Mobility service integration
+Electric vehicle sharing services, battery-sharing networks, and charging pile sharing platforms are being tested for integration in metropolitan areas, with the goal of reducing dependence on private cars through mobility as a service (MaaS).
 
 ## Challenges and Solutions
 
 ### Major Development Challenges
 
-**Technical Challenges**:
+The challenges facing Taiwan’s electric vehicle industry span technology, markets, and supply chains, and these dimensions are interconnected. On the technology side, the battery cell gap and insufficient complete-vehicle design experience raise the threshold for entering the passenger vehicle market. On the market side, limitations in domestic scale make economies of scale difficult to establish quickly, which in turn affects cost competitiveness.
 
-1. **Battery cell technology**: Still gaps compared to international major manufacturers
-2. **Vehicle design**: Lack of complete vehicle development experience
-3. **Autonomous driving**: AI algorithms and sensor technology need strengthening
-4. **Charging technology**: Fast charging and wireless charging technology breakthroughs needed
+Technical challenges are mainly concentrated in four areas: battery cells, where Taiwan still trails major international manufacturers; complete-vehicle design, where full model development experience is lacking; autonomous driving, where AI algorithms and sensor technologies need strengthening; and breakthroughs in fast-charging and wireless charging technologies.
 
-**Market Challenges**:
+Market challenges include Taiwan’s relatively small domestic demand, the technical and cost advantages of Chinese, European, and American manufacturers, insufficient charging network density, and barriers related to consumer purchase costs and habit change.
 
-1. **Small domestic market**: Taiwan market size limits industrial development
-2. **Fierce international competition**: Chinese, European-American manufacturers' technology and cost advantages
-3. **Infrastructure**: Charging network density still needs strengthening
-4. **Consumer acceptance**: Purchase costs and usage habit changes
-
-**Supply Chain Challenges**:
-
-1. **Key raw materials**: Dependence on imported lithium, cobalt, nickel materials
-2. **Production scale**: Lack of large-scale production experience
-3. **Quality certification**: High barriers for automotive-grade product certification
-4. **Cost control**: Scale economics not yet established
+In the supply chain, key raw materials such as lithium, cobalt, and nickel depend on imports. Large-scale production experience is lacking, automotive-grade certification thresholds are high, economies of scale have not yet been established, and cost-control pressure remains.
 
 ### Solution Strategies
 
-**Technology Breakthrough Strategy**:
+**Technology breakthrough strategy**:
 
-- Strengthen international technology cooperation and licensing
-- Establish automotive chip design centers
-- Invest in next-generation technologies like solid-state batteries
-- Develop Taiwan's unique technological advantages
+Strengthening international technical cooperation and licensing and establishing an automotive chip design center are short-term priorities. Investing in next-generation technologies such as solid-state batteries and developing Taiwan’s distinctive advantages are medium- to long-term directions.
 
-**Market Development Strategy**:
+**Market development strategy**:
 
-- Focus on Southeast Asia as key overseas market
-- Establish supply chain partnerships with international automakers
-- Develop niche markets (electric scooters, special vehicles)
-- Build Taiwan EV brands
+Southeast Asia should be treated as the key overseas market, while supply chain partnerships should be established with international automakers. Niche markets such as electric scooters and electric buses are Taiwan’s strongest entry points and can be used to build brand recognition.
 
-**Industrial Ecosystem Construction**:
+**Industrial ecosystem construction**:
 
-- Establish EV industrial clusters
-- Improve charging infrastructure
-- Build recycling and reuse systems
-- Cultivate professional talent
+The establishment of electric vehicle industrial clusters, the expansion of charging infrastructure, the improvement of battery recycling and reuse systems, and the cultivation of relevant professional talent are all indispensable. Together, they determine the long-term competitiveness of Taiwan’s electric vehicle ecosystem.
 
-## Future Development Outlook
+## Future Outlook
 
-### 2030 Industry Vision
+### 2030 Industrial Vision
 
-**Industrial Scale Goals**:
-
-- EV-related industry output value reaching NT$3 trillion
-- Creating 200,000 job opportunities
-- EV penetration rate reaching 30%
-- Establishing complete industrial ecosystem
-
-**Technology Development Goals**:
-
-- Solid-state battery technology commercialization
-- L3 autonomous driving technology maturity
-- Charging time reduced to 10 minutes
-- Range improved to 600km
-
-**International Position Goals**:
-
-- Becoming important Asia-Pacific EV component supply base
-- Establishing Taiwan EV technology brand
-- Exporting electric scooter technology globally
-- Participating in international EV standard formulation
+The 2030 industrial scale targets are NT$3 trillion in output value, 200,000 jobs, and a 30% electric vehicle penetration rate. Technical milestones include the commercialization of solid-state batteries, maturity of Level 3 autonomous driving, charging time shortened to 10 minutes, and driving range reaching 600 kilometers. In international positioning, the goal is to become an important electric vehicle component supply base in the Asia-Pacific region, while building Taiwan’s technology brand through the export of electric scooter technology and participation in international standards-setting.
 
 ### Emerging Technology Trends
 
-**Solid-State Battery Commercialization**:
+**Commercialization of solid-state batteries**:
 
-- Mass production starting 2026
-- Energy density exceeding 400Wh/kg
-- Charging time reduced to 15 minutes
-- Significantly improved safety
+After mass production, solid-state batteries are expected to achieve energy density above 400 Wh/kg, reduce charging time to 15 minutes, and offer significantly better safety than traditional liquid electrolyte solutions. The progress of ProLogium’s French plant is a key indicator for observing the commercialization timeline of Taiwan’s solid-state batteries.
 
-**Hydrogen Fuel Cells**:
+**Hydrogen fuel cells and smart charging**:
 
-- Commercial vehicle and bus applications
-- Hydrogen supply chain establishment
-- Complementary development with EVs
-- Long-haul transportation market
+Hydrogen fuel cells mainly target the commercial vehicle and long-distance transport markets as a supplementary solution to pure electric vehicles, requiring a supporting hydrogen supply chain. In smart charging technology, wireless charging commercialization, dynamic charging roads, solar charging stations, and smart grid integration are being tested in demonstration sites and are expected to enter the mainstream market gradually after 2030.
 
-**Smart Charging Technology**:
+### Policy Evolution
 
-- Wireless charging commercialization
-- Dynamic charging roads
-- Solar charging stations
-- Smart grid integration
-
-### Policy Evolution Direction
-
-**Regulatory Improvement**:
-
-- Autonomous driving regulation formulation
-- Mandatory battery recycling regulations
-- Charging standard unification
-- Data privacy protection
-
-**International Cooperation Deepening**:
-
-- Participating in international EV alliances
-- Establishing technology partnerships with allies
-- Promoting international technology standardization
-- Building supply chain security mechanisms
+The direction of policy evolution covers two dimensions: regulatory improvement, including autonomous driving regulations, mandatory battery recycling rules, charging standard unification, and data privacy protection; and deepened international cooperation, including participation in international electric vehicle alliances, establishment of technology partnerships with friendly countries, promotion of the internationalization of technical standards, and construction of supply chain security mechanisms. These provide institutional support for the industry’s long-term development.
 
 ## Conclusion
 
-Taiwan's electric vehicle industry stands at a critical turning point. Leveraging existing advantages in semiconductors, precision machinery, and ICT industries, Taiwan has the opportunity to occupy an important position in the global EV supply chain. However, facing fierce international competition, Taiwan must accelerate technological innovation, expand market scale, improve infrastructure, and deepen international cooperation.
+Taiwan’s electric vehicle industry is at a critical turning point. With its existing strengths in semiconductors, precision machinery, and information and communications technology, Taiwan has an opportunity to occupy an important position in the global electric vehicle supply chain. However, in the face of intense international competition, Taiwan must accelerate technological innovation, expand market scale, improve infrastructure, and deepen international cooperation.
 
-The government's 2030 transportation electrification policy provides clear development direction, while private enterprise investment demonstrates the industry's transformation determination. From Gogoro's global success in electric scooters to Foxconn's MIH platform open ecosystem, Taiwan is building internationally competitive EV industry models.
+The government’s 2030 vehicle electrification policy has established phased targets, and private enterprises are investing accordingly in R&D and plant construction. From Gogoro’s export of its electric scooter battery-swapping model overseas to Foxconn’s MIH platform attracting more than 2,000 companies to join, Taiwan is attempting to turn its existing manufacturing capabilities into competitive advantages in the electric vehicle era.
 
-The next decade is the golden period for Taiwan's EV industry development. Through the triple drive of policy support, technological innovation, and industrial cooperation, Taiwan has the potential to become an important hub for Asia-Pacific EV industry, laying a solid foundation for 2050 net-zero transition goals while creating new economic growth momentum.
+Over the next decade, whether Taiwan’s electric vehicle industry can secure its position as an Asia-Pacific supply chain hub will depend on the mass production of solid-state batteries, automotive chip design capabilities, and the pace of charging infrastructure deployment.
 
 ## References
 
-1. Executive Yuan (2024). "2030 Passenger Vehicle Electrification Promotion Plan." [Online Resource](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/fbaa04ca-a430-48e7-8ba1-0b35d1dc4879)
-2. Ministry of Transportation and Communications (2023). "Taiwan 2050 Net-Zero Transition 'Transportation Electrification and Decarbonization' Key Strategic Action Plan." [Online Resource](https://www.ey.gov.tw/File/D2A731DDD7EC55EC?A=C)
-3. Green Trade Information Network (2024). "Electric Vehicle Industry Map." [Online Resource](https://www.greentrade.org.tw/electric_vehicle)
-4. Statement Dog (2024). "Electric Vehicle Industry Introduction, Taiwan Stock Market Upstream and Downstream Sectors and EV Company Stock Price Changes." [Online Resource](https://statementdog.com/taiex/20-electric-vehicle-industry)
-5. Taiwan Stock Exchange (2024). "Electric Vehicle Industry Analysis." [Online Resource](https://ic.tpex.org.tw/introduce.php?ic=A300)
-6. Ministry of Economic Affairs Industrial Development Bureau (2023). "Taiwan Electric Vehicle Industry White Paper." MOEA IDB.
-7. ITRI IEK (2024). "Global Electric Vehicle Market Trend Analysis." ITRI.
-8. Automotive Research & Testing Center (2023). "Taiwan Electric Vehicle Technology Development Report." ARTC.
-9. Hon Hai Technology Group (2024). "MIH Electric Vehicle Ecosystem Development Report."
-10. ProLogium (2023). "Solid-State Battery Technology Development Report."
-11. Gogoro Inc. (2024). "Electric Scooter Market Analysis Report."
-12. Delta Electronics (2023). "Electric Vehicle Charging Infrastructure Development Report."
+[^1]: [ProLogium Technology — Official News](https://www.prologium.com/) — The Dunkirk plant in France is expected to enter mass production in 2028; 2026 was outdated information. The solid-state battery cooperation agreement with Mercedes-Benz in 2022 has been publicly confirmed. No public announcement of BMW cooperation was found
+
+[^2]: [Gogoro Inc. — Official Website](https://www.gogoro.com/) — The battery-swapping network exceeded 2,500 locations in 2024; the number of Gogoro riders was approximately 650,000, according to 2024 official data
+
+[^3]: [Executive Yuan (2024). “2030 Passenger Transport Vehicle Electrification Promotion Plan”](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/fbaa04ca-a430-48e7-8ba1-0b35d1dc4879) — 2030 electrification targets and promotion strategy for passenger transport vehicles
+
+[^4]: [Ministry of Transportation and Communications (2023). Taiwan 2050 Net-Zero Transition “Vehicle Electrification and Decarbonization” Key Strategic Action Plan](https://www.ey.gov.tw/File/D2A731DDD7EC55EC?A=C) — 2050 net-zero transition pathway and phased targets for vehicle electrification
+
+[^5]: [Taiwan Stock Exchange (2024). “Electric Vehicle Industry Analysis”](https://ic.tpex.org.tw/introduce.php?ic=A300) — Analysis of Taiwan’s electric vehicle industry chain; explanation related to Taiwan’s electric scooter fast-charging IEC standard
+
+[^6]: [Green Trade Information Network (2024). “Electric Vehicle Industry Map”](https://www.greentrade.org.tw/electric_vehicle) — Distribution of companies in Taiwan’s electric vehicle industry supply chain
+
+[^7]: [StatementDog (2024). “Introduction to the Electric Vehicle Industry and Taiwan-Listed Electric Vehicle Stocks”](https://statementdog.com/taiex/20-electric-vehicle-industry) — Analysis of Taiwan’s upstream and downstream electric vehicle industry structure
+
+[^8]: [Industrial Development Administration, Ministry of Economic Affairs (formerly Industrial Development Bureau, reorganized in September 2023) (2023). Taiwan Electric Vehicle Industry White Paper](https://www.moea.gov.tw/) — Report on Taiwan’s electric vehicle industry policy and technology development
+
+[^9]: [Foxconn Technology Group (2024). MIH Electric Vehicle Ecosystem Development Report](https://www.foxconn.com/zh-tw/) — The MIH platform has an alliance of more than 2,000 companies and an open electric vehicle development ecosystem
+
+[^10]: [Industrial Economics and Knowledge Center, Industrial Technology Research Institute (2024). Global Electric Vehicle Market Trend Analysis](https://ieknet.iek.org.tw/) — Global electric vehicle market growth trends and Taiwan’s positioning
+
+[^11]: [Automotive Research & Testing Center (ARTC) (2023). Taiwan Electric Vehicle Technology Development Report](https://www.artc.org.tw/) — Current status of Taiwan’s electric vehicle technology and testing validation
+
+[^12]: [Delta Electronics (2023). Electric Vehicle Charging Infrastructure Development Report](https://www.deltaww.com/zh-TW/) — Electric vehicle charging equipment and infrastructure construction

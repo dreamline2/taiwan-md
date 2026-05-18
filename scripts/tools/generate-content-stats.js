@@ -47,6 +47,6 @@ const stats = {
   dailyGrowth,
   updated: new Date().toISOString().slice(0, 10),
 };
-const out = path.join(__dirname, '..', 'src', 'data', 'content-stats.json');
+const out = path.join(__dirname, '../..', 'src', 'data', 'content-stats.json');
 fs.writeFileSync(out, JSON.stringify(stats, null, 2));
 console.log('✅ content-stats.json generated');

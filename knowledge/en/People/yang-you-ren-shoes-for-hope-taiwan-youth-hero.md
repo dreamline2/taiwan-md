@@ -1,96 +1,77 @@
 ---
-title: 'Yang You-Ren: From Street Graffiti Dropout to Africa Shoes-for-Hope Taiwanese Youth Hero'
-description: "Yang You-Ren is a Taiwanese social entrepreneur and humanitarian worker, founder of Step30 International Christ Care Association. With a single poster, he rallied 200,000 people to donate shoes to aid East African Kenyan children against sand flea infestations, earning the 2017 Ten Outstanding Young Persons award. His transformation from Australian street punk to missionary shows Taiwan's youth the power of 'small actions, big changes'."
-date: 2026-03-20T00:00:00Z
-updated: 2026-03-20T00:00:00Z
+title: 'Yang You-ren'
+description: 'Founder of Step30 International Christian Care Association, Ten Outstanding Young Persons of Taiwan 2017, who collected 100,000 pairs of used shoes for East African children with a single poster'
+date: 2026-03-20
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '社會與公益'
 tags:
   [
-    'Taiwan Social Enterprise',
-    'Humanitarian Aid',
-    'Shoes for Hope',
-    'Ten Outstanding Young Persons',
-    'Africa Aid',
-    'Christian Ministry',
+    '台灣社會企業',
+    '人道救援',
+    '舊鞋救命',
+    '十大傑出青年',
+    '非洲援助',
+    '基督教事工',
   ]
-subcategory: 'Digital & Media'
-author: 'Following CONTRIBUTING.md guidelines (Sources: Wikipedia and official websites)'
-difficulty: 'intermediate'
-readingTime: 8
-category: 'People'
-featured: false
 lastVerified: 2026-03-20
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/楊右任.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:e2ade2405e5fac3e'
+sourceBodyHash: 'sha256:aeccc38efb53dc79'
+translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-# Yang You-Ren: From Street Graffiti Dropout to Africa Shoes-for-Hope Taiwanese Youth Hero
+# Yang You-ren: From Graffiti Dropout to "Shoes That Save Lives" in Africa
 
-## 30-Second Overview
+> **30-second overview:** Yang You-ren was born in Taoyuan in 1987, the son of a shoe factory owner. After finishing junior high, he was sent to Australia to study, dropped out twice, and at age 18 met a tattooed pastor on a basketball court — a turning point that changed his life. In 2014, a single blog post poster mobilized nearly 100,000 pairs of used shoes for Kenya. He founded "Step30 Old Shoes Save Lives," which has since expanded to 12 countries and served over three million people. In 2017, he was named one of Taiwan's Ten Outstanding Young Persons.
 
-Yang You-Ren, born 1987 in Taoyuan, dropped out twice while studying in Australia, immersing himself in hip-hop and street graffiti. At 18, an encounter with a tattooed pastor transformed his life. In 2014, learning about sand flea problems in Kenya, he created a poster that collected nearly 200,000 pairs of old shoes for Africa, founding "Step30 Shoes for Hope." He expanded this into sustainable projects including education, clean water, and agriculture, earning the 2017 Ten Outstanding Young Persons award. His entire family (wife Kara and four daughters) has relocated to Africa multiple times, emphasizing "no dependency, promoting self-reliance" - showing how Taiwan's small actions can change global communities.
+## Early Life
 
-**Keywords**: Shoes for Hope, Step30, Ten Outstanding Young Persons, Sand Flea Prevention, Sustainable Aid, Taiwan Missionary
+Yang You-ren was born in Taoyuan in 1987. His father ran a shoe factory, and this family legacy made "shoes" a central symbol in the trajectory of his life. After completing junior high, at age 15 his father sent him to Australia to attend secondary school, hoping that studying abroad would open doors to the future.[^1]
 
----
+## Years in Australia and a Faith Turning Point
 
-## 5-Minute Deep Dive
+While in Australia, Yang became immersed in hip-hop culture, nightlife, and street graffiti. He dropped out of high school in his second year, later enrolled in an art and design college, and dropped out again. During this period, the family shoe factory back home also went bankrupt and fell into debt. At 18, he met a heavily tattooed former gang pastor on a basketball court. That man's story led him to church, and the direction of his life changed from that point on.
 
-### From Street Punk to Life Transformation: Graffiti, Pastor & Faith
+After returning to Taiwan, he first taught English at "Carpenter's Home Care Association" in Zhongli, then worked in youth ministry at a church on the campus of Chung Yuan Christian University, finding a new sense of purpose through volunteer work. In 2011, he met his Canadian wife Kara Remley at church. They became engaged and married after two months of dating. The couple went on to have four daughters and made multiple trips to Africa together for ministry work.[^2]
 
-Yang You-Ren struggled academically from childhood. His father's shoe factory background couldn't prevent his constant truancy. At 15, after junior high graduation, he was sent to an Australian high school. During his Australia years, he became obsessed with hip-hop culture, nightclubs, and street graffiti, dropping out in his sophomore year. He later enrolled in art college for design but dropped out again, while his family's shoe factory went bankrupt. At 18, he met a former gang member turned pastor covered in tattoos on a basketball court. Under his mentorship, Yang discovered faith and his life completely changed. Returning to Taiwan, he taught English at Carpenter's Home Care Association in Zhongli and later counseled youth at Chung Yuan Christian University's campus ministry.
+## The Birth of "Old Shoes Save Lives"
 
-### Birth of "Shoes for Hope": One Poster Changes 200,000 Lives
+Yang's father-in-law, Allen Remley, was a Canadian missionary serving in Africa. In 2014, he shared the plight of children along the Kenya–Uganda border: barefoot children suffering from sand flea infestations that burrowed into their skin, causing ulcers in mild cases and amputations in severe ones — and the solution was as simple as a pair of shoes.
 
-In 2014, his father-in-law (Canadian missionary Ray Allen) shared stories of children on the Kenya-Uganda border suffering from sand flea infestations due to lack of shoes, leading to ulceration and even amputation. Yang remembered his father's leftover shoe factory inventory. On April 19, he posted a "Shoes for Hope" poster on his blog, quickly collecting nearly 100,000 pairs of shoes and 7 tons of clothing. The first 40-foot container arrived in Kenya in September. In November that year, he personally traveled to Kenya to oversee distribution. The story became the award-winning 2016 documentary "EXCHANGE." He named the initiative "Step30," hoping to encourage Taiwanese youth under 30 to follow in his footsteps in humanitarian work.
+Thinking of the old inventory from his father's shoe factory, Yang posted an "Old Shoes Save Lives" poster on his blog on April 19. The poster spread at a pace no one had anticipated, collecting nearly 100,000 pairs of shoes and seven metric tons of clothing in a short time. That September, the first 40-foot shipping container arrived in Kenya; in November, Yang traveled there in person to oversee distribution, making sure every pair of shoes reached a child's feet. The operation was later turned into a documentary chronicling the entire relief effort. The campaign was named "Step30," intended to encourage Taiwanese youth under 30 to step out and participate in humanitarian work.[^3]
 
-### Sustainable Transformation: Not Just Shoes, but Hope & Self-Reliance
+## Aid Philosophy: Avoiding Dependency
 
-Yang You-Ren advocates "avoiding long-term dependency," upgrading simple shoe donations to community programs:
+Yang's core principle is "avoiding long-term dependency." He deliberately partners with local church networks, transforming material aid into tools for community self-reliance rather than creating a permanent pipeline of external support. This principle has guided the design of every subsequent program and represents the most significant distinction between his approach and conventional donation drives.[^4]
 
-- **Education Project**: Converting containers into classrooms, computer labs, and clinics
-- **Living Water Project**: Drilling wells for clean water with local maintenance committees
-- **Love・Girls**: Teaching women to make cloth sanitary pads, addressing period-related school absences
-- **Agricultural Self-Reliance**: Promoting chicken farming and organic agriculture for economic independence
+## Expansion into Sustainable Community Programs
 
-Currently serving 12 countries with over 3 million beneficiaries and nearly 25,000 volunteers.
+Following the shoe donation campaign, Step30 gradually developed four program areas: the "School-Building Initiative," converting shipping containers into classrooms, computer labs, and clinics; the "Living Water Initiative," drilling wells in water-scarce areas and establishing local maintenance committees; the "Love Girls Initiative," teaching women to produce cloth sanitary pads to address period-related school dropouts; and agricultural self-sufficiency training through chicken-raising and organic farming. The shared logic across all programs is that the endpoint of aid should be self-reliance, not the next shipping container.[^5]
 
----
+In recent years, Step30 has served over three million people across 12 countries, with nearly 25,000 registered volunteers. In 2017, Yang You-ren was selected as one of Taiwan's Ten Outstanding Young Persons.[^6]
 
-## Complete In-Depth Profile
+Yang is the author of _Blessings in 50,000 Pairs: How a Small Action Can Change the World_ (Campus Bookstore, 2018), which chronicles the founding of Step30 and his journey in African ministry.[^7]
 
-### Detailed Biography & Educational Background
+## References
 
-Born 1987 in Taoyuan, his father's shoe manufacturing background would later create an unbreakable bond with "shoes." During his Australian studies, he dropped out twice before returning to Taiwan to accumulate service experience in churches and care associations. He met his Canadian wife Kara Remley at church, proposing after only two months of dating and marrying in 2011. They have four daughters and have relocated their entire family to Africa multiple times for deep ministry involvement. Faith is his core motivation; he often says "God uses willing people, not perfect people."
+[^1]: [Yang You-ren — Wikipedia](https://zh.wikipedia.org/wiki/%E6%A5%8A%E5%8F%B3%E4%BB%BB) — Primary biographical details, including birth in Taoyuan, studies in Australia, and faith turning point.
 
-### Philosophy & Practice (Extending to Ministry Philosophy)
+[^2]: [Step30 Old Shoes Save Lives — Official Website](https://www.step30.org/) — Organization overview, ministry programs, and annual service reports.
 
-Yang You-Ren doesn't just send supplies but emphasizes "local self-reliance" and "cultural respect." He insists on cooperating through local church systems without forcing faith, emphasizing that Taiwan's resources can achieve maximum leverage in Africa. His books "50,000 Pairs of Blessings: How One Small Action Can Change the World" and "Out of Control is the Best Arrangement" document his journey from street punk to life-transformer in Africa.
+[^3]: [Step30 International Christian Care Association — Wikipedia](https://zh.wikipedia.org/wiki/%E8%88%8A%E9%9E%8B%E6%95%91%E5%91%BD) — Full account of the 2014 poster campaign and container distribution records.
 
-### Contemporary Significance: Taiwan Youth International Impact Model
+[^4]: [104 Bravo Interview — From Street Kid to Ten Outstanding Young Person](https://blog.104.com.tw/104bravo-step30-org-founder/) — Yang's life story, the origin of the name Step30, and explanation of the "avoiding dependency" philosophy.
 
-In an era focusing on sustainable development and youth action, Yang You-Ren demonstrates "small actions, big impact": one poster mobilizing 200,000 people, eventually building a transnational NGO. Taiwan.md's emphasis on "local perspective, international connection" is perfectly embodied here - he transformed Taiwan's shoe factory memories, youth passion, and Christian care into tangible change in African communities. Many young Taiwanese have been inspired to ask: "What can I do too?"
+[^5]: [Step30 Official Website — Program Descriptions](https://www.step30.org/) — Details on the School-Building, Living Water, Love Girls, and Agricultural Self-Sufficiency initiatives.
 
-### Extended Discussion
+[^6]: [Ten Outstanding Young Persons Association](https://www.youth.org.tw/) — Confirmation of Yang You-ren's 2017 selection as a Ten Outstanding Young Person.
 
-Yang You-Ren's family pattern (father's shoe factory, father-in-law's missionary work) and personal transformation reflect how Taiwan's grassroots power transcends borders. In the AI and digital age, his story reminds us: genuine action and human connections remain the most powerful tools for changing the world.
+[^7]: [_Blessings in 50,000 Pairs_ — Books.com.tw](https://www.books.com.tw/products/0010806227) — Yang's book (Campus Bookstore, 2018), chronicling the founding of Step30 and his African ministry journey.
 
----
+## Further Reading
 
-## Further Reflection
-
-### Discussion Questions
-
-1. In our fast-consumption era, how does an "old shoe" transform from trash to life-saving tool? What implications does this have for Taiwan's environmental protection and philanthropy?
-2. Yang You-Ren's journey from dropout to Ten Outstanding Young Persons proves that "failure and detours" are life's best arrangements. Have you experienced similar "out-of-control moments" that became turning points?
-3. If you could participate in Step30's international volunteering, which program would you choose (education, water, agriculture), and how would you encourage more Taiwanese youth to join?
-
-### References / Sources
-
-## Data Sources
-
-- [Yang You-Ren - Wikipedia (Chinese)](https://zh.wikipedia.org/wiki/%E6%A5%8A%E5%8F%B3%E4%BB%BB) (Main biography, Shoes for Hope details)
-- [Step30 International Christ Care Association - Wikipedia (Chinese)](https://zh.wikipedia.org/wiki/%E8%88%8A%E9%9E%8B%E6%95%91%E5%91%BD) (Organization history and programs)
-- [Official Website Step30](https://www.step30.org/) (Latest service data, project introductions, 2024 annual report)
-- ["50,000 Pairs of Blessings" Book Page](https://www.books.com.tw/products/0010760000) (Yang You-Ren's personal journey)
-- [104 Applause Interview - From Street Punk to Ten Outstanding Young Persons](https://blog.104.com.tw/104bravo-step30-org-founder/) (Detailed transformation story)
-
-_This article uses a three-tiered reading depth design for readers with different needs. Welcome contributions of more recent Africa ministry content!_
+- [Step30 Old Shoes Save Lives](https://www.step30.org/) — Step30 official website, with the latest service data and volunteer information

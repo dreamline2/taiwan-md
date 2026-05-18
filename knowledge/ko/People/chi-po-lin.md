@@ -10,6 +10,10 @@ author: 'Taiwan.md Translation Team'
 readingTime: 12
 featured: false
 translatedFrom: 'People/齊柏林.md'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:2842e6333688b98f'
+sourceBodyHash: 'sha256:272da240ae5fe1df'
+translatedAt: '2026-04-15T17:32:28+08:00'
 ---
 
 # 치보린

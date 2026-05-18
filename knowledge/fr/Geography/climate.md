@@ -10,14 +10,18 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'Geography/氣候.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:cce87bf72e0fbd92'
+sourceBodyHash: 'sha256:563a5cbaf28a35c9'
+translatedAt: 2026-05-16T22:23:45Z
 ---
 
 # Le climat de Taïwan
 
 > **En 30 secondes :** Taïwan reçoit 2 500 millimètres de pluie par an, soit 2,5 fois la moyenne mondiale, et figure pourtant parmi les vingt pays les plus touchés par la pénurie d'eau. Ce paradoxe est la première clé pour comprendre le climat de l'île. La pluie ne manque pas — elle tombe en rafale, en excès, puis disparaît trop vite. Comme tout ce qui touche à cette île, tout est dans l'excès.
 
-| 2 500 mm                          | Moyenne mondiale : 982 mm             |
-| --------------------------------- | ------------------------------------- |
+| 2 500 mm                          | Moyenne mondiale : 982 mm          |
+| --------------------------------- | ---------------------------------- |
 | Précipitations annuelles à Taïwan | Soit 2,54 fois la moyenne mondiale |
 
 ---

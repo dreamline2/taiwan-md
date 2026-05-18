@@ -1,239 +1,268 @@
 ---
-title: 'Linguistic Diversity and Mother Tongue Culture'
-description: 'From Taiwanese, Hakka to Indigenous languages, how Taiwan preserves and develops mother tongue cultures in a multilingual society'
+title: 'Linguistic Diversity and Mother-Tongue Culture'
+description: 'From Taiwanese Hokkien to Hakka and Indigenous languages, how Taiwan preserves and develops mother-tongue cultures in a multilingual society'
 date: 2026-03-18
-category: 'Culture'
-tags:
-  [
-    'language',
-    'mother tongue',
-    'Taiwanese',
-    'Hakka',
-    'indigenous languages',
-    'multicultural',
-  ]
 author: 'Taiwan.md'
-difficulty: 'intermediate'
+category: 'Culture'
+subcategory: '族群文化'
+tags: ['語言', '母語', '台語', '客家話', '原住民語', '多元文化']
 readingTime: 10
-featured: true
 lastVerified: 2026-03-19
-translatedFrom: 'Culture/語言多樣性與母語文化.md'
+lastHumanReview: true
+featured: true
+translatedFrom: Culture/語言多樣性與母語文化.md
+sourceCommitSha: f712b7242
+sourceContentHash: sha256:0f2cf9fae60042d8
+sourceBodyHash: sha256:62570a25d7db63f6
+translatedAt: 2026-05-17T05:34:48+08:00
 ---
 
-# Linguistic Diversity and Mother Tongue Culture
+# Linguistic Diversity and Mother-Tongue Culture
 
 ## 30-Second Overview
 
-Taiwan is a multilingual society where Mandarin Chinese, Taiwanese (Hokkien), Hakka, and Indigenous languages coexist, forming a rich linguistic ecosystem. Each language carries specific ethnic groups' historical memories and cultural wisdom. Having experienced language policy transitions from "Mandarin supremacy" during authoritarian rule to "mother tongue revitalization" after democratization, Taiwan is currently working to maintain linguistic diversity amid globalization trends while exploring possibilities for harmonious multilingual coexistence.
+On an island of 36,000 square kilometers, four major language families coexist: Mandarin (the national language), Taiwanese Hokkien, Hakka, and the languages of 16 Indigenous peoples, together forming a distinctive linguistic ecology. Each language embodies the historical memory and cultural wisdom of a particular community. Having undergone shifts in language policy, Taiwan moved from the authoritarian-era "Mandarin-only" paradigm toward "mother-tongue revitalization" after democratization, and is now striving to maintain linguistic diversity amid globalization while exploring the possibility of harmonious multilingual coexistence.
 
-**Key Statistics:** Taiwanese speakers ~70%, Hakka ~12%, Mandarin ~13%, Indigenous languages ~3%, 16 tribes with 42 Indigenous language varieties
+This multilingual landscape is the accumulation of four centuries of history and the reality enshrined by the 2019 *National Languages Development Act*. Indigenous languages belong to the Austronesian family and serve as invaluable material for academic research into human migration patterns.
 
-## Why This Matters
+Taiwanese Hokkien, Hakka, and Mandarin are commonly mixed in everyday urban life. This code-switching is a distinctive mode of communication in Taiwanese society, not a sign of deficient language ability.
 
-Language is more than a communication tool—it's a carrier of cultural identity and thinking patterns. Taiwan's linguistic situation reflects 400 years of different regime rules, ethnic migrations, and cultural contacts. Understanding Taiwan's linguistic diversity is a key to comprehending this society's complexity and inclusiveness.
+**Key figures:** Taiwanese Hokkien speakers ~72%[^1], Hakka ~12%, Mandarin ~13%, Indigenous languages ~3%, 16 peoples and 42 Indigenous language varieties
 
-For foreigners, Taiwan's multilingual phenomenon demonstrates how a society can maintain multicultural diversity while building shared identity. This experience of "multilingual coexistence rather than singular assimilation" offers important reference value for other multi-ethnic societies worldwide.
+## Why It Matters
 
-## Major Language Overview
+Language is a vehicle for cultural identity and ways of thinking, with functions far exceeding those of a mere communication tool. Taiwan's linguistic landscape reflects four centuries of accumulated history shaped by successive regimes, population movements, and cultural contact. Understanding Taiwan's linguistic diversity is an essential key to understanding the complexity and inclusiveness of Taiwanese society.
 
-### Mandarin Chinese (Mandarin)
+For foreigners, Taiwan's multilingualism demonstrates how a society can construct a shared identity while preserving multiculturalism. This experience of "multilingual coexistence rather than monolingual assimilation" offers a reference worth emulating for other multiethnic societies around the world.
 
-**Users:** ~13% as native speakers, but nearly everyone can use it
-**Historical Status:** Official language since 1945, language of education and administration
+Taiwan's language issues only entered public discourse after the lifting of martial law. The localization movement of the 1990s elevated mother tongues from the realm of "private sentiment" to the level of "public policy."
 
-Mandarin promotion in Taiwan began with post-war KMT language policies, rapidly spreading through the education system and public media. Though the proportion of native Mandarin speakers is relatively low, it became the common language for inter-ethnic communication.
+## Overview of Major Languages
 
-**Taiwan Mandarin Characteristics:**
+### Mandarin (National Language)
 
-- **Phonetic Features:** Some tonal differences from Mainland Putonghua
-- **Vocabulary:** Preserves more classical Chinese vocabulary, e.g., "郵局" (post office) vs. Mainland "郵政局"
-- **Loanword Influence:** Words influenced by Japanese, Taiwanese, and English, such as "便當" (bento, from Japanese), "阿桑" (aunt, from Taiwanese)
+**Speakers:** ~13% as a mother tongue, but nearly everyone can use it
+**Historical status:** Became the official language after 1945; used in education and government
 
-### Taiwanese (Hokkien)
+The promotion of Mandarin in Taiwan began with the post-war language policy of the Kuomintang government, spreading rapidly through the education system and public media. Although the proportion of native Mandarin speakers is not high, it has become the common language for communication across different ethnic groups.
 
-**Users:** ~72%, Taiwan's most widely used language
-**Historical Origin:** Brought by 17th-19th century immigrants from Zhangzhou and Quanzhou, Fujian
+**Features of Taiwanese Mandarin:**
 
-Taiwanese is Taiwan's most representative native language, widely used in daily life, particularly in traditional markets, temples, and rural areas. Taiwanese serves not only as a communication tool but also as an important carrier of Taiwanese emotional expression and cultural identity.
+- **Phonological features:** Some tonal differences compared to mainland Putonghua
+- **Lexical characteristics:** Retains more classical Chinese vocabulary, e.g., 郵局 (yóujú, "post office"; mainland Chinese uses 郵政局)
+- **Loanword influence:** Vocabulary influenced by Japanese, Taiwanese Hokkien, and English, e.g., 便當 (biàndāng, from Japanese bentō, "boxed lunch"), 阿桑 (āsāng, from Taiwanese Hokkien, "older woman")
 
-**Taiwanese Characteristics:**
+### Taiwanese Hokkien (Taiwanese/Tâi-gí)
 
-- **Tonal Language:** Seven tones with rich phonetic variations
-- **Chinese Character Origins:** Many words have special Taiwanese Chinese character writings
-- **Rich Loanwords:** Absorbed Dutch, Japanese, English loanwords
-- **Dialect Differences:** Zhangzhou accent, Quanzhou accent, and mixed accents coexist
+**Speakers:** ~72%, the most widely spoken language in Taiwan
+**Historical origins:** Brought by immigrants from Zhangzhou and Quanzhou in Fujian Province during the 17th–19th centuries
 
-**Cultural Significance of Taiwanese:**
+Taiwanese Hokkien is Taiwan's most representative indigenous language, widely used in daily life—especially in traditional markets, temples, and rural areas. It is an important medium for emotional expression and cultural identity among Taiwanese people.
 
-- **Emotional Language:** Many Taiwanese consider it better for expressing deep emotions
-- **Proverbs and Sayings:** Rich colloquialisms and proverbs like "一枝草一點露" (every blade of grass has its dewdrop)
-- **Traditional Opera:** Primary language for Gezaixi (Taiwanese opera) and puppet shows
-- **Popular Culture:** Important medium for Taiwanese songs and TV dramas
+**Characteristics of Taiwanese Hokkien:**
+
+Taiwanese Hokkien's seven tones give the language a rich melodic contour, and its extensive layering of loanwords from Dutch, Japanese, and English makes its vocabulary remarkably deep.
+
+- **Original Chinese characters:** Many words have distinctive Taiwanese Hokkien character forms
+- **Rich loanwords:** Absorbs vocabulary from Dutch, Japanese, English, and other languages
+- **Dialectal variation:** Zhangzhou accent, Quanzhou accent, and mixed Zhang-Quan accents coexist
+
+**Cultural significance of Taiwanese Hokkien:**
+
+Many Taiwanese people feel that Taiwanese Hokkien expresses deep emotion more naturally than Mandarin, which is why it remains active in family gatherings and temple festival settings.
+
+- **Proverbs and sayings:** A large stock of xiehouyu (two-part allegorical sayings) and proverbs is preserved, e.g., 一枝草一點露 (one blade of grass, one drop of dew—every living thing has its own blessing)
+- **Opera and song:** The primary language of Taiwanese opera (歌仔戲) and glove puppetry (布袋戲)
+- **Popular culture:** An important medium for Taiwanese-language music and television dramas
 
 ### Hakka
 
-**Users:** ~12%, mainly distributed in Taoyuan-Hsinchu-Miaoli and Kaohsiung-Pingtung regions
-**Dialect Systems:** Sixian, Hailu, Dabu, Raoping, Zhao'an accents
+**Speakers:** ~12%, mainly distributed in the Taoyuan–Hsinchu–Miaoli corridor and the Kaohsiung–Pingtung area
+**Dialect system:** Sixian, Hailu, Dapu, Raoping, Zhao'an, and other accents
 
-Hakka is Taiwan's second-largest dialect group. The Hakka community played important roles in Taiwan's development history, particularly in mountain and hill cultivation and industrial development.
+Hakka is Taiwan's second-largest Sinitic language group. The Hakka community has left a concrete historical record through the development of mountainous and hilly regions and industrial growth in Taiwan.
 
-**Hakka Characteristics:**
+**Characteristics of Hakka:**
 
-- **Ancient Sound Preservation:** Retains more Middle Chinese phonological features
-- **Phonetic Features:** No voiced initials, rich stop consonant endings
-- **Vocabulary:** Unique everyday vocabulary like "阿嫲" (grandmother), "還毋還" (return or not)
+- **Preservation of archaic sounds:** Retains many phonological features of Middle Chinese
+- **Phonological features:** No voiced initials; rich stop codas
+- **Lexical characteristics:** Distinctive everyday vocabulary, e.g., 阿嫲 (grandmother), 還毋還 (still not, or not yet)
 
-**Hakka Cultural Language:**
+**Hakka cultural language:**
 
-- **Hakka Mountain Songs:** Important expression of traditional musical culture
-- **Eight-Sound Culture:** Traditional Hakka instrumental ensemble
-- **Hakka Children's Songs:** Preserve Hakka life wisdom and values
+- **Hakka mountain songs (客家山歌):** An important expression of traditional musical culture
+- **Eight-tone ensemble (八音):** Traditional Hakka instrumental ensemble music
+- **Hakka nursery rhymes:** Preserving Hakka life wisdom and values
 
 ### Indigenous Languages
 
-**Groups:** 16 officially recognized tribes, 42 dialect varieties
-**Usage:** ~3% population, but most tribal languages face transmission crises
+**Number of peoples:** 16 officially recognized peoples, 42 language varieties
+**Usage status:** ~3% of the population, but most languages face a transmission crisis
 
-Taiwan's Indigenous languages belong to the Austronesian language family, making them Taiwan's oldest languages with important academic value for understanding Austronesian migration and differentiation. Each tribe's language carries unique worldviews and ecological wisdom.
+Taiwan's Indigenous languages belong to the Austronesian family and are the oldest languages in Taiwan. They hold significant academic value for understanding the migration and differentiation of Austronesian-speaking peoples. Each people's language embodies its own worldview and ecological knowledge.
 
-**Important Tribal Languages:**
+Among the 16 peoples, Amis has the largest population, with approximately 200,000 registered members, though the number of fluent speakers varies depending on survey criteria[^2]. Paiwan has considerable dialectal variation (approximately 100,000 people), and Atayal has the widest geographic distribution (approximately 90,000 people). The remaining languages each have their own distinctive features:
 
-- **Amis:** Most speakers, ~200,000 people
-- **Paiwan:** Greater dialectal differences, ~100,000 people
-- **Atayal:** Wide distribution, ~90,000 people
-- **Bunun:** Unique polyphonic musical tradition
-- **Rukai:** Linguistic expressions of aristocratic systems
-- **Puyuma:** Age-grade system linguistic features
+- **Bunun:** A unique tradition of polyphonic music
+- **Rukai:** Linguistic expressions reflecting the aristocratic social system
+- **Puyuma:** Linguistic features tied to the age-grade system
 
-**Language Characteristics:**
+**Linguistic characteristics:**
 
-- **Phonetic Systems:** Most have glottal stops, complex phonetic structures
-- **Grammar Features:** Verb-initial (VSO) word order, rich voice system variations
-- **Cultural Vocabulary:** Rich natural ecology and social organization vocabulary
-- **Oral Tradition:** Important carrier of myths, legends, and traditional chanting
+- **Phonological systems:** Most have epiglottal stops; phonological structures are complex
+- **Grammatical features:** Verb-initial (VSO) word order; rich voice/aspect morphology
 
-## Historical Changes in Language Policy
+Indigenous vocabulary reflects each people's relationship with the natural environment. Many terms describing terrain, plants, and animals have no equivalent expression in Mandarin.
 
-### Japanese Colonial Period (1895-1945): Multilingual Tolerance
+- **Cultural vocabulary:** Specialized terms for natural ecology and social organization
+- **Oral tradition:** An important vehicle for creation stories and ancient chant-singing
 
-Japanese colonial language policies were relatively lenient. While promoting Japanese education, they didn't completely ban local languages. Many Taiwanese and Hakka words were influenced by Japanese, creating unique mixed language phenomena.
+## Historical Shifts in Language Policy
 
-### Martial Law Period (1949-1987): Mandarin Supremacy
+### Japanese Colonial Period (1895–1945): Multilingual Tolerance
 
-The KMT government promoted the "Mandarin Movement," banning dialect use in schools, affecting an entire generation's language habits. While this policy unified public communication language, it also caused breaks in mother tongue transmission.
+Language policy during the Japanese colonial period was relatively lenient. Although Japanese-language education was promoted, indigenous languages were not explicitly banned. Many Taiwanese Hokkien and Hakka words were influenced by Japanese, creating distinctive mixed-language phenomena.
 
-### Post-Democratization (1987-): Mother Tongue Revitalization
+### Martial Law Period (1949–1987): Mandarin Supremacy
 
-The nativization movement starting in the 1990s made mother tongue education an important issue. Local language teaching began in 2001, and the "National Languages Development Act" passed in 2019 established equal status for Taiwanese, Hakka, Indigenous languages, and Mandarin.
+The Kuomintang government implemented the "National Language Movement," prohibiting the use of local languages in schools. This policy affected the language habits of an entire generation. While it unified the language of public communication, it also caused a rupture in mother-tongue transmission.
 
-## Contemporary Language Situation and Challenges
+### Post-Democratization (1987–Present): Mother-Tongue Revitalization
+
+Beginning in the 1990s, the localization movement made mother-tongue education an important issue. In 2001, local-language instruction was introduced in schools. In 2019, the *National Languages Development Act* was passed, establishing the equal status of Taiwanese Hokkien, Hakka, Indigenous languages, and Mandarin.
+
+## Current Linguistic Situation and Challenges
+
+The vitality of Taiwan's languages varies widely—from the relatively stable Taiwanese Hokkien to the severely endangered majority of Indigenous languages. Generational turnover and urbanization are the two structural pressures on language transmission. Researchers estimate that without active intervention, some accents and varieties could disappear within two decades.
+
+This transmission predicament is not unique to Taiwan, but the situation of Indigenous languages is especially dire: fluent speakers of many languages are now concentrated among elders over 60, leaving a very narrow window for educational intervention.
 
 ### Generational Differences
 
-**Elderly Generation (65+):** Majority use mother tongues as primary communication languages
-**Middle Generation (35-64):** Bilingual or multilingual abilities, but more Mandarin use
-**Young Generation (Under 35):** Mandarin-dominant, generally weaker mother tongue abilities
+**Older generation (65+):** Most use their mother tongue as their primary language of communication
+**Middle-aged generation (35–64):** Bilingual or multilingual ability, but Mandarin is used more frequently
+**Younger generation (under 35):** Mandarin-dominant; mother-tongue ability is generally weaker
 
-### Urban-Rural Differences
+### Urban–Rural Differences
 
-**Rural Areas:** Higher mother tongue usage rates, especially Taiwanese and Hakka
-**Urban Areas:** Mandarin-dominant, mother tongues used in families or specific occasions
-**Indigenous Communities:** Tribal languages face the most serious transmission crises
+**Rural areas:** Higher rates of mother-tongue use, especially for Taiwanese Hokkien and Hakka
+**Urban areas:** Mandarin-dominant; mother tongues used mainly in the home or on specific occasions
+**Indigenous communities:** Language transmission faces the most severe crisis
 
 ### Language Vitality Assessment
 
-According to UNESCO's endangered languages criteria:
+According to UNESCO's endangered language criteria:
 
-- **Taiwanese:** Safe but faces youth challenges
-- **Hakka:** Obviously declining, some accents face crisis
-- **Indigenous Languages:** Severely endangered, most tribal languages need urgent rescue
+- **Taiwanese Hokkien:** Safe but faces challenges in youth transmission
+- **Hakka:** Clearly declining; some accents face crisis
+- **Indigenous languages:** Severely endangered; most require urgent rescue efforts
 
-## Mother Tongue Revitalization Efforts
+## Efforts in Mother-Tongue Revitalization
+
+The introduction of local-language courses into schools in 2001 and the passage of the *National Languages Development Act* in 2019 are two key milestones in Taiwan's mother-tongue revitalization policy. Government, media, cultural production, and digital tools are four parallel tracks, each with its own emphasis.
+
+Hakka TV (established 2003) and Taiwan Indigenous Television (established 2005) are concrete outcomes of media-based revitalization, providing public spaces for each community's language use.
+
+It is worth noting the role of digitization: over the past decade, YouTube channels and podcast programs in Taiwanese Hokkien and Indigenous languages have increased rapidly, allowing language learning to break free from the constraints of classrooms and television.
 
 ### Education Policy
 
-**Local Language Courses:** Since 2001, elementary and junior high schools must offer Taiwanese, Hakka, or Indigenous language courses
-**Immersion Teaching:** Some schools implement mother tongue immersion education
-**Teacher Training:** Cultivating professional mother tongue teachers
+**Local-language courses:** Since 2001, elementary and junior high schools must offer courses in Taiwanese Hokkien, Hakka, or an Indigenous language
+**Immersion education:** Some schools implement mother-tongue immersion programs
+**Teacher training:** Cultivating professional mother-tongue teaching staff
 
 ### Media Promotion
 
-**TV Channels:** Taiwanese channels, Hakka TV, Indigenous TV
-**Radio Stations:** Dedicated broadcasting time slots for each language
-**Online Media:** Mother tongue content on YouTube, podcasts, and other new media
+**Television:** Taiwan Television (Taiwanese-language channel), Hakka TV, Taiwan Indigenous Television
+**Radio:** Dedicated broadcast time slots for each language
+**Online media:** Mother-tongue content on YouTube, podcasts, and other new media
 
-### Cultural Creation
+### Cultural Production
 
-**Popular Music:** Revival of Taiwanese and Hakka songs
-**Literary Creation:** Mother tongue literature awards and poetry publications
-**Theater Performance:** Combination of traditional opera and modern drama
+**Popular music:** Revival of Taiwanese-language and Hakka-language music
+**Literary creation:** Mother-tongue literary awards and poetry publications
+**Dramatic performance:** Integration of traditional opera and modern theater
 
 ### Digital Preservation
 
-**Language Databases:** Establishing digital archives for various languages
-**Online Learning:** Developing mother tongue learning apps and websites
-**Speech Recognition:** Developing AI speech technology for mother tongues
+**Language databases:** Establishing digital archives for each language
+**Online learning:** Developing mother-tongue learning apps and websites
+**Speech recognition:** Developing AI speech technology for mother tongues
 
 ## Social Functions of Language Use
 
 ### Code-Switching
 
-Taiwanese people generally possess multilingual abilities, naturally switching languages based on occasion, audience, and topic. This code-switching reflects functional division of different languages in society.
+Taiwanese people generally possess multilingual ability and naturally switch languages depending on the setting, the interlocutor, and the topic. This code-switching reflects the functional division of labor among different languages in society.
 
-**Common Switching Patterns:**
+**Common switching patterns:**
 
-- **Formal Occasions:** Mandarin-dominant
-- **Family Life:** More mother tongue use
-- **Emotional Expression:** Mother tongues more natural
-- **Professional Terminology:** Mandarin or English
+- **Formal settings:** Mandarin-dominant
+- **Family life:** More mother-tongue use
+
+This code-switching is seen as natural among Taiwanese people, not as a sign of deficient language ability.
+
+- **Emotional expression:** Mother tongue feels more natural
+- **Technical terminology:** Mandarin or English
 
 ### Language Identity and Cultural Identity
 
-Language choices often reflect users' cultural identity and political stance. Taiwanese use is sometimes seen as expressing local identity, though this connection is gradually fading among younger generations.
+Language choice often reflects the speaker's cultural identity and political stance. The use of Taiwanese Hokkien is sometimes seen as an expression of local identity, though this connection is gradually weakening among the younger generation.
 
-### Language and Social Class
+### Language and Social Stratification
 
-While the constitution guarantees language equality, different languages still carry different social statuses and symbolic meanings in actual social interactions. Mandarin remains an advantaged language for education and employment, while mother tongues carry more emotional and cultural functions.
+Although the constitution guarantees linguistic equality, in actual social interaction different languages still carry different social statuses and practical functions. Mandarin remains the dominant language in education and employment, while mother tongues carry more emotional and cultural functions.
 
-## Future Prospects and Challenges
+## Future Outlook and Challenges
 
 ### Language Transmission in the Digital Age
 
-Internet and smartphone proliferation provide new possibilities for mother tongue transmission but also bring new challenges. How to maintain linguistic diversity in digital environments is a current important issue.
+The spread of the internet and smartphones offers new possibilities for mother-tongue transmission, but also brings new challenges. How to maintain linguistic diversity in the digital environment is an important issue at present.
 
-### Globalization vs. Localization
+### Globalization and Localization
 
-Under globalization trends dominated by English, Taiwan needs to consider how to balance international competitiveness with cultural preservation. Multilingual ability might be the answer, rather than language homogenization.
+Under the globalization trend dominated by English, Taiwan needs to consider how to strike a balance between international competitiveness and cultural preservation. Multilingual ability may be the answer, rather than linguistic homogenization.
 
 ### Future Directions for Language Policy
 
-From "Mandarin supremacy" to "multilingual coexistence," Taiwan's language policy continues evolving. How to construct truly equal multilingual environments where different languages function in their appropriate domains remains a future challenge.
+From "Mandarin supremacy" to "multilingual coexistence," Taiwan's language policy is still evolving. How to build a truly multilingual environment of equality, allowing different languages to function in their respective appropriate domains, is an important challenge for the future.
 
-## Recommendations for Foreigners
+## Advice for Foreigners
 
-### Taiwan Language Learning Order
+The language foreigners encounter most often in Taiwan in daily life is Mandarin, but knowing a little Taiwanese Hokkien can open up a completely different dimension of everyday interaction. Even learning just a few greetings will make most Taiwanese people feel a sense of warmth and be happy to chat a bit more.
 
-**Mandarin:** Essential basic communication language
-**Taiwanese:** Important tool for understanding Taiwan culture
-**Hakka or Indigenous Languages:** Deep cultural experience
+In traditional markets, temples, or the countryside, Taiwanese Hokkien is the primary language of communication; in commercial districts and among the younger generation, Mandarin and English are more common.
+
+The most practical entry point for language learning is usually language exchange—many people in Taiwan want to practice English and are happy to trade in Mandarin or Taiwanese Hokkien on an equal basis.
+
+### Suggested Order for Learning Taiwan's Languages
+
+**Mandarin:** Essential foundational language for communication
+**Taiwanese Hokkien:** An important tool for understanding Taiwanese culture
+**Hakka or an Indigenous language:** For deeper cultural immersion
 
 ### Language Learning Resources
 
-- **Mandarin:** Chinese language centers, language exchange
-- **Taiwanese:** Taiwanese romanization, local literature
+- **Mandarin:** Mandarin Training Centers, language exchanges
+- **Taiwanese Hokkien:** Taiwanese Romanization (Tâi-lô), local-language literature
+
+Official learning resources for Hakka and Indigenous languages have expanded rapidly in recent years, and the quality of online tools has improved markedly.
+
 - **Hakka:** Hakka Affairs Council website, Hakka TV
-- **Indigenous Languages:** Indigenous Peoples Commission resources, tribal experiences
+- **Indigenous languages:** Council of Indigenous Peoples resources, community immersion experiences
 
-## Further Reflection
+## Further Reflections
 
-Taiwan's linguistic situation provides an important window for understanding how this society handles relationships between "diversity" and "unity." The coexistence of four major language systems on a small island presents both challenges and assets. How this linguistic diversity can be preserved and developed during modernization offers important insights for other societies facing similar circumstances.
+Taiwan's linguistic situation is an important window into how this society handles the relationship between "diversity" and "unity." On a small island, the coexistence of four major language systems is both a challenge and an asset. How this linguistic diversity can be preserved and developed through the process of modernization holds important implications for other societies facing similar circumstances.
 
-Language vitality ultimately depends on users' choices. Under the premise of respecting individual language rights, creating social environments conducive to mother tongue transmission is a direction Taiwan society needs continuous effort toward.
+The vitality of a language ultimately depends on the choices of its speakers. While respecting individual language rights, how to create a social environment conducive to mother-tongue transmission is a direction Taiwanese society needs to advance over the long term.
 
-## Further Reading
+It is worth noting that the effectiveness of language policy often takes decades to assess. The first cohort of students who entered mother-tongue courses when they were introduced in 2001 has only just entered the workforce; the true impact is still slowly emerging.
 
-- Huang, Xuanfan ["Language, Society and Ethnic Consciousness"](https://www.sanmin.com.tw/product/index/000219830)
-- Li, Renkai ["Ethnic Groups and Migration of Taiwan's Austronesian Peoples"](https://www.books.com.tw/products/0010493437)
-- Zheng, Liangwei "Collection of Taiwanese Research Papers"
-- [National Languages Development Act (2019)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0170143)
-- Publications from [Hakka Affairs Council](https://www.hakka.gov.tw/) and [Indigenous Peoples Commission](https://www.apc.gov.tw/)
+## References
+
+[^1]: Hakka Affairs Council, Executive Yuan, *National Survey of Hakka Population and Language Baseline Data*, 2020, https://www.hakka.gov.tw/chhakka/app/artwebsite?module=artwebsite&id=126&serno=null; depending on the survey organization and year, the proportion of Taiwanese Hokkien speakers ranges between 67–72%; this article adopts the more recent figure
+[^2]: Council of Indigenous Peoples, *Survey Report on Indigenous Language Use*, 2021, https://www.cip.gov.tw/zh-tw/news/data-list/C30C260FE2AC91E5/index.html; the Amis registered population is approximately 210,000, but the number of fluent speakers is far lower than this figure
+[^3]: Huang Xuanfan (黃宣範), [*Language, Society, and Ethnic Consciousness*](https://www.sanmin.com.tw/product/index/000219830), Sanmin Bookstore (三民書局)
+[^4]: Li Paul Jen-kuei (李壬癸), [*The Peoples and Migrations of Taiwan's Austronesian Groups*](https://www.books.com.tw/products/0010493437)
+[^5]: [*National Languages Development Act* (2019)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0170143) — establishes Taiwanese Hokkien, Hakka, Indigenous languages, and others as national languages; related publications from the [Hakka Affairs Council](https://www.hakka.gov.tw/) and the [Council of Indigenous Peoples](https://www.apc.gov.tw/)

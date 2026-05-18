@@ -1,246 +1,235 @@
 ---
-title: 'Clash of Civilizations on Keyboards: A Century of East Asian Input Method Evolution'
-description: "When keyboards worldwide look identical, how do different civilizations fit their scripts into 26 English letters? From Taiwan's Zhuyin to Korea's Dubeolsik, input methods are a silent cultural preservation battle"
+title: 'The Civilization Clash on the Keyboard: A Century of East Asian Input Method Evolution'
+description: "When keyboards around the world all look the same, how do different civilizations cram their writing systems into 26 English letters? From Taiwan's Bopomofo to Korea's Dubeolsik, input methods are a silent cultural defense war."
 date: 2026-03-19
-tags:
-  [
-    'input methods',
-    'technology',
-    'culture',
-    'Zhuyin',
-    'Cangjie',
-    'keyboard',
-    'digitization',
-    'East Asia',
-    'writing systems',
-  ]
 author: 'Taiwan.md'
-readingTime: 15
-featured: true
 category: 'Technology'
+subcategory: '文字與工具'
+tags:
+  ['輸入法', '科技', '文化', '注音', '倉頡', '鍵盤', '數位化', '東亞', '文字']
+readingTime: 15
 lastVerified: 2026-03-19
+lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/東亞文字輸入法.md'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:d8c6f0fd322ce1e4'
+sourceBodyHash: 'sha256:c009ff8e72f638e1'
+translatedAt: '2026-05-15T14:23:13+08:00'
 ---
 
-# Clash of Civilizations on Keyboards: A Century of East Asian Input Method Evolution
+# The Civilization Clash on the Keyboard: A Century of East Asian Input Method Evolution
 
 ## 30-Second Overview
 
-Every computer keyboard in the world uses QWERTY layout—a design from the 1870s created for English typewriters. But East Asia has over 2 billion people using writing systems (Chinese characters, Kana, Korean, Thai, Burmese) that are fundamentally not phonetic alphabets. What did they do? The answer: each civilization invented its own "translation layer"—input methods. These input methods are not merely technical tools, but battlegrounds of cultural identity. Taiwan uses Zhuyin, China uses Pinyin, Japan uses Romaji, Korea directly decomposes letters—each choice represents a different philosophical approach to how a civilization faces digitization.
+Every computer keyboard in the world uses the QWERTY layout — a design from the 1870s built for English typewriters. But East Asia has over 2 billion people whose writing systems (Chinese characters, kana, Hangul, Thai, Burmese) are not alphabetic at all. So what do they do? The answer: each civilization invented its own "translation layer" — the input method. These input methods are not just technical tools; they are battlefields of cultural identity. Taiwan uses Bopomofo, China uses Pinyin, Japan uses romaji, and Korea directly maps letters to keys. Behind each choice lies a different philosophy of how a civilization confronts digitization.
 
 ---
 
-## The Essence of the Problem: 26 Letters vs Tens of Thousands of Characters
+## The Nature of the Problem: 26 Letters vs. Tens of Thousands of Characters
 
-English users never need "input methods"—keyboards have 26 letters, and what you type is what you get. But Chinese has over 50,000 characters, with 3,000-5,000 in common use. You can't make a keyboard with 5,000 keys.
+English speakers have never needed an "input method" — the keyboard has 26 letters, and what you type is what you get. But there are over 50,000 Chinese characters, with 3,000–5,000 in common use. You cannot build a keyboard with 5,000 keys.
 
-This means East Asian civilizations must solve a fundamental problem: **How to express infinite characters with finite keys?**
+This means East Asian civilizations must solve a fundamental problem: **how to express an infinite number of characters using a finite set of keys?**
 
-Each civilization gave radically different answers, and these answers profoundly reflect their linguistic structures, educational systems, and even political choices.
+Each civilization has given a radically different answer, and these answers profoundly reflect their linguistic structures, educational systems, and even political choices.
 
 ---
 
-## 🇹🇼 Taiwan: Zhuyin—Finding Characters Through "Pronunciation"
+## 🇹🇼 Taiwan: Bopomofo (Finding Characters by "Pronunciation")
 
-### Historical Roots of Zhuyin
+### The Historical Roots of Bopomofo
 
-Taiwan's mainstream input method is **Zhuyin input**, using 37 Zhuyin symbols (ㄅㄆㄇㄈ⋯) to mark pronunciation. To type "Taiwan," you press `ㄊㄞˊ ㄨㄢ`, and the system lists homophones for selection.
+Taiwan's mainstream input method is the **Bopomofo input method**, which uses 37 phonetic symbols (ㄅㄆㄇㄈ⋯) to represent pronunciation. To type "台灣," you press `ㄊㄞˊ ㄨㄢ`, and the system lists homophones for you to choose from.
 
-Zhuyin symbols themselves originated from the 1913 "Pronunciation Unification Conference," simplified from ancient Chinese character radicals by scholars like Zhang Taiyan. It's a **pronunciation system completely independent of Latin letters**—this point is crucial.
+Bopomofo itself was born in 1913 at the "Conference on the Unification of Pronunciation," simplified from ancient Chinese character radicals by scholars such as Zhang Taiyan. It is a **phonetic system entirely independent of the Latin alphabet** — and this point is crucial.
 
-### Why Does Taiwan Insist on Zhuyin?
+### Why Taiwan Sticks with Bopomofo
 
-1. **Educational System Binding**: Taiwan's first-grade elementary students spend the first 10 weeks learning Zhuyin intensively—it's every Taiwanese person's most fundamental literacy tool
-2. **Cultural Identity**: Zhuyin symbols are unique to the Traditional Chinese world, not using Latin letters, viewed as continuation of Chinese cultural tradition
-3. **Pronunciation Accuracy**: Zhuyin can precisely mark Mandarin's four tones (even light tone), which Hanyu Pinyin struggles to achieve
-4. **Mature Keyboard Layout**: Taiwan keyboards have corresponding Zhuyin symbols marked next to each English letter, forming dual notation
+Taiwan's commitment to Bopomofo is reinforced by four mutually reinforcing layers. The educational system is foundational: the first ten weeks of elementary school are devoted entirely to teaching Bopomofo, making it the most deeply rooted literacy tool for every Taiwanese person — the cost of switching would be too high. Cultural identity is the driving force: Bopomofo is a notation system unique to the Traditional Chinese world, using no Latin letters, and is seen as a continuation of Chinese cultural heritage. Technically, Bopomofo can precisely mark all four tones of Mandarin (and even the neutral tone), something Hanyu Pinyin struggles to fully achieve. Finally, Taiwanese keyboards label each English letter with its corresponding Bopomofo symbol, creating a dual-track notation that anchors the system at the hardware level as well.
 
-### Limitations of Zhuyin
+### The Limitations of Bopomofo
 
-Zhuyin's biggest problem is **too many homophones**. Mandarin has only about 1,300 different syllables but must correspond to tens of thousands of Chinese characters. Typing "ㄕˋ" might produce dozens of characters like "是、事、式、室、市、試、視、適、勢、世⋯⋯" Users must select from candidate lists, slowing input speed.
+Bopomofo's biggest problem is **too many homophones**. Mandarin has only about 1,300 distinct syllables, yet they must correspond to tens of thousands of characters. Typing "ㄕˋ" might bring up dozens of candidates: 「是、事、式、室、市、試、視、適、勢、世⋯⋯」. Users must select from a candidate list, which slows down input speed.
 
-Recently, intelligent Zhuyin input methods (like Microsoft New Phonetic, RIME) have significantly improved accuracy through AI context prediction, but the fundamental selection problem remains.
+In recent years, smart Bopomofo input methods (such as Microsoft New Phonetic and RIME) have greatly improved accuracy through AI contextual prediction, but the fundamental issue of character selection remains.
 
 ### Cangjie: Another Path
 
-In 1976, Zhu Bangfu, known as the "Father of Chinese Computers," invented **Cangjie Input Method**—a method completely independent of pronunciation, relying on **character shape decomposition**. Each Chinese character is decomposed into 1-5 "radicals" corresponding to 24 keys on the keyboard.
+In 1976, **Zhu Bangfu**, known as the "Father of Chinese Computing," invented the **Cangjie input method** — an approach that does not rely on pronunciation at all, but instead on **decomposing character shapes**. Each Chinese character is broken into 1–5 "radicals," mapped to 25 keys on the keyboard (A through Y, omitting the Z key[^2]).
 
-For example, "明" = 日 + 月 = `A` + `B`.
+For example, 「明」= 日 + 月 = `A` + `B`.
 
-Cangjie's advantage is **one character, one code**—no character selection needed. Skilled Cangjie users can exceed Zhuyin speeds. Zhu Bangfu later renounced Cangjie's patent, making it an open-source Chinese input method pioneer—twenty years before the open-source software movement.
+Cangjie's advantage is **one character, one code** — no character selection needed. Skilled Cangjie users can type faster than Bopomofo users. Zhu Bangfu later announced he was relinquishing the Cangjie patent, making it a pioneer of open-source Chinese input methods — two decades before the open-source software movement[^1].
 
-Cangjie is extremely popular in Hong Kong (over half of computer users), but remains a minority in Taiwan, mainly due to its steep learning curve.
+Cangjie is extremely popular in Hong Kong (used by over half of computer users), but has always been a minority choice in Taiwan, primarily due to its steep learning curve.
 
 ### Array Input Method
 
-The **Array Input Method** invented by Liao Mingde is another Taiwanese solution, using number keys as the basis for character shape decomposition, with the design philosophy of "not needing to memorize too many radicals." It represents Taiwan's continued innovation in input methods.
+The **Array input method**, invented by Liao Mingde, is another Taiwan-based solution. It decomposes character shapes using the number keys as a base, designed around the philosophy of "not needing to memorize too many radicals." It represents Taiwan's ongoing innovation in the input method space.
 
 ---
 
-## 🇨🇳 China: Hanyu Pinyin—Using Latin Letters to Spell Chinese
+## 🇨🇳 China: Hanyu Pinyin (Spelling Chinese with Latin Letters)
 
-### Choice of Pinyin
+### The Choice of Pinyin
 
-China's mainstream input method is **Hanyu Pinyin input**, directly using 26 English letters to spell Chinese pronunciation. To type "Taiwan," you input `taiwan`, and the system converts to Simplified Chinese.
+Mainland China's mainstream input method is the **Hanyu Pinyin input method**, which uses 26 English letters to spell out the pronunciation of Chinese characters. To type "台灣," you enter `taiwan`, and the system converts it to Simplified Chinese.
 
-This choice has deep historical background:
+This choice has deep historical roots:
 
-1. **1958 Promulgation of Hanyu Pinyin Scheme**: Replaced previous Zhuyin letters (China called "Zhuyin symbols") and Wade-Giles romanization
-2. **Simplified Character Reform**: From 1956, promoted simplified characters, complementing Pinyin input—learn Pinyin → use Pinyin to type → produce simplified characters
-3. **Internationalization Considerations**: Pinyin uses Latin letters, convenient for foreigners learning Chinese, and convenient for Chinese users on any standard keyboard
+1. **The Hanyu Pinyin scheme was promulgated in 1958**, replacing the former Bopomofo (called "zhuyin fuhao" in China) and Wade-Giles romanization.
+2. **Simplified character reform**: Starting in 1956, Simplified Chinese was promoted, complementing Pinyin input — learn Pinyin → type with Pinyin → output Simplified characters.
+3. **Internationalization considerations**: Pinyin uses the Latin alphabet, making it easier for foreigners to learn Chinese and allowing Chinese speakers to type on any standard keyboard.
 
-### Pinyin vs Zhuyin: A Cultural Divergence You Might Not Notice
+### Pinyin vs. Bopomofo: A Cultural Divide You May Not Have Noticed
 
-On the surface, both Zhuyin and Pinyin are "finding characters through pronunciation." But deep differences are enormous:
+On the surface, both Bopomofo and Pinyin are "finding characters by pronunciation." But the deep differences are enormous:
 
-|                           | Taiwan Zhuyin                           | China Pinyin                      |
-| ------------------------- | --------------------------------------- | --------------------------------- |
-| Symbol System             | Independent symbols (ㄅㄆㄇ)            | Latin letters (bpmf)              |
-| Cultural Origin           | Derived from Chinese character radicals | From Latinization movement        |
-| Learning Prerequisites    | No need to learn English first          | Need to recognize English letters |
-| Keyboard Requirements     | Need Zhuyin-marked keyboards            | Any English keyboard              |
-| Relationship with Writing | "Describes pronunciation"               | "Translates into Latin letters"   |
+|                        | Taiwan Bopomofo               | China Pinyin                           |
+| ---------------------- | ----------------------------- | -------------------------------------- |
+| Symbol system          | Independent symbols (ㄅㄆㄇ)  | Latin letters (bpmf)                   |
+| Cultural roots         | Derived from Chinese radicals | Derived from the Latinization movement |
+| Learning prerequisite  | No prior English needed       | Requires knowledge of English letters  |
+| Keyboard requirement   | Keyboard with Bopomofo labels | Any English keyboard                   |
+| Relationship to script | "Describes pronunciation"     | "Translates into Latin letters"        |
 
-This difference is not merely technical—it reflects fundamental divergence between both sides on "how Chinese should interface with the international world." Taiwan chose to preserve an independent symbolic system from the West; China chose to embrace Latinization.
+This difference is not merely technical — it reflects a fundamental divergence between the two sides of the strait on "how Chinese should interface with the international community." Taiwan chose to maintain an independent symbol system separate from the West; China chose to embrace Latinization.
 
 ### Wubi: China's "Cangjie"
 
-Worth mentioning, China also has shape-based input—**Wubi** (Wang Yongmin, 1983). Its logic is similar to Cangjie, decomposing Chinese characters into strokes corresponding to keyboards. Wubi was extremely popular in Chinese offices in the 1990s, but with intelligent Pinyin input methods and smartphone proliferation, usage has plummeted. Today, over 95% of Chinese users use Pinyin input.
+It is worth noting that China also has shape-based input methods, the most prominent being **Wubi** (Wang Yongmin, 1983). Its logic is similar to Cangjie, decomposing characters into strokes mapped to keys. Wubi was extremely prevalent in Chinese offices in the 1990s, but with the smartening of Pinyin input and the rise of mobile phones, its usage has declined sharply. Today, over 95% of users in China type with Pinyin.
 
 ---
 
-## 🇯🇵 Japan: Romaji→Kana→Kanji Triple Transformation
+## 🇯🇵 Japan: The Three-Stage Transformation — Romaji → Kana → Kanji
 
-### Unique Challenge of Japanese Input
+### The Unique Challenge of Japanese Input
 
-Japanese is one of the world's most complex writing systems, simultaneously using three scripts:
+Japanese is one of the world's most complex writing systems, using three scripts simultaneously:
 
-- **Hiragana** (ひらがな): 46 basic syllabic symbols
-- **Katakana** (カタカナ): 46, mainly for foreign words
-- **Kanji** (漢字): Common usage about 2,000-3,000
+- **Hiragana** (ひらがな): 46 basic syllable symbols
+- **Katakana** (カタカナ): 46 symbols, primarily used for loanwords
+- **Kanji** (漢字): approximately 2,000–3,000 in common use
 
-The standard method for Japanese input is "**Romaji input**" (ローマ字入力):
+The standard approach for Japanese input is "**romaji input**" (ローマ字入力):
 
-1. Type English letters → automatically convert to Hiragana: `ka` → `か`, `n` → `ん`
-2. Continue inputting, system combines into words: `kanji` → `かんじ`
-3. Press space to convert to Kanji: `かんじ` → `漢字`
+1. Type English letters → automatically converted to hiragana: `ka` → `か`, `n` → `ん`
+2. Continue typing, the system assembles words: `kanji` → `かんじ`
+3. Press the space bar to convert to kanji: `かんじ` → `漢字`
 
-This is a **three-layer conversion** process—English letters→Kana→Kanji, each layer requiring user judgment.
+This is a **three-layer conversion** process: English letters → kana → kanji, and each layer requires the user's judgment.
 
-### Why Does Japan Use Romaji Instead of Direct Kana Input?
+### Why Japan Uses Romaji Instead of Direct Kana Input?
 
-Japan does have **direct Kana input** (かな入力) option—each key on the keyboard corresponds to one Kana. But this requires memorizing 50+ key positions, and Japan's educational system already taught Romaji in English education, so most people find English letters more convenient.
+Japan does indeed have a **direct kana input** (かな入力) option, where each key corresponds to a single kana symbol. But this requires memorizing 50+ key positions, and since Japan's education system already teaches romaji in English classes, most people find it more convenient to use English letters.
 
-Currently about **90% of Japanese users use Romaji input**, with only some elderly or professional typists using direct Kana input.
+Today, the majority of Japanese users adopt romaji input (estimated at roughly 80–90%, though exact figures vary by survey methodology[^6]), with only a small number of older generations or professional typists using direct kana input.
 
-### Cultural Implications of Japanese Input
+### The Cultural Implications of Japanese Input
 
-Japanese Kanji conversion has an interesting cultural effect: young people are starting to **forget how to handwrite Kanji**. Because input methods automatically display correct Kanji, users only need to know "how to pronounce" without remembering "how to write." This phenomenon has a specific term in Japan: "**Kanji wasure**" (漢字忘れ, forgetting Kanji).
+Japanese kanji conversion has an interesting cultural side effect: young people are beginning **to forget how to write kanji by hand**. Because the input method automatically displays the correct kanji, users only need to know "how to pronounce it" — they don't need to remember "how to write it." This phenomenon has a specific term in Japan: "**漢字忘れ**" (forgetting kanji).
 
 ---
 
-## 🇰🇷 Korea: Dubeolsik—The Most Elegant Keyboard Design
+## 🇰🇷 Korea: Dubeolsik (The Most Elegant Keyboard Design)
 
-### Korean Genius: Letters Can Directly Correspond to Keys
+### The Genius of Hangul: Letters That Map Directly to Keys
 
-Korean (한글, Hangul) is a alphabetic system created in 1443 by King Sejong's order, and one of the world's rare writing systems with a "clear inventor." It consists of 14 consonants (ㄱㄴㄷㄹ⋯) and 10 vowels (ㅏㅓㅗㅜ⋯), which combine into syllable blocks.
+Hangul (한글) is an alphabet system created in 1443 by order of King Sejong, and it is one of the very few writing systems in the world with a clearly identified inventor. It consists of 14 consonants (ㄱㄴㄷㄹ⋯) and 10 vowels (ㅏㅓㅗㅜ⋯), which combine into syllable blocks.
 
-Korean consonants + vowels total only 24 basic letters—exactly fitting into the 26 keys of a QWERTY keyboard!
+Hangul's consonants and vowels total just 24 basic letters — which fit perfectly within the 26 keys of a QWERTY keyboard!
 
 ### Dubeolsik (두벌식): Left Hand Consonants, Right Hand Vowels
 
-Korea's standard input method **Dubeolsik** (two-set system) design is extremely intuitive:
+Korea's standard input method, **Dubeolsik** (two-set style), is designed with remarkable intuitiveness:
 
-- **Left hand** handles consonants: ㄱ(r) ㄴ(s) ㄷ(e) ㄹ(f) ㅁ(a)⋯
-- **Right hand** handles vowels: ㅏ(k) ㅓ(j) ㅗ(h) ㅜ(n) ㅡ(m)⋯
+- **Left hand** strikes consonants: ㄱ(r) ㄴ(s) ㄷ(e) ㄹ(f) ㅁ(a)⋯
+- **Right hand** strikes vowels: ㅏ(k) ㅓ(j) ㅗ(h) ㅜ(n) ㅡ(m)⋯
 
-Typing alternates between hands with excellent rhythm, and **no character selection needed**—what you type is what you get.
+Both hands alternate while typing, creating an excellent rhythmic feel, and **no character selection is needed** — what you type is what you get.
 
-This is the **only East Asian input method that doesn't need candidate character lists**. Korean syllable blocks are assembled in real-time: type `ㅎ` + `ㅏ` + `ㄴ` = 한, type `ㄱ` + `ㅡ` + `ㄹ` = 글. The entire process has zero delay, zero character selection.
+This is the **only input method in all of East Asia that requires no candidate list**. Hangul syllable blocks are assembled in real time: typing `ㅎ` + `ㅏ` + `ㄴ` = 한, typing `ㄱ` + `ㅡ` + `ㄹ` = 글. The entire process involves zero delay and zero character selection.
 
-### Why Is Korean Input Method the Most Elegant?
+### Why Is the Korean Input Method the Most Elegant?
 
-Because Korean itself was designed to be "easy to write." King Sejong's design philosophy was "the wise can learn in a morning, the foolish can master in ten days." 600 years later, this design still perfectly adapts to the digital age—24 letters exactly fit keyboards, consonants and vowels split between left and right hands, no conversion needed, no character selection needed.
+Because Hangul itself was designed to be "easy to write." King Sejong's design philosophy was "a wise man can learn it in a morning; even a fool can learn it in ten days"[^3]. Six hundred years later, this design still fits the digital age perfectly: 24 letters fit precisely onto a keyboard, consonants and vowels are split between left and right hands, and no conversion or character selection is needed.
 
 ---
 
-## 🇹🇭 Thailand: Kedmanee—Layout Continuing from Typewriter Era
+## 🇹🇭 Thailand: Kedmanee (A Layout Carried Forward from the Typewriter Era)
 
-### Thai Challenge: 44 Consonants + Tone Marks
+### The Challenge of Thai: 44 Consonants + Tone Marks
 
-Thai has 44 consonant symbols, 15 vowel symbols (combinable into 28 vowel forms), 4 tone marks, totaling over 60 characters—far exceeding standard keyboard keys.
+Thai has 44 consonant symbols, 15 vowel symbols (combinable into 28 vowel forms), and 4 tone marks, totaling over 60 characters — far exceeding the number of keys on a standard keyboard.
 
-The solution is **Kedmanee layout** (เกษมณี), designed by Suwanprasert Ketmanee in the 1920s for Thai typewriters. It places the most commonly used characters in non-Shift positions, with less common ones on the Shift layer.
+The solution is the **Kedmanee layout** (เกษมณี), designed by Suwanprasert Ketmanee in the 1920s–1930s for Thai typewriters[^4] (Wikipedia records this layout as being formalized around 1932). It places the most frequently used characters in positions that do not require Shift, with less common ones on the Shift layer.
 
-### Special Characteristics of Thai Input
+### What Makes Thai Input Special
 
-Thai is a **phonetic script**, but its writing rules are extremely complex: vowels can appear before, after, above, or below consonants. For example, เ (e) is written before the consonant but pronounced after. This means typing order and reading order are not necessarily consistent—users need to adapt to "typing vowels before consonants" in certain cases.
+Thai is a **phonetic script**, but its writing rules are extremely complex: vowels can appear before, after, above, or below a consonant. For example, เ (e) is written before a consonant but pronounced after it. This means the typing order and reading order do not necessarily match, and users need to get used to certain situations where "you type the vowel before the consonant."
 
-Thai input doesn't require character selection (similar to Korean), but needs memorizing two layers (normal + Shift) of key positions.
+Thai input requires no character selection (similar to Korean), but users must memorize two layers (unshifted + Shift) of key positions.
 
 ---
 
 ## 🇲🇲 Myanmar: The Unicode War
 
-### Zawgyi vs Myanmar Unicode: A Digital Civil War
+### Zawgyi vs. Myanmar Unicode: A Digital Civil War
 
-Myanmar's input method story is the most dramatic in East Asia. Myanmar script has 33 consonants and complex combination rules, but the real problem wasn't in the input method itself, but in **font encoding**.
+The story of Burmese input methods is the most dramatic in East Asia. Burmese has 33 consonants and complex combination rules, but the real problem is not the input method itself — it is **font encoding**.
 
-In the 2000s, Myanmar engineer Zaw Htut developed **Zawgyi font**—it didn't comply with Unicode standards, but spread rapidly due to its ease of use. By the 2010s, about 90% of Myanmar phones used Zawgyi.
+In the 2000s, Burmese engineer Zaw Htut developed the **Zawgyi font**, which does not conform to Unicode standards but spread rapidly because of its usability. By the 2010s, approximately 90% of mobile phones in Myanmar used Zawgyi.
 
-The problem: Zawgyi and Unicode are incompatible. The same text displays completely differently in both systems, causing massive communication confusion.
+The problem: Zawgyi and Unicode are incompatible. The same text displays completely differently in the two systems, causing massive communication confusion.
 
-In 2019, Myanmar's government officially announced full transition to **Myanmar Unicode**. Facebook also forced Myanmar users to convert from Zawgyi to Unicode that year. This migration affected over 20 million users—equivalent to an entire nation's digital infrastructure migration.
-
----
-
-## Comparison: Six Civilizations' Keyboard Philosophies
-
-| Civilization | Mainstream Input | Principle                       | Character Selection Needed? | Cultural Positioning      |
-| ------------ | ---------------- | ------------------------------- | --------------------------- | ------------------------- |
-| 🇹🇼 Taiwan    | Zhuyin           | Independent symbol phonetics    | ✅ Many homophones          | Cultural independence     |
-| 🇨🇳 China     | Hanyu Pinyin     | Latin letter phonetics          | ✅ Many homophones          | International integration |
-| 🇯🇵 Japan     | Romaji           | Latin→Kana→Kanji                | ✅ Kanji conversion         | Multi-layer conversion    |
-| 🇰🇷 Korea     | Dubeolsik        | Direct letter correspondence    | ❌ Real-time assembly       | Perfect adaptation        |
-| 🇹🇭 Thailand  | Kedmanee         | Direct character correspondence | ❌ Direct output            | Typewriter legacy         |
-| 🇲🇲 Myanmar   | Myanmar Unicode  | Character combination           | ❌ Direct output            | Standardization battle    |
+In 2019, the Myanmar government officially announced a full transition to **Myanmar Unicode**[^5]. Facebook also forced its Myanmar users to switch from Zawgyi to Unicode that same year. This migration affected over 20 million users — a digital infrastructure relocation on the scale of an entire nation.
 
 ---
 
-## Mobile Era: New Battleground
+## Comparison: The Keyboard Philosophies of Six Civilizations
 
-Smartphones completely changed the input method ecosystem:
-
-- **Taiwan**: Mobile Zhuyin keyboards (9-key or full keyboard) remain mainstream, but **handwriting input** and **voice input** usage rates are rapidly rising
-- **China**: AI-driven input methods like Sogou Pinyin and Baidu Input became mainstream, while "swipe input" significantly improved Pinyin efficiency
-- **Japan**: **Flick input** (フリック入力) became mobile standard—swiping fingers on 9-key grid to select Kana directions, completely independent of English letters
-- **Korea**: **Cheonjiin input** (천지인, Heaven-Earth-Human) uses ㅣ ㆍ ㅡ (heaven-earth-human) three basic strokes to combine all Korean, extremely suitable for small screens
-
-The mobile era made an interesting phenomenon more obvious: **younger generations are losing handwriting ability**. This is especially severe in Chinese character cultures—when input methods remember all characters for you, your hands forget.
+| Civilization | Mainstream Input Method | Principle                       | Requires Character Selection? | Cultural Positioning       |
+| ------------ | ----------------------- | ------------------------------- | ----------------------------- | -------------------------- |
+| 🇹🇼 Taiwan    | Bopomofo                | Independent phonetic symbols    | ✅ Many homophones            | Cultural independence      |
+| 🇨🇳 China     | Hanyu Pinyin            | Latin alphabet romanization     | ✅ Many homophones            | International integration  |
+| 🇯🇵 Japan     | Romaji                  | Latin → kana → kanji            | ✅ Kanji conversion           | Multi-layer conversion     |
+| 🇰🇷 Korea     | Dubeolsik               | Direct letter-to-key mapping    | ❌ Real-time assembly         | Perfect fit                |
+| 🇹🇭 Thailand  | Kedmanee                | Direct character-to-key mapping | ❌ Direct output              | Typewriter heritage        |
+| 🇲🇲 Myanmar   | Myanmar Unicode         | Character combination           | ❌ Direct output              | The standardization battle |
 
 ---
 
-## AI Era: End of Input Methods?
+## The Mobile Era: A New Battlefield
 
-With advances in speech recognition and AI dialogue technology, a fundamental question emerges: **Do we still need input methods?**
+Smartphones have completely transformed the input method landscape. Taiwan's Bopomofo keyboard (9-key or full keyboard) remains mainstream on mobile, but handwriting input and voice input are rising rapidly. China has moved toward AI-driven input: Sogou Pinyin and Baidu Input dominate, with "swipe typing" dramatically improving Pinyin efficiency. Japan developed **Flick input** (フリック入力), where users swipe in directions on a 9-key grid to select kana — no English letters needed at all. Korea has the **Cheonjiin input method** (천지인), which uses three basic strokes — ㅣ ㆍ ㅡ (Heaven, Earth, Humanity) — to compose all Hangul, making it extremely well-suited to small screens.
 
-- **Voice input** has already replaced typing in many scenarios (especially in China, WeChat voice message usage is extremely high)
-- **AI prediction** makes input methods increasingly "smart"—typing a few characters can predict entire sentences
-- **Handwriting recognition** technology advances make "writing with fingers on screens" viable
+The mobile era has made one interesting phenomenon even more apparent: **the younger generation is losing handwriting ability**. This is especially severe in the Chinese character cultural sphere: when the input method remembers all the characters for you, your hands forget.
 
-But input methods won't disappear. Because they're not just tools—they're **carriers of cultural memory**. The ten weeks Taiwanese children learn Zhuyin, the moment Japanese people convert Romaji to Kanji on keyboards, the rhythm of Koreans' left-hand consonants and right-hand vowels—these are all intimate dialogues between each civilization and their writing systems in the digital age.
+---
+
+## The AI Era: The End of Input Methods?
+
+With advances in speech recognition and AI conversational technology, a fundamental question has emerged: **do we still need input methods?** Voice input has already replaced typing in many scenarios, with WeChat voice messages being especially prevalent in China. AI prediction is making input methods increasingly "smart" — typing just a few characters can predict an entire sentence. Advances in handwriting recognition technology have also made "writing on the screen with your finger" viable.
+
+But input methods will not disappear. Because they are not just tools — they are **carriers of cultural memory**. The ten weeks a Taiwanese child spends learning Bopomofo, the moment a Japanese person transforms romaji into kanji on a keyboard, the rhythmic feel of a Korean typist's left-hand consonants and right-hand vowels — these are each civilization's intimate conversation with its own script in the digital age.
 
 ---
 
 ## Further Reading
 
-- [audrey-tang](/people/audrey-tang) — Key figure promoting Taiwan's digital governance
+- [Semiconductor Industry](/technology/半導體產業) — The industry that produces the chips behind the keyboard
 
 ## References
 
-- [Decoding Keyboard History (Part 2): Cultural History of Cangjie and Zhuyin Input](https://www.thenewslens.com/article/12229) — The News Lens
-- [Zhu Bangfu and Cangjie Input Method](https://zh.wikipedia.org/zh-hant/%E6%9C%B1%E9%82%A6%E5%BE%A9) — Wikipedia
-- [Korean Keyboard Layout Guide](https://www.90daykorean.com/korean-keyboard/) — 90 Day Korean
-- [Thai Kedmanee Keyboard Layout](https://en.wikipedia.org/wiki/Thai_Kedmanee_keyboard_layout) — Wikipedia
-- [Myanmar's Zawgyi to Unicode Migration](https://en.wikipedia.org/wiki/Zawgyi_font) — Wikipedia
-- [Japanese Input - Romaji Input](https://www.youtube.com/watch?v=_HXOVMobmAA) — YouTube Tutorial
+[^1]: [Unraveling the Keyboard's Life Code (Part 2): The Cultural History of Cangjie and Bopomofo Input](https://www.thenewslens.com/article/12229) — The News Lens; history and cultural context of the Cangjie input method
+
+[^2]: [Zhu Bangfu and the Cangjie Input Method](https://zh.wikipedia.org/zh-hant/%E6%9C%B1%E9%82%A6%E5%BE%A9) — Wikipedia; design explanation of Cangjie's use of 25 keys (A through Y)
+
+[^3]: [Korean Keyboard Layout Guide](https://www.90daykorean.com/korean-keyboard/) — 90 Day Korean; Dubeolsik Korean keyboard layout explanation
+
+[^4]: [Thai Kedmanee Keyboard Layout](https://en.wikipedia.org/wiki/Thai_Kedmanee_keyboard_layout) — Wikipedia; designer Suwanprasert Ketmanee's information and dates
+
+[^5]: [Myanmar's Zawgyi Unicode Migration](https://en.wikipedia.org/wiki/Zawgyi_font) — Wikipedia; the process of Myanmar's transition from Zawgyi to Unicode
+
+[^6]: [Japanese Input — Romaji Input](https://www.youtube.com/watch?v=_HXOVMobmAA) — YouTube tutorial; current status of romaji input usage in Japan

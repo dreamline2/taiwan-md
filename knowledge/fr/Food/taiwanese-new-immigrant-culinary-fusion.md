@@ -2,7 +2,14 @@
 title: 'La fusion culinaire des nouveaux immigrants à Taïwan'
 description: "Quand l'acidité piquante thaïlandaise rencontre le goût doux-salé taïwanais, quand le pho vietnamien croise le lu wei braisé à la mode locale, quand les épices indonésiennes épousent les ingrédients du terroir — une véritable révolution gustative se déroule en silence à Taïwan. Les nouveaux immigrants n'ont pas seulement apporté la cuisine de leur pays natal : ils ont offert à Taïwan de nouvelles possibilités pour enrichir sa culture gastronomique."
 date: 2026-03-20
-tags: [cuisine des nouveaux immigrants, gastronomie d'Asie du Sud-Est, fusion culturelle, diversité alimentaire, culture des immigrants]
+tags:
+  [
+    cuisine des nouveaux immigrants,
+    gastronomie d'Asie du Sud-Est,
+    fusion culturelle,
+    diversité alimentaire,
+    culture des immigrants,
+  ]
 subcategory: 'Gastronomie des communautés ethniques'
 category: 'Food'
 author: 'Taiwan.md Translation Team'
@@ -10,6 +17,10 @@ readingTime: 10
 featured: true
 translatedFrom: 'Food/台灣新住民美食融合.md'
 lastVerified: 2026-03-20
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:bd8e4eaaa3e395c7'
+sourceBodyHash: 'sha256:6806ae061b784232'
+translatedAt: '2026-05-13T01:08:41Z'
 ---
 
 # La fusion culinaire des nouveaux immigrants à Taïwan

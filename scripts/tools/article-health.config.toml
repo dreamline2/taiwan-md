@@ -1,0 +1,125 @@
+# article-health.config.toml — SSOT 文章健檢工具的 declarative config.
+#
+# 設計提案：reports/article-health-ssot-design-2026-05-04.md
+# Canonical 寫作品質規則：docs/editorial/EDITORIAL.md
+#
+# Phases 1-7 shipped 2026-05-04. Initial 13 plugins; 18 plugins as of 2026-05-16:
+#   cjk-punct / cross-reference / footnote-density / footnote-format /
+#   footnote-url / format-structure / frontmatter-format /
+#   frontmatter-title / image-health / link-target / prose-health /
+#   terminology / wikilink-target / chronicle-lead / word-count /
+#   spore-writing / image-alt (NEW 2026-05-16) / seo-meta (NEW 2026-05-16)
+#
+# image-alt + seo-meta added 2026-05-16 215434-manual session — Phase 4-5 of
+# immune-score-redesign. P0 缺口 from TOOL-INVENTORY §🕳️. Both default WARN
+# (soft-launch for legacy heal): image-alt 抓 empty/generic/filename alt；
+# seo-meta 抓 frontmatter title/desc 長度 + brand-prefix + title-desc 重複
+# (canonical EDITORIAL §Description 四原則 120-160 字)。
+#
+# link-target added 2026-05-04 jovial-feistel session — Phase 1 (casing,
+# HARD, auto-fix) caught 649 `]( /lang/UpperCase/...)` broken-routing
+# violations across 209 files; Phase 2 (existence, WARN) cross-checks
+# every link target against `knowledge/{lang}/{Category}/*.md` filesystem.
+# Source-layer counterpart of post-build `verify-internal-links.sh`.
+
+[meta]
+version = 1
+canonical_doc = "docs/editorial/EDITORIAL.md"
+phase = "7-pre-commit-wired"
+
+# ── Per-check severity / options ─────────────────────────────────────────────
+# Plugin defaults are set in each module (DEFAULT_SEVERITY). Override here.
+# (No overrides currently — plugin defaults are appropriate.)
+
+# ── Stage profiles ───────────────────────────────────────────────────────────
+
+[profiles.pre-commit]
+# Pre-commit hook gate. HARD violations block; WARN reported but allowed.
+# 2026-05-11 admiring-cohen: 對齊 ci-deploy profile — 用 `*` 跑全部 13
+# plugins，避免「pre-commit 過、ci-deploy fail」這種 asymmetric ship
+# (root cause of 2026-05-11 CI emergency PR #1025 — 雜誌.md missing
+# featured + MTV包廂.md missing subcategory 兩個檔不在原 pre-commit
+# 7-check list 但在 ci-deploy * 範圍，contributor PR squash merge 不跑
+# pre-commit，maintainer 本地 heal commit 跑 pre-commit 也沒抓到)。
+#
+# 對稱原則：本地 commit 跟 main 自動 CI 該跑同一份 check set，避免
+# false-positive ship。WARN 仍 advisory（不擋），HARD 才擋 commit。
+#
+# 歷史 — pre-commit 原本 7 checks 是 legacy inline-check 對應，Phase
+# 1-10 一次升一個 plugin。現在所有 13 plugins 都穩定，pre-commit 對齊
+# ci-deploy 沒有額外風險（fail_on=hard 不變，只是擴大 scope）。
+checks = "*"
+fail_on = "hard"
+
+[profiles."rewrite-stage-3"]
+# REWRITE-PIPELINE Stage 3 (Verify): quality-scan ≤ 3 budget.
+checks = ["prose-health"]
+fail_on = "score-budget"
+
+[profiles."rewrite-stage-3-5"]
+# Stage 3.5 FactCheck — citation health.
+checks = ["footnote-format", "footnote-density"]
+fail_on = "hard"
+
+[profiles."rewrite-stage-4"]
+# Stage 4 Format.
+# chronicle-lead added 2026-05-09 brave-kirch (REWRITE v3.0 D Wave 1) —
+# new articles 跑 stage-4 profile 會 hard-fail；legacy soft-launch via WARN
+# default + 後續 follow-up heal commits 修 17 個既存 violation 後升 HARD default.
+# word-count added 2026-05-10 sad-shockley — depth threshold 4500 CJK chars，
+# 觸發：台灣無人機產業 EVOLVE 後仍 3273 字 = 虎頭蛇尾，觀察者 mandate 升 plugin gate.
+# Soft-launch: WARN default；rewrite-stage-4 升 HARD（new article must pass）。
+# image-health (count gate) added 2026-05-11 kind-mirzakhani — NMTH 文章 ship
+# 後哲宇 callout「為什麼圖片用那麼少」揭露 Step 4.3.1 三段敘事節奏沒儀器化進
+# article-health (DNA #15 第 N 次驗證)。min_images=3 對齊 depth article 理想
+# hero + 1-2 scene-mid，rewrite-stage-4 升 HARD。
+# Legacy heal 路徑：以下 sub-list 累積 audit 後分批 heal commit。
+checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct", "chronicle-lead", "word-count", "image-health"]
+fail_on = "hard"
+
+[profiles."rewrite-stage-4".severity_overrides]
+frontmatter-format = "hard"
+chronicle-lead = "hard"
+word-count = "hard"
+
+# Options overrides — 2026-05-11 kind-mirzakhani 修正既有 typo:
+# `check_options` → `options_overrides` (per config.py:127 ProfileConfig schema)。
+# 既存 word-count min_chars=4500 跟 plugin DEFAULT_MIN_CHARS 一致所以 typo 沒
+# 顯性暴露，但 image-health 新加的 min_images_severity=hard 必須 reach
+# 才能 promote 預設 WARN → HARD，所以一併修正命名。
+[profiles."rewrite-stage-4".options_overrides.word-count]
+min_chars = 4500
+
+[profiles."rewrite-stage-4".options_overrides.image-health]
+min_images = 3
+min_images_severity = "hard"
+zero_images_severity = "hard"
+
+[profiles."rewrite-stage-4-5"]
+# Stage 4.5 Media — 保留 ad-hoc 入口，便於只跑 image-health 單獨檢查
+# (rewrite-stage-4 已含 image-health 跟 count gate)。
+checks = ["image-health"]
+fail_on = "hard"
+
+[profiles."rewrite-stage-4-5".options_overrides.image-health]
+min_images = 3
+min_images_severity = "hard"
+zero_images_severity = "hard"
+
+[profiles.release-pr]
+# 全跑、嚴格 (both HARD and WARN trigger fail). 用於人工 release review。
+checks = "*"
+fail_on = "warn"
+
+[profiles.ci-deploy]
+# CI 自動部署 gate — 全跑、只擋 HARD violations。WARN 是 advisory（dashboard
+# + human review 看），不應擋 deploy。2026-05-04 加入：release-pr 對既存
+# 4,378 個 advisory WARN 無法在 CI 觸發點修完，需要分離 strict release
+# review (release-pr) 跟 deploy gate (ci-deploy) 兩個用途。
+checks = "*"
+fail_on = "hard"
+
+[profiles.dashboard]
+# 全跑、不擋、JSON output for site dashboards.
+checks = "*"
+fail_on = "never"

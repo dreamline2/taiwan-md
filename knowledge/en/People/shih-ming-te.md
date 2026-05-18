@@ -1,78 +1,121 @@
 ---
-title: 'Shih Ming-te'
-description: 'Leader of the Kaohsiung Incident and a democracy pioneer who spent 25 years in prison for Taiwan’s freedom'
+title: 'Shih Ming-te: Twenty-Five Years Behind Bars, He Finally Raised a Flag Against His Own Party'
+description: "After the 1979 Kaohsiung Incident, Shih Ming-te — charged as the mastermind — stood at his military tribunal and refused to plead guilty, refused to beg for mercy, and was sentenced to life imprisonment. He spent a cumulative twenty-five-plus years in prison, one of the most significant victims of Taiwan's democracy movement. But in 2006, the man who helped build the Democratic Progressive Party turned around and launched the anti-Chen Red Shirt Movement. On January 15, 2024 — his 83rd birthday — he died carrying that unresolved contradiction."
 date: 2026-03-19
+category: 'People'
 tags:
   [
-    'democracy',
+    'Democracy Movement',
     'Kaohsiung Incident',
-    'political prisoner',
+    'Political Prisoner',
     'Red Shirt Movement',
-    'political leadership',
+    'Political Leader',
   ]
-subcategory: 'Politics & Democracy'
-lastVerified: 2026-03-19
+subcategory: '政治與民主'
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-05-07
 translatedFrom: 'People/施明德.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:26dd4eef921bd1dc'
+sourceBodyHash: 'sha256:604f0360ebfc7d94'
+translatedAt: '2026-05-13T09:30:28+08:00'
+lastHumanReview: false
+readingTime: 9
 ---
 
-# Shih Ming-te: The Unyielding Face of Taiwan’s Democracy
+# Shih Ming-te: Twenty-Five Years Behind Bars, He Finally Raised a Flag Against His Own Party
 
-Few lives trace Taiwan’s journey from authoritarian rule to democracy as clearly as **Shih Ming-te (施明德)**. Born in Kaohsiung in 1941, Shih became a central figure of the island’s democracy movement. He spent a total of **25 years in prison** for his political activities—an almost unimaginable price that turned him into a living symbol of resistance.
+> **30-Second Overview:** Shih Ming-te was imprisoned twice, serving over twenty-five years in total. After the 1979 Kaohsiung Incident, he refused to plead guilty before his military tribunal, opened his mouth to request the death penalty, and was ultimately sentenced to life imprisonment. After his release, he helped build the Democratic Progressive Party and served as party chairman from 1994 to 1996. In 2006, he launched the Million People Anti-Bian Red Shirt Movement, raising his flag against the very direction he had once fought for. On January 15, 2024 — his birthday — he died of liver cancer at the age of 83.
 
-In Taiwan, Shih is remembered not only as a dissident but as a moral benchmark: a person who repeatedly chose principle over party, even when that meant going against old allies. To understand modern Taiwan, you need to understand the arc of his life.
+## The First Prison Door at Twenty-One
 
-## From Student Activist to Political Prisoner
+In 1962, Shih Ming-te was arrested for participating in political organizing activities and sentenced to life imprisonment.[^1] He was twenty-one years old. Taiwan was under the severe control of martial law, and the fate of political prisoners was determined by the ruler's will rather than any legal procedure.
 
-Shih’s first imprisonment came shockingly early. At 21, he was arrested for involvement with the **Taiwan Independence League (台灣獨立聯盟)** and sentenced to life in prison. This was the early 1960s—an era when the Kuomintang (KMT) state used martial law to silence dissent. Public conversation about democracy, identity, or self-determination was dangerous, and young activists were routinely jailed.
+He spent thirteen years in the prisons of Green Island and the Taiwan mainland. In 1975, following Chiang Kai-shek's death, the government announced a general amnesty, and Shih was released.[^2] He was thirty-four years old, half of his youth already spent behind bars.
 
-Yet Shih did not vanish into the system. In prison, he read extensively and developed a political philosophy grounded in human rights and democratic legitimacy. After 13 years behind bars, he was released in 1975 following a commutation tied to Chiang Kai-shek’s death.
+## The Last Summer of the Dangwai Movement
 
-## The Dangwai Movement and the Birth of Opposition Politics
+In the late 1970s, Taiwan's dangwai (outside-the-party) movement found a relatively open space for activity, propelled by international pressure and the domestic need for reform. Shih Ming-te became a core organizer of the dangwai movement, actively connecting reform-minded individuals across the island.
 
-Once free, Shih joined the **dangwai (黨外)** movement—literally “outside the party,” a broad coalition of opposition voices before formal opposition parties were legal. During the late 1970s, Taiwan’s political atmosphere loosened slightly under international pressure, and Shih emerged as a key organizer and strategist.
+In 1979, he participated in founding _Formosa_ magazine.[^3] This publication, rallying around democratic reform and human rights, rapidly became the spiritual headquarters of the dangwai movement, connecting across Taiwan dissidents who had never met one another. Looking back, that summer and autumn were charged with a pre-apocalyptic undercurrent.
 
-He helped create _Formosa Magazine (美麗島雜誌)_, an influential dissident publication that advocated democratic reform, human rights, and political accountability. Its tone was rational and civic, but its content challenged the core taboos of the era.
+## Kaohsiung, December 10, 1979
 
-## The Kaohsiung (Formosa) Incident: A Turning Point
+December 10, 1979. International Human Rights Day. _Formosa_ magazine held a human rights rally in Kaohsiung. Crowds gathered, tensions escalated, and it ultimately devolved into a fierce confrontation between riot police and demonstrators — recorded in history as the Kaohsiung Incident.[^3]
 
-On December 10, 1979—International Human Rights Day—_Formosa Magazine_ held a rally in Kaohsiung. The event escalated into clashes between citizens and police, later known as the **Kaohsiung Incident (美麗島事件)**. The government responded with mass arrests.
+After the incident, Shih Ming-te disguised himself and went into hiding for weeks, but was eventually caught.[^1] The KMT government launched mass arrests, prosecuting core _Formosa_ magazine members on charges of sedition. Shih was designated the mastermind.
 
-Shih, as a senior figure at the magazine, was charged with sedition and faced the death penalty in a military trial. He refused to plead guilty. His courtroom statements became legendary—clear, direct, and defiant—casting the proceedings as a moral battle for Taiwan’s future.
+## The Plea Written for History
 
-The Kaohsiung Incident is widely seen as a watershed moment that pushed Taiwan toward political liberalization. For many Taiwanese, Shih’s composure under extreme pressure became a demonstration of what democratic courage looks like.
+On March 28, 1980, Shih Ming-te stood before the military tribunal for his final statement.
 
-## A Second Long Imprisonment
+He had originally prepared a sixty-thousand-word "political testament" to read aloud in court. But just weeks earlier, Lin Yi-hsiung's family had been massacred at their home in Taipei — his mother and twin daughters killed, his wife severely wounded.[^4] Upon learning the news, Shih chose to abandon the sixty thousand words and simply said:
 
-Shih was sentenced to life in prison again and endured harsh conditions. He carried out hunger strikes to protest injustice. Yet he never renounced his beliefs. When Taiwan’s political climate shifted in the late 1980s, he was finally released in 1990, after serving a combined total of 25 years.
+**"Please sentence me to death! I request it! I request it!"**[^5]
 
-His personal sacrifices became part of the nation’s collective memory: democracy was not a gift but a hard-won outcome paid for by individuals who accepted suffering as the cost of freedom.
+That sixty-thousand-word statement was later published as a book, _Shih Ming-te's Political Testament_. In it he wrote: "I do not dare to hope for a just verdict from this worldly 'court,' but I believe without doubt: **one day, the court of history will vindicate me!**"[^5]
 
-## Building Party Politics, Then Challenging It
+The court's verdict: life imprisonment. Shih Ming-te received his second life sentence. In prison he staged hunger strikes to protest the unjust trial, and was force-fed over three thousand times.[^1] In 1990, as Taiwan's political environment evolved, he was released — both imprisonments combined to over twenty-five years.[^1]
 
-After his release, Shih entered formal politics. He was one of the founding figures of the **Democratic Progressive Party (DPP)** and later served as party chair. His leadership helped transform the DPP from a marginal opposition force into a serious contender in Taiwan’s electoral system.
+> 📝 **Editorial note**: Shih's "Please sentence me to death" sounds superficially like self-destruction, but in the courtroom context it was actually a refusal of the entire logic of the trial — he did not acknowledge that this court had any moral authority to "sentence" him anything. The person being judged looked down upon the court from a moral height. The Kaohsiung Incident became a pivotal turning point in Taiwan's democratic transition in no small part because of what happened in that courtroom.
 
-He ran for mayor of Taipei in 1994 and lost, but his candidacy signaled that former dissidents could compete in mainstream electoral politics. For Taiwan, this was a sign of normalization—movement leaders becoming institutional leaders.
+## Release, and the DPP's Founding Years
 
-Yet Shih’s sense of ethics often placed him in tension with party loyalty. In 2006, amid corruption scandals surrounding President **Chen Shui-bian (陳水扁)**, Shih launched the **Red Shirt Movement (紅衫軍)** calling for Chen’s resignation. This shocked many supporters who saw him as a DPP icon. Shih argued that democracy required accountability beyond partisan lines. The movement drew hundreds of thousands and became a vivid example of Taiwan’s maturing civil society.
+In 1986, while Shih was still imprisoned, the Democratic Progressive Party declared its founding — with the ban on political parties not yet lifted.[^6] After his release, he threw himself fully into building the party and served as DPP chairman from 1994 to 1996.[^6] His prestige came partly from his unimpeachable record of sacrifice, and partly from his rare fidelity to principle.
 
-## A Politics of Principle
+In 2000, Shih voluntarily left the DPP — not expelled, but his own choice to walk away.[^2]
 
-Shih’s life is often summarized by his insistence on moral integrity. He is remembered for prioritizing justice over political convenience, and for reminding Taiwanese society that democracy requires constant self-correction. His repeated willingness to speak against former allies made him controversial—but also underscored the idea that democratic credibility depends on transparency and restraint, not on tribal loyalty.
+## 2006: He Raised the Flag Against His Own Party
 
-## Writing in Prison: A Literary Legacy
+In 2006, a string of corruption scandals involving DPP President Chen Shui-bian broke into the open. Shih launched the "Million People Anti-Bian Movement" in his own name, dressed in red on Ketagalan Boulevard, demanding the president's resignation.[^7] The Red Shirt Movement sustained protest on Taipei's streets for over a month and drew hundreds of thousands of supporters.
 
-During his long imprisonments, Shih wrote extensively—poems, essays, and memoirs that recorded the inner life of a political prisoner. These writings are more than personal testimony; they are historical documents of authoritarian Taiwan.
+The common criticism was that he had tarnished his legacy and become a tool of the pan-blue camp. Koo Kuan-min publicly called him "**a disgrace to his final years.**"[^2]
 
-His memoirs, especially _The Memoirs of Shih Ming-te (施明德回憶錄)_, provide first-hand accounts of the democracy movement and remain key references for historians and readers seeking to understand Taiwan’s transition.
+There is a flaw in that criticism's logic: Shih's twenty-five years in prison were never in service of a party — they were in service of a principle: any political figure, regardless of party, who walks the path of corruption must be opposed. Once the DPP came to power and did things he found unacceptable, he opposed the DPP. The party changed positions; his logic did not.
 
-## Why Shih Ming-te Still Matters
+He once articulated Taiwan's sovereignty this way: "**Taiwan should be independent — and in fact has been independent for more than thirty years, under the name of the Republic of China.**"[^5] For him, this sovereignty did not belong to any party to defend, and did not need any party to speak for it.
 
-Shih stands as a bridge between eras: from authoritarian rule to open elections, from underground movements to constitutional politics. His story teaches a difficult truth: democratic institutions may be established by law, but democratic culture is sustained by individuals willing to bear consequences.
+## Later Years: That Logic Finally Held Up
 
-For international readers, Shih’s life offers a lens into Taiwan’s political evolution—how civil resistance, moral courage, and disciplined activism reshaped an island’s destiny. He embodies the civic ethics that underlie Taiwan’s global reputation as one of Asia’s most vibrant democracies.
+The Red Shirt Movement ended without Chen Shui-bian resigning. Shih endured years of sustained attack from DPP supporters; the labels "traitor" and "tool of the anti-independence forces" stuck to him for many years.
+
+The conventional view is that he tarnished his legacy and became a pawn of forces opposed to Taiwan independence. But subsequent events offer another reading — in 2009, Chen Shui-bian was convicted of corruption and actually sent to prison.[^2] The political judgment that accused the president of corruption and demanded his resignation was, in the end, confirmed at the judicial level. Shih's methods were criticized and his timing was questioned, but the core argument — "a corrupt ruler must be opposed, regardless of party" — received a strange verdict from time: his conclusion was not wrong, only his position was wrong.
+
+Thereafter Shih gradually faded from the mainstream media spotlight. His health deteriorated year by year, though he continued to accept interviews and speak on Taiwan's sovereignty and political direction, holding fast to that standard that had never moved with party winds.
+
+## January 15, 2024
+
+In the early hours of January 15, 2024, Shih Ming-te died of liver cancer at Taipei Veterans General Hospital at the age of 83.[^8] That day was also his birthday.
+
+Born January 15, 1941. Died January 15, 2024.
+
+In that statement written for history, he left these words: "Every era has its devoted contributors. The devoted always play tragic roles… **The narrow mountain paths that devoted contributors have crawled through will be trodden into broad highways by those who follow. The devoted do not belong to today, but they will live in tomorrow!**"[^5]
+
+In 1980, that thirty-nine-year-old man stood in the courtroom and said "Please sentence me to death." In 2024, whether those narrow paths have become broad highways, every Taiwanese person has their own answer. But he completed the journey — from birthday to birthday, a full eighty-three years.
+
+**Further reading:** [Kaohsiung Incident — Kaohsiung, 1979](https://zh.wikipedia.org/zh-tw/美麗島事件) | [Million People Anti-Bian Movement](https://zh.wikipedia.org/wiki/百萬人民倒扁運動) | [National Human Rights Museum: Kaohsiung Incident Military Trial Historical Materials](https://www.nhrm.gov.tw/w/nhrm/Publishing_23020115244906501)
 
 ## References
 
-- [The Memoirs of Shih Ming-te — Reading Times](https://www.readingtimes.com.tw/) — personal memoirs
-- [Kaohsiung Incident — National Human Rights Museum](https://www.nhrm.gov.tw/w/nhrm/home) — historical overview
-- [DPP Party History — Democratic Progressive Party](https://www.dpp.org.tw/about/history) — party development timeline
+[^1]: [CNA: Shih Ming-te spent over 25 years in political prison, hailed as Taiwan's Mandela (2024)](https://www.cna.com.tw/news/aipl/202401150025.aspx) — Complete biographical retrospective on Shih Ming-te, including his disguise escape, force-feeding over three thousand times in prison, and two life sentences — the authoritative CNA life summary report issued on the day of his death.
+
+[^2]: [CNA: Shih Ming-te passes away, DPP's historical assessment (2024)](https://www.cna.com.tw/news/aipl/202401150026.aspx) — Includes the historical context of Shih's 2000 voluntary departure from the party, Koo Kuan-min's "disgrace to his final years" criticism, and various assessments of his 2006 anti-Chen movement.
+
+[^3]: [Wikipedia: Kaohsiung Incident](https://zh.wikipedia.org/zh-tw/美麗島事件) — Complete account of the 1979 Kaohsiung Incident, including the founding background of _Formosa_ magazine, the December 10 rally clashes, and the subsequent mass arrests.
+
+[^4]: [Wikipedia: Lin Yi-hsiung](https://zh.wikipedia.org/zh-tw/林義雄) — Records the Lin family massacre of February 28, 1980 — a critical record of post-Kaohsiung Incident political terror that directly influenced Shih's courtroom stance.
+
+[^5]: [Vision Magazine: Shih Ming-te's passing — 44 years ago, his "political testament" from the Kaohsiung Incident military trial (2024)](https://www.gvm.com.tw/article/109271) — Records the original historical quotes from Shih Ming-te's 1980 military tribunal: "Please sentence me to death," "the court of history will vindicate me," and "the devoted do not belong to today."
+
+[^6]: [Wikipedia: Shih Ming-te](https://zh.wikipedia.org/zh-tw/施明德) — Complete biographical entry, including DPP founding background, chairmanship term (1994–1996), and political career overview.
+
+[^7]: [Wikipedia: Million People Anti-Bian Movement](https://zh.wikipedia.org/wiki/百萬人民倒扁運動) — Complete record of the 2006 Red Shirt Movement's organization, scale, and political impact.
+
+[^8]: [CNA: Shih Ming-te dies of liver cancer on his 83rd birthday (2024)](https://www.cna.com.tw/news/aipl/202401150010.aspx) — Official report on Shih Ming-te's death on January 15, 2024, confirming cause of death (liver cancer) and age (83) — CNA first-hand report issued on the day of his passing.
+
+[^9]: [CommonWealth Magazine: Shih Ming-te, champion of Taiwan's democratization, passes away (2024)](https://www.cw.com.tw/article/5128979) — In-depth retrospective on Shih's contributions to the democracy movement, including analysis of his complex historical standing and the anti-Chen controversy.
+
+[^10]: [Readr: 1994 Taipei mayoral election data](https://whoareyou.readr.tw/election?area=%E8%87%BA%E5%8C%97%E5%B8%82&type=%E7%B8%A3%E5%B8%82%E9%A6%96%E9%95%B7&year=1994) — 1994 Taipei mayoral election candidate data (Chen Shui-bian 43.67%, Jaw Shau-kong 30.17%, Huang Da-chou 25.89%), confirming that Shih did not participate in that year's mayoral race — at the time he held the position of DPP chairman.
+
+[^11]: [Wikipedia (EN): Shih Ming-teh](https://en.wikipedia.org/wiki/Shih_Ming-teh) — English Wikipedia entry covering Shih's imprisonment history, DPP chairmanship, and international recognition as "Taiwan's Mandela," providing cross-language verification of key biographical facts.

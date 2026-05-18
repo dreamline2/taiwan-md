@@ -1,110 +1,107 @@
 ---
-title: "Taiwan's Hakka Music: From Mountain Songs to Modern Rock"
-description: "A cultural translation of Hakka (客家) music in Taiwan-from shan'ge mountain songs and Hakka bayin ensembles to Lin Sheng-xiang and Labor Exchange Band, and the Golden Melody Awards' Hakka category."
+title: "Taiwanese Hakka Music: From Mountain Songs to Lin Sheng-xiang's Award Refusal and the Politics of Language"
+description: 'Hakka mountain songs originated in laboring life, while Hakka eight-tone ensembles accompanied weddings and funerals. In 1999, the Labor Exchange Band won the Golden Melody Awards for Best Composer and Best Producer with *We Are Here to Sing Mountain Songs*, ushering in the era of Hakka rock. The 14th Golden Melody Awards in 2003 established the Best Hakka Vocalist category; in 2004, Hsieh Yu-wei became its first recipient. In 2007, Lin Sheng-xiang won with *Planting Trees* but refused the award on stage, calling for classification by musical genre rather than language — igniting a debate over the existence of language-based categories that led, three years later, to the creation of the Golden Indie Music Awards. Hakka TV launched in 2003, steadily expanding the visibility of Hakka-language music. The threat of language loss persists, but the tension between preservation and innovation continues to drive Hakka musicians forward.'
 date: 2026-03-19
-tags:
-  [
-    'Hakka music',
-    'mountain songs',
-    'Hakka bayin',
-    'Lin Sheng-xiang',
-    'Labor Exchange Band',
-    'Hakka language',
-    'Golden Melody Awards',
-  ]
-author: 'Taiwan.md'
-readingTime: 13
-featured: true
+author: 'Taiwan.md Contributors'
 category: 'Music'
-lastVerified: 2026-03-19
+subcategory: '傳統音樂'
+tags:
+  ['客家音樂', '山歌', '客家八音', '林生祥', '交工樂隊', '客語歌曲', '金曲獎']
+readingTime: 10
+lastVerified: 2026-05-13
+lastHumanReview: false
+featured: false
 translatedFrom: 'Music/台灣客家音樂.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:22e97f9490662932'
+sourceBodyHash: 'sha256:9927771d5f6f1634'
+translatedAt: '2026-05-15T14:23:13+08:00'
 ---
 
-# Taiwan's Hakka Music: From Mountain Songs to Modern Rock
+# Taiwanese Hakka Music: From Mountain Songs to Lin Sheng-xiang's Award Refusal and the Politics of Language
 
 ## 30-Second Overview
 
-Hakka music in Taiwan carries a deep cultural memory. It begins with **shan'ge** (山歌, mountain songs) sung in fields and tea plantations, and with **Hakka bayin** (客家八音), lively ensembles performed at weddings and rituals. In the late 20th century, musicians such as **Lin Sheng-xiang (林生祥)** and the **Labor Exchange Band (交工樂隊)** reframed Hakka music through rock, folk, and social-movement storytelling. The **Golden Melody Awards' Hakka category** gave this tradition a national platform. Today Hakka music is both preservation and reinvention-language kept alive through contemporary sound.
+Hakka mountain songs and eight-tone music are the oldest musical traditions of Taiwan's Hakka community. In 1999, the Labor Exchange Band plugged the spirit of Hakka mountain songs into electric guitars and rock arrangements. In 2003, the 14th Golden Melody Awards established language-specific categories for the first time, and in 2004 Hsieh Yu-wei became the inaugural Best Hakka Vocalist. In 2007, Lin Sheng-xiang took the Golden Melody stage, won Best Hakka Singer with _Planting Trees_, and refused the award — calling for music to be classified by genre, not language. That refusal became the most powerful statement at the intersection of Taiwan's language policy and its music culture.[^1]
 
-**Keywords:** Hakka shan'ge, Hakka bayin, mother-tongue music, cultural continuity, Taiwan diversity
+## Traditional Roots: Mountain Songs and Hakka Eight-Tone Music
 
-## Why It Matters
+### Mountain Songs: Poetic Expression Born from Labor
 
-Hakka music is a living archive of Taiwan's plural identity. It proves that a minority language can survive not only in classrooms and policy documents, but in the emotional space of songs people sing. Hakka musicians have kept cultural memory intact while expanding its relevance-turning traditional melodies into contemporary narratives about land, migration, labor, and dignity.
+Hakka mountain songs are the oldest form of Hakka music in Taiwan, originating in the agricultural life of early Hakka settlers. Whether picking tea, working the fields, or going about daily routines, Hakka people habitually conveyed emotion through song. The defining feature of mountain songs is improvisation: lyrics reflect the moment, and the melodies are simple yet compelling.
 
-## Traditional Roots: Shan'ge and Hakka Bayin
+Traditional mountain songs fall into three categories: _lao shan'ge_ (old mountain songs), _shan'ge zai_ (mountain song tunes), and _kejia xiaodiao_ (Hakka ditties). _Lao shan'ge_ has a free rhythm and wide melodic range, suited to deep emotional expression; _shan'ge zai_ has a regular meter and is easy to learn and pass on; _kejia xiaodiao_ absorbs the cultural variations of different Hakka settlements.
 
-### Shan'ge (山歌): Work, Rhythm, and Poetic Improvisation
+### Hakka Eight-Tone Music: The Instrumental Tradition of Celebrations
 
-**Shan'ge** are Hakka mountain songs-improvised melodies sung during farming and tea-picking. They are a functional music: keeping rhythm, easing labor, and sharing emotion. The lyrics are often improvised; what matters is the singer's voice, the curve of the melody, and the quick wit of the reply. In Hakka villages, these songs were a social practice, not a stage performance.
+Hakka eight-tone music is the instrumental tradition performed at Hakka weddings, funerals, and festive occasions, centered on the _suona_ (double-reed horn) with accompaniment from gongs, drums, and strings.[^2] The term "eight tones" (_ba yin_) borrows the eight-material classification concept from the _Rites of Zhou_, but in practice Hakka eight-tone music is built around the _suona_ leading and percussion keeping time — not around eight materials being present.
 
-Different forms of shan'ge include:
+Eight-tone troupes are important cultural organizations within Hakka communities, with skills typically passed down through oral instruction from master to apprentice. Traditional pieces include _Da Kai Men_ (Grand Opening), _Xiao Kai Men_ (Small Opening), and _Feng Ru Song_ (Wind Through the Pines), each with a specific occasion and symbolic meaning.
 
-- **Old shan'ge (老山歌):** freer rhythm, wider melodic leaps, suited for long, expressive lines.
-- **Shangezi (山歌仔):** more regular rhythm, easy to sing collectively.
-- **Hakka minor tunes (客家小調):** localized variants reflecting each community's character.
+## Modern Transformation: The Breakthrough of the Labor Exchange Band
 
-In cultural terms, shan'ge are oral literature. They encode humor, courtship, daily frustrations, and landscape memory.
+### Lin Sheng-xiang: A Modern Practitioner of Hakka Music
 
-### Hakka Bayin (客家八音): Ritual Soundscapes
+Lin Sheng-xiang was born in Meinong, Kaohsiung. In the early 1990s, he co-founded "Guanzi Music Pit" with Chung Yung-feng and others, beginning to explore the modern possibilities of Hakka music. His signature approach fuses the spirit of Hakka mountain songs with rock arrangements: electric guitar, bass, and drums carry the modern sound, while the melodies and vocal style retain a distinctly Hakka flavor.
 
-**Bayin**, literally "eight sounds," refers to the traditional Chinese classification of instruments by material-metal, stone, silk, bamboo, gourd, clay, leather, and wood. In Hakka communities, bayin ensembles play at life-cycle rituals: weddings, funerals, temple events, and important celebrations.
+### The Labor Exchange Band: Music as Social Movement (1999–2003)
 
-The sound is bright and layered-gongs, drums, suona (嗩吶), erhu, and flutes weaving together. Bayin is not background music; it is a ritual marker, announcing that something significant is happening. The repertoire includes pieces such as **"Dà Kāi Mén" (大開門)** and **"Xiǎo Kāi Mén" (小開門)**, each carrying symbolic meaning in the ceremony.
+In 1999, Lin Sheng-xiang, Chung Yung-fung, Chung Cheng-ta, Kuo Chin-tsai, and others formed the "Labor Exchange Band" — the name drawn from the Hakka phrase meaning "working together." The band focused on environmental issues, rural problems, and marginalized communities, using music to speak for society.
 
-## Modern Transformation: New Hakka Music
+Their album _We Are Here to Sing Mountain Songs_ (1999) won **Best Composer** and **Best Producer** at the 11th Golden Melody Awards in 2000.[^3] The sound blended Hakka mountain songs, Taiwanese folk music, and rock elements, and live performances often moved audiences who understood not a word of Hakka.
 
-### Lin Sheng-xiang (林生祥): The Poet of Hakka Modernity
+After the band dissolved in 2003, Lin Sheng-xiang formed "Sheng-xiang & Band," continuing to experiment with jazz, blues, and world music while always keeping Hakka culture at the core. Key works: _Wilderness_, _Book of the Earth_, _My Village_.
 
-Born in Meinong (美濃), Lin Sheng-xiang grew up immersed in Hakka culture. In the 1990s he co-founded **Guānzǐ Music Pit (觀子音樂坑)**, exploring how Hakka melody could speak in a contemporary musical language. His signature move was to keep Hakka vocal phrasing and storytelling, while placing them over electric guitar, bass, and drums.
+## The Golden Melody Hakka Categories: Establishment, Controversy, and Transformation
 
-Songs like **"Chrysanthemum Night March (菊花夜行軍)"** and **"Planting Trees (種樹)"** blend poetic lyrics with social observation. Lin's music is political but not polemical; it is rooted in the land, and it moves listeners even when they do not understand Hakka. This is cultural translation through emotion.
+### The 14th Awards (2003): Hakka Categories Established
 
-### Labor Exchange Band (交工樂隊): Music as Social Action
+The 14th Golden Melody Awards in 2003 were the first to subdivide performance categories by language, creating the "Best Hakka Vocalist" award (alongside categories for Taiwanese and Indigenous languages), distinct from the previous "Best Dialect Vocalist" concept.[^4] Starting with the 18th Awards in 2007, the category was renamed "Best Hakka Singer."
 
-Formed in 1999 by Lin Sheng-xiang, Zhong Yong-feng (鍾永豐), and others, **Labor Exchange Band** takes its name from the Hakka phrase for "working together." It pairs Hakka shan'ge aesthetics with rock and folk arrangements. The band became a voice for environmental movements, rural issues, and labor rights.
+At the 15th Awards in 2004, Hsieh Yu-wei won the inaugural Best Hakka Vocalist with the album _Yi Chai, Hua Shu Xia_ (_A Companion, Under the Flowering Tree_), marking a key moment for Hakka pop music entering the mainstream.[^5]
 
-Their album **"We'll Sing Mountain Songs" (我等就來唱山歌)** won the Golden Melody Award for Best Band, proving that minority-language music could resonate across Taiwan's mainstream audience.
+### 2007: Lin Sheng-xiang Refuses the Award — The Most Powerful Policy Statement
 
-### 生祥樂隊: Continuing the Experiment
+At the 18th Golden Melody Awards in 2007, Lin Sheng-xiang won both "Best Hakka Singer" and "Best Hakka Album" with _Planting Trees_. On stage, he refused both trophies, donated the prize money, and declared publicly: **music should be classified by genre; classifying by language puts the cart before the horse.** He pressed the question: "Why can Best Producer cross language boundaries, but albums cannot?"[^[6]
 
-After Labor Exchange Band dissolved, Lin formed **Sheng-xiang Band (生祥樂隊)**, adding jazz, blues, and world-music textures. Albums like **Wild (野生)** and **Earth Library (大地書房)** show a mature phase: slower, more contemplative, still rooted in Hakka language, but now expanding toward global sonic palettes.
+This incident ignited a public debate over the Golden Melody Awards' language-based classification system and directly led to the Ministry of Culture establishing the **Golden Indie Music Awards** in 2010, which replaced language categories with genre-based ones — rock, folk, hip-hop, electronic, jazz, and others. In 2017, the Golden Melody Awards added a language-neutral Album of the Year category, which can be seen as a partial response to Lin Sheng-xiang's original statement.
 
-## The Golden Melody Awards and Cultural Legitimacy
+### Lo Shih-jung: Hakka Music Through a Female Lens
 
-In 2007, Taiwan's **Golden Melody Awards** created the **Best Hakka Album** category. This was more than a trophy; it was state-level recognition that Hakka music is a core part of Taiwan's cultural heritage. It also created incentives for younger musicians to produce Hakka-language albums with professional production values.
+Lo Shih-jung brings a different color to Hakka music with her gentle, nuanced voice and poetic lyrics. Her representative work _Lan Hua Qu_ (_Gathering Flowers_), which won Best Hakka Singer and Best Hakka Album at the 23rd Golden Melody Awards, portrays the lived experiences of Hakka women from a female perspective, filling a gap where women's voices had been relatively scarce in Hakka music.[^7]
 
-Winners have ranged from traditional-leaning folk to experimental rock and pop. The diversity suggests that Hakka music is not a single genre but a cultural language that can adapt to many styles.
+### Hsieh Yu-wei: A Pioneer of Hakka Pop Music
 
-## Other Key Artists
+Hsieh Yu-wei is a singer, actor, songwriter, producer, and painter who has promoted Hakka-language music for decades. In 1992, he won the National Music Composition Competition with _Wen Bu Ge_ (_Divination Song_), the first time Hakka pop music received a national award; in 2004, he became the inaugural Best Hakka Vocalist.[^5]
 
-- **Huang Lien-yu (黃連煜):** A committed Hakka songwriter who re-arranged traditional shan'ge and wrote modern Hakka songs, bridging past and present.
-- **Lo Szu-yung (羅思容):** Known for her gentle voice and lyrical depth. Her award-winning album **"Dawn (天光)"** tells stories of family, land, and memory from a woman's perspective-a crucial voice in a tradition long dominated by male narratives.
-- **Younger generations:** New Hakka artists are emerging with indie, electronic, and pop influences. Their bilingual or multilingual work keeps Hakka relevant in a globalized soundscape.
+## Infrastructure of Dissemination: Hakka TV and the Hakka Affairs Council
 
-## Challenges: Language Loss vs. Musical Renewal
+In 2001, the Executive Yuan established the Hakka Affairs Council, the Taiwanese government's dedicated agency for Hakka community affairs. In 2003, **Hakka TV** launched, becoming the world's first 24-hour television channel broadcasting entirely in Hakka, dramatically expanding the reach and audience base for Hakka-language music.[^8]
 
-The greatest challenge is language shift. Many Hakka descendants no longer speak Hakka fluently. When a language recedes, music can become a museum artifact-performed but not lived. Successful Hakka musicians therefore act as both artists and language activists: they write catchy songs, but also make the language feel alive and contemporary.
+### Lien Chüan-yu: Another Path of Traditional Creation
 
-At the same time, innovation carries risk. If music abandons its Hakka identity entirely, it becomes generic. The strongest works find a balance: traditional melody or poetic imagery wrapped in modern production.
+Lien Chüan-yu is another pivotal figure in Hakka music. His representative work _Shan Ge Yi Tiao Lu_ (_A Road of Mountain Songs_) rearranges traditional mountain songs with modern instruments, preserving their traditional flavor while adding a contemporary sensibility. His deep understanding of Hakka culture makes him not only a creator but also a long-standing promoter of Hakka heritage.
 
-## Digital Opportunities
+## Contemporary Challenges and Opportunities
 
-Streaming platforms and social media allow niche-language music to reach global listeners. A Hakka song can be subtitled, remixed, or introduced in diaspora communities. In this sense, the digital era may be the strongest ally Hakka music has ever had.
+The core challenge facing Hakka music is the ongoing decline in Hakka speakers: urbanization and the spread of Mandarin-language education mean that many younger-generation Hakka people can no longer speak the language fluently, let alone create in it. This structural problem of language loss is the inescapable backdrop for all Hakka-language music.
 
-## Conclusion
-
-Hakka music in Taiwan is not just a preservation project. It is a living art form that negotiates between memory and modernity. From mountain songs sung in fields to the electric pulse of rock bands, the Hakka soundscape shows how a community can survive through creativity. It tells Taiwan's larger story: a country, many voices, and a shared insistence on cultural dignity.
+The digital age, on the other hand, brings new opportunities: streaming platforms allow Hakka music to reach international listeners, lower the barriers to creation, and enable a new generation of Hakka musicians — such as Misa and Chiu Hsin-yi — to build devoted followings online.
 
 ## References
 
-- 鍾永豐、林生祥：《菊花夜行軍》專輯文案及相關訪談
-- 范揚坤：《台灣客家音樂文化研究》，新竹：客家委員會出版
-- 客家委員會：《客家音樂發展史料彙編》
-- 金曲獎客語專輯得獎名單：https://gma.tavis.tw/
-- 交工樂隊官方資料及演出記錄
-- 林生祥官方網站：https://linshenxiang.com/
-- 客家音樂文化協會資料庫
-- 《客家雜誌》歷年客家音樂專題報導
-- 國立傳統藝術中心：客家八音傳習資料
-- 客家電視台音樂節目資料庫：https://www.hakkatv.org.tw/
+[^1]: [Music Without Borders — Lin Sheng-xiang: The Last Award I Want Is the Hakka One | Coolloud](https://www.coolloud.org.tw/node/3817) — Confirms Lin Sheng-xiang's motivations and statement for refusing the award.
+
+[^2]: [National Center for Traditional Arts: Hakka Eight-Tone Teaching Materials](https://www.ncfta.gov.tw/) — Explains the _suona_-centered practice of Hakka eight-tone music.
+
+[^3]: [Bureau of Audiovisual and Music Industry Development, Ministry of Culture: Past Winners and Nominees](https://www.bamid.gov.tw/information_176_64106.html) — Confirms _We Are Here to Sing Mountain Songs_ won Best Composer and Best Producer at the 11th Golden Melody Awards (not Best Band).
+
+[^4]: [14th Golden Melody Awards — Wikipedia](https://zh.wikipedia.org/wiki/第14屆金曲獎) — Confirms the 14th Awards (2003) established Best Hakka Vocalist; renamed Best Hakka Singer at the 18th Awards (2007).
+
+[^5]: [Hsieh Yu-wei — Wikipedia](https://zh.wikipedia.org/zh-tw/謝宇威) — Confirms Hsieh Yu-wei as the 15th Golden Melody Awards (2004) Best Hakka Vocalist winner; representative album _Yi Chai, Hua Shu Xia_.
+
+[^6]: [Golden Melody 18, Take 1… Lin Sheng-xiang Drops a Bombshell, Refuses Award with Folded Hands | Liberty Times Entertainment](https://ent.ltn.com.tw/news/paper/136087) — Details of Lin Sheng-xiang's refusal at the 18th Golden Melody Awards (2007) and the recipient of the donated prize money.
+
+[^7]: [Best Hakka Album (Golden Melody Awards) — Wikipedia](<https://zh.wikipedia.org/zh-tw/最佳客語專輯獎_(金曲獎)>) — Confirms Lo Shih-jung's _Lan Hua Qu_ won Best Hakka Singer and Best Hakka Album at the 23rd Golden Melody Awards.
+
+[^8]: [Hakka TV Official Website](https://www.hakkatv.org.tw/) — Confirms 2003 launch as the world's first 24-hour Hakka-language television channel.

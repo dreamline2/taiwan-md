@@ -2,12 +2,19 @@
 title: 'Annette Lu Hsiu-lien'
 description: 'From political prisoner to vice president: The first female vice president in the Chinese-speaking world'
 date: 2026-03-22
-tags: [person, politician, feminism, vice president, Kaohsiung Incident]
+tags:
+  ['person', 'politician', 'feminism', 'vice president', 'Kaohsiung Incident']
 subcategory: 'Politics & Democracy'
-category: 'people'
+category: 'People'
+author: 'Taiwan.md'
+featured: false
 lastVerified: 2026-03-22
 lastHumanReview: false
 translatedFrom: 'People/呂秀蓮.md'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:4f2e975be9df55bf'
+sourceBodyHash: 'sha256:e2af78942d7ac0ac'
+translatedAt: '2026-05-13T01:07:52Z'
 ---
 
 > **30-second overview:** In 1979, Annette Lu was sentenced to 12 years in prison for the Kaohsiung Incident;

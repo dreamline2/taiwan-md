@@ -1,67 +1,79 @@
 {
-  "total_zh": 444,
-  "total_en": 489,
-  "coverage_en": 110.1,
+  "total_zh": 3580,
+  "total_en": 727,
+  "coverage_en": 20.3,
   "categories": {
-    "People": {
-      "zh": 112,
-      "en": 123
-    },
-    "Economy": {
-      "zh": 47,
-      "en": 52
-    },
-    "Food": {
-      "zh": 30,
-      "en": 39
-    },
-    "History": {
-      "zh": 21,
-      "en": 20
-    },
-    "Technology": {
-      "zh": 22,
-      "en": 24
-    },
-    "Culture": {
-      "zh": 33,
-      "en": 40
-    },
-    "Nature": {
-      "zh": 24,
-      "en": 26
-    },
-    "Society": {
-      "zh": 25,
-      "en": 26
-    },
-    "Lifestyle": {
-      "zh": 17,
-      "en": 22
-    },
-    "Geography": {
-      "zh": 18,
-      "en": 25
+    "fr": {
+      "zh": 726,
+      "en": 0
     },
     "es": {
-      "zh": 34,
+      "zh": 706,
       "en": 0
-    },
-    "Music": {
-      "zh": 20,
-      "en": 22
     },
     "ja": {
-      "zh": 7,
+      "zh": 715,
       "en": 0
     },
+    "ko": {
+      "zh": 710,
+      "en": 0
+    },
+    "Lifestyle": {
+      "zh": 28,
+      "en": 30
+    },
+    "Society": {
+      "zh": 73,
+      "en": 74
+    },
+    "Geography": {
+      "zh": 42,
+      "en": 25
+    },
     "Art": {
-      "zh": 26,
-      "en": 58
+      "zh": 33,
+      "en": 39
+    },
+    "People": {
+      "zh": 219,
+      "en": 222
+    },
+    "Food": {
+      "zh": 52,
+      "en": 55
+    },
+    "Culture": {
+      "zh": 60,
+      "en": 63
+    },
+    "History": {
+      "zh": 41,
+      "en": 41
+    },
+    "Economy": {
+      "zh": 51,
+      "en": 54
+    },
+    "Music": {
+      "zh": 31,
+      "en": 32
     },
     "About": {
       "zh": 6,
       "en": 6
+    },
+    "Nature": {
+      "zh": 37,
+      "en": 38
+    },
+    "Technology": {
+      "zh": 46,
+      "en": 44
+    },
+    "zh-TW": {
+      "zh": 2,
+      "en": 0
     },
     "resources": {
       "zh": 2,
@@ -69,8 +81,8 @@
     },
     "root": {
       "zh": 0,
-      "en": 4
+      "en": 2
     }
   },
-  "updated": "2026-03-25"
+  "updated": "2026-05-18"
 }

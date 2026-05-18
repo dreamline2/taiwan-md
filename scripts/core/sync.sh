@@ -1,224 +1,165 @@
-#!/bin/bash
-# Taiwan.md 統一同步腳本
-# 功能：knowledge/ SSOT → src/content/ + frontmatter 修復
-# 用法：bash scripts/sync.sh
+#!/usr/bin/env bash
+# Taiwan.md 統一同步腳本：knowledge/ SSOT → src/content/ 投影層
+#
+# 設計：
+#   - SSOT: enabled lang codes from src/config/languages.mjs
+#   - zh-TW (default): knowledge/{Category}/ → src/content/zh-TW/{category}/
+#   - 其他 lang:       knowledge/{lang}/{Category}/ → src/content/{lang}/{category}/
+#   - Resources:       knowledge/resources/ (zh-TW) + knowledge/{lang}/resources/ → src/content/{lang}/resources/
+#   - Root files:      knowledge/{lang}/*.md (root level) → src/content/{lang}/*.md
+#   - 冪等：先 rm -rf 所有 enabled lang dirs 再重建
+#
+# 用法：bash scripts/core/sync.sh
+#
+# 2026-05-12 admiring-montalcini-post-finale refactor:
+#   - 從 217 行 5x repeat → 模組化 sync_lang() function
+#   - 修補既有 bug:
+#     (a) fr/es 加進 rm list（清 336 zombie articles）
+#     (b) 各 lang 都跑 resources/ 同步（原本只跑 zh-TW + en）
+#     (c) 各 lang 的 root-level .md 也搬（原本只搬 zh-TW _Home.md，
+#         knowledge/en/{root.md} 等被略過 → 8 silent missing 根因）
+#   - SSOT 驅動：active lang list 從 src/config/languages.mjs 讀取
+#
+# 對應：reports/sync-architecture-evolution-2026-05-12.md v2.0 Ship 1
 
-set -e  # 遇到錯誤立即退出
+set -euo pipefail
 
-echo "🚀 Taiwan.md 統一同步開始..."
-echo "================================================="
+# ────────────────── 設定 ──────────────────
+readonly REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+cd "$REPO_ROOT"
 
-# 1. 從 knowledge/ SSOT 同步到 src/content/ 投影層
+# Categories（跟 knowledge/ 目錄結構對齊；新增分類時這裡 + knowledge/ 一起加）
+readonly CATEGORIES=(
+  About Art Culture Economy Food Geography History
+  Lifestyle Music Nature People Society Technology
+)
+
+# Enabled lang codes 從 SSOT 讀取
+ENABLED_LANGS=$(node -e "
+  import('./src/config/languages.mjs')
+    .then(m => console.log(m.ENABLED_LANGUAGE_CODES.join(' ')))
+    .catch(e => { console.error(e.message); process.exit(1); });
+" 2>&1) || {
+  echo "❌ 無法從 src/config/languages.mjs 讀取 ENABLED_LANGUAGE_CODES" >&2
+  echo "   錯誤：$ENABLED_LANGS" >&2
+  exit 2
+}
+
+if [ -z "$ENABLED_LANGS" ]; then
+  echo "❌ ENABLED_LANGUAGE_CODES 為空" >&2
+  exit 2
+fi
+
+# ────────────────── Header ──────────────────
+echo "🚀 Taiwan.md sync — knowledge/ SSOT → src/content/ 投影層"
+echo "═══════════════════════════════════════════════════════"
+echo "  Enabled langs: $ENABLED_LANGS"
 echo ""
-echo "🔄 步驟 1/2: 同步 knowledge/ → src/content/..."
 
-# 冪等同步：先清空再重建，確保 src/content/ 是 knowledge/ 的純淨投影
-# 這防止改名/刪除的檔案殘留為「幽靈細胞」
-echo "🧹 清空 src/content/ 投影層（冪等重建）..."
-if [ -d "src/content" ]; then
-  rm -rf src/content/zh-TW src/content/en src/content/ja src/content/ko
-fi
-
-# 建立目錄結構
-echo "📁 建立目錄結構..."
-mkdir -p src/content/zh-TW/{about,art,culture,economy,food,geography,history,lifestyle,music,nature,people,society,technology,resources}
-mkdir -p src/content/en/{about,art,culture,economy,food,geography,history,lifestyle,music,nature,people,society,technology,resources}
-mkdir -p src/content/ja/{about,art,culture,economy,food,geography,history,lifestyle,music,nature,people,society,technology,resources}
-mkdir -p src/content/ko/{about,art,culture,economy,food,geography,history,lifestyle,music,nature,people,society,technology,resources}
-
-# 統計初始檔案數
-KNOWLEDGE_COUNT=$(find knowledge/ -name "*.md" | wc -l)
-
-echo "📊 knowledge/ 總檔案數: $KNOWLEDGE_COUNT"
-
-# 同步根目錄檔案
-echo "📄 同步根目錄檔案..."
-if [ -f "knowledge/_Home.md" ]; then
-    cp "knowledge/_Home.md" "src/content/zh-TW/_Home.md"
-    echo "  ✅ _Home.md"
-fi
-
-# 同步中文分類目錄
-echo "🇹🇼 同步中文分類目錄..."
-SYNCED_COUNT=0
-for category in About Art Culture Economy Food Geography History Lifestyle Music Nature People Society Technology; do
-  if [ -d "knowledge/$category" ]; then
-    lowercase_category=$(echo $category | tr '[:upper:]' '[:lower:]')
-    for file in knowledge/$category/*.md; do
-      if [ -f "$file" ]; then
-        filename=$(basename "$file")
-        target_file="src/content/zh-TW/$lowercase_category/$filename"
-        
-        # 總是覆蓋以保持同步（SSOT 為準）
-        cp "$file" "$target_file"
-        echo "  ✅ $category/$filename"
-        ((SYNCED_COUNT++))
-      fi
-    done
+# ────────────────── Phase 1: 清空 ──────────────────
+echo "🧹 Phase 1: 清空 src/content/{lang}/ (冪等重建)..."
+for lang in $ENABLED_LANGS; do
+  if [ -d "src/content/$lang" ]; then
+    rm -rf "src/content/$lang"
   fi
 done
+echo "  ✅ Cleaned: $ENABLED_LANGS"
+echo ""
 
-# 同步 resources 目錄（避免重複）
-echo "📚 同步 resources 目錄..."
-for resource_dir in "knowledge/resources" "knowledge/zh-TW/resources"; do
-  if [ -d "$resource_dir" ]; then
-    for file in $resource_dir/*.md; do
-      if [ -f "$file" ]; then
-        filename=$(basename "$file")
-        target_file="src/content/zh-TW/resources/$filename"
-        cp "$file" "$target_file"
-        echo "  ✅ resources/$filename"
-        ((SYNCED_COUNT++))
-      fi
+# ────────────────── Phase 2: 同步 sync_lang() ──────────────────
+KNOWLEDGE_COUNT=$(find knowledge/ -name "*.md" | wc -l | tr -d ' ')
+SYNCED_TOTAL=0
+
+# sync_lang LANG_CODE — 把 knowledge/{lang}/ (或 zh-TW 的 knowledge/ root) 同步到 src/content/{lang}/
+sync_lang() {
+  local lang="$1"
+  local src_root dst_root count=0
+
+  # zh-TW 特例：source 在 knowledge/ root（不在 knowledge/zh-TW/）
+  if [ "$lang" = "zh-TW" ]; then
+    src_root="knowledge"
+  else
+    src_root="knowledge/$lang"
+  fi
+  dst_root="src/content/$lang"
+
+  if [ ! -d "$src_root" ]; then
+    echo "  ⚠️  $lang: SKIP (no $src_root/)"
+    return
+  fi
+
+  # 2a. Category subdirs (knowledge/{Cat}/*.md → src/content/{lang}/{cat}/*.md)
+  for category in "${CATEGORIES[@]}"; do
+    local src_dir="$src_root/$category"
+    [ ! -d "$src_dir" ] && continue
+
+    local cat_lower
+    cat_lower=$(echo "$category" | tr '[:upper:]' '[:lower:]')
+    local dst_dir="$dst_root/$cat_lower"
+    mkdir -p "$dst_dir"
+
+    for file in "$src_dir"/*.md; do
+      [ ! -f "$file" ] && continue
+      cp "$file" "$dst_dir/$(basename "$file")"
+      count=$((count + 1))
+    done
+  done
+
+  # 2b. resources/ subdir (各 lang 都有，原本 bug：只跑 zh-TW + en)
+  if [ -d "$src_root/resources" ]; then
+    mkdir -p "$dst_root/resources"
+    for file in "$src_root/resources"/*.md; do
+      [ ! -f "$file" ] && continue
+      cp "$file" "$dst_root/resources/$(basename "$file")"
+      count=$((count + 1))
     done
   fi
+
+  # 2c. Root-level .md files (knowledge/{lang}/*.md → src/content/{lang}/*.md)
+  # 原本 bug：只搬 knowledge/_Home.md，其他 lang root 的 .md 被略過 → silent missing
+  for file in "$src_root"/*.md; do
+    [ ! -f "$file" ] && continue
+    cp "$file" "$dst_root/$(basename "$file")"
+    count=$((count + 1))
+  done
+
+  SYNCED_TOTAL=$((SYNCED_TOTAL + count))
+  printf "  ✅ %-6s %4d files\n" "$lang" "$count"
+}
+
+echo "📁 Phase 2: 同步 (per lang)..."
+for lang in $ENABLED_LANGS; do
+  sync_lang "$lang"
 done
-
-# 同步英文內容
-echo "🇺🇸 同步英文內容..."
-if [ -d "knowledge/en" ]; then
-  for category in About Art Culture Economy Food Geography Lifestyle Music People History Nature Society Technology; do
-    if [ -d "knowledge/en/$category" ]; then
-      lowercase_category=$(echo $category | tr '[:upper:]' '[:lower:]')
-      for file in knowledge/en/$category/*.md; do
-        if [ -f "$file" ]; then
-          filename=$(basename "$file")
-          target_file="src/content/en/$lowercase_category/$filename"
-          cp "$file" "$target_file"
-          echo "  ✅ en/$category/$filename"
-          ((SYNCED_COUNT++))
-        fi
-      done
-    fi
-  done
-  
-  # 英文 resources
-  if [ -d "knowledge/en/resources" ]; then
-    for file in knowledge/en/resources/*.md; do
-      if [ -f "$file" ]; then
-        filename=$(basename "$file")
-        target_file="src/content/en/resources/$filename"
-        cp "$file" "$target_file"
-        echo "  ✅ en/resources/$filename"
-        ((SYNCED_COUNT++))
-      fi
-    done
-  fi
-fi
-
-# 同步日文內容
-echo "🇯🇵 同步日文內容..."
-if [ -d "knowledge/ja" ]; then
-  for category in About Art Culture Economy Food Geography Lifestyle Music People History Nature Society Technology; do
-    if [ -d "knowledge/ja/$category" ]; then
-      lowercase_category=$(echo $category | tr '[:upper:]' '[:lower:]')
-      for file in knowledge/ja/$category/*.md; do
-        if [ -f "$file" ]; then
-          filename=$(basename "$file")
-          target_file="src/content/ja/$lowercase_category/$filename"
-          cp "$file" "$target_file"
-          echo "  ✅ ja/$category/$filename"
-          ((SYNCED_COUNT++))
-        fi
-      done
-    fi
-  done
-fi
-
-# 同步韓文內容
-echo "🇰🇷 同步韓文內容..."
-if [ -d "knowledge/ko" ]; then
-  for category in About Art Culture Economy Food Geography Lifestyle Music People History Nature Society Technology; do
-    if [ -d "knowledge/ko/$category" ]; then
-      lowercase_category=$(echo $category | tr '[:upper:]' '[:lower:]')
-      for file in knowledge/ko/$category/*.md; do
-        if [ -f "$file" ]; then
-          filename=$(basename "$file")
-          target_file="src/content/ko/$lowercase_category/$filename"
-          cp "$file" "$target_file"
-          echo "  ✅ ko/$category/$filename"
-          ((SYNCED_COUNT++))
-        fi
-      done
-    fi
-  done
-fi
-
-# 同步法文內容（2026-04-24 β3 啟用）
-echo "🇫🇷 同步法文內容..."
-if [ -d "knowledge/fr" ]; then
-  for category in About Art Culture Economy Food Geography Lifestyle Music People History Nature Society Technology; do
-    if [ -d "knowledge/fr/$category" ]; then
-      lowercase_category=$(echo $category | tr '[:upper:]' '[:lower:]')
-      mkdir -p "src/content/fr/$lowercase_category"
-      for file in knowledge/fr/$category/*.md; do
-        if [ -f "$file" ]; then
-          filename=$(basename "$file")
-          target_file="src/content/fr/$lowercase_category/$filename"
-          cp "$file" "$target_file"
-          ((SYNCED_COUNT++))
-        fi
-      done
-    fi
-  done
-fi
-
-# 同步西文內容（2026-04-25 enabled）
-echo "🇪🇸 同步西文內容..."
-if [ -d "knowledge/es" ]; then
-  for category in About Art Culture Economy Food Geography Lifestyle Music People History Nature Society Technology; do
-    if [ -d "knowledge/es/$category" ]; then
-      lowercase_category=$(echo $category | tr '[:upper:]' '[:lower:]')
-      mkdir -p "src/content/es/$lowercase_category"
-      for file in knowledge/es/$category/*.md; do
-        if [ -f "$file" ]; then
-          filename=$(basename "$file")
-          target_file="src/content/es/$lowercase_category/$filename"
-          cp "$file" "$target_file"
-          ((SYNCED_COUNT++))
-        fi
-      done
-    fi
-  done
-fi
-
-# 統計中間結果
-CONTENT_AFTER_SYNC=$(find src/content/ -name "*.md" | wc -l)
-
 echo ""
-echo "🎉 步驟 1 完成！檔案同步完成"
-echo "📊 同步後 src/content/ 檔案數: $CONTENT_AFTER_SYNC"
 
-# 2. 修復 frontmatter
-echo ""
-echo "🔧 步驟 2/2: 修復 frontmatter..."
-
-# 使用 Python 腳本修復 frontmatter
+# ────────────────── Phase 3: Frontmatter 修復 (legacy) ──────────────────
+# 注意：fix-all-frontmatter.py 只在缺 `title:` 時重建 frontmatter (99% 檔案 no-op)
+# 留著是 legacy migration safeguard，未來 contributor 直丟到 src/content/ 不再可能（gitignore 後）
+echo "🔧 Phase 3: Frontmatter 修復 (legacy fallback)..."
 if [ -f "scripts/utils/fix-all-frontmatter.py" ]; then
-    echo "🐍 執行 frontmatter 修復..."
-    python3 scripts/utils/fix-all-frontmatter.py
-    echo "  ✅ frontmatter 修復完成"
+  python3 scripts/utils/fix-all-frontmatter.py 2>&1 | tail -2
 else
-    echo "  ⚠️  找不到 fix-all-frontmatter.py，跳過 frontmatter 修復"
+  echo "  ⚠️  scripts/utils/fix-all-frontmatter.py 不存在，跳過"
 fi
-
-# 最終統計
-CONTENT_FINAL=$(find src/content/ -name "*.md" | wc -l)
-
 echo ""
-echo "🎊 Taiwan.md 統一同步完成！"
-echo "================================================="
-echo "📊 knowledge/ 來源檔案: $KNOWLEDGE_COUNT"
-echo "📊 最終 src/content/ 檔案數: $CONTENT_FINAL"
-echo "🔄 處理檔案數: $SYNCED_COUNT"
-echo ""
-echo "✨ knowledge/ SSOT → src/content/ 投影層完整同步完成"
-echo "🔧 frontmatter 格式已統一修復"
 
-# 3. 圖片健康檢查
+# ────────────────── Phase 4: 圖片健康檢查 ──────────────────
+echo "🖼️  Phase 4: 圖片健康檢查..."
+if [ -f "scripts/utils/check-images.mjs" ]; then
+  node scripts/utils/check-images.mjs 2>&1 | tail -5 || echo "  ⚠️  圖片檢查回報警告（非致命）"
+else
+  echo "  ⚠️  scripts/utils/check-images.mjs 不存在，跳過"
+fi
 echo ""
-echo "🖼️ 步驟 3: 圖片健康檢查..."
-node scripts/utils/check-images.mjs || echo "  ⚠️  有缺失圖片，請執行 npm run check-images 查看細節"
 
+# ────────────────── Footer ──────────────────
+CONTENT_FINAL=$(find src/content/ -name "*.md" | wc -l | tr -d ' ')
+
+echo "═══════════════════════════════════════════════════════"
+echo "✨ Sync 完成"
+echo "   📊 knowledge/ source: $KNOWLEDGE_COUNT files"
+echo "   📊 src/content/ final: $CONTENT_FINAL files"
+echo "   📊 synced: $SYNCED_TOTAL files"
 echo ""
-echo "▶️  下一步：執行 npm run build 建構網站"
+echo "▶️  下一步：npm run build"

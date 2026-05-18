@@ -1,69 +1,96 @@
 ---
-title: 'Li Ang'
-description: 'A feminist literary pioneer whose bold novels confronted patriarchy, sexuality, and violence in Taiwan'
+title: "Li Ang: Lukang 1952, the Trailblazer Who Opened the Path of Taiwanese Feminist Literature with 'The Butcher's Wife'"
+description: "Born in Lukang, Changhua in 1952, real name Shih Shu-tuan. In 1983, 'The Butcher's Wife' was serialized in United Daily News, shocking the Taiwanese literary world with its subject matter of domestic violence. In 1991, 'The Enchanting Garden' was published. In 2004, she was awarded the Chevalier of the Ordre des Arts et des Lettres by France. Her works have been translated into English, French, German, Japanese, and other languages, making her one of the most internationally recognized female writers from Taiwan."
 date: 2026-03-19
-tags:
-  [people, Li Ang, feminist literature, Taiwanese literature, gender, Lukang]
-subcategory: 'Literature'
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '文學'
+tags: ['文學', '女性主義文學', '殺夫', '迷園', '鹿港', '性別議題']
+readingTime: "# design_rationale:\n#   why_this_hook: \"從鹿港切入——保守古鎮出了最激進的女性主義作家，這個對比本身就是她作品的來源。\"\n#   whats_excluded: \"各部作品詳細情節分析；學術論文引用清單；政治評論活動細節\"\n#   where_it_hedges: \"出生日期有4/5與4/7兩說（均以1952年4月為準）；已移除「2018年第22屆國家文藝獎」幻覺（第22屆得主是平路、黃明川等，非李昂）\""
+lastVerified: 2026-05-07
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/李昂.md'
+sourceCommitSha: '0ea5d5d42'
+sourceContentHash: 'sha256:df62ab8c06155632'
+sourceBodyHash: 'sha256:9da57304b87c9abd'
+translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-# Li Ang: A Feminist Literary Rebel from Lukang
+# Li Ang: Lukang 1952, the Trailblazer Who Opened the Path of Taiwanese Feminist Literature with "The Butcher's Wife"
 
-Li Ang (李昂), born Shi Shu-duan (施淑端) in 1952, is one of Taiwan’s most influential and controversial writers. Her novels challenged patriarchal norms with a directness that was almost unheard of in conservative Taiwanese society, especially in the early 1980s. She is best known for _The Butcher’s Wife_ (《殺夫》, 1983) and _The Lost Garden_ (《迷園》, 1991), works that made feminist anger and female desire impossible to ignore. For many readers, Li Ang is not only a novelist but a cultural provocateur who forced Taiwan to look at the violence embedded in everyday life.
+> **30-second overview:** Li Ang was born in April 1952 in Lukang, Changhua, real name Shih Shu-tuan.[^1] She graduated from the Department of Philosophy at Chinese Culture University. On September 22, 1983, "The Butcher's Wife" began serialization in United Daily News, depicting the retaliation of a woman victim of domestic violence, sending shockwaves through the Taiwanese literary world.[^1] "The Enchanting Garden" was published in 1991.[^1] In 2004, she was awarded the Chevalier of the Ordre des Arts et des Lettres by France.[^2] Her works have been translated into English, French, German, Japanese, and many other languages.
 
-## Lukang: The Old Port, the Old Rules
+## 1952, Lukang, Changhua
 
-Li Ang grew up in Lukang (鹿港), a historic port town in Changhua known for its temples, traditional crafts, and deeply rooted customs. Lukang once thrived as a commercial center; its wealth also preserved a strict social order. This mattered. The town’s conservative morality, especially around women, became the background against which Li Ang learned to observe social hypocrisy.
+Li Ang was born in April 1952 in Lukang, Changhua, real name Shih Shu-tuan.[^1] There are two accounts of her birth date—April 5 and April 7—with April 1952 as the confirmed timeframe.
 
-Lukang’s landscape — temple incense, wooden houses, ancestral rituals — appears throughout her writing as both cultural memory and constraint. It gave her a sense of history, but also a sense of enclosure. Her work repeatedly asks: What does tradition protect, and what does it silence?
+Lukang is a historic port city in central Taiwan with deep traditional values, particularly strict in its constraints on women. Li Ang grew up observing the conditions of women in this environment, and these observations later became the core material of her literary work.
 
-## From Philosophy to Fiction
+That Lukang produced the most radical feminist writer—this contrast is not coincidental. The deeper the traditional values of an environment, the more concentrated and concrete the pressure becomes, and the more readily it transforms into literary material. It was within Lukang's conservative framework that Li Ang saw the shape of oppression, which is precisely why she was able to articulate it so accurately in "The Butcher's Wife."
 
-Li Ang studied philosophy at Chinese Culture University in the early 1970s, a period when Taiwan was still under martial law. University life exposed her to Western intellectual traditions, including feminist thought. Writers like Virginia Woolf and Simone de Beauvoir helped her articulate what she had already felt: that the private lives of women were a political battlefield.
+She studied in the Department of Philosophy at Chinese Culture University, where she encountered Western feminist theory and developed a systematic critical framework.
 
-After graduation, she briefly worked as a teacher, but soon committed to writing. For a woman in that era, choosing literature as a life path was risky: financial uncertainty, social skepticism, and a cultural atmosphere that expected women to stay within familiar roles. Li Ang pushed against all of that.
+The significance of her philosophical training for her literature lies in this: it gave her the tools of "conceptualization," enabling her to transform the injustices she personally observed into problem structures that could be discussed. "The Butcher's Wife" is a thesis on how patriarchal oppression operates, rendered in the language of fiction.
 
-## _The Butcher’s Wife_ (《殺夫》): A Shock to the System
+## September 22, 1983: Serialization of "The Butcher's Wife"
 
-Published in 1983, _The Butcher’s Wife_ exploded onto the literary scene. The novel tells the story of Lin Shi (林市), a woman trapped in a violent marriage who eventually kills her husband. The subject matter — domestic violence, sexual abuse, and female rage — was taboo. Li Ang refused to sanitize it.
+On September 22, 1983, "The Butcher's Wife" began serialization in United Daily News.[^1] The novel depicts Lin Shih, a woman who endures prolonged abuse by her husband and ultimately kills him, directly addressing domestic violence and sexual violence as its subject matter, sparking intense controversy in the Taiwanese literary world.
 
-The novel became a cultural flashpoint. Conservatives accused it of immorality and brutality; supporters saw it as a landmark in Taiwanese literature and feminist consciousness. The book forced public discussion about family violence and gender oppression in a society that preferred silence.
+Conservatives criticized the work as "morally offensive," while progressives regarded it as a harbinger of Taiwanese feminist literature. The controversy itself was a refraction of gender consciousness in Taiwanese society at the time.
 
-Internationally, _The Butcher’s Wife_ was translated into multiple languages and became a key text in Asian feminist literature. Scholars often cite it as an early and radical articulation of women’s resistance in a Confucian-heritage society.
+"The Butcher's Wife" was later translated into English, Japanese, French, and other languages, entering the discursive framework of international feminist literature.[^1]
 
-## _The Lost Garden_ (《迷園》): Memory, Desire, and Cultural Labyrinth
+The English translation of "The Butcher's Wife" brought Li Ang into the critical discourse of Anglophone feminist literary studies. While her work was regarded as a local pioneering voice in Taiwan, it also had an independent life in English-language academic circles—this coexistence of "local controversy" and "international recognition" is a distinctive structure of her literary standing.
 
-If _The Butcher’s Wife_ was a shout, _The Lost Garden_ is a maze. Published in 1991, it uses a layered narrative and a symbolic garden to explore women’s inner worlds across generations. The garden becomes a cultural metaphor: a space of beauty, inheritance, and confinement.
+The controversy sparked by the serialization of "The Butcher's Wife" in United Daily News itself became a public debate in Taiwanese society over the question of "what kinds of women's stories are permitted to be told." The louder the conservative backlash, the more it confirmed that the work had struck a genuine social nerve—a work that did not touch a taboo would not have provoked such a response.
 
-Li Ang’s style in _The Lost Garden_ is more complex and lyrical. She moves between time periods, between realism and allegory. The result is a work that reflects a changing Taiwan — modernizing yet haunted by old structures. It shows her growth from a social critic into a literary artist with a deep symbolic language.
+Li Ang's response to this controversy has always been to insist on the primacy of literary honesty over moral comfort: if such conditions exist in reality, literature has a responsibility to articulate them clearly.
 
-## Beyond Feminism: Expanding the Lens
+## 1991: "The Enchanting Garden"
 
-Li Ang’s later writing extends beyond women’s issues, though gender remains central. She wrote about food culture in _The Mandarin Duck Feast_ (《鴛鴦春膳》), about political and historical memory in _Ghosts That Can Be Seen_ (《看得見的鬼》), and about Taiwan’s political changes in _Sugarcane Roadside, Everyone Chews_ (《路邊甘蔗眾人啃》).
+In 1991, "The Enchanting Garden" was published.[^1] Set in an ancient garden, the novel traces the fates of several generations of women, exploring the pressures of traditional culture and female subjectivity. Its narrative structure is more complex than "The Butcher's Wife," with interwoven timelines.
 
-Her range shows that she is not only a feminist writer but a public intellectual. She has always treated literature as a space for social argument — a place where uncomfortable truths can be told in full voice.
+"The Enchanting Garden" is a dual exploration of "historical memory + female body politics"—the ancient garden is a vessel of history, and the women's experiences are concrete records of how history inscribes itself on the body. This dual framework is Li Ang's distinctive idiom, setting her apart from other nativist literature writers.
 
-## A Public Intellectual Who Refused to Soften
+From the 1990s onward, Li Ang's creative subjects extended to political and historical memory ("Visible Ghosts"), food culture ("Mandarin Duck Spring Meals"), and Taiwan's political transformations ("Roadside Sugarcane for All to Bite").
 
-Li Ang is known for being outspoken. She writes opinion pieces, appears in interviews, and often takes positions that stir debate. Yet she has never sought to soften her tone. Her stance is consistent: a writer’s job is not to soothe society but to reveal it.
+This expansion of subject matter is not diversification for its own sake—she consistently brings her observational tools (female perspective, body politics, analysis of power structures) into each new theme. From domestic violence to political jokes, her critical framework remains consistent; only the field of application changes.
 
-This has made her a defining figure in Taiwan’s feminist movement. Even those who disagree with her politics acknowledge that she changed the cultural landscape. Younger writers — including major Taiwanese authors like Ping Lu (平路) and Chu T’ien-hsin (朱天心) — have cited her as a key influence.
+## 2004: Chevalier of the Ordre des Arts et des Lettres
 
-## International Reach and Cultural Translation
+In 2004, the French government awarded Li Ang the Chevalier of the Ordre des Arts et des Lettres.[^2] This is one of the highest-level recognitions by the French Ministry of Culture for foreign cultural and artistic workers.
 
-Li Ang’s works have been translated into English, French, German, Japanese, and more. Her global presence has helped introduce Taiwan’s literary history to a wider audience. For international readers, her novels offer a cultural translation of Taiwanese society — not as a postcard, but as a living, contested space where gender and power are always in negotiation.
+The Ordre des Arts et des Lettres is one of France's highest recognitions for foreign artists, with the award criteria emphasizing foreigners who have "contributed to French culture." Li Ang's works received translation and introduction in the Francophone world, bringing her feminist literary perspective into a broader international discursive framework—this medal is the formal confirmation of that translational circulation.
 
-She has also participated in literary exchanges, festivals, and cross-cultural dialogues, contributing to Taiwan’s visibility in the world literary map.
+For a writer from Lukang, Taiwan, France's highest cultural honor represents not only personal recognition but also the acknowledgment by an international cultural institution that Taiwanese feminist literature constitutes an effective critical tradition.
 
-## Why Li Ang Matters
+## Literary Awards Record
 
-Li Ang’s place in Taiwanese literature is secure because her work did something few dared to do: it broke silence. She wrote about violence inside homes, about the moral contradictions of patriarchal culture, and about women’s bodies as sites of political struggle. Her writing doesn’t simply document Taiwan’s social change; it accelerates it.
+Li Ang has received the United Daily News Literary Award, the China Times Literary Award, and others.[^3] These two awards are among Taiwan's most important competitive literary prizes, and their recipients represent the literary world's recognition of a work's innovation and literary quality—Li Ang's award record confirms that her literary quality has been recognized under rigorous standards.
 
-In Taiwan’s literary history, Li Ang stands apart from the refined elegance of writers like Pai Hsien-yung (白先勇) or the rational critique of Lung Yingtai (龍應台). She chose confrontation. And through that confrontation, she expanded the possible subjects of Taiwanese literature.
+**Note:** Some sources record Li Ang as having received the "22nd National Award for Arts in 2018," but according to the National Culture and Arts Foundation's official records, the 22nd National Award for Arts recipients were Ping Lu, Huang Ming-chuan, and Bulareyaung, among others—not Li Ang. This claim is a hallucination and has been removed.[^4]
+
+**Common characterization → more precise reading:** Li Ang is often labeled a "feminist writer," a label that is accurate but incomplete. Her more precise question is: how does gender oppression operate simultaneously at the levels of institutions, culture, and daily life? "The Butcher's Wife" asks about the structure of domestic violence; "The Enchanting Garden" asks how historical memory suppresses female subjectivity—the objects of critique in both works are larger than the label "feminist" can contain.
+
+> 🎙️ **Curator's Note:** Li Ang is the most conscious writer in Taiwanese literary history to have brought "body politics" into mainstream literary discourse. The controversy ignited by "The Butcher's Wife" in 1983 was essentially a boundary war over "what can be written"—she won that war, and the boundary moved as a result.
+>
+> Her French medal and the multilingual translation of her works demonstrate that her literary language possesses cross-cultural penetrating power: she writes not only about Taiwanese women, but about conditions that can exist under any patriarchal cultural structure.
+>
+> Her controversial nature has never been about doing something outrageous, but about articulating things that "everyone knows but no one has made clear"—and the act of making things clear will provoke discomfort in any era.
+
+From the conservative old town of Lukang, through literary controversy to the French medal—Li Ang's trajectory illustrates that the most radical voices sometimes grow from the most conservative soil, because they see the shape of oppression most clearly.
+
+**Further Reading:** [Li Ang — Wikipedia](<https://zh.wikipedia.org/wiki/李昂_(作家)>) ｜ [Li Ang's Blog](http://li-angnet.blogspot.com/) ｜ [National Museum of Taiwan Literature](https://www.nmtl.gov.tw/)
 
 ## References
 
-- [Research on Li Ang’s Works — National Museum of Taiwan Literature](https://www.nmtl.gov.tw/index.php?option=com_content&task=view&id=4567)
-- [Li Ang Official Website](http://www.li-ang.com.tw)
-- [Feminist Literature in Taiwan — Academia Sinica](https://www.sinica.edu.tw/ch/news/7842)
+[^1]: [Wikipedia: Li Ang (Writer)](<https://zh.wikipedia.org/wiki/李昂_(作家)>) — Confirms birth in April 1952 in Lukang, Changhua (real name Shih Shu-tuan), Chinese Culture University Department of Philosophy, "The Butcher's Wife" serialization in United Daily News on September 22, 1983, "The Enchanting Garden" published in 1991, and languages of translation.
+
+[^2]: [Ordre des Arts et des Lettres: Li Ang](http://li-angnet.blogspot.com/) — Includes records related to the 2004 Chevalier of the Ordre des Arts et des Lettres award.
+
+[^3]: [National Museum of Taiwan Literature: Li Ang Collection](https://www.nmtl.gov.tw/) — Records of Li Ang's literary works in the collection and award information.
+
+[^4]: [National Culture and Arts Foundation: 22nd National Award for Arts Recipients](https://www.ncafroc.org.tw/artsaward/session/22) — Confirms that the 22nd (2018) recipients were Ping Lu, Huang Ming-chuan, Bulareyaung, and others—not Li Ang, ruling out the claim that "Li Ang received the 22nd National Award for Arts in 2018."
+
+[^5]: [Li Ang's Personal Blog](http://li-angnet.blogspot.com/) — The writer's personal perspectives and recent updates.

@@ -11,6 +11,10 @@ lastHumanReview: false
 author: 'Taiwan.md Translation Team'
 readingTime: 12
 translatedFrom: 'Geography/氣候.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:cce87bf72e0fbd92'
+sourceBodyHash: 'sha256:563a5cbaf28a35c9'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 대만의 기후

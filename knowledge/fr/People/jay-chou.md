@@ -1,125 +1,140 @@
 ---
 title: 'Jay Chou'
-description: 'En 1997, un jeune homme timide de 18 ans a réécrit l'histoire de la pop mandarine'
+description: "En 1997, un garçon timide de 18 ans a réécrit l'histoire de la musique pop sinophone"
 date: 2026-03-23
-tags: [Personnalité, Jay Chou, Pop mandarine, Chanteur, Composition, R&B, Style chinois]
-subcategory: 'Musique et spectacle'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
-featured: false
+subcategory: '音樂與表演'
+tags:
+  [
+    '人物',
+    'Jay Chou',
+    'musique pop sinophone',
+    'chanteur',
+    'composition',
+    'R&B',
+    'style chinois',
+  ]
 lastVerified: 2026-03-23
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/周杰倫.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:f7b44615a84043f8'
+sourceBodyHash: 'sha256:15c277d38e9e5f3f'
+translatedAt: '2026-05-09T14:29:10+08:00'
 ---
 
 # Jay Chou
 
-> **En 30 secondes :** En 1997, un timide jeune homme de 18 ans jouait du piano sur scène lors d'un concours télévisé. Trois ans plus tard, son premier album allait transformer la pop mandarine. Jay Chou n'est pas seulement un chanteur — il est l'homme qui a convaincu toute une industrie que l'originalité pouvait se vendre. De 2000 à aujourd'hui, seize albums lui ont suffi pour démontrer que la musique chinoise pouvait conserver son identité tout en conquérant la scène mondiale.
+> **En 30 secondes :** En 1997, un garçon timide de 18 ans jouait du piano dans l'émission _Super Newcomer King_. Trois ans plus tard, son premier album a réécrit l'histoire de la musique pop sinophone. Jay Chou n'est pas seulement un chanteur : c'est celui qui a fait croire à toute l'industrie que l'originalité pouvait être rentable. De 2000 à aujourd'hui, ses 16 albums prouvent que la musique sinophone peut conserver son identité orientale tout en conquérant la scène mondiale.
 
-En 1999, dans les studios de JVR Music, Jay Chou encaissait son énième refus. Liu Dehua n'avait pas voulu de *Tears Know*, Zhang Huimei avait renvoyé *Ninja*. Toute l'industrie de la pop mandarine semblait lui répéter en choeur : ta musique est trop en avance sur ton temps.
+En 1999, dans le studio d'enregistrement d'Alfa Music, Jay Chou vivait son Nième refus consécutif. Andy Lau avait décliné sa chanson _Tears Know_ (_眼淚知道_), A-Mei avait renvoyé _Ninja_ (_忍者_). Toute l'industrie musicale pop semblait dire à ce jeune créateur : ta musique est trop en avance.
 
-Personne ne pouvait imaginer que cet assistant de production de 21 ans allait tout bouleverser un an plus tard.
+Personne n'aurait pu prévoir que cet assistant de production de 21 ans allait tout bouleverser un an plus tard.
 
-## D'un concours anonyme à une révolution musicale
+## De figurant d'une émission de télé-crochet à révolutionnaire musical
 
-En août 1997, sur le plateau de *Super New Star* sur TTV, Jay Chou n'était pas la vedette. Il accompagnait simplement un camarade de lycée au piano, trop timide pour regarder la caméra. Mais l'animateur Wu Zongxian remarqua un détail : les partitions de ce garçon étaient d'une netteté remarquable, et ses progressions harmoniques révélaient un vrai sens musical.
+En août 1997, sur la scène de l'émission _Super Newcomer King_ (超級新人王) diffusée par TTV, Jay Chou n'était pas le protagoniste. Il n'était que le pianiste accompagnant un camarade de lycée, trop timide pour regarder la caméra. Mais l'animateur Jacky Wu a remarqué un détail : les partitions de ce garçon étaient rédigées avec une précision remarquable, et ses progressions d'accords révélaient une vraie réflexion musicale.
 
-« J'ai tout de suite su qu'il avait quelque chose », se souviendra Wu Zongxian. Le concours n'a laissé aucune trace du chanteur principal — mais tout le monde se souvient du pianiste.
+« J'ai tout de suite senti que ce garçon avait quelque chose », se souviendrait plus tard Jacky Wu. De cette émission, personne ne se souvient du chanteur, mais tout le monde se rappelle le garçon au piano. Trois ans d'apprentissage en coulisses : Jacky Wu a engagé Jay Chou comme assistant chez Alfa Music, avec un salaire mensuel de 20 000 dollars taïwanais, pour faire du thé, acheter des bento et composer sans relâche. Durant cette période, Jay Chou a écrit plus d'une centaine de chansons, toutes refusées. Trop étrange, trop en avance, le marché n'est pas prêt — il a entendu ces arguments pendant trois ans.
 
-Après trois années à travailler dans l'ombre, Wu Zongxian l'engagea chez Alpha Music comme assistant : salaire de base, courses à faire, thé à préparer, et composition à longueur de journée. Des centaines de chansons écrites, toutes refusées. Trop étrange, trop en avance, le marché n'est pas prêt — ces mots, il les entendit pendant trois ans.
+En 1999, le tournant est enfin arrivé. Jody Chiang a accepté _落雨聲_ (_Sound of Falling Rain_), une chanson coécrite avec Vincent Fang. C'était la première composition de Jay Chou à être retenue.
 
-En 1999, une première percée : Jiang Hui accepta *Voix de la pluie*, co-écrite avec le parolier Vincent Fang. C'était la première chanson de Jay Chou à être retenue.
+## 2000 : la révolution musicale d'un album
 
-## 2000 : un album, une révolution
+Le 7 novembre 2000, le premier album éponyme _Jay_ est sorti. L'ouverture _可愛女人_ (_Adorable Woman_) mêlait rap et rythme R&B, _完美主義_ (*Perfectionism) fusionnait rock et piano classique, et *娘子* (*My Lady) intégrait carrément l'erhu (二胡) dans un univers hip-hop.
 
-Le 7 novembre 2000, le premier album de Jay Chou, *Jay*, sort en magasin. *Cute Girl* ouvre le bal sur un rap posé sur un groove R&B ; *Perfectionist* mêle rock et piano classique ; *Niang Zi* fait entrer l'erhu — instrument à cordes traditionnel — dans l'univers du hip-hop.
+> **💡 Le saviez-vous ?**
+> _Jay_ a accompli un exploit sans précédent : prouver que la musique sinophone pouvait tout fusionner et se vendre massivement. L'album s'est écoulé à plus d'un million d'exemplaires en Asie, et Jay Chou est passé du statut d'assistant à celui du jour au lendemain.
 
-> 📝 **Le saviez-vous ?**  
-> *Jay* accomplit quelque chose d'inédit : il démontra que la musique mandarine pouvait tout fusionner — et se vendre. L'album s'écoula à plus d'un million d'exemplaires en Asie, propulsant Jay Chou du statut d'assistant à celui de star en une nuit.
+Plus important encore, il a transformé l'ensemble de l'industrie du disque. Avant _Jay_, la formule du succès dans la musique pop sinophone était simple : trouver quelqu'un qui chante bien, lui donner quelques ballades, le transformer en idole. Jay Chou a prouvé une autre voie : un artiste peut rester lui-même, et l'innovation peut être rentable.
 
-Plus fondamentalement, il transforma l'écosystème de l'industrie du disque. Avant *Jay*, la formule du succès en pop mandarine était simple : trouver une belle voix, lui donner quelques ballades, en faire une idole. Jay Chou prouva qu'il existait une autre voie — celle de l'artiste authentique, où l'innovation peut rapporter.
+## Le fondateur du style « musique pop à sonorité chinoise »
 
-## Fondateur de la pop à la chinoise
+_東風破_ (_East Wind Breaks_), sorti en 2003, a marqué un autre jalon dans l'histoire de la musique pop sinophone. Les paroles de Vincent Fang — « Une lampe, la solitude, seule devant la fenêtre » — associées à l'arrangement de Jay Chou aux couleurs chinoises, ont créé un tout nouveau genre musical : la musique pop à sonorité chinoise (_中國風流行音樂_).
 
-En 2003, *Broken Eastern Wind* marqua un nouveau tournant. Les paroles de Vincent Fang — « Une lampe solitaire de mélancolie, debout à la fenêtre » — portées par des arrangements inspirés de la musique chinoise classique, donnèrent naissance à un genre entièrement nouveau : la pop de style chinois (*中國風*).
+Ce n'était pas une simple reconstitution culturelle, mais une véritable innovation. Jay Chou a pris des instruments traditionnels — guzheng (古箏), pipa (琵琶), erhu (二胡) — et les a habillés avec des techniques d'enregistrement modernes, le tout porté par des rythmes R&B. _菊花台_ (_Chrysanthemum Terrace_), _青花瓷_ (_Blue and White Porcelain_), _蘭亭序_ (_Orchid Pavilion_) — chaque titre est un manuel de fusion parfaite entre musique orientale et occidentale.
 
-Il ne s'agit pas d'un simple retour aux sources — c'est une véritable innovation culturelle. Jay Chou intégrait le guzheng, le pipa et l'erhu dans des productions modernes, sur des rythmiques R&B. *Chrysanthemum Terrace*, *Blue and White Porcelain*, *Orchid Pavilion* — chacun de ces titres est devenu un manuel d'harmonie entre Orient et Occident.
+Les médias internationaux ont commencé à s'intéresser au phénomène. En 2003, le magazine _Time_ a placé Jay Chou en couverture de son édition asiatique, avec le titre « The New King of Asian Pop ». Ce n'était pas qu'un battage médiatique : Jay Chou accomplissait réellement ce que personne n'avait fait auparavant — donner aux éléments classiques chinois une place sur la carte mondiale de la musique pop.
 
-La presse internationale commença à s'intéresser au phénomène. En 2003, le magazine *Time* Asia plaça Jay Chou en couverture avec le titre « The New King of Asian Pop ». Ce n'était pas du battage médiatique — Jay Chou réalisait bel et bien quelque chose d'inédit : offrir à l'esthétique classique chinoise une place légitime dans le paysage de la pop mondiale.
+## Détenteur du record aux Golden Melody Awards
 
-## Palmarès aux Golden Melody Awards
+| Année | Prix                                                                             | Œuvre                                               |
+| ----- | -------------------------------------------------------------------------------- | --------------------------------------------------- |
+| 2001  | Meilleur album de musique pop                                                    | _Jay_                                               |
+| 2002  | Meilleur album de musique pop, Meilleur producteur d'album, Meilleur compositeur | _范特西_ (_Fantasy_)                                |
+| 2004  | Meilleur album de musique pop                                                    | _葉惠美_ (_Yeh Hui-Mei_)                            |
+| 2008  | Chanson de l'année, Meilleur compositeur                                         | _青花瓷_ (_Blue and White Porcelain_)               |
+| 2009  | Chanson de l'année, Meilleur chanteur mandarin, Meilleur clip musical            | _稻香_ (_Rice Fragrance_), _魔術先生_ (_Mr. Magic_) |
+| 2011  | Meilleur album mandarin, Meilleur chanteur mandarin                              | _跨時代_ (_The Era_)                                |
 
-| Année | Récompense | Œuvre |
-|-------|-----------|-------|
-| 2001 | Meilleur album pop | *Jay* |
-| 2002 | Meilleur album pop, Meilleur producteur, Meilleur compositeur | *Fantasy* |
-| 2004 | Meilleur album pop | *Ye Huimei* |
-| 2008 | Chanson de l'année, Meilleur compositeur | *Blue and White Porcelain* |
-| 2009 | Chanson de l'année, Meilleur chanteur mandarin, Meilleur clip | *Fragrance of Rice*, *Mr. Magic* |
-| 2011 | Meilleur album mandarin, Meilleur chanteur mandarin | *The Era* |
+Jay Chou est l'un des artistes les plus récompensés de l'histoire des Golden Melody Awards (金曲獎), avec un total de 15 trophées. Il détient le record du plus grand nombre de nominations (10) et de victoires (4) dans la catégorie « Album de l'année » (devenue depuis « Meilleur album en mandarin »).
 
-Jay Chou est l'un des artistes les plus récompensés de l'histoire des Golden Melody Awards à Taïwan, avec 15 trophées à son actif. Il détient le record de nominations et de victoires dans la catégorie Meilleur album — dix sélections, quatre victoires.
+## D'artiste à patron : la naissance de JVR Music
 
-## De l'artiste au patron : la naissance de JVR Music
+2007 a marqué un autre tournant dans la carrière de Jay Chou — il a fondé JVR Music (杰威爾音樂), passant du statut d'artiste à celui de patron. Cette décision lui a offert une liberté de création totale et a montré à l'industrie musicale sinophone une autre possibilité : un artiste n'a pas à rester éternellement sous la tutelle d'un label.
 
-2007 marqua un autre tournant dans sa carrière : Jay Chou fonda JVR Music, passant du statut d'artiste à celui de dirigeant. Ce choix lui conféra une liberté créative totale, et offrit à toute l'industrie mandarine une nouvelle perspective — les musiciens n'avaient plus à rester indéfiniment sous la coupe des maisons de disques.
+Les chiffres parlent d'eux-mêmes : après la création de JVR, les albums de Jay Chou ont gagné en constance qualitative et en résultats commerciaux. En 2022, _最偉大的作品_ (_Greatest Works of Art_) est devenu l'album numéro un des ventes mondiales certifié par l'IFPI — le premier album sinophone à atteindre cette place, avec 7,2 millions d'exemplaires vendus dans le monde.
 
-Les chiffres parlent d'eux-mêmes : depuis la création de JVR, la qualité discographique de Jay Chou s'est stabilisée et ses résultats commerciaux ont progressé. En 2022, *Greatest Works of Art* s'imposa comme l'album le plus vendu au monde selon le classement IFPI — une première absolue pour un album en mandarin, avec 7,2 millions d'exemplaires écoulés à l'échelle mondiale.
+## Dépasser les frontières de la musique
 
-## Des ambitions qui dépassent la musique
+L'ambition de Jay Chou ne s'est pas limitée à la musique. _不能說的秘密_ (_Secret_), en 2007, l'a propulsé réalisateur. _The Green Hornet_ (2011) l'a amené à Hollywood. _The Voice of China_ (2016) a prouvé qu'il pouvait aussi être mentor.
 
-Jay Chou ne s'est jamais limité à la musique. En 2007, *Secret* le révèle comme réalisateur ; en 2011, *The Green Hornet* l'emmène à Hollywood ; en 2016, il endosse le rôle de coach dans *The Voice of China*. Mais sa contribution la plus durable reste peut-être la transformation de l'écosystème tout entier. Il n'a pas seulement créé de la musique — il a redéfini ce qu'un artiste mandarin peut accomplir et incarner. Des studios d'enregistrement aux écrans de cinéma, de Taipei aux scènes du monde entier, Jay Chou a ouvert des horizons qu'on croyait inaccessibles.
+Mais sa plus grande percée est peut-être la transformation de l'ensemble de l'écosystème industriel. Il ne s'est pas contenté de créer de la musique : il a redéfini ce qu'un artiste sinophone pouvait faire et devenir. Du studio d'enregistrement au grand écran, de Taipei au monde entier, Jay Chou a ouvert d'innombrables possibilités.
 
-## Une influence mondiale désormais ancrée
+## L'établissement d'une influence mondiale
 
-L'influence de Jay Chou dépasse largement la sphère sinophone. Sa tournée mondiale *Carnival*, entamée en 2019, a déjà compté plus de 75 concerts au Royaume-Uni, en France, en Australie, en Thaïlande et au Japon. En octobre 2024, au Stade national de Bukit Jalil en Malaisie, plus de 60 000 spectateurs ont assisté à son concert — un record personnel pour une date unique.
+L'influence de Jay Chou dépasse depuis longtemps le monde sinophone. Le « Carnival World Tour » (嘉年華世界巡迴演唱會), lancé en 2019, a déjà donné plus de 75 concerts à travers le monde, avec des étapes au Royaume-Uni, en France, en Australie, en Thaïlande et au Japon. En octobre 2024, au stade national de Bukit Jalil en Malaisie, il a attiré plus de 60 000 spectateurs en une seule soirée, battant son propre record d'affluence.
 
-Sur YouTube, ses clips cumulent plus de 5,1 milliards de vues, et *Love Confession* dépasse à elle seule les 200 millions. Les nouvelles générations d'artistes ne manquent pas de citer Jay Chou comme une influence formatrice — preuve que son impact transcende les générations.
+Sur YouTube, le nombre total de vues de ses clips dépasse 5,1 milliards, et le clip de _告白氣球_ (_Love Confession_) dépasse à seul les 200 millions de vues. Les jeunes artistes de la nouvelle génération disent tous « j'ai grandi en écoutant Jay Chou », preuve que son influence a traversé les générations.
 
-## Controverses et zones d'ombre
+## Controverses et questions inévitables
 
-### Une position politique délibérément floue
+### La zone grise des positions politiques
 
-La position politique de Jay Chou a toujours suscité des débats sensibles des deux côtés du détroit. Il a déclaré à la fois « Je suis Chinois » et « Je suis né et j'ai grandi à Taïwan, je suis aussi Taïwanais ». Lors des Jeux olympiques de Pékin en 2008, il avait exprimé sa hâte de voir les JO organisés dans « son pays », ce qui lui avait valu des critiques de la part du camp pro-indépendance à Taïwan.
+La position politique de Jay Chou est un sujet sensible dans le détroit de Taïwan. Il a publiquement déclaré « Je suis chinois », tout en affirmant « Je suis né et j'ai grandi à Taïwan, je suis aussi Taïwanais ». Durant les Jeux olympiques de Pékin en 2008, il a exprimé son souhait de voir les JO se tenir « dans son propre pays », suscitant les critiques du camp vert à Taïwan.
 
-Cette ambiguïté calculée lui a permis de maintenir une présence commerciale des deux côtés du détroit, mais elle lui est régulièrement reprochée comme relevant davantage du pragmatisme commercial que d'une conviction sincère. En 2020, des médias officiels chinois ont cité ses propos pour défendre d'autres artistes controversés, l'entraînant une nouvelle fois dans la polémique.
+Cette ambiguïté lui a permis de maintenir un succès commercial des deux côtés du détroit, mais lui a aussi valu des accusations de privilégier les considérations commerciales aux convictions politiques. En 2020, les médias officiels chinois ont cité ses propos pour défendre d'autres artistes, le replaçant au cœur d'une controverse politique.
 
-### L'affaire Phanta Bear
+### La polémique NFT Phanta Bear
 
-Début 2022, Jay Chou se retrouva au coeur d'une controverse liée aux NFT. Après avoir changé sa photo de profil Instagram pour un avatar Phanta Bear, il déclencha une spéculation effrénée : le projet enregistra un volume de transactions d'environ 280 millions de dollars taiwanais en une seule journée. JVR Music s'empressa de préciser que Jay Chou « n'avait participé à aucune planification commerciale liée à ce projet et n'en avait tiré aucun revenu ».
+Début 2022, Jay Chou a été impliqué dans une polémique liée aux NFT. En changeant sa photo de profil Instagram pour un NFT Phanta Bear, il a provoqué une spéculation sur le marché : le projet a enregistré un volume de transactions de 280 millions de dollars taïwanais en une seule journée. JVR Music a rapidement publié un communiqué précisant que Jay Chou « n'avait participé à aucune planification commerciale de ce projet et n'en avait retiré aucun revenu ».
 
-> ⚠️ **Point de controverse**  
-> La maison de disques expliqua que Phanta Bear n'était pas un « co-branding » impliquant Jay Chou, mais un produit issu d'un accord de licence entre la marque PHANTACi de son ami Jiang Xianwei et le projet NFT. L'incident illustre néanmoins les dérives que l'effet de notoriété peut provoquer sur les marchés des cryptoactifs.
+> **⚠️ Point de vue controversé**
+> La société de gestion a expliqué que le NFT n'était pas un « partenariat » avec Jay Chou, mais un produit sous licence de la marque PHANTACi, fondée par son ami Jiang Xianwei (蔣先威). Néanmoins, cette affaire a mis en lumière le caractère controversé de l'effet de célébrité sur le marché des cryptomonnaies.
 
-### Le spectre du nègre littéraire
+### Les soupçons de ghostwriting
 
-Au fil du temps, il est apparu que plusieurs collaborateurs jouaient un rôle central dans le processus créatif de Jay Chou, dont le parolier Huang Junlang. Ce dernier s'est plaint sur les réseaux sociaux de la pression inhérente à leur collaboration, alimentant les doutes sur le degré de paternité réelle de Jay Chou sur son œuvre. Si le travail en équipe créative est une norme dans l'industrie musicale, ces interrogations restent tenaces pour un artiste dont l'image repose précisément sur l'originalité.
+De longue date, l'équipe de création de Jay Chou comprend plusieurs collaborateurs de l'ombre, dont le parolier Huang Junlang (黃俊郎). Ce dernier s'est plaint sur les réseaux sociaux de la pression liée au processus de création, soulevant des doutes extérieurs sur le caractère entièrement original des œuvres de Jay Chou. Si la collaboration au sein d'une équipe de création est la norme dans l'industrie musicale, ce type de questionnement persiste pour un artiste qui met l'originalité au cœur de son identité.
 
-## Un héritage indélébile
+## Un changement permanent dans la musique pop sinophone
 
-La contribution la plus profonde de Jay Chou n'est pas le nombre d'albums vendus — c'est l'élargissement de l'imaginaire collectif d'une industrie entière. Avant lui, la pop mandarine jurait par la sécurité : reproduire les formules qui ont fait leurs preuves. Après lui, elle a appris à prendre des risques — à croire que l'originalité et l'expérimentation pouvaient aussi mener au succès.
+La plus grande contribution de Jay Chou n'est pas le nombre d'albums vendus, mais la transformation de l'imagination de toute une industrie. Avant lui, la musique pop sinophone croyait en la « sécurité » — imiter les formules qui avaient déjà fait leurs preuves. Après elle, l'industrie a commencé à croire en l'« aventure » — l'originalité et l'expérimentation pouvaient aussi réussir.
 
-La diversité sonore de la pop mandarine d'aujourd'hui — rap, électro, folk, musique expérimentale — puise ses racines dans cet album sorti en 2000. Jay Chou a dit à tout le monde, avec un seul disque, que les frontières de la musique mandarine pouvaient être repoussées à l'infini.
+La musique pop sinophone d'aujourd'hui est riche de voix multiples : rap, électronique, folk, musique expérimentale — l'origine de cet écosystème remonte à cet album _Jay_ de 2000. Avec un seul album, Jay Chou a dit à tous : les frontières de la musique sinophone peuvent être infiniment vastes.
 
-Du timide pianiste accompagnateur de 1997 au roi incontesté de la pop mandarine en 2026, Jay Chou n'a pas seulement écrit sa propre success story — il a narré l'évolution d'une musique tout entière. Il a prouvé une chose : les vrais innovateurs ne suivent pas les tendances, ils les créent.
+Du pianiste timide de 1997 au roi de la musique pop asiatique en 2026, le parcours de Jay Chou n'est pas seulement une histoire de succès personnel : c'est l'histoire de l'évolution de toute la musique pop sinophone. Il a prouvé une chose : un véritable innovateur n'est pas celui qui suit les tendances, mais celui qui les crée.
 
 ---
 
 **Pour aller plus loin :**
 
-- Chou Tzu-yu — le deuxième compte Instagram le plus suivi parmi les artistes taïwanais, juste derrière Jay Chou
-- La pop taïwanaise — l'écosystème industriel et les grandes ruptures générationnelles auxquels Jay Chou appartient
+- [周子瑜](/people/周子瑜) — La deuxième personnalité taïwanaise la plus suivie sur Instagram, juste derrière Jay Chou
+- [台灣流行音樂](/music/台灣流行音樂) — L'ensemble de l'écosystème industriel et des tournants générationnels auxquels appartient Jay Chou
+- [孫燕姿](/people/孫燕姿/) — Nominée la même année que lui aux 12e Golden Melody Awards dans la catégorie meilleure artiste émergente, à un vote près, définissant deux trajectoires musicales parallèles des années 2000
+- [賈永婕](/people/賈永婕) — Un autre parcours taïwanais de transformation de la célébrité en influence transdisciplinaire (variétés → marque de robes de mariée → mobilisation publique → gouvernance d'entreprise publique), à mettre en regard avec le parcours de Jay Chou dans l'industrie culturelle
 
-## Sources
+## Références
 
 - [Liste des récompenses et nominations de Jay Chou — Wikipédia](https://zh.wikipedia.org/zh-tw/%E5%91%A8%E6%9D%B0%E5%80%AB%E8%8E%B7%E5%A5%96%E4%B8%8E%E6%8F%90%E5%90%8D%E5%88%97%E8%A1%A8)
-- [Time Magazine Asia Edition - March 3, 2003](https://content.time.com/time/magazine/asia/0,9263,501030303,00.html)
-- [IFPI 2022 全球專輯銷量榜冠軍：周杰倫《最偉大的作品》](https://tbotaiwan.com/ifpi-global-album-sales-chart-2022-jay-chou-greatest-works-of-art/)
-- [周杰倫 NFT「Phanta Bear」秒賺2.8億 公司急切割：沒拿錢 - 鏡週刊](https://www.mirrormedia.mg/story/20220104ent036/)
-- [搬出周杰倫曾說「我是中國人」中國官媒撰文挺歐陽娜娜 - 華視新聞網](https://news.cts.com.tw/cts/politics/202009/202009292015341.html)
-- [嘉年華世界巡迴演唱會 - 維基百科](https://zh.wikipedia.org/zh-hant/%E5%98%89%E5%B9%B4%E8%8F%AF%E4%B8%96%E7%95%8C%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%83)
-- [Greatest Works of Art - Wikipedia](https://en.wikipedia.org/wiki/Greatest_Works_of_Art)
-- [Jay Chou YouTube Official Channel](https://www.youtube.com/channel/UC8CU5nVhCQIdAGrFFp4loOQ)
-- [杰威爾音樂官方網站](https://www.jvrmusic.com/)
-- [「周杰倫熊NFT」傳出能買演唱會門票！PhantaBear暴漲120%卻惹失望群怒](https://www.blocktempo.com/rumor-has-it-you-can-snag-jay-chou-concert-tickets-phantabear-soars-by-120/)
-- [周杰倫在演唱會打斷粉絲「疑似台獨」的發言 - Dcard](https://www.dcard.tw/f/entertainer/p/230941846)
+- [Time Magazine Asia Edition — 3 mars 2003](https://content.time.com/time/magazine/asia/0,9263,501030303,00.html)
+- [IFPI 2022 : album le plus vendu au monde — Jay Chou, _Greatest Works of Art_](https://tbotaiwan.com/ifpi-global-album-sales-chart-2022-jay-chou-greatest-works-of-art/)
+- [Le NFT « Phanta Bear » de Jay Chou rapporte 280 millions en un jour, son entreprise se coupe du projet : « Il n'a rien gagné » — 鏡週刊](https://www.mirrormedia.mg/story/20220104ent036/)
+- [Les médias officiels chinois citent les propos de Jay Chou « Je suis chinois » pour défendre Ouyang Nana — 華視新聞網](https://news.cts.com.tw/cts/politics/202009/202009292015341.html)
+- [Carnival World Tour — Wikipédia](https://zh.wikipedia.org/zh-hant/%E5%98%89%E5%B9%B4%E8%8F%AF%E4%B8%96%E7%95%8C%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%83)
+- [Greatest Works of Art — Wikipedia](https://en.wikipedia.org/wiki/Greatest_Works_of_Art)
+- [Chaîne YouTube officielle de Jay Chou](https://www.youtube.com/channel/UC8CU5nVhCQIdAGrFFp4loOQ)
+- [Site officiel de JVR Music](https://www.jvrmusic.com/)
+- [Rumeur : le « Bear NFT de Jay Chou » permettrait d'acheter des places de concert — PhantaBear bondit de 120 % mais déçoit les fans](https://www.blocktempo.com/rumor-has-it-you-can-snag-jay-chou-concert-tickets-phantabear-soars-by-120/)
+- [Jay Chou coupe la parole d'un fan lors d'un concert à propos de propos « séparatistes taïwanais » — Dcard](https://www.dcard.tw/f/entertainer/p/230941846)

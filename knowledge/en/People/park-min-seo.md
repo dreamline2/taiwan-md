@@ -1,62 +1,50 @@
 ---
-title: 'Park Min-seo (Mingo)'
-description: 'From Korea to Taiwan’s ballpark—stable stage presence and approachable interaction make her a key member of the CTBC Korean cheer generation.'
-date: 2026-04-14
+title: "Park Min-seo"
+description: "Joining the TSG Hawks Wing Stars under the name 'Mingo,' she took on the roles of performance director and Korean import within the southern home-field system, representing an alternative path in the CPBL cheerleading squad's 'institutionalization of foreign talent.'"
+date: 2026-05-13
+author: "Taiwan.md Contributors"
+category: "People"
+subcategory: "流行人物"
 tags:
   [
-    'pop culture',
-    'Park Min-seo',
-    'Mingo',
-    'Korea',
-    'cheerleading',
-    'CTBC Brothers',
-    'Passion Sisters',
+    "流行人物",
+    "朴旻曙",
+    "Mingo",
+    "韓國",
+    "啦啦隊",
+    "台鋼雄鷹",
+    "Wing Stars",
+    "中華職棒",
   ]
-subcategory: 'Pop Culture'
-author: 'Taiwan.md Translation Team'
 readingTime: 8
+lastVerified: 2026-05-13
+lastHumanReview: false
 featured: false
-lastVerified: 2026-04-16
-translatedFrom: 'People/朴旻曙.md'
-category: People
+translatedFrom: People/朴旻曙.md
+sourceCommitSha: 859d7316d
+sourceContentHash: sha256:9b7fc7c2dcfd2ba4
+sourceBodyHash: sha256:88c017dc32e26447
+translatedAt: 2026-05-17T05:34:48+08:00
 ---
 
-> **30-second overview:** In the CTBC Brothers cheer ecosystem, Park Min-seo (Mingo) does not rely on one-off spikes—she delivers every game. She shows fans that what keeps Korean members in Taiwan is not buzz alone but sustainable on-field execution.
+> **30-second overview:** Media and team press materials commonly introduce this Korean member as "Mingo / Park Min-seo." She joined the TSG Hawks cheerleading squad Wing Stars as part of the team's post-formation foreign talent strategy, alongside figures such as An Ji-hyun, forming a high-profile performance roster for the franchise.
 
-After building experience in Korea, she entered Taiwan’s pro-cheer scene. Many first noticed her for clean staging and natural interaction; more stayed because she kept a consistent level nearly every time.
+After the TSG Hawks established their cheerleading brand Wing Stars, the team gradually shifted "foreign talent" from a one-off talking point into a workable roster structure. According to press coverage from outlets such as *ETtoday Sports* at the formation press conference, the team announced the addition of Korean member "Mingo" Park Min-seo; reports also referenced roster composition and training stints in South Korea, indicating that this was not merely an individual publicity move but an integrated stage-and-training pipeline. [Source: EBC News Media / ETtoday Sports][^1]
 
-That “no wild swings, but steady climb” path matches professional cheer reality: game by game, season by season.
+Her public self-presentation also leaned into a "professional competitive" tone. Coverage from the same press conference quoted her remarks, portraying the atmosphere as a highly confident debut declaration — a relatively striking narrative within CPBL cheerleading marketing. [Source: EBC News Media / ETtoday Sports][^1]
 
-## Entering CPBL cheer culture
+## Position Within the TSG System
 
-During the Passion Sisters’ expansion of Korean topics, Park Min-seo became a core name. Her arrival matched rising fan expectations for Korean cheer rhythm, formation consistency, and stage detail.
+Unlike a model that relies solely on social media visibility, Wing Stars is tied to the team's home-field operations, training pipeline, and external appearance schedule. Within this structure, Park Min-seo occupies a foreign-talent position that can be placed on a press conference stage and sustain amplified public attention: she is expected not only to perform but also to understand — and withstand — Taiwanese fans' expectations and scrutiny of "Korean-style cheering."
 
-Her exposure also spans press events, themed activities, short video, and brand work—extending her public image beyond the ballpark into the wider sports-entertainment chain.
+Because foreign names often appear with variant characters or differing transliterations in Chinese-language media, readers cross-referencing sources should rely on the original text from the team and mainstream reports.
 
-## Style and audience relationship
+## Significance as a Pop Culture Figure
 
-Her edge is not maximum volume but low-friction approachability—stable smiles, clear moves, and high completion even under dense schedules, helping new fans form memory quickly.
-
-On social platforms she leans everyday rather than distant, building a “approachable star” image that lowers language and culture barriers.
-
-> **Curator’s note:** Park Min-seo’s value is sustainability—not one viral spike, but reliable placement in a full-season content plan.
-
-## Structural challenges in Taiwan
-
-Like many Korean members, she faces three pressures: roster and camera comparisons, language and culture adaptation, and privacy boundaries under long exposure.
-
-When Korean members become a club selling point, individual performance risks being flattened into single metrics—demanding consistency across stage, interviews, social posts, and partner events, a long-term physical and mental load.
-
-## Why she is a pop-culture figure
-
-She belongs here not only because she is popular at the ballpark but because she embodies a core phenomenon of Taiwan’s sports entertainment: cheer performers are no longer side characters—they are content protagonists.
-
-For observers of 2020s Taiwanese pop culture, she is a key sample of “Korean support normalization”: a market and audience habit that can host cross-border cheer talent long term.
+Park Min-seo's significance lies in placing the "Korean cheerleader" narrative within the context of the TSG Hawks, a southern Taiwan home-team franchise: rather than replicating the established popularity templates of northern ballparks, she rebuilds audience trust and memory around foreign talent within a different home-field politics and media environment.
 
 ## References / Sources
 
-1. https://zh.wikipedia.org/wiki/%E6%9C%B4%E6%97%BB%E6%9B%99
-2. https://www.nownews.com/news/6679202
-3. https://tw.news.yahoo.com/%E5%95%A6%E5%95%A6%E9%9A%8A%E9%9F%93%E5%9C%8B%E5%A5%B3%E7%A5%9E%E5%A4%A9%E8%8F%9C%E8%8F%9C%E5%96%AE-%E9%81%AD%E8%99%A7%E7%A0%B4%E7%AB%A5%E8%B2%9E-31%E8%90%AC%E4%BA%BA%E5%9A%87%E7%88%9B-045617079.html
-4. https://www.storm.mg/lifestyle/5341615
-5. https://www.setn.com/News.aspx?NewsID=1657679
+[^1]: ETtoday Sports (EBC News Media), "TSG Cheerleading Squad's Strongest Foreign Addition Yet — Mingo Declares: Prove I'm the Ceiling," covering the TSG Hawks Wing Stars press conference and remarks, https://sports.ettoday.net/news/2664696
+
+Additional background reading (biographical overview; entry may continue to be updated): Wikipedia "朴旻曙" page, https://zh.wikipedia.org/wiki/%E6%9C%B4%E6%97%BB%E6%9B%99

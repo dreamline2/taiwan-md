@@ -20,20 +20,23 @@ const {
   jaLink,
   koLink,
   frLink,
+  esLink,
   hasZh,
   hasEn,
   hasJa,
   hasKo,
   hasFr,
+  hasEs,
 } = await getLangSwitchPath(currentPath);
 
 // 2026-04-24 β3: Dynamic language list for dropdown UI.
-// As more languages are added (es coming next), iterate this array instead of
-// hardcoding more <a> tags. Currently: 中文 / English / 日本語 / 한국어 / Français.
+// 2026-05-02: es enabled in dropdown (articles 100% / UI bundle wired).
+// As more languages are added, iterate this array instead of hardcoding more
+// <a> tags. Currently: 中文 / English / 日本語 / 한국어 / Français / Español.
 // nativeName uses each language's own self-name (so non-fluent visitors can
 // recognize their own language regardless of what locale they landed on).
 type LangOption = {
-  code: 'zh-TW' | 'en' | 'ja' | 'ko' | 'fr';
+  code: 'zh-TW' | 'en' | 'ja' | 'ko' | 'fr' | 'es';
   nativeName: string;
   short: string;
   link: string;
@@ -45,7 +48,8 @@ const isZhActive =
   !isLangActive('en') &&
   !isLangActive('ja') &&
   !isLangActive('ko') &&
-  !isLangActive('fr');
+  !isLangActive('fr') &&
+  !isLangActive('es');
 const langOptions: LangOption[] = [
   {
     code: 'zh-TW',
@@ -87,6 +91,14 @@ const langOptions: LangOption[] = [
     has: hasFr,
     isActive: isLangActive('fr'),
   },
+  {
+    code: 'es',
+    nativeName: 'Español',
+    short: 'ES',
+    link: esLink,
+    has: hasEs,
+    isActive: isLangActive('es'),
+  },
 ];
 const visibleLangOptions = langOptions.filter((l) => l.has);
 const currentLangOption =
@@ -97,7 +109,7 @@ const isHome = normalizedPath === '/' || normalizedPath === '/en';
 
 const navConfig = [
   { path: '/about', label: t('nav.about') },
-  { path: '/#categories', label: t('nav.explore') },
+  { path: '/explore', label: t('nav.explore') },
   { path: '/map', label: t('nav.map') },
   { path: '/data', label: t('nav.data') },
   { path: '/soundscape', label: t('nav.soundscape') },
@@ -264,7 +276,7 @@ const categoryList = [
                   </Fragment>
                 );
               }
-              if (item.path === '/#categories') {
+              if (item.path === '/explore') {
                 return (
                   <Fragment>
                     {showSep && <span class="nav-sep" />}
@@ -294,6 +306,12 @@ const categoryList = [
                           class="dropdown-item dropdown-section-header"
                         >
                           {t('nav.terminology')} 📖
+                        </a>
+                        <a
+                          href={translatePath('/bench')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.bench')} 🧬
                         </a>
                         <div class="dropdown-divider" />
                         {categoryList.map((category) => (
@@ -575,9 +593,7 @@ const categoryList = [
       <nav class="nav-mobile" aria-label={t('nav.aria-mobile-navigation')}>
         {
           navConfig.map((item) => {
-            const hasSub = ['/#categories', '/map', '/semiont'].includes(
-              item.path,
-            );
+            const hasSub = ['/explore', '/map', '/semiont'].includes(item.path);
             return (
               <Fragment>
                 <div class:list={['mobile-nav-item', { 'has-sub': hasSub }]}>
@@ -597,7 +613,7 @@ const categoryList = [
                     </button>
                   )}
                 </div>
-                {item.path === '/#categories' && (
+                {item.path === '/explore' && (
                   <div class="mobile-sub-links open">
                     <a
                       href={translatePath('/graph')}
@@ -655,25 +671,6 @@ const categoryList = [
           onclick="document.querySelector('.nav-mobile').classList.remove('open')"
           >GitHub</a
         >
-        <div class="mobile-lang-toggle">
-          <span class="mobile-lang-label"
-            >{`🌐 ${t('nav.language-switch')}:`}</span
-          >
-          <div class="mobile-lang-buttons">
-            {
-              visibleLangOptions.map((opt) => (
-                <a
-                  href={opt.link}
-                  class:list={['mobile-lang-btn', { active: opt.isActive }]}
-                  lang={opt.code}
-                  onclick="document.querySelector('.nav-mobile').classList.remove('open')"
-                >
-                  {opt.nativeName}
-                </a>
-              ))
-            }
-          </div>
-        </div>
       </nav>
     </header>
   </div>
@@ -1629,64 +1626,6 @@ const categoryList = [
     .scrolled .nav-mobile .nav-link.active {
       color: #1a1a2e;
       background: rgba(0, 120, 100, 0.05);
-    }
-    .mobile-lang-toggle {
-      padding: 0.6rem 0 0.4rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .scrolled .mobile-lang-toggle {
-      border-top-color: #e2e8f0;
-    }
-    .mobile-lang-label {
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.5);
-      font-weight: 500;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-    .scrolled .mobile-lang-label {
-      color: #64748b;
-    }
-    .mobile-lang-buttons {
-      display: flex;
-      gap: 0.5rem;
-    }
-    .mobile-lang-btn {
-      flex: 1;
-      padding: 0.6rem;
-      text-align: center;
-      text-decoration: none;
-      color: rgba(255, 255, 255, 0.6);
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 6px;
-      font-size: 0.9rem;
-      font-weight: 600;
-      transition:
-        background-color 0.2s,
-        color 0.2s,
-        border-color 0.2s;
-    }
-    .scrolled .mobile-lang-btn {
-      color: #475569;
-      background: #f8fafc;
-      border-color: #e2e8f0;
-    }
-    .mobile-lang-btn.active {
-      background: var(--lang-active-bg);
-      color: var(--lang-active-color);
-      border-color: var(--lang-active-bg);
-    }
-    .scrolled .mobile-lang-btn.active {
-      background: var(--green-mid);
-      color: white;
-      border-color: var(--green-mid);
-    }
-    .mobile-lang-btn:not(.active):hover {
-      background: rgba(255, 255, 255, 0.1);
-    }
-    .scrolled .mobile-lang-btn:not(.active):hover {
-      background: #e2e8f0;
     }
   }
 </style>

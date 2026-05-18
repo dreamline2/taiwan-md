@@ -68,29 +68,71 @@ def git(*args: str, cwd: Path = REPO) -> str:
         return ""
 
 
+# ---------- 2026-05-01 γ-late3: batched git log cache ----------
+# Performance optimization: replace ~4000 per-file `git log` invocations with
+# ONE `git log --name-only` scan that populates a {file_path: history[]} map.
+#
+# Before: 94s (641 zh + 1400 translations × multiple git calls each)
+# After:  ~2s (single git log + dict lookups)
+#
+# Graph theory was the brief — real bottleneck is git syscalls, not algorithm.
+# At 640-article × 5-lang scale, dict + linear scan beats graph framework
+# overhead. Re-evaluate if scale ever exceeds 10K articles or multi-hop
+# translation chains (en → ja → ko) become common.
+
+_GIT_HISTORY_CACHE = None  # {rel_path: [(sha8, sha40)]} newest-first
+
+
+def _build_git_history_cache():
+    """One git log call → {file_path: [(sha8, sha40)]} newest-first."""
+    global _GIT_HISTORY_CACHE
+    if _GIT_HISTORY_CACHE is not None:
+        return _GIT_HISTORY_CACHE
+    out = subprocess.run(
+        ["git", "log", "--name-only", "--format=__COMMIT__|%H|%aI", "HEAD"],
+        cwd=REPO, capture_output=True, text=True, check=False,
+    ).stdout
+    history = {}  # rel_path → list of (sha8, sha40, iso_date)
+    cur_sha = None
+    cur_date = None
+    for line in out.splitlines():
+        if line.startswith("__COMMIT__|"):
+            parts = line.split("|", 2)
+            if len(parts) >= 3:
+                cur_sha = parts[1]
+                cur_date = parts[2]
+        elif line.strip() and cur_sha:
+            history.setdefault(line, []).append((cur_sha[:8], cur_sha, cur_date))
+    _GIT_HISTORY_CACHE = history
+    return history
+
+
 def git_last_commit(file_path: Path) -> tuple[str, str]:
-    """Returns (sha, iso8601 date) of the last commit that touched file."""
+    """Returns (sha8, iso8601 date) of the last commit that touched file."""
     rel = str(file_path.relative_to(REPO))
-    out = git("log", "-1", "--format=%H|%aI", "--", rel)
-    if "|" not in out:
-        return ("", "")
-    sha, date = out.split("|", 1)
-    return (sha[:8], date)
+    cache = _build_git_history_cache()
+    hist = cache.get(rel)
+    if hist:
+        sha8, _sha40, date = hist[0]  # newest-first
+        return (sha8, date)
+    return ("", "")
 
 
 def git_commits_between(sha: str, file_path: Path) -> int:
     """Count commits touching file since sha (exclusive). Returns -1 if sha not found."""
     rel = str(file_path.relative_to(REPO))
-    # Verify sha exists
-    if not git("cat-file", "-e", sha):
-        # Try long-form
-        if not subprocess.run(
-            ["git", "cat-file", "-e", sha],
-            cwd=REPO, capture_output=True, check=False
-        ).returncode == 0:
-            return -1
-    out = git("rev-list", "--count", f"{sha}..HEAD", "--", rel)
-    return int(out) if out.isdigit() else 0
+    cache = _build_git_history_cache()
+    hist = cache.get(rel)
+    if not hist:
+        return 0
+    # Find sha (compare against sha8 prefix or sha40 startswith — git short shas
+    # may be 7-12 chars depending on repo size; match by either field)
+    sha_norm = sha.strip()
+    for i, (sha8, sha40, _date) in enumerate(hist):
+        if sha8 == sha_norm or sha40.startswith(sha_norm) or sha_norm.startswith(sha8):
+            # commits 0..i-1 are AFTER sha (newer), so count = i
+            return i
+    return -1  # sha not found in this file's history (rebase/squash drift)
 
 
 def git_diff_summary(sha: str, file_path: Path) -> str:
@@ -104,14 +146,58 @@ def git_diff_summary(sha: str, file_path: Path) -> str:
 
 
 # ---------- content hash ----------
+#
+# 兩個 hash 區分 body drift vs metadata drift（REFLEXES #38 第 2 次 instantiation）：
+#
+#   contentHash = 整個 body（after frontmatter）— legacy hash，包含 trailer
+#   bodyHash    = 純敘事 body — strip 延伸閱讀 / 參考資料 / footer metadata block /
+#                 footnote definitions（[^N]: ...）
+#
+# 用法：
+#   - contentHash 變動 + bodyHash 同 = metadata-stale（trailer / footnote URL polish 等
+#     只動 metadata，body translation 仍 valid，可走「補丁翻譯」只翻變動 section）
+#   - contentHash 變動 + bodyHash 變 = stale（真 body drift，需重翻）
 
-def body_hash(content: str) -> str:
-    """SHA256 of content body (after frontmatter)."""
+# Trailer section patterns（per Taiwan.md convention）
+_TRAILER_PATTERNS = [
+    r"\n#{1,4}\s*延伸閱讀\s*\n.*?(?=\n#{1,4}\s|\Z)",
+    r"\n#{1,4}\s*參考(?:資料|來源)?\s*\n.*?(?=\n#{1,4}\s|\Z)",
+    r"\n#{1,4}\s*(?:同分類更多文章|相關閱讀|延伸資源|See also)\s*\n.*?(?=\n#{1,4}\s|\Z)",
+    r"\n_v\d+\.\d+[^\n]*$",  # italic footer metadata `_v1.0 | ..._`
+]
+
+
+def _strip_frontmatter(content: str) -> str:
     if content.startswith("---"):
         end = content.find("---", 3)
         if end != -1:
-            content = content[end + 3:]
-    return "sha256:" + hashlib.sha256(content.encode("utf-8")).hexdigest()[:16]
+            return content[end + 3:]
+    return content
+
+
+def body_hash(content: str) -> str:
+    """Legacy contentHash — SHA256 of full body (after frontmatter, before trailer strip)."""
+    body = _strip_frontmatter(content)
+    return "sha256:" + hashlib.sha256(body.encode("utf-8")).hexdigest()[:16]
+
+
+def body_hash_pure(content: str) -> str:
+    """Pure narrative bodyHash — strips trailer metadata sections (延伸閱讀, 參考資料, 同分類更多文章, footer metadata)
+    plus footnote definitions `[^N]: ...` lines (URLs / desc may polish but body unchanged).
+
+    Inline footnote markers `[^N]` IN body remain — they're integral to narrative.
+    Wikilinks `[[X]]` remain — text content matters.
+    """
+    body = _strip_frontmatter(content)
+    # Strip trailer sections
+    for pattern in _TRAILER_PATTERNS:
+        body = re.sub(pattern, "", body, flags=re.DOTALL | re.MULTILINE)
+    # Strip footnote definitions block (`[^N]: ...` lines, including multi-line desc continuations until next `[^M]:` or non-indent line)
+    # Greedy match: `[^X]: ...` until next `\n[^Y]:` or end
+    body = re.sub(r"\n\[\^[\w-]+\]:\s.+?(?=\n\[\^|\n#|\Z)", "\n", body, flags=re.DOTALL)
+    # Normalize trailing whitespace + blank lines
+    body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    return "sha256:" + hashlib.sha256(body.encode("utf-8")).hexdigest()[:16]
 
 
 # ---------- main scan ----------
@@ -136,6 +222,7 @@ def scan_zh() -> dict:
             "lastCommit": sha,
             "lastModified": date,
             "contentHash": body_hash(content),
+            "bodyHash": body_hash_pure(content),  # NEW: trailer-stripped pure narrative
         }
     return result
 
@@ -166,6 +253,7 @@ def scan_translations(lang: str) -> dict:
             "translatedFrom": tf,
             "sourceCommitSha": fm.get("sourceCommitSha", ""),
             "sourceContentHash": fm.get("sourceContentHash", ""),
+            "sourceBodyHash": fm.get("sourceBodyHash", ""),  # NEW: trailer-stripped hash if recorded
             "translatedAt": fm.get("translatedAt", ""),
             "translationLastCommit": sha,
             "translationLastModified": date,
@@ -176,14 +264,24 @@ def scan_translations(lang: str) -> dict:
 
 def classify(zh_data: dict, trans_data: dict) -> dict:
     """
-    Returns dict with 'status', 'commitsBehind', 'reason', 'diffSummary' (when stale)
+    Returns dict with 'status', 'commitsBehind', 'reason', 'diffSummary' (when stale).
+
+    Status enum:
+      missing         — no translation file
+      orphan          — translation exists but zh source missing
+      fresh           — sourceCommitSha matches zh latest, OR hash match after rebase
+      metadata-stale  — zh moved forward but bodyHash unchanged (only trailer 延伸閱讀 /
+                        參考資料 / footer metadata 變動，body translation 仍 valid)
+      stale           — zh moved forward AND bodyHash changed (true body drift, 需重翻)
     """
     if not trans_data:
         return {"status": "missing"}
     zh_sha = zh_data["lastCommit"]
     zh_hash = zh_data["contentHash"]
+    zh_body = zh_data.get("bodyHash", "")
     src_sha = trans_data["sourceCommitSha"]
     src_hash = trans_data["sourceContentHash"]
+    src_body = trans_data.get("sourceBodyHash", "")
 
     # Case A: no sourceCommitSha at all (frontmatter not yet backfilled)
     if not src_sha:
@@ -204,17 +302,30 @@ def classify(zh_data: dict, trans_data: dict) -> dict:
     if behind < 0:
         if src_hash and src_hash == zh_hash:
             return {"status": "fresh", "reason": "hash-match-sha-lost"}
+        if src_body and zh_body and src_body == zh_body:
+            return {"status": "metadata-stale", "reason": "sha-lost-body-match"}
         return {"status": "stale", "reason": "sha-lost-hash-mismatch"}
 
     # Case E: still on same commit → fresh
     if behind == 0:
         return {"status": "fresh", "reason": "same-commit"}
 
-    # Case F: zh moved forward → stale
+    # Case F: zh moved forward → distinguish body drift vs metadata drift
+    # If we have sourceBodyHash recorded, compare:
+    #   bodyHash same  → metadata-stale (trailer change only, body translation valid)
+    #   bodyHash diff  → body-drift (needs re-translate)
     diff = git_diff_summary(src_sha, zh_path)
+    if src_body and zh_body and src_body == zh_body:
+        return {
+            "status": "metadata-stale",
+            "reason": "trailer-only-drift",
+            "commitsBehind": behind,
+            "diffSummary": diff,
+        }
+    # No sourceBodyHash recorded (legacy translations) OR body hash differs
     return {
         "status": "stale",
-        "reason": "zh-moved-forward",
+        "reason": "body-drift" if src_body else "zh-moved-forward",
         "commitsBehind": behind,
         "diffSummary": diff,
     }
@@ -223,7 +334,7 @@ def classify(zh_data: dict, trans_data: dict) -> dict:
 def build_status(active_langs: list[str]) -> dict:
     zh_files = scan_zh()
     by_article = {}
-    summary = {lang: {"total_zh": len(zh_files), "fresh": 0, "stale": 0, "missing": 0, "orphan": 0}
+    summary = {lang: {"total_zh": len(zh_files), "fresh": 0, "stale": 0, "metadata_stale": 0, "missing": 0, "orphan": 0}
                 for lang in active_langs}
 
     # Index translations per language
@@ -244,6 +355,7 @@ def build_status(active_langs: list[str]) -> dict:
                 "lastCommit": zh_info["lastCommit"],
                 "lastModified": zh_info["lastModified"],
                 "contentHash": zh_info["contentHash"],
+                "bodyHash": zh_info["bodyHash"],
             },
             "translations": {},
         }
@@ -254,7 +366,9 @@ def build_status(active_langs: list[str]) -> dict:
             # Strip 'lang' key (already keyed)
             tdata.pop("lang", None)
             entry["translations"][lang] = tdata
-            summary[lang][cls["status"]] = summary[lang].get(cls["status"], 0) + 1
+            # Map status to summary key (metadata-stale → metadata_stale)
+            summary_key = cls["status"].replace("-", "_")
+            summary[lang][summary_key] = summary[lang].get(summary_key, 0) + 1
         by_article[zh_rel] = entry
 
     head = git("rev-parse", "--short", "HEAD")

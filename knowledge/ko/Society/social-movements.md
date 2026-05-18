@@ -18,6 +18,10 @@ readingTime: 12
 featured: true
 translatedFrom: 'Society/社會運動與公民參與.md'
 lastVerified: 2026-03-19
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:23077f3ea861f854'
+sourceBodyHash: 'sha256:574c2892f4622c24'
+translatedAt: '2026-04-14T06:37:05+08:00'
 ---
 
 # 사회운동과 시민 참여

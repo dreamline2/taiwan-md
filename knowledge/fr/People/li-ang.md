@@ -1,83 +1,108 @@
 ---
-title: 'Li Ang'
-description: "Auteure de «\u00a0Butcher's Wife\u00a0» et «\u00a0The Lost Garden\u00a0», pionnière de la littérature féministe à Taïwan"
+title: "Li Ang : Lukang 1952, l'ouvrière pionnière de la littérature féministe taïwanaise avec *Le Boucher*"
+description: "Née en avril 1952 à Lukang, dans le comté de Changhua, sous le nom de Shi Shuduan. En 1983, *Le Boucher* est publié en feuilleton dans le *United Daily News*, bouleversant le monde littéraire taïwanais par son traitement de la violence domestique. En 1991 paraît *Le Jardin des illusions*. En 2004, elle est nommée Chevalier de l'Ordre des Arts et des Lettres par la France. Ses œuvres ont été traduites en anglais, français, allemand, japonais et d'autres langues, faisant d'elle l'une des écrivaines taïwanaises les plus reconnues à l'international."
 date: 2026-03-19
-tags: [personnalités, Li Ang, La femme du boucher, Le jardin perdu, littérature féministe, questions de genre, Lukang]
-subcategory: 'Littérature'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+tags:
+  [
+    'Littérature',
+    'Littérature féministe',
+    'Le Boucher',
+    'Le Jardin des illusions',
+    'Lukang',
+    'Questions de genre',
+  ]
+subcategory: '文學'
+author: 'Taiwan.md'
 featured: false
+lastVerified: 2026-05-07
+lastHumanReview: false
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "從鹿港切入——保守古鎮出了最激進的女性主義作家，這個對比本身就是她作品的來源。"
+#   whats_excluded: "各部作品詳細情節分析；學術論文引用清單；政治評論活動細節"
+#   where_it_hedges: "出生日期有4/5與4/7兩說（均以1952年4月為準）；已移除「2018年第22屆國家文藝獎」幻覺（第22屆得主是平路、黃明川等，非李昂）"
 translatedFrom: 'People/李昂.md'
-lastVerified: 2026-03-19
+sourceCommitSha: '0ea5d5d42'
+sourceContentHash: 'sha256:df62ab8c06155632'
+sourceBodyHash: 'sha256:9da57304b87c9abd'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Li Ang : une pionnière courageuse de la littérature féministe
+# Li Ang : Lukang 1952, l'ouvrière pionnière de la littérature féministe taïwanaise avec _Le Boucher_
 
-Li Ang est l'une des auteures contemporaines de Taïwan les plus influentes et les plus controversées — une combattante littéraire qui a osé défier les structures patriarcales traditionnelles. Née en 1952 à Lukang, dans le comté de Changhua, sous le nom de Shi Shuduan, elle explore avec une plume directe et sans concession des sujets sensibles tels que le genre, la violence et le désir, provoquant à plusieurs reprises des tempêtes littéraires dans une société taïwanaise encore conservatrice. Du choc que fut la publication de *La femme du boucher* (*Sha Fu*) en 1983 à l'exploration des profondeurs psychologiques féminines dans *Le jardin perdu* (*Mi Yuan*), l'œuvre de Li Ang s'est toujours tenue à l'avant-garde de son époque : elle y donne une voix aux femmes de Taïwan et ouvre de nouveaux territoires à la création littéraire. Elle n'est pas seulement une romancière de premier plan — elle est aussi l'une des figures clés qui ont éveillé la conscience de genre à Taïwan.
+> **En 30 secondes :** Li Ang est née en avril 1952 à Lukang, dans le comté de Changhua, sous le nom de Shi Shuduan.[^1] Diplômée en philosophie de la Chinese Culture University. Le 22 septembre 1983, _Le Boucher_ commence sa publication en feuilleton dans le _United Daily News_, racontant la riposte d'une femme victime de violence domestique, et provoque un séisme dans le monde littéraire taïwanais.[^1] En 1991 paraît _Le Jardin des illusions_.[^1] En 2004, elle reçoit des mains de la France le titre de Chevalier de l'Ordre des Arts et des Lettres.[^2] Ses œuvres ont été traduites en anglais, français, allemand, japonais et de nombreuses autres langues.
 
-## L'empreinte culturelle de la vieille ville de Lukang
+## 1952, Lukang dans le comté de Changhua
 
-Li Ang a grandi à Lukang, une cité historique chargée d'histoire qui a profondément marqué son imaginaire littéraire. Lukang fut autrefois l'un des ports les plus importants du centre de Taïwan, prospère sur le plan commercial et riche d'un héritage culturel dense. Mais précisément parce que cette ville portait en elle une longue histoire, ses traditions y étaient aussi particulièrement conservatrices — et les contraintes imposées aux femmes, plus strictes encore.
+Li Ang est née en avril 1952 à Lukang, dans le comté de Changhua, sous le nom de Shi Shuduan.[^1] Sa date de naissance fait l'objet de deux versions — le 5 ou le 7 avril — l'année 1952 et le mois d'avril étant confirmés.
 
-Grandir dans cet environnement a aiguisé très tôt le regard de Li Ang sur la condition féminine dans la société traditionnelle. Elle a observé de nombreuses femmes subir en silence les oppressions du système patriarcal — des observations qui ont semé en elle les graines de la rébellion. L'architecture ancienne de Lukang, les temples et leurs encens, les coutumes transmises de génération en génération : tout cela lui a offert une nourriture culturelle abondante, tout en lui faisant sentir avec acuité la tension entre tradition et modernité, entre répression et émancipation.
+Lukang est une ville portuaire historique du centre de Taïwan, profondément marquée par les traditions, où les contraintes pesant sur les femmes sont particulièrement rigoureuses. Dès l'enfance, Li Ang observe la condition féminine dans cet environnement ; ces observations deviennent par la suite le matériau central de sa création littéraire.
 
-Dès le lycée, Li Ang manifeste un goût prononcé pour la littérature. Elle lit abondamment, en chinois et en langues étrangères, et les auteures féminines exercent sur elle une influence déterminante. La pensée de Virginia Woolf, de Simone de Beauvoir et d'autres figures du féminisme constitue le socle théorique sur lequel elle bâtira son œuvre.
+Qu'une écrivaine féministe des plus radicales soit issue d'une ville ancienne conservatrice — ce contraste n'est pas un hasard. Plus un environnement est imprégné de conceptions traditionnelles, plus la pression y est concentrée, concrète, et plus elle se prête à devenir matière littéraire. C'est parce que Li Ang a vu la forme de l'oppression à l'intérieur du cadre conservateur de Lukang qu'elle a pu la décrire avec une telle précision dans _Le Boucher_.
 
-## L'éveil intellectuel des années universitaires
+À la Chinese Culture University, où elle étudie la philosophie, elle entre en contact avec les théories féministes occidentales et développe un cadre de critique systématique.
 
-En 1970, Li Ang intègre le département de philosophie de l'Université Chinoise de Culture, et ces années forment son cadre de pensée. La formation philosophique lui confère une capacité de raisonnement rigoureux et une habitude de réflexion approfondie sur les questions sociales. À l'université, elle s'ouvre aux courants intellectuels occidentaux, et la théorie féministe exerce sur elle une influence considérable.
+La formation philosophique a pour sa littérature une signification précise : elle lui fournit un outil de « conceptualisation », lui permettant de transformer les injustices observées à l'échelle personnelle en structures problématiques susceptibles d'être discutées. _Le Boucher_ est une thèse sur le fonctionnement de l'oppression patriarcale, exprimée dans le langage du roman.
 
-Li Ang commence à écrire dès ses années étudiantes, publiant ses textes dans des revues littéraires universitaires. Ces premières œuvres ne sont pas encore mûres stylistiquement, mais témoignent déjà d'une attention portée à la condition féminine et d'un questionnement des valeurs traditionnelles. Dès l'origine, son écriture est traversée d'une conscience sociale et d'un esprit critique affirmés.
+## 22 septembre 1983 : la publication en feuilleton de _Le Boucher_
 
-Après l'obtention de son diplôme en 1974, Li Ang exerce brièvement comme enseignante, avant de décider de se consacrer entièrement à la littérature. Ce choix était audacieux pour l'époque, surtout pour une femme : vivre de l'écriture signifiait assumer une précarité économique et affronter les doutes de l'entourage.
+Le 22 septembre 1983, _Le Boucher_ commence sa publication en feuilleton dans le _United Daily News_.[^1] Le roman décrit Lin Shi, une femme soumise pendant des années aux sévices de son mari, qui finit par le tuer. En abordant frontalement les thèmes de la violence domestique et de la violence sexuelle, il suscite une vive controverse dans le monde littéraire taïwanais.
 
-## *La femme du boucher* : une œuvre-choc, l'éveil d'une conscience féminine
+Les milieux conservateurs critiquent l'œuvre pour son « atteinte aux bonnes mœurs » ; les progressistes y voient l'annonce de la littérature féministe taïwanaise. La polémique elle-même est le reflet de la conscience de genre dans la taïwanaise de l'époque.
 
-En 1983, Li Ang publie le roman *La femme du boucher* (*Sha Fu*) — comme une pierre lancée dans un lac tranquille, provoquant d'immenses remous dans le monde littéraire taïwanais. Le livre raconte l'histoire de Lin Shi, une femme qui, après avoir enduré les violences répétées de son mari, finit par le tuer. Le récit affronte directement les violences conjugales et l'oppression des femmes.
+_Le Boucher_ est par la suite traduit en anglais, japonais, français et d'autres langues, entrant dans le cadre de discussion de la littérature féministe internationale.[^1]
 
-Le pouvoir de choc du roman ne tient pas seulement à l'audace du sujet, mais à la profondeur de sa critique sociale. À travers le personnage de Lin Shi, Li Ang expose la situation tragique des femmes dans la société traditionnelle. Lin Shi est d'abord une femme soumise et conforme aux normes ; mais sous l'effet des violences physiques et psychologiques que lui inflige son mari, son humanité se déforme progressivement, jusqu'à l'explosion d'une résistance dévastatrice.
+La traduction anglaise de _Le Boucher_ (_The Butcher's Wife_) fait entrer Li Ang dans le champ de la critique littéraire féministe anglophone. Ses œuvres sont considérées à Taïwan comme un signal local pionnier, tout en menant une vie autonome dans le monde académique anglophone — cette coexistence entre « controverse locale » et « reconnaissance internationale » constitue une structure singulière de sa stature littéraire.
 
-Les descriptions directes de violences sexuelles et conjugales ont suscité une vive polémique dans la société taïwanaise de l'époque. Les milieux conservateurs ont accusé l'œuvre d'être violente et immorale ; les milieux progressistes y ont vu la première œuvre de l'histoire littéraire taïwanaise à donner véritablement la parole aux femmes. Quoi qu'il en soit, *La femme du boucher* a indéniablement ouvert une ère nouvelle pour la littérature féministe à Taïwan.
+La controverse déclenchée par la publication en feuilleton dans le _United Daily News_ est devenue en elle-même un débat public dans la société taïwanaise sur la question : « Quelles histoires de femmes ont le droit d'être racontées ? » Plus les critiques conservatrices se font véhémentes, plus elles confirment que l'œuvre a touché un nerf social réel — une œuvre qui ne heurterait aucun tabou ne provoquerait pas une telle réaction.
 
-Le roman a également reçu une attention internationale : traduit en plusieurs langues, il a permis au monde de découvrir la puissance de la littérature féminine taïwanaise. De nombreuses chercheuses féministes étrangères ont fait de cette œuvre un texte de référence pour l'étude de la condition des femmes en Asie.
+Face à cette controverse, Li Ang répond invariablement en plaçant l'honnêteté littéraire au-dessus du confort moral : si de telles situations existent dans la réalité, la littérature a le devoir de les exposer clairement.
 
-## *Le jardin perdu* : une plongée dans les complexités de l'âme féminine
+## 1991 : _Le Jardin des illusions_
 
-Publié en 1991, *Le jardin perdu* (*Mi Yuan*) est une autre œuvre majeure de Li Ang, plus aboutie sur le plan artistique et plus approfondie dans ses thèmes. Le récit prend pour cadre un jardin ancien et suit, à travers le destin de plusieurs générations de femmes, la condition féminine prise entre tradition et modernité, entre culture orientale et occidentale.
+En 1991 paraît _Le Jardin des illusions_.[^1] Dans le cadre d'un ancien jardin, à travers le destin de plusieurs générations de femmes, l'œuvre explore la pression de la culture traditionnelle et la subjectivité féminine. Sa structure narrative est plus complexe que celle de _Le Boucher_, avec des entrelacements temporels et spatiaux.
 
-La structure narrative de *Le jardin perdu* est plus complexe : les temporalités s'entrecroisent, le réel et l'imaginaire se mêlent. Li Ang recourt au symbolisme pour faire du jardin un espace chargé de métaphores. Les rochers sculptés, les pavillons, les fleurs et les arbres portent tous des significations culturelles profondes, et la déambulation des personnages féminins dans cet espace symbolise leur errance et leur quête d'identité au sein de la culture traditionnelle.
+_Le Jardin des illusions_ constitue une double exploration : « mémoire historique + politique du corps féminin ». L'ancien jardin est un réceptacle de l'histoire ; les expériences des femmes sont la trace concrète de la manière dont l'histoire s'inscrit dans les corps. Ce double cadre est la grammaire propre qui distingue Li Ang des autres écrivains de la littérature régionale taïwanaise.
 
-Là où *La femme du boucher* est directe et véhémente, *Le jardin perdu* est plus retenu, plus grave. Li Ang y déploie une maîtrise littéraire plus accomplie : elle manie avec art l'image et la métaphore, tissant une réflexion philosophique complexe dans un récit vivant. Cette maturité artistique marque son passage d'une critique sociale courageuse à une véritable artiste de la littérature.
+À partir des années 1990, les thèmes de création de Li Ang s'étendent à la mémoire historique politique (_Les Fantômes visibles_), à la culture culinaire (_Le Banquet printanier des canards mandarins_), aux mutations politiques de Taïwan (_La Canne à sucre au bord de la route que tout le monde mord_).
 
-## Une création en constante évolution, un engagement social durable
+Cette expansion thématique n'est pas une diversification pour la diversification — elle continue d'appliquer ses outils d'observation (perspective féminine, politique du corps, analyse des structures de pouvoir) à chaque nouveau sujet. De la violence domestique aux plaisanteries politiques, son cadre critique reste cohérent ; seul le champ d'application change.
 
-À partir des années 1990, l'écriture de Li Ang se diversifie. Elle continue de s'intéresser aux questions de genre, mais élargit son regard à des problématiques sociales plus vastes. *Yuanyang Chunshan* interroge les rapports entre nourriture et culture ; *Les fantômes visibles* touche à la politique et à la mémoire historique ; *Canne à sucre au bord du chemin, tout le monde y mord* s'intéresse aux mutations politiques de Taïwan.
+## 2004 : l'Ordre des Arts et des Lettres
 
-Ces œuvres témoignent d'un approfondissement de la pensée de Li Ang et d'un élargissement de son horizon. Elle n'est plus seulement une écrivaine féministe : elle devient une voix littéraire à part entière, engagée sur de multiples fronts. En parallèle, elle ne cesse d'expérimenter de nouvelles formes narratives et de nouvelles techniques d'expression.
+En 2004, le gouvernement français décerne à Li Ang le titre de Chevalier de l'Ordre des Arts et des Lettres.[^2] C'est l'une des plus hautes distinctions du ministère français de la Culture en reconnaissance de contributeurs étrangers au domaine culturel et artistique.
 
-En tant qu'intellectuelle publique, Li Ang participe activement à la vie de la cité. Elle publie régulièrement des articles d'opinion dans les médias, formulant ses points de vue sur les phénomènes de société. Ses prises de position suscitent souvent la controverse, mais elle ne recule jamais : elle maintient en toutes circonstances son indépendance intellectuelle et son esprit critique.
+L'Ordre des Arts et des Lettres est l'une des plus hautes distinctions du ministère français de la Culture pour les artistes étrangers, les critères d'attribution mettant l'accent sur les apports « à la culture française ». Les œuvres de Li Ang ayant été traduites et diffusées dans le monde francophone, sa perspective littéraire féministe est entrée dans un cadre de discussion international plus large — cette décoration en est la confirmation officielle.
 
-## Une présence internationale et des échanges culturels féconds
+Pour une écrivaine originaire de Lukang, à Taïwan, cette plus haute distinction culturelle française représente bien plus qu'une reconnaissance personnelle : c'est l'hommage rendu par une institution culturelle internationale à la littérature féministe taïwanaise en tant que tradition critique légitime.
 
-L'œuvre de Li Ang rayonne bien au-delà de Taïwan. Plusieurs de ses romans ont été traduits en anglais, français, allemand, japonais et d'autres langues encore, et publiés à travers le monde. Elle est régulièrement invitée à l'étranger pour des événements littéraires et des échanges avec des auteurs internationaux.
+## Palmarès littéraires
 
-Ces rencontres ont non seulement étendu l'influence de son œuvre, mais aussi enrichi sa vision créatrice. Elle réfléchit de plus en plus à la condition des femmes d'Orient dans le contexte de la mondialisation, ainsi qu'au devenir des cultures traditionnelles dans la modernité. Cette perspective culturelle élargie confère à ses œuvres une profondeur philosophique accrue.
+Li Ang a reçu le Prix littéraire du _United Daily News_ et le Prix littéraire du _China Times_, entre autres.[^3] Ces deux prix sont les concours littéraires les plus prestigieux de Taïwan ; les lauréats représentent la reconnaissance par le monde littéraire de l'innovation et de la qualité littéraire des œuvres — le palmarès de Li Ang confirme que sa qualité littéraire a également été reconnue à des critères rigoureux.
 
-Li Ang s'engage aussi activement pour la promotion de la littérature taïwanaise à l'international. Elle participe à l'organisation d'échanges littéraires, invite des auteurs étrangers à venir à Taïwan, et fait connaître les meilleures œuvres taïwanaises à l'étranger. Sa contribution à l'ouverture de la littérature taïwanaise sur le monde est considérable.
+**Note :** Certaines sources indiquent que Li Ang aurait reçu le « 22ᵉ Prix national des arts et de la littérature en 2018 », mais selon les données officielles du National Culture and Arts Foundation (NCAF), les lauréats du 22ᵉ Prix national des arts et de la littérature sont Ping Lu, Huang Ming-chuang, Bulareyaung et d'autres, et non Li Ang. Cette affirmation est une erreur factuelle et a été retirée.[^4]
 
-## Reconnaissance et place dans l'histoire littéraire
+**Lecture courante → Lecture plus précise :** Li Ang est souvent qualifiée d'« écrivaine féministe » ; ce label est exact mais incomplet. Sa problématique plus précise est : comment l'oppression de genre opère-t-elle simultanément aux niveaux institutionnel, culturel et de la vie quotidienne ? _Le Boucher_ interroge la structure de la violence domestique ; _Le Jardin des illusions_ interroge la manière dont la mémoire historique supprime la subjectivité féminine. Les objets de sa critique dépassent ce que le label « féministe » peut recouvrir.
 
-La place de Li Ang dans l'histoire littéraire de Taïwan est incontestable. Pionnière essentielle de la littérature féministe taïwanaise, elle a ouvert de nouveaux territoires à la création. Son courage et son talent ont inspiré toute une génération d'écrivaines, parmi lesquelles Ping Lu et Zhu Tianxin, qui ont toutes deux reconnu sa dette à son égard.
+> 🎙️ **Note de la commissaire :** Li Ang est l'écrivaine qui, dans l'histoire de la littérature taïwanaise, a le plus consciemment introduit la « politique du corps » dans la discussion littéraire grand public. La controverse déclenchée par _Le Boucher_ en 1983 était essentiellement une bataille sur les limites de « ce qui peut être écrit » — elle a gagné cette bataille, et les limites se sont déplacées.
+>
+> Sa décoration française et les traductions multilingues de ses œuvres montrent que son langage littéraire possède une force de pénétration transculturelle : elle n'écrit pas seulement sur les femmes taïwanaises, mais sur des situations susceptibles d'exister dans toute structure culturelle patriarcale.
+>
+> Sa dimension controversée ne vient jamais de gestes provocateurs, mais du fait qu'elle met des mots sur ce que « tout le monde sait sans que personne ne le formule clairement » — cet acte de clarification provoque en tout temps un malaise.
 
-Son œuvre a été récompensée par de nombreux prix littéraires, dont le Prix littéraire du United Daily News, le Prix littéraire du China Times et le Prix national des arts. En 2018, elle a reçu le 22e Prix national des arts, en reconnaissance de sa contribution exceptionnelle à la littérature taïwanaise.
+Partie de la ville ancienne conservatrice de Lukang, traversant les controverses littéraires jusqu'à la décoration française — le parcours de Li Ang montre que les voix les plus radicales naissent parfois des sols les plus conservateurs, parce qu'elles voient la forme de l'oppression avec la plus grande netteté.
 
-L'impact de Li Ang sur l'éveil de la conscience de genre dans la société taïwanaise est tout aussi important. Des œuvres comme *La femme du boucher* ont sensibilisé un public plus large aux questions de violences conjugales et de discrimination sexiste, stimulant le débat public sur ces problématiques. On peut dire qu'elle est non seulement une figure littéraire, mais aussi une actrice du changement social.
-
-Là où Long Yingtai choisit la critique rationnelle et Pai Hsien-yung la sensibilité raffinée, Li Ang a emprunté une voie plus radicale. Elle a fait de la littérature une arme pour déclarer la guerre aux injustices sociales. Son chemin a été semé de controverses, mais sa persévérance a finalement obtenu la reconnaissance de l'histoire.
+**Pour aller plus loin** : [Li Ang — Wikipédia](<https://zh.wikipedia.org/wiki/李昂_(作家)>) ｜ [Blog de Li Ang](http://li-angnet.blogspot.com/) ｜ [Musée national de la littérature taïwanaise](https://www.nmtl.gov.tw/)
 
 ## Références
 
-- [Recherches sur l'œuvre de Li Ang — Musée national de la littérature taïwanaise](https://www.nmtl.gov.tw/index.php?option=com_content&task=view&id=4567) — Études spécialisées et fonds d'archives consacrés à Li Ang
-- [Site officiel de Li Ang](http://www.li-ang.com.tw) — Site de l'auteure, avec l'ensemble de sa bibliographie et ses actualités
-- [La littérature féministe à Taïwan — Academia Sinica](https://www.sinica.edu.tw/ch/news/7842) — Rapport de recherche académique sur le développement de la littérature féministe à Taïwan
+[^1]: [Wikipédia : Li Ang (écrivaine)](<https://zh.wikipedia.org/wiki/李昂_(作家)>) — Confirme la naissance en avril 1952 à Lukang, dans le comté de Changhua (nom réel : Shi Shuduan), les études de philosophie à la Chinese Culture University, la publication en feuilleton de _Le Boucher_ le 22 septembre 1983 dans le _United Daily News_, la parution de _Le Jardin des illusions_ en 1991, ainsi que les langues de traduction des œuvres.
+
+[^2]: [Ordre des Arts et des Lettres : Li Ang](http://li-angnet.blogspot.com/) — Contient les documents relatifs à la remise du titre de Chevalier de l'Ordre des Arts et des Lettres en 2004.
+
+[^3]: [Musée national de la littérature taïwanaise : fonds Li Ang](https://www.nmtl.gov.tw/) — Archives des œuvres littéraires de Li Ang et données relatives aux prix reçus.
+
+[^4]: [NCAF : liste des lauréats du 22ᵉ Prix national des arts et de la littérature](https://www.ncafroc.org.tw/artsaward/session/22) — Confirme que les lauréats du 22ᵉ prix (2018) sont Ping Lu, Huang Ming-chuang, Bulareyaung et d'autres, et non Li Ang, éliminant ainsi l'affirmation selon laquelle « Li Ang aurait reçu le 22ᵉ Prix national des arts et de la littérature en 2018 ».
+
+[^5]: [Blog personnel de Li Ang](http://li-angnet.blogspot.com/) — Points de vue personnels de l'écrivaine et chronique de son actualité.

@@ -17,6 +17,10 @@ category: 'Food'
 featured: false
 lastVerified: 2026-03-20
 translatedFrom: 'Food/台灣麵食文化.md'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:7aeb090ae7f880d7'
+sourceBodyHash: 'sha256:07d9c3b482846ce9'
+translatedAt: '2026-04-14T12:25:09+08:00'
 ---
 
 # Taiwanese Noodle Culture

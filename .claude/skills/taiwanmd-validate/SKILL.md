@@ -55,10 +55,10 @@ Check:
 - [ ] `lastHumanReview` — set to `true` if human-reviewed
 - [ ] `lastVerified` — date of last fact-check
 
-### 3. Content quality check (quality-scan)
+### 3. Content quality check (article-health prose-health)
 
 ```bash
-cd "$(git rev-parse --show-toplevel)" && bash tools/quality-scan.sh "knowledge/<Category>/<filename>.md"
+cd "$(git rev-parse --show-toplevel)" && python3 scripts/tools/article-health.py "knowledge/<Category>/<filename>.md" --check=prose-health
 ```
 
 Scores articles 0-10 for AI-generated "hollow" content. Score > 4 = needs rewrite.

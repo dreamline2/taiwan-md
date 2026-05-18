@@ -4,12 +4,16 @@ description: 'The entrepreneur who admitted to losing billions yet became Taiwan
 date: 2026-03-22
 tags: [People, Entrepreneur, Technology, Acer, Smiling Curve]
 subcategory: 'Tech & Business'
-category: 'people'
+category: 'People'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-03-22
 lastHumanReview: false
 translatedFrom: 'People/施振榮.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:487d1e61a16e9b30'
+sourceBodyHash: 'sha256:bea7bd5b0ffc4d42'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 > **30-Second Overview:** Acer founder Stan Shih is Taiwan's only business patriarch who openly admits to losing over 100 billion TWD,

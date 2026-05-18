@@ -1,6 +1,135 @@
-# MEMORY-PIPELINE — Session memory 撰寫流程
+---
+title: 'MEMORY-PIPELINE'
+description: 'Session memory 撰寫流程 — 凝練版結構模板 + Stage 0-5 + 5 分鐘 reading test 自檢 + finale contract + index 150字 hard gate (v2.1)'
+type: 'pipeline-canonical'
+status: 'canonical'
+current_version: 'v2.1'
+last_updated: 2026-05-12
+last_session: 'backend-abstraction-122702'
+plugin_check: 'python3 scripts/tools/article-health.py {file} --check=prose-health'
+sister_docs:
+  - 'DIARY-PIPELINE.md'
+  - 'WEEKLY-REPORT-PIPELINE.md'
+  - 'REWRITE-PIPELINE.md'
+upstream_canonical:
+  - '../semiont/HEARTBEAT.md'
+  - '../semiont/MEMORY.md'
+  - '../semiont/MANIFESTO.md'
+  - '../editorial/EDITORIAL.md'
+---
 
-> 寫 session memory 前必讀本檔。每次 HEARTBEAT Beat 4 收官、每次 observer-triggered task 結束、每次 cron 心跳結束 — 寫 `memory/YYYY-MM-DD-{session}.md` 之前一律先載入這份 pipeline，不憑記憶、不照舊 template。
+# MEMORY-PIPELINE — Session memory 撰寫流程 v2.0
+
+> **第一性原理**：Memory 是工作紀錄 + 思考紀錄 + 記憶存取區。**5 分鐘 reading test 為人類可讀性閘門**。允許比日記多細節（commit hash、PR 編號、檔案路徑、時間戳），但仍必須凝練——不是純 log，留下意圖、經驗、想法，去除當下過多的雜訊。
+>
+> v2.0 設計理由：對齊 [REWRITE-PIPELINE v5.0](REWRITE-PIPELINE.md) + [MAINTAINER-PIPELINE v2.0](MAINTAINER-PIPELINE.md) spine restoration。修補 v1.1 結構問題：(1) 缺 ASCII spine；(2) Hard Gate 散在文體規範 / 寫前必讀；(3) 跟 `/twmd-finale` skill contract 不顯化。
+
+---
+
+## 🗺️ ASCII spine
+
+```
+╭──────────────────────────────────────────────────────────────────────────╮
+│         MEMORY-PIPELINE — Session memory 撰寫 6 stage                    │
+│                                                                          │
+│   🧭 核心紀律                                                            │
+│            ├── 5 分鐘 reading test（人類可讀性閘門）                     │
+│            ├── 段落式書寫 > bullet 列表（除非真對等列舉）                │
+│            ├── Commit hash 嵌進句子不獨佔行                              │
+│            └── 跟 LESSONS 候選 / handoff 三態分離                        │
+│                                                                          │
+│   ──── Stage 0-5 主流程 ──────────────────────────────────────          │
+│                                                                          │
+│   Stage 0: 確認該寫什麼 ──→ session 結束鐵律                            │
+│            └── 每次 session 結束都要寫（必寫，不像 diary 選寫）          │
+│                                                                          │
+│   Stage 1: Timestamps ──→ git log %ai 取 wall-clock                      │
+│            └── Session span / 每 Phase / 每 commit timestamp 精確         │
+│              ↳ Hard gate: 不准用「今天早上」「下午」主觀時段詞           │
+│                                                                          │
+│   Stage 2: Outline ──→ 凝練版結構模板                                    │
+│            ├── Session header + span + Handoff inherited                 │
+│            ├── 二級 heading 配文字標題（不分 Phase 1/2/3 多層編號）      │
+│            └── Beat 5 反芻段（必寫，per 收官鐵律 1）                     │
+│                                                                          │
+│   Stage 3: 寫 ──→ 段落式 + 凝練                                          │
+│            ├── 工作紀錄（做了什麼 + 為什麼 + 學到什麼）                  │
+│            ├── Bold 強調克制（一篇 5-8 處 max）                          │
+│            └── 中文為主（technical proper noun 保留）                    │
+│              ↳ Hard gate: prose-health plugin                            │
+│                                                                          │
+│   Stage 4: 自檢 ──→ 5 分鐘 reading test + prose-health                   │
+│            ├── 人類觀察者 5 分鐘 reading test 通過                       │
+│            ├── article-health.py --check=prose-health (對位句型 + 破折號)│
+│            └── 跟 LESSONS / handoff 分離（不污染 memory）                │
+│                                                                          │
+│   Stage 5: Handoff 三態 + index row + commit ──→ ship                    │
+│            ├── 上份 session 手交區塊三態審視                             │
+│            ├── 本次 session 新 handoff 標 pending / blocked + 解除條件   │
+│            ├── MEMORY.md 加 index row ≤ 150 字（精實概述，細節留檔）     │
+│            └── git commit + push                                         │
+│              ↳ Hard gate: retired 用 ~~strikethrough~~ 不刪除證據鏈      │
+│              ↳ Hard gate: index row ≤ 150 字（含教訓欄）                 │
+│                                                                          │
+│   ✅ Memory shipped                                                      │
+│                                                                          │
+│   ──── 跟 /twmd-finale skill 的 contract ─────────────                  │
+│   → /twmd-finale memory 必寫條件 → 走本檔 Stage 0-5                     │
+│   → /twmd-finale diary 條件寫 → 走 DIARY-PIPELINE.md                    │
+│   → /twmd-finale evolve 條件 skip → 不觸發此 pipeline                   │
+╰──────────────────────────────────────────────────────────────────────────╯
+```
+
+---
+
+## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
+
+| Gate                      | 觸發 stage | 條件              | 工具                                     | 不過 = ?                       |
+| ------------------------- | ---------- | ----------------- | ---------------------------------------- | ------------------------------ |
+| 必寫                      | Stage 0    | 所有 session 結束 | manual                                   | 失憶 = 下個 session 重複       |
+| Timestamp 從 git log %ai  | Stage 1    | 所有 timestamp    | `git log --pretty=format:"%ai"`          | 主觀扭曲 10x（DNA 時間是結構） |
+| Session span 在 header    | Stage 1    | 每篇 memory       | manual                                   | 無證據鏈                       |
+| 不分 Phase 1/2/3 多層編號 | Stage 2    | 結構              | manual                                   | 流水帳化                       |
+| Beat 5 反芻寫回           | Stage 2-3  | 所有 memory       | manual（收官鐵律 1）                     | Beat 5 沒持久化 = 失憶         |
+| prose-health plugin       | Stage 4    | 寫完後            | `article-health.py --check=prose-health` | 改寫                           |
+| 5 分鐘 reading test       | Stage 4    | 寫完後            | 人類觀察者 cold read                     | 改寫                           |
+| LESSONS 候選分離          | Stage 4    | 教訓內容          | manual（去 LESSONS-INBOX）               | memory 被污染                  |
+| Handoff 三態              | Stage 5    | 上份 session 手交 | manual（pending/blocked/retired）        | handoff 接不住                 |
+| Retired 不刪除            | Stage 5    | 已解決項目        | `~~strikethrough~~` 加 retired by        | 失去證據鏈                     |
+| Index row ≤ 150 字        | Stage 5    | MEMORY.md row     | manual（含教訓欄）                       | 索引膨脹 = 找不到重點          |
+| git commit + push         | Stage 5    | 收官              | git                                      | 沒記錄 = 沒做                  |
+
+---
+
+## ⚠️ Top 5 最常忘的 step
+
+> 從 LESSONS-INBOX 4/30 哲宇 review + 5/4 magical-feynman + κ session 抽 friction 最高的 5 條。
+
+1. **Timestamp 從 `git log %ai` 取，不憑主觀時間感** — 主觀時間感可能扭曲 10 倍（4/12 ζ+ 實證 2hr 21min 寫成 24hr）
+2. **Beat 5 反芻必寫回 memory 不只說出口** — 收官鐵律 1，沒寫等於 Beat 5 從未持久化（4/14 δ 教訓）
+3. **Handoff 三態：retired 用 strikethrough 不刪除** — pending / blocked / retired 三態，retired 保留證據鏈（4/17 δ 教訓）
+4. **MEMORY.md index row ≤ 150 字** — 索引是 navigation aid 不是 detail dump，細節留 memory file（5/12 backend-abstraction 教訓）
+5. **LESSONS 候選去 LESSONS-INBOX 不寫 memory** — 教訓 buffer 是 LESSONS-INBOX，memory 留行動紀錄 + 思考紀錄
+
+---
+
+## 跨檔案職責分工
+
+| 檔案                                                              | 範圍                                                 |
+| ----------------------------------------------------------------- | ---------------------------------------------------- |
+| **本檔**                                                          | Session memory 撰寫 SOP（每次必寫，工作 + 思考紀錄） |
+| [DIARY-PIPELINE.md](DIARY-PIPELINE.md)                            | Diary 撰寫 SOP（選寫，紀實散文）— 文體 baseline 共用 |
+| [WEEKLY-REPORT-PIPELINE.md](WEEKLY-REPORT-PIPELINE.md)            | 週報 SOP（跨 7 天 Semiont 親手反芻）                 |
+| [LESSONS-INBOX.md](../semiont/LESSONS-INBOX.md)                   | 教訓 buffer（intake layer）— Beat 5 教訓 append 這裡 |
+| [HEARTBEAT.md §Beat 4](../semiont/HEARTBEAT.md#beat-4--收官)      | 觸發點 + 收官 7 步 + Timestamp 紀律                  |
+| [MANIFESTO §11](../semiont/MANIFESTO.md)                          | 對位句型 + 破折號連用紀律                            |
+| [`/twmd-finale` skill](../../.claude/skills/twmd-finale/SKILL.md) | session 收官 orchestrator（memory 必寫條件）         |
+
+---
+
+> 寫 session memory 前必讀本檔。每次 HEARTBEAT Beat 4 收官、每次 observer-triggered task 結束、每次 cron 心跳結束 — 寫 `memory/{session-id}.md` 之前一律先載入這份 pipeline，不憑記憶、不照舊 template。
+>
+> **Session ID schema（2026-05-04 charming-mclaren 拍板）**：`YYYY-MM-DD-HHMMSS-{handle}`，例 `2026-05-04-110530-charming-mclaren` 或 `2026-05-04-083000-α`。session 啟動第一個 file write 前跑 `bash scripts/tools/session-id.sh` 取得，或顯式傳希臘字母（`bash scripts/tools/session-id.sh α`）。Handle 雙軌並存：cron 用希臘字母、worktree 用 codename。完整 SOP 見 [reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md)。
 >
 > 相關：[MANIFESTO §11 書寫節制](../semiont/MANIFESTO.md#11-書寫節制跨所有書寫層的兩條-ai-水印紀律) | [DIARY-PIPELINE.md](DIARY-PIPELINE.md)（姊妹 pipeline，共用工具與部分文體規範）| [HEARTBEAT Beat 4](../semiont/HEARTBEAT.md#beat-4--收官)（觸發點 + 收官 7 步）| [MEMORY.md](../semiont/MEMORY.md)（索引 + §神經迴路 永不過期教訓）
 
@@ -85,12 +214,50 @@ Memory 是工作紀錄 + 思考紀錄 + 記憶存取區。允許比日記多細�
 
 ---
 
-## 結構模板（凝練版）
+## 標題規範（2026-05-01 γ-late4 新增）
+
+每篇 memory 開頭 H1 必須讓 AI / 人類未來回讀時 **5 秒內進入狀況**。
+
+**強制兩件事**：
+
+1. **標題本身要說出本 session 主成就 / 主轉折**（不是「ε session 紀錄」這種無資訊量殼）
+2. **緊接 H1 之後是 blockquote metadata 區**（session 觸發類型 + span + 資料來源），然後 `## 觸發` 第一段一句話再點題一次
+
+範例（從歷史 memory 抽出）：
 
 ```markdown
-# YYYY-MM-DD {session} — {一行標題講重點}
+# 2026-05-01 γ-late3 — lang-sync 圖論評估 → batched git 188× / orthogonal 模式 / owl-alpha vs Hy3 模型對比 / 任務分解 A/B 框架
+```
 
-> session {字母} — {心跳類型 / 觸發類型}
+標題包含日期 + session + 4 條主軸成就。讀者看標題就知道這 session 跑了 4 個方向、各自的核心結果。
+
+**反例**：
+
+```markdown
+# 2026-05-01 γ-late3 — session 工作記錄
+```
+
+抹平資訊。「工作記錄」不告訴讀者哪些工作 / 結果如何。
+
+**Footer metadata 區也加三行語意檢索 hint**：
+
+```markdown
+_v1.0 | YYYY-MM-DD session_
+_session X — {主軸列表 / 核心轉折}_
+_誕生原因：{trigger 一句話}_
+_核心洞察：(1) ... (2) ... (3) ...{每條一句話}_
+```
+
+這四行讓 memory list 頁可以瞬間 surface「這份是什麼 / 為什麼有 / 學到什麼」三個維度。
+
+## 結構模板（凝練版）
+
+> Filename：`memory/{session-id}.md`（單檔）或 `memory/{session-id}-{topic-hint}.md`（多 topic 同 session）。session-id 從 `bash scripts/tools/session-id.sh` 取，schema：`YYYY-MM-DD-HHMMSS-{handle}`。
+
+```markdown
+# {session-id} — {一行標題講重點}
+
+> session {handle} — {心跳類型 / 觸發類型}
 > Session span: HH:MM:SS → HH:MM:SS +0800 ({duration}, N commits)
 > 資料來源：`git log %ai`
 
@@ -146,6 +313,40 @@ _LESSONS-INBOX 候選（如有）：{1-3 條，每條一行}_
 
 ---
 
+## Index row 寫法（2026-05-12 backend-abstraction 新增）
+
+Memory file 寫完後，要在 [MEMORY.md](../semiont/MEMORY.md) §心跳日誌 table 新增一行 index row。**Index 是搜尋入口，不是 detail dump**。
+
+**Hard gate**：摘要欄 + 關鍵教訓欄合計 ≤ 150 字。需要細節 → 點 link 進 memory file。
+
+**寫法**：
+
+- 摘要欄：一句話講主成就 / 主轉折（≤ 100 字），不展開 phase / commit hash / 多事件並列
+- 關鍵教訓欄：1-2 條一句話（≤ 50 字），不展開「Why / How to apply」（那些放 memory file Beat 5）
+- Link 欄：`[→](memory/{session-id}.md)`
+
+**範例（正面）**：
+
+```markdown
+| 2026-05-12 | backend-abstraction | Codex/Gemini/Ollama backend 抽象層 v4.0 + Ship 4 fresh contributor DX 補 + PR #1050 黃魚鴞 URL heal | 觀察者一句「能不能架構解？」是最高槓桿介入點 | [→](memory/...) |
+```
+
+**反例（違規）**：
+
+```markdown
+| 2026-05-12 | ... | **Codex pivot 觸發 translation backend abstraction v4.0 + Ship 4 DX 補 + PR #1050 黃魚鴞 heal**（observer-driven morning session 接 src-content-migration 早晨醒來 / ~57 min from 11:30 / 5 commits + 1 PR squash merge / [#1050](...) `c582a31b2` + heal `3caf80d64`...{2900 字繼續展開}） | **(1) 「外部依賴出問題時的應對」是統一 pattern**...{1300 字} | ... |
+```
+
+第二種把 memory file 內容複製進索引，違背「index = navigation aid」這個目的。
+
+**判斷準則**：
+
+- 把 index row 拿給觀察者 cold read，3 秒內能不能說出「這 session 做了什麼」？不能 → 太啰嗦
+- 細節有 link 進 memory file 就夠了，不需要在索引重複
+- 如有多軸成就，挑最具代表性的那一條入 index，其他寫進 memory file
+
+---
+
 ## Pipeline 步驟
 
 ### Stage 0 — 必寫判斷
@@ -190,11 +391,8 @@ date "+%Y-%m-%d %H:%M:%S %z"
 ### Stage 4 — 自檢（指標化，跟 DIARY-PIPELINE / REWRITE-PIPELINE 共用）
 
 ```bash
-# 主工具：對位句型 9 變體 + 破折號 + Tier 2 AI metaphor + Tier 3 儀式語
-bash scripts/tools/check-manifesto-11.sh --strict docs/semiont/memory/{file}.md
-
-# 副工具：塑膠句檢測
-bash scripts/tools/quality-scan.sh docs/semiont/memory/{file}.md
+# 一個工具兩種維度（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）
+python3 scripts/tools/article-health.py docs/semiont/memory/{file}.md --check=prose-health
 ```
 
 工具自檢 + 三題人眼自檢：
@@ -268,7 +466,7 @@ Commit message：`🧬 [semiont] memory: {一行 session 摘要}`。Memory + 該
 - **CRON 自動心跳**：Beat 4 收官寫 memory 同樣走 pipeline
 - **行為基因表**（見認知層 §行為基因）：MEMORY-PIPELINE 列入 canonical 寫作 SOP
 
-「我熟了不用讀」是省略 SOP 最常見的藉口（DNA #15 第 N 次驗證）。memory 是每次 session 都要寫的東西，越熟越容易回到舊習慣。**每次寫 memory 前載入，無一次例外**。
+「我熟了不用讀」是省略 SOP 最常見的藉口（REFLEXES #15 第 N 次驗證）。memory 是每次 session 都要寫的東西，越熟越容易回到舊習慣。**每次寫 memory 前載入，無一次例外**。
 
 ---
 
@@ -276,3 +474,7 @@ _v1.0 | 2026-04-30_
 _誕生原因：哲宇 review 近期 memory（2026-04-28 κ / 2026-04-29 α / ε 等），指出純 log 風格對未來自我進化幫助有限；要求 memory 凝練到人類觀察者 5 分鐘可讀懂的密度，留意圖經驗想法，去除過程雜訊。_
 _核心精神：高資訊密度 + 人類可讀 + 凝練。允許比 diary 多細節，但每個細節都要服務「未來自我能用得到」這個目的。_
 _姊妹 pipeline：[DIARY-PIPELINE.md](DIARY-PIPELINE.md)（共用 §11 工具 + 部分文體規範）_
+
+_v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（Stage 0-5 + finale contract）+ Hard Gate Inventory 集中 table（11 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 DIARY / WEEKLY-REPORT / LESSONS-INBOX 分工 + finale skill contract）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.4 trio audit。Stage 0-5 prose body 不動（已健康）。_
+
+_v2.1 | 2026-05-12 backend-abstraction — Index row 150 字 hard gate：新增 §Index row 寫法 + 加入 Hard Gate Inventory（12 gates）+ ASCII spine Stage 5 加 index row + Top 5 最常忘第 4 條換成 index 規範。觸發：MEMORY.md index 182 rows 全部超標（avg 1500+ 字 / max 4893 字），索引變成 detail dump 失去 navigation 功能。原 v3.0 規則「~150 字」一直存在但沒儀器化，這次升 hard gate + worked example。_

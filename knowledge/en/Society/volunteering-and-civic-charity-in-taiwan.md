@@ -15,6 +15,10 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-03-19
 translatedFrom: 'Society/台灣志工文化與公益參與.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:47c6a7bb7a1ac1e1'
+sourceBodyHash: 'sha256:edcd412e8178b727'
+translatedAt: '2026-05-17T06:10:00Z'
 ---
 
 # Volunteering and Civic Charity in Taiwan

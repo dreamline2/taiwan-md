@@ -1,521 +1,172 @@
 ---
 title: 'Digital ID and Digital Government'
-description: "Taiwan's digital government transformation journey, from digital ID controversies to 'My E-Government' one-stop services, exploring innovations and challenges in digital governance"
+description: "A chip card that was never issued cost NT$280 million in compensation — Taiwan's digital government story is proof that trust is harder to build than technology"
 date: 2026-03-18
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '開源社群'
 tags:
   [
-    'digital government',
-    'digital ID',
-    'e-government',
-    'Ministry of Digital Affairs',
-    'online application',
-    'cybersecurity',
-    'personal data protection',
+    '數位政府',
+    '數位身分證',
+    '電子化政府',
+    '數位發展部',
+    'g0v',
+    '資安',
+    '個資保護',
   ]
-author: 'Taiwan.md'
-difficulty: 'intermediate'
-readingTime: 13
+readingTime: 12
+lastVerified: 2026-03-24
+lastHumanReview: false
 featured: true
-category: 'Technology'
-lastVerified: 2026-03-19
 translatedFrom: 'Technology/數位身分證與數位政府.md'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:06fbc10ed01b5aa5'
+sourceBodyHash: 'sha256:f5b7d5b360840e4c'
+translatedAt: '2026-05-15T14:23:13+08:00'
 ---
 
 # Digital ID and Digital Government
 
-Taiwan's digital government development reflects how a modern democratic nation balances efficiency with privacy, citizen convenience with cybersecurity in its digital transformation. From e-government initiatives starting in the 1990s to the establishment of the Ministry of Digital Affairs in 2022, Taiwan has made significant progress in digital governance. However, the suspension of the New eID (digital identity card) implementation also demonstrates that technological feasibility and social acceptability still require ongoing dialogue.
-
-## 30-Second Overview
-
-Taiwan's digital government development began in the 1990s, evolving through multiple phases. Key milestones include the launch of the Citizen Digital Certificate, the integration of "My E-Government" services, and the establishment of the Ministry of Digital Affairs. The New eID was suspended due to privacy and cybersecurity concerns, reflecting democratic society's emphasis on digital rights. Currently, Taiwan provides over 2,700 online government services and is one of Asia's leading digital government nations.
-
-**Keywords:** Digital Government, My E-Government, Digital ID, Citizen Digital Certificate, Ministry of Digital Affairs, Online Application, Information Security
+> **30-second overview:** In January 2021, a chip-based national ID card that had never been issued cost the Taiwanese government roughly NT$280 million (approximately US$10 million) in compensation. The program, called New eID, was supposed to let 23 million people "handle all affairs with one card." Instead, it was suspended after more than 2,000 scholars signed a petition in opposition. The irony is that in the same year the digital ID program stalled, Taiwan's civic hacker community built a mask availability map in a matter of days — a digital government service that no one was forced to use, yet everyone rushed to use. The real story of Taiwan's digital governance is not about whether the technology is advanced enough, but about how trust is built.
 
 ---
 
-## Taiwan's Digital Government Development Context
+## A Card That Sparked a Crisis of Trust
 
-### Germination Phase: E-Government Initiative (1990-2000)
+In June 2019, Premier Su Tseng-chang posted a promotional video on Facebook touting the upcoming full rollout of the digital national ID card. He said: "The old saying was 'a scholar never leaves home, yet knows all under heaven.' In the future, it will be 'a scholar never leaves home, yet can handle all affairs under heaven.'" Secretary-General of the Executive Yuan Li Meng-yueh added: "128 countries around the world already use chip-based digital ID cards. Taiwan must catch up and keep pace with global trends." (As reported in The Reporter's 2021 investigative report)
 
-With the rise of the internet in the 1990s, Taiwan's government began considering how to use information technology to improve public services. This period focused on infrastructure and internal system digitization.
+What the Executive Yuan did not expect was not applause, but wave after wave of opposition.
 
-**Main Achievements:**
+The Taiwan Association for Human Rights and the Open Culture Foundation launched a petition. The Judicial Reform Foundation filed an administrative lawsuit against the government. Academia Sinica held a two-day symposium and subsequently issued a policy white paper recommending a suspension. In November 2020, the Legislative Yuan directly froze NT$400 million of the ID replacement program's budget. On January 21, 2021, Premier Su Tseng-chang made the final call: the digital ID replacement program, with total funding exceeding NT$4.8 billion (including a NT$3.29 billion card manufacturing contract among multiple procurement packages — the overall program budget figures vary depending on the accounting scope[^1]), was suspended.
 
-- **Government Service Network (GSN) Establishment**: Connected government agencies at all levels
-- **Government Website Proliferation**: Ministries began establishing official websites
-- **Internal Administrative System Digitization**: Document systems and personnel systems went digital
-
-### Development Phase: E-Government Promotion (2001-2010)
-
-This phase shifted focus to external services, beginning to provide online application services and establishing digital authentication mechanisms.
-
-**Important Milestones:**
-
-- **2003: Citizen Digital Certificate Launch** — Taiwan's first digital identity authentication mechanism
-- **2004: My E-Government Website Launch** — Unified government service portal
-- **2005: E-Government Promotion Plan** — Systematic promotion of digital governance
-
-### Deepening Phase: Smart Government Transformation (2011-2020)
-
-With mobile network proliferation and cloud technology maturation, government services moved toward intelligent and personalized development.
-
-**Innovative Developments:**
-
-- **Mobile Government Services**: Launched government service apps
-- **Open Data Policy**: Government data opened for public use
-- **Cloud Infrastructure**: Government cloud service platform construction
-- **AI Applications**: AI integration in customer service and decision support
-
-### Integration Phase: Ministry of Digital Affairs Era (2021-Present)
-
-The establishment of the Ministry of Digital Affairs in 2022, coordinating national digital development policies, marked Taiwan's entry into a new era of digital governance.
+> 📝 **Curator's Note**
+> A democratic government spent NT$4.8 billion pushing a program that was ultimately stopped by its own civil society. This is not common globally. In most countries, digital ID programs follow a "government decides, people accept" model. India's Aadhaar system enrolled 1.2 billion people; the controversy has never stopped, but the cards were still issued. Taiwan's New eID remains on the suspension list to this day.
 
 ---
 
-## Citizen Digital Certificate: Taiwan's Digital Authentication Pioneer
+## The Cards Were Already Being Printed Before Experts Were Consulted
 
-### Development Background
+The failure of this card was not a technical problem — it was a procedural one.
 
-The Citizen Digital Certificate is Taiwan's earliest digital identity authentication mechanism, issued starting in 2003, aimed at confirming user identity in the digital world and ensuring transaction security.
+The digital ID program was divided into four procurement contracts: the planning contract was awarded to Giga Management Consulting; the NT$3.29 billion card manufacturing contract went to TECO Electric & Machinery; the system contract, after multiple failed bids, was awarded to Chunghwa Telecom; and the verification contract went to DTC Information. The problem: in early 2020, before any details had been made public, the latter three contracts had already been awarded.
 
-### Technical Features
+A member of the Ministry of the Interior's working group told _The Reporter_: "The card manufacturing contract had already been awarded before they came to ask us whether we had any comments on the specifications. The Central Engraving and Printing Plant had already finished its work before we reviewed the overall plan." He added, "Many people felt the task force was just a rubber stamp." (As reported in The Reporter's 2021 investigative report)
 
-- **PKI Technology**: Public Key Infrastructure adoption
-- **IC Card Carrier**: Smart card storage for digital certificates
-- **Two-Factor Authentication**: Card + PIN
-- **Validity Period**: Renewal required every 5 years
+Some members later publicly opposed the program; others simply refused to attend subsequent meetings.
 
-### Application Scope
-
-The Citizen Digital Certificate is widely used for:
-
-- **Tax Filing**: Online income tax filing
-- **Health Insurance Services**: National Health Insurance online service system
-- **Financial Services**: Online banking identity authentication
-- **Government Services**: Various online application services
-- **Enterprise Applications**: Electronic contract signing
-
-### Challenges and Limitations
-
-- **Low Penetration Rate**: Requires active application, limited public acceptance
-- **Complex Usage**: Requires card reader, high operational barriers
-- **Cost Burden**: Application fees affect adoption willingness
-- **Outdated Technology**: PKI technology relatively old, user experience needs improvement
+This was not Taiwan's first stumble over chip-based ID cards. In 1998, the KMT government pushed a "National Card" program that would have crammed the national ID card, the National Health Insurance card, and fingerprint data all onto a single chip card. That effort died quietly amid protests from scholars and civil society groups. Twenty years later, the problem wore a different face, but the core contradiction had not changed.
 
 ---
 
-## Digital ID Controversy: Dialogue Between Democracy and Technology
+## "A Digital ID Can Be the Foundation of a Smart Government — or the Infrastructure of an Authoritarian One"
 
-### New eID Design Philosophy
+Qiu Wencong, a researcher at the Institutum Iurisprudentiae (Institute of Law) at Academia Sinica, is one of the most important academic voices on Taiwan's digital ID debate. In an interview with Academia Sinica, he explained the root of the problem:
 
-The digital identity card (New eID) was originally planned to combine national ID card and Citizen Digital Certificate functions, aiming to:
+"The biggest issue is the problem of digital footprints. With a paper document, once someone looks at it on the spot, no record is left unless the content is separately transcribed. But in a digital environment, there will always be a usage log. As digital footprints accumulate through our constant use of ID cards in daily life, the worst-case scenario is the emergence of a surveillance mechanism like the social credit scoring system across the strait." (As reported in the Institutum Iurisprudentiae interview)
 
-- **Dual Function**: Physical ID + digital certificate functionality
-- **Enhance Convenience**: Free access to digital certificate services
-- **Strengthen Anti-Counterfeiting**: Advanced anti-counterfeiting technology
-- **Promote Digitization**: Accelerate government digital service adoption
+Lin Yuteng, the lawyer who assisted the Judicial Reform Foundation with its lawsuit, put it more bluntly: "A digital ID card can be the foundation of a smart government, or it can be the infrastructure of an authoritarian government. The difference between good and bad is the importance of an accountability system." (As reported in The Reporter's 2021 investigative report)
 
-### Technical Specifications and Security Design
-
-- **Chip Encryption**: International standard encryption technology
-- **Minimization Principle**: Card stores only basic identity data
-- **Privacy Protection**: No usage records stored
-- **Multiple Protection**: Physical anti-counterfeiting + digital encryption
-
-### Controversy Focus
-
-#### Privacy Rights Concerns
-
-- **Data Collection Worries**: Public concern about government excessive personal data collection
-- **Tracking Risk**: Whether it would be used for citizen behavior surveillance
-- **Data Security**: Potential risk of large-scale personal data leaks
-
-#### Information Security Issues
-
-- **System Vulnerabilities**: Complex systems may have unknown vulnerabilities
-- **Hacker Attacks**: Becoming high-value targets for cyber attacks
-- **Technology Maturity**: Reliability of new technology needs verification
-
-#### Legal and Institutional Aspects
-
-- **Insufficient Legal Basis**: Related regulations not complete enough
-- **Lack of Oversight**: Absence of effective privacy protection supervision
-- **Exit Mechanism**: Whether citizens have the option not to use it
-
-### Social Response and Citizen Participation
-
-#### Civil Society Positions
-
-- **Taiwan Association for Human Rights**: Advocating privacy rights, opposing mandatory implementation
-- **Open Culture Foundation**: Demanding information transparency and technical openness for review
-- **Software Liberty Association**: Focusing on technical security, demanding open-source verification
-
-#### Government Response Measures
-
-- **Technical Briefings**: Multiple public briefing sessions
-- **Privacy Impact Assessment**: Formal privacy risk assessment
-- **Legal Adaptation**: Developing related legal frameworks
-
-#### Final Decision
-
-In January 2021, the Executive Yuan announced the suspension of the digital ID card replacement plan for reasons including:
-
-- **Insufficient Social Consensus**: Public and civil society groups still had concerns
-- **Legal Foundation Needs Building**: Related regulations need improvement
-- **Technical Preparation**: System security needs more thorough verification
-
-### International Experience Comparison
-
-#### Success Case: Estonia
-
-- **e-Residency Program**: World's first digital citizen identity
-- **High Digitization**: 99% of government services provided online
-- **High Social Acceptance**: Digital literacy built from early age
-
-#### Controversial Case: India's Aadhaar
-
-- **Massive Scale**: 1.2 billion biometric database
-- **Ongoing Controversy**: Privacy and cybersecurity issues continue to trouble
-- **Court Intervention**: Supreme Court repeatedly demanded usage restrictions
+> 📝 **Curator's Note**
+> This statement is at the heart of the entire controversy. Taiwan's transition from authoritarianism to democracy took only about 40 years. Sensitivity to the idea that "the state knows your every move" is higher here than in most countries. This is not paranoia: in early 2020, more than 20 million household registration records were found for sale on the dark web, and the Ministry of the Interior denied that the data had come from the government. Qiu Wencong pointed out: "A defining feature of a democratic society is that power changes hands. Even if the current government would not engage in state surveillance, you cannot guarantee that a future politician who advocates for state surveillance will not come to power."
 
 ---
 
-## My E-Government: One-Stop Digital Service Platform
+## Estonia Did It Right — But Taiwan Learned the Wrong Lessons
 
-### Platform Development History
+When the Ministry of the Interior promoted New eID, the success story it cited most often was Estonia. This Baltic nation of just 1.32 million people has built what the World Bank calls "the world's most successful digital ID system." Ninety-nine percent of government services can be completed online. They even backed up "government data" itself in an offsite location, so that if the country were invaded, the government could continue operating from the cloud.
 
-"My E-Government" has continuously evolved since going online in 2004 to become Taiwan's most important government service portal.
+> **🔢 By the Numbers**
+>
+> - Estonia: digital ID adoption rate **97%**, digital citizen participation ranked **#1 globally** (UN assessment)
+> - Taiwan's自然人憑證 (Natural Person Certificate, issued in 2003): up until the suspension, actual usage remained consistently low, concentrated mainly during tax filing season
 
-#### Development Phases
+But Qiu Wencong pointed out that Taiwan learned only the technical surface of Estonia's system, not the institutional muscle underneath. Estonia has dedicated legislation strictly governing the use of ID cards, and more critically — every citizen can at any time query "who, when, and for what purpose accessed my data," and can immediately file a lawsuit if anything looks abnormal. When a massive government data breach occurred in Estonia in 2007, the government publicly acknowledged it within the first hours and reissued national ID numbers across the entire country.
 
-- **1.0 Phase (2004-2010)**: Basic information provision and simple applications
-- **2.0 Phase (2011-2015)**: Added interactive features and mobile version
-- **3.0 Phase (2016-2020)**: Integrated cross-agency services and personalization
-- **4.0 Phase (2021-Present)**: AI assistance and comprehensive integration
-
-### Service Content and Functions
-
-#### Application Service Integration
-
-Currently integrates over 2,700 online application services covering:
-
-- **Household Registration Services**: Household registration transcripts, ID card replacement
-- **Tax Services**: Various tax filing and inquiries
-- **Labor Services**: Labor insurance, health insurance related services
-- **Education Services**: Academic records, certificate applications
-- **Transportation Services**: Driver's license, vehicle registration services
-
-#### Information Services
-
-- **Policy Easy Guides**: 80 popular policy infographic explanations
-- **Real-time Images**: Over 100 traffic and tourism cameras nationwide
-- **Legal Inquiries**: Complete legal database
-- **FAQs**: FAQ compilation for various services
-
-#### Personalization Features
-
-- **My Favorites**: Common service bookmarking
-- **Application Progress Inquiry**: Real-time application status tracking
-- **Personalized Homepage**: Interface adjustment based on usage habits
-- **Active Push**: Related service and policy notifications
-
-### User Experience Design
-
-#### Intuitive Interface
-
-- **Responsive Design**: Adapts to various device screens
-- **Clear Navigation**: Well-structured menu hierarchy
-- **Search Function**: Smart search for quick service discovery
-- **Multiple Login**: Support for various authentication methods
-
-#### Accessibility Design
-
-- **Web Accessibility**: Highest level AAA certification
-- **Voice Navigation**: Voice services for visually impaired users
-- **Large Font Mode**: Senior-friendly interface design
-- **Keyboard Navigation**: Pure keyboard operation support
+In 2019, after a visit to Estonia, the Ministry of the Interior wrote in its report: "The government should promote this with the most careful, rigorous, and meticulous attitude. Yet when the inevitable slip occurs, the government should have the courage to admit its mistakes." Then it returned to Taiwan and did almost the exact opposite.
 
 ---
 
-## Ministry of Digital Affairs: Coordinating Digital Nation Building
+## The Mask Map: Another Path for Digital Government
 
-### Organizational Structure and Responsibilities
+The digital ID program stalled, but Taiwan's digital governance is not a wasteland. In fact, what best represents the spirit of Taiwan's digital government is not the top-down New eID, but the bottom-up g0v (零時政府, "Government at Zero Hour") movement.
 
-The Ministry of Digital Affairs officially launched on August 27, 2022, as Taiwan's first ministry dedicated to digital development.
+In February 2020, at the onset of the COVID-19 pandemic, Taiwan implemented a mask rationing system under its name-based purchase program, but people had no way of knowing which pharmacies still had masks in stock. Wu Zhanwei, founder of the Tainan Hao Xiang Workshop, built the first prototype of a convenience store mask availability map. [[Audrey Tang]], then a minister without portfolio, saw it, immediately contacted Wu, and within days coordinated the government to release an open API for real-time mask inventory data.
 
-#### Four Main Business Units
+> "Tang had decision-making authority and could write code herself, so none of us had to travel north to report to any official. The developers could just focus on developing." — Wu Zhanwei (as reported in TechNews 2020)
 
-- **Digital Government Division**: Promoting government digital transformation
-- **Industries Agency**: Promoting digital industry development
-- **Cybersecurity Agency**: National cyber security defense
-- **Democracy Network Division**: Digital democracy and social innovation
+More than a thousand civic hackers joined an online hackathon. According to an NPR report[^6], within six days of Wu launching the first version of the map, people across all of Taiwan could check real-time mask inventory at every pharmacy. Developers in South Korea and Japan subsequently followed Taiwan's model, but most concluded that the Taiwan experience was difficult to replicate.
 
-#### Important Policy Goals
-
-- **Digital Governance**: Building high-performance digital government
-- **Digital Economy**: Promoting industrial digital transformation
-- **Digital Society**: Bridging digital divide, promoting digital inclusion
-- **Digital Security**: Strengthening national cybersecurity
-
-### Digital Government Promotion Priorities
-
-#### Service Integration Optimization
-
-- **Cross-Agency Collaboration**: Breaking down departmental data silos
-- **Process Simplification**: Reducing citizen application steps
-- **Data Governance**: Establishing government data standards
-- **API Openness**: Promoting government data applications
-
-#### Technological Innovation Applications
-
-- **Artificial Intelligence**: AI integration in government services
-- **Blockchain**: Exploring distributed ledger technology applications
-- **5G Applications**: Promoting next-generation network infrastructure
-- **Cloud First**: Government system cloud migration
+The lesson of this story is not just about technology. The contrast between the digital ID card and the mask map reveals the central paradox of digital government: **the government's most successful digital services are often not designed by the government itself.**
 
 ---
 
-## Online Application Service Innovation
+## From Minister Without Portfolio to the Ministry of Digital Affairs
 
-### Service Design Philosophy
+Audrey Tang's role in the mask map was that of a bridge-builder rather than a commander, and this positioning carried over to her next role. On August 27, 2022, Taiwan's Ministry of Digital Affairs (moda) was officially established, with Tang serving as its inaugural minister (tenure from 2022 to May 2024[^4]; she was succeeded by Huang Yen-nan in May 2024 — all references to Tang in this article refer to her role as inaugural minister). At the inauguration, she noted that "moda" sounds like "motor" in Mandarin, expressing her hope that it would become the engine of Taiwan's digital development.
 
-#### Citizen-Centered Approach
+The establishment of the Ministry of Digital Affairs was itself partly a product of New eID's failure. When the digital ID program was suspended, Minister of the Interior Hsu Kuo-yung admitted that "who will be the competent authority for the digital ID card, and whether a new dedicated agency is needed — there is currently no answer." Two years later, the answer arrived: the Ministry of Digital Affairs took over the entire puzzle.
 
-- **Life Scenario-Oriented**: Services designed around life stages
-- **One-Stop Shop**: Related services integrated application
-- **Proactive Services**: Government proactive reminders and notifications
-- **24/7 Service**: No time or location restrictions
+But the challenges remain enormous. A white-hat hacker named Howard (pseudonym), in an interview with _The Reporter_, pointed to a structural problem: "The fundamental reason is that the personnel handling these contracts don't understand technology, so information security management cannot be properly implemented. Whether in the outsourcing specifications or during acceptance testing, you have no way of verifying whether information security problems exist." In 2019, the Executive Yuan conducted information security audits of 10 government agencies; the overall average score was only 69.3 out of 100, and 6 agencies failed the technical inspection. The number of unfilled dedicated information security positions within the executive branch was as high as 60%, amounting to over 1,000 vacancies. (As reported in The Reporter's 2021 investigative report)
 
-#### Cross-Agency Integration
-
-Traditional services requiring multiple agency visits can now be completed one-stop:
-
-- **Newborn Registration**: Household registration + health insurance + labor insurance integrated application
-- **Company Registration**: Ministry of Economic Affairs + National Taxation Bureau + local government integration
-- **Moving Services**: Household registration + postal + utilities changes at once
-
-### Important Innovation Services
-
-#### Diversified Digital Identity Authentication
-
-- **Mobile ID**: Smartphone as identity card
-- **Taiwan Mobile Identity**: Biometric authentication
-- **Social Account Login**: Integration with common social platforms
-- **Certificate-Free Services**: Lowering digital barriers
-
-#### Intelligent Customer Service System
-
-- **Chatbot**: 24/7 instant response
-- **Voice Assistant**: Voice inquiry and application
-- **Video Service**: Live online assistance
-- **Multilingual Support**: Serving new immigrants and foreigners
+> **🔢 By the Numbers**
+>
+> - The Investigation Bureau once posted a vacancy for an information security analyst requiring a PhD plus 9 professional skills, with a monthly salary of **NT$58,000 (approximately US$1,800)**
+> - In 2019, the Ministry of Civil Service was found to have leaked the personal data of **590,000** public servants
+> - In 2021, more than **20 million** household registration records from Taiwan appeared on the dark web
 
 ---
 
-## Open Government and Citizen Participation
+## vTaiwan and the Open Government Experiment
 
-### Open Data Policy
+While the digital ID path was blocked, Taiwan has traveled further than most countries on another path — that of "digital democracy."
 
-Taiwan actively promotes government data openness for public and enterprise use.
+The vTaiwan platform, launched in 2015, uses an AI tool called Pol.is to enable citizen participation in policymaking. The most well-known case was the 2015 discussion on Uber regulation, in which the government stepped back from the negotiating table and let Uber drivers, taxi drivers, and passengers debate directly on the platform. The consensus that ultimately emerged served as a reference for legislation. According to CrowdLaw statistics, since vTaiwan's launch, more than 80% of discussion cases have been translated into concrete government actions (based on vTaiwan's self-reported figures, compiled in the CrowdLaw case study[^2]).
 
-#### Open Data Achievements
+Tang's attitude toward vTaiwan is clear-eyed: "This is not a solution to democracy, but a process for building consensus. The rough consensus reached on vTaiwan can only serve as a reference for policymaking. To bring about change, it still depends on the power of citizen participation." (As reported in The Reporter's open government feature)
 
-- **Dataset Quantity**: Over 50,000 government datasets
-- **Open Formats**: Machine-readable formats adopted
-- **Real-time Updates**: Important data updated immediately or regularly
-- **Application Innovation**: Encouraging private sector innovative applications
-
-#### Application Cases
-
-- **Air Quality Monitoring**: Air quality apps integrating EPA data
-- **Traffic Information**: Real-time traffic and public transport information
-- **Life Maps**: Integration of various government facility locations
-
-### Digital Democracy Experiments
-
-#### vTaiwan Platform
-
-Virtual world legal adaptation platform for citizen policy participation:
-
-- **Issue Discussion**: Open policy dialogue
-- **Consensus Building**: Seeking consensus through digital tools
-- **Policy Recommendations**: Citizens directly propose suggestions to government
-
-#### Public Digital Innovation Space (PDIS)
-
-- **Policy Experiments**: Testing new governance models
-- **Cross-Domain Collaboration**: Connecting government, private sector, academia
-- **Open Source Spirit**: Open and transparent collaboration model
+This serves as a mirror image of the digital ID lesson: technology itself is not the answer. Technology without trust is dangerous; trust paired with imperfect technology can actually carry you further.
 
 ---
 
-## Information Security and Privacy Protection
+## The Lesson Bought for NT$4.8 Billion
 
-### Government Cybersecurity Defense System
+After the digital ID program was suspended, the relevant vendors initially sought more than NT$1 billion in compensation. In January 2024, following mediation by the Public Procurement Commission, the final amount was settled at approximately NT$280 million or less[^3]. Minister of the Interior Lin Yu-chang admitted that "over NT$200 million is already the best possible outcome."
 
-#### Multi-Layer Protection
+NT$280 million, plus the equipment and facility costs already spent, bought a chip card that was never issued. But perhaps what it truly bought was a lesson for Taiwanese society about digital governance:
 
-- **Perimeter Defense**: Firewalls and intrusion detection systems
-- **Endpoint Protection**: Personal computer and mobile device security
-- **Application System Protection**: Website and application security
-- **Data Protection**: Important data encryption and backup
+**You can build the world's most secure chip, but if the people don't trust you, the card will always be just a piece of plastic.**
 
-#### Cybersecurity Management System
+Estonia spent 30 years building transparency to achieve a 97% digital citizen participation rate. Taiwan's civil society has proven it can build a mask availability map in three days — and it can also stop a NT$4.8 billion government program. Both are muscles of digital democracy.
 
-- **Legal Framework**: Cybersecurity Management Act regulations
-- **Tiered Management**: Graded protection based on importance levels
-- **Regular Audits**: Third-party cybersecurity testing
-- **Incident Response**: Cybersecurity incident response mechanisms
+At the end of his interview with Academia Sinica, Qiu Wencong offered what may be the most precise footnote to this entire story: "You can't just emphasize how wonderful other countries' digitalization is and say we should rush to learn from them, while ignoring the legal and institutional foundations that others painstakingly built to make digitalization possible." (As reported in the Institutum Iurisprudentiae interview)
 
-### Personal Data Protection Measures
-
-#### Legal Safeguards
-
-- **Personal Data Protection Act**: Clear regulations on personal data collection and use
-- **Privacy Impact Assessment**: Evaluating privacy risks before new system launch
-- **Data Subject Rights**: Rights to access, correct, and delete personal data
-
-#### Technical Protection
-
-- **Data De-identification**: Removing personally identifiable information
-- **Access Control**: Strict control of data access permissions
-- **Audit Trails**: Complete recording of data usage tracks
-- **Encryption Protection**: Important personal data encrypted storage and transmission
-
----
-
-## Digital Divide and Inclusive Design
-
-### Current Digital Divide Status
-
-#### Main Disadvantaged Groups
-
-- **Elderly Population**: Lower acceptance of new technology
-- **Rural Areas**: Relatively insufficient network infrastructure
-- **New Immigrants**: Language and cultural barriers
-- **Persons with Disabilities**: Need special assistive functions
-
-#### Strategies to Bridge the Gap
-
-- **Digital Literacy Education**: Providing digital skills training
-- **Multiple Service Channels**: Maintaining non-digital service options
-- **User-Friendly Interface Design**: Simplifying operation processes
-- **Community Support**: Establishing digital learning hubs
-
-### Accessibility Design Practice
-
-#### Technical Standards
-
-- **WCAG 2.1**: Compliance with international web accessibility standards
-- **CNS 14748**: Compliance with national web accessibility standards
-- **Regular Testing**: Professional agency testing and certification
-
-#### Assistive Functions
-
-- **Screen Reader**: Compatible with screen reader software
-- **Keyboard Navigation**: Support for keyboard-only operation
-- **Voice Input**: Voice commands and control
-- **Magnification**: Screen zoom and contrast adjustment
-
----
-
-## International Comparison and Taiwan's Characteristics
-
-### Global Digital Government Rankings
-
-Taiwan performs excellently in various international assessments:
-
-- **UN E-Government Survey**: Ranked 9th in 2022
-- **Digital Competitiveness Ranking**: Long-term leader in Asia
-- **Open Data Maturity**: Among world's leading countries
-
-### Taiwan Model Characteristics
-
-#### Democracy-Oriented Participation
-
-- **Civic Tech**: Active civic technology communities like g0v
-- **Open Transparency**: Open and transparent policy-making processes
-- **Social Dialogue**: Valuing diverse stakeholder opinions
-
-#### Technological Innovation Applications
-
-- **Agile Development**: Rapid iteration and service improvement
-- **Open Source Priority**: Encouraging open source software use
-- **Experimental Spirit**: Willingness to try new technologies and methods
-
----
-
-## Future Prospects and Challenges
-
-### Development Trends
-
-#### AI Integration
-
-- **Smart Recommendations**: Service recommendations based on behavior patterns
-- **Natural Language Processing**: More intuitive human-computer interaction
-- **Predictive Analytics**: Proactive identification of citizen needs
-- **Decision Support**: Assisting government policy formulation
-
-#### Blockchain Applications
-
-- **Digital Certificates**: Tamper-proof digital certificates
-- **Voting Systems**: Transparent and verifiable electronic voting
-- **Supply Chain Tracking**: Food safety and pharmaceutical traceability
-
-### Main Challenges
-
-#### Technical Challenges
-
-- **System Integration Complexity**: Difficulty in cross-agency system integration
-- **Technical Debt**: Maintenance and upgrade costs for legacy systems
-- **Talent Shortage**: Serious government IT talent drain
-
-#### Social Challenges
-
-- **Trust Building**: Rebuilding public trust in government digital services
-- **Privacy Balance**: Finding balance between convenience and privacy
-- **Inclusivity**: Ensuring no one is left behind in digital transformation
-
----
-
-## Citizen Participation in Digital Government
-
-### How to Participate
-
-Every citizen can participate in digital government development:
-
-#### Direct Participation
-
-- **User Feedback**: Providing government website usage suggestions
-- **Policy Discussion**: Participating in policy platform discussions like vTaiwan
-- **Open Data Applications**: Creating innovative applications using government open data
-- **Cybersecurity Reporting**: Proactively reporting government website security issues
-
-#### Oversight Role
-
-- **Freedom of Information**: Applying for government information disclosure
-- **Privacy Rights**: Monitoring implementation of personal data protection measures
-- **Service Quality**: Supervising government digital service quality
-
----
-
-Taiwan's digital government development journey demonstrates the unique path of democratic societies in embracing digital technology. The digital ID controversy shows that technological feasibility does not equal social acceptability—truly successful digital government must be built on the foundation of public trust and social consensus.
-
-The future development of Taiwan's digital government will continue seeking balance between efficiency and privacy, innovation and security, convenience and inclusion. Through continuous social dialogue, technological innovation, and institutional improvement, Taiwan has the potential to build an advanced yet trustworthy digital government, providing valuable experience for digital transformation in democratic countries worldwide.
+As of 2026, Taiwan's digital ID card still has no timeline. But every tax filing season, millions of Taiwanese people dutifully plug in their Natural Person Certificate — the one issued back in 2003 — use a card reader, and complete their most frequent digital interaction with the government. That old card was never hit by a crisis of trust, because it never promised too much.
 
 ---
 
 ## References
 
-- Ministry of Digital Affairs Official Website: https://moda.gov.tw/
-- My E-Government Portal: https://www.gov.tw/
-- Ministry of Interior Household Registration Division New eID Section: https://www.ris.gov.tw/app/portal/789
-- National Development Council: https://www.ndc.gov.tw/
-- Executive Yuan Information and Communication Security Committee: https://nicst.ey.gov.tw/
-- vTaiwan Virtual World Legal Adaptation Platform: https://vtaiwan.tw/
-- Government Data Open Platform: https://data.gov.tw/
-- Taiwan Association for Human Rights: https://www.tahr.org.tw/
-- Open Culture Foundation: https://ocf.tw/
-- Software Liberty Association: https://slat.org/
-- [UN E-Government Survey Report](https://publicadministration.un.org/egovkb/en-us/reports/un-e-government-survey-2022)
-- [The Reporter Special Report: Digital ID Controversy Analysis](https://www.twreporter.org/a/e-id-in-taiwan-2021-failed)
+[^1]: [The Reporter (2021). "From the Suspended Digital ID Policy to Taiwan's Distance from a 'Digital Nation'"](https://www.twreporter.org/a/e-id-in-taiwan-2021-failed) — Investigative report; confirms NT$3.29 billion card manufacturing contract awarded to TECO Electric & Machinery; overall program budget scope includes planning/manufacturing/system/verification contracts, totaling over NT$4.8 billion
+
+[^2]: [CrowdLaw — vTaiwan Case Study](https://congress.crowd.law/case-vtaiwan.html) — The 80% figure for discussion cases translated into government action is based on vTaiwan's self-reported statistics, compiled in the CrowdLaw case study
+
+[^3]: [Business Next (2024). "Digital ID Card Halted — NT$280 Million Paid by the Public"](https://www.bnext.com.tw/article/62504/eid-information-security) — Vendors initially sought over NT$1 billion in compensation; in January 2024, Public Procurement Commission mediation settled the final amount at approximately NT$280 million or less
+
+[^4]: [Ministry of Digital Affairs (moda) Official Website](https://moda.gov.tw/) — Audrey Tang served as inaugural minister (August 2022 to May 2024); she stepped down in May 2024 and was succeeded by Minister Huang Yen-nan
+
+[^5]: [Institutum Iurisprudentiae, Academia Sinica (2020). "Digital ID — How Cool Is It? An Interview with Researcher Qiu Wencong"](https://www.iias.sinica.edu.tw/blog_post/1118?class=96) — Qiu Wencong on the legal foundations of digital governance; raises the issue of insufficient eID regulation
+
+[^6]: [NPR (2020). "Audrey Tang brings civic tech to Taiwan's coronavirus pandemic response"](https://www.npr.org/transcripts/949764249) — Mask availability map rolled out island-wide within six days; Taiwan's civic tech response to COVID-19
+
+[^7]: [BBC (2020). "How map hacks and buttocks helped Taiwan fight Covid-19"](https://www.bbc.com/news/technology-52883838) — English-language report on Taiwan's mask map and civic hackers' pandemic response
+
+[^8]: [TechNews (2020). "The Team Behind the Mask Map: Uncovering the 'Keyboard Patriots'"](https://technews.tw/2020/02/23/expose-the-team-behind-mask-map/) — The development process of the mask map; Wu Zhanwei and the g0v civic hacker community
+
+[^9]: [The Reporter (2021). "Even the 'Government' Is Backed Up! How Estonia Built the World's Most Successful Digital Society"](https://www.twreporter.org/a/e-id-in-estonia) — Estonia's experience building a digital nation; comparison with Taiwan's digital governance path
+
+[^10]: [The Reporter — Open Government Feature. "Open Government — Are They Serious?"](https://www.twreporter.org/a/open-government) — Audrey Tang's remarks on vTaiwan; case studies in open government experiments
+
+[^11]: [Taiwan Association for Human Rights — Chip-Based ID Card Issue Page](https://www.tahr.org.tw/issues/privacy/eid) — Human rights position and petition opposing the New eID program
+
+[^12]: [Open Culture Foundation — Petition: Legislate and Disclose eID Information](https://ocf.tw/p/eid/) — Civil society campaign pushing for eID information disclosure and regulatory reform

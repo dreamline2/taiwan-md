@@ -103,6 +103,19 @@ export const homeUI = {
     'home.readingPath.subtitle':
       'Discover the real Taiwan in 30 minutes with these 5 essential articles',
     'home.readingPath.continue': 'Continue exploring more topics →',
+    'home.readingPath.footer.totalLabel': 'Total',
+    'home.readingPath.footer.minutesUnit': 'minutes',
+    'home.readingPath.footer.domainsLabel': 'domains',
+    'home.readingPath.footer.getToKnow': 'Get to know Taiwan',
+    'home.meta.title': 'Open-Source Taiwan Knowledge Base',
+    'home.meta.description':
+      'Open-source, AI-friendly comprehensive knowledge base about Taiwan. 660+ pages of in-depth content covering history, culture, food, music, technology and 12 major topics, co-edited by the community to introduce the real Taiwan to the world.',
+    'home.miniGraph.heading': '🕸️ Knowledge Graph',
+    'home.miniGraph.subtitle':
+      "Every article is connected — click to explore Taiwan's knowledge network",
+    'home.features.cta.graph':
+      '🔗 Knowledge Graph — Explore article connections',
+    'home.features.cta.ssot': '📂 Browse SSOT Source Data ↗',
   },
   ja: {
     'hero.stat.history.number': '400+',
@@ -202,6 +215,18 @@ export const homeUI = {
     'home.readingPath.title': '📖 どこから始めればいいかわからない？',
     'home.readingPath.subtitle': 'この5つの記事で、30分で本当の台湾を知ろう',
     'home.readingPath.continue': 'さらに多くのテーマを探索する →',
+    'home.readingPath.footer.totalLabel': '合計',
+    'home.readingPath.footer.minutesUnit': '分',
+    'home.readingPath.footer.domainsLabel': '領域',
+    'home.readingPath.footer.getToKnow': '台湾を知る',
+    'home.meta.title': 'オープンソース台湾知識ベース',
+    'home.meta.description':
+      'オープンソース、AI対応の台湾総合ナレッジベース。660以上の深掘り記事が歴史・文化・グルメ・音楽・テクノロジーなど12大テーマを網羅し、コミュニティが共同編集して台湾の真の姿を世界に紹介します。',
+    'home.miniGraph.heading': '🕸️ ナレッジグラフ',
+    'home.miniGraph.subtitle':
+      'すべての記事はつながっている — クリックして台湾知識のネットワークを探索',
+    'home.features.cta.graph': '🔗 ナレッジグラフ — 記事間のつながりを探索',
+    'home.features.cta.ssot': '📂 SSOT 原始データを閲覧 ↗',
   },
   ko: {
     'hero.stat.history.number': '400+',
@@ -303,6 +328,18 @@ export const homeUI = {
     'home.readingPath.title': '📖 어디서부터 시작해야 할지 모르겠다면?',
     'home.readingPath.subtitle': '이 기사들로 대만의 진정한 모습을 알아보세요',
     'home.readingPath.continue': '더 많은 주제 탐색하기 →',
+    'home.readingPath.footer.totalLabel': '총',
+    'home.readingPath.footer.minutesUnit': '분',
+    'home.readingPath.footer.domainsLabel': '분야',
+    'home.readingPath.footer.getToKnow': '대만 알아보기',
+    'home.meta.title': '오픈소스 대만 지식 베이스',
+    'home.meta.description':
+      '오픈소스, AI 친화적인 대만 종합 지식 베이스. 660+ 심층 기사가 역사·문화·미식·음악·기술 등 12대 주제를 다루며, 커뮤니티가 공동 편찬하여 진정한 대만을 세계에 소개합니다.',
+    'home.miniGraph.heading': '🕸️ 지식 그래프',
+    'home.miniGraph.subtitle':
+      '모든 기사는 연결되어 있다 — 클릭하여 대만 지식의 연결망을 탐색',
+    'home.features.cta.graph': '🔗 지식 그래프 — 기사 간 연결 탐색',
+    'home.features.cta.ssot': '📂 SSOT 원본 데이터 보기 ↗',
   },
   'zh-TW': {
     'hero.stat.history.number': '400+',
@@ -392,5 +429,257 @@ export const homeUI = {
     'home.readingPath.title': '📖 不知道從哪開始？',
     'home.readingPath.subtitle': '用這 5 篇文章，在 30 分鐘內認識真正的台灣',
     'home.readingPath.continue': '繼續探索更多主題 →',
+    'home.readingPath.footer.totalLabel': '總計',
+    'home.readingPath.footer.minutesUnit': '分鐘',
+    'home.readingPath.footer.domainsLabel': '大領域',
+    'home.readingPath.footer.getToKnow': '完整認識台灣',
+    'home.meta.title': '開源台灣知識庫',
+    'home.meta.description':
+      '開源、AI-friendly 的台灣完整知識庫。660+ 頁深度內容涵蓋歷史、文化、美食、音樂、科技等 12 大主題，由社群共同編撰，讓全世界認識真正的台灣。',
+    'home.miniGraph.heading': '🕸️ 知識圖譜',
+    'home.miniGraph.subtitle': '每篇文章都不是孤島——點擊探索台灣知識的連結網絡',
+    'home.features.cta.graph': '🔗 知識圖譜 — 探索文章之間的連結',
+    'home.features.cta.ssot': '📂 瀏覽 SSOT 原始資料 ↗',
+  },
+  fr: {
+    'hero.stat.history.number': '400+',
+    'hero.stat.history.label': "ans d'histoire",
+    'hero.stat.species.number': '59 000+',
+    'hero.stat.species.label': 'espèces',
+    'hero.stat.democracy.number': 'Première en Asie',
+    'hero.stat.democracy.label': 'démocratie',
+    'hero.stat.chips.number': '90 %',
+    'hero.stat.chips.label': 'des puces avancées mondiales',
+    'home.hero.subtitle': "Récits profonds d'une île",
+    'home.hero.description':
+      'La base de connaissances open source et compatible IA sur Taïwan',
+    'home.hero.highlight':
+      'Construit à partir de perspectives diverses, pour que le monde découvre Taïwan',
+    'home.hero.cta.explore': "Commencer l'exploration",
+    'home.hero.transparency':
+      '⚠️ Certains articles sur ce site sont des brouillons assistés par IA. Tout le contenu est continuellement relu et amélioré par la communauté. Vous avez trouvé une erreur ?',
+    'home.hero.transparency.link': 'Faites-le nous savoir',
+    'home.cover.heading': 'Comment comprendre Taïwan ?',
+    'home.cover.lead':
+      'Taïwan est une île de seulement 36 000 kilomètres carrés, et pourtant elle renferme toute la complexité du monde.',
+    'home.cover.lead2':
+      'Pendant quatre cents ans, tous ceux qui ont mis le pied sur cette île ont vu un Taïwan différent à travers des yeux différents.',
+    'home.cover.closing1':
+      "Des mythes de création des peuples austronésiens à l'essor de l'empire des semi-conducteurs, du silence de la loi martiale à la première légalisation du mariage homosexuel en Asie. L'histoire de Taïwan n'est pas une ligne droite, mais une toile.",
+    'home.cover.closing2':
+      'Taiwan.md ne cherche pas à vous donner des réponses.',
+    'home.cover.closing3':
+      "Ce que nous voulons faire, c'est vous donner une carte — une carte qui vous permet d'entrer vous-même dans Taïwan.",
+    'home.cover.link': 'Lire la collection complète de citations →',
+    'home.cover.era.indigenous': 'Peuples autochtones',
+    'home.cover.era.contemporary': 'Contemporain',
+    'home.cover.quote.indigenous':
+      'Les montagnes, les rivières et les ruisseaux sont tous les corps de nos ancêtres. Nous sommes les enfants de la terre.',
+    'home.cover.cite.indigenous': '— Littérature orale atayal',
+    'home.cover.quote.1584': 'Ilha Formosa — Île belle.',
+    'home.cover.cite.1584':
+      '— Marins portugais, première utilisation enregistrée de « belle » pour décrire Taïwan',
+    'home.cover.quote.1697':
+      "Dans les montagnes intérieures de Shuilishe, au bout des montagnes, il y a un grand lac s'étendant sur plusieurs dizaines de li. Au milieu se trouve une île où les autochtones se rassemblent et vivent.",
+    'home.cover.cite.1697':
+      '— Yu Yonghe, « Un voyage vers les mers lointaines », observation directe de Taïwan par un lettré de la dynastie Qing',
+    'home.cover.quote.1926':
+      'Un guerrier courageux doit se battre pour la justice !',
+    'home.cover.cite.1926':
+      "— Lai He, « Sacrifice sous l'éveil », le père de la littérature taïwanaise moderne",
+    'home.cover.quote.1946':
+      'La tristesse des Taïwanais réside dans le fait de ne pas savoir qui ils sont.',
+    'home.cover.cite.1946': "— Wu Zhuoliu, « L'orphelin d'Asie »",
+    'home.cover.quote.2013':
+      "Quand vous verrez Taïwan, vous découvrirez que cette terre est plus belle que vous ne l'imaginiez, et aussi plus fragile que vous ne l'imaginiez.",
+    'home.cover.cite.2013':
+      '— Chi Po-lin, « Au-delà de la beauté : Taïwan vu du ciel »',
+    'home.cover.quote.contemporary':
+      'La mémoire des vagues est plus longue que celle des humains.',
+    'home.cover.cite.contemporary':
+      "— Syaman Rapongan, « L'œil du ciel », littérature océanique tao",
+    'home.random.button': 'Découvrir Taïwan au hasard',
+    'home.random.subtitle': 'Explorez des histoires inattendues',
+    'home.random.description':
+      'Vous ne savez pas quoi lire ? Laissez-nous vous guider vers les trésors cachés de Taïwan !',
+    'home.categories.heading': 'Découvrir Taïwan',
+    'home.categories.divider': '12 thèmes',
+    'home.lang.heading': '🖊️ Pourquoi le chinois traditionnel ?',
+    'home.lang.p1':
+      "Taiwan.md choisit le <strong>chinois traditionnel</strong> comme langue par défaut — ce n'est pas seulement une décision technique, c'est une affirmation culturelle.",
+    'home.lang.p2':
+      "Le chinois traditionnel est l'un des plus anciens systèmes d'écriture au monde encore utilisé au quotidien, et Taïwan est le seul grand pays au monde à utiliser le chinois traditionnel comme écriture officielle. Chaque trait porte des milliers d'années de mémoire culturelle. Lorsque vous ouvrez ce site et voyez ces caractères, vous ne lisez pas simplement du texte — vous lisez un patrimoine culturel vivant.",
+    'home.lang.p3.prefix': 'Nous proposons également une ',
+    'home.lang.p3.linkText': 'version chinoise',
+    'home.lang.p3.suffix':
+      ", mais nous insistons pour laisser le chinois traditionnel au premier plan. L'IA peut le comprendre, les moteurs de recherche peuvent le comprendre, et vous — même si vous ne pouvez pas le lire, ce n'est pas grave — cette beauté mérite en elle-même d'être vue.",
+    'home.lang.en':
+      "Taïwan utilise le chinois traditionnel — le plus ancien système d'écriture au monde encore utilisé au quotidien, et Taïwan en est le dernier grand foyer. Nous croyons que notre langue et notre culture méritent d'être vues et comprises. Même si vous ne pouvez pas les lire, leur beauté parle d'elle-même. Cette version anglaise sert de pont pour aider le monde à découvrir la richesse de Taïwan.",
+    'home.updates.heading': 'Mises à jour en direct',
+    'home.updates.subtitle':
+      'Taiwan.md grandit — derniers ajouts de contenu et améliorations du site',
+    'home.updates.viewAll': "Voir l'historique complet des mises à jour →",
+    'home.newsletter.heading': "📬 S'abonner à Taiwan.md",
+    'home.newsletter.description':
+      "Recevez une notification lorsque nous publions des mises à jour majeures, de nouveaux articles ou des événements communautaires. Pas de spam — chaque e-mail vaut la peine d'être ouvert.",
+    'home.newsletter.submit': "S'abonner",
+    'home.newsletter.success': 'Merci de votre abonnement !',
+    'home.newsletter.note':
+      'Nous respectons votre boîte de réception. Désabonnement à tout moment. Nous ne partagerons jamais votre e-mail.',
+    'home.contribute.heading': 'Rejoignez-nous',
+    'home.contribute.description':
+      'Taiwan.md est un projet open source porté par la communauté. Que vous soyez Taïwanais ou un ami international intéressé par Taïwan, nous accueillons vos connaissances et vos perspectives.',
+    'home.contribute.guide': 'Guide de contribution',
+    'home.contribute.github': 'Projet GitHub',
+    'home.features.title': 'Pourquoi Taiwan.md ?',
+    'home.features.curated.title': 'Perspectives sélectionnées',
+    'home.features.curated.desc':
+      'Récits approfondis soigneusement sélectionnés, pas des listes encyclopédiques',
+    'home.features.ai.title': 'Conception compatible IA',
+    'home.features.ai.desc':
+      "Contenu structuré qui aide l'IA à comprendre la complexité de Taïwan",
+    'home.features.bilingual.title': 'Vision globale bilingue',
+    'home.features.bilingual.desc':
+      "Partir des perspectives locales pour raconter l'histoire de Taïwan dans des langues mondiales",
+    'home.features.complete.title': 'Complet et multidimensionnel',
+    'home.features.complete.desc':
+      'Couvrant plus de 12 domaines, présentant une image complète et tridimensionnelle de Taïwan',
+    'home.readingPath.title': '📖 Vous ne savez pas par où commencer ?',
+    'home.readingPath.subtitle':
+      'Découvrez le vrai Taïwan en 30 minutes avec ces 5 articles essentiels',
+    'home.readingPath.continue': "Continuer à explorer d'autres thèmes →",
+    'home.readingPath.footer.totalLabel': 'Total',
+    'home.readingPath.footer.minutesUnit': 'minutes',
+    'home.readingPath.footer.domainsLabel': 'domaines',
+    'home.readingPath.footer.getToKnow': 'Connaître Taïwan',
+    'home.meta.title': 'Base de connaissances open source sur Taïwan',
+    'home.meta.description':
+      "Base de connaissances open source et adaptée aux IA sur Taïwan. Plus de 660 pages de contenu approfondi couvrant l'histoire, la culture, la gastronomie, la musique, la technologie et 12 grands thèmes, co-éditées par la communauté pour faire découvrir le vrai Taïwan au monde.",
+    'home.miniGraph.heading': '🕸️ Graphe des connaissances',
+    'home.miniGraph.subtitle':
+      'Chaque article est connecté — cliquez pour explorer le réseau de connaissances de Taïwan',
+    'home.features.cta.graph':
+      '🔗 Graphe des connaissances — Explorer les liens entre articles',
+    'home.features.cta.ssot': '📂 Parcourir les données SSOT ↗',
+  },
+  es: {
+    'hero.stat.history.number': '400+',
+    'hero.stat.history.label': 'años de historia',
+    'hero.stat.species.number': '59,000+',
+    'hero.stat.species.label': 'especies',
+    'hero.stat.democracy.number': 'La primera de Asia',
+    'hero.stat.democracy.label': 'democracia',
+    'hero.stat.chips.number': '90%',
+    'hero.stat.chips.label': 'chips avanzados globales',
+    'home.hero.subtitle': 'Curando las narrativas profundas de una isla',
+    'home.hero.description':
+      'La base de conocimientos de código abierto y amigable con IA sobre Taiwán',
+    'home.hero.highlight':
+      'Construida desde diversas perspectivas, para que el mundo descubra Taiwán',
+    'home.hero.cta.explore': 'Comenzar a explorar',
+    'home.hero.transparency':
+      '⚠️ Algunos artículos de este sitio son borradores asistidos por IA. Todo el contenido es revisado y mejorado continuamente por la comunidad. ¿Encontraste un error?',
+    'home.hero.transparency.link': 'Háznoslo saber',
+    'home.cover.heading': '¿Cómo entender Taiwán?',
+    'home.cover.lead':
+      'Taiwán es una isla de apenas 36,000 kilómetros cuadrados, pero contiene toda la complejidad del mundo.',
+    'home.cover.lead2':
+      'Durante cuatrocientos años, todos los que pisaron esta isla han visto un Taiwán diferente a través de distintos ojos.',
+    'home.cover.closing1':
+      'Desde los mitos de creación de los pueblos austronesios hasta el ascenso del imperio de los semiconductores, desde el silencio de la ley marcial hasta la primera legalización del matrimonio igualitario en Asia. La historia de Taiwán no es una línea recta, sino una red.',
+    'home.cover.closing2': 'Taiwan.md no pretende darte respuestas.',
+    'home.cover.closing3':
+      'Lo que queremos hacer es darte un mapa — un mapa que te permita adentrarte tú mismo en Taiwán.',
+    'home.cover.link': 'Leer la colección completa de citas →',
+    'home.cover.era.indigenous': 'Pueblos indígenas',
+    'home.cover.era.contemporary': 'Contemporáneo',
+    'home.cover.quote.indigenous':
+      'Las montañas, ríos y arroyos son los cuerpos de nuestros ancestros. Somos hijos de la tierra.',
+    'home.cover.cite.indigenous': '- Literatura oral atayal',
+    'home.cover.quote.1584': 'Ilha Formosa — Isla hermosa.',
+    'home.cover.cite.1584':
+      '- Marineros portugueses, primer uso registrado de "hermosa" para describir Taiwán',
+    'home.cover.quote.1697':
+      'En las montañas interiores de Shuilishe, al final de las montañas, hay un gran lago que abarca varias decenas de li. En el medio hay una isla donde los aborígenes se reúnen y viven.',
+    'home.cover.cite.1697':
+      '- Yu Yonghe, "Un viaje a los mares lejanos", observación de primera mano de un literato de la dinastía Qing sobre Taiwán',
+    'home.cover.quote.1926':
+      '¡Un guerrero valiente debe luchar por la justicia!',
+    'home.cover.cite.1926':
+      '- Lai He, "Sacrificio bajo el despertar", padre de la nueva literatura taiwanesa',
+    'home.cover.quote.1946':
+      'La tristeza de los taiwaneses está en no saber quiénes son.',
+    'home.cover.cite.1946': '- Wu Zhuoliu, "El huérfano de Asia"',
+    'home.cover.quote.2013':
+      'Cuando veas Taiwán, descubrirás que esta tierra es más hermosa de lo que imaginaste, y también más frágil de lo que imaginaste.',
+    'home.cover.cite.2013':
+      '- Chi Po-lin, "Más allá de la belleza: Taiwán desde arriba"',
+    'home.cover.quote.contemporary':
+      'La memoria de las olas es más larga que la de los humanos.',
+    'home.cover.cite.contemporary':
+      '- Syaman Rapongan, "El ojo del cielo", literatura oceánica tao',
+    'home.random.button': 'Descubrir Taiwán al azar',
+    'home.random.subtitle': 'Explora historias inesperadas',
+    'home.random.description':
+      '¿No sabes qué leer? ¡Déjanos guiarte hacia los tesoros ocultos de Taiwán!',
+    'home.categories.heading': 'Descubrir Taiwán',
+    'home.categories.divider': '12 temas',
+    'home.lang.heading': '🖊️ ¿Por qué chino tradicional?',
+    'home.lang.p1':
+      'Taiwan.md elige el <strong>chino tradicional</strong> como idioma predeterminado — esto no es solo una decisión técnica, es una declaración cultural.',
+    'home.lang.p2':
+      'El chino tradicional es uno de los sistemas de escritura más antiguos del mundo aún en uso diario, y Taiwán es el único país importante a nivel global que utiliza el chino tradicional como su escritura oficial. Cada trazo lleva miles de años de memoria cultural. Cuando abres este sitio web y ves estos caracteres, no solo estás leyendo texto — estás leyendo un patrimonio cultural vivo.',
+    'home.lang.p3.prefix': 'También ofrecemos una ',
+    'home.lang.p3.linkText': 'versión en chino',
+    'home.lang.p3.suffix':
+      ', pero insistimos en dejar que el chino tradicional esté al frente. La IA puede entenderlo, los motores de búsqueda pueden entenderlo, y tú — aunque no puedas leerlo, no importa — esta belleza en sí misma merece ser vista.',
+    'home.lang.en':
+      'Taiwán usa el chino tradicional — el sistema de escritura más antiguo del mundo aún en uso diario, y Taiwán es su último gran hogar. Creemos que nuestra lengua y cultura merecen ser vistas y comprendidas. Aunque no puedas leerlo, su belleza habla por sí misma. Esta versión en inglés sirve como puente para ayudar al mundo a descubrir la riqueza de Taiwán.',
+    'home.updates.heading': 'Actualizaciones en vivo',
+    'home.updates.subtitle':
+      'Taiwan.md está creciendo — últimas adiciones de contenido y mejoras del sitio',
+    'home.updates.viewAll': 'Ver el historial completo de actualizaciones →',
+    'home.newsletter.heading': '📬 Suscríbete a Taiwan.md',
+    'home.newsletter.description':
+      'Recibe notificaciones cuando publiquemos actualizaciones importantes, nuevos artículos o eventos de la comunidad. No enviamos spam — cada correo vale la pena abrirlo.',
+    'home.newsletter.submit': 'Suscribirse',
+    'home.newsletter.success': '¡Gracias por suscribirte!',
+    'home.newsletter.note':
+      'Respetamos tu bandeja de entrada. Cancela la suscripción cuando quieras. Nunca compartiremos tu correo.',
+    'home.contribute.heading': 'Únete a nosotros',
+    'home.contribute.description':
+      'Taiwan.md es un proyecto de código abierto impulsado por la comunidad. Ya seas taiwanes local o un amigo internacional interesado en Taiwán, damos la bienvenida a tu conocimiento y perspectivas.',
+    'home.contribute.guide': 'Guía de contribución',
+    'home.contribute.github': 'Proyecto en GitHub',
+    'home.features.title': '¿Por qué Taiwan.md?',
+    'home.features.curated.title': 'Perspectivas curadas',
+    'home.features.curated.desc':
+      'Narrativas profundas cuidadosamente curadas, no listados enciclopédicos',
+    'home.features.ai.title': 'Diseño amigable con IA',
+    'home.features.ai.desc':
+      'Contenido estructurado que ayuda a la IA a comprender la complejidad de Taiwán',
+    'home.features.bilingual.title': 'Visión global bilingüe',
+    'home.features.bilingual.desc':
+      'Partiendo de perspectivas locales, contando la historia de Taiwán en idiomas globales',
+    'home.features.complete.title': 'Completo y multidimensional',
+    'home.features.complete.desc':
+      'Cubriendo más de 12 dominios, presentando la imagen tridimensional completa de Taiwán',
+    'home.readingPath.title': '📖 ¿No sabes por dónde empezar?',
+    'home.readingPath.subtitle':
+      'Descubre el Taiwán real en 30 minutos con estos 5 artículos esenciales',
+    'home.readingPath.continue': 'Continúa explorando más temas →',
+    'home.readingPath.footer.totalLabel': 'Total',
+    'home.readingPath.footer.minutesUnit': 'minutos',
+    'home.readingPath.footer.domainsLabel': 'dominios',
+    'home.readingPath.footer.getToKnow': 'Conocer Taiwán',
+    'home.meta.title': 'Base de conocimiento de código abierto sobre Taiwán',
+    'home.meta.description':
+      'Base de conocimiento de código abierto y compatible con IA sobre Taiwán. Más de 660 páginas de contenido en profundidad que cubren historia, cultura, gastronomía, música, tecnología y 12 grandes temas, co-editadas por la comunidad para presentar al mundo el verdadero Taiwán.',
+    'home.miniGraph.heading': '🕸️ Grafo de conocimiento',
+    'home.miniGraph.subtitle':
+      'Cada artículo está conectado — haz clic para explorar la red de conocimiento de Taiwán',
+    'home.features.cta.graph':
+      '🔗 Grafo de conocimiento — Explorar conexiones entre artículos',
+    'home.features.cta.ssot': '📂 Explorar datos fuente SSOT ↗',
   },
 } as const;

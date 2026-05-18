@@ -1,72 +1,76 @@
 ---
-title: 'Yang Dai-kang: Taiwanese Baseball Star in Japan'
-description: "Yomiuri Giants outfielder and Taiwan's representative player in Japanese professional baseball"
-date: 2026-03-20
-tags:
-  [
-    'sports',
-    'baseball',
-    'NPB',
-    'Yomiuri Giants',
-    'outfielder',
-    'indigenous',
-    'Amis',
-  ]
-subcategory: 'Sports'
-lastVerified: 2026-03-20
-translatedFrom: 'People/陽岱鋼.md'
+title: "Yang Dai-Kang: Taitung 1987, Amis Outfielder from a Decade of Golden Gloves with the Nippon-Ham Fighters to an FA Move to the Yomiuri Giants"
+description: "Born 17 January 1987 in Taitung City, of Amis indigenous heritage, formerly known as Yang Zhong-shou. Graduated from the junior high school of National Taitung University Affiliated Sports High School, then went to Japan to attend Fukuoka Daiichi High School. Selected as a joint first-round pick by the Nippon-Ham Fighters and the Fukuoka SoftBank Hawks in the 2005 NPB draft; the Fighters won the lottery. Won the Pacific League Outfielder Golden Glove in 2012 (the first Taiwanese fielder to do so). Exercised domestic FA to join the Yomiuri Giants in 2016. NPB career: 1,322 games, 105 home runs, 482 RBI, .270 batting average. Left the Giants at the end of 2021 and moved to independent leagues."
+date: 2026-03-19
+author: "Taiwan.md"
+category: "People"
+subcategory: "體育"
+tags: ["體育", "棒球", "日職", "阿美族", "原住民", "外野手"]
+readingTime: "# design_rationale:\n#   why_this_hook: \"火腿十年→巨人FA→獨立聯盟——這是一個職業球員的完整弧線，比「台東阿美族走向日職」更有力。\"\n#   whats_excluded: \"逐年打擊成績表；日職各球隊待遇比較；2024-2025獨立聯盟近況細節\"\n#   where_it_hedges: \"原文章誤說「與讀賣巨人隊簽約（2005）」和「高中就讀花蓮體中」，已修正：2005選秀被火腿選中，高中在日本讀\""
+lastVerified: 2026-05-08
+lastHumanReview: false
+featured: false
+translatedFrom: "People/陽岱鋼.md"
+sourceCommitSha: "4b6d28c54"
+sourceContentHash: "sha256:a0454e71ee2abfe6"
+sourceBodyHash: "sha256:2bbcd86b693a9ea2"
+translatedAt: "2026-05-17T05:34:48+08:00"
 ---
 
-# Yang Dai-kang: Taiwanese Baseball Star in Japan
+# Yang Dai-Kang: Taitung 1987, Amis Outfielder from a Decade of Golden Gloves with the Nippon-Ham Fighters to an FA Move to the Yomiuri Giants
 
-Yang Dai-kang (陽岱鋼), a representative figure of Taiwan's overseas baseball players, was born January 17, 1987, in Taitung. Of Amis indigenous heritage, he has established an outstanding position in Japan's professional baseball world through comprehensive baseball skills and positive game attitude. His excellent performance with the Yomiuri Giants not only demonstrates Taiwanese baseball players' capabilities but also serves as an important bridge for Taiwan-Japan baseball exchange.
+> **30-second overview:** Yang Dai-Kang was born on 17 January 1987 in Taitung City, of Amis indigenous heritage, formerly known as Yang Zhong-shou.[^1] After graduating from the junior high school of National Taitung University Affiliated Sports High School, he went to Japan to attend Fukuoka Daiichi High School (a Japanese high school).[^1] At the end of 2005, in the NPB high school draft, both the Hokkaido Nippon-Ham Fighters and the Fukuoka SoftBank Hawks selected him with the first overall pick; the Fighters won the lottery and secured his signing rights.[^1] Over 10 years with the Fighters (2006–2015), he won the Pacific League Outfielder Golden Glove in 2012, becoming the first Taiwanese fielder to receive the award.[^2] In 2016, he exercised his domestic free agency and moved to the Yomiuri Giants for five years.[^2] His NPB career totals: 1,322 games, 105 home runs, 482 RBI, a .270 batting average, and 141 stolen bases.[^1] He left the Giants at the end of 2021 and subsequently played in American independent leagues, the Australian Baseball League, and the Atlantic League; he is currently with NPB's second team, Oisix Niigata.[^3]
 
-## From Taitung to the Baseball Stage
+## 17 January 1987, Taitung, Amis
 
-Yang was born into an Amis family in Taitung, displaying exceptional athletic talent from childhood. The Amis people naturally possess excellent athletic genes, and Yang was among the best. His baseball enlightenment began in elementary school, where he developed solid fundamentals in Taitung's baseball environment.
+Yang Dai-Kang was born on 17 January 1987 in Taitung City, of Amis indigenous heritage, formerly known as Yang Zhong-shou.[^1] He received his early baseball training in Taitung and attended National Taitung University Affiliated Sports High School (junior high division), where his outfield defense and base-running ability drew the attention of Japanese scouts.
 
-During high school at Hualien Sports High School, Yang emerged prominently in high school baseball leagues. He not only demonstrated outstanding batting ability but also had wide defensive range, fast baserunning speed, and most remarkably, excellent baseball intelligence. This comprehensive ability made him stand out among his generation and attracted attention from Japanese teams.
+Taitung is one of the regions in Taiwan with the highest concentration of indigenous baseball players. Amis, Paiwan, and Puyuma athletes form a vital thread in the local baseball culture. Yang Dai-Kang's rise is an extension of that thread, not an exception.
 
-In 2005, at just 18 years old, Yang decided to pursue development in Japan, signing with the Yomiuri Giants. This decision required tremendous courage—leaving home for Japan with completely different language and culture was a huge challenge for a young person. However, this opened his brilliant journey in Japanese professional baseball.
+## 2005: NPB Draft, First Pick by the Fighters
 
-## Steady Development in NPB Career
+After junior high, Yang Dai-Kang went to Japan to attend Fukuoka Daiichi High School, where he built a reputation in Japan's high school baseball circuit.[^1] At the end of 2005, at age 18, he entered the NPB high school draft. Both the Hokkaido Nippon-Ham Fighters and the Fukuoka SoftBank Hawks selected him with the first overall pick; the Fighters won the lottery.[^1]
 
-Yang began his professional career in the Giants' farm system, gradually adapting to Japanese professional baseball's rhythm through solid training. Japanese professional baseball is known for meticulous technique and rigorous training, which greatly helped improve his overall baseball abilities. During his farm team period, he continuously refined various skills, particularly defensive and baserunning techniques that Japanese professional baseball demands at extremely high levels.
+(Note: Some sources incorrectly state that he "signed with the Yomiuri Giants after the 2005 draft." This is inaccurate. He was drafted by the **Fighters** in 2005, spent 10 years with them, and only moved to the Yomiuri Giants via FA in 2016.)
 
-In 2012, Yang officially became a regular starter for the Giants' first team, primarily as a center fielder. His performance in Japan's Central League was steady, maintaining a batting average often above .260. More importantly, his performance in crucial moments was reliable. His comprehensive abilities made the coaching staff rely heavily on him, frequently playing key roles in important games.
+## The Fighters Era (2006–2015): The Golden Glove
 
-2014 was a significant year in Yang's career, helping the Giants win both the Central League championship and Japan Series championship. That season, he not only achieved excellent individual statistics but also demonstrated value in teamwork. His positive attitude and professional spirit earned respect from teammates and fans, making him an indispensable member of the Giants.
+Yang Dai-Kang spent 10 years with the Fighters (2006–2015). In 2012, he won the Pacific League Outfielder Golden Glove, becoming the first Taiwanese fielder to receive this honor.[^2]
 
-## Comprehensive Baseball Skills
+The Golden Glove recognizes outfield defense, not hitting. This means Yang Dai-Kang's value in NPB was not limited to offense—it also included diving catches in front of the outfield wall and a strong throwing arm. These are the most visible contributions on television broadcasts and the image most vividly associated with him among Hokkaido fans.
 
-Yang's baseball skills are characterized by comprehensiveness—he doesn't have particularly outstanding single abilities but maintains considerable standards in batting, defense, and baserunning. In batting, his swing motion is fluid, able to adapt to different types of pitchers, with good plate discipline. Though not a power hitter, he can contribute crucial hits when needed.
+## 2016: FA Move to the Yomiuri Giants
 
-Defense is one of Yang's strengths. He primarily plays center field with wide defensive range, good judgment, and sufficient arm strength for long throws. His defensive stability is high, rarely making errors—this reliability is what the coaching staff values most. In Japanese professional baseball's defense-emphasizing environment, his defensive ability earned him a solid starting position.
+In 2016, Yang Dai-Kang exercised his NPB domestic free agency and joined the Yomiuri Giants, where he played for five years (2016–2021).[^2] The Yomiuri Giants are NPB's most popular team, and an FA signing represented broader recognition of his market value within NPB.
 
-Baserunning technique is another advantage for Yang. His baserunning isn't just fast but more importantly accurate in judgment, rarely getting caught stealing. He's skilled at seizing gaps in pitcher-catcher coordination, with high successful steal percentages. This baserunning threat created additional scoring opportunities for the team and increased pressure on opposing pitchers.
+**Common narrative → more precise reading:** Outside observers sometimes frame Yang Dai-Kang's FA move as "pursuing a higher salary," but a more precise reading is that the NPB FA mechanism itself is a recognition of a player's market value, and the tactical needs of different teams are also a factor in the decision.
 
-## Cultural Adaptation and Language Abilities
+## NPB Career Totals
 
-Playing in Japanese professional baseball for over ten years, Yang demonstrated excellent cultural adaptation abilities. He not only learned fluent Japanese but more importantly understood and integrated into Japan's baseball culture. Japanese professional baseball emphasizes team discipline and detail execution—qualities he perfectly displays.
+NPB career (Fighters + Giants): 1,322 games played, 105 home runs, 482 RBI, a .270 batting average, and 141 stolen bases.[^1]
 
-Yang is also quite professional in media relations; his Japanese expression abilities allow smooth communication with Japanese media and fans. This language ability not only helps his on-field performance but also makes him an important bridge for Taiwan-Japan baseball exchange. Many Taiwanese fans better understand Japanese professional baseball through him, while Japanese fans learn about Taiwanese baseball through him.
+One hundred and five home runs is a significant milestone for a Taiwanese fielder in NPB history. His combination of power and speed made him a rare all-around outfielder in NPB.
 
-## Bridge for Taiwan-Japan Baseball Exchange
+The 141 stolen bases confirm that all-around ability—very few NPB outfielders have reached both 100 home runs and 100 stolen bases. Yang Dai-Kang is one of them.
 
-As a long-term Taiwanese player in Japanese professional baseball, Yang plays an important cultural exchange role. His success proves Taiwanese players' ability to establish themselves in Japanese professional baseball, which has important significance for enhancing Taiwan baseball's international visibility. He also frequently participates in Taiwan-Japan baseball exchange activities, sharing his experiences.
+## After 2021: Moving to Independent Leagues
 
-Yang also deeply cares about Taiwan baseball development. He frequently follows Taiwan baseball development and provides advice when possible. He believes Taiwanese players possess good basic qualities but need more international experience accumulation. His successful experience has important reference value for Taiwanese players aspiring to develop in Japan.
+At the end of 2021, Yang Dai-Kang left the Yomiuri Giants and subsequently played in American independent leagues, the Australian Baseball League, and the Atlantic League. He is currently with NPB's second team, Oisix Niigata.[^3] This post-Giants journey through various leagues is a common career-extension path for professional athletes: continuing to compete at a high level while passing on NPB-caliber experience.
 
-## Indigenous Sports Exemplar
+> 🎙️ **Curator's note:** Yang Dai-Kang's career trajectory is a microcosm of Taiwan's Amis baseball culture within the NPB system. He was not the first Taitung indigenous player to go to Japan, but he is the one who held his ground on NPB's biggest stage for the longest and played the most complete career. From the Fighters' Hokkaido to the Giants' Tokyo, his presence has left a substantive statistical footprint in Japanese baseball history.
 
-As a professional player of Amis heritage, Yang is also an important representative of indigenous sports. His success inspires many indigenous young people to engage in sports, demonstrating indigenous peoples' excellent potential in athletics. He also frequently returns to Taitung to participate in indigenous sports promotion activities, hoping to discover more athletic talent.
+From the red-dirt ball fields of Taitung to the Yomiuri Giants' home stadium in Japan's largest market—Yang Dai-Kang's 16-year professional path is a complete case study of an Amis player establishing himself in a foreign top-tier league.
 
-Yang's professional spirit and cultural adaptation abilities are worth learning not only in baseball but also serve as an exemplar for indigenous youth reaching international stages. He proved that through effort and persistence, indigenous athletes can similarly excel in international competition, bringing glory to Taiwan and indigenous peoples.
-
-Yang is not just an excellent baseball player but also an important promoter of Taiwan's sports internationalization and cultural exchange. His successful experience in Japanese professional baseball opened new development paths for Taiwanese baseball players and established important bridges for Taiwan-Japan sports exchange.
+**Further reading:** [Yang Dai-Kang — Wikipedia](https://zh.wikipedia.org/zh-tw/陽岱鋼) ｜ [NPB: Yang Dai-Kang Stats](https://npb.jp/)
 
 ## References
 
-- [Yomiuri Giants Official Website](https://www.giants.jp/) — Yang Dai-kang's detailed statistics with the Giants
-- [Nippon Professional Baseball](https://npb.jp/) — NPB career statistics and records
-- [Council of Indigenous Peoples](https://www.apc.gov.tw/) — Indigenous sports development and achievements
+[^1]: [Wikipedia: Yang Dai-Kang](https://zh.wikipedia.org/zh-tw/陽岱鋼) — Confirms born 17 January 1987 in Taitung City (Amis, formerly Yang Zhong-shou); junior high at National Taitung University Affiliated Sports High School → Fukuoka Daiichi High School; 2005 draft joint first pick by Fighters and Hawks (Fighters won lottery); NPB career 1,322 games, 105 HR, 482 RBI, .270 AVG, 141 SB.
+
+[^2]: [China Times: Yang Dai-Kang moves from Fighters to Giants via FA](https://www.chinatimes.com/realtimenews/20211126002692-261306) — Confirms 10 years with the Fighters (2006–2015), 2012 Pacific League Outfielder Golden Glove (first Taiwanese fielder), 2016 FA move to Yomiuri Giants.
+
+[^3]: [Yahoo Sports: Yang Dai-Kang joins Oisix Niigata](https://tw.sports.yahoo.com/news/重回日職-37歲陽岱鋼加入二軍新球隊) — Confirms after leaving the Giants at the end of 2021, he played in American independent leagues / Australian Baseball League / Atlantic League; currently with NPB second team Oisix Niigata.
+
+[^4]: [Liberty Times: Yang Dai-Kang recent updates](https://sports.ltn.com.tw/news/breakingnews/4862829) — Post-game career updates on Yang Dai-Kang.
+
+[^5]: [Nippon Professional Baseball Organization NPB: Yang Dai-Kang stats](https://npb.jp/) — Official NPB career batting records.

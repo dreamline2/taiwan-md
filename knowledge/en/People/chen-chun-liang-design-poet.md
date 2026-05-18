@@ -1,122 +1,70 @@
 ---
-title: 'Chen Chun-liang: The Design Poet of Taiwan'
-description: 'Visionary graphic designer and founder of FreeFall Design, pioneer who redefined Taiwan design with poetic sensibility'
-date: 2026-03-20
-tags:
-  [
-    'graphic designer',
-    'design education',
-    'FreeFall Design',
-    'design philosophy',
-    'design poet',
-  ]
-subcategory: 'Arts & Design'
-lastVerified: 2026-03-20
+title: 'Chen Chun-Liang: Design Poet and Modern Translator of Eastern Aesthetics'
+description: "Chen Chun-Liang was born in Tainan in 1958 and founded Freeimage Design Co., Ltd. on his 29th birthday, earning the title 'Design Poet' in the industry. He reinterprets modern design language through calligraphy, negative space, and Eastern imagery, with work spanning publication design, corporate identity, and national celebrations. In 2005, his 'Heaven Round, Earth Square' state banquet tableware won the Grand Jury Award at the Macau Design Biennale. A long-time contributor to design education, he is one of the most influential graphic designers in Taiwan since the 1980s."
+date: '2026-03-19'
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '藝術與設計'
+tags: ['設計師', '平面設計', '設計教育', '自由落體', '設計詩人']
+lastVerified: '2026-05-13'
+lastHumanReview: 'false'
+featured: 'false'
 translatedFrom: 'People/陳俊良.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:e8fd773cb48092fd'
+sourceBodyHash: 'sha256:7b3ecc631545bac9'
+translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-# Chen Chun-liang: Redefining Taiwan Design Through Poetry
+# Chen Chun-Liang: Redefining Taiwanese Design Through Poetry
 
-Chen Chun-liang, born in Tainan in 1958, is known as Taiwan's "Design Poet"—a pioneering graphic designer who fundamentally transformed Taiwan's visual landscape. As founder of FreeFall Design Studio, he introduced the philosophy that "design is life, life is design," seamlessly merging Eastern aesthetics with contemporary design principles. His humanistic approach influenced an entire generation of design professionals.
+> **30-second overview:** Chen Chun-Liang was born in Tainan in 1958 and is known in the industry as the "Design Poet," one of the most representative graphic designers in Taiwan since the 1980s. After working at \*CommonWealth Magazine for four years, he founded Freeimage Design Co., Ltd. on his 29th birthday, using the fusion of Eastern calligraphic imagery and modern layout composition as the core of his design practice. In 2005, the "Heaven Round, Earth Square" state banquet tableware series won the Asia's Most Influential Product Award and the Grand Jury Award at the 6th Macau Design Biennale, marking a landmark expansion beyond print design. He has long been dedicated to design education and Eastern aesthetic discourse.
 
-## Early Life and Artistic Foundation
+Chen Chun-Liang was born in Tainan and grew up immersed in the traditional cultural atmosphere of the ancient city, exposed from a young age to calligraphy, ink painting, and other Eastern art forms, developing an early sensitivity to visual language. He majored in fine arts, read extensively in Western design theory, while contemplating how to preserve the spiritual core of Eastern culture within modern design—a question that became the central axis of his entire career.
 
-Growing up in Tainan's rich cultural environment, Chen was immersed in traditional arts and folk culture from childhood. His adolescent fascination with calligraphy, ink painting, and other Eastern art forms established the aesthetic foundation that would later define his design philosophy.
+## The 1980s: The Beginning of a Design Career
 
-During his art studies, Chen quickly recognized the limitations of pure artistic expression and began exploring how to merge artistic creation with functional design. While absorbing Western design theories extensively, he constantly contemplated how to preserve Eastern cultural essence within contemporary design practice.
+In the early 1980s, the professionalization of graphic design in Taiwan was just beginning, with most design work still at the level of art editing. Chen Chun-Liang began taking on numerous projects during this period, and his early work already showed a distinctly personal language that set him apart from commercial design. His designs for literary publications and cultural activities frequently incorporated calligraphic lines and Eastern imagery, yet presented in a thoroughly modern compositional approach. This style established his recognizability in Taiwan's design circle and earned him the title "Design Poet."[^1]
 
-## Professional Genesis in Design
+## Freeimage Design
 
-In the early 1980s, Taiwan's graphic design field was just emerging, with most design work remaining at the level of art editing. Chen astutely recognized design's vast potential and committed himself entirely to this nascent field. His early works already displayed poetic qualities that distinguished them from conventional commercial design.
+After leaving _CommonWealth Magazine_, Chen Chun-Liang founded Freeimage Design on his 29th birthday, as a gift to himself. The name "Freeimage" is derived from the physical phenomenon of free fall: regardless of client size or budget, he gives his maximum effort equally to every project. The studio's design style is known for abundant white space, meticulous typography, and Zen-like visual composition. While pursuing commercial effectiveness, each work seeks to find the rhythm unique to that particular project. Freeimage Design's services include exhibition planning, store design, corporate identity, product packaging, and integrated graphic design.[^2]
 
-His designs for literary publications and cultural events frequently incorporated calligraphic elements and Eastern imagery while maintaining completely contemporary expression. This fusion of traditional and modern design established a unique style in Taiwan's design landscape, earning him the title "Design Poet."
+Chen Chun-Liang emphasizes that good design comes from observing and feeling life: if a designer does not understand the texture of life, it is difficult for the work to transcend the level of pure graphic form. He advocates a "less is more" aesthetic, but his minimalism is not empty—it is precision left after removing the superfluous.
 
-## Founding FreeFall Design Studio
+## Representative Achievements in Publication Design
 
-In 1990, Chen established "FreeFall Design Studio," a name rich with poetic meaning. He believed design creation resembles free fall—requiring the release of preconceptions to allow creativity to flow naturally. This studio functioned not merely as a commercial design company but as an experimental laboratory for design thinking.
+Chen Chun-Liang has significant accomplishments in publication design. His covers for literary works and art books typically employ abstract visual language while precisely conveying the emotional atmosphere of the book. His philosophy of publication design is that cover design should be a visual translation of the book's content, not merely packaging to make the book stand out on the shelf. This thinking has built his reputation in Taiwan's publishing industry, making him a long-term collaborator with many literary authors and publishers.[^3]
 
-FreeFall's distinctive works frequently employed extensive white space, refined typography, and Zen-influenced visual composition. These pieces achieved commercial success while displaying high artistic merit, establishing new standards for Taiwan's commercial design industry.
+## International Recognition
 
-## Design Philosophy and Aesthetic Principles
+Chen Chun-Liang's work has been selected for Germany's "Most Beautiful Books of the World" competition in Leipzig, bringing the Eastern aesthetics of Taiwanese graphic design into the view of international jurors. He believes Taiwanese designers do not need to fully Westernize to gain international recognition—on the contrary, rooting in local culture and articulating it clearly through modern design language creates a more distinctive competitive position.[^4]
 
-Chen's design philosophy draws deeply from Eastern thought, proposing that "design is life, life is design." He believes the finest design emerges from profound observation and experience of daily life, emphasizing that designers should be cultural thinkers, not merely technical executors.
+Entering the 2000s, Chen Chun-Liang also provided brand identity design for corporations and public institutions, with works spanning various industries. Among these, his "Heaven Round, Earth Square" tableware series for the Presidential Office state banquet transformed Eastern aesthetics into modern ceramic forms, winning the Grand Jury Award at the Macau Design Biennale, a representative case of Freeimage Design's expansion beyond print.[^5]
 
-His works consistently embody a "less is more" minimalist aesthetic, but this simplicity isn't empty—it represents carefully considered refinement. He excels at creating rich emotional layers within simple compositions, becoming a defining characteristic of his design approach.
+## Long-Term Commitment to Design Education
 
-## Masterworks in Publishing Design
+From the 2010s onward, Chen Chun-Liang appeared more frequently in design education, teaching at universities and conducting workshops, transforming decades of practical experience into transferable teaching materials. His teaching emphasizes the cultivation of humanistic literacy: designers must read widely and observe extensively; software operation is merely a means of execution, and technique without content is an empty shell. He encourages students to transform personal life experience into design language rather than copying visually "designed-looking" ready-made styles.[^6]
 
-Chen achieved exceptional recognition in publishing design, creating covers and layouts for numerous significant literary works and art books. His publication designs transcend mere packaging, offering visual interpretations of content that often capture the spiritual core of works.
-
-His book cover designs frequently employ abstract visual language while accurately conveying emotional atmospheres of contents. This ability to deeply understand content and transform it visually established him as one of Taiwan's most respected designers in publishing circles.
-
-## Innovation in Corporate Identity
-
-In corporate identity design, Chen made significant contributions as well. He created brand identities for numerous renowned enterprises, maintaining stylistic consistency while adapting appropriately to different corporate cultures. His corporate designs frequently incorporate cultural considerations beyond mere visual symbols.
-
-He believes effective corporate identity should reflect enterprise cultural content, not just visual effects. This thinking gives his corporate designs enduring vitality—many remain in use today, proving the durability of classic design.
-
-## Profound Educational Influence
-
-Beyond commercial design, Chen significantly impacted Taiwan design education. He frequently lectures at universities and conducts various design workshops, nurturing countless design talents. His teaching transcends technical instruction, emphasizing the cultivation of design thinking.
-
-He stresses that designers should possess deep humanistic cultivation, not merely software operation skills. He encourages students to read extensively, think deeply, and observe life carefully, transforming personal life experiences into design nourishment. This educational philosophy profoundly influenced Taiwan design education's development direction.
-
-## Cross-Disciplinary Artistic Exploration
-
-Chen's creativity extends beyond graphic design to installation art, spatial design, and other fields. He applies design thinking to broader artistic creation, exploring expanded possibilities for visual arts.
-
-This cross-disciplinary exploration enriched his design vocabulary while opening broader creative horizons for Taiwan's design community. He demonstrated that designers can be comprehensive artistic creators without being constrained by single professional boundaries.
-
-## International Recognition and Awards
-
-Chen's works have received numerous international design awards, including Germany's Leipzig "Most Beautiful Books in the World" and other prestigious honors. These award-winning works introduced international design communities to Taiwan's unique aesthetic, securing recognition for Taiwan design on the global stage.
-
-His international success transcends personal glory, importantly proving Eastern aesthetics' value on international design platforms. His works helped Western design communities rediscover Eastern design's profound cultural content.
-
-## Visual Curation for Cultural Activities
-
-Chen actively participates in visual curation for cultural activities, providing comprehensive visual planning for museum exhibitions, cultural festivals, and other events. His cultural designs consistently convey activities' cultural content accurately, enhancing overall event quality.
-
-These cultural design projects demonstrate his profound understanding of Taiwan culture while embodying his belief in using design to promote cultural heritage. He believes designers have a responsibility to contribute to cultural transmission.
-
-## Theoretical Construction in Design
-
-As a veteran designer, Chen also dedicates himself to design theory construction. He has authored numerous design treatises exploring Eastern aesthetics applications in contemporary design, contributing to Taiwan design theory development.
-
-His theoretical works transcend academic discussion, summarizing practical experience. These theoretical constructions provide important foundations for Taiwan design education while helping design practitioners deepen professional thinking.
-
-## Comprehensive Influence on Taiwan Design
-
-Chen's influence on Taiwan design is comprehensive. He created outstanding works while, more importantly, establishing professional paradigms for designers. He proved designers can be thoughtful cultural workers, not merely commercial service providers.
-
-His design style influenced an entire generation of designers, with many renowned designers acknowledging his inspiration. This influence transcends specific technical levels, manifesting in design thinking and professional attitudes.
-
-## Contemporary Expression of Eastern Aesthetics
-
-Chen's most important contribution was discovering how Eastern aesthetics could be expressed within contemporary design. His works possess deep cultural foundations while maintaining modern expression forms, providing crucial insights for Eastern designers competing on international stages.
-
-His successful experience teaches us that designers need not completely Westernize to gain international recognition. Rather, deeply exploring local cultural resources and expressing them through contemporary design language creates unique competitive advantages.
-
-## Later Career and Cultural Legacy
-
-Entering his career's later phases, Chen increasingly focused on design culture transmission. He organized decades of creative insights, hoping to leave valuable experiential assets for Taiwan's design community.
-
-He continues participating in design education, sharing rich practical experience with younger generations. He believes only through educational transmission can Taiwan design culture continue developing and expanding.
-
-## Social Responsibility of Design
-
-Chen consistently emphasizes designers' social responsibility. He believes design transcends commercial service to become an important force in cultural creation. Designers should use professional abilities to create better visual environments for society.
-
-This sense of social responsibility manifests in numerous public interest design projects he has undertaken. He frequently provides design services for cultural institutions and non-profit organizations, demonstrating designers' social participation spirit.
-
-## Cultural Transformation Through Design
-
-Chen's philosophy extends beyond individual expression to cultural transformation. He views design as a medium for cultural dialogue, bridging traditional wisdom with contemporary needs. His approach demonstrates how designers can serve as cultural translators, making ancient wisdom accessible to modern audiences.
-
-His methodology influenced how Taiwan approaches cultural preservation and innovation. Rather than viewing tradition and modernity as opposing forces, his work proves they can enhance each other when skillfully integrated through thoughtful design.
+He has also organized his creative insights, writing design discourse exploring the application of Eastern aesthetics in modern design, providing a practitioner's perspective for theoretical discussions in Taiwan's design community.[^7]
 
 ## References
 
-- [FreeFall Design Studio Portfolio](https://www.freefalldesign.com.tw/) — Official design company website
-- [Taiwan Design Center Collections](https://www.tdc.org.tw/) — Design works database
-- [Design Journal Featured Reports](https://www.cdesign.org.tw/) — Academic research materials
+[^1]: [Chen Chun-Liang — artemperor.tw](https://artemperor.tw/knowledge/1191) — Overview of Chen Chun-Liang's design career, origin of the "Design Poet" title, and representative works.
+
+[^2]: [Freeimage Design — Facebook Official Page](https://www.facebook.com/p/%E8%87%AA%E7%94%B1%E8%90%BD%E9%AB%94%E8%A8%AD%E8%A8%88-Freeimage-Design-100039631345727/) — Official information and portfolio of Freeimage Design studio.
+
+[^3]: [Freeimage Design / Chen Chun-Liang: The Most Important Thing in Visual Design Is 'Nothing Is Impossible, Only Unimaginable' — ShoppingDesign](https://www.shoppingdesign.com.tw/post/view/167) — In-depth interview on Chen Chun-Liang's design philosophy and working methods.
+
+[^4]: [It Is Kindness That Takes Me Where I Want to Go — Interview with Design Godfather Chen Chun-Liang — FLiPER](https://flipermag.com/2021/03/29/freeimage-design/) — Chen Chun-Liang's career trajectory, the story of founding at 29, and his Eastern aesthetic design perspective.
+
+[^5]: [Chen Chun-Liang: The Best Marketing Is the Work Itself — La Vie](https://www.wowlavie.com/article/ae1400597) — Record of Chen Chun-Liang's "Heaven Round, Earth Square" state banquet tableware series winning the Grand Jury Award at the Macau Design Biennale.
+
+[^6]: [Chen Chun-Liang's 38-Year Design Journey: Daring to Do What Others Dare Not — China Times](https://www.chinatimes.com/newspapers/20180701000609-260102) — Career retrospective and design education involvement of Chen Chun-Liang.
+
+[^7]: [Freeimage Design Chen Chun-Liang's Design Philosophy: 'The Distance Between i and F' — DesignWant](https://www.designwant.com/article/7826) — Chen Chun-Liang's Eastern aesthetic design discourse and calligraphic visual language.
+
+## Further Reading
+
+- [Freeimage Design Co., Ltd. — Taiwan Company Directory](https://www.twincn.com/item.aspx?no=84491727) — Company registration information for Freeimage Design (FREEIMAGE DESIGN CO., LTD.)
+- [Fang Hsu-Chung](/people/方序中) — A contemporary Taiwanese visual designer, responsible for Golden Melody Awards and Golden Horse Awards visual identity

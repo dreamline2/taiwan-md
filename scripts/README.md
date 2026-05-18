@@ -34,24 +34,25 @@ scripts/
 
 ## 🟡 tools/ — 日常操作
 
-| 腳本                     | 語言 | 用途                                                             |
-| ------------------------ | ---- | ---------------------------------------------------------------- |
-| `quality-scan.sh`        | bash | **品質掃描 v3.0** — 14 維度偵測（空洞/塑膠/清單堆砌/品質衰退等） |
-| `review-pr.sh`           | bash | PR 自動初審（frontmatter + 品質 + 安全 4 層檢查）                |
-| `rewrite-pipeline.sh`    | bash | 文章改寫流程輔助（Stage 1-5 互動引導）                           |
-| `translate.sh`           | bash | 翻譯文章（呼叫 AI + 品質驗證）                                   |
-| `update-stats.sh`        | bash | 更新 README 統計數字（文章數/語言覆蓋等）                        |
-| `manage-featured.sh`     | bash | 管理 featured 文章標記                                           |
-| `assign-subcategory.cjs` | node | 批次指派子分類（讀 taxonomy → 寫 frontmatter）                   |
-| `check-freshness.js`     | node | 檢查文章新鮮度（lastVerified 過期預警）                          |
+| 腳本                     | 語言 | 用途                                                                                                                                                 |
+| ------------------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `article-health.py`      | py   | **SSOT 11 plugin 健檢入口** — prose-health / footnote-density / format-structure / wikilink-target / image-health / terminology / cross-reference 等 |
+| `review-pr.sh`           | bash | PR 自動初審（frontmatter + 品質 + 安全 4 層檢查）                                                                                                    |
+| `rewrite-pipeline.sh`    | bash | 文章改寫流程輔助（Stage 1-5 互動引導）                                                                                                               |
+| `translate.sh`           | bash | 翻譯文章（呼叫 AI + 品質驗證）                                                                                                                       |
+| `update-stats.sh`        | bash | 更新 README 統計數字（文章數/語言覆蓋等）                                                                                                            |
+| `manage-featured.sh`     | bash | 管理 featured 文章標記                                                                                                                               |
+| `assign-subcategory.cjs` | node | 批次指派子分類（讀 taxonomy → 寫 frontmatter）                                                                                                       |
+| `check-freshness.js`     | node | 檢查文章新鮮度（lastVerified 過期預警）                                                                                                              |
 
 **常用指令**：
 
 ```bash
-bash scripts/tools/quality-scan.sh                    # 全量掃描
-bash scripts/tools/quality-scan.sh knowledge/Art/X.md  # 單檔掃描
-bash scripts/tools/quality-scan.sh --sort --diff       # 排序 + 差分
-bash scripts/tools/review-pr.sh 123                    # 審核 PR #123
+python3 scripts/tools/article-health.py --all                            # 全量掃描（11 plugin）
+python3 scripts/tools/article-health.py knowledge/Art/X.md               # 單檔掃描
+python3 scripts/tools/article-health.py knowledge/Art/X.md --check=prose-health  # 單一 plugin
+python3 scripts/tools/article-health.py --all --profile=release-pr       # release strict mode
+bash scripts/tools/review-pr.sh 123                                      # 審核 PR #123
 
 # --- OG Image 相關 (v3 統一架構) ---
 npm run og:generate                                   # 增量產圖 (JPG 85, ?shot=1 模式)

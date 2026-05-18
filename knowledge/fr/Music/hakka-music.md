@@ -1,120 +1,119 @@
 ---
-title: 'La musique hakka de Taïwan : entre héritage montagnard et réinvention rock'
-description: "Découvrez comment la musique hakka de Taïwan s'est transformée — des chants de montagne traditionnels et des ensembles de « huit sons » aux créations contemporaines de Lin Sheng-xiang et交工樂隊, jusqu'aux consécrations aux Golden Melody Awards."
+title: 'La musique hakka de Taïwan : des chants de montagne au refus de Lin Shengxiang de recevoir un prix — la politique linguistique en jeu'
+description: "Les chants de montagne hakka et la musique des huit sons hakka sont les formes musicales les plus anciennes du peuple hakka à Taïwan. En 1999, le groupe Jiao Gong a relié l'esprit des chants de montagne hakka au rock électrique. En 2003, la 14e édition des Golden Melody Awards a créé pour la première fois une catégorie dédiée au chant en langue hakka, et Xie Yuwei a remporté le premier prix de chanteur hakka en 2004. En 2007, Lin Shengxiang a refusé sur scène le prix du meilleur chanteur hakka pour son album *Zhong Shu* (*Planter des arbres*), appelant à classer la musique par genre plutôt que par langue. Cet acte de refus a déclenché un débat public sur le maintien ou la suppression des catégories linguistiques aux Golden Melody Awards, et a conduit trois ans plus tard à la création des Golden Indie Music Awards. La chaîne Hakka TV, fondée en 2003, a continuellement élargi la visibilité de la musique en langue hakka. La menace de disparition linguistique persiste, mais la tension entre transmission et innovation continue de faire avancer les musiciens hakka."
 date: 2026-03-19
-tags:
-  ['musique hakka', 'chants de montagne', 'huit sons hakka', 'Lin Sheng-xiang', 'musique en langue hakka', 'Golden Melody Awards']
-subcategory: 'Musique traditionnelle'
-author: 'Taiwan.md Translation Team'
-readingTime: 13
-featured: true
 category: 'Music'
-lastVerified: 2026-03-19
+tags:
+  [
+    'musique hakka',
+    'chants de montagne',
+    'huit sons hakka',
+    'Lin Shengxiang',
+    'groupe Jiao Gong',
+    'chansons en langue hakka',
+    'Golden Melody Awards',
+  ]
+subcategory: '傳統音樂'
+author: 'Taiwan.md Contributors'
+featured: false
+lastVerified: 2026-05-13
 lastHumanReview: false
+readingTime: 10
+# design_rationale:
+#   why_this_hook: "林生祥2007拒獎：不是拿了就謝謝，而是把獎項本身當成議題——這才是客家音樂史最有力的錨點"
+#   whats_excluded: "榮興客家採茶劇團完整史；客委會組織架構；WOMAD詳細場次"
+#   where_it_hedges: "羅思容代表作《攬花去》（第23屆）確認，《天光》得獎資訊未能核實"
 translatedFrom: 'Music/台灣客家音樂.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:22e97f9490662932'
+sourceBodyHash: 'sha256:9927771d5f6f1634'
+translatedAt: '2026-05-15T14:23:14+08:00'
 ---
 
-# La musique hakka de Taïwan : entre héritage montagnard et réinvention rock
+# La musique hakka de Taïwan : des chants de montagne au refus de Lin Shengxiang de recevoir un prix — la politique linguistique en jeu
 
-## En 30 secondes
+## Vue d'ensemble en 30 secondes
 
-La musique hakka de Taïwan porte une richesse culturelle exceptionnelle. Des chants de montagne ancestraux aux ensembles de « huit sons » utilisés lors des cérémonies, jusqu'aux réinterprétations modernes de Lin Sheng-xiang, de 交工樂隊 (交工樂隊) et de 生祥樂隊 — cette tradition a su se réinventer sans se renier. La création d'une catégorie langue hakka aux Golden Melody Awards lui a offert une visibilité officielle durable, permettant à cette culture musicale de rayonner dans le Taïwan contemporain.
+Les chants de montagne hakka et la musique des huit sons hakka constituent l'héritage musical le plus ancien de la communauté hakka à Taïwan. En 1999, le groupe Jiao Gong a relié l'esprit des chants de montagne hakka à la guitare électrique rock. En 2003, la 14e édition des Golden Melody Awards a créé pour la première fois une catégorie dédiée au chant en langue hakka, et Xie Yuwei a remporté en 2004 le premier prix de chanteur hakka. En 2007, Lin Shengxiang a refusé sur la scène des Golden Melody Awards le prix du « meilleur chanteur hakka », appelant à classer la musique par genre plutôt que par langue. Cet acte de refus est devenu la déclaration la plus marquante à l'intersection de la politique linguistique et de la culture musicale à Taïwan.[^1]
 
-**Mots-clés :** chant de montagne hakka, huit sons hakka, musique hakka contemporaine, création en langue maternelle, transmission culturelle
+## Racines traditionnelles : chants de montagne et musique des huit sons hakka
 
-## Pourquoi cela compte
+### Les chants de montagne : une expression poétique née du travail
 
-Le parcours de la musique hakka illustre parfaitement la capacité de Taïwan à faire coexister des cultures multiples. Face à la mondialisation, les musiciens hakka ont choisi de renouveler leur langage musical pour préserver leur identité — en accueillant des influences contemporaines sans jamais abandonner leur âme culturelle. Plus qu'un art, cette musique est un vecteur essentiel de transmission linguistique et mémorielle.
+Les chants de montagne hakka (_shan'ge_) sont la forme la plus ancienne de la musique hakka à Taïwan. Ils trouvent leur origine dans la vie agricole des premiers colons hakka. Qu'il s'agisse de cueillir le thé, de travailler les champs ou d'accomplir les tâches quotidiennes, les Hakka avaient coutume d'exprimer leurs émotions par le chant. La caractéristique principale des chants de montagne réside dans leur dimension improvisée : les paroles reflètent souvent le contexte du moment, la mélodie est simple mais évocatrice.
 
-## Les racines traditionnelles : chants de montagne et huit sons
+On distingue trois catégories traditionnelles de chants de montagne : le _lao shan'ge_ (ancien chant de montagne), le _shan'ge zai_ (petit chant de montagne) et le _kejia xiaodiao_ (petite mélodie hakka). Le _lao shan'ge_ a un rythme libre et de larges variations mélodiques, propices à l'expression d'émotions profondes ; le _shan'ge zai_ a un rythme régulier, facile à transmettre ; le _kejia xiaodiao_ intègre les différences culturelles des diverses communautés hakka.
 
-### Le chant de montagne : poésie du labeur quotidien
+### La musique des huit sons hakka : une tradition instrumentale pour les cérémonies
 
-Le chant de montagne hakka (*shānge*) est la forme la plus ancienne de cette tradition musicale. Né dans la vie agricole des premiers migrants hakka, il accompagnait la cueillette du thé, les travaux des champs, les moments ordinaires du quotidien. Ce qui le distingue, c'est son caractère spontané et ancré dans le réel : les paroles reflètent l'instant vécu, et les mélodies — simples mais saisissantes — passent d'une voix à l'autre avec une facilité déconcertante.
+La musique des huit sons hakka (_ba yin_) est une tradition instrumentale jouée lors des cérémonies de mariage, de funérailles et de fêtes dans la communauté hakka. Elle repose principalement sur le _suona_ (hautbois à double anche) comme instrument soliste, accompagné de gongs, tambours et instruments à cordes et à vent.[^2] Le terme « huit sons » emprunte le concept de classification en huit matériaux tiré du _Zhou Li_ (Rites des Zhou), mais dans la pratique, la musique des huit sons hakka est centrée sur le _suona_ comme instrument principal et sur le rythme des gongs et tambours, sans nécessairement réunir les huit types de matériaux.
 
-Il en existe plusieurs variantes : le *lǎo shāngē* (vieux chant de montagne), au tempo libre et à l'amplitude mélodique ample, convient à l'expression des émotions profondes ; le *shānge zǎi*, plus rythmé et fluide, se prête mieux à la transmission orale ; les petits airs locaux (*kèjiā xiǎodiào*) intègrent quant à eux les particularités régionales de chaque communauté hakka.
+Les ensembles de _ba yin_ constituent des organisations culturelles importantes dans les communautés hakka, et leur savoir-faire se transmet traditionnellement de maître à élève par voie orale. Le répertoire classique comprend des pièces telles que _Da Kai Men_ (Grande ouverture), _Xiao Kai Men_ (Petite ouverture) et _Feng Ru Song_ (Le vent pénètre dans les pins), chacune ayant un contexte d'exécution et une signification symbolique spécifiques.
 
-### Les huit sons : la musique des fêtes et des rites
+## Transformation moderne : la percée du groupe Jiao Gong
 
-Les « huit sons » hakka (*bāyīn*) constituent l'autre pilier de cette tradition musicale. Destinés aux cérémonies — mariages, funérailles, célébrations — ils tirent leur nom des huit matériaux dont sont faits les instruments : métal (gongs, cymbales), pierre (lithophone), soie (erhu, yehu), bambou (flûte, xiao), courge (sheng), terre (suona), cuir (tambour), bois (blocs de bois, clapets).
+### Lin Shengxiang : un praticien contemporain de la musique hakka
 
-Les groupes de huit sons étaient au cœur de la vie sociale des villages hakka, transmettant leur savoir-faire de maître à disciple par voie orale. Leur jeu, festif et élaboré, reflète l'exigence des hakka en matière musicale. Parmi les pièces emblématiques : *Dà Kāi Mén* (Grand Portail), *Xiǎo Kāi Mén* (Petit Portail) ou *Fēng Rù Sōng* — chacune associée à un contexte rituel précis.
+Lin Shengxiang est né à Meinong, dans le sud de Taïwan. Au début des années 1990, il a fondé le groupe « Guanzi Yinyue Kan » avec Zhong Yongfeng et d'autres, commençant à explorer les possibilités modernes de la musique hakka. La caractéristique majeure de sa musique est la fusion de l'esprit des chants de montagne hakka avec des arrangements rock : guitare électrique, basse et batterie portent des sonorités contemporaines, tandis que la mélodie et le style vocal conservent une forte saveur hakka.
 
-## La mutation contemporaine : les pionniers de la nouvelle musique hakka
+### Le groupe Jiao Gong : la force musicale au service du mouvement social (1999–2003)
 
-### Lin Sheng-xiang : le poète du renouveau hakka
+En 1999, Lin Shengxiang, Zhong Yongfeng, Zhong Chengda, Guo Jincai et d'autres ont formé le « groupe Jiao Gong » (le terme _jiao gong_ vient du hakka et signifie « travailler ensemble »). Le groupe s'est engagé sur des questions environnementales, des problèmes ruraux et la défense des populations marginalisées, utilisant la musique comme voix pour les causes sociales.
 
-Lin Sheng-xiang est sans doute la figure la plus déterminante de la musique hakka actuelle. Né à Meinong, berceau de la culture hakka, il en a assimilé les codes dès l'enfance avant d'en mesurer la fragilité dans le monde moderne. Au début des années 1990, il fonde avec Zhong Yong-feng le collectif « 觀子音樂坑 » (*Guānzǐ Yīnyuè Kēng*) et commence à explorer ce que peut être la musique hakka au XXIe siècle.
+L'album _Wo Deng Jiu Lai Chang Shan'ge_ (_Nous allons chanter des chants de montagne_, 1999) a remporté lors de la 11e édition des Golden Melody Awards en 2000 les prix du **meilleur compositeur** et du **meilleur producteur**.[^3] Le style musical fusionne chants de montagne hakka, folklore taïwanais et éléments rock, et les performances en direct ont souvent ému même les spectateurs ne comprenant pas le hakka.
 
-Sa marque de fabrique : conserver l'esprit du chant de montagne tout en l'habillant d'arrangements modernes — guitare électrique, basse, batterie — sans jamais trahir la saveur hakka de la mélodie et de la voix. Des œuvres comme *Chrysanthemum Night March* ou *Planting Trees* illustrent cette ambition : des paroles d'une densité poétique rare, portées par des arrangements d'une grande sophistication, qui ont ouvert la musique hakka à des publics qui ne la connaissaient pas.
+Après la dissolution du groupe Jiao Gong en 2003, Lin Shengxiang a formé le « Shengxiang Band », continuant d'expérimenter avec le jazz, le blues et les musiques du monde, tout en conservant le noyau culturel hakka. Œuvres majeures : _Yesheng_ (_Sauvage_), _Da Di Shu Fang_ (_La bibliothèque de la terre_), _Wo Zhuang_ (_Mon village_).
 
-### 交工樂隊 : quand la musique prend position
+## La catégorie hakka aux Golden Melody Awards : création, controverse et transformation
 
-En 1999, Lin Sheng-xiang, Zhong Yong-feng et Chen Guan-yu forment 交工樂隊 — le nom signifie littéralement « travailler ensemble » en hakka. Plus qu'un groupe, c'est un acte militant. Préoccupés par les questions environnementales, la condition paysanne et les droits des minorités, ils font de leur musique une tribune.
+### La 14e édition (2003) : première catégorie hakka indépendante
 
-Leur style fusionne chants de montagne hakka, folk taïwanais et rock dans une alchimie inédite, que l'on a appelée la « nouvelle musique hakka ». L'album *Wǒ Děng Jiù Lái Chàng Shāngē* (Viens, chantons ensemble la montagne) remporte le Golden Melody Award du meilleur groupe — une consécration qui légitime la musique hakka dans le paysage musical taïwanais. Sur scène, l'énergie du groupe est telle que même les non-hakkaphones se laissent emporter.
+Lors de la 14e édition des Golden Melody Awards en 2003, les prix de chant ont été pour la première fois subdivisés par langue, avec la création du « prix du meilleur chanteur hakka » (parallèlement aux catégories en langue taïwanaise et en langues autochtones), se distinguant du concept antérieur de « meilleur chanteur en dialecte ».[^4] À partir de la 18e édition en 2007, le prix a été renommé « prix du meilleur artiste hakka ».
 
-### 生祥樂隊 : l'expérimentation comme boussole
+Lors de la 15e édition en 2004, Xie Yuwei a remporté le premier prix du meilleur chanteur hakka avec l'album _Yi Chai, Hua Shu Xia_ (_Sous l'arbre aux fleurs_), marquant une étape importante dans l'entrée de la musique pop hakka dans le paysage grand public.[^5]
 
-Après la dissolution de 交工樂隊 en 2002, Lin Sheng-xiang crée 生祥樂隊 et poursuit ses explorations. La formation est plus souple, le spectre musical plus large — jazz, blues, world music s'invitent dans l'équation — mais l'âme hakka reste le fil conducteur.
+### 2007 : le refus de Lin Shengxiang — la déclaration politique la plus marquante
 
-Les albums *Yěshēng* (À l'état sauvage), *Dàdì Shūfáng* (La librairie de la grande terre) et *Wǒ Zhuāng* (Mon village) jalonnent différentes étapes de cette quête. Les textes de Lin sont habités : amour du territoire, regard critique sur la tradition, observation lucide du présent. Une humanité qui transcende les frontières linguistiques.
+Lors de la 18e édition des Golden Melody Awards en 2007, Lin Shengxiang a reçu simultanément le « prix du meilleur artiste hakka » et le « prix du meilleur album hakka » pour _Zhong Shu_ (_Planter des arbres_). Sur la scène de la cérémonie, il a refusé les deux trophées, a fait don de la dotation financière et a déclaré publiquement : **la musique devrait être classée par genre, et non par langue — classer par langue revient à inverser les priorités.** Il a interrogé : « Pourquoi le prix du meilleur producteur peut-il être attribué sans distinction de langue, mais pas celui du meilleur album ? »[^6]
 
-## Les Golden Melody Awards : une reconnaissance qui change tout
+Cet événement a déclenché un débat public sur le système de classification linguistique des Golden Melody Awards et a directement conduit en 2010 à la création par le ministère de la Culture des **Golden Indie Music Awards** (prix de la musique indépendante), qui classent la musique par genre — rock, folk, hip-hop, électro, jazz — plutôt que par langue. En 2017, les Golden Melody Awards ont ajouté un prix annuel de l'album de l'année, ouvert à toutes les langues, ce qui peut être considéré comme une réponse partielle à la déclaration de Lin Shengxiang.
 
-### La signification de la catégorie langue hakka
+### Siouman Rourong : une voix féminine dans la musique hakka
 
-En 2007, les Golden Melody Awards créent la catégorie « Meilleur album en langue hakka » — une reconnaissance officielle qui marque un tournant. Cette distinction n'est pas anodine : elle offre une tribune aux créateurs hakka et encourage de nouveaux artistes à oser la création en langue maternelle.
+Siouman Rourong (_Luo Sirong_) apporte une couleur différente à la musique hakka grâce à sa voix douce et délicate et à ses paroles poétiques. Son œuvre majeure _Lan Hua Qu_ (_Cueillir des fleurs_, lauréat du prix du meilleur artiste hakka et du meilleur album hakka lors de la 23e édition des Golden Melody Awards) décrit l'expérience de vie des femmes hakka du point de vue féminin, comblant un vide relatif de la voix féminine dans la musique hakka.[^7]
 
-Ce choix institutionnel s'inscrit dans un contexte plus large de réévaluation des politiques linguistiques à Taïwan. Avec la montée des consciences identitaires et la valorisation du pluralisme culturel, le hakka — l'une des langues maternelles de Taïwan — méritait une protection active. La musique, vecteur de transmission par excellence, s'est naturellement retrouvée au cœur du dispositif.
+### Xie Yuwei : un pionnier de la musique pop hakka
 
-### Une diversité de lauréats, une richesse de styles
+Xie Yuwei est à la fois chanteur, acteur, auteur-compositeur, producteur et peintre, et promeut la musique en langue hakka depuis de longues années. En 1992, il a remporté le championnat national de création musicale avec _Wen Bu Ge_ (_Chanson de divination_), marquant la première fois qu'une chanson en langue hakka obtenait un prix national ; il est également le premier lauréat du prix du meilleur chanteur hakka en 2004.[^5]
 
-Les palmarès successifs témoignent de la vitalité du champ : du rock expérimental de Lin Sheng-xiang à la créativité ancrée dans la tradition de Huang Lian-yu, du folk intime de Luo Si-rong aux propositions pop de la jeune génération — chaque album primé représente une direction distincte pour la musique hakka.
+## Bases de diffusion : Hakka TV et le Conseil des affaires hakka
 
-Ce que ces œuvres ont en commun : une identité hakka affirmée, doublée d'une audace formelle sans complexe. Arrangements, technique vocale, production — tout atteste d'un niveau professionnel international, prouvant que la musique en langue hakka peut rivaliser avec n'importe quel standard mondial.
+En 2001, le Conseil des affaires hakka (_Ke Wei Hui_) a été créé par le Yuan exécutif, devenant l'organisme gouvernemental dédié aux affaires de la communauté hakka à Taïwan. En 2003, la **chaîne Hakka TV** a commencé à émettre, devenant la première chaîne de télévision au monde diffusant en continu en langue hakka, élargissant considérablement les canaux de diffusion et la base d'audience de la musique en langue hakka.[^8]
 
-## Autres voix importantes
+### Huang Lianyu : une autre voie de création traditionnelle
 
-### Huang Lian-yu : l'enracinement comme esthétique
+Huang Lianyu est une autre figure majeure de la musique hakka. Son œuvre représentative _Shan'ge Yi Tiao Lu_ (_Un chemin de chants de montagne_) réarrange des chants de montagne traditionnels avec des instruments modernes, conservant la saveur traditionnelle tout en y ajoutant une touche contemporaine. Profondément imprégné de la culture hakka, il n'est pas seulement un créateur, mais aussi un promoteur de longue date de la culture hakka.
 
-Huang Lian-yu occupe une place à part dans le paysage hakka. Son travail couvre aussi bien le réarrangement de chants de montagne traditionnels que la composition de nouvelles pièces en langue hakka. Son album emblématique *Shāngē Yī Tiáo Lù* (Sur le chemin du chant de montagne) repense des mélodies ancestrales avec des instruments modernes — un équilibre délicat entre nostalgie et contemporanéité.
+## Défis et opportunités contemporains
 
-Rigoureux dans sa démarche, profondément attaché à la culture hakka, Huang Lian-yu dépasse le rôle de musicien : il est aussi passeur et pédagogue, intervenant régulièrement en public pour transmettre ce qu'il a reçu.
+Le défi central auquel fait face la musique hakka est la diminution continue du nombre de locuteurs du hakka : l'urbanisation et la généralisation de l'enseignement en mandarin ont conduit de nombreux descendants hakka à ne plus parler couramment le hakka, sans parler de créer en cette langue. Ce problème structurel de disparition linguistique constitue le contexte incontournable de toute musique en langue hakka.
 
-### Luo Si-rong : la voix des femmes hakka
-
-Luo Si-rong apporte à la musique hakka une couleur singulière — une voix douce et nuancée, des textes d'une grande poésie. Ses chansons partent souvent du quotidien des femmes hakka, de leur histoire intime, de leurs émotions — comblant ainsi un vide dans une tradition longtemps dominée par des voix masculines.
-
-Son album *Tiān Guāng* (Aube) lui vaut le Golden Melody Award du meilleur album en langue hakka. Des titres comme *Tiān Guāng* ou *Āba Ge Guìhuā Shù* (Le laurier de mon père) révèlent un attachement viscéral au territoire natal et à la mémoire familiale. Un folk dépouillé, épuré, qui laisse toute la place aux mots.
-
-### La jeune génération : l'hakka sans complexes
-
-Ces dernières années, de plus en plus de jeunes musiciens s'essaient à la création en langue hakka. Nés dans un environnement multiculturel, nourris de sonorités internationales, ils n'en sont pas moins décidés à exprimer en hakka leur rapport à l'héritage. Cette génération insuffle une vitalité nouvelle à la tradition, et lui ouvre des territoires inexplorés.
-
-## Défis et perspectives
-
-### La langue en péril
-
-Le défi le plus pressant reste la régression du nombre de locuteurs hakka. L'urbanisation et la généralisation de l'éducation en mandarin ont éloigné beaucoup de descendants des hakka de leur langue maternelle — à plus forte raison de la création musicale en hakka. Cette érosion linguistique pèse lourd sur l'avenir de cette tradition.
-
-### Trouver l'équilibre entre innovation et fidélité
-
-Autre tension : comment se renouveler sans se perdre ? Une modernisation trop radicale risque d'effacer ce qui fait la spécificité hakka ; un conservatisme excessif risque de figer la tradition dans un musée. Les musiciens hakka les plus aboutis sont précisément ceux qui ont su naviguer entre ces deux écueils avec grâce.
-
-### Les opportunités du numérique
-
-L'ère numérique ouvre cependant de nouvelles perspectives. Les plateformes en ligne permettent à la musique hakka de toucher des publics bien au-delà de Taïwan — y compris des auditeurs internationaux qui n'auraient jamais eu accès à cette tradition autrement. Et la démocratisation des outils de production abaisse le seuil d'entrée pour tous ceux qui rêvent de créer en hakka.
+L'ère numérique offre cependant de nouvelles opportunités : les plateformes de streaming permettent à la musique hakka de toucher un public international, abaissent les barrières à la création et permettent à une nouvelle génération de musiciens hakka tels que Misha et Qiu Xingyi de fidéliser une audience dévouée en ligne.
 
 ## Références
 
-- Zhong Yong-feng, Lin Sheng-xiang : livret de l'album *菊花夜行軍* et entretiens associés
-- Fan Yang-kun : *Recherches sur la culture musicale hakka de Taïwan*, Hsinchu : Commission aux affaires hakka
-- Commission aux affaires hakka : *Compilation de sources historiques sur le développement de la musique hakka*
-- Palmarès Golden Melody Awards – albums en langue hakka : https://gma.tavis.tw/
-- Archives et documents de concerts de 交工樂隊
-- Site officiel de Lin Sheng-xiang : https://linshenxiang.com/
-- Base de données de l'Association pour la culture musicale hakka
-- Dossiers spéciaux musique hakka parus dans *Hakka Magazine*
-- Centre national des arts traditionnels : ressources sur la transmission des huit sons hakka
-- Base de données des programmes musicaux de Hakka TV : https://www.hakkatv.org.tw/
+[^1]: [La musique n'a pas de frontières — Lin Shengxiang : « Le prix que je veux le moins recevoir est celui du hakka » | Coolloud](https://www.coolloud.org.tw/node/3817) — Confirmation des motivations et de la déclaration de Lin Shengxiang lors de son refus du prix.
+
+[^2]: [Centre national des arts traditionnels : documents de transmission de la musique des huit sons hakka](https://www.ncfta.gov.tw/) — Explication de la pratique de la musique des huit sons hakka centrée sur le _suona_ comme instrument principal.
+
+[^3]: [Bureau de l'industrie audiovisuelle et de la musique populaire du ministère de la Culture : listes des lauréats et nommés des éditions précédentes](https://www.bamid.gov.tw/information_176_64106.html) — Confirmation que _Wo Deng Jiu Lai Chang Shan'ge_ a remporté le prix du meilleur compositeur et du meilleur producteur lors de la 11e édition des Golden Melody Awards (et non le prix du meilleur groupe).
+
+[^4]: [14e édition des Golden Melody Awards — Wikipédia](https://zh.wikipedia.org/wiki/第14屆金曲獎) — Confirmation de la création du prix du meilleur chanteur hakka lors de la 14e édition en 2003 ; renommage en prix du meilleur artiste hakka lors de la 18e édition en 2007.
+
+[^5]: [Xie Yuwei — Wikipédia](https://zh.wikipedia.org/zh-tw/謝宇威) — Confirmation que Xie Yuwei est le lauréat du prix du meilleur chanteur hakka lors de la 15e édition des Golden Melody Awards en 2004 ; album représentatif : _Yi Chai, Hua Shu Xia_.
+
+[^6]: [18e édition des Golden Melody Awards — 1re fois… Lin Shengxiang lance une bombe, refuse de recevoir le prix | Liberty Times Entertainment](https://ent.ltn.com.tw/news/paper/136087) — Déroulement du refus de Lin Shengxiang lors de la 18e édition des Golden Melody Awards (2007) et bénéficiaires du don de la dotation.
+
+[^7]: [Prix du meilleur album hakka (Golden Melody Awards) — Wikipédia](<https://zh.wikipedia.org/zh-tw/最佳客語專輯獎_(金曲獎)>) — Confirmation que _Lan Hua Qu_ de Siouman Rourong a remporté le prix du meilleur artiste hakka et le prix du meilleur album hakka lors de la 23e édition.
+
+[^8]: [Site officiel de Hakka TV](https://www.hakkatv.org.tw/) — Confirmation du lancement en 2003, première chaîne de télévision diffusant en continu en langue hakka au monde.

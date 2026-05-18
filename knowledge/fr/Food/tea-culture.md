@@ -2,17 +2,30 @@
 title: 'La culture du thé à Taïwan'
 description: "Une petite île exclue des accords internationaux de limitation de la production théicole a ainsi créé son âge d'or du thé, avant de conquérir le monde entier avec une tasse de lait aromatisé garnie de petites « perles »"
 date: 2026-03-23
-tags: [Culture du thé, Oolong, Thé de haute montagne, Boissons agitées, Bubble tea]
-subcategory: 'Culture des boissons'
 category: 'Food'
-author: 'Taiwan.md Translation Team'
-readingTime: 12
+tags:
+  [
+    'Culture du thé',
+    'Oolong',
+    'Thé de haute montagne',
+    'Boissons agitées',
+    'Bubble tea',
+  ]
+subcategory: 'Culture des boissons'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-03-23
-translatedFrom: 'Food/茶文化.md'
+lastHumanReview: false
 image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jacksons_of_Piccadilly_Formosa_Oolong_Tea_%2851878727206%29.jpg/960px-Jacksons_of_Piccadilly_Formosa_Oolong_Tea_%2851878727206%29.jpg'
-imageAlt: "Emballage de thé oolong de Taïwan portant la mention « Formosa Oolong Tea »"
+imageAlt: 'Emballage de thé oolong de Taïwan portant la mention « Formosa Oolong Tea »'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
+created: 2026-03-23
+readingTime: 12
+translatedFrom: 'Food/茶文化.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:86475082b87388fc'
+sourceBodyHash: 'sha256:a9375147f15627a6'
+translatedAt: '2026-05-17T06:15:00Z'
 ---
 
 # La culture du thé à Taïwan
@@ -73,12 +86,12 @@ Il faut noter qu'un établissement de Tainan, le Han Lin Tea Room, revendique lu
 
 L'industrie taïwanaise des boissons à secouer affiche aujourd'hui des dimensions vertigineuses :
 
-| Indicateur | Chiffre |
-|---|---|
-| Chiffre d'affaires 2024 | 133,13 milliards de TWD (record historique) |
-| Nombre de boutiques | 16 070 (57 % des commerces de boissons du pays) |
-| Rythme d'ouverture | En moyenne 40 nouvelles boutiques par mois |
-| Consommation annuelle | Environ 1 075,04 millions de tasses |
+| Indicateur              | Chiffre                                         |
+| ----------------------- | ----------------------------------------------- |
+| Chiffre d'affaires 2024 | 133,13 milliards de TWD (record historique)     |
+| Nombre de boutiques     | 16 070 (57 % des commerces de boissons du pays) |
+| Rythme d'ouverture      | En moyenne 40 nouvelles boutiques par mois      |
+| Consommation annuelle   | Environ 1 075,04 millions de tasses             |
 
 Les habitants de Taichung se distinguent par une consommation particulièrement élevée. Toutes tranches d'âge confondues, les femmes consomment davantage que les hommes ; les femmes de 25 à 34 ans représentent à elles seules environ 20 % de la consommation totale. Côté sucre, plus de la moitié des consommateurs optent pour un niveau faiblement sucré, suivis par les adeptes du sans sucre (39,7 %).
 
@@ -107,3 +120,7 @@ Ce n'est pas seulement l'histoire d'une tasse de thé. C'est l'histoire d'une î
 - [La folie des boissons : décryptage des données sur les boissons à secouer à Taïwan - LnData](https://lndatatech.github.io/taiwan-drink/)
 - [Témoin de la transformation économique de Taïwan : le développement du thé taïwanais dans le crépuscule de « Tea Gold » - Agriharvest](https://www.agriharvest.tw/archives/70760)
 - [Thé taïwanais - Wikipédia](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E8%8C%B6%E8%91%89)
+
+## Sujets connexes
+
+- [Cuisine de rue taïwanaise](/food/台灣小吃)

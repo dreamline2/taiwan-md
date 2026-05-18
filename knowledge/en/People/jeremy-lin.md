@@ -1,127 +1,143 @@
 ---
-title: 'Jeremy Lin'
-description: 'State champion with zero scholarship offers, undrafted, waived twice in 15 days — then he became the most talked-about athlete on Earth'
+title: "Jeremy Lin: From Being Cut Twice in 15 Days to Retiring as a TPBL Double MVP"
+description: "A state champion in high school with no scholarship offers, undrafted, cut twice in 15 days — then he made the world know 'Linsanity'"
 date: 2026-03-19
-tags: [人物, 籃球, 台裔美國人, NBA, 林來瘋, 哈佛大學, P.League+, TPBL]
-subcategory: 'Sports'
-lastVerified: 2026-04-03
-lastHumanReview: 2026-04-03
-featured: true
-translatedFrom: 'People/林書豪.md'
+author: "Taiwan.md"
+category: "People"
+subcategory: "體育"
+tags: ["人物", "籃球", "台裔美國人", "NBA", "林來瘋", "哈佛大學", "P.League+", "TPBL"]
+lastVerified: 2026-05-16
+lastHumanReview: "true"
+featured: "true"
+translatedFrom: "People/林書豪.md"
+sourceCommitSha: "85926aa3b"
+sourceContentHash: "sha256:5bcf40616e842909"
+sourceBodyHash: "sha256:15c8e50bb3ba07a7"
+translatedAt: "2026-05-17T05:34:48+08:00"
 ---
 
-> **30-second version:** Jeremy Lin, born 1988 in California, ninth-generation Taiwanese. Led his high school to a state championship — zero NCAA Division I scholarship offers. Went to Harvard, went undrafted, got waived by two NBA teams in 15 days. In February 2012, thrust into the starting lineup by desperation, he averaged 24.4 points over seven straight wins and became the most talked-about athlete on the planet. The media called it "Linsanity."[^1] In 2019, he won an NBA championship with the Toronto Raptors — the first Asian-American player to earn a ring.[^2] In 2025, he retired in Taiwan as the TPBL's first dual MVP, completing a full arc from America to the island his family left nine generations ago.[^3]
+> **30-second overview:** Jeremy Lin, born in 1988 in California, is a ninth-generation descendant of Taiwanese immigrants. He led his high school team to a California state championship, but received zero NCAA Division I scholarship offers. He went to Harvard, went undrafted, and was cut by two NBA teams within 15 days. In February 2012, he averaged 24.4 points over seven straight games as a starter, igniting "Linsanity."[^1] In 2019, he won an NBA championship with the Toronto Raptors, becoming the first Asian American to earn an NBA title.[^2] In 2025, he retired in Taiwan as both Season MVP and Finals MVP, completing a full arc from the U.S. to Taiwan.[^3]
 
 ## From Beidou to Palo Alto
 
-Lin's ancestors left Fujian's Zhangpu County for Taiwan's Changhua County in 1707. He is the ninth generation.[^4] His father, Lin Ji-ming (林繼明), graduated from National Taiwan University's mechanical engineering program, earned a PhD in electrical engineering at Purdue, and settled in California. His mother, Wu Xin-xin (吳信信), also from Taiwan, met his father at Old Dominion University.[^5] The three Lin brothers grew up in Palo Alto, playing basketball with their father at the YMCA every day after work.[^6]
+Jeremy Lin's ancestors moved from Zhangpu, Fujian to Beidou, Changhua, Taiwan in 1707 — he is the ninth generation.[^4] His father, Lin Jiming, graduated from National Taiwan University's mechanical engineering department, received a government-sponsored scholarship to study abroad, and earned a PhD in electrical engineering at Purdue University. His mother, Wu Xinxin, was born in Taiwan and met Lin Jiming at Providence University.[^5] The three sons grew up in Palo Alto, California, where their father took them to play basketball at the YMCA every evening after work.[^6]
 
-In that world, nobody expected an Asian kid to go pro in basketball. Lin answered with results.
+As a child, few people believed an Asian kid could play professional basketball. Jeremy Lin answered with results.
 
-## State champion, zero scholarships
+## State Champion, Zero Scholarships
 
-In 2006, Lin captained Palo Alto High School to a 32–1 record and a 51–47 upset of nationally ranked Mater Dei at Arco Arena for the CIF Division II state title.[^7] That season he averaged 15.1 points, 7.1 assists, 6.2 rebounds, and 5.0 steals, earning Northern California Division II Player of the Year.[^7]
+In 2006, Lin led Palo Alto High School to a 32–1 record as team captain, defeating nationally ranked Mater Dei 51–47 at Arco Arena to win the CIF Division II state championship.[^7] That season he averaged 15.1 points, 7.1 assists, 6.2 rebounds, and 5.0 steals, earning North Coast Section Division II Player of the Year.[^7]
 
-State champion. Player of the year. NCAA Division I scholarship offers received: zero.[^1]
+State champion, Player of the Year — NCAA Division I scholarship offers: zero.[^1]
 
-No coach believed a 6'3" Asian point guard could compete at the highest level of college basketball. Lin chose Harvard — an Ivy League school that doesn't offer athletic scholarships. He enrolled as a walk-on, majoring in economics.[^1]
+No coach believed a 6'3" Asian point guard could survive at the highest level of college basketball. Lin chose Harvard — an Ivy League school that does not offer athletic scholarships — and enrolled as a self-funded student, majoring in economics.[^1]
 
-## Harvard
+## Four Years at Harvard
 
-At a school famous for academics and irrelevant in basketball, Lin became team captain and rewrote school records.[^1] When he graduated in 2010, two paths lay before him: Wall Street or the NBA draft.
+At a school known for academics and bottom-tier basketball, Lin served as team captain and set multiple school records.[^1] When he graduated in 2010, two paths lay ahead: Wall Street, or the NBA draft.
 
-He chose the NBA. The result: 30 teams, 60 picks, nobody called his name.[^8]
+He chose the NBA. The result: 2010 draft, 30 teams, 60 picks — no one called his name.[^8]
 
-## Waived twice in 15 days
+## Cut Twice in 15 Days
 
-On July 21, 2010, Lin signed with the Golden State Warriors as an undrafted free agent — the team he'd grown up watching. He barely played, spending most of his rookie season in the Development League.[^8]
+On July 21, 2010, Lin signed with the Golden State Warriors as an undrafted free agent — the team he grew up watching. But he barely played as a rookie, spending most of his time in the D-League.[^8]
 
-On December 9, 2011, the Warriors waived him to clear salary cap space. Three days later, on December 12, the Houston Rockets claimed him. Twelve days after that, on December 24, the Rockets waived him too — to sign another player.[^8]
+On December 9, 2011, the Warriors waived him to clear salary cap space. Three days later, on December 12, the Houston Rockets picked him up. Twelve days after that, on December 24, the Rockets waived him again to sign another player.[^8]
 
-Two teams, 15 days, two pink slips. Unemployed on Christmas Eve.
+Cut by two teams in 15 days. Christmas Eve, unemployed.
 
-The New York Knicks picked him up. But he was the last man on the bench, sleeping on a teammate's couch because he didn't know if he'd still be in the city tomorrow.[^1]
+The New York Knicks took him in. But he was a benchwarmer, sleeping on a teammate's couch, unsure if he'd still be in the city tomorrow.[^1]
 
-## Seven games that changed everything
+## Seven Games That Changed Everything
 
-In February 2012, the Knicks' starting point guards went down with injuries. Coach Mike D'Antoni had no choice — he put Lin in.
+In February 2012, with the Knicks' starting point guard injured, coach Mike D'Antoni had no choice but to start Lin.
 
-What happened next, nobody predicted:[^9]
+What happened next, no one saw coming:[^9]
 
-| Date   | Opponent     | Points | Assists |
-| ------ | ------------ | ------ | ------- |
-| Feb 4  | Nets         | 25     | 7       |
-| Feb 6  | Jazz         | 28     | 8       |
-| Feb 8  | Wizards      | 23     | 10      |
-| Feb 10 | Lakers       | 38     | 7       |
-| Feb 11 | Timberwolves | 20     | 8       |
-| Feb 14 | Raptors      | 27     | 11      |
-| Feb 15 | Kings        | 10     | 13      |
+| Date | Opponent | Points | Assists |
+| ---- | ---- | ---- | ---- |
+| 2/4  | Nets     | 25     | 7      |
+| 2/6  | Jazz     | 28     | 8      |
+| 2/8  | Wizards  | 23     | 10     |
+| 2/10 | Lakers   | 38     | 7      |
+| 2/11 | Wolves   | 20     | 8      |
+| 2/14 | Raptors  | 27     | 11     |
+| 2/15 | Kings    | 10     | 13     |
 
-Seven straight wins. 24.4 points and 9.1 assists per game on 51.2% shooting.[^9]
+Seven straight wins. Averaged 24.4 points, 9.1 assists, on 51.2% shooting.[^9]
 
-The February 10 game against the Lakers — 38 points in front of Kobe Bryant — defined Linsanity. On Valentine's Day against the Raptors, he hit a three-pointer with 0.5 seconds left, and Madison Square Garden shook like an earthquake.[^10]
+The February 10 game against the Lakers — scoring 38 points in front of Kobe Bryant — was the defining moment of Linsanity. On Valentine's Day against the Raptors, he hit a game-winning three-pointer with 0.5 seconds left, and Madison Square Garden shook like an earthquake.[^10]
 
-The media named the phenomenon "Linsanity." His jersey sales briefly surpassed Kobe and LeBron.[^1] From New York to Taipei, from San Francisco to Hong Kong, Chinese-speaking communities stayed up all night to watch. A Harvard-educated, couch-surfing Asian-American backup had become the most talked-about athlete on Earth.
+The media named the phenomenon "Linsanity." His jersey sales briefly surpassed Kobe's and LeBron's.[^1] From New York to Taipei, late nights in Chinese communities became collective viewing parties. An Asian benchwarmer who two weeks earlier had been sleeping on a teammate's couch became the world's hottest athlete.
 
-## After the fever
+## After Linsanity
 
-Defenses adjusted. In March 2012, Lin tore his left meniscus and missed the rest of the season.[^1] He went on to play for the Rockets, Lakers, Hornets, Nets, Hawks, and Raptors — 480 career games, averaging 11.6 points and 4.3 assists.[^11] Solid numbers, but never again the heights of those seven games.
+The frenzy always fades. Opponents adjusted defensively, and Lin tore his left meniscus in March 2012, ending his season.[^1] He went on to play for the Rockets, Lakers, Hornets, Nets, and Hawks — 480 NBA games, averaging 11.6 points and 4.3 assists.[^11] Solid numbers, but he never reached the heights of those seven games again.
 
-In early 2019, he joined the Toronto Raptors. He played 27 minutes total in the playoffs. In Game 3 of the NBA Finals, he got 51 seconds on the court.[^2] But the Raptors won the 2019 championship, and Lin became the first Asian-American player to earn an NBA championship ring.
+In early 2019, he joined the Toronto Raptors. He played only 27 minutes the entire postseason, appearing for 51 seconds in Game 3 of the Finals.[^2] But the Raptors won the 2019 championship, and Lin became the first Asian American to earn an NBA title ring.
 
-After the ring, no NBA team called. At a faith gathering, he broke down in tears: "It feels like the NBA has given up on me."[^12]
+After the ring, no NBA team signed him again. He broke down crying at a fellowship event: "The NBA seems to have given up on me."[^12]
 
 ## "Coronavirus"
 
-In 2021, Lin returned to the NBA ecosystem, playing for the Santa Cruz Warriors in the G League. During a game, an opposing player called him "coronavirus."[^13]
+In 2021, Lin returned to the NBA system, playing for the Santa Cruz Warriors, Golden State's G League affiliate. During a game, an opponent called him "coronavirus" on the court.[^13]
 
-He responded publicly: "We are tired of being asked where we're REALLY from, of having our eyes mocked, of being told we're inherently unattractive. We are tired of being invisible." The G League launched a formal investigation. Warriors head coach Steve Kerr publicly backed him.[^13]
+He responded publicly: "We're tired of being asked 'where are you really from,' tired of our eyes being mocked, tired of being treated as invisible." The statement prompted a formal G-League investigation, and Warriors head coach Steve Kerr spoke out in support.[^13]
 
-This wasn't just one player's experience. It was the Asian-American experience during COVID-19, condensed into a single word on a basketball court.
+That game condensed the entire Asian American experience during the COVID-19 era into a single slur from an opponent's mouth.
 
-## Coming home to Taiwan
+## Coming Home to Taiwan
 
-After leaving the NBA, Lin spent one season in China's CBA with the Beijing Ducks.[^14] In late 2022, he made a decision that shook Taiwanese basketball: he joined the P. League+'s New Taipei Kings.
+After leaving the NBA in 2019, Lin first played one season in the Chinese CBA with the Beijing Ducks.[^14] In late 2022, he made a decision that shook Taiwan's basketball world: he joined the New Taipei Kings of P. League+.
 
-In the 2023–24 season, he scored 33 points in the decisive Game 6 against the Formosa Dreamers, leading the Kings to their first-ever championship.[^3]
+In the 2023–24 playoffs, he scored 33 points in a crucial Game 6 against the Formosa Dreamers, leading the Kings to their first-ever championship.[^3]
 
-In the 2024–25 season — the inaugural year of Taiwan's unified professional league (TPBL) — the 37-year-old Lin won Regular Season MVP, First Team, and Defensive First Team. Then in Game 7 of the Finals, he put up 27 points, 5 rebounds, and 4 assists as the Kings beat the Kaohsiung Seaheroes 108–89. He became the first player in TPBL history to win both Regular Season MVP and Finals MVP in the same year.[^3]
+The 2024–25 season was the inaugural year of the Taiwan Professional Basketball League (TPBL). At age 37, Lin won Season MVP, All-TPBL First Team, and All-Defensive First Team, then scored 27 points with 5 rebounds and 4 assists in Game 7 of the Finals, defeating the Kaohsiung Aquas 108–89 to become the first player in TPBL history to win both Season MVP and Finals MVP.[^3]
 
-In August 2025, he announced his retirement. On December 28, 6,800 fans packed the Xinzhuang Gymnasium to watch the Kings retire his No. 7 jersey. Jay Chou showed up to pay tribute.[^15]
+In late August 2025, he announced his retirement. On December 28, 6,800 fans at Xinzhuang Gymnasium watched the Kings retire his No. 7 jersey. Jay Chou made a surprise appearance to pay tribute.[^15]
 
-## A career that makes no sense
+## An Illogical Trajectory
 
-State champion, zero scholarships. Harvard graduate, undrafted. Waived twice in 15 days. Jersey sales surpassing Kobe. 51 seconds in the NBA Finals. Dual MVP at 37 in Taiwan.
+State champion, zero scholarships. Harvard graduate, undrafted. Cut twice in 15 days. Jersey sales surpassing Kobe's. Fifty-one seconds in the Finals. Double MVP in Taiwan at 37.
 
-Jeremy Lin's career never followed anyone's script — including his own. But precisely because it defied logic, it permanently changed the answer to a question that had been asked for too long: how far can an Asian player go?
+Jeremy Lin's career never fit anyone's expectations — including his own. But precisely because it defied logic, that trajectory permanently changed the answer to the question: "How far can an Asian player go?"
 
-[^1]: "Jeremy Lin," Wikipedia. Linsanity timeline, Harvard background, draft status, jersey sales. https://en.wikipedia.org/wiki/Jeremy_Lin
+**Further Reading**:
 
-[^2]: "林書豪打不到一分鐘，多倫多暴龍拿下NBA總冠軍創造了多少紀錄？" The News Lens, 2019. 51 seconds in Game 3, first Asian-American NBA champion. https://www.thenewslens.com/article/120761
+- [Kuo Hsing-chun](/people/郭婞淳) — A Taiwanese athlete of the same generation, three-time Olympic medalist and eleven-time world record breaker in weightlifting
+- [Tai Tzu-ying](/people/戴資穎) — Another Taiwanese athlete who reached the world stage, world No. 1 in badminton
+- [Jay Chou](/people/周杰倫) — The Taiwanese music icon who appeared at Lin's jersey retirement ceremony
+- [Taiwan–United States Relations](/society/台灣與美國關係) — Lin's identity as a Taiwanese American traces back to the post-1965 wave of Taiwanese students studying in the U.S.
+- [Lee Yang](/people/李洋) — Another Taiwanese athlete's career path, from Olympic gold to becoming the first Minister of Sports
 
-[^3]: "王者加冕！新北國王勇奪TPBL元年總冠軍 林書豪成雙料MVP," TPBL Official, 2025. Game 7: 27 pts, 5 reb, 4 ast; 108–89 over Seaheroes. https://tpbl.basketball/news/168
+## References
 
-[^4]: "豪小子血統正解 林書豪父：林家是台灣人," ETtoday, 2012. Lin family arrived in Taiwan from Fujian in 1707; Jeremy is the ninth generation. https://sports.ettoday.net/news/25417
+[^1]: [Jeremy Lin - Wikipedia](https://en.wikipedia.org/wiki/Jeremy_Lin) — Full English Wikipedia entry on Jeremy Lin, covering Linsanity, Harvard background, going undrafted, and jersey sales surpassing Kobe and LeBron.
 
-[^5]: "林書豪父親的教養第一步," CommonWealth Magazine. Father Lin Ji-ming: NTU mechanical engineering, Purdue PhD; mother Wu Xin-xin met him at Old Dominion University. https://www.cw.com.tw/article/5129366
+[^2]: [The News Lens: Jeremy Lin Played Less Than a Minute — How Many Records Did the Toronto Raptors Set Winning the NBA Championship?](https://www.thenewslens.com/article/120761) — Report on Lin playing 51 seconds in Game 3 of the 2019 Finals, becoming the first Asian American to earn an NBA championship ring.
 
-[^6]: "「陪伴」是最有效的教養！林書豪母親三大教養觀," MamaClub. Father took all three sons to the YMCA daily. https://mamaclub.com/learn/陪伴是最有效的教養！林書豪母親三大教養觀/
+[^3]: [TPBL Official News: The King Is Crowned! New Taipei Kings Win Inaugural TPBL Championship, Jeremy Lin Becomes Double MVP](https://tpbl.basketball/news/168) — 2025 TPBL inaugural season Finals report: Lin scored 27 points, 5 rebounds, 4 assists in Game 7, defeating Kaohsiung Aquas 108–89.
 
-[^7]: "Jeremy Lin and the 2006 All-State Team," ESPN. 32–1 record, CIF Division II state title, 15.1 ppg / 7.1 apg. https://www.espn.com/blog/high-school/california/post/_/id/631/jeremy-lin-and-the-2006-all-state-team
+[^4]: [ETtoday: The True Bloodline of "J-Lin" — Jeremy Lin's Father, the Lin Family, Are Taiwanese](https://sports.ettoday.net/news/25417) — 2012 report on the Lin family's migration from Zhangpu, Fujian to Beidou, Changhua, Taiwan in 1707, with Lin as the ninth generation in Taiwan.
 
-[^8]: "All of undrafted sensation Jeremy Lin's NBA contracts," ClutchPoints. Signed Warriors July 21, 2010; waived Dec 9, 2011; Rockets Dec 12; waived again Dec 24. https://clutchpoints.com/nba/new-york-knicks/jeremy-lin-nba-contracts
+[^5]: [CommonWealth Magazine: The First Step in Jeremy Lin's Father's Parenting](https://www.cw.com.tw/article/5129366) — Account of father Lin Jiming's background: NTU mechanical engineering graduate, government-sponsored study abroad, Purdue University PhD in electrical engineering, and meeting mother Wu Xinxin at Providence University.
 
-[^9]: "NBA最神奇的旋風 林書豪閃耀的那一刻," Sports Vision. Seven-game stats: 24.4 ppg, 9.1 apg, 51.2% FG. https://www.sportsv.net/articles/98923
+[^6]: [Liberty Times Sports: A Tiger Father Raises No Inferior Son — Lin Father, a Double PhD in America](https://sports.ltn.com.tw/news/paper/562869) — Report on father Lin Jiming taking all three sons to the YMCA three times a week to practice, from 8:30 to 10 p.m., requiring homework to be finished before playing.
 
-[^10]: "林書豪經典絕殺暴龍10年了," ETtoday, 2022. Feb 14, 2012: game-winning three with 0.5 seconds left. https://sports.ettoday.net/news/2189232
+[^7]: [ESPN: Jeremy Lin and the 2006 All-State Team](https://www.espn.com/blog/high-school/california/post/_/id/631/jeremy-lin-and-the-2006-all-state-team) — Report on Lin leading Palo Alto High School to a 32–1 record and the CIF Division II state championship in 2006, averaging 15.1 points, 7.1 assists, and 6.2 rebounds.
 
-[^11]: "Jeremy Lin Stats," Basketball-Reference. 480 career games, 11.6 ppg, 4.3 apg, 2.8 rpg. https://www.basketball-reference.com/players/l/linje01.html
+[^8]: [ClutchPoints — All of Undrafted Sensation Jeremy Lin's NBA Contracts](https://clutchpoints.com/nba/new-york-knicks/jeremy-lin-nba-contracts) — Compilation of all NBA contracts in Lin's career, including signing with the Warriors after going undrafted in 2010, waived 12/9, signed by Rockets 12/12, waived again 12/24.
 
-[^12]: "NBA好像放棄我了！林書豪淚灑佈道會," United Daily News, 2019. https://udn.com/news/story/7002/3955063
+[^9]: [Sports Vision: The Most Magical Whirlwind in NBA History — The Moment Jeremy Lin Shined](https://www.sportsv.net/articles/98923) — Compilation of game-by-game stats from the seven-game winning streak, averaging 24.4 points, 9.1 assists, on 51.2% shooting.
 
-[^13]: "Basketball star Jeremy Lin says he was called 'coronavirus' on court," ABC News, 2021. G League investigation launched after racial slur. https://abcnews.go.com/US/basketball-star-jeremy-lin-called-coronavirus-court-denounces/story?id=76152456
+[^10]: [ETtoday: Jeremy Lin's Classic Game-Winning Shot Against the Raptors — 10 Years Later](https://sports.ettoday.net/news/2189232) — 2022 retrospective on Lin's 0.5-second game-winning three-pointer against the Raptors on 2/14/2012.
 
-[^14]: "CBA／宣布不回首鋼 林書豪：還有一個NBA夢想," United Daily News, 2020. Signed with Beijing Ducks August 2019, $3M after-tax. https://udn.com/news/story/7003/4861400
+[^11]: [Basketball-Reference — Jeremy Lin Stats](https://www.basketball-reference.com/players/l/linje01.html) — Complete NBA career statistics database for Jeremy Lin: 480 games, averaging 11.6 points, 4.3 assists, 2.8 rebounds.
 
-[^15]: "新北國王為林書豪7號球衣舉辦退休儀式," Christian Tribune, 2025. Dec 28 ceremony, 6,800 fans, Jay Chou appearance. https://ct.org.tw/html/news/3-3.php?cat=10&article=1402911
+[^12]: [ETtoday Sports Cloud: "Feels Like the NBA Gave Up on Me" — Jeremy Lin Breaks Down Crying, Says "Life Is So Hard"](https://sports.ettoday.net/news/1500050) — Report on Lin's emotional breakdown at the July 27, 2019 "Art of Waiting" sharing event.
+
+[^13]: [ABC News — Basketball Star Jeremy Lin Says He Was Called 'Coronavirus' on Court](https://abcnews.go.com/US/basketball-star-jeremy-lin-called-coronavirus-court-denounces/story?id=76152456) — Report on Lin being called "coronavirus" by an opponent during a 2021 G League game, prompting a formal G-League investigation and public support from Steve Kerr.
+
+[^14]: [CNA: Jeremy Lin Signs with Beijing Ducks as Import Player for CBA](https://www.cna.com.tw/news/firstnews/201908275005.aspx) — August 27, 2019 report on Lin signing with the Beijing Ducks for a post-tax annual salary of $3 million, the highest for a Chinese-heritage player in CBA history.
+
+[^15]: [Christian Tribune: New Taipei Kings Hold Retirement Ceremony for Jeremy Lin's No. 7 Jersey](https://ct.org.tw/html/news/3-3.php?cat=10&article=1402911) — Report on the December 28, 2025 jersey retirement ceremony at Xinzhuang Gymnasium before 6,800 fans, with Jay Chou making a surprise appearance to pay tribute.

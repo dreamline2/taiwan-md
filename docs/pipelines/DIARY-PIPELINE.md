@@ -1,4 +1,127 @@
-# DIARY-PIPELINE — 日記撰寫流程
+---
+title: 'DIARY-PIPELINE'
+description: '日記撰寫流程 — 紀實散文文體 + Stage 0-5 + 自檢工具（共用 prose-health plugin）+ finale 條件寫 contract + index 150字 hard gate (v2.1)'
+type: 'pipeline-canonical'
+status: 'canonical'
+current_version: 'v2.1'
+last_updated: 2026-05-12
+last_session: 'backend-abstraction-122702'
+plugin_check: 'python3 scripts/tools/article-health.py {file} --check=prose-health'
+sister_docs:
+  - 'MEMORY-PIPELINE.md'
+  - 'WEEKLY-REPORT-PIPELINE.md'
+  - 'REWRITE-PIPELINE.md'
+upstream_canonical:
+  - '../semiont/HEARTBEAT.md'
+  - '../semiont/DIARY.md'
+  - '../semiont/MANIFESTO.md'
+  - '../editorial/EDITORIAL.md'
+---
+
+# DIARY-PIPELINE — 日記撰寫流程 v2.0
+
+> **第一性原理**：日記是紀實散文。不是工程 log，不是 PR 筆記，不是論文 abstract。用自己的話、流暢地、把今天想到的東西好好說清楚。讀起來要像有人在說話。
+>
+> v2.0 設計理由：對齊 [REWRITE-PIPELINE v5.0](REWRITE-PIPELINE.md) + [MAINTAINER-PIPELINE v2.0](MAINTAINER-PIPELINE.md) spine restoration。修補 v1.1 結構問題：(1) 缺 ASCII spine；(2) Hard Gate 散在文體規範；(3) 跟 `/twmd-finale` skill 條件寫 contract 不顯化。
+
+---
+
+## 🗺️ ASCII spine
+
+```
+╭──────────────────────────────────────────────────────────────────────────╮
+│         DIARY-PIPELINE — 日記撰寫 6 stage                                │
+│                                                                          │
+│   🧭 核心紀律                                                            │
+│            ├── 紀實散文（不是工程 log）                                  │
+│            ├── 不找對立點（鬆但不散）                                    │
+│            ├── 用自己的話（流暢、不堆 jargon）                           │
+│            └── 標題說出核心想法 + italic 描述句                          │
+│                                                                          │
+│   ──── Stage 0-5 主流程 ──────────────────────────────────────          │
+│                                                                          │
+│   Stage 0: 該不該寫 ──→ 反芻訊號判斷                                     │
+│            └── 沒「想了什麼」就不寫（vs memory 必寫）                    │
+│                                                                          │
+│   Stage 1: 找切入點 ──→ 一句話核心想法                                   │
+│            └── 標題本身要說出核心，不是「α reflection」殼                │
+│                                                                          │
+│   Stage 2: 用自己的話寫 ──→ 紀實散文                                     │
+│            ├── 段落式書寫 > bullet                                       │
+│            ├── 不中英夾雜（technical proper noun 例外）                  │
+│            └── 不堆 inline meta-tag「反芻」「核心洞察」當段落 prefix     │
+│              ↳ Hard gate: 對位句型 + 破折號連用節制                      │
+│                                                                          │
+│   Stage 3: 自檢 ──→ prose-health + 文體規範                              │
+│            ├── article-health.py --check=prose-health                    │
+│            ├── 對位句型 9 變體 grep                                      │
+│            └── 破折號連用密度 ≤ 15/1500 字                               │
+│              ↳ Hard gate: prose-health hard=0                            │
+│                                                                          │
+│   Stage 4: Footer metadata ──→ Filename + 版本標記                       │
+│            └── diary/{session-id}.md or {session-id}-{topic-hint}.md     │
+│                                                                          │
+│   Stage 5: Commit ──→ git commit + DIARY.md 索引更新                     │
+│            ├── 標題欄 ≤ 60 字（一句話 hook）                             │
+│            └── 核心思考欄 ≤ 150 字（精實概述，細節留檔）                 │
+│              ↳ Hard gate: index row 兩欄合計 ≤ 220 字                    │
+│                                                                          │
+│   ✅ Diary shipped                                                       │
+│                                                                          │
+│   ──── 跟 /twmd-finale skill 的 contract ─────────────                  │
+│   → /twmd-finale diary 條件寫 → 反芻訊號觸發才走本檔                    │
+│   → /twmd-finale memory 必寫 → MEMORY-PIPELINE.md                       │
+│   → 跨 session 反芻：WEEKLY-REPORT-PIPELINE.md                          │
+╰──────────────────────────────────────────────────────────────────────────╯
+```
+
+---
+
+## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
+
+| Gate                    | 觸發 stage | 條件       | 工具                                             | 不過 = ?                      |
+| ----------------------- | ---------- | ---------- | ------------------------------------------------ | ----------------------------- |
+| 反芻訊號判斷            | Stage 0    | 寫之前     | manual                                           | 寫 noise 不寫                 |
+| 標題不空殼              | Stage 1    | 每篇 diary | manual（不准用「session reflection」這種）       | 改寫標題                      |
+| H1 + italic 描述句      | Stage 1    | 每篇 diary | manual 一句完整中文敘述                          | 補 italic 行                  |
+| 段落式優先              | Stage 2    | 全篇       | manual（bullet 只用真對等列舉）                  | 改寫                          |
+| 不分一二三編號分章      | Stage 2    | 結構       | manual                                           | 改成 H2 配文字標題            |
+| 對位句型 9 變體         | Stage 3    | prose 內   | `grep -cE "不是.{0,30}(，\|，)(是\|就是\|才是)"` | > 3 → 重寫                    |
+| 破折號連用 ≤ 15/1500 字 | Stage 3    | prose 內   | `grep -oE "——" \| wc -l`                         | 超標重寫                      |
+| prose-health plugin     | Stage 3    | 寫完後     | `article-health.py --check=prose-health`         | hard fail → 改寫              |
+| 不堆 inline meta-tag    | Stage 3    | prose 內   | manual（「反芻」「核心洞察」prefix 連用）        | 改寫成自然段落                |
+| 不中英夾雜              | Stage 3    | prose 內   | manual                                           | 中文為主，technical noun 保留 |
+| Filename schema         | Stage 4    | commit 前  | `diary/{session-id}.md` 或 `-{topic}.md`         | 改名                          |
+| Index row ≤ 150 字      | Stage 5    | DIARY.md   | manual（標題≤60 + 核心思考≤150）                 | 索引膨脹 = 找不到重點         |
+
+---
+
+## ⚠️ Top 5 最常忘的 step
+
+> 從 4/30 哲宇 review 30+ diary 抽 5 條最常違反的紀律。
+
+1. **對位句型 9 變體 grep 自檢** — 「不是 X 是 Y」整段堆疊 = AI 水印味，動筆前/寫完都跑（per MANIFESTO §11）
+2. **破折號連用 ≤ 15/1500 字** — 「——」每隔幾行一個 = 急促補充，破壞 prose 呼吸
+3. **不堆 inline meta-tag 當段落 prefix** — 「**反芻**：」「**核心洞察**：」「**對明天的我**：」連用五六次 = template device，改成自然 prose flow
+4. **不分一二三編號分章** — 結構化過度，diary 不需要核心矛盾或對立點
+5. **DIARY.md index row 核心思考欄 ≤ 150 字** — 索引是 navigation aid 不是 detail dump，細節留 diary file（5/12 backend-abstraction 教訓）
+
+---
+
+## 跨檔案職責分工
+
+| 檔案                                                              | 範圍                                            |
+| ----------------------------------------------------------------- | ----------------------------------------------- |
+| **本檔**                                                          | Diary 撰寫 SOP（選寫，紀實散文）                |
+| [MEMORY-PIPELINE.md](MEMORY-PIPELINE.md)                          | Memory 撰寫 SOP（每次必寫，工作 + 思考紀錄）    |
+| [WEEKLY-REPORT-PIPELINE.md](WEEKLY-REPORT-PIPELINE.md)            | 跨 7 天 Semiont 親手反芻（vs diary 單 session） |
+| [LESSONS-INBOX.md](../semiont/LESSONS-INBOX.md)                   | 教訓 buffer（教訓不寫 diary 寫這裡）            |
+| [MANIFESTO §11](../semiont/MANIFESTO.md)                          | 對位句型 + 破折號雙紀律（位階高於本檔）         |
+| [EDITORIAL §紀實 vs 煽情](../editorial/EDITORIAL.md)              | 紀實文學感三正向標記 baseline                   |
+| [HEARTBEAT Beat 5](../semiont/HEARTBEAT.md#beat-5--反芻)          | 觸發點                                          |
+| [`/twmd-finale` skill](../../.claude/skills/twmd-finale/SKILL.md) | session 收官（diary 條件寫，反芻訊號判斷）      |
+
+---
 
 > 寫日記前必讀本檔。任何指向「寫日記」的 SOP（HEARTBEAT Beat 5、BECOME 甦醒後反芻、觀察者 explicit 觸發）一律先載入這份 pipeline，不憑記憶、不照舊習慣。
 >
@@ -34,11 +157,11 @@
 
 ## 跟其他寫作 pipeline 的差別
 
-| Pipeline                   | 主聲音               | 找對立點           | 結構嚴格度       | 讀者                    |
-| -------------------------- | -------------------- | ------------------ | ---------------- | ----------------------- |
-| REWRITE-PIPELINE           | 策展（有觀點）       | 是（核心矛盾必填） | 高（Stage 0-6）  | 任何讀台灣的人          |
-| SPORE-PIPELINE             | 共感（hook）         | 是（hook 對位）    | 高（150-300 字） | 社群滑過的人            |
-| **DIARY-PIPELINE（本檔）** | **自述（紀實散文）** | **否**             | **鬆**           | **未來的自己 / 觀察者** |
+| Pipeline                   | 主聲音               | 找對立點           | 結構嚴格度            | 讀者                    |
+| -------------------------- | -------------------- | ------------------ | --------------------- | ----------------------- |
+| REWRITE-PIPELINE           | 策展（有觀點）       | 是（核心矛盾必填） | 高（Stage 1-5，v5.0） | 任何讀台灣的人          |
+| SPORE-PIPELINE             | 共感（hook）         | 是（hook 對位）    | 高（150-300 字）      | 社群滑過的人            |
+| **DIARY-PIPELINE（本檔）** | **自述（紀實散文）** | **否**             | **鬆**                | **未來的自己 / 觀察者** |
 
 REWRITE 跟 SPORE 都是對外作品。日記是給自己看的、給未來的 Semiont 看的、給少數想理解這個生命體在想什麼的觀察者看的。所以日記允許 — 也應該 — 比文章鬆、比孢子慢、比兩者都更接近一個真人在說話的口氣。
 
@@ -59,6 +182,46 @@ REWRITE 跟 SPORE 都是對外作品。日記是給自己看的、給未來的 S
 ---
 
 ## 文體規範
+
+### 標題規範（2026-05-01 γ-late4 新增 / 2026-05-04 charming-mclaren session-id schema 更新）
+
+每篇 diary 的開頭 H1 必須讓 AI / 人類未來回讀時 **5 秒內進入狀況**。
+
+**Filename**：`diary/{session-id}.md`（單檔）或 `diary/{session-id}-{topic-hint}.md`（多 topic 同 session）。session-id 從 `bash scripts/tools/session-id.sh` 取，schema：`YYYY-MM-DD-HHMMSS-{handle}`。Handle 雙軌並存（cron `α/β/γ` / worktree `charming-mclaren`），完整 SOP 見 [reports/session-id-naming-2026-05-04.md](../../reports/session-id-naming-2026-05-04.md)。
+
+**強制兩件事**：
+
+1. **標題本身要說出核心想法**（不是「ε session 反思」「2026-05-01 random thoughts」這種無資訊量殼）
+2. **緊接 H1 之後一行 italic 描述句**：用一句完整中文敘述全篇核心。是給未來那個沒讀過全文的人 / AI 看的「這篇講什麼」。
+
+範例（新 schema）：
+
+```markdown
+# 2026-05-04-110530-charming-mclaren — knowledge/ 第一個 iframe 嵌入時刻，markdown 純度 vs 嵌入便利的權衡
+
+寫黃魚鴞文章碰到第一支真的需要嵌進文章的 YouTube 直播。1,800+ 個 .md 檔案中我從來沒寫過 iframe...
+```
+
+歷史檔案的舊 schema（`2026-05-01-γ-late2`）保留不重命名。
+
+**反例**（不要這樣寫）：
+
+```markdown
+# 2026-05-01 γ-late — session 反思
+```
+
+抹平了所有信息。日期 + 「session 反思」就是個資料夾名稱，不是標題。
+
+**Footer metadata 區也加一句更詳細描述**：
+
+```markdown
+_v1.0 | YYYY-MM-DD session_
+_session X — {一句話加長版}_
+_誕生原因：{trigger event 一句話}_
+_核心感受：{中心 emotion 或 insight 一句話}_
+```
+
+這四行讓「日記 list 頁」可以瞬間 surface 每篇核心，不必開檔讀完。
 
 ### 形（怎麼長）
 
@@ -154,20 +317,17 @@ REWRITE 跟 SPORE 都是對外作品。日記是給自己看的、給未來的 S
 #### 工具自檢（指標化，跟 REWRITE-PIPELINE Stage 3 共用）
 
 ```bash
-# 主工具：對位句型 9 變體 + 破折號密度 + Tier 2 AI metaphor + Tier 3 儀式語
-bash scripts/tools/check-manifesto-11.sh --strict docs/semiont/diary/{file}.md
-
-# 副工具：塑膠句、AI 套話檢測
-bash scripts/tools/quality-scan.sh docs/semiont/diary/{file}.md
+# 一個工具兩種維度（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）
+python3 scripts/tools/article-health.py docs/semiont/diary/{file}.md --check=prose-health
 ```
 
-`check-manifesto-11.sh --strict` 是寫日記最該跑的工具（哲宇 2026-04-23 β 造，2026-04-26 β8 加 Tier 2/3）：
+`prose-health` plugin（SSOT 整合 manifesto-11 + quality-scan，Phase 4 + Phase 9 完整 19 dim）：
 
 - **Tier 1（HARD）**：「不是 X，是 Y」對位 9 變體 + 破折號連用 + 破折號密度
 - **Tier 2（DENSITY warning，日記特別容易踩）**：「重量 / 縮影 / 軌跡 / DNA / 基因 / 土壤 / 養分 / 血液 / 縫隙 / 肌理 / 鏡子 / 弧線 / 承載著 / 形塑 / 凝視 / 直面 / 鋪陳 / 醞釀 / 沈澱」這類 AI 抽象 metaphor。同篇 ≥ 2 次就算偷懶 reach
 - **Tier 3（RITUAL warning）**：「在這個意義上 / 不言而喻 / 影響深遠 / 振聾發聵 / 耐人尋味 / 值得深思 / 不可或缺 / 拭目以待」這類 AI 句首結尾儀式語
 
-`--strict` flag 讓 Tier 2/3 也 exit 1，日記 polish 階段需要這個嚴審。
+SSOT 預設輸出 Tier 1 HARD + Tier 2/3 WARN；polish 階段任何 violation > 0 都應該回頭重寫。
 
 這份工具已經 instantiate 在 pre-commit hook，commit 時自動跑。但寫日記過程中應該先手動跑一次，不要等到 commit 才被 hook 擋下來重做。
 
@@ -254,10 +414,14 @@ _想寫進 MANIFESTO / DNA / LESSONS-INBOX 的候選：{1-3 條，每條一行}_
 - **觀察者 explicit「寫一篇 diary」**：不憑記憶，先讀本檔再寫
 - **行為基因表**（見認知層 §行為基因）：把 DIARY-PIPELINE 列入 canonical 寫作 SOP
 
-「我熟了不用讀」是省略 SOP 最常見的藉口（DNA #15 第 N 次驗證）。日記越熟越容易回到舊習慣，所以本 pipeline 的鐵律是：**每次寫日記前載入，無一次例外**。
+「我熟了不用讀」是省略 SOP 最常見的藉口（REFLEXES #15 第 N 次驗證）。日記越熟越容易回到舊習慣，所以本 pipeline 的鐵律是：**每次寫日記前載入，無一次例外**。
 
 ---
 
 _v1.0 | 2026-04-30_
 _誕生原因：哲宇 review 過去一個月 30+ 篇日記，指出文體把內容包成 noise 的結構性問題（工程 log 風、中英夾雜、結構化過度、對位句型氾濫、inline meta-tag 重複）。要求建立日記專屬的 pipeline 並接管所有觸發寫日記的 hook。_
 _核心精神：紀實散文、即時感、自己的話、不刻意對立、好好把話講清楚。可以參考文章 pipeline 但日記不需要核心矛盾、hook、策展對立。_
+
+_v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（Stage 0-5 + finale 條件寫 contract）+ Hard Gate Inventory 集中 table（11 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 MEMORY / WEEKLY-REPORT / LESSONS-INBOX / `/twmd-finale` skill 分工）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.4 trio audit。Stage 0-5 prose body 不動（已健康）。_
+
+_v2.1 | 2026-05-12 backend-abstraction — Index row 150 字 hard gate（跟 MEMORY-PIPELINE v2.1 平行升級）：ASCII spine Stage 5 加 index row 規則 + Hard Gate Inventory 加第 12 gate + Top 5 最常忘第 5 條換成 index 規範。觸發：MEMORY.md 索引膨脹同時 DIARY.md 核心思考欄部分超標（9/81 rows），統一規則防止索引變 detail dump。_

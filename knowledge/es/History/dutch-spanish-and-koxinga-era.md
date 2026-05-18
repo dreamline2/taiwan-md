@@ -1,149 +1,127 @@
 ---
-created: 2026-03-17
-tags:
-  [
-    Historia,
-    Compañía Neerlandesa de las Indias Orientales,
-    Reino de Tungning,
-    Koxinga,
-  ]
-title: Era Neerlandesa, Española y de Koxinga
-description: 'El primer gobierno colonial sistemático de Taiwán, desde el establecimiento del Fuerte Zeelandia por los neerlandeses hasta la fundación de Taiwán por Koxinga, sentando las bases para el asentamiento de los chinos han y las instituciones políticas'
+title: 'Período neerlandés, español y Ming-Zheng'
+description: 'Desde 1624, cuando los neerlandeses construyeron el fuerte Zeelandia en Tainan, hasta 1683, cuando Shi Lang desembarcó en Penghu: sesenta años en que Taiwán fue inscrito en el mapa del comercio mundial, y la historia de la sucesión de cuatro regímenes'
 date: 2026-03-17
-author: Taiwan.md
-readingTime: 8
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '殖民與帝國'
+tags: ['Historia', 'Compañía Neerlandesa de las Indias Orientales', 'España', 'Ming-Zheng', 'Zheng Chenggong', 'Zheng Jing', 'Shi Lang', 'Reino de Tungning', 'Fuerte Zeelandia']
+readingTime: 10
+lastVerified: 2026-05-16
+lastHumanReview: true
 featured: false
 translatedFrom: 'History/荷西明鄭時期.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:63ac1f41561d9b5f'
+sourceBodyHash: 'sha256:b9a9258412d16bc5'
+translatedAt: '2026-05-17T06:00:00Z'
 ---
 
-# Era Neerlandesa, Española y de Koxinga
+# Período neerlandés, español y Ming-Zheng
 
-> **Resumen de 30 segundos:** En 1624, la Compañía Neerlandesa de las Indias Orientales estableció el Fuerte Zeelandia 熱蘭遮城 en Tainan, iniciando el gobierno colonial sistemático en Taiwán. En 1642, los neerlandeses derrotaron a los españoles y unificaron Taiwán, hasta 1661 cuando Koxinga 鄭成功 expulsó a los neerlandeses y estableció el Reino de Tungning 明鄭王朝, que duró hasta su anexión por la Dinastía Qing en 1683 — aproximadamente 60 años de alternancia entre el dominio colonial europeo y el gobierno chino han.
+En el verano de 1683, frente a la residencia del príncipe Ningjing en Tainan, el general Qing Shi Lang erigió una estela de piedra. Medía 279 centímetros de alto y 106 centímetros de ancho; cualquiera que pasara por allí podía verla al levantar la vista.[^1]
 
-## Por Qué Importa
+El texto de la estela fue escrito por Shi Lang para ensalzar sus propios méritos. Pero entre sus líneas se revela otra cosa: los habitantes de Tainan temían sus represalias, y sus subordinados ocupaban las tierras y viviendas de la población. La frase inicial es aún más significativa: “Taiwán se encuentra lejos, allende el mar”; “aborígenes y migrantes viven mezclados”; “no estaba subordinado a ningún régimen político”.[^1]
 
-La era neerlandesa, española y de Koxinga marcó la transición crucial de Taiwán desde una sociedad tribal indígena hacia sistemas políticos modernos. Los sistemas administrativos, las instituciones territoriales y las redes de comercio internacional establecidos por los neerlandeses, combinados con las políticas de inmigración china han del Reino de Tungning y el trasplante cultural confuciano, sentaron conjuntamente las bases para la integración multicultural de Taiwán y el desarrollo institucional político, con influencias que continúan hasta hoy.
+Shi Lang dijo esto para demostrar que la corte Qing debía asumir el control de Taiwán, pero al mismo tiempo reconocía algo: antes de él, esta isla no pertenecía a China.[^1]
 
-## Resumen General
+Sesenta años antes, la isla había sido incorporada por primera vez de manera sistemática al mapa del comercio mundial.
 
-En 1624, la Compañía Neerlandesa de las Indias Orientales ocupó Tainan y estableció una base, utilizando Taiwán como estación de tránsito para el comercio con China y Japón. Durante 38 años de dominio neerlandés, establecieron sistemas administrativos modernizados, promovieron la inmigración china han y el cultivo de tierras, y firmaron tratados con los pueblos indígenas para construir una red de gobierno. En 1661, Koxinga atacó Taiwán bajo la bandera de "oponerse a los Qing y restaurar los Ming" 反清復明, estableciendo el Reino de Tungning e implementando una política de soldados-agricultores 寓兵於農政策 con inmigración a gran escala. Tres generaciones del Reino de Tungning gobernaron durante 22 años, trasplantando de manera integral la cultura confuciana y las instituciones sociales chinas han a Taiwán, hasta 1683 cuando Shi Lang 施琅 atacó Taiwán y lo incorporó al territorio Qing.
+> **Panorama en 30 segundos:** En 1624, la Compañía Neerlandesa de las Indias Orientales estableció en la actual Tainan la factoría de Tayouan, luego conocida como fuerte Zeelandia. En 1626, los españoles entraron en Keelung y Tamsui. En 1642, los neerlandeses derrotaron a España y unificaron toda la isla bajo su control. En 1662, Zheng Chenggong derrotó al gobernador neerlandés Frederik Coyett y fundó el Reino de Tungning. En 1683, Shi Lang tomó Penghu y los Zheng se rindieron. En sesenta años se sucedieron cuatro regímenes; Taiwán pasó de ser una sociedad indígena autónoma a una sociedad migratoria de mayoría han, y al mismo tiempo quedó integrada en las redes marítimas de comercio de Asia oriental y del mundo.
 
-## Datos Clave
+## Formosa aparece por primera vez en los mapas europeos
 
-- **Taiwán Neerlandés**: 1624-1662, gobernó durante 38 años con el Fuerte Zeelandia (Fuerte Antiguo de Anping 安平古堡) como centro administrativo
-- **Norte de Taiwán Español**: 1626-1642, ocupó Tamsui y Keelung, construyendo el Fuerte San Salvador y el Fuerte Santo Domingo
-- **Ataque de Koxinga a Taiwán**: Abril de 1661 desembarcó en Luermen 鹿耳門, febrero de 1662 rendición neerlandesa
-- **Reino de Tungning**: 1661-1683, tres generaciones de gobierno de la familia Zheng, más próspero durante el período de Zheng Jing 鄭經
-- **Ataque de Shi Lang a Taiwán**: 1683, el General Qing Shi Lang capturó Penghu y Taiwán, el Reino de Tungning se rindió a los Qing
+En 1596 se publicó en Ámsterdam el _Itinerario de las Indias Orientales_. Su autor, Jan Huygen van Linschoten (1563-1611), había estado destinado en Goa, en la India portuguesa, donde trabajó como secretario del arzobispo y tuvo acceso a materiales náuticos que Portugal había recopilado en Asia. En su libro había un mapa de las Indias Orientales que dibujaba tres islas frente a la costa de Fujian; la más septentrional llevaba la anotación **I. Formosa**.[^2]
 
-## Contenido en Profundidad
+Fue una de las primeras apariciones de “Formosa” en la documentación europea. En la misma época, el manual náutico chino _Shunfeng xiangsong_ registraba el “monte Jilongtou de Xiao Liuqiu” en el extremo norte de Taiwán, hoy el islote de Keelung, y el “monte Dawan de Shamatou en Beigang” en el extremo sur, hoy Maobitou; ambos eran hitos importantes en las rutas marítimas de Asia oriental.[^2]
 
-### Sistema Administrativo Neerlandés
+En 1624, después de ser expulsada de Penghu por las fuerzas Ming, la Compañía Neerlandesa de las Indias Orientales (VOC) se trasladó a Tayouan, en Tainan, y levantó el fuerte Zeelandia. Dos años más tarde, en 1626, los españoles avanzaron hacia el norte desde Filipinas y construyeron el fuerte de San Salvador en la isla Heping de Keelung, y el fuerte de Santo Domingo en Tamsui.[^3]
 
-La Compañía Neerlandesa de las Indias Orientales estableció el sistema administrativo colonial más avanzado de Asia en ese momento. El **sistema de Gobernador** tenía al Gobernador de Taiwán como el jefe administrativo supremo, con un Consejo de Formosa que asistía en el gobierno. El **gobierno local** empleaba el dominio indirecto, firmando tratados con jefes indígenas, reconociendo su autoridad autónoma mientras requerían el pago de tributos.
+Las dos grandes potencias marítimas del siglo XVII ocuparon sendos extremos de Taiwán: una en el sur y otra en el norte.
 
-La **política económica** se centraba en el comercio exterior, convirtiendo a Taiwán en un centro comercial que conectaba China, Japón y el Sudeste Asiático. Los neerlandeses introdujeron inmigrantes chinos han para el cultivo de tierras, estableciendo bases de producción agrícola para suministrar productos como azúcar y arroz. En aspectos **religiosos y culturales**, promovieron el cristianismo, con pastores como George Candidius creando sistemas de ortografía romanizada para las tribus indígenas de las llanuras, dejando preciosos manuscritos de Sinckan 新港文書.
+## Los 38 años neerlandeses: estación comercial, alfabeto latino y anclajes de muro
 
-### Gobierno del Norte de Taiwán por España
+El dominio neerlandés de Taiwán duró 38 años (1624-1662). En términos administrativos, el máximo responsable era el gobernador de Taiwán, asistido por un consejo. Hacia los pueblos indígenas se aplicó un gobierno indirecto: se firmaban tratados con los jefes de cada comunidad, se reconocía su autonomía y, al mismo tiempo, se exigía tributo.[^3]
 
-En 1626, los españoles se trasladaron al norte desde Filipinas para ocupar Keelung y Tamsui, con la intención de dividir Taiwán con los neerlandeses. Construyeron el Fuerte San Salvador (Keelung) y el Fuerte Santo Domingo (Tamsui), promoviendo la evangelización católica. Sin embargo, debido a la financiación insuficiente y la frecuente resistencia indígena, fueron completamente derrotados por las fuerzas neerlandesas en 1642 y se retiraron por completo, gobernando solo durante 16 años.
+El núcleo económico era el **comercio de reexportación**: Taiwán funcionaba como escala que conectaba China, Japón, el Sudeste Asiático y Batavia, la actual Yakarta. Los neerlandeses introdujeron migrantes han para la roturación agrícola y establecieron una agricultura de exportación basada, entre otros productos, en el azúcar y el arroz.
 
-### Sistema Político del Reino de Tungning
+Algunas huellas dejadas por los neerlandeses del siglo XVII todavía pueden verse hoy. Al caminar por ciertos templos y antiguas casas de Tainan, en los hastiales se observan componentes que los taiwaneses llaman “tijeras de hierro” o “anclajes de muro”. En realidad proceden de un elemento arquitectónico neerlandés del siglo XVII, el _muuranker_ o Dutch Wall Anchors, que aún se encuentra con frecuencia en edificios antiguos de Ámsterdam, Utrecht y Leiden.[^4]
 
-El Reino de Tungning establecido por Koxinga adoptó instituciones políticas de la Dinastía Ming. El **gobierno central** estableció la Prefectura de Chengtiean 承天府 para gestionar asuntos, y la **organización militar** implementó un sistema de soldados-agricultores, asignando tierras a los soldados para el cultivo autosuficiente. La **política de inmigración** reclutó extensivamente inmigrantes de Fujian, con la población creciendo de aproximadamente 100,000 a 200,000.
+Más sorprendente aún es la escritura. Los misioneros neerlandeses escribieron las lenguas indígenas, en particular las de los pueblos pingpu de las llanuras, mediante romanización, y prepararon textos bíblicos para la evangelización. Ese sistema de escritura latina siguió usándose **150 años después** de la salida de los neerlandeses de Taiwán en contratos de tierras entre indígenas y han. Se conserva un documento contractual de 1782 en el que la lengua taivoan aparece escrita con letras latinas junto a caracteres chinos; para entonces habían pasado 120 años desde 1662.[^4]
 
-La **construcción cultural** construyó templos confucianos para promover la educación confuciana y estableció escuelas para cultivar talentos. Las **relaciones exteriores** mantuvieron la confrontación con la Dinastía Qing mientras continuaban el comercio con el Sudeste Asiático y Japón. Durante el período de Zheng Jing (1662-1681), el poder nacional alcanzó su punto máximo y una vez lanzaron contraataques en el continente, pero finalmente declinaron debido a conflictos internos y dificultades económicas.
+La escritura sobrevivió más tiempo que el régimen político.
 
-### Políticas Económicas y Sociales Neerlandesas
+## Los 16 años españoles en el norte de Taiwán
 
-La administración colonial neerlandesa implementó sofisticadas estrategias económicas:
+Los españoles desembarcaron en 1626 con la intención de repartirse Taiwán con los neerlandeses e impulsar la misión católica. Pero padecieron escasez de fondos y frecuentes resistencias indígenas. En 1642 fueron derrotados por el ejército neerlandés y se retiraron de Keelung a Manila; su dominio duró apenas 16 años.[^3]
 
-**Desarrollo Agrícola**: Introdujeron nuevos cultivos y técnicas agrícolas de Java y otras colonias. Promovieron el cultivo de azúcar a gran escala, que se convirtió en el principal producto de exportación de Taiwán.
+Los vestigios del período español en el norte de Taiwán se concentran sobre todo en la actual isla Heping de Keelung y en la zona del fuerte de Santo Domingo en Tamsui. En años recientes, las excavaciones arqueológicas de la isla Heping han sacado a la luz cerámicas europeas del siglo XVII, fragmentos de cruces y objetos rituales indígenas. Es uno de los pocos sitios de Taiwán donde el período español puede ser atestiguado mediante restos materiales.
 
-**Monopolio Comercial**: Establecieron un control estricto sobre el comercio internacional, requiriendo que todo el comercio pasara por comerciantes con licencia neerlandesa. Este sistema generó ingresos sustanciales pero también creó tensiones con los comerciantes chinos.
+## Los 21 años de los Zheng: el Reino de Tungning
 
-**Sistema Tributario**: Implementaron impuestos sistemáticos sobre el uso de la tierra, actividades comerciales y tributos indígenas. Crearon registros detallados que proporcionan valiosa documentación histórica.
+En 1659, la dinastía Qing consolidó su posición en la China continental. Zheng Chenggong, que en el plano formal era leal a los Ming del Sur y combatía a los Qing, dirigió entonces su mirada hacia Taiwán: necesitaba suministros y una base para su ejército. Tras casi un año de enfrentamientos militares, **a comienzos de 1662 el gobernador de Taiwán de la Compañía Neerlandesa de las Indias Orientales, Frederik Coyett, se rindió**, poniendo fin a 38 años de dominio neerlandés.[^5]
 
-**Planificación Urbana**: Desarrollaron Tainan (entonces llamada Tayouan) como una ciudad colonial planificada con fortificaciones y edificios administrativos de estilo europeo.
+El régimen Zheng estableció en Taiwán el Reino de Tungning, que **tuvo tres líderes (Zheng Chenggong, Zheng Jing y Zheng Keshuang) y gobernó durante 21 años**. Fue el primer régimen han firmemente institucionalizado en Taiwán.[^5]
 
-### Relaciones Indígenas e Intercambio Cultural
+**Zheng Chenggong habló de “fundar un Estado y establecer una casa”**. El territorio de Tungning no incluía solo la isla principal de Taiwán, sino también Kinmen, Xiamen, Tongshan, Nan’ao y otras islas costeras de Fujian y Guangdong. Las fértiles llanuras del oeste de Taiwán sirvieron como base de colonias agrícolas militares para un gran ejército; se aplicó el sistema de **integrar los soldados en la agricultura**, por el cual se asignaban tierras a los militares para que se autoabastecieran cultivándolas. En el centro se estableció la prefectura de Chengtian para administrar los asuntos de gobierno; en el nivel local se crearon las dos prefecturas de Tianxing y Wannian, y se construyó un templo de Confucio para promover la educación confuciana.[^5]
 
-Ambas potencias europeas desarrollaron relaciones complejas con las comunidades indígenas de Taiwán:
+Un objeto conservado en la Bodleian Library de la Universidad de Oxford da testimonio de la escala del comercio internacional del Reino de Tungning. Es un almanaque en chino: el **Almanaque Datong del Yongli de la restauración de la Gran Ming (1677)**. Utiliza el nombre de era del emperador Yongli, último emperador de la dinastía Ming, y añade las palabras “restauración” para subrayar la implicación política de “continuar la legitimidad calendárica Ming”.[^5]
 
-**Sistema de Tratados**: Los neerlandeses firmaron acuerdos formales con más de 300 aldeas indígenas, creando una red de tribus aliadas. Estos tratados típicamente requerían el pago de tributos a cambio de protección y privilegios comerciales.
+Zheng Jing invitó a la Compañía Inglesa de las Indias Orientales a establecer una factoría en Taiwán. Siguiendo la práctica de las dinastías chinas, entregó almanaques reales a los extranjeros que acudían a comerciar bajo la forma de tributo. Así, este calendario perteneciente a la dinastía Zheng cruzó los mares y se conserva hasta hoy en la Bodleian Library (signatura Sinica 88, licencia CC BY-NC 4.0).[^5]
 
-**Impacto Cultural**: Los misioneros cristianos crearon sistemas de escritura para varios idiomas indígenas y tradujeron textos religiosos. Algunas comunidades indígenas adoptaron prácticas cristianas mientras mantenían creencias tradicionales.
+El Reino de Tungning también acuñó su propia moneda: el **Yongli tongbao**. Esta moneda había sido acuñada originalmente después de la entronización del príncipe Gui de los Ming del Sur. Tras ocupar Taiwán en 1661, Zheng Chenggong continuó acuñándola y la hizo circular en la isla. Todavía se conservan ejemplares en el Museo Nacional de Historia de Taiwán (número de colección 2002.012.0011).[^5]
 
-**Integración Económica**: Los pueblos indígenas se convirtieron en participantes importantes en la economía colonial, proporcionando mano de obra para la agricultura y sirviendo como intermediarios en las redes comerciales.
+## La decisión de la corte Qing: gobernar o no gobernar la isla
 
-**Resistencia y Acomodación**: Mientras algunas tribus se aliaron con las potencias coloniales, otras montaron una resistencia significativa. Los neerlandeses enfrentaron varios levantamientos importantes, incluida la Rebelión de Guo Huaiyi 郭懷一事件 en 1652.
+Durante el gobierno de los Zheng en Taiwán, el régimen se enfrentó reiteradamente con las fuerzas circundantes, entre ellas la Compañía Neerlandesa de las Indias Orientales y el Estado Qing. Los Qing intentaron atacar Taiwán en varias ocasiones; quien defendió con más fuerza la invasión y la ejecutó personalmente fue **Shi Lang**, un general desertor de los Zheng.[^6]
 
-### Actividades Misioneras Españolas
+En 1683, Shi Lang tomó Penghu y Taiwán, y los Zheng se rindieron a los Qing. Pero dentro de la corte Qing estalló de inmediato un debate: ¿debía Taiwán ser gobernada formalmente?
 
-Durante su breve gobierno, los misioneros españoles hicieron contribuciones culturales significativas:
+**Los partidarios** sostenían que, si no se la administraba de manera efectiva, Taiwán se convertiría en una base para piratas o fuerzas extranjeras, y terminaría siendo un problema de defensa marítima.
+**Los opositores** afirmaban que Taiwán era un lugar pequeño, y que enviar tropas y funcionarios para gobernarla solo aumentaría la carga del imperio.[^6]
 
-**Evangelización Católica**: Establecieron iglesias e intentaron convertir a las comunidades indígenas en el norte de Taiwán.
+Hay además un episodio histórico poco mencionado: **después de tomar Taiwán, Shi Lang primero preguntó a los neerlandeses** si tenían interés en volver a gobernarla. Solo después de que ellos rechazaran la propuesta, Shi Lang se dirigió al emperador Kangxi para recomendar que la corte Qing gobernara Taiwán.[^6]
 
-**Documentación Lingüística**: Crearon registros tempranos de los idiomas y costumbres indígenas del norte de Taiwán.
+La decisión de Kangxi influyó en el destino de Taiwán durante los siguientes 212 años. Desde entonces, el Estado Qing incorporó Taiwán como “una pequeña prefectura bajo la provincia de Fujian” y estableció órganos para administrar varios condados. Grandes cantidades de han migraron a la isla, y los fundamentos de las sociedades indígenas comenzaron a tambalearse.
 
-**Legado Arquitectónico**: Construyeron fortificaciones y iglesias de piedra, algunos de cuyos cimientos aún se pueden ver hoy.
+El jesuita francés **Joseph-François-Marie-Anne de Moyriac de Mailla** recibió alrededor de 1710 la orden de Kangxi de viajar a Taiwán para realizar mediciones. El mapa que elaboró fue incluido más tarde en la traducción francesa del _Mapa completo del Imperio_, donde se señalaban tres ciudades: la cabecera del condado de Zhuluo, la ciudad prefectural de Taiwán y la cabecera del condado de Fengshan, atravesadas por el trópico de Cáncer.[^6]
 
-### Campañas Militares y Gobierno de Koxinga
+Ese mapa fue la primera ocasión en que Taiwán apareció en los estantes de las cortes europeas con la apariencia de “una provincia bajo el Imperio chino”.
 
-La expulsión de los neerlandeses por Koxinga marcó una transición crucial en la historia de Taiwán:
+## Impacto histórico
 
-**Estrategia Militar**: Utilizó un conocimiento superior de la geografía y los patrones climáticos locales para derrotar a las fuerzas neerlandesas tecnológicamente avanzadas. El asedio del Fuerte Zeelandia duró nueve meses.
+Los sesenta años del período neerlandés, español y Ming-Zheng sentaron las bases de Taiwán como **sociedad migratoria**: los han se trasladaron en gran número, y la población creció de unas 100.000 personas en el período neerlandés a unas 200.000 durante el período Ming-Zheng, transformando por completo la estructura demográfica de la isla.[^5]
 
-**Legitimidad Política**: Afirmó representar a la legítima Dinastía Ming, apelando al nacionalismo cultural chino y la resistencia al dominio extranjero.
+En el plano institucional, las concepciones administrativas neerlandesas y la tradición cultural confuciana de los Ming-Zheng se superpusieron a las sociedades indígenas autónomas, formando una estructura de múltiples capas en la cultura política taiwanesa. La tradición del comercio internacional hizo que Taiwán tuviera desde el inicio un carácter marítimo: geográficamente es una isla, pero en lo económico y político es un nodo.
 
-**Reforma Administrativa**: Reemplazó las estructuras coloniales neerlandesas con formas gubernamentales chinas tradicionales mientras incorporaba algunas innovaciones europeas útiles.
+En el plano material, los bienes y hábitos culturales que circularon hacia la isla en el siglo XVII, tras ser absorbidos y transformados por la población local, pasaron a formar parte del sustrato de la cultura taiwanesa actual: barras japonesas de cobre _saodong_ recuperadas del puerto de Magong, en Penghu, importadas a mediados del siglo XVII y usadas para acuñar moneda y fabricar armas de fuego; vasijas cerámicas “Anping” del norte de Fujian, empleadas por los han para encurtir alimentos y por los indígenas siraya para rendir culto a los espíritus ancestrales y contener el “agua orientada” que permitía comunicarse con ellos; y aquellos anclajes de muro que todavía permanecen fijados en los hastiales de antiguos templos de Tainan.[^4]
 
-**Transformación Económica**: Cambió el enfoque del comercio orientado a la exportación a la autosuficiencia agrícola y la preparación militar para las campañas contra la Dinastía Qing.
+Los estilos extranjeros y la diversidad cultural llegaron a Taiwán por el camino del mar y entraron en la vida de sus habitantes. Esa constitución de “la isla como nodo” se ha prolongado hasta el presente.
 
-### Legado de la Familia Zheng
+---
 
-Las tres generaciones de gobierno Zheng dejaron impactos duraderos:
+**Lecturas complementarias**:
 
-**Zheng Chenggong (Koxinga)** 鄭成功 (1661-1662): Estableció el reino y expulsó a las fuerzas neerlandesas, pero murió poco después de la conquista.
+- [Época prehistórica y pueblos indígenas](/history/史前時代與原住民) — Las sociedades autónomas que ya existían en la isla antes del desembarco neerlandés
+- [Período de dominio Qing](/history/清治時期) — Cómo Taiwán se expandió de “pequeña prefectura” a provincia durante los 212 años posteriores a 1683
+- [Historia del comercio marítimo de Taiwán](/history/台灣海洋貿易史) — El contexto completo de las redes comerciales desde los neerlandeses hasta Tungning y el dominio Qing
+- [Historia de los pueblos indígenas de Taiwán y movimiento por la rectificación de nombres](/history/台灣原住民族歷史與正名運動) — Los pueblos pingpu impactados por la oleada migratoria han
+- [Perspectiva histórica insular de Taiwán](/history/台灣島史觀) — La visión histórica de Cao Yonghe centrada en la isla como sujeto, eje fundamental de este período
+- [Formosa](/history/福爾摩沙) — Las controversias sobre el origen del nombre “Formosa” y las formas en que Occidente escribió sobre esta isla durante cuatro siglos
+- [Museo Nacional de Historia de Taiwán](/society/國立臺灣歷史博物館) — La sección 3 de la exposición permanente del NMTH, “La isla y sus gentes nacidas junto al mar”, y la exposición internacional de 2024 “Transcending 1624” presentan directamente este período; 1624 fue el año en que la Compañía Neerlandesa de las Indias Orientales estableció el fuerte Zeelandia en Tayouan
 
-**Zheng Jing** 鄭經 (1662-1681): Presidió la edad de oro del reino, expandiendo el territorio y fortaleciendo las instituciones. Intentó múltiples expediciones para retomar China.
+## Referencias
 
-**Zheng Keshuang** 鄭克塽 (1681-1683): Último gobernante, enfrentado a divisiones internas y superioridad naval Qing, finalmente se rindió a Shi Lang.
+[^1]: [2-5 臺灣小府：清帝國統治的開始 — 臺灣史新手村，國立臺灣歷史博物館](https://ilhaformosa.nmth.gov.tw/home/zh-tw/02-5) — Registra las dimensiones de la estela erigida por Shi Lang en 1683 frente a la residencia del príncipe Ningjing, hoy Gran Templo Mazu de Tainan (279 centímetros de alto y 106 centímetros de ancho), el contenido de la inscripción (“Taiwán se encuentra lejos, allende el mar; aborígenes y migrantes viven mezclados”) y su significado histórico concreto. La estela original se conserva en el Gran Templo Mazu; el Museo Nacional de Historia de Taiwán exhibe una reproducción.
 
-### Desarrollo Cultural y Educativo
+[^2]: [2-1 航道地標：浮現在海圖上的福爾摩沙 — 臺灣史新手村，國立臺灣歷史博物館](https://ilhaformosa.nmth.gov.tw/home/zh-tw/02-1) — Registra que el _Itinerario de las Indias Orientales_ de Jan Huygen van Linschoten fue publicado en Ámsterdam en 1596 y que en un mapa europeo marcó por primera vez a Taiwán como “I. Formosa”; también recoge las menciones del manual náutico chino _Shunfeng xiangsong_ a los hitos de los extremos norte y sur de Taiwán. El mapa original forma parte de la colección del Museo Nacional de Historia de Taiwán, número 2003.015.0168.0005.
 
-El Reino de Tungning hizo inversiones significativas en el desarrollo cultural:
+[^3]: [2-0 海陸交會單元總覽 — 臺灣史新手村，國立臺灣歷史博物館](https://ilhaformosa.nmth.gov.tw/home/zh-tw/02-0) — Registra la secuencia histórica: en 1624 la Compañía Neerlandesa de las Indias Orientales estableció una base en Tayouan; en 1626 España construyó el fuerte de San Salvador en el norte de Taiwán; en 1642 los neerlandeses derrotaron a España; y en 1662 Zheng Chenggong tomó el control de toda la isla.
 
-**Instituciones Confucianas**: Construyó el primer templo confuciano de Taiwán y estableció escuelas siguiendo modelos educativos chinos clásicos.
+[^4]: [2-3 異文化相遇：東亞港市的物質流通 — 臺灣史新手村，國立臺灣歷史博物館](https://ilhaformosa.nmth.gov.tw/home/zh-tw/02-3) — Registra la permanencia de anclajes de muro neerlandeses (Muuranker/Dutch Wall Anchors) en templos y residencias de Tainan (número de colección 2006.003.0020), la continuidad del sistema de romanización del período neerlandés en un contrato bilingüe indígena-han de 1782 (entre Touzida de la comunidad Madou y Xie Zongyang, número de colección 2018.011.0016), así como la circulación material de barras japonesas de cobre _saodong_ y vasijas Anping (número de colección 2001.001.0409).
 
-**Cultura Literaria**: Fomentó la actividad académica y la poesía, creando la primera tradición literaria china indígena de Taiwán.
+[^5]: [2-4 東寧王國：鄭氏王朝的 21 年 — 臺灣史新手村，國立臺灣歷史博物館](https://ilhaformosa.nmth.gov.tw/home/zh-tw/02-4) — Registra los tres líderes del régimen Zheng, sus 21 años de gobierno (1662-1683), el sistema de integrar los soldados en la agricultura, la administración central mediante la prefectura de Chengtian y las relaciones comerciales con la Compañía Inglesa de las Indias Orientales. El _Almanaque Datong del Yongli de la restauración de la Gran Ming_ de la Bodleian Library de la Universidad de Oxford (1677, Sinica 88, CC BY-NC 4.0) y el Yongli tongbao (Museo Nacional de Historia de Taiwán, número de colección 2002.012.0011) citados allí son testimonios materiales directos de este período.
 
-**Formación Administrativa**: Desarrolló sistemas para capacitar funcionarios civiles basados en principios confucianos y necesidades prácticas de gobierno.
+[^6]: [2-5 臺灣小府：清帝國統治的開始 — 臺灣史新手村，國立臺灣歷史博物館](https://ilhaformosa.nmth.gov.tw/home/zh-tw/02-5) — Registra el debate interno de la corte Qing sobre si gobernar Taiwán, el hecho histórico de que Shi Lang consultó primero a los neerlandeses sobre su disposición a gobernar Taiwán después de tomarla, y la llegada de Joseph-François-Marie-Anne de Moyriac de Mailla a Taiwán por orden de Kangxi en 1710 para realizar mediciones y elaborar un mapa, luego incluido en la traducción francesa del _Mapa completo del Imperio_ (Museo Nacional de Historia de Taiwán, número de colección 2003.015.0041.0002).
 
-### Dimensiones Internacionales
-
-Esta era estableció la posición de Taiwán en redes regionales y globales:
-
-**Redes Comerciales**: Conectó a Taiwán con rutas comerciales que abarcaban desde Japón hasta el Sudeste Asiático y el Océano Índico.
-
-**Relaciones Diplomáticas**: Tanto las administraciones neerlandesa como la de Zheng mantuvieron relaciones diplomáticas complejas con varias potencias asiáticas.
-
-**Transferencia Tecnológica**: Introdujeron tecnología militar europea, técnicas de navegación y prácticas administrativas que influyeron en el desarrollo posterior.
-
-## Impacto Histórico
-
-La era neerlandesa, española y de Koxinga estableció el carácter de Taiwán como una sociedad de inmigrantes, con el asentamiento chino han a gran escala cambiando fundamentalmente la estructura demográfica. Los sistemas administrativos neerlandeses y los conceptos legales, combinados con las tradiciones culturales confucianas del Reino de Tungning, formaron el ADN político y cultural único de Taiwán. La tradición del comercio internacional le dio a Taiwán su carácter marítimo, sentando las bases para el desarrollo posterior.
-
-Este período también estableció patrones que caracterizarían a Taiwán a lo largo de su historia: hibridación cultural entre influencias chinas y extranjeras, dependencia económica del comercio internacional y autonomía política dentro de estructuras de poder regional más amplias.
-
-## Lectura Adicional
-
-- [Formosa Neerlandesa - Wikipedia](https://en.wikipedia.org/wiki/Dutch_Formosa)
-- [Reino de Tungning - Wikipedia](https://en.wikipedia.org/wiki/Kingdom_of_Tungning)
-- [Formosa Española - Wikipedia](https://en.wikipedia.org/wiki/Spanish_Formosa)
-
-## Temas Relacionados
-
-- [prehistoric-era-and-indigenous-peoples](/history/prehistoric-era-and-indigenous-peoples)
-- [qing-dynasty-rule](/history/qing-dynasty-rule)
-- [open-source-and-g0v](/technology/open-source-and-g0v)
+[^7]: [臺灣荷西殖民時期 — 維基百科](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%8D%B7%E8%A5%BF%E6%AE%96%E6%B0%91%E6%99%82%E6%9C%9F) — Aporta la grafía del nombre del gobernador neerlandés Frederik Coyett, detalles complementarios sobre el período de dominio español en Keelung y Tamsui (1626-1642), y datos sobre la organización de la Compañía Neerlandesa de las Indias Orientales en Taiwán y la estadística poblacional.

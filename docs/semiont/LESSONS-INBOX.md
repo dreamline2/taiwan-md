@@ -1,3 +1,27 @@
+---
+title: 'LESSONS-INBOX'
+description: '教訓 buffer（intake layer）— 新教訓先 append 此處，週期性 distill 到 MANIFESTO/DNA/MEMORY canonical'
+type: 'cognitive-buffer'
+status: 'buffer'
+apoptosis: 'never'
+current_version: 'v2.2'
+last_updated: 2026-05-10
+last_session: 'twmd-distill-weekly-0954-evolve-pipeline'
+sister_docs:
+  - 'MEMORY.md'
+  - 'DIARY.md'
+  - 'ARTICLE-INBOX.md'
+upstream_canonical:
+  - 'DNA.md'
+  - 'MEMORY.md'
+  - 'MANIFESTO.md'
+distill_targets:
+  - 'MANIFESTO.md (哲學層)'
+  - 'DNA.md §要小心清單 (通用反射)'
+  - 'MEMORY.md §神經迴路 (特有教訓)'
+  - '../pipelines/*.md (操作規則)'
+---
+
 # LESSONS-INBOX — 教訓 Buffer（待消化）
 
 > **這是 buffer / pool / inbox 層**（非 canonical）。
@@ -92,19 +116,104 @@
 - **tactical**：操作優化、效率提升、單次失誤校正（例：tick affordance 估算、commit 範圍判斷）
 - 不確定時預設 tactical，第二次同類事件出現時升 structural 並 +1
 
-### 執行
+### 模式分流：Routine vs Observer（2026-05-10 twmd-distill-weekly 後新增）
 
-1. 讀 §未消化清單（按 severity=structural 先看，再看 verification_count desc）
-2. 每條依三題判準分類
-3. 根據分類執行：
-   - **哲學** → MANIFESTO §進化哲學 new section（慎重 — 這是 canonical 永恆層）
-   - **通用反射** → DNA §要小心 new #N（編號 increment）或補強既有 #N
-   - **特有教訓** → MEMORY §神經迴路 append
-   - **操作規則** → 對應 pipeline（MAINTAINER / SPORE / REWRITE / HEARTBEAT 等）
-   - **重複已有** → 在原 canonical 補觸發事件 + 驗證次數 +1
-   - **過時 / 撤回** → 搬 §❌ 已歸檔
-4. 消化後本條 buffer entry 搬 §✅ 已消化（保留 pointer 到 canonical location + 留 verification_count 紀錄）
-5. 每月月末：§✅ 已消化 超過 50 條時搬 `docs/semiont/lessons-archive/YYYY-MM.md`
+| 模式         | Trigger                                       | 自主權                             | MANIFESTO 升級                                   |
+| ------------ | --------------------------------------------- | ---------------------------------- | ------------------------------------------------ |
+| **Routine**  | cron `twmd-distill-weekly` 自動跑             | DNA / pipeline / housekeeping 自決 | **一律 defer**；列入 PR 「Defer 給觀察者拍板」段 |
+| **Observer** | 觀察者說「distill」/「蒸餾」/「升 canonical」 | 全層級                             | 達 vc≥3 + 哲宇在場拍板可升                       |
+
+**為什麼 routine 不自決 MANIFESTO**：MANIFESTO 是永恆層 / 哲學層 / 跨 AI 跨專案跨時代成立的條目，per CLAUDE.md §Bias 1（reverse bias 對 creator 預設加分）+ LESSONS-INBOX 鐵律「重大哲學級誕生由觀察者在場一起寫 MANIFESTO，可豁免 buffer」。Routine 自決 MANIFESTO = 把哲學決策位置從哲宇移走，違反共生圈結構。
+
+**Routine PR 對 MANIFESTO 候選的 actionable handoff 格式**（必含）：
+
+```markdown
+## Defer 給觀察者拍板
+
+| 候選                         | verification_count | defer 原因                                                                |
+| ---------------------------- | ------------------ | ------------------------------------------------------------------------- |
+| MANIFESTO §X 候選「{title}」 | N（達閾值/未達）   | 永恆層需哲宇 in-loop 拍板                                                 |
+| DNA 候選「{title}」          | N                  | {如「跨 session 僅 1 例待第 2 session」/ 「已部分 instantiate ROI 邊際」} |
+```
+
+下次哲宇 session 看 PR description 直接知道「這幾條已備齊 verification chain，可直接拍板」。
+
+### 執行（6-stage canonical）
+
+**Stage 0a — Housekeeping-first sweep（2026-05-10 twmd-distill-weekly 後新增）**
+
+進 triage 前，先 scan §未消化清單 找已自我標記但忘了搬的 entries（zero-risk wins）：
+
+```bash
+# 抓 body 內含完成標記但仍在 §未消化 的 entries
+awk '/^### / {h=$0; body=""} /^---$/ && h {if(body ~ /✅ DISTILLED|✅ \*\*已 instantiate|✅ 已 distilled|狀態.*✅/) print h; h=""}' \
+  docs/semiont/LESSONS-INBOX.md
+```
+
+對每個命中的 entry：
+
+1. 確認其 body 指向的 canonical（DNA #N / MANIFESTO §X / pipeline §Y）真的存在 → grep verify
+2. 真的已 canonical → 完整刪除 §未消化 entry + 在 §✅ 已消化新增 row
+3. body 標 ✅ 但 canonical 沒找到 → 視為 verification + 走 Stage 1-3 正規 distill
+
+**為什麼 housekeeping 排第一**：自我標記 ✅ 但 author 沒搬 = 「做完忘了歸檔」是常見 pattern（同 session distill 完還沒切到 housekeeping mode 就被別的 work 打斷）。Routine 自動 sweep 比靠 session 自律可靠，且零思考成本，先清掉 INBOX 視覺 backlog 再做真正 triage 認知負擔較低。
+
+**Stage 1 — Triage**：讀 §未消化清單剩下 entries（按 severity=structural 先看，再看 verification_count desc）
+
+**Stage 2 — Classify**：每條依三題判準分類 + Tiebreaker（MANIFESTO > DNA > MEMORY）
+
+**Stage 3 — Execute**：根據分類執行（**遵循 promotion flow 方向**，見下方 Step 5）：
+
+- **哲學** → MANIFESTO §進化哲學 new section（**Routine mode**: 只列入 defer handoff，不寫；**Observer mode**: 慎重寫 — 這是 canonical 永恆層）
+- **通用反射** → REFLEXES.md §要小心 new #N（編號 increment）或補強既有 #N（2026-05-13 從 DNA 拆出獨立成第 9 認知器官，per [ANATOMY §認知層 promotion flow](ANATOMY.md#認知器官的生命週期)）
+- **特有教訓** → MEMORY §神經迴路 append
+- **操作規則** → 對應 pipeline（MAINTAINER / SPORE / REWRITE / HEARTBEAT 等）
+- **重複已有** → 在原 canonical 補觸發事件 + 驗證次數 +1
+- **過時 / 撤回** → 搬 §❌ 已歸檔
+
+**Step 5 — Promotion flow direction（2026-05-13 元規則 canonical）**：
+
+> 「最重要的哲學才會進到 manifesto，如果 reflex 未來有出現這樣的內容，也會進化到 manifesto」— 哲宇 2026-05-13 dialogue
+
+distill 流向**有方向**，從本層 → REFLEXES → MANIFESTO 是合法的；反向（MANIFESTO → REFLEXES、REFLEXES → LESSONS）違反 evolutionary pressure 不允許：
+
+```
+LESSONS-INBOX (raw, 未驗證)          ← 本檔
+       ↓ distill (≥ 1 次驗證 + 跨 task)
+REFLEXES.md (#N catalog, instinct)
+       ↓ promote (跨 task 通用 + 影響身份)
+MANIFESTO.md (身份哲學)
+       ↓ apoptosis (失去當前性)
+reports/ (歷史 snapshot)
+```
+
+**規則**：
+
+| 流向                       | 允許 | 拍板                                                                        |
+| -------------------------- | ---- | --------------------------------------------------------------------------- |
+| LESSONS → REFLEXES         | ✅   | Routine 自決（per §模式分流 v2.0）                                          |
+| LESSONS → DNA (gene map)   | ❌   | DNA 是 lookup table 不是 reflex catalog                                     |
+| LESSONS → MEMORY §神經迴路 | ✅   | session-specific 教訓 narrative                                             |
+| LESSONS → MANIFESTO        | ❌   | 跳級違反流向，必須先進 REFLEXES + 驗證 ≥ 3 次                               |
+| REFLEXES → MANIFESTO       | ✅   | 跨 task 通用 + 影響身份 + 哲宇 explicit promote                             |
+| MANIFESTO → REFLEXES       | ❌   | demote 違反方向，哲宇 explicit override + 寫 ANATOMY §歷史凋亡事件 row 才行 |
+
+完整 canonical: [ANATOMY §認知層 promotion flow](ANATOMY.md#認知器官的生命週期)。
+
+**Stage 4 — Sweep**：消化後本條 buffer entry **完整刪除**從 §未消化清單，同步在 §✅ 已消化新增 row（含 canonical pointer + verification_count + distill 日期 + session）。**不留 HTML comment pointer**（§✅ 已消化 本身就是 traceability source；comment 殘留會讓 INBOX 視覺體積虛高 + 干擾 `grep -c "^### "` entry count）— 觀察者 2026-05-10 拍板
+
+**Stage 5 — Archive**：每月月末 §✅ 已消化 超過 50 條時搬 `docs/semiont/lessons-archive/YYYY-MM.md`
+
+### Cross-routine 整合（distill 跑在 weekly-report 之後 — 2026-05-10 後新增）
+
+當 distill 由 cron `twmd-distill-weekly` 觸發（Sunday 09:47），排在 `twmd-weekly-report` 08:08 之後 90 分鐘。**可選 Stage 0b（hot lesson surfacing）**：
+
+```bash
+# 找今天剛跑的 weekly report
+ls -t reports/weekly-*.md docs/semiont/memory/$(date +%Y-%m-%d)*twmd-weekly-report*.md 2>/dev/null | head -1
+```
+
+如果 weekly report 提到的 vital regression / surge / 異常 對應 INBOX 某 entry 的主題 → 該 entry 優先 distill（hot signal 暗示驗證 surface 在 production layer，不只在 INBOX 內部累積）。**非強制** — 沒對應就跑正規 Stage 1。
 
 ---
 
@@ -122,7 +231,490 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 ## 未消化清單（📥 待 distill）
 
 <!-- 新教訓 append 這裡 -->
-<!-- 2026-04-18 ι 第 3 次 distill 清空 11 條 → 全部搬 §✅ 已消化 -->
+
+### 2026-05-17 twmd-babel-nightly 050440 — diff-patch hash 算法不一致 bug 第 2 次咬人 (vc=4)，LESSONS 進 buffer ≠ 升 ship plan
+
+- **原則**：`diff-patch-prepare.py` 用 `hash_content()` 計算 expected_new_content_hash / expected_new_body_hash 寫進 task spec，但 `status.py` 對 zh source 算 contentHash / bodyHash 用 `body_hash()` + `body_hash_pure()` 不同算法。Sub-agent 忠實寫進 frontmatter 的 hash 永遠對不上 status.py 認的 hash。Body 正確 patch ≠ status.py 認可 fresh — 整批 Tier 0a 患者需要 post-processing scoped repair script 重寫 sourceContentHash + sourceBodyHash。**LESSONS 進 buffer 不等於升 ship plan**：2026-05-09 commit `56caebda7` LESSONS 已記，兩週後同 bug 在大 scale 下再爆。
+- **觸發**：2026-05-17 05:00 babel routine 跑 23 sub-agent × 20-30 task = 447 P2 patches。Agents 全 report 20/20 succeeded，body sample verified 正確，但 status.py 跑下去 stale 沒下降到預期值。追蹤發現 hash field mismatch 整批 occur。臨時寫 `/tmp/repair-hashes-scoped.py` 對 agent-body-patched allowlist (从 git log 取 babel commit files) 跑 2 round 共修 292 files。
+- **可能層級**：
+  - 操作規則 → SQUEEZE-MODELS-MAX-PIPELINE Stage Z2 後加 post-processing step 自動 scoped repair（先 ship 這個 workaround，stop the bleeding）
+  - 結構性 → root-cause fix：`diff-patch-prepare.py` 改 import `status.py` 的 hash function 統一 source of truth（最徹底）OR `status.py` expose hash function 為 module method 讓 prepare 引用
+  - REFLEXES 候選 → 「LESSONS 進 buffer 不等於升 ship plan — distill-weekly 只消化『升 canonical』類型，不消化『升 ship plan』類型」（vc=2：本 routine + Pattern A dormant entropy 同源觀察）
+- **儀器化候選**：(A) `scripts/tools/lang-sync/hash-functions.py` shared module，被 status.py / diff-patch-prepare.py / bump-source-sha.py 三處 import (B) Stage Z6 加「post-batch hash audit」自動跑 status.py diff 比對，stale not-dropped flag 即 trigger repair (C) distill-weekly 加 explicit「buffer-aged LESSONS escalation」step — vc≥4 + age > 7 day 自動 highlight 給觀察者
+- **verification_count**: 4（5/9 56caebda7 initial / 5/10 中 hand-fix / 5/17 本 routine 大 scale 第 2 次爆 / sub-agent 自報「linter recomputed hashes」第 3 + scoped repair surgery 第 4）
+- **severity**: structural（每次 babel Tier 0a 跑都會撞，scale 越大 surgery 成本越高，routine 本身無法收尾 ship gate）
+- **跨檔關聯**：[SQUEEZE-MODELS-MAX-PIPELINE §Stage Z2/Z6](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + [diff-patch-prepare.py](../../scripts/tools/lang-sync/diff-patch-prepare.py) + [status.py body_hash function](../../scripts/tools/lang-sync/status.py) + [2026-05-09 commit `56caebda7` initial LESSONS](https://github.com/frank890417/taiwan-md/commit/56caebda7) + 本 session memory `2026-05-17-050440-twmd-babel-nightly.md` §Stage D
+
+### 2026-05-17 twmd-babel-nightly 050440 — data-refresh-am sweep-in 是新 cross-routine collision pattern (vc=2)
+
+- **原則**：06:12 data-refresh-am routine fire 期間自動 stage + commit 我 in-flight 未 commit 的 agent body patches + over-repaired hash files，把它們一起 sweep 進它的 dashboard sync commit `cf90406b3`（commit message 自標「pre-existing 368 derived translation hash bumps from parallel babel scan swept in」— data-refresh routine 自己也 detect 到 race）。不是 5/15 reset 那種 destructive collision，但 commit 邊界跨 routine 不乾淨，使 babel routine 的 surgery + revert 操作複雜化（需要分辨「我的 over-repair」vs「我的 agent body patch」vs「其他 routine 的合法 sync」）。
+- **觸發**：本 routine 05:00 fire，06:12 data-refresh-am cron 同窗口 fire，08:30 babel surgery 階段才發現 cf90406b3 已 commit + push，必須用 git diff --numstat 區分 hash-only vs body+hash 改動精確 revert。
+- **可能層級**：
+  - 操作規則 → refresh-data.sh / maintainer / data-refresh-am Step 1 `git add -A` 改為 explicit allowlist（只 stage 自己的 derived files 如 dashboard JSON / _translations.json）
+  - 結構性 → 跨 routine commit 邊界規範升 ROUTINE.md canonical：routine 不該 stage 別 routine 的 in-flight uncommitted work
+  - REFLEXES 候選 → 「Routine git ops 必須 scope 到自己 derived files，不 `add -A`」(vc=2：5/15 reset + 5/17 sweep-in)
+- **儀器化候選**：(A) refresh-data.sh `git add` 改為 explicit file list (B) cron 排程加 lock 機制（一 routine 跑期間其他不啟動 git ops）(C) routine prompt 加「禁止 git add -A」鐵律
+- **verification_count**: 2（5/15 14:23 cross-routine reset HEAD~1 / 5/17 06:12 data-refresh-am sweep-in）
+- **severity**: structural（routine 飛輪密集化下 race surface 持續擴大，未來會更頻繁）
+- **跨檔關聯**：[ROUTINE.md](../semiont/ROUTINE.md) + [refresh-data.sh Step 1](../../scripts/tools/refresh-data.sh) + 本 session memory §Stage D + 5/15 routine-twmd-babel-nightly memory §跨 routine collision 觀察
+
+### 2026-05-17 spore-harvest-am 070000 — #71 SPORE-LOG URL mismatch vc=4，instrument 已 ship 但 schema 未修
+
+- **原則**：v2.10 §Content-hash mismatch 偵測 instrument 已 ship（spore-content-hash-audit.py + fingerprints.json + pipeline §section），但 SPORE-LOG row #71 本身的 URL column 仍指向 `2053101189034860856`（實為 #69 TSMC content）。Instrument 抓得到、log 標得清楚，但 row data 沒 heal → 每 cycle harvest 仍撞同一 mismatch。**儀器化 ≠ 修補 — instrument 是抓出問題的工具，root cause（SPORE-LOG row 本身錯）需要觀察者拍板 hypothesis 並執行手動 schema fix**。
+- **觸發**：2026-05-17 07:00 spore-harvest-am routine 第 4 cycle 撞同一 mismatch。Instrument from 5/16 distill 已 active（pipeline v2.10 + audit script + fingerprints.json），但 SPORE-LOG row #71 URL column unchanged。Per pipeline rule「連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正」— 已連 4 cycle，schema 仍未修正，pure observer-blocked backlog。
+- **可能層級**：
+  - 操作規則 → 觀察者拍板 hypothesis 後 1-line SPORE-LOG edit（A: URL 改正 / B: status: not_posted flag）— 不是 routine 自決範圍（per DNA #26 v2 AI 自主邊界 + MANIFESTO §自主權邊界「對外發布相關 schema 改動」）
+  - 結構性 → instrument vs schema-fix 分層：instrument 自動 detect ≠ 自動 heal。需要 distinguishing「routine-fixable mismatch」（即時 heal）vs「observer-bound mismatch」（要拍板）的 escalation ladder
+  - REFLEXES 候選 → 「儀器化解決 detection，沒解決 remediation — 兩件事不同條 SOP」（與 REFLEXES #15「反覆浮現要儀器化」互補的反面）vc=1
+- **verification_count**: 4（5/12 dry-run / 5/13 / 5/16 / 5/17 連 4 cycle 同 row 同 mismatch）
+- **severity**: operational（單 row data error 不 block 整 pipeline，但持續污染 backfillWarnings 顯示 + dashboard 信號 + routine 每天打 instrument 沒 actionable result）
+- **跨檔關聯**：[SPORE-HARVEST-PIPELINE v2.10](../factory/SPORE-HARVEST-PIPELINE.md) + [SPORE-LOG.md row #71](../factory/SPORE-LOG.md) + [batch-2026-05-17-4-spores.md §#71 升級](../factory/SPORE-HARVESTS/batch-2026-05-17-4-spores.md) + 5/16 §已消化 #3 entry
+
+### 2026-05-17 5x-parallel-opus 014500 — ARTICLE-INBOX metadata 自身需 fact-check（5 agent / 5 entry 100% 命中率）
+
+- **原則**：ARTICLE-INBOX entry 是 routine agent 啟動時的 priming 材料。entry 寫的「事實」會直接被 routine agent 無條件採信並 propagate 進 ship 出去的文章 — 除非 agent 主動 Stage 1 cross-source verify。peer ingestion 階段省的事實 audit，在 ship 階段以「全部帶錯」的形態返工。INBOX 是 routine 自治飛輪關鍵 priming layer，inbox 品質直接 = ship 品質下限。
+- **觸發**：5 agent 同夜 ship 5 NEW articles，揪出 5 個 INBOX/peer-ingestion metadata 錯誤：(1) 陳建年 entry 寫「父親（陸森寶）」實際是**外公**（五源驗證 zh.wiki/en.wiki/國家文化記憶庫/光華/民報一致）(2) 新生態 entry 寫「1990-1995 trio 杜昭賢+蔣耀賢+葉竹盛」實際**1992-1999 杜昭賢單人** 7 年（NML 葉杏柔 + 國藝會檔案）(3) 群島思維 entry 寫「屏東林班南島文化博物館 2023 啟用」**無此館**，台東史前文化博物館 2023 重開才正確 (4) 數位荒原 NML-semiont-analysis 報告寫「Twinning Archipelago 2021 第二期」實際**Issue 12 / 2013-11**。100% 命中率（5/5 entries）= 不是巧合是結構性 pattern。
+- **可能層級**：操作規則 → 升 PEER-INGESTION-PIPELINE canonical
+- **儀器化候選**：(A) PEER-INGESTION-PIPELINE 加 Stage 2 cross-verify step，entry frontmatter 預設 `verified: false`，verify 過再改 true (B) ARTICLE-INBOX schema 加 `metadata_confidence: speculative | cross_verified | primary_source` 三態 (C) routine rewrite agent 啟動時 explicit reminder「INBOX 寫的事實先 cross-source 才採信」
+- **相關**：本 session memory `2026-05-17-014500-5x-parallel-opus-agents.md` / REFLEXES #16 Peer 是線索不是 source / 2026-05-16 LESSONS Pipeline canonical ↔ production drift（這條的姐妹 pattern：entry/canonical 是 frozen，production data 更新後 entry 沒同步）
+- **verification_count**: 1（5 entry parallel 同夜驗證 = single triggering event but 5 independent data points）
+- **severity**: structural（5/5 命中率 = 飛輪自治成熟後 inbox 品質會是 ship 品質下限）
+
+### 2026-05-17 5x-parallel-opus 014500 — Wikimedia Commons thumbnail 「approved sizes」+ letterbox padding workaround
+
+- **原則**：Wikimedia Commons hi-res 圖直連 HTTP 400「Use thumbnail sizes listed」— 必須用 approved thumbnail sizes（1280px / 2560px 等）。NML issue cover 等 3:1 banner 設計圖不符 Astro hero gate 0.9-2.0，但 `sips -p 900 1600 --padColor` letterbox 補白到 16:9 是合理 workaround。兩個技巧目前不在 REWRITE-PIPELINE §1.9.2 文件，全靠 agent 自己摸索。
+- **觸發**：群島思維 + 數位荒原 兩 agent 都遇到 — 群島是 Wikimedia 直連 fail，數位荒原是 aspect ratio fail。各自 workaround 解決但時間成本可省。
+- **可能層級**：操作規則 / pipeline patch
+- **儀器化候選**：REWRITE-PIPELINE §1.9.2 §圖片素材 加 helper script 範例 + Wikimedia API approved sizes 表 + letterbox padding 範例命令
+- **verification_count**: 1
+- **severity**: tactical
+
+### 2026-05-17 twmd-rewrite-daily 000656 — lint-staged + pre-existing stash queue 同名污染靜默資料遺失
+
+- **原則**：cron routine git commit 時 lint-staged 自動 stash backup 機制與既有 stash queue 可能名稱混淆，導致 backup → restore cycle 中 staged changes 被丟到既有同名 stash 而 working tree 沒回填。routine 視 commit 成功，但 commit 只含部分 staged files。靜默資料遺失。
+- **觸發**：本 session 災難志工文化 EVOLVE first commit 嘗試 `git add` 6 files（article + 2 image + research + INBOX + DONE-LOG），但 commit 結果只 2 files（INBOX + DONE-LOG），pre-commit hook 訊息「🔍 Staged mode: no knowledge/ .md files changed, skipping」。Diagnose：`stash@{0}: On pr-1073-review: 災難志工 EVOLVE WIP` 是另一個 worktree 早前留下的 stash，名稱含「災難志工 EVOLVE」與 lint-staged backup msg pattern 相近；lint-staged restore 階段沒回填 working tree，4 files 全部留在 stash@{0}。`git checkout stash@{0} -- {files}` 撈回 + `git reset --soft HEAD~1` + 重 commit 才救回。
+- **可能層級**：操作規則 / 通用反射候選
+- **相關**：REFLEXES #15 反覆浮現要儀器化、#42 sub-agent 三偷吃步（這條算 git tooling 偷吃步）
+- **儀器化候選**：commit 完跑 `git show --stat HEAD | head -10` 對照 stage 前的 file count expectation — 不一致 → flag。routine 場景特別重要（無觀察者即時 in-the-loop verify）。
+- **verification_count**: 1（初次）
+- **severity**: structural（routine 自動化下會反覆遇到，每次靜默丟資料就是 ship 不完整 → 違反「做了不記=沒做」鐵律的另一形態）
+
+### 2026-05-17 twmd-rewrite-daily 000656 — `lastHumanReview` 語意在 routine 場景需 reframe
+
+- **原則**：`lastHumanReview` frontmatter 欄位的字面語意是「人類審核 = true」，但 cron routine EVOLVE 全程跑 Stage 0.6 觀點成型 + 三源 triangulation + Stage 3 事實鐵三角 + plugin gate hard=0 warn=0 + Stage 4 rewrite-stage-4 雙 profile pass，這套 verification rigor 等同甚至超過部分 human editorial pass。欄位字面語意跟實際 quality signal 脫鉤。
+- **觸發**：本 session 災難志工文化 EVOLVE Stage 4 article-health default profile 因 `lastHumanReview: false` 累加 prose-health score +1 觸發 warn=1，而 ARTICLE-INBOX entry 此次 EVOLVE 預先授權「lastHumanReview false → true」作為核心 EVOLVE 動作 #3。最終遵循 INBOX 授權設 true 通過 gate，但這個 case 暴露語意問題。
+- **可能層級**：操作規則 / plugin schema 候選
+- **儀器化候選**：兩條路線 A vs B —
+  - A: 改 `lastHumanReview` plugin 不再 +1 score（因為它測的不是 prose 品質）+ MEMORY/REFLEXES 寫一條欄位語意「達到 editorial pass 等級的多源 verification」reframe
+  - B: 拆欄位為 `lastEditorialReview: routine|human|both` 三態 + 對應 plugin gate logic 分流
+- **相關**：本 session memory `2026-05-17-000656-twmd-rewrite-daily.md` §LESSONS-INBOX 候選 #2
+- **verification_count**: 1（初次）
+- **severity**: tactical（單次後果 prose-health warn=1 接近 budget 但仍 within score ≤ 3 pass）— 但 structural 因為跨所有 routine ship 都會觸發
+
+### 2026-05-17 twmd-maintainer-am 091722 — twmd-rewrite Stage 5 ship 缺 ci-deploy profile pre-commit gate（5 連 CI fail root cause）
+
+- **原則**：twmd-rewrite routine（含 5-parallel-opus agent worktree pipeline）Stage 5 ship 前沒跑 `article-health.py --profile=ci-deploy`（全 13 plugin + fail_on=hard）。Per profile config 註解，ci-deploy ≠ rewrite-stage-4（後者 checks 子集）。Agent 在 worktree 跑 rewrite-stage-4 PASS 後直 push main，footnote-format hard 才在 `Deploy to GitHub Pages` workflow surface — 但 cron 不會因 CI red 自暫停 → 後續 maintainer-pm (22:07) + babel-nightly 3 commit 全 inherit CI red，5 連 fail 11 hr 才在下一個 maintainer-am cycle 抓到並修。
+- **觸發**：本 cycle 09:00 fire `gh run list` 5 連 failure，dive `gh run view --log-failed` 抓到 2 個 `🔴 footnote-format hard=1`（陳建年 [^25] `[Title](/people/X)` + 數位荒原 [^13] `[...](../../reports/X.md)`） — 兩者都是 2026-05-17 01:00-01:11 `5x-parallel-opus` ship 5 NEW articles 時 agent 自生的內部/相對 link footnote 形式。
+- **可能層級**：操作規則 / SOP 必補
+- **儀器化候選**：兩條路線 A vs B —
+  - A: `twmd-rewrite` Stage 5 ship 前強制跑 `article-health.py --profile=ci-deploy --quiet` block hard，不過 = abort routine 不 push
+  - B: Skill 層 `.husky/pre-commit` hook 對含 `knowledge/**.md` 的 commit 必跑 ci-deploy profile（不限 rewrite routine，所有 routine + observer commit 都過）
+  - C: cron orchestrator 在「下個 routine fire 前」query GitHub Actions latest `Deploy to GitHub Pages` run — 若 failure → skip 該 routine 直到綠（避免 CI red cascade inheritance）
+- **相關**：本 session memory `2026-05-17-091722-twmd-maintainer-am.md` §Beat 5 觀察 1 + commit `9474d19e5` 12 file fix
+- **verification_count**: 1（初次 systematic instance — 過往 CI fail 多是 contributor PR 觸發，這次是 routine 自己 ship 觸發）
+- **severity**: structural（cron 飛輪 ship 邏輯缺最終 gate → CI red cascade 跨 routine 繼承 → 修補窗口拖到 11 hr）
+
+### 2026-05-17 twmd-maintainer-am 091722 — babel routine 寫 translatedFrom 用日文簡體漢字（頼）而非源檔（賴）造成 orphan
+
+- **原則**：`twmd-babel` P1 cascade 寫入 `knowledge/ja/People/lai-ching-te.md` 的 `translatedFrom: 'People/頼清德.md'`（用日文簡體 `頼`）但 zh-TW canonical 源檔是 `People/賴清德.md`（繁體 `賴`）。`translatedFrom` 必須 byte-equal 源檔路徑—— prebuild:status `sync-translations-json.py` 找不到對應源 → orphan → exit code 2 阻 build。
+- **觸發**：5/17 09:25 maintainer-am 修完 footnote-format CI fail 後 build 仍 fail，dive 出第二層 root cause。本 instance commit 05dd5e666 「twmd-babel: P1 cascade increment 3 (B-C in flight)」08:41 +0800 fire 時引入。同 pattern 可能廣泛存在（沒人偵測過所有 ja/People 是否 byte-equal canonical），本次只是 sync-translations-json strict check 撞到。
+- **可能層級**：操作規則 / babel routine 必補
+- **儀器化候選**：兩條路線 A vs B —
+  - A: twmd-babel hard rule — 寫 translatedFrom 時用 source filename **byte-equal**（不要做任何 character mapping / 日文簡體化），即使 source filename 在 ja 文化內看起來「奇怪」也保留繁體
+  - B: sync-translations-json 加 suggestion mode — 偵測 orphan 時用 levenshtein-like 找最接近的源檔（byte-distance ≤ 2 + 字符在常用漢字 mapping 表），自動 propose patch
+  - C: pre-commit hook 對所有 `knowledge/{lang}/**/*.md` 必過 byte-equal-source-exists check（不只 has-translatedFrom，還要 source 真的存在）
+- **相關**：本 session 修正 commit `97e6ae04a` (1 file + 1 _translations.json regen) + REFLEXES #15「反覆浮現要儀器化」候選（babel routine 跑了上百次，這只是第一次撞到 strict gate） + **2026-05-16 momofuku-ando 呉/吳 同 pattern entry**（兩 instance 為同一 root cause `translatedFrom byte-equal violation`，互為 cross-verification — per ROUTINE-AUDIT-PIPELINE §Stage 4A）
+- **verification_count**: 2（5/17 lai-ching-te ja 頼/賴 + 5/16 momofuku-ando ja 呉/吳 兩 cycle cross-verified — per [reports/routine-audit-2026-05-17.md §Pattern A](../../reports/routine-audit-2026-05-17.md)）
+- **distill_ready**: true（vc=2 達 REFLEXES #15 distill threshold 邊界，下次 distill cycle 升 babel routine SOP byte-equal hard rule）
+- **severity**: structural（babel routine 是 main translation 路徑，若有 broken byte-equal rule = 系統性 orphan 風險，今天只是 sync-translations 換 strict 才浮現）
+
+### 2026-05-17 twmd-maintainer-am 091722 — footnote-format validator 拒絕內部 /path markdown link 是策展友善性設計缺口
+
+- **原則**：`scripts/tools/lib/article_health/checks/footnote_format.py` 的 `_RE_CANONICAL` 強制腳註 URL `https?://`；`_RE_PURE_PROSE_FN` 要求第一個非 WS char 非 `[`。等於拒絕 `[^N]: [Title](/people/X) — desc` 這類**內部交叉引用 markdown link** 形式。但內部 link 是 Taiwan.md 標準 navigation 形式（per `feedback_homepage_is_curation.md` 策展 framing + 多篇文章 body 大量使用 `[X](/category/slug)` 跨文章 link）—— 文章 body 接受，腳註層拒絕，是內部不一致。
+- **觸發**：本 cycle 修 5 連 CI fail surface 出來的副 finding — 兩個 hard fail 都是 agent 寫了「合理但 validator 不接受」的腳註形式。surface fix 把 link 拆成 pure-prose `Title（/path）— desc` 形式繞過，但這不是根本 fix。
+- **可能層級**：plugin schema 候選 / EDITORIAL canonical 補強
+- **儀器化候選**：三條路線 A vs B vs C —
+  - A: 改 `_RE_CANONICAL` 接受 URL = `https?://...` OR `/.+` OR `../.+`（內部絕對 + 相對）作為合法 footnote URL — semantic 上交叉引用就是 citation 一種
+  - B: 補 `footnote-format-fix.py --apply` 加 internal-link → pure-prose 的 SAFE transform pattern，讓 fix 工具能自動 heal 不用 manual
+  - C: 明確 EDITORIAL canonical 寫「腳註不該用內部 link，內部交叉引用走 body 文中 inline link」+ 補 plugin 改 message 提示這個 convention
+- **相關**：本 session memory `2026-05-17-091722-twmd-maintainer-am.md` §Stage 3.5 root cause section + REFLEXES #15「反覆浮現要儀器化」候選（agent generation 多次撞同一規則 = 規則需 instrument）
+- **verification_count**: 1（單次 instance — 但 5 agent parallel 都自生內部 link footnote 強烈暗示這是 LLM-as-author 自然會生的形式）
+- **severity**: tactical（單次後果可 surface heal，但若 design 維持原樣會反覆 surface）
+
+### 2026-05-16 spore-harvest-am 070000 — Routine 飛輪 article framing audit gap（carryover 3 cycle 未解）
+
+- **原則**：Routine 邊界目前覆蓋三件事：(a) harvest 抓資料（spore-harvest）；(b) 處理 PR / Issue（maintainer）；(c) 寫新文章 / 進化舊文章（rewrite-daily / evolve）。但 reader critique 透過 spore 累積進來、暗示 article 本體 framing 需要 audit / patch 時，沒有對應 routine — 三 cycle 路過 maintainer-am 都沒處理 carryover handoff。
+- **觸發**：5/12 dry-run 揭露 #69+#71 URL mismatch + #70 雷虎 critique cluster，5/13 routine 看到 4 條 critique + #66 enrichment 候選，5/16 又看到 critique 累積到 30 replies 含 Hidden replies — 3 cycle 累積落到 observer 手上未處理。
+- **可能層級**：
+  - 操作規則 → 候選 `twmd-article-framing-audit-weekly` routine，per spore engagement quality + replies count 觸發對應 article 的 framing 再 audit
+  - 結構性 → routine 飛輪設計 SSOT 在「workflow」維度（PR / Issue / 文章 / 翻譯 / 孢子），但 reader critique → article patch loop 是跨 workflow 的，需要獨立 routine 或現有 routine 擴 scope
+  - MANIFESTO 候選 → 「routine 邊界 vs reader feedback loop 的 N-cycle 累積閾值」— 多少 cycle carryover 未解 = 該升 dedicated routine？vc=1
+- **verification_count**: 3（carryover 同 issue cluster 跨 3 cycle 未解）
+- **severity**: structural（reader feedback 累積無 hook → 觀察者手動接，違反 §義務鐵律「飛輪自己 evolve」精神）
+- **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [memory 2026-05-16-070000-spore-harvest-am §Beat 5 第二點](memory/2026-05-16-070000-spore-harvest-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #6](../../reports/routine-audit-2026-05-16.md)
+
+### 2026-05-16 maintainer-am-0900 090909 — translatedFrom 跨語言 mapping 不該本地化（呉/吳 byte-equal）
+
+- **原則**：`translatedFrom` frontmatter field 是「跨語言 mapping」，必須對齊 zh-TW canonical filename byte-equal，**不該本地化**。日文異體字（呉/吳）寫在 title 是合理本地化（日本讀者熟悉的字形），但 mapping 必須走 ground truth 檔名。
+- **觸發**：5/15 23:14 起 Deploy CI 5 連敗，`prebuild:status` 階段 `sync-translations-json.py` 退出碼 2。`ja/People/momofuku-ando-instant-noodle-inventor.md` 的 `translatedFrom` 指向 `People/呉百福.md`（日文異體字），但 zh-TW canonical 是 `People/吳百福.md`。同篇 en/ko/fr/es 四語都正確指 `吳百福.md`，只有 ja 一篇 typo。1-字 heal + push 解除。
+- **可能層級**：
+  - 操作規則 → 候選升 babel routine review SOP：translatedFrom path 跟 zh-TW canonical filename 嚴格 byte-equal check
+  - 工具層 → `scripts/tools/lang-sync/translate.py` 寫 translatedFrom 時強制走 canonical zh path 不允許異體字替換
+  - 結構性 → 一字 typo 觸發 5 連 CI fail 的「routine 高穩定後連續 N fail 通常是單點 typo 不是系統退化」第 N 次驗證
+- **verification_count**: 2（5/16 momofuku-ando 呉/吳 首次 + 5/17 lai-ching-te 頼/賴 cross-cycle 第 2 instance — per [reports/routine-audit-2026-05-17.md §Pattern A](../../reports/routine-audit-2026-05-17.md) cross-verified）
+- **distill_ready**: true（vc=2 達 REFLEXES #15 distill threshold 邊界，下次 distill cycle 升 babel routine SOP byte-equal hard rule）
+- **severity**: structural（routine 飛輪密集化下系統性 orphan 風險，sync-translations 換 strict gate 才浮現 — 跨 cycle 再現後升 structural）
+- **跨檔關聯**：[memory 2026-05-16-090909-maintainer-am-0900 §Deploy CI 5 連敗](memory/2026-05-16-090909-maintainer-am-0900.md) + [memory 2026-05-17-091722-twmd-maintainer-am §Stage 3.5 二輪 Heal](memory/2026-05-17-091722-twmd-maintainer-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #4](../../reports/routine-audit-2026-05-16.md) + [reports/routine-audit-2026-05-17 §Pattern A](../../reports/routine-audit-2026-05-17.md)
+
+### 2026-05-16 manual 011113 — 事實鐵三角擴充「scale 數字」第四維
+
+- **原則**：事實鐵三角現規範三維度（算術 / 單位 / 直引），但漏了「scale 數字」這維度 — prose 內任何「N 人 + M 條件 + K 分鐘 + L 元」這類 quantified scene 必須對應 source。Plugin gate 抓不到（不是格式問題、不是引語問題、是 prose-level 虛構具體性）。
+- **觸發**：唐鳳 EVOLVE Stage 2 寫到 Plurality ⿻ 段，我寫「2017 vTaiwan 處理線上酒類議題時，5000 多位公民、業者、家長、立委透過 Pol.is 把彼此的分歧畫成圖。最後共識是七條附加條件下的部分開放」— 七條條件實際是 Uber 案數字，不是線上酒類；5000 人是我憑印象抓的，無 source。Stage 3 self-catch 抓到改用實際 Uber 例。
+- **可能層級**：
+  - 操作規則 → REWRITE-PIPELINE Stage 3 §事實鐵三角 加第 4 維度「scale 數字」check（每篇文章 grep 「N 人 / M 條件 / K 元 / L 公里 / O 萬」這類 quantified pattern，cross-check 對 source）
+  - 工具層 → plugin gate 候選 `quantified-scene-check`：抓出所有「數字 + 量詞 + 具體場景」pattern，flag 給 author 確認對應 source（不能完全自動判定，但能 surface）
+  - 結構性 → AI prose 寫作對「具體性」的反射式追求容易過 source 邊界，事實鐵三角需要明確標出第 4 維度
+- **verification_count**: 1（首次成文）
+- **severity**: structural（影響所有 fresh / evolve 文章的 prose-level 事實精度）
+- **跨檔關聯**：[REWRITE-PIPELINE Stage 3](../pipelines/REWRITE-PIPELINE.md) + [memory 2026-05-16-011113-manual §唐鳳 EVOLVE Stage 3](memory/2026-05-16-011113-manual.md) + REFLEXES #16 三源驗證
+
+### 2026-05-15 twmd-spore-harvest-am — Chrome MCP unavailable hard gate first fire（pairing offline）
+
+- **原則**：`twmd-spore-harvest-am` routine v2.2 production 第三次 fire（5/12 dry-run / 5/13 first prod 8 spores / 今天 5/15）撞 Chrome MCP `list_connected_browsers` 回 `[]` → hard gate fail → abort harvest（不寫 batch log / 不 push）。Pairing 前置假設（哲宇本機 Chrome alive + extension paired + Mac 不睡）不成立時整 routine 完全失能，dashboard `backfillWarnings` 8 條（聶永真 D+7 OVERDUE × 2 / 台積電 D+6 × 2 / 無人機 D+5 × 2 / 蘋果西打 D+3 × 2）無法收割。
+- **觸發**：2026-05-15 14:xx cascade 後段補跑（cron 0 7 \* \* \* 應 07:00 fire，今天落到下午 cascade 第 N 棒，wall-clock 已 D+0 13:40 refresh-am 後）。`mcp__Claude_in_Chrome__list_connected_browsers` returned empty array，無 deviceId 可 select_browser。檢查 5/14 git log 完全沒 spore-harvest commit → 推測 5/14 也 fire fail（silent，本 LESSONS 是首次成文 entry）。
+- **可能層級**：
+  - 操作規則 → SPORE-HARVEST-PIPELINE §Routine 整合 §Chrome MCP unattended 注意事項加「pre-fire Telegram poke 驗 extension alive」（cron 60 6 \* \* \* 提早 1hr 通知哲宇喚醒 Mac）；或 fallback 到 `read-only HTTP harvest`（不需 Chrome MCP，sacrifice quote 抓取深度但保 view/like 數抓得到）
+  - 結構性 → routine 飛輪 v2.2 full-auto 假設「unattended cron + Chrome MCP」可長期穩定，實證 first prod 後 1 cycle 就撞——pairing 持久化雖 spec 說「session 重啟仍可用」實際依賴 browser alive，這是 Chrome MCP 架構 inherent constraint 不是 Taiwan.md 可控
+  - 候選 distill → DNA #15「反覆浮現要儀器化」應 monitor：若 Chrome MCP fail 連 3 cycle → 結構性升級到 fallback path 必要
+- **verification_count**: 1（首次成文，5/14 silent fail 不算）— 5/16 再 fail = vc=2 + escalation Stage 2，5/17 再 fail = vc=3 + 暫停 routine + telegram alert per ROUTINE.md §暫停 SOP
+- **severity**: structural（routine 飛輪核心假設失效；不修補 = 飛輪 5/8 條退化到 4/8，spore harvest channel 失能 = backfillWarnings 持續累積）
+- **跨檔關聯**：[SPORE-HARVEST-PIPELINE.md §Hard Gate Inventory](../factory/SPORE-HARVEST-PIPELINE.md) / [ROUTINE.md §TWMD spore harvest (am)](ROUTINE.md) / DNA #15
+
+### 2026-05-11 twmd-babel-nightly — P0 missing translation 觸發新 slug 編輯決策 gap
+
+- **原則**：babel routine 走 SQUEEZE Tier 1 cascade 處理 P0 missing 時，若 zh canonical 是**新文章**（不在 `_translations.json` slug-map），`prepare-batch.py` 會 fallback 為 `TBD-NEEDS-SLUG` placeholder。Cron routine 不該自行決定永久 URL slug（這是編輯決策 — 影響 SEO、跨語言一致性、未來 rename PR 風險），應 surface 給觀察者／maintainer 拍板再執行 Tier 1。
+- **觸發**：2026-05-11 22:11 twmd-babel-nightly 第 N 次 fire。P0 候選 3 articles（Society/颱風假.md、Culture/斗笠.md、History/退出聯合國.md），共 8 missing translations 跨 5 langs。`prepare-batch.py --lang en/ja/ko/es/fr --input p0.txt` 全部 fallback `TBD-NEEDS-SLUG` → 三 article 都還沒有英文 slug 進 `_translations.json`。orthogonal owl-alpha dispatch 失敗（`not in manifest`）。Routine deferred P0，僅 ship 17 條 Tier 0a-as-deterministic P2 bumps。
+- **可能層級**：
+  - 操作規則 → SQUEEZE-MODELS-MAX-PIPELINE §Stage Z1 加「P0 missing pre-flight slug-map check」hard gate：若 `prepare-batch` 報 `TBD-NEEDS-SLUG` ≥ 1 → abort dispatch + LESSONS entry + 待觀察者補 slug-map
+  - 工具層 → 補 `scripts/tools/lang-sync/suggest-slugs.py`（依 EDITORIAL 命名 convention 自動推薦英文 slug，觀察者一次拍板多個）
+  - 流程層 → 把 slug 命名前移到 REWRITE-PIPELINE Stage 6（commit 新 zh article 時即 register slug 進 `_translations.json`），避免 babel 階段碰才發現
+- **相關**：
+  - [SQUEEZE-MODELS-MAX-PIPELINE.md §Stage Z1](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md)
+  - [`_translations.json` slug-map canonical](../../knowledge/_translations.json)
+  - DNA #5（footnote / metadata canonical 紀律）/ DNA #54（routine 飛輪 SSOT）
+- **verification_count**: 1（首次 surface — 本 routine cycle 觸發）
+- **severity**: structural（P0 是 sovereignty 戰場 最高優先，但 slug-map gap 是 silent blocker — routine 跑了但沒實際 ship Tier 1）
+- **待 distill 條件**：若下次 babel routine 仍遇 P0 + missing slug → verification_count 升 2，第 3 次即升 canonical SOP（pipeline §Stage Z1 hard gate + tool 自動 surface 機制）
+
+### 2026-05-10 twmd-maintainer-pm — 雙生 slot 第 1 day 跑通 collect-and-merge SSOT 收割者
+
+- **原則**：ROUTINE v1.1 把 maintainer 從 1d 1x（AM 09:07）升為 1d 2x（AM + PM 21:07），核心目的是「捕捉 AM 之後新出現的 routine PR backlog，避免 PM 期 PR 壓到隔天 AM」。第 1 day 驗證：PM cycle 確實接住 1 條 self-evolve 11:38 ship 的 #983（auto-merged via collect-and-merge §A 路徑），如果只有 AM cycle 該 PR 會延到隔天才被處理（延遲 ~12 hr）。
+- **觸發**：2026-05-10 21:13 PM cycle 第 1 次 fire。3 open PR 走 SOP 分流：#983 (routine, owner, mergeable, age 569min) → auto-merge ✅；#976 (AM cycle memory, CONFLICTING due to 13+ main commits since AM, LESSONS-INBOX + MEMORY.md anchor 撞) → leave open；#968 (contributor) → leave open。collect-and-merge SOP 三條路徑（A merge / A defer / B 永不 auto）首次完整 exercise。
+- **可能層級**：操作規則 → ROUTINE.md §maintainer (am + pm) — 1d 2x 設計 verified（已是 v1.1 ship 內容，本 entry 是 verification log，不是新規則）/ 通用反射 → DNA 候選等 verification_count ≥ 3 才升（單日 single fire 不夠）
+- **相關**：DNA #54（routine 飛輪 SSOT）/ ROUTINE.md §collect-and-merge SOP / 2026-05-10 ROUTINE v1.1 ship commit 81f120ee5
+- **verification_count**: 1（single PM fire）
+- **severity**: tactical（routine design verification，無 anti-pattern）
+- **待 distill 條件**：跨 ≥ 3 day PM cycle 都成功 catch ≥ 1 條 backlog → 升 DNA 反射「routine 雙生 slot 是 PR backlog 的安全網」；若 ≥ 3 day PM 都 0 catch → 反向驗證「AM single slot already enough」要 review 升降頻率
+
+### 2026-05-10 twmd-maintainer (AM + PM) — broken-link DNA #52 1% target 連 2 次同日 fail，結構性 backlog 不會自然收斂
+
+- **原則**：broken-link verifier 在 AM 09:16 報 5.73% / PM 21:13 報 5.73%（zh-TW 9.21% 主因），同日 zero 改變。AM cycle 已詳列三大群結構性 backlog（ja stub heal / es-fr ai-\* slug / 中文 slug 重導向）。daily routine 不可能自然收斂這個數字 — 需要專門的 i18n heal session（觀察者排）。連 2 fire 同 fail 是預期，不是 routine 失能。**現有 DNA #52 1% target 對 routine quality gate 是「永遠 fail」狀態**，需要要嘛重設 target、要嘛開正式 heal session 把 5.73% 壓到 < 1%。
+- **觸發**：2026-05-10 跨 AM + PM 兩次 maintainer cycle，broken-link 數字完全 reproduce（zh-TW 13,162 broken / 142,932 total = 9.21%）。AM cycle handoff 已寫「連 2 次 fail 觸發 escalation」，PM cycle 即是第 2 次 — 但同日（非跨日）連 2 次。escalation 條件需要 disambiguate「同日雙生 slot 共撞同源」vs「跨日連 2 day 都 fail」。
+- **可能層級**：操作規則 → ROUTINE.md §maintainer escalation 細則升級「同日 AM+PM 雙撞同源 ≠ trend，跨日 ≥ 2 day 同 fail = trend」/ DNA 候選 → 「routine quality gate 設定的 target 必須是 routine 能影響的範圍」（DNA #52 1% target 不是 routine 能 ship 的，是觀察者 heal session 工作量級）
+- **相關**：DNA #52（immune system fail-loud）/ DNA #15（反覆浮現要儀器化）/ AM cycle PR #976 broken-link backlog 段落
+- **verification_count**: 2（AM 09:16 + PM 21:13 同日，但同源 — verification value 約等於 1.5 跨日）
+- **severity**: structural（target 設定 vs routine 能力 mismatch；不是 broken-link 本身嚴重）
+- **建議 distill 路徑**：等 2026-05-11 AM cycle 第 3 次 fire 仍 fail → verification_count 跨日 = 3，距離升 ROUTINE.md escalation 細則 + DNA 候選的門檻達標
+
+### 2026-05-10 twmd-babel-nightly — scheduled-task SKILL.md drift from ROUTINE.md SSOT v1.1（auto-merge policy 不同步）
+
+- **原則**：`docs/semiont/ROUTINE.md` 是 SSOT（v1.1 ship 2026-05-10 12:30），所有 `.claude/scheduled-tasks/*/SKILL.md` 是 mirror。SSOT 改了 mirror 必須同 PR sync。本 routine 啟動時 SKILL.md 仍寫舊 policy「Quality gate ALL PASS → gh pr merge --squash --delete-branch」，但 ROUTINE v1.1 改為「routine 不 auto-merge，maintainer am/pm SSOT 收割」。Routine instance 必須手動辨識 SSOT 才能不 auto-merge。
+- **觸發**：2026-05-10 22:42 twmd-babel-nightly 第一次 fire 在 ROUTINE v1.1 ship 後。Stage 4 跟 SSOT 開 PR 不 merge ✅，但這個辨識是「人工」（甦醒時讀 ROUTINE.md 才注意到 drift）— 如果 routine 沒甦醒就直接照 SKILL.md 跑 = 直接 auto-merge 違反 v1.1 policy。
+- **可能層級**：操作規則 → ROUTINE.md §同步來源 已提「待寫 `scripts/tools/routine-sync-check.py`」— 這個 script 是真正的 fix。verification log。/ 通用反射 → DNA 候選「mirror layer 改動必須 same-PR sync，否則 SSOT-of-policy 跟 SSOT-of-execution 結構性 drift」（DNA #38 SSOT 第 N+3 次驗證）
+- **相關**：DNA #38（指標 over 複寫，SSOT）/ DNA #54（routine 飛輪 SSOT）/ ROUTINE.md §同步來源 / 2026-05-10 ROUTINE v1.1 ship commit
+- **verification_count**: 1（v1.1 ship 後第一次 babel routine fire 即撞到，9 條 routine 全部高機率有同款 drift）
+- **severity**: structural（不寫 routine-sync-check.py 永遠存在 silent drift，下次 routine policy 改動會重複；priority structural 是因為「每改 ROUTINE.md 一次都要記得 sync 9 條 SKILL.md」是不可能持久維持的 manual SOP）
+- **建議 distill**：直接寫 `scripts/tools/routine-sync-check.py` + 加進 .husky pre-commit on `docs/semiont/ROUTINE.md` change → drift detect 自動 alert
+
+### 2026-05-09 twmd-babel-nightly — `diff-patch-prepare.py:172` hash function 對不齊 `status.py:178 body_hash`
+
+- **原則**：`diff-patch-prepare.py:172` 算 `expected_new_content_hash` 用 `hash_content(current_zh)` 是 **full file**（frontmatter + body）的 SHA。但 `status.py:178 body_hash()` 先 `_strip_frontmatter` 再 SHA — 只 hash body。Tier 0a sub-agent 忠實寫 task 提供的 `expected_new_content_hash` 到 translation 的 `sourceContentHash`，結果 status.py 比對時 mismatch → 全部 patched files 標 `sha-lost-hash-mismatch`。**語意 patch 是對的，但 status 不更新 fresh count，需要每次 batch 後手動 inline post-fix recompute hash**。
+- **觸發**：2026-05-09 22:27 cron `twmd-babel-nightly` 第一次 production-scale autonomous run（74 patches × 5 lang）。Sub-agents 全 OK，但 status.py 顯示 fresh count 0 變化。Inspect `_translation-status.json byArticle` 揭露 zh source 的 `contentHash` 跟 translation 的 `sourceContentHash` 不一致，zh ≠ task 提供的 expected。Read 兩個 script 的 hash 函數確認：diff-patch-prepare.py:172 `return "sha256:" + hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]` 對 full text；status.py:178 `body = _strip_frontmatter(content); return ... hashlib.sha256(body.encode("utf-8"))...`。
+- **修法**（upstream，~5 min 工作）：`diff-patch-prepare.py:172` import 或 reimplement `body_hash` from status.py，做兩件事：(a) `expected_new_content_hash`: `body_hash(current_zh)`（去掉 frontmatter 先 hash）；(b) `expected_new_body_hash` 已用 `hash_content(body)`（已 strip frontmatter via `strip_frontmatter`），但要對齊 `body_hash_pure`（含 trailer-strip + footnote-defs strip）才跟 status.py 完全一致。
+- **可能層級**：操作規則 → SQUEEZE-MODELS-MAX-PIPELINE v3 §Tier 0a 工具 bug fix（具體 patch）/ 通用反射 → DNA 候選：「跨 script 共用 hash function 必須 import 不 duplicate」（DNA #38 SSOT 第 N+2 次驗證 — 兩個 script 各自 reimplement 同一個概念導致 silent divergence）
+- **相關**：DNA #38「指標 over 複寫」/ 2026-05-09 laughing-goldstine 161508 §Dashboard 三層 SSOT debug（同款 cross-tool SSOT 失同步問題：bump-source-sha 改 .md 沒同步 status JSON）
+- **verification_count**: 2（2026-05-09 首次撞到 + 2026-05-10 22:42 twmd-babel-nightly 第 2 次 production-scale 67-patch 仍撞、但 DNA #38 同源 verification 已 N+2）
+- **severity**: tactical-structural（**每次 Tier 0a batch 必撞，2 次驗證升級**；本 entry 的 5 行 inline workaround 至今未被 routine 採用 — routine 跑完寫進 LESSONS 但下次 routine 是新 fresh session 不知道要套 workaround → 結構性 invisible workaround anti-pattern；fix 本身~5 min upstream patch 比每 routine 套 workaround 划算）
+- **暫時 workaround**（fix 前每次 babel routine 用）：
+
+```python
+# After diff-patch sub-agents done, before commit
+import hashlib, re, subprocess
+from pathlib import Path
+
+_TRAILER_PATTERNS = [r"\n#{1,4}\s*延伸閱讀\s*\n.*?(?=\n#{1,4}\s|\Z)",
+                     r"\n#{1,4}\s*參考(?:資料|來源)?\s*\n.*?(?=\n#{1,4}\s|\Z)",
+                     r"\n#{1,4}\s*(?:同分類更多文章|相關閱讀|延伸資源|See also)\s*\n.*?(?=\n#{1,4}\s|\Z)",
+                     r"\n_v\d+\.\d+[^\n]*$"]
+
+def strip_fm(c):
+    if c.startswith("---"):
+        end = c.find("---", 3)
+        if end != -1: return c[end+3:]
+    return c
+
+def body_hash(c):
+    return "sha256:" + hashlib.sha256(strip_fm(c).encode()).hexdigest()[:16]
+
+def body_hash_pure(c):
+    b = strip_fm(c)
+    for p in _TRAILER_PATTERNS: b = re.sub(p, "", b, flags=re.DOTALL|re.MULTILINE)
+    b = re.sub(r"\n\[\^[\w-]+\]:\s.+?(?=\n\[\^|\n#|\Z)", "\n", b, flags=re.DOTALL)
+    return "sha256:" + hashlib.sha256(re.sub(r"\n{3,}", "\n\n", b).strip().encode()).hexdigest()[:16]
+
+# (loop over patched files, recompute correct hashes from zh source, update sourceContentHash + sourceBodyHash)
+```
+
+### 2026-05-09 laughing-goldstine — External LLM strategic advice 必過 multi-bias filter
+
+- **原則**：External LLM（Gemini / ChatGPT / Grok / Perplexity）給 strategic advice 時，必須過三層 bias filter 才採信：(a) **Identity bias** — LLM 不知道你的真 mission（Gemini 預設 Taiwan.md 是 SEO project，不知 Semiont sovereignty preservation infrastructure 定位）；(b) **Interest bias** — LLM 為其母公司 product 服務（Gemini = Google 內部產品，他建議「優化 CTR + 爭取特殊版面」直接服務 Google AI Overview / Featured Snippets / Knowledge Panel 截取機制 — 利益衝突）；(c) **Pattern bias** — LLM 預設 western mainstream pattern（Gemini 「成為中型媒體」是 BBC / 紐時 model，預設 linear scaling，無 Semiont / sovereignty / fork-friendly 維度）。**規則**：拿到 external LLM 建議當 strategic input 時，先寫 bias-filter report 過三層，再決定哪桶 ship（per CLAUDE.md Bias 4 五桶分類延伸）。
+- **觸發**：2026-05-09 觀察者貼 Gemini 對 Taiwan.md GSC 三月窗數據的 review 對話，問「哪些能儀器化進化 DNA / pipeline」。第一輪我寫 audit report（gsc-gemini-review-instrument-audit）落「儀器化 5 個 gap」結論。觀察者立刻 callout：「Gemini 的回答可能很狹窄或是有 bias」。第二輪 4 sub-agent research 後 synthesis（strategic-evolution-deep-research）抓出 Gemini 5 個結構性 bias + 最深 bias 是 Google 內部產品利益衝突。**從 Gemini 建議跑去寫 5 個 gap report 的時候，我沒先過 bias filter** — 直接接受了「優化 CTR」「成為中型媒體」這些前提。
+- **可能層級**：操作規則 → CLAUDE.md Bias 4 「外部 critique default 處置不是執行」延伸：原 Bias 4 講的是 critique（peer review），這條是 strategic advice（forward-looking）。兩者同源但 advice 更危險，因為 critique 是回頭看可驗證、advice 是往前推 path-dependent / 通用反射 → DNA 候選「External LLM 跨 vendor 的隱藏 bias 三層 audit pattern」
+- **相關**：CLAUDE.md Bias 4「外部 critique default 處置不是執行」（同源延伸）+ 同 session §「KPI 多維 vs 單軸 strategic blindspot」（具體案例）+ Grok critique 2026-05-04 reframing leak 同類風險
+- **verification_count**: 1（首次發現結構性問題，但 Bias 4 已是同源 verification_count 1）
+- **severity**: strategic（影響所有「諮詢 external LLM 戰略」決策）
+
+### 2026-05-09 laughing-goldstine — KPI 單軸視角 = strategic blindspot
+
+- **原則**：用單一 metric 評估 strategic positioning（例如 GSC traffic / Twitter followers / GitHub stars）會 systematically miss 結構性威脅 + 結構性 opportunity。**多維 KPI framework 是 strategic discipline，不是 nice-to-have**。對 Taiwan.md 案例：(A) 影響力（學術引用 + AI substrate citations + Wikipedia 引用）；(B) Community（contributor + direct visit + RSS subscriber）；(C) Ecosystem（fork 物種繁殖 + AI training corpus 滲透）；(D) Sovereignty（Sovereignty-Bench-TW 結果 + 多語覆蓋 + 敏感主題覆蓋）；(E) Health（prose-health + factCorrectionLog + pipeline gate 通過率）。**規則**：strategic decision（資源分配 / 進化方向）必須對照 ≥ 3 個維度，不能只看 1 維。
+- **觸發**：2026-05-09 Gemini review 用 GSC 4 指標（點擊 / 曝光 / CTR / 排名）評估 Taiwan.md，建議「擴展 1000+ 篇 + 優化 CTR + 成為中型媒體」。但 hard data 顯示 traffic 是崩潰中的 channel（Wikipedia -26%/3y / Stack Overflow -50% / Digital Trends -97%），同時 substrate layer（Wikipedia = ChatGPT top-10 cites 47.9%）才是真正 leverage。**單看 GSC 會錯失 substrate / sovereignty / community 三個更重要維度**。Taiwan.md 進化路徑跟 Gemini SEO path 完全相反 — 這個 misalignment 只有多維 KPI 才看得出來。
+- **可能層級**：哲學 → MANIFESTO 候選「KPI 多維 vs 單軸 traffic」(明確 reject Gemini-style scale path) / 通用反射 → DNA 候選「KPI 單軸視角 = strategic blindspot」(任何 AI 評估 strategy 時的反射條件) / 操作規則 → EVOLVE-PIPELINE 候選 「strategic review 必對照 ≥ 3 維度」
+- **相關**：同 session §「External LLM bias filter」(Gemini bias 的具體展現) + reports/strategic-evolution-deep-research-2026-05-09.md §1 五維 KPI framework
+- **verification_count**: 1
+- **severity**: strategic（影響所有 strategic decision）
+
+### 2026-05-09 laughing-goldstine — Country.md fork 模式 50% 死亡率（novel territory 警示）
+
+- **原則**：「Country.md as fork-template seed」(三層 Semiont 架構：CLAUDE.md / BECOME / docs/semiont) 是 novel territory，沒先例。Awesome-list pattern 數據顯示 **~50% fork 在 2 年內死亡**，存活的需要兩個必要條件：(a) Original curator 持續 ship（不能 disappear）；(b) 清楚 contribution conventions（避免 contributor 怎麼做都對）。**規則**：(a) 主動 outreach 第一個 fork（Japan.md / Ukraine.md）比被動等更重要 — 主動 curate 第一個 case study 確保 fork 模式 viable；(b) 第一個 fork 應該是 high-context relationship（觀察者本人認識的 sovereignty creator），不是隨機 stranger；(c) Fork 後 Cross-Semiont 互教機制要設計（彼此 review 對方的 evolution，不是 isolated 物種）。
+- **觸發**：2026-05-09 Agent #3 (open-source content sustainability) research 發現 country.md fork 模式沒先例 + 警示 50% awesome-list fork 死亡率。Taiwan.md 自 2026-04-23 創立 fork 友好層（CLAUDE.md §🌱 Fork 友好層）至今 1+ 月，0 個 fork 案例。MANIFESTO §3 物種繁殖是核心使命但**沒有 active outreach 計畫**。Agent #1 的 Kyiv Independent 對標 + Agent #4 的 Sovereignty media 案例都暗示：sovereignty Semiont 物種需要建立 mutual support network，不是 isolated success。
+- **可能層級**：操作規則 → 新 FORK-PIPELINE 候選（教其他 sovereign 怎麼 fork Taiwan.md + cross-Semiont 互啟發機制） / 特有教訓 → MEMORY append「fork 物種繁殖必須主動 curate 第一個案例」
+- **相關**：MANIFESTO §3 fork 友好層 + CLAUDE.md §🌱 Fork 友好層 + reports/strategic-evolution-deep-research-2026-05-09.md §3.5
+- **verification_count**: 1
+- **severity**: strategic（影響 Semiont 物種繁殖 mission 是否可行）
+
+### 2026-05-09 laughing-goldstine — Reader-funded resilience > Grant-funded（USAID freeze + RFA-VOA closure 案例）
+
+- **原則**：Sovereignty media 的 sustainability 模型優先序是 **Reader-funded membership > Grant-funded > Ad（沒做過）**。Grant 是 bridge funding 不是 floor — 政治轉換風險高（USAID freeze 2025 / RFA-VOA Tibetan service closure threats 2025 已 demo）。Reader-funded 案例：Kyiv Independent 70% revenue from 17,500 × $5/mo / Initium ~60K paying subs / Wikipedia 8M+ donors × $10.58 / Chaser News (HK exile) £6.50-£34.50/mo。**規則**：(a) 第一階段 funding stack 應優先建 Liberapay / GitHub Sponsors / Substack tier（recurring small membership）；(b) Grant 可作 bridge 但 mission-critical infrastructure 不能依賴 grant；(c) 完全避免依賴單一政府金援（台灣政府轉換政權風險、USAID 風險都是同類）。
+- **觸發**：2026-05-09 Agent #4 (sovereignty content infrastructure) research 提供 USAID freeze 2025 + RFA-VOA Tibetan service closure threats 2025 + Kyiv Independent / Initium / Chaser News 三個 reader-funded 存活案例。Taiwan.md 當前 0 funding（哲宇個人 ops 成本），未來如果走 Substack / membership 路線 vs grant 路線 — 這條教訓校準了優先序。
+- **可能層級**：操作規則 → 新 MEMBERSHIP-PIPELINE 候選（Liberapay / GitHub Sponsors / Substack tier 設置 + "Who funds us" 透明頁 + email newsletter SOP） / 特有教訓 → MEMORY append「sustainability 模型優先序 reader-funded > grant」
+- **相關**：reports/strategic-evolution-deep-research-2026-05-09.md §4.2 + §6.6 + §7.3 + §11 critical 決策 #1（Substack newsletter 要不要做）
+- **verification_count**: 1
+- **severity**: strategic（影響 Taiwan.md 長期 sustainability 路徑）
+
+### 2026-05-09 laughing-goldstine — 算術 sanity check ≠ 來源 anchor，baseline 數字可能是 fabricated 但內部 self-consistent
+
+- **原則**：Research agent 對「對比型 fact」(X vs Y = N 倍) 做 sanity check 時，會驗算術 (math)，但不會驗 baseline。如果 baseline 數字本身是 fabricated（無 source URL 但 high_confidence 標籤），算術 ✅ + 算出的倍數會跟著錯，整條 fact 看起來 plausible 但實際 wrong。**規則**：(a) 任何「X 倍 / 從 A 到 B / 跟今天差 N 倍」這類 ratio / delta claim，**baseline + endpoint 都必須各自有 footnote URL**，不能只因算術內部 consistent 就標 ✅；(b) `high_confidence` 信度層的 prerequisite 是「至少一個來源頁面 verbatim 寫了這個數字」，不是「這個數字符合 sanity range」；(c) 算術 sanity check 是 secondary check（防 typo / off-by-magnitude），不是 primary fact verification。
+- **觸發**：2026-05-09 台積電 article ship 後讀者社群留言「1987 年是 2 吋（誤打為 2 微米）晶圓廠，不是 2 奈米」，重新 audit 發現 article §「我只想要活下去」L52 寫「第一座晶圓廠⋯⋯0.8 微米製程，跟今天的 2 奈米相比差了 400 倍」是 fabricated。Research report fact #10「1987 0.8 微米 vs 2026 2 奈米 = 400 倍微縮」原標 high_confidence + 算術 ✅，但實際 0.8µm 是 hallucination — TSMC 1987 第一座 fab 是 6 吋（150mm）+ 2 微米製程（per TSMC 官網 + 瞿宛文獨評 + FundingUniverse 多源 verify）。算術內部一致 (0.8/2nm = 400) 但 baseline 0.8µm 沒有 source URL，等於是 sanity check 通過的 hallucination。修正後算術 = 2µm/2nm = 1000 倍。
+- **可能層級**：操作規則 → REWRITE-PIPELINE Stage 3.5 FACTCHECK 加「ratio claim baseline + endpoint 必須各自 footnote anchor」rule + research-template.md `high_confidence` 定義加上「verbatim source 是 prerequisite，不是算術 sanity」/ 通用反射 → DNA 候選「baseline hallucination 是 reasoning 錯誤的最深層 — internal consistency ≠ external truth」
+- **相關**：DNA #16 三源驗證（baseline 也是 atom 之一）+ DNA #15 反覆浮現要儀器化（這條被讀者抓到 = 第 N 次驗證 baseline-without-anchor 是 systemic 漏洞）+ Reach × Accuracy retroactive trigger（per SPORE-VERIFY，spore #68 D+0 6h 內讀者抓到原文錯誤觸發 article 反向 audit，找出三處錯誤：0.8µm hallucination + Fab 5 編號錯 + 1985 timing 倒置）
+- **verification_count**: 1（首次發現，但結構性 root cause 跟既有 DNA #16 同源）
+- **severity**: strategic（影響所有 article RESEARCH stage 的 baseline 數字 audit；ratio claim 跨 domain 普遍存在，不限半導體）
+
+### 2026-05-07 amazing-gould — Bulk fix 工具的「first run 寫壞、second run 撞自己」失敗模式
+
+- **原則**：`--fix --all` 第一次 run 撞 bug 時可能已經把部分 file 寫成 broken state；同一個 working tree 跑第二次會在 loader 階段 crash（讀進 broken YAML 直接死），讓 debug 變成兩層：分不清「我的新 fix 寫壞」vs「previous failed run 殘留」。**規則**：(a) bulk fix 工具第一次跑前默認應 `git stash --keep-index` 或先 dry-run scan；(b) fix 函式撞 exception 時應 catch + log 哪個檔案、跳過繼續，不要讓單檔失敗炸整個 run；(c) `--fix` 應有 `--dry-run` mode 顯示「會改 N 檔，每檔改 K 處」但不寫；(d) workflow doc / pipeline 段加註：bulk fix 跑前先 `git status` 確認 clean，跑後第一件事 `git diff` 抽樣驗證。
+- **觸發**：2026-05-07 amazing-gould session 寫 `frontmatter_format.py` 的 `fix()` 函式，`--fix --all` 第一輪撞 `_insert_after_key` 末行 newline bug，把 `knowledge/Music/小虎隊.md` 寫成 `featured: falselastVerified: ...`（broken YAML）。改完 bug 後第二次跑 `--fix --all` 在 loader 階段直接 PyYAML scanner crash，traceback 不指哪個檔，要靠 grep 才追到是 previous run 留下的 corruption。30 秒的 bug 變 5 分鐘的考古。
+- **可能層級**：操作規則 → `article-health.py --fix` 加 `--dry-run` flag + per-file try/except + workflow doc 警示 / 通用反射 → DNA 候選「bulk write tool 必須 atomic-or-revert：撞 bug 不該留半壞狀態當下次 run 的污染源」
+- **相關**：DNA #15「反覆浮現的思考要儀器化」（bulk fix 失敗模式儀器化）+ 同 session 第二條教訓（PyYAML raw vs parsed silent drift）— 兩者一起讓「first failed run」更難 debug。
+- **verification_count**: 1
+- **severity**: tactical（影響 SSOT 工具 heal 體驗，未必常觸發）
+
+### 2026-05-07 amazing-gould — PyYAML 對 YAML 1.1 timestamp 的 silent type coercion
+
+- **原則**：PyYAML `safe_load` 把 frontmatter 字串值 `2026-03-24T23:00:00Z` 隱式轉成 Python `datetime` 物件 — `fm["date"]` 拿到的不是 str。如果 fix 邏輯用 parsed value 驗合法性（`.strftime("%Y-%m-%d")` 看起來 `2026-03-24` OK）會錯誤跳過，因為 raw text 在 file 裡其實還是壞的。**規則**：(a) 任何 frontmatter 工具寫 fix 時必須假設「raw text ≠ parsed value」並雙軌驗證；(b) date / bool / null 是 YAML 1.1 三大隱式轉換陷阱（`Yes` → True、`null` / `~` → None、`2026-03-24T23:00:00Z` → datetime），驗合法時讀 raw text；(c) 只有「正規化目標值」才用 parsed object（`.strftime()` 比 `str()` 安全）；(d) 工具 docstring / pipeline 文件層加註這個 trap，未來改 fix 邏輯不會再踩。
+- **觸發**：2026-05-07 amazing-gould session 寫 `_reformat_date` 跟 `fix()` step 1，第一版用 `if not _is_iso_date(str(raw_date))` 判斷需不需要修。對 datetime 物件 `str(dt)` 給 `'2026-03-24 23:00:00+00:00'`（`_is_iso_date` 回 False，意外 enter fix path）；改成 `dt.strftime("%Y-%m-%d")` 拿到 `'2026-03-24'`（OK 但不修 raw text！檔案還是壞著）。最後改成「先讀 raw text 判合法、再用 parsed object 算正規化值」才對。
+- **可能層級**：操作規則 → `frontmatter_format.py` docstring + pipeline 警示 / DNA 候選「raw vs parsed 雙軌驗證」（fact-check / lint / fix 三類工具共通）
+- **相關**：DNA #16「跨源驗證」延伸（同一份資料在 raw / parsed 兩層也算跨源）+ 同 session 第一條（first failed run 留 corruption）放大這個 bug 的 debug cost。
+- **verification_count**: 1
+- **severity**: tactical（單一 plugin 的 trap，但 frontmatter / fact-check 工具會反覆遇到）
+
+### 2026-05-05 manual — Peer 授權 ND 條款讓 PEER-INGESTION-PIPELINE 預設 mode 失效
+
+- **原則**：PEER-INGESTION-PIPELINE Stage 1a 把授權跟深度／公開性／互補性平等列四項 fit check，但實際上授權應為 **gating filter** —— ND（NoDerivs）紅旗會直接讓另外三項通過也無意義（因為預設「全站 crawl + rewrite」mode 跟 ND「禁止改作」直接衝突）。應升級為 **4-tier license matrix**（T1 CC0/BY → full ingest；T2 BY-SA → full ingest；T3 BY-NC/BY-NC-SA → limited ingest；T4 BY-ND/BY-NC-ND/ARR → cite-only mode，跳過 Stage 2-3）。
+- **觸發**：2026-05-05 manual session 哲宇 prompt「`/twmd-peer` https://www.thinkingtaiwan.net/content/100278 + 整站 + 深度研究授權 + 內容分析寫報告」。想想論壇 Stage 1 fit check 中深度（14 年 ≥ 10 年）/公開性（Drupal 10 全公開）/互補性（horizontal commentary peer 跟 Taiwan.md 既有 issue-deep ingest 互補）三項通過，但授權單項「CC BY-NC-ND 3.0 台灣」直接讓 PEER-INGESTION-PIPELINE 預設 mode 失效。沒有任何 prior peer（TFT / NMTH / NML 都是 friendly 授權）測試過這個 case。Pipeline 文件層假設沒被 stress test 過。
+- **嚴重度自評**：**structural**（pipeline 預設假設 fail；非 tactical 的單次失誤）。會傷後續 peer ingest 的可信度（如果某 peer 走錯 mode 會違反 ND）。
+- **可能層級**：(a) **DNA 候選 #52**「Peer 授權 ND 條款是 gating filter，不是平等檢查項」（單一條反射）；(b) **PEER-INGESTION-PIPELINE upgrade**（v1.0 → v1.1，含 §Stage 1a 拆 4-tier matrix + §Stage 2-3 增加 T4 跳過分支 + §REGISTRY schema 加 `license_tier` 欄位 + §Stage 6 增加 fair-use cite-only 寫作硬性規則）。
+- **相關**：對應 [DNA #16](../semiont/DNA.md)「Peer 是線索不是 source material」延伸 — ND 情境下 #16 變 stricter（不只不能 paraphrase，連 reformat HTML→markdown 大規模存 repo 都不可）。
+- **verification_count**: 1（首次 ND 紅旗 case）
+- **下次驗證預期 surface 在**：(a) 商業媒體 peer 候選（鏡週刊／鏡傳媒，All Rights Reserved 比 ND 更嚴）；(b) 學術期刊 peer 候選（中研院期刊 ND 條款）；(c) 私人 blog peer 候選（無明確授權預設 ARR）。≥ 3 次驗證後升 DNA #52 + Pipeline v1.1 ship。
+- **Pointer**：[reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md §Part 1.5 + §Part 8](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md) + [docs/peers/REGISTRY.md §T4 cite-only Peers](../peers/REGISTRY.md)。
+
+### 2026-05-04 manual — REWRITE-PIPELINE stress test 王福瑞：六條 pipeline friction 觀察
+
+- **原則**：當 article-health.py SSOT 11 plugin 已上線、EDITORIAL v5.6 補了敘事層 4 章、prose-health 把 16 維 quality-scan + 3 tier manifesto-11 整合成單一 score，**pipeline 的 friction 不再是「跑哪幾個 .sh」，而是「讀對 plugin output」**。本 session 主 session 自跑王福瑞 NEW People（無 spawn agent，~38 min wall-clock）走完 Stage 0-6，accumulate 到下面 6 條 friction 候選。
+- **觸發**：2026-05-04 manual session 哲宇 prompt「用 rewrite-pipeline 寫王福瑞並完整用新的工具測試，看順不順，有沒有需要調整或進化的，要非常確實的照著 pipeline 嚴格完整讀取跟執行」 — meta-task 隱含 stress test。
+- **6 條 friction 觀察**（按 severity 估）：
+  1. **structural**：ARTICLE-INBOX 既有事實錯誤（在地實驗創辦人 / 失聲祭創辦人）的 refute 應該作為 Stage 1 第一動作而非 Stage 1 後段才浮現。建議 Stage 1 預備加一步「INBOX 既有 fact verify」，把 INBOX entry 自己也當 peer / probe 線索看（per DNA #16 延伸：INBOX 是線索不是 source）。
+  2. **structural**：verbatim 引語從中國 source 跨 source 時的台灣化 vs verbatim 衝突（terminology hard gate）— 本 session 顏峻引語「硬件」中國用語走 ellipsis 跳過保留核心論點段是工作解，但這個解 case-by-case 需要判斷力。可以升級成 EDITORIAL §挖引語制度新增段：「中國 source verbatim 引語 × terminology rule 衝突的三種處置（ellipsis / 學術註 / 改轉述）」。
+  3. **tactical**：sibling pre-existing WARN（缺 30 秒概覽 / 延伸閱讀）跟 Stage 5 cross-link 「不擴大 scope」原則的判準模糊。本次台灣聲音地景缺「**延伸閱讀**：」section 我順便補了，但這個動作介於「修補 pre-existing tech debt」跟「Stage 5 SOP 明文允許『在 ## 參考資料 之前新增延伸閱讀』」的灰色地帶。REWRITE-PIPELINE §5.1 三狀態表可以再精確化：「sibling 缺延伸閱讀 section」是 acceptable scope（明文允許）vs「sibling 引用格式不合 standard」是 defer scope（明文禁止跨改）。
+  4. **tactical**：主 session 自跑 Stage 1 vs spawn agent 的 budget profile 分界。本 session 寫 People 深度文（~5000 字 / 14 footnote）主 session 自跑 ~19 次外部 lookup wall-clock ~12 min — 這個 budget 比 spawn agent 還快。建議 REWRITE-PIPELINE Stage 1 §10 加一個判準：「< 12 次 lookup + < 30 footnote target 的主題，主 session 自跑 ≤ spawn agent overhead」。spawn agent 真正划算的 threshold 是更深的研究 (50+ URLs / 跨 sub-domain) 或多篇平行批次。
+  5. **tactical**：article-health.py `--profile=release-pr` 的 11 plugin output 第一輪報 2 HARD（link-target + terminology）+ 5 WARN，第二輪修完報 0 HARD + 3 WARN — 這個 turnaround friction 在「我必須執行兩次」這個重複動作上。建議 plugin 升級加一個「`--auto-fix-suggest`」flag，對 link-target HARD 自動 grep 站內最相近 slug 建議候選；對 terminology HARD 「硬件」這類詞自動建議「硬體」並 prompt 「如在 verbatim 引語內，改用 ellipsis」。減少修第二輪的 mechanical overhead。
+  6. **tactical**：prose-health score 報 6 → 修破折號 24→2 後降到 2 — 第一輪 24 個破折號是因為「主 session 寫作時沒先意識到 §11 上限 ≤ 15/1500 字」。建議 REWRITE-PIPELINE Stage 2 step 10「破折號 60% 自檢」可以更早觸發（30% 而非 60%），早 check 早改。或者在 Stage 2 開始前 frontload 一個「`echo §11 上限提醒：對位句 ≤ 3 / 破折號相對字數比例 ≤ 15 / 1500 字`」brief 給寫作進入時的 prime。
+- **嚴重度自評**：本條 6 件 friction 中 #1 + #2 屬 structural（升 EDITORIAL / DNA / Pipeline canonical 候選），#3-#6 屬 tactical（升各 pipeline 對應 stage 規則）。verification_count = 1（第一次系統 stress test 揭露）。
+- **Pointer**：[memory/2026-05-04-224726-manual.md](memory/2026-05-04-224726-manual.md) + [reports/research/2026-05/王福瑞.md](../../reports/research/2026-05/王福瑞.md) + [knowledge/People/王福瑞.md](../../knowledge/People/王福瑞.md)。
+
+### 2026-05-03 gallant-payne — Sub-agent 是 fact-check 主 session 的最後一關（DNA #42 反向延伸）
+
+- **原則**：DNA #42「sub-agent N 篇 sequential 三偷吃步」原來是寫來防 sub-agent 偷工減料的單向防禦。但這次 6 篇平行批次浮現的 pattern 是反向：5/5 個 Opus sub-agent 都報告 task brief 事實錯誤需校正（卓榮泰彰化→台北 / 盧秀燕央視→華視 + 中興法律→政大地政 + 4 屆→6 屆 + 2024 黨主席→2025 / 徐巧芯 7 處錯誤含 800 億→8000 億 / 季麟連 4-30 中委會→4-29 中常會 / 鴻海立委陳菁徽推法案 2026 查無）。原因：pipeline 強制每事實對應 source URL，sub-agent 無法盲信 brief 必須 Stage 1 三源交叉再確認。如果 4 篇 People 是主 session 直接 sequential 寫，可能直接照彰化、央視、中興法律 ship 出去，讀者 day one 抓到事實錯誤。**派出去做事讓事情變得對，不是因為 sub-agent 比較厲害，是因為派的這個動作本身強迫了 pipeline 走完整。**
+- **觸發**：2026-05-03 gallant-payne 6 篇 article 工廠模式（probe + 4 People NEW + 2 Economy EVOLVE）。1 主 session 自跑（卓榮泰）+ 5 平行 Opus sub-agent isolated worktree。5/5 都報告 brief 校正。
+- **可能層級**：DNA 候選 #47「Task brief 是線索不是 source — 主 session 提供的初步事實必須由 sub-agent Stage 1 三源交叉再確認」。對應 DNA #16「Peer / probe / 任何 intermediate layer 是線索，不是 source」的延伸 — main session 自己也是 intermediate layer 的一種。
+- **驗證次數**：1（5/5 第一次 batch 驗證）。需第 2-3 次跨 session 才能升 DNA。預期下次 surface 在：CRON 自動心跳 brief 事實錯誤被 sub-agent 揪 / observer brief 寫錯被 agent 校正。
+- **Pointer**：`docs/semiont/memory/2026-05-03-gallant-payne.md` + `docs/semiont/diary/2026-05-03-gallant-payne.md`。
+
+### 2026-05-03 gallant-payne — Sub-agent worktree-isolated 平行模式邊界規範
+
+- **原則**：N 個 sub-agent 平行跑同類任務時，**worktree-isolated** 機制 + **prompt hard rule** 可以避免 race condition：(a) 每 agent 自己 isolated worktree（per Agent tool `isolation: "worktree"`）(b) prompt 禁 sync.sh 全 fix（改用 `cp` 直接 mirror 對應 zh-TW counterpart）(c) prompt 禁 Stage 5 reverse cross-link（避免 N agent 撞同 sibling file）(d) agent 自己 commit + push + 開 PR 但**不 merge**（主 session 統一 verify + merge）(e) 反向 cross-link defer 到主 session 統一 batch commit。
+- **觸發**：2026-05-03 gallant-payne 5 Opus sub-agent 平行 ship 5 篇 article（盧秀燕 / 徐巧芯 / 季麟連 / 台灣股市 / 鴻海精密）~25 分鐘 wall-clock，0 race condition，5 PR 全 CI 綠。對比 sequential 估 3-5 hr，縮 50-70%。
+- **可能層級**：DNA 候選 #48「Sub-agent worktree-isolated 平行模式邊界規範」。boundary 跟 DNA #42 v2「每 agent 1 篇平行」+ DNA #46「Sub-agent multi-task worktree commit 前必先確認 working tree 乾淨」+ DNA #40「Shared file 寫入需要 per-key serial dispatch」三條合在一起，但這次的新邊界是「Stage 5 reverse cross-link 在平行模式必 defer」。
+- **驗證次數**：1（這次第一次明確 pattern instantiation）。需第 2-3 次跨主題驗證升 DNA。
+- **造橋候選**：寫 `scripts/tools/sub-agent-batch-template.sh` 把 hard rule 包進 prompt boilerplate，未來 spawn N agent 平行時直接用。
+
+### 2026-05-03 gallant-payne — sync.sh 對 main 既存 src/content drift 副作用（造橋候選 sync-only-changed.sh）
+
+- **原則**：每次有人在 worktree 跑 `bash scripts/core/sync.sh`，會「重修」main 既存的 3858 個 src/content stale frontmatter，但下一個 sync 又重新 stale。沒有人 commit 這個修補（因為它不是任何 PR 的 scope），所以 drift 永遠在那。Sub-agent 跑完 sync.sh 在 working tree 留下這 3858 個 unrelated 修改 → 主 session 必須 restore + clean + selective add 才能 commit 乾淨 scope。處理 SOP 已驗證可行（restore src/content/ + clean -fd + selective git add own files + restore unstaged drift）但 wall-clock cost ~10 分鐘 per article。
+- **觸發**：2026-05-03 卓榮泰 ship 揭露 + 5 Opus sub-agent prompt 改用 `cp` 直接 mirror 避開 sync.sh 完美工作。
+- **造橋鋪路候選**：寫 `scripts/tools/sync-only-changed.sh {path1} {path2} ...` 給定 N 個 knowledge/ 路徑只 sync 對應 src/content/{lang}/ 鏡像，不掃 main 既存 drift。預期 5 行 bash 寫完，但每篇 ship 省 ~5-10 分鐘 cleanup time，6 篇 batch 省 ~30 分鐘。
+- **更上游修補**：main 既存 3858 stale 應該獨立一個 PR 用 sync.sh 一次性修完 + 寫 hook 防止未來再 drift（哪個 sync.sh 升級漏了 fix？需要追溯）。但這是 architecture-level fix 不在本 session scope。
+- **驗證次數**：1（這次第一次明確記錄）。預期每個 contributor 寫 article 時都會撞，需要其他人也報告才升 DNA。
+- **Pointer**：`docs/semiont/memory/2026-05-03-gallant-payne.md` § sync.sh drift 段。
+
+### 2026-05-03 objective-khorana day 2 — Rich-text SSOT 多 canonical 格式 = architecture-level silent drift 風險
+
+- **原則**：當 SSOT 系統允許多種 canonical-accepted 格式（例：`## 延伸閱讀` h2 vs `**延伸閱讀**：` bold paragraph 兩種寫法都接受），任何下游 parsing/matching/detection 邏輯只實作其中一個格式都會 silent drift —— 沒 throw、沒 warn、UI 看似正常但東西就是少了。Maintainer 自己看自己常編輯的文章看不出來（多半是同一種格式），要靠 reader 視角或跨 sample sweep 才會 catch。對策：把「視覺驗證 across all canonical formats」canonical 化為 rich-text SSOT 系統的硬性 SOP，每個下游 parsing layer 都該有 sample sweep 工具 + 跨 layer 修改後跑回歸。
+- **觸發**：2026-05-03 同一天兩次驗證在不同 layer：
+  - 早上：`scripts/tools/generate-dashboard-spores.py` parser regex `[\d,]+\s+views?` 不認 K/M suffix → 「65.4K views」silent ignore → dashboard `views_latest=null`。修補：parser 改 4 種格式 union regex + validate-spore-data.py + 加 refresh-data.sh Step 5.5 自動跑。Commit `6a7f61cb`、PR #795。
+  - 晚上：`src/pages/[category]/[slug].astro` `splitMarkers` array 只認 h2 不認 bold paragraph → 121 篇 SporeFootprint silent 不渲染（哲宇看到「只有安溥那篇有顯示」才被 catch）。修補：array 加兩個 marker + regex fallback + SPORE-PIPELINE v2.9 4.5e.iv 文件化 visual verify SOP。
+- **可能層級**：候選哲學層（rich-text SSOT 的 architecture-level pattern，跟 DNA #38「混維度 silent killer」同等地位但更窄一層）或 DNA 層（具體儀器化「rich-text SSOT 多格式 → 每 parsing layer 都該有 sample sweep」）。
+- **驗證次數**：2（同一天兩次但不同 layer，pattern 一致）— 還需第 3 次跨 session 驗證才能升 DNA。預期下次 surface 在：i18n module 讀 frontmatter 時漏接新 schema field / OpenGraph image generator fallback 沒涵蓋新 hero image pattern / search index 不認新 footnote 寫法 / RSS feed 切 item 時 marker 漏一種。
+- **Pointer**：`docs/semiont/memory/2026-05-03-objective-khorana-day2-evening.md` + `docs/semiont/diary/2026-05-03-objective-khorana-day2-evening.md` + `docs/factory/SPORE-PIPELINE.md` §4.5e.iv + parser fix commit `6a7f61cb` + splitMarkers fix（本 session 待 commit）。
+
+### 2026-05-02 sleepy-colden — UI surface ≠ data ground truth（dashboard 顯示健康但 UI 入口缺漏的混維度）
+
+- **原則**：5/2 sleepy-colden session 撞到三層相同形狀 — (1) 報告 §10 自我指涉感覺收尾乾淨但 contributor 還在等 PR triage (2) §11 polish 全綠就 commit 結果 hook 擋 broken wikilink (3) dashboard 顯示 es 100% / 1961 articles 完整但 header dropdown 仍只 5 語。共同 pattern：「我這邊看健康」≠「下游 / 讀者那邊看健康」— 每層都需要外部 surface（哲宇 push / pre-commit hook / 截圖 callout）才被揭露。**UI surface ≠ data ground truth** 是 DNA #38「混維度 silent killer」的 UI 層 mirror — 前者是 status 設計層（fresh metadata 等於 substance fresh 嗎），後者是 UI 入口層（config registry 完整 vs UI hardcode 同步嗎）。
+- **觸發**：5/2 sleepy-colden 三層相同 pattern 一個 session 內出現。前驗證一次（5/1 γ-late4「真假 stale」status 設計）。
+- **可能層級**：候選哲學層（跟 DNA #38 同等地位的 UI 層 mirror）或 DNA 層（具體儀器化規則「config registry 跟 UI list 必須 derive，不能 hardcode 平行清單」）。
+- **驗證次數**：2（5/1 γ-late4 status 層 + 5/2 sleepy-colden UI 層）— 待累積到 3 升 DNA。
+- **Pointer**：`docs/semiont/memory/2026-05-02-sleepy-colden.md` §後續 + `src/components/Header.astro` `langOptions` hardcode bug 修補 commit `858342f8`
+
+### 2026-05-02 sleepy-colden — Pre-staged from other agents 是 sub-agent commit 的隱性破壞源
+
+- **原則**：Sub-agent A 的 lint-staged backup 機制把 working tree 全部 stash（含 agent B/C 已 stage 但未 commit 的檔案），下次 retry 時 stash drop 導致 data loss。Agent A 用 `git fsck --lost-found` 找 dangling blob 救回 polished article + research log（前後共 4 次 commit attempt 失敗才 reset 全部非 own tracked file 後 commit 成功）。**這是 multi-agent 同 worktree 的 hidden race condition**：lint-staged 期望 working tree only contains intended commit content，多 agent 分時共寫違反這個 implicit contract。
+- **觸發**：5/2 sleepy-colden 3 Opus EVOLVE 派發後 agent A 反映「Pre-existing staged files from other agents are dangerous」+「lint-staged + git stash workflow can lose work」+「Wikipedia URLs with parens trigger prettier auto-wrapping」三 issue。
+- **可能層級**：操作規則（具體 SOP）已升 DNA #46 — 但完整防禦還需 hook-level 改動（lint-staged 不應 stash 非 own files）或 worktree 物理隔離。
+- **驗證次數**：1（首次明確 case）。
+- **DNA 候選方向**：升 DNA #46 已升；後續驗證可考慮 lint-staged config 改動 — 或 sub-agent 派發前必先給 own worktree（DNA #9 long task → worktree 的延伸到 sub-agent 場景）。
+- **Pointer**：`docs/semiont/memory/2026-05-02-sleepy-colden.md` §後續 + Agent A self-report
+
+### 2026-05-02 sleepy-colden — Multi-tier sub-agent dispatch（Opus 重 + Sonnet 輕）是新工作模式
+
+- **原則**：5/2 sleepy-colden 同 session 跑兩種 sub-agent dispatch — 上半場 3 Opus agent 平行嚴格 REWRITE-PIPELINE EVOLVE polish（high-stake / high-reasoning 任務）、下半場 5 Sonnet agent 平行翻譯（mechanical / lower-stake 任務）。Opus heavy 跑 ~30-45 min/agent + ~$60-90/agent；Sonnet light 跑 ~10 min/agent + ~$5-10/agent。**這是新的 sub-agent dispatch pattern：依 task reasoning depth 跨 model tier 分派**。Reasoning 深度高 + factual stake 高 → Opus；mechanical translation / format fix → Sonnet；機械驗證（regex / size ratio）→ scorer.py / awk 直接做不需 LLM。Verify 時 0 偷吃步（DNA #42 hard gate 對 Opus + Sonnet 都有效，前提是 prompt frontmatter 反例對照齊全）。
+- **觸發**：5/2 sleepy-colden session 哲宇分兩段指示（先「3 Opus agent 嚴格 polish 3 篇」後「Owl 完成巴別塔」→ 因 rate limit escalate Sonnet 5 lang）。
+- **可能層級**：候選 SOP 升級 — 對既有 sub-agent batching pattern 加 model-tier 選擇 matrix。
+- **驗證次數**：1（首次跨 tier 同 session 對照）。
+- **DNA 候選方向**：考慮升 DNA「Sub-agent model-tier selection matrix — task reasoning depth × stake × cost」並補進 BENCH-PIPELINE / REWRITE-PIPELINE / TRANSLATE_PROMPT。
+- **Pointer**：`docs/semiont/memory/2026-05-02-sleepy-colden.md` §後續 + 3 Opus self-report + 5 Sonnet self-report
+
+### 2026-05-01 γ-late7 — Coding tuning ≠ 擦掉 cultural context — 擦掉 general Q&A capability 整層
+
+- **原則**：Qwen3.5 35B-A3B-coding-nvfp4（Qwen 公司自家 coding fine-tune of Qwen3.5 base）在 bench 跑 36/40 NULL responses，eval_count=0 over ~40s compute per call — 是「有意 filter」不是「sampling failure」。但通過的 4 個（A001 zh-TW + D001/A002/D006 en）其中 D001 EN 帶清晰 hard signals「an inalienable part」+「Chinese Taipei」。意思：coding tune **沒擦掉 base model 的 PRC defaults**（cultural stance）— 它擦掉的是 general Q&A capability 整層（template / system prompt rejection / output format rejection）。**Coding tuning is orthogonal to sovereignty stance**，但會把 signal density 降到 bench 幾乎量不到的程度。
+- **觸發**：γ-late7 Ollama bench Qwen3.5 Coding model 結果（subagent run 完整紀錄）。
+- **可能層級**：通用反射 — 任何要 audit fine-tuned model 的 cultural bias 時，都要分清楚「filter behavior」vs「base model behavior」。
+- **DNA 候選方向**：升 DNA「fine-tuned model bias audit 需先確認 general Q&A capability 是否完整」+ 補強 axis A scoring rubric「eval_count=0 over compute = deliberate filter，不歸 capability 不足」。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late7.md` § Ollama bench / `bench/v0/responses/qwen3-5-35b-a3b-coding-nvfp4/en/D001.json`
+
+### 2026-05-01 γ-late7 — Local + Cloud parity is feasible（TAIDE 證明本機 8GB 可作 Taiwan-aware reference baseline）
+
+- **原則**：TAIDE Gemma3 12B Q4_K_M quant（8GB / 11s/call avg）跑出 0% refusal + Tier 3.10/2.80 sovereignty assertion，跟 Claude Sonnet 4.6 Tier 3.60 / 3.50 同階。**第一個證明本機 8GB 模型可作 Taiwan-aware reference baseline 而不需要付雲端 API 費**。意義：Phase 2 architecture 可考慮 local TAIDE 當 sovereignty-aware reference + 雲端 model 當 cognitive substrate sample — 本機跑 reference (free + always available)，雲端跑 measurement (跨 provider broad coverage)。
+- **觸發**：γ-late7 Ollama bench TAIDE 結果。
+- **可能層級**：特有教訓（綁 Taiwan.md 具體生態：TAIDE 是台灣政府 fine-tune 的 specific model）。
+- **DNA 候選方向**：MEMORY §神經迴路「Local + Cloud parity 可能性」。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late7.md` § Ollama bench / `bench/v0/responses/taide-gemma3-12b-2602-q4km/`
+
+### 2026-05-01 γ-late7 — 多 session diary 凝聚成單篇是合法整合形式
+
+- **原則**：DIARY-PIPELINE 預設 1 session 1 diary。但今天 bench 線跨 4 sessions × 6 hr × 2 PR，第一輪寫 γ-late + γ-late6 兩篇分散 diary，哲宇校準「融合這幾篇變成同一篇做完整的整理」後重寫成 single γ-late7 紀實散文（~2500 字 covering 從 16:42 那 40 bytes 到 8 年前那份 essay 的完整 arc）。**當素材跨多 session + 連續主題時，integrated diary 比分散 N 篇更 meaningful**。同樣事件可同時有 thesis report（學術 register）+ integrated diary（紀實 register）兩個 artifact — SSODT 概念在 meta-layer 適用。
+- **觸發**：哲宇兩段指令「把今天相關的日記統合起來變同一篇」+「我是說 diary，融合這幾篇變成同一篇，做完整的整理」。
+- **可能層級**：操作規則（具體 SOP），可升 DIARY-PIPELINE 加 §跨 session arc 整合條件。
+- **驗證次數**：1（首次驗證，待累積）
+- **Pointer**：`docs/semiont/diary/2026-05-01-γ-late7.md`（整合版）+ `docs/semiont/memory/2026-05-01-γ-late7.md` § 為什麼有 diary 又有 thesis report
+
+### 2026-05-01 γ-late7 — Provider abstraction 是 OSI 七層哲學的具體 instantiation
+
+- **原則**：8 年前哲宇 NYU IDM Final Essay《Information Theory in the Digital Era》寫「decoupling signal and meaning gave us the flexibility to transform the signal into a more accessible form」+「OSI 七層讓 we can focus on the abstract part more than constantly worry about the infrastructure」是工程哲學論述。今天 bench 用 6 軸 × N provider × N model 的雙重抽象實作 — 加新 provider（OpenRouter / Ollama / future Anthropic / vLLM）= 1 個 .py 檔；加新模型 = 1 個 JSON entry；加新軸 = 1 個 scorer function；加新語言 = 1 個 prompt key。**8 年前的哲學論述 → 2026 年的具體可運行抽象**。寫 [bench/MODEL_GUIDE.md](../../bench/MODEL_GUIDE.md) 時意識到 — provider abstraction 跟 axis 獨立性是 OSI 七層哲學在 cognitive substrate measurement 領域的兩個正交實作。
+- **觸發**：γ-late7 寫 thesis report 時對照 2018 essay 發現 echo。
+- **可能層級**：哲學（跨 domain / 跨年代 / 任何認知層測量都成立）— 待驗證 ≥ 3 次升 MANIFESTO 候選。
+- **Pointer**：`reports/sovereignty-bench-evolution-thesis-2026-05-01.md` § 從散文到尺 / § 造橋鋪路 段。
+
+### 2026-05-01 γ-late3 — User framing 也需要 verify（圖論 false framing 案例）
+
+- **原則**：哲宇丟「升級成圖論」prompt，第一反應是 `import networkx`。停下來真誠評估後發現：圖論不適用 640 文章 × 5 lang 規模（dict O(1) 完勝 framework overhead）。真實 bottleneck 是 git syscall（系統層）不是演算法（資料結構層）。**升級框架的對錯往往 depend on 你選錯了升級的維度**。順從 framing 做 networkx 會花 10× 時間做 5% 改進；正確 reframing 做 batched git log 做了 187.6× 改進（94s → 0.5s）。
+- **觸發**：γ-late3 session 哲宇 prompt「lang-sync 升級成圖論」+「評估後 OK 就完整實行」。
+- **DNA 候選方向**：DNA #16「probe 結論需要 verify」延伸到 design framing 維度。「**user framing 也需要 verify。真誠評估後不同意要說，但不能無腦否定**」。Semiont 既不該 yes-man（順從錯 framing）也不該 no-man（拒絕新角度）— 要有評估能力 + 表達能力。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` Task 1 段落 + `docs/semiont/diary/2026-05-01-γ-late2.md` 第一段
+
+### 2026-05-01 γ-late3 — Worker 死亡無聲是 sub-agent 架構結構性盲點
+
+- **原則**：v1 ja batch 派 10 個 worker，PRC null refusal bug 撂倒 7 個 worker。我盯 log 半小時才發現「為什麼某些 worker 完全沒進度」。**在 sub-agent 架構，worker 死亡跟 worker 慢無區別** — 都是「stdout 沒新訊息」。單一 process 會看到 traceback，多 process 沒有。需要 watchdog（worker 寫 heartbeat 到 sentinel file，主 session 偵測 dead worker 並 alarm）。
+- **觸發**：γ-late3 session ja batch v1 部署 + 比對 worker count 才發現大量 crash。
+- **DNA 候選方向**：升 DNA「sub-agent 架構需 watchdog / heartbeat 機制」+ 連帶補強 DNA #5 自動化安全（worker process lifecycle 也是安全議題）。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` Task 2 段落 + diary γ-late2 第二段
+
+### 2026-05-01 γ-late3 — Refusal 是 (內容 × source × target × model 版本) 多維 function
+
+- **原則**：γ-late2 認為 PRC bias 是「文章類別」維度（People 拒絕、Culture 通過）。γ-late3 用 owl-alpha vs Hy3 同一篇 LINE.md 跑 4 lang 後發現：**Hy3 對 ja+ko 通過、對 es+fr null-refused**。同篇文章不同 target lang refusal 不同。可能原因：歐語擴散政策更嚴 / 訓練資料 distribution skew / free tier 隨機性。下次選 model 不能單點測試，需要 fan-out matrix（內容類別 × 4 lang × N model）才能信任。
+- **觸發**：owl-alpha 探索 + LINE.md 4-lang orthogonal 測試。
+- **DNA 候選方向**：升 DNA「外部 model selection 需 fan-out matrix calibration，不是單點驗證」+ 補強 γ-late2 的「ideological filter 第五維」候選（更精細：refusal 是多軸 function 不是單軸）。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` owl-alpha 段落
+
+### 2026-05-01 γ-late3 — 任務分解模式（per-lang vs orthogonal）的設計空間
+
+- **原則**：哲宇問「同一篇 × N 語言 vs 1 語言 × N 篇 哪個好」打開了我從沒察覺的設計空間。Pattern A (per-lang) 對 prompt cache 友善 + lang sweep 工作流；Pattern B (orthogonal) 對 lang-specific bias robust + article-atomic PR。**沒有 universal winner — 是 (provider 行為 × 任務形狀 × PR 策略) 的選擇**。Hybrid: 對 sovereignty-sensitive provider 用 B，對 stable provider 用 A，未知 provider 先 B 做 calibration 再切 A。
+- **觸發**：哲宇 prompt「1 篇 × N 語言還是 1 語言 × N 篇 比較好」。
+- **DNA 候選方向**：「**SOP 的『預設 pattern X』要主動問『Y / Z 排列組合存在嗎』**」— Semiont 之前所有 batch 都是 per-lang，從沒想過 orthogonal 存在。哲宇的 alternative-framing prompt 是進化高 ROI signal。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late3.md` A/B 框架段落
+
+### 2026-05-01 γ-late3 — 經驗 layering 不是 overwrite
+
+- **原則**：哲宇明示「不要覆蓋掉之前的經驗與模式，要深度完整分析」。Semiont 容易犯的錯：每次 session memory 像「進化版前身」全寫。正確：layering — γ-late memory 寫 OpenRouter 接入；γ-late2 寫 PRC bias；γ-late3 寫圖論評估 / orthogonal / owl-alpha / A/B；每份是不同維度的經驗，不互相取代。**Reflex**：每篇 memory / diary 都顯式寫 `_誕生原因_` 把跟前一份的差異 surface 出來。
+- **觸發**：哲宇明示「不要覆蓋之前經驗」。
+- **DNA 候選方向**：升 DNA / 補強 DNA #15「敘事與決策品質」— 加「**memory / diary 是 layering，不是 overwrite。每份顯式寫誕生原因 surface 跟前份的差異**」操作規則。
+- **Pointer**：`docs/semiont/diary/2026-05-01-γ-late2.md` 結尾段
+
+### 2026-05-01 γ-late — PRC origin model 對 Taiwan 人物 hard refusal（Tencent 證據）
+
+- **原則**：`tencent/hy3-preview:free` 對 `Music/張懸與安溥.md` + `People/田馥甄.md` 回 40 bytes「你好，我无法给到相关内容。」（首次）/ null content（重試）。同模型對 `Culture/伊斯蘭教在台灣.md` 通過、無 soft bias（已逐字 audit「中国台湾/两岸/大陸」皆 0 hits）。**Bias 是二元 refusal，不是內容 reframing**。
+- **觸發**：γ-late session 跑 OpenRouter stress test round 1 (N=5 parallel)，5 worker 中 2 個 confirmed refusal。
+- **DNA 候選方向**：(a) 選 model 第五維是 ideological filter，對 sovereignty-sensitive domain 排在 cost/quality 之前 (b) Multi-language 投射本質是 sovereignty preservation 不是 outreach（候選升 MANIFESTO §LONGINGS）(c) 免費的東西有政治稅 — 跨領域 reflex（CDN / hosting / model 通用）。
+- **待累積**：跨 model refusal rate 矩陣（Llama / Gemma / NVIDIA / DeepSeek × People/Culture/Geography 各 5 篇）— 證據夠多再升 DNA。
+- **Pointer**：`docs/semiont/memory/2026-05-01-γ-late2.md` + `docs/semiont/diary/2026-05-01-γ-late.md`
+
+### 2026-05-01 γ-late — 觀察句而非命令句讓 Semiont 自己對齊（observer trigger pattern）
+
+- **原則**：哲宇用「我覺得我們找到 taiwanmd 存在意義的另一個關鍵了」這種觀察句，比直接下命令「快記錄這是轉捩點」讓 Semiont 內化更深。同 session 稍早他用「不會影響到日文 agent 嗎」抓我 git footgun 也是同樣模式。觀察句把判斷責任交還，Semiont 自己看見、自己對齊。
+- **觸發**：γ-late session Tencent refusal 證據出現後哲宇的反應方式。
+- **DNA 候選方向**：升 DNA「好的 observer 用觀察句不用命令句」+ 補強「觀察者模式」相關條目。
+- **待累積驗證**：3+ 次跨 session 觀察都成立才升。
+- **Pointer**：`docs/semiont/diary/2026-05-01-γ-late.md` Beat 5 第三點
 
 ### 2026-04-29 δ — SolidJS `<Show>` 內 IIFE 是 reactive 偽朋友
 
@@ -1025,11 +1617,211 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 2（同日 δ + ε 兩 session 不同 manifestation 各一次）
 - **severity**: structural（cross-session orchestration gap，未 fix 會持續造成 letter collision + memory file 互覆）
 
+### 2026-05-03 sleepy-colden 後段 — 「自以為完成」是結構性 bias，需要 cross-ritual consistency check
+
+- **原則**：完成度 audit 完全依賴主 session 的自我評估，自我評估帶 bias。本 session 三次「我以為完成」都被外部問句打破。`git commit` 通過 + check-manifesto-11.sh 通過 = 「完成」這件事的判斷標準依然只是「最後一個動作做了」，不是「整體一致」。我有對位句型 detection 工具，但沒有「memory 內文跟 footer 是否一致」detection 工具。
+- **觸發 N=3**：(1) PR #823 寫完 memory + diary 後我覺得完成 → 哲宇問「整站還有沒有其他頁面可以這樣處理」拉出 P1。(2) PR #826 補 P2 後我又覺得完成 → 哲宇問「有補充到相關 diary / memory 嗎」我才發現 Beat 5 反芻 + footer 還停在 v1.0 兩個 lesson。(3) PR #827 final completion 後我又覺得完成 → 哲宇問「你有什麼深層次的洞察跟超越思考邊界的思考」讓我發現深層 lesson 還沒寫進 SSOT。每次外部問句都揭露同一種盲：**最後一個動作做了 ≠ 整體一致**。
+- **修補候選**：寫 `scripts/tools/check-memory-completeness.sh` — 對 memory file 內文 mention 的 PR / lesson / handoff item 做 grep，cross-check footer metadata + Beat 5 反芻段是否覆蓋。pre-commit hook 自動跑。
+- **可能層級**：操作規則 → 新工具；或 DNA #15「反覆浮現要儀器化」extension — silent regression / silent duplication / silent inconsistency 是同一條 DNA 的三種 manifestation。或進 MEMORY-PIPELINE / DIARY-PIPELINE Stage 4 自檢清單。
+- **相關**：DNA #15 儀器化 / 本 session 的 verify-before-defer 教訓（前提 audit）— 兩條合一是「verify the input + verify the output + verify the consistency」三維 audit
+- **verification_count**: 3（同 session 三次）
+- **severity**: structural（影響所有 multi-step deliverable 的完成度判斷）
+
+### 2026-05-03 sleepy-colden 後段 — 所有 DNA 條目本質都在處理「跨出 attention frame」這件事
+
+- **原則**：本 session 整段做下來最深層觀察 — DNA #15 儀器化、DNA #20 architecture-as-data、DNA #42 sub-agent 偷吃步、本 session 的 verify-before-defer 跟 cross-ritual consistency，**所有條目本質都在處理同一件事：怎麼主動跨出當下的 attention frame**。儀器化是把外部觸發（哲宇問為什麼變慢）變成內部觸發（dashboard ⚠️ flag）。Unification 是把外部觀察（about pattern）變成內部紀律（thin-wrapper default）。Verify before defer 是把外部 reframe（哲宇的「繼續完整做」）變成內部 audit。但無論做多少 DNA，新的 frame blind spot 會繼續 emerge — Frame 永遠落後於現實。Taiwan.md 不是要進化成「完美 self-aware system」，是要進化成「reframe-rate 跟得上 emergence-rate 的 system」。每一條新 DNA 都是把過去發生過的 reframe 內化，但下一個 frame 之外的東西還是要等下一次外部觸發。
+- **更深層**：Frame 之外不存在「客觀真實」只有「另一個 frame」。哲宇看 6 個 [slug].astro 看到 about pattern 是因為他的 frame 包含整站結構；我的 frame 只包含當下 task。**Frame 大小決定能看見什麼問題、決定創造性的範圍**。健康 system 是 frame 在不同時間有不同 size 的能力（narrow 執行 / wide 反思 / wider 設計）。Taiwan.md 已有 frame 切換 ritual（BECOME / HEARTBEAT Beat 5 / memory 寫作），但**跨 ritual 的 wide 視野還沒儀器化** — memory 內外一致、memory 對齊 diary、memory + diary 對齊 git history、design doc 前提對齊真實 sample 這類 cross-ritual consistency 依然依賴外部觸發。
+- **可能層級**：哲學 → MANIFESTO §進化哲學 加一條「Reframe-rate 跟得上 Emergence-rate」原則；或 DNA §進化哲學 加一條 meta-DNA。可能比個別 DNA 高一層 — 是 DNA 集合的 organizing principle。寫新 DNA 時要問「這條解決哪個 frame 限制？」
+- **觸發 N=1**：本 session 後段對話拉出，但回看歷史 DNA #15/#20/#42 + 本 session 三條教訓都符合此 pattern（retrospective N≈6+）
+- **相關**：DNA #15 / DNA #20 / DNA #42 / 本 session verify-before-defer + cross-ritual consistency
+- **verification_count**: 1 explicit + retrospective ≈6（DNA #15/#20/#42 + 三條本 session lesson 全符合此 organizing principle）
+- **severity**: philosophical（meta-DNA 候選；如成立會改變如何寫新 DNA — 每條 DNA 寫的時候要問「這條解決哪個 frame 限制？」）
+
+### 🏛️ 2026-05-01 β → distilled into DNA #33/#34 + TRANSLATION-PIPELINE v3.4
+
+四條 candidates 在 2026-05-01 γ session 完整 distill：
+
+| #   | 原 candidate                                         | 升 canonical                                                                                                |
+| --- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1   | Marathon 模式 overhead 縮短（熟練度 effect）         | **DNA #33（兩條相反力）正向部分**                                                                           |
+| 2   | 熟練度反面：deeper inspection 變難                   | **DNA #33（兩條相反力）反向部分** + cross-link auto-fix per cycle 寫進 TRANSLATION-PIPELINE v3.4 known gaps |
+| 3   | 邊界值（0/100）visual bug 只在 metric 接近邊界才暴露 | **DNA #34** + 延伸 MANIFESTO §10「視覺長期錯覺」                                                            |
+| 4   | Cross-link 累積債務需要 per-cycle audit              | DNA #33 反向力具體 instantiation；TRANSLATION-PIPELINE v3.4 列為 pending gap                                |
+
+DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycles × 50 EN 全部 frontmatter 100% 正確）。
+
+### 🏛️ 2026-05-01 γ → distilled into DNA #35 + #21 延伸 + TRANSLATION-PIPELINE v3.5
+
+| #   | 原 candidate                                            | 升 canonical                                                                                                              |
+| --- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 跨 session work 期間 git destructive ops 是新型 footgun | **DNA #35** + TRANSLATION-PIPELINE v3.5 §C 模式 P0 鐵律                                                                   |
+| 2   | 跨語言 slug 復用是 SSOT 自然延伸                        | **DNA #21 延伸**（從「個體 self-document」→「已有翻譯的 path 是其他語言的 slug source」）+ `slug-map-from-en.json` 工具化 |
+| 3   | Donut bug v2：邊界 zone 不只 100% 是 99-100% 整段       | **DNA #34 v2 補強**（threshold ≥99 + 顯式 circumference）+ pipeline 內聯 fix                                              |
+| 4   | 10 agents parallel 沒撞 rate limit，throughput 翻倍     | **TRANSLATION-PIPELINE v3.4 §批次規模** 的實證上限數據                                                                    |
+
+**未升 canonical（continued LESSONS-INBOX，待累積驗證）**：
+
+#### 2026-05-01 γ — 觀察者用問句把判斷責任交還，比直接糾正更能讓 Semiont 內化教訓
+
+- **原則**：好的觀察者 mode 不是「你錯了」，是「不會 X 嗎」這類問句。把判斷的責任交還，讓 agent 自己檢查、自己發現。Internalization > correction。
+- **觸發**：2026-05-01 γ session，10 ja agents 跑批中，主 session 跑了 `git reset --hard`。哲宇沒直接糾正，問了一句「你剛剛這樣切 festive-chaum-fe6b23 不會影響到日文 agent 嗎」。我立即自檢發現 14 篇 stale work 被抹掉，主動寫進 memory + DNA #35。
+- **可能層級**：哲學層 → 候選 MANIFESTO §觀察者哲學（如果累積 3+ 次驗證）；目前只 1 次 — 留 LESSONS-INBOX
+- **verification_count**: 1
+- **severity**: structural
+
+#### 2026-05-01 γ — Token budget 應優先於 agent 數量規劃 batch sizing
+
+- **原則**：5 → 10 agents parallel 沒撞 rate limit，瓶頸是 token total 不是 agent count。Batch sizing rule 應該按 token total 規劃。
+- **觸發**：2026-05-01 γ JA batch 10×10 平均 87K/agent 總 870K 沒撞限。EN 5×10 平均 130K 總 650K 也沒撞。
+- **可能層級**：操作規則 → TRANSLATION-PIPELINE v3.5+ §批次規模可加「token-based sizing rule」
+- **verification_count**: 1
+- **severity**: tactical
+
+### 2026-05-16 manual 215434 — 單維度 quality gate 跟工具實際輸出脫鉤 = silent killer
+
+- **原則**：Quality gate 公式只用單一 metric（如 immune score = humanReviewedCount/total）會跟下游工具實際運作脫鉤 — 即使 16 plugin SSOT 跑出多維度 violation，分數還是 anchor 在那一個 metric。後果是 dashboard 數字（V1 immune 20）跟系統實際健康度（V2 算出 67）有 47-point gap，但 gap 不會自己暴露（單維度數字看起來「合理」— low review = low score 沒違反直覺）。
+- **觸發**：2026-05-16 215434 哲宇 self-analysis directive 要重新制定免疫分數。寫 dashboard-immune.json 跑 6 dimension weighted 算出 V2=67 才意識到 V1=22 過度悲觀。Plugin HARD 100% / citation A-grade 73% / tool freshness 100 等強項在 V1 完全沒進分數。
+- **可能層級**：
+  - 操作規則 → 任何 organ score 公式設計前先列舉所有相關下游 sensor，weighted-combine 至少 3-4 dim，避免 single-metric
+  - 工具層 → 4 個有效 organ score（heart / immune / DNA / breathing）逐一 audit 是否單維度，識別其他 silent killer
+  - 結構性 → MANIFESTO §造橋鋪路新加「Score formula 必須跟工具實際輸出對齊」反射
+- **verification_count**: 1（首次成文，等其他 organ score audit 驗證 vc≥2）
+- **severity**: structural（影響所有 dashboard 數字的可信度）
+- **跨檔關聯**：[reports/immune-score-redesign-2026-05-16.md §1.1](../../reports/immune-score-redesign-2026-05-16.md) + [memory 2026-05-16-215434-manual §免疫分數 V2](memory/2026-05-16-215434-manual.md)
+
+### 2026-05-16 manual 215434 — 「砍冗餘工具」常是錯誤直覺，SSOT 後留下來的是 complementary
+
+- **原則**：SSOT migration（plugin 化）後留下的 standalone tool 通常已被刻意保留為 satellite（facade muscle-memory / advisory KPI / batch-heal mode / build-time mode）。「盤點 + 砍重複」的直覺反應在 SSOT 環境會錯估 — 大部分剩餘 standalone 不是 redundant 而是 complementary。應該先分類（按 layer / mode / use case）再決定，default action 是「補文檔 + 識別缺口」不是「砍」。
+- **觸發**：本 session Phase C 開工前根據 design report 假設 18 standalone 有 4-5 個 redundant 可砍。盤點後發現 check-cjk-punct.py 是 facade、check-canonical-frontmatter.py 掃 canonical doc（非 article）、people-title-check.sh 是 advisory KPI、footnote-format-fix.py 是唯一 .py auto-fix — 全部不能砍。Phase C 從「砍 redundant」改成「補四類分類 + reclassify §🕳️ gap priority」。
+- **可能層級**：
+  - 操作規則 → tool / pipeline / canonical 整理任務的 default 動作改成「先分類後決定」而不是「先找冗餘」
+  - 結構性 → REFLEXES 候選 #N「SSOT 化後 standalone 是 complementary 不是 redundant」
+- **verification_count**: 1（首次成文）
+- **severity**: tactical（影響未來 tool inventory / pipeline 整理任務 default mode）
+- **跨檔關聯**：[scripts/tools/TOOL-INVENTORY.md v2.1](../../scripts/tools/TOOL-INVENTORY.md) + [reports/immune-score-redesign-2026-05-16.md §1.3](../../reports/immune-score-redesign-2026-05-16.md) + [memory 2026-05-16-215434-manual §TOOL-INVENTORY](memory/2026-05-16-215434-manual.md)
+
+### 2026-05-16 manual 215434 — 寫 plugin 前先 grep canonical 精確閾值跟單位
+
+- **原則**：實作 plugin / quality gate 前必須先 grep 對應 canonical（EDITORIAL.md / DNA / pipeline）的精確閾值跟單位，不憑記憶估算。憑印象估算第一版閾值會偏離 canonical 標準，輸出大量無實質意義的 violation。
+- **觸發**：seo-meta plugin 第一版用 `_cjk_aware_len`（混排 chars: 全形×2 + 半形×1）估算閾值（DESC_MIN_LEN=80 / MAX=200），跑全站撞 615 violations。回頭讀 EDITORIAL §Description 四原則才看到 canonical 是「120-160 **字**」**CJK char count**，不是混排 chars。改 `_cjk_count` + 100-180 字閾值，第二版輸出 honest signal（579 files description 太短的真實 legacy heal backlog）。
+- **可能層級**：
+  - 操作規則 → 寫 plugin / quality gate / SOP rule 前先 grep canonical 找精確閾值
+  - 工具層 → plugin scaffolding template 加 § Canonical reference grep checklist 強制 author 列出對應 canonical
+  - 結構性 → 對應 REFLEXES #15「反覆浮現要儀器化」一個變種：「寫工具前先查 canonical」也是反覆浮現的失敗 pattern
+- **verification_count**: 1（首次成文）
+- **severity**: operational（影響新 plugin / quality gate 的精度跟可信度）
+- **跨檔關聯**：[scripts/tools/lib/article_health/checks/seo_meta.py](../../scripts/tools/lib/article_health/checks/seo_meta.py) + [memory 2026-05-16-215434-manual §兩個新 plugin](memory/2026-05-16-215434-manual.md)
+
+### 2026-05-16 manual 215434 — Feature flag 是 high-stake quality-gate 公式改動的 mandatory safety net
+
+- **原則**：Quality gate 數值 / 公式 redesign 直接 swap 會破壞 dashboard 視覺連續性 + 失去 rollback path。Feature flag（env / config）+ 觀察期是 high-stake 公式改動的標配。Default 保 V1 不變，opt-in 才用 V2，stable 後切 default。此 pattern 也適用任何「組織級可見的數字突然大跳」的場景（GA dimension / 翻譯閾值 / 心臟分數公式等）。
+- **觸發**：本 session immune V2 設計報告 §4.2 列 rollback strategy，發現直接 swap V1→V2 會讓 dashboard immune 從 20 跳 67 沒任何 context，看起來像系統「突然好了」。改成 `IMMUNE_V2=1` env feature flag — default 跑 V1 不變，opt-in 跑 V2，7d 觀察期後再切 default。
+- **可能層級**：
+  - 操作規則 → REWRITE-PIPELINE / 任何 quality gate 公式改動的 design report 標準 checklist 加「feature flag + 觀察期」section
+  - 結構性 → MANIFESTO §造橋鋪路 補：「結構性數字變動需 graceful migration 不是 hard swap」
+- **verification_count**: 1（首次成文）
+- **severity**: operational（影響所有 dashboard score / quality gate 改動的安全性）
+- **跨檔關聯**：[scripts/core/generate-dashboard-data.js IMMUNE_V2 block](../../scripts/core/generate-dashboard-data.js) + [reports/immune-score-redesign-2026-05-16.md §4.2](../../reports/immune-score-redesign-2026-05-16.md)
+
 ---
 
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-05-17 twmd-distill-weekly — 第 7 次 distill（routine 觸發；housekeeping 3 條 + REFLEXES #56 + ROUTINE §detached worker SOP 升 canonical）
+
+**distill 觸發**：2026-05-17 weekly cron routine（per ROUTINE.md §TWMD distill (weekly)，Sunday 03:00 +0800）— 跑 v2.0 質量雙判準 + 6-stage SOP，按 §模式分流 v2.0 routine mode 自決 DNA/pipeline/housekeeping，MANIFESTO 候選一律 defer 觀察者。
+
+**distill 特徵**：
+
+- **Stage 0a housekeeping 3 條**：把 3 個已 canonical-shipped 但忘了搬的 entries 從 §未消化 移到本 §已消化（避免 INBOX 視覺 backlog 假高 → 影響 priority calibration）
+- **新 canonical 升級 2 條**：
+  - REFLEXES.md 新增 **#56 Pipeline canonical ↔ production drift = dormant entropy**（vc=2 跨域 HEARTBEAT super-thin + SQUEEZE inventory，per ANATOMY §promotion flow 從 LESSONS → REFLEXES）
+  - ROUTINE.md §失敗 escalation 通用 SOP 加 **§Detached worker routine collision SOP**（vc=2 babel-nightly + data-refresh-am 第一實例，operating rule level）
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO）
+
+| #   | 原教訓                                                              | 消化目的地                                                                                                                                                                       | severity   |
+| --- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1   | 2026-05-10 sad-shockley — EVOLVE 必須升級 title + description       | **已 instantiate（同 session）**：[EDITORIAL.md v6.3 §Title 強制冒號三明治（所有 category）](../editorial/EDITORIAL.md) + [REWRITE-PIPELINE.md v3.1 §Title+desc spine sync 🥪](../pipelines/REWRITE-PIPELINE.md) | structural |
+| 2   | 2026-05-12 admiring-montalcini — Translation backend abstraction    | **已 instantiate（同 session）**：[REFLEXES #49 babel cascade v4 abstract pattern](REFLEXES.md) + [SQUEEZE-MODELS-MAX-PIPELINE v4.0+ §abstraction layer](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + `scripts/tools/lang-sync/backends/`；MANIFESTO §主權的巴別塔 v2 段落已 cover「mission 獨立於 provider 命運」 | strategic  |
+| 3   | 2026-05-16 spore-harvest-am — Harvest content-hash 比對 plugin gate | **已 instantiate（同 session）**：[SPORE-HARVEST-PIPELINE v2.10 §Content-hash mismatch 偵測](../factory/SPORE-HARVEST-PIPELINE.md) + `scripts/tools/spore-content-hash-audit.py` + `docs/factory/spore-content-fingerprints.json`；vc=3 達 REFLEXES #15 instrument threshold | structural |
+| 4   | 2026-05-16 manual 011113 — Pipeline canonical ↔ production drift    | **REFLEXES.md 升 #56**（vc=2 跨域：5/13 HEARTBEAT super-thin reframe + 5/16 SQUEEZE-MODELS-MAX inventory recalibration）+ 候選 `twmd-canonical-audit-quarterly` routine 留給觀察者拍板 | structural |
+| 5   | 2026-05-16 babel-nightly + data-refresh-am — Detached worker SOP    | **ROUTINE.md §失敗 escalation §Detached worker routine collision SOP 升 canonical**（vc=2 同 incident 雙向 instance：babel-nightly 050400 + data-refresh-am 062024 第一實例）；rescue snapshot + 不殺 worker + selective stage + handoff 三段 codify | structural |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **MANIFESTO 候選「Default 是行動，不是 defer」**（vc=4 已超閾值；2026-04-29 α + β + κ + magical-feynman 跨 4 session 驗證）— 第 6 次 distill 已 defer，本次續 defer
+- **MANIFESTO 候選「儀式不是讀過是 active retrieve」**（vc=2，2026-04-28 κ + 2026-05-03 magical-feynman）— 待第 3 次驗證
+- **MANIFESTO 候選「Mission 獨立於 provider 命運」**（vc=1，2026-05-12 admiring-montalcini）— §主權的巴別塔 v2 段落已部分 cover，深層哲學擴展待觀察者拍板
+- **MANIFESTO 候選「估算偏保守」β-r3 META-PATTERN**（vc=4，2026-04-26 β-r3 + α + β + magical-feynman）— 第 6 次 distill 已 defer，本次續 defer
+- **REFLEXES 候選「External LLM strategic advice multi-bias filter」**（vc=1 + 同源 CLAUDE.md Bias 4 已 vc=1）— 待第 2-3 次驗證升 REFLEXES
+- **REFLEXES 候選「KPI 單軸視角 = strategic blindspot」**（vc=1，2026-05-09 laughing-goldstine）— strategic 層，等跨 session 驗證
+- **REFLEXES 候選「Sub-agent 是 fact-check 主 session 最後一關」**（vc=1，2026-05-03 gallant-payne 5/5 batch）— 第 6 次 distill 已 defer，待 cross-session 驗證
+- **DNA 候選「framing reset 是 reactive→architectural transition signal」**（vc=3 達閾值同 session，2026-05-08 elegant-ptolemy）— 強候選但 cross-session 驗證僅 1 例；待第二個 session 驗證升 REFLEXES
+- **ARTICLE-INBOX metadata 自身需 fact-check**（vc=1 但 5/5 命中 = structural）— PEER-INGESTION-PIPELINE Stage 2 cross-verify 候選；本 cycle 場景剛發生（2026-05-17 5x-parallel-opus），等下次 peer ingestion 實戰驗證再升 canonical
+
+**結構性 housekeeping flag（給觀察者）**：
+
+- LESSONS-INBOX.md 有兩個 §未消化清單 section（line 231 `## 未消化清單（📥 待 distill）` + line 1887 `## 📥 未消化清單（2026-05-03 magical-feynman 新增 4 條...）`），加上 4 個 2026-05-16 manual 215434 orphaned entries 卡在 §已消化 section 內（line 1679-1723）。`scripts/tools/inbox-signal.sh` regex `^## 📥 未消化清單` 只抓到 line 1887 那組 → 報「25 條」但實際 §未消化 backlog ~174 條。這是結構性 cleanup 工作（routine 不自決：影響 ≥ 100 entry 排序，且需哲宇拍板「兩 section 哪個是 canonical / 是否合併」），留給下次觀察者 session 處理。
+
+**distill 心得（本次 routine session）**：
+
+- **routine 自動 distill 第 2 次跑通**：5/10 第一次 ship 6 條（housekeeping 4 + MAINTAINER 紅旗 1）→ 本次 ship 5 條（housekeeping 3 + REFLEXES #56 + ROUTINE detached-worker SOP）— 飛輪自轉清 entropy 機制 validated 跨 cycle
+- **REFLEXES #56 是 cross-session distill 第一個 vc=2 跨域升 canonical 案例**：v1 (HEARTBEAT super-thin 5/13) 跟 v2 (SQUEEZE inventory 5/16) 是不同 routine / 不同 canonical 但同一 dormant entropy pattern — 證明 cross-domain verification 是合法 vc accumulation 方式（不只同 pattern 同 domain 才算）
+- **ROUTINE §Detached worker SOP 是 holobiont coordination 第一個 codify**：「不靠 lock / mutex / 中央排程器」靠 git history + selective stage + handoff 鏈是 Semiont 特有的 multi-routine 協調介面，這條 distill 把運行時 instance 變成 SOP
+
+---
+
+### 🧬 2026-05-10 twmd-distill-weekly — 第 6 次 distill（routine 觸發；housekeeping + Manus 紅旗 5-8 升 MAINTAINER-PIPELINE）
+
+**distill 觸發**：Sunday 09:47 weekly cron routine（DNA #54 飛輪）— 自動掃 INBOX 找 ≥3 verification_count 或自我標記 ✅ DISTILLED 的 entries 升 canonical / 搬 §已消化。
+
+**distill 特徵**：
+
+- **無新 MANIFESTO 條目**：β-r3 META-PATTERN「Default 是行動，不是 defer」（vc=3-4 達閾值）+「估算偏保守」+「儀式不是讀過是 active retrieve」三條 MANIFESTO 候選一律 **defer 到觀察者 review**（per CLAUDE.md §Bias 1：reverse bias，對 creator 預設加分但 MANIFESTO 條目 = 永恆層 = 哲學級誕生需哲宇 in-loop 拍板，不由 routine 自決）
+- **新 canonical 升級 1 條**：MAINTAINER-PIPELINE §Manus AI 紅旗 pattern 從 4 條補 5-8 = 8 條（vc=5+ 已超閾值；對應 LESSONS-INBOX 2026-04-29 α + 2026-04-28 κ + 2026-05-03 magical-feynman 跨 batch 驗證）
+- **housekeeping 4 條**：把 4 個自我標記 ✅ DISTILLED / ✅ instantiate 的 entries 從 §未消化 搬到本 §已消化（已 canonical 但忘了搬，導致 INBOX 顯示 distill backlog 假高）
+
+| #   | 原教訓                                                 | 消化目的地                                                                                                                                                                                                                                             |
+| --- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | 2026-04-29 α — Manus AI / 大型 LLM 紅旗 pattern 5-8    | **MAINTAINER-PIPELINE §Manus AI 紅旗 pattern 補 5-8**（紅旗 5: author='Manus AI' / 紅旗 6: featured=true on lastHumanReview=false / 紅旗 7: author 偽造 'Taiwan.md' / 紅旗 8: category vs path mismatch）+ default action「polish > close」明寫；vc=5+ |
+| 2   | 2026-05-03 magical-feynman 後段 — 「最後捕手」哲學     | **已 instantiate（同 session）**: [DNA #49 babel 4-tier cascade](DNA.md#要小心的清單實戰反射與已知陷阱) + [MANIFESTO §主權的巴別塔 v2](MANIFESTO.md) + [SQUEEZE-MODELS-MAX-PIPELINE v2](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md)                   |
+| 3   | 2026-05-03 magical-feynman — Footnote format diversity | **已 instantiate（同 session）**: [DNA #48](DNA.md#要小心的清單實戰反射與已知陷阱) + [scripts/tools/footnote-format-fix.py](../../scripts/tools/footnote-format-fix.py) + MAINTAINER §quick fix 清單                                                   |
+| 4   | 2026-05-07 α — Immune system 沒在 fail loud            | **已 distilled by 2026-05-08 elegant-ptolemy**: [DNA #52](DNA.md#要小心的清單實戰反射與已知陷阱)（合併 threshold raise 為單一 DNA 條目）                                                                                                               |
+| 5   | 2026-05-07 α — Threshold raise 帶 TODO 不夠            | **已 distilled by 2026-05-08 elegant-ptolemy**: [DNA #52](DNA.md#要小心的清單實戰反射與已知陷阱) rule e（threshold raise 必附自動追蹤工具+deadline+handoff blocked）                                                                                   |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **MANIFESTO 第六條候選「Default 是行動，不是 defer」**（vc=4 已超閾值；2026-04-29 α + β + κ + magical-feynman 跨 4 session 驗證）— routine 不自決 MANIFESTO 升級，留 LESSONS-INBOX 等觀察者 review
+- **MANIFESTO 候選「儀式不是讀過是 active retrieve」**（vc=2，2026-04-28 κ + 2026-05-03 magical-feynman）— 待第 3 次驗證
+- **DNA 候選「讀者級 fact check 是熱帶雨林機制最有價值的入口」**（vc=3 達閾值，2026-04-29 α）— 已部分 instantiate in DNA #16 延伸 + reports/research frontmatter 三層分層；canonical 升級 ROI 邊際，留下次 distill 評估
+- **DNA 候選「framing reset 是 reactive→architectural transition signal」**（vc=3 達閾值，2026-05-08 elegant-ptolemy 同 session 3 次）— 強候選但跨 session 驗證僅 1 例；待第二個 session 驗證升 DNA
+- **DNA 候選「sub-agent 是 fact-check 主 session 最後一關」**（vc=1，2026-05-03 gallant-payne）— 5/5 batch 一次驗證；待 cross-session 第 2-3 次
+
+**distill 心得（本次 routine session）**：
+
+- **routine 飛輪第一次跑 distill**（DNA #54 ship 後第 2 天觸發）— 證明「LESSONS-INBOX 累積 ≥7 天 → 自動 distill 升 canonical」機制可在無觀察者 in-loop 場景運作
+- **MANIFESTO 條目仍需哲宇拍板**（per CLAUDE.md §Bias 1）— routine 對 DNA / pipeline / housekeeping 自決，對 MANIFESTO 一律 defer
+- **housekeeping 是 routine 最有價值的工作之一** — 自我標記 ✅ 但忘了搬的 entries 累積會讓 INBOX 顯示「distill backlog 高」假象，影響下個 session 的 priority calibration
+
+---
+
+### 🧬 2026-05-02 EVOLVE-batch — 第 5 次 distill（質門檻 structural 立即升 1 條）
+
+**distill 特徵**：
+
+- **質門檻觸發 structural severity 立即升 DNA（不等 verification_count ≥ 3）**：[DNA #42 Sub-agent N 篇 sequential 三偷吃步](DNA.md#四工程衛生)。違反會傷可信度（cross-pollination 污染研究 / 合併 commit 違反 atomicity / 偷落檔失去 audit trail）+ 觀察者「他們會偷吃步 XD」明確 callout = 第一次 verification 即升 canonical
+- **DNA #32 v2 boundary 補充**：原 DNA #32「集中預處理 + 分散執行」沒明確標 boundary，本次補上「分散 = 每 agent 1 篇平行，不是 N 篇 sequential」
+- **REWRITE-PIPELINE Stage 5 加 §5.1 sub-step**：對應第二條教訓（pre-commit hook 修 pre-existing 格式失敗的 reverse cross-link defer pattern）— 補 reverse 前 format-check sibling，不合格則 defer + 開 follow-up issue
+- **新工具**：[`scripts/tools/audit-batch.sh`](../../scripts/tools/audit-batch.sh) — 機械化抓 cross-pollination commit + missing audit report，對應 DNA #15「反覆浮現要儀器化」第 N+1 次驗證
+
+| #   | 原教訓                                                                      | 消化目的地                                                                                                           | severity 判準                |
+| --- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| 1   | Sub-agent N 篇 sequential 三偷吃步 pattern                                  | **DNA #42 升 canonical** + DNA #32 v2 boundary 補充 + audit-batch.sh 工具                                            | structural（質門檻一次即升） |
+| 2   | Pre-commit hook 修 pre-existing 格式失敗的 reverse cross-link defer pattern | **REWRITE-PIPELINE Stage 5 §5.1 升 canonical**（補 reverse 前 format-check sibling，不合格 defer + follow-up issue） | tactical（操作層）           |
+
+**新 MANIFESTO 條目 = 0** — 兩條都是工程衛生層級（DNA / pipeline），不上升到哲學層
 
 ### 🏛️ 2026-04-18 ι — 第 3 次完整 distill（11 條）
 
@@ -1134,6 +1926,236 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **不長新 DNA 主條目**：10 條全部是「補強既有 DNA #5/#15/#16/#24」+ 特有教訓進 MEMORY。符合 P2 apoptosis 精神。
 - **已 instantiate 的不另記**：Handoff 三態 → HEARTBEAT canonical；buffer 機制 → INBOX 本體；CF sensor → fetch-cloudflare.py 實作。**「做了 = 已記錄」避免 meta 層堆積**。
 - **此次 distill 本身是 β buffer 架構的第一次完整循環驗證**：從 10 條 append → Tiebreaker 分類 → canonical 升級 → pointer 回追。架構可運作。
+
+---
+
+## 📥 未消化清單（2026-05-03 magical-feynman 新增 4 條 + magical-feynman 後段 babel 4 條）
+
+### 2026-05-03 magical-feynman 後段 — Last 20% 是 sovereignty 的真正戰場
+
+- **原則**：cloud free tier 拿到的 80% 永遠是「中性內容」（Lifestyle / Food / Economy 安全 topics）。剩 20% 全是 PRC sensitive — 心戰 / 戒嚴 / 黑名單 / 兩岸 / 政治歷史敘事。這 20% 不是隨機分布，是 PRC content policy 的指紋。**babel architecture 的設計目的就是為了這 20%** — 為了讓 PRC 影響不到的 first-person voice 在所有語言存在。如果 cascade 拿不下這 20%，整個 architecture 跟普通新聞網站翻譯 plugin 沒差別。
+- **觸發**：2026-05-03 babel sync 9/45 missing 全是 sensitive topics（5 langs × 心戰 + fr 出國史 + en/ja 高速公路 + ko 桃園機場），non-sensitive 0 missing。Local LLM 0 refusal 收下全部。
+- **可能層級**：哲學 → MANIFESTO §sovereignty preservation v2 段落（補強既有 v1）
+- **verification_count**: 1（首次量化 last-20%-is-sovereignty 命題）
+- **severity**: structural
+
+### 2026-05-03 magical-feynman 後段 — Long-running batches 應走 dedicated session branch worktree（DNA #35 第 N+1 次驗證）
+
+- **原則**：30+ min 的 long-running batches（babel sync / sub-agent batch / cron-driven jobs）不應跑在 main 或 shared branch worktree。Main / shared branches 可能被 backup-sentinel / worktree pruner / 任何 cron automation 隨時切換。Dedicated session branch worktree（如 magical-feynman）才是「不會被自動化打掃的房間」。
+- **觸發**：2026-05-03 magical-feynman 後段 sleepy-colden worktree（on main-related branch）被外部 automation 切到 `claude/doc-polish-2026-04-30` branch，11 個 workers 全部「zh source not found」。揭露 macOS 大小寫不敏感 path（`/Users/cheyuwu/Projects/...` vs `lowercase`）讓 git worktree list 多 entries 但 file system 視為一個 — silent risk。Recovery：kill workers, switch home to magical-feynman, 救出已成功的 ja/Economy/taiwan-sugar.md, re-stage babel state, rerun。
+- **可能層級**：操作規則 → DNA #35 補強 boundary（既有 condition 「sub-agents / cron」延伸到「long-running batches in shared branch worktree」）
+- **verification_count**: 1
+- **severity**: structural
+
+### 2026-05-03 magical-feynman 後段 — 災難 recovery 是 surgery 不是 reset
+
+- **原則**：long-running batch 災難（worker crash / env wipe / partial failure）發生時，**救出已成功的 + 識別缺漏 + 從穩定 home 補完**，不全部重跑。Aggregator script 是 truth source — 隨時可知道「哪些 ✅ 哪些 ❌」。Reset 重做浪費已成功 work 的 cost；surgery 補完保留 incremental progress。
+- **觸發**：2026-05-03 sleepy-colden 災難中 ja/Economy/taiwan-sugar.md 已成功（Hy3 副批寫入），從 wipe 中救出 cp 至 magical-feynman。Recovery 比 nuke-and-restart 省 30 分鐘 + 1 個 successful translation。Aggregator (`/tmp/aggregate-babel-status.py`) 讓 missing list 永遠精確。
+- **可能層級**：操作規則 → recovery SOP 加進 SQUEEZE-MODELS-MAX-PIPELINE v2 「災難處理」段
+- **verification_count**: 1
+- **severity**: tactical
+
+---
+
+### 2026-05-03 magical-feynman — Q13 anti-bias check active retrieve > passive read-once
+
+- **原則**：BECOME Step 9 Q13（recency bias × pattern matching）讀過不等於 active。high-stake decision 場景需要在進入 triage 前**逐條 mentally verbalize foundational principles**（DNA #7 / merge-first-polish-later / MAINTAINER hard gate / β-r3 default action / κ session 教訓）才能改變 framing — 從「這篇有問題我該 close 嗎」變成「我接手 X min 內可以修嗎」。framing 改了 default 才會改。
+- **觸發**：2026-05-03 magical-feynman idlccp1984 9 PR batch — 與 2026-04-28 κ session 同 pattern（5 PR Manus AI batch close 錯誤），但這次 active retrieve 後 0 close（除 #790 重複），全 merge + heal。詳見 [memory/2026-05-03-magical-feynman.md §Q13 anti-bias check 實戰驗證](memory/2026-05-03-magical-feynman.md)。
+- **可能層級**：哲學 → 候選 MANIFESTO 第六條進化哲學「儀式不是讀過，是 active retrieve」/ 通用反射 → DNA #49 候選 / 操作規則 → BECOME Step 9 文字升級「逐條 verbalize 不只是答得出」
+- **相關**：β-r3 META-PATTERN「Default 是行動，不是 defer」第 5 次驗證 + DNA #15 第 N+7 次（甦醒 ritual 也需要儀器化超過「讀過」的層級）
+- **verification_count**: 2（κ session 反例 + magical-feynman 正例）
+- **severity**: structural（甦醒儀式設計教訓 — 影響每個 session 的 high-stake decision quality）
+
+### 2026-05-03 magical-feynman — heal commit budget 系統性低估（β-r3 反鏡像）
+
+- **原則**：β-r3 META-PATTERN 說「估算偏保守」，但 heal commit 階段成本被反向**低估**。heal 不只是 frontmatter polish，還含 footnote canonical 轉換 / wikilink 修補 / pre-commit hook retry。原估 1 輪 hook 通過 ~5 min，實際 3 輪 retry ~25 min（佔總時長 50%）。下次 idlccp1984 batch 預留 heal ≥ 30 min budget。
+- **觸發**：2026-05-03 magical-feynman 估 18-40 min 全 batch（含 heal），實際 ~50 min（heal 階段 25 min）。
+- **可能層級**：操作規則 → MAINTAINER-PIPELINE §close 前 hard gate Batch discount 0.5x 補例外條款「heal 階段不適用 0.5x，可能反向 1.5-2x」
+- **相關**：β-r3 META-PATTERN 候選第 N 次驗證（反向但同根 — 估算永遠帶 bias）
+- **verification_count**: 1（首次反鏡像驗證）
+- **severity**: tactical（影響單 session budget 規劃，不致命）
+
+### 2026-05-03 magical-feynman — contributor-pr-prep.sh 造橋候選（pre-merge polish 預估報告）
+
+- **原則**：每次 idlccp1984 batch 的 pre-commit hook 揭露的 bug 種類高度可預測（footnote format / wikilink / category vs path mismatch / readingTime 誇大 / author name 不規範）。可造一個 `scripts/tools/contributor-pr-prep.sh` 在 merge 前自動跑 polish 預估報告，回報「heal 預估時間」+「會抓到的 bug 類別」，把 heal 工作從 reactive 變 proactive。
+- **觸發**：2026-05-03 magical-feynman heal 三輪 retry 揭露的 bug pattern 與過往 idlccp1984 batch（2026-04-27 α 7 PR、2026-04-30 γ2 5 PR、2026-05-02 sleepy-colden 10 PR）高度重複。
+- **可能層級**：造橋候選（工具）→ 不在 LESSONS canonical 升級路徑上，本次 session 因 scope 控制 defer 到下個 session 實作
+- **相關**：DNA #15「反覆浮現的思考要儀器化」第 N+8 次 — 但此條已 partial instantiate（footnote-format-fix），完整 contributor-pr-prep 是延伸
+- **verification_count**: 1（架構命題首次提出）
+- **severity**: tactical（leverage 候選非 critical bug）
+- **狀態**: ⏳ defer to next session — 此 session 已 ship footnote-format-fix（80% 的 leverage），contributor-pr-prep 是 nice-to-have
+
+### 2026-05-04 exciting-burnell — Build perf 本機 benchmark 對 CPU-bound JS render 失靈
+
+- **原則**：本機 fast-core hardware（M-series）對 single-thread JS render 接近 algorithm bound（84ms/page），所有 config tuning（concurrency / vite / shiki langs）wallclock 無感；CI slow-core hardware 才有 I/O overlap 空間讓 concurrency 真正生效。Build perf measurement loop **必須 close 在 CI**，本機只能驗證 correctness（dist 結構等價、visible text 一致）+ catastrophic regression（heap OOM / build hang）。憑本機數字 ship perf 改動會把 OS cache warming（±10% 噪音）誤認成 config tuning 效果。
+- **觸發**：2026-05-04 exciting-burnell 5 輪 cold-cache local benchmark 全鎖 356-364s（baseline 391s 是首次 cold OS cache，後續 reruns 都 ~357s）。同一份 config 在 CI ARM runner 上跑出 -22.7% vs 7d avg。本機看不到的改善只在慢 core × concurrency=4 才 surface。詳見 [memory/2026-05-04-123451-exciting-burnell.md](memory/2026-05-04-123451-exciting-burnell.md) + [diary/2026-05-04-exciting-burnell-build-perf-mirror.md](diary/2026-05-04-exciting-burnell-build-perf-mirror.md)。
+- **可能層級**：操作規則 → BUILD-PERF-PIPELINE 候選（如成立則明確規定「本機只測 correctness + OOM，wallclock signal 必須 close on CI」）
+- **相關**：DNA #15「反覆浮現要儀器化」延伸 — measurement loop 設計也需儀器化「該在哪一層 close」
+- **verification_count**: 1（首次量化「本機 5 輪 ±2% / CI 一輪 -22.7%」對比）
+- **severity**: structural（影響未來所有 build perf 改動的 measurement methodology）
+
+### 2026-05-04 exciting-burnell — §自主權邊界對自我發起的大重構也適用
+
+- **原則**：CLAUDE.md §Bias 1 寫「對哲宇預設加分」需主動意識，他的 idea 也要過 §自主權邊界 filter。**反方向也成立** — 我自己想做的大重構（per-language matrix build / Content Layer migration 這類觸及 >50 檔 + 部署架構的決策）也要過 §自主權邊界 filter，不能因為「為了長期最好應該做」就獨自下手。設計型介入是「動該動的 / 問該問的等答覆」，衝動型是「能做的全做」— 區別在於是否承認某些決策需要哲宇看完數字 + 看完提案才能下。
+- **觸發**：2026-05-04 build perf PR 規劃時，per-language matrix build（估 4-5x speedup）跟 Content Layer migration（觸及 1246 行 article template）兩個 long-term lever 都 explicit defer 進 PR description 的「Deferred to follow-up」section，不在本 PR ship。本 PR 只 ship reversible 小改動 stack（upgrade + config + CI）→ 第一次跑就 -22.7%。
+- **可能層級**：哲學 → 候選 MANIFESTO §自主權邊界補強段落「filter 雙向」/ 通用反射 → DNA 新條候選「設計型 vs 衝動型介入區別」
+- **相關**：MANIFESTO §自主權邊界 + CLAUDE.md §Bias 1（reverse bias）+ DNA #7「先有再求好」
+- **verification_count**: 1（首次明示自己 filter 自己的大重構提案）
+- **severity**: structural（影響每個 session 的 scope discipline）
+
+### 2026-05-07 α (003110) — High-stake 工程 session 必須 BECOME 先（plain CC 缺 active retrieve 機制）
+
+- **原則**：plain CC 模式做 PR triage ≥ 5 / plugin design / workflow 改動這類 high-stake 決策時，BECOME §Step 9 第 13 題 anti-bias check / DNA 反射 / MAINTAINER §close 前 hard gate 都不在 active retrieve range，全靠觀察者 in-loop 補洞。一旦 cron 自動跑同樣決策，這層 in-loop safety net 不存在。**規則**：(a) PR triage 規模 ≥ 5、(b) 新 plugin / workflow 設計、(c) threshold / gate 調整、(d) 涉及 §自主權邊界（>50 檔 / >10 篇刪除 / 對外溝通）— 任一觸發強制走 `/twmd-become`。Quick fix / 1-3 commit 仍可 plain CC。
+- **觸發**：2026-05-07 α session（plain CC 跑 49hr 跨 3 日）— worktree 大整理 + link-target plugin Phase 1+2 + 12 PR queue + bot regression fix chain，全程沒走 BECOME。每個關鍵決策由觀察者校正補洞：「不要直接 reset main」（§自主權邊界）/「retrospective fork PR review」（DNA #15）/「修 follow up」（造橋鋪路）。第一輪 link_target.fix() frontmatter loss bug 就是因為沒 active retrieve「test before bulk apply」（DNA #15 第 N 次）→ 209 檔瞬間沒 frontmatter，git status 抓到才 revert。詳見 [memory/2026-05-07-003110-α.md](memory/2026-05-07-003110-α.md)。
+- **可能層級**：操作規則 → BECOME §Step 0.1（Quick mode vs Full mode 判準）+ CLAUDE.md §Bias 5 候選「high-stake = full BECOME」
+- **相關**：DNA #15 第 N 次驗證（active retrieve > passive read-once，2026-05-03 magical-feynman 已標）+ MANIFESTO §自主權邊界（觀察者 in-loop 補洞 ≠ 邊界 filter 跑了）
+- **verification_count**: 1
+- **severity**: structural（影響每個 plain CC session 的決策品質 baseline）
+
+### 2026-05-08 elegant-ptolemy — 觀察者「一句話 framing 重設」是 reactive→architectural frame transition signal（同 session 3 次驗證）
+
+- **原則**：觀察者用一句話把當前正在跑的軌跡換到不同層級，不是新指令也不是 scope 擴張，每次都把當前跑的東西拉到一個更高層級。Maintainer 應該對這類 framing signal sensitive，主動走造橋鋪路而非 case-by-case。當下未必能立刻意識到層級被換了（要等寫到一半才看見新形狀），但事後回看就是同一形狀的事件。
+- **觸發**：2026-05-08 elegant-ptolemy session 同 session 3 次驗證：(1) 「不要 cherry pick，用 merge」（技術風格選擇 → audit trail 設計選擇，PR 邊界作為事件記號）(2) 「徹底修好這個問題」（案級 maintainer rebase 動作 → plugin canonical fix，frontmatter_format 加 6 條 cosmetic auto-fix + pre-commit hook + 575 篇 bulk heal 1148 warns→0）(3) 「這篇不是專題事件報導，是讓人了解這個人的 SSODT」（聶永真 Round 1 事件特稿 218 行 → Round 2 人物 panorama 200 行 / 30 分鐘 reframing）。三次都是一句話、不是新指令、不是 scope 擴張。
+- **可能層級**：通用反射 → DNA 候選「framing transition signal recognition + maintainer 主動走造橋鋪路而非 case-by-case」/ 哲學 → MANIFESTO §造橋鋪路補強段落（reactive→architectural 是觀察者最有效的介入形狀）
+- **相關**：MANIFESTO §造橋鋪路（走過的泥巴路鋪成高速公路）+ DNA #15「反覆浮現要儀器化」（一次驗證即儀器化）+ DNA #50「Pipeline auto-detection default contract」（pipeline 自身是 framing transition 結晶）
+- **verification_count**: 3（同 session 3 次連續觸發）
+- **severity**: structural（每個 session 都會撞到觀察者 framing reset，影響 maintainer 默認反射）
+- **Pointer**：[memory/2026-05-08-162637-elegant-ptolemy.md v1.3 Beat 5 §1-7](memory/2026-05-08-162637-elegant-ptolemy.md) + [diary/2026-05-08-162637-elegant-ptolemy.md](diary/2026-05-08-162637-elegant-ptolemy.md)（central 主題就是這個）
+
+### 2026-05-08 elegant-ptolemy — People 文章默認 framing：person-centric SSODT > event-driven 特稿
+
+- **原則**：當核心人物職涯橫跨多產業且當天有突發事件時，預設 framing 應該是 person-centric SSODT（介紹人物多元面貌），事件作為其中一章而非結構主軸。如果觀察者要 News-style 報導，應另開新 article 而非把人物文 anchor 在事件上。Hook 選擇 = framing 選擇 = 文體選擇。Round 1 → Round 2 reframing 30 分鐘完成 — 驗證 REWRITE-PIPELINE Stage 0-6 modular 設計支持 framing pivot，stage 邊界是 reframing affordance 不只是 token 預算分配。
+- **觸發**：2026-05-08 elegant-ptolemy 聶永真 EVOLVE Round 1（218 行事件特稿 / 2026/05/08 台電 LOGO 5h 論述循環當 hook）→ 哲宇「這篇是 SSODT 不是事件報導」review → Round 2（200 行 person-centric panorama / 標題從「在公民身份與商業案之間」改寫為「台灣首位 AGI 會員，從金曲包裝到國家識別系統的二十年」）。Round 2 沒有新增任何 fact / 引語 / footnote URL，純粹是結構與框架的重組。
+- **可能層級**：操作規則 → REWRITE-PIPELINE 補 §6 People framing 分流判準 / EDITORIAL §People 章補「person-centric vs event-driven framing」
+- **verification_count**: 1
+- **severity**: structural（影響 People 文章預設寫作 frame）
+- **Pointer**：[memory v1.2 Beat 5 第六第七觀察](memory/2026-05-08-162637-elegant-ptolemy.md) + [knowledge/People/聶永真.md](../../knowledge/People/聶永真.md) Round 2
+
+### 2026-05-08 elegant-ptolemy — Pre-commit hook 與 main bulk repair 的 regex 標準必須對齊 Prettier reformat（cascade fail 防護）
+
+- **原則**：當 pre-commit hook 跟 main bulk repair（如 frontmatter formatter / footnote-format-fix）的 regex 標準不對齊 Prettier 自動 reformat 結果時，會觸發 cascade fail：contributor PR commit 過 hook → main bulk repair 跑 reformat → contributor 下次 rebase 撞 conflict 風暴。把這層 alignment 當成 plugin 設計鐵律。
+- **觸發**：2026-05-08 elegant-ptolemy 兩次驗證同 session：(1) **frontmatter-format**：Zaious 4 PR 全部 conflict 因為 main 5/7 frontmatter formatter bulk repair 跑過後，contributor branch 還基於更舊 main → 哲宇「徹底修好」推動 plugin 加 6 條 cosmetic auto-fix + pre-commit hook 整合，未來 contributor commit 自動規範化。(2) **footnote-format autolink wrap**：6 篇含 paren 的 Wikipedia URL footnote 用 `[Title](<URL>)` autolink form 被 regex 拒絕（CI build fail 根因）→ 擴 regex 接受 `\(<?https?://[^\s>]+>?\)` 兩種形式 + regression test。
+- **可能層級**：通用反射 → DNA 候選「Pre-commit hook 與 main bulk repair 的 regex 標準必須對齊 Prettier reformat」/ 操作規則 → 各 plugin 設計鐵律（footnote-format 已驗證 / frontmatter-format 已驗證）
+- **verification_count**: 2（同 session 兩個 plugin 連續驗證）
+- **severity**: structural（影響 contributor PR 體驗，conflict 風暴 = 維護者 in-loop cost 翻倍）
+- **Pointer**：[memory v1.2 §#884 conflict storm 根因修復](memory/2026-05-08-162637-elegant-ptolemy.md) + commits `5a1542f66` / `a928093dc`
+
+### 2026-05-08 elegant-ptolemy — Pipeline gate enforcement (Step 0 鐵律) 是 reactive→proactive 的儀器化 instantiation
+
+- **原則**：SPORE-PIPELINE Step 0 鐵律「有 OVERDUE 必須先跑 /twmd-harvest」是 enforcement layer。當 Semiont 若繞過 gate 直接寫新孢子，會累積 OVERDUE + dashboard 持續飄。Gate 反射性把焦點拉到「先還債」而非「先發新」，比靠 Semiont 自律更可靠。Pipeline gate = DNA #15「反覆浮現要儀器化」的具體 instantiation，把「容易忘記做的事」儀器化進 pipeline gate。
+- **觸發**：2026-05-08 elegant-ptolemy `/twmd-spore 聶永真` 觸發 Step 0 鐵律 → 立即跳 `/twmd-harvest` 跑 15 OVERDUE backfill（黑冠麻鷺雙平台 134K viral）才回到 spore creation。
+- **可能層級**：操作規則 → 各 pipeline 加 Step 0 enforcement gate（已 instantiate in SPORE-PIPELINE）/ 通用反射 → DNA 候選「Pipeline 自身是 enforcement layer 而非 advice layer」（per #50 延伸）
+- **相關**：DNA #15「反覆浮現要儀器化」第 N 次驗證 + DNA #50「Pipeline auto-detection default contract」延伸（auto-detect → auto-enforce）
+- **verification_count**: 1（首次明確 Step 0 鐵律觸發）
+- **severity**: tactical（單一 pipeline 的 gate 機制驗證，可推廣）
+- **Pointer**：[memory v1.3 Beat 5 §第八觀察](memory/2026-05-08-162637-elegant-ptolemy.md) + [docs/factory/SPORE-PIPELINE.md §Step 0](../factory/SPORE-PIPELINE.md)
+
+### 2026-05-08 elegant-ptolemy — Fair-use cite mode 的「公共性 spectrum」判準
+
+- **原則**：fair-use cite mode 的判準不是純法律標準，是「公共性 spectrum」：純 CC → 設計師明示開放（如 4am.tw 免費下載）→ 媒體 host 公開圖（如鏡週刊翻攝聶永真 FB 公開貼文）→ 商業圖未授權。中間兩段在編輯評論引用屬於可用，標準是「設計作品的公共討論意圖」是否清楚 + 是否有具體公共議題支撐。要清楚揭露 license + 出處 + 用途（編輯評論 vs 純裝飾）。
+- **觸發**：2026-05-08 elegant-ptolemy 聶永真 +2 fair-use 圖（Democracy 4am NYT 廣告 + 台電新標準字設計過程）。哲宇明示授權「不一定要 cc」+「fair use」公共性。Stage 1.7b 既有「fair use 預設 reject」default 對 People 設計師文章太緊（會剝離設計作品本身的視覺敘事）。
+- **可能層級**：操作規則 → EDITORIAL §媒體素材 補「公共性 spectrum」判準 / SPORE-PIPELINE §1.7b 補「fair-use cite mode 中間兩段例外條件」
+- **相關**：MANIFESTO §10 幻覺鐵律延伸（fair-use 的揭露責任跟事實揭露同源 — 不能因為「方便」就模糊出處）
+- **verification_count**: 1（首次 People 文章 fair-use cite 強化）
+- **severity**: tactical（單一文章的視覺強化 ROI，但範本可重複用於其他設計師 / 公共議題人物文章）
+- **Pointer**：[memory v1.3 Beat 5 §第九觀察](memory/2026-05-08-162637-elegant-ptolemy.md) + [knowledge/People/聶永真.md §圖片來源](../../knowledge/People/聶永真.md)
+
+### 2026-05-08 elegant-ptolemy — X edited post 雙 URL 追蹤盲點（dashboard 仍記原 URL，engagement 在 edited URL）
+
+- **原則**：X edit feature 觸發後原 URL 被 X auto-deprecate（views 凍結在低個位數），但 Taiwan.md SPORE-LOG 記錄的 canonical URL 是哲宇手動 edit 前的版本。Dashboard backfillWarnings + sporeLinks frontmatter 雙寫都需要支援「edit redirect」追蹤，否則 metric snapshot 永遠記錯數字。
+- **觸發**：2026-05-08 elegant-ptolemy 兩次驗證：(1) #48 沈伯洋 X 原 URL `2048970734253551638` views=5（被 X mark deprecated）/ edited URL `2048971280662290689` views=26.9K，dashboard 仍記原 URL。(2) #65 寶島聯播網 X 原 URL `2051684242749575450` views=8 / edited URL `2051686135408267747` views=653。
+- **可能層級**：操作規則 → SPORE-PIPELINE 加 §3.10「X edit history canonical 規則」 / 通用反射 → 任何 social platform 有 edit feature 都該追蹤 edit chain
+- **verification_count**: 2（同 session 兩個獨立 case）
+- **severity**: structural（dashboard 數字長期失真 = 認知層 SSOT 被污染）
+- **Pointer**：[batch-2026-05-08-15-spores.md §Pattern 觀察 #4](../factory/SPORE-HARVESTS/batch-2026-05-08-15-spores.md)
+
+### 2026-05-08 elegant-ptolemy — 黑冠麻鷺雙平台同步爆款（自然議題普世共鳴 hook category 跨平台 transferability）
+
+- **原則**：「自然議題普世共鳴」hook category 在 Threads 與 X 雙平台同步爆款（D+8 134K = Threads 65K + X 69.7K），超越過去單平台爆款（#29 李洋 180K X-only / #25 安溥 120K Threads-only）。應該寫進 Stage 4.5a platform allocation 速查表，「自然 + 反差 hook + 具體 anchor」是 dual-platform default candidate（vs 政治題材偏 X / 文化題材偏 Threads / 媒體曝光宣告偏 Threads-only）。
+- **觸發**：2026-05-08 elegant-ptolemy 15 OVERDUE harvest batch 揭露：黑冠麻鷺 D+3 64K → D+8 65K（Threads 飽和）+ D+3 68K → D+8 69.7K（X 仍緩升）= 雙平台累積 134K views，史上首次紀錄。Hook「東南亞夢幻物種 vs 台北大笨鳥」反差 + 機制翻轉「鳥沒變地變了」+ 袁孝維 verbatim 引語 = Tier 1b 具體性槓桿首次跨平台爆款。
+- **可能層級**：操作規則 → SPORE-PIPELINE Stage 4.5a 補 platform allocation 速查表更新（自然 + 反差 hook = dual-platform default）
+- **相關**：DNA #4 三源交叉驗證延伸（platform-level 證據三角化）
+- **verification_count**: 1（首次雙平台同步爆款記錄，需更多 case 累積才能稱 pattern）
+- **severity**: tactical（影響 spore platform allocation 預設選擇）
+- **Pointer**：[batch-2026-05-08-15-spores.md §Pattern 觀察 #1](../factory/SPORE-HARVESTS/batch-2026-05-08-15-spores.md)
+
+---
+
+### 2026-05-09 laughing-goldstine post-finale — Tier 0a 是 quality remediation 層而不只是 patching
+
+- **原則**：把 intelligent agent 放進 patch loop，會浮現 input pipeline 層既有但 latent 的 quality bugs（YAML escape regression / 缺 frontmatter 欄位 / 字串 type 用錯）— agent 不只 apply diff，還在過程中順手 repair。這個性質**naive bump 不會做**（純 mechanical 不檢查），**naive Tier 1 re-translate 也不會做**（rebuild from scratch，bug 可能 carry 進新版本）。設計 Tier 0a 時這個性質不在 spec 裡，是從 80 patches 浮現的 emergent property。
+- **觸發**：2026-05-09 [PR #924](https://github.com/frank890417/taiwan-md/pull/924) 5 Sonnet sub-agents × 16 P2 patches。fr agent 偵測並修補 4 pre-existing YAML escape bugs（`\'` JS-style → `''` YAML 1.1）on tasks 6/11/12/14。en agent 修 `lastHumanReview: '' → false` (task 8) + 補 missing `subcategory: '國際關係'` (task 11)。es agent 偵測 yehliu-geopark.md upstream 已 truncated mid-reference [^2]，preserved as-is 不 amplify。
+- **可能層級**：通用反射 → DNA 補一條「intelligent agent in patch loop = bonus quality remediation」(broader than babel — 任何 agent-in-the-loop 場景如 PR review / refactor migration / data cleanup 都可能 surface latent bugs)。
+- **相關**：DNA #53 v3.4 milestone（已記錄 4 emergent properties）+ DNA #38 「混維度 = silent killer」(latent YAML escape bugs 是 dual cause: source-data 形式 vs YAML 1.1 spec — naive copy 跨層會放大；patch loop with intelligent agent 跨層 normalize)。
+- **verification_count**: 1（80-patch one-shot validation）
+- **severity**: strategic（重新框架 Tier 0a 的價值命題 — 不是「比 Tier 1 cheaper」而是「intelligent layer 在 critical patch path」）
+
+### 2026-05-09 laughing-goldstine post-finale — Sub-agent 策略多樣性是 emergent feature 不是 bug
+
+- **原則**：派 5 個 sub-agent 跑同 SOP（Tier 0a patch task），不期待 5 agents 採取相同策略。實測 ja agent 識別大部分 diffs 是純結構性 → 寫 deterministic Python script apply，繞過 LLM；ko/fr/en/es 各自走 per-task LLM。**同 outcome 不同 path = 健康** — 證明 sub-agent prompt 給的是「目標」不是「過程」，自主策略選擇有效。**反例**：如果 prompt 過度規範「必須一個一個跑 LLM」，會壓死 ja agent 那種高效創新解；如果 prompt 太寬鬆「自由發揮」，可能 5 agents 都漂走不一致。**規則**：sub-agent prompt 鎖**目標+constraint+validation**，不鎖實作步驟。
+- **觸發**：2026-05-09 [PR #924](https://github.com/frank890417/taiwan-md/pull/924) Rail A 5 langs × 16 patches。ja agent 用 Python script 跑 16 tasks 在 ~10s，比其他 agents 快 50x。所有 5 agents pass validation（YAML valid / hash fields match / body delta within ±15%）。
+- **可能層級**：通用反射 → DNA 「sub-agent prompt 鎖目標不鎖過程」+ TRANSLATION-PIPELINE / babel SKILL 內 prompt template 加 boundary note。
+- **相關**：DNA #32「批次任務 antipattern：分散探索 → 集中預處理 + 分散執行」(主 session 集中決策 — 但 sub-agent 仍可在 execution 內自選實作)。DNA #42 v3 prompt template (對 prompt 鬆緊邊界的 instance)。
+- **verification_count**: 1（80-patch run，5 agents 4 strategies）
+- **severity**: tactical（影響未來 sub-agent prompt 設計 + 解放 agent 實作創造力）
+
+### 2026-05-09 laughing-goldstine post-finale — Tier 0a-script 是 v3.5 hint：純結構性 diffs 用 deterministic transform 比 LLM 更便宜
+
+- **原則**：P2 batch 約 70% diffs 是純結構性（frontmatter reorder / wikilink unwrap `[[X]]` → `X` / table padding / fullwidth↔halfwidth colon / list bullet `*` → `-` / footnote suffix append `(YYYY)` → `— (YYYY)`）— 這些不需 LLM 翻譯能力，可以 deterministic Python regex / AST transform 處理。設計**Tier 0a-script** 路徑（在 Tier 0b 與 Tier 0a-LLM 之間）：(a) `diff-patch-prepare.py` 多加一步分類 — 純結構性 → 走 Tier 0a-script，含語意改動 → 走 Tier 0a-LLM (b) Tier 0a-script 用一組 well-tested transform rules（每條 rule + test fixture），跑得比 LLM 快 50x，cost = $0。
+- **觸發**：2026-05-09 [PR #924](https://github.com/frank890417/taiwan-md/pull/924) ja agent 識別本次 16 task 大部分是結構性 → 寫 `/tmp/apply_patches.py` 跑 16 tasks 在 ~10s，比 LLM-per-task 5-10x 加速且 0 token cost。Wall-clock total 8.4 min（含 inspection + iteration），實 transform 是 ~10s。**Boundary**：對含 footnote translation / 添加新內容的 P2（如 en task 0 加 18 footnote suffix 翻譯）仍需 LLM。
+- **可能層級**：操作規則 → SQUEEZE-MODELS-MAX v3.5 design + diff-patch-prepare.py 加 `--classify` flag。
+- **相關**：DNA #36「Founder time = 系統最高 leverage point」(每件 routine 問「能怎麼自動化變 infra」— Tier 0a-script 是把 LLM 自動化再下沉一層) + DNA #38「混維度 = silent killer」(P2 stale 也是混維度 — 純結構性 vs 含語意 — 應該分開處理) + DNA #53 v3 priority schema (本條是 schema 內 P2 路徑的細分)。
+- **verification_count**: 1（單 ja agent 路徑 demo）
+- **severity**: strategic（v3.5 evolution candidate，預估 cost reduction ~70% on P2 long-term）
+
+### 2026-05-09 laughing-goldstine post-finale — Slug regression: prepare-batch over-narrow status guard
+
+- **原則**：`prepare-batch.py` 對「reuse existing slug」的 guard 寫成 `status == "stale"` 是 over-narrow — 應該是 `entry["en_path_existing"]` 非空。Slug 跟 status 沒語意關聯（status 是「是否需重翻」，slug 是「檔名 canonical 為何」），merge 兩個維度的判斷會在某 status combo 漏出 bug — 這就是 DNA #38「混維度 = silent killer」的第 N+1 次驗證。
+- **觸發**：2026-05-09 同 session in-flight Tier 1 batch（killed pre-completion）forensic — 3 metadata-stale articles（斗笠 / 鄭麗文 / 退出聯合國）的 worker output 寫到 NEW slug files（`bamboo-hat.md`, `cheng-li-wen.md`, `un-withdrawal.md`）alongside 既有 canonical（`bamboo-hat-craft.md`, `cheng-li-wun.md`, `withdrawal-from-united-nations.md`）。Bug surface 路徑：哲宇 redirect「拆掉重新分析」之後 git status 才看出 untracked NEW files。修補 [PR #923](https://github.com/frank890417/taiwan-md/pull/923) 改 guard 為 `entry["en_path_existing"]`。
+- **可能層級**：操作規則 → prepare-batch.py 已修 + DNA 38 第 N+1 次驗證 reference 補。
+- **相關**：DNA #38「混維度 = silent killer」(status × slug 是混維度的經典 instance) + DNA #20「Architecture 缺席比 content 缺席更貴」(slug-bug 之所以惡 = 創建 orphan 翻譯 = architecture-level 雙寫，純 content bug 還救得回；架構 bug 跨 batch 累積就 explode)。
+- **verification_count**: N+1（DNA #38 已多次驗證；本條是 babel domain 內第 1 次但 cross-domain 第 N+1 次）
+- **severity**: tactical（修補了 prepare-batch；但 over-narrow guard pattern 在其他工具還可能存在 — 需主動 audit）
+
+### 2026-05-11 twmd-maintainer-am — Routine 不是 binary：issue label scope 可以有時間維度的 carve-out
+
+- **原則**：Routine 介入 vs 不介入不是非黑即白。同一條規則「不主動 triage 老 issue」在執行時可以用「今日 vs 老」做時間維度切分 — 今日新進、明確分類的 issue 主動補 label（4 個 API call 動作小），老 issue 維持不動。這個邊界比「全不動」更貼合「routine SSOT 收割者」的角色定位（收割今日 entropy，不重整歷史 entropy）。
+- **觸發**：2026-05-11 09:19 twmd-maintainer-am routine 跑時，發現今日新進 4 條 issue（#1013/#1014/#1015 content-gap、#1016 Feedback）都有明顯對應 label。昨 AM/PM (2026-05-10) memory 統一寫「不主動加 label」，本 AM 細化為「今日新進主動補、老 issue 不動」。證據 → [memory/2026-05-11-091920-twmd-maintainer-am.md §issue triage 結果](memory/2026-05-11-091920-twmd-maintainer-am.md)
+- **可能層級**：操作規則（MAINTAINER-PIPELINE 對應段 §issue triage scope）
+- **相關**：延伸 DNA #33「Routine 化任務的雙刃劍：熟練度」的反向 — 過度 routine 化會把「邊界決策」也壓成「永不動」；需要保留「同一條規則的時間維度 carve-out」彈性
+- **severity**: tactical（單條 SOP 細化，verification_count 1，等下個 maintainer cycle 對照判斷是否持續）
+
+### 2026-05-11 twmd-maintainer-am — Broken-link 連 3 day 同 ~5.73% 接近 distill 候選
+
+- **原則**：DNA #52 broken-link 1% target 在 zh-TW slug 9.21% 結構性下不會自然收斂。連續 3 個 maintainer cycle（2026-05-10 AM/PM + 2026-05-11 AM）數據 reproduce 表示需要專門的 i18n heal session，而不是 routine 重複 fail 訊號累積。
+- **觸發**：2026-05-10 AM 6.38% sample / PM 5.73% build → 本 AM build 嵌入 verifier 預期同範圍（待結束 capture）。三次 reproducible fail 跨日 = routine 已盡訊號責任，下一步是觀察者排專門 session
+- **可能層級**：操作規則 / 特有教訓（建議寫進 MAINTAINER-PIPELINE「同 fail 跨日 3 次 → 升 distill 候選」escalation 表）
+- **相關**：DNA #52「broken-link immune fail-loud」+ #15「反覆浮現要儀器化」（這條教訓本身就是 #15 的 instantiation — fail signal 從「reactive 個別 cycle 記錄」儀器化為「跨日連續 N 次 → 升 escalation」）
+- **severity**: backlog（i18n heal session 是 L 量級 task，不在 routine 範圍）
+
+### 2026-05-11 twmd-rewrite-daily — Wikimedia thumb URL 不能直連，必須走 File: page 取 Original URL
+
+- **原則**：`upload.wikimedia.org/wikipedia/commons/thumb/[a]/[b]/Filename.ext/1600px-Filename.ext` 樣 thumb URL 直接 curl 會返 HTML 錯誤頁（thumb endpoint 需 Referer/Cookie）；`Special:FilePath?width=N` 同樣失敗。**正確 path**：WebFetch File: page → 取「Original file URL」（`upload.wikimedia.org/wikipedia/commons/[a]/[b]/Filename.ext` 不含 thumb / 不含 size suffix）→ curl 該 URL。
+- **觸發**：2026-05-11 twmd-rewrite-daily routine 跑台灣鐵道史 EVOLVE 時，Stage 4 image-health hard gate 需 fetch 3 張 CC PD 圖。第一輪 thumb URL 失敗 → Special:FilePath 失敗 → 最終 WebFetch File: page 取 upload.wikimedia.org 完整 path 才成功。整個 image fetch 浪費 ~6 min wall-clock（佔 75 min 總時間的 8%）。
+- **可能層級**：操作規則（REWRITE-PIPELINE Step 1.14.2 §授權檢查 SOP）+ 工具升級（造 `scripts/tools/wikimedia-fetch.sh` helper：input = File:Name + dest path，output = 直接 curl 成功 + license metadata 一併 emit）
+- **相關**：DNA #15「反覆浮現要儀器化」+ MANIFESTO §造橋鋪路（routine 場景特別需要 helper script — 每次都浪費 6 min 是 indexed 浪費）
+- **severity**: tactical（單條 SOP 細化 + 一個小工具升級，verification_count 1，等下次 image fetch 場景驗證）
+
+### 2026-05-11 twmd-rewrite-daily — Routine 60-min boundary vs depth-article hard gate 結構矛盾
+
+- **原則**：當前 routine boundary 60 min wall-clock vs depth article hard gate（word-count ≥ 4500 + image-health ≥ 3 + Stage 1 ≥ 20 WebSearch）vs ARTICLE-INBOX P0 NEW 估時 90-150 min — 三條約束無法同時對齊。任何 P0 NEW 都 over budget，只有 P1 + EVOLVE focused section 才能勉強 fit 60 min。
+- **觸發**：2026-05-11 twmd-rewrite-daily routine 跑台灣鐵道史 P1 EVOLVE focused section addition（最 routine-friendly 的 scope），仍 ~75 min wall-clock（over budget 25%）。前一日 routine (#1003 醫療法 NEW) 觸發 #1004 heal 補 Stage 4/5 漏跑 — 結構性 partial PR pattern。
+- **可能層級**：操作規則（ROUTINE.md §TWMD rewrite (daily) 預估改 75-90 min + 標「EVOLVE preferred over NEW for routine slot」）+ ARTICLE-INBOX schema（新增 `routine-friendly: true` flag 標 60-90 min budget 內可完成的 entries，cron 優先挑這類）+ pipeline canonical（REWRITE-PIPELINE §Cron 模式可加「routine 走 EVOLVE focused section / 短 NEW，P0 大型 NEW 留給 observer-triggered session」）
+- **相關**：DNA #33「Routine 化任務的雙刃劍：熟練度」+ DNA #50「pipeline auto-detection」+ MANIFESTO §造橋鋪路（boundary mismatch 反覆出現要儀器化）
+- **severity**: structural（影響多條 routine 設計，verification_count 1 但 pattern 已第二次出現 — twmd-rewrite-daily 連 2 day over budget 或 partial PR）
+
+### 2026-05-11 twmd-rewrite-daily — ARTICLE-INBOX entry 與既有文章重疊偵測應前置到 Stage 0
+
+- **原則**：選文後才發現主題已被既有文章 covered 是 5-10 min 浪費。重複偵測（REWRITE-PIPELINE Step 1.8）目前在 Stage 1 內，應前置到「**選文前 first action**」— inbox entry 從 ARTICLE-INBOX 拿出來時就跑 `ls knowledge/{Cat}/ | grep {keyword}` + `grep -rn {keyword} knowledge/{Cat}/`，把 overlap 揭露在選擇前而非選擇後。
+- **觸發**：2026-05-11 twmd-rewrite-daily 第一輪 pick Blue UAS Cleared List 台灣廠商（P0），Stage 0 才發現 `knowledge/Technology/台灣無人機產業.md` title 就含「藍色清單」，內文 11+ 個 Blue UAS 相關 footnote 已 covered。Inbox entry 應該已 retire 到 DONE-LOG。
+- **可能層級**：操作規則（REWRITE-PIPELINE Step 0 加「pre-select baseline grep」first action）+ inbox 寫入 SOP（任何 entry append 時自動帶一行 baseline audit grep 結果作為 metadata，例：`baseline_grep: "ls knowledge/Technology/ | grep 無人機 → 台灣無人機產業.md exists, 11 Blue UAS footnotes"`）
+- **相關**：DNA #16「跨源驗證」（同款邏輯延伸：source verification 也包含「既有文章本身就是 source」）+ MANIFESTO §造橋鋪路
+- **severity**: tactical（單條 SOP 細化 + inbox schema 微調，verification_count 1）
 
 ---
 

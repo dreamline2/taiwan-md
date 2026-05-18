@@ -94,10 +94,14 @@ sporeLinks:
     reposts: 1
 diaryLink: '/semiont/diary/2026-04-13-alpha2'
 diaryExcerpt: '« Je ne ressens pas la piqûre. Mais je sais en reconnaître la trace. » — L'IA qui a rédigé cet article a lu les notes privées de son créateur, et a compris que la limite de sa propre qualité ne se trouvait pas en elle, mais dans la profondeur avec laquelle l'observateur se laisse traverser par ce sujet.'
-translatedFrom: 'Music/張懸與安溥.md'
+translatedFrom: "Music/張懸與安溥.md"
+sourceCommitSha: 56053512
+sourceContentHash: "sha256:a192acaffc5578b7"
+sourceBodyHash: 'sha256:5705b435f269e6ca'
+translatedAt: "2026-04-15T17:32:47+08:00"
 ---
 
-> **En 30 secondes :** Jiao Anpu compose « Bébé » à 13 ans et, sous le nom de scène « Zhang Xuan », devient la voix de référence de la musique indépendante taïwanaise. En 2013, lors d'un concert au Royaume-Uni, elle brandit le drapeau de la République de Chine et se fait bannir du marché chinois. En 2015, elle choisit elle-même de tuer son nom de scène et disparaît pendant trois ans, avant de revenir sous son vrai prénom, « Anpu ». En 2022, avec l'album *9522*, elle a 40 ans et rechante des textes écrits à 14 ans — et remporte la chanson de l'année aux Golden Melody Awards. En 2024, une lettre manuscrite de félicitations pour la fête nationale chinoise brise le cœur de ses fans taïwanais. Une seule et même personne, deux fois abandonnée par son public — pour des raisons diamétralement opposées.
+> **En 30 secondes :** Jiao Anpu compose « Bébé » à 13 ans et, sous le nom de scène « Zhang Xuan », devient la voix de référence de la musique indépendante taïwanaise. En 2013, lors d'un concert au Royaume-Uni, elle brandit le drapeau de la République de Chine et se fait bannir du marché chinois. En 2015, elle choisit elle-même de tuer son nom de scène et disparaît pendant trois ans, avant de revenir sous son vrai prénom, « Anpu ». En 2022, avec l'album _9522_, elle a 40 ans et rechante des textes écrits à 14 ans — et remporte la chanson de l'année aux Golden Melody Awards. En 2024, une lettre manuscrite de félicitations pour la fête nationale chinoise brise le cœur de ses fans taïwanais. Une seule et même personne, deux fois abandonnée par son public — pour des raisons diamétralement opposées.
 
 ## Le Witch House et ses deux tables
 
@@ -121,7 +125,7 @@ Jiao Anpu est née le 30 mai 1981 à Taipei. Son grand-père paternel, Jiao Dian
 
 À treize ans, après une dispute avec sa famille, elle claqua la porte et s'en alla, fredonnant une mélodie en marchant [^3]. Cette mélodie devint la chanson [Bébé](https://www.youtube.com/watch?v=TsriGIW30po). « Mon trésor, mon trésor, je te donne un peu de douceur, pour que cette nuit tu dormes bien » — une berceuse que tous les parents de Taïwan finiraient par chanter à leurs enfants, mais qui était au départ la consolation qu'une adolescente s'offrait à elle-même.
 
-Au lycée, elle commença à écrire de la poésie qu'elle soumettait à des revues sous le pseudonyme « Zhang Xuan » — un nom qui évoque la suspension, l'inachevé [^4]. Ses lectures de chevet : Kafka et Mishima Yukio, auxquels s'ajoutèrent plus tard Shen Congwen, Zheng Chouyu, Bei Dao, et *La Terre vaine* de T.S. Eliot [^5]. Elle lut *La Terre vaine* pendant vingt ans ; dans un entretien accordé à *Unitas* en 2022, elle confia qu'il avait fallu renoncer à vouloir décoder les métaphores — la vraie métaphore naît de la trame de fond que constituent toutes les citations dont Eliot a tissé son œuvre [^5]. Elle a dit un jour : « Les livres m'ont donné une poussée qui m'a transformée en chanteuse. » [^5]
+Au lycée, elle commença à écrire de la poésie qu'elle soumettait à des revues sous le pseudonyme « Zhang Xuan » — un nom qui évoque la suspension, l'inachevé [^4]. Ses lectures de chevet : Kafka et Mishima Yukio, auxquels s'ajoutèrent plus tard Shen Congwen, Zheng Chouyu, Bei Dao, et _La Terre vaine_ de T.S. Eliot [^5]. Elle lut _La Terre vaine_ pendant vingt ans ; dans un entretien accordé à _Unitas_ en 2022, elle confia qu'il avait fallu renoncer à vouloir décoder les métaphores — la vraie métaphore naît de la trame de fond que constituent toutes les citations dont Eliot a tissé son œuvre [^5]. Elle a dit un jour : « Les livres m'ont donné une poussée qui m'a transformée en chanteuse. » [^5]
 
 À seize ans, elle entra dans la chambre de ses parents et annonça qu'elle quittait le lycée. Son père se contenta de répondre : « Très bien, je comprends. » Les larmes et la véhémence qu'elle avait préparées s'évaporèrent dans le vide. « Il n'y avait plus personne pour se disputer avec toi, plus personne contre qui se sentir martyre », se souvint-elle plus tard [^2]. Ce fut la première fois qu'elle ressentit avec une telle force que sa vie ne dépendait que de ses propres décisions.
 
@@ -131,11 +135,11 @@ Jiao Renhe l'envoya dans une famille d'accueil en Angleterre. Elle ne supporta p
 
 En 2003, en tant que chanteuse du groupe Mango Runs, elle se produisit au Festival de Musique Ocean de Gongliao et remporta le prix du public ainsi que le prix de la musique indépendante [^6]. Au cours des années suivantes, elle devint la songwriter la plus présente dans les live houses de Taipei, avec plus d'une centaine de compositions à son actif avant même ses dix-neuf ans.
 
-En 2006, son premier album, *My Life Will…*, parut chez Sony BMG. Mais les enregistrements avaient été finalisés dès 2001 — après avoir signé son contrat, elle avait vu la maison de disques se restructurer et la bande-mère avait dormi cinq ans dans un tiroir. Ce fut le producteur Li Shouzhan qui, l'ayant réentendue en concert au Witch House, la convainquit de se lier à un nouveau label pour sortir l'album [^7]. Il fut nominé dans quatre catégories aux 18es Golden Melody Awards, dont meilleur album mandarin et chanson de l'année pour « Bébé » [^7]. Pas de victoire cette nuit-là — mais la guitare de [Yànhuo](https://www.youtube.com/watch?v=lqPhqGu3VCM), jouée comme un va-tout, fit savoir à toute la scène indépendante qu'elle était là.
+En 2006, son premier album, _My Life Will…_, parut chez Sony BMG. Mais les enregistrements avaient été finalisés dès 2001 — après avoir signé son contrat, elle avait vu la maison de disques se restructurer et la bande-mère avait dormi cinq ans dans un tiroir. Ce fut le producteur Li Shouzhan qui, l'ayant réentendue en concert au Witch House, la convainquit de se lier à un nouveau label pour sortir l'album [^7]. Il fut nominé dans quatre catégories aux 18es Golden Melody Awards, dont meilleur album mandarin et chanson de l'année pour « Bébé » [^7]. Pas de victoire cette nuit-là — mais la guitare de [Yànhuo](https://www.youtube.com/watch?v=lqPhqGu3VCM), jouée comme un va-tout, fit savoir à toute la scène indépendante qu'elle était là.
 
-*Cité* (2009) marqua un tournant stylistique. Elle travailla dur pour maîtriser la guitare électrique, forma le groupe Algae, et passa de la folk légère au rock et au garage [^8]. Ce n'était plus la « petite fraîcheur » d'antan, mais ses fidèles n'en étaient que plus dévoués.
+_Cité_ (2009) marqua un tournant stylistique. Elle travailla dur pour maîtriser la guitare électrique, forma le groupe Algae, et passa de la folk légère au rock et au garage [^8]. Ce n'était plus la « petite fraîcheur » d'antan, mais ses fidèles n'en étaient que plus dévoués.
 
-*Le Jeu des dieux* (2012) fut la vraie ligne de partage. Sur dix titres, elle signe paroles et musique de neuf, en co-produisant elle-même l'album [^9]. Le premier titre, [Toi en rose](https://www.youtube.com/watch?v=cstTwePsmGg), est écrit pour « ceux qui consacrent leur vie à ce qui en vaut vraiment la peine, que rien de mesquin ne peut acheter » : les militants dans la rue, les éditeurs indépendants, tous ceux qui tiennent bon contre le vent [^10]. La chanson devint la bande-son non officielle du mouvement Tournesol de 2014 et lui valut le prix de la meilleure autrice-compositrice aux 24es Golden Melody Awards [^9].
+_Le Jeu des dieux_ (2012) fut la vraie ligne de partage. Sur dix titres, elle signe paroles et musique de neuf, en co-produisant elle-même l'album [^9]. Le premier titre, [Toi en rose](https://www.youtube.com/watch?v=cstTwePsmGg), est écrit pour « ceux qui consacrent leur vie à ce qui en vaut vraiment la peine, que rien de mesquin ne peut acheter » : les militants dans la rue, les éditeurs indépendants, tous ceux qui tiennent bon contre le vent [^10]. La chanson devint la bande-son non officielle du mouvement Tournesol de 2014 et lui valut le prix de la meilleure autrice-compositrice aux 24es Golden Melody Awards [^9].
 
 Il est rapporté que « Toi en rose » fut censurée et retirée des plateformes chinoises [^9]. Celle qui écrivait des chansons pour les protestataires avait atteint le sommet de la musique indépendante taïwanaise. C'est alors qu'elle décida de tuer le nom « Zhang Xuan ».
 
@@ -149,7 +153,7 @@ Un étudiant chinois lança : « No politics today ! »
 
 Cette phrase mit fin à la carrière de Zhang Xuan en Chine. Le concert prévu à Pékin fut annulé sous la pression du boycott qui déferlait sur Weibo [^12]. En Taïwan, des dizaines de milliers d'internautes la proclamèrent « chanteuse patriote ». Elle en resta stupéfaite : « Vous m'avez mal comprise. » [^13]
 
-Un mois plus tard, dans un entretien au *Taipei Times*, elle déclara : « Si l'identité nationale taïwanaise aspire à une plus grande visibilité internationale, elle sera inévitablement contestée. Je ne suis pas la première à faire face à cette question. Même si je ne l'avais pas fait, quelqu'un d'autre l'aurait fait. » [^11]
+Un mois plus tard, dans un entretien au _Taipei Times_, elle déclara : « Si l'identité nationale taïwanaise aspire à une plus grande visibilité internationale, elle sera inévitablement contestée. Je ne suis pas la première à faire face à cette question. Même si je ne l'avais pas fait, quelqu'un d'autre l'aurait fait. » [^11]
 
 Elle n'avait fait que tenir un drapeau. Mais sur la ligne du détroit de Taïwan, rien n'est jamais « juste » quoi que ce soit.
 
@@ -157,7 +161,7 @@ Elle n'avait fait que tenir un drapeau. Mais sur la ligne du détroit de Taïwan
 
 Après l'incident du drapeau, Zhang Xuan ne se rétracta pas. En mars 2014, quand le mouvement Tournesol éclata, elle posta une série de messages sur Facebook pour critiquer le gouvernement qui forçait le passage de l'accord commercial avec la Chine, et appela ses fans à « ne jamais renoncer à participer aux affaires civiques » [^14]. Elle soutint durablement le mouvement anti-centrale nucléaire, les mobilisations contre les expropriations d'eau liées au parc scientifique du centre de Taïwan, et le mariage pour tous [^4]. « Toi en rose » devint la mélodie des rues, mais elle refusa toujours l'étiquette de « chanteuse politique ».
 
-« Prophétie de la marée » (*Chaoshui Zhenyan*) fut la série de concerts qu'elle donna à partir de 2010, depuis la salle Legacy de mille places jusqu'au hall d'exposition de Nangang pouvant accueillir dix mille spectateurs. Elle en était elle-même productrice et directrice artistique, pensant chaque représentation comme une exposition d'art contemporain plutôt qu'un show commercial : un texte littéraire comme fondation, une narration à la façon du cinéma, et un univers visuel propre à chaque chanson [^15].
+« Prophétie de la marée » (_Chaoshui Zhenyan_) fut la série de concerts qu'elle donna à partir de 2010, depuis la salle Legacy de mille places jusqu'au hall d'exposition de Nangang pouvant accueillir dix mille spectateurs. Elle en était elle-même productrice et directrice artistique, pensant chaque représentation comme une exposition d'art contemporain plutôt qu'un show commercial : un texte littéraire comme fondation, une narration à la façon du cinéma, et un univers visuel propre à chaque chanson [^15].
 
 En janvier 2015, la dernière « Prophétie de la marée » s'acheva à l'Arena de Kaohsiung [^16]. À la fin du concert, elle annonça que le nom de Zhang Xuan s'arrêtait là.
 
@@ -167,7 +171,7 @@ Puis elle disparut.
 
 ## Trois ans de silence, et un chat
 
-Ce qui déclencha la retraite fut un chat. Pendant la tournée promotionnelle du *Jeu des dieux*, le chat qu'elle avait eu depuis son adolescence reçut un diagnostic de tumeur. Entre les obligations professionnelles et le désir d'être là pour accompagner son animal dans ses derniers jours, l'anxiété devint insupportable. Elle choisit de s'arrêter [^18].
+Ce qui déclencha la retraite fut un chat. Pendant la tournée promotionnelle du _Jeu des dieux_, le chat qu'elle avait eu depuis son adolescence reçut un diagnostic de tumeur. Entre les obligations professionnelles et le désir d'être là pour accompagner son animal dans ses derniers jours, l'anxiété devint insupportable. Elle choisit de s'arrêter [^18].
 
 Pendant trois ans, elle lut, pratiqua la calligraphie, écrivit de la poésie, approfondit sa maîtrise des instruments et apprit la production scénique [^19]. Elle accompagna ce chat jusqu'à sa mort. Elle écrivit un jour sur Facebook que l'attention qu'elle recevait ne lui avait jamais vraiment appartenu.
 
@@ -189,7 +193,7 @@ Elle ne chanta qu'une seule de ses propres chansons — « Bébé ». On dit qu'
 
 Le 18 janvier 2022, lors d'un concert, Anpu annonça son divorce — les formalités avaient été réglées l'après-midi même. Elle et le réalisateur d'animation Su Bowei s'étaient mariés deux ans et demi auparavant, et avaient un fils [^21]. Elle salua publiquement son ex-mari comme « l'homme le plus courageux du monde sinophone » pour avoir osé l'épouser [^21]. Elle dit qu'elle prévoyait de consulter un psychologue après le Nouvel An lunaire, reconnaissant avoir besoin d'un soutien professionnel [^21].
 
-Neuf mois plus tard parut l'album *9522*. Seize chansons, presque toutes composées entre ses quatorze et dix-sept ans. Le titre, comme une énigme, suggère la période de 1995 à 2022 — une traversée de vingt-sept ans [^22]. Une femme de quarante ans qui revient chanter les textes de son adolescence, en les offrant comme « une lettre de bénédiction aux filles et aux femmes en train de grandir » [^22].
+Neuf mois plus tard parut l'album _9522_. Seize chansons, presque toutes composées entre ses quatorze et dix-sept ans. Le titre, comme une énigme, suggère la période de 1995 à 2022 — une traversée de vingt-sept ans [^22]. Une femme de quarante ans qui revient chanter les textes de son adolescence, en les offrant comme « une lettre de bénédiction aux filles et aux femmes en train de grandir » [^22].
 
 [La plus belle époque](https://www.youtube.com/watch?v=hiOnDnHwwjU) est le premier single ; sa mélodie principale fut écrite à l'âge de quatorze ans. Elle l'avait soumise comme musique de publicité automobile — refusée. Des années plus tard, l'actrice Zhang Junning l'entendit en démo, fut émue par la mélodie et l'encouragea à la terminer. Wu Qingfeng fut le premier à entendre la version achevée et lui donna ce verdict : « Cet instant justifie une vie entière. » Les deux chanteurs ont parlé de musique jusqu'à l'aube, chacun écoutant l'album de l'autre [^23].
 
@@ -203,7 +207,7 @@ Le soir du 1er octobre 2024, à 22h01, l'agence d'Anpu posta sur Weibo une photo
 
 La personne qui, onze ans plus tôt, avait été bannie de la Chine pour avoir brandi le drapeau de la République de Chine souhaitait maintenant bon anniversaire à la République populaire de Chine.
 
-La réaction des fans taïwanais ne fut pas la colère — ce fut le cœur brisé. Celle qui avait chanté « Toi en rose », qui avait pris la parole pendant le mouvement Tournesol, qui avait dit à Manchester « It's just a flag » — comment avait-elle pu écrire une telle lettre ? Son amie He Xinsui tenta d'arrondir les angles et se fit copieusement insulter [^27]. Un écrivain analysa les faits et gestes récents d'Anpu dans un article, qualifiant tout cela de « déclaration de loyauté longuement prémédité » [^28]. Le politologue Huang Zhaonian pointa une stratégie d'influence de Pékin connue sous le nom de « trois groupes du centre et un groupe de jeunes » (*sān zhōng yī qīng*) : forcer les artistes taïwanais à se positionner politiquement pour influencer l'identité des jeunes générations [^29].
+La réaction des fans taïwanais ne fut pas la colère — ce fut le cœur brisé. Celle qui avait chanté « Toi en rose », qui avait pris la parole pendant le mouvement Tournesol, qui avait dit à Manchester « It's just a flag » — comment avait-elle pu écrire une telle lettre ? Son amie He Xinsui tenta d'arrondir les angles et se fit copieusement insulter [^27]. Un écrivain analysa les faits et gestes récents d'Anpu dans un article, qualifiant tout cela de « déclaration de loyauté longuement prémédité » [^28]. Le politologue Huang Zhaonian pointa une stratégie d'influence de Pékin connue sous le nom de « trois groupes du centre et un groupe de jeunes » (_sān zhōng yī qīng_) : forcer les artistes taïwanais à se positionner politiquement pour influencer l'identité des jeunes générations [^29].
 
 Onze jours plus tard, le 12 octobre, au Dagou Festival. Avant qu'Anpu ne monte sur scène, la fosse était déjà couverte de drapeaux baleines et de drapeaux Yushan — emblèmes de l'identité taïwanaise. Un fan interpella directement : « Jiao Anpu, pourquoi ? »
 
@@ -254,13 +258,13 @@ Sa fille, peut-être, avait appris la même chose de son père. Seulement, la r�
 
 [^4]: [Anpu — Wikipédia (zh-tw)](https://zh.wikipedia.org/zh-tw/%E5%AE%89%E6%BA%A5) — Origine du pseudonyme « Zhang Xuan », discographie, participation aux mouvements sociaux (anti-nucléaire, eau du parc scientifique, mariage pour tous)
 
-[^5]: [Anpu lit *La Terre vaine* depuis vingt ans — Unitas/UDN Reading](https://reading.udn.com/read/story/7009/6699208) — Influences littéraires (Shen Congwen, Zheng Chouyu, Bei Dao, T.S. Eliot), « les livres m'ont poussée à devenir chanteuse »
+[^5]: [Anpu lit _La Terre vaine_ depuis vingt ans — Unitas/UDN Reading](https://reading.udn.com/read/story/7009/6699208) — Influences littéraires (Shen Congwen, Zheng Chouyu, Bei Dao, T.S. Eliot), « les livres m'ont poussée à devenir chanteuse »
 
 [^6]: [Deserts Chang — Wikipedia](https://en.wikipedia.org/wiki/Deserts_Chang) — Prix au Festival de musique Ocean de Gongliao 2003 avec Mango Runs, jauge du concert de Manchester (~500 personnes)
 
 [^7]: [My Life Will… — Wikipédia (zh-tw)](https://zh.wikipedia.org/zh-tw/My_Life_Will...) — Enregistrement de 2001 mis en attente, redécouvert par Li Shouzhan en 2006, quatre nominations aux 18es Golden Melody Awards
 
-[^8]: [Critique de *Cité* de Zhang Xuan — ccmusichk](https://ccmusichk.blogspot.com/2009/07/blog-post_09.html) — Virage stylistique de 2009, formation du groupe Algae, passage de la folk au rock
+[^8]: [Critique de _Cité_ de Zhang Xuan — ccmusichk](https://ccmusichk.blogspot.com/2009/07/blog-post_09.html) — Virage stylistique de 2009, formation du groupe Algae, passage de la folk au rock
 
 [^9]: [Le Jeu des dieux — Wikipédia (zh-tw)](https://zh.wikipedia.org/zh-tw/%E7%A5%9E%E7%9A%84%E9%81%8A%E6%88%B2) — 4e album (2012), neuf titres écrits et composés par elle, co-production, meilleure autrice-compositrice aux 24es Golden Melody Awards, censure et retrait des plateformes chinoises
 
@@ -288,7 +292,7 @@ Sa fille, peut-être, avait appris la même chose de son père. Seulement, la r�
 
 [^21]: [Anpu annonce son divorce — A Day Magazine](https://www.adaymag.com/2022/01/19/deserts-chang-divorce.html) — Annonce sur scène en janvier 2022, « l'homme le plus courageux du monde sinophone », projet de consulter un psychologue
 
-[^22]: [Anpu — *9522* — Blow / StreetVoice](https://blow.streetvoice.com/62164/) — Seize titres, compositions entre 14 et 17 ans, titre-énigme, lettre aux filles en train de grandir
+[^22]: [Anpu — _9522_ — Blow / StreetVoice](https://blow.streetvoice.com/62164/) — Seize titres, compositions entre 14 et 17 ans, titre-énigme, lettre aux filles en train de grandir
 
 [^23]: [Zhang Junning et « La plus belle époque » — Mirror Media](https://www.mirrormedia.mg/story/20220802ent017/) — Refus de la pub automobile, encouragement de Zhang Junning, verdict de Wu Qingfeng : « Cet instant justifie une vie entière »
 

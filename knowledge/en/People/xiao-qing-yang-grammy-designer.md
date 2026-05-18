@@ -1,110 +1,83 @@
 ---
-title: 'Xiao Qing-yang'
-description: 'Four-time Grammy nominee for Best Album Package Design, visual designer who brought Taiwan to the world stage'
-date: 2026-03-20
+title: 'Xiao Qing-Yang'
+description: 'Grammy Award winner for Best Recording Package, nominated seven times before finally winning with a father-daughter collaboration, a representative figure of Taiwan design on the world stage'
+date: 2026-03-19
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '藝術與設計'
 tags:
   [
     'designer',
-    'grammy-award',
-    'album-packaging',
-    'visual-design',
-    'taiwanese-culture',
+    'Grammy Award',
+    'album packaging',
+    'visual design',
+    'Taiwanese culture',
   ]
-subcategory: 'Arts & Design'
-lastVerified: 2026-03-20
-translatedFrom: 'People/蕭青陽.md'
+lastVerified: 2026-03-19
+lastHumanReview: false
+featured: false
+translatedFrom: People/蕭青陽.md
+sourceCommitSha: 18157ab5d
+sourceContentHash: sha256:0a577177f15f5897
+sourceBodyHash: sha256:269ea0687b8a4a49
+translatedAt: 2026-05-16T05:07:54+08:00
 ---
 
-# Xiao Qing-yang: Bringing Taiwanese Design to the World Stage
+# Xiao Qing-Yang: Bringing Taiwan Design to the World Stage
 
-Xiao Qing-yang (蕭青陽), born in 1964 in Taipei, is an internationally acclaimed visual designer renowned for his album packaging design. As the first Taiwanese designer to achieve four Grammy Award nominations for Best Album Package Design, he has become a crucial advocate for bringing Taiwanese culture to international audiences through design.
+> **30-second overview:** Xiao Qing-Yang was born in Xindian in 1966 and graduated from Fu-Hsin Trade & Arts School. He is Taiwan's most internationally visible visual designer. In 2005, he was nominated for the first time for the 47th Annual Grammy Award for Best Recording Package, accumulating a total of seven nominations. At the 65th Annual Grammy Awards ceremony in 2023, he and his daughter Xiao Jun-tian won the Best Recording Package award for their co-designed _Beginningless Beginning_, making him the first Taiwanese designer to receive this honor.
 
-## Early Education and Design Awakening
+## Upbringing and Design Awakening
 
-Born in a military dependents' village in Taipei, Xiao Qing-yang developed an early interest in visual arts. During his teenage years, he began exploring photography and graphic design, displaying a unique sensitivity to color and composition. By high school, he was already designing posters for small-scale music events, demonstrating his natural design talent.
+Xiao Qing-Yang was born on February 26, 1966, in Xindian, Taipei County (now Xindian District, New Taipei City). As a teenager, he enrolled in the Department of Fine Arts at Fu-Hsin Trade & Arts School, a vocational school renowned for art and design, where he received rigorous foundational training in color theory, composition, printing, and other core visual design skills. Fu-Hsin has long been a cradle for Taiwan's art and design talent, and the school's atmosphere nurtured his intuition for visual language.[^1]
 
-He graduated from the Fine Arts Department at Chinese Culture University, where he was deeply influenced by modern art movements, particularly Pop Art and Surrealism. During this period, he began contemplating how to merge Western design techniques with Eastern cultural elements, gradually forming his distinctive creative style.
+In the 1980s, Taiwan's record industry was in a period of rapid growth. From a young age, Xiao was captivated by the visual allure of album covers and began exploring the intersection of music and design. His sensitivity to local cultural visual elements and his instinct for musical emotion gradually coalesced into the design language that would define his career.
 
-## Entry into Album Design
+## Entering the Field of Album Design
 
-In the early 1990s, as Taiwan's popular music industry flourished, Xiao Qing-yang began working in album packaging design. He created album covers for artists like [[Chang Yu-sheng]] and [[Lin Qiang]], gradually building his reputation in the music industry. His design style, which fused Eastern aesthetics with contemporary design language, brought fresh perspectives to Taiwan's album design scene.
+In the early 1990s, as Taiwan's pop music industry entered its golden age, Xiao Qing-Yang began systematically dedicating himself to album packaging design. He designed works for musicians such as [[Chang Yu-sheng]] and [[Lim Giong]], gradually building a reputation in the music world and developing a working method distinct from that of commercial designers: deep involvement in the music creation process, extended communication with musicians to understand the spiritual core of each work before translating it into visual language.[^2]
 
-Unlike other designers, Xiao Qing-yang deeply participates in the music creation process, often engaging in extended discussions with musicians to understand the inner spirit of their work, then expressing the music's emotions and artistic vision through visual elements. This deep participatory approach became a hallmark of his creative process.
+He excels at drawing from Taiwan's local culture—temple carvings, folk motifs, natural landscapes—transforming them into design language with cross-cultural communicative power. This path, rooted in the local and reaching toward the international, became his most recognizable creative signature.
 
-## Grammy Award Breakthrough
+## 2005: First Grammy Nomination
 
-In 2007, Xiao Qing-yang achieved his first Grammy nomination at the 49th Grammy Awards for Best Album Package Design with [[Ju Tzong-ching Percussion Group]]'s album "Extraordinary Percussion" (非常擊樂), becoming the first Taiwanese designer to receive this honor. The album design incorporated traditional Taiwanese architectural elements with modern visual language, perfectly interpreting the fusion of Eastern and Western music.
+In 2005, Xiao Qing-Yang was nominated for the 47th Annual Grammy Award for Best Recording Package with a Taiwanese music album design, becoming the first Taiwanese designer ever nominated in this category.[^3]
 
-This nomination was not only a personal achievement but also represented international recognition of Taiwan's design capabilities. His design integrated Taiwanese temple architecture and traditional crafts, allowing the international music community to witness Taiwan's unique cultural charm.
+This nomination placed Taiwan's design community on the Grammy Awards list for the first time. His design language—rooted in Taiwanese local culture and rendered through modern composition—presented an entirely different aesthetic perspective within the predominantly Western judging landscape, and began to earn him recognition in the international design community. Taiwan's cultural design energy left its first mark on the Grammy Awards roster.
 
-## Multiple Grammy Nominations and International Recognition
+## Seven Nominations and the 2023 Victory
 
-Subsequently, Xiao Qing-yang received three additional Grammy nominations: in 2010 for [[Chthonic]]'s "Takasago Army" (十殿), in 2014 for Taipei Chamber Choir's "Heard in Taiwan" (聽見台灣), and in 2018 for [[Tung Yun-chang]] Trio's "Heritage" (薪火相傳). Each nomination demonstrated his design prowess across different musical genres.
+From 2005 to 2022, Xiao Qing-Yang accumulated a total of seven Grammy nominations for Best Recording Package with various Taiwanese music works, each time responding to the music being designed with a completely different visual strategy. Seven nominations without a win became a cultural event that Taiwan's design community followed with sustained attention.[^4]
 
-The common characteristic of these works is their deep rootedness in Taiwanese cultural soil while maintaining international vision. He skillfully employs uniquely Taiwanese visual elements—temple carvings, folk totems, natural landscapes—transforming them into contemporary design language, creating works that are both locally distinctive and internationally appealing.
+On February 5, 2023, at the 65th Annual Grammy Awards ceremony, Xiao Qing-Yang and his daughter Xiao Jun-tian won the Best Recording Package award for the soundtrack album _Beginningless Beginning_ from the short film trilogy _The Danlan Ancient Trail_. After an 18-year wait, he finally turned nomination into victory. The previous year, Li Zheng-han and Yu Wei had already won Taiwan's first Grammy Award (in the same category) with Suming's album _pulima_. Xiao's win made it two consecutive years that Taiwanese designers took home this award. This cross-generational father-daughter collaboration also gave the recognition a deeper sense of legacy and continuity.[^5]
 
-## Design Philosophy and Creative Principles
+## Design Philosophy
 
-Xiao Qing-yang's design philosophy emphasizes "the power of culture." He believes a designer's responsibility extends beyond creating beauty to communicating cultural values. His works frequently incorporate Taiwanese history, folklore, and natural environments, using design to help the world understand Taiwan.
+Xiao Qing-Yang's design philosophy revolves around the idea of "roots in Taiwan, flowers blooming for the world"—creators should deeply mine local cultural resources, but express them in ways that can be understood internationally. This approach allows his work to maintain its distinctiveness in a globalized environment and gives Taiwan's local visual language a path outward. He does not imitate mainstream Western design language; instead, he brings temples, traditional craftsmanship, and the island's natural beauty into the gaze of international judges.
 
-He advocates the principle of "rooted in Taiwan, blooming worldwide," arguing that creators should deeply excavate local cultural resources while employing internationally viable expression methods. This creative approach allows his works to maintain uniqueness amid globalization while finding effective pathways for Taiwan's cultural export.
+Beyond commercial commissions, his studio periodically returns to the sites of traditional craft, collaborating with veteran artisans to bring traditional techniques into the context of modern design. He also occasionally lectures at universities, passing on this creative ethos of "speaking with one's own roots" to the next generation of designers.[^6]
 
-## Cross-Disciplinary Collaboration and Cultural Promotion
+## Significance to Taiwan's Design Community
 
-Beyond album design, Xiao Qing-yang actively participates in various cross-disciplinary collaboration projects. He provides design services for Taiwan excellence exhibitions, cultural creative products, and corporate identity projects, applying Taiwanese cultural elements to broader fields.
-
-He pays particular attention to the preservation and innovation of traditional Taiwanese crafts, frequently collaborating with master craftspeople to merge traditional techniques with contemporary design. This collaborative model not only creates excellent works but also discovers new developmental possibilities for traditional crafts.
-
-## International Exchange and Design Education
-
-As an internationally recognized designer, Xiao Qing-yang frequently participates in overseas design exhibitions and lectures. He shares Taiwan's design experiences with international peers while building important international connections for Taiwan's design community.
-
-He actively contributes to design education, serving as a visiting professor at multiple universities and nurturing new generations of design talent. He emphasizes that design education should prioritize cultural literacy, arguing that while technical skills can be learned, cultural depth requires long-term cultivation.
-
-## Contributions to Taiwan's Music Industry
-
-Xiao Qing-yang's success has not only elevated Taiwan design's international profile but has also significantly benefited Taiwan's music industry. His designs have brought Taiwan's musical works to international visual standards, enhancing the international competitiveness of Taiwanese music.
-
-Many musicians have gained increased international attention through collaboration with him, with his designs serving as important added value for Taiwan's music export. This combination of music and design has created successful models for Taiwan's cultural creative industries.
-
-## Cultural Diplomacy Through Design
-
-Xiao Qing-yang's work serves as a form of cultural diplomacy, communicating Taiwan's cultural identity to international audiences through visual language. His Grammy nominations have provided Taiwan with significant soft power, demonstrating how creative industries can enhance national cultural influence.
-
-His designs often feature distinctly Taiwanese elements—from aboriginal patterns to temple architecture, from natural landscapes to urban scenes—creating a visual vocabulary that helps international audiences understand Taiwan's cultural complexity and richness. This visual storytelling becomes particularly important given Taiwan's unique international position.
-
-## Industry Innovation and Creative Leadership
-
-Beyond individual achievements, Xiao Qing-yang has transformed Taiwan's design industry standards. His success has inspired a generation of designers to pursue international recognition while maintaining cultural authenticity. His working methods—deep cultural research, extensive collaboration with artists, and meticulous attention to cultural details—have become models for the industry.
-
-He has also pioneered sustainable design practices, incorporating environmental consciousness into his creative process and encouraging the industry to consider long-term cultural and environmental impact.
-
-## Awards and Recognition
-
-Besides his Grammy nominations, Xiao Qing-yang has received numerous domestic and international awards, including Golden Melody Awards for Best Album Package Design and the Asian Most Influential Design Award. These honors affirm his outstanding performance in the design field.
-
-In 2019, he received the Ministry of Culture's Wenxin Award, recognizing his contributions to Taiwan's cultural promotion. These awards represent not only acknowledgment of his professional capabilities but also recognition of his cultural contributions.
-
-## Design Studio and Business Model
-
-Xiao Qing-yang's studio has become an important design brand in Taiwan. The studio not only undertakes commercial design projects but also actively participates in cultural promotion initiatives.
-
-His business model combines artistic creation with commercial services, maintaining creative independence while ensuring sustainable studio operations. This model provides important reference for Taiwan's design industry.
-
-## Future Vision and Continued Innovation
-
-Entering the fourth decade of his design career, Xiao Qing-yang continues to innovate and explore new expressive possibilities. He has begun focusing on digital media, sustainable design, and other emerging fields, hoping to create more opportunities for Taiwanese design.
-
-He also plans to systematically organize his years of creative experience to establish theoretical foundations for Taiwanese design. This work holds important significance for the long-term development of Taiwan's design community.
-
-## Global Impact and Legacy
-
-Xiao Qing-yang's influence extends beyond Taiwan to the global design community. His approach to cultural integration has inspired designers worldwide to explore how local cultural elements can be successfully translated for international audiences. His work demonstrates that globalization need not mean cultural homogenization—instead, it can provide platforms for cultural diversity to flourish.
-
-His legacy includes not only award-winning designs but also a new paradigm for how small nations and regions can use creative industries to amplify their cultural voices on the world stage. This model remains particularly relevant as cultural authenticity becomes increasingly valued in global markets.
+Xiao Qing-Yang's Grammy win demonstrated a path for Taiwan's design community: there is no need to avoid local culture—Taiwan's visual language can hold its own in international competition. His achievement has inspired younger designers to mine local resources rather than treating them as obstacles to going international. The Golden Melody Award for Best Album Packaging is another long-standing domestic recognition of his work, grounding his design prowess in a local context.[^7]
 
 ## References
 
-- [Xiao Qing-yang Studio Official Website](https://www.akibo.com.tw/) — Personal studio and portfolio showcase
-- [Golden Melody Awards Historical Winners](https://www.bamid.gov.tw/information_143_64138.html) — Design award records
-- [Grammy Awards Nominated Works](https://www.grammy.com/) — Official international award records
+[^1]: [Fu-Hsin Trade & Arts School Official Website](https://www.fhvs.tp.edu.tw/) — History of Fu-Hsin Trade & Arts School and background on the Department of Fine Arts.
+
+[^2]: [Golden Melody Awards Past Winners — Bureau of Audiovisual and Music Industry Development, Ministry of Culture](https://www.bamid.gov.tw/information_143_64138.html) — Xiao Qing-Yang's Golden Melody Award Best Album Packaging records.
+
+[^3]: [47th Annual Grammy Awards Nomination Data — The Recording Academy](https://www.grammy.com/) — Confirms Xiao Qing-Yang's first nomination in the Best Recording Package category in 2005.
+
+[^4]: [Grammy Awards Past Nomination Records — Grammy.com](https://www.grammy.com/) — Complete record of Xiao Qing-Yang's seven nominations.
+
+[^5]: [65th Annual Grammy Awards Winners Announcement — The Recording Academy](https://www.grammy.com/news/2023-grammy-awards-complete-winners-nominations-list) — Confirms Xiao Qing-Yang and Xiao Jun-tian won Best Recording Package for _Beginningless Beginning_.
+
+[^6]: [Taiwan Design Research Institute — Design Talent Database](https://www.tdri.org.tw/) — Xiao Qing-Yang's cross-disciplinary design collaborations and studio background.
+
+[^7]: [Ministry of Culture Artist Database](https://artist.moc.gov.tw/) — Xiao Qing-Yang's personal creative background and domestic and international award records.
+
+## Further Reading
+
+- [Grammy Award Best Recording Package Past Winners — Grammy.com](https://www.grammy.com/) — Complete list of Best Recording Package nominees and winners
+- [[Lim Giong]](/en/People/lim-giong/) — A Taiwanese musician Xiao Qing-Yang collaborated with early in his career

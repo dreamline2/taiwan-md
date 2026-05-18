@@ -1,65 +1,116 @@
 ---
-title: 'Terry Gou — de Banqiao à l''empire mondial de la fabrication'
-description: 'Fondateur de Foxconn, géant mondial des services de fabrication électronique et symbole de la puissance industrielle de Taïwan'
+title: 'Terry Gou : Banqiao 1950, de Hon Hai Plastics en 1974 au fondateur d’un empire de la sous-traitance'
+description: 'Né le 18/10/1950 à Banqiao, comté de Taipei. En 1974, fonde Hon Hai Plastics Enterprise avec 100 000 dollars taïwanais (10 employés). En 1981, entre dans les connecteurs pour PC ; en 1982, l’entreprise est renommée Hon Hai Precision. En 06/2019, il passe le relais à Liu Young-way comme président du conseil. En 2021, la fondation YongLin coopère avec TSMC et Hon Hai pour donner des vaccins BNT. En 2023, il retire sa candidature indépendante à la présidentielle 3 heures avant l’enregistrement. En 2024, Hon Hai est 32e au Fortune 500 ; en 2026, Gou est l’homme le plus riche de Taïwan (15,3 milliards de dollars US).'
 date: 2026-03-19
-tags: [personnalité, entrepreneur, technologie, industrie manufacturière]
-subcategory: 'Technologie et entreprise'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
+subcategory: '科技與企業'
+tags:
+  [
+    'technologie et entreprises',
+    'Hon Hai',
+    'industrie manufacturière',
+    'entrepreneur',
+    'Fortune 500',
+    'fondation YongLin',
+  ]
 readingTime: 8
+# design_rationale:
+#   why_this_hook: "從「10萬元旋鈕廠」到「Fortune 500第32名」——數字跨度比形容詞更有力。"
+#   whats_excluded: "管理哲學逐條分析；富士康勞工事件完整調查；MIH合作品牌細節"
+#   where_it_hedges: "辭任董事日期P0⚠️待確認；MIH品牌合作待驗證"
+lastVerified: 2026-05-07
+lastHumanReview: false
 featured: false
 translatedFrom: 'People/郭台銘.md'
-lastVerified: 2026-03-19
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:9965ca6354b224da'
+sourceBodyHash: 'sha256:cef8ceeeeb55c8e8'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-## De Banqiao à un empire industriel mondial
+# Terry Gou : Banqiao 1950, de Hon Hai Plastics en 1974 au fondateur d’un empire de la sous-traitance
 
-Terry Gou (郭台銘) est né en 1950 à Banqiao, dans la banlieue de Taipei. Il est l'un des entrepreneurs les plus influents que Taïwan ait jamais produits. La société qu'il a fondée — Hon Hai Precision Industry, mieux connue sous le nom de Foxconn — est passée d'un modeste atelier de moulage plastique au plus grand prestataire de services de fabrication électronique au monde, et au principal sous-traitant de l'iPhone d'Apple. Son parcours illustre la transformation profonde de l'industrie taïwanaise : du travail intensif vers la haute valeur technologique. Sa réussite en fait le symbole le plus visible du label « Made in Taiwan » sur la scène internationale.
+> **Aperçu en 30 secondes :** Terry Gou est né le 18 octobre 1950 à Banqiao, dans le comté de Taipei. [^1] En 1974, avec 100 000 dollars taïwanais obtenus grâce à une tontine organisée par sa mère, il fonde « Hon Hai Plastics Enterprise » ; l’entreprise compte 10 employés et produit principalement des boutons de téléviseurs. [^2] En 1981, elle développe des connecteurs pour PC ; en 1982, elle est renommée « Hon Hai Precision Industry ». [^2] En juin 2019, il passe le relais à Liu Young-way comme président du conseil ; la même année, après s’être présenté à la primaire présidentielle du Kuomintang, il se retire. [^3] En 2021, la fondation YongLin coopère avec TSMC et Hon Hai : chacun donne 5 millions de doses de vaccin BNT pour aider Taïwan dans sa lutte contre la pandémie. [^4] En 2023, il tente de nouveau de se présenter à la présidentielle comme indépendant, avec Tammy Lai comme colistière ; sa pétition atteint 902 389 signatures, le deuxième total le plus élevé de l’histoire taïwanaise, avant qu’il n’annonce son retrait 3 heures avant l’enregistrement. [^5] En 2024, le chiffre d’affaires consolidé de Hon Hai atteint 6,8596 billions de dollars taïwanais, et le groupe se classe 32e au Fortune 500. [^6] En mars 2026, sa fortune nette est estimée à environ 15,3 milliards de dollars US, ce qui le replace au rang d’homme le plus riche de Taïwan. [^7]
 
-L'aventure entrepreneuriale de Terry Gou commence en 1974. Il n'a alors que 24 ans et lance Foxconn avec 100 000 nouveaux dollars taïwanais empruntés à sa famille. L'entreprise compte dix employés et fabrique des composants plastiques sommaires — des boutons de téléviseur, notamment. Mais Gou perçoit très tôt les mutations du marché avec une acuité rare. Refusant de se cantonner aux petites pièces, il identifie l'industrie naissante du micro-ordinateur personnel comme terrain de conquête et décide d'y entrer par les connecteurs.
+## 18 octobre 1950, Banqiao, Taipei
 
-Ce choix stratégique change le destin de Foxconn. La croissance explosive du PC dans les années 1980 propulse l'entreprise dans une autre dimension : de simple atelier, elle devient un fournisseur incontournable de composants informatiques. La philosophie de gestion de Gou peut se résumer en deux lignes : produire ce que le client demande, et le produire mieux que quiconque au prix le plus bas. Cette pragmatisme radical lui vaut des contrats avec les plus grands donneurs d'ordres mondiaux.
+Terry Gou naît le 18 octobre 1950 à Banqiao, dans le comté de Taipei (aujourd’hui district de Banqiao, Nouveau Taipei) ; son père est un militaire originaire de Chine continentale, et la famille vit dans des conditions modestes. [^1] Après avoir obtenu son diplôme du China Maritime College (aujourd’hui Université nationale de l’océan de Taïwan), il travaille brièvement dans le secteur du transport maritime, avant de s’orienter vers l’entrepreneuriat.
 
-## L'ascension d'un géant de la sous-traitance
+## 1974 : Hon Hai Plastics Enterprise, un départ avec 100 000 dollars taïwanais
 
-Dans les années 1990, Terry Gou prend une décision qui va diviser les milieux d'affaires : délocaliser la production vers la Chine continentale. Critiquée à l'époque, la décision s'avère visionnaire. L'avantage de coût que Pékin offre, combiné au savoir-faire manufacturier de Foxconn, propulse l'entreprise en tête du marché mondial de la sous-traitance. Gou supervise personnellement l'implantation à Shenzhen et y construit une base de production tentaculaire.
+En 1974, Terry Gou emprunte à sa mère 100 000 dollars taïwanais issus d’une tontine, et fonde « Hon Hai Plastics Enterprise Co., Ltd. ». L’entreprise ne compte que 10 employés et produit principalement des pièces en plastique comme des boutons de téléviseurs. [^2]
 
-La véritable explosion de Foxconn est liée à Apple. En 2007, lorsque l'iPhone fait son apparition, Foxconn devient le partenaire de fabrication principal d'Apple — une alliance qui bouleverse le destin des deux sociétés. Les ventes mondiales de l'iPhone font grimper le chiffre d'affaires de Foxconn à une vitesse vertigineuse et font de Gou un titan de l'industrie internationale. À son apogée, Foxconn emploie plus d'un million de salariés, ce qui vaut à l'entreprise le titre d'« empire de la sous-traitance ».
+Hon Hai Plastics, avec ses 100 000 dollars taïwanais et ses 10 personnes, et le Hon Hai de 2024, aux 6,8596 billions de chiffre d’affaires et au 32e rang du Fortune 500 : cet écart numérique couvre exactement cinquante ans. La carrière de Terry Gou est une coupe complète de la trajectoire de l’industrie manufacturière taïwanaise, passée de la sous-traitance de composants à une position centrale dans la chaîne mondiale d’approvisionnement électronique. Il n’est pas un cas isolé de l’électronique taïwanaise : il est le condensé d’une époque industrielle entière.
 
-Gou articule sa stratégie concurrentielle autour de cinq piliers : rapidité, qualité, ingénierie de service, flexibilité, coût. Il défend l'intégration verticale : de la conception de composants à la fabrication de moules jusqu'à l'assemblage final, Foxconn maîtrise l'ensemble de la chaîne. Ce modèle clé en main permet aux clients de confier un produit entier à Foxconn et simplifie radicalement leur gestion de la supply chain.
+## 1981 : connecteurs pour ordinateurs personnels ; 1982 : renommage en Hon Hai Precision
 
-## Style de management et culture d'entreprise
+En 1981, Hon Hai entre dans la production de connecteurs pour ordinateurs personnels et accompagne la vague de croissance rapide de l’industrie du PC. [^2] En 1982, l’entreprise est renommée « Hon Hai Precision Industry Co., Ltd. », avec un capital de 16 millions de dollars taïwanais, consacrant la fabrication de précision comme son positionnement central. [^2]
 
-Terry Gou est réputé pour la rigueur de son management. Il exige que ses équipes traquent le moindre détail — « le diable se cache dans les détails » est l'un de ses mantras. Au sein de Foxconn, le contrôle qualité est d'une sévérité extrême : aucun défaut, même infime, n'est toléré. Sa formule favorite : « Les exigences du client sont nos normes ; les normes du client sont notre minimum. » C'est cette quête d'excellence qui permet à Foxconn de satisfaire aux standards draconiens d'Apple et des autres grandes marques.
+Les connecteurs sont des composants extrêmement élémentaires, mais indispensables, de l’industrie du PC : carte mère, alimentation, carte graphique, périphériques externes ont tous besoin de connecteurs pour être assemblés. Le passage de Terry Gou des boutons aux connecteurs constitue une décision stratégique : il choisit une position industrielle « qui ne sera absolument pas éliminée ». Par la suite, l’expansion de Hon Hai des connecteurs vers l’assemblage en sous-traitance, les boîtiers et les moules s’appuie à chaque étape sur l’extension de ce « positionnement central dans la fabrication de précision ».
 
-Ce pilotage par la pression a toutefois suscité des controverses. Les conditions de travail dans les usines chinoises ont valu à Foxconn des critiques internationales sévères. Gou a répondu en investissant massivement dans l'amélioration des environnements de travail et des conditions salariales, et en accélérant l'automatisation de la production — réduisant ainsi la dépendance à la main-d'œuvre tout en améliorant la régularité qualitative.
+## Années 1990 : déplacement vers Shenzhen et ascension de l’empire de la sous-traitance
 
-Gou est aussi connu dans le monde de la tech pour son rapport obsessionnel au travail : il appelle ses collaborateurs en pleine nuit pour discuter d'un détail, son exigence de perfection frôle l'intransigeance. Ce leadership par l'exemple a forgé une culture d'entreprise d'une efficacité redoutable, même si le regard extérieur y voit parfois les excès du modèle de l'atelier intensif.
+Dans les années 1990, Terry Gou établit une base de production à Shenzhen, combinant les avantages de coût de la Chine continentale et les technologies de fabrication de précision de Hon Hai, ce qui permet une expansion rapide de l’échelle. Après le lancement de l’iPhone en 2007, Hon Hai devient le principal partenaire de sous-traitance d’Apple ; à son apogée, le groupe emploie plus d’un million de salariés, et les médias le qualifient d’« empire de la sous-traitance ».
 
-## Un détour par la politique
+La relation de sous-traitance entre Apple et Hon Hai est l’une des relations bilatérales les plus importantes de la chaîne mondiale d’approvisionnement en électronique grand public. Hon Hai assemble la majeure partie des iPhone ; cette position rend Taïwan irremplaçable dans la stratégie d’approvisionnement d’Apple. Même alors qu’Apple cherche activement à diversifier ses risques, Hon Hai demeure un maillon central.
 
-En 2019, Terry Gou, pourtant à l'âge de la retraite, annonce sa candidature à l'élection présidentielle de la République de Chine (Taïwan). La nouvelle secoue le landerneau politique. Ses propositions se concentrent sur le développement économique et les relations entre les deux rives du détroit. Il prône une gouvernance inspirée de l'efficacité entrepreneuriale et plaide pour un équilibre entre Washington et Pékin.
+## 2019 : passage de relais à Liu Young-way, première candidature présidentielle
 
-Mais l'aventure tourne court : Gou se retire de la course. Il découvre que la politique fonctionne selon des règles radicalement différentes de l'entreprise — la démocratie requiert concertation et compromis, ce qui contraste avec son style de leadership volontariste. Après son retrait, il se recentre sur la gestion de Foxconn et ses activités philanthropiques. Cet épisode politique révèle néanmoins son attachement profond à la société taïwanaise et sa vision pour son pays.
+En juin 2019, Terry Gou passe le relais à Liu Young-way, qui devient président du conseil de Hon Hai, tandis que Gou prend le titre de fondateur du groupe. [^3] La même année, Terry Gou annonce sa candidature à l’élection présidentielle de la République de Chine de 2020, défendant une gouvernance inspirée de l’esprit entrepreneurial et insistant sur la stabilisation des relations entre les deux rives du détroit.
 
-## Les défis de la mutation industrielle
+Dans les sondages de la primaire présidentielle du Kuomintang en juillet 2019, le maire de Kaohsiung [Han Kuo-yu](/fr/People/han-kuo-yu/) bat Terry Gou avec 44,8 % contre 27,7 %. [^3] Le 12 septembre, Terry Gou annonce qu’il quitte le parti ; dans la nuit du 16 septembre, il publie une déclaration en tant que fondateur du groupe Hon Hai, décidant de « ne pas participer à la pétition de candidature présidentielle de 2020 ». [^3] Le facteur clé de ce retrait est la coordination menée notamment par Hau Lung-bin, vice-président du Kuomintang : Terry Gou choisit finalement de ne pas diviser l’électorat du camp bleu.
 
-Ces dernières années, Terry Gou pousse activement la transformation de Foxconn. Face à la hausse des coûts de main-d'œuvre et aux turbulences de la guerre commerciale, il lance la stratégie « Industrie 4.0 » : investissements massifs dans l'automatisation et l'intelligence artificielle. Foxconn ne se satisfait plus du rôle de sous-traitant pur ; il entend devenir le leader de la fabrication intelligente.
+La sortie de scène de cette première candidature l’amène, lors de sa nouvelle tentative pour 2024, à choisir une voie entièrement différente : une pétition indépendante, contournant le mécanisme des partis.
 
-Le véhicule électrique constitue l'un des axes majeurs de cette mutation. Gou est convaincu que la voiture électrique va transformer le monde comme le smartphone l'a fait. Foxconn a lancé la plateforme MIH pour véhicules électriques, avec l'ambition d'en faire l'équivalent de l'Android de l'industrie automobile. Le succès de cette stratégie déterminera la trajectoire de Foxconn pour la décennie à venir.
+## 2021 : don de vaccins BNT par la fondation YongLin
 
-## Le symbole de l'industrie manufacturière taïwanaise
+En mai 2021, alors que l’épidémie de COVID-19 s’intensifie à Taïwan et que les achats publics de vaccins rencontrent des difficultés, Terry Gou lance, à titre personnel, le projet d’acquisition de vaccins BNT par la fondation YongLin. [^4] Le 23 mai, il lance publiquement un appel ; le 1er juin, la fondation dépose son dossier auprès de la Food and Drug Administration ; le 18 juin, le Yuan exécutif accorde son autorisation officielle. L’ensemble du processus dure exactement sept semaines.
 
-La réussite de Terry Gou est à la fois une trajectoire personnelle et le reflet de la place de Taïwan dans les chaînes de valeur mondiales. Il prouve qu'une entreprise taïwanaise peut partir d'un atelier et atteindre le rang mondial, et il ouvre la voie à d'innombrables entrepreneurs taïwanais qui cherchent à s'implanter sur le continent.
+Au final, TSMC, Hon Hai et la fondation caritative YongLin achètent chacun 5 millions de doses de vaccin BNT, soit 15 millions de doses au total, directement auprès du fabricant BNT : production par le fabricant d’origine, étiquetage d’origine, livraison directe à Taïwan, puis don aux Centers for Disease Control du ministère de la Santé et du Bien-être. [^4] Il s’agit du plus grand don privé de vaccins de l’histoire taïwanaise de la lutte contre la pandémie ; il fait aussi du modèle « des entrepreneurs utilisant leur puissance commerciale pour compléter la vitesse d’achat du gouvernement » un sujet public largement débattu.
 
-Comme l'a dit l'entrepreneur Stan Shih (施振榮), Gou a réalisé l'avantage manufacturier qui correspond à l'extrémité droite de la courbe du sourire — c'est l'évaluation la plus juste de sa contribution.
+Pour Terry Gou lui-même, la signification de cette action dépasse le commerce : il utilise son prestige personnel, ainsi que sa capacité de communication avec Pékin, pour débloquer le nœud politique alors le plus sensible dans l’achat de vaccins BNT, fournissant une aide concrète à un moment critique de la santé publique taïwanaise.
 
-Le succès de Foxconn a également tiré vers le haut l'ensemble de l'industrie électronique taïwanaise. De nombreuses entreprises taïwanaises ont bénéficié de la chaîne d'approvisionnement que Foxconn a construite, formant un écosystème industriel cohérent. Si le cœur de la fabrication s'est déplacé vers le continent, la R&D et les composants clés sont restés à Taïwan — préservant le rôle central de l'île dans l'industrie électronique mondiale.
+## 2023 : candidature indépendante et retrait au nom du « choix d’accomplir »
 
-## Controverses et bilan
+Le 28 août 2023, Terry Gou tient une conférence de presse de la « Grande alliance de l’opinion publique majoritaire » et annonce sa candidature indépendante à l’élection présidentielle de 2024. [^5] Le 14 septembre, il annonce que sa colistière sera Tammy Lai, écrivaine dans le domaine spirituel et artiste ; pour satisfaire aux conditions d’éligibilité, Lai renonce très rapidement à sa nationalité américaine.
 
-En tant que personnalité publique, Terry Gou n'a jamais cessé de susciter autant d'admiration que de polémiques. Ses partisans voient en lui la fierté de Taïwan, l'homme qui a imposé le savoir-faire taïwanais sur la scène mondiale ; ses détracteurs questionnent son rapport aux travailleurs et à la responsabilité sociale de l'entreprise. Mais quel que soit le jugement, nul ne peut nier sa contribution décisive au développement économique de Taïwan.
+Le processus de pétition est extrêmement rare dans l’histoire politique taïwanaise : du lancement le 20 septembre à la clôture le 1er novembre, l’équipe de Terry Gou réunit **902 389 signatures valides**, soit le **deuxième plus grand nombre de signatures** de l’histoire des élections publiques à Taïwan. [^5] Ce chiffre est en lui-même un échantillon d’opinion publique, montrant que, dans l’atmosphère politique de l’élection de 2024, un grand nombre d’électeurs espèrent encore une troisième voie.
 
-Sa pensée managériale a influencé l'ensemble du monde des affaires de langue chinoise. De nombreux entrepreneurs étudient le modèle Foxconn. Les méthodes peuvent prêter à débat ; les résultats, eux, sont irréfutables : transformer un atelier de dix personnes en une multinationale de rang mondial est, en soi, un miracle entrepreneurial.
+Mais **3 heures avant** la clôture de l’enregistrement des candidatures, Terry Gou annonce son retrait. Le titre de sa déclaration est : « **Choisir d’accomplir autrui est déjà tout l’amour que je peux offrir à ma terre natale** ». [^5] Il appelle à « achever l’alternance des partis » et oriente ses soutiens vers d’autres candidats.
 
-Aujourd'hui, chaque fois que vous utilisez un iPhone, il est probable que vous ne sachiez pas que ce téléphone a été assemblé dans une usine fondée par un Taïwanais. Terry Gou a fait voir au monde la puissance manufacturière de Taïwan et a conquis pour l'île une place stratégique dans les chaînes de production mondiales. Cette contribution, quelle que soit la façon dont la postérité jugera son style de management, demeure permanente.
+Deux candidatures, deux retraits au stade final : la trajectoire de la participation politique de Terry Gou présente une tension particulière. Il entre chaque fois dans l’arène, puis recule chaque fois avant le dernier pas. Ce modèle est singulier dans l’histoire politique taïwanaise : à chaque entrée, il accumule un échantillon d’opinion publique ; à chaque retrait, il évite un possible effet de division.
+
+## 2026 : démission du conseil de Hon Hai, homme le plus riche de Taïwan avec 15,3 milliards de dollars US
+
+Terry Gou a quitté son poste d’administrateur de Hon Hai, pour des « raisons personnelles ». [^7] En mars 2026, sa fortune nette est estimée à environ 15,3 milliards de dollars US, ce qui le replace au rang d’homme le plus riche de Taïwan. [^7]
+
+De l’usine de boutons de Hon Hai Plastics, créée avec 100 000 dollars taïwanais, à l’empire de la sous-traitance classé 32e au Fortune 500 ; du candidat à la primaire du Kuomintang en 2019 au promoteur des vaccins BNT en 2021, puis au candidat indépendant du « choix d’accomplir » en 2023 : la carrière professionnelle et publique de Terry Gou suit une trajectoire d’expansion **de la fabrication au capital, puis à la participation publique**.
+
+**Lecture courante → lecture plus précise** : Terry Gou est souvent présenté comme un entrepreneur qui « s’est présenté deux fois à la présidentielle sans aller jusqu’au bout ». Une lecture plus précise est la suivante : il fait partie des rares entrepreneurs taïwanais à avoir traversé les quatre domaines du commerce, de la fabrication, de la santé publique pandémique et de la mobilisation électorale. Le chiffre des **902 389 signatures** et celui des **15 millions de doses de BNT** sont tous deux des traces réelles dans la mémoire publique taïwanaise : non pas un récit héroïque, mais le relevé concret d’un entrepreneur intervenant dans l’espace public au moyen de ses ressources personnelles et de son prestige.
+
+> 🎙️ **Note du curateur** : La participation politique de Terry Gou diffère du modèle habituel de l’entrepreneur qui « donne de l’argent à des candidats » : il descend lui-même dans l’arène et accepte lui-même l’épreuve de l’opinion publique. Ce choix est en soi un cas particulier des relations entre politique et affaires à Taïwan : il est l’un des **très rares entrepreneurs taïwanais de rang comparable à Formosa Plastics à accepter de s’exposer directement au jugement populaire**.
+>
+> Le don de vaccins BNT en 2021 intervient à un moment où la société taïwanaise est particulièrement sensible aux controverses sur les achats de vaccins ; il utilise alors la puissance de sa marque personnelle pour faire avancer un nœud de santé publique d’échelle nationale. Le succès de cette intervention fournit, lorsqu’il se représente en 2023, un précédent concret et vérifiable à son appel à une « gouvernance par l’entrepreneur ».
+>
+> Le retrait de 2023 au nom du « choix d’accomplir » est un cas rare dans l’histoire électorale taïwanaise : un candidat renonce volontairement à une qualification compétitive déjà établie. 900 000 signatures ne sont pas une petite affaire, mais il choisit de ne pas les activer. Cette manière de sortir de scène mérite davantage d’être consignée que la visibilité de son entrée en campagne.
+
+Des usines de Shenzhen à la sous-traitance pour Apple, du vaccin de la fondation YongLin à la conférence de presse de la « Grande alliance de l’opinion publique majoritaire » : la trajectoire de Terry Gou est une coupe où se superposent l’ère manufacturière taïwanaise et l’ère post-manufacturière. Il n’est pas seulement un entrepreneur ; il est une représentation individualisée de la mondialisation de l’électronique taïwanaise, et un cas complet pour la question de cette génération : « comment les entrepreneurs participent-ils à l’espace public ? »
+
+**Lectures complémentaires** : [Terry Gou — Wikipédia](https://zh.wikipedia.org/zh-tw/郭台銘) ｜ [Groupe Hon Hai : présentation du fondateur](https://www.honhai.com/zh-tw/about/group-profile/founder)
+
+## Références
+
+[^1]: [Wikipédia : Terry Gou](https://zh.wikipedia.org/zh-tw/郭台銘) — confirme sa naissance le 18 octobre 1950 à Banqiao, comté de Taipei (aujourd’hui district de Banqiao, Nouveau Taipei), l’école maritime spécialisée devenue Université nationale de l’océan de Taïwan, et le contexte familial.
+
+[^2]: [Groupe Hon Hai : présentation du fondateur](https://www.honhai.com/zh-tw/about/group-profile/founder) — confirme la fondation en 1974 de « Hon Hai Plastics Enterprise » (100 000 dollars taïwanais / 10 personnes / boutons de téléviseurs) ; les connecteurs pour PC en 1981 ; le renommage en 1982 en « Hon Hai Precision Industry », avec un capital de 16 millions de dollars taïwanais.
+
+[^3]: [CommonWealth Magazine : pourquoi Terry Gou a-t-il renoncé au dernier moment ?](https://www.cw.com.tw/article/5096880) — confirme que, dans les sondages de la primaire présidentielle du Kuomintang en 2019, Han Kuo-yu bat Terry Gou par 44,8 % contre 27,7 % ; son départ du parti le 12 septembre ; la déclaration publiée dans la nuit du 16 septembre annonçant qu’il ne participerait pas à la campagne présidentielle de 2020 ; ainsi que le processus de coordination du retrait par Hau Lung-bin.
+
+[^4]: [Hon Hai Technology Group : TSMC, Hon Hai et la fondation YongLin finalisent le don de vaccins BNT](https://www.foxconn.com/zh-tw/press-center/events/csr-events/644) — confirme l’appel public du 23 mai 2021, le dépôt du dossier le 1er juin et l’autorisation du Yuan exécutif le 18 juin ; TSMC, Hon Hai et la fondation YongLin achètent chacun 5 millions de doses de BNT directement auprès du fabricant, produites et étiquetées par le fabricant d’origine, livrées directement à Taïwan, soit 15 millions de doses données aux Centers for Disease Control du ministère de la Santé et du Bien-être.
+
+[^5]: [Business Today : publication de la déclaration de retrait de Terry Gou](https://www.businesstoday.com.tw/article/category/183027/post/202311240009/) — confirme l’annonce de sa candidature indépendante le 28 août 2023, l’annonce de Tammy Lai comme colistière le 14 septembre, les 902 389 signatures valides (deuxième total le plus élevé de l’histoire des élections publiques à Taïwan), le retrait annoncé 3 heures avant l’enregistrement dans une déclaration intitulée « Choisir d’accomplir », et l’appel à « achever l’alternance des partis ».
+
+[^6]: [Business Next : résultats financiers 2024 de Hon Hai](https://www.bnext.com.tw/article/83290/foxconn-good-2025) — confirme que le chiffre d’affaires consolidé 2024 de Hon Hai atteint 6,8596 billions de dollars taïwanais et que l’entreprise est classée 32e au Fortune 500.
+
+[^7]: [Wikipédia : Terry Gou (situation récente)](https://zh.wikipedia.org/zh-tw/郭台銘) — confirme que Terry Gou a quitté son poste d’administrateur de Hon Hai pour des « raisons personnelles » ; en mars 2026, sa fortune nette est estimée à environ 15,3 milliards de dollars US, faisant de lui l’homme le plus riche de Taïwan.

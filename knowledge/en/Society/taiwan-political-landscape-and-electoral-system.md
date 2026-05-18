@@ -1,106 +1,83 @@
 ---
-title: 'Taiwan’s Political Landscape and Electoral System'
-description: 'A field guide to Taiwan’s semi‑presidential constitution, its mixed electoral rules, and the civic culture that keeps turnout high in a geopolitically pressured democracy.'
+title: 'Taiwan's Political Landscape and Electoral System'
+description: 'From the constitutional framework, central and local electoral mechanisms, to the deeper party-political culture, a comprehensive analysis of how Taiwan maintains a vibrant and institutionally rigorous democratic society amid complex geopolitics'
 date: 2026-03-18
-category: 'Society'
-tags:
-  [
-    'political system',
-    'electoral rules',
-    'semi-presidentialism',
-    'local governance',
-    'civil society',
-    'digital democracy',
-  ]
 author: 'Taiwan.md Contributors'
-difficulty: 'intermediate'
+category: 'Society'
+subcategory: '民主與政治'
+tags: ['Political System', 'Electoral System', 'Semi-Presidentialism', 'Local Self-Governance', 'Civil Society', 'Digital Democracy']
 readingTime: 12
-featured: false
 lastVerified: 2026-03-19
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣政治環境與選舉制度.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:db13674bd2e78f06'
+sourceBodyHash: 'sha256:c04d648a91c00bf4'
+translatedAt: '2026-05-17T05:34:48+08:00'
 ---
 
-# Taiwan’s Political Landscape and Electoral System
+# Taiwan's Political Landscape and Electoral System
 
-> **30‑second overview:** Taiwan is one of the most studied democratic transitions in Asia. It moved from martial law in the 1980s to a vibrant democracy with consistently high voter turnout (often around 70%). Its constitution combines a **semi‑presidential system** (semi‑presidentialism) with a **mixed electoral system** for the legislature. The result is a political ecosystem that balances strong executive leadership, legislative scrutiny, and active citizen participation—even under intense geopolitical pressure.
+> **30-second overview:** Taiwan's political system is a global model of democratic transition, having peacefully evolved from the martial law regime of the 1980s into one of Asia's freest democracies. Through a semi-presidential central government structure and a parallel electoral system combining district representation with proportional party representation, Taiwan has built a politically vibrant ecosystem of active civic participation (presidential election turnout consistently 70–75%; legislative and nine-in-one local elections approximately 60–66%). The collapse of the KMT–TPP coalition talks in late 2023, Lai Ching-te's victory in the three-way 2024 presidential race, the 2024 legislative reform bill controversy and J.Y. Interpretation No. 113-9, the Legislative Yuan's rejection of Grand Justice nominees, and the 2025 Great Recall Wave have each tested constitutional resilience in succession.
 
----
+## I. Constitutional Framework: Five-Power Separation and Dual Executive System
 
-## 1) Constitutional design: a semi‑presidential system with a unique history
+Taiwan's governmental structure derives from the *Constitution of the Republic of China*. After seven rounds of critical additional articles, it has evolved into the current **semi-presidential system**, also known as the dual executive system.[^1] The president is directly elected by all citizens every four years, responsible for national defense, foreign affairs, and cross-strait relations, and holds the power to directly appoint the premier (without Legislative Yuan confirmation). The premier is appointed by the president; cabinet ministers are nominated by the premier and appointed by the president. The Executive Yuan is accountable to the Legislative Yuan; if the Legislative Yuan passes a vote of no confidence, the premier must resign. The Legislative Yuan is a unicameral legislature responsible for law review, budgetary scrutiny, and government oversight.
 
-Taiwan’s government is built on the **Constitution of the Republic of China**, which has been amended seven times. While the original design features a five‑branch system (Five Powers), contemporary practice has evolved toward a more classic separation of powers.
+The constitutional design includes the Judicial Yuan, Examination Yuan, and Control Yuan, forming a five-power separation framework. In practice, however, Taiwan has gradually converged toward the core tripartite structure of executive, legislative, and judicial branches. The abolition or functional adjustment of the Examination and Control Yuans remains a long-standing topic of constitutional reform discussion in Taiwan, though no formal constitutional amendment proceedings are currently underway. Academic debate over "whether semi-presidentialism suits Taiwan" also persists—constitutional scholars Wu Yushan and Lin Jiwen, among others, have pointed out that constitutional gridlock during divided government is one of the structural problems inherent to semi-presidentialism.
 
-### 1. The dual‑executive structure
+## II. Electoral Mechanisms: The Mechanics That Shape the Nation's Direction
 
-- **President (總統)**: Directly elected every four years. The president oversees national defense, foreign affairs, and cross‑strait policy. The president also appoints the premier (行政院院長) without legislative confirmation.
-- **Executive Yuan (行政院)**: The cabinet, led by the premier. It proposes policy, drafts budgets, and must remain accountable to the legislature. A legislative no‑confidence vote can force the premier to resign and may trigger the dissolution of the legislature.
-- **Legislative Yuan (立法院)**: Unicameral parliament responsible for lawmaking, budget oversight, and checks on the executive.
+Taiwan holds elections at a very high frequency, divided into two main systems: "central public office elections" and "local public office elections," typically staggered two years apart.[^2]
 
-### 2. The Five Powers system in practice
+Presidential elections use a **plurality system** with no second round; the candidate with the most votes wins. This makes Taiwan's presidential elections highly characterized by party mobilization and strategic vote-switching ("abandonment") tactics. The Legislative Yuan has 113 seats under a **single-district, two-vote (parallel) system**: 73 district legislators are elected from single-member districts (voting for a person); 34 at-large legislators are elected by party vote with a 5% threshold, designed to bring in experts, scholars, and minority group representatives; 6 indigenous legislators are elected through a **multi-member district system**, divided between plains and mountain indigenous constituencies.
 
-Taiwan still maintains constitutional bodies for the **Judicial Yuan**, **Examination Yuan**, and **Control Yuan**. In practice, however, governance has moved closer to a three‑branch model. Debates over streamlining or reforming the Examination and Control Yuan remain a recurring theme in constitutional reform discussions.
+At the local level, the quadrennial "nine-in-one elections" simultaneously fill nine categories of office—including county and city mayors, councilors, and village chiefs—serving as a barometer of grassroots public opinion. Local governments enjoy a high degree of autonomy in taxation, land management, social welfare, and other domains, making policy experiments in individual counties and cities testing grounds for island-wide reform.
 
----
+## III. The Political Landscape: From Binary Opposition to Issue-Oriented Politics
 
-## 2) Electoral mechanics: how votes translate into power
+Taiwan's political landscape is shaped by the dual pressures of historical memory and international status. Traditionally, the "national identity" and "cross-strait policy" divide has been dominated by the Democratic Progressive Party (Green) and the Kuomintang (Blue), forming a habitual "Blue-Green rivalry." However, as younger voters increasingly prioritize domestic issues such as housing, low wages, and energy, **third forces**—notably the **Taiwan People's Party** (founded by Ko Wen-je in 2019, with Huang Kuo-chang succeeding as party chair)—have begun challenging the binary political order, causing structural loosening of the political landscape.
 
-Taiwan holds elections frequently. National and local elections alternate on a two‑year rhythm, creating a continuous civic pulse.
+### Layers of the Unification-Independence Spectrum
 
-### 1. National elections
+The "Blue-Green" binary oversimplifies Taiwan's national identity spectrum. A more nuanced stratification in practice includes: **unificationists** (advocating cross-strait unification; represented by the New Party and the Labor Party), **ROC-on-Taiwan pragmatists** (supporting the status quo of the Republic of China in Taiwan without pursuing a name change; mainstream KMT), **ROC independence** (the Republic of China is already an independent state; one mainstream DPP strand), and **Taiwan independence** (advocating formal renaming and state-building, decoupling from the Republic of China; certain DPP factions and smaller parties). Most younger generations self-identify as "naturally independent" or "Taiwanese," a significant gap from older generations who identify as "Chinese" or "both."
 
-- **Presidential election:** A single round, **first‑past‑the‑post** system. The winner takes office with the highest vote share, which often amplifies strategic voting and “lesser‑evil” coalitions.
-- **Legislative election (113 seats):** A **mixed system** known locally as **並立制**—a “parallel” system that combines district seats with party‑list seats:
-  - **73 district seats**: Single‑member districts (one representative per district).
-  - **34 party‑list seats**: Proportional representation with a 5% threshold; this design helps introduce policy experts and minor parties.
-  - **6 Indigenous seats**: Elected in multi‑member constituencies divided into **Plains Indigenous** and **Mountain Indigenous** categories—an institutional recognition of Taiwan’s Austronesian peoples.
+### The Collapse of the KMT–TPP Coalition in Late 2023
 
-### 2. Local elections (“Nine‑in‑One”)
+**In November 2023**, the KMT camp of Hou Yu-ih and the TPP camp of Ko Wen-je attempted "Blue-White coalition" negotiations ahead of the 2024 election, hoping to jointly field a single non-Green candidate. With Terry Gou as mediator, the two sides met at the Taipei Guest House, but talks collapsed on **November 24** over disagreements regarding "polling comparison methods" and "presidential-vice-presidential candidate arrangement," leading both to run separately. The coalition's collapse was a key precondition for the 2024 election outcome (Lai Ching-te winning with 40% in a three-way race).
 
-Every four years, Taiwan holds a combined local election commonly called **九合一** (“nine‑in‑one”). It elects mayors, county magistrates, city and county councilors, township heads, borough chiefs, and more—all in one mega‑cycle. This is where local issues and public trust are tested most directly.
+Taiwan possesses vigorous civic monitoring capacity. **g0v (gov-zero)** uses civic technology to promote government transparency, making budgets and legal provisions visual and accessible. Taiwan also features relatively low recall thresholds and a citizen referendum mechanism, meaning elected officials face direct public accountability at any time. These tools of direct democracy were fully mobilized during the 2025 Great Recall Wave.
 
----
+## IV. After the 2024 Elections: Constitutional Tests Under Divided Government
 
-## 3) Political culture: from identity politics to issue politics
+On **January 13, 2024**, presidential and legislative elections were held concurrently. DPP candidate Lai Ching-te was elected with 40% of the vote, becoming the first candidate in Taiwan's history to win a presidential election in a three-way race. However, the DPP secured only 51 Legislative Yuan seats, short of the majority threshold (57 seats).[^3] The Kuomintang won 52 seats, and the Taiwan People Party won 8 seats, together forming a 60-seat legislative majority. On **May 20, 2024**, Lai Ching-te was formally inaugurated as the 16th president, and Han Kuo-yu was inaugurated as the 11th Legislative Yuan President on the same day.
 
-Taiwan’s political identity is shaped by both history and international status, creating distinct dynamics.
+From **May to June 2024**, the legislative opposition majority (KMT + TTP) pushed forward the **Legislative Reform Bill**, containing controversial provisions including expanded Legislative Yuan investigative powers, a hearing system, and requiring the president to take questions on the spot during the State of the Nation address. These raised concerns of unconstitutionality and triggered large-scale civic street protests (the Bluebird Movement). The bill was ultimately referred for constitutional review by President Lai and the DPP caucus. On **October 25, 2024**, the Constitutional Court issued **J.Y. Interpretation No. 113-9**, ruling multiple provisions unconstitutional—an outcome widely referred to as **"113 Xian Pan 9."**
 
-### 1. Party system and identity politics
+The Grand Justice vacancy crisis was the most severe constitutional challenge of this period. In **October 2024**, **7 of the 15 Grand Justice seats** on the Constitutional Court had their terms expire (including then-President Hsu Tzong-li and Vice President Tsai Chiang-ting). Lai Ching-te nominated 7 replacement candidates in August 2024, but the Legislative Yuan, under its KMT-TPP majority, rejected all of them on **December 24, 2024**, leaving the Constitutional Court operating with only 8 justices for an extended period. The Legislative Yuan subsequently amended the *Constitutional Procedure Act* to raise the threshold for calculating the total number of sitting Grand Justices, further constraining the Constitutional Court's operational capacity and triggering subsequent disputes over constitutional validity.[^4]
 
-For decades, politics was dominated by two camps:
+In **2025**, the DPP and civil society organizations launched a large-scale recall campaign, initiating recall petitions against several opposition legislators—an event dubbed the **"Great Recall Wave."** Multiple recall cases crossed the petition threshold and advanced to the voting stage, becoming the largest simultaneous recall action in Taiwan's democratic history and once again testing the procedural design of the recall system.[^5]
 
-- **“Blue” (Kuomintang / KMT)** and **“Green” (Democratic Progressive Party / DPP)**—often divided by national identity and cross‑strait policy.
-- In recent years, **third‑force parties** (e.g., Taiwan People’s Party) have gained traction, reframing the debate around domestic issues such as housing, wages, and energy policy.
+## V. Challenges and Resilience
 
-### 2. Civic society and digital democracy
+Information warfare is an external pressure Taiwan's democracy has long faced. Due to geopolitical factors, Taiwan frequently serves as a testing ground for foreign-origin disinformation attacks, compelling the government and civil society to jointly develop fact-checking mechanisms. Civic media literacy education has also become part of the school curriculum.
 
-Taiwan’s civil society is unusually active. Two hallmarks stand out:
+Constitutional gridlock is an internal institutional challenge. When the president's party differs from the legislative majority party (divided government), budget review and policy advancement face protracted standoffs. Taiwan's constitutional amendment threshold is extremely high—a national referendum requires affirmative votes exceeding one-quarter of the total electorate—making it difficult to update outdated laws and regulations in step with the times.
 
-- **g0v (零時政府)**: A civic‑tech community that “forks” government data to make it transparent and usable—an open‑source ethos applied to public life.
-- **Recall elections and referendums**: Taiwan has lower barriers for recalls and citizen‑initiated referendums than many democracies, keeping elected officials under continuous scrutiny.
-
----
-
-## 4) Key challenges—and why the system still holds
-
-Taiwan’s democracy is resilient but faces ongoing stress tests.
-
-1. **Disinformation and information warfare**: Taiwan is often described as a frontline laboratory for disinformation operations. This has led to a robust fact‑checking ecosystem and quick‑response civic networks.
-2. **Institutional gridlock**: When the president’s party lacks a legislative majority, policy momentum can stall. This “divided government” scenario has become a crucial test for Taiwan’s semi‑presidential design.
-3. **High thresholds for constitutional reform**: Taiwan’s amendment process is intentionally difficult. While this protects stability, it can slow necessary modernization.
-
----
-
-## 5) Why this matters internationally
-
-Taiwan’s political system is not just a domestic story; it is a case study in how democratic institutions can survive under external pressure. The combination of strong electoral legitimacy, decentralized local governance, and a highly networked civil society creates a **resilience architecture** rarely seen elsewhere.
-
-Taiwan shows that democracy is not only about voting; it is about **continuous participation**—from local borough meetings to civic‑tech hackathons. This blend of formal institutions and bottom‑up action is what makes Taiwan’s political life so uniquely energetic.
-
----
+Taiwan's democratic resilience derives from the system's own separation-of-powers design and from civil society's deep engagement with politics. Every constitutional crisis has been accompanied by gatherings in public squares and mobilization on social media. This bottom-up pressure is a vital line of defense for Taiwan's democratic functioning.
 
 ## References
 
-- [Central Election Commission (CEC) Election Database](https://db.cec.gov.tw/) — historical election data since the 1980s
-- [National Laws Database: Constitution of the Republic of China](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001)
-- [g0v (零時政府)](https://g0v.tw/) — civic technology and open government efforts
-- Wang Ding‑ming et al., _Changes in Taiwan’s Electoral System and Voting Behavior_ (see [Journal of Electoral Studies](https://jestw.nccu.edu.tw/))
+[^1]: [National Laws and Regulations Database: Constitution of the Republic of China](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001) — Full text of the Constitution and its Additional Articles.
+[^2]: [Central Election Commission Historical Election Database](https://db.cec.gov.tw/) — Election data and turnout statistics dating back to the 1980s.
+[^3]: [Central Election Commission: 2024 16th Presidential and Vice-Presidential Election](https://db.cec.gov.tw/histQuery.jsp?voteCode=20240101A1&type=presMain) — Confirms Lai Ching-te's vote share of 40.05% and seat distribution by party.
+[^4]: [Constitutional Court Announcements: Grand Justice Personnel Overview](https://cons.judicial.gov.tw/) — Confirms the expiration of 7 Grand Justice terms in October 2024 and the resulting vacancies.
+[^5]: [g0v (gov-zero)](https://g0v.tw/) — Civic technology and recall petition tracking tools during the 2025 Great Recall Wave.
+
+**Further Reading**
+
+- [Taiwan's Defense and Military Modernization](/society/台灣國防與軍事現代化) — How divided government practically affects defense policy
+- [Taiwan's Diplomatic Allies and International Relations](/society/台灣邦交國與國際外交) — How differences in party positions extend to swings in diplomatic approach
+- [The 2026 Xi-Ma Meeting: Ten Minutes of Cross-Strait Leadership Reunion After a Decade](/society/2026鄭習會與國共十年再會) — The KMT's 2025 chairmanship election and its route debate
+- [Chi Lin-lian](/people/季麟連) — Retired lieutenant general serving as KMT vice chairman; the 2026 Central Standing Committee split incident exposing the structure of the Huangfueng Party Chapter

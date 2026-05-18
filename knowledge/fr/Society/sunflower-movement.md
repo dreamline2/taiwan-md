@@ -1,8 +1,14 @@
 ---
 title: 'Le Mouvement des Tournesols — Douze ans après ces trente secondes'
-description: 'Un député couché sur le sol, un micro de revers, trente secondes de discours : c''est tout ce qu''il a fallu pour déclencher vingt-quatre jours d''occupation du Parlement, l''éveil politique d''une génération, et le début du désengagement économique de Taïwan vis-à-vis de la Chine. Douze ans plus tard, les lois réclamées par les étudiants n''ont pas abouti — et pourtant, ils ont remporté une guerre qu''ils ignoraient mener.'
+description: "Un député couché sur le sol, un micro de revers, trente secondes de discours : c'est tout ce qu'il a fallu pour déclencher vingt-quatre jours d'occupation du Parlement, l'éveil politique d'une génération, et le début du désengagement économique de Taïwan vis-à-vis de la Chine. Douze ans plus tard, les lois réclamées par les étudiants n'ont pas abouti — et pourtant, ils ont remporté une guerre qu'ils ignoraient mener."
 date: 2026-04-12
-tags: ['mouvements sociaux', 'démocratie', 'relations entre les deux rives', 'technologie civique']
+tags:
+  [
+    'mouvements sociaux',
+    'démocratie',
+    'relations entre les deux rives',
+    'technologie civique',
+  ]
 category: 'Society'
 subcategory: 'Démocratie et politique'
 author: 'Taiwan.md Translation Team'
@@ -10,12 +16,16 @@ featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:3a8798103fc8c01b'
+sourceBodyHash: 'sha256:620bf7e5d85566f8'
+translatedAt: 2026-05-16T22:24:38Z
 ---
 
 > **Résumé en 30 secondes :** Le 17 mars 2014, le député du Kuomintang Chang Ching-chung, couché à même le sol, ânonne trente secondes dans son micro de revers pour déclarer l'accord de commerce de services « examiné ». Le lendemain soir, deux cents étudiants escaladent les grilles du Parlement et installent une diffusion en direct vingt-quatre heures sur vingt-quatre via une tablette, court-circuitant toutes les chaînes de télévision. Vingt-quatre jours plus tard, les étudiants se retirent. L'accord n'est pas rejeté — il est abandonné par l'Histoire. Les chiffres parlent d'eux-mêmes : la dépendance commerciale de Taïwan envers la Chine est passée de 42 % à 31,5 %. Ils ont gagné une guerre qu'ils ne savaient pas mener.
 
-| 42 % → 31,5 %                                              | 633 000 TWD                                                   |
-| ---------------------------------------------------------- | ------------------------------------------------------------- |
+| 42 % → 31,5 %                                                                               | 633 000 TWD                                                                                        |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Baisse de la dépendance aux exportations vers la Chine (Hongkong inclus) entre 2014 et 2025 | Financement participatif pour la publicité dans le New York Times (objectif atteint en 35 minutes) |
 
 ## Trente secondes
@@ -108,10 +118,10 @@ Et pourtant, ils ont gagné une guerre qu'ils ignoraient mener.
 
 Le Mouvement des Tournesols a mis fin, dans les faits, à l'imaginaire d'une intégration économique sino-taïwanaise. En 2014, la dépendance de Taïwan aux exportations vers la Chine (Hongkong inclus) était d'environ 42 %. En 2025, ce chiffre est de 31,5 %[^16]. Sur la même période, la part des États-Unis est passée de 11 % à 16,7 %[^17].
 
-| Arguments en faveur de l'accord              | Arguments contre l'accord                                          |
-| -------------------------------------------- | ------------------------------------------------------------------ |
-| Renforcer la compétitivité internationale    | Les capitaux chinois menaceraient les PME taïwanaises              |
-| Approfondir l'intégration économique         | La diversité éditoriale serait mise en danger                      |
+| Arguments en faveur de l'accord                                     | Arguments contre l'accord                                                                             |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Renforcer la compétitivité internationale                           | Les capitaux chinois menaceraient les PME taïwanaises                                                 |
+| Approfondir l'intégration économique                                | La diversité éditoriale serait mise en danger                                                         |
 | Permettre aux banques taïwanaises d'ouvrir des succursales en Chine | Risque de constitution d'un « groupe d'intérêt pro-Pékin » (selon l'économiste Lin Hsiang-kai de NTU) |
 
 Ce basculement n'est pas uniquement dû aux Tournesols. La guerre commerciale sino-américaine de 2018 a accéléré la recomposition des chaînes d'approvisionnement, poussant les industriels taïwanais à déplacer leur production de Chine vers le Vietnam et l'Inde. La politique « Nouvelle Direction vers le Sud » du gouvernement Tsai a renforcé les liens économiques avec l'Asie du Sud-Est. Mais le Mouvement des Tournesols en est le point de départ : il a transformé l'idée que « l'économie ne doit pas dépendre excessivement de la Chine », jusqu'alors marginale, en consensus social.
@@ -152,6 +162,9 @@ Ces trente secondes, Chang Ching-chung ne s'imaginait sans doute pas qu'il étai
 - La communauté open source et g0v — L'écosystème d'ingénieurs derrière l'infrastructure numérique des Tournesols
 - Mouvements sociaux et engagement civique — L'évolution de la société civile taïwanaise après les Tournesols
 - Les crises du détroit de Taïwan et l'évolution des relations entre les deux rives — Le contexte géopolitique plus large de la controverse sur l'accord de commerce de services
+- [Zashare](/society/雜學校) — Autre prolongement, hors système, de l'énergie post-318 : un cas taïwanais qui traduit la révolte de la rue en festival éducatif
+- [Taïwan et l'Eswatini](/society/台灣與史瓦帝尼) — Dix ans après le 318, la rhétorique extérieure pendant la phase de consolidation diplomatique du président Lai Ching-te à l'Eswatini : la scène concrète de ces quatre mots « État souverain »
+- [Aaron Nieh](/people/聶永真) — Le designer aux commandes de la pleine page du _New York Times_ « Democracy at 4am » du printemps 2014 : comment un mouvement étudiant entre dans le champ de vision international, vu par la face design
 
 ## Références
 

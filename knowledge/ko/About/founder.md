@@ -10,6 +10,10 @@ featured: false
 lastVerified: 2026-04-20
 lastHumanReview: true
 translatedFrom: 'About/taiwan-md.md'
+sourceCommitSha: '1ea8ad2d'
+sourceContentHash: 'sha256:502969d3fc0ce42b'
+sourceBodyHash: 'sha256:e3652d2127ed8d69'
+translatedAt: '2026-04-20T22:17:46+08:00'
 ---
 
 # Taiwan.md 의 기원 이야기

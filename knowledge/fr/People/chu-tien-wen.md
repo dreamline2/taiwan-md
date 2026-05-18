@@ -1,71 +1,99 @@
 ---
-title: 'Chu Tien-wen'
-description: 'Scénariste attitrée de Hou Hsiao-hsien, autrice des "Notes d'un désolé", fille du romancier Chu Hsi-ning'
+title: "Chu Tien-wen : Taipei 1956, de la revue San San au Lion d'or de Venise pour La Cité des douleurs"
+description: "Née en 1956 à Taipei, fille de Chu Hsi-ning. En 1977, cofonde la revue San San avec Hu Lan-cheng. Scénariste attitrée de Hou Hsiao-hsien, son œuvre majeure La Cité des douleurs remporte le Lion d'or à la Mostra de Venise en 1989. En 1994, Les Carnets d'un homme déserté obtient le premier prix du roman au China Times Literary Award. Parmi ses scénarios : Good Men, Good Women et Goodbye South, Goodbye."
 date: 2026-03-19
-tags: [personnalités, Chu Tien-wen, Notes d'un désolé, scénariste, Hou Hsiao-hsien, Chu Hsi-ning, littérature San San]
-subcategory: 'Littérature'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+subcategory: '文學'
+tags: ['Littérature', 'Scénariste de cinéma', 'Hou Hsiao-hsien', 'Chu Hsi-ning', 'Littérature San San', 'Carnets d''un homme déserté']
+readingTime: '# design_rationale:
+#   why_this_hook: "從《三三集刊》到《悲情城市》的跨度切入——她不只是編劇，也是與侯孝賢共同構建一種影像語言的共同作者。"
+#   whats_excluded: "各電影完整劇本分析；三三集刊歷年作者名單；學術研究論文清單"
+#   where_it_hedges: "出生地維基記台北（另有高雄鳳山一說，以台北為準）；侯孝賢失智確認時間（P0⚠️待確認具體年份）；首次執導《尋找河神》詳情（P0⚠️待確認）"'
+lastVerified: 2026-05-07
+lastHumanReview: false
 featured: false
-lastVerified: 2026-03-19
 translatedFrom: 'People/朱天文.md'
+sourceCommitSha: '0ea5d5d42'
+sourceContentHash: 'sha256:d52b167e82c0c2fb'
+sourceBodyHash: 'sha256:66eb9fc182ee9ee8'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Chu Tien-wen : la poésie entre l'écriture et l'image
+# Chu Tien-wen : Taipei 1956, de la revue San San au Lion d'or de Venise pour La Cité des douleurs
 
-Chu Tien-wen est une figure incontournable de la littérature et du cinéma contemporains de Taïwan — une créatrice qui circule librement entre le mot écrit et l'image filmée. Née en 1956 à Taipei, fille aînée du romancier Chu Hsi-ning, elle a hérité d'un patrimoine littéraire profond tout en traçant un chemin résolument personnel. De la fondation de la revue *San San Jikan* à l'adolescence jusqu'à son rôle de collaboratrice principale du réalisateur Hou Hsiao-hsien, Chu Tien-wen a gravé son empreinte dans la culture taïwanaise grâce à une sensibilité d'écriture rare et une esthétique visuelle singulière. Son roman *Notes d'un désolé* a remporté le Grand Prix du China Times Literary Award, tandis que les films auxquels elle a contribué — *La Cité des douleurs*, *Le Maître de marionnettes* — ont été distingués aux plus hautes récompenses du cinéma international.
+> **En 30 secondes :** Chu Tien-wen naît en 1956 à Taipei. Son père est le romancier Chu Hsi-ning ; ses sœurs Chu Tien-hsin et Chu Tien-i sont également écrivaines.[^1] En 1977, elle cofonde la revue San San avec Hu Lan-cheng et d'autres. Scénariste attitrée de Hou Hsiao-hsien, elle collabore notamment sur _The Boys from Fengkuei_, _A Summer at Grandpa's_, _A Time to Live, a Time to Die_, _La Cité des douleurs_, _Puppetmaster_, _Good Men, Good Women_ et _Goodbye South, Goodbye_.[^2] _La Cité des douleurs_ remporte le Lion d'or à la Mostra de Venise en 1989.[^3] En 1994, son roman _Les Carnets d'un homme déserté_ obtient le premier prix du roman au China Times Literary Award.[^4]
 
-## Une enfance baignée dans les lettres
+## 1956, la famille Chu à Taipei
 
-Chu Tien-wen a grandi dans un foyer entièrement voué à la littérature. Son père, Chu Hsi-ning, est l'un des romanciers les plus respectés de Taïwan, connu notamment pour *L'Acier fondu* et *La Sécheresse* ; sa mère, Liu Mu-sha, était elle aussi écrivaine, spécialisée dans la littérature pour la jeunesse. Cet environnement a forgé dès l'enfance une sensibilité littéraire exceptionnelle.
+Chu Tien-wen naît en 1956 à Taipei. Son père, Chu Hsi-ning, est un romancier majeur de Taïwan, connu pour des œuvres telles que _Fer en fusion_ et _La Sécheresse démoniaque_ ; sa mère, Liu Mu-sha, est également écrivaine.[^1] Ses sœurs Chu Tien-hsin et Chu Tien-i empruntent le même chemin littéraire, formant ce que le milieu littéraire taïwanais appelle le « phénomène Chu ».
 
-Les trois sœurs Chu ont toutes embrassé l'écriture, constituant ce que la critique taïwanaise nomme le « phénomène Chu » — une famille dont le rayonnement littéraire forme à lui seul un chapitre de l'histoire des lettres taïwanaises. Sa sœur Chu Tien-hsin est une romancière reconnue ; leur cadette Chu Tien-yi s'est distinguée dans l'essai personnel.
+(N.B. : une autre source mentionne Fengshan, Kaohsiung, comme lieu de naissance ; la présente fiche retient Taipei, conformément à Wikipédia.)
 
-Au lycée Beiyi pour filles — l'un des établissements les plus prestigieux de Taipei —, Chu Tien-wen laisse déjà paraître son talent. Elle commence à écrire, s'intéresse à la théorie littéraire et pose ainsi les fondations d'une œuvre à venir.
+Chu Tien-wen fréquente le lycée Beiyi (premier lycée pour filles de Taipei) et commence à écrire dès le secondaire.
 
-## L'aventure de *San San Jikan*
+Grandir dans une telle famille littéraire, c'est recevoir une formation du langage avant tout cours formel : les manuscrits du père sont les premiers textes, les discussions autour de la table familiale sont la première leçon. Cette sensibilité littéraire, née du quotidien, se transpose plus tard dans sa collaboration avec Hou Hsiao-hsien, sous la forme d'une attention extrême aux détails du vécu — non pas par la progression du conflit dramatique, mais par l'accumulation de précision dans l'observation.
 
-En 1977, Chu Tien-wen cofonde, aux côtés de Hu Lan-cheng et de sa sœur Chu Tien-hsin, la revue littéraire *San San Jikan*. Le titre emprunté au *Yi Jing* — « trois fois trois, sans fin » — dit l'ambition du projet : explorer les possibilités infinies de la création.
+## 1977 : la revue San San
 
-La revue aura une influence durable sur les lettres taïwanaises. Elle offre une plateforme aux jeunes auteurs et impose une esthétique littéraire qui lui est propre : pureté de la langue, finesse des images, profondeur du sens — en résistance contre la politisation qui marque alors une partie de la scène littéraire.
+En 1977, Chu Tien-wen cofonde la revue San San avec Hu Lan-cheng, Chu Tien-hsin et d'autres. Le titre, tiré du _Yi Jing_ (Livre des Mutations), rassemble un groupe de jeunes écrivains attachés à la pureté littéraire et à la raffinement de la langue, devenant un jalon important du mouvement littéraire taïwanais des années 1970-1980.[^1]
 
-Les textes que Chu Tien-wen publie dans *San San Jikan* révèlent déjà sa signature : une prose délicate et sensuelle, attentive aux émotions fugaces du quotidien, capable de transformer le détail ordinaire en image littéraire.
+Durant la période San San, le style de Chu Tien-wen se dessine déjà : délicat, sensible, doué pour saisir les émotions subtiles du quotidien. Cette habitude d'écriture se prolonge ensuite dans ses scénarios de cinéma.
 
-## Une collaboration créatrice avec Hou Hsiao-hsien
+L'importance de la revue San San ne réside pas seulement dans le rassemblement de cette génération de jeunes écrivains, mais dans l'accent qu'elle met sur la densité même du langage. Dans les années 1970, alors que la langue vernaculaire écrite (_baihua_) est déjà la norme, reposer la question « comment le langage porte-t-il le sens ? » constitue un acte de résistance contre la culture de l'immédiateté.
 
-À partir des années 1980, Chu Tien-wen noue avec le réalisateur Hou Hsiao-hsien une relation artistique qui va redéfinir le cinéma taïwanais. Elle signe les scénarios de *Les Garçons de Fengkuei*, *Les Vacances de Dong-Dong*, *Le Temps de vivre, le temps de mourir*, *Poussières dans le vent*, *La Cité des douleurs*, *Le Maître de marionnettes* et *Les Fleurs de Shanghai*, entre autres.
+Cette problématique imprègne profondément chaque phrase de scénario de Chu Tien-wen — son langage cinématographique n'est pas une simple expression oralisée, mais un langage littéraire hautement sélectionné, ce qui distingue fondamentalement son travail de scénariste de l'écriture de scénario ordinaire.
 
-Leur complicité esthétique est totale. Tous deux cultivent une expression artistique retenue et profonde, attachée à l'accumulation des détails et à la complexité intérieure des personnages. Les scénarios de Chu Tien-wen n'obéissent pas à une dramaturgie conventionnelle : ce sont des fragments de vie ordinaire qui révèlent, en creux, la psychologie des personnages et le mouvement de l'Histoire.
+## Les années 1980 : un langage commun avec Hou Hsiao-hsien
 
-*La Cité des douleurs* représente le sommet de cette collaboration. Ce film sur l'Incident du 28 Février — moment fondateur et longtemps censuré de l'histoire moderne de Taïwan — a remporté le Lion d'or à la Mostra de Venise, une première pour le cinéma taïwanais. Le scénario de Chu Tien-wen, poétique et elliptique, se fond parfaitement dans la mise en scène de Hou Hsiao-hsien.
+À partir des années 1980, Chu Tien-wen établit avec Hou Hsiao-hsien une collaboration créative qui durera plusieurs décennies. Son style scénaristique s'accorde étroitement au rythme cinématographique de Hou : tous deux construisent la situation des personnages par l'accumulation de fragments du quotidien, sans recourir à la progression par conflit dramatique.[^2]
 
-## *Notes d'un désolé* : une œuvre de rupture
+Principaux scénarios : _The Boys from Fengkuei_, _A Summer at Grandpa's_, _A Time to Live, a Time to Die_, _Dust in the Wind_.
 
-En 1994, Chu Tien-wen publie le roman *Notes d'un désolé*, couronné du Grand Prix du China Times Literary Award et salué comme l'une des œuvres majeures de la littérature taïwanaise contemporaine. Narré à la première personne, le texte suit une femme d'âge mûr confrontée au vide de l'existence urbaine.
+**Lecture courante → lecture plus précise :** Chu Tien-wen est souvent qualifiée de « scénariste attitrée » de Hou Hsiao-hsien, mais une description plus juste serait « coauteur ». La grammaire des plans de Hou et la grammaire textuelle de Chu se développent en parallèle et se calibrent mutuellement — ses scénarios et les plans construisent ensemble l'univers linguistique d'une œuvre, et non un travail de service visant à remplir les images de sens.
 
-L'originalité du roman tient à son dispositif formel. Chu Tien-wen recourt au monologue intérieur pour tisser ensemble les pensées présentes, les bribes de mémoire et les observations du réel, inventant une narration entièrement nouvelle. La langue est dense, imagée, philosophique — elle exige une lecture lente et attentive.
+## 1989 : _La Cité des douleurs_, Lion d'or à Venise
 
-Le roman dit l'impasse moderne : une femme aisée, installée dans le confort matériel, confrontée au vide intérieur. À travers ce portrait, Chu Tien-wen interroge la contradiction fondamentale de la vie urbaine contemporaine — l'abondance matérielle, la pauvreté spirituelle.
+En 1989, _La Cité des douleurs_ remporte le Lion d'or à la Mostra de Venise, une première dans l'histoire du cinéma taïwanais.[^3] Le scénario de Chu Tien-wen, dans un langage poétique, traite de l'histoire d'une famille taïwanaise autour de l'Incident du 228, en dialogue avec l'esthétique des plans-séquences de Hou Hsiao-hsien.
 
-## Une esthétique au carrefour des arts
+_Puppetmaster_ (1993), _Good Men, Good Women_ (1995) et _Goodbye South, Goodbye_ (1996) prolongent cette collaboration.[^2]
 
-L'écriture de Chu Tien-wen est immédiatement reconnaissable : langue ciselée, images et métaphores travaillées, atmosphère constamment poétique. Ses thèmes de prédilection sont les nuances émotionnelles et les états intérieurs — non les conflits spectaculaires.
+Le Lion d'or de _La Cité des douleurs_ consacre la renommée internationale de Hou Hsiao-hsien, mais dans le discours critique, la contribution du scénario de Chu Tien-wen est souvent sous-estimée. La poésie du film doit en partie sa densité au langage : les textes des cartons de sous-titrage, le ton de la voix off, les mots dans les silences — tout cela sort de la plume de Chu Tien-wen.
 
-En tant que créatrice au croisement de la littérature et du cinéma, elle a construit un pont singulier entre les deux arts. Sa prose possède une forte plasticité visuelle — chaque scène semble composée comme un plan de cinéma — tandis que ses scénarios élèvent le film au niveau de l'œuvre littéraire.
+Le scénario de cette œuvre a par la suite été publié sous forme de texte littéraire, montrant que l'écriture scénaristique de Chu Tien-wen possède une valeur littéraire autonome, et ne se réduit pas à un travail de service pour l'image.
 
-Son influence sur la littérature taïwanaise contemporaine est profonde. Aux côtés de Pai Hsien-yung et de Lung Ying-tai, elle appartient au noyau central des lettres modernes de Taïwan. De nombreux auteurs des générations suivantes se réclament de son exigence stylistique et de son exploration de la vie intérieure.
+## 1994 : _Les Carnets d'un homme déserté_, premier prix du China Times Literary Award
 
-Sur la scène internationale, son œuvre a trouvé son public : *Notes d'un désolé* a été traduit en plusieurs langues, et les films auxquels elle a collaboré ont récolté des prix dans les plus grands festivals, contribuant à faire connaître Taïwan dans le monde du cinéma d'auteur.
+En 1994, Chu Tien-wen publie le roman _Les Carnets d'un homme déserté_, qui obtient le premier prix du roman au China Times Literary Award.[^4] Le roman, écrit à la première personne sous forme de flux de conscience, décrit la détresse spirituelle d'une femme d'âge mûr en milieu urbain, et est considéré comme une œuvre majeure de la littérature taïwanaise contemporaine.
 
-## Un héritage vivant
+La singularité de _Les Carnets d'un homme déserté_ tient à ceci : c'est, en 1994, le premier long roman de la scène littéraire taïwanaise centré sur les sentiments d'une lesbienne, et qui ne traite pas l'homosexualité comme un « problème », mais l'écrit comme un état d'existence normal. Cette perspective est une avant-garde rare dans le milieu littéraire taïwanais de l'époque.
 
-Héritière d'une tradition familiale, Chu Tien-wen l'a transformée et prolongée. Elle a démontré que la littérature peut dialoguer avec les autres arts pour produire une expérience esthétique plus riche encore.
+## Ces dernières années : la maladie d'Alzheimer de Hou Hsiao-hsien et _Yuan Wei Yang_
 
-Elle continue d'écrire aujourd'hui — avec parcimonie, mais sans jamais sacrifier l'exigence. Sa posture artistique est celle de la qualité sur la quantité, de la perfection sur la productivité. Pour la génération actuelle d'écrivains et de cinéastes taïwanais, c'est un modèle.
+Hou Hsiao-hsien est atteint de la maladie d'Alzheimer (P0⚠️ date de confirmation à vérifier précisément)[^5] et ne réalise plus de nouveaux films.[^5] Dans le cadre du travail de préservation de la mémoire qui s'ensuit, un projet de documentaire consacré à Hou Hsiao-hsien, _Yuan Wei Yang_, est en cours de développement.
+
+Chu Tien-wen a également réalisé sa première mise en scène avec _À la recherche du dieu de la rivière_ (P0⚠️ détails à confirmer).[^5]
+
+Après le diagnostic de la maladie de Hou Hsiao-hsien, Chu Tien-wen s'est consacrée à documenter et préserver cette collaboration créative de quarante ans. Dans des entretiens, elle a déclaré que sa collaboration avec Hou n'avait jamais été une relation de « service » de l'un envers l'autre, mais la résonance de deux systèmes linguistiques au sein d'une même œuvre.
+
+Cette affirmation explique pourquoi son rôle ne se limite pas à celui de scénariste — elle est une créatrice travaillant en parallèle avec le réalisateur, le médium passant de la pellicule au mot.
+
+> 🎙️ **Note du curateur :** La position littéraire de Chu Tien-wen souffre d'un effacement structurel : son nom apparaît toujours après celui de Hou Hsiao-hsien. Pourtant, quarante ans de collaboration, couvrant les œuvres les plus importantes de l'histoire du cinéma taïwanais, témoignent d'une relation de coauteurs, et non d'une hiérarchie subordonnée.
+>
+> _Les Carnets d'un homme déserté_ offre une autre lecture : au-delà de « la Chu Tien-wen du cinéma », il y a « la Chu Tien-wen du roman » — et cette perspective romanesque, en 1994, était plus en avance que celle de la plupart de ses contemporains.
+
+Du lycée Beiyi à la revue San San, de _La Cité des douleurs_ à _Les Carnets d'un homme déserté_ — le parcours de Chu Tien-wen montre qu'il n'y a pas de raccourci vers la précision du langage : il faut y consacrer une vie entière pour pouvoir soutenir à la fois la forme cinématographique et la forme romanesque.
+
+**Pour aller plus loin** : [Chu Tien-wen — Wikipédia](https://zh.wikipedia.org/wiki/朱天文) ｜ [Base de données du cinéma taïwanais : scénarios de Chu Tien-wen](https://www.taiwancinema.com/) ｜ [Centre national du film et de l'audiovisuel](https://www.tfai.org.tw/)
 
 ## Références
 
-- [Recherches sur l'œuvre de Chu Tien-wen — Musée national de littérature taïwanaise](https://www.nmtl.gov.tw/index.php?option=com_content&task=view&id=3456)
-- [Prix littéraire du China Times — Chu Tien-wen, *Notes d'un désolé*](https://www.readingtimes.com.tw/authors/1234)
-- [Base de données du cinéma taïwanais — Filmographie scénaristique de Chu Tien-wen](https://www.taiwancinema.com/ct_53400_25)
+[^1]: [Wikipédia : Chu Tien-wen](https://zh.wikipedia.org/wiki/朱天文) — Confirme la naissance en 1956 à Taipei (autre mention : Fengshan, Kaohsiang ; Taipei retenu ici), le père Chu Hsi-ning, les sœurs Chu Tien-hsin et Chu Tien-i, et la cofondation de la revue San San en 1977.
+
+[^2]: [Base de données du cinéma taïwanais : scénarios de Chu Tien-wen](https://www.taiwancinema.com/) — Comprend la filmographie complète des scénarios : _The Boys from Fengkuei_, _A Time to Live, a Time to Die_, _La Cité des douleurs_, _Puppetmaster_, _Good Men, Good Women_, _Goodbye South, Goodbye_, entre autres.
+
+[^3]: [Wikipédia : La Cité des douleurs](https://zh.wikipedia.org/wiki/悲情城市) — Confirme le Lion d'or à la Mostra de Venise en 1989, première récompense de ce type dans l'histoire du cinéma taïwanais.
+
+[^4]: [Reading Times : _Les Carnets d'un homme déserté_](https://www.readingtimes.com.tw/) — Confirme la publication en 1994 et l'obtention du premier prix du roman au China Times Literary Award.
+
+[^5]: [p-articles.com : actualités de Chu Tien-wen](https://p-articles.com/heteroglossia/5726.html) — Contient des informations sur l'état de santé récent de Hou Hsiao-hsien, le projet _Yuan Wei Yang_ et des nouvelles de Chu Tien-wen (détails précis à confirmer).

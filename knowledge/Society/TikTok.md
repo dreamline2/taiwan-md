@@ -1,7 +1,8 @@
 ---
 title: 'TikTok'
 description: '從 15 秒的快樂到隱形的認知作戰，TikTok 如何透過極致的個人化推播與「影海戰術」，悄然重塑台灣青少年的世界觀與政治認同。'
-category: Society
+date: 2026-04-12
+category: 'Society'
 tags:
   [
     TikTok,
@@ -15,11 +16,12 @@ tags:
     疑美論,
     毀滅台灣信心,
   ]
+subcategory: '媒體與言論'
 author: 'idlccp1984'
-date: 2026-04-12
-readingTime: 10min
+featured: false
 lastVerified: 2026-04-12
-lastHumanReview: '2026-04-13'
+lastHumanReview: true
+readingTime: 10min
 ---
 
 > **30 秒概覽：** TikTok 不只是一個讓人成名的短影音平台，它在台灣更是一場「去中心化」的認知實驗。透過極致的個人化推播，它讓使用者在不知不覺中，將他人的政治議程內化為自己的世界觀。2025 年的調查顯示，台灣 15 至 18 歲的青少年中，有超過 7 成每天花費超過 2 小時在 TikTok 上，而他們對中國的好感度，正隨著滑動的手指悄然攀升，同時也加深了對台灣社會的負面觀感。
@@ -72,50 +74,50 @@ TikTok 在台灣最受爭議的，莫過於其作為「認知作戰」工具的�
 
 ### 參考資料與註解
 
-[^1]: [台灣民主實驗室《2025 TikTok 抖音使用者調查：全國網調數據公告》](https://medium.com/doublethinklab-tw/2025-tiktok-%E6%8A%96%E9%9F%B3%E4%BD%BF%E7%94%A8%E8%80%85%E8%AA%BF%E6%9F%A5-%E5%85%A8%E5%9C%8B%E7%B6%B2%E8%AA%BF%E6%95%B8%E6%93%9A%E5%85%AC%E5%91%8A-008f043db43e)
+[^1]: [台灣民主實驗室《2025 TikTok 抖音使用者調查：全國網調數據公告》](https://medium.com/doublethinklab-tw/2025-tiktok-%E6%8A%96%E9%9F%B3%E4%BD%BF%E7%94%A8%E8%80%85%E8%AA%BF%E6%9F%A5-%E5%85%A8%E5%9C%8B%E7%B6%B2%E8%AA%BF%E6%95%B8%E6%93%9A%E5%85%AC%E5%91%8A-008f043db43e) — 詳見原始連結內文資料補充
 
-[^2]: [台灣事實查核中心《2025/4/28-2025/5/04 闢謠 TOP10》](https://tfc-taiwan.org.tw/%E3%80%902025-4-28-2025-5-04%E3%80%91%E9%97%A2%E8%AC%A3top10/)
+[^2]: [台灣事實查核中心《2025/4/28-2025/5/04 闢謠 TOP10》](https://tfc-taiwan.org.tw/%E3%80%902025-4-28-2025-5-04%E3%80%91%E9%97%A2%E8%AC%A3top10/) — 詳見原始連結內文資料補充
 
-[^3]: [台灣民主實驗室：TikTok 活躍使用會影響台灣民眾的政治態度](https://www.facebook.com/doublethinklab/posts/732179856236462/)
+[^3]: [台灣民主實驗室：TikTok 活躍使用會影響台灣民眾的政治態度](https://www.facebook.com/doublethinklab/posts/732179856236462/) — Facebook 公開貼文
 
-[^4]: [關鍵評論網《TikTok 再爆危險爭議：昏迷挑戰造成兒少意外勒斃自己》](https://www.thenewslens.com/article/169218)
+[^4]: [關鍵評論網《TikTok 再爆危險爭議：昏迷挑戰造成兒少意外勒斃自己》](https://www.thenewslens.com/article/169218) — 詳見原始連結內文資料補充
 
-[^5]: [BBC 中文網《TikTok 和抖音：從默默無聞到充滿爭議》](https://www.bbc.com/zhongwen/trad/world-53356360)
+[^5]: [BBC 中文網《TikTok 和抖音：從默默無聞到充滿爭議》](https://www.bbc.com/zhongwen/trad/world-53356360) — BBC News 中文報導
 
-[^6]: [IORG《美選後民調：台灣 TikTok 使用者對中國更有好感、更認同親美會戰爭》](https://iorg.tw/a/survey-2024-tiktok)
+[^6]: [IORG《美選後民調：台灣 TikTok 使用者對中國更有好感、更認同親美會戰爭》](https://iorg.tw/a/survey-2024-tiktok) — 詳見原始連結內文資料補充
 
-[^7]: [自由亞洲電台《深度報導：中共外宣在台灣（完結篇）：入島、入戶，入 TikTok》](https://www.rfa.org/mandarin/shishi-hecha/2025/04/28/factcheck-ccp-propaganda-tiktok/)
+[^7]: [自由亞洲電台《深度報導：中共外宣在台灣（完結篇）：入島、入戶，入 TikTok》](https://www.rfa.org/mandarin/shishi-hecha/2025/04/28/factcheck-ccp-propaganda-tiktok/) — 詳見原始連結內文資料補充
 
-[^8]: [沃草《境外資訊操弄（FIMI）不只是假訊息：如何從內部瓦解一個民主國家？》](https://watchout.tw/reports/637643GQFzxE2K045lLj)
+[^8]: [沃草《境外資訊操弄（FIMI）不只是假訊息：如何從內部瓦解一個民主國家？》](https://watchout.tw/reports/637643GQFzxE2K045lLj) — 詳見原始連結內文資料補充
 
-[^9]: [Instagram: 20-24 歲族群對台灣認同感強度出現變化](https://www.instagram.com/reel/DFsztwVxTFj/)
+[^9]: [Instagram: 20-24 歲族群對台灣認同感強度出現變化](https://www.instagram.com/reel/DFsztwVxTFj/) — 詳見原始連結內文資料補充
 
-[^10]: [Taipei Times: Government 'passive' in handling TikTok: report](https://www.taipeitimes.com/News/taiwan/archives/2025/08/23/2003842531)
+[^10]: [Taipei Times: Government 'passive' in handling TikTok: report](https://www.taipeitimes.com/News/taiwan/archives/2025/08/23/2003842531) — 詳見原始連結內文資料補充
 
-[^11]: [SPF China Observer: Assessing China's Cognitive Warfare against Taiwan on TikTok](https://www.spf.org/spf-china-observer/en/document-detail064.html)
+[^11]: [SPF China Observer: Assessing China's Cognitive Warfare against Taiwan on TikTok](https://www.spf.org/spf-china-observer/en/document-detail064.html) — 詳見原始連結內文資料補充
 
-[^12]: [沃草《美國研究證實：每天抖音三小時，近半 TikTok 用戶認為中國人權正面》](https://www.threads.com/@watchout.tw/post/DFJ60mASiF2)
+[^12]: [沃草《美國研究證實：每天抖音三小時，近半 TikTok 用戶認為中國人權正面》](https://www.threads.com/@watchout.tw/post/DFJ60mASiF2) — 詳見原始連結內文資料補充
 
-[^13]: [沃草《抖音成中國「大外宣」工具 美國研究證實：看越多 TikTok 越覺得中國好》](https://watchout.tw/reports/qFAkMTTWYN4fWJc6B1Pp)
+[^13]: [沃草《抖音成中國「大外宣」工具 美國研究證實：看越多 TikTok 越覺得中國好》](https://watchout.tw/reports/qFAkMTTWYN4fWJc6B1Pp) — 詳見原始連結內文資料補充
 
-[^14]: [Yahoo新聞：抖音資安爭議連環爆 台灣政府卻慢半拍！資安專家：僅有行政院禁用完全不夠](https://tw.news.yahoo.com/%E6%8A%96%E9%9F%B3%E8%B3%87%E5%AE%89%E7%88%AD%E8%AD%B0%E9%80%A3%E7%92%B0%E7%88%86-%E5%8F%B0%E7%81%A3%E6%94%BF%E5%BA%9C%E5%8D%BB%E6%85%A2%E5%8D%8A%E6%8B%8D-%E8%B3%87%E5%AE%89%E5%B0%88%E5%AE%B6-%E5%83%85%E6%9C%89%E8%A1%8C%E6%94%BF%E9%99%A2%E7%A6%81%E7%94%A8%E5%85%A8%E7%84%B6%E4%B8%8D%E5%A4%A0-081708086.html)
+[^14]: [Yahoo新聞：抖音資安爭議連環爆 台灣政府卻慢半拍！資安專家：僅有行政院禁用完全不夠](https://tw.news.yahoo.com/%E6%8A%96%E9%9F%B3%E8%B3%87%E5%AE%89%E7%88%AD%E8%AD%B0%E9%80%A3%E7%92%B0%E7%88%86-%E5%8F%B0%E7%81%A3%E6%94%BF%E5%BA%9C%E5%8D%BB%E6%85%A2%E5%8D%8A%E6%8B%8D-%E8%B3%87%E5%AE%89%E5%B0%88%E5%AE%B6-%E5%83%85%E6%9C%89%E8%A1%8C%E6%94%BF%E9%99%A2%E7%A6%81%E7%94%A8%E5%85%A8%E7%84%B6%E4%B8%8D%E5%A4%A0-081708086.html) — Yahoo 新聞報導
 
-[^15]: [RFI：禁止TikTok是否侵犯言論自由？——訪台灣學者鄭宇君](https://www.rfi.fr/tw/%E5%B0%88%E6%AC%84%E6%AA%A2%E7%B4%A2/%E5%85%AC%E6%B0%91%E8%AB%96%E5%A3%B4/20250128-%E7%A6%81%E6%AD%A2tiktok%E6%98%AF%E5%90%A6%E4%BE%B5%E7%8A%AF%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1-%E8%A8%AA%E5%8F%B0%E7%81%A3%E5%AD%B8%E8%80%85%E9%84%AD%E5%AE%87%E5%90%9B)
+[^15]: [RFI：禁止TikTok是否侵犯言論自由？——訪台灣學者鄭宇君](https://www.rfi.fr/tw/%E5%B0%88%E6%AC%84%E6%AA%A2%E7%B4%A2/%E5%85%AC%E6%B0%91%E8%AB%96%E5%A3%B4/20250128-%E7%A6%81%E6%AD%A2tiktok%E6%98%AF%E5%90%A6%E4%BE%B5%E7%8A%AF%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1-%E8%A8%AA%E5%8F%B0%E7%81%A3%E5%AD%B8%E8%80%85%E9%84%AD%E5%AE%87%E5%90%9B) — 詳見原始連結內文資料補充
 
-[^16]: [翻轉教育：TikTok挑戰恐釀悲劇！不當使用會有哪些影響？](https://flipedu.parenting.com.tw/article/008034)
+[^16]: [翻轉教育：TikTok挑戰恐釀悲劇！不當使用會有哪些影響？](https://flipedu.parenting.com.tw/article/008034) — 詳見原始連結內文資料補充
 
-[^17]: [沃草：境外資訊操弄（FIMI）不只是假訊息：如何從內部瓦解一個民主國家？](https://watchout.tw/reports/637643GQFzxE2K045lLj) (此處引用沃草報告中關於FIMI的定義，並結合使用者提供的「毀滅台灣信心」概念)
+[^17]: [沃草：境外資訊操弄（FIMI）不只是假訊息：如何從內部瓦解一個民主國家？](https://watchout.tw/reports/637643GQFzxE2K045lLj) — (此處引用沃草報告中關於FIMI的定義，並結合使用者提供的「毀滅台灣信心」概念）
 
-[^18]: [RFI：禁止TikTok是否侵犯言論自由？——訪台灣學者鄭宇君](https://www.rfi.fr/tw/%E5%B0%88%E6%AC%84%E6%AA%A2%E7%B4%A2/%E5%85%AC%E6%B0%91%E8%AB%96%E5%A3%B4/20250128-%E7%A6%81%E6%AD%A2tiktok%E6%98%AF%E5%90%A6%E4%BE%B5%E7%8A%AF%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1-%E8%A8%AA%E5%8F%B0%E7%81%A3%E5%AD%B8%E8%80%85%E9%84%AD%E5%AE%87%E5%90%9B)
+[^18]: [RFI：禁止TikTok是否侵犯言論自由？——訪台灣學者鄭宇君](https://www.rfi.fr/tw/%E5%B0%88%E6%AC%84%E6%AA%A2%E7%B4%A2/%E5%85%AC%E6%B0%91%E8%AB%96%E5%A3%B4/20250128-%E7%A6%81%E6%AD%A2tiktok%E6%98%AF%E5%90%A6%E4%BE%B5%E7%8A%AF%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1-%E8%A8%AA%E5%8F%B0%E7%81%A3%E5%AD%B8%E8%80%85%E9%84%AD%E5%AE%87%E5%90%9B) — 詳見原始連結內文資料補充
 
-[^19]: [台灣民主實驗室：精準推播與認知滲透：TikTok 對台灣青少年資訊環境與對中國觀感的影響](https://medium.com/doublethinklab-tw/%E7%B2%BE%E6%BA%96%E6%8E%A8%E6%92%AD%E8%88%87%E8%AA%8D%E7%9F%A5%E6%BB%B2%E9%80%8F-tiktok-%E5%B0%8D%E5%8F%B0%E7%81%A3%E9%9D%92%E5%B0%91%E5%B9%B4%E8%B3%87%E8%A8%8A%E7%92%B0%E5%A2%83%E8%88%87%E5%B0%8D%E4%B8%AD%E5%9C%8B%E8%A7%80%E6%84%9F%E7%9A%84%E5%BD%B1%E9%9F%BF-2025-tiktok%E6%8A%96%E9%9F%B3%E5%8F%B0%E7%81%A3%E9%9D%92%E5%B0%91%E5%B9%B4%E4%BD%BF%E7%94%A8%E8%80%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A-%E6%91%98%E8%A6%81%E7%89%88-458e3c5f7475)
+[^19]: [台灣民主實驗室：精準推播與認知滲透：TikTok 對台灣青少年資訊環境與對中國觀感的影響](https://medium.com/doublethinklab-tw/%E7%B2%BE%E6%BA%96%E6%8E%A8%E6%92%AD%E8%88%87%E8%AA%8D%E7%9F%A5%E6%BB%B2%E9%80%8F-tiktok-%E5%B0%8D%E5%8F%B0%E7%81%A3%E9%9D%92%E5%B0%91%E5%B9%B4%E8%B3%87%E8%A8%8A%E7%92%B0%E5%A2%83%E8%88%87%E5%B0%8D%E4%B8%AD%E5%9C%8B%E8%A7%80%E6%84%9F%E7%9A%84%E5%BD%B1%E9%9F%BF-2025-tiktok%E6%8A%96%E9%9F%B3%E5%8F%B0%E7%81%A3%E9%9D%92%E5%B0%91%E5%B9%B4%E4%BD%BF%E7%94%A8%E8%80%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A-%E6%91%98%E8%A6%81%E7%89%88-458e3c5f7475) — 詳見原始連結內文資料補充
 
-[^20]: [台灣新社會智庫：TikTok、小紅書：多維度的台灣國安風險](http://www.taiwansig.tw/index.php/%E6%94%BF%E7%AD%96%E5%A0%B1%E5%91%8A/%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B/9096-tiktok%E3%80%81%E5%B0%8F%E7%B4%85%E6%9B%B8%EF%BC%9A%E5%A4%9A%E7%B6%AD%E5%BA%A6%E7%9A%84%E5%8F%B0%E7%81%A3%E5%9C%8B%E5%AE%89%E9%A2%A8%E9%9A%AA)
+[^20]: [台灣新社會智庫：TikTok、小紅書：多維度的台灣國安風險](http://www.taiwansig.tw/index.php/%E6%94%BF%E7%AD%96%E5%A0%B1%E5%91%8A/%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B/9096-tiktok%E3%80%81%E5%B0%8F%E7%B4%85%E6%9B%B8%EF%BC%9A%E5%A4%9A%E7%B6%AD%E5%BA%A6%E7%9A%84%E5%8F%B0%E7%81%A3%E5%9C%8B%E5%AE%89%E9%A2%A8%E9%9A%AA) — 詳見原始連結內文資料補充
 
-[^21]: [RFA：深度報導｜中共外宣在台灣（最終篇）：入島、入戶，入TikTok](https://www.rfa.org/mandarin/shishi-hecha/2025/04/28/factcheck-ccp-propaganda-tiktok/)
+[^21]: [RFA：深度報導｜中共外宣在台灣（最終篇）：入島、入戶，入TikTok](https://www.rfa.org/mandarin/shishi-hecha/2025/04/28/factcheck-ccp-propaganda-tiktok/) — 詳見原始連結內文資料補充
 
-[^22]: [新聞學者陳慧蓉籲禁抖音：TikTok隨時可配合中國，從影音平台變宣傳武器](https://watchout.tw/reports/qFAkMTTWYN4fWJc6B1Pp) (此處引用沃草報導中提及陳慧蓉學者的觀點)
+[^22]: [新聞學者陳慧蓉籲禁抖音：TikTok隨時可配合中國，從影音平台變宣傳武器](https://watchout.tw/reports/qFAkMTTWYN4fWJc6B1Pp) — (此處引用沃草報導中提及陳慧蓉學者的觀點）
 
-[^23]: [大紀元：TikTok危害青少年台教師：學生表現呈兩極化](https://www.epochtimes.com/b5/23/4/3/n13964413.htm)
+[^23]: [大紀元：TikTok危害青少年台教師：學生表現呈兩極化](https://www.epochtimes.com/b5/23/4/3/n13964413.htm) — 大紀元時報報導
 
-[^24]: [台灣事實查核中心：社群時代網紅助攻假訊息民眾應養成資訊鑑別力](https://tfc-taiwan.org.tw/migration_article_104945_10857/)
+[^24]: [台灣事實查核中心：社群時代網紅助攻假訊息民眾應養成資訊鑑別力](https://tfc-taiwan.org.tw/migration_article_104945_10857/) — 詳見原始連結內文資料補充

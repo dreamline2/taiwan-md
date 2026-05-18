@@ -1,53 +1,80 @@
 ---
-title: 'CC Wei — Le maître des procédés à 3 nanomètres'
-description: 'Président de TSMC, artisan des procédés à 3 nanomètres et figure centrale de la domination taïwanaise dans la fabrication de semi-conducteurs'
+title: "C.C. Wei : de l'Université nationale Chiao Tung à Yale, puis à la présidence de TSMC"
+description: "Né en 1953. Licence et maîtrise en génie électronique de l'Université nationale Chiao Tung, doctorat en génie électrique de l'Université Yale. Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapour) → entrée chez TSMC en 1998. En 2012, nommé directeur général adjoint de TSMC conjointement avec Mark Liu. Le 5 juin 2018, succède à Morris Chang en tant que vice-président du conseil d'administration et directeur général. Le 4 juin 2024, prend la présidence du conseil d'administration après le départ à la retraite de Mark Liu ; actuellement président et directeur général de TSMC."
 date: 2026-03-19
-tags: ['TSMC', 'semi-conducteurs', 'innovation technologique', 'procédés de fabrication']
-subcategory: 'Technologie et entreprises'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 6
+tags: ['Technologie et entreprise', 'TSMC', 'Semi-conducteurs', 'Fonderie de wafers', 'Technologie de procédé']
+subcategory: '科技與企業'
+author: 'Taiwan.md'
 featured: false
+lastVerified: 2026-05-08
+lastHumanReview: false
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "從交大→耶魯→德儀→台積電的路徑，加上2024年接任董事長——這是一個40年積累的位置，不是空降。"
+#   whats_excluded: "各代製程技術細節比較；台積電財報分析；與三星/英特爾競爭細節"
+#   where_it_hedges: "原文章誤植出生年1955→已修正為P0確認的1953；原誤植台大材料+史丹佛→已修正為交大電子+耶魯"
 translatedFrom: 'People/魏哲家.md'
-lastVerified: 2026-03-19
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:50d2aaef770f0d1e'
+sourceBodyHash: 'sha256:77c9f3129adcc912'
+translatedAt: '2026-05-17T05:34:56+08:00'
 ---
 
-# CC Wei : le maître des procédés à l'ère des 3 nanomètres
+# C.C. Wei : de l'Université nationale Chiao Tung à Yale, puis à la présidence de TSMC
 
-CC Wei (né en 1955) est l'actuel président et co-directeur général de TSMC. Considéré comme l'un des plus grands experts mondiaux des procédés de fabrication de semi-conducteurs, il a consacré plus de vingt-cinq ans à l'entreprise, pilotant personnellement le développement de plusieurs générations de technologies de pointe. Sa contribution la plus marquante reste la mise en production du procédé à 3 nanomètres, qui a consolidé le leadership technologique de Taïwan sur la scène mondiale.
+> **En 30 secondes :** C.C. Wei est né en 1953. Il a obtenu sa licence et sa maîtrise en génie électronique à l'Université nationale Chiao Tung (NCTU), puis un doctorat en génie électrique à l'Université Yale aux États-Unis.[^1] Sa carrière l'a conduit successivement chez Texas Instruments, STMicroelectronics et Chartered Semiconductor Manufacturing (Singapour), avant son entrée chez TSMC en 1998.[^1] En 2012, il est nommé directeur général adjoint de TSMC conjointement avec Mark Liu.[^2] Le 5 juin 2018, au départ à la retraite de Morris Chang, C.C. Wei accède aux fonctions de vice-président du conseil d'administration et directeur général de TSMC.[^2] Le 4 juin 2024, à la suite du départ à la retraite de Mark Liu, il devient officiellement président du conseil d'administration de TSMC ; il en est aujourd'hui le président et directeur général.[^3]
 
-## Un ingénieur formé entre Taïwan et la Silicon Valley
+## Né en 1953, formation en génie électronique à l'Université nationale Chiao Tung
 
-Né en 1955, CC Wei obtient sa licence en science des matériaux à l'Université nationale de Taïwan avant de s'envoler pour Stanford, où il décroche un doctorat dans la même discipline. Plutôt que de rentrer immédiatement à Taïwan, il choisit de passer plusieurs années dans l'industrie semiconductrice américaine, accumulant une expérience précieuse au contact des technologies les plus avancées de l'époque.
+C.C. Wei est né en 1953. Il a effectué ses études de licence et de maîtrise en génie électronique à l'Université nationale Chiao Tung (NCTU).[^1] Il s'est ensuite rendu aux États-Unis pour y préparer un doctorat en génie électrique à l'Université Yale, avant de se lancer dans une carrière industrielle.[^1]
 
-En 1997, il rejoint TSMC comme vice-président en charge de la R&D. L'entreprise est alors en plein essor et a besoin de profils capables d'allier vision internationale et maîtrise technique de haut niveau. CC Wei s'impose rapidement comme l'un des architectes du développement technologique de la fonderie.
+(Note : certaines sources mentionnent à tort l'année de naissance 1955 et un cursus à l'Université nationale de Taïwan en science des matériaux suivi d'un doctorat à Stanford, ce qui ne correspond pas aux résultats de vérification P0. Les informations retenues sont : NCTU en génie électronique + doctorat en génie électrique de Yale.)
 
-## Gardien de la loi de Moore
+## 1998 : le parcours professionnel avant TSMC
 
-La contribution la plus durable de CC Wei à TSMC est d'avoir maintenu vivante la loi de Moore, génération après génération. Sous sa direction, l'entreprise a franchi avec succès chaque palier critique : du 90 nm au 3 nm, en passant par les transitions décisives du 7 nm et du 5 nm.
+Avant de rejoindre TSMC en 1998, C.C. Wei a occupé des postes chez Texas Instruments, STMicroelectronics et Chartered Semiconductor Manufacturing (Singapour), accumulant une expérience diversifiée en conception de semi-conducteurs, développement de procédés et gestion d'entreprise.[^1]
 
-Ce faisant, TSMC a conservé une longueur d'avance sur ses concurrents directs — Samsung et Intel — et s'est imposé comme le partenaire de fabrication incontournable pour les grands donneurs d'ordres mondiaux : Apple, NVIDIA, Qualcomm et bien d'autres. En 2022, la fonderie est la première au monde à proposer le 3 nm en production de masse, une première mondiale qui doit beaucoup à l'obstination de CC Wei.
+L'importance de cette période antérieure à TSMC est souvent sous-estimée. Texas Instruments est une entreprise pionnière mondiale du semi-conducteur, STMicroelectronics opère à cheval entre l'Europe et l'Asie, et Chartered Semiconductor Manufacturing jouait un rôle majeur dans la fonderie de wafers en Asie-Pacifique — C.C. Wei a traversé ces trois entreprises de tailles et de cultures différentes, avant d'arriver chez TSMC avec une vision globale.
 
-## La révolution du 3 nanomètre
+Entré chez TSMC en 1998, il a occupé des postes liés à la R&D et a progressivement pris la direction du développement des technologies de procédé avancées, des nœuds de 90 nm jusqu'aux générations clés de 3 nm.
 
-Le passage au 3 nm constitue l'accomplissement le plus emblématique de sa carrière. Ce nœud technologique concentrait des défis sans précédent : limites physiques des électrons, explosion des coûts de fabrication, contrôle du rendement dans un environnement où la moindre contamination est rédhibitoire. Les voies classiques de miniaturisation atteignaient leurs limites physiques, et il fallait inventer de nouveaux paradigmes.
+La signification historique de cette trajectoire de leadership technologique est la suivante : la capacité de TSMC à devancer systématiquement la concurrence dans la production en série à chaque étape clé repose sur la maîtrise des décisions d'ingénierie par les équipes de R&D. C.C. Wei a été, au sein de ce système, un décideur technique et pas seulement un gestionnaire — cette différence a déterminé son style de leadership lorsqu'il est devenu directeur général, ainsi que la confiance que le monde extérieur lui accorde.
 
-CC Wei a misé sur une version améliorée de la technologie FinFET, combinée à la lithographie EUV (lumière ultraviolette extrême), pour franchir ce cap. Le résultat : un procédé à 3 nm capable de répondre aux exigences d'Apple pour son processeur A17, et une base technique solide pour les futures puces à 2 nm déjà en cours de développement.
+## 2012 : nommé directeur général adjoint de TSMC conjointement avec Mark Liu
 
-## Un binôme au sommet
+En 2012, C.C. Wei et Mark Liu ont été conjointement promus directeurs généraux adjoints de TSMC, posant les bases d'un système de direction bicéphale.[^2]
 
-Depuis le retrait de Morris Chang en 2018, TSMC fonctionne selon un modèle de co-direction : Liu Te-yin occupe la présidence du conseil d'administration et gère les relations extérieures et la stratégie, tandis que CC Wei, en tant que président exécutif, se concentre sur le développement technologique et les opérations. Ce partage des rôles permet à chacun d'exceller dans son domaine.
+**Lecture courante → Lecture plus précise :** Le « système bicéphale » de TSMC est souvent interprété comme une répartition du pouvoir ou un dispositif transitoire, mais les résultats montrent qu'il s'agissait d'un mécanisme de succession soigneusement conçu par Morris Chang : permettre à deux candidats de travailler ensemble dans un même cadre, de se compléter mutuellement, et laisser l'organisation déterminer qui était le plus apte à occuper la présidence du conseil d'administration.
 
-La philosophie de CC Wei repose sur un équilibre entre innovation et efficacité industrielle. Il a mis en place des systèmes de contrôle qualité rigoureux pour garantir des rendements élevés même sur les procédés les plus complexes. Il veille aussi à ce que TSMC soit davantage qu'un simple sous-traitant : un véritable partenaire technique capable d'accompagner ses clients dans la conception même de leurs puces.
+## 5 juin 2018 : vice-président du conseil d'administration et directeur général
 
-## Préparer l'après-Moore
+Le 5 juin 2018, à la suite du départ à la retraite du fondateur de TSMC, Morris Chang, C.C. Wei est nommé vice-président du conseil d'administration et directeur général, dirigeant TSMC conjointement avec le président Mark Liu.[^2] La répartition des responsabilités est alors claire : Mark Liu se concentre sur le conseil d'administration et la stratégie externe, tandis que C.C. Wei prend en charge le développement technologique et les opérations quotidiennes.
 
-Au-delà de la course aux nœuds technologiques, CC Wei anticipe un monde où la miniaturisation seule ne suffira plus. Il a engagé TSMC dans le développement de l'empilement 3D, de l'intégration hétérogène et des technologies d'encapsulation avancée — autant de pistes pour continuer à améliorer les performances des puces à l'heure où la physique impose ses contraintes.
+Cette période de co-direction (2018–2024) constitue une épreuve décisive pour l'entrée de TSMC dans l'« ère post-Morris Chang » : les pressions géopolitiques externes s'intensifient considérablement, et la structure de la clientèle acquiert une complexité politique sans précédent. Dans ce contexte, C.C. Wei a piloté la feuille de route technologique et les dépenses d'investissement en procédés, étant le moteur exécutif central de la progression continue de TSMC vers les nœuds de fabrication avancés.
 
-Sa vision : faire de TSMC non plus seulement un fabricant de premier rang, mais la plateforme centrale de tout l'écosystème semi-conducteur mondial. Une ambition qui engage Taïwan dans une position stratégique unique, à la croisée de l'industrie technologique et des équilibres géopolitiques du XXIe siècle.
+## 4 juin 2024 : président du conseil d'administration, actuellement président et directeur général
+
+Le 4 juin 2024, Mark Liu prend officiellement sa retraite et C.C. Wei accède à la présidence du conseil d'administration de TSMC, tout en conservant ses fonctions de directeur général ; il en est aujourd'hui le président et directeur général.[^3] C'est le poste auquel il accède après 26 ans de service chez TSMC, et ce au moment géopolitique le plus complexe — alors que les projets de construction d'usines aux États-Unis, au Japon et en Allemagne avancent simultanément.
+
+Après sa nomination à la présidence, C.C. Wei a souligné à plusieurs reprises en public l'avance technologique de TSMC ainsi que l'importance de maintenir la confiance des clients existants, prolongeant le cadre opérationnel « la technologie n'a pas de couleur politique » établi par son prédécesseur.[^5]
+
+Après 2024, les projets de construction d'usines de TSMC en Arizona (États-Unis), à Kumamoto (Japon) et à Dresde (Allemagne) progressent en parallèle. Pour un dirigeant dont l'ADN est avant tout technologique, il s'agit d'un défi externe entièrement nouveau : gérer simultanément les attentes politiques locales et les normes d'exécution technique sur plusieurs sites constitue l'épreuve la plus immédiate à laquelle C.C. Wei est confronté depuis son accession à la présidence.
+
+> 🎙️ **Note du curateur :** C.C. Wei est un produit de la « culture technique » de TSMC, et non de sa « culture diplomatique ». Mark Liu excellait en communication externe ; C.C. Wei est avant tout un ingénieur — ce qui signifie que le style de leadership de la prochaine phase de TSMC pourrait privilégier une convergence interne autour des décisions techniques, plutôt qu'une production discursive tournée vers l'extérieur.
+
+Du département de génie électronique de NCTU au doctorat de Yale, puis de l'expérience forgée chez Texas Instruments aux 26 années passées chez TSMC — le parcours de C.C. Wei est une accumulation sans raccourci : chaque titre a été le prolongement naturel du précédent, jusqu'au sommet de la plus importante entreprise de semi-conducteurs au monde.
+
+**Pour aller plus loin** : [C.C. Wei — Wikipédia](https://zh.wikipedia.org/zh-tw/魏哲家) ｜ [TSMC : Direction](https://www.tsmc.com/english/aboutTSMC/executives) ｜ [CommonWealth Magazine : entretien avec C.C. Wei](https://www.gvm.com.tw/article/18852)
 
 ## Références
 
-- [Site officiel TSMC — Présentation du président](https://www.tsmc.com/chinese/aboutTSMC/leadership/cc_wei) — Biographie officielle de CC Wei sur le site de TSMC
-- [IEEE Spectrum : entretien sur le procédé 3 nm](https://spectrum.ieee.org/tsmc-3nm-technology) — Analyse technique approfondie publiée par la revue de référence de l'IEEE
-- [TechNews : l'histoire des procédés avancés de TSMC](https://technews.tw/2023/01/15/tsmc-advanced-process-roadmap/) — Chronologie complète du développement technologique de TSMC
+[^1]: [Wikipédia : C.C. Wei](https://zh.wikipedia.org/zh-tw/魏哲家) — Confirme la naissance en 1953, la licence et la maîtrise en génie électronique de l'Université nationale Chiao Tung, le doctorat en génie électrique de l'Université Yale ; parcours professionnel Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapour) → entrée chez TSMC en 1998.
+
+[^2]: [Industrial Technology Research Institute : biographie de C.C. Wei](https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&SiteID=1&MmmID=1036234671167627651&MGID=1073257104073776770) — Confirme la nomination conjointe avec Mark Liu en tant que directeurs généraux adjoints de TSMC en 2012 ; la prise de fonctions en tant que vice-président du conseil d'administration et directeur général le 5 juin 2018 après le départ à la retraite de Morris Chang.
+
+[^3]: [Central News Agency : transition présidentielle chez TSMC en 2024](https://www.cna.com.tw/news/afe/202406030252.aspx) — Confirme le départ à la retraite de Mark Liu le 4 juin 2024 et l'accession de C.C. Wei à la présidence du conseil d'administration de TSMC, où il occupe actuellement les fonctions de président et directeur général.
+
+[^4]: [TSMC officiel : Direction](https://www.tsmc.com/english/aboutTSMC/executives) — Données officielles sur la direction actuelle de TSMC.
+
+[^5]: [CommonWealth Magazine : entretien approfondi avec C.C. Wei](https://www.gvm.com.tw/article/18852) — Philosophie personnelle de C.C. Wei et orientation du développement technologique de TSMC, incluant ses principales déclarations publiques après son accession à la présidence du conseil d'administration.

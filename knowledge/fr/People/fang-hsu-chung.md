@@ -1,107 +1,123 @@
 ---
-title: 'Fang Hsu-chung'
-description: "Directeur artistique des Golden Melody Awards et des Golden Horse Awards, fondateur de Uniform Studio, figure de proue du design d'identité visuelle à Taïwan"
+title: 'Fang Hsu-chung : de la cité militaire de Pingtung au pilotage visuel des trois grandes cérémonies'
+description: "Fondateur de Joe Fang Studio, Fang Hsu-chung est né en 1978 à Gonghe New Village, à Donggang, dans le comté de Pingtung. Il est issu du département des beaux-arts appliqués de la Fu-Hsin Trade & Arts School et du programme du soir, groupe métallerie, du département de design artisanal de l'Université nationale des arts de Taïwan. En 2013, il fonde Joe Fang Studio ; à partir de 2016, il dirige successivement les identités visuelles principales des trois grandes cérémonies, les Golden Melody Awards, Golden Bell Awards et Golden Horse Awards, et il est nommé à sept reprises au Golden Melody Award du meilleur design d'album. De la matérialité des objets anciens de son enfance dans une cité militaire aux récits contemporains des grandes cérémonies, il juxtapose par le visuel la mémoire de Taïwan et son époque."
 date: 2026-03-19
-tags: ['designer', 'identité visuelle', 'Golden Melody Awards', 'Golden Horse Awards', 'Uniform Studio']
-subcategory: 'Arts et design'
+author: 'Taiwan.md Contributors'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 10
+subcategory: '藝術與設計'
+tags:
+  [
+    'designer',
+    'identité visuelle',
+    'Golden Melody Awards',
+    'Golden Horse Awards',
+    'Joe Fang Studio',
+  ]
+lastVerified: 2026-05-13
+lastHumanReview: false
 featured: false
 translatedFrom: 'People/方序中.md'
-lastVerified: 2026-03-19
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:d4657223bb8bff5e'
+sourceBodyHash: 'sha256:5791cbc190a21f96'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Fang Hsu-chung : le rénovateur qui redéfinit l'identité visuelle de Taïwan
+# Fang Hsu-chung : l’enfant d’une cité militaire de Pingtung qui a fait des trois grandes cérémonies une mémoire de Taïwan
 
-Né en 1982 à Taipei, Fang Hsu-chung est l'un des designers visuels contemporains les plus influents de Taïwan. Il s'est imposé sur la scène nationale grâce à ses créations d'identité visuelle pour les Golden Melody Awards et les Golden Horse Awards. Fondateur du cabinet de conseil en design Uniform Studio, il a insufflé une nouvelle philosophie au branding taïwanais et est aujourd'hui reconnu comme l'une des voix les plus déterminantes de la nouvelle génération de designers du pays.
+> **Aperçu en 30 secondes :** Fang Hsu-chung est né en 1978 à Gonghe New Village, à Donggang, dans le comté de Pingtung. Diplômé du département des beaux-arts appliqués de la Fu-Hsin Trade & Arts School, il a ensuite étudié dans le programme du soir, groupe métallerie, du département de design artisanal de l’Université nationale des arts de Taïwan. En 2013, il fonde le studio de design « Joe Fang Studio »（究方社）. À partir de 2016, invité par Chen Chen-chuan à concevoir l’identité visuelle principale de la 27e édition des Golden Melody Awards, il devient ensuite à plusieurs reprises directeur visuel principal des trois grandes cérémonies que sont les Golden Melody Awards, les Golden Bell Awards et les Golden Horse Awards. Il est le premier designer taïwanais à avoir intégralement piloté les identités visuelles principales des trois grands prix, et il a été nommé à sept reprises au Golden Melody Award du meilleur design d’album.
 
-## Formation et premières expériences
+Fang Hsu-chung est né en 1978 à Gonghe New Village, à Donggang, dans le comté de Pingtung. La cité militaire（眷村, quartier construit après-guerre pour les familles de militaires）fut le monde de son enfance : ruelles étroites, toits de tôle brûlants sous le soleil, conversations du voisinage traversant les murs. Gonghe New Village était un exemple typique de cité militaire taïwanaise d’après-guerre, peuplée en grande partie de familles de militaires venues de diverses provinces de Chine, avec un mélange de dialectes et de cuisines. Cette texture composite réapparaît par la suite à maintes reprises dans le design de Fang Hsu-chung, sous la forme d’un langage visuel marqué par la chaleur du quotidien et les traces de la vie ordinaire. Son travail ne suit ni un pur « style chinois », ni le langage aplati du modernisme ; il donne plutôt à voir l’épaisseur propre aux cités militaires. [^1]
 
-Fang Hsu-chung est diplômé du département de design de la communication médiatique de l'Université Shih Chien. Dès ses années d'études, il manifeste une sensibilité aiguisée pour la communication visuelle. Bien qu'imprégné des courants du design international, il cherche constamment comment inscrire une expression proprement taïwanaise dans ce langage formel mondialisé.
+Après avoir quitté Pingtung pour poursuivre ses études dans le nord, il entre d’abord au département des beaux-arts appliqués de la Fu-Hsin Trade & Arts School, l’une des écoles professionnelles d’art et de design les plus historiques de Taïwan, où il acquiert une formation fondamentale de la main : dessin, composition, procédés d’impression, agencement typographique. Il étudie ensuite dans le programme du soir, groupe métallerie, du département de design artisanal de l’Université nationale des arts de Taïwan. Le fait de travailler dans l’industrie du design le jour et de retourner suivre les cours le soir lui permet de se former simultanément entre théorie académique et pratique de terrain. La formation en métallerie lui donne une sensibilité aux matériaux et aux métiers d’art, qui réapparaîtra souvent dans ses designs d’albums sous forme de « présence physique ».
 
-Après l'obtention de son diplôme, il fait ses armes dans des agences de publicité et des studios de design, où il apprend les rouages du design commercial. Cette période lui permet de comprendre que le design ne se résume pas à une pratique créative individuelle : il doit avant tout répondre à de véritables besoins de communication. C'est sur cette conviction que repose toute sa philosophie.
+## La naissance de Joe Fang Studio
 
-## La fondation d'Uniform Studio et sa philosophie
+En 2013, Fang Hsu-chung fonde le studio de design « Joe Fang Studio »（究方社）. Le nom chinois « Jiufang » vient d’une transcription phonétique de son nom anglais Joe Fang, tout en faisant écho à l’attitude consistant à « examiner la méthode jusqu’au bout ». Les activités du studio couvrent le graphisme, la stratégie de marque, la curation d’événements et l’art d’installation. L’équipe centrale est réduite, mais Fang Hsu-chung participe personnellement à l’orientation du design de chaque projet. [^2]
 
-En 2012, Fang Hsu-chung fonde Uniform Studio, dont l'ambition est de « revenir à l'essentiel pour trouver la juste direction ». Pour lui, un bon design doit remonter à la source des choses et exprimer le message le plus fondamental par un langage visuel à la fois concis et puissant.
+Dans les premières années du studio, il prend surtout en charge des projets liés à la musique : design d’albums, identités visuelles de concerts, identités de groupes. Son expérience de collaboration prolongée avec des musiciens lui permet d’élaborer une manière singulière de traiter la question suivante : comment le visuel peut-il porter le son ? Il n’a pas tendance à transformer le contenu de la musique en une « traduction » illustrative. Il extrait plutôt la structure émotionnelle la plus centrale de la musique, afin que le visuel assume une tension équivalente.
 
-Le style d'Uniform Studio repose sur un minimalisme rigoureux, avec une attention particulière portée à la typographie et à la composition. Fang Hsu-chung souligne volontiers le potentiel esthétique des caractères chinois : pour lui, ces sinogrammes sont en eux-mêmes des éléments visuels remarquables, et le rôle du designer est de tirer parti de leurs propriétés pour créer des effets singuliers.
+Joe Fang Studio participe aussi à de nombreux projets de curation et d’identité visuelle dans la scène musicale indépendante : visuels de petits livehouses（salles de concert indépendantes）, identités visuelles des concerts Legacy, albums du groupe Fire EX., projets liés à Mayday. Il établit avec l’écosystème musical indépendant et pop taïwanais des années 2010 un réseau de collaboration profond, et il est considéré comme l’un des designers centraux du visuel musical de cette génération.
 
-## La transformation de l'identité visuelle des Golden Melody Awards
+Le mode de travail de Joe Fang Studio diffère aussi radicalement de celui des agences publicitaires traditionnelles. Le studio ne s’appuie pas sur de grands appels d’offres compétitifs, mais accumule progressivement ses commandes par le bouche-à-oreille entre musiciens ; il ne mise pas sur la production rapide d’un grand nombre de pistes visuelles, mais accorde à chaque projet un temps de dialogue suffisant. Ce rythme de « travail lent » donne à Joe Fang Studio une place assez particulière dans le milieu du design taïwanais : une production limitée, mais un haut niveau d’identification et d’achèvement pour chaque œuvre.
 
-En 2014, Fang Hsu-chung signe pour la première fois l'identité visuelle des Golden Melody Awards, ouvrant une nouvelle ère dans la mise en scène graphique des prix culturels taïwanais. Partant du concept « Music », il crée une image de notes en mouvement, qu'il articule avec un langage formel épuré et contemporain — offrant à la cérémonie une toute nouvelle identité de marque.
+Au-delà des Golden Melody Awards, Fang Hsu-chung est aussi depuis longtemps conseiller visuel pour les espaces de spectacle de la série Legacy. Legacy est un livehouse de taille moyenne situé dans le parc culturel Huashan, à Taipei ; depuis son ouverture en 2009, il est devenu un lieu important pour les concerts de musique indépendante et pop à Taïwan. Le système visuel que Fang Hsu-chung a établi pour lui reste utilisé aujourd’hui.
 
-Reconduit pour plusieurs années consécutives, il fait de chaque édition un chapitre distinct. De « We Are Young » en 2017 à « Music Lives » en 2019, chaque design témoigne d'une lecture profonde de la culture musicale et d'une capacité constante à la réinventer.
+## 2016 : le début des trois grands prix
 
-## La refonte emblématique des Golden Horse Awards
+En 2016, Chen Chen-chuan invite Fang Hsu-chung à concevoir l’identité visuelle principale de la 27e édition des Golden Melody Awards ; c’est le début de son lien avec les trois grandes cérémonies. Chen Chen-chuan est le fondateur de Young Hope Entertainment et le producteur général de longue date des Golden Melody Awards. Sa collaboration avec Fang Hsu-chung inaugure un renouvellement générationnel de la marque visuelle des Golden Melody Awards. Le design des cérémonies, auparavant plus standardisé, se tourne vers des récits visuels principaux dotés d’un langage de design contemporain et capables de devenir eux-mêmes des événements promotionnels. [^3]
 
-En 2018, Fang Hsu-chung relève le défi de la refonte de l'identité visuelle des Golden Horse Awards. L'équilibre à trouver est délicat : conserver le prestige et l'autorité de la récompense tout en lui conférant une vitalité nouvelle. S'inspirant du film pelliculaire, il conçoit un logotype dynamique du caractère « 馬 » (cheval) qui concilie tradition et modernité avec une rare élégance.
+Par la suite, Fang Hsu-chung travaille durablement pour les Golden Melody Awards, puis étend son activité aux Golden Bell Awards et aux Golden Horse Awards, devenant le premier designer à piloter intégralement les identités visuelles principales des trois grands prix taïwanais. Pour l’identité principale de chaque cérémonie annuelle, il ne reprend pas les éléments de l’édition précédente, mais repense le dispositif en fonction de l’atmosphère de l’époque. Ce mode de travail, qui consiste à « repartir de zéro chaque année », impose une pression considérable au designer, mais il transforme aussi l’identité visuelle des trois grands prix en événement culturel annuel attendu par le public.
 
-Le système visuel des Golden Horse Awards ne se limite pas au logo : il s'étend à l'ensemble de l'expérience de marque — invitations, scénographie, déclinaisons médiatiques —, avec une cohérence absolue. Ce travail est unanimement salué par les professionnels du secteur et tenu pour un jalon fondateur dans l'histoire du design de récompenses à Taïwan.
+Des Golden Melody Awards aux Golden Horse Awards, il ne construit pas un style unique. Au fil de ses nombreuses collaborations avec les trois grands prix, il développe une méthode de travail : trouver un langage visuel pour la musique et l’image taïwanaises de son temps. Même au sein des Golden Melody Awards, le visuel de 2017 insiste sur le dialogue entre générations, tandis que celui de 2019 traite la dimension temporelle de la musique ; l’enjeu change chaque année.
 
-## Une expertise reconnue en identité de marque d'entreprise
+## Golden Horse 2018, 55e édition : « Supporting Role »
 
-Au-delà des prix culturels, Fang Hsu-chung accompagne de nombreuses entreprises dans la construction de leur identité visuelle. Sa clientèle couvre des secteurs aussi variés que la technologie, la restauration ou les industries créatives — autant de contextes où il démontre sa capacité à adapter son approche aux spécificités de chaque domaine.
+Pour la 55e édition des Golden Horse Awards en 2018, Fang Hsu-chung pilote l’identité visuelle principale et propose comme concept central « Supporting Role »（配角, rôle secondaire）. L’affiche recompose les profils de grandes figures du cinéma sinophone telles qu’Ang Lee, Hou Hsiao-hsien, Gong Li et Hsiao Yeh, superposant les lignes des visages latéraux jusqu’à former une silhouette comparable à une crête montagneuse. Elle rend ainsi hommage aux aînés du cinéma tout en répondant à l’esprit des Golden Horse Awards : « ce ne sont pas seulement les personnages principaux qui accomplissent un film ». [^4]
 
-Il excelle particulièrement à établir les systèmes d'identité visuelle de jeunes marques, les aidant à trouver un positionnement clair sur le marché grâce au design. Son style reste cohérent, mais sait se moduler pour répondre aux contraintes propres à chaque client — ce qui illustre la souplesse d'un designer de métier.
+Cette identité visuelle suscite de larges discussions dans le monde du cinéma sinophone et est considérée comme l’un des cas représentatifs du récit de marque des Golden Horse Awards. Le concept de « rôle secondaire » paraît humble en surface, mais il porte en réalité l’atmosphère politiquement sensible de cette année-là. Lors de cette édition des Golden Horse Awards eut lieu l’incident autour de la phrase « Taïwan est une entité indépendante » ; l’idée portée par le visuel, selon laquelle « un accomplissement se compose de rôles secondaires », devint alors une annotation visuelle des valeurs fondamentales du prix.
 
-## Une spécialisation en typographie des caractères chinois
+Le travail visuel de Fang Hsu-chung pour les Golden Horse Awards dépasse largement l’affiche principale. Il s’étend à l’ensemble du système de marque : visuels de scène de la cérémonie, programme, billets d’entrée, matériaux destinés aux médias. Tout le système maintient une cohérence de langage et conserve la même force d’identification, de l’imprimé papier aux grands écrans LED, un degré d’achèvement relativement rare dans la conduite visuelle des prix culturels taïwanais.
 
-Fang Hsu-chung a développé une expertise approfondie dans le design typographique des sinogrammes. Il considère la typographie comme le socle de tout travail de design visuel : une typographie soignée élève considérablement la qualité d'un projet. Il a conçu des polices de caractères exclusives pour plusieurs marques, leur conférant une voix graphique distinctive.
+## Sept nominations au Golden Melody Award du meilleur design d’album
 
-Son approche typographique cherche à équilibrer modernité et lisibilité : être à la hauteur des exigences esthétiques contemporaines sans jamais sacrifier l'usage. Cet équilibre constitue une signature de son travail et a contribué à orienter le développement de la typographie taïwanaise.
+Fang Hsu-chung a été nommé à sept reprises au Golden Melody Award du meilleur design d’album, après des années de collaboration avec des musiciens taïwanais pour leurs packagings d’albums. Son design ne repose ni sur des impressions luxueuses ni sur des procédés complexes ; il transforme plutôt l’émotion centrale de la musique en une proposition visuelle unique et forte, donnant à l’objet-album une raison d’être collectionné à l’ère du streaming. [^5]
 
-## Transmission et formation
+Il entretient des collaborations durables avec de nombreux musiciens taïwanais, du groupe Fire EX. à Mayday et Sodagreen, jusqu’à des artistes de générations plus jeunes. Les designs d’albums de Fang Hsu-chung sont souvent considérés comme une « écoute prolongée de la version physique » de l’œuvre. La couverture, les pages intérieures, les éléments annexes, le choix des matériaux pour les reliures spéciales entrent tous en dialogue avec la musique elle-même.
 
-En tant que représentant de la nouvelle génération de designers taïwanais, Fang Hsu-chung s'implique activement dans la transmission. Il intervient régulièrement dans les universités pour partager son parcours et ses réflexions sur la création, encourageant les jeunes designers à développer un style personnel.
+Cette insistance sur la matérialité du design d’album tient à la formation artisanale de Fang Hsu-chung. Son parcours en métallerie l’a rendu sensible aux matériaux ; il sait que les différences de toucher et de brillance entre papier couché, papier non couché et papiers spéciaux influencent directement l’humeur de lecture de l’auditeur. À l’ère du streaming, il persiste à concevoir l’album physique comme un « objet qui ne peut pas être remplacé par le numérique ».
 
-Il est convaincu que l'enseignement du design doit cultiver la pensée créative, et non se réduire à la maîtrise d'outils techniques. Il invite ses étudiants à observer attentivement le monde qui les entoure et à se nourrir de leurs expériences personnelles pour alimenter leur pratique. Cette vision de la pédagogie a exercé une influence positive sur l'enseignement du design à Taïwan.
+## Le Florist Project et la participation locale
 
-## Une reconnaissance internationale
+Fang Hsu-chung lance le « Florist Project »（小花計畫）, un projet de contenu traversant design, photographie et écriture, dont chaque numéro explore la mémoire, la famille et l’époque à partir d’un thème différent. Le Florist Project dépasse le périmètre du projet de design. Il se rapproche davantage d’une création de contenu personnelle de Fang Hsu-chung : avec des écrivains, des photographes et des musiciens, il transforme des sujets privés qui n’apparaissent généralement pas dans les commandes de design commercial en livres et en expositions lisibles. [^6]
 
-Les travaux de Fang Hsu-chung ont été récompensés à plusieurs reprises sur la scène internationale, notamment par le Red Dot Design Award allemand et le Good Design Award japonais. Ces distinctions ont mis en lumière la valeur du design taïwanais aux yeux de la communauté internationale et ont permis d'accroître la visibilité du pays sur ce terrain.
+Il participe aussi depuis longtemps à la promotion de la culture locale de Pingtung. L’Exposition de design de Pingtung en 2019 fut la première action de marque urbaine lancée à grande échelle par un gouvernement local taïwanais. Fang Hsu-chung y participe en tant que natif de Pingtung, réinvestissant son propre langage visuel dans sa région d’origine. À Pingtung, il prend en charge différents projets : visuel de festival des lanternes, emballages de souvenirs et spécialités locales, identité de marques locales, systèmes visuels de transformation de bâtiments anciens. Ces travaux ne relèvent pas d’une apparition ponctuelle de retour au pays natal auréolé de succès. Pour lui, il s’agit d’une participation culturelle urbaine de long terme.
 
-Son parcours démontre que les designers taïwanais peuvent rivaliser sur la scène mondiale, et il incite par son exemple de nombreux jeunes créatifs à saisir des opportunités de développement à l'international. Cet effet de modèle a joué un rôle important dans l'ouverture de l'écosystème design taïwanais au reste du monde.
+## Philosophie du design : partir de la cité militaire
 
-## Un nouveau modèle économique pour l'industrie du design
+Dans plusieurs entretiens, Fang Hsu-chung mentionne que son enfance dans la cité militaire de Donggang, à Pingtung, est la racine de son design. Le langage visuel qu’il privilégie — texture d’objets anciens, traces dessinées à la main, typographies chaleureuses — vient de la mémoire visuelle d’un lieu précis, d’une époque précise, d’un mode de vie précis, et non d’un concept abstrait d’« esthétique orientale ». Pour lui, le mot « Orient » est trop vaste et trop vide ; il préfère ancrer ses œuvres dans une ruelle concrète, une odeur concrète, une mémoire familiale concrète. [^6]
 
-Uniform Studio articule services de design et conseil en stratégie de marque : le studio ne livre pas simplement des visuels, il accompagne ses clients dans la construction d'une vision globale. Ce positionnement complet reflète une évolution profonde de l'industrie du design.
+Il souligne souvent qu’« un designer doit savoir raconter des histoires ». Mais cette histoire n’est pas un discours marketing. Elle est la transformation, par le designer, de sa propre expérience de vie. Fang Hsu-chung estime que si le design n’est que la démonstration d’une technique visuelle, n’importe quel designer doté de la même formation peut produire le même résultat ; mais si le design peut porter l’épaisseur de la vie du designer, alors il devient irremplaçable.
 
-Pour Fang Hsu-chung, le designer ne peut se cantonner au rôle d'exécutant : il doit devenir un véritable partenaire stratégique de la marque. Son modèle d'entreprise offre à l'industrie taïwanaise du design une nouvelle façon de penser sa valeur ajoutée et tire la filière vers le haut.
+Cette attention à « l’expérience de vie du designer » lui donne aussi une préférence singulière dans la formation de jeunes designers. Dans ses conférences et ateliers, il ne met pas surtout l’accent sur les logiciels ou les règles de mise en page. Il souhaite que les jeunes designers « commencent par mettre leur propre vie en ordre » : d’où venez-vous, à quoi tenez-vous, de quelles expériences vient votre sens esthétique ? Ce sont ces éléments qui déterminent la profondeur possible du design.
 
-## Design social et engagement citoyen
+## Sa signification pour le design taïwanais
 
-Ces dernières années, Fang Hsu-chung s'est tourné vers les enjeux du design social, mettant son expertise au service de causes d'intérêt général. Il a proposé ses services d'identité visuelle à plusieurs organisations à but non lucratif, les aidant à construire une communication visuelle plus efficace.
+Fang Hsu-chung fait partie des rares designers taïwanais capables d’être « issus du local tout en disposant d’une capacité d’opération internationale ». Il n’a pas étudié à l’étranger ; son parcours de formation passe par la Fu-Hsin Trade & Arts School et le programme du soir de l’Université nationale des arts de Taïwan. Dans le passé, un itinéraire de formation entièrement local de ce type était jugé peu apte à rivaliser avec les designers formés aux États-Unis ou en Europe pour les commandes de marque de haut niveau.
 
-Il est convaincu que les designers ont une responsabilité sociale et doivent mettre leurs compétences au service de la collectivité. Cette posture citoyenne illustre les valeurs d'une nouvelle génération de designers et constitue un modèle positif pour l'ensemble de la profession.
+Mais le parcours professionnel de Fang Hsu-chung prouve une autre possibilité : s’enraciner dans l’expérience locale, accumuler dans la durée un réseau de collaborations locales, présenter honnêtement le point de vue d’un enfant d’une cité militaire de Pingtung, tout cela devient au contraire une compétitivité irremplaçable. Le fait que des prix culturels de niveau national comme les trois grandes cérémonies choisissent de collaborer avec lui revient à une reconnaissance, par le système culturel taïwanais, de la capacité du « point de vue local » à porter le plus vaste récit culturel de Taïwan. [^7]
 
-## L'influence sur le design taïwanais
+Pour la jeune génération de designers taïwanais, Fang Hsu-chung propose une voie qui ne nécessite pas de « devenir d’abord un designer internationalisé » pour accéder à de grands projets. De Pingtung aux trois grands prix, l’existence même de ce parcours constitue un repère important pour l’éducation au design à Taïwan.
 
-La trajectoire de Fang Hsu-chung a profondément marqué l'écosystème du design à Taïwan. Il a démontré qu'un designer local peut créer des systèmes visuels d'envergure mondiale pour les plus grandes cérémonies culturelles du pays, renforçant ainsi la confiance du secteur dans les talents locaux.
+## L’écriture au-delà du design
 
-Son esthétique a également inspiré de nombreux jeunes designers : le langage visuel épuré et tranchant qu'il a contribué à imposer est désormais l'un des courants majeurs du design taïwanais. Cette influence s'est propagée bien au-delà de la seule discipline du design visuel.
+Outre le design visuel, Fang Hsu-chung écrit également sur ses observations de design et ses souvenirs de cité militaire. Il a publié des chroniques en feuilleton dans différents médias, transformant la vie de son enfance dans la cité militaire, ses observations sur le terrain du travail de design et les coulisses de ses collaborations avec des musiciens en textes lisibles. Ces écrits ne servent pas à promouvoir Joe Fang Studio. Ils sont les archives personnelles d’un « designer qui sait écrire » sur la scène culturelle taïwanaise.
 
-## Philosophie du design et attitude créative
+Cette capacité d’écriture transdisciplinaire donne aussi plus de profondeur à son travail de curation. Lorsqu’il est designer visuel d’une exposition, il ne se contente pas de prendre en charge les affiches et les imprimés ; il lit attentivement le propos curatorial, dialogue avec les commissaires, assimile l’enjeu central de l’exposition puis le transforme en visuel. Cette posture de « designer aussi lecteur » se distingue du mode de travail de la plupart des designers visuels taïwanais, souvent cantonnés à la seule phase d’exécution.
 
-La philosophie de Fang Hsu-chung est celle d'un « design par soustraction » : un bon design élimine le superflu pour ne retenir que l'essentiel. Ce minimalisme assumé s'inscrit dans la continuité des tendances du design international, mais avec une capacité rare à exprimer, dans cette économie de moyens, la retenue propre à l'esthétique orientale.
+## Un lien durable avec Pingtung
 
-Il accorde également une grande importance à la fonctionnalité du design, refusant d'opposer beauté et utilité. Cette conception équilibrée donne à ses projets autant de qualité artistique que d'efficacité dans la communication — une dualité qui est sans doute sa plus grande force.
+L’engagement de long terme de Fang Hsu-chung envers Pingtung est l’un des traits les plus marquants de ce designer. Il a participé à des initiatives de préservation culturelle de la cité militaire de Gonghe New Village, à des projets de marque urbaine du gouvernement du comté de Pingtung, à l’Exposition de design de Pingtung et aux visuels de fêtes locales, entre autres. Il n’a jamais considéré Pingtung comme une ville natale « d’où il viendrait mais qu’il aurait désormais quittée ». Pour lui, Pingtung est une base à laquelle il continue de participer concrètement sur la durée.
 
-## Penser le design à l'ère numérique
-
-Face au développement rapide des médias numériques, Fang Hsu-chung réfléchit constamment aux nouvelles possibilités que cet environnement ouvre pour le design. Ses créations sont pensées pour fonctionner aussi bien sur support imprimé que sur les plateformes numériques, témoignant d'une maîtrise transmédiatique véritable.
-
-Il est persuadé que le designer de demain devra penser en termes de systèmes capables de transmettre leur message avec efficacité sur des supports multiples. Cette vision prospective lui permet de conserver une longueur d'avance dans un marché du design très concurrentiel.
-
-## Perspectives et vision pour l'avenir
-
-Figure centrale du design taïwanais, Fang Hsu-chung a une vision claire de l'avenir qu'il souhaite pour sa discipline : voir Taïwan occuper une place de choix sur la scène internationale du design, tout en cultivant une identité culturelle irréductiblement singulière.
-
-Il entend continuer à approfondir son travail dans le design d'identité de marque tout en explorant de nouveaux territoires créatifs. Il a la conviction que l'innovation continue et les échanges internationaux permettront au design taïwanais d'exercer une influence toujours plus grande dans le panorama mondial.
+Cette participation locale se reflète aussi dans sa présence médiatique personnelle. Sur Instagram, dans des entretiens et des documentaires, il évoque à maintes reprises Donggang à Pingtung, Gonghe New Village, sa mère dans son enfance, les voisins de la cité militaire, transformant des souvenirs privés en récit public. Pour la jeune génération originaire de Pingtung, l’existence même de Fang Hsu-chung constitue une preuve concrète que « venir de Pingtung permet d’atteindre le sommet du design taïwanais ».
 
 ## Références
 
-- [Site officiel d'Uniform Studio](https://thegoodnote.co/) — portfolio et réalisations du studio
-- [Archives visuelles des Golden Melody Awards](https://gma.taipeicity.gov.tw/) — base de données des œuvres primées
-- [Interview pour la Taiwan Design Week](https://www.designweek.tw/) — reportages spécialisés sur l'industrie du design
+[^1]: [方序中 — 維基百科](https://zh.wikipedia.org/zh-tw/%E6%96%B9%E5%BA%8F%E4%B8%AD) — Biographie, formation et chronologie des œuvres de Fang Hsu-chung, incluant sa naissance en 1978 à Gonghe New Village, Donggang, Pingtung, ainsi que ses parcours à la Fu-Hsin Trade & Arts School et au programme du soir, groupe métallerie, de l’Université nationale des arts de Taïwan.
+
+[^2]: [究方社 About](https://joefangstudio.com/?page_id=2) — Présentation officielle de Joe Fang Studio, incluant la date de fondation du studio (2013) et son champ d’activité.
+
+[^3]: [鏡週刊：三金典禮品牌經營 方序中設計活化主視覺](https://www.mirrormedia.mg/story/20190125insight001/) — Contexte des collaborations autour des identités visuelles principales des trois grandes cérémonies et circonstances de l’invitation par Chen Chen-chuan.
+
+[^4]: [金馬獎官方：第 55 屆主視覺](https://www.goldenhorse.org.tw/) — Présentation du concept de l’identité visuelle principale « Supporting Role » des Golden Horse 55 en 2018.
+
+[^5]: [文化部影視及流行音樂產業局 — 金曲獎歷屆入圍](https://www.bamid.gov.tw/) — Archives des nominations de Fang Hsu-chung au Golden Melody Award du meilleur design d’album.
+
+[^6]: [方序中，翻轉屏東印象賦予想像力及期待 — The Affairs](https://www.theaffairs.com/%E6%96%B9%E5%BA%8F%E4%B8%AD%EF%BC%8C%E7%BF%BB%E8%BD%89%E5%B1%8F%E6%9D%B1%E5%8D%B0%E8%B1%A1%E8%B3%A6%E4%BA%88%E6%83%B3%E5%83%8F%E5%8A%9B%E5%8F%8A%E6%9C%9F%E5%BE%85/) — Fang Hsu-chung évoque son enfance dans la cité militaire de Donggang, à Pingtung, le Florist Project et son contexte de design.
+
+[^7]: [設計師與他們的工作室 — Joe Fang Studio 究方社](http://brandingdesign.nccu.tilda.ws/fdwf3) — Entretien du projet de design de marque de l’Université nationale Chengchi, incluant les méthodes de travail de Joe Fang Studio et les circonstances de la prise en charge des trois grandes cérémonies.
+
+## Pour aller plus loin
+
+- [Site officiel de Joe Fang Studio](https://joefangstudio.com/) — Le studio de design fondé par Fang Hsu-chung
+- [蕭青陽](/people/蕭青陽) — Designer visuel taïwanais de la même génération, lauréat d’un Grammy Award

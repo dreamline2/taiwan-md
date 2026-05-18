@@ -20,6 +20,10 @@ featured: true
 lastVerified: 2026-03-22
 lastHumanReview: false
 translatedFrom: 'Society/台灣同婚與性別平權.md'
+sourceCommitSha: 'a05d2431'
+sourceContentHash: 'sha256:369f015f40df17bd'
+sourceBodyHash: 'sha256:87466d8232d3f86e'
+translatedAt: '2026-04-14T12:25:09+08:00'
 ---
 
 # Taiwan's Marriage Revolution: How One Man's 33-Year Fight Rewrote Love's Definition

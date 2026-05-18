@@ -1,69 +1,97 @@
 ---
-title: "Su-Wei Hsieh: Taiwan's Tennis Trailblazer"
-description: "2013 Wimbledon women's doubles champion, Taiwan's first Grand Slam titlist"
-date: 2026-03-20
-tags:
-  [
-    'sports',
-    'tennis',
-    'Wimbledon',
-    'Grand Slam',
-    "women's doubles",
-    'professional tennis',
-  ]
-subcategory: 'Sports'
-lastVerified: 2026-03-20
+title: 'Hsieh Su-wei: Hsinchu 1986, Taiwan''s First Grand Slam Champion and Seven Women''s Doubles Titles'
+description: 'Born 1986/1/4 in Hsinchu. Father Hsieh Tzu-long (bus driver for Taiwan Motor Transport) passed away 2023/10. Career-high WTA singles ranking: No. 23 (2013). Seven Grand Slam women''s doubles titles (2013 Wimbledon / 2014 French Open / 2019 Wimbledon / 2021 Wimbledon / 2023 French Open / 2023 Wimbledon / 2024 Australian Open). First Taiwanese woman to reach a Grand Slam singles semifinal (2021 Australian Open). 2025/7 Wimbledon women''s doubles runner-up.'
+date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '體育'
+tags: ['體育', '網球', '溫布頓', '大滿貫', '女雙', '職業網球']
+readingTime: '# design_rationale:
+#   why_this_hook: "「台灣首位大滿貫冠軍」是2013的一次性事件；「七座金盃」才是她整個職業生涯的重量。兩個並列，才能說完她。"
+#   whats_excluded: "各場決賽逐球技術分析；2016奧運教練事件爭議細節；WTA女雙世界第一達成的確切日期"
+#   where_it_hedges: "2014法網、2019溫布頓、2023溫布頓的搭檔姓名P0無提供，TODO補確認；2025溫布頓成績來源Focus Taiwan"'
+lastVerified: 2026-05-07
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/謝淑薇.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:66eff5d38f14df89'
+sourceBodyHash: 'sha256:a421eb67c846202a'
+translatedAt: '2026-05-17T05:34:48+08:00'
 ---
 
-# Su-Wei Hsieh: Taiwan's Tennis Breakthrough Artist
+# Hsieh Su-wei: Hsinchu 1986, Taiwan's First Grand Slam Champion and Seven Women's Doubles Titles
 
-Su-Wei Hsieh is a breakthrough figure in Taiwan tennis history. Born on January 4, 1986, in Hsinchu, she became Taiwan's first Grand Slam champion with her unique tennis style and tenacious competitive spirit. Her achievement of winning the 2013 Wimbledon women's doubles title not only wrote a new chapter for Taiwan tennis but also proved the competitive strength of Taiwan players on the world's biggest stage.
+> **30-second overview:** Hsieh Su-wei was born on January 4, 1986, in Hsinchu. Her father, Hsieh Tzu-long (born in Xinpu, Hsinchu; bus driver for Taiwan Motor Transport), had seven children, six of whom pursued tennis. Hsieh Tzu-long passed away in October 2023.[^2] Career-high WTA singles ranking: world No. 23 (2013), a Taiwanese women's tennis record.[^1] Seven Grand Slam women's doubles titles: 2013 Wimbledon (with Peng Shuai), 2014 French Open, 2019 Wimbledon, 2021 Wimbledon (with Elise Mertens), 2023 French Open (with Wang Xinyu), 2023 Wimbledon, 2024 Australian Open (with Mertens).[^3] At the 2021 Australian Open, aged 35, she reached the Grand Slam singles semifinals — a first for any Taiwanese woman.[^3] July 2025: Wimbledon women's doubles runner-up (with Ostapenko), 6-3, 2-6, 4-6.[^5]
 
-## From Hsinchu Girl to Professional Player
+## January 4, 1986: Daughter of Hsieh Tzu-long, Hsinchu
 
-Hsieh's tennis journey began at age 7, when she started playing tennis with her family's support. Her development process was similar to most Taiwan tennis players, having to hone her skills with limited resources. During her teenage years, she displayed exceptional tennis talent, particularly in her tactical understanding and coordination ability in doubles.
+Hsieh Su-wei was born on January 4, 1986, in Hsinchu. Her father, Hsieh Tzu-long (a native of Xinpu, Hsinchu), worked as a bus driver for Taiwan Motor Transport. He had seven children; all six except the eldest sister pursued tennis — a rare family-based cultivation model in Taiwanese tennis.[^2] Hsieh began playing at age seven, built a reputation across Asia as a junior, and turned professional in 2005.
 
-At age 15, Hsieh began participating in international junior events, gradually building her reputation in Asia. In 2005, she officially turned professional, beginning her career as a professional player. Her early professional career focused mainly on singles, and while she had decent performances on the WTA tour, what truly made her shine on the international tennis scene was her outstanding ability in doubles.
+The Hsieh family's approach is a singular case in Taiwanese sports history: a bus-driver household, without commercial sponsorship or access to elite training infrastructure, channeled family resources to push six children into professional tennis. The core of this story is not Taiwan's tennis system — it is one father's judgment of his children's potential and his total commitment to them, a judgment ultimately validated by Hsieh Su-wei's seven Grand Slam trophies.
 
-## Historic Moment at Wimbledon Women's Doubles
+In October 2023, Hsieh Tzu-long passed away.[^2]
 
-At the 2013 Wimbledon Championships, Hsieh partnered with Chinese player Shuai Peng in the women's doubles. This Asian pair showed excellent chemistry and tactical execution from the beginning. Their performance on the grass courts improved progressively, advancing all the way to the final.
+His death came less than four months after Hsieh Su-wei won the Wimbledon women's doubles title in July 2023. Her post-match remarks at that Wimbledon were among the most personal public statements of her career — about her father's training, the family's total investment, and what "bringing this gold medal home to my father" meant. Within the arc of that family narrative, the 2023 Wimbledon title carried a weight beyond the tournament schedule.
 
-In the final against Australian pair Ashleigh Barty and Casey Dellacqua, Hsieh and Peng won in straight sets (7-6, 6-1) to claim the Wimbledon women's doubles title. This victory had multiple historical significances: Hsieh became Taiwan's first Grand Slam champion, and this was also the first time Asian women's players won the Wimbledon women's doubles title.
+## 2013: Wimbledon Women's Doubles Champion — Taiwan's First Grand Slam Title
 
-The Wimbledon success was no accident. Hsieh possessed unique tactical acumen in doubles, excelling at creating opportunities at the net with outstanding serving and volleying techniques. More importantly, she had excellent game rhythm control ability, maintaining stable performance in crucial moments.
+At the 2013 Wimbledon Championships, Hsieh Su-wei partnered with Chinese player Peng Shuai and won the final 7-6, 6-1 in straight sets.[^3] Hsieh became the first Taiwanese player in history to win a Grand Slam title. That same year, she reached her career-high WTA singles ranking of world No. 23.[^1]
 
-## Technical Characteristics as a Doubles Specialist
+The significance of the 2013 final is dual within the coordinates of Taiwanese tennis history: a women's doubles trophy and a singles ranking of world No. 23, both achieved in the same year, established Hsieh not merely as a "doubles specialist" but as a well-rounded competitor with credible singles ability on the WTA Tour. This dual-track accomplishment remains the closest any Taiwanese woman has come to the top tier of world tennis.
 
-Hsieh's most outstanding tennis characteristic is her tactical understanding of doubles. She not only possesses comprehensive individual techniques but more importantly has excellent teamwork abilities. She can quickly establish chemistry with partners of different styles, an adaptability that allowed her to successfully collaborate with multiple top players throughout her career.
+## Seven Grand Slam Women's Doubles Titles (2013–2024)
 
-Technically, Hsieh's net play is her signature. Her volleys combine both power and precision, enabling her to make correct judgments in rapidly changing doubles matches. While her serve isn't the most powerful, it offers varied placement, often creating attacking opportunities for her partner. Her backhand technique is also a strength, with both groundstrokes and slices carrying considerable threat.
+Hsieh Su-wei has won seven Grand Slam women's doubles titles:[^3]
 
-## Diverse Achievements in Professional Career
+2013 Wimbledon (with Peng Shuai), 2014 French Open, 2019 Wimbledon, 2021 Wimbledon (with Elise Mertens), 2023 French Open (with Wang Xinyu), 2023 Wimbledon, 2024 Australian Open (with Mertens).
 
-Besides the Wimbledon women's doubles title, Hsieh achieved other important milestones in her career. She has won doubles titles at multiple WTA events and reached world No. 1 in doubles rankings, demonstrating her dominance in the doubles category.
+(Note: The partner names for the 2014 French Open, 2019 Wimbledon, and 2023 Wimbledon are unconfirmed at P0 — pending verification.)
 
-In singles, while Hsieh didn't achieve Grand Slam-level breakthroughs, her highest ranking reached world No. 23, proving she also possessed top-level ability in singles. When facing the world's top singles players, she frequently delivered exciting matches, showcasing Taiwan players' competitive standards.
+Seven titles spanning eleven years (2013–2024). Sustaining elite-level women's doubles competitiveness across more than a decade within the same tour system requires more than technical consistency — it demands the ongoing ability to find partners whose styles complement one's own. Hsieh has succeeded with Peng Shuai (2013 Wimbledon), Mertens (2021 Wimbledon, 2024 Australian Open), and Wang Xinyu (2023 French Open). Success across different partners demonstrates that her doubles adaptability is transferable, not dependent on the chemistry of a single pairing.
 
-She has also been an important member of Taiwan's Fed Cup team, contributing her strength to Taiwan in international team competitions for many years. Her Fed Cup team competition experience further strengthened her teamwork abilities, which were important contributors to her success in doubles.
+<!-- TODO: Verify partner names for 2014 French Open, 2019 Wimbledon, 2023 Wimbledon -->
 
-## Distinctive Competitive Spirit
+## 2021 Australian Open: Grand Slam Singles Semifinal at Age 35
 
-Hsieh is known for her distinctive personality in the tennis world, displaying strong individual characteristics both on and off court. She doesn't hide her emotions and thoughts, a authenticity that gives her a unique position among fans. While sometimes controversial, her sincerity and directness have also earned many people's respect.
+At the 2021 Australian Open, 35-year-old Hsieh Su-wei reached the Grand Slam singles semifinals, becoming the first Taiwanese woman in history to achieve this milestone.[^3]
 
-In terms of competitive spirit, Hsieh displays tenacious fighting spirit. She never easily gives up any point, maintaining her fighting spirit even in adverse situations. This competitive willpower is an important factor in her survival and success on the professional tennis tour. She also frequently displays creative tactics in matches, showing audiences the diversity and entertainment value of tennis.
+Age 35 is near the tail end of a professional tennis career — most elite players reach their singles peak before 30. Hsieh's Grand Slam semifinal run at 35 is a rare "age-defying" performance in professional tennis, suggesting that her game does not depend solely on explosive athleticism but is built on deeper reserves of opponent reading and strategic adjustment. This semifinal is her most compelling argument for the proposition that professional tennis is not exclusively a young person's competition.
 
-## Milestone for Taiwan Tennis
+## July 2025: Wimbledon Women's Doubles Runner-Up
 
-Hsieh's success holds important significance for Taiwan tennis. She proved that Taiwan players have the ability to win titles at the world's highest level of competition, making important contributions to raising Taiwan tennis's international visibility. Her achievements also inspired more young Taiwan players to invest in tennis, injecting new momentum into Taiwan tennis development.
+In July 2025, Hsieh partnered with Latvian player Ostapenko and lost the Wimbledon women's doubles final 6-3, 2-6, 4-6, finishing as runner-up.[^5]
 
-As Taiwan's first Grand Slam champion, Hsieh's influence extends beyond the sporting realm. Her success story received widespread coverage, raising Taiwan's profile in the international sporting community. She also frequently participates in tennis promotion activities, sharing her experience with young players and contributing to the future development of Taiwan tennis.
+This runner-up finish, coming one year after her 2024 Australian Open title, confirms that she remains at the Grand Slam women's doubles final level of competition. Approaching age 40, Hsieh on the Wimbledon grass is still among the strongest doubles pairings in the world. The 2025 runner-up is her eighth Grand Slam women's doubles final after her seven titles — win or lose, the record itself testifies to her enduring presence on the world women's doubles stage.
 
-Su-Wei Hsieh is not just a successful professional player but an important milestone in Taiwan tennis history. Her Wimbledon women's doubles championship will forever be recorded in Taiwan sporting history, inspiring future players to courageously pursue higher goals.
+**Common framing → more precise reading:** Hsieh is often described as a "doubles specialist." The label is accurate but incomplete. Her 2021 Australian Open Grand Slam singles semifinal and career-high singles ranking of world No. 23 show that she is a well-rounded player who happened to reach her peak in doubles — not a player who "couldn't cut it in singles and switched to doubles." Her doubles success was a choice, not a retreat forced by a singles ceiling.
+
+> 🎙️ **Curator's note:** Seven Grand Slam women's doubles titles spanning 2013 to 2024 — this eleven-year run of sustained elite performance gives Hsieh Su-wei's career an atypical shape: no single peak followed by decline, but rather new heights reached repeatedly with different partners.
+>
+> Her family background — a bus-driver father who sent six children into professional tennis — is virtually without precedent in Taiwanese sports history. Hsieh's seven Grand Slam trophies are the highest return on that family's wager.
+>
+> Her father Hsieh Tzu-long passed away in October 2023, less than three months after her July 2023 Wimbledon women's doubles title — she brought that gold medal home to a father who was still alive. This temporal overlap is the most private and most weighty chapter in her career narrative.
+
+Hsieh's career is also a case study in the professional choice of balancing singles and doubles. Most players pick a side at some point — concentrating resources on either singles or doubles. Hsieh chose to maintain both, flexibly adjusting the balance at different stages of her career according to her form. This choice gave her a longer career than players who bet everything on singles, and it gave her a Grand Slam tally far surpassing any other Taiwanese player.
+
+The technical core of her doubles game is "reading the opponent's intent" — doubles is fast, with frequent positional rotation, requiring real-time communication with one's partner and the ability to anticipate where opponents will place the ball. Hsieh's judgment in this area is widely recognized by peers and coaches alike, and it is the technical root of her ability to win Grand Slam titles with multiple different partners.
+
+Across her seven Grand Slam titles, her partners span three countries: China (Peng Shuai), Belgium (Mertens), and Taiwan (Wang Xinyu). Cross-national doubles pairings require rapid establishment of默契 (rapport) and communication. Hsieh's adaptability in this dimension is one of the core competencies behind her decade-long elite doubles career.
+
+From the Hsieh family home in Hsinchu, to the grass of Wimbledon, to the hard courts of the Australian Open, to the 2025 Wimbledon final — Hsieh Su-wei's career demonstrates that Taiwan's tennis strength does not exist only in infrastructure or national resources, but can grow from the total commitment of a single family. This family's story is one of the most precisely worth recording in Taiwanese sports history.
+
+Six of Hsieh Tzu-long's seven children pursued tennis — a ratio rare in any Taiwanese sports family. Taiwan's tennis infrastructure and systematic development resources lag well behind Japan's or South Korea's. Hsieh Su-wei's seven Grand Slam titles prove one thing: in a resource-limited environment, the total commitment of an individual family and an individual player can produce excellence that does not depend on the scale of the system.
+
+**Further reading:** [謝淑薇 — 中文維基百科](https://zh.wikipedia.org/zh-tw/謝淑薇) ｜ [Hsieh Su-wei — Wikipedia](https://en.wikipedia.org/wiki/Hsieh_Su-wei) ｜ [WTA: Hsieh Su-wei](https://www.wtatennis.com/players/310053/su-wei-hsieh)
 
 ## References
 
-- [Chinese Taipei Tennis Association](https://www.tennis.org.tw/) — Hsieh's professional career data
-- [WTA Official Website](https://www.wtatennis.com/) — Professional rankings and tournament records
-- [Wimbledon Official Website](https://www.wimbledon.com/) — 2013 women's doubles championship record
+[^1]: [English Wikipedia: Hsieh Su-wei](https://en.wikipedia.org/wiki/Hsieh_Su-wei) — Confirms birth date January 4, 1986; career-high WTA singles ranking No. 23 (2013); career achievements.
+
+[^2]: [CNA: Hsieh Tzu-long passes away (2023/10)](https://www.cna.com.tw/news/aspt/202310020081.aspx) — Confirms father Hsieh Tzu-long (born in Xinpu, Hsinchu; bus driver for Taiwan Motor Transport) had seven children (six pursued tennis, excluding the eldest sister); passed away October 2023.
+
+[^3]: [Chinese Wikipedia: 謝淑薇](https://zh.wikipedia.org/zh-tw/謝淑薇) — Confirms seven Grand Slam women's doubles titles (2013 Wimbledon through 2024 Australian Open); 2021 Australian Open singles semifinal, a first for a Taiwanese woman.
+
+[^4]: [WTA Tennis: Hsieh Su-wei](https://www.wtatennis.com/players/310053/su-wei-hsieh) — Official WTA record of Grand Slam women's doubles titles by year, including partner information.
+
+[^5]: [Focus Taiwan: 2025 Wimbledon women's doubles runner-up](https://focustaiwan.tw/sports/202507140003) — Confirms July 2025 Wimbledon women's doubles final: Hsieh/Ostapenko lost 6-3, 2-6, 4-6, finishing as runners-up.

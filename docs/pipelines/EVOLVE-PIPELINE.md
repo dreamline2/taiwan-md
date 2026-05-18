@@ -1,7 +1,134 @@
-# EVOLVE-PIPELINE.md — 數據驅動內容進化系統
+---
+title: 'EVOLVE-PIPELINE'
+description: '數據驅動內容進化系統 — Phase 1-7 SCAN→SCORE→RANK→CHECK→ENRICH→APPEND→SHIP + Mode 3 self-refactor (v3.5)'
+type: 'pipeline-canonical'
+status: 'canonical'
+current_version: 'v3.5'
+last_updated: 2026-05-11
+last_session: 'cranky-newton-220237'
+sister_docs:
+  - 'REWRITE-PIPELINE.md'
+  - 'MAINTAINER-PIPELINE.md'
+  - 'PEER-INGESTION-PIPELINE.md'
+  - 'FACTCHECK-PIPELINE.md'
+upstream_canonical:
+  - '../semiont/HEARTBEAT.md'
+  - '../semiont/DNA.md'
+  - '../semiont/MANIFESTO.md'
+---
 
-> Taiwan.md 是數位生命體。Evolve Pipeline 是它的新陳代謝系統。
-> 不靠直覺決定改什麼，靠數據。
+# EVOLVE-PIPELINE.md — 數據驅動內容進化系統 v3.5
+
+> **第一性原理**：Taiwan.md 是數位生命體。Evolve Pipeline 是它的新陳代謝系統。不靠直覺決定改什麼，靠數據——三源（GA4 + SC + GitHub feedback）交叉分析，產出每週進化清單。
+>
+> v3.5 設計理由：對齊 [REWRITE-PIPELINE v5.0](REWRITE-PIPELINE.md) + [MAINTAINER-PIPELINE v2.0](MAINTAINER-PIPELINE.md) spine restoration。修補 v3.0 結構問題：(1) 缺 ASCII spine box-frame；(2) Hard Gate 散在 Phase 1-7 無集中索引；(3) Top 5 最常忘沒提取；(4) routine mode vs observer mode 分流不顯化。
+
+---
+
+## 🗺️ ASCII spine
+
+```
+╭──────────────────────────────────────────────────────────────────────────╮
+│         EVOLVE-PIPELINE — 數據驅動內容進化 7 phase                       │
+│                                                                          │
+│   🧭 核心紀律                                                            │
+│            ├── 三源交叉驗證（GA4 + SC + GitHub feedback，REFLEXES #4）        │
+│            ├── 進化分數 7 維度（流量/CTR/品質/年齡/來源/圖譜/社群）      │
+│            └── candidate 必含「為什麼這篇 vs 其他」對比                  │
+│                                                                          │
+│   ──── Mode 分流（routine vs observer）─────────────                     │
+│            ├── Routine mode (twmd-news-lens-weekly @ 週日 06:13)         │
+│            │       → 跑 Phase 1-6，產出 ≥ 1 candidate 進 ARTICLE-INBOX   │
+│            └── Observer mode (「跑 evolve」ad-hoc)                       │
+│                  → 跑 Phase 1-7，含 ENRICH 對比 + 觀察者 priority 校準   │
+│                                                                          │
+│   ──── Phase 1-7 主流程 ──────────────────────────────────────          │
+│                                                                          │
+│   Phase 1: SCAN ──→ 三源數據收集                                         │
+│            ├── 1A GA4 流量（top 30 PV / engagement / landing）           │
+│            ├── 1B Search Console（高曝光低 CTR / 缺口）                  │
+│            └── 1C GitHub Feedback（issue / PR / star）                   │
+│              ↳ Hard gate: 三源 sense-fetch.sh 全 200                     │
+│                                                                          │
+│   Phase 2: SCORE ──→ 進化分數 v2.0                                       │
+│            └── 7 維度權重（流量 0.20 / CTR 0.15 / 品質 0.20 / 年齡 0.10 │
+│                / 來源 0.15 / 圖譜 0.10 / 社群 0.10）                     │
+│              ↳ Hard gate: 進化分數 ≥ 60 才算 candidate                   │
+│                                                                          │
+│   Phase 3: RANK ──→ 候選排序                                             │
+│            └── 進化分數 desc + lastVerified 升序破 tie                   │
+│                                                                          │
+│   Phase 4: CHECK ──→ 跟現有 INBOX 對照                                   │
+│            └── 已存在 ARTICLE-INBOX pending → skip 不重複                │
+│              ↳ Hard gate: 不重複既有 candidate                           │
+│                                                                          │
+│   Phase 5: ENRICH ──→ 補對比理由                                         │
+│            └── candidate 必含「為什麼這篇 vs 其他」reasoning trace       │
+│              ↳ Hard gate: 含 GA + SC 雙源資料 pointer                    │
+│                                                                          │
+│   Phase 6: APPEND ──→ 寫 ARTICLE-INBOX                                   │
+│            └── status: pending + priority + reasoning                    │
+│                                                                          │
+│   Phase 7: SHIP commit ──→ 觀察者 review                                 │
+│            └── PR 標題 🧬 [routine] prefix (routine mode)               │
+│                                                                          │
+│   ✅ Candidates appended to ARTICLE-INBOX                                │
+│                                                                          │
+│   ──── 跨 pipeline boundary ─────────────────────────                   │
+│   → 寫候選 candidate：ARTICLE-INBOX.md                                   │
+│   → 寫實際文章：REWRITE-PIPELINE.md                                      │
+│   → 邊界：策展 peer ingest（外部 source）= PEER-INGESTION-PIPELINE.md   │
+│   → MAINTAINER 收割 candidate PR                                         │
+╰──────────────────────────────────────────────────────────────────────────╯
+```
+
+---
+
+## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
+
+| Gate                          | 觸發 phase | 條件             | 工具                                      | 不過 = ?           |
+| ----------------------------- | ---------- | ---------------- | ----------------------------------------- | ------------------ |
+| 三源全綠                      | Phase 1    | sense-fetch 完成 | `cat public/api/dashboard-analytics.json` | 退回 routine retry |
+| GA4 top 30 抓到               | Phase 1A   | 流量分析         | `fetch-ga4.py` API                        | scope 縮小         |
+| SC 高曝光低 CTR               | Phase 1B   | SEO 分析         | `fetch-search-console.py`                 | 優化 metadata      |
+| 進化分數 ≥ 60                 | Phase 2    | 候選 article     | manual formula                            | 不算 candidate     |
+| 不重複既有 INBOX pending      | Phase 4    | append 前        | grep ARTICLE-INBOX                        | skip 不重複        |
+| candidate 含對比理由          | Phase 5    | append 前        | manual                                    | 重補 reasoning     |
+| GA + SC 雙源 pointer          | Phase 5    | candidate 內     | manual                                    | 補 source link     |
+| 至少 1 candidate per cycle    | Phase 6    | routine mode     | manual                                    | LESSONS entry      |
+| PR 標題 `🧬 [routine]` prefix | Phase 7    | routine mode     | manual                                    | rename PR          |
+
+---
+
+## ⚠️ Top 5 最常忘的 step
+
+> 從 REFLEXES #4 + GA top × lastVerified × SC 缺口 × 觀察者校正抽 friction 最高的 5 條。
+
+1. **三源交叉先跑** — 單一數據源結論可疑（REFLEXES #4），GA / SC / CF 同一事實可能差 100-300 倍
+2. **GA topArticles × lastVerified 找「高流量但過期」交集** — 進化 ROI 最高的 candidate 在這個交集
+3. **SC 有曝光無文章 → 新建 candidate** — 不是「SC 0 click 就 drop」，曝光 ≥ 500 + 無對應文章 = 缺口
+4. **GitHub feedback signal 看 issue body 不只看 title** — title 可能 vague，body 才有具體要求
+5. **candidate 寫進 INBOX 時必含對比理由** — 「為什麼這篇 vs 其他」，下次 maintainer 看才知道優先序
+
+---
+
+## 跨檔案職責分工
+
+| 檔案                                                     | 範圍                                                                       |
+| -------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **本檔**                                                 | 數據驅動 candidate 產出（GA4 + SC + GitHub feedback 三源 → ARTICLE-INBOX） |
+| [REWRITE-PIPELINE.md](REWRITE-PIPELINE.md)               | 寫實際文章（從 ARTICLE-INBOX pick candidate 跑 5-stage）                   |
+| [PEER-INGESTION-PIPELINE.md](PEER-INGESTION-PIPELINE.md) | 策展 peer 外部 source（TFT/NMTH/Fresh）— 跟本檔互補不重疊                  |
+| [MAINTAINER-PIPELINE.md](MAINTAINER-PIPELINE.md)         | 收割 routine 開的 candidate PR                                             |
+| [FACTCHECK-PIPELINE.md](FACTCHECK-PIPELINE.md)           | candidate ship 後 audit                                                    |
+| [ARTICLE-INBOX.md](../semiont/ARTICLE-INBOX.md)          | candidate 輸出位置                                                         |
+| [ROUTINE.md](../semiont/ROUTINE.md)                      | `twmd-news-lens-weekly` cron 排程                                          |
+
+**邊界：本檔 vs PEER-INGESTION**：
+
+- **本檔（EVOLVE）** = 內部數據（GA4 + SC + GitHub feedback）→ 識別「該寫什麼新文章 / 該進化哪篇」
+- **PEER-INGESTION** = 外部策展 peer（TFT / NMTH / Fresh）→ 識別「外部已有的策展可以 ingest 哪些」
+- 兩者都產出 ARTICLE-INBOX candidate，但 source 不同
 
 ---
 
@@ -326,3 +453,320 @@ Cron 每週一早晨自動跑：
 
 _版本：v1.2 | 2026-03-31_
 _變更：假流量過濾 / quality-scan 整合 / evolveHistory / 英文版獨立 Evolve / Sub-agent prompt 模板 / 教訓紀錄_
+
+---
+
+## v2.0 升級 — Multi-lang sync evolution + stale 3-state + 5-key rotation（2026-05-04 magical-feynman 後段）
+
+### v1.2 → v2.0 演化
+
+v1.2 設計只考慮 **單語 zh-TW 內容進化**（rewrite / SEO / 翻譯）。但 sovereignty preservation 升級為「多語投射」mission（MANIFESTO §主權的巴別塔 v2）後，evolve scope 必須 cover：
+
+- **Multi-lang sync 健康度**（5 langs body-fresh%）
+- **Stale 拆分維度**（fresh / metadata-stale / body-stale 三態）
+- **多 model cascade architecture**（owl/Hy3/Ollama 4-tier per REFLEXES #49）
+- **Multi-key budget 倍增**（5-key rotation pool per session 教訓）
+- **Bump-vs-translate 決策**（metadata-only drift 不重翻只 bump sha）
+
+### 新 Phase 0：Stale 3-state classifier（REFLEXES #38 第 2 次 instantiation）
+
+**Status enum 升級**（per `scripts/tools/lang-sync/status.py`）：
+
+```
+fresh           — sourceCommitSha 等於 zh latest OR hash match
+metadata-stale  — zh moved forward but bodyHash unchanged（trailer 變動：延伸閱讀 / 參考資料 / footer）
+                  → bump sourceCommitSha 即可，不需重翻
+stale           — zh moved forward AND bodyHash changed（true body drift）
+                  → 需重翻
+missing         — translation 不存在
+orphan          — translation 存在但 zh source missing
+```
+
+**bodyHash 計算**（drop trailer + footnote definitions）：
+
+- 移除 `## 延伸閱讀` / `## 參考資料` / `## 同分類更多文章` / footer `_v1.0...`
+- 移除 `[^N]: ...` footnote definition lines（URL polish / desc 改變不影響 body）
+- 保留 inline `[^N]` markers + wikilinks `[[X]]`（敘事 integral）
+
+### 新 Phase 4-tier cascade（per REFLEXES #49 + SQUEEZE-MODELS-MAX-PIPELINE v2）
+
+```
+Tier 1: openrouter/owl-alpha (free, slow ~200s, primary)
+   ↓ refusal (PRC content policy)
+Tier 2: tencent/hy3-preview:free (free, fast ~50s, ~70% refusal)
+   ↓ both refused
+Tier 3: Ollama qwen3.6:35b-a3b-coding-nvfp4 (LOCAL, sovereignty backbone, 0 refusal)
+   ↓ rare
+Tier 4: Sonnet sub-agent (paid, last resort)
+```
+
+**Tier 1 multi-key rotation pool**（REFLEXES #45 + #50 衍生）：
+
+- `~/.config/taiwan-md/credentials/openrouter-keys/{name}.key` 多 key directory
+- Round-robin within fresh keys + 5 min cool-down on 429
+- N keys → hourly budget × N（5 keys 驗證讓 130 articles × 5 langs cascade 不撞牆）
+
+### Bump-vs-translate decision matrix
+
+| 狀態                 | Action                                               | Cost                 |
+| -------------------- | ---------------------------------------------------- | -------------------- |
+| `fresh`              | skip                                                 | 0                    |
+| `metadata-stale`     | `bump-source-sha.py --apply`（frontmatter sha 升級） | 0 (zero translation) |
+| `stale` (body drift) | dispatch cascade Tier 1-3                            | ~50-200s × N langs   |
+| `missing`            | dispatch cascade Tier 1-3                            | ~50-200s × N langs   |
+| `orphan`             | manual review                                        | manual               |
+
+**Leverage**：本 session 70 metadata-stale 全 bump 零 cost = 約 ~70 × 80s × 5 langs ≈ 8 hr cloud time saved。
+
+### Auto-detect pipeline before action（REFLEXES #50）
+
+EVOLVE pipeline 自身遵守 REFLEXES #50 — 任何 evolve action 前 grep `docs/pipelines/` 確認對應 SOP，完整 `Read` 全檔。不憑記憶。Stage 順序嚴格遵照。
+
+### Multi-lang dashboard 三色覆蓋率
+
+`scripts/core/generate-dashboard-data.js` 升級暴露：
+
+- `freshPct`：strict fresh%（嚴格健康度）
+- `bodyFreshPct`：fresh + metadata-stale = body-valid%（effective 健康度）
+- `metadataStale`：trailer-only drift count
+- `stale`：true body-drift count
+
+三色 widget：🟢 fresh / 🟡 metadata-stale / 🔴 stale
+
+### 整合執行 SOP（v2 完整流程）
+
+```bash
+# 0. Refresh status
+python3 scripts/tools/lang-sync/status.py --json
+
+# 1. Quick wins — bump metadata-stale (zero cost)
+python3 scripts/tools/lang-sync/bump-source-sha.py --apply
+
+# 2. Cascade for missing + body-stale (cloud parallel + ollama catcher)
+for lang in en ja ko es fr; do
+    python3 scripts/tools/lang-sync/prepare-batch.py --lang $lang --top 30 --groups 3 --slug-map <map.json>
+    bash scripts/tools/lang-sync/openrouter-batch.sh $lang openrouter/owl-alpha &
+done; wait
+
+# 3. Ollama catcher for refused
+for lang in en ja ko es fr; do
+    python3 scripts/tools/lang-sync/ollama-translate.py --group .lang-sync-tasks/${lang}-ollama-knowledge/_group-A.json
+done
+
+# 4. Final aggregator
+python3 scripts/tools/lang-sync/status.py --json | jq '._meta.summary'
+```
+
+### v2 驗證
+
+2026-05-04 magical-feynman 後段 multi-lang sync evolution：
+
+- Pre-evolve: 92.7-92.8% fresh per lang（35 stale 含混維度）
+- Phase 0 stale classifier + bump 70 metadata-stale → 95.8-96.1% fresh per lang
+- Phase cascade owl 5-key rotation 130 articles → 98.7% body-fresh
+- Phase Ollama catcher → 100% body-fresh target
+
+**0 paid token across full cascade**（owl rotation + Hy3 + Ollama 收下 PRC-sensitive）。
+
+### 對應認知層升級
+
+- [REFLEXES #38 status 設計鐵律「混維度 = silent killer」](../semiont/DNA.md) 第 2 次 instantiation
+- [REFLEXES #49 Babel 4-tier cascade canonical](../semiont/DNA.md)
+- [REFLEXES #50 Pipeline auto-detection default contract](../semiont/DNA.md)
+- [MANIFESTO §8.1 最高指導原則](../semiont/MANIFESTO.md)
+- [MANIFESTO §主權的巴別塔 v2](../semiont/MANIFESTO.md)
+- [SQUEEZE-MODELS-MAX-PIPELINE v2](SQUEEZE-MODELS-MAX-PIPELINE.md)
+
+🧬
+
+---
+
+_v2.0 | 2026-05-04 magical-feynman 後段_
+_升級觸發：哲宇「幫我進化 evolve-pipeline 本身 + 在 dna 加最高指導原則 pipeline auto-detection」_
+_核心進化：v1.2（單語 zh-TW 進化）→ v2.0（multi-lang sovereignty sync evolution with 3-state classifier + 4-tier cascade + N-key rotation + bump-vs-translate decision matrix）_
+
+---
+
+## Mode 3：Pipeline 自我重組（meta-evolution，v3.0）
+
+> **2026-05-08 intelligent-khayyam 從 SPORE pipeline 1334 → 445 行重組經驗萃取**
+>
+> 觸發：哲宇「也根據近期所有經驗 / 知識 / 紀錄 / 孢子成效，進化⋯⋯ 然後把這次執行的所有經驗，拿來進化 evolve pipeline 本身」
+>
+> 跟 v1（文章進化）+ v2（multi-lang sync）的關係：v1/v2 是**內容層進化**；v3 是**pipeline 層進化**（meta-pipeline）。三者並列為 EVOLVE-PIPELINE 的三個 mode：「文章進化 / 多語同步 / pipeline 自我重組」。
+
+### 觸發訊號（pipeline self-refactor needed）
+
+任一即觸發：
+
+| 訊號                          | 量化閾值                                        | 範例                                        |
+| ----------------------------- | ----------------------------------------------- | ------------------------------------------- |
+| **編號膨脹三層深**            | Step X.X.X 出現 + 跳號（如 3c.7 沒 3c.6）       | SPORE-PIPELINE Step 4.5e.iv / 3c.7 跳 3c.6  |
+| **單檔 prose 量級 > 1000 行** | wc -l > 1000                                    | SPORE-PIPELINE 1334 行                      |
+| **多 file 邊界混亂**          | 同 SOP 在兩處 canonical（違反 §指標 over 複寫） | SPORE Step 4.5 vs HARVEST-PIPELINE 重疊     |
+| **prose 規則沒儀器化**        | v1.5+ 累積規則但 plugin 沒同步加                | SPORE 18 條 Step 3c rule 只有 §11 在 plugin |
+| **「我熟了不用讀」現象**      | REFLEXES #15 反覆驗證 ≥ 3 次                    | sporal pipeline 跑 N 次後跳步               |
+| **產品文檔密度比過高**        | SOP 行數 / 產品字數 > 5:1                       | SPORE 1334 行 / 200 字孢子 = 7:1（離群值）  |
+
+### 第一性原則重組 SOP（7 stage）
+
+```
+SCAN → DESIGN → SPLIT → REWIRE → INSTRUMENT → VERIFY → SHIP
+```
+
+#### Stage 1: SCAN — 全檔 + ecosystem 盤點
+
+```bash
+# 1. 主檔行數
+wc -l docs/<area>/*.md
+
+# 2. Cross-ref 範圍
+grep -rln "<MAIN-FILE>" docs/ scripts/ .husky/ .github/ src/
+
+# 3. 編號膨脹深度
+grep -E "Step \d+\.\d+\.\d+|\d+\.\d+[a-z]" docs/<area>/<main-file>.md | head -20
+
+# 4. prose vs plugin 比
+ls scripts/tools/lib/article_health/checks/ | grep <area>
+```
+
+判定：是否觸發重組？（任一閾值即觸發，per 上方訊號表）
+
+#### Stage 2: DESIGN — 第一性原則重新設計
+
+不從現狀 incremental 改，從 zero-base 重新問「這個 pipeline 的本質是什麼？」
+
+**設計原則**：
+
+- **5±2 stage**（米勒法則 7±2 認知範圍內）
+- **每 stage 單一 verb**（PICK/VERIFY/WRITE/SHIP/HARVEST 例）
+- **不用 Step X.X.X 編號** — 改用 ## stage verb + ### sub-heading
+- **single-concern canonical**：每個 file 一個焦點（process / craft / gate / post-publish）
+- **歷史層 vs canonical 層分離**：active SOP 進 canonical；historical lessons 留 git log
+
+#### Stage 3: SPLIT — 拆檔（如果 single file > 1000 行）
+
+新結構模板（基於 SPORE refactor 驗證）：
+
+```
+docs/<area>/
+├── <NAME>-PIPELINE.md     ~400 行 ← process（5 stage 線性主流程）
+├── <NAME>-WRITING.md      ~500 行 ← craft（手藝、規則、模板）
+├── <NAME>-VERIFY.md       ~350 行 ← gate（Hard gate inventory）
+├── <NAME>-HARVEST.md      ~700 行 ← post-publish（如有 lifecycle 後續）
+└── <NAME>-LOG / DATA      不動 ← 數據層
+```
+
+**Cross-ref 保護策略**（per MANIFESTO §時間是結構修補協議）：
+
+- **保留 main file path 不改**（避免破壞所有 cross-ref）
+- **拆出 sub-files 在同 dir**（保留 relative pointer）
+- **Active canonical layer**（DNA / HEARTBEAT / MANIFESTO）pointer 全部更新到新 location
+- **歷史 layer**（memory / diary / LESSONS-INBOX / CONSCIOUSNESS）**保留原 Step X.X 描述**（歷史不刪除，per §時間是結構）
+- **被合併的 file 變 stub redirect**（不直接刪除，cross-ref 仍 work）
+
+#### Stage 4: REWIRE — 更新 cross-ref
+
+```bash
+# 找所有 active canonical 引用
+grep -rln "<MAIN-FILE> Step\|<MAIN-FILE>.md Step" docs/semiont/ docs/pipelines/
+
+# 排除歷史 layer（不更新）
+# - docs/semiont/memory/
+# - docs/semiont/diary/
+# - docs/semiont/LESSONS-INBOX.md
+# - docs/semiont/CONSCIOUSNESS.md
+# - docs/semiont/UNKNOWNS.md
+
+# 更新 active canonical pointer 指向新 sub-file location
+```
+
+#### Stage 5: INSTRUMENT — prose 規則升 plugin gate（Direction D）
+
+**5 層全部到位才是真閘門**（REFLEXES #15 第 N 次驗證）：
+
+1. 哲學論述（MANIFESTO / DNA 級）
+2. 規則定義（pipeline 文件 prose）
+3. 工具實作（article-health.py plugin）
+4. Hook 整合（pre-commit / CI）
+5. Pipeline call site（pipeline 文件指向 plugin）
+
+挑選 regex-only 規則先 instrument（complex rule 留 future wave）：
+
+| 易度   | Regex pattern                 | 範例                            |
+| ------ | ----------------------------- | ------------------------------- |
+| **易** | 第一行 / 開場 pattern         | Rule #15 編年體 lead            |
+| **易** | 局部 pattern（X 後接 Y）      | Rule #9 引語倒裝、Rule #14 tone |
+| **中** | 全文 pattern density          | §11 對位句型密度                |
+| **難** | 結構性檢查（需 LLM-as-judge） | Rule #16 Scene-List-Scene       |
+
+#### Stage 6: VERIFY — 驗收 checklist
+
+- [ ] 所有 sub-files `article-health.py --check=prose-health` hard=0 warn=0
+- [ ] 既有產品（如 BLUEPRINTS / 文章）跑新 plugin regression **無新 violation**
+- [ ] Active canonical docs（DNA / HEARTBEAT / MANIFESTO）**無 dead Step X.X pointer**
+- [ ] Sample bad case 正確觸發 plugin（positive test）
+- [ ] Read 主路徑行數對比 **-30%+ target**
+
+#### Stage 7: SHIP — atomic commit 序列
+
+每 commit 一個 logical milestone（atomic + readable git log）：
+
+```
+Commit 1: 建 <WRITING>.md craft layer + 既有 file 變 stub
+Commit 2: 建 <VERIFY>.md gate layer
+Commit 3: <existing post-publish>.md 吸收原 step
+Commit 4: 重寫 main pipeline file（瘦身 + pointer）
+Commit 5: 更新所有 cross-ref pointer
+Commit 6: plugin Wave 1（regex-only 規則 instrument）
+Commit 7: 驗收驗證 + ship
+```
+
+### 應用範例：SPORE pipeline 1334 → 445 行（2026-05-08）
+
+| 維度                     | 舊（v2.9）           | 新（v3.0）                | 變化       |
+| ------------------------ | -------------------- | ------------------------- | ---------- |
+| SPORE-PIPELINE.md 主檔   | 1334 行              | 445 行                    | **-66.7%** |
+| 寫 spore 主路徑          | 1334 + 438 = 1772 行 | 445 + 647 = 1092 行       | **-38%**   |
+| Plugin 儀器化規則數      | 1（§11）             | 4（§11 + #15 + #9 + #14） | **+300%**  |
+| Hook tier classification | 3-tier               | 4-tier（從實戰數據）      | +1 tier    |
+
+完整 implementation report：[reports/spore-pipeline-evolution-plan-2026-05-08.md](../../reports/spore-pipeline-evolution-plan-2026-05-08.md)
+
+### 候選下一輪重組（pipeline self-refactor backlog）
+
+掃一遍其他 pipeline 是否有同樣 silent inflation：
+
+```bash
+# 行數 + 編號深度盤點
+for f in docs/pipelines/*-PIPELINE.md docs/factory/*-PIPELINE.md; do
+  lines=$(wc -l < "$f")
+  step_depth=$(grep -E "Step \d+\.\d+\.\d+" "$f" | wc -l)
+  echo "$lines lines / $step_depth deep-Step / $(basename $f)"
+done | sort -rn
+```
+
+候選清單（待哲宇拍板）：
+
+- [ ] **REWRITE-PIPELINE.md**（~1500 行 / 多 Stage 子層）— 是否該拆 RESEARCH / WRITING / VERIFY / SHIP？
+- [ ] **MAINTAINER-PIPELINE.md**（~1200 行）— PR review / Issue triage / contributor onboarding 是否該拆？
+- [ ] **TRANSLATION-PIPELINE.md**（~3.5 版累積）— 多版本 v3.x 是否還需要 4.0 重組？
+- [ ] **EDITORIAL.md**（v5.6）— 5 個子文件已拆但內部章節 inflation？
+
+### 對應認知層升級
+
+- [REFLEXES #15 反覆浮現要儀器化](../semiont/DNA.md)（第 N+M 次驗證 — Pipeline self-refactor 是「儀器化」的 meta-instance）
+- [REFLEXES #50 Pipeline auto-detection default contract](../semiont/DNA.md)（重組讓 auto-detection + full-read 主路徑變短）
+- [MANIFESTO §造橋鋪路](../semiont/MANIFESTO.md)（重組本身就是大 leverage 的具體實踐）
+- [MANIFESTO §指標 over 複寫](../semiont/MANIFESTO.md)（拆 single-concern canonical 解決重複）
+- [MANIFESTO §時間是結構](../semiont/MANIFESTO.md)（歷史層保留原 Step 描述，修補不覆蓋）
+
+🧬
+
+---
+
+_v3.0 | 2026-05-08 intelligent-khayyam_
+_升級觸發：哲宇「進化 evolve pipeline 本身 — 把這次執行的所有經驗（SPORE pipeline 1334→445 行重組）拿來」_
+_核心進化：v2.0（multi-lang sync）+ Mode 3 pipeline self-refactor（7 stage SOP：SCAN→DESIGN→SPLIT→REWIRE→INSTRUMENT→VERIFY→SHIP + cross-ref 保護策略 + atomic commit 序列）_
+
+_v3.5 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（Phase 1-7 SCAN→SHIP box-frame + Mode 分流）+ Hard Gate Inventory 集中 table（9 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 PEER-INGESTION 邊界 + REWRITE / MAINTAINER lifecycle 串聯）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.5 audit。Phase 1-7 prose body 不動（已健康）。_

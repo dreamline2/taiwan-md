@@ -1,13 +1,32 @@
 ---
-created: 2026-03-17
-tags: [Comida, Cultura del Té, Té Oolong, Té de Alta Montaña, Té de Burbujas]
-title: Cultura del Té
-description: La evolución de la cultura del té de Taiwán desde las ceremonias del té tradicionales hasta las bebidas modernas de té de burbujas, mostrando las variedades únicas de té y la cultura de consumo de la isla
-date: 2026-03-17
-author: Taiwan.md
-readingTime: 9
-featured: false
+title: 'Cultura del Té de Taiwán'
+description: "Una pequeña isla excluida de los acuerdos de restricción de producción entre las grandes potencias del té, que por eso creó su propia edad de oro tetera, para terminar conquistando el mundo entero con una taza de té mezclado con 'pequeños postres'"
+date: 2026-03-23
+category: 'Food'
+tags:
+  [
+    'Food',
+    'Cultura del Té',
+    'Té Oolong',
+    'Té de Alta Montaña',
+    'Bebidas RTD',
+    'Té con Leche de Perlas',
+  ]
+subcategory: 'Cultura de bebidas'
+author: 'Taiwan.md'
+featured: true
+lastVerified: 2026-03-23
+lastHumanReview: false
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jacksons_of_Piccadilly_Formosa_Oolong_Tea_%2851878727206%29.jpg/960px-Jacksons_of_Piccadilly_Formosa_Oolong_Tea_%2851878727206%29.jpg'
+imageAlt: 'Embalaje de té oolong de Taiwán con las palabras Formosa Oolong Tea'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
+created: 2026-03-23
+readingTime: 12
 translatedFrom: 'Food/茶文化.md'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:86475082b87388fc'
+sourceBodyHash: 'sha256:a9375147f15627a6'
+translatedAt: '2026-05-13T01:08:31Z'
 ---
 
 # Cultura del Té

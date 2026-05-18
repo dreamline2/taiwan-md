@@ -1,3 +1,20 @@
+---
+title: 'TRANSLATION-SYNC'
+description: '翻譯同步報告 — 跨語言保持一致的規範與報告格式'
+type: 'editorial-canonical'
+status: 'canonical'
+current_version: 'v1.0'
+last_updated: 2026-03-28
+last_session: 'historical'
+sister_docs:
+  - 'EDITORIAL.md'
+  - 'TERMINOLOGY.md'
+upstream_canonical:
+  - 'EDITORIAL.md'
+  - '../pipelines/TRANSLATION-PIPELINE.md'
+  - '../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md'
+---
+
 # Taiwan.md Translation Sync Report
 
 Generated: 2026-03-25 09:47

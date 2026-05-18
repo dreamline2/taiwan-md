@@ -164,6 +164,20 @@ export default defineConfig({
     '/about/創辦人': '/people/吳哲宇/',
     // /en/people/mayday/ → /en/people/mayday-band/ (51 req/day)
     '/en/people/mayday': '/en/people/mayday-band/',
+    // 2026-05-08 #883: 八炯 romanization Ba Jiong → Pa Chiung (Wade-Giles per
+    // Taipei Times 2025-08-05 article, Taiwan-canonical romanization). Sovereignty-
+    // aligned correction (per MANIFESTO §主權的巴別塔: avoid PRC pinyin where
+    // Taiwan media uses Wade-Giles). 5-lang slug rename.
+    '/en/people/ba-jiong-political-youtuber':
+      '/en/people/pa-chiung-political-youtuber/',
+    '/ja/people/ba-jiong-political-youtuber':
+      '/ja/people/pa-chiung-political-youtuber/',
+    '/ko/people/ba-jiong-political-youtuber':
+      '/ko/people/pa-chiung-political-youtuber/',
+    '/fr/people/ba-jiong-political-youtuber':
+      '/fr/people/pa-chiung-political-youtuber/',
+    '/es/people/ba-jiong-political-youtuber':
+      '/es/people/pa-chiung-political-youtuber/',
     // 2026-04-18 δ-late: EN version of democratic transition was renamed from
     // `democratic-transition.md` → `taiwan-democratization.md`; spores #10/#11
     // (2026-04-07) still send traffic to the old URL (37 views/day).
@@ -216,11 +230,101 @@ export default defineConfig({
       '/ko/culture/taiwan-religion-and-temple-culture/',
     '/fr/culture/new-religions-and-spirituality':
       '/fr/culture/religion-and-temple-culture/',
+    // 2026-05-07: 阿志頭 → 台灣髮型介紹 (整併: 阿志頭 EVOLVE 進 台灣髮型介紹)
+    // canonical: Lifestyle/台灣髮型介紹.md (slug 沿用)
+    // archive: Lifestyle/阿志頭.md (被刪, 內容全部整合進 台灣髮型介紹)
+    // 4 lang redirects (zh-TW + en/ja/ko translation slugs)
+    '/lifestyle/阿志頭': '/lifestyle/台灣髮型介紹/',
+    '/en/lifestyle/ah-ji-haircut': '/en/lifestyle/taiwan-hairstyles/',
+    '/ja/lifestyle/ah-ji-haircut': '/ja/lifestyle/taiwan-hairstyles/',
+    '/ko/lifestyle/ah-ji-haircut': '/ko/lifestyle/taiwan-hairstyles/',
+    // 2026-05-16: 產業轉型 4 篇 → 1 篇 (整併 per issue #1063 哲宇裁決)
+    // canonical: Economy/台灣產業轉型升級.md (補美援/十大建設/新竹園區/四小龍 4 段)
+    // archive 1-3: 台灣產業轉型與經濟發展軌跡 / 產業轉型 / 產業轉型與經濟發展軌跡
+    // 6 lang × 3 archives = 18 redirect entries
+    '/economy/台灣產業轉型與經濟發展軌跡': '/economy/台灣產業轉型升級/',
+    '/en/economy/taiwan-industrial-transformation-trajectory':
+      '/en/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/es/economy/taiwan-industrial-transformation-trajectory':
+      '/es/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/fr/economy/taiwan-industrial-transformation-trajectory':
+      '/fr/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/ja/economy/taiwan-industrial-transformation-trajectory':
+      '/ja/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/ko/economy/taiwan-industrial-transformation-trajectory':
+      '/ko/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/economy/產業轉型': '/economy/台灣產業轉型升級/',
+    '/en/economy/taiwan-industrial-transformation':
+      '/en/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/es/economy/taiwan-industrial-transformation':
+      '/es/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/fr/economy/taiwan-industrial-transformation':
+      '/fr/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/ja/economy/taiwan-industrial-transformation':
+      '/ja/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/ko/economy/taiwan-industrial-transformation':
+      '/ko/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/economy/產業轉型與經濟發展軌跡': '/economy/台灣產業轉型升級/',
+    '/en/economy/industrial-transformation-and-economic-development':
+      '/en/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/es/economy/industrial-transformation-and-economic-development':
+      '/es/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/fr/economy/industrial-transformation-and-economic-development':
+      '/fr/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/ja/economy/industrial-transformation-and-economic-development':
+      '/ja/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    '/ko/economy/industrial-transformation-and-economic-development':
+      '/ko/economy/industrial-transformation-from-manufacturing-to-innovation/',
+    // 2026-05-16: Technology/台灣新創生態系 → Economy/新創生態系 (整併 per issue #1063)
+    // canonical: Economy/新創生態系.md (lastHumanReview=true + 5 footnotes + EVOLVE 已過)
+    // archive: Technology/台灣新創生態系.md (被刪, unique 段整合進 canonical)
+    // 6 lang redirects (zh-TW + en/es/fr/ja/ko translation slugs)
+    '/technology/台灣新創生態系': '/economy/新創生態系/',
+    '/en/technology/taiwan-startup-ecosystem':
+      '/en/economy/taiwan-startup-ecosystem-overview/',
+    '/es/technology/taiwan-startup-ecosystem':
+      '/es/economy/taiwan-startup-ecosystem-overview/',
+    '/fr/technology/taiwan-startup-ecosystem':
+      '/fr/economy/taiwan-startup-ecosystem-overview/',
+    '/ja/technology/taiwan-startup-ecosystem':
+      '/ja/economy/taiwan-startup-ecosystem-overview/',
+    '/ko/technology/taiwan-startup-ecosystem':
+      '/ko/economy/taiwan-startup-ecosystem-overview/',
+  },
+  // 2026-05-04: build perf tuning. Page render is 93% of build time
+  // (363s render / 391s wall, baseline 4,331 pages). concurrency 1 → 4
+  // is the highest-ROI lever; details in reports/research/astro-build-speed-2026-05-04.md.
+  build: {
+    concurrency: 4,
+    inlineStylesheets: 'auto',
   },
   markdown: {
+    // Explicit lang allowlist. Knowledge corpus uses bare ``` fences almost
+    // exclusively (1 named lang in src/content), so capping the loaded grammar
+    // bundle to common ones keeps Shiki startup small without breaking pages.
     shikiConfig: {
       theme: 'github-light',
       wrap: true,
+      langs: [
+        'ts',
+        'tsx',
+        'js',
+        'jsx',
+        'astro',
+        'bash',
+        'sh',
+        'md',
+        'json',
+        'yaml',
+        'html',
+        'css',
+        'python',
+        'go',
+        'rust',
+        'sql',
+        'diff',
+        'plaintext',
+      ],
     },
     remarkPlugins: [remarkWikilinks],
     rehypePlugins: [
@@ -232,5 +336,29 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      target: 'es2022',
+      minify: 'esbuild',
+      cssCodeSplit: true,
+      chunkSizeWarningLimit: 10000,
+      rollupOptions: {
+        output: {
+          // For huge SSG (4k+ pages) Rollup spends measurable time computing
+          // chunk splits when the per-route bundle is tiny. Forcing one-chunk
+          // output is faster on this scale (per bitdoze 339k-page case study).
+          manualChunks: undefined,
+        },
+      },
+    },
+    esbuild: {
+      target: 'es2022',
+      minifyIdentifiers: false,
+      minifySyntax: true,
+      minifyWhitespace: true,
+    },
+    optimizeDeps: { force: false },
   },
+  // experimental.queuedRendering tested 2026-05-04 — local wallclock unchanged,
+  // peak RSS 1.7 GB → 4.3 GB (poolSize: 1000 over-allocates for diverse pages).
+  // Skipping until upstream tunes pool sizing for content-heavy SSG.
 });

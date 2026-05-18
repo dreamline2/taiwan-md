@@ -1,119 +1,113 @@
 ---
-title: 'Taiwan YouTuber Industry & Culture: From Tsai A-Ga to Chi Hsuan - A Digital Cultural Evolution'
-description: 'How a magician became Taiwan first 10-million-subscriber YouTuber? The complete story of Taiwan internet video culture evolving from local entertainment to global export'
+title: 'Taiwan’s YouTuber Industry and Culture: From Tsai A-ga to Chi Hsuan, the Digital Cultural Evolution of an Island'
+description: "How did a creator who began with magic become Taiwan's first YouTuber with ten million subscribers? Behind this milestone lies the full story of Taiwan's online video culture evolving from local entertainment into international cultural export"
 date: 2026-03-23
-tags:
-  ['culture', 'digital-culture', 'youtuber', 'internet-video', 'social-impact']
+author: 'Taiwan.md Contributors'
 category: 'Culture'
-author: 'Taiwan.md'
-featured: false
-lastVerified: 2026-03-23
+subcategory: '網路文化'
+tags:
+  ['Culture', 'Digital Culture', 'YouTuber', 'Online Video', 'Social Impact']
+lastVerified: 2026-05-11
 lastHumanReview: false
+featured: false
 translatedFrom: 'Culture/台灣YouTuber產業與文化.md'
+sourceCommitSha: 'cea9f7087'
+sourceContentHash: 'sha256:d6ed68b20962bf16'
+sourceBodyHash: 'sha256:77a417d3b5938b17'
+translatedAt: '2026-05-12T11:51:04+08:00'
 ---
 
-> **30-Second Overview:** In March 2024, Taiwanese magic YouTuber "Chi Hsuan Tricking" became Taiwan's first creator to reach 10 million subscribers, marking Taiwan's YouTube culture evolution from Tsai A-Ga's pro-Taiwan videos in 2008 to an internationally competitive content platform. YouTube reaches over 90% of Taiwan's 18+ audience, while creators earn only 20-40% from ad revenue, relying mainly on brand partnerships, with VTuber industry emerging as a new force.
+> **30-second overview:** In March 2024, the Taiwanese magic YouTuber “Chi Hsuan Tricking” became the first creator in Taiwan to reach ten million subscribers, marking the evolution of Taiwanese YouTube culture from Tsai A-ga’s 2008 pro-Taiwan current-affairs videos into an internationally competitive content-export platform. YouTube reaches more than 95% of internet users in Taiwan, while short-form video, or Shorts, now accounts for more than 75% of viewing time. Creators are entering a period of transition from pure video production toward branding and diversified monetization.
 
-On March 9, 2024, a magician made Taiwanese history on YouTube—Wu Chi-Hsuan's "Chi Hsuan Tricking" channel became Taiwan's first to break 10 million subscribers. But this milestone means far more than just a number: it marks Taiwan's YouTube culture's complete evolution from "local entertainment" to "global export."
+On March 9, 2024, a creator who combines martial arts, gymnastics, and magic made Taiwanese history on YouTube: Wu Chi-hsuan’s “Chi Hsuan Tricking” channel became the first YouTube channel in Taiwan to surpass ten million subscribers, earning Google’s Diamond Creator Award[^1]. Yet the significance of this milestone goes far beyond a number. It marks the turning point at which Taiwanese YouTube culture moved decisively from “local entertainment” to “international export.”
 
-## From Wretch to YouTube: Taiwan's Internet Video Evolution
+## From Wretch to YouTube: The Evolution of Taiwan’s Online Video
 
-Taiwan's YouTube story begins in 2008. That year, Tsai Wei-Jia (Tsai A-Ga) from Chiayi started uploading pro-Taiwan current affairs videos to his blog. Taiwan's internet culture was still stuck in the text era of Wretch and PTT, and YouTube was just "a place to watch foreign videos" for most people.
+Taiwan’s YouTube story begins in 2008. That year, Tsai Wei-chia, better known as Tsai A-ga, a creator from Chiayi, began uploading current-affairs videos with pro-Taiwan themes to his blog. At the time, Taiwan’s internet culture was still largely in the text-based era of Wretch, the popular blogging and social-networking platform, and PTT, Taiwan’s major bulletin-board system. For most people, YouTube was still “a place to watch foreign videos.”
 
-But Tsai A-Ga changed everything. He discussed current affairs with humor familiar to Taiwanese people, from "singing English songs in Taiwanese" to "Taiwan night market" series, creating a uniquely Taiwanese YouTube language. In 2017, his channel broke 1 million subscribers, becoming an early Taiwan YouTube benchmark.
+Tsai A-ga changed that. He discussed current affairs through a mode of humor familiar to Taiwanese audiences, from “singing English songs in Taiwanese” to his “Taiwan night market” series, and created a YouTube language that felt distinctly Taiwanese. In 2014, his channel surpassed one million subscribers, making him the first YouTuber in Taiwan to reach that milestone[^2].
 
-> **💡 Did You Know?**
-> Tsai A-Ga started creating in 2008, going through school, military service, marriage to fatherhood, spending nearly half his life as a YouTuber—he's literally a living history of Taiwan's social video development.
+> **💡 Did you know?**
+> Tsai A-ga began creating content in 2008. Across nearly two decades of work, he has documented his years as a student, military service, marriage, and fatherhood. His career is, in effect, a living history of Taiwan’s social video development.
 
-Meanwhile, another batch of creators was rising in different fields. "This Group of People TGOP" became Taiwan's first channel to break 2 million subscribers in 2018; "Saint" broke 1 million subscribers in just 225 days, setting Taiwan's record at the time; and館長 Chen Chih-Han carved out his niche combining fitness with social commentary in livestreaming.
+At the same time, another group of creators rose in different fields. “This Group of People TGOP” became Taiwan’s first channel to exceed two million subscribers in 2017[^10]. “Saint” surpassed one million subscribers in just 225 days[^11], setting a Taiwanese record at the time. Chen Chih-han, widely known as “the Gym Master,” built a major presence in livestreaming by combining fitness with social criticism.
 
-## The Million-Subscriber Wave: Golden Age of Taiwanese Creators
+## The Million-Subscriber Wave and the Walk Bell John Awards: A Golden Age for Taiwanese Creators
 
-In Q1 2018, Taiwan had 11 YouTube channels breaking 1 million subscribers. This wasn't just numerical breakthrough, but represented Taiwan YouTube ecosystem's maturity. Ray Du English made English learning fun with sibling combinations; 谷阿莫 created the entirely new "movie explanation" genre with 10-minute film summaries; and 志祺七七 packaged complex social issues into digestible educational content.
+After 2018, Taiwan entered a period of rapid growth in million-subscriber channels. Ray Du English made language learning entertaining; Shasha77 packaged complex social issues into accessible knowledge-based content. To recognize these digital content creators, the “Walk Bell John Awards,” initiated by the “EyeCTV” team, were first held in 2019[^16] and have since become the “Oscars” of Taiwan’s online world[^3].
 
-This era's Taiwanese YouTubers shared one trait: strong localization. Whether Tsai A-Ga's Taiwan patriotism, 館長's Taiwanese directness, or Ray Du's Chinese-English switching, all carried strong "Taiwan flavor."
+Taiwanese YouTubers at this stage shared one major feature: a strong sense of localization. Whether in Tsai A-ga’s pro-Taiwan sentiment, the Gym Master’s blunt Taiwanese style, or Ray Du’s switching between Mandarin and English, their work carried a strong “Taiwanese flavor.”
 
-> **📝 Curator's Note**
-> Interestingly, this "Taiwan flavor" helped these creators stand out in the Chinese-speaking world. In a world full of standardized content, local character became the biggest differentiator.
+> **📝 Curator’s note**
+> What is interesting is that this very “Taiwanese flavor” helped these creators stand out in the Mandarin-speaking world. In a world filled with standardized content, local character instead became their greatest advantage in differentiation.
 
-But the real breakthrough was yet to come. According to [Taiwan News reports](https://taiwannews.com.tw/news/5111007), Wu Chi-Hsuan had already accumulated over 2.5 billion views and 73.39 million likes by 2023, reaching 10 million subscribers in March 2024. Crucially, many of his viewers came from North America and Southeast Asia, showing Taiwanese creators had developed content creation ability transcending language barriers.
+## International Breakthrough: Wu Chi-hsuan and the Shorts Dividend
 
-## Business Model: From Ad Revenue to Diversified Monetization
+The true global breakthrough came through short-form video. According to statistics, Wu Chi-hsuan had already accumulated more than 2.5 billion views by 2023 and reached ten million subscribers in March 2024[^1]. His success came from “body-language” content that transcends linguistic barriers and from capturing the algorithmic dividend of YouTube Shorts. This shows that Taiwanese creators now have the ability to cross language barriers and connect directly with global audiences.
 
-How influential is YouTube in Taiwan? According to [iSPOT Media's 2025 report](https://www.i-spotmedia.com/Blog/2025-yt-trends/), YouTube reaches over 90% of Taiwan's 18+ audience and over 10 million viewers aged 45+. Taiwanese audiences spend 95 minutes daily watching YouTube, growing 15% from 2023.
+## Controversy and Authenticity: The Red Lines for Commentators
 
-But this massive viewing time doesn't mean creators can easily profit. According to [KOL Media analysis](https://kol-trymedia.tw/taiwanese-youtuber-income-ranking/), Taiwan YouTubers' ad revenue generally comprises only 20-40% of total income, with brand partnerships being the main revenue source.
+As their influence has expanded, creators’ speech has also faced stricter scrutiny. In 2023, Tsai A-ga sparked diplomatic and cultural controversy with a video calling five Japanese chain restaurants “super unpalatable,” and eventually issued a public apology[^4]. In addition, sharp-tongued reviews of Michelin-recommended restaurants by commentators such as Toyz have often triggered broader social debates over “professionalism versus traffic.”
 
-This reflects Taiwan YouTube ecosystem's uniqueness: unlike Western creators who mainly rely on ad revenue sharing, Taiwanese creators depend more on brand collaborations. According to [INSIDE surveys](https://www.inside.com.tw/article/18043-pilotpr-youtuber), 55% of Taiwan viewers have made purchases due to YouTuber recommendations, spending an average of NT$2,786 annually.
+These controversies reflect Taiwanese audiences’ pursuit of “authenticity,” but they also highlight the challenge creators face in balancing freedom of criticism and social responsibility while chasing clicks.
 
-> **📊 Data Source**
-> This data comes from Pilot PR and Eastern Online's third-party media annual report, showing YouTuber marketing's actual impact in Taiwan's consumer market.
+## Business Models: From Ad Revenue Sharing to Diversified Monetization
 
-## MCN Ecosystem: Professional Path for Creators
+YouTube has extremely high influence in Taiwan. According to recent reports, YouTube can reach more than 95% of internet users in Taiwan[^5]. However, advertising revenue, or AdSense, generally accounts for only 20-40% of Taiwanese creators’ total income. Sponsored collaborations and personal branding are their primary sources of revenue[^6].
 
-As the industry matured, Taiwan also saw professional MCN (Multi-Channel Network) organizations emerge. Japanese company CAPSULE built Taiwan's largest creator network, providing comprehensive services from content planning to business cooperation. According to [CNA reports](https://www.cna.com.tw/news/ahel/202102130062.aspx), CAPSULE helped "Huang Brothers" grow from under 50,000 to 1.6 million subscribers, while "Mihara JAPAN" achieved Guinness World Records and thousand-person concerts.
+For example, Tsai A-ga founded Dadafo Entertainment[^12], turning creator identity into intellectual property. Many creators, such as Joeman[^13] and Chien-Chien[^14], have launched co-branded convenience-store foods, converting online traffic into offline sales.
 
-Local MCNs weren't far behind. Magic Competition Entertainment, Spring Fish Creative, and Meridian Project have all cultivated Taiwanese creators in different fields. These companies' emergence marked Taiwan YouTube industry's evolution from "personal creation" to "professional management."
+## VTubers: Rising Stars in the Virtual World
 
-## VTuber: Virtual World's Rising Stars
+The most unexpected development has been the rapid rise of VTubers, or virtual YouTubers, in Taiwan. In 2023, VTubers occupied 42 places among Taiwan’s top 100 YouTube Super Chat rankings, accounting for 38% of the total amount on the list[^7].
 
-Perhaps the most surprising development was VTuber (Virtual YouTuber) rapid rise in Taiwan. According to [R-lover's statistical analysis](https://r-lover.com/sharing/info-gathering/taiwan-vtuber-industry-info/), VTubers occupied only 3 spots in Taiwan's YouTuber Super Chat top 10 in 2021; but by 2023, VTubers held 42 spots with total earnings of NT$33.52 million, comprising 38% of the top 100 rankings.
+> **💡 Did you know?**
+> In 2023, the Taiwanese VTuber “Mizuki” raised NT$8.74 million through a crowdfunding campaign for her 3D model, far exceeding the target of NT$3 million and showing the strong commercial potential of virtual idols in Taiwan[^8].
 
-This phenomenon has several reasons. First, VTuber fans have extremely high loyalty—while subscriber counts lag behind real YouTubers, Super Chat earnings can compete with them. Second, VTubers aren't limited by appearance, allowing more diverse character settings. Most importantly, as younger generations increasingly accept virtual worlds, VTubers represent an entirely new entertainment format.
+## Social Impact: From Entertainment to Issue-Based Discussion
 
-> **💡 Did You Know?**
-> Taiwan VTuber "浠Mizuki" raised NT$8.74 million in her 2023 3D transformation crowdfunding campaign against a NT$3 million target, showing this field's amazing potential.
+Another characteristic of Taiwanese YouTube culture is its strong social engagement. Shasha77’s “SimpleInfo Design” visualizes complex issues; Eye Central Television, which stopped updating in June 2023[^15], once discussed politics through humor; and The Night Night Show with Brian Tseng brought an American-style talk-show format into Taiwan’s mainstream. This model of “softly discussing hard issues” has profoundly shaped public participation among Taiwan’s younger generation[^9].
 
-## Short Video Era: YouTube Shorts vs TikTok
+## Future Outlook: Challenges in the AI Era
 
-In 2021, to compete with TikTok, YouTube officially launched Shorts. Statistics show 54% of Taiwan viewers watched YouTube Shorts in the past 7 days, providing creators another channel to reach audiences.
+As AI technology lowers the barriers to content creation, Taiwanese creators are facing the dual challenges of “algorithm anxiety” and “content saturation.” Many established creators have shifted direction or announced breaks from uploading. Over the next decade, Taiwanese YouTube culture will likely develop toward integration of the virtual and the physical, international collaboration, and deeper forms of cultural export.
 
-But short video rise also brings challenges. Traditional long-form creators must relearn short video language, transitioning from 10-minute deep content to 1-minute fast-paced presentation. This transition isn't adaptable for everyone, causing creator ecosystem reshuffling.
+From Tsai A-ga’s first video to Chi Hsuan’s ten million subscribers, Taiwanese YouTube culture has completed an astonishing evolution in less than two decades. This is not only a victory of technology, but also the story of how an island redefined itself in the digital age.
 
-## Social Impact: From Entertainment to Issue Discussion
+**Further reading**:
 
-Another feature of Taiwan YouTube culture is strong social participation. 志祺七七's "圖文不符" visualizes complex social issues, making current affairs easier for young people to understand; 眼球中央電視台 discusses politics humorously, finding unique positioning in Taiwan's polarized political society; and 博恩夜夜秀 brought political satire to new heights.
-
-This phenomenon peaked during the 2020 COVID pandemic. Many YouTubers proactively created epidemic prevention content, becoming bridges between government and public communication. However, "yellow label" controversies also emerged, with some sensitive topic videos restricted from ad placement, sparking free speech discussions.
-
-> **⚠️ Controversial Viewpoint**
-> YouTube's "yellow label" policy sparked heated discussion in Taiwan, with creators believing it limited their space to discuss sensitive topics, while the platform insisted this was only monetization policy, not censorship.
-
-## Challenges and Transformation: Post-Pandemic New Issues
-
-With YouTube algorithm changes, traditional long-form creation models face challenges. Many creators specializing in long videos found viewership declining, forcing strategy adjustments. Meanwhile, TikTok and other short video platforms' rise also scattered audience attention.
-
-Another challenge is creator burnout. Continuous content creation pressure, cyberbullying, and privacy issues led many creators to temporarily or permanently exit. Tsai A-Ga revealed in 2022 that thinking of new projects weekly caused him enormous pressure; Saint also experienced creative bottlenecks, once considering career changes.
-
-> **📝 Curator's Note**
-> Creator mental health issues are becoming problems Taiwan's YouTube industry needs to address. Finding balance between commercial pressure and creative passion is something the entire ecosystem needs to consider.
-
-## Internationalization: Global Ambitions of Taiwan Creators
-
-Chi Hsuan's 10-million-subscriber success proved Taiwan creators have international competitiveness. But this isn't isolated. More Taiwan creators are making English content or adding English subtitles, trying to reach broader international audiences.
-
-This trend reflects Taiwan YouTube culture's maturity. From early "made for Taiwanese" to current "made for the world," Taiwan creators are redefining possibilities for "Taiwan cultural export."
-
-## Future Outlook: Creators in the AI Era
-
-With AI technology development, YouTube creation also faces new transformations. From automatic subtitle generation to AI-assisted editing, technology is lowering content creation barriers. But this brings new questions: when anyone can easily produce high-quality content, what value do creators have?
-
-Taiwan's answer might lie in "localization" and "humanization." Just like Tsai A-Ga's Taiwan flavor and Chi Hsuan's magic expertise, true differentiation comes from creators' unique perspectives and experiences—something AI cannot replicate.
-
-> **🚀 Looking Forward**
-> How will Taiwan YouTube culture develop in the next decade? Possible answers lie in virtual-reality integration, international cooperation, and deeper cultural export. Taiwan creators have proven their capabilities; now it's time to show the world Taiwan culture's unique value.
-
-From Tsai A-Ga's first pro-Taiwan video to Chi Hsuan's 10-million-subscriber milestone, Taiwan YouTube culture completed amazing evolution in less than twenty years. This isn't just technological victory, but a story of how an island redefined itself in the digital age. In this story, every subscription and like is proof of Taiwan culture speaking to the world.
+- [PanSci](/society/泛科學) — From popular-science articles to short-form video, YouTube MCNs, and services for knowledge creators, this case helps explain how knowledge-based creators respond to algorithms and commercialization.
 
 ## References
 
-- [YouTube reaches over 90% of Taiwan's 18+ audience - iSPOT Media](https://www.i-spotmedia.com/Blog/2025-yt-trends/)
-- [Next Step After Viral Fame: YouTuber Agencies Help Creators Explore - CNA](https://www.cna.com.tw/news/ahel/202102130062.aspx)
-- [Taiwan VTuber Industry Development Status - R-lover](https://r-lover.com/sharing/info-gathering/taiwan-vtuber-industry-info/)
-- ['Chi Hsuan Tricking' first Taiwanese YouTuber to hit 10 million subscribers - Taiwan News](https://taiwannews.com.tw/news/5111007)
-- [Taiwan YouTuber Income Ranking Revealed - KOL Media](https://kol-trymedia.tw/taiwanese-youtuber-income-ranking/)
-- [Is YouTuber Marketing Effective? Survey: 55% Audience Influenced - INSIDE](https://www.inside.com.tw/article/18043-pilotpr-youtuber)
-- [How Startups Collaborate with YouTubers, Leveraging Their Influence - AppWorks](https://appworks.tw/startup-youtuber-marketing/)
-- [Taiwan's Top 10 Super Popular YouTubers Revealed - Liberty Times](https://news.ltn.com.tw/news/life/breakingnews/1993338)
-- [YouTube Advertising Revenue Breaks $40.4 Billion - TechNews](https://technews.tw/2026/03/11/youtube-advertising-revenue/)
-- [2024 VTuber Best: Complete Analysis of Watch Hours and Superchat Revenue - VIVE Post Wave](https://www.vivepostwave.com/best-vtuber-2024/)
+[^1]: ['Chi Hsuan Tricking' first Taiwanese YouTuber to hit 10 million subscribers - Taiwan News](https://taiwannews.com.tw/news/5111007) — See the original link for supplementary source details
+
+[^2]: [Taiwan’s top 10 most popular YouTubers announced - Liberty Times](https://news.ltn.com.tw/news/life/breakingnews/1993338) — Liberty Times report
+
+[^3]: [What comes after going viral? YouTuber agencies help creators find a path forward - CNA](https://www.cna.com.tw/news/ahel/202102130062.aspx) — CNA report
+
+[^4]: [Overview of the controversy surrounding Tsai A-ga’s Japan video - The News Lens](https://www.thenewslens.com/article/186591) — See the original link for supplementary source details
+
+[^5]: [YouTube can reach more than 95% of internet users in Taiwan - iSPOT Media](https://www.i-spotmedia.com/Blog/2025-yt-trends/) — See the original link for supplementary source details
+
+[^6]: [Analysis of Taiwanese YouTuber income rankings and business models - KOL Try Media](https://kol-trymedia.tw/taiwanese-youtuber-income-ranking/) — See the original link for supplementary source details
+
+[^7]: [Analysis of the current development of Taiwan’s VTuber industry - R Lover](https://r-lover.com/sharing/info-gathering/taiwan-vtuber-industry-info/) — See the original link for supplementary source details
+
+[^8]: [The best of VTubers in 2024: viewing hours and Super Chat revenue analyzed - VIVE Post Wave](https://www.vivepostwave.com/best-vtuber-2024/) — See the original link for supplementary source details
+
+[^9]: [How startups can collaborate with YouTubers and leverage influence - AppWorks](https://appworks.tw/startup-youtuber-marketing/) — See the original link for supplementary source details
+
+[^10]: [This Group of People celebrates surpassing two million subscribers - Liberty Times](https://news.ltn.com.tw/news/life/breakingnews/2194883) — Liberty Times report
+
+[^11]: [Saint sets record by reaching one million subscribers in 225 days - Bnext](https://www.bnext.com.tw/article/45016/saint-youtube-1m-subscribers) — Business Next analysis
+
+[^12]: [Founding background of Dadafo Entertainment Co., Ltd. - Taiwan Company Net](https://www.twinc.com.tw/item.aspx?no=54343434) — See the original link for supplementary source details
+
+[^13]: [Joeman x 7-Eleven collaboration series launched in 2023 - WalkerLand](https://www.walkerland.com.tw/subject/view/351608) — See the original link for supplementary source details
+
+[^14]: [Chien-Chien x FamilyMart Thai-Taiwanese collaboration foods launched in 2022 - Setn](https://www.setn.com/News.aspx?NewsID=1144001) — See the original link for supplementary source details
+
+[^15]: [Eye Central Television announces it will stop updating - CNA](https://www.cna.com.tw/news/ahel/202304100262.aspx) — CNA report
+
+[^16]: [Background to the founding of the Walk Bell John Awards by EyeCTV - China Times](https://www.chinatimes.com/realtimenews/20190220002824-260405) — See the original link for supplementary source details

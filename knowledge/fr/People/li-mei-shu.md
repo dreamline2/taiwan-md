@@ -9,7 +9,11 @@ author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-03-23
 readingTime: 8
-translatedFrom: 'People/李梅樹.md'
+translatedFrom: "People/李梅樹.md"
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:7bf4114050e0bd18'
+sourceBodyHash: 'sha256:56cd3707ce723649'
+translatedAt: "2026-04-14T19:15:40+08:00"
 ---
 
 > **En 30 secondes :** Li Mei-shu ne fut pas seulement un peintre primé aux expositions officielles de Taïwan — il est le seul artiste de l'île à avoir dirigé la reconstruction d'un temple traditionnel avec une vision résolument académique. À partir de 1947, il consacra 36 ans à la reconstruction du temple Zushi de Sanxia, créant un phénomène sans précédent d'hybridation entre Orient et Occident, si bien que cet humble sanctuaire rural fut salué comme un « Palais des arts de l'Orient ».
@@ -20,16 +24,16 @@ Cette décision allait réécrire l'histoire de l'art à Taïwan.
 
 ## D'instituteur à lauréat de l'Exposition de Taïwan
 
-Li Mei-shu (1902-1983) naquit à Sanxia dans une famille de marchands de grain. À 17 ans, il organisait déjà une exposition d'arts plastiques à l'École normale de Taipei. En 1920, lorsque le sculpteur Huang Tu-shui fut sélectionné à l'Exposition impériale des beaux-arts de Tokyo avec son œuvre *Pâturage des peuples autochtones* — devenant ainsi le premier artiste taïwanais à y figurer —, cette nouvelle secoua profondément Li Mei-shu et toute une génération de jeunes artistes.
+Li Mei-shu (1902-1983) naquit à Sanxia dans une famille de marchands de grain. À 17 ans, il organisait déjà une exposition d'arts plastiques à l'École normale de Taipei. En 1920, lorsque le sculpteur Huang Tu-shui fut sélectionné à l'Exposition impériale des beaux-arts de Tokyo avec son œuvre _Pâturage des peuples autochtones_ — devenant ainsi le premier artiste taïwanais à y figurer —, cette nouvelle secoua profondément Li Mei-shu et toute une génération de jeunes artistes.
 
 Après son diplôme de l'École normale en 1922, Li Mei-shu enseigna à l'école publique de Ruifang. Il souhaitait partir étudier les beaux-arts au Japon, mais son père s'y opposa. En 1924, il rejoignit les ateliers d'été de peinture organisés par Ishikawa Kinichiro, où il fit la connaissance de Ni Jiang-huai, Chen Zhi-qi, Li Shi-qiao et Chen Cheng-po.
 
-En 1927, il fut sélectionné à la première Exposition des beaux-arts de Taïwan (Taiwan Exhibition) avec *Nature morte*, puis à nouveau l'année suivante avec *La rue du fond de Sanxia*. Ces participations successives contraignirent sa famille à reconnaître son talent. Son frère médecin, Liu Qing-gang, prit contre vents et marées la décision de financer l'intégralité de ses études à l'étranger.
+En 1927, il fut sélectionné à la première Exposition des beaux-arts de Taïwan (Taiwan Exhibition) avec _Nature morte_, puis à nouveau l'année suivante avec _La rue du fond de Sanxia_. Ces participations successives contraignirent sa famille à reconnaître son talent. Son frère médecin, Liu Qing-gang, prit contre vents et marées la décision de financer l'intégralité de ses études à l'étranger.
 
 En novembre 1928, Li Mei-shu embarqua pour le Japon en compagnie de Chen Cheng-po. Il s'inscrivit à l'École de peinture Kawase et à l'atelier Doshusha de Shinjuku pour perfectionner son dessin, en vue du concours d'entrée à l'École des beaux-arts de Tokyo. En mars 1929, il fut reçu du premier coup à la section peinture occidentale, où il eut pour maîtres Nagahara Kotaro, Kobayashi Mango et Okada Saburo.
 
 > **💡 Le saviez-vous ?**
-> En 1935, Li Mei-shu remporta le premier prix spécial de l'Exposition de Taïwan avec *Femme se reposant*. La femme représentée dans ce tableau est sa belle-nièce, Liu Zeng-mei. Cette œuvre demeure aujourd'hui l'un des chefs-d'œuvre du réalisme impressionniste taïwanais.
+> En 1935, Li Mei-shu remporta le premier prix spécial de l'Exposition de Taïwan avec _Femme se reposant_. La femme représentée dans ce tableau est sa belle-nièce, Liu Zeng-mei. Cette œuvre demeure aujourd'hui l'un des chefs-d'œuvre du réalisme impressionniste taïwanais.
 
 Après son retour à Taïwan en 1934, Li Mei-shu ne se contenta pas de poursuivre sa carrière de peintre : avec Yang San-lang et d'autres, il cofonda l'Association des beaux-arts Taiyang. Mais contrairement à ses pairs qui se consacraient exclusivement à la création, il s'engagea aussi dans la vie politique locale — représentant du bourg de Sanxia, chef du bourg, président du conseil municipal, président du syndicat agricole, conseiller du comté de Taipei.
 
@@ -48,7 +52,7 @@ La pièce maîtresse : les colonnes en pierre du pavillon central, ornées de «
 
 Li Mei-shu invita également des peintres contemporains — Lin Yu-shan, Kuo Hsueh-hu, Chen Chin, Chen Hui-kun — à réaliser des croquis qui furent ensuite gravés en bas-relief. Ces œuvres constituent un panorama complet de la peinture à l'encre taïwanaise des années 1950-1970.
 
-Plus novateur encore, il amena au temple des étudiants en sculpture de l'École nationale des arts pour y créer bas-reliefs et statues en ronde-bosse. Les œuvres de He Heng-xiong, Huang Jin-zhong, Lin Wen-de — *Confucius interrogeant Laozi sur les rites*, *Yue Fei et sa loyauté absolue* — illustrent des thèmes traditionnels avec un réalisme saisissant, faisant de ces sculptures la singularité la plus marquante du temple Zushi.
+Plus novateur encore, il amena au temple des étudiants en sculpture de l'École nationale des arts pour y créer bas-reliefs et statues en ronde-bosse. Les œuvres de He Heng-xiong, Huang Jin-zhong, Lin Wen-de — _Confucius interrogeant Laozi sur les rites_, _Yue Fei et sa loyauté absolue_ — illustrent des thèmes traditionnels avec un réalisme saisissant, faisant de ces sculptures la singularité la plus marquante du temple Zushi.
 
 ## Le tiraillement entre idéal esthétique et réalité
 
@@ -64,7 +68,7 @@ Le temple Zushi de Sanxia, tel que Li Mei-shu l'a reconstruit, est aujourd'hui l
 
 > **✦** « Ce n'est pas seulement un temple — c'est un laboratoire expérimental unique dans l'histoire de l'art taïwanais : comment, en s'appuyant sur une foi locale, fusionner tradition et modernité. »
 
-L'œuvre peinte de Li Mei-shu se décline en trois périodes : la « période impressionniste » (1924-1948), avec des œuvres telles que *Femme se reposant* et *Tricot*, qui capturent la vie quotidienne taïwanaise ; la « période terroir taïwanais », retour à l'expérience visuelle directe ; et la « période retour à la nature », marquée par une harmonie de la lumière et de la couleur.
+L'œuvre peinte de Li Mei-shu se décline en trois périodes : la « période impressionniste » (1924-1948), avec des œuvres telles que _Femme se reposant_ et _Tricot_, qui capturent la vie quotidienne taïwanaise ; la « période terroir taïwanais », retour à l'expérience visuelle directe ; et la « période retour à la nature », marquée par une harmonie de la lumière et de la couleur.
 
 Il enseigna à l'École nationale des arts jusqu'à la fin de sa vie, fonda en 1967 le département de sculpture dont il fut le directeur, tissant un lien inédit entre enseignement académique et artisanat populaire. Son étudiant Huang Yuan-long se souvient : « Le professeur Li était très exigeant. Il voulait que nous devenions des artistes à part entière, pas de simples artisans sans esprit propre. »
 
@@ -78,5 +82,5 @@ Li Mei-shu a prouvé par toute sa vie qu'un artiste n'a pas besoin de se tenir �
 - [Mémorial Li Mei-shu](https://limeishu.org.tw/)
 - [Temple Zushi de Sanxia - Carte des sites religieux et culturels de Taïwan](https://taiwangods.moi.gov.tw/html/landscape/1_0011.aspx?i=17)
 - [Musée national des beaux-arts de Taïwan - Archives des beaux-arts taïwanais](https://twfineartsarchive.ntmofa.gov.tw/TW/Literature/liMakehistory.aspx?QID=04M2)
-- Tang Huang-zhen, *Sanxia · Réalisme · Li Mei-shu*, Éditions Lion, 1998
-- Zhuang Bo-he, « L'art de la sculpture en pierre au temple Zushi de Sanxia », *Lion Arts*, n° 107, 1980
+- Tang Huang-zhen, _Sanxia · Réalisme · Li Mei-shu_, Éditions Lion, 1998
+- Zhuang Bo-he, « L'art de la sculpture en pierre au temple Zushi de Sanxia », _Lion Arts_, n° 107, 1980

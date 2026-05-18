@@ -85,6 +85,85 @@ def clean_title(title: str) -> str:
     return (title or "").replace(" | Taiwan.md", "").strip()
 
 
+# Language detection from URL path prefix.
+# zh-TW = no prefix (default); en/ja/ko/es/fr = explicit prefix.
+import re as _re
+
+LANG_PREFIX_PATTERN = _re.compile(r"^/(en|ja|ko|es|fr)(/|$)")
+ALL_LANGS = ("zh-TW", "en", "ja", "ko", "es", "fr")
+
+
+def derive_lang_from_path(path: str) -> str:
+    """Extract language from URL path. Default to zh-TW when no language prefix."""
+    if not path:
+        return "zh-TW"
+    m = LANG_PREFIX_PATTERN.match(path)
+    return m.group(1) if m else "zh-TW"
+
+
+def aggregate_by_lang(rows):
+    """Aggregate GA pagePath rows by URL-prefix-derived language.
+
+    Used for sovereignty preservation impact measurement (per
+    reports/immune-score-redesign-2026-05-16.md §D — short-term lang regex
+    approach; long-term GA4 custom dimension may replace this).
+
+    Args:
+        rows: list of GA cache rows with `dim_0` (path) + `metrics`.
+
+    Returns:
+        dict: {lang: {views, users, sessions, avgEngagementSeconds, pageCount}}
+        Always includes all 6 langs (zh-TW + 5 translation langs), with 0 for
+        unobserved langs so dashboard can render consistent shape.
+    """
+    buckets = {
+        lang: {
+            "views": 0,
+            "users": 0,
+            "sessions": 0,
+            "_engagement_seconds_weighted": 0.0,
+            "pageCount": 0,
+        }
+        for lang in ALL_LANGS
+    }
+
+    for row in rows:
+        path = row.get("dim_0", "")
+        lang = derive_lang_from_path(path)
+        if lang not in buckets:
+            continue
+
+        views = int(parse_ga_metric(row, "screenPageViews"))
+        users = int(parse_ga_metric(row, "activeUsers"))
+        sessions = int(parse_ga_metric(row, "sessions"))
+        avg_dur = parse_ga_metric(row, "averageSessionDuration")
+
+        b = buckets[lang]
+        b["views"] += views
+        b["users"] += users
+        b["sessions"] += sessions
+        # Weighted engagement: per-page avg_duration × page views (numerator).
+        # Denominator is total views (b["views"]) for final weighted mean.
+        b["_engagement_seconds_weighted"] += avg_dur * views
+        b["pageCount"] += 1
+
+    result = {}
+    for lang in ALL_LANGS:
+        b = buckets[lang]
+        if b["views"] > 0:
+            avg_engagement = round(b["_engagement_seconds_weighted"] / b["views"], 1)
+        else:
+            avg_engagement = 0
+        result[lang] = {
+            "views": b["views"],
+            "users": b["users"],
+            "sessions": b["sessions"],
+            "avgEngagementSeconds": avg_engagement,
+            "pageCount": b["pageCount"],
+        }
+    return result
+
+
 def display_path(norm_path: str) -> str:
     """Convert normalized path → display/href form (restore trailing slash
     for non-root paths, to match how the site serves URLs)."""
@@ -141,6 +220,13 @@ def build_ga_section(ga_raw):
     # already filtered by GA4 dimension filter to article paths only
     top_articles_7d = dedup_pages(ga_raw.get("top_articles_7d", []))[:20]
 
+    # Per-language aggregation — sovereignty preservation impact (2026-05-16)
+    # Prefer `by_lang_pages` (limit=500 fetch, dedicated query); fall back to
+    # `top_pages` (limit=50) for older caches that haven't refreshed yet.
+    by_lang_source = ga_raw.get("by_lang_pages") or ga_raw.get("top_pages", [])
+    by_lang_source_kind = "by_lang_pages" if ga_raw.get("by_lang_pages") else "top_pages_fallback"
+    by_lang = aggregate_by_lang(by_lang_source)
+
     overall = ga_raw.get("overall", {})
     totals = {
         "activeUsers": int(overall.get("activeUsers", 0)),
@@ -160,6 +246,8 @@ def build_ga_section(ga_raw):
         "totals": totals,
         "topPages": top_pages,
         "topArticles7d": top_articles_7d,
+        "byLang": by_lang,
+        "byLangSource": by_lang_source_kind,
     }
 
 
@@ -176,7 +264,7 @@ def _is_brand_query(q_str):
     """Classify a query as brand (contains 'taiwan.md' / 'taiwan md' / exact 'md' / 'taiwandotmd').
 
     2026-04-17 δ: SC 7d 總 CTR 8.54% 虛胖 — top queries 'taiwan md' 62% / 'taiwan.md' 71%
-    (brand 詞) 撐起整體率。真實 non-brand 搜尋可見度 <3%。拆分揭露分層真相（DNA #24
+    (brand 詞) 撐起整體率。真實 non-brand 搜尋可見度 <3%。拆分揭露分層真相（REFLEXES #24
     第 5 種「加權平均掩蓋分層真相」的儀器化）。
     """
     import re as _re
@@ -248,7 +336,7 @@ def build_sc_7d_section(sc_raw):
     if ctr_pct <= 1:
         ctr_pct = round(ctr_pct * 100, 2)
 
-    # Brand vs non-brand breakdown (2026-04-17 δ — DNA #24 第 5 種儀器化)
+    # Brand vs non-brand breakdown (2026-04-17 δ — REFLEXES #24 第 5 種儀器化)
     brand_clicks = brand_imp = 0
     nonbrand_clicks = nonbrand_imp = 0
     for q in sc_raw.get("queries", []):

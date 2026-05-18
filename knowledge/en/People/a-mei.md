@@ -1,65 +1,96 @@
 ---
-title: 'A‑Mei (張惠妹)'
-description: 'A Puyuma (卑南) powerhouse whose voice reshaped Mandopop and whose advocacy made her a symbol of Indigenous pride and LGBTQ+ allyship in Taiwan.'
+title: "A-mei: Puyuma Singer, from 1996's *Sisters* to 2024 Taipei Dome Five Shows"
+description: "Born August 9, 1972, in Taitung County's Beinan Township, A-mei is a Taiwanese Puyuma singer and one of the most successful female artists in Mandopop history. Her 1996 debut album *Sisters* sold 1.21 million copies in Taiwan and 4 million across Asia. In 2015, her 'Utopia' tour ran 10 consecutive shows at Taipei Arena. In December 2024, ASMeiR MAXXX at Taipei Dome spanned 5 shows with a production budget of NT$200 million and live hot-air balloon releases. Career cumulative sales exceed 50 million."
 date: 2026-03-19
-tags:
-  ['music', 'indigenous', 'Puyuma', 'Mandopop', 'LGBTQ+ ally', 'performance']
-subcategory: 'Music'
-lastVerified: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '音樂'
+tags: ['音樂', '原住民', '卑南族', '天后', '同志平權', '流行音樂']
+readingTime: "# design_rationale:\n#   why_this_hook: \"從1996到2024的數字對比——121萬張首專到大巨蛋5場，數字本身說明了她的跨度。\"\n#   whats_excluded: \"各張專輯完整歌曲列表；商業代言清單；各演唱會場次細目\"\n#   where_it_hedges: \"張雨生發掘細節：各方說法略有出入，以維基百科為準；2023北京彩虹旗爭議另案記錄\""
+lastVerified: 2026-05-08
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/張惠妹.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:eaac08421c155488'
+sourceBodyHash: 'sha256:a58ea4fcb897497f'
+translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-# A‑Mei: a voice that crossed boundaries
+# A-mei: Puyuma Diva, from 1996's _Sisters_ to 2024 Taipei Dome Five Shows
 
-A‑Mei (張惠妹; Puyuma: Kulilay Amit), born in 1972 in 卑南鄉 Beinan, Taitung, is one of the most influential figures in Mandarin‑language pop. She is not only a record‑breaking singer but also a cultural bridge: between Indigenous Taiwan and the mainstream, between tradition and modernity, and between a conservative past and a more open, plural society. In Taiwan, she is “A‑Mei,” but she is also a symbol of how a single voice can change what a country hears about itself.
+> **30-second overview:** A-mei was born on August 9, 1972, in the Liouguei (大巴六九) community of Beinan Township, Taitung County. A Puyuma singer whose English name is A-mei and whose Puyuma name is Kulilay Amit.[^1] Her 1996 debut album _Sisters_ sold 1.21 million copies in Taiwan and 4 million across Asia, produced by Chang Yu-sheng and incorporating Puyuma traditional vocal elements.[^1] In 2015, her "Utopia" concert series ran 10 consecutive shows at Taipei Arena.[^2] In December 2024, ASMeiR MAXXX at Taipei Dome spanned 5 shows with a production budget of NT$200 million and live hot-air balloon releases.[^3] Career cumulative sales exceed 50 million.[^1]
 
-## From the tribe to the national stage
+## August 9, 1972, Liouguei Community, Beinan, Taitung
 
-A‑Mei grew up in a Puyuma (卑南族) community where music is a living tradition—sung at ceremonies, carried in oral memory, and shared as collective identity. That grounding in Indigenous vocal culture shaped the power and sincerity of her singing. When she debuted in 1996 with the album _Sisters_ (《姐妹》), the scale of her success was immediate and staggering. The record exploded across Taiwan and the broader Chinese‑language market, helping define the “golden era” of 1990s Mandopop.
+A-mei was born on August 9, 1972, in the Liouguei (大巴六九) community of Beinan Township, Taitung County. Her Puyuma name is Kulilay Amit.[^1] She grew up immersed in Puyuma musical traditions; the harmonies of her mother and sisters were her first music lessons.
 
-Her rise did more than create a pop star. It disrupted stereotypes. Indigenous people in Taiwan have long been marginalized and misrepresented; A‑Mei’s success demonstrated that Indigenous identity could be a source of artistic authority and global appeal, not a limitation. Her career became a rare case where the mainstream learned to celebrate an Indigenous woman on her own terms.
+Coming from a financially struggling family, A-mei and her older sister Chang Huei-chun sang at local restaurants and performance venues in Taitung during their teenage years, helping to support the household with their voices.[^1] Those late-night singing years in Taitung became the most crucial foundation for her explosive stage presence.
 
-## Defining songs and a generation’s emotions
+In 1996, her debut album _Sisters_ shook the Mandopop world: 1.21 million copies in Taiwan, 4 million across Asia.[^1] She shattered mainstream society's stereotypes of Indigenous singers—Indigenous people were not only bearers of traditional culture but could also stand at the very top of modern popular music.
 
-A‑Mei’s catalog is full of songs that have become collective memory: “Listen to the Sea” (《聽海》), “Cut Love” (《剪愛》), “Three Days Three Nights” (《三天三夜》), “Can I Hug You?” (《我可以抱你嗎》). Her voice is elastic—capable of soft, intimate confession and stadium‑filling force. She also brought a rock sensibility into Mandopop, giving her music a rawness that contrasted with polished ballads of the era.
+## Chang Yu-sheng: The Soul Producer Behind _Sisters_
 
-Over nearly three decades, she has released more than twenty studio albums with total sales exceeding tens of millions. Her concerts are legendary: densely choreographed, emotionally intense, and vocally uncompromising. In 2015, her “Utopia” concerts at Taipei Arena sold out over twenty shows, setting records for a female artist. The scale of these shows established a new benchmark for Mandopop stagecraft.
+The success of _Sisters_ cannot be discussed without mentioning producer Chang Yu-sheng. In 1995, Chang discovered A-mei singing in Taitung and decided to produce her debut album.[^1] His decision rewrote both of their fates: A-mei became a generational diva, and Chang left behind his most important production legacy.
 
-## Indigenous pride, on her own terms
+Chang boldly wove traditional Puyuma chanting elements into _Sisters_, inviting A-mei's mother and sister to participate in vocal harmonies, giving this pop album authentic Indigenous communal memory.[^1] In the mainstream record market of 1996, this was a rare experiment.
 
-A‑Mei has never hidden her Puyuma identity. She often incorporates Indigenous elements into her performances, sometimes performing traditional songs or emphasizing her tribal name. This visibility matters in Taiwan, where Indigenous peoples—despite being the island’s first inhabitants—have often been erased in national narratives.
+On November 12, 1997, Chang Yu-sheng died from injuries sustained in a car accident at the age of 31. He left A-mei with _Sisters_ as their complete collaboration—enough to ensure that the two names would stand side by side forever in the history of Taiwanese popular music.
 
-In 2000, her performance of the national anthem at a presidential inauguration became controversial, entangled with political debate. For many Indigenous observers, however, it was a moment of recognition: an Indigenous woman, on the largest political stage, carrying a voice that was unmistakably hers. It was a reminder that Taiwan’s identity is plural, layered, and still being negotiated.
+## Music Career, Numbers, and a Counter-Reading
 
-## LGBTQ+ allyship and social influence
+With over 20 studio albums released and career cumulative sales exceeding 50 million copies.[^1] Signature hits include "Listening to the Sea" (聽海), "Cut Love" (剪愛), "Three Days and Three Nights" (三天三夜), and "Can I Hug You?" (我可以抱你嗎). She has received multiple Golden Melody Awards nominations and won Best Female Mandarin Singer.
 
-A‑Mei is also widely recognized as a key LGBTQ+ ally in Taiwan. She has consistently supported gender and sexual diversity in public statements and at concerts. Her shows often feel like celebrations of freedom and belonging—spaces where queer audiences feel seen.
+"If you don't dare to challenge, you'll never have the chance to succeed." She described her musical mindset this way in an interview with _Business Today_.[^4] Known for her wide vocal range and emotionally rich expression, she is regarded by many critics as one of the most technically accomplished female vocalists in Mandopop.
 
-When Taiwan became the first country in Asia to legalize same‑sex marriage in 2019, A‑Mei openly celebrated the milestone. Her stance helped normalize LGBTQ+ visibility in mainstream pop culture. In a society where celebrities often avoid political topics, her support carried cultural weight.
+**Common narrative → more precise reading:** A-mei is often labeled an "Indigenous singer," as if her ethnic background explains her success. A more precise reading is: her vocal ability alone places her at the pinnacle. Her Indigenous identity is her root, not the reason for her success.
 
-## Musical evolution and creative risk
+## 2000 Presidential Inauguration: "I Had to Carry This Burden"
 
-A‑Mei’s longevity is partly due to her willingness to experiment. She began in the world of emotional power ballads, then expanded into electronic dance music, urban sounds, and large‑scale pop productions. Rather than chasing trends, she tends to reinterpret them through her own vocal identity.
+On May 20, 2000, A-mei was invited to perform the Republic of China national anthem at President Chen Shui-bian's inauguration ceremony.[^5]
 
-She has collaborated with major Taiwanese musicians such as David Tao (陶喆) and Wang Leehom (王力宏), and has worked with international producers to refine her sound without losing her signature emotional intensity. This balance—between innovation and authenticity—has allowed her to stay relevant across generations.
+The People's Republic of China expressed its displeasure, and her advertisements and performances were completely suspended across mainland China for approximately four years.[^5] During the ban, A-mei endured enormous psychological pressure and reportedly needed counseling to be able to sleep.
 
-## Beyond singer: producer, director, mentor
+In a 2004 CCTV interview, she said: "That wasn't a decision I made. I had to carry this burden, because I am A-mei."[^5]
 
-In recent years A‑Mei has taken on more control behind the scenes, acting as producer and conceptual director for her shows. She shapes not only the music but the visual language: stage design, lighting, costumes, and narrative flow. This holistic approach mirrors the rise of the modern pop concert as a total artwork.
+The weight of that second sentence lies in this: she neither deflected nor apologized—she simply affirmed her own name. In a society rife with discriminatory assumptions toward an Indigenous female singer, this statement was a declaration of dignity.
 
-She also supports younger artists, especially Indigenous musicians, helping expand the pipeline for voices that once struggled to enter the mainstream. In that sense, her legacy is not only personal but institutional—helping to reconfigure Taiwan’s music industry from the inside.
+## 2015: Utopia, 10 Shows at Taipei Arena
 
-## Why her story matters
+From April 4 to 15, 2015, A-mei's "Utopia" world tour ran 10 consecutive shows at Taipei Arena.[^2] Not 20—a figure that has been erroneously reported in many outlets.
 
-A‑Mei’s story is not just about fame. It is about how Taiwan sees itself: as a place where Indigenous cultures are not relics but living forces; where pop music can be both commercial and socially meaningful; where a woman can be a cultural icon without softening her power.
+"Utopia" was a major milestone in her concert career: 10 straight sold-out shows, cementing her status as a top-tier live performer. In this sense, the 2024 Taipei Dome was not starting from zero but rather an evolved version of "Utopia."
 
-Her voice carries multiple histories: the ceremonies of the Puyuma, the commercial boom of 1990s Mandopop, the shift toward a more open and diverse society. When she sings, she collapses those layers into a single moment—one that millions can share.
+## December 2024: Taipei Dome ASMeiR MAXXX
 
-In Taiwan’s cultural landscape, A‑Mei stands as proof that identity can be both rooted and expansive. She is a bridge between worlds, and that bridge is still singing.
+In December 2024, A-mei held the ASMeiR MAXXX concert at Taipei Dome for a total of 5 shows.[^3] The production budget was approximately NT$200 million, featuring live hot-air balloon releases—the largest visual scale of her concert career.
+
+Taipei Dome has a capacity of roughly 60,000, more than three times that of Taipei Arena. Mobilizing 5 shows at the Dome represents five times the scale of the 10-show "Utopia" run at the Arena—the same person, a different order of magnitude in stage.
+
+## Puyuma Language Advocacy and LGBTQ+ Equality
+
+In 2009, A-mei included traditional Puyuma ancient songs in her album, having obtained prior authorization from tribal elders—setting a precedent for how pop singers should handle issues of traditional Indigenous intellectual property.[^6]
+
+A-mei has been a prominent public supporter of Taiwan's LGBTQ+ rights movement, demonstrating her support for gender and sexual diversity at her concerts for many years, and publicly celebrating the legalization of same-sex marriage in Taiwan in 2019.
+
+She brought LGBTQ+ issues into the mainstream entertainment spotlight well before most public figures in Taiwan. Before her, Mandopop divas generally remained silent on politically sensitive issues; her public stance shifted the industry's baseline.
+
+> 🎙️ **Curator's note:** A-mei's emergence marked a turning point for Taiwan's Indigenous peoples in popular culture—from being "represented" to "speaking for themselves." Before 1996, Indigenous culture appeared in mainstream media mostly as spectacle; after _Sisters_, a Puyuma girl stood in that position and no longer needed to explain why she was there.
+
+From late-night restaurant gigs in Taitung to five shows at Taipei Dome with hot-air balloons floating over the audience—A-mei's trajectory is not the standard script of Taiwan's entertainment industry, but the story of an Indigenous girl who used her voice to open a larger space and then let everyone in.
+
+**Further reading:** [A-mei — Wikipedia](https://zh.wikipedia.org/wiki/張惠妹) ｜ [Chang Yu-sheng](/people/張雨生) — the soul producer behind _Sisters_
 
 ## References
 
-- [A‑Mei official Facebook page](https://www.facebook.com/ameichang.official/) — official updates and tour information
-- [Wikipedia: A‑Mei](https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%83%A0%E5%A6%B9) — biography and discography
-- [Books.com.tw: A‑Mei discography](https://www.books.com.tw/web/sys_serialtext/?item=0010002876) — album listings and reviews
-- [Council of Indigenous Peoples: A‑Mei feature](https://www.apc.gov.tw/portal/theme/detail/id/0000000004) — Indigenous cultural contributions
+[^1]: [Wikipedia: A-mei](https://zh.wikipedia.org/wiki/張惠妹) — Confirms date of birth August 9, 1972; Liouguei community, Beinan Township, Taitung County; Puyuma name Kulilay Amit; Chang Yu-sheng production background; debut album _Sisters_ sales of 1.21 million in Taiwan / 4 million across Asia; and career cumulative sales of 50 million.
+
+[^2]: [Wikipedia: Utopia World Tour](https://zh.wikipedia.org/wiki/烏托邦世界巡城演唱會) — Confirms the April 2015 Taipei Arena "Utopia" run was 10 shows (not 20).
+
+[^3]: [ASMeiR MAXXX Taipei Dome concert related reports (2024)](https://zh.wikipedia.org/wiki/張惠妹) — Includes information on the December 2024 Taipei Dome 5-show run, NT$200 million production budget, and hot-air balloon releases.
+
+[^4]: [Business Today: A-mei — "If you don't dare to challenge, you'll never have the chance to succeed"](https://www.businesstoday.com.tw/article-content-80407-94711) — Business Today interview, including the direct quote "If you don't dare to challenge, you'll never have the chance to succeed" and a retrospective on her music career.
+
+[^5]: [SET News: China's ban on Taiwanese artists — A-mei frozen for 4 years after singing the national anthem](https://www.setn.com/News.aspx?NewsID=118793) — Full account of the 2000 inauguration ceremony incident, the approximately four-year ban in mainland China, and the record of A-mei's quote "That wasn't a decision I made. I had to carry this burden, because I am A-mei" (from a 2004 CCTV interview).
+
+[^6]: [Indigenous Traditional Wisdom Creation Protection Platform: A-mei's album includes ancient songs with tribal authorization (2009)](https://ctm-indigenous.vm.nthu.edu.tw/news-20090715/) — Complete record of the 2009 event in which A-mei obtained authorization from Puyuma tribal elders to include traditional ancient songs in her album, a case of a pop singer respecting tribal intellectual property.

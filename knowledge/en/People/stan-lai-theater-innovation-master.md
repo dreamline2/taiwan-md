@@ -1,7 +1,10 @@
 ---
-title: 'Stan Lai: Master of Theater Innovation'
-description: 'Founder of Performance Workshop, creator of Secret Love in Peach Blossom Land, godfather of Chinese-language theater'
-date: 2026-03-20
+title: 'Stan Lai: The Cross-Strait Theater Bridge-Builder Behind Performance Workshop and the Wuzhen Theatre Festival'
+description: 'Stan Lai was born on 1954/10/25 in Washington, D.C.; his father Lai Chia-chiu was a diplomat. He earned a PhD in Dramatic Art from UC Berkeley in 1983. In 1984, he co-founded Performance Workshop with his wife Ding Nai-chu, Lee Li-chun, Lee Kuo-hsiu, and others. Secret Love in Peach Blossom Land premiered in 1986, and its 1992 film adaptation starred Brigitte Lin. In 2007, he received the 11th National Award for Arts, an honor he has received twice. In 2013/5, he co-founded the Wuzhen Theatre Festival with Chen Xianghong, Huang Lei, and Meng Jinghui; it is one of the most influential Chinese-language theater festivals across Taiwan and China. Theatre Above opened in Shanghai in 2015. The BBC has praised him as “the best Chinese-language playwright and director in the world.”'
+date: 2026-03-19
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '藝術與設計'
 tags:
   [
     'Stan Lai',
@@ -9,114 +12,109 @@ tags:
     'Performance Workshop',
     'Secret Love in Peach Blossom Land',
     'theater director',
+    'Wuzhen Theatre Festival',
   ]
-subcategory: 'Arts & Design'
-lastVerified: 2026-03-20
+lastVerified: 2026-05-13
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/賴聲川.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:171a521ab055d1cf'
+sourceBodyHash: 'sha256:eb36a190f4b7ada8'
+translatedAt: '2026-05-16T05:07:54+08:00'
 ---
 
-# Stan Lai: Master of Chinese-Language Theater Innovation
+# Stan Lai: The Cross-Strait Theater Bridge-Builder Behind Performance Workshop and the Wuzhen Theatre Festival
 
-Stan Lai (賴聲川) is the most influential director, playwright, and theater theorist in the Chinese-language theater world, hailed as the "Godfather of Chinese-Language Theater." In 1984, he founded Performance Workshop, and in 1986, created the classic production "Secret Love in Peach Blossom Land," ushering in a new era for modern Chinese-language theater. His works blend Eastern and Western theatrical aesthetics, establishing a unique "collective improvisation creation method" that has nurtured countless theater talents and serves as a crucial driving force in Taiwan's theater modernization.
+> **30-Second Overview:** Stan Lai was born on October 25, 1954, in Washington, D.C. His father, **Lai Chia-chiu**, was a Republic of China diplomat stationed in the United States. In 1983, he received a PhD in Dramatic Art from UC Berkeley. In 1984, he co-founded Performance Workshop with his wife Ding Nai-chu, Lee Li-chun, Lee Kuo-hsiu, and others. Secret Love in Peach Blossom Land premiered in 1986, and **its 1992 film adaptation starred Brigitte Lin**. In 2007, he received the **11th National Award for Arts** (an honor he has received twice). **In May 2013, he co-founded the Wuzhen Theatre Festival with Chen Xianghong, Huang Lei, and Meng Jinghui** and served as its artistic director. Theatre Above opened in Shanghai in 2015. The BBC has praised him as “the best Chinese-language playwright and director in the world.”[^1]
 
-## Cross-Cultural Upbringing
+## A Cross-Cultural Upbringing
 
-Stan Lai was born on July 20, 1954, in Washington, D.C., to a diplomatic family. His father, Lai Pei-lin, was a diplomat, and his mother came from a scholarly household. Due to his father's work, Lai lived in the United States, Germany, and other countries during his childhood, gaining rich cross-cultural experiences.
+Stan Lai was born on October 25, 1954, in Washington, D.C. His father, **Lai Chia-chiu**, was a Republic of China diplomat stationed in the United States. Because of his father’s work, Lai lived with his family in the United States, Germany, and other places from an early age, giving him extensive cross-cultural experience.[^1]
 
-In 1970, he returned to Taiwan to study English Literature at Fu Jen Catholic University, marking his formal engagement with Taiwanese culture. During university, he developed an interest in drama, participating in campus theater groups and experiencing the magic of stage performance for the first time. After graduating in 1976, he went to the University of California, Berkeley, to pursue a doctoral degree in Dramatic Arts.
+In the 1970s, he returned to Taiwan to study in the Department of English at Fu Jen Catholic University, marking his formal encounter with Taiwanese culture. During university, he developed an interest in theater and took part in campus drama clubs. After graduation, he went to the United States to pursue a doctoral degree in Dramatic Art at the University of California, Berkeley, **receiving his PhD in 1983**.
 
-At Berkeley, Lai received comprehensive Western theater training, studying classic playwrights like Shakespeare and Brecht in depth, while developing interests in experimental theater and improvisational performance. This educational experience laid a solid foundation for his future creative work.
+During his time at Berkeley, Lai systematically studied classic playwrights such as Shakespeare and Brecht, while also becoming interested in experimental theater and improvisational performance. This period of study established the cross-Eastern-and-Western theatrical outlook that would later define his work.
 
-## Academic Theater Enlightenment
+## Academic Theater Formation
 
-In 1979, Lai returned to Taiwan and began teaching at the National Institute of the Arts (now Taipei National University of the Arts) Drama Department. As a founding faculty member of Taiwan's first professional arts university, he participated in establishing Taiwan's modern drama education system.
+After completing his studies, Lai returned to Taiwan in 1983 and taught in the Department of Theatre at the National Institute of the Arts, now Taipei National University of the Arts. As a founding faculty member of Taiwan’s first professional arts university, he helped build Taiwan’s modern theater education system.[^2]
 
-During his time at the Institute of the Arts, Lai began combining Western theater theory with Asian cultural traditions, exploring dramatic forms suitable for Chinese cultural contexts. He particularly focused on actor training methods, developing performance techniques that integrated the Stanislavski system with Eastern body aesthetics.
+During his time at the arts institute, Lai began combining Western theater theory with Asian cultural traditions, exploring theatrical forms suited to a Chinese-language cultural context. He paid particular attention to actor training methods, developing performance techniques that fused the Stanislavski system with Eastern bodily aesthetics.
 
-In the early 1980s, Lai directed several experimental productions, including "The Lotus Pearl's New Match" and "That Night, We Performed Crosstalk." These works attempted to integrate traditional opera elements into modern theater, demonstrating his deep contemplation of indigenous culture.
+In the early 1980s, Lai directed a number of experimental works, including Hezhu’s New Match and The Night We Became Hsiang-Sheng Comedians, attempting to incorporate elements of traditional opera into modern theater and demonstrating his deep reflection on local culture.
 
-## Founding of Performance Workshop
+## The Founding of Performance Workshop
 
-In 1984, Lai co-founded "Performance Workshop" with Li Li-chun, Li Kuo-hsiu, Jin Shi-jie, and others, making it Taiwan's first modern experimental theater company. The founding goal was to develop Chinese-language modern theater and cultivate professional theater talent.
+In 1984, Lai co-founded “Performance Workshop” with his wife **Ding Nai-chu**, Lee Li-chun, Lee Kuo-hsiu, and others. It was Taiwan’s first modern experimental theater troupe, founded with the aim of developing modern Chinese-language theater and training professional theater practitioners. (Chin Shih-chieh was an important early actor and collaborator with the troupe, but he was not a founding member.)[^3]
 
-Performance Workshop adopted a collective creation model, differing from traditional theater's hierarchical division of labor, with all members participating in the creative process. This working method later evolved into Lai's unique "collective improvisation creation method," becoming an important innovation in Chinese-language theater.
+Performance Workshop adopted a collective creation model. Unlike the hierarchical division of labor in traditional theater, all members participated in the creative process. This working method later developed into Lai’s distinctive “collective improvisation” method, opening a new path for Chinese-language theater.
 
-Early company works included "That Night, We Performed Crosstalk" and "Tonight, Who Will Perform Crosstalk," combining traditional crosstalk art with modern theater to create entirely new performance forms. These productions received enthusiastic audience response, establishing the company's position in Taiwan's theater scene.
+The troupe’s early works included The Night We Became Hsiang-Sheng Comedians and Look Who’s Cross-Talking Tonight, which combined the traditional art of xiangsheng, or comic crosstalk, with modern theater to create a new performance form. They received an enthusiastic audience response and established the troupe’s position in Taiwan theater.
 
-## Classic Masterpiece: Secret Love in Peach Blossom Land
+## A Classic Work: Secret Love in Peach Blossom Land
 
-"Secret Love in Peach Blossom Land" premiered in 1986, becoming a classic in Chinese-language theater history. The script uses a "play-within-a-play" structure, developing the chaotic situation of two unrelated theater groups rehearsing on the same stage into profound philosophical contemplation of life.
+In 1986, Secret Love in Peach Blossom Land premiered and became a classic in the history of Chinese-language theater. The play uses a “play within a play” structure, developing the chaotic situation of two unrelated theater troupes rehearsing on the same stage into a profound philosophical meditation on life.[^4]
 
-"Secret Love" tells the tragic love story of a couple separated by war, while "Peach Blossom Land" adapts Tao Yuanming's "The Peach Blossom Spring," presenting the conflict between ideals and reality. The two plays intersect, creating dramatic effects that contrast ancient and modern times while blending tragedy and comedy.
+Secret Love tells the tragic romance of two lovers separated by war, while Peach Blossom Land adapts Tao Yuanming’s The Peach Blossom Spring, presenting the conflict between the ideal and reality. The two plays proceed in alternation, producing a theatrical effect that juxtaposes ancient and modern, tragedy and comedy.
 
-This work's success lies in its profound cultural content and innovative performance form. Lai skillfully integrates Chinese classical literature, modern urban life, and historical memory, creating theatrical work with universal significance.
+The work has been performed more than a thousand times to date, including multiple revivals in 1991, 1999, 2006, 2016, 2022, and 2026. Its reach spans Taiwan, Hong Kong, China, and overseas Chinese communities, and it has been praised as “the representative work of Chinese-language theater.” **In 1992, it was adapted into a film starring Brigitte Lin**, directed by Lai himself. The film version won the Young Cinema Competition Silver Sakura Award at the Tokyo International Film Festival and received multiple nominations at the 29th Golden Horse Awards.
 
-The play has been performed over a thousand times across Taiwan, mainland China, Hong Kong, and overseas Chinese communities, earning recognition as "the representative work of Chinese-language theater." In 2005, it was adapted into a film directed by Lai himself.
+## Collective Improvisation
 
-## Collective Improvisation Creation Method
+Lai’s “collective improvisation” method is his most original theoretical contribution. This methodology emphasizes openness and collectivity in the creative process, breaking down the fixed division of labor among playwright, director, and actors in traditional theater.
 
-Lai's development of the "collective improvisation creation method" represents his most important theoretical contribution. This methodology emphasizes openness and collectivity in the creative process, breaking down traditional theater's fixed divisions between playwright, director, and actors.
+The creative process usually begins with actors’ improvisations. Through repeated rehearsals and discussions, a complete script gradually develops. The director’s role is more like that of a “catalyst,” guiding actors to discover their inner creative potential.
 
-The creative process typically begins with actors' improvisational performance, gradually developing into complete scripts through continuous rehearsals and discussions. The director's role is more like a "catalyst," guiding actors to discover their inner creative potential.
+The philosophical basis of this methodology comes from Eastern Daoist thought, emphasizing alignment with nature and governance through non-action. Lai believes the best creative work often comes from the subconscious, rather than deliberate rational design. Chin Shih-chieh, Lee Kuo-hsiu, Ding Nai-chu, and others all benefited from it, later leaving indelible marks of their own on Taiwan theater.
 
-The philosophical foundation of this methodology comes from Eastern Taoist thought, emphasizing following nature and non-action governance. Lai believes the best creations often come from the subconscious rather than deliberate rational design.
+## The Creative Peak of the 1990s
 
-Many renowned actors and directors have benefited from this method, including Jin Shi-jie, Li Kuo-hsiu, and Ding Nai-chu, who later became important figures in Taiwan's theater scene.
+The 1990s were Lai’s golden creative period. He released works including Me, We, Him and Them (1991), Thirteen Connections (1999), and Millennium Teahouse, which premiered on 2000/12/31, exploring identity, historical trauma, and contemporary social issues.[^5]
 
-## Creative Peak of the 1990s
+During the same period, Lai also began international collaborations, engaging in cultural exchange with theater companies in the United States and Europe and promoting the international influence of Chinese-language theater. His works were staged in international arts centers including New York, London, and Paris, earning recognition from Western audiences.
 
-The 1990s marked Lai's golden creative period, with numerous important works. "I and I and He and He" (1991) explored modern identity crises, while "Red Sky" (1994) reflected on the Cultural Revolution's trauma to Chinese intellectuals.
+## Cultural China and Zen Thought
 
-"Millennium Night, We Performed Crosstalk" (1999) elevated crosstalk to new heights, incorporating numerous contemporary social issues and philosophical contemplations. This work marked Performance Workshop's successful transformation from experimental to commercial theater company.
+Lai’s works are deeply influenced by traditional Chinese culture, especially Zen thought. In his plays, he often explores philosophical propositions such as “reality and illusion” and “being and nothingness,” embodying the wisdom of Chan Buddhism.
 
-During this period, Lai also began international collaborations, engaging in cultural exchanges with American and European theater companies and promoting Chinese-language theater's international influence. His works performed in New York, London, Paris, and other international art centers, earning recognition from Western audiences.
+A Dream Like a Dream (2000) is his most representative Zen-inflected theatrical work. It uses a circular stage and an eight-hour performance to fully immerse the audience in theatrical time and space, exploring Buddhist ideas such as the cycle of life and death and karmic encounter. Lai believes theater has a spiritual function: it is a place of practice where audiences confront themselves. This idea gives his works their distinctive power.
 
-## Cultural China and Zen Philosophy
+## A Cultural Bridge Across Taiwan, Hong Kong, and China
 
-Lai's works are deeply influenced by traditional Chinese culture, particularly Zen philosophy. He frequently explores philosophical themes like "reality and illusion" and "existence and nothingness" in his plays, embodying Zen wisdom.
+As a representative figure in Chinese-language theater, Lai has made substantial contributions to cultural exchange among Taiwan, Hong Kong, and China. Beginning in the 1990s, his works were staged in China one after another, allowing audiences on both sides of the Taiwan Strait to find a shared theatrical language.
 
-"A Dream Like a Dream" (2000) is his most representative Zen theatrical work, using a circular stage and eight-hour performance to completely immerse audiences in theatrical space and time. The play explores Buddhist concepts like reincarnation and karmic connections, demonstrating his deep contemplation of life's meaning.
+In 2008, he created The Village, using military dependents’ village culture as its backdrop and presenting a historical memory distinctive to Taiwan. The work succeeded on both sides of the Taiwan Strait and prompted audiences to reflect on shared history. He also opened workshops in Beijing, Shanghai, and other places, teaching his collective improvisation method and advancing the development of modern theater in China.[^6]
 
-Lai believes theater should have spiritual functions, serving not merely as entertainment or art but as a dojo for audience self-reflection. This philosophy gives his works unique infectious power and inspirational quality.
+## 2013 Wuzhen Theatre Festival: A New Cross-Strait Theater Platform
 
-## Cultural Bridge Across the Taiwan Strait
+**In May 2013, Lai, Chen Xianghong, Huang Lei, and Meng Jinghui jointly initiated and founded the “Wuzhen Theatre Festival,”** with Lai serving as artistic director. Held in Wuzhen, Zhejiang Province, China, the Wuzhen Theatre Festival is one of the most influential Chinese-language theater festivals across Taiwan and China, attracting companies from Taiwan, Hong Kong, China, and the international theater world each year. In 2015, Lai opened **Theatre Above** in Shanghai, his theatrical base in mainland China.
 
-As a representative figure in Chinese-language theater, Lai has made significant contributions to promoting cultural exchange across Taiwan, mainland China, and Hong Kong. Beginning in the 1990s, his works were successively performed on the mainland, becoming important media for cross-strait cultural exchange.
+Lai’s daughter, **Lai Fan-yun**, is also active in the theater world and has worked with her father to advance the next generation of Performance Workshop.
 
-In 2008, he created "Village of Formosa," using military dependents' village culture as background to present Taiwan's unique historical memory. This work achieved tremendous success across the strait, inspiring audiences to think about and discuss shared history.
+## Later Work and Awards
 
-Lai also actively cultivates mainland theater talent, conducting workshops in Beijing, Shanghai, and other cities, teaching collective improvisation creation methods. Many mainland directors and actors have been influenced by him, promoting modern theater development on the mainland.
+In recent years, Lai’s creative work has focused more closely on cultural identity and historical memory, reflecting on modern people’s values and exploring fundamental questions such as “Who are we?” and “Where do we come from?”
 
-## Innovation Experiments in the New Media Era
-
-Entering the 21st century, Lai began experimenting with new media technology applications in theater. "A Dream Like a Dream" used multimedia projection, while "Book in the Water" combined musical theater forms, demonstrating his continuous exploration of theatrical art boundaries.
-
-Beginning in the 2010s, he ventured into musical theater creation, producing works like "Jimmy's Underground Railway" and "Serenade." He combined his theatrical philosophy with popular music, pioneering new fields in Chinese-language musical theater.
-
-In recent years, Lai has also focused on digital theater development, contemplating theater art's survival in the internet age. During the pandemic, he launched online theater projects, exploring possibilities for virtual performances.
-
-## Educational Philosophy and Talent Development
-
-As an educator, Lai has always insisted on "learning by doing" educational philosophy. He believes theatrical skills cannot be learned solely from books but must be mastered through actual performance and creative processes.
-
-During his teaching at Taipei National University of the Arts, he cultivated countless theater talents, including director Wei Ying-chuan, playwright Shi Ru-fang, and actress Ni Shu-jun. These students later became backbone forces in Taiwan's theater scene.
-
-Lai also emphasizes cultivating international perspectives, encouraging students to participate in international exchange programs. He believes Chinese-language theater must possess cross-cultural understanding abilities and expression skills to reach the world.
-
-## Later Works and Cultural Reflection
-
-In recent years, Lai's creations have increasingly focused on cultural identity and historical memory. "Triangular Relations of Thirteen" (2014) explored Taiwan society's complex emotions, while "Grand Hotel" (2017) reflected on modern people's values.
-
-He has begun thinking more about Chinese culture's position and role in the globalization era, attempting to answer fundamental questions like "Who are we?" and "Where do we come from?" in his works.
-
-In 2019, he received the National Award for Arts, recognizing his outstanding contributions to Taiwan's theater development. This award represents the highest recognition of his forty-year theatrical career.
-
-Lai once said: "Theater is a mirror reflecting the spiritual features of an era." His works have indeed become important testimony to Chinese culture, recording Taiwan society's cultural transformation from martial law to democratization, from localization to globalization.
-
-As a pioneer and promoter of Chinese-language theater, Lai has not only created countless classic theatrical works but, more importantly, established a complete theatrical aesthetic system. His influence extends far beyond the theater world, becoming an important symbol for the entire Chinese cultural sphere.
+**Lai has twice received the National Award for Arts; the first time was the 11th award in 2007**, recognizing his outstanding contributions over a 40-year theater career. He once said: “Theater is a mirror, reflecting the spiritual face of an era.” His works record Taiwan society’s cultural transformation from martial law to the post-martial-law period and also form one of the coordinates of Chinese-language culture as a whole. The BBC has praised him as “the best Chinese-language playwright and director in the world,” while China Daily has called him “Asia’s top playwright-director.”[^7]
 
 ## References
 
-- [Performance Workshop Official Website](http://www.pw-theatre.com/) — Theater history and production materials
-- [Taipei National University of the Arts School of Theatre](https://theatre.tnua.edu.tw/) — Academic background materials
-- [Stan Lai — National Culture and Arts Foundation](https://www.ncafroc.org.tw/) — Award records and reviews
+[^1]: [Stan Lai — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%B3%B4%E8%81%B2%E5%B7%9D) — Complete record of Stan Lai’s life, 1954/10/25 birthday, his father Lai Chia-chiu, UC Berkeley PhD in 1983, and co-founding of the Wuzhen Theatre Festival in 2013. See also [Performance Workshop: Stan Lai](https://www.pwshop.com/about_us/%E8%B3%B4-%E8%81%B2-%E5%B7%9D-stan-lai/).
+
+[^2]: [School of Theatre, Taipei National University of the Arts](https://theatre.tnua.edu.tw/) — Information on the founding history of TNUA and Lai’s teaching background.
+
+[^3]: [Performance Workshop Official Website](http://www.pw-theatre.com/) — Troupe history, founding process, and chronology of works.
+
+[^4]: [Introduction to Secret Love in Peach Blossom Land — Performance Workshop](http://www.pw-theatre.com/) — Explanation of premiere year, number of performances, and script structure.
+
+[^5]: [Golden Melody Awards/Ministry of Culture — Taiwan Performing Arts Database](https://pacsnet.org.tw/) — Development of Taiwan theater in the 1990s and chronology of Lai’s works.
+
+[^6]: [The Village — Performance Workshop](http://www.pw-theatre.com/) — Production background and record of performances across Taiwan and China.
+
+[^7]: [Stan Lai National Award for Arts Winner Profile — National Culture and Arts Foundation](https://www.ncafroc.org.tw/artsaward/winnerDetail@1227) — Complete information on Lai’s National Award for Arts. See also [Taiwan Panorama: A Dream Like a Dream: Stan Lai’s Life in Theater](https://www.taiwan-panorama.com/Articles/Details?Guid=548c4da9-08ca-4411-a223-fb3de0247a66), a report on the 11th award.
+
+## Further Reading
+
+- [Performance Workshop](http://www.pw-theatre.com/) — Official website of the theater company founded by Stan Lai, including past works and ticketing information
+- [Secret Love in Peach Blossom Land](/people/賴聲川) — A classic work of Chinese-language theater

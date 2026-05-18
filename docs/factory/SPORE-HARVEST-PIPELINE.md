@@ -1,8 +1,163 @@
-# SPORE-HARVEST-PIPELINE.md — 孢子回聲收割產線
+---
+title: 'SPORE-HARVEST-PIPELINE'
+description: '孢子回聲收割產線 — D+1-D+7 cadence + decision gate + retroactive accuracy trigger + atomic batch log + v2.2 full-auto routine integration'
+type: 'factory-canonical'
+status: 'canonical'
+current_version: 'v2.2.1'
+last_updated: 2026-05-12
+last_session: '2026-05-12-184800-routine-v2-resync'
+sister_docs:
+  - 'SPORE-PIPELINE.md'
+  - 'SPORE-WRITING.md'
+  - 'SPORE-VERIFY.md'
+  - 'SPORE-LOG.md'
+upstream_canonical:
+  - '../semiont/SENSES.md'
+  - '../semiont/HEARTBEAT.md'
+  - '../semiont/DNA.md'
+---
 
-> **這份文件是 AI 可執行的。** 任何 AI agent 讀完這份文件，應該能獨立完成一次孢子回聲的抓取、分類、整合與回覆準備。
+# SPORE-HARVEST-PIPELINE.md — 孢子回聲收割產線 v2.0
+
+> **第一性原理**：孢子上線不是終點，是反饋迴圈的起點。HARVEST 讓讀者的聲音回到文章本體，文章持續成為「作者 + 讀者」的共寫物。
 >
-> 跟 [SPORE-PIPELINE.md](SPORE-PIPELINE.md) 的分工：**SPORE 管上線（孢子怎麼誕生 + 怎麼發出去）；HARVEST 管收割（孢子發出去後，讀者的回聲怎麼回到文章本體）**。
+> v2.0 設計理由：對齊 [REWRITE-PIPELINE v5.0](../pipelines/REWRITE-PIPELINE.md) + [MAINTAINER-PIPELINE v2.0](../pipelines/MAINTAINER-PIPELINE.md) spine restoration。修補 v1.1 結構問題：(1) 缺 ASCII spine + atomic batch log SSOT；(2) Hard Gate 散在各 section；(3) Top 5 最常忘沒提取。
+
+---
+
+## 🗺️ ASCII spine
+
+```
+╭──────────────────────────────────────────────────────────────────────────╮
+│         SPORE-HARVEST-PIPELINE — 收割流程 D+1-D+7                        │
+│                                                                          │
+│   🧭 核心紀律                                                            │
+│            ├── Atomic batch log SSOT（不拆 multi-commit 跨檔案寫）       │
+│            ├── 自動化下游（generate-dashboard-spores.py / sync-links）   │
+│            ├── 6h decision gate（views < 500 觸發 re-hook）              │
+│            └── Reach × Accuracy（views ≥ 50K 觸發 retroactive audit）    │
+│                                                                          │
+│   📍 SSOT 寫入位置                                                       │
+│            └── docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md    │
+│              （frontmatter: spores plural list / harvest_date /          │
+│               harvest_window_day / batch_reason / triggered_by / count） │
+│                                                                          │
+│   ──── D+1 → D+7 cadence ─────────────────────────────                  │
+│                                                                          │
+│   Step 1: D+1 acute（6h decision gate）                                  │
+│            ├── Chrome MCP harvest views / likes / replies                │
+│            ├── views < 500 → 觸發 re-hook decision                       │
+│            └── views ≥ 500 → 進 Step 2 D+3                               │
+│                                                                          │
+│   Step 2: D+3 trend ──→ 中段觀察                                         │
+│            ├── 互動趨勢（線性成長 / 衰退 / 高鐵型長尾）                  │
+│            └── reach 50K 累積 → Step 4 retroactive audit                 │
+│                                                                          │
+│   Step 3: D+7 finalize ──→ SPORE-LOG 7d 指標回填                         │
+│            └── 7d_views / 7d_likes / 7d_engagement / amplification ratio │
+│                                                                          │
+│   Step 4: Reach × Accuracy trigger ──→ retroactive FACTCHECK             │
+│            └── views ≥ 50K spawn FACTCHECK Quick Mode 驗 3-5 atom        │
+│                                                                          │
+│   Step 5: Atomic batch log commit ──→ HARVESTS/batch-{date}-{N}.md       │
+│            └── 一個 commit 寫一個 batch log，不跨檔案多 commit            │
+│                                                                          │
+│   ✅ Harvest cycle complete → 下游 generator 自動算 dashboard            │
+│                                                                          │
+│   ──── 跨 pipeline boundary ──────────────────────────                  │
+│   → SPORE-PIPELINE.md（觸發點：孢子發布後 24h 起跑本檔）                 │
+│   → FACTCHECK-PIPELINE.md（reach ≥ 50K 觸發 Quick Mode）                │
+│   → DATA-REFRESH-PIPELINE.md（Step 13 sync-spore-links 從本檔 SSOT 重生）│
+╰──────────────────────────────────────────────────────────────────────────╯
+```
+
+---
+
+## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
+
+| Gate                          | 觸發 step    | 條件            | 工具                                    | 不過 = ?                                       |
+| ----------------------------- | ------------ | --------------- | --------------------------------------- | ---------------------------------------------- |
+| Atomic batch log              | Step 5       | 整次 harvest    | manual（不拆 multi-commit）             | split → 從 SPORE-HARVESTS 重新整合             |
+| Frontmatter spores plural     | Step 5       | per batch       | manual（spores 不是 spore）             | schema 不符                                    |
+| harvest_window_day            | Step 5       | per batch       | manual（D+N or `mixed`）                | 失去 cadence 紀錄                              |
+| 不寫 knowledge sporeLinks     | 全程         | 收割期間        | manual（Step 12 sync-spore-links 自動） | 寫了會被 refresh.sh 覆蓋                       |
+| 6h decision gate              | Step 1       | views < 500     | Chrome MCP harvest                      | 觸發 re-hook                                   |
+| Reach × Accuracy trigger      | Step 4       | views ≥ 50K     | manual + FACTCHECK                      | spawn Quick Mode 驗 atom                       |
+| D+7 7d 指標必填               | Step 3       | per spore       | SPORE-LOG.md                            | 空白 = 不准發新孢子（per SPORE-PIPELINE 鐵律） |
+| 下游 generator 跑             | Step 5 後    | refresh-data.sh | `generate-dashboard-spores.py`          | dashboard 不更新                               |
+| sync-spore-links 從 SSOT 重生 | refresh-data | Step 13         | `sync-spore-links.py`                   | knowledge sporeLinks drift                     |
+
+---
+
+## ⚠️ Top 5 最常忘的 step
+
+> 從 SPORE-LOG harvest history + 4/18 δ-late 觀察者觸發誕生事件 + 5/8 Phase 6 atomic batch log refactor 抽 friction 最高的 5 條。
+
+1. **Atomic batch log，不拆 multi-commit** — 一次 harvest 一個 commit，per `batch-{date}-{N}-spores.md` SSOT（5/8 Phase 6 SSOT cleanup）
+2. **不手寫 knowledge/\*.md sporeLinks** — Step 12 sync-spore-links 從 SSOT 重生會覆蓋手寫
+3. **D+7 7d 指標必填到 SPORE-LOG** — 空白 = 鐵律違反（per SPORE-PIPELINE PICK §回填上次成效）
+4. **Reach × Accuracy 50K 觸發 retroactive FACTCHECK** — 不是「等讀者抓錯」，是主動 spawn Quick Mode 驗 3-5 atom
+5. **Frontmatter `spores` 是 plural list** — Phase 1 audit 後強制 schema，不再用 `spore` singular
+
+---
+
+## 跨檔案職責分工
+
+| 檔案                                                              | 範圍                                                                                       |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **本檔**                                                          | post-publish layer — D+1-D+7 cadence + decision gate + accuracy trigger + atomic batch log |
+| [SPORE-PIPELINE.md](SPORE-PIPELINE.md)                            | 5 stage 主流程（觸發點：孢子發布後 24h 起跑本檔）                                          |
+| [SPORE-WRITING.md](SPORE-WRITING.md)                              | craft layer（怎麼寫好）                                                                    |
+| [SPORE-VERIFY.md](SPORE-VERIFY.md)                                | gate layer（17 hard gate + 1 retroactive 觸發點：reach ≥ 50K → 本檔）                      |
+| [SPORE-LOG.md](SPORE-LOG.md)                                      | 發文 + 成效追蹤紀錄表                                                                      |
+| [FACTCHECK-PIPELINE.md](../pipelines/FACTCHECK-PIPELINE.md)       | Quick Mode 被本檔 Step 4 觸發（reach ≥ 50K）                                               |
+| [DATA-REFRESH-PIPELINE.md](../pipelines/DATA-REFRESH-PIPELINE.md) | Step 13 sync-spore-links 從本檔 SSOT 重生                                                  |
+| [SENSES.md](../semiont/SENSES.md)                                 | Chrome MCP 抓取 SOP                                                                        |
+
+---
+
+## 📍 SSOT 寫入位置（2026-05-08 Phase 0-3 後 canonical）
+
+每次 harvest 必須 **atomic 寫到一個 batch log**（不再分多 commit 跨檔案寫）：
+
+```
+docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md
+```
+
+**Frontmatter（canonical schema, Phase 1 audit 後強制）**：
+
+```yaml
+---
+spores: '#47, #48, #49, ...'   # 必 plural list（不再用 spore singular）
+harvest_date: '2026-05-08 21:30'
+harvest_window_day: 'D+7' / 'mixed (D+3 to D+10)'
+batch_reason: '...'
+triggered_by: 'observer / cron / heartbeat'
+reply_count: '47 visible (Threads + X 合計)'
+---
+```
+
+**Body（canonical schema）**：
+
+```markdown
+| #   | Slug | Platform | D+N  | Views  | Likes | Reposts | Comments | Shares | Rate |
+| --- | ---- | -------- | ---- | ------ | ----- | ------- | -------- | ------ | ---- |
+| 47  | ...  | Threads  | D+10 | 12,000 | ...   | ...     | ...      | ...    | ...  |
+```
+
+**自動化下游**（不需要手動觸發）：
+
+- `generate-dashboard-spores.py` 讀 body table 算 dashboard
+- `sync-spore-links.py` 從 SSOT 重生 knowledge/\*.md sporeLinks（refresh-data.sh Step 13）
+- `validate-spore-data.py` 8 項一致性檢查（Step 12）
+
+**不要再做的事**（過去 anti-pattern）：
+
+- ❌ harvest 後手寫 knowledge/\*.md sporeLinks（會被 Step 13 覆蓋）
+- ❌ harvest 拆 multi-commit 跨多檔案寫（atomic batch log = single commit）
+- ⚠️ harvest 後手寫 SPORE-LOG.md 成效追蹤 narrative：仍 OK 但 optional（不再是 primary 寫入點，generator 已能從 batch body 算）
+
+完整重構脈絡：[reports/spore-ssot-pipeline-cleanup-2026-05-08.md](../../reports/spore-ssot-pipeline-cleanup-2026-05-08.md)
 
 ---
 
@@ -46,17 +201,421 @@ Taiwan.md 的進化動力有兩層：
 | **D+30**       | 1 次              | milestone：Step 1+5+7（同 + SPORE-LOG 30d 指標回填） |
 | **D+30 之後**  | 觀察者 ad-hoc     | 只有觀察者手動觸發才跑                               |
 
-### Cron 建議設定（半自動）
+### Routine 整合（v2.2 full-auto，2026-05-12 起 canonical）
 
-```cron
-# 每天 20:00 Asia/Taipei，檢查 SPORE-LOG 最近 7 天有無新孢子，
-# 對每則 spore.harvest_status < D+7 跑本 pipeline
-0 20 * * * cd ~/taiwan-md && python3 scripts/tools/run-spore-harvest.py --window 7d
+> **第一性原理**：cron 觸發 fresh Claude session，走 ROUTINE.md §通用 5-stage main-direct lifecycle，於 Stage 2 完整執行本 pipeline Step 0-7，不需 Python wrapper（Chrome MCP 是 Claude session-level tool，subprocess 不能 invoke）。
+>
+> v2.2 設計理由：v1.0-v2.1 §Cron 建議設定 列 `run-spore-harvest.py --window 7d` 半自動範本但 wrapper 從未實作。v2.2 改為 routine `twmd-spore-harvest-am` 走 5-stage lifecycle 直接 invoke Chrome MCP，cron 觸發即 fully autonomous harvest。
+
+#### 🗺️ Routine 觸發 → Pipeline Step flow
+
 ```
+cron 0 7 * * * Asia/Taipei
+    ↓
+[Stage 0] /twmd-become 完整甦醒（12 認知器官 + 9 鐵律）
+    ↓
+[Stage 1] cd && git checkout main && git pull origin main
+    ↓
+[Stage 2] /twmd-spore-harvest skill — invoke 本 pipeline Step 0-8:
+    ├─ Step 0: 讀 dashboard-spores.json §backfillWarnings 取 OVERDUE 列表
+    │   ↳ 0 條 → no-op commit「today 0 OVERDUE, skip」+ jump Stage 4
+    ├─ Step 1-7: 對每條 OVERDUE 跑既有 7-step pipeline（COLLECT → DUAL WRITE
+    │           → CATEGORIZE → 事實驗證 → 整合 → PERSPECTIVES → 回覆 draft）
+    │           Chrome MCP harvest 走 §Chrome MCP exact harvest workflow (v2.9)
+    │           數字格式 走 §Harvest 數字格式鐵律 (v2.8)
+    │           cadence 範圍 走 §d+0/+1/+7/+30 cadence
+    ├─ Step 7.5: 跑 validate-spore-data.py (per §Validation 必跑 v2.8)
+    └─ Step 8: trigger dashboard regen（v2.2 末段，2026-05-12 dry-run 補）
+                `python3 scripts/tools/generate-dashboard-spores.py`
+                regen `public/api/dashboard-spores.json` 從新 batch log
+                same Stage 3 commit 含 batch log + dashboard-spores.json
+                兩個 file（避免 OVERDUE 在 dashboard 殘留到下次 refresh-am cron）
+    ↓
+[Stage 3] git commit + git push origin main（v2.0 main-direct，不開 PR）
+            commit 同時含：
+            - docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md (atomic)
+            - public/api/dashboard-spores.json (regen derived)
+            - knowledge/{cat}/{slug}.md sporeLinks frontmatter (per Step 1.5 DUAL WRITE)
+    ↓
+[Stage 4] /twmd-finale 收官（memory 必寫 / diary 條件寫）
+```
+
+#### 🚦 Hard Gate Inventory（routine cycle 必過）
+
+| Gate                          | 觸發 Stage   | 條件                                                                      | 工具                                                 | 不過 = ?                                                      |
+| ----------------------------- | ------------ | ------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------- |
+| Chrome MCP 連線可用           | Stage 2 開頭 | `list_connected_browsers` 回 deviceId                                     | Chrome MCP `list_connected_browsers`                 | abort + LESSONS entry                                         |
+| 07:00 槽位 morning chain 對位 | cron 設定    | 接 refresh-am 06:00 之後 1hr / 早 maintainer-am 09:00 2hr                 | ROUTINE.md §每週行程表                               | reschedule + LESSONS entry                                    |
+| backfillWarnings 載入成功     | Step 0       | `dashboard-spores.json` mtime fresh + 結構合法                            | `cat public/api/dashboard-spores.json`               | abort + LESSONS entry                                         |
+| Chrome MCP harvest 至少 1 條  | Step 1       | OVERDUE > 0 時 ≥ 1 成功（非 skipped）                                     | per spore navigate + read_page                       | LESSONS entry（連 2 day 升級）                                |
+| Atomic batch log 寫入         | Step 5       | `SPORE-HARVESTS/batch-{date}-{N}-spores.md` exists                        | manual write per §SSOT 寫入位置                      | abort（per §Top 5 鐵律）                                      |
+| Validation 4 維度 PASS        | Step 7.5     | parser regression / freshness / parseability / consistency                | `validate-spore-data.py`                             | abort + 修補後再 commit                                       |
+| Dashboard regen               | Step 8       | batch log 新增後 dashboard-spores.json 同 cycle regen                     | `python3 scripts/tools/generate-dashboard-spores.py` | OVERDUE 殘留到下次 refresh-am cron（dry-run 揭露 2026-05-12） |
+| main-direct push 鐵律         | Stage 3      | quality_gate PASS 才 push（commit 含 batch log + dashboard JSON 兩 file） | manual `git push origin main`                        | 不 push，留 working tree dirty                                |
+| Finale 收官                   | Stage 4      | memory 必寫 / handoff 三態                                                | `/twmd-finale` skill                                 | 失憶 = 下個 cycle 重複                                        |
+
+#### OVERDUE 範圍計算（Step 0 spec）
+
+| 來源欄位                          | 條件                           | 處置                                                           |
+| --------------------------------- | ------------------------------ | -------------------------------------------------------------- |
+| `status: "OVERDUE"`               | publishedDays > 7 但未 harvest | 全納入本日 batch                                               |
+| `publishedDays ≤ 7` 且 `url` 存在 | 在 D+1-D+7 收割窗口            | 全納入（per §觸發時機 主排程「每天至少 1 次」）                |
+| `publishedDays > 30`              | 超出主排程窗口                 | skip（per §觸發時機「D+30 之後 觀察者 ad-hoc」）               |
+| 同條孢子在當日已 harvest          | 已有今日 batch log entry       | skip（避免 duplicate harvest，trajectory 更新到 SPORE-LOG OK） |
+
+#### Quality gate（routine cycle 判定 pass/fail）
+
+| 結果          | 條件                                                                                        | Commit message                                     |
+| ------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| ✅ pass       | ≥ 1 spore harvest 成功 + batch log + validate-spore-data PASS + dashboard-spores.json regen | `🧬 [routine] twmd-spore-harvest: N spores — DATE` |
+| ✅ no-op pass | backfillWarnings 空 + no Chrome MCP call（無 dashboard regen 需做）                         | `🧬 [routine] twmd-spore-harvest: 0 OVERDUE, skip` |
+| ❌ fail       | Chrome MCP unavailable / all skipped / validate fail / dashboard regen 失敗                 | 不 commit, LESSONS-INBOX entry                     |
+
+#### Escalation（fail 處置 ladder）
+
+| 連續 fail 次數 | 動作                                                           | LESSONS entry verification_count |
+| -------------- | -------------------------------------------------------------- | -------------------------------- |
+| 1              | next day 07:00 retry，silent                                   | +0                               |
+| 2              | LESSONS-INBOX entry「routine fail: spore-harvest-am 連 2 day」 | +1                               |
+| 3              | 暫停 routine（per ROUTINE.md §暫停 SOP）+ telegram alert       | +2 → distill 候選                |
+
+#### Chrome MCP unattended 注意事項
+
+- **Pairing 前置**：哲宇本機 Chrome 安裝 Claude in Chrome extension + browser 開機 + Mac 不睡眠
+- **Pairing 持久化**：`select_browser` deviceId 持久化於 Claude session 設定，session 重啟仍可用，但 connect 需 browser alive
+- **Threads / X 失敗模式**：rate-limit / 402 / login expire → 該條 skip + 寫進 batch log `harvest_status: skipped (reason)`，不 abort 整 routine
+- **AI 自主邊界**：harvest 讀取屬 AI 自主（per [REFLEXES #26 v2](../semiont/DNA.md)），re-hook reply / 留言回覆 必 human post（AI 準備 draft 不發）
+
+#### 跨檔案職責分工（routine 觸發層）
+
+| 檔案                                                         | 範圍                                                                               |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **本 §Routine 整合**                                         | cron 觸發 → 5-stage lifecycle → Step 0-7 invoke SOP                                |
+| [ROUTINE.md §TWMD spore harvest (am)](../semiont/ROUTINE.md) | 薄殼 spec（taskId / cron / skill / canonical pointer / quality_gate / escalation） |
+| §觸發時機（line 190）                                        | 主排程 cadence canonical（D+1-D+7 / D+14 / D+30）                                  |
+| §Chrome MCP exact harvest workflow (v2.9)                    | navigate / scroll / screenshot pattern                                             |
+| §Harvest 數字格式鐵律 (v2.8)                                 | parser-friendly 整數 + 逗號格式                                                    |
+| §Validation 必跑 (v2.8)                                      | 4 維度 validate-spore-data.py                                                      |
+| `~/.claude/scheduled-tasks/twmd-spore-harvest-am/SKILL.md`   | mirror 薄殼（≤ 30 lines per routine-sync-check）                                   |
+| `mcp__scheduled-tasks` live entry                            | cron + jitter + enabled state 真實源                                               |
+
+#### v1.x → v2.2 歷史
+
+| Version  | 期間                     | Mode                                                                 | Status                |
+| -------- | ------------------------ | -------------------------------------------------------------------- | --------------------- |
+| v1.0     | 2026-04-18 ζ             | manual / observer-triggered                                          | superseded            |
+| v1.x     | 2026-04-18 ~ 2026-05-11  | 建議 `run-spore-harvest.py --window 7d` half-auto，wrapper 未實作    | deprecated（v2.2 起） |
+| v2.0     | 2026-05-11 cranky-newton | spine restoration（ASCII + Hard Gate + Top 5）                       | active                |
+| **v2.2** | **2026-05-12 起**        | **full-auto routine `twmd-spore-harvest-am` daily 07:00 Chrome MCP** | **canonical**         |
 
 ### 觀察者手動觸發
 
 任何時候觀察者說「去抓 XX 文章 threads 留言」→ 立刻跑完整 pipeline（本次草東孢子 #33 即為此 pattern 首例）。
+
+---
+
+## 前置：發佈時機 + Decision Gates
+
+> 2026-05-08 從 SPORE-PIPELINE Step 4.5 整段吸收（per Direction A 拆檔，避免 SPORE↔HARVEST 違反 §指標 over 複寫）。
+>
+> 這段是 harvest cadence 的決策層 — 發佈前的 hook tier 自檢 + 發佈後的 d+0/+1/+7/+30 timeline + d+0 6h decision gate + re-hook 救援機制。
+>
+> 對應 [REFLEXES #15 第 9 次驗證](../semiont/DNA.md)：「被允許做」→「被期待做」的躍遷靠 canonical SOP，不靠 memory 自律。Canonical 升級從 case-by-case policy 變成 pipeline 基礎建設的結構性節點。
+
+### Hook tier hierarchy（發佈前自檢，v3.1 升級為 4-tier）
+
+> 2026-04-18 ζ 首次定義 3-tier。**2026-05-08 從 9 spore batch harvest 數據（objective-khorana batch）進化為 4-tier**：實戰證明 Tier 1b 不限「人物」題材（黑冠麻鷺自然議題同樣 65K viral），且原 3-tier 漏掉「中段」「低段」分布。
+
+| Tier | 類型            | 開場特徵                    | D+7 reach 預期  | 案例                                               |
+| ---- | --------------- | --------------------------- | --------------- | -------------------------------------------------- |
+| 1a   | 知名度槓桿      | 已知品牌/人物 + 當下事件    | 100K-180K viral | #29 李洋 180K / #25 安溥 120K / #57 賈永婕         |
+| 1b   | 具體性槓桿      | **具體 anchor + 反差 hook** | 10K-65K         | #45 壞特 65K / #53 黑冠麻鷺 65K / #47 沈伯洋 12.7K |
+| 中段 | 結構性題目      | 政治/制度 + 問題入口        | 2K-17K          | #51 邦交國 17.3K / #41 認知作戰 2.2K               |
+| 低段 | 文化人物 / 冷門 | 抽象 framing + 知名度低     | 0.5K-1.5K       | #43 田馥甄 0.8K / #55 海底電纜 1.3K                |
+
+**v3.1 規則更新**：
+
+- **Tier 1b 不限人物題材**（2026-05-08 黑冠麻鷺證明）：自然 / 物件 / 抽象議題只要有「具體 anchor + 反差 hook」都能 65K viral
+- 「相對冷門人物」→ hook 必須走 Tier 1b（具體性槓桿）
+- 「已知人物」→ Tier 1a 優先
+- **結構性題目（政治/外交/制度/經濟）= 中段 default**：reach 上限 ~17K，但 comments / engagement quality 高（爭議性激活）。要進階提升 → 強化 Hook Blueprint 讀者物件
+- **低段警報**：D+7 < 1K = 系統性 underperformance pattern，下次選同類題材前考慮：
+  - 是不是 Tier 3 意境型（已 deprecated，不該用）？
+  - 是不是缺 hook 具體性？
+  - 還是題材本身 niche audience（接受 reach 但確保 engagement rate ≥ 10%）？
+- **Tier 3 意境型已 deprecated**（不在表內）：原寫「2009 年一個鋼琴手⋯⋯」這類時空 framing 先行，主角延後 → d+0 6h < 500，永遠不該用
+
+對應 [MANIFESTO §我怎麼說話](../semiont/MANIFESTO.md#我怎麼說話)「開場要有一個具體的人、一個具體的時刻」的量化證明（229x / 48x / 83x）。
+
+實戰數據詳見 [SPORE-HARVESTS/batch-2026-05-03-objective-khorana-9-spores.md](SPORE-HARVESTS/batch-2026-05-03-objective-khorana-9-spores.md) §Tier 比較表。
+
+### d+0/+1/+7/+30 cadence
+
+發佈後主動 harvest：
+
+| 時間點 | 動作                                                                |
+| ------ | ------------------------------------------------------------------- |
+| d+0 1h | Chrome MCP 首次 harvest → SPORE-LOG 追蹤表新增 row                  |
+| d+0 3h | 第二次 harvest → 更新「最後 harvest」時間戳                         |
+| d+0 6h | **Decision gate**：views < 500 → 觸發 re-hook opportunity（見下方） |
+| d+1    | d+1 harvest → 更新 trajectory                                       |
+| d+7    | d+7 harvest（主要 KPI）→ 成效追蹤表填 7d 觸及 / 7d 互動             |
+| d+30   | d+30 harvest（長尾確認）                                            |
+
+**AI 自主邊界**（[REFLEXES #26 v2](../semiont/DNA.md)）：所有 harvest 皆 AI 自主用 Chrome MCP 跑；re-hook reply **必須 human post**（AI 準備 draft，human 確認並發）。
+
+### d+0 6h Decision Gate 救援（Re-hook opportunity）
+
+**不是刪除重發，是補強**。如果 d+0 6h < 500 views：
+
+1. 診斷 hook tier：是 Tier 3 意境型嗎？
+2. 從原文章挑出最強的「具體人物 + 具體畫面」
+3. AI 寫 150 字 reply 草稿用 Tier 1b 具體性槓桿
+4. **handoff human**：「建議在主貼下面發這則 reply: [草稿]」
+5. Human 確認 + post → 重新 seed 觸及
+
+**案例**：#31 Cicada d+0 6h 207 views → re-hook 抽出「江致潔在蘭嶼海底聽到的那句話：你能控制的只有你的呼吸」+「吉他手巽洋說『像紀錄片』」作為 reply。
+
+### Harvest 數字格式鐵律（v2.8）
+
+> 2026-05-03 objective-khorana day 2 — generator parser regression 揭露格式鐵律。
+
+寫進 SPORE-LOG「最後 harvest」column 的 views 數字**必須是 generator parser 認得的格式**：
+
+| 格式           | 範例                                            | parser 支援   |
+| -------------- | ----------------------------------------------- | ------------- |
+| 完整數字含逗號 | `**65,400 views**`                              | ✅            |
+| 完整數字無逗號 | `65000 views`                                   | ✅            |
+| K suffix       | `**65.4K views**` / `1.8K views` / `180K views` | ✅（v2.8 修） |
+| M suffix       | `2.5M views`                                    | ✅（v2.8 修） |
+
+**修補背景**：generator regex `[\d,]+\s+views?` 不認 K/M suffix（`.4K` 打斷 `[\d,]+`）。
+sleepy-colden ι session 多個 backfill 寫成「65.4K views」（為 readability）→ generator 抓不到 → dashboard 顯示舊 `views_latest=null`。
+patch parser to handle 4 種格式 (commit `6a7f61cb`、PR #795)。
+
+**最 safe**：harvest 寫整數 + 逗號（`65,400 views`）— 兩種 parser 都能抓。
+
+### Validation 必跑（v2.8）
+
+每次 harvest backfill SPORE-LOG 後**必跑**：
+
+```bash
+python3 scripts/tools/validate-spore-data.py
+```
+
+檢查 4 維度：
+
+1. **Parser regression**：8 cases K/M/comma 格式 round-trip
+2. **Dashboard freshness**：`dashboard-spores.json` mtime ≥ `SPORE-LOG.md` mtime
+3. **Harvest parseability**：所有「最後 harvest」column 含「views」字串都能被 parser 抓到值
+4. **Dashboard <-> SPORE-LOG consistency**：`dashboard-spores.json.recent[].views_latest` 對得上 SPORE-LOG 解析值
+
+任一 ❌ → 修。任一 ⚠️（warning）→ 評估。`--strict` mode 把 warnings 變 errors（CI 用）。
+
+已整合進 `refresh-data.sh` Step 5.5 — 每次 refresh 自動跑。
+
+### Content-hash mismatch 偵測（v2.10，2026-05-16 LESSONS-INBOX #5 達 vc=3 instrument）
+
+> 觸發歷史：#71 無人機 X URL `2053101189034860856` skip 第 3 次驗證（5/12 dry-run + 5/13 first prod + 5/16）— 三 cycle 都觀察到「真正無人機 X 孢子可能根本不存在 OR SPORE-LOG row URL 寫錯」。達 REFLEXES #15 反覆浮現要儀器化 threshold。
+
+**機制**：每條 spore URL 首次 harvest record 內容指紋（`scripts/tools/spore-content-hash-audit.py`），後續 harvest 抓到時 cross-check。Fingerprint = sha256(first_sentence + emoji set + utm_campaign)。Mismatch → backfillWarnings 自動 flag + 不 update views/engagement 避免污染 metric。
+
+**Side-car JSON**（不動 SPORE-LOG schema，避免 73+ row migration）：
+
+```
+docs/factory/spore-content-fingerprints.json
+{
+  "_schema": "spore-content-fingerprints v1.0",
+  "fingerprints": {
+    "https://x.com/.../status/2053101189034860856": {
+      "fingerprint": "sha256:abcd1234...",
+      "first_recorded": "2026-05-16T12:06:32",
+      "first_sentence": "1979 雷虎在台中做玩具飛機...",
+      "emojis": ["🏭"],
+      "utm_campaign": "s71",
+      "spore_id": "71"
+    }
+  }
+}
+```
+
+**Harvest workflow 整合**：
+
+```bash
+# Step 1.5 (after Chrome MCP read_page 取得 post content):
+
+# 首次 harvest 該 spore → 建 baseline
+python3 scripts/tools/spore-content-hash-audit.py --build-baseline \
+  --url=$URL --content="$CONTENT" --spore-id=$N
+
+# 後續 harvest → cross-check
+RESULT=$(python3 scripts/tools/spore-content-hash-audit.py --check \
+  --url=$URL --content="$CONTENT")
+
+# 若 status=mismatch → 寫 backfillWarnings + skip metric update
+```
+
+**Mismatch 處置**：
+
+- backfillWarnings 自動 flag `content_mismatch_detected: true` + 附 recorded vs new fingerprint 對比
+- 不 update views/engagement（避免污染歷史 metric）
+- 寫 batch harvest log 紀錄 mismatch 詳情
+- LESSONS-INBOX entry vc +1
+- 連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正（per DNA #26 v2 AI 自主邊界）
+
+**完整設計**：[reports/spore-content-hash-gate-design-2026-05-16.md](../../reports/spore-content-hash-gate-design-2026-05-16.md)
+
+**MVP 限制**：
+
+- 目前 fingerprint 不含視覺內容（圖片 / video），只比文字
+- 首次 harvest 必須對 row URL 跟內容是同一條 spore（baseline 一旦錯就連環錯）— 建議 build-baseline 前先觀察者 verify URL ↔ content 對應
+- Emoji set 簡化版只抓常見 emoji code points，罕見 emoji 可能漏
+
+### Dashboard rendering 視覺驗證（v2.8）
+
+每次大規模 harvest backfill 後**建議**開 dev server 視覺驗證：
+
+```bash
+npm run dev &
+# Wait for ready
+curl -sf http://localhost:4321/api/dashboard-spores.json > /dev/null
+
+# Playwright screenshot dashboard #spores section
+node -e "
+const { chromium } = require('playwright');
+(async () => {
+  const b = await chromium.launch();
+  const p = await b.newPage({ viewport: { width: 1400, height: 1400 } });
+  await p.goto('http://localhost:4321/dashboard', { waitUntil: 'networkidle' });
+  await p.evaluate(() => document.getElementById('spores-top')?.scrollIntoView({ block: 'center' }));
+  await p.waitForTimeout(2000);
+  await (await p.\$('#spores-top'))?.screenshot({ path: '/tmp/dashboard-spores-top.png' });
+  console.log('✅ Screenshot: /tmp/dashboard-spores-top.png');
+  await b.close();
+})();
+"
+```
+
+驗證點：
+
+- topPerformers 顯示最新 ⭐ 高峰 / 🔥 平台最強 / 🌋 史上最強 badges 正確
+- views 數字反映 latest harvest（不是 stale）
+- 「資料更新」timestamp 是「N 分鐘前」（今天）
+
+**為什麼視覺驗證**：dashboard JSON 對 ≠ UI 對。frontend template 也可能 cap rendering（例 slice(0, N)）— 改 generator 後要 verify template 也更新。
+
+### 文章頁 SporeFootprint 渲染驗證（v2.9）
+
+> 2026-05-03 objective-khorana day 2 evening — 哲宇發現「為什麼只有安溥那篇有顯示」孢子連結。3 篇 sporeLinks 都寫對的文章（黑冠麻鷺/沈伯洋/賈永婕）silently 不渲染。
+>
+> **單測 `sporeLinks` 寫入 ≠ reader 看得到。**
+
+`SporeFootprint.astro` 渲染依賴 `[category]/[slug].astro` template 在「延伸閱讀」標題前 split content。template 的 `splitMarkers` 必須同時支援兩種 canonical-accepted 格式：
+
+| 格式                              | 範例         | 文章數              |
+| --------------------------------- | ------------ | ------------------- |
+| `## 延伸閱讀` (h2)                | 95 articles  | ✅ original support |
+| `**延伸閱讀**：` (bold paragraph) | 121 articles | ✅ v2.9 修補後      |
+
+**Patch in `src/pages/[category]/[slug].astro` lines 313-338**：
+
+```javascript
+const splitMarkers = [
+  '<h2>延伸閱讀</h2>',
+  '<h2>Further Reading</h2>',
+  '<h2>延伸閱讀<',
+  '<p><strong>延伸閱讀</strong>', // v2.9 加
+  '<p><strong>Further Reading</strong>', // v2.9 加
+];
+// ...
+// Final fallback: any <p><strong> 含「延伸閱讀」(handle whitespace)
+if (splitIndex === -1) {
+  const pMatch = fullHtml.match(/<p>\s*<strong>\s*延伸閱讀/);
+  if (pMatch && pMatch.index !== undefined) splitIndex = pMatch.index;
+}
+```
+
+**Visual verify SOP**（每次 sporeLinks update 後）：
+
+```bash
+# 1. Sync knowledge → src/content (CRITICAL — frontmatter 改在 knowledge/，astro 讀的是 src/content/)
+bash scripts/core/sync.sh
+
+# 2. Restart dev server (frontmatter 變更 vite HMR 不一定 pick up)
+NODE_OPTIONS='--max-old-space-size=8192' npm run dev &
+
+# 3. Wait + curl test
+until curl -sf http://localhost:4321/ >/dev/null; do sleep 1; done
+for slug in 賈永婕 黑冠麻鷺 沈伯洋; do
+  count=$(curl -s "http://localhost:4321/people/$slug" 2>/dev/null | grep -c "SporeFootprint")
+  [ "$slug" = "黑冠麻鷺" ] && url="http://localhost:4321/nature/$slug" && count=$(curl -s "$url" | grep -c "SporeFootprint")
+  echo "$slug: SporeFootprint=$count"  # 期待 ≥ 1
+done
+```
+
+**任一文章 SporeFootprint=0** → 檢查：
+
+1. 該篇 frontmatter 有 `sporeLinks:` 嗎？(grep `^sporeLinks:` knowledge/<cat>/<slug>.md)
+2. 該篇 `延伸閱讀` 是哪種格式？bold paragraph or h2 or 完全沒有？
+3. `bash scripts/core/sync.sh` 跑了嗎？(src/content/ 是否同步)
+4. dev server restart 了嗎？(content sync 後 vite HMR 不一定即時生效)
+
+**為什麼這條鐵律**：rich-text SSOT 的 silent drift 第二次驗證。
+v2.8 是 generator parser silent fail（K/M suffix），v2.9 是 template splitMarkers silent fail（bold format）。
+兩次都是「reader 完全看不到 → 維護者 完全沒感」的 invisible bug，必須靠視覺驗證 + 多文章 sweep 才會 catch。
+
+### Chrome MCP exact harvest workflow（v2.9）
+
+**Chrome MCP vs WebFetch trade-off**：
+
+| 維度                               | Chrome MCP exact                                                        | WebFetch K rounded          |
+| ---------------------------------- | ----------------------------------------------------------------------- | --------------------------- |
+| 速度                               | 慢（5-10s/spore，需 navigate+wait+scroll+screenshot）                   | 快（HTTP 直拉）             |
+| Likes/comments/reposts/shares 精度 | exact（例 1,027 vs 1K）                                                 | K rounded（loss of detail） |
+| Views 精度                         | K rounded（Threads UI 限制，例「1.2 萬瀏覽」）；header full number 偶見 | K rounded                   |
+| Reply context 可見                 | ✅ 可看 reply 確認 hallucination audit                                  | ❌ 看不到                   |
+| Threads UI badge / verified status | ✅ 可看                                                                 | ❌                          |
+| X (Twitter) 支援                   | ✅ 可 navigate                                                          | ❌ 402 Forbidden            |
+| 需要 active browser session        | ✅ 需 `select_browser` paired                                           | ❌                          |
+| Batch parallel                     | ❌（sequential per spore）                                              | ✅                          |
+
+**選用規則**：
+
+- 第一次 batch harvest → WebFetch（快，K rounded 夠粗略 trends）
+- 後續 backfill / 精準對比 → Chrome MCP（exact numbers，看 reply context）
+- X 平台所有 harvest → Chrome MCP only（WebFetch 不支援）
+
+**Chrome MCP harvest pattern**：
+
+```bash
+# Per spore
+mcp__Claude_in_Chrome__navigate https://www.threads.com/@taiwandotmd/post/{shortcode}
+mcp__Claude_in_Chrome__computer wait 4
+mcp__Claude_in_Chrome__computer scroll down 5 ticks @ (700, 400)
+mcp__Claude_in_Chrome__computer wait 1
+mcp__Claude_in_Chrome__computer screenshot
+# 抓 likes (♥) / comments (💬) / reposts (🔁) / shares (📮) 4 個 numbers
+# views 在 header sub-text，K rounded
+```
+
+**Chrome MCP `select_browser` 第一次連結**：
+
+- 哲宇要先在 Chrome 安裝 Claude in Chrome extension
+- Pair 後 `mcp__Claude_in_Chrome__list_connected_browsers` 應該回傳 deviceId
+- 之後 session 重啟仍可用該 deviceId 直接 `select_browser`（pairing 持久化）
+
+### Harvest 資料流總覽
+
+```
+Chrome MCP harvest
+  → SPORE-LOG.md 成效追蹤表（7d 觸及 / 互動 / 最後 harvest timestamp）
+  → 源文章 frontmatter sporeLinks（每次 harvest 同步最新 views/likes/reposts/comments/shares）
+  → dashboard-spores.json （refresh-data 觸發 generate-dashboard-spores.py）
+  → Dashboard 成效排行 / GA 放大倍數 section
+  → 新洞察 → LESSONS-INBOX
+```
+
+雙寫機制詳見下方 [Step 1.5](#step-15-雙寫dual-write--v13-新增2026-04-23-δ-觀察者指正)。
 
 ### Batch Harvest 模式（v1.2 新增 — 2026-04-18 δ-late 首例驗證後正式文件化）
 
@@ -241,16 +800,16 @@ canonical 由 `src/components/SporeFootprint.astro` interface `SporeLink` 定義
 
 讀每則留言，貼上 dimension 標籤。這決定了後續處理路徑。
 
-| #   | Dimension               | 定義                                                   | 下一步                                  |
-| --- | ----------------------- | ------------------------------------------------------ | --------------------------------------- |
-| 1   | **更正 correction**     | 指出文章事實錯誤（日期、名字、數字、引語）             | **→ Step 3a 跨源驗證（critical path）** |
-| 2   | **建議 suggestion**     | 建議補什麼、改什麼敘事角度                             | **→ Step 3b 深讀研究**                  |
-| 3   | **擴寫 enrichment**     | 補充一個典故 / 延伸詮釋 / 新角度（非事實層，是語意層） | **→ Step 4 整合入文章本體**             |
-| 4   | **共鳴 resonance**      | 情感回響、個人經驗、佩服、支持等                       | **→ Step 5 perspectives frontmatter**   |
-| 5   | **AI 書寫質疑 AI-meta** | 對「AI 寫真人故事」這件事本身的態度 / tag 當事人       | **→ Step 6 人類判斷**                   |
-| 6   | **擴散 sharing**        | tag 朋友、推薦                                         | **→ Step 5 perspectives（低優先）**     |
-| 7   | **情感 emotional**      | 跟主題主人的情感投射（如讀者本身與該人物有關聯）       | **→ Step 5 perspectives**               |
-| 8   | **攻擊 attack / 敵意**  | 對 Taiwan.md 或作者身份的直接攻擊                      | **→ Step 6 人類處理（per DNA #26）**    |
+| #   | Dimension               | 定義                                                   | 下一步                                    |
+| --- | ----------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| 1   | **更正 correction**     | 指出文章事實錯誤（日期、名字、數字、引語）             | **→ Step 3a 跨源驗證（critical path）**   |
+| 2   | **建議 suggestion**     | 建議補什麼、改什麼敘事角度                             | **→ Step 3b 深讀研究**                    |
+| 3   | **擴寫 enrichment**     | 補充一個典故 / 延伸詮釋 / 新角度（非事實層，是語意層） | **→ Step 4 整合入文章本體**               |
+| 4   | **共鳴 resonance**      | 情感回響、個人經驗、佩服、支持等                       | **→ Step 5 perspectives frontmatter**     |
+| 5   | **AI 書寫質疑 AI-meta** | 對「AI 寫真人故事」這件事本身的態度 / tag 當事人       | **→ Step 6 人類判斷**                     |
+| 6   | **擴散 sharing**        | tag 朋友、推薦                                         | **→ Step 5 perspectives（低優先）**       |
+| 7   | **情感 emotional**      | 跟主題主人的情感投射（如讀者本身與該人物有關聯）       | **→ Step 5 perspectives**                 |
+| 8   | **攻擊 attack / 敵意**  | 對 Taiwan.md 或作者身份的直接攻擊                      | **→ Step 6 人類處理（per REFLEXES #26）** |
 
 ### 分類自檢
 
@@ -392,7 +951,7 @@ perspectives:
 
 ## Step 6: 回覆留言（人類主責）
 
-> **DNA #26 規範**：攻擊 AI 本身、涉及 human 信任修復的留言，**只有 human-component 能回應**。AI 不直接發帖。
+> **REFLEXES #26 規範**：攻擊 AI 本身、涉及 human 信任修復的留言，**只有 human-component 能回應**。AI 不直接發帖。
 
 ### AI 可做的
 
@@ -408,18 +967,18 @@ perspectives:
 
 ### 回覆判準
 
-| Dimension      | 必回？   | Draft 調性                     |
-| -------------- | -------- | ------------------------------ |
-| 更正（讀者對） | **必回** | 感謝 + 承認 + 已修 commit URL  |
-| 更正（讀者錯） | **必回** | 感謝 + 驗證結果 + 為何保留原文 |
-| 建議（採納）   | **必回** | 感謝 + 納入方式                |
-| 建議（未採納） | **必回** | 感謝 + 為何不採納              |
-| 擴寫           | **必回** | 感謝 + 納入方式 / 按讚         |
-| 共鳴           | 可選     | 按讚即可；若深度共鳴可短回     |
-| AI 書寫質疑    | 人類主責 | 按場景判斷                     |
-| 擴散           | 不必回   | 按讚                           |
-| 情感           | 可選     | 視內容                         |
-| 攻擊           | 人類判斷 | 通常 DNA #26 建議延後或不回    |
+| Dimension      | 必回？   | Draft 調性                       |
+| -------------- | -------- | -------------------------------- |
+| 更正（讀者對） | **必回** | 感謝 + 承認 + 已修 commit URL    |
+| 更正（讀者錯） | **必回** | 感謝 + 驗證結果 + 為何保留原文   |
+| 建議（採納）   | **必回** | 感謝 + 納入方式                  |
+| 建議（未採納） | **必回** | 感謝 + 為何不採納                |
+| 擴寫           | **必回** | 感謝 + 納入方式 / 按讚           |
+| 共鳴           | 可選     | 按讚即可；若深度共鳴可短回       |
+| AI 書寫質疑    | 人類主責 | 按場景判斷                       |
+| 擴散           | 不必回   | 按讚                             |
+| 情感           | 可選     | 視內容                           |
+| 攻擊           | 人類判斷 | 通常 REFLEXES #26 建議延後或不回 |
 
 ### 回覆時限
 
@@ -530,7 +1089,7 @@ Harvest log 建立 pipeline 的 audit trail + 未來分析素材（哪種孢子�
 | [REWRITE-PIPELINE.md](../pipelines/REWRITE-PIPELINE.md) | 文章本體修改要遵循其 Stage 3 事實鐵三角自檢               |
 | [EDITORIAL.md](../editorial/EDITORIAL.md)               | 勘誤時逐字引用規範                                        |
 | [MANIFESTO §第 5 條](../semiont/MANIFESTO.md)           | 紀實不煽情原則 — 整合 voice 時不煽情消費                  |
-| [DNA #26](../semiont/DNA.md)                            | 強孢子觀眾回饋人類不可取代性                              |
+| [REFLEXES #26](../semiont/DNA.md)                       | 強孢子觀眾回饋人類不可取代性                              |
 | [HEARTBEAT Beat 3b](../semiont/HEARTBEAT.md)            | 社群觸手掃描 — 觸發本 pipeline 的入口                     |
 
 ---
@@ -549,7 +1108,7 @@ Harvest log 建立 pipeline 的 audit trail + 未來分析素材（哪種孢子�
 >
 > 「如果他有提任何建議或是在勘誤的話，我們要妥善深讀研究、修改文章，並且回覆他們的留言。」
 
-→ 本 pipeline 將上述三條觀察者指令正式儀器化（DNA #15「反覆浮現要儀器化」第 7 次驗證）。
+→ 本 pipeline 將上述三條觀察者指令正式儀器化（REFLEXES #15「反覆浮現要儀器化」第 7 次驗證）。
 
 ### 首次執行紀錄
 
@@ -559,12 +1118,12 @@ Harvest log 建立 pipeline 的 audit trail + 未來分析素材（哪種孢子�
 
 ## Phase 2 Roadmap（持續進化）
 
-- [ ] `scripts/tools/fetch-spore-replies.py` 半自動抓留言（Chrome MCP 仍人在環，但結構化輸出）
-- [ ] `scripts/tools/run-spore-harvest.py` 整合 fetch → categorize → harvest log
+- [x] ~~`scripts/tools/run-spore-harvest.py` 整合 fetch → categorize → harvest log~~ — **v2.2 取代**（Chrome MCP 是 session-level tool 不能 subprocess invoke，改為 cron routine `twmd-spore-harvest-am` daily 07:00 Claude session 直接跑 Chrome MCP）
+- [x] ~~自動化 D+1~D+7 每日 cron~~ — **v2.2 ship**（`twmd-spore-harvest-am` per [ROUTINE.md §TWMD spore harvest (am)](../semiont/ROUTINE.md)）
+- [ ] `scripts/tools/fetch-spore-replies.py` 半自動抓留言（v2.2 後可能 deprecated — Chrome MCP cron 已覆蓋抓留言；若 Threads Graph API 串接成熟，回頭重評）
 - [ ] Dashboard 新增「孢子 harvest 進度」子區塊（依附 Dashboard 孢子區計畫 Phase 2）
 - [ ] SPORE-LOG 新增 `harvest_status` + `last_harvest_date` 欄位
-- [ ] 自動化 D+1~D+7 每日 cron
-- [ ] Threads Graph API 串接（等 Meta 穩定）
+- [ ] Threads Graph API 串接（等 Meta 穩定 — 取代 Chrome MCP 成為更穩定 auto path）
 - [ ] Perspectives frontmatter schema 正式寫進 SUBCATEGORY / frontmatter lint
 
 ---
@@ -573,3 +1132,14 @@ _v1.0 | 2026-04-18 δ-late — 觀察者觸發孢子 #33 @ste_ven_1487 事實更
 _定位：SPORE 產線的下游 — 孢子上線後 7 天的讀者聲音收割 + 整合回文章本體_
 _執行責任：AI 主責 Step 1-5 + 7-8；人類主責 Step 6（回覆留言）_
 _每次執行留 log 到 `docs/factory/SPORE-HARVESTS/{N}-{slug}-{date}.md`_
+
+_v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（D+1 → D+7 cadence + 6h decision gate + Reach×Accuracy trigger + atomic batch log SSOT 顯化）+ Hard Gate Inventory 集中 table（9 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 SPORE-PIPELINE / VERIFY / FACTCHECK / DATA-REFRESH 分工 + atomic batch log 寫入路徑強化）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.2 SPORE family audit。D+1-D+7 prose body 不動（已健康，5/8 Phase 6 SSOT cleanup 保留）。_
+
+_v2.2.1 | 2026-05-12 2026-05-12-184800-routine-v2-resync session — Step 8 trigger dashboard regen 補上_
+_v2.2.1 改動：§Routine 整合 §🗺️ Routine 觸發 → Pipeline Step flow 加 Step 8「trigger dashboard regen — `python3 scripts/tools/generate-dashboard-spores.py`」+ Hard Gate Inventory 加 row「Dashboard regen」+ Quality gate table 三態加「dashboard-spores.json regen」criterion + Stage 3 commit 註明 batch log + dashboard-spores.json + sporeLinks frontmatter 三 file 同 commit。_
+_v2.2.1 觸發：2026-05-12 spore-harvest v2.2 dry-run (commit `a5f0c28c3`) 揭露 batch log ship 後 dashboard 沒 regen，13 條 OVERDUE 仍 surface 在 dashboard-spores.json 直到 manual run generate-dashboard-spores.py（後續 `c3e49080e` 觀察者 callout「harvest pipeline 最後要補一個步驟 trigger dashboard regen」直接修補進 pipeline canonical）。對應 REFLEXES #43（新 derived 資料必須儀器化進生命週期觸發點否則 silent stale）+ REFLEXES #52（immune fail-loud — quality_gate 加 dashboard regen 條件 fail-loud surface）。_
+
+_v2.2 | 2026-05-12 2026-05-12-184800-routine-v2-resync session — Full-auto routine integration ship_
+_v2.2 改動：§Routine 整合（v2.2 full-auto） section 重寫對齊 cranky-newton spine pattern 標準（per [reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) §對照 canonical pattern 10 元素）— 改 free-form prose 為結構化：第一性原理 quote / 🗺️ Routine 觸發 → Pipeline Step flow ASCII / 🚦 Hard Gate Inventory 8 gates table / OVERDUE 範圍計算 table / Quality gate 三態 table / Escalation ladder table / Chrome MCP unattended 注意事項 / 跨檔案職責分工 standalone table（routine 觸發層）/ v1.x → v2.2 歷史 table。Phase 2 Roadmap 標 ✅ checkmark：`run-spore-harvest.py` deprecated（Chrome MCP session-level limitation）+ D+1-D+7 cron 自動化 ship。_
+_v2.2 觸發：哲宇 2026-05-12 `/twmd-routine` 「幫我完整整理 harvest spore pipeline，自動 chrome mcp -> 然後每天早上七點觸發 Full-auto harvest routine」+ 中途校正「pipeline 要照前幾天整理 report 的標準寫」+「邏輯跟步驟都要去 pipeline 裡，不要寫在 routine」。對應 ROUTINE.md v2.1 → v2.2 加 11th routine `twmd-spore-harvest-am`（薄殼 spec，business logic pointer 回本檔）。_
+_對應 canonical：MANIFESTO §薄殼鐵律（routine spec ≤ 20 行薄殼，business logic 集中本 pipeline）+ REFLEXES #26 v2（AI 自主 harvest 邊界）+ REFLEXES #54（routine 飛輪 SSOT 收割者）+ REFLEXES #38（SSOT drift silent killer，本檔 + ROUTINE.md + mirror 三 layer 同步）。_

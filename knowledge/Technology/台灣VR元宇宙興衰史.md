@@ -2,14 +2,14 @@
 title: '台灣 VR 十年：從王雪紅宣告元年到把團隊賣給 Google'
 description: '2016 年 HTC 在巴塞隆納發表 Vive，王雪紅說這是 VR 元年。九年後 HTC 以 2.5 億美元把 XR 團隊賣給 Google。中間發生的事，是一整座島嶼對「下一個大事」的集體押注與集體失溫。'
 date: 2026-04-23
+category: 'Technology'
 tags: ['VR', 'HTC Vive', 'TAVAR', '元宇宙', 'XR', 'XRSPACE', '高雄VR FILM LAB']
 subcategory: '社群與數位文化'
 author: 'zaious'
-readingTime: 10
-category: 'Technology'
-lastVerified: 2026-04-23
 featured: false
+lastVerified: 2026-04-23
 lastHumanReview: false
+readingTime: 10
 ---
 
 > 2016 年，HTC 在巴塞隆納 MWC 發表消費版 Vive，王雪紅宣告「VR 元年」。同年台灣冒出第一個 VR/AR 產業協會、第一間 VR 網咖、第一座 VR 樂園。九年後的 2025 年 1 月，HTC 以 2.5 億美元把 XR 研發團隊賣給 Google。這段期間，台灣藝術家在威尼斯影展兩度拿下最佳 VR 體驗獎，但台灣的 VR 硬體市佔從三成五跌到不足兩趴。這篇文章追蹤的，是一座島嶼對「下一個大事」的押注、膨脹與失溫。
@@ -108,8 +108,8 @@ HTC 立刻跟上。2022 年 MWC，王雪紅發表元宇宙平台 **VIVERSE**，�
 
 2023 年 1 月，騰訊成立僅半年的 XR 部門傳出全面暫停。2 月正式確認團隊解散。全球 XR 裁員潮連鎖爆發。
 
-| 2017 Q1                            | 2023 Q1              |
-| ---------------------------------- | -------------------- |
+| 2017 Q1                             | 2023 Q1               |
+| ----------------------------------- | --------------------- |
 | HTC Vive PC VR 早期市佔曾達三成以上 | HTC 整體 VR 市佔 < 2% |
 
 HTC Vive 的市佔率崩跌，是整個 VR 市場結構翻轉的縮影。Meta 靠 Quest 2 的 299 美元定價搶走了消費市場，2023 年領先全球 VR 市場。[^20] HTC 退守企業級市場，但企業客戶的預算在經濟放緩中也在收縮。
@@ -216,7 +216,7 @@ XRSPACE 的周永明想做「社交 VR」，HTC 的王雪紅想做「開放元�
 
 [^5]: [數位時代：2016台灣AR/VR產業重要事件回顧](https://www.bnext.com.tw/article/42600/review-2016-taiwan-ar-vr-industry-key-events) — TAVAR 成立、極客窩、VR 黑客松等 2016 年事件
 
-[^6]: [TAVAR 協會官方網站](https://www.tavar.tw/about_tavar.aspx) — 協會成立背景與使命
+[^6]: [TAVAR 協會官方網站](https://www.tavar.tw/about_tavar.aspx) — 協會成立背景與使命：詳見原始連結內文
 
 [^7]: [數位時代：2016台灣AR/VR產業重要事件回顧](https://www.bnext.com.tw/article/42600/review-2016-taiwan-ar-vr-industry-key-events) — VR 網咖、VIVELAND、主題樂園 VR 設施
 
@@ -238,7 +238,7 @@ XRSPACE 的周永明想做「社交 VR」，HTC 的王雪紅想做「開放元�
 
 [^16]: [CNBC: VR market keeps shrinking](https://www.cnbc.com/2023/12/19/vr-market-shrinking-as-meta-pours-billions-of-dollars-into-metaverse.html) — Meta Horizon Worlds 月活 30 萬、全球 VR 市場萎縮
 
-[^17]: [TechNews：Facebook改名Meta](https://finance.technews.tw/2021/11/07/zuckerberg-plan-is-not-just-for-metaverse/) — 祖克柏改名動機分析
+[^17]: [TechNews：Facebook改名Meta](https://finance.technews.tw/2021/11/07/zuckerberg-plan-is-not-just-for-metaverse/) — 祖克柏改名動機分析：詳見原始連結內文
 
 [^18]: [經濟日報：HTC元宇宙平台VIVERSE登場](https://money.udn.com/money/story/5612/6143543) — 2022 MWC VIVERSE 發表
 

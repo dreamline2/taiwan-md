@@ -17,8 +17,12 @@ subcategory: 'Pop Culture'
 author: 'Taiwan.md Translation Team'
 readingTime: 9
 featured: false
-lastVerified: 2026-04-16
+lastVerified: 2026-05-16
 translatedFrom: 'People/金針菇.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:a4d0a0070adaa30d'
+sourceBodyHash: 'sha256:4b10f11517195560'
+translatedAt: '2026-05-17T06:07:00Z'
 category: People
 ---
 

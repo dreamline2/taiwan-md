@@ -15,8 +15,12 @@ category: 'History'
 author: 'Taiwan.md'
 readingTime: 22
 featured: true
-lastVerified: 2026-03-19
+lastVerified: 2026-05-16
 translatedFrom: 'History/國民政府遷台與戰後重建.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:4e071d84893835c3'
+sourceBodyHash: 'sha256:fdd1a6127fff34df'
+translatedAt: '2026-05-17T06:04:00Z'
 ---
 
 # KMT Government Relocation and Post-War Reconstruction
@@ -249,12 +253,10 @@ The history of KMT government relocation and post-war reconstruction profoundly 
 
 ## Further Reading
 
-- Detailed processes and personal stories of government relocation
-- Specific case studies of White Terror period
-- International comparison of Taiwan's land reform
-- Daily life history during martial law period
-- Adaptation and cultural changes of mainlander migrants
-- Impact of international Cold War patterns on Taiwan
+- [Martial Law Era](/en/history/martial-law-era/)
+- White Terror (白色恐怖)
+- [228 Incident](/en/history/228-incident/)
+- [Taiwan's Economic Miracle](/en/history/taiwan-economic-miracle-from-agriculture-to-asian-tiger/)
 
 ## References
 

@@ -1,15 +1,23 @@
 ---
 title: 'The Sunflower Movement — Twelve Years After Those Thirty Seconds'
-description: "A legislator pinned to the floor mumbled into a lapel mic for thirty seconds, triggering a 24-day occupation of parliament, a generational political awakening, and the beginning of Taiwan's economic pivot away from China. Twelve years later, the law the students demanded was never passed — but they won a war they didn't know they were fighting."
+description: "A legislator lying on the floor read thirty seconds of text into a lapel microphone, triggering a twenty-four-day occupation of parliament, a generational political awakening, and the starting point of Taiwan's economic pivot away from China. Twelve years later, the law the students demanded never passed — but they won a war they did not know they were fighting."
 date: 2026-04-12
-tags: ['social movements', 'democracy', 'cross-strait relations', 'civic tech']
+tags:
+  - 'social movements'
+  - 'democracy'
+  - 'cross-strait relations'
+  - 'civic technology'
 category: 'Society'
-subcategory: 'Democracy and Politics'
+subcategory: '民主與政治'
 author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:3a8798103fc8c01b'
+sourceBodyHash: 'sha256:620bf7e5d85566f8'
+translatedAt: '2026-05-17T06:10:00Z'
 ---
 
 > **30-Second Overview:** On March 17, 2014, KMT legislator Chang Ching-chung, pinned to the floor by opposition lawmakers, used a lapel microphone to declare in thirty seconds that the Cross-Strait Service Trade Agreement was "deemed reviewed." The next night, over two hundred students stormed parliament, set up a 24-hour iPad livestream, and refused to leave for twenty-four days. The trade deal was never voted down — history buried it instead. Twelve years later: Taiwan's export dependence on China dropped from 42% to 31.5%. The students won a war they didn't know they were fighting.
@@ -151,6 +159,9 @@ Those thirty seconds — Chang Ching-chung probably never imagined that what he 
 - [Taiwan's Open-Source Community and g0v](/en/technology/open-source-and-g0v) — The civic hacker community behind the movement's digital infrastructure
 - [Social Movements and Civic Participation](/en/society/social-movements-and-civic-participation) — How Taiwan's civil society evolved after the Sunflower Movement
 - [Taiwan Strait Crises and Cross-Strait Relations](/en/history/taiwan-strait-crises-and-cross-strait-relations) — The geopolitical context behind the CSSTA controversy
+- [Zashare School](/society/雜學校) — Another way the energies released after the 318 movement carried on outside the system: a Taiwanese case of translating street rebellion into an education carnival
+- [Taiwan and Eswatini](/society/台灣與史瓦帝尼) — A decade after 318, Lai Ching-te's visit to Eswatini during a moment of consolidating diplomatic ties shows what "sovereign state" looks like in concrete terms abroad
+- [Aaron Nieh](/people/聶永真) — The designer behind the "Democracy at 4am" New York Times front-page ad in the early hours of 2014, a design-side record of how the student movement entered international view
 
 ## 參考資料
 

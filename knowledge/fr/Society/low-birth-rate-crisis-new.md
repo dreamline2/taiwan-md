@@ -8,9 +8,13 @@ category: 'Society'
 author: 'Taiwan.md Translation Team'
 readingTime: 12
 featured: false
-translatedFrom: 'Society/台灣少子化危機.md'
+translatedFrom: "Society/台灣少子化危機.md"
 lastVerified: 2026-03-24
 lastHumanReview: false
+sourceCommitSha: 'f99a9959'
+sourceContentHash: 'sha256:b6c977b96b8c6c27'
+sourceBodyHash: 'sha256:f565beba22c0df57'
+translatedAt: "2026-04-15T17:36:38+08:00"
 ---
 
 # Le dernier chant de l'île : la crise de la dénatalité à Taïwan
@@ -46,13 +50,13 @@ Que représente concrètement ce 0,87 ? Pour assurer le renouvellement des gén�
 
 Selon les données de 2023, voici les cinq pays et territoires au taux de fécondité le plus bas :
 
-| Rang | Pays / territoire | Taux de fécondité |
-|------|-------------------|-------------------|
-| 1 | **Taïwan** | 0,87 |
-| 2 | **Corée du Sud** | 0,72 |
-| 3 | **Hong Kong** | 0,8 |
-| 4 | **Singapour** | 1,17 |
-| 5 | **Ukraine** | 1,22 (contexte de guerre) |
+| Rang | Pays / territoire | Taux de fécondité         |
+| ---- | ----------------- | ------------------------- |
+| 1    | **Taïwan**        | 0,87                      |
+| 2    | **Corée du Sud**  | 0,72                      |
+| 3    | **Hong Kong**     | 0,8                       |
+| 4    | **Singapour**     | 1,17                      |
+| 5    | **Ukraine**       | 1,22 (contexte de guerre) |
 
 Il est frappant de constater que, mis à part l'Ukraine dont la situation est liée au conflit armé, les quatre premiers sont des sociétés sinophones. Ce n'est pas un hasard.
 
@@ -175,7 +179,7 @@ La plupart des mesures natalistes taïwanaises se concentrent sur les aides fina
 
 > 📝 **Note de la curatrice**
 >
-> Selon une enquête du magazine *Parenting* (親子天下), l'année scolaire 2024 verra disparaître dix-huit écoles primaires à travers le pays — un record depuis dix ans. Ces fermetures ne sont pas seulement la disparition de bâtiments : c'est la mémoire collective d'une communauté entière qui s'éteint. Quand les derniers élèves quittent l'école, l'avenir du village s'assombrit avec eux.
+> Selon une enquête du magazine _Parenting_ (親子天下), l'année scolaire 2024 verra disparaître dix-huit écoles primaires à travers le pays — un record depuis dix ans. Ces fermetures ne sont pas seulement la disparition de bâtiments : c'est la mémoire collective d'une communauté entière qui s'éteint. Quand les derniers élèves quittent l'école, l'avenir du village s'assombrit avec eux.
 
 À fin 2024, plus de 250 établissements du primaire et du secondaire ont été fermés ou fusionnés à Taïwan. Les zones rurales sont les premières touchées :
 

@@ -16,6 +16,10 @@ difficulty: 'intermediate'
 readingTime: 12
 featured: true
 translatedFrom: 'Art/台灣策展人與藝術文化建構.md'
+sourceCommitSha: 'f99a9959'
+sourceContentHash: 'sha256:01e74babf94ac8da'
+sourceBodyHash: 'sha256:859c873057ee681d'
+translatedAt: '2026-05-13T01:07:52Z'
 ---
 
 # Taiwanese Curators and Artistic Cultural Construction

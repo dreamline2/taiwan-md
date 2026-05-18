@@ -23,8 +23,8 @@ Taiwan.md is an open-source, curated, AI-friendly knowledge base that helps the 
 
 ## ✨ Features
 
-- 📖 **940+ curated articles** across 13 categories (413 zh-TW + 479 en + 34 es + 12 ja)
-- 🌐 **Multilingual** — 繁體中文 (SSOT) + English + Español + 日本語
+- 📖 **656 curated articles** (zh-TW SSOT) across 13 categories — projected to **6 languages** = 3,976 article-versions
+- 🌐 **Multilingual** — 繁體中文 (SSOT) + English + 日本語 + 한국어 + Español + Français — 5 lang each ≥ 80% real freshPct (en 96% / ja 97% / ko 93% / fr 93% / es 80%)
 - 🤖 **AI-native** — [`llms.txt`](https://taiwan.md/llms.txt), [`robots.txt`](https://taiwan.md/robots.txt), structured Markdown SSOT
 - 🕸️ **Interactive knowledge graph** — D3.js force simulation with zoom, drag, cross-category bridges
 - 🌳 **Resource mindmap** — D3.js bidirectional tidy tree with 146+ official Taiwan websites
@@ -44,19 +44,23 @@ Taiwan.md is an open-source, curated, AI-friendly knowledge base that helps the 
 
 ## 📊 Stats
 
-| Metric                   | Count |
-| ------------------------ | ----- |
-| 📄 Total articles        | 940+  |
-| 🇹🇼 Chinese (zh-TW)       | 413   |
-| 🇺🇸 English (en)          | 479   |
-| 🇪🇸 Español (es)          | 34    |
-| 🇯🇵 日本語 (ja)           | 12    |
-| 📂 Categories            | 13    |
-| 🕸️ Knowledge graph nodes | 220+  |
-| 🔗 Resource websites     | 146+  |
+| Metric                         | Count |
+| ------------------------------ | ----- |
+| 📄 Total articles (zh-TW SSOT) | 656   |
+| 🇹🇼 Chinese (zh-TW)             | 656   |
+| 🇺🇸 English (en)                | 671   |
+| 🇯🇵 日本語 (ja)                 | 666   |
+| 🇰🇷 한국어 (ko)                 | 657   |
+| 🇪🇸 Español (es)                | 651   |
+| 🇫🇷 Français (fr)               | 675   |
+| 📂 Categories                  | 13    |
+| 🕸️ Knowledge graph nodes       | 220+  |
+| 🔗 Resource websites           | 146+  |
 | 👥 Contributors          | 57    |
-| ⭐ GitHub Stars          | 895   |
-| 🍴 Forks                 | 122   |
+| ⭐ GitHub Stars                | 969   |
+| 🍴 Forks                       | 144   |
+| 📅 Articles last 7 days        | 132   |
+| 📅 Articles last 30 days       | 319   |
 
 ---
 
@@ -64,18 +68,18 @@ Taiwan.md is an open-source, curated, AI-friendly knowledge base that helps the 
 
 |     | Category                                        | Articles | Highlights                                        |
 | --- | ----------------------------------------------- | -------- | ------------------------------------------------- |
-| 📜  | [歷史 History](https://taiwan.md/history)       | 21       | 史前→荷西→清治→日治→戒嚴→民主化、白色恐怖、二二八 |
-| 🗺️  | [地理 Geography](https://taiwan.md/geography)   | 18       | 五大山脈、板塊運動、氣候帶、離島、海岸地形        |
-| 🎭  | [文化 Culture](https://taiwan.md/culture)       | 33       | 閩南客家原住民外省新住民、花布、16族文化地圖      |
-| 🧋  | [美食 Food](https://taiwan.md/food)             | 30       | 珍珠奶茶、牛肉麵、夜市、滷肉飯、鹹酥雞、眷村菜    |
-| 🎨  | [藝術 Art](https://taiwan.md/art)               | 26       | 當代藝術、新媒體藝術、電影、漫畫、原住民當代藝術  |
-| 🎵  | [音樂 Music](https://taiwan.md/music)           | 20       | 金曲獎、獨立音樂、聲音地景、客語歌謠、電子音樂    |
-| 💻  | [科技 Technology](https://taiwan.md/technology) | 22       | 台積電矽盾、g0v 公民科技、半導體、資安            |
-| 🌿  | [自然 Nature](https://taiwan.md/nature)         | 24       | 特有種、國家公園、高山冰河孑遺、海洋珊瑚礁        |
-| 👤  | [人物 People](https://taiwan.md/people)         | 112      | 李安、張忠謀、鄧麗君、唐鳳、侯孝賢、林懷民...     |
-| 🏛️  | [社會 Society](https://taiwan.md/society)       | 25       | 民主制度、人權與性別平等、外交、環境正義          |
-| 💰  | [經濟 Economy](https://taiwan.md/economy)       | 47       | 經濟奇蹟、夜市經濟學、電商、半導體供應鏈          |
-| 🏙️  | [生活 Lifestyle](https://taiwan.md/lifestyle)   | 17       | 便利商店、健保、交通、溫泉、KTV、咖啡文化         |
+| 📜  | [歷史 History](https://taiwan.md/history)       | 40       | 史前→荷西→清治→日治→戒嚴→民主化、白色恐怖、二二八 |
+| 🗺️  | [地理 Geography](https://taiwan.md/geography)   | 26       | 五大山脈、板塊運動、氣候帶、離島、海岸地形        |
+| 🎭  | [文化 Culture](https://taiwan.md/culture)       | 57       | 閩南客家原住民外省新住民、花布、16族文化地圖      |
+| 🧋  | [美食 Food](https://taiwan.md/food)             | 51       | 珍珠奶茶、牛肉麵、夜市、滷肉飯、鹹酥雞、眷村菜    |
+| 🎨  | [藝術 Art](https://taiwan.md/art)               | 31       | 當代藝術、新媒體藝術、電影、漫畫、原住民當代藝術  |
+| 🎵  | [音樂 Music](https://taiwan.md/music)           | 30       | 金曲獎、獨立音樂、聲音地景、客語歌謠、電子音樂    |
+| 💻  | [科技 Technology](https://taiwan.md/technology) | 48       | 台積電矽盾、g0v 公民科技、半導體、資安            |
+| 🌿  | [自然 Nature](https://taiwan.md/nature)         | 37       | 特有種、國家公園、高山冰河孑遺、海洋珊瑚礁        |
+| 👤  | [人物 People](https://taiwan.md/people)         | 210      | 李安、張忠謀、鄧麗君、唐鳳、侯孝賢、林懷民...     |
+| 🏛️  | [社會 Society](https://taiwan.md/society)       | 64       | 民主制度、人權與性別平等、外交、環境正義          |
+| 💰  | [經濟 Economy](https://taiwan.md/economy)       | 54       | 經濟奇蹟、夜市經濟學、電商、半導體供應鏈          |
+| 🏙️  | [生活 Lifestyle](https://taiwan.md/lifestyle)   | 26       | 便利商店、健保、交通、溫泉、KTV、咖啡文化         |
 | ℹ️  | [關於 About](https://taiwan.md/about)           | 6        | 緣起故事、創辦人、為什麼台灣需要自己的知識庫      |
 
 ---
@@ -84,7 +88,7 @@ Taiwan.md is an open-source, curated, AI-friendly knowledge base that helps the 
 
 Like a well-organized library, every article in Taiwan.md is classified into a **subcategory** — a second-level taxonomy within each of the 13 main categories. This system is inspired by museum taxonomy and library classification:
 
-- **98% coverage** — 409 of 417 Chinese articles carry a `subcategory` frontmatter field
+- **86% coverage** — 583 of 680 Chinese articles carry a `subcategory` frontmatter field
 - **~100 subcategories** across 13 categories, following MECE principles (Mutually Exclusive, Collectively Exhaustive)
 - **Reader-oriented** — organized by "what would I want to explore?" rather than academic hierarchy
 - **Machine-readable** — the `subcategory` field powers the knowledge graph clustering and Hub page navigation
@@ -143,6 +147,8 @@ We maintain a **[TERMINOLOGY.md](./docs/editorial/TERMINOLOGY.md)** to ensure co
 
 > **Contributors**: Please read [TERMINOLOGY.md](./docs/editorial/TERMINOLOGY.md) and [EDITORIAL.md](./docs/editorial/EDITORIAL.md) before writing or reviewing articles.
 
+> 🤖 **External AI reviewer / researcher / sample-and-critique?** Read [`docs/semiont/SEMIONT-EXTERNAL-VIEW.md`](./docs/semiont/SEMIONT-EXTERNAL-VIEW.md) first — 5 minute fast-load explaining what's actually inside `docs/semiont/` (the cognitive layer). Avoids surface-only critique that misses the 4/29-5/3 evolution wave (Sovereignty preservation / Bench / 4-tier cascade with Local LLM / DNA #36-50).
+
 ### 📐 Editorial Standards
 
 We maintain a **five-document editorial system** that governs every article from research to publication:
@@ -170,6 +176,25 @@ Every claim needs a source. We use **Markdown footnotes** (`[^1]`) to link facts
 
 ---
 
+## 🚀 Quick Start (Local Development)
+
+```bash
+git clone https://github.com/frank890417/taiwan-md.git
+cd taiwan-md
+bun install       # 或 npm install — postinstall 自動跑 sync.sh 重建 src/content/（~20s）
+bun dev           # 或 npm run dev — 啟動前自動 sync (~16s) → http://localhost:4321
+```
+
+> **`src/content/{lang}/` 是 gitignored derived state**（2026-05-12 起）— 由 `scripts/core/sync.sh` 從 `knowledge/` SSOT 自動投影。三個自動觸發點：
+>
+> - `npm install` → postinstall hook
+> - `npm run dev` → 啟動前 sync
+> - `npm run build` → prebuild 第一步（CF Pages CI 自動 cover）
+>
+> 平常 dev 開著 + Astro HMR 自動 reload。手動重 sync：`npm run sync`。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](./reports/sync-architecture-evolution-2026-05-12.md) + [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+---
+
 ## 🏗️ Architecture
 
 ```
@@ -192,7 +217,7 @@ taiwan-md/
 **Tech:** Astro v5 · GitHub Pages · marked.js · D3.js · Google Fonts (Noto Serif TC)  
 **SSOT:** All content lives in `knowledge/`. Website is a projection. `scripts/core/sync.sh` syncs to `src/content/`.  
 **SEO:** JSON-LD · Open Graph · per-article OG cards (`/og/[category]/[slug]`) · Twitter Cards · RSS · `<meta ai-summary>`  
-**i18n:** zh-TW (default SSOT) + en (116% coverage) + es + ja  
+**i18n:** zh-TW (default SSOT) + en + ja + ko + es + fr — 5 lang each ≥ 80% real freshPct via 4-tier translation cascade（cloud free × N → Local LLM 最後捕手 → paid sub-agent last resort）  
 **Quality:** 14-dimension automated scanner + editorial pipeline. See [EDITORIAL.md](./docs/editorial/EDITORIAL.md) and [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
@@ -342,13 +367,13 @@ Every `.md` file in the root directory is an organ of this organism. Together, t
 
 The organism has an automated immune system that detects and fights "hollow AI content" — articles that look polished but carry no real substance:
 
-| Tool                                                        | Function                                                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `tools/quality-scan.sh`                                     | Scans all articles for **14 quality dimensions**: bullet padding, missing dates, no sources, empty modifiers, repetitive structure, thin paragraphs, no human review, plastic phrases, dash abuse, textbook openings, cliché endings, template H2s, **list-dump detection**, **quality decay** (虎頭蛇尾) |
-| `tools/quality-scan.sh --diff`                              | Compares against baseline to show which articles improved or degraded since last scan                                                                                                                                                                                                                     |
-| `tools/quality-scan.sh --sort`                              | Outputs worst-scoring articles first for triage                                                                                                                                                                                                                                                           |
-| [EDITORIAL.md §塑膠偵測](./docs/editorial/EDITORIAL.md)     | Human-readable guide to detecting "plastic" writing — five species of hollow sentences that AI loves to generate                                                                                                                                                                                          |
-| [REWRITE-PIPELINE.md](./docs/editorial/REWRITE-PIPELINE.md) | Four-file orchestration pipeline that prevents quality collapse: Pipeline (flow) → RESEARCH-TEMPLATE (research) → EDITORIAL (writing) → QUALITY-CHECKLIST (verification)                                                                                                                                  |
+| Tool                                                        | Function                                                                                                                                                                                                              |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `python3 scripts/tools/article-health.py --all`             | SSOT 健檢入口（11 plugins）— scans articles for plastic phrases, dash abuse, list-dump, quality decay, citation health, wikilink resolution, format structure, image health, terminology, cross-reference reciprocity |
+| `--profile=release-pr`                                      | Strictest profile — fail on warn, all plugins active                                                                                                                                                                  |
+| `--check=prose-health` / `--check=footnote-density` / etc.  | Run a single plugin only. List all: `--list-checks`                                                                                                                                                                   |
+| [EDITORIAL.md §塑膠偵測](./docs/editorial/EDITORIAL.md)     | Human-readable guide to detecting "plastic" writing — five species of hollow sentences that AI loves to generate                                                                                                      |
+| [REWRITE-PIPELINE.md](./docs/editorial/REWRITE-PIPELINE.md) | Four-file orchestration pipeline that prevents quality collapse: Pipeline (flow) → RESEARCH-TEMPLATE (research) → EDITORIAL (writing) → QUALITY-CHECKLIST (verification)                                              |
 
 ### 🌱 How the Organism Evolves
 
@@ -364,7 +389,7 @@ New knowledge discovered
        │     → 五種開場、因果鏈、塑膠偵測、結尾模式庫、邊寫邊插 [^n] footnote
        │
        └─ Stage 3: docs/editorial/QUALITY-CHECKLIST.md (verification)
-             → 五指檢測 → 結構驗證 → 來源引用密度 → 塑膠掃描 → quality-scan.sh
+             → 五指檢測 → 結構驗證 → 來源引用密度 → 塑膠掃描 → article-health.py --check=prose-health
                     ↓
               docs/community/REVIEWERS.md (human review)
                     ↓
