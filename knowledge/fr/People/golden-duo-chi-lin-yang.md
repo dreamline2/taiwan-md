@@ -10,7 +10,8 @@ author: 'Taiwan.md Translation Team'
 difficulty: 'beginner'
 readingTime: 12
 featured: true
-lastVerified: 2026-03-21
+lastVerified: 2026-05-19
+lastHumanReview: true
 translatedFrom: "People/麟洋配.md"
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:d3037d2c6f885793'
@@ -20,7 +21,7 @@ translatedAt: "2026-04-14T19:19:52+08:00"
 
 # Wang Chi-lin et Lee Yang — Le duo « Lin Yang »
 
-> **En 30 secondes :** Le 31 juillet 2021, en finale olympique à Tokyo, le duo de double messieurs Wang Chi-lin et Lee Yang — surnommé « Lin Yang » — a plié le match en 34 minutes (21-18, 21-12), balayant la paire chinoise et offrant à Taïwan sa toute première médaille d'or olympique en badminton. Deux anciens camarades de collège devenus champions du monde, ils ont récidivé à Paris en 2024 pour défendre leur titre avec succès.
+> **En 30 secondes :** Le 31 juillet 2021, en finale olympique à Tokyo, le duo de double messieurs Wang Chi-lin et Lee Yang — surnommé « Lin Yang » — a plié le match en 34 minutes (21-18, 21-12), balayant la paire chinoise et offrant à Taïwan sa toute première médaille d'or olympique en badminton[^1][^2][^3]. Deux anciens camarades de collège devenus champions du monde, ils ont récidivé à Paris en 2024 pour défendre leur titre avec succès[^7].
 
 Le 31 juillet 2021, 19h30. Musashino Forest Sport Plaza, Tokyo.
 
@@ -218,9 +219,18 @@ Lee Yang a raccroché la raquette, mais le nom « Lin Yang » restera à jamais 
 
 ## Sources
 
-- [Central News Agency : Lee Yang et Wang Chi-lin remportent la première médaille d'or olympique du double messieurs taïwanais](https://www.cna.com.tw/news/firstnews/202107315010.aspx)
-- [Mirror Media : Une médaille d'or arrachée à l'enfer](https://www.mirrormedia.mg/story/20210731pol001)
-- [Yahoo Sports : rapport de la finale olympique du duo Lin Yang](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html)
-- [Wikipédia : Wang Chi-lin](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F)
-- [Wikipédia : Lee Yang](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>)
-- [ELLE Taïwan : reportage sur la retraite de Lee Yang](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/)
+[^1]: [Central News Agency : Lee Yang et Wang Chi-lin remportent la première médaille d'or olympique du double messieurs taïwanais](https://www.cna.com.tw/news/firstnews/202107315010.aspx) — Finale Tokyo 2021.
+
+[^2]: [Mirror Media : Une médaille d'or arrachée à l'enfer](https://www.mirrormedia.mg/story/20210731pol001) — Finale en 34 minutes, 21-18 / 21-12.
+
+[^3]: [Yahoo Sports : rapport de la finale olympique du duo Lin Yang](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html) — Finale contre Li/Liu.
+
+[^4]: [Wikipédia : Wang Chi-lin](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F) — Biographie et palmarès.
+
+[^5]: [Wikipédia : Lee Yang](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>) — Biographie et famille.
+
+[^6]: [Wikipedia: Badminton at the 2020 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_doubles) — Or à Tokyo (vérification croisée EN).
+
+[^7]: [Wikipedia: Badminton at the 2024 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_doubles) — Or à Paris et titre conservé.
+
+[^8]: [ELLE Taïwan : reportage sur la retraite de Lee Yang](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/) — Annonce de retraite après Paris.

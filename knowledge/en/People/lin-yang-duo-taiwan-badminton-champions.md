@@ -15,8 +15,8 @@ tags:
     Taiwan,
   ]
 subcategory: 'Sports'
-lastVerified: 2026-03-19
-lastHumanReview: false
+lastVerified: 2026-05-19
+lastHumanReview: true
 translatedFrom: 'People/麟洋配.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:d3037d2c6f885793'
@@ -27,7 +27,7 @@ category: People
 
 # Wang Chi-lin and Lee Yang (The Lin-Yang Duo)
 
-On the evening of July 31, 2021, inside Tokyo's Musashino Forest Sport Plaza, Wang Chi-lin delivered a crushing smash that hit the court floor, finalizing the score at 2-0. He and Lee Yang embraced in tears as cheers erupted simultaneously from television screens across Taiwan—this was Taiwan's first Olympic gold medal in badminton history, written by two young men with completely different styles. At that moment, the name "Lin-Yang Duo" (麟洋配, _línyang pèi_) was officially inscribed in Taiwan's sports history.
+On the evening of July 31, 2021, inside Tokyo's Musashino Forest Sport Plaza, Wang Chi-lin delivered a crushing smash that hit the court floor, finalizing the score at 21-18, 21-12[^2][^3]. He and Lee Yang embraced in tears as cheers erupted simultaneously from television screens across Taiwan—this was Taiwan's first Olympic gold medal in badminton history[^1], written by two young men with completely different styles. At that moment, the name "Lin-Yang Duo" (麟洋配, _línyang pèi_) was officially inscribed in Taiwan's sports history.
 
 ## Two Different Badminton Journeys
 
@@ -96,3 +96,21 @@ And this chemistry and cooperation might be exactly the spirit Taiwan society ne
 - [tai-tzu-ying](/people/tai-tzu-ying): Taiwan's badminton queen, world number one record holder
 - [kuo-hsing-chun-olympic-weightlifting-champion](/people/kuo-hsing-chun-olympic-weightlifting-champion): Fellow Tokyo Olympic gold medalist
 - [yang-yung-wei-judo-olympic-silver](/people/yang-yung-wei-judo-olympic-silver): Tokyo Olympic judo silver medalist
+
+## References
+
+[^1]: [CNA: Lee Yang and Wang Chi-lin win Taiwan's first Olympic men's doubles gold](https://www.cna.com.tw/news/firstnews/202107315010.aspx) — Tokyo 2021 final report.
+
+[^2]: [Mirror Media: Gold from the group of death](https://www.mirrormedia.mg/story/20210731pol001) — 34-minute final and 21-18 / 21-12 scoreline.
+
+[^3]: [Yahoo Sports TW: Lin-Yang Duo Olympic final recap](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html) — Final vs Li/Liu.
+
+[^4]: [Wikipedia (zh): Wang Chi-lin](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F) — Biography and rankings.
+
+[^5]: [Wikipedia (zh): Lee Yang (badminton)](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>) — Biography and family background.
+
+[^6]: [Wikipedia: Badminton at the 2020 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_doubles) — Tokyo gold and unseeded champions.
+
+[^7]: [Wikipedia: Badminton at the 2024 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_doubles) — Paris title defense.
+
+[^8]: [ELLE TW: Lee Yang retirement feature](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/) — Post-Paris retirement announcement.

@@ -19,7 +19,7 @@ difficulty: 'beginner'
 readingTime: 12
 featured: true
 category: 'People'
-lastVerified: 2026-03-21
+lastVerified: 2026-05-19
 lastHumanReview: true
 translatedFrom: People/麟洋配.md
 sourceCommitSha: '4b6d28c5'
@@ -30,7 +30,7 @@ translatedAt: 2026-05-02T01:17:17+08:00
 
 # Wang Chi-lin y Lee Yang (la dupla "Lin-Yang")
 
-> **Resumen en 30 segundos:** El 31 de julio de 2021, la dupla masculina de bádminton "Lin-Yang" derrotó a la pareja china en la final olímpica de Tokio en solo 34 minutos, con un marcador de 21-18 y 21-12 en dos sets, conquistando la primera medalla de oro olímpica en la historia del bádminton taiwanés. De compañeros de secundaria a campeones mundiales, en 2024 revalidaron su título en los Juegos Olímpicos de París.
+> **Resumen en 30 segundos:** El 31 de julio de 2021, la dupla masculina de bádminton "Lin-Yang" derrotó a la pareja china en la final olímpica de Tokio en solo 34 minutos, con un marcador de 21-18 y 21-12 en dos sets, conquistando la primera medalla de oro olímpica en la historia del bádminton taiwanés[^1][^2][^3]. De compañeros de secundaria a campeones mundiales, en 2024 revalidaron su título en los Juegos Olímpicos de París[^7].
 
 El 31 de julio de 2021 a las 7:30 p.m., en el Complejo Deportivo Musashino Forest Sport Plaza de Tokio, el cronómetro se detuvo en 34 minutos.
 
@@ -236,9 +236,18 @@ Aunque Lee Yang ya se ha retirado, el nombre de la dupla Lin-Yang quedará vincu
 
 ## Referencias
 
-- [CNA: Lee Yang y Wang Chi-lin ganan la primera medalla de oro olímpica en dobles masculino de bádminton para Taiwán](https://www.cna.com.tw/news/firstnews/202107315010.aspx)
-- [Mirror Media: Una medalla de oro forjada en el infierno](https://www.mirrormedia.mg/story/20210731pol001)
-- [Yahoo Deportes: Crónica de la final olímpica de la dupla Lin-Yang](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html)
-- [Wikipedia: Wang Chi-lin](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F)
-- [Wikipedia: Lee Yang](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>)
-- [ELLE: Reportaje especial sobre la retirada de Lee Yang](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/)
+[^1]: [CNA: Lee Yang y Wang Chi-lin ganan la primera medalla de oro olímpica en dobles masculino de bádminton para Taiwán](https://www.cna.com.tw/news/firstnews/202107315010.aspx) — Final Tokio 2021.
+
+[^2]: [Mirror Media: Una medalla de oro forjada en el infierno](https://www.mirrormedia.mg/story/20210731pol001) — Final de 34 minutos, 21-18 / 21-12.
+
+[^3]: [Yahoo Deportes: Crónica de la final olímpica de la dupla Lin-Yang](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html) — Final contra Li/Liu.
+
+[^4]: [Wikipedia: Wang Chi-lin](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F) — Biografía y ranking.
+
+[^5]: [Wikipedia: Lee Yang](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>) — Biografía y familia.
+
+[^6]: [Wikipedia: Badminton at the 2020 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_doubles) — Oro en Tokio (verificación EN).
+
+[^7]: [Wikipedia: Badminton at the 2024 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_doubles) — Oro en París y defensa del título.
+
+[^8]: [ELLE: Reportaje especial sobre la retirada de Lee Yang](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/) — Retiro tras París.

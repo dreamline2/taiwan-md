@@ -23,11 +23,13 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:d3037d2c6f885793'
 sourceBodyHash: 'sha256:2c9db3cb9fda0ceb'
 translatedAt: '2026-04-15T17:32:22+08:00'
+lastVerified: '2026-05-19'
+lastHumanReview: true
 ---
 
 # 왕치린과 리양 (린양 페어)
 
-> **30초 요약:** 2021년 7월 31일, 배드민턴 남자복식 '린양 페어'는 도쿄올림픽 결승에서 단 34분 만에 21-18, 21-12로 중국 조합을 꺾어 타이완 배드민턴 역사상 첫 올림픽 금메달을 차지했다. 중학교 동창인 두 사람은 2024년 파리올림픽에서도 금메달을 지켜냈다.
+> **30초 요약:** 2021년 7월 31일, 배드민턴 남자복식 '린양 페어'는 도쿄올림픽 결승에서 단 34분 만에 21-18, 21-12로 중국 조합을 꺾어 타이완 배드민턴 역사상 첫 올림픽 금메달을 차지했다[^1][^2][^3]. 중학교 동창인 두 사람은 2024년 파리올림픽에서도 금메달을 지켜냈다[^7].
 
 2021년 7월 31일 오후 7시 30분, 도쿄 무사시노 포레스트 스포츠 플라자. 경기 시간표가 34분에 멈췄다.
 
@@ -233,9 +235,18 @@ translatedAt: '2026-04-15T17:32:22+08:00'
 
 ## 참고 자료
 
-- [中央社：李洋王齊麟奪台灣羽球男雙奧運首金](https://www.cna.com.tw/news/firstnews/202107315010.aspx)
-- [鏡週刊：地獄中搏出聖筊的金牌](https://www.mirrormedia.mg/story/20210731pol001)
-- [Yahoo體育：麟洋配東奧決賽戰報](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html)
-- [維基百科：王齊麟](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F)
-- [維基百科：李洋](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>)
-- [ELLE：李洋退役專題報導](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/)
+[^1]: [中央社：李洋王齊麟奪台灣羽球男雙奧運首金](https://www.cna.com.tw/news/firstnews/202107315010.aspx) — 2021-07-31 도쿄 올림픽 남자복식 결승; 타이완 배드민턴 사상 첫 올림픽 금메달.
+
+[^2]: [鏡週刊：地獄中搏出聖筊的金牌](https://www.mirrormedia.mg/story/20210731pol001) — 조별 패배 후 반등과 결승 34분·21-18／21-12 직선 승 기록.
+
+[^3]: [Yahoo 體育：麟洋配東奧決賽戰報](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html) — 결승 대 리쥔후이·류위천 스코어와 대회 맥락.
+
+[^4]: [維基百科：王齊麟](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F) — 출생·신장·세계 랭킹 및 대표팀 이력.
+
+[^5]: [維基百科：李洋（羽球）](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>) — 출생·본적·가족 배경·국제 성적.
+
+[^6]: [Wikipedia: Badminton at the 2020 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_doubles) — 도쿄 올림픽 남복 금메달·결승 스코어·비시드 우승 기록(영문 교차 확인).
+
+[^7]: [Wikipedia: Badminton at the 2024 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_doubles) — 파리 올림픽 남복 금메달·연속 우승(영문 교차 확인).
+
+[^8]: [ELLE：李洋退役專題報導](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/) — 파리 올림픽 후 리양 은퇴 선언 및 경력 회고.

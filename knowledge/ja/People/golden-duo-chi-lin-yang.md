@@ -8,7 +8,7 @@ subcategory: '體育'
 tags:
   ['運動員', '王齊麟', '李洋', '麟洋配', '羽球', '東京奧運', '巴黎奧運', '金牌']
 readingTime: 12
-lastVerified: 2026-03-21
+lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'People/麟洋配.md'
@@ -20,7 +20,7 @@ translatedAt: '2026-05-01T18:02:56+08:00'
 
 # 王齊麟と李洋（麟洋配）
 
-> **30秒概要：** 2021年7月31日、バドミントン男子ダブルスの「麟洋配」が東京オリンピック決勝でわずか34分、21-18、21-12で中国ペアをストレートで破り、台湾バドミントン史上初のオリンピック金メダルを獲得しました。中学の同級生から世界王者へ、2024年パリオリンピックでも連覇を達成しました。
+> **30秒概要：** 2021年7月31日、バドミントン男子ダブルスの「麟洋配」が東京オリンピック決勝でわずか34分、21-18、21-12で中国ペアをストレートで破り、台湾バドミントン史上初のオリンピック金メダルを獲得しました[^1][^2][^3]。中学の同級生から世界王者へ、2024年パリオリンピックでも連覇を達成しました[^7]。
 
 2021年7月31日午後7時30分、東京・武蔵野の森総合スポーツプラザ。試合のタイマーが34分で止まりました。
 
@@ -226,9 +226,18 @@ translatedAt: '2026-05-01T18:02:56+08:00'
 
 ## 参考資料
 
-- [中央社：李洋・王齊麟、台湾バドミントン男子ダブルス初のオリンピック金メダルを獲得](https://www.cna.com.tw/news/firstnews/202107315010.aspx)
-- [鏡週刊：地獄から勝ち取った金メダル](https://www.mirrormedia.mg/story/20210731pol001)
-- [Yahooスポーツ：麟洋配東京オリンピック決勝レポート](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html)
-- [ウィキペディア：王齊麟](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F)
-- [ウィキペディア：李洋](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>)
-- [ELLE：李洋引退特集記事](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/)
+[^1]: [中央社：李洋・王齊麟、台湾バドミントン男子ダブルス初のオリンピック金メダルを獲得](https://www.cna.com.tw/news/firstnews/202107315010.aspx) — 2021年7月31日・東京決勝。
+
+[^2]: [鏡週刊：地獄から勝ち取った金メダル](https://www.mirrormedia.mg/story/20210731pol001) — 34分・21-18／21-12。
+
+[^3]: [Yahooスポーツ：麟洋配東京オリンピック決勝レポート](https://tw.sports.yahoo.com/news/%E6%9D%B1%E5%A5%A7%E7%BE%BD%E7%90%83%E7%94%B7%E9%9B%99%E9%87%91%E7%89%8C%E6%88%B0-%E3%80%8C%E9%BA%9F%E6%B4%8B%E9%85%8D%E3%80%8D-1930-%E5%B0%8D%E6%B1%BA%E5%A4%A7%E9%99%B8%E7%B5%84%E5%90%88%E6%9D%8E%E4%BF%8A%E6%85%A7%E3%80%81%E5%8A%89%E9%9B%A8%E8%BE%B0-013649260.html) — 李俊慧・劉雨辰戦。
+
+[^4]: [ウィキペディア：王齊麟](https://zh.wikipedia.org/zh-tw/%E7%8E%8B%E9%BD%8A%E9%BA%9F) — 生年月日・身長・ランキング。
+
+[^5]: [ウィキペディア：李洋](<https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B_(%E7%BE%BD%E7%90%83%E9%81%8B%E5%8B%95%E5%93%A1)>) — 生年月日・本籍・家族。
+
+[^6]: [Wikipedia: Badminton at the 2020 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_doubles) — 東京金メダル（英語で交叉確認）。
+
+[^7]: [Wikipedia: Badminton at the 2024 Summer Olympics – Men's doubles](https://en.wikipedia.org/wiki/Badminton_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_doubles) — パリ連覇。
+
+[^8]: [ELLE：李洋引退特集記事](https://www.elle.com/tw/entertainment/voice/g61759440/2024-olmpics-lee-yang-chi-lin-wang-of-chinese-taipei/) — パリ後の引退表明。
