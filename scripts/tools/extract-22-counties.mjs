@@ -33,8 +33,10 @@ const CORE_CONTRADICTIONS = {
   彰化縣: '打敗過杜邦，留不住年輕人的農業大縣',
   雲林縣: '宜蘭選擇不要的，雲林用三十年的肺換下來',
   金門縣: '1949 年那 56 小時，決定了金門 75 年的命運——也決定了台灣',
-  南投縣: '台灣最深的傷口都在這裡，震央在集集，賽德克的血在霧社，省政府的形在中興新村',
-  新竹市: '1733 年種竹為城的竹塹，1980 年長出台積電的搖籃，同一座風城，差了 247 年',
+  南投縣:
+    '台灣最深的傷口都在這裡，震央在集集，賽德克的血在霧社，省政府的形在中興新村',
+  新竹市:
+    '1733 年種竹為城的竹塹，1980 年長出台積電的搖籃，同一座風城，差了 247 年',
   桃園市: '台灣的進出口、最多的客家人、最多的移工，全在這塊台地上',
   臺南市: '261 年首府、400 年古蹟、21 世紀晶片，疊在同一片土地上',
   高雄市: '1979 同一年升格直轄市，也爆發了美麗島事件',
@@ -68,7 +70,78 @@ const summarize = (desc, maxLen = 80) => {
   return summary.trim() + (summary.endsWith('…') ? '' : '。');
 };
 
-async function main() {
+const SHIP_ORDER = [
+  '基隆市',
+  '嘉義市',
+  '連江縣',
+  '澎湖縣',
+  '宜蘭縣',
+  '苗栗縣',
+  '新竹縣',
+  '嘉義縣',
+  '屏東縣',
+  '花蓮縣',
+  '臺東縣',
+  '彰化縣',
+  '雲林縣',
+  '金門縣',
+  '南投縣',
+  '新竹市',
+  '桃園市',
+  '臺南市',
+  '高雄市',
+  '臺北市',
+  '臺中市',
+  '新北市',
+];
+
+const orderCounties = (counties) => {
+  const ordered = {};
+  for (const name of SHIP_ORDER) {
+    if (counties[name]) ordered[name] = counties[name];
+  }
+  return ordered;
+};
+
+/** 從 ko 文章 title 抽出核心矛盾（冒號後或 em dash 前） */
+const extractKoContradiction = (title) => {
+  if (!title) return '';
+  if (title.includes(':')) {
+    return title.split(':').slice(1).join(':').trim();
+  }
+  if (title.includes(' — ')) {
+    return title.split(' — ')[0].trim();
+  }
+  return title.trim();
+};
+
+/** 側欄 / route 顯示用韓文縣市名 */
+const extractKoDisplayName = (title, tags = []) => {
+  if (!title) {
+    return tags.find((t) => /(시|현)$/.test(t)) || tags[0] || '';
+  }
+  if (title.includes(':')) {
+    return title.split(':')[0].trim();
+  }
+  if (title.includes(' — ')) {
+    const tail = title.split(' — ')[1] || '';
+    const stripped = tail.replace(/\([^)]+\)/g, '').trim();
+    if (stripped)
+      return stripped.endsWith('시') || stripped.endsWith('현')
+        ? stripped
+        : `${stripped}시`;
+    return tags.find((t) => /(시|현)$/.test(t)) || tags[0] || '';
+  }
+  return tags.find((t) => /(시|현)$/.test(t)) || tags[0] || title.trim();
+};
+
+const zhSourceFromTranslated = (translatedFrom) => {
+  if (!translatedFrom || typeof translatedFrom !== 'string') return null;
+  const base = translatedFrom.replace(/^Geography\//, '').replace(/\.md$/, '');
+  return canonicalName(base);
+};
+
+async function buildZhCounties() {
   const geoDir = join(REPO_ROOT, 'knowledge', 'Geography');
   const files = await readdir(geoDir);
   const counties = {};
@@ -76,8 +149,6 @@ async function main() {
   for (const file of files) {
     if (!file.endsWith('.md')) continue;
     const slug = file.replace(/\.md$/, '');
-
-    // 只處理 22 縣市（跳過其他 Geography 文章如「台灣地理」等）
     const canonical = canonicalName(slug);
     if (!(canonical in CORE_CONTRADICTIONS)) continue;
 
@@ -101,30 +172,74 @@ async function main() {
     };
   }
 
-  // 排序：依 ship 順序（pilot 基隆先，finale 新北最後）
-  const SHIP_ORDER = [
-    '基隆市', '嘉義市', '連江縣', '澎湖縣', '宜蘭縣',
-    '苗栗縣', '新竹縣', '嘉義縣', '屏東縣', '花蓮縣',
-    '臺東縣', '彰化縣', '雲林縣', '金門縣', '南投縣',
-    '新竹市', '桃園市', '臺南市', '高雄市', '臺北市',
-    '臺中市', '新北市',
-  ];
+  return orderCounties(counties);
+}
 
-  const ordered = {};
+async function buildKoCounties() {
+  const geoDir = join(REPO_ROOT, 'knowledge', 'ko', 'Geography');
+  const files = await readdir(geoDir);
+  const counties = {};
+
+  for (const file of files) {
+    if (!file.endsWith('.md')) continue;
+    const slug = file.replace(/\.md$/, '');
+    const content = await readFile(join(geoDir, file), 'utf-8');
+    const { data } = matter(content);
+    const canonical = zhSourceFromTranslated(data.translatedFrom);
+    if (!canonical || !(canonical in CORE_CONTRADICTIONS)) continue;
+
+    const title = data.title || '';
+    counties[canonical] = {
+      slug,
+      displayName: extractKoDisplayName(title, data.tags || []),
+      title,
+      description: data.description || '',
+      shortDesc: summarize(data.description),
+      core_contradiction: extractKoContradiction(title),
+      hero: data.image || '',
+      heroCredit: data.imageCredit || '',
+      heroLicense: data.imageLicense || '',
+      heroSource: data.imageSource || '',
+      link: `/ko/geography/${slug}`,
+      tags: data.tags || [],
+      readingTime: data.readingTime || null,
+      series: data.series || '22현시 시리즈',
+    };
+  }
+
+  return orderCounties(counties);
+}
+
+async function main() {
+  const zh = await buildZhCounties();
+  const ko = await buildKoCounties();
+
+  // ko frontmatter 常缺 hero 圖 — 沿用 zh 縣市條目的 Wikimedia hero
   for (const name of SHIP_ORDER) {
-    if (counties[name]) {
-      ordered[name] = counties[name];
+    if (ko[name] && zh[name]?.hero && !ko[name].hero) {
+      ko[name].hero = zh[name].hero;
+      ko[name].heroCredit = zh[name].heroCredit;
+      ko[name].heroLicense = zh[name].heroLicense;
+      ko[name].heroSource = zh[name].heroSource;
     }
   }
 
-  const missing = SHIP_ORDER.filter((n) => !ordered[n]);
-  if (missing.length > 0) {
-    console.warn(`⚠️  缺少 ${missing.length} 篇：${missing.join(', ')}`);
+  const missingZh = SHIP_ORDER.filter((n) => !zh[n]);
+  if (missingZh.length > 0) {
+    console.warn(`⚠️  zh 缺少 ${missingZh.length} 篇：${missingZh.join(', ')}`);
   }
 
-  const outPath = join(REPO_ROOT, 'src', 'data', 'counties-22.json');
-  await writeFile(outPath, JSON.stringify(ordered, null, 2));
-  console.log(`✅ 寫出 ${Object.keys(ordered).length}/22 縣市資料到 ${outPath}`);
+  const missingKo = SHIP_ORDER.filter((n) => !ko[n]);
+  if (missingKo.length > 0) {
+    console.warn(`⚠️  ko 缺少 ${missingKo.length} 篇：${missingKo.join(', ')}`);
+  }
+
+  const zhPath = join(REPO_ROOT, 'src', 'data', 'counties-22.json');
+  const koPath = join(REPO_ROOT, 'src', 'data', 'counties-22.ko.json');
+  await writeFile(zhPath, JSON.stringify(zh, null, 2));
+  await writeFile(koPath, JSON.stringify(ko, null, 2));
+  console.log(`✅ 寫出 ${Object.keys(zh).length}/22 縣市 → ${zhPath}`);
+  console.log(`✅ 寫出 ${Object.keys(ko).length}/22 縣市 → ${koPath}`);
 }
 
 main().catch((err) => {

@@ -1,196 +1,75 @@
+import type { Lang } from '../types';
 import { useTranslations } from '../i18n/utils';
+import counties22Zh from '../data/counties-22.json';
+import counties22Ko from '../data/counties-22.ko.json';
 
-// 22 縣市系列 route — Tier 1 evolution（hard-coded coords，pending Tier 2 lat/lon frontmatter）
-const COUNTIES_22_ROUTE = {
-  id: 'counties22',
-  name: '📍 22 縣市深度文章',
-  description:
-    '走訪 Taiwan.md 22 篇縣市深度文章，從基隆 pilot 到新北 finale — 每個縣市一條核心矛盾。',
-  color: '#16a34a',
-  // ship 順序：pilot 基隆 → finale 新北
-  stops: [
-    {
-      id: 'c22-keelung',
-      name: '基隆市',
-      lat: 25.131,
-      lng: 121.741,
-      note: '離台北最近的港口，最被台北看不見',
-      link: '/geography/基隆市',
-    },
-    {
-      id: 'c22-chiayi-city',
-      name: '嘉義市',
-      lat: 23.477,
-      lng: 120.452,
-      note: '被皇帝賜名嘉義，卻成了最容易被略過的省轄市',
-      link: '/geography/嘉義市',
-    },
-    {
-      id: 'c22-lienchiang',
-      name: '連江縣',
-      lat: 26.158,
-      lng: 119.951,
-      note: '離台灣最遠的縣，是離冷戰最近的縣',
-      link: '/geography/連江縣',
-    },
-    {
-      id: 'c22-penghu',
-      name: '澎湖縣',
-      lat: 23.566,
-      lng: 119.563,
-      note: '兩次拒博弈，澎湖選擇的不是清貧',
-      link: '/geography/澎湖縣',
-    },
-    {
-      id: 'c22-yilan',
-      name: '宜蘭縣',
-      lat: 24.752,
-      lng: 121.755,
-      note: '兩次選擇了自己的命運，蘭陽平原從此沒回頭',
-      link: '/geography/宜蘭縣',
-    },
-    {
-      id: 'c22-miaoli',
-      name: '苗栗縣',
-      lat: 24.561,
-      lng: 120.821,
-      note: '客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長',
-      link: '/geography/苗栗縣',
-    },
-    {
-      id: 'c22-hsinchu-county',
-      name: '新竹縣',
-      lat: 24.836,
-      lng: 121.012,
-      note: '235 年義民信仰與全台第一人均所得，同住頭前溪',
-      link: '/geography/新竹縣',
-    },
-    {
-      id: 'c22-chiayi-county',
-      name: '嘉義縣',
-      lat: 23.452,
-      lng: 120.685,
-      note: '49 萬人把全國的臉借給阿里山，自己卻找不到臉',
-      link: '/geography/嘉義縣',
-    },
-    {
-      id: 'c22-pingtung',
-      name: '屏東縣',
-      lat: 22.668,
-      lng: 120.488,
-      note: '國家命運轉折發生在這裡，台北從來沒怎麼記得',
-      link: '/geography/屏東縣',
-    },
-    {
-      id: 'c22-hualien',
-      name: '花蓮縣',
-      lat: 23.987,
-      lng: 121.601,
-      note: '129 年隱身撒奇萊雅族，用正名換回的太魯閣，0403 又遠去',
-      link: '/geography/花蓮縣',
-    },
-    {
-      id: 'c22-taitung',
-      name: '臺東縣',
-      lat: 22.755,
-      lng: 121.144,
-      note: '兩個離島，一個關了 36 年政治犯，一個存了 42 年核廢料',
-      link: '/geography/台東縣',
-    },
-    {
-      id: 'c22-changhua',
-      name: '彰化縣',
-      lat: 24.075,
-      lng: 120.543,
-      note: '打敗過杜邦，留不住年輕人的農業大縣',
-      link: '/geography/彰化縣',
-    },
-    {
-      id: 'c22-yunlin',
-      name: '雲林縣',
-      lat: 23.706,
-      lng: 120.434,
-      note: '宜蘭選擇不要的，雲林用三十年的肺換下來',
-      link: '/geography/雲林縣',
-    },
-    {
-      id: 'c22-kinmen',
-      name: '金門縣',
-      lat: 24.448,
-      lng: 118.317,
-      note: '1949 那 56 小時，決定金門 75 年的命運——也決定了台灣',
-      link: '/geography/金門縣',
-    },
-    {
-      id: 'c22-nantou',
-      name: '南投縣',
-      lat: 23.961,
-      lng: 120.972,
-      note: '震央在集集，賽德克的血在霧社，省政府的形在中興新村',
-      link: '/geography/南投縣',
-    },
-    {
-      id: 'c22-hsinchu-city',
-      name: '新竹市',
-      lat: 24.804,
-      lng: 120.969,
-      note: '1733 種竹為城的竹塹，1980 長出台積電的搖籃，差了 247 年',
-      link: '/geography/新竹市',
-    },
-    {
-      id: 'c22-taoyuan',
-      name: '桃園市',
-      lat: 24.993,
-      lng: 121.301,
-      note: '台灣的進出口、最多的客家、最多的移工，全在這塊台地',
-      link: '/geography/桃園市',
-    },
-    {
-      id: 'c22-tainan',
-      name: '臺南市',
-      lat: 22.992,
-      lng: 120.221,
-      note: '261 年首府、400 年古蹟、21 世紀晶片，疊在同一片土地',
-      link: '/geography/台南市',
-    },
-    {
-      id: 'c22-kaohsiung',
-      name: '高雄市',
-      lat: 22.627,
-      lng: 120.302,
-      note: '1979 同一年升格直轄市，也爆發了美麗島事件',
-      link: '/geography/高雄市',
-    },
-    {
-      id: 'c22-taipei',
-      name: '臺北市',
-      lat: 25.038,
-      lng: 121.564,
-      note: '萬華 1738 / 大稻埕 1885 / 信義 2004——12 區活在不同世紀',
-      link: '/geography/台北市',
-    },
-    {
-      id: 'c22-taichung',
-      name: '臺中市',
-      lat: 24.144,
-      lng: 120.679,
-      note: '1887 差點當首都，2010 才升格直轄市，等了 123 年',
-      link: '/geography/台中市',
-    },
-    {
-      id: 'c22-new-taipei',
-      name: '新北市',
-      lat: 25.012,
-      lng: 121.466,
-      note: '包圍台北的環狀都會，1629 紅毛城比台北建城早 200 年',
-      link: '/geography/新北市',
-    },
-  ],
+// 22 縣市系列 route — coords + canonical key（顯示文字來自 counties-22*.json）
+const COUNTIES_22_COORDS = [
+  { id: 'c22-keelung', canonical: '基隆市', lat: 25.131, lng: 121.741 },
+  { id: 'c22-chiayi-city', canonical: '嘉義市', lat: 23.477, lng: 120.452 },
+  { id: 'c22-lienchiang', canonical: '連江縣', lat: 26.158, lng: 119.951 },
+  { id: 'c22-penghu', canonical: '澎湖縣', lat: 23.566, lng: 119.563 },
+  { id: 'c22-yilan', canonical: '宜蘭縣', lat: 24.752, lng: 121.755 },
+  { id: 'c22-miaoli', canonical: '苗栗縣', lat: 24.561, lng: 120.821 },
+  { id: 'c22-hsinchu-county', canonical: '新竹縣', lat: 24.836, lng: 121.012 },
+  { id: 'c22-chiayi-county', canonical: '嘉義縣', lat: 23.452, lng: 120.685 },
+  { id: 'c22-pingtung', canonical: '屏東縣', lat: 22.668, lng: 120.488 },
+  { id: 'c22-hualien', canonical: '花蓮縣', lat: 23.987, lng: 121.601 },
+  { id: 'c22-taitung', canonical: '臺東縣', lat: 22.755, lng: 121.144 },
+  { id: 'c22-changhua', canonical: '彰化縣', lat: 24.075, lng: 120.543 },
+  { id: 'c22-yunlin', canonical: '雲林縣', lat: 23.706, lng: 120.434 },
+  { id: 'c22-kinmen', canonical: '金門縣', lat: 24.448, lng: 118.317 },
+  { id: 'c22-nantou', canonical: '南投縣', lat: 23.916, lng: 120.684 },
+  { id: 'c22-hsinchu-city', canonical: '新竹市', lat: 24.804, lng: 120.971 },
+  { id: 'c22-taoyuan', canonical: '桃園市', lat: 24.994, lng: 121.301 },
+  { id: 'c22-tainan', canonical: '臺南市', lat: 22.999, lng: 120.227 },
+  { id: 'c22-kaohsiung', canonical: '高雄市', lat: 22.627, lng: 120.301 },
+  { id: 'c22-taipei', canonical: '臺北市', lat: 25.033, lng: 121.565 },
+  { id: 'c22-taichung', canonical: '臺中市', lat: 24.144, lng: 120.679 },
+  { id: 'c22-new-taipei', canonical: '新北市', lat: 25.012, lng: 121.466 },
+] as const;
+
+function buildCounties22Route(
+  t: ReturnType<typeof useTranslations>,
+  lang: Lang,
+) {
+  const countiesData =
+    lang === 'ko'
+      ? (counties22Ko as Record<string, County22Entry>)
+      : (counties22Zh as Record<string, County22Entry>);
+
+  return {
+    id: 'counties22',
+    name: t('map.routes.counties22.name'),
+    description: t('map.routes.counties22.description'),
+    color: '#16a34a',
+    stops: COUNTIES_22_COORDS.map((stop) => {
+      const county = countiesData[stop.canonical];
+      const displayName = county?.displayName || stop.canonical;
+      return {
+        id: stop.id,
+        name: displayName,
+        lat: stop.lat,
+        lng: stop.lng,
+        note: county?.core_contradiction || '',
+        link: county?.link || `/geography/${stop.canonical}`,
+      };
+    }),
+  };
+}
+
+type County22Entry = {
+  displayName?: string;
+  core_contradiction?: string;
+  link?: string;
 };
 
-export function getMapRoutes(t: ReturnType<typeof useTranslations>) {
+export function getMapRoutes(
+  t: ReturnType<typeof useTranslations>,
+  lang: Lang,
+) {
   return [
-    COUNTIES_22_ROUTE,
+    buildCounties22Route(t, lang),
     {
       id: 'nightMarkets',
       name: t('map.routes.nightMarkets.name'),

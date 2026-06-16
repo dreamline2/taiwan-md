@@ -100,6 +100,16 @@ export const mapUI = {
     'map.routes.oldStreets.description':
       'Taiwanese memories in century-old streets, architecture as history',
 
+    'map.routes.counties22.name': '📍 22 Counties Deep Dive',
+    'map.routes.counties22.description':
+      'Walk through Taiwan.md’s 22 county deep-dives — one core contradiction per place, from Keelung pilot to New Taipei finale.',
+    'map.counties22.panel.title': '📍 22 Counties Deep Dive',
+    'map.counties22.panel.hint':
+      'Open a county card here, or click a county on the map',
+    'map.counties22.tooltip.openDeep': 'Click to open deep-dive article',
+    'map.counties22.deepCard.badge': '📖 22 Counties Series · Deep Dive',
+    'map.counties22.deepCard.cta': 'Read full article →',
+
     // Night Markets Stops
     'map.stops.shilinNightMarket.name': 'Shilin Night Market',
     'map.stops.shilinNightMarket.note':
@@ -1559,6 +1569,16 @@ export const mapUI = {
     'map.routes.oldStreets.description':
       '백 년 된 거리 속 대만의 기억, 건축이 곧 역사',
 
+    'map.routes.counties22.name': '📍 22개 현·시 심층 기사',
+    'map.routes.counties22.description':
+      'Taiwan.md 22편의 현·시 심층 기사를 따라가며, 지롱 파일럿부터 신베이 피날레까지 — 현·시마다 하나의 핵심 모순.',
+    'map.counties22.panel.title': '📍 22개 현·시 심층 기사',
+    'map.counties22.panel.hint':
+      '현·시 카드를 누르거나 지도에서 현·시를 클릭해 기사를 탐색하세요',
+    'map.counties22.tooltip.openDeep': '클릭하여 심층 기사 열기',
+    'map.counties22.deepCard.badge': '📖 22현시 시리즈 · 심층 기사',
+    'map.counties22.deepCard.cta': '전문 읽기 →',
+
     // Night Markets Stops
     'map.stops.shilinNightMarket.name': '스린 야시장',
     'map.stops.shilinNightMarket.note':
@@ -2252,6 +2272,15 @@ export const mapUI = {
     'map.routes.historyTrail.description': '從荷蘭殖民到民主化，走過台灣四百年',
     'map.routes.oldStreets.name': '🏮 老街漫遊',
     'map.routes.oldStreets.description': '百年街道裡的台灣記憶，建築即歷史',
+
+    'map.routes.counties22.name': '📍 22 縣市深度文章',
+    'map.routes.counties22.description':
+      '走訪 Taiwan.md 22 篇縣市深度文章，從基隆 pilot 到新北 finale — 每個縣市一條核心矛盾。',
+    'map.counties22.panel.title': '📍 22 縣市深度文章',
+    'map.counties22.panel.hint': '點縣市卡開啟，或從地圖點縣市',
+    'map.counties22.tooltip.openDeep': '點擊開啟深度文章',
+    'map.counties22.deepCard.badge': '📖 22 縣市系列 · 深度文章',
+    'map.counties22.deepCard.cta': '閱讀全文 →',
 
     // Night Markets Stops
     'map.stops.shilinNightMarket.name': '士林夜市',

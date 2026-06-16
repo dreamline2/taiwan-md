@@ -3,14 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import markersData from '../data/map-markers.json';
-import counties22Data from '../data/counties-22.json';
+import counties22Zh from '../data/counties-22.json';
+import counties22Ko from '../data/counties-22.ko.json';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import { getMapRoutes } from '../utils/mapConfig';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-const routesData = getMapRoutes(t);
+const counties22Data = lang === 'ko' ? counties22Ko : counties22Zh;
+const routesData = getMapRoutes(t, lang);
 ---
 
 <Layout
@@ -135,41 +137,90 @@ const routesData = getMapRoutes(t);
             <svg id="taiwanMap" viewBox="0 0 800 1000" class="taiwan-svg">
               <defs>
                 <!-- 海洋漸層背景 -->
-                <linearGradient id="seaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="seaGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#e0f2fe"></stop>
                   <stop offset="50%" stop-color="#bae6fd"></stop>
                   <stop offset="100%" stop-color="#7dd3fc"></stop>
                 </linearGradient>
                 <!-- 五區色彩 palette（north / central / south / east / islands）-->
-                <linearGradient id="regionNorth" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="regionNorth"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#fef3c7"></stop>
                   <stop offset="100%" stop-color="#fde68a"></stop>
                 </linearGradient>
-                <linearGradient id="regionCentral" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="regionCentral"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#fed7aa"></stop>
                   <stop offset="100%" stop-color="#fdba74"></stop>
                 </linearGradient>
-                <linearGradient id="regionSouth" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="regionSouth"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#a7f3d0"></stop>
                   <stop offset="100%" stop-color="#6ee7b7"></stop>
                 </linearGradient>
-                <linearGradient id="regionEast" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="regionEast"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#bbf7d0"></stop>
                   <stop offset="100%" stop-color="#86efac"></stop>
                 </linearGradient>
-                <linearGradient id="regionIslands" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="regionIslands"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#ddd6fe"></stop>
                   <stop offset="100%" stop-color="#c4b5fd"></stop>
                 </linearGradient>
                 <!-- Legacy fallback gradient -->
-                <linearGradient id="taiwanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <linearGradient
+                  id="taiwanGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
                   <stop offset="0%" stop-color="#dcfce7"></stop>
                   <stop offset="50%" stop-color="#bbf7d0"></stop>
                   <stop offset="100%" stop-color="#86efac"></stop>
                 </linearGradient>
                 <!-- 紙感 drop shadow -->
-                <filter id="countyShadow" x="-10%" y="-10%" width="120%" height="120%">
-                  <feGaussianBlur in="SourceAlpha" stdDeviation="2"></feGaussianBlur>
+                <filter
+                  id="countyShadow"
+                  x="-10%"
+                  y="-10%"
+                  width="120%"
+                  height="120%"
+                >
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="2"
+                  ></feGaussianBlur>
                   <feOffset dx="0" dy="2" result="offsetblur"></feOffset>
                   <feComponentTransfer>
                     <feFuncA type="linear" slope="0.18"></feFuncA>
@@ -180,8 +231,19 @@ const routesData = getMapRoutes(t);
                   </feMerge>
                 </filter>
                 <!-- 海浪 pattern（淺紋）-->
-                <pattern id="wavePattern" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
-                  <path d="M0 10 Q 10 0, 20 10 T 40 10" stroke="rgba(56,189,248,0.18)" stroke-width="1" fill="none"></path>
+                <pattern
+                  id="wavePattern"
+                  x="0"
+                  y="0"
+                  width="40"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <path
+                    d="M0 10 Q 10 0, 20 10 T 40 10"
+                    stroke="rgba(56,189,248,0.18)"
+                    stroke-width="1"
+                    fill="none"></path>
                 </pattern>
               </defs>
 
@@ -196,16 +258,43 @@ const routesData = getMapRoutes(t);
               </g>
 
               <!-- Decorative compass rose top-right -->
-              <g class="map-compass" transform="translate(740, 60)" aria-hidden="true">
-                <circle r="22" fill="white" fill-opacity="0.7" stroke="#cbd5e1" stroke-width="1"></circle>
+              <g
+                class="map-compass"
+                transform="translate(740, 60)"
+                aria-hidden="true"
+              >
+                <circle
+                  r="22"
+                  fill="white"
+                  fill-opacity="0.7"
+                  stroke="#cbd5e1"
+                  stroke-width="1"></circle>
                 <path d="M0,-16 L4,0 L0,16 L-4,0 Z" fill="#0ea5e9"></path>
-                <text y="-22" text-anchor="middle" font-size="10" fill="#0369a1" font-weight="700">N</text>
+                <text
+                  y="-22"
+                  text-anchor="middle"
+                  font-size="10"
+                  fill="#0369a1"
+                  font-weight="700">N</text
+                >
               </g>
 
               <!-- Decorative title bottom-left -->
-              <g class="map-title-overlay" transform="translate(40, 950)" aria-hidden="true">
-                <text font-size="28" font-weight="900" fill="#1e3a8a" font-family="-apple-system, 'Noto Serif TC', serif">台灣 TAIWAN</text>
-                <text y="20" font-size="11" fill="#0369a1" letter-spacing="2">22 COUNTIES · 16 INDIGENOUS GROUPS</text>
+              <g
+                class="map-title-overlay"
+                transform="translate(40, 950)"
+                aria-hidden="true"
+              >
+                <text
+                  font-size="28"
+                  font-weight="900"
+                  fill="#1e3a8a"
+                  font-family="-apple-system, 'Noto Serif TC', serif"
+                  >台灣 TAIWAN</text
+                >
+                <text y="20" font-size="11" fill="#0369a1" letter-spacing="2"
+                  >22 COUNTIES · 16 INDIGENOUS GROUPS</text
+                >
               </g>
             </svg>
 
@@ -285,11 +374,7 @@ const routesData = getMapRoutes(t);
             </div>
 
             <!-- 策展路線狀態：route description + stop cards -->
-            <div
-              class="sidebar-route"
-              id="sidebarRoute"
-              style="display: none;"
-            >
+            <div class="sidebar-route" id="sidebarRoute" style="display: none;">
               <div class="sidebar-header">
                 <button
                   class="clear-selection-btn"
@@ -1217,6 +1302,11 @@ const routesData = getMapRoutes(t);
     i18n_moreArticles: t('map.sidebar.more-articles'),
     i18n_moreArticlesSuffix: t('map.sidebar.more-articles-suffix'),
     i18n_articlesCount: t('map.sidebar.county.articles-count'),
+    i18n_counties22Title: t('map.counties22.panel.title'),
+    i18n_counties22Hint: t('map.counties22.panel.hint'),
+    i18n_counties22OpenDeep: t('map.counties22.tooltip.openDeep'),
+    i18n_counties22Badge: t('map.counties22.deepCard.badge'),
+    i18n_counties22Cta: t('map.counties22.deepCard.cta'),
     categoryNames: {
       history: t('map.category.history'),
       geography: t('map.category.geography'),
@@ -1375,7 +1465,10 @@ const routesData = getMapRoutes(t);
           east: '#22c55e',
           islands: '#8b5cf6',
         };
-        path.setAttribute('fill', REGION_FILL[region] || 'url(#taiwanGradient)');
+        path.setAttribute(
+          'fill',
+          REGION_FILL[region] || 'url(#taiwanGradient)',
+        );
         path.setAttribute('stroke', REGION_STROKE[region] || '#4ade80');
         path.setAttribute('stroke-width', '1.1');
         path.setAttribute('data-county', countyName);
@@ -1394,7 +1487,7 @@ const routesData = getMapRoutes(t);
             tooltip.querySelector('.tooltip-category').textContent =
               '📖 ' + deepArticle.core_contradiction;
             tooltip.querySelector('.tooltip-desc').textContent =
-              `${markerCount} ${i18n_tooltipArticles} · 點擊開啟深度文章`;
+              `${markerCount} ${i18n_tooltipArticles} · ${i18n_counties22OpenDeep}`;
           } else {
             // fallback: 原始 marker 數字 tooltip
             tooltip.querySelector('.tooltip-category').textContent =
@@ -1433,14 +1526,20 @@ const routesData = getMapRoutes(t);
         g.setAttribute('data-desc', m.desc);
         g.setAttribute('transform', `translate(${x}, ${y})`);
 
-        const outer = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        const outer = document.createElementNS(
+          'http://www.w3.org/2000/svg',
+          'circle',
+        );
         outer.setAttribute('r', '6.5');
         outer.setAttribute('fill', 'white');
         outer.setAttribute('stroke', color);
         outer.setAttribute('stroke-width', '1.5');
         g.appendChild(outer);
 
-        const inner = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        const inner = document.createElementNS(
+          'http://www.w3.org/2000/svg',
+          'circle',
+        );
         inner.setAttribute('r', '3.5');
         inner.setAttribute('fill', color);
         g.appendChild(inner);
@@ -1717,18 +1816,20 @@ const routesData = getMapRoutes(t);
   // T1.4 22 縣市 grid panel（default sidebar 頂端）
   function render22CountiesGrid() {
     const items = Object.entries(counties22)
-      .map(([name, data]) => `
+      .map(
+        ([name, data]) => `
         <button class="county-grid-card" data-county-name="${name}" title="${data.title}">
-          <span class="county-grid-name">${name}</span>
+          <span class="county-grid-name">${data.displayName || name}</span>
           <span class="county-grid-contradiction">${data.core_contradiction}</span>
         </button>
-      `)
+      `,
+      )
       .join('');
     return `
       <div class="counties-22-panel">
         <div class="counties-22-header">
-          <h4>📍 22 縣市深度文章</h4>
-          <span class="counties-22-hint">點縣市卡開啟，或從地圖點縣市</span>
+          <h4>${i18n_counties22Title}</h4>
+          <span class="counties-22-hint">${i18n_counties22Hint}</span>
         </div>
         <div class="counties-22-grid">
           ${items}
@@ -1759,9 +1860,11 @@ const routesData = getMapRoutes(t);
     // T1.4 22 縣市 grid 在最上方
     const counties22HTML = render22CountiesGrid();
 
-    container.innerHTML = counties22HTML + sortedCategories
-      .map(
-        ([category, articles]) => `
+    container.innerHTML =
+      counties22HTML +
+      sortedCategories
+        .map(
+          ([category, articles]) => `
       <div class="category-group">
         <div class="category-group-header">
           <span class="article-category-dot" style="background: ${categoryColors[category] || '#16a34a'}"></span>
@@ -1787,8 +1890,8 @@ const routesData = getMapRoutes(t);
         ${articles.length > 4 ? `<div style="color:#999;font-size:0.8rem;margin:8px 0;">${i18n_moreArticles} ${articles.length - 4} ${i18n_moreArticlesSuffix}</div>` : ''}
       </div>
     `,
-      )
-      .join('');
+        )
+        .join('');
 
     // 添加點擊事件
     container.querySelectorAll('.sidebar-article-item').forEach((item) => {
@@ -1817,7 +1920,8 @@ const routesData = getMapRoutes(t);
         } else {
           // fallback: 開新分頁
           const data = counties22[countyName];
-          if (data) window.open(data.link, '_blank', 'noopener');
+          if (data)
+            window.open(localizePathForPage(data.link), '_blank', 'noopener');
         }
       });
     });
@@ -1916,14 +2020,14 @@ const routesData = getMapRoutes(t);
       ? `${deep.readingTime} ${i18n_readingTime}`
       : '';
     return `
-      <a class="deep-article-card" href="${deep.link}" target="_blank" rel="noopener noreferrer">
+      <a class="deep-article-card" href="${localizePathForPage(deep.link)}" target="_blank" rel="noopener noreferrer">
         ${heroHTML}
         <div class="deep-card-body">
-          <span class="deep-card-badge">📖 22 縣市系列 · 深度文章</span>
+          <span class="deep-card-badge">${i18n_counties22Badge}</span>
           <h4 class="deep-card-title">${deep.title}</h4>
           <p class="deep-card-contradiction">${deep.core_contradiction}</p>
           <div class="deep-card-meta">
-            <span class="deep-card-cta">閱讀全文 →</span>
+            <span class="deep-card-cta">${i18n_counties22Cta}</span>
             ${readMin ? `<span class="deep-card-read">${readMin}</span>` : ''}
           </div>
         </div>
@@ -1953,16 +2057,15 @@ const routesData = getMapRoutes(t);
 
     if (articles.length === 0) {
       articlesContainer.innerHTML =
-        featuredHTML +
-        `<div class="no-articles">${i18n_noArticles}</div>`;
+        featuredHTML + `<div class="no-articles">${i18n_noArticles}</div>`;
       return;
     }
 
     articlesContainer.innerHTML =
       featuredHTML +
       articles
-      .map(
-        (article) => `
+        .map(
+          (article) => `
       <div class="sidebar-article-item article-card" data-link="${article.link}" data-title="${article.title}"
            data-desc="${article.desc}" data-category="${article.category}">
         <span class="article-card-dot" style="background: ${categoryColors[article.category] || '#16a34a'}"></span>
@@ -1973,8 +2076,8 @@ const routesData = getMapRoutes(t);
         </div>
       </div>
     `,
-      )
-      .join('');
+        )
+        .join('');
 
     // 添加點擊事件
     articlesContainer
@@ -2338,7 +2441,9 @@ const routesData = getMapRoutes(t);
       btn.style.setProperty('--route-color', route.color);
       // 拆 emoji 跟 label
       const match = route.name.match(/^(\p{Emoji}+\s*)(.*)$/u);
-      const emoji = match ? match[1].trim() : ROUTE_EMOJI_FALLBACK[route.id] || '📌';
+      const emoji = match
+        ? match[1].trim()
+        : ROUTE_EMOJI_FALLBACK[route.id] || '📌';
       const label = match ? match[2].trim() : route.name;
       const stopCount = route.stops?.length || 0;
       btn.innerHTML =
