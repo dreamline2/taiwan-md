@@ -255,6 +255,7 @@ const NON_ARTICLE_PATHS = new Set([
   'taiwan-shape',
   'semiont',
   'bench',
+  'elections',
 ]);
 
 function isArticlePagePath(basePath: string): boolean {
