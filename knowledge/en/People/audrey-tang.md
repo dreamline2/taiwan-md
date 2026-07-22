@@ -27,6 +27,8 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:6543b35dfb15923b'
 sourceBodyHash: 'sha256:f574bc1058bd407e'
 translatedAt: '2026-06-16T17:11:47Z'
+image: '/article-images/people/audrey-tang-portrait-2016.webp'
+imageCredit: 'Camille McOuat (Flickr / Wikimedia Commons, CC BY 2.0)'
 ---
 
 # Audrey Tang: Every Famous Decision She Has Made Has Been a Refusal of the Label “Genius”

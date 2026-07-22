@@ -25,6 +25,10 @@ sourceCommitSha: '196880b10'
 sourceContentHash: 'sha256:154106c14a84262b'
 sourceBodyHash: 'sha256:d87917b84c6a12b1'
 translatedAt: '2026-07-15T00:51:51+08:00'
+image: '/article-images/society/taipei-ximending-smoking-booth-2026.webp'
+imageCredit: '花花日報 / 記者章湘瑩'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://n.yam.com/Article/20260518246667'
 ---
 
 _Ximen MRT Exit 6, Taiwan’s first outdoor negative‑pressure smoking room: a black‑framed transparent glass box standing on the sidewalk. Photo: Hua Hua Daily / Reporter Chang Hsiang‑ying (fair use editorial commentary)._

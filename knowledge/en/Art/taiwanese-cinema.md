@@ -27,6 +27,10 @@ sourceCommitSha: 'd520299b'
 sourceContentHash: 'sha256:83c16fc3741fa4e4'
 sourceBodyHash: 'sha256:f474d40c72f846a7'
 translatedAt: '2026-07-06'
+image: '/article-images/art/tsai-ming-liang-lee-kang-sheng.webp'
+imageCredit: 'hinnk'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tsai_Ming-liang_and_Lee_Kang-sheng_(Days).jpg'
 ---
 
 # Taiwanese Cinema: The Person Speaking Beside the Screen, and a Film History That Died and Came Back to Life

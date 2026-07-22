@@ -25,6 +25,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:067149f437c5a573'
 sourceBodyHash: 'sha256:dcdc7781d0e5eb30'
 translatedAt: '2026-06-16T17:05:54Z'
+image: '/article-images/society/kariko-weissman-life-science-2022.webp'
+imageCredit: 'Thorne Media'
+imageLicense: 'CC BY 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg'
 ---
 
 ![Katalin Karikó et Drew Weissman recevant ensemble la médaille Life Science en 2022, posant devant un panneau, Karikó vêtue d’un tailleur rouge et Weissman d’un costume sombre](/article-images/society/kariko-weissman-life-science-2022.webp)

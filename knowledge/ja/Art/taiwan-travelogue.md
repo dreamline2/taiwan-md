@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:1be78dcd03c2e2ba'
 sourceBodyHash: 'sha256:f65ef91c0cd14c9b'
 translatedAt: '2026-06-16T17:04:12Z'
+image: '/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp'
+imageCredit: 'Bea Phi (Phibeatrice)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_at_the_2024_National_Book_Awards.jpg'
 ---
 
 ![楊双子が 2024 年 11 月 20 日、ニューヨークの全米図書賞授賞式で、濃色の上着を着てトロフィーの横に静かな表情で立っている](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)

@@ -24,6 +24,10 @@ sourceCommitSha: 'e1b5668ad'
 sourceContentHash: 'sha256:ccbab3f1822e47af'
 sourceBodyHash: 'sha256:ec031917f07c2762'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: /article-images/people/puma-shen-election-2024.webp
+imageCredit: 曾成訓 / Flickr
+imageLicense: CC BY 2.0
+imageSource: https://commons.wikimedia.org/wiki/File:Puma_Shen_in_2024_Taiwan_general_election.jpg
 ---
 
 # 선보양: 그는 중국의 인지전을 연구했고, 나중에 중국은 그를 위성 지도 위에 그려 넣었다

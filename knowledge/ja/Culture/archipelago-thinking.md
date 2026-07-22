@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:75c25926a0cdd0a8'
 sourceBodyHash: 'sha256:02638f04673a14f6'
 translatedAt: '2026-05-17T05:06:52+08:00'
+image: '/article-images/culture/austronesian-migration-map.webp'
+imageCredit: 'Kikilipse / Wikimedia Commons (CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chronological_dispersal_of_Austronesian_people_across_the_Pacific_(per_Benton_et_al,_2012,_adapted_from_Bellwood,_2011).svg'
 ---
 
 > **30 秒概観：** 台湾の地図を広げると、多くの人が目にするのは中国大陸の縁にある小さな島です。しかし地図を時計回りに 30 度回転させ、さらに南へ視線を延ばすと、同じように成立するもう一枚の地図が見えてきます。台湾は同時に、マレー世界（Nusantara）の北東端であり、4 億人のオーストロネシア語族の言語的原郷であり、太平洋拡散史の起点でもあります。花蓮・豊田で採れた一つの玦形玉器は、3500 年前にはすでにフィリピンのバタン島、ルソン、ベトナム、タイの考古遺跡に現れていました。言語学者 Robert Blust は語彙の多様性から、オーストロネシア語族の十大支系のうち九つが台湾にあると推定しました。蘭嶼のタオ人の言葉は、バタン諸島の Ivatan 人の言葉と六割ほど通じます。この記事が試みるのは、見落とされてきたもう一枚の地図を補い戻し、二枚の地図をあわせて本当の台湾を見ることです。

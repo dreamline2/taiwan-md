@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c2fe08a62433be18'
 sourceBodyHash: 'sha256:8de971f3c7942edf'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/history/nhrm-tsai-unveil-2018.webp'
+imageCredit: '總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:05.17_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E5%9C%8B%E5%AE%B6%E4%BA%BA%E6%AC%8A%E5%8D%9A%E7%89%A9%E9%A4%A8%E6%8F%AD%E7%89%8C%E5%84%80%E5%BC%8F%E3%80%8D_(27296236457).jpg'
 ---
 
 # Museo Nacional de Derechos Humanos: los nombres que no figuran en el Monumento de las Lágrimas

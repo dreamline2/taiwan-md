@@ -23,6 +23,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2521a3fdec4ce789'
 sourceBodyHash: 'sha256:a1690337698d47c6'
 translatedAt: '2026-05-01T22:19:10+08:00'
+image: '/article-images/society/yungta-gate-2013.webp'
+imageCredit: 'SSR2000 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gate_of_Yung_Ta_Institute_of_Technology_%26_Commerce.JPG'
 ---
 
 > **Resumen en 30 segundos:** En 1994, Taiwán tenía 58 instituciones universitarias. Tras el eslogan de la Comisión de Reforma Educativa «establecer más institutos y universidades», el gobierno fomentó la creación de instituciones privadas y cambió el régimen de aprobación de «autorización previa» a «notificación». En una década, el número de universidades casi se triplicó, alcanzando en 2017 un máximo de 129 universidades y 15 colegios, sumando 144 instituciones. Las instituciones privadas pasaron de 26 a 94, representando el 71% del total. Pero en 2022, los nacimientos en Taiwán cayeron a 138.000, con una tasa de fecundidad de 1,08, la más baja del mundo. El «mercado» universitario se contrae rápidamente, y las universidades privadas empiezan a cerrar. Estudios desde la pedagogía crítica señalan que este proceso —de «demasiado pocas» a «demasiadas» y luego a «cierre»— tiene su raíz en que la reforma educativa se orientó desde el inicio por la lógica de mercado neoliberal, desplazando la educación superior de bien público a mercancía[^1].

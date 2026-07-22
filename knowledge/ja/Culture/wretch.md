@@ -24,6 +24,10 @@ sourceBodyHash: 'sha256:74e768331f7f3a8b'
 translatedAt: '2026-06-16T18:19:09Z'
 relatedDiary:
   - 2026-06-14-154636-無名小卒勘誤
+image: '/article-images/culture/wretch-downtime-notice-2005.webp'
+imageCredit: 'Alan Sung'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Wretch_notice_(24364911).jpg'
 ---
 
 # 無名小站：拾ってきたパソコン、売り渡された青春、そして誰も弔わなかった消滅

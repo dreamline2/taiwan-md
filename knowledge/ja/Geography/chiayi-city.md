@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:ae83f3951e0a47fc'
 sourceBodyHash: 'sha256:d3fc69c2026ce4f3'
 translatedAt: '2026-06-16T16:38:30Z'
+image: /article-images/geography/chiayi-city-hero.webp
+imageCredit: B2322858
+imageLicense: Public Domain
+imageSource: https://commons.wikimedia.org/wiki/File:Sixth_Generation_Tropic_of_Cancer_in_Chiayi.jpg
 ---
 
 # 嘉義市：皇帝から嘉義の名を賜りながら、最も見過ごされやすい省轄市となった都市

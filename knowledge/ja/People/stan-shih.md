@@ -14,6 +14,10 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:487d1e61a16e9b30'
 sourceBodyHash: 'sha256:bea7bd5b0ffc4d42'
 translatedAt: '2026-05-16T22:35:34Z'
+image: '/article-images/people/stanshih-taipei-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **30秒概覧：** エイサー創業者の施振榮は、台湾で唯一千億台湾ドル超の損失を公に認めた企業の教父であり、

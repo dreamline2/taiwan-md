@@ -21,6 +21,8 @@ sourceCommitSha: '8b61d368'
 sourceContentHash: 'sha256:819a7ee143f7b981'
 sourceBodyHash: 'sha256:efd1cd3b8e9f03d6'
 translatedAt: '2026-06-27T00:54:19+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TWShiLinNightMarketRichy2.jpg/960px-TWShiLinNightMarketRichy2.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Paysage sonore de Taïwan : la musique classique des camions-poubelles, les chants d'oiseaux du métro, et une île que l'on entend sans vraiment l'écouter

@@ -23,6 +23,10 @@ sourceCommitSha: 'beb07b8e'
 sourceContentHash: 'sha256:cd395bed8d239f41'
 sourceBodyHash: 'sha256:903fa4c14f6a516c'
 translatedAt: '2026-07-16T00:45:14+08:00'
+image: '/article-images/economy/stan-shih-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **Resumen en 30 segundos:** En 1992, el fundador de Acer, Stan Shih, dibujó una «Curva de la Sonrisa» con forma de U abierta, advirtiendo a la industria manufacturera de Taiwán que no se quedara atrapada en la fase de ensamblaje, de menor valor agregado, sino que avanzara hacia los extremos de I+D y de marca. Esta frase se convirtió en una directriz estratégica que la industria de Taiwán escuchó durante tres décadas. Sin embargo, el propio dibujante se estrelló tres veces en su camino hacia el extremo de la marca: en 2000, la fricción entre la marca propia y la subcontratación forzó la primera gran escisión de la industria electrónica de Taiwán; en 2011, tras alcanzar el segundo puesto mundial, colapsó por un exceso de inventario que hizo caer la acción a la mitad; en 2013, un déficit anual de 20.500 millones de dólares taiwaneses obligó al fundador, de 68 años, a regresar a la dirección para salvar la empresa. La ironía final se revelaría veinte años después: el pequeño subcontratista Wistron, que en su día fue escindido y considerado el menos prometedor, alcanzó la cima de la curva en la era de los servidores de IA.

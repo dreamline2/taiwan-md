@@ -25,6 +25,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:067149f437c5a573'
 sourceBodyHash: 'sha256:dcdc7781d0e5eb30'
 translatedAt: '2026-06-16T17:05:51Z'
+image: '/article-images/society/kariko-weissman-life-science-2022.webp'
+imageCredit: 'Thorne Media'
+imageLicense: 'CC BY 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg'
 ---
 
 ![커털린 커리코와 드루 와이스먼이 2022년 Life Science 메달을 공동 수상한 뒤 배경판 앞에서 촬영한 사진. 커리코는 붉은색 정장을, 와이스먼은 짙은색 정장을 입고 있다](/article-images/society/kariko-weissman-life-science-2022.webp)

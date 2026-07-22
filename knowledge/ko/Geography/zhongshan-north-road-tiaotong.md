@@ -33,6 +33,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:c8a39341eabfac41'
 sourceBodyHash: 'sha256:8e3e2179e3d0c9c2'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/geography/zhongshan-section-3-birdview-2011.webp'
+imageCredit: '玄史生'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Section_3_Zhongshan_North_Road_Birdview_from_Overpass.jpg'
 ---
 
 # 중산베이루 조통: 일본인이 신사로 가기 위해 닦은 길은 결국 일본 상사가 다시 접수했다

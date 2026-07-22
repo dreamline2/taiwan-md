@@ -24,6 +24,10 @@ sourceCommitSha: 'c8e5ac9e'
 sourceContentHash: 'sha256:c4ab423af923a984'
 sourceBodyHash: 'sha256:429230fac9b89ba1'
 translatedAt: '2026-06-16T17:04:12Z'
+image: '/article-images/technology/ocf-open-freedom-share-poster.webp'
+imageCredit: '開放文化基金會 (OCF)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://ocf.tw/mediakit/'
 ---
 
 # オープンカルチャーファウンデーション：台湾で最も制御不能な人たちのために、最も退屈な仕事をする

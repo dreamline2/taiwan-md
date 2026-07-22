@@ -23,6 +23,8 @@ sourceCommitSha: 'aeb8b0e4'
 sourceContentHash: 'sha256:0d80278055d155a0'
 sourceBodyHash: 'sha256:44a77176cac892eb'
 translatedAt: '2026-06-06T00:00:00Z'
+image: /article-images/people/zun-new-home-2025.webp
+imageCredit: '人生肥宅x尊 YouTube 頻道；Fair use editorial commentary'
 ---
 
 > **Panorama en 30 segundos:**

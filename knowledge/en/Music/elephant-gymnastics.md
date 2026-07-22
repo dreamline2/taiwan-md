@@ -25,6 +25,10 @@ sourceCommitSha: '72b757bac'
 sourceContentHash: 'sha256:b924c3fdcb2a3347'
 sourceBodyHash: 'sha256:d8ddf05669c2e6c6'
 translatedAt: '2026-06-19T00:37:17+08:00'
+image: '/article-images/music/elephant-gym-portland-2024.webp'
+imageCredit: 'TurquoiseGoose / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Elephant_Gym_Portland_2024.jpg'
 ---
 
 # Elephant Gym: The Taiwanese Trio Whose Songs You Can Hear Even Though No One Sings

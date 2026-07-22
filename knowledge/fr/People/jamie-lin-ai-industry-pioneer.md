@@ -2,19 +2,23 @@
 title: "Jamie Lin : de l'Académie sinique à Google Taïwan, toujours sur la ligne de front des start-up après sa retraite en 2020"
 description: "Né en 1963, Jamie Lin est diplômé en génie informatique de l'Université nationale de Taïwan (NTU). Son doctorat, obtenu selon les rapports à l'Université du Maryland aux États-Unis, reste à confirmer. De 1993 à 2005, il a été directeur adjoint de l'Institut des sciences de l'information de l'Académie sinique. En 2006, il a rejoint Google en tant que premier employé du centre de R&D de Google Taïwan, et a pris sa retraite le 31 janvier 2020. Depuis, il siège au conseil d'administration de start-up telles qu'iKala et Appier, et continue de promouvoir l'éducation en IA."
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "科技與企業"
-tags: ["科技與企業", "Google", "人工智慧", "中研院", "AI教育"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '科技與企業'
+tags: ['科技與企業', 'Google', '人工智慧', '中研院', 'AI教育']
 readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
-translatedFrom: "People/簡立峰.md"
-sourceCommitSha: "0f8fae0ae"
-sourceContentHash: "sha256:fbf9f60162ac4b29"
-sourceBodyHash: "sha256:820519fbefcc8fbc"
-translatedAt: "2026-05-20T05:08:34+08:00"
+translatedFrom: 'People/簡立峰.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:fbf9f60162ac4b29'
+sourceBodyHash: 'sha256:820519fbefcc8fbc'
+translatedAt: '2026-05-20T05:08:34+08:00'
+image: '/article-images/people/lee-feng-chien-tsai-google-2019.webp'
+imageCredit: '總統府 / Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: "https://commons.wikimedia.org/wiki/File:Google_Taiwan_Branch_Engineering_Director_Lee-Feng_Chien_speaking_with_Taiwanese_President_Tsai_Ing-wen_upon_her_visit_at_Google's_office_at_Taipei_101_20190417.jpg"
 ---
 
 # Jamie Lin : de l'Académie sinique à Google Taïwan, toujours sur la ligne de front des start-up après sa retraite en 2020

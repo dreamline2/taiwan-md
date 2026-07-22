@@ -22,6 +22,10 @@ sourceCommitSha: 'f7484ebea'
 sourceContentHash: 'sha256:faa63331d7b3eae1'
 sourceBodyHash: 'sha256:296b2f47a01a03eb'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/culture/tatung-cooker-100th-2019.webp'
+imageCredit: 'Solomon203'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tatung_100th_Anniversary_Cooker_20190706.jpg'
 ---
 
 > **Aperçu en 30 secondes :** Les souvenirs publicitaires que les Taïwanais partagent sont presque toujours une réplique que vous ne pouvez vous empêcher de poursuivre, ou une mélodie que vous savez fredonner sans vous rappeler ce qu’elle vendait : « Quelle chance ! », « Seul ce qui est frais peut parler haut », « Tatung Tatung, les produits nationaux sont bons ». Cette capacité à « s’en souvenir simultanément dans tout Taïwan » reposait sur une époque sans autre choix que les trois chaînes de télévision TTV (1962), CTV (1969) et CTS (1971), qui liaient l’attention de toute une génération au même canal. Après deux ruptures, l’entrée en vigueur de la Loi sur la télévision câblée en 1993 et le premier dépassement de la télévision par la publicité numérique en 2016, l’ère de la publicité nationale de masse a pris fin.

@@ -33,6 +33,10 @@ sourceCommitSha: '85634f83b'
 sourceContentHash: 'sha256:7e6b8ee6fb86d020'
 sourceBodyHash: 'sha256:be043e8d5036e0e2'
 translatedAt: '2026-05-19T05:08:06+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hsinchu_East_Gate_%280421%29.JPG/1280px-Hsinchu_East_Gate_%280421%29.JPG
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate_(0421).JPG
 ---
 
 # 新竹市：1733年に竹を植えて築かれた竹塹、1980年に台積電を生んだ揺籃

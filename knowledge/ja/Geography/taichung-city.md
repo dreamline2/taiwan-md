@@ -29,6 +29,10 @@ sourceCommitSha: '8edb8f96'
 sourceContentHash: 'sha256:70bc4982eb0f5b56'
 sourceBodyHash: 'sha256:3689cbfc4a7bdf30'
 translatedAt: '2026-06-16T17:15:00Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/National_Taichung_Theater_20180317.jpg/1280px-National_Taichung_Theater_20180317.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:National_Taichung_Theater_20180317.jpg
 ---
 
 # 台中市：1887年に首都になりかけ、2010年にようやく第2の直轄市となった都市

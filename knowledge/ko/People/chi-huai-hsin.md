@@ -25,6 +25,7 @@ sourceCommitSha: '489ea1601'
 sourceContentHash: 'sha256:50346fd81e3daf96'
 sourceBodyHash: 'sha256:64d75052423ad414'
 translatedAt: '2026-06-28T00:38:05+08:00'
+image: '/article-images/people/ed-chi-deepmind-talk-2026.webp'
 ---
 
 전 세계가 수억 달러어치 연산력으로 AI를 쫓고 있을 때, 기계 추론의 방식을 바꾼 한 편의 논문은 약 5천 달러밖에 들이지 않았다.

@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:f3604bda54fbb678'
 sourceBodyHash: 'sha256:0b92146b9814b26a'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: /article-images/geography/kinmen-hero.webp
+imageCredit: Sleepingstar
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Kinmen_Montage.png
 ---
 
 # Condado de Kinmen: las 56 horas de 1949 que decidieron 75 años de destino para Kinmen

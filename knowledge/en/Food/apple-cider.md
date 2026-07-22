@@ -35,6 +35,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-05-12'
     url: 'https://x.com/taiwandotmd/status/2054158652588863776'
+image: '/article-images/food/apple-sidra-ximending-2025.webp'
+imageCredit: 'Solomon203 (Wikimedia Commons)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg'
 ---
 
 > **30-second overview:** In 1965, Philippine businessman Lee Hung-lueh bought the trademark and formula for “Apple Sidra” from America’s CosCo company and built a factory in Pingzhen, Taoyuan. Over the next 60 years, this golden sparkling drink became a fixture in rechao stir-fry restaurants, traditional catered banquets, and KTV rooms, and even crossed the sea when Korean idol Kyuhyun unexpectedly encountered it at Du Hsiao Yueh in Tainan. Yet for its first 30 years, the trademark never truly belonged to Taiwan. It passed through Cathay Trust in 1979, Hung Yuan in 1985, and Sun You-ying’s 1995 out-of-pocket US$800,000 redemption. After two food-safety incidents involving sediment in 2018 and 2023, Oceanic Beverages sold 7,222 ping of land in Hunei, Kaohsiung in 2024, bringing in NT$960 million, supporting NT$493 million in after-tax net profit and EPS of NT$8.71. In 2025, however, rumors again emerged that the general manager had been replaced. This sixty-year Taiwanese flavor is more complicated than the glass of rosé mixed with Apple Sidra in a KTV room.

@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:63b47718f8145b2c'
 sourceBodyHash: 'sha256:04f5859af8f97035'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/art/yeh-ting-hao-reverberation-hero-2024.webp'
+imageCredit: '臺中國家歌劇院 NTT'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.youtube.com/watch?v=_-L_wAYDmBs'
 ---
 
 ## Yeh Ting-Hao : l'artiste audiovisuel qui forçait la technologie à produire des accidents par des usages « incorrects » et qui, à 43 ans, a laissé tout un écosystème

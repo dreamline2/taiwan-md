@@ -14,6 +14,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:6fe952ad9ad0a5fa'
 sourceBodyHash: 'sha256:6b2255cbc29cf54c'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/food/gua-bao-yuanfang-2023.webp'
+imageCredit: '王昱晴 / 中華民國總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gua-bao_by_the_Yuan_Fang_Guabao_at_Huaxi_Street_2023-04-28_01.jpg'
 ---
 
 ![화시제 위안팡 과바오. 반원형으로 접은 밀가루 피 안에 조린 삼겹살, 절임 갓, 땅콩가루와 고수를 넣은 모습으로, 타이베이를 대표하는 전통 과바오 가운데 하나다](/article-images/food/gua-bao-yuanfang-2023.webp)

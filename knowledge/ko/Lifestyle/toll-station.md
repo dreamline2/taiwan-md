@@ -26,6 +26,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:51547944c653872d'
 sourceBodyHash: 'sha256:bc9b5cd80bcd52ef'
 translatedAt: 2026-05-03T21:10:09+08:00
+image: '/article-images/lifestyle/taishan-toll-station-2008.webp'
+imageCredit: 'MiNe (Flickr), via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taishan_Toll_Station_20080818a.jpg'
 ---
 
 > **"저 세 평짜리 요금소 안에서 우리가 건네받은 것은 한 장의 표가 아니라 수많은 길 위의 사람들 영혼이었습니다. 창문을 내리면 밀려오는 것은 겨울의 칼바람, 여름의 후끈한 열기, 그리고 가볍게 건네는 '수고하셨습니다'라는 한마디였습니다."**

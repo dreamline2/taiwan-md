@@ -24,6 +24,10 @@ sourceCommitSha: '6aa840307'
 sourceContentHash: 'sha256:00819cac3b7e14cf'
 sourceBodyHash: 'sha256:1b9fd837f0295a74'
 translatedAt: '2026-06-20T00:37:14+08:00'
+image: '/article-images/society/yang-chuan-kwang-1960.webp'
+imageCredit: '楊傳廣 1960 年羅馬奧運十項全能銀牌時期 — 公有領域'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Yang_Chuan-kwang_1960.jpg'
 ---
 
 # 타이완 스포츠 발전과 올림픽: '중화 타이베이'라는 이름의 팀

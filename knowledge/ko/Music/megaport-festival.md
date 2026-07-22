@@ -23,6 +23,10 @@ sourceCommitSha: '717a640b3'
 sourceContentHash: 'sha256:2cde586b88469ed9'
 sourceBodyHash: 'sha256:db05dfd8f23d6ee9'
 translatedAt: '2026-07-14T00:51:45+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/2025%E5%A4%A7%E6%B8%AF%E9%96%8B%E5%94%B1-%E5%8D%97%E9%9C%B8%E5%A4%A9_MEGAPORT_FEST.jpg'
+imageCredit: 'Xi.you 1010.2008 / Wikimedia Commons'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:2025%E5%A4%A7%E6%B8%AF%E9%96%8B%E5%94%B1-%E5%8D%97%E9%9C%B8%E5%A4%A9_MEGAPORT_FEST.jpg'
 ---
 
 # 메가포트: 항구 옆에서 탄생한 타이완 음악 축제

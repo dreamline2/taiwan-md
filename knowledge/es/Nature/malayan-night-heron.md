@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4926f151d268c5db'
 sourceBodyHash: 'sha256:215f7a81312f6fac'
 translatedAt: '2026-06-16T17:12:11Z'
+image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.webp'
+imageCredit: 'Dr. Raju Kasambe'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Malayan_Night_Heron_(Gorsachius_melanolophus),_Taipei_Taiwan.jpg'
 ---
 
 # La garza nocturna de capirote negro: especie soñada de los observadores de aves, el gran pájaro torpe del campus

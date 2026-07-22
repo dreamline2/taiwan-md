@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:f504463086a8f46e'
 sourceBodyHash: 'sha256:df920362587637e7'
 translatedAt: '2026-06-16T17:05:15Z'
+image: '/article-images/people/hsu-cho-yun-academia-sinica-hero.webp'
+imageCredit: 'Academia Sinica'
+imageLicense: 'Attribution (Wikimedia Commons)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Cho-Yun_Hsu_%E8%A8%B1%E5%80%AC%E9%9B%B2.jpg'
 ---
 
 # 許倬雲：二本の指で中国史の長河を書き上げた、王力宏の大叔父の九十五年

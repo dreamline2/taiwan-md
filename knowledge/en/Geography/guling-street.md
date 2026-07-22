@@ -33,6 +33,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:cf36b43868cfc58f'
 sourceBodyHash: 'sha256:cafaccb40b199771'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: /article-images/geography/guling-street-nanhai-academy-2024.webp
+imageCredit: Yu tptw
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Nanhai_Academy_20240102.jpg
 ---
 
 # Guling Street: The Book Street the Japanese Left Behind, Edward Yang's Adolescents, and the Nationalist Government's Palaces

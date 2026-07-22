@@ -14,6 +14,10 @@ lastVerified: 2026-03-30
 lastHumanReview: false
 featured: false
 readingTime: 9
+image: '/article-images/people/andre-chiang-archi-2025.webp'
+imageCredit: 'archi 藝廚／凱渡廣場酒店提供'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.archipelago.com.tw/restaurant-detail/archi/'
 ---
 
 # André Chiang

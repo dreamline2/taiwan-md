@@ -33,6 +33,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-06-03'
     url: 'https://x.com/taiwandotmd/status/2061992719715795224'
+image: '/article-images/culture/pingxi-lantern-festival-2014.webp'
+imageCredit: 'Jirka Matousek / Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Pingxi_Sky_Lantern_Festival_2014_in_Taiwan.jpg'
 ---
 
 > **30-Second Overview:**

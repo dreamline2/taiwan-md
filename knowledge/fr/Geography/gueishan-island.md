@@ -29,6 +29,10 @@ sourceCommitSha: '4ae85c87e'
 sourceContentHash: 'sha256:48db5eb6bc77654a'
 sourceBodyHash: 'sha256:37cd02c961d0f940'
 translatedAt: '2026-06-25T00:43:06+08:00'
+image: /article-images/geography/guishan-hero.webp
+imageCredit: 阿爾特斯 / Wikimedia Commons
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Guishan_Island.jpg
 ---
 
 # Île Guishan : le repère du retour que les habitants de Yilan regardent chaque jour, et le foyer où les insulaires ne peuvent plus revenir

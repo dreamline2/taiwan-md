@@ -21,6 +21,7 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:a7c71b7402009bc6'
 sourceBodyHash: 'sha256:5b34ca12ffeca314'
 translatedAt: '2026-06-16T02:24:17+08:00'
+image: '/article-images/society/woo-fanpage.webp'
 ---
 
 > **30 secondes d’aperçu :** vous avez probablement suivi au moins une page du type « Je suis de Kaohsiung », « Je suis de Taichung », qui retransmet des nouvelles du marché nocturne, la météo, et donne l’impression d’être « le nous local ». En février 2026, quelqu’un a repéré, dans une publication de « Je suis de Taipei », une instruction IA non effacée. En suivant cette piste, on aboutit à un immeuble de Neihu, à Taipei, où une société familiale Lin transforme les informations de médias pro‑Chine en style « compatriote » et les diffuse via des pages se faisant passer pour des habitants de chaque ville ou comté. Le plus paradoxal : il ne s’agit presque jamais de fake news, si bien que le critère « vérifier la véracité » ne suffit pas à le mesurer.

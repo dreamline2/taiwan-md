@@ -25,6 +25,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:c3b6d91df55d0949'
 sourceBodyHash: 'sha256:fc827205e6b71ba4'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/music/nine-one-one-2016.webp'
+imageCredit: '臺中市政府新聞局（Wikimedia Commons）'
+imageLicense: '姓名標示授權（政府網站資料開放宣告）'
+imageSource: 'https://commons.wikimedia.org/wiki/File:玖壹壹_2016.jpg'
 ---
 
 > **Aperçu en 30 secondes :** Le rap taïwanais est souvent pris pour une « version chinoise du hip-hop américain », mais la véritable histoire dit exactement l'inverse. Le chinois est une langue tonale, que l'on disait « naturellement impropre au rap » ; le taïwanais hoklo, avec ses sept tons et ses changements tonals, a longtemps été jugé indigne de la scène dominante ; et les forces principales du rap taïwanais étaient des hommes urbains de classe moyenne, souvent issus de départements d'électrotechnique, de chimie ou de sociologie de l'Université nationale de Taïwan, très loin de l'image américaine du hip-hop comme « arme des faibles du ghetto ». Taïwan a transformé un à un ces trois « handicaps » en traits distinctifs : la langue maternelle est devenue un accent de résistance, les diplômes élevés ont redéfini ce que signifie être « real », et la pluralité idéologique, ethnique et linguistique est devenue une voix différente de celle de l'autre rive. De « Songs of Madness » en 1989 au couronnement de MC HotDog aux Golden Melody Awards en 2024, cet article raconte comment Taïwan a chanté trois handicaps innés pour en faire une empreinte vocale souveraine que seule cette île peut produire.

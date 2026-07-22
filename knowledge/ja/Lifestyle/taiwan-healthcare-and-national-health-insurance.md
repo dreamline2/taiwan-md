@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:5cbfd8399802ed3e'
 sourceBodyHash: 'sha256:3076adea6a4c366b'
 translatedAt: '2026-06-16T17:04:12Z'
+image: '/article-images/lifestyle/nhi-taipei-building-2018.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NHI_Building,_ROC-MOHW-NHIA_Taipei_Division_main_entrance_20180616.jpg'
 ---
 
 # 台湾医療と全民健康保険：99.6% が 12.61% の上で支える世界一

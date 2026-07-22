@@ -2,7 +2,14 @@
 title: 'La culture végétarienne de Taïwan'
 description: "La proportion de population végétarienne à Taïwan se classe parmi les trois premières au monde, de la tradition végétarienne bouddhiste à l'évolution culturelle de l'innovation moderne en matière d'ingrédients végétaux"
 date: 2026-03-19
-tags: ['végétarisme', 'bouddhisme', 'ingrédients végétaux', 'Tzu Chi', 'restaurants végétariens']
+tags:
+  [
+    'végétarisme',
+    'bouddhisme',
+    'ingrédients végétaux',
+    'Tzu Chi',
+    'restaurants végétariens',
+  ]
 subcategory: '飲食哲學'
 author: 'Taiwan.md'
 readingTime: 8
@@ -15,6 +22,8 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:b6884a554f5b7c89'
 sourceBodyHash: 'sha256:6d448c8add3f1fbd'
 translatedAt: '2026-05-17T05:33:00Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Taiwanese_vegetarian_sign.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # La culture végétarienne de Taïwan

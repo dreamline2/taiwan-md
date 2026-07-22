@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:843fecc188f1e99a'
 sourceBodyHash: 'sha256:e2ac1f8b1495c588'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/food/apple-sidra-ximending-2025.webp'
+imageCredit: 'Solomon203 (Wikimedia Commons)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg'
 ---
 
 > **30秒概観：** 1965年、フィリピン商人の李鴻略は米国謝斯尼斯（CosCo）社から「蘋菓西打」（Apple Sidra）の商標と配合を買い取り、桃園平鎮に工場を建てました。60年の間に、この金色の炭酸飲料は熱炒店（台湾式居酒屋）、辦桌（屋外宴席）、KTV個室の定番となり、海を越えて韓国アイドルのキュヒョンが台南の度小月で偶然出会う存在にもなりました。しかし、その商標は最初の30年間、本当の意味では台湾に属しておらず、1979年の国泰信託、1985年の鴻源、1995年の孫幼英による私費80万米ドルでの買い戻しという三度の転売を経ています。2018年と2023年の二度にわたる沈殿物をめぐる食品安全事件の後、大西洋飲料は2024年に高雄湖内の7222坪の土地を処分して9.6億元を得て、税引後純利益4.93億元、EPS 8.71元を支えましたが、2025年には再び総経理更迭の噂が浮上しました。60年の台湾の味は、KTV個室のあのローゼワインと蘋果西打の一杯よりも複雑です。

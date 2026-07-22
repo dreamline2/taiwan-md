@@ -26,6 +26,7 @@ sourceCommitSha: '67e5b3684'
 sourceContentHash: 'sha256:b56a9c2f52721e09'
 sourceBodyHash: 'sha256:4f355b3d3c9b0f43'
 translatedAt: '2026-06-23T00:40:05+08:00'
+image: '/article-images/technology/computex-jensen-huang-2016.webp'
 ---
 
 # NVIDIA in Taiwan: The World's Most Valuable Company Does Not Make a Single Chip Itself

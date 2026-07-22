@@ -22,6 +22,10 @@ sourceCommitSha: 'a113ef0cb'
 sourceContentHash: 'sha256:1ae91ed26b56a7cf'
 sourceBodyHash: 'sha256:09b0e9d407cb3e56'
 translatedAt: '2026-07-14T00:51:45+08:00'
+image: '/article-images/people/su-beng-100th-birthday-tsai-2017.webp'
+imageCredit: '總統府 / Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:11.08_總統出席史明百歲生日會_(38226043862).jpg'
 ---
 
 # 수벙: 한 개의 만두 가게로 40년간 타이완 혁명을 양육하다

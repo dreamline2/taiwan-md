@@ -23,6 +23,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:0041e835fb3d1348'
 sourceBodyHash: 'sha256:1a8cebcb1382c71d'
 translatedAt: '2026-06-20T00:37:14+08:00'
+image: '/article-images/people/huangdawei-shouxialiuqing-1994.webp'
+imageCredit: '達樂音樂'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://music.apple.com/tw/album/手下留情/'
 ---
 
 # David Wong: la canción que escribió en dos o tres horas y pasó la segunda mitad de su vida intentando olvidar

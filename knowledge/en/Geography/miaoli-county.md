@@ -1,20 +1,37 @@
 ---
-title: "Miaoli County: A Hakka Stubborn-Spirited County That Elected a Magistrate Who More Than Doubled Its Debt in Eight Years"
+title: 'Miaoli County: A Hakka Stubborn-Spirited County That Elected a Magistrate Who More Than Doubled Its Debt in Eight Years'
 description: "During the Japanese period, Miaoli accounted for 95% of Taiwan's camphor output, and Sanyi built its woodcarving industry from the roots left after camphor refining. In 2002, Beihe Village in Gongguan held the first Tung Blossom Festival. In 2008, Liu Cheng-hung took over a county with NT$20.2 billion in debt; by the time he left office in 2014, the books showed NT$67.6 billion. In between came Zhu Feng-min drinking pesticide, the forced demolition of Chang Pharmacy, and the NT$120 million Hakka Round House becoming a mosquito hall. Today, 530,000 people live in this county, whose 62.5% Hakka population share is Taiwan's second highest."
-date: "2026-05-18"
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Miaoli", "Miaoli County", "Hakka", "Hakka Culture", "Dapu Incident", "Sanyi Woodcarving", "Tung Blossom", "Saisiyat", "Ritual to the Short Spirits", "Liu Cheng-hung", "22 Counties and Cities Series"]
+date: '2026-05-18'
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Miaoli',
+    'Miaoli County',
+    'Hakka',
+    'Hakka Culture',
+    'Dapu Incident',
+    'Sanyi Woodcarving',
+    'Tung Blossom',
+    'Saisiyat',
+    'Ritual to the Short Spirits',
+    'Liu Cheng-hung',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 16
-lastVerified: "2026-05-18"
+lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/苗栗縣.md"
-sourceCommitSha: "b457dbbb1"
-sourceContentHash: "sha256:0d7e5732a8513df0"
-sourceBodyHash: "sha256:f743a82d302f341a"
-translatedAt: "2026-05-18T05:08:07+08:00"
+translatedFrom: 'Geography/苗栗縣.md'
+sourceCommitSha: 'b457dbbb1'
+sourceContentHash: 'sha256:0d7e5732a8513df0'
+sourceBodyHash: 'sha256:f743a82d302f341a'
+translatedAt: '2026-05-18T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/6/6d/2023_Tung_Blossom_Festival.jpg
+imageCredit: 中華民國客家委員會
+imageLicense: CC BY 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:2023_Tung_Blossom_Festival.jpg
 ---
 
 # Miaoli County: A Hakka Stubborn-Spirited County That Elected a Magistrate Who More Than Doubled Its Debt in Eight Years
@@ -141,7 +158,7 @@ The Dapu Incident took place during Liu Cheng-hung’s second term. It was a seq
 **August 18, 2013**. The “Demolish the Government” movement gathered on Ketagalan Boulevard. The protest slogan was: “Today Miaoli is demolished, tomorrow we demolish the government.” (**今天拆大埔，明天拆政府**)[^31]. The same line was later chanted again during the 2014 Sunflower Movement.
 
 ![The “Demolish the Government” street movement on August 18, 2013. Taiwanese civic groups protested the forced demolitions in Dapu on Ketagalan Boulevard. The slogan “Today Miaoli is demolished, tomorrow we demolish the government” later became one of the chants of the 2014 Sunflower Movement.](https://upload.wikimedia.org/wikipedia/commons/b/ba/2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C_P8180109_%289555113047%29.jpg)
-_Scene of the 2013-08-18 Demolish the Government movement. Photo: Fan-chiang Chung-tsen. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C_P8180109_%289555113047%29.jpg)._
+_Scene of the 2013-08-18 Demolish the Government movement. Photo: Fan-chiang Chung-tsen. [CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C*P8180109*%289555113047%29.jpg).\_
 
 **September 18, 2013**. Chang Pharmacy owner **Chang Sen-wen** (1953–2013) disappeared in the morning and was found dead that afternoon in a drainage ditch near his home. Prosecutors closed the case as suicide[^30]. Chang Sen-wen was a retired public servant from the Health Bureau. His family was supported by his monthly pension of more than NT$20,000 plus income from the pharmacy. His family said he had been unable to sleep since the day of the forced demolition.
 

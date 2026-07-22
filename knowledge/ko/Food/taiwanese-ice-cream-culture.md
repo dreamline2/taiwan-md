@@ -14,6 +14,8 @@ sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:4dac67a4f3297b76'
 sourceBodyHash: 'sha256:aae5f010fab3924f'
 translatedAt: '2026-05-20T05:08:30+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Taipei_mangguobing.JPG/960px-Taipei_mangguobing.JPG'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 대만 빙과 문화

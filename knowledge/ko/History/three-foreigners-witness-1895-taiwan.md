@@ -18,6 +18,7 @@ sourceCommitSha: '01d9d0e7'
 sourceContentHash: 'sha256:dd0456fc58fe6d55'
 sourceBodyHash: 'sha256:f4c2468d7055a6c1'
 translatedAt: 2026-05-02T01:17:15+08:00
+image: ''
 ---
 
 # 세 명의 외국인이 본 을미: 사진작가의 앨범, 기자의 노트, 목사의 일기

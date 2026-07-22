@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:3c13d7fb85f1eb0e'
 sourceBodyHash: 'sha256:f95a74cad7a8af57'
 translatedAt: '2026-06-16T17:04:27Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Night_skyline_of_Kaohsiung%2C_Taiwan_20140603.jpg/1600px-Night_skyline_of_Kaohsiung%2C_Taiwan_20140603.jpg
+imageCredit: peellden
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Night_skyline_of_Kaohsiung,_Taiwan_20140603.jpg
 ---
 
 # Ciudad de Kaohsiung: en 1979, el año en que fue elevada a municipio especial, ocho kaohsiungueses estaban presos en una cárcel de Taipéi

@@ -26,6 +26,10 @@ sourceCommitSha: '195a57899'
 sourceContentHash: 'sha256:6fd747b2b0893c21'
 sourceBodyHash: 'sha256:a1e49238035eece5'
 translatedAt: '2026-06-26T00:38:47+08:00'
+image: '/article-images/lifestyle/scooters-and-bus-taipei-1996.webp'
+imageCredit: 'Holly Cheng'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taipei_street_scene.jpg'
 ---
 
 2024 年 9 月 15 日の朝、苗栗（ミャオリー）銅鑼駅の前に、30 人以上がバス停の下に立っていました。最年少はまだ幼稚園に通う子どもで、最年長は 90 歳でした。彼らが待っていたのは、通勤のバスでも通学のバスでもありません。新竹客運 5658 の最終便を待っていたのです。

@@ -26,6 +26,10 @@ sourceCommitSha: '3c781dba'
 sourceContentHash: 'sha256:f082c2bfc65ade6e'
 sourceBodyHash: 'sha256:2a057438270935d7'
 translatedAt: '2026-05-12T11:51:05+08:00'
+image: '/article-images/nature/tawny-fish-owl-gailhampshire-2009.webp'
+imageCredit: 'gailhampshire (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg'
 ---
 
 > **Panorama en 30 segundos:** El búho pescador leonado (_Ketupa flavipes_) es el búho más grande de Taiwán; con las alas extendidas alcanza casi la estatura de una persona adulta. Sus dedos están cubiertos de plumas amarillas y las plantas de sus patas tienen espículas carnosas para aferrar presas resbaladizas. Fue registrado por primera vez recién en 1916 por el académico japonés Nagamichi Kuroda[^1], y el primer nido reproductivo localizado con precisión en Taiwán se documentó recién en 1994[^2]. El laboratorio de Sun Yuan-hsun, de la Universidad Nacional de Ciencia y Tecnología de Pingtung, lo ha seguido durante treinta años: descubrió que una pareja de búhos pescadores leonados necesita 6,2 kilómetros de arroyo, rodeado en un 44,6% por bosque natural, para sostener su territorio[^3]. En abril de 2026, el equipo de investigación encontró el nido más alto conocido de Taiwán dentro de una cavidad de un viejo árbol de Michelia, de unos 1,5 metros de diámetro a la altura del pecho, junto al arroyo Qijiawan, en Wuling[^4]. El Parque Nacional Shei-Pa lanzó una transmisión en vivo de 24 horas de la crianza, dando a la isla su primera oportunidad de ver colectivamente a una rapaz que le era a la vez familiar y desconocida.

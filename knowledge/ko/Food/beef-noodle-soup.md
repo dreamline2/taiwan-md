@@ -5,7 +5,15 @@ date: 2026-03-17
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '經典小吃'
-tags: ['미식', '소고기 국수', '외성인 요리', '문화 융합', '타이베이 소고기 국수 축제', '미슐랭']
+tags:
+  [
+    '미식',
+    '소고기 국수',
+    '외성인 요리',
+    '문화 융합',
+    '타이베이 소고기 국수 축제',
+    '미슐랭',
+  ]
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: true
@@ -14,6 +22,8 @@ sourceCommitSha: '30569f742'
 sourceContentHash: 'sha256:2d9ee979d4f7479e'
 sourceBodyHash: 'sha256:fcb7ba6bb70c92d6'
 translatedAt: '2026-05-20T05:08:30+08:00'
+image: '/images/wiki/5be514264de6.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA 2.0'
 ---
 
 # 소고기 국수(牛肉麵)

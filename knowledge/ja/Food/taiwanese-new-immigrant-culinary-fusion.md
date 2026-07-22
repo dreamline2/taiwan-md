@@ -15,6 +15,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:bd8e4eaaa3e395c7'
 sourceBodyHash: 'sha256:6806ae061b784232'
 translatedAt: '2026-05-01T19:52:32+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pho%2C_popular_Vietnamese_noodle_soup.jpg/960px-Pho%2C_popular_Vietnamese_noodle_soup.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の新住民フードフュージョン

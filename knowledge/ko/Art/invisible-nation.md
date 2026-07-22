@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:3ae429b55b3339f0'
 sourceBodyHash: 'sha256:00c160f3d2bfc5b4'
 translatedAt: '2026-06-14T00:37:04+08:00'
+image: '/article-images/art/invisible-nation-tsai-walks.webp'
+imageCredit: '《看不見的國家》（Invisible Nation, dir. Vanessa Hope）官方劇照'
+imageLicense: 'Fair use editorial commentary on Invisible Nation (2023)'
+imageSource: 'https://www.invisiblenation.net/'
 ---
 
 > **30초 개요:** 《보이지 않는 국가》(Invisible Nation)는 미국 감독 바네사 호프(Vanessa Hope, 葛靜文)가 7년에 걸쳐 만든 다큐멘터리다. 그는 당시 총통 차이잉원(蔡英文)을 다섯 차례 밀착 인터뷰하며 유엔에서 축출되고, 올림픽에서는 오직 “중화 타이베이”라고만 불릴 수 있으며, 수교국이 22개국에서 12개국으로 줄어든 섬을 세계의 카메라 앞에 세웠다. 2023년 우드스톡 영화제에서 세계 최초로 상영되었고[^1], 2025년 6월 타이완 극장에서 개봉해 흥행 수입 3,771만 신타이완달러를 넘기며 타이완 다큐멘터리 영화사 3위에 올랐다[^2]. 그러나 타이완을 “보이게” 하려는 이 영화에도 비추지 못한 구석이 있다. 가장 큰 의문을 받은 것은 7년 동안 총통부의 협조에 기대어 얻은 밀착성, 그리고 처음부터 끝까지 언급되지 않은 이름, 천수이볜이었다.

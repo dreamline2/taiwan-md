@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fd16d89c1109096c'
 sourceBodyHash: 'sha256:645f8f42e79639a7'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/economy/tsmc-factory-hsinchu-2009.webp'
+imageCredit: 'Arusanov'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG'
 ---
 
 > **30-second overview:** After the market closed on May 19, 2026, TSMC's market capitalization stood at NT$57.18 trillion. One company accounted for 31.51% of the Taiwan Capitalization Weighted Stock Index, roughly 40% of total Taiwan stock market capitalization, and 71% of global foundry market share. The 49 spots behind it were divided among 12 financial holding companies, 11 semiconductor firms, 6 electronics contract manufacturers, and 5 veterans of traditional industry. The so-called tripartite balance of electronics, finance, and traditional industries is in fact half a body held up by one electronics leg; since 2024, the AI wave has pulled Quanta, Wistron, Wiwynn, and Hon. Precision from the middle of the pack toward the top, further raising concentration. Reading the top 50 table is like reading an anatomical chart of Taiwan's economy: where the spine is, where the single point of failure is, and where the internal organs hidden outside the table are.

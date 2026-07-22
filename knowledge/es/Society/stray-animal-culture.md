@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:6b2ce60c50966bdc'
 sourceBodyHash: 'sha256:6f79d66a90a09b62'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/society/leopard-cat-specimen-2026.webp'
+imageCredit: '丘崈 (Wikimedia Commons)'
+imageLicense: 'CC0 1.0 公有領域'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E7%9F%B3%E8%99%8E%E6%A8%99%E6%9C%AC%EF%BC%882%EF%BC%89.jpg'
 ---
 
 # Cultura de los animales callejeros en Taiwán: de Doce noches a la muerte del gato leopardo, el dilema del tranvía entre protección animal y conservación silvestre

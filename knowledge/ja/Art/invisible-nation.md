@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:3ae429b55b3339f0'
 sourceBodyHash: 'sha256:00c160f3d2bfc5b4'
 translatedAt: '2026-06-14T00:37:04+08:00'
+image: '/article-images/art/invisible-nation-tsai-walks.webp'
+imageCredit: '《看不見的國家》（Invisible Nation, dir. Vanessa Hope）官方劇照'
+imageLicense: 'Fair use editorial commentary on Invisible Nation (2023)'
+imageSource: 'https://www.invisiblenation.net/'
 ---
 
 > **30 秒概覽：** 《看不見的國家》（Invisible Nation）是美國導演葛靜文（Vanessa Hope）花七年拍的紀錄片，五次貼身專訪當時的總統蔡英文，把一個被聯合國除名、奧運只能叫「中華台北」、邦交國從 22 掉到 12 的島嶼推到世界鏡頭前。2023 年在伍斯托克影展世界首映[^1]，2025 年 6 月在台灣戲院上映，票房破新台幣 3,771 萬，登上台灣紀錄片影史第三[^2]。但這部要讓台灣「被看見」的片，自己也有照不到的角落——它最被質疑的，是七年依賴蔡辦的配合換來的貼身，以及那個從頭到尾沒被提起的名字：陳水扁。

@@ -14,6 +14,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:7c0bf67bc5769db3'
 sourceBodyHash: 'sha256:84e6ff9ee9820120'
 translatedAt: '2026-06-16T17:05:07Z'
+image: '/article-images/people/zheng-chouyu-portrait-2017.webp'
+imageCredit: '目宿媒體股份有限公司 (Wikimedia Commons, CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E9%84%AD%E6%84%81%E4%BA%88.tif'
 ---
 
 # Cheng Chou-yu: el poeta errante que escribió «Error» y acabó avecindado en Kinmen

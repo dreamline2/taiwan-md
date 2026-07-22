@@ -24,6 +24,10 @@ sourceCommitSha: '88f47159'
 sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
 sourceBodyHash: 'sha256:dd3ab574ead8013b'
 translatedAt: '2026-06-16T17:10:38Z'
+image: '/article-images/people/yaxian-portrait-2012.webp'
+imageCredit: '目宿媒體股份有限公司 (Wikimedia Commons, CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%98%82%E5%BC%A6.tif'
 ---
 
 # 야셴: 《심연》을 쓴 뒤 절필하고, 후반생에는 《연합보》 부간에서 시사의 한 페이지가 되다

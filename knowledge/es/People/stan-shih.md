@@ -14,6 +14,10 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:487d1e61a16e9b30'
 sourceBodyHash: 'sha256:bea7bd5b0ffc4d42'
 translatedAt: '2026-05-16T22:35:47Z'
+image: '/article-images/people/stanshih-taipei-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **Resumen de 30 segundos:** Stan Shih, fundador de Acer, es el único líder empresarial de Taiwán que ha admitido públicamente pérdidas superiores a los cien mil millones de dólares taiwaneses (TWD);

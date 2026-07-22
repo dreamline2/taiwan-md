@@ -14,6 +14,10 @@ sourceCommitSha: '01d9d0e73'
 sourceContentHash: 'sha256:a449ffee99fa24a3'
 sourceBodyHash: 'sha256:ba46b21b9cb6be40'
 translatedAt: '2026-05-12T11:51:05+08:00'
+image: '/article-images/history/formosa-dutch-map-1640.webp'
+imageCredit: '荷蘭人繪 / Wikimedia Commons'
+imageLicense: '公有領域 (Public domain)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:1640_Map_of_Formosa-Taiwan_by_Dutch_荷蘭人所繪福爾摩沙-臺灣.jpg'
 ---
 
 > **Aperçu en 30 secondes :** Pendant longtemps, l’histoire de Taïwan a été considérée comme le « récit des changements de régime » ou comme la périphérie d’un empire continental. Mais la « perspective historiographique de l’île de Taïwan » proposée par l’historien Ts’ao Yung-ho a totalement renversé ce point de vue : selon lui, le sujet de l’histoire taïwanaise est « l’île de Taïwan » elle-même. Les régimes se succèdent comme des acteurs entrant tour à tour en scène, mais l’île demeure le théâtre permanent. C’est une île qui, en 400 ans, a changé 8 fois de gouvernant ; dans les interstices de dominations multiples, ses habitants ont développé une résilience et une capacité d’adaptation de niveau mondial, transformant les institutions venues de l’extérieur en ressources propres, jusqu’à inventer, au point de convergence des océans, un temps et une démocratie appartenant à l’île elle-même.

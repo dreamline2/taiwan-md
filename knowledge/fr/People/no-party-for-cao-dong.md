@@ -31,6 +31,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:62a474db99f7907b'
 sourceBodyHash: 'sha256:df0b89348caf6487'
 translatedAt: '2026-06-23T00:40:06+08:00'
+image: '/article-images/people/caodong-the-servile-2016.webp'
+imageCredit: '© 石皮有限公司／草東沒有派對'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://music.apple.com/tw/album/1676735354'
 ---
 
 > **Vue d’ensemble en 30 secondes :** No Party for Cao Dong est un groupe indépendant formé en 2012 à Taipei, à Yangmingshan, « au croisement de la rue Jianxian et de la rue Caodong ». En 2016, il fait presser à ses frais 2 000 CD artisanaux, écoulés en trois jours ; en 2017, à la 28e édition des Golden Melody Awards, il remporte de manière écrasante, dès le premier tour, le prix du meilleur groupe avec 19 voix, celui du meilleur nouvel artiste avec 19 voix, et celui de la chanson de l’année avec 18 voix pour [〈大風吹〉](https://www.youtube.com/watch?v=HqmpIQ9l-uA), battant Mayday. Le 30 octobre 2021, la batteuse Fan-Fan (Tsai Yi-fan, 26 ans) meurt dans un hôtel de quarantaine à Taipei, et le groupe entre dans près de deux ans de silence. Le 20 mai 2023, il sort son deuxième album, 《瓦合》 : le terme « 瓦合 » apparaît dans les _Mémoires historiques_ (_Shiji_), « Biographies des lettrés confucéens », tandis que le sens élargi de « tessons brisés réunis, assemblés sans être uniformes » vient d’un commentaire de Yan Shigu, sous les Tang, sur le _Livre des Han_, « Biographies de Li, Lu, Zhu, Liu et Shusun ». [^19] En 2024, avec 《瓦合》, le groupe remporte trois prix à la 35e édition des Golden Melody Awards : album de l’année, meilleur album en mandarin et meilleur groupe. Le soir de la remise des prix, le groupe est absent ; son manager reçoit les prix et déclare : « 草東沒有派對從來都不是只有站在舞台上的 4 個人。 » C’est une histoire de douze ans dont le noyau est **perdre, se taire, revenir ; puis perdre encore, se taire encore, revenir encore**.

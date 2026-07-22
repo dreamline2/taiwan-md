@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:3ae429b55b3339f0'
 sourceBodyHash: 'sha256:00c160f3d2bfc5b4'
 translatedAt: '2026-06-14T00:37:04+08:00'
+image: '/article-images/art/invisible-nation-tsai-walks.webp'
+imageCredit: '《看不見的國家》（Invisible Nation, dir. Vanessa Hope）官方劇照'
+imageLicense: 'Fair use editorial commentary on Invisible Nation (2023)'
+imageSource: 'https://www.invisiblenation.net/'
 ---
 
 > **30-second overview:** _Invisible Nation_ is a documentary by American director Vanessa Hope, filmed over seven years, with five close-range interviews with then-President Tsai Ing-wen. It pushes before the world's cameras a Taiwan removed from the United Nations, allowed to compete in the Olympics only as "Chinese Taipei," and whose diplomatic allies fell from 22 to 12. The film had its world premiere at the Woodstock Film Festival in 2023[^1], opened in Taiwan theaters in June 2025, grossed more than NT$37.71 million, and became the third-highest-grossing documentary in Taiwan's film history[^2]. But this film, made to let Taiwan "be seen," also has corners its light does not reach. The sharpest questions concern the access it gained through seven years of cooperation with Tsai's office, and the name never mentioned from beginning to end: Chen Shui-bian.

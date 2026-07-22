@@ -30,6 +30,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:a245e10d3b26ade5'
 sourceBodyHash: 'sha256:78f221a15e8e14f3'
 translatedAt: '2026-06-16T17:05:51Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Taitung_County_Montage.png/800px-Taitung_County_Montage.png
+imageCredit: Sleepingstar
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taitung_County_Montage.png
 ---
 
 # 타이둥현: 두 외딴섬, 하나는 36년 동안 정치범을 가두었고, 하나는 42년 동안 핵폐기물을 저장했다

@@ -36,6 +36,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:4a53480bbe9aa83b'
 sourceBodyHash: 'sha256:5091127dea208f82'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: '/article-images/people/cicada-cuichi-xueshan-glacial-lake.webp'
+imageCredit: 'Blackjack633 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%BF%A0%E6%B1%A0_%E6%B1%AA%E5%A4%A7%E6%99%BA_05.jpg'
 ---
 
 > **30秒概覧：** Cicadaは2009年に台北で結成された全器楽のインディーバンドです。ピアニストの江致潔（こう・ちけつ／ジアン・ジージエ、Jesy Chiang、台北芸大芸術史修士）が率い、編成はピアノ、バイオリン、チェロ、アコースティックギターの4人です。2011年にWhite Wabbit Recordsから初めて発表した《散らばった時間》以降、十六年間に発表されたすべての作品に人声はありません。主題は西海岸の侵食（《消えゆく辺境》2013）、東海岸と太平洋（《海面を仰ぎ見る》2015）、海洋生態（《不在のあなたたちはどこへ行ったのか》2017）、山林（《霧の森へ入る》2019）を経て、渓流の源（《渓流の源に棲む》2022、15日間、120キロの中央山脈遠征）へ至りました。2024年の15周年自選集《回返》では海岸の主題を再解釈しました。2025年の《白い境界を見つめる》では初めて台湾の外へ出て、氷河をたどって南北半球を越え、さらに雪山へ戻って古代氷河の痕跡を探しました。彼らは日本映画《ある男》の音楽を担当し、日本アカデミー賞優秀音楽賞を受賞しました。2024年には日本ツアーを完遂し、アイスランドの作曲家Ólafur Arnaldsとも共演しています。核心にある方法論は、**自然自身に語らせること**です。

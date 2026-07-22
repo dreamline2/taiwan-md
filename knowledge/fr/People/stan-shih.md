@@ -23,6 +23,10 @@ sourceCommitSha: '648966ea'
 sourceContentHash: 'sha256:4207f3d1db6eb633'
 sourceBodyHash: 'sha256:a0ff299644c9b0cc'
 translatedAt: '2026-07-16T00:45:14+08:00'
+image: '/article-images/people/stanshih-taipei-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **En 30 secondes :** Stan Shih (né en 1944) est issu d’une famille de fabricants d’encens à Lugang. Son père est mort d’épuisement lorsqu’il avait trois ans ; sa mère l’a élevé en vendant des œufs de canard, des fournitures scolaires et des bons patriotiques. De simple ingénieur à la tête de l’électronique, il fonde Acer en 1976 avec sa femme et quelques partenaires pour un million de dollars taïwanais, le portant jusqu’à devenir l’une des cinq plus grandes marques de PC au monde. Il a tracé la « courbe du sourire », entrée dans les manuels scolaires et étudiée par les économistes internationaux. Il est l’un des rares pères fondateurs de la tech à Taïwan prêts à s’exposer publiquement pour parler de ses échecs : Datang Semiconductor a détenu le record de pertes pour une seule entreprise à Taïwan, Acer a perdu plus de 20 milliards en 2013, et à plus de 80 ans, avec plus d’une dizaine de stents cardiaques, il continue de faire du capital-risque et de développer des avatars IA. Ce qui l’importe le plus, c’est tout ce qui est invisible et ne se calcule qu’avec le temps : les talents, la marque, et ce qu’il appelle la « Voie royale » (Wangdao).

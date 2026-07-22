@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fe1941c4ac5aac8a'
 sourceBodyHash: 'sha256:8dca2bcfa6293bb2'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/society/taiwan-eswatini-military-honor-2026.webp'
+imageCredit: '中華民國總統府'
+imageLicense: 'OGDL (Open Government Data License) — 政府公開資訊'
+imageSource: 'https://english.president.gov.tw/News/7121'
 ---
 
 > **30-second overview:** Eswatini (renamed from “Swaziland” in 2018) is Taiwan’s only remaining diplomatic ally in Africa. It established relations with the Republic of China in September 1968, a relationship that reaches its 58th year in 2026. King Mswati III was born in April 1968; five months later, on the same day his country became independent, it established diplomatic relations with Taiwan. His life almost entirely overlaps with Taiwan-Eswatini diplomatic history, and as of 2024 he had visited Taiwan more than 17 times[^1]. After Nauru severed ties in January 2024, Eswatini became Taiwan’s only diplomatic ally in Africa[^2]. On May 2, 2026, Lai Ching-te made his first visit to a diplomatic ally after taking office. The trip was originally scheduled to depart on April 22, but after Seychelles, Mauritius, and Madagascar abruptly revoked flight permits under Chinese pressure, Mswati sent an Eswatini Airbus A340 special aircraft to carry Deputy Prime Minister Thulisile Dladla to Taipei to receive Lai, who then flew directly from Taipei to Mbabane on May 2[^3]. On May 1 of the same year, China granted zero-tariff treatment on 98% of tariff lines to 53 African countries, excluding only Eswatini[^4]. The greatest variable in this diplomatic lifeline is whether Mswati’s successor can persuade a generation facing 56% youth unemployment to continue seeing Taiwan as a friend, a question even harder to answer than “how much money China will spend.”

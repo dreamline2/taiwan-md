@@ -22,6 +22,10 @@ sourceCommitSha: '17b63fe83'
 sourceContentHash: 'sha256:5d83fb5eff7a2309'
 sourceBodyHash: 'sha256:da4269ea46f7ec77'
 translatedAt: '2026-07-15T00:51:51+08:00'
+image: '/article-images/culture/shopping-design-designbiz-2022-banner.jpg'
+imageCredit: 'Shopping Design／DesignBIZ Fest'
+imageLicense: 'Fair use（editorial commentary）'
+imageSource: 'https://designbiz.shoppingdesign.com.tw/2022/'
 ---
 
 > **30秒でわかるポイント：** 『Shopping Design』（デザイン購入誌）は2006年に創刊し、20年かけて「デザイン」を展示場の専門用語から、店舗を巡りアイテムを選ぶ日常の動詞へと変えてきた。しかし、それが台湾に真に教えたのは、「見極める力」が訓練可能な能力であるということだ。そしてその「あなたに代わって見極める」という行為は、雑誌から年間ベスト100リスト、季刊のテーマ、デザインカーニバルへと拡大され、さらに親会社の「雑誌出版＋広告サービス」という同一の免許証へと拡張された。つまり、見極め方を教えるこの雑誌が、最後に読者に問う対象は、まさにそれ自身なのである。

@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7da2390cfed253e'
 sourceBodyHash: 'sha256:4e86fa147bee5767'
 translatedAt: '2026-06-16T16:55:29Z'
+image: https://upload.wikimedia.org/wikipedia/commons/0/03/Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
+imageCredit: Fred Hsu
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
 ---
 
 # 화롄현: 129년 숨어 지낸 사키자야족, 정명으로 되찾은 타로코, 그리고 0403이 다시 멀어지게 한 것

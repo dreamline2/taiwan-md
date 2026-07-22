@@ -18,6 +18,10 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-04-19
 lastHumanReview: 2026-04-19
+image: '/article-images/people/ashan-2026-return-minecraft.webp'
+imageCredit: '阿神官方 YouTube 頻道'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.youtube.com/watch?v=60n6gPUEl7s'
 ---
 
 ## Red Shin (Kouki): From Eleven-Year Daily Upload "Work Machine" to Million-Subscriber YouTuber Who Reclaimed His Life

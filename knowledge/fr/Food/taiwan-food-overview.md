@@ -27,6 +27,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:5170de2db0a4b0df'
 sourceBodyHash: 'sha256:9da2f70ce1ba4f1f'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/food/taiwan-food-overview-raohe-night-market-2023.webp'
+imageCredit: 'KClinla'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E9%A5%92%E6%B2%B3%E8%A1%97%E8%A7%80%E5%85%89%E5%A4%9C%E5%B8%82_173356.jpg'
 ---
 
 # Panorama de la cuisine taïwanaise : aucun plat n'est purement taïwanais, chaque plat est pleinement taïwanais

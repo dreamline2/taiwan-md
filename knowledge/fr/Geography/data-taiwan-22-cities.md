@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d4d60849e9ff119e'
 sourceBodyHash: 'sha256:7464b15b7c6d840e'
 translatedAt: '2026-06-16T17:05:54Z'
+image: '/article-images/geography/taiwan-island-nasa-mosaic.webp'
+imageCredit: 'NASA'
+imageLicense: 'Public domain（NASA）'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Main_Island_Mosaic_NASA_2020.jpg'
 ---
 
 # Taïwan en données, 22 villes et comtés : entre le plus dense et le plus vide, un écart de 151 fois ; entre le plus âgé et le plus jeune, près d'une génération

@@ -21,6 +21,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:0a19013fbe675c85'
 sourceBodyHash: 'sha256:16078470c5f07551'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/society/nmth-main-building-2011.webp'
+imageCredit: 'Fcuk1203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg'
 ---
 
 > **30-second overview:** On October 29, 2011, after 13 years of preparation, the National Museum of Taiwan History opened in Annan District, Tainan. It turned Ts'ao Yung-ho's 1990 "Taiwan island historical perspective" into a physical exhibition space: the permanent exhibition "Our Land, Our People: The Story of Taiwan" has eight major galleries, from the arrival of Austronesian peoples to the contemporary "You, Too, Are Someone Who Writes History." The museum has released 140,000 collection items under the Open Government Data License, version 1.0 (equivalent to CC BY 4.0). After being elevated to a third-level agency in 2021, Director Chang Lung-chih positioned the museum as "an action platform for co-writing and co-creation by all"[^13]. When this national museum meets a community-driven open-source knowledge base in the age of AI, collective memory gains a second curatorial form.

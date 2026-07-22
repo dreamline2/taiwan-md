@@ -16,6 +16,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
 translatedAt: '2026-06-16T17:10:30Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Taiwan-Puppet-Show.jpg/800px-Taiwan-Puppet-Show.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の伝統芸術：田舎の小さな芝居から文化帝国への奇跡的な逆転

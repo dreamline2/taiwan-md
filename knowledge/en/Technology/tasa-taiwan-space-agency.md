@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:a54685fba76c9f68'
 sourceBodyHash: 'sha256:5ca31c80049b9985'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/formosat8-tasa-banner.webp'
+imageCredit: '國家太空中心 TASA（官方釋出，fair use editorial commentary）'
+imageLicense: 'Fair use editorial commentary（©TASA）'
+imageSource: 'https://www.tasa.org.tw/zh-TW/missions/detail/FORMOSAT-8'
 ---
 
 In 2016, Mayday's music video for "Stubborn" featured a middle-aged man building a rocket in a wasteland. He was treated as a daydreaming eccentric, and at the end he strapped on a homemade rocket and flew into the sky. Most Taiwanese people first came to know Jong-Shinn Wu not through any state institution, but through that music video: the "Rocket Uncle."[^1]

@@ -29,6 +29,10 @@ sourceCommitSha: 31a05c44
 sourceContentHash: 'sha256:f3604bda54fbb678'
 sourceBodyHash: 'sha256:0b92146b9814b26a'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: /article-images/geography/kinmen-hero.webp
+imageCredit: Sleepingstar
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Kinmen_Montage.png
 ---
 
 # 진먼현: 1949년 그 56시간이 진먼 75년의 운명을 결정했다

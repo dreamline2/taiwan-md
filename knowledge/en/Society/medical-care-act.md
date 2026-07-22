@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc46568183dd9cc2'
 sourceBodyHash: 'sha256:dc489fbbe5744c82'
 translatedAt: '2026-06-16T17:11:47Z'
+image: '/article-images/society/ntu-hospital-pond-2011.webp'
+imageCredit: '玄史生'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg'
 ---
 
 > **30-second overview**: The Medical Care Act does not regulate individual physicians (that is the Physicians Act of 1943), nor National Health Insurance payments (that is the National Health Insurance Act of 1994). It regulates how **hospitals, clinics, and medical juridical persons** exist, advertise, and handle disputes. Promulgated in 1986 with 91 articles, the Act was comprehensively amended in 2004 into 123 articles and introduced the “medical juridical person” system. In 2017, Article 82 was amended to revise physicians’ criminal liability into a “dual-requirement” standard. In May 2026, nurse-to-patient ratios were written into law. Yet after forty years, the reality facing Article 1’s stated aim to “promote the sound development of medical care enterprises” is this: 83% of hospitals and 74% of beds are private, emergency physicians leave the field at two to three times the U.S. rate, and nurses have resigned in waves, with nurse-to-patient ratios written into law only after the system was pushed to the edge of collapse.

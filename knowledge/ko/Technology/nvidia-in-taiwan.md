@@ -26,6 +26,7 @@ sourceCommitSha: '67e5b3684'
 sourceContentHash: 'sha256:b56a9c2f52721e09'
 sourceBodyHash: 'sha256:4f355b3d3c9b0f43'
 translatedAt: '2026-06-23T00:40:06+08:00'
+image: '/article-images/technology/computex-jensen-huang-2016.webp'
 ---
 
 # NVIDIA의 타이완: 세계에서 가장 비싼 회사는 칩 하나도 직접 만들지 않는다

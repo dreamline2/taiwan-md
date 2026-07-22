@@ -11,6 +11,9 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:cec5a64527d2ad7f'
 sourceBodyHash: 'sha256:c88724fc04366f08'
 translatedAt: '2026-04-14T12:25:09+08:00'
+image: '/article-images/food/fruit-kingdom-mango-fangliao-2009.webp'
+imageCredit: '陳偉城栽種、屏東枋寮 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 2.0'
 ---
 
 # Taiwan Fruit Kingdom

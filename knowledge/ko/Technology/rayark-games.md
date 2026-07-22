@@ -31,6 +31,10 @@ sourceCommitSha: 31a05c44
 sourceContentHash: 'sha256:efb74dfc78d9c93c'
 sourceBodyHash: 'sha256:28ef520886f893e3'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/rayark-cafe-2021.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Rayark_Café_20211016.jpg'
 ---
 
 > **30초 개요:** 2011년 9월, 타이완대 전기정보학원 출신 젊은이 여섯 명이 타이베이 진산베이루에서 레이아 게임즈를 설립했다. 자본금은 3,000만 대만달러, 팀은 16명이었다. 2012년 1월 《Cytus》가 iOS에 출시되었고, 한 달 만에 14개국 순위 1위에 올랐다. 이어 《Deemo》는 일본 Oricon 차트에 올랐고, 《Implosion》은 2015년 iOS 올해의 게임에 선정되었으며, 《VOEZ》는 Nintendo Switch 출시작이 되었다. 14년 뒤 레이아는 누적 10편 이상의 게임을 출시했고 전 세계 다운로드 수는 1억 3,000만 회를 넘겼지만, 그들을 둘러싼 핵심어는 이미 ‘천재’에서 ‘아쉽다’로 바뀌었다. Sdorica 만상물어는 8년을 버틴 끝에 2026년 2월 공식적으로 유지보수 모드에 들어갔고, Implosion 애니메이션은 2015년 Kickstarter 모금 이후 2026년까지도 인도되지 않았으며, 2020년 ICE 모스 부호 사건 이후 레이아는 중국 시장에 맞춰 게임을 수정했다. 미학은 그들을 세계에 보이게 했지만, 또한 그들이 음악이 아닌 모든 장에서 넘어지게 했다.

@@ -1,20 +1,40 @@
 ---
-title: "New Taipei City: The Ring Metropolis Around Taipei, Where 4.01 Million People Sustain the Capital’s Commute, Industry, and Memory"
-description: "Fort San Domingo in Tamsui has stood for 398 years since the Spanish laid its first brick in 1628. That is 247 years before Shen Baozhen established Taipei Prefecture in 1875. Today, New Taipei City’s 29 districts surround Taipei City’s 12 districts; 4.01 million people live in Taiwan’s largest special municipality, and 390,000 commute across city and county lines to work in Taipei. But this “ring metropolis” is not Taipei’s bedroom community: it has the Banqiao Lin Family from 1853, oolong tea shipped from Tamsui to New York in 1869, Jiufen and Jinguashi as Asia’s first gold-mining district in the 1890s, the Pingxi Railway that carried coal in 1929, the Sanxia Zushi Temple carvings begun by Li Mei-shu in 1947, and the Tranan community of the Atayal people in Wulai. New Taipei is a microcosm of Taiwan’s 400 years, located just outside Taipei City."
+title: 'New Taipei City: The Ring Metropolis Around Taipei, Where 4.01 Million People Sustain the Capital’s Commute, Industry, and Memory'
+description: 'Fort San Domingo in Tamsui has stood for 398 years since the Spanish laid its first brick in 1628. That is 247 years before Shen Baozhen established Taipei Prefecture in 1875. Today, New Taipei City’s 29 districts surround Taipei City’s 12 districts; 4.01 million people live in Taiwan’s largest special municipality, and 390,000 commute across city and county lines to work in Taipei. But this “ring metropolis” is not Taipei’s bedroom community: it has the Banqiao Lin Family from 1853, oolong tea shipped from Tamsui to New York in 1869, Jiufen and Jinguashi as Asia’s first gold-mining district in the 1890s, the Pingxi Railway that carried coal in 1929, the Sanxia Zushi Temple carvings begun by Li Mei-shu in 1947, and the Tranan community of the Atayal people in Wulai. New Taipei is a microcosm of Taiwan’s 400 years, located just outside Taipei City.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["New Taipei", "New Taipei City", "Northern Taiwan", "Banqiao", "Tamsui", "Jiufen", "Jinguashi", "Sanxia", "Yingge", "Wulai", "Pingxi", "Gongliao", "Ring Metropolis", "22 Cities and Counties Series"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'New Taipei',
+    'New Taipei City',
+    'Northern Taiwan',
+    'Banqiao',
+    'Tamsui',
+    'Jiufen',
+    'Jinguashi',
+    'Sanxia',
+    'Yingge',
+    'Wulai',
+    'Pingxi',
+    'Gongliao',
+    'Ring Metropolis',
+    '22 Cities and Counties Series',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/新北市.md"
-sourceCommitSha: "4aa49c873"
-sourceContentHash: "sha256:112ba1c658fb3b9a"
-sourceBodyHash: "sha256:8f043620c961da1e"
-translatedAt: "2026-05-19T05:08:06+08:00"
+translatedFrom: 'Geography/新北市.md'
+sourceCommitSha: '4aa49c873'
+sourceContentHash: 'sha256:112ba1c658fb3b9a'
+sourceBodyHash: 'sha256:8f043620c961da1e'
+translatedAt: '2026-05-19T05:08:06+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2017_Fort_San_Domingo.jpg/1280px-2017_Fort_San_Domingo.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/Category:Fort_Santo_Domingo
 ---
 
 # New Taipei City: The Ring Metropolis Around Taipei, Where 4.01 Million People Sustain the Capital’s Commute, Industry, and Memory

@@ -14,6 +14,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:3c2872e562b3f229'
 sourceBodyHash: 'sha256:43f231d59e183f8e'
 translatedAt: '2026-05-01T18:02:56+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bunun_pasibutbut.jpg/1280px-Bunun_pasibutbut.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 > **30秒でわかる：** 1943年、日本の音楽学者・黒澤隆朝は録音機材を携えて台東の崁頂部落へ入り、ブヌン族の小米豊穣祈願歌Pasibutbutを録音しました。9年後、この録音がUNESCOに送られると、在场の音楽学者たちは驚愕しました。西洋の理論では複音合唱は高度な文明の産物だとされてきましたが、ブヌン族は文字も楽器も持たない山深くで、人声の共振だけでそれを成し遂げたのです。この「八部合音」と呼ばれる天籟は、今日でも台湾において最も国際的に認知された音です。

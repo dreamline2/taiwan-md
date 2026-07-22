@@ -14,6 +14,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c0745c4b9d2ae295'
 sourceBodyHash: 'sha256:c2f250d5a21d59eb'
 translatedAt: 2026-05-01T22:19:01+08:00
+image: '/article-images/people/ashan-2026-return-minecraft.webp'
+imageCredit: '阿神官方 YouTube 頻道'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.youtube.com/watch?v=60n6gPUEl7s'
 ---
 
 ## 아신: 11년간 매일 업데이트한 "일 기계"에서 삶을 되찾은 300만 구독자 유튜버

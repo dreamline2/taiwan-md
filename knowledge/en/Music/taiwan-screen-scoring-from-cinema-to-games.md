@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7854f820ae13e37'
 sourceBodyHash: 'sha256:5340a77820daae23'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/music/golden-horse-awards-entrance-2016.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons, CC BY-SA 4.0'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Golden_Horse_Awards_Ceremony_entrance_20161126.jpg'
 ---
 
 > **30-second overview:** Taiwanese screen scoring is often described as becoming "more and more international in scale," such as Ricky Ho crossing the sea to Sydney to record Seediq Bale with a 60-member orchestra[^1], or Tan Dun's score for Crouching Tiger, Hidden Dragon winning an Oscar[^2]. But what is truly moving about this trajectory is not its scale. From the academic orchestral idiom of the 1980s, to Lim Giong bringing electronic spaciousness into Hou Hsiao-hsien's films[^3], Lin Sheng-xiang using a yueqin he bought for NT$2,000 to score a black-and-white film[^4], Ko Chih-hao moving the Taiwanese opera, beiguan, and nanguan sounds of the Dadaocheng temple forecourt onto the big screen[^5], and Chang Weifan writing Taiwan's funeral lament "xi-so-mi" into a horror game[^6], the path Taiwanese composers have traveled is one that slowly transformed scoring from laying emotion under images into excavating this island's own sound. Sound has strata, and composers are the people who dig downward.

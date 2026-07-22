@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:63b47718f8145b2c'
 sourceBodyHash: 'sha256:04f5859af8f97035'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/art/yeh-ting-hao-reverberation-hero-2024.webp'
+imageCredit: '臺中國家歌劇院 NTT'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.youtube.com/watch?v=_-L_wAYDmBs'
 ---
 
 ## 예팅하오: 기술의 “부정확한” 사용으로 예기치 못한 음상 예술을 끌어낸 예술가, 43세에 하나의 생태계를 남기다

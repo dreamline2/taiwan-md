@@ -15,6 +15,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b19eaae2749a2675'
 sourceBodyHash: 'sha256:0e334a19b5edfbf1'
 translatedAt: '2026-04-14T03:55:14+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/%E5%9F%BA%E9%9A%86%E5%B4%81%E4%BB%94%E9%A0%82%E8%A7%80%E5%85%89%E9%AD%9A%E5%B8%82_-_panoramio.jpg/960px-%E5%9F%BA%E9%9A%86%E5%B4%81%E4%BB%94%E9%A0%82%E8%A7%80%E5%85%89%E9%AD%9A%E5%B8%82_-_panoramio.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 타이완 해산물 문화

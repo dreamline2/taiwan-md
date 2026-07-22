@@ -31,6 +31,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:62a474db99f7907b'
 sourceBodyHash: 'sha256:df0b89348caf6487'
 translatedAt: '2026-06-23T00:40:06+08:00'
+image: '/article-images/people/caodong-the-servile-2016.webp'
+imageCredit: '© 石皮有限公司／草東沒有派對'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://music.apple.com/tw/album/1676735354'
 ---
 
 > **Resumen en 30 segundos:** No Party for Cao Dong es una banda independiente de cuatro integrantes formada en 2012 en el “cruce de las calles Jianxian y Caodong”, en Yangmingshan, Taipéi. En 2016 financiaron por cuenta propia 2.000 CD hechos a mano y los vendieron todos en tres días; en la 28.ª edición de los Golden Melody Awards de 2017 ganaron de forma abrumadora, en la primera ronda, Mejor Banda (derrotando a Mayday), Mejor Artista Nuevo y Canción del Año ([〈Simon Says〉](https://www.youtube.com/watch?v=HqmpIQ9l-uA)), con 19, 19 y 18 votos, respectivamente. El 30 de octubre de 2021, la baterista Fanfan (Tsai Yi-fan, de 26 años) murió en un hotel de cuarentena en Taipéi, y la banda entró en casi dos años de silencio. El 20 de mayo de 2023 publicaron su segundo álbum, The Clod: el término “wahé” aparece en las _Memorias históricas_, “Biografías de los eruditos confucianos”, mientras que el sentido extendido de “trozos de teja rota que encajan; aunque se junten, no quedan uniformes” proviene de la anotación de Yan Shigu, de la dinastía Tang, al _Libro de Han_, “Biografía de Li, Lu, Zhu, Liu y Shusun”.[^19] En 2024 ganaron con The Clod la triple corona de la 35.ª edición de los Golden Melody: Álbum del Año + Mejor Álbum en Mandarín + Mejor Banda. La noche de la premiación, la banda estuvo ausente y su mánager declaró al recibir el premio: “No Party for Cao Dong nunca ha sido solamente las 4 personas que están sobre el escenario”. Esta es una historia de doce años cuyo núcleo es **perder, callar, volver; volver a perder, volver a callar, volver de nuevo**.

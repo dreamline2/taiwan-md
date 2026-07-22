@@ -20,6 +20,10 @@ sourceCommitSha: 'e6c58721'
 sourceContentHash: 'sha256:b09e2036d35d54e7'
 sourceBodyHash: 'sha256:fc825bead5669dc1'
 translatedAt: '2026-06-16T17:15:00Z'
+image: '/article-images/people/tsai-2016-campaign.webp'
+imageCredit: 'MiNe (sfmine79)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tsai_Ing-wen_presidential_campaign,_2016_(22116261150).jpg'
 ---
 
 # 蔡英文

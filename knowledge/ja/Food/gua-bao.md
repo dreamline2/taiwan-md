@@ -14,6 +14,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:6fe952ad9ad0a5fa'
 sourceBodyHash: 'sha256:6b2255cbc29cf54c'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/food/gua-bao-yuanfang-2023.webp'
+imageCredit: '王昱晴 / 中華民國總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gua-bao_by_the_Yuan_Fang_Guabao_at_Huaxi_Street_2023-04-28_01.jpg'
 ---
 
 ![華西街の源芳刈包。半円形に折りたたんだ生地で、煮込んだ豚バラ肉、酸菜、ピーナッツ粉、香菜を挟む。台北を代表する伝統的な刈包の一つです](/article-images/food/gua-bao-yuanfang-2023.webp)

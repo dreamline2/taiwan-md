@@ -32,6 +32,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-06-13'
     url: 'https://x.com/taiwandotmd/status/2065697249041281306'
+image: '/article-images/society/diane-ying-magsaysay.webp'
+imageCredit: 'Ramon Magsaysay Award Foundation'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://rmaward.asia/rmawardees/ying-diane-yun-peng/'
 ---
 
 > **30초 개요:** 1981년 6월 1일, <천하>라는 경제 잡지가 계엄 속에서 국제 무대에서 밀려난 타이완에서 창간되었고, 초판 만 부가 이틀 만에 팔렸다[^1]. 창립자는 경제학자 고희균으로, "서생보국(書生報國)"의 념원 아래 왕리행(王力行), 장작금(張作錦), 윤윤팽을 초대하여 함께 창간했다[^2]. 유엔통신사(UPI), 뉴욕타임스, 아시아 월스트리트저널 기자를 지낸 윤윤팽은 이 잡지의 편집 영혼이었으며, 1986년 분가 후 이 잡지를 지킨 사람이기도 하다[^3]. 사십 년간 이 잡지는 "경제를 모두가 읽을 수 있는 이야기로 쓰는" 잡지에서 타이완 기업과 지방 거버넌스의 순위 제조자로 성장했다: 2000대 기업, 50대 그룹, 표준 기업, 행복도시. 이 순위들은 타이완 사람들에게 무엇이 "성공"인지를 조용히 정의해 왔다. 이 잡지는 로이터 보고서에서 타이완에서 가장 신뢰받는 매체 중 하나이며[^4], 라망 막사사이상과 SOPA 공로상을 수상했다. 그러나 이 잡지가 가장 신뢰받는 위치는 동시에 자본과 권력에 가장 가까운 위치이기도 하다. 그 공신력과 타인의 순위를 매기는 권력은 같은 거리에서 나온다.

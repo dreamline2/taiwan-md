@@ -24,6 +24,8 @@ sourceCommitSha: '6897c6571'
 sourceContentHash: 'sha256:b00d48ce7d3f9ffa'
 sourceBodyHash: 'sha256:f8572e451edfc640'
 translatedAt: '2026-06-29T00:47:38+08:00'
+image: '/article-images/music/golden-melody-awards-2021.webp'
+imageCredit: 'Solomon203'
 ---
 
 # 금곡장: 타이완이 자기 음악에 상을 주고, 35년 동안 평생 기억될 순간들

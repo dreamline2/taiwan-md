@@ -15,6 +15,7 @@ sourceCommitSha: '7852e7f7'
 sourceContentHash: 'sha256:fefdcc28d82e9ce0'
 sourceBodyHash: 'sha256:8e44f1173a86a8b9'
 translatedAt: '2026-06-28T00:39:56+08:00'
+image: '/article-images/technology/computex-jensen-huang-2016.webp'
 ---
 
 # 黄仁勲（こう・じんくん／ジェンスン・フアン、Jensen Huang）

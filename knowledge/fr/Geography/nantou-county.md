@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c80f3accc7342bb8'
 sourceBodyHash: 'sha256:9116715a2d516221'
 translatedAt: '2026-06-16T17:05:54Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sun_Moon_Lake_in_Twilight.JPG/1280px-Sun_Moon_Lake_in_Twilight.JPG
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Sun_Moon_Lake_in_Twilight.JPG
 ---
 
 # Comté de Nantou : le seul comté sans littoral, avec l'épicentre du séisme du 21 septembre en son centre

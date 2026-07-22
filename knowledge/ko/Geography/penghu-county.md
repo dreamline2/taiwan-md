@@ -29,6 +29,10 @@ sourceCommitSha: 'dd6cd0156'
 sourceContentHash: 'sha256:45c3c3aac3c42d62'
 sourceBodyHash: 'sha256:d8c2fdecefda4ce7'
 translatedAt: '2026-06-09T03:15:09+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bridge_across_the_Houmen_Channel.jpg/1280px-Bridge_across_the_Houmen_Channel.jpg
+imageCredit: Wing1990hk
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Bridge_across_the_Houmen_Channel.jpg
 ---
 
 # Penghu County: Two Rejections of Casinos, the Chrysanthemum Island Chose Not Poverty

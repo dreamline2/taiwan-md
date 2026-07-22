@@ -28,6 +28,10 @@ sourceCommitSha: '6f28d616'
 sourceContentHash: 'sha256:e233ab9cc8b79527'
 sourceBodyHash: 'sha256:8e7d5975a9ac8375'
 translatedAt: '2026-06-12T16:39:07Z'
+image: https://upload.wikimedia.org/wikipedia/commons/2/29/Tashan_in_morning_glow.jpg
+imageCredit: Peellden
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Tashan_in_morning_glow.jpg
 ---
 
 # Chiayi County: 490,000 People Lend Their Face to Alishan, and No One Remembers the County Seat Is in Taibao

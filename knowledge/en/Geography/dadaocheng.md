@@ -33,6 +33,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:1aab357813ec41e3'
 sourceBodyHash: 'sha256:4f2293becc2b45da'
 translatedAt: '2026-06-16T17:03:25Z'
+image: /article-images/geography/dadaocheng-aerial-view-2010s.webp
+imageCredit: Yu tptw
+imageLicense: Attribution (CC)
+imageSource: https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dihua_Street.jpg
 ---
 
 # Dadaocheng: 800 Meters, Three Centuries, from Formosa Tea to the First Shot of February 28

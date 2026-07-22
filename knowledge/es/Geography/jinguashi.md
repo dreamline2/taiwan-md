@@ -29,6 +29,8 @@ sourceCommitSha: '676c8cd6'
 sourceContentHash: 'sha256:36ec0adabddd5612'
 sourceBodyHash: 'sha256:7a207109d1ae592a'
 translatedAt: '2026-07-16T00:45:14+08:00'
+image: /article-images/geography/jinguashi-13-levels-lighting-2019.webp
+imageCredit: 'Taiwankengo / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 # Jinguashi: muchas capas de vida apiladas en una montaña, desde el oro aluvial, los prisioneros de guerra hasta el suelo arsenical sin limpiar

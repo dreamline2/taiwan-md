@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc9a16af37eefe47'
 sourceBodyHash: 'sha256:f7df18837078b48f'
 translatedAt: '2026-06-16T17:04:12Z'
+image: '/article-images/society/tdri-songshan-entrance-2022.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Entrance_2,_Songshan_Cultural_and_Creative_Park_20220423.jpg'
 ---
 
 汐止の保健所の待合エリアは、今ではあまり保健所らしく見えません。もともとあった蛍光灯、プラスチック椅子、ぎっしり並んだ薬の受け取り窓口はなくなり、積み木のように分解・組み立てができるモジュール一式に置き換わりました。都市型、ニュータウン型、郷鎮型がそれぞれ一式あり、新北市衛生局は十三カ月をかけて、汐止と鶯歌の二つのモデル拠点から始めました[^1]。あなたは、おそらくこのことに気づいたことがないでしょう。ワクチンを打ち、血圧を測り、慢性疾患の薬を受け取る。動線が以前より少しスムーズになり、待っている間のいらだちが少し減り、そしてそのまま帰っていくのです。

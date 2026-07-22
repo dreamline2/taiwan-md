@@ -38,6 +38,10 @@ sourceCommitSha: 31a05c44
 sourceContentHash: 'sha256:fb76ac27fc6cd3ba'
 sourceBodyHash: 'sha256:a32189fb31dd0c7d'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/geography/beitou-hot-spring-museum-2020.webp'
+imageCredit: 'Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg'
 ---
 
 # 베이터우 온천 거리: 1697년 유황 채취에서 2026년 온천박물관까지, 같은 산천에 네 세대 주민이 바뀌다

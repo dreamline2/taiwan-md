@@ -35,6 +35,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:5b2be7a2e0aa64aa'
 sourceBodyHash: 'sha256:18f3978bd2f84e6f'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/geography/shilin-cixian-temple-2010.webp'
+imageCredit: '龍本'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Shilin_Cixian_Temple_20100213.jpg'
 ---
 
 # 스린: 케타갈란족의 땅, 장저우·취안저우 무력 충돌의 사원, 그리고 지금은 매일 밤 타이베이에서 가장 붐비는 야시장

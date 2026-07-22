@@ -25,6 +25,7 @@ sourceCommitSha: '489ea1601'
 sourceContentHash: 'sha256:50346fd81e3daf96'
 sourceBodyHash: 'sha256:64d75052423ad414'
 translatedAt: '2026-06-28T00:38:05+08:00'
+image: '/article-images/people/ed-chi-deepmind-talk-2026.webp'
 ---
 
 Cuando el mundo entero perseguía la IA con cientos de millones de dólares en poder de cómputo, hubo un artículo que cambió la forma en que las máquinas razonan. Costó aproximadamente cinco mil dólares.

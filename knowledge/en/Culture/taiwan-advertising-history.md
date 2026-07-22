@@ -22,6 +22,10 @@ sourceCommitSha: 'f7484ebea'
 sourceContentHash: 'sha256:faa63331d7b3eae1'
 sourceBodyHash: 'sha256:296b2f47a01a03eb'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/culture/tatung-cooker-100th-2019.webp'
+imageCredit: 'Solomon203'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tatung_100th_Anniversary_Cooker_20190706.jpg'
 ---
 
 > **30-second overview:** The advertising memories shared by people in Taiwan are almost all lines you cannot help but finish, or melodies you can hum even when you no longer remember what they were selling: “Fuqi la!”; “Only fresh enough dares to speak loudly”; “Tatung, Tatung, domestic goods are good.” This capacity for “all of Taiwan to remember in sync” depended on an era with no real alternatives, when only three television stations existed: TTV (1962), CTV (1969), and CTS (1971). They bound an entire generation’s attention to the same channels. After two ruptures, the Cable Radio and Television Act took effect in 1993, and digital advertising spending first surpassed television in 2016. The age of nationwide advertising was over.

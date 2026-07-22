@@ -36,6 +36,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:4a53480bbe9aa83b'
 sourceBodyHash: 'sha256:5091127dea208f82'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: '/article-images/people/cicada-cuichi-xueshan-glacial-lake.webp'
+imageCredit: 'Blackjack633 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%BF%A0%E6%B1%A0_%E6%B1%AA%E5%A4%A7%E6%99%BA_05.jpg'
 ---
 
 > **30-second overview:** Cicada is an all-instrumental independent band founded in Taipei in 2009 and led by pianist Jesy Chiang (M.A. in Art History, Taipei National University of the Arts). The four-piece lineup includes piano, violin, cello, and acoustic guitar. Since their 2011 debut _Pieces_ on White Wabbit Records, everything they have released over sixteen years has been without vocals. Their themes have moved from west-coast erosion (_Coastland_, 2013), the east coast and the Pacific (_Light Shining Through the Sea_, 2015), marine ecology (_White Forest_, 2017), and mountain forests (_Hiking in the Mist_, 2019) to stream sources (_Seeking the Sources of Streams_, 2022, a 15-day, 120-kilometer expedition through the Central Mountain Range). Their 2024 fifteenth-anniversary self-selected compilation _Coastland Revisited_ reinterpreted coastal themes; in 2025, _Gazing the Shades of White_ went beyond Taiwan for the first time, following glaciers across the Northern and Southern Hemispheres before returning to Xueshan to seek traces of ancient glaciers. They scored the Japanese film _A Man_ and received the Japan Academy Film Prize for Outstanding Achievement in Music; in 2024 they completed a full Japan tour and have shared the stage with Icelandic composer Ólafur Arnalds. Their core method: **letting nature speak for itself**.

@@ -38,6 +38,10 @@ sporeLinks:
     platform: 'threads'
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
+image: '/article-images/art/jiang-chien-sanxiantai-coast-2014.webp'
+imageCredit: 'lwtt93 (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg'
 ---
 
 # Paul Chiang: After Forty-Five Years Away from Taiwan, Only After Coming Home Could He Paint the Best Work of His Life

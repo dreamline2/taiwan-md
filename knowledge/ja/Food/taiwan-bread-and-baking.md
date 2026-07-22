@@ -14,6 +14,8 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:e4c169783e32f5c2'
 sourceBodyHash: 'sha256:79036ef58165be78'
 translatedAt: '2026-05-17T05:33:00Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/TaiwanesePineappleCake.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾のパンとベーカリー
@@ -85,9 +87,13 @@ translatedAt: '2026-05-17T05:33:00Z'
 ## 参考文献
 
 [^1]: [呉宝春麥方店 公式サイト](https://www.wu-pao-chun.com/) — 米釀荔香作品の紹介と 2010 年 Mondial du Pain 優勝の経緯。
+
 [^2]: [Mondial du Pain 公式サイト](https://www.mondialdupain.com/) — 歴代個人部門優勝者リスト、台湾選手の 2010/2015/2017/2022 4 回の優勝記録を含む。
+
 [^3]: [85°C 投資家向け情報](https://www.85cafe.com/) — 85°C ブランドの沿革と海外出店資料。
+
 [^4]: [中華穀類食品工業技術研究所](https://www.cgprdi.org.tw/) — 台湾のベーカリー技術研究機関。競技訓練と技術指導の資料を含む。
+
 [^5]: [中華民国ベーカリー商業同業公会全国聯合会](https://www.twbakery.org.tw/) — ベーカリー業の公会。産業統計と国際大会情報を含む。
 
 ## 関連リンク

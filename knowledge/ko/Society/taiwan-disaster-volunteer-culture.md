@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:2758b5b1f9c739df'
 sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
 translatedAt: '2026-06-16T17:05:51Z'
+image: '/article-images/society/guangfu-921-memorial-2003.webp'
+imageCredit: 'Hsu.shihhung via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Guang_Fu_921.JPG'
 ---
 
 # 삽 초인과 섬의 동시성: 대만 재난 자원봉사 문화가 국가 정체성에 미치는 영향

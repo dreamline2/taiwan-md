@@ -15,6 +15,8 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:874c652bf8f5b63c'
 sourceBodyHash: 'sha256:53b616e81595b8c6'
 translatedAt: '2026-05-20T05:08:30+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 타이완 수요음료 문화
@@ -236,7 +238,11 @@ translatedAt: '2026-05-20T05:08:30+08:00'
 ## 참고 자료
 
 [^1]: 춘수당(春水堂), 〈펄 밀크티 발명사〉, https://www.chunshuitang.com.tw/article-detail/invent-bubble-milk-tea/
+
 [^2]: 타이완 연합 프랜차이즈 협회(台灣連鎖暨加盟協會), https://www.cfatwn.org.tw/
+
 [^3]: 연합신문망(聯合新聞網), 〈펄 밀크티 특허 분쟁 없어〉, https://udn.com/news/story/7321/3960989
+
 [^4]: 경제부 통계처(經濟部統計處), 음료 산업 운영 통계, https://www.moea.gov.tw/
+
 [^5]: 춘수당 공식 웹사이트(春水堂官網), https://www.chunshuitang.com.tw/

@@ -25,6 +25,10 @@ sourceCommitSha: 'e1b5668ad'
 sourceContentHash: 'sha256:52e4902ee0218b64'
 sourceBodyHash: 'sha256:004737d115b4c40f'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: /article-images/society/kuma-academy-blue-magpie-drill-2024.webp
+imageCredit: Tan Xudong / Voice of America
+imageLicense: Public Domain
+imageSource: https://commons.wikimedia.org/wiki/File:%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2%E8%97%8D%E9%B5%B2%E8%A1%8C%E5%8B%95_20240127.jpg
 ---
 
 # L’Académie Kuma : une école de défense civile qui espère ne plus avoir à exister un jour

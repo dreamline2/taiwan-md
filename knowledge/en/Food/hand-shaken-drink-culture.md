@@ -1,20 +1,22 @@
 ---
-title: "Taiwan Hand-Shaken Drink Culture"
+title: 'Taiwan Hand-Shaken Drink Culture'
 description: "From bubble tea to premium tea beverages, the rise of Taiwan's hand-shaken drink culture and its global expansion"
 date: 2026-03-19
-author: "Taiwan.md"
-category: "Food"
-subcategory: "飲品文化"
-tags: ["美食", "手搖飲", "珍珠奶茶", "茶飲", "文化輸出", "品牌國際化"]
+author: 'Taiwan.md'
+category: 'Food'
+subcategory: '飲品文化'
+tags: ['美食', '手搖飲', '珍珠奶茶', '茶飲', '文化輸出', '品牌國際化']
 readingTime: 8
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
-translatedFrom: "Food/台灣手搖飲文化.md"
-sourceCommitSha: "f712b7242"
-sourceContentHash: "sha256:874c652bf8f5b63c"
-sourceBodyHash: "sha256:53b616e81595b8c6"
-translatedAt: "2026-05-20T05:08:27+08:00"
+translatedFrom: 'Food/台灣手搖飲文化.md'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:874c652bf8f5b63c'
+sourceBodyHash: 'sha256:53b616e81595b8c6'
+translatedAt: '2026-05-20T05:08:27+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwan Hand-Shaken Drink Culture
@@ -236,7 +238,11 @@ Taiwan's hand-shaken drink culture began with the innovation of bubble tea and h
 ## References
 
 [^1]: Chun Shui Tang, "The Invention History of Bubble Tea," https://www.chunshuitang.com.tw/article-detail/invent-bubble-milk-tea/
+
 [^2]: Taiwan Chain Stores and Franchise Association, https://www.cfatwn.org.tw/
+
 [^3]: United Daily News, "Bubble Tea Has No Patent Dispute," https://udn.com/news/story/7321/3960989
+
 [^4]: Department of Statistics, Ministry of Economic Affairs, Beverage Industry Operations Statistics, https://www.moea.gov.tw/
+
 [^5]: Chun Shui Tang Official Website, https://www.chunshuitang.com.tw/

@@ -5,7 +5,15 @@ date: 2026-03-17
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '經典小吃'
-tags: ['Cuisine', 'beef noodle soup', 'waishengren cuisine', 'cultural fusion', 'Taipei Beef Noodle Festival', 'Michelin']
+tags:
+  [
+    'Cuisine',
+    'beef noodle soup',
+    'waishengren cuisine',
+    'cultural fusion',
+    'Taipei Beef Noodle Festival',
+    'Michelin',
+  ]
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: true
@@ -14,6 +22,8 @@ sourceCommitSha: '30569f742'
 sourceContentHash: 'sha256:2d9ee979d4f7479e'
 sourceBodyHash: 'sha256:fcb7ba6bb70c92d6'
 translatedAt: '2026-05-20T05:08:27+08:00'
+image: '/images/wiki/5be514264de6.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA 2.0'
 ---
 
 # Beef Noodle Soup

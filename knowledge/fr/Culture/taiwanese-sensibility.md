@@ -5,7 +5,17 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Culture'
 subcategory: '區域特色'
-tags: ['Sensibilité taïwanaise', '대만감성', 'Corée', 'Esthétique', 'Paysage urbain', 'Rayonnement culturel', 'Grilles en fer forgé', 'Vieux visages de maisons']
+tags:
+  [
+    'Sensibilité taïwanaise',
+    '대만감성',
+    'Corée',
+    'Esthétique',
+    'Paysage urbain',
+    'Rayonnement culturel',
+    'Grilles en fer forgé',
+    'Vieux visages de maisons',
+  ]
 readingTime: 14
 lastVerified: 2026-05-16
 lastHumanReview: true
@@ -15,6 +25,10 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:413833a72961c88e'
 sourceBodyHash: 'sha256:9858a809538deaaf'
 translatedAt: '2026-05-17T05:33:00Z'
+image: '/article-images/culture/changhua-iron-window-grille-2021.webp'
+imageCredit: 'Outlookxp'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%B8%82%E4%B8%89%E5%92%8C%E5%A4%A7%E6%97%85%E7%A4%BE%E9%90%B5%E7%AA%97%E8%8A%B1.jpg'
 ---
 
 # La sensibilité taïwanaise : l'esthétique taiwanoise vue par les Coréens

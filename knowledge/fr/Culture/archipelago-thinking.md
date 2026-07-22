@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:75c25926a0cdd0a8'
 sourceBodyHash: 'sha256:02638f04673a14f6'
 translatedAt: '2026-05-17T05:06:52+08:00'
+image: '/article-images/culture/austronesian-migration-map.webp'
+imageCredit: 'Kikilipse / Wikimedia Commons (CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chronological_dispersal_of_Austronesian_people_across_the_Pacific_(per_Benton_et_al,_2012,_adapted_from_Bellwood,_2011).svg'
 ---
 
 > **Aperçu en 30 secondes :** Dépliez une carte de Taïwan : la plupart des gens y voient une petite île au bord du continent chinois. Mais faites pivoter la carte de 30 degrés dans le sens horaire, puis prolongez-la vers le sud : vous verrez apparaître une autre carte, tout aussi valide. Taïwan est aussi l’extrémité nord-est du monde malais (Nusantara), le foyer linguistique originel de 400 millions de locuteurs austronésiens, et le point de départ de l’histoire de leur diffusion dans le Pacifique. Un anneau-oreille en jade prélevé à Fengtian, Hualien, se retrouvait déjà il y a 3500 ans dans des sites archéologiques de l’île de Batan, de Luçon, du Vietnam et de Thaïlande. Le linguiste Robert Blust a déduit de la diversité lexicale que neuf des dix grandes branches austronésiennes se trouvent à Taïwan. La langue parlée par les Tao de Lanyu est intelligible à 60 % avec celle des Ivatan de Batanes. Ce que propose cet article, c’est de réinscrire cette autre carte oubliée, afin de voir le Taïwan réel à travers les deux cartes à la fois.

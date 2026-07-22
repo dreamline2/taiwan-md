@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:f504463086a8f46e'
 sourceBodyHash: 'sha256:df920362587637e7'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/people/hsu-cho-yun-academia-sinica-hero.webp'
+imageCredit: 'Academia Sinica'
+imageLicense: 'Attribution (Wikimedia Commons)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Cho-Yun_Hsu_%E8%A8%B1%E5%80%AC%E9%9B%B2.jpg'
 ---
 
 # Hsu Cho-yun: Writing the Long River of Chinese History with Two Fingers, Wang Leehom's Great-Uncle's Ninety-Five Years

@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc46568183dd9cc2'
 sourceBodyHash: 'sha256:dc489fbbe5744c82'
 translatedAt: '2026-06-16T17:13:36Z'
+image: '/article-images/society/ntu-hospital-pond-2011.webp'
+imageCredit: '玄史生'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg'
 ---
 
 > **Aperçu en 30 secondes** : la loi sur les soins médicaux ne régit pas les médecins à titre individuel (cela relève de la loi sur les médecins de 1943), ni les remboursements de l’assurance maladie (cela relève de la loi sur l’assurance maladie de 1994), mais **les hôpitaux, cliniques et personnes morales médicales** : comment ces institutions existent, comment elles font de la publicité, comment elles traitent les litiges. Promulguée en 1986 avec 91 articles, elle a été profondément révisée en 2004 pour atteindre 123 articles et introduire le régime des « personnes morales médicales » ; en 2017, l’article 82 a modifié la responsabilité pénale des médecins en adoptant une « double condition » ; en mai 2026, les ratios infirmiers-patients ont été inscrits dans la loi. Mais après quarante ans, l’objectif proclamé dès l’article 1, « promouvoir le développement sain des activités médicales », se heurte à une réalité : 83 % des hôpitaux et 74 % des lits relèvent du privé, le taux de sortie des urgentistes dépasse de deux à trois fois celui des États-Unis, et les infirmières ont démissionné en masse jusqu’à pousser le Parlement, au bord de l’effondrement du système, à légiférer sur les ratios infirmiers-patients.

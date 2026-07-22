@@ -15,6 +15,10 @@ sourceCommitSha: 'f7484ebea'
 sourceContentHash: 'sha256:faa63331d7b3eae1'
 sourceBodyHash: 'sha256:296b2f47a01a03eb'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/culture/tatung-cooker-100th-2019.webp'
+imageCredit: 'Solomon203'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tatung_100th_Anniversary_Cooker_20190706.jpg'
 ---
 
 > **30초 개관:** 타이완 사람들이 공유하는 광고 기억은 거의 모두 무심코 다음 말을 잇게 되는 한마디 대사, 무엇을 팔았는지는 기억나지 않아도 흥얼거리게 되는 한 소절의 선율이다. “福氣啦!”, “有青才敢大聲”, “大同大同國貨好”. 이런 “전 타이완이 동시에 기억하는” 능력은 타이완 텔레비전공사 TTV(1962), 중국 텔레비전공사 CTV(1969), 중화 텔레비전공사 CTS(1971) 세 방송사밖에 없고 다른 선택지가 없던 시대가 한 세대 전체의 주의를 같은 채널에 묶어 두었기에 가능했다. 1993년 《유선텔레비전법》 시행, 2016년 디지털 광고 금액의 첫 텔레비전 추월이라는 두 차례의 단절 이후, 국민 광고의 시대는 끝났다.

@@ -1,27 +1,29 @@
 ---
-title: "Taiwanese Fermented Foods and Pickling Culture"
+title: 'Taiwanese Fermented Foods and Pickling Culture'
 description: "From stinky tofu to fermented bean curd, explore Taiwan's unique fermentation techniques and pickling culture traditions"
 date: 2026-03-18
-author: "Taiwan.md"
-category: "Food"
-subcategory: "食材與調味"
-tags: ["發酵食品", "醃製文化", "臭豆腐", "豆腐乳", "泡菜", "傳統技術", "微生物"]
+author: 'Taiwan.md'
+category: 'Food'
+subcategory: '食材與調味'
+tags: ['發酵食品', '醃製文化', '臭豆腐', '豆腐乳', '泡菜', '傳統技術', '微生物']
 readingTime: 15
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
-translatedFrom: "Food/台灣發酵食品與醃製文化.md"
-sourceCommitSha: "f712b7242"
-sourceContentHash: "sha256:c2ef664839dd9cc6"
-sourceBodyHash: "sha256:b693c93c53efd3dc"
-translatedAt: "2026-05-20T05:08:27+08:00"
+translatedFrom: 'Food/台灣發酵食品與醃製文化.md'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:c2ef664839dd9cc6'
+sourceBodyHash: 'sha256:b693c93c53efd3dc'
+translatedAt: '2026-05-20T05:08:27+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg/960px-%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwanese Fermented Foods and Pickling Culture
 
 ## 30-Second Overview
 
-Taiwanese fermented foods and pickling culture blend Hokkien, Hakka, Indigenous, and Japanese techniques to develop a unique flavor system. From the stinky tofu found on every street corner to the fermented bean curd in every household, from pickled vegetables to fermented glutinous rice wine (*jiuniang*), these seemingly ordinary foods conceal profound scientific principles and cultural heritage. Taiwan's fermentation industry has an annual output value exceeding NT$3.5 billion[^3], serving as a core sector of the food industry while also acting as a cultural bridge connecting ethnic memories with modern life.
+Taiwanese fermented foods and pickling culture blend Hokkien, Hakka, Indigenous, and Japanese techniques to develop a unique flavor system. From the stinky tofu found on every street corner to the fermented bean curd in every household, from pickled vegetables to fermented glutinous rice wine (_jiuniang_), these seemingly ordinary foods conceal profound scientific principles and cultural heritage. Taiwan's fermentation industry has an annual output value exceeding NT$3.5 billion[^3], serving as a core sector of the food industry while also acting as a cultural bridge connecting ethnic memories with modern life.
 
 **Keywords**: stinky tofu, fermented bean curd, pickled vegetables, fermentation technology, microorganisms, traditional craftsmanship
 
@@ -85,7 +87,7 @@ The fermented brine uses fresh vegetables (cabbage, bamboo shoots, amaranth, etc
 
 - Relatively milder odor
 - Preference for soup-based preparations
-- Paired with pickled vegetables (*paocai*) and Chinese chives flowers
+- Paired with pickled vegetables (_paocai_) and Chinese chives flowers
 
 ### Modern Industrial Development
 
@@ -108,14 +110,14 @@ The fermented brine uses fresh vegetables (cabbage, bamboo shoots, amaranth, etc
 **Traditional Method**:
 
 1. **Tofu Preparation**: Firm tofu is selected and cut into small cubes
-2. **Inoculation and Fermentation**: *Mucor* mold is introduced naturally or artificially
+2. **Inoculation and Fermentation**: _Mucor_ mold is introduced naturally or artificially
 3. **Mold Cultivation**: Temperature and humidity are controlled to grow white mycelium
 4. **Salting and Maturation**: Salt, wine, and spices are added for curing and aging
 
 **Flavor Variations**:
 
 - **White Fermented Bean Curd**: Light and mild, suitable for seasoning
-- **Red Fermented Bean Curd**: Colored with red yeast rice (*hongqu*), vibrant in appearance
+- **Red Fermented Bean Curd**: Colored with red yeast rice (_hongqu_), vibrant in appearance
 - **Spicy Fermented Bean Curd**: Infused with chili peppers and Sichuan peppercorns for a pungent, numbing kick
 
 ### Nutritional Value and Health Benefits
@@ -136,7 +138,7 @@ The fermented brine uses fresh vegetables (cabbage, bamboo shoots, amaranth, etc
 
 ### Common Types of Pickled Vegetables
 
-Taiwanese household pickled vegetables are most commonly made from cabbage—salted to remove water and then seasoned, resulting in a crisp, slightly sour side dish ideal for summer meals. Dried radish (*luobogan*) is made by sun-drying combined with salt curing, yielding a salty-sweet flavor often used as a stir-fry ingredient. Pickled cucumbers, seasoned with sugar and vinegar, are crisp and sweet, served as appetizers or as a common hamburger topping. *Caipu* (preserved dried daikon radish) is made by sun-drying white radish followed by salt curing—the older it gets, the more fragrant it becomes—and is an indispensable ingredient in preserved radish egg omelette and stir-fried rice noodles.
+Taiwanese household pickled vegetables are most commonly made from cabbage—salted to remove water and then seasoned, resulting in a crisp, slightly sour side dish ideal for summer meals. Dried radish (_luobogan_) is made by sun-drying combined with salt curing, yielding a salty-sweet flavor often used as a stir-fry ingredient. Pickled cucumbers, seasoned with sugar and vinegar, are crisp and sweet, served as appetizers or as a common hamburger topping. _Caipu_ (preserved dried daikon radish) is made by sun-drying white radish followed by salt curing—the older it gets, the more fragrant it becomes—and is an indispensable ingredient in preserved radish egg omelette and stir-fried rice noodles.
 
 ### Principles of Pickling Technology
 
@@ -156,7 +158,7 @@ Millet wine[^4] has a brewing tradition among all of Taiwan's Indigenous peoples
 
 ### Signature Pickled Products
 
-Among Hakka pickled products, *fucai* is the product of long-term fermentation of mustard greens, with a uniquely sour and fragrant flavor. *Meigancai* (preserved mustard greens) is dried and salt-cured, intensely salty and aromatic, and is the soul ingredient of *meigankourou* (braised pork belly with preserved vegetables). Salt-cured pork is made by salting and air-drying, offering a long shelf life and a rich, mellow flavor.
+Among Hakka pickled products, _fucai_ is the product of long-term fermentation of mustard greens, with a uniquely sour and fragrant flavor. _Meigancai_ (preserved mustard greens) is dried and salt-cured, intensely salty and aromatic, and is the soul ingredient of _meigankourou_ (braised pork belly with preserved vegetables). Salt-cured pork is made by salting and air-drying, offering a long shelf life and a rich, mellow flavor.
 
 ### Characteristics of Pickling Techniques
 
@@ -170,7 +172,7 @@ Taiwan's fermentation industry has an annual output value exceeding NT$3.5 billi
 
 ### Food Safety Regulation
 
-Fermented foods are regulated under the *Act Governing Food Safety and Sanitation* and related hygiene standards. Manufacturers must comply with microbial testing regulations. Testing technologies cover rapid pathogen screening, heavy metal content analysis, and additive composition inspection, ensuring food safety oversight from production to retail.
+Fermented foods are regulated under the _Act Governing Food Safety and Sanitation_ and related hygiene standards. Manufacturers must comply with microbial testing regulations. Testing technologies cover rapid pathogen screening, heavy metal content analysis, and additive composition inspection, ensuring food safety oversight from production to retail.
 
 ## Health Value and Scientific Research
 
@@ -212,11 +214,18 @@ From the mellow warmth of a jar of fermented bean curd to the intense boldness o
 
 ## References
 
-[^1]: *Taiwan Panorama* (1993), "The Curious Fragrance of China—Stinky Tzu," https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+[^1]: _Taiwan Panorama_ (1993), "The Curious Fragrance of China—Stinky Tzu," https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+
 [^2]: Ministry of Affairs NGO Bilingual Website, "Stinky to the Extreme Is Fragrant: The Flavor Code of Stinky Tzu," https://taiwanngo.tw/Post/86007
-[^3]: Food Industry Research and Development Institute, *Taiwan Fermented Food Industry Analysis Report* (2023), https://www.firdi.org.tw/
-[^4]: Council of Indigenous Peoples, *Survey and Research on Indigenous Traditional Brewing Culture* (2022), https://www.cip.gov.tw/
-[^5]: Taiwan Food and Drug Administration, Ministry of Health and Welfare, *Hygienic Standards for Fermented Foods*, https://www.fda.gov.tw/
-[^6]: Ministry of Agriculture, *Research on Traditional Taiwanese Fermentation Food Technology* (2022), https://www.moa.gov.tw/
-[^7]: Hakka Affairs Council, *Hakka Pickling Culture Preservation and Promotion Project* (2023), https://www.hakka.gov.tw/
+
+[^3]: Food Industry Research and Development Institute, _Taiwan Fermented Food Industry Analysis Report_ (2023), https://www.firdi.org.tw/
+
+[^4]: Council of Indigenous Peoples, _Survey and Research on Indigenous Traditional Brewing Culture_ (2022), https://www.cip.gov.tw/
+
+[^5]: Taiwan Food and Drug Administration, Ministry of Health and Welfare, _Hygienic Standards for Fermented Foods_, https://www.fda.gov.tw/
+
+[^6]: Ministry of Agriculture, _Research on Traditional Taiwanese Fermentation Food Technology_ (2022), https://www.moa.gov.tw/
+
+[^7]: Hakka Affairs Council, _Hakka Pickling Culture Preservation and Promotion Project_ (2023), https://www.hakka.gov.tw/
+
 [^8]: Wikipedia, "Stinky Tzu" entry, https://zh.wikipedia.org/zh-tw/%E8%87%AD%E8%B1%86%E8%85%90

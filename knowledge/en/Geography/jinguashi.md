@@ -31,6 +31,8 @@ sourceCommitSha: '676c8cd6'
 sourceContentHash: 'sha256:36ec0adabddd5612'
 sourceBodyHash: 'sha256:7a207109d1ae592a'
 translatedAt: '2026-07-16T00:45:14+08:00'
+image: /article-images/geography/jinguashi-13-levels-lighting-2019.webp
+imageCredit: 'Taiwankengo / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 # Jinguashi: Many Layers of Lives Stacked on One Mountain—from Alluvial Gold and POWs to Arsenic Soil Still Not Cleaned

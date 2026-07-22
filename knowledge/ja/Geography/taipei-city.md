@@ -1,37 +1,41 @@
 ---
-title: "台北市：一つの都市に並ぶ三つの時間、1738年の龍山寺が2004年の101を見ています"
-description: "万華には1738年の龍山寺があります。3キロ離れた場所では、2004年の元旦前夜、台北101が、日本統治期の松山倉庫と戦後の四四兵工廠だった土地に完成し、その瞬間に世界一高いビルとなりました。さらに大稲埕へ行くと、1860年代に李春生が一隻分の烏龍茶で北台湾全体の対外貿易を支えました。同じ盆地に、1738、1885、2004という三つの時間が並んでいます。1875年に沈葆楨が台北府を設置し、1920年に日本人が三つの市街を合わせて台北市とし、1947年に林江邁のあの私煙草が二二八を引き起こし、1949年に国府が120万人を伴って台北へ移り、1967年に台湾初の直轄市へ昇格し、1990年に野百合が中正紀念堂で七日六夜座り込みました。12の区は、それぞれ異なる世紀を生きています。"
+title: '台北市：一つの都市に並ぶ三つの時間、1738年の龍山寺が2004年の101を見ています'
+description: '万華には1738年の龍山寺があります。3キロ離れた場所では、2004年の元旦前夜、台北101が、日本統治期の松山倉庫と戦後の四四兵工廠だった土地に完成し、その瞬間に世界一高いビルとなりました。さらに大稲埕へ行くと、1860年代に李春生が一隻分の烏龍茶で北台湾全体の対外貿易を支えました。同じ盆地に、1738、1885、2004という三つの時間が並んでいます。1875年に沈葆楨が台北府を設置し、1920年に日本人が三つの市街を合わせて台北市とし、1947年に林江邁のあの私煙草が二二八を引き起こし、1949年に国府が120万人を伴って台北へ移り、1967年に台湾初の直轄市へ昇格し、1990年に野百合が中正紀念堂で七日六夜座り込みました。12の区は、それぞれ異なる世紀を生きています。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
 tags:
   [
-    "台北",
-    "台北市",
-    "北部",
-    "直轄市",
-    "首都",
-    "万華",
-    "大稲埕",
-    "信義計画区",
-    "101",
-    "二二八",
-    "野百合学生運動",
-    "ひまわり学生運動",
-    "ケタガラン",
-    "龍山寺",
-    "22県市シリーズ",
+    '台北',
+    '台北市',
+    '北部',
+    '直轄市',
+    '首都',
+    '万華',
+    '大稲埕',
+    '信義計画区',
+    '101',
+    '二二八',
+    '野百合学生運動',
+    'ひまわり学生運動',
+    'ケタガラン',
+    '龍山寺',
+    '22県市シリーズ',
   ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/台北市.md"
-sourceCommitSha: "1fbb3adf1"
-sourceContentHash: "sha256:6b1de66c12b3c38a"
-sourceBodyHash: "sha256:c557c6ff09961dc3"
-translatedAt: "2026-05-19T05:08:06+08:00"
+translatedFrom: 'Geography/台北市.md'
+sourceCommitSha: '1fbb3adf1'
+sourceContentHash: 'sha256:6b1de66c12b3c38a'
+sourceBodyHash: 'sha256:c557c6ff09961dc3'
+translatedAt: '2026-05-19T05:08:06+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Taipei_skyline_cityscape_at_dusk.jpg/1600px-Taipei_skyline_cityscape_at_dusk.jpg
+imageCredit: peellden
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taipei_skyline_cityscape_at_dusk.jpg
 ---
 
 # 台北市：一つの都市に並ぶ三つの時間、1738年の龍山寺が2004年の101を見ています

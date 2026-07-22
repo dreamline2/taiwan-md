@@ -5,7 +5,8 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '食材と調味料'
-tags: ['発酵食品', '漬物文化', '臭豆腐', '豆腐乳', 'キムチ', '伝統技術', '微生物']
+tags:
+  ['発酵食品', '漬物文化', '臭豆腐', '豆腐乳', 'キムチ', '伝統技術', '微生物']
 readingTime: 15
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -15,6 +16,8 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:c2ef664839dd9cc6'
 sourceBodyHash: 'sha256:b693c93c53efd3dc'
 translatedAt: '2026-05-20T05:08:29+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg/960px-%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の発酵食品と漬物文化
@@ -213,10 +216,17 @@ translatedAt: '2026-05-20T05:08:29+08:00'
 ## 参考文献
 
 [^1]: 台湾光華雑誌（1993年），〈中国の奇香——臭豆腐〉，https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+
 [^2]: 外交部NGOバイリンガルサイト，〈臭いの極みは香り：臭豆腐の風味の秘密〉，https://taiwanngo.tw/Post/86007
+
 [^3]: 食品工業発展研究所，《台湾発酵食品産業分析報告》（2023年），https://www.firdi.org.tw/
+
 [^4]: 原住民族委員会，《原住民族伝統醸造文化調査研究》（2022年），https://www.cip.gov.tw/
+
 [^5]: 衛生福利部食品薬物管理署，《発酵食品衛生基準》，https://www.fda.gov.tw/
+
 [^6]: 農業部，《台湾伝統発酵食品技術研究》（2022年），https://www.moa.gov.tw/
+
 [^7]: 客委員会，《客家漬物文化保存と推廣計画》（2023年），https://www.hakka.gov.tw/
+
 [^8]: ウィキペディア，〈臭豆腐〉項目，https://zh.wikipedia.org/zh-tw/%E8%87%AD%E8%B1%86%E8%85%90

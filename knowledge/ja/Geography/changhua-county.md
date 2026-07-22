@@ -28,6 +28,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:53588f1af78c53bd'
 sourceBodyHash: 'sha256:83c1d8ae2ebcca91'
 translatedAt: '2026-06-16T17:05:15Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lukang_Longshan_Temple_in_2017.jpg/1280px-Lukang_Longshan_Temple_in_2017.jpg
+imageCredit: Outlookxp
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Lukang_Longshan_Temple_in_2017.jpg
 ---
 
 # 彰化県：ドゥポンに勝ったが、若者を留められない農業大県

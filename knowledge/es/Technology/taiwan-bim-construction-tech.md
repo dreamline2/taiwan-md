@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:5500ed1d9d4e0f85'
 sourceBodyHash: 'sha256:6207b1decb9dcfc4'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/technology/freecad-bim-example-2024.webp'
+imageCredit: 'Maxwxyz via Wikimedia Commons'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:FreeCAD_1.0_Dark_BIM_Example.png'
 ---
 
 # BIM y tecnología de construcción en Taiwán: doce años de política caso por caso, reescritos por un protocolo de dieciocho meses

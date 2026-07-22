@@ -26,6 +26,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:cb74fb52bd858441'
 sourceBodyHash: 'sha256:ede8a39e93d2585c'
 translatedAt: '2026-06-17T01:18:25+08:00'
+image: '/article-images/people/lu-guan-wei-portrait-2020.webp'
+imageCredit: '總統府 / 攝影 Mori'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chairman_of_Junyi_Academy_Kuan-wei_Lu_20201123.jpg'
 ---
 
 # 뤼관웨이: 의사 면허를 땄지만 흰 가운을 입지 않은 그는 사람을 살리는 일보다 증명하기 더 어려운 일에 걸었다

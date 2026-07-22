@@ -26,6 +26,10 @@ sourceCommitSha: '195a57899'
 sourceContentHash: 'sha256:6fd747b2b0893c21'
 sourceBodyHash: 'sha256:a1e49238035eece5'
 translatedAt: '2026-06-26T00:38:47+08:00'
+image: '/article-images/lifestyle/scooters-and-bus-taipei-1996.webp'
+imageCredit: 'Holly Cheng'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taipei_street_scene.jpg'
 ---
 
 Le matin du 15 septembre 2024, devant la gare ferroviaire de Tongluo, dans le comté de Miaoli. Plus de 30 personnes se tenaient sous l’arrêt, des enfants encore à l’école maternelle jusqu’à une personne de 90 ans. Elles n’attendaient ni le bus du travail ni celui de l’école. Elles attendaient le dernier service du 5658 de Hsinchu Bus.

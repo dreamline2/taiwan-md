@@ -15,6 +15,10 @@ sourceCommitSha: 31a05c44
 sourceContentHash: 'sha256:a54685fba76c9f68'
 sourceBodyHash: 'sha256:5ca31c80049b9985'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/formosat8-tasa-banner.webp'
+imageCredit: '國家太空中心 TASA（官方釋出，fair use editorial commentary）'
+imageLicense: 'Fair use editorial commentary（©TASA）'
+imageSource: 'https://www.tasa.org.tw/zh-TW/missions/detail/FORMOSAT-8'
 ---
 
 2016년, 메이데이(五月天)의 〈완고〉 뮤직비디오에는 황무지에서 로켓을 만드는 중년 남자가 등장한다. 그는 백일몽을 꾸는 괴짜 취급을 받다가, 마지막에는 직접 만든 로켓을 등에 메고 하늘로 날아간다. 대다수 타이완인이 우쭝신(吳宗信)을 처음 알게 된 것은 어떤 국가기관을 통해서가 아니라 이 뮤직비디오를 통해서였다. 바로 그 “로켓 아저씨”였다[^1].

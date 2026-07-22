@@ -27,6 +27,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:4bb0752dfbb4d3f2'
 sourceBodyHash: 'sha256:9da1c30493a70f8a'
 translatedAt: 2026-05-01T20:54:10+08:00
+image: '/article-images/people/kowen-ko-portrait.webp'
+imageCredit: 'forgood music（好多音樂）'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://open.spotify.com/artist/3KdU8KfkDy7xHmQS00B5wd'
 ---
 
 ## 커즈탕(柯智棠, Kowen Ko): 7년의 침묵으로 한 장을 바꾼 타이완 인디 포크 싱어송라이터

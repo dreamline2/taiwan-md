@@ -26,6 +26,8 @@ sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:d67f3581051e39e8'
 sourceBodyHash: 'sha256:50386f161e8d186f'
 translatedAt: '2026-05-01T18:02:56+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Indigenous_group_dancers_at_Amis_Music_Festival_2016_IMF0936.jpg/960px-Indigenous_group_dancers_at_Amis_Music_Festival_2016_IMF0936.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾先住民族の食文化

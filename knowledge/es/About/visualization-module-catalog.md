@@ -18,6 +18,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:38fecc11c893b25a'
 sourceBodyHash: 'sha256:09331c2942b129a6'
 translatedAt: '2026-06-13T00:46:25+08:00'
+image: '/article-images/society/taipei-skyline-housing-2026.webp'
+imageCredit: 'Heeheemalu'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
 ---
 
 # Catálogo de módulos de visualización: diecisiete formas de ver los datos de Taiwán

@@ -1,20 +1,40 @@
 ---
-title: "신베이시: 타이베이를 둘러싼 환상형 대도시, 401만 명이 떠받치는 수도의 통근, 산업, 기억"
+title: '신베이시: 타이베이를 둘러싼 환상형 대도시, 401만 명이 떠받치는 수도의 통근, 산업, 기억'
 description: "단수이 훙마오청은 1628년 스페인인이 첫 벽돌을 쌓은 때부터 이미 398년이 지났다. 1875년 선바오전이 타이베이부를 설치한 것보다 247년 앞선다. 오늘날 신베이시 29개 구는 타이베이시 12개 구를 둘러싸고 있으며, 401만 명이 타이완 최대 직할시인 이 도시에 살고, 39만 명이 현·시 경계를 넘어 타이베이로 출근한다. 그러나 이 '환상형 대도시'는 타이베이의 베드타운이 아니다. 이곳에는 1853년 반차오 린 가문, 1869년 단수이에서 출항해 뉴욕으로 팔려 간 우롱차, 1890년대 아시아 제일의 금광 지우펀·진과스, 1929년 석탄을 운반하던 핑시 철도, 1947년 리메이수가 시작한 싼샤 조사묘 조각, 우라이 타이야족 더라난 부락이 있다. 신베이는 타이완 400년의 축소판이며, 마침 타이베이시 안에 있지 않을 뿐이다."
-date: "2026-05-18"
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["신베이", "신베이시", "북부", "반차오", "단수이", "지우펀", "진과스", "싼샤", "잉거", "우라이", "핑시", "궁랴오", "환상형 대도시", "22개 현·시 시리즈"]
+date: '2026-05-18'
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '신베이',
+    '신베이시',
+    '북부',
+    '반차오',
+    '단수이',
+    '지우펀',
+    '진과스',
+    '싼샤',
+    '잉거',
+    '우라이',
+    '핑시',
+    '궁랴오',
+    '환상형 대도시',
+    '22개 현·시 시리즈',
+  ]
 readingTime: 18
-lastVerified: "2026-05-18"
+lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/新北市.md"
-sourceCommitSha: "4aa49c873"
-sourceContentHash: "sha256:112ba1c658fb3b9a"
-sourceBodyHash: "sha256:8f043620c961da1e"
-translatedAt: "2026-05-19T05:08:07+08:00"
+translatedFrom: 'Geography/新北市.md'
+sourceCommitSha: '4aa49c873'
+sourceContentHash: 'sha256:112ba1c658fb3b9a'
+sourceBodyHash: 'sha256:8f043620c961da1e'
+translatedAt: '2026-05-19T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2017_Fort_San_Domingo.jpg/1280px-2017_Fort_San_Domingo.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/Category:Fort_Santo_Domingo
 ---
 
 # 신베이시: 타이베이를 둘러싼 환상형 대도시, 401만 명이 떠받치는 수도의 통근, 산업, 기억

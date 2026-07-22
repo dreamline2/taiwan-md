@@ -21,6 +21,10 @@ sourceCommitSha: 'cfaa22a5d'
 sourceContentHash: 'sha256:68e3e5788b724298'
 sourceBodyHash: 'sha256:320873c44e3f6c2e'
 translatedAt: '2026-07-07T00:38:22+08:00'
+image: '/article-images/economy/slp-taipei-annual-party-2023.webp'
+imageCredit: 'SLP台北創業領導計畫'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://slptaipei.com/'
 ---
 
 # Programme de leadership entrepreneurial SLP Taipei : d’un cours à 6 000 NT$ à 58 000 NT$, toujours très recherché

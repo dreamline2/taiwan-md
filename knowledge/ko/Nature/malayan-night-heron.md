@@ -15,6 +15,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4926f151d268c5db'
 sourceBodyHash: 'sha256:215f7a81312f6fac'
 translatedAt: '2026-06-16T17:14:05Z'
+image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.webp'
+imageCredit: 'Dr. Raju Kasambe'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Malayan_Night_Heron_(Gorsachius_melanolophus),_Taipei_Taiwan.jpg'
 ---
 
 # 검은관논병아리: 조류 관찰가의 환상종, 캠퍼스 속 얼간이 새

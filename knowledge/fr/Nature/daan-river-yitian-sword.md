@@ -27,6 +27,8 @@ sourceCommitSha: 'ff92f3866'
 sourceContentHash: 'sha256:3ee4be522cff1a4e'
 sourceBodyHash: 'sha256:5dcfd938f21ea513'
 translatedAt: '2026-06-25T00:43:06+08:00'
+image: '/article-images/nature/taiwania-nantou-shihchuan.webp'
+imageCredit: '石川 Shihchuan / Wikimedia Commons (CC BY-SA 2.0)'
 ---
 
 > **Vue d’ensemble en 30 secondes :** Taïwan possède un arbre de 84,1 mètres de haut, soit environ 28 étages : c’est l’arbre le plus haut actuellement connu en Asie de l’Est[^1]. On l’appelle « l’épée Yitian du fleuve Daan » ; c’est un Taïwania (_Taiwania cryptomerioides_), qui pousse dans une gorge profonde près de la source du fleuve Daan, à environ 1 650 mètres d’altitude, et dont l’âge est estimé à sept ou huit cents ans[^2]. Au Nouvel An lunaire 2023, l’équipe des « chercheurs d’arbres » a remonté les cours d’eau pendant sept jours, par des nuits tombant à -2 °C, avant de grimper jusqu’à sa cime et d’en faire descendre un ruban à mesurer pour obtenir ce chiffre[^3]. Le plus contre-intuitif est ceci : sur une île balayée chaque année par les typhons, à la géologie fragile, où les versants s’effondrent et les crues montent, une telle hauteur ne devrait en principe pas exister. S’il a pu atteindre 84 mètres et vivre plus de sept siècles, c’est précisément parce qu’il se cachait dans une vallée presque inaccessible aux humains. Ce même « impossible à atteindre » lui a permis d’échapper aux grandes coupes de l’époque japonaise et de l’après-guerre, et nous a obligés à passer près de dix ans à balayer l’île entière au laser avant de le voir pour la première fois cette année-là[^4].

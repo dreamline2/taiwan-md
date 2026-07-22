@@ -26,6 +26,10 @@ sourceCommitSha: '195a57899'
 sourceContentHash: 'sha256:6fd747b2b0893c21'
 sourceBodyHash: 'sha256:a1e49238035eece5'
 translatedAt: '2026-06-26T00:38:47+08:00'
+image: '/article-images/lifestyle/scooters-and-bus-taipei-1996.webp'
+imageCredit: 'Holly Cheng'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taipei_street_scene.jpg'
 ---
 
 2024년 9월 15일 아침, 먀오리 퉁뤄역 앞. 30여 명이 버스 정류장 아래 서 있었다. 가장 어린 이는 아직 유치원에 다녔고, 가장 나이 많은 이는 90세였다. 그들이 기다린 것은 출근 버스도, 통학 버스도 아니었다. 그들은 신주커윈 5658번의 마지막 버스를 기다리고 있었다.

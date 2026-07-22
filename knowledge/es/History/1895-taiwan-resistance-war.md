@@ -25,6 +25,7 @@ sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:fc7bac7e7a555233'
 sourceBodyHash: 'sha256:6abb82a8cf5a2a95'
 translatedAt: '2026-06-12T00:53:04+08:00'
+image: ''
 ---
 
 # La Guerra de Yiwei: los 148 días de la República Democrática de Taiwán

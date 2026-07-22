@@ -30,6 +30,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:690ecb6c58309760'
 sourceBodyHash: 'sha256:36525caaf207b712'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp'
+imageCredit: 'M. Weitzel (Wikimedia Commons)'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Maanshan_Nuclear_Power_Plant,_Nan_Wan.jpg'
 ---
 
 # Taiwan’s Climate Crisis and Net-Zero Transition: On the Day the Maanshan Nuclear Plant Referendum Failed, the Choices Set by Physical Limits Had Only Just Begun

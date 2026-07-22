@@ -1,20 +1,38 @@
 ---
-title: "Condado de Lienchiang: el condado más alejado de Taiwán es el más cercano a la Guerra Fría"
-description: "Desde la cima de las montañas de Nangan, la ciudad de Fuzhou está a solo 16 kilómetros. Taipéi está a 200 kilómetros, y la sede original del condado de Lienchiang está del lado del Ejército comunista. En 1617, Shen Yourong capturó vivos a 69 wokou al pie de la montaña en Dongju; en 1956, el Ejército Nacional convirtió estas 5 islas en una zona de administración militar de frente de guerra; en 1992, Kinmen y Matsu levantaron la ley marcial 5 años más tarde que Taiwán. Hoy viven aquí 13.646 personas, la tasa de pérdida del matsunés es del 94%, y el único referéndum sobre juego aprobado en todo el país, en 2012, sigue sin resultados. Las lágrimas azules atraen 200.000 turistas al año, pero la población local recuerda el apagón obligatorio. Un condado de 28,8 kilómetros cuadrados condensa sobre sí mismo la historia taiwanesa de la Guerra Fría."
+title: 'Condado de Lienchiang: el condado más alejado de Taiwán es el más cercano a la Guerra Fría'
+description: 'Desde la cima de las montañas de Nangan, la ciudad de Fuzhou está a solo 16 kilómetros. Taipéi está a 200 kilómetros, y la sede original del condado de Lienchiang está del lado del Ejército comunista. En 1617, Shen Yourong capturó vivos a 69 wokou al pie de la montaña en Dongju; en 1956, el Ejército Nacional convirtió estas 5 islas en una zona de administración militar de frente de guerra; en 1992, Kinmen y Matsu levantaron la ley marcial 5 años más tarde que Taiwán. Hoy viven aquí 13.646 personas, la tasa de pérdida del matsunés es del 94%, y el único referéndum sobre juego aprobado en todo el país, en 2012, sigue sin resultados. Las lágrimas azules atraen 200.000 turistas al año, pero la población local recuerda el apagón obligatorio. Un condado de 28,8 kilómetros cuadrados condensa sobre sí mismo la historia taiwanesa de la Guerra Fría.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Condado de Lienchiang", "Matsu", "Nangan", "Beigan", "Dongju", "Dongyin", "administración militar de frente de guerra", "lágrimas azules", "Qinbi", "fuzhounés", "min oriental", "serie de 22 condados y ciudades"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Condado de Lienchiang',
+    'Matsu',
+    'Nangan',
+    'Beigan',
+    'Dongju',
+    'Dongyin',
+    'administración militar de frente de guerra',
+    'lágrimas azules',
+    'Qinbi',
+    'fuzhounés',
+    'min oriental',
+    'serie de 22 condados y ciudades',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/連江縣.md"
-sourceCommitSha: "ecd9f7b06"
-sourceContentHash: "sha256:bed7ca568c30fdad"
-sourceBodyHash: "sha256:1637fa66ecda0e7f"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/連江縣.md'
+sourceCommitSha: 'ecd9f7b06'
+sourceContentHash: 'sha256:bed7ca568c30fdad'
+sourceBodyHash: 'sha256:1637fa66ecda0e7f'
+translatedAt: '2026-05-18T05:08:09+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Matsu_Montage.png/560px-Matsu_Montage.png
+imageCredit: Sleepingstar
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Matsu_Montage.png
 ---
 
 # Condado de Lienchiang: el condado más alejado de Taiwán es el más cercano a la Guerra Fría
@@ -47,7 +65,7 @@ La datación por carbono 14 del sitio arqueológico de Daowei, en Liangdao, lo u
 
 Liangdao en sí es un punto militar sensible, y los civiles no pueden desembarcar. El proyecto arqueológico tuvo que negociar ventanas de acceso con el Ejército Nacional, y durante las excavaciones había soldados vigilando alrededor. **Un esqueleto de hace 7.900 años fue custodiado durante más de 70 años por una zona militar restringida de la Guerra Fría**: esa comparación es, por sí misma, la compresión histórica del condado de Lienchiang.
 
-El *Sanshan zhi* de Liang Kejia, de la dinastía Song, ya registraba “Gantang”, antiguo nombre del archipiélago de Matsu; una estela del templo Daqing, en la aldea Tieban de Nangan, lleva la inscripción “billete Zhongtong por veinte guan”, moneda de la dinastía Yuan, lo que prueba que ya había asentamientos en Nangan durante ese periodo[^6]. Los pescadores de Min oriental se establecieron en distintas islas según sus lugares de origen: Dongju y Xiju pertenecían originalmente al condado de Changle; Dongyin y Xiyin, al condado de Luoyuan[^7]. Los pescadores de Fujian llevan más de mil años viviendo en estas islas. No fueron “descubiertos” allí por nadie.
+El _Sanshan zhi_ de Liang Kejia, de la dinastía Song, ya registraba “Gantang”, antiguo nombre del archipiélago de Matsu; una estela del templo Daqing, en la aldea Tieban de Nangan, lleva la inscripción “billete Zhongtong por veinte guan”, moneda de la dinastía Yuan, lo que prueba que ya había asentamientos en Nangan durante ese periodo[^6]. Los pescadores de Min oriental se establecieron en distintas islas según sus lugares de origen: Dongju y Xiju pertenecían originalmente al condado de Changle; Dongyin y Xiyin, al condado de Luoyuan[^7]. Los pescadores de Fujian llevan más de mil años viviendo en estas islas. No fueron “descubiertos” allí por nadie.
 
 > **📝 Nota curatorial:** La narrativa dominante sobre las islas periféricas es la del “turismo de frente militar”, las “lágrimas azules” y los “buques de abastecimiento”. Ese marco reduce Matsu a un producto de la Guerra Fría, como si la isla hubiese empezado a existir recién en 1949. La importancia de la arqueología de Liangdao es que abre la escala temporal: **la actividad humana en estas aguas tiene ya 8.000 años, y los 75 años de guerra civil china son solo un tramo diminuto al final de la línea**. Las tumbas ancestrales de los pescadores de Min oriental, el sarcófago de la leyenda de Mazu y las monedas Song-Yuan son capas temporales anteriores a la Guerra Fría, no notas al pie de su historia.
 
@@ -99,7 +117,7 @@ Ese “pasaporte” es una herencia material de la administración militar de fr
 
 > **✦** “**¿Qué hacemos si Taiwán no nos quiere y tampoco queremos ser chinos?**”[^18]
 
-Esta frase proviene de un reportaje de *Mingrendantang* sobre la identidad de jóvenes de Matsu. Expresa con precisión el dilema existencial del condado de Lienchiang en 2026: administrativamente pertenecemos a Taiwán, pero nuestra procedencia ancestral, lengua, geografía y creencias están más cerca de Fujian; tenemos magistrado electo y derecho al voto, pero nuestra historia fue producida por la línea de frente de la Guerra Fría.
+Esta frase proviene de un reportaje de _Mingrendantang_ sobre la identidad de jóvenes de Matsu. Expresa con precisión el dilema existencial del condado de Lienchiang en 2026: administrativamente pertenecemos a Taiwán, pero nuestra procedencia ancestral, lengua, geografía y creencias están más cerca de Fujian; tenemos magistrado electo y derecho al voto, pero nuestra historia fue producida por la línea de frente de la Guerra Fría.
 
 ## El referéndum sobre juego de 2012, 13 años sin resultados
 
@@ -129,7 +147,7 @@ En 2017, el gobierno de la República de China reconoció formalmente el matsun�
 
 Pero la pérdida lingüística es muy grave.
 
-Un artículo en inglés de *Taiwan Insight* sobre el matsunés lo dice de forma directa: “**Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.**” (“Actualmente menos del 30% de los hogares de Matsu hablan en su lengua materna. Algunas personas mayores creen que es una lengua en vías de muerte”). El mismo artículo registra otra frase: “**The ban on speaking in dialects was painful and hastened the crisis of language extinction.**” (“La prohibición de hablar dialectos fue dolorosa y aceleró la crisis de extinción lingüística”)[^25].
+Un artículo en inglés de _Taiwan Insight_ sobre el matsunés lo dice de forma directa: “**Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.**” (“Actualmente menos del 30% de los hogares de Matsu hablan en su lengua materna. Algunas personas mayores creen que es una lengua en vías de muerte”). El mismo artículo registra otra frase: “**The ban on speaking in dialects was painful and hastened the crisis of language extinction.**” (“La prohibición de hablar dialectos fue dolorosa y aceleró la crisis de extinción lingüística”)[^25].
 
 La situación lingüística local en Matsu es mucho más severa que en la isla principal de Taiwán. La entrada de Wikipedia sobre el matsunés dice literalmente: “**En los últimos años, con la apertura turística de la región de Matsu y la emigración masiva de residentes a la isla de Taiwán, muchos habitantes locales de Matsu han comenzado a hablar taiwanés min meridional; el matsunés, como lengua materna, enfrenta una situación de declive, y las generaciones jóvenes hablan poco o incluso no saben hablarlo**”[^26].
 
@@ -153,13 +171,13 @@ El nombre “isla de Mazu” evolucionó oralmente hasta convertirse en “Matsu
 
 **La historia de las lágrimas azules** es un caso de fenómeno científico convertido en motor turístico.
 
-El nombre científico de las lágrimas azules es *Noctiluca scintillans*, un organismo unicelular dinoflagelado conocido como noctiluca o alga luminiscente. Cada año, durante las crecidas del río Min, nutrientes inorgánicos de origen terrestre entran en estas aguas, provocan la proliferación masiva de diatomeas, y las noctilucas, que se alimentan de ellas, se multiplican explosivamente. Cuando las olas, los remos o las pisadas humanas las perturban, las noctilucas emiten una breve luz biológica azul, cada destello de unos 80 milisegundos[^30]. Estudios de la Universidad Nacional Oceánica de Taiwán hallaron que una temperatura del agua inferior a 27 grados Celsius es clave para el brote; la temporada suele ir de abril a junio, aunque algunos años se extiende a marzo o septiembre.
+El nombre científico de las lágrimas azules es _Noctiluca scintillans_, un organismo unicelular dinoflagelado conocido como noctiluca o alga luminiscente. Cada año, durante las crecidas del río Min, nutrientes inorgánicos de origen terrestre entran en estas aguas, provocan la proliferación masiva de diatomeas, y las noctilucas, que se alimentan de ellas, se multiplican explosivamente. Cuando las olas, los remos o las pisadas humanas las perturban, las noctilucas emiten una breve luz biológica azul, cada destello de unos 80 milisegundos[^30]. Estudios de la Universidad Nacional Oceánica de Taiwán hallaron que una temperatura del agua inferior a 27 grados Celsius es clave para el brote; la temporada suele ir de abril a junio, aunque algunos años se extiende a marzo o septiembre.
 
 ![Paisaje nocturno de lágrimas azules en las islas Matsu, mayo de 2014. Bioluminiscencia azul emitida por *Noctiluca scintillans* al ser perturbada, con una duración aproximada de 80 milisegundos por destello. Fotografía de e_ella.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Blue_Tears_in_the_Matsu_Islands.jpg/1280px-Blue_Tears_in_the_Matsu_Islands.jpg)
 
 Tras el auge de las redes sociales en la década de 2010, las “lágrimas azules” se volvieron virales de la noche a la mañana. Las visitas anuales a Matsu pasaron de 210.000 antes de la pandemia, en 2019, a 224.000 después de la pandemia, en 2023; las lágrimas azules son el principal motor de la temporada alta[^31]. Los túneles Beihai fueron originalmente un muelle subterráneo para lanchas guerrilleras, construido desde 1968 como parte del “Proyecto Beihai”; hoy los turistas entran remando para ver la luz azul dentro del túnel, convertido en la experiencia turística más representativa de Matsu. **Un túnel submarino excavado por el Ejército Nacional en 1968 para ocultar lanchas rápidas de guerra de guerrillas se convirtió en la década de 2020 en el mejor mirador para experimentar las lágrimas azules**.
 
-Pero detrás del brote de lágrimas azules hay otra historia. La *N. scintillans* roja está asociada con mareas rojas, consume oxígeno disuelto en el agua y puede dañar la pesca. Los científicos consideran que la intensificación de los brotes podría relacionarse con la eutrofización causada por la industrialización costera y los fertilizantes agrícolas del litoral chino. En otras palabras, **las lágrimas azules que ve la gente de Matsu podrían ser proporcionales a la densidad de contaminación de la otra orilla**.
+Pero detrás del brote de lágrimas azules hay otra historia. La _N. scintillans_ roja está asociada con mareas rojas, consume oxígeno disuelto en el agua y puede dañar la pesca. Los científicos consideran que la intensificación de los brotes podría relacionarse con la eutrofización causada por la industrialización costera y los fertilizantes agrícolas del litoral chino. En otras palabras, **las lágrimas azules que ve la gente de Matsu podrían ser proporcionales a la densidad de contaminación de la otra orilla**.
 
 **La historia de la aldea Qinbi** es la más dramática.
 
@@ -242,13 +260,13 @@ Licencias: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC
 
 [^2]: [Historia del condado de Lienchiang — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%80%A3%E6%B1%9F%E7%B8%A3) — Historia del traslado del gobierno condal: ocupación comunista de la cabecera continental del condado de Lianjiang en agosto de 1949, creación de la Oficina Administrativa de Matsu el 15 de diciembre de 1950, restablecimiento del Gobierno del Condado de Lienchiang en Nangan en agosto de 1953, traslado a la aldea Tieban en 1959 y traslado en 1978 a la ubicación actual en Jieshou.
 
-[^3]: [Gobierno Provincial de Fujian — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)) — Historia institucional del Gobierno Provincial de Fujian: vaciamiento funcional en 1998, desactivación formal en 2019 y transferencia de sus funciones al Centro Conjunto de Servicios de Kinmen y Matsu del Yuan Ejecutivo.
+[^3]: [Gobierno Provincial de Fujian — Wikipedia](<https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)>) — Historia institucional del Gobierno Provincial de Fujian: vaciamiento funcional en 1998, desactivación formal en 2019 y transferencia de sus funciones al Centro Conjunto de Servicios de Kinmen y Matsu del Yuan Ejecutivo.
 
 [^4]: [Arqueología de la gente de Liangdao — PTS News](https://news.pts.org.tw/article/245304) — Reportaje sobre el hallazgo arqueológico de 2012 en Liangdao: esqueletos completos llamados “Liangdao 1” y “Liangdao 2”, comparación de ADN mitocondrial con linajes maternos comunes a los atayal y amis, e inferencia de que podrían pertenecer a los ancestros más tempranos de los pueblos austronesios.
 
 [^5]: [El sitio arqueológico de Daowei, Liangdao, declarado monumento nacional — Ministerio de Cultura](https://www.moc.gov.tw/News_Content.aspx?n=105&s=205384) — Anuncio oficial de 2023 del Ministerio de Cultura que designa el sitio arqueológico de Daowei, Liangdao, como el undécimo sitio arqueológico nacional de Taiwán, con datación por carbono 14 de 7.000 a 8.300 años antes del presente, y como el sitio neolítico más antiguo descubierto hasta ahora dentro de Taiwán.
 
-[^6]: [Prehistoria del archipiélago de Matsu — Gobierno del Condado de Lienchiang](https://www.matsu.gov.tw/) — Materiales culturales del gobierno condal sobre la mención de Gantang en el *Sanshan zhi* de Liang Kejia, de la dinastía Song; la inscripción “billete Zhongtong por veinte guan” en la estela del templo Daqing de la aldea Tieban, Nangan, moneda de la dinastía Yuan; y la prueba de que ya había asentamientos en Nangan durante el periodo Yuan.
+[^6]: [Prehistoria del archipiélago de Matsu — Gobierno del Condado de Lienchiang](https://www.matsu.gov.tw/) — Materiales culturales del gobierno condal sobre la mención de Gantang en el _Sanshan zhi_ de Liang Kejia, de la dinastía Song; la inscripción “billete Zhongtong por veinte guan” en la estela del templo Daqing de la aldea Tieban, Nangan, moneda de la dinastía Yuan; y la prueba de que ya había asentamientos en Nangan durante el periodo Yuan.
 
 [^7]: [Evolución administrativa del municipio de Juguang — Oficina del Municipio de Juguang](https://www.juguang.gov.tw/) — Evolución administrativa de Juguang: Dongju y Xiju pertenecían originalmente al condado de Changle; Dongyin y Xiyin, al condado de Luoyuan; los pescadores de distintos condados de Min oriental se asentaron en islas distintas según su lugar de origen.
 
@@ -270,7 +288,7 @@ Licencias: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC
 
 [^16]: [Lemas militares dejados en el archipiélago de Matsu — Voice of Matsu](https://voiceofmatsu.com/) — Artículo de investigación del medio local Voice of Matsu sobre lemas del periodo militar: “Dormir sobre las armas esperando el alba” en el parque Jieshou de Nangan, escrito por Chiang Kai-shek en 1958; “No olvidar Ju” en el muelle de Xiju; y consignas en las aldeas como “Asegurar Matsu”, “Lealtad al líder”, “Recuperar el territorio continental” y “Rescatar a los compatriotas del continente”.
 
-[^17]: [Hace 30 años, la gente de Matsu debía tramitar primero un pasaporte para entrar a Taiwán — City GVM 2023](https://city.gvm.com.tw/article/112972) — Reportaje en profundidad de City GVM, de la serie de *Global Views Monthly*, con entrevista al actual magistrado del condado de Lienchiang, Wang Chung-ming: antes de la abolición de la administración militar de frente de guerra en 1992, la gente de Matsu debía solicitar a la Oficina de Control Fronterizo del Ministerio del Interior un permiso de entrada y salida para viajar a Taiwán, “equivalente a un pasaporte”; los descendientes de compatriotas de Matsu en Bade, Taoyuan, son entre 50.000 y 60.000, 4 a 5 veces la población de las islas; y en tres generaciones el matsunés de Bade se ha perdido en un 94%, nivel “gravemente en peligro”.
+[^17]: [Hace 30 años, la gente de Matsu debía tramitar primero un pasaporte para entrar a Taiwán — City GVM 2023](https://city.gvm.com.tw/article/112972) — Reportaje en profundidad de City GVM, de la serie de _Global Views Monthly_, con entrevista al actual magistrado del condado de Lienchiang, Wang Chung-ming: antes de la abolición de la administración militar de frente de guerra en 1992, la gente de Matsu debía solicitar a la Oficina de Control Fronterizo del Ministerio del Interior un permiso de entrada y salida para viajar a Taiwán, “equivalente a un pasaporte”; los descendientes de compatriotas de Matsu en Bade, Taoyuan, son entre 50.000 y 60.000, 4 a 5 veces la población de las islas; y en tres generaciones el matsunés de Bade se ha perdido en un 94%, nivel “gravemente en peligro”.
 
 [^18]: [Si Taiwán no nos quiere — Mingrendantang](https://opinion.udn.com/opinion/story/11664/6801786) — Reportaje de Mingrendantang sobre el dilema identitario de jóvenes de Matsu, con la cita literal “¿Qué hacemos si Taiwán no nos quiere y tampoco queremos ser chinos?”, que refleja la tensión de doble identidad del condado de Lienchiang como territorio bajo la provincia de Fujian pero parte de la República de China.
 
@@ -286,7 +304,7 @@ Licencias: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC
 
 [^24]: [Ley de Desarrollo de las Lenguas Nacionales — Ministerio de Cultura](https://www.moc.gov.tw/) — Evolución de la política lingüística: en 2017 el gobierno de la República de China reconoció formalmente el matsunés como una de las lenguas locales de la ROC; en 2019 se aprobó la Ley de Desarrollo de las Lenguas Nacionales, convirtiendo al matsunés en objeto de protección legal.
 
-[^25]: [Matsu Language: A Language Too Unique To Forget — Taiwan Insight](https://taiwaninsight.org/2022/03/31/matsu-language-a-language-too-unique-to-forget/) — Reportaje en profundidad de *Taiwan Insight* de 2022 sobre la crisis de supervivencia del matsunés, que registra literalmente tres pasajes en inglés: “Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.”, “The ban on speaking in dialects was painful and hastened the crisis of language extinction.” y “Others have been traumatised since they were discriminated against as foreigners or mainlanders because of their unique ‘an’ and ‘ang’ accents.”
+[^25]: [Matsu Language: A Language Too Unique To Forget — Taiwan Insight](https://taiwaninsight.org/2022/03/31/matsu-language-a-language-too-unique-to-forget/) — Reportaje en profundidad de _Taiwan Insight_ de 2022 sobre la crisis de supervivencia del matsunés, que registra literalmente tres pasajes en inglés: “Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.”, “The ban on speaking in dialects was painful and hastened the crisis of language extinction.” y “Others have been traumatised since they were discriminated against as foreigners or mainlanders because of their unique ‘an’ and ‘ang’ accents.”
 
 [^26]: [Situación actual de pérdida del matsunés — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%A6%AC%E7%A5%96%E8%A9%B1) — Registro literal en chino: “En los últimos años, con la apertura turística de la región de Matsu y la emigración masiva de residentes a la isla de Taiwán, muchos habitantes locales de Matsu han comenzado a hablar taiwanés min meridional; el matsunés, como lengua materna, enfrenta una situación de declive, y las generaciones jóvenes hablan poco o incluso no saben hablarlo”.
 
@@ -296,7 +314,7 @@ Licencias: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC
 
 [^29]: [Leyenda de la cavidad sagrada del templo Tianhou de Matsu — Registro histórico-cultural de Lord Cat](https://lordcat.tw/archives/89439) — Registro literal de la leyenda local de la cavidad sagrada bajo el salón principal del templo Tianhou de Matsu, o templo Tianhou de Magang: “En el año 52 de la República, ingenieros del Ejército Nacional, faltando al respeto, colocaron arbitrariamente baldosas sobre la lápida; al día siguiente descubrieron que todas las baldosas sobre la piedra estaban hechas añicos, mientras el resto del piso permanecía intacto”; se presenta junto a la versión de la Oficina del Municipio de Nangan sobre la tumba simbólica.
 
-[^30]: [Principio científico de las lágrimas azules — Universidad Nacional Oceánica de Taiwán](https://mprp.ntou.edu.tw/p/404-1017-68517.php) — Sitio del proyecto de investigación de lágrimas azules de la Universidad Nacional Oceánica de Taiwán: nombre científico *Noctiluca scintillans*, noctiluca o alga luminiscente, organismo unicelular dinoflagelado; emite bioluminiscencia azul ante perturbaciones, cada destello dura unos 80 milisegundos; las crecidas del río Min aportan nutrientes inorgánicos y provocan proliferación de diatomeas; una temperatura del agua inferior a 27 grados Celsius es clave para el mecanismo. Investigación publicada en *Frontiers in Marine Science*.
+[^30]: [Principio científico de las lágrimas azules — Universidad Nacional Oceánica de Taiwán](https://mprp.ntou.edu.tw/p/404-1017-68517.php) — Sitio del proyecto de investigación de lágrimas azules de la Universidad Nacional Oceánica de Taiwán: nombre científico _Noctiluca scintillans_, noctiluca o alga luminiscente, organismo unicelular dinoflagelado; emite bioluminiscencia azul ante perturbaciones, cada destello dura unos 80 milisegundos; las crecidas del río Min aportan nutrientes inorgánicos y provocan proliferación de diatomeas; una temperatura del agua inferior a 27 grados Celsius es clave para el mecanismo. Investigación publicada en _Frontiers in Marine Science_.
 
 [^31]: [Estadísticas turísticas de Matsu — Administración del Área Escénica Nacional de Matsu](https://www.matsu-nsa.gov.tw/) — Estadísticas oficiales de visitantes anuales de Matsu: 210.260 visitas en 2019, 225.517 en 2020, 138.181 en 2021 durante la pandemia, 224.719 en 2022 y 224.317 en 2023; las lágrimas azules son el principal motor de la temporada alta.
 

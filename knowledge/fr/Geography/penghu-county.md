@@ -30,6 +30,10 @@ sourceCommitSha: dd6cd0156
 sourceContentHash: sha256:e10092be60773ede
 sourceBodyHash: sha256:d8c2fdecefda4ce7
 translatedAt: 2026-06-07T02:26:08+08:00
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bridge_across_the_Houmen_Channel.jpg/1280px-Bridge_across_the_Houmen_Channel.jpg
+imageCredit: Wing1990hk
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Bridge_across_the_Houmen_Channel.jpg
 ---
 
 # Comté de Penghu : deux refus du casino, l'île aux Chrysanthèmes n'a pas choisi la pauvreté

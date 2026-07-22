@@ -21,6 +21,10 @@ sourceCommitSha: 'fa062cc1'
 sourceContentHash: 'sha256:dd210fd225a73bd3'
 sourceBodyHash: 'sha256:3f3a71807f18f434'
 translatedAt: 2026-05-22T05:08:47+08:00
+image: '/article-images/people/edward-yang-beach-set-1983.webp'
+imageCredit: '中央電影公司、新藝城影業（香港）／彭鎧立提供，寄存於國家電影及視聽文化中心'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.tfam.museum/yiyiey'
 ---
 
 # Yang Dechang : poète du cinéma de la solitude urbaine

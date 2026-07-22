@@ -27,6 +27,10 @@ sourceCommitSha: 'c673392a'
 sourceContentHash: 'sha256:1463e5ff242b3b05'
 sourceBodyHash: 'sha256:0d5ea03d7cea15ec'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/justfont-jinxuan-flyingv-cover-2015.webp'
+imageCredit: 'justfont / flyingV'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.flyingv.cc/projects/8250'
 ---
 
 > **30-second overview:** On the morning of September 8, 2015, justfont’s Jin Xuan typeface launched a crowdfunding campaign on flyingV, broke through its NT$1.5 million target in 76 minutes, and ultimately drew NT$25.93 million from 7,667 backers. This piece begins with the founding of DynaComware in 1987 and follows how an industry read daily by all of Taiwan collapsed, how a community of readers was taught into being, and how the people who make type came into view: Lin Hsia, who began by painting Buddhist images; Chang Chieh-kuan, who cast lead type on Taiyuan Road for half a century; Wang Shui-he, who entered the trade at fourteen painting signs; and the open-source typefaces, Lanyang Ming, and independent designer ecosystem that grew after Jin Xuan.

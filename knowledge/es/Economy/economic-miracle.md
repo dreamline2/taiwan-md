@@ -22,6 +22,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:18f44148c9c813dd'
 sourceBodyHash: 'sha256:418b6e8bc018ebdd'
 translatedAt: 2026-05-03T23:14:07+08:00
+image: '/article-images/economy/kaohsiung-epz-inauguration-1966.webp'
+imageCredit: '行政院珍貴史料展示'
+imageLicense: '政府史料典藏（editorial commentary use）'
+imageSource: 'https://history.ey.gov.tw/en/Items/premier-yen-chia-kan-hosts-the-inauguration-of-the-kaohsiung-export-processing-zone/'
 ---
 
 # El milagro económico

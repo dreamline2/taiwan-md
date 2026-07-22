@@ -24,6 +24,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:6286f5188247616e'
 sourceBodyHash: 'sha256:c3b8f174f9377cb1'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/society/complex-festival-onsite-program.webp'
+imageCredit: '黃柏鈞攝影 / 複雜生活節'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://medium.com/泥巴第三放送局/當我們討論複雜生活節的視覺設計-我們在討論什麼-81512c97a6c'
 ---
 
 > **30-Second Overview:** The Complex Life Festival was a youth gathering held in Taichung for five editions from 2016 to 2020. The founders were two classmates from China Medical University who were supposed to become doctors: Hsu Hao-ning from the Department of Traditional Chinese Medicine (TCM), and Huang Yen-lin (online alias Huang Dou-ni) from the Department of Western Medicine. The name playfully inverts the "Simple Life Festival" of the Jonathan Lee generation, positioning participants as "unsuccessful people," with two to three hundred attendees per edition, allowing only discussions of "growth" and forbidding discussions of "success" [^1]. Five years later, the main organizer Hsu Hao-ning stayed in Taichung as a TCM doctor, opened a bookstore, and lost his election for city councilor; his visual assistant Huang Dou-ni abandoned medicine for cryptocurrency and became a Democracy Visiting Scholar at the Harvard Kennedy School in 2025 [^2]. A forum that rejected "success" saw its organizers and attendees eventually walk into various forms of success, and its sharpest question remains what Hsu Hao-ning asked on stage: "Do you want to die with regret, or live by giving up?" [^3]

@@ -22,6 +22,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:3550fb52e312828d'
 sourceBodyHash: 'sha256:4cfd214b3bc19b4d'
 translatedAt: '2026-06-17T01:18:26+08:00'
+image: '/article-images/music/little-tigers-xiaoyaoyou-album.webp'
+imageCredit: '© 環球音樂（飛碟唱片原發行）'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://music.apple.com/tw/album/逍遥游-2025-remastered/1847895760'
 ---
 
 # Little Tigers : des mélodies achetées, une jeunesse à soi

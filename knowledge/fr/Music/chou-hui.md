@@ -37,6 +37,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:e82ab2af4a170315'
 sourceBodyHash: 'sha256:4c01fb53198217ef'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/music/zhou-hui-yueding-mv-thumb-1999.webp'
+imageCredit: '福茂唱片 / 周蕙〈約定〉1999 官方 MV 截圖'
+imageLicense: 'Fair use editorial commentary on the original work'
+imageSource: 'https://www.youtube.com/watch?v=Vd-mTkhiThI'
 ---
 
 # Chou Hui : la voix féminine qui chante « Promesse » depuis 25 ans, du personnage de manga au Taipei Arena

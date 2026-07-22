@@ -23,6 +23,10 @@ sourceCommitSha: '4b6d28c5'
 sourceBodyHash: 'sha256:1dc11e21cef45412'
 sourceContentHash: 'sha256:442f27209d04a396'
 translatedAt: '2026-06-12T16:39:07Z'
+image: '/article-images/economy/invoice-tk3c-receipt-2007.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:TK3C_307_uniform_invoice_9501261_20070913.jpg'
 ---
 
 > **30-second overview:**

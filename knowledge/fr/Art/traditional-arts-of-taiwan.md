@@ -23,6 +23,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8199dcc4edeb2fce'
 sourceBodyHash: 'sha256:de7228ea44ad062e'
 translatedAt: '2026-06-16T17:13:36Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Taiwan-Puppet-Show.jpg/800px-Taiwan-Puppet-Show.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Les arts traditionnels de Taïwan : l'improbable renaissance d'un théâtre de village en empire culturel

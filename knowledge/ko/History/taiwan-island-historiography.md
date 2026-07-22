@@ -14,6 +14,10 @@ sourceCommitSha: '01d9d0e73'
 sourceContentHash: 'sha256:a449ffee99fa24a3'
 sourceBodyHash: 'sha256:ba46b21b9cb6be40'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: '/article-images/history/formosa-dutch-map-1640.webp'
+imageCredit: '荷蘭人繪 / Wikimedia Commons'
+imageLicense: '公有領域 (Public domain)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:1640_Map_of_Formosa-Taiwan_by_Dutch_荷蘭人所繪福爾摩沙-臺灣.jpg'
 ---
 
 > **30초 개관:** 오랫동안 대만사는 ‘정권 교체의 기록’이거나 어떤 대륙 제국의 변방으로 여겨져 왔다. 그러나 역사학자 차오융허가 제시한 ‘대만 섬 사관’은 이 시각을 근본적으로 뒤집었다. 그는 대만사의 주체가 ‘대만 섬’ 그 자체라고 주장했다. 정권은 차례로 무대에 오르는 배우와 같지만, 섬은 언제나 그 자리에 존재하는 무대이다. 이 섬은 400년 동안 8명의 통치자를 거친 곳이다. 사람들은 다중 지배의 틈새에서 세계적 수준의 회복력과 적응력을 단련했고, 외래 제도를 자신의 자양분으로 전환했으며, 마침내 해양이 만나는 지점에서 섬 고유의 시간과 민주주의를 발명했다.

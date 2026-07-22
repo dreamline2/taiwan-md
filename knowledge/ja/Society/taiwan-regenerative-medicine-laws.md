@@ -25,6 +25,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:067149f437c5a573'
 sourceBodyHash: 'sha256:dcdc7781d0e5eb30'
 translatedAt: '2026-06-16T17:05:15Z'
+image: '/article-images/society/kariko-weissman-life-science-2022.webp'
+imageCredit: 'Thorne Media'
+imageLicense: 'CC BY 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Drew_Weissman_and_Katalin_Karikó_Life_Science_Medalists.jpg'
 ---
 
 ![カタリン・カリコーとドリュー・ワイスマンが2022年に Life Science メダルを共同受賞し、バックパネルの前で撮影された写真。カリコーは赤いスーツ、ワイスマンは濃色のスーツを着用しています](/article-images/society/kariko-weissman-life-science-2022.webp)

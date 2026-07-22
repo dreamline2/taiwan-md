@@ -26,6 +26,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:cb74fb52bd858441'
 sourceBodyHash: 'sha256:ede8a39e93d2585c'
 translatedAt: '2026-06-17T02:19:12+08:00'
+image: '/article-images/people/lu-guan-wei-portrait-2020.webp'
+imageCredit: '總統府 / 攝影 Mori'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chairman_of_Junyi_Academy_Kuan-wei_Lu_20201123.jpg'
 ---
 
 # 呂冠緯：医師免許を取りながら白衣を着なかった彼が、人を救うより証明が難しい一事に賭けた

@@ -23,6 +23,10 @@ sourceCommitSha: cfaa22a5d
 sourceContentHash: sha256:68e3e5788b724298
 sourceBodyHash: sha256:320873c44e3f6c2e
 translatedAt: 2026-07-09T00:54:06+08:00
+image: '/article-images/economy/slp-taipei-annual-party-2023.webp'
+imageCredit: 'SLP台北創業領導計畫'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://slptaipei.com/'
 ---
 
 # 『SLP 台北起業リーダーシッププログラム』：六千元起家的一堂課，漲到五萬八還是一位難求

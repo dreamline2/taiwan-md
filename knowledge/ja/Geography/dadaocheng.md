@@ -33,6 +33,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:1aab357813ec41e3'
 sourceBodyHash: 'sha256:4f2293becc2b45da'
 translatedAt: '2026-06-16T17:04:12Z'
+image: /article-images/geography/dadaocheng-aerial-view-2010s.webp
+imageCredit: Yu tptw
+imageLicense: Attribution (CC)
+imageSource: https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Dihua_Street.jpg
 ---
 
 # 大稲埕：800メートルに三つの世紀、Formosa Teaから二二八の第一発まで

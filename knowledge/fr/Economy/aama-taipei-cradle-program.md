@@ -22,6 +22,10 @@ sourceCommitSha: 'cfaa22a5d'
 sourceContentHash: 'sha256:5e0729d9b7c768df'
 sourceBodyHash: 'sha256:de8072f2a65793f8'
 translatedAt: '2026-07-06T00:39:49+08:00'
+image: '/article-images/economy/aama-15th-cohort-2026.webp'
+imageCredit: 'AAMA台北搖籃計畫'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.aamataipei.com.tw/archives/44255'
 ---
 
 > **30 second overview :** AAMA Programme Cradle de Taipei est une des rares initiatives taïwanaises : un programme de mentorat qui n’investit pas, ne prend pas de participation et ne facture aucun frais de scolarité. Lancé en 2012 par le rédacteur en chef de _Digital Age_ Tsai Ing‑wen et le comptable retraité Yen Lou‑you, il permet à des chefs d’entreprise chevronnés d’accompagner, pendant deux ans, un entrepreneur en phase de croissance, en tête‑à‑tête. Chaque année, seules une vingtaine de places sont ouvertes ; treize ans plus tard, le programme en est à sa quinzième édition et a donné naissance à Appier, Social Enterprise Flow, Portaly, entre autres. Son aspect le plus contre‑intuitif réside dans un choix : un groupe de personnes qui auraient pu prendre leur retraite a opté pour la méthode la plus lente et la moins scalable afin de transmettre « comment faire grandir une entreprise », un savoir‑faire difficile à verbaliser, sans rien attendre en retour.

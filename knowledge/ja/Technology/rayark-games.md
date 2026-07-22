@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:efb74dfc78d9c93c'
 sourceBodyHash: 'sha256:28ef520886f893e3'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/rayark-cafe-2021.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Rayark_Café_20211016.jpg'
 ---
 
 > **30秒概要：** 2011年9月、台大電機情報学院出身の若者6人が台北・金山北路でレイアーク（Rayark）を設立。資本金3千万円、チーム16人。2012年1月に『Cytus』がiOSでリリースされ、1か月で14カ国のランキング1位を獲得。続く『Deemo』は日本のオリコンチャートにランクインし、『インプロージョン』は2015年iOS年間最優秀ゲームを受賞、『VOEZ』はNintendo Switchのローンチタイトルとなった。十四年が経ち、レイアークは10以上のタイトルを累計1.3億ダウンロード以上で展開したが、彼らを取り巻くキーワードは「天才」から「惜しい」へと変わった。『Sdorica 万象物語』は八年の苦闘の末、2026年2月に正式にメンテナンスモードに移行。『インプロージョン』アニメは2015年のKickstarterからの十一年が経過してもなお未納品。2020年のICEモールス信号事件では、レイアークは中国市場向けにゲームを修正する選択をした。美学が彼らを世界に見せてくれた一方で、音楽以外の領域では何度も躓かせている。

@@ -5,7 +5,20 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['苗栗', '苗栗県', '客家', '客家文化', '大埔事件', '三義木彫', '油桐花', 'サイシャット族', '矮霊祭', '劉政鴻', '22県市シリーズ']
+tags:
+  [
+    '苗栗',
+    '苗栗県',
+    '客家',
+    '客家文化',
+    '大埔事件',
+    '三義木彫',
+    '油桐花',
+    'サイシャット族',
+    '矮霊祭',
+    '劉政鴻',
+    '22県市シリーズ',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
@@ -15,6 +28,10 @@ sourceCommitSha: 'b457dbbb1'
 sourceContentHash: 'sha256:0d7e5732a8513df0'
 sourceBodyHash: 'sha256:f743a82d302f341a'
 translatedAt: '2026-05-18T05:08:08+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/6/6d/2023_Tung_Blossom_Festival.jpg
+imageCredit: 中華民國客家委員會
+imageLicense: CC BY 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:2023_Tung_Blossom_Festival.jpg
 ---
 
 # 苗栗県：客家の硬頸の県、8年で県庫の負債を倍増させた県長を選んだ場所
@@ -141,7 +158,7 @@ Taipei Times は 2015 年、苗栗住民 Alice Wang に客家円楼について�
 **2013 年 8 月 18 日**。「拆政府」運動が凱達格蘭大道に集結しました。抗議スローガンは "Today Miaoli is demolished, tomorrow we demolish the government."（**今日大埔を壊すなら、明日は政府を壊す**）[^31]。この言葉は後に 2014 年のひまわり学生運動でも再び叫ばれました。
 
 ![2013 年 8 月 18 日「拆政府」街頭運動。台湾の市民団体が凱達格蘭大道で大埔の強制撤去に抗議し、「今日大埔を壊すなら、明日は政府を壊す」というスローガンは後に 2014 年ひまわり学生運動の呼び声の一つになりました。](https://upload.wikimedia.org/wikipedia/commons/b/ba/2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C_P8180109_%289555113047%29.jpg)
-_2013-08-18 拆政府運動の現場。Photo: 中岑 范姜。[CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C_P8180109_%289555113047%29.jpg)._
+_2013-08-18 拆政府運動の現場。Photo: 中岑 范姜。[CC BY-SA 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C*P8180109*%289555113047%29.jpg).\_
 
 **2013 年 9 月 18 日**。張薬房の店主**張森文**（1953—2013）は午前に行方不明となり、午後、自宅近くの排水溝で遺体が見つかりました。検察は自殺として結案しました[^30]。張森文は衛生局の公務員を退職しており、毎月 2 万元余りの退職金と薬房の収入で一家を支えていました。家族は、強制撤去の日から彼は眠れなくなったと語っています。
 

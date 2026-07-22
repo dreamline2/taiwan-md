@@ -26,6 +26,10 @@ sourceCommitSha: '6f05295a'
 sourceContentHash: 'sha256:3f29bb0238e156dd'
 sourceBodyHash: 'sha256:2ef28056f6ad3ed1'
 translatedAt: '2026-06-21T00:36:02+08:00'
+image: '/article-images/art/li-poetry-wu-sheng-2016.webp'
+imageCredit: 'Rico Shen via Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:2016TIBE_D3_Wu_Sheng.jpg'
 ---
 
 # 리 시사(笠詩社): 일본어를 잊도록 강요받은 사람들이 타이완 최장수 중국어 시 전문지를 떠받치다

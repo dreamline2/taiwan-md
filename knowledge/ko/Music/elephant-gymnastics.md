@@ -24,6 +24,10 @@ sourceCommitSha: '72b757bac'
 sourceContentHash: 'sha256:b924c3fdcb2a3347'
 sourceBodyHash: 'sha256:d8ddf05669c2e6c6'
 translatedAt: '2026-06-19T00:37:17+08:00'
+image: '/article-images/music/elephant-gym-portland-2024.webp'
+imageCredit: 'TurquoiseGoose / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Elephant_Gym_Portland_2024.jpg'
 ---
 
 # 대상체조: 아무도 노래하지 않지만 노래가 들리는 타이완 3인조

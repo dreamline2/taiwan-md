@@ -36,6 +36,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-05-25'
     url: 'https://x.com/taiwandotmd/status/2058735515021783190'
+image: '/article-images/technology/silicon-vs-gan-charger-2025.webp'
+imageCredit: '4300streetcar'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg'
 ---
 
 # Semiconductor Industry: Fifty Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging

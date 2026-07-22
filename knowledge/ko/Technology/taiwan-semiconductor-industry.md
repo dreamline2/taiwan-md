@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:353dd1410e58546f'
 sourceBodyHash: 'sha256:b4789b1cdfeb8d09'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/technology/silicon-vs-gan-charger-2025.webp'
+imageCredit: '4300streetcar'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg'
 ---
 
 # 반도체 산업: RCA 기술 이전에서 질화 갈륨과 양자 패키징까지, 50년 재료 혁명

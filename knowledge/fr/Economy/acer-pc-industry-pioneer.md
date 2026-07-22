@@ -22,6 +22,10 @@ sourceCommitSha: '24efd20f3'
 sourceContentHash: 'sha256:aeda1256394e6383'
 sourceBodyHash: 'sha256:6ba61f9dc892033c'
 translatedAt: '2026-05-15T14:23:14+08:00'
+image: '/article-images/economy/stan-shih-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **Aperçu en 30 secondes**

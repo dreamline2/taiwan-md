@@ -38,6 +38,10 @@ sourceCommitSha: 31a05c44
 sourceContentHash: 'sha256:872c1259e15043c2'
 sourceBodyHash: 'sha256:ae43b98131d02326'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/art/jiang-chien-sanxiantai-coast-2014.webp'
+imageCredit: 'lwtt93 (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg'
 ---
 
 # 장셴얼: 대만을 떠난 지 45년, 집으로 돌아온 뒤에야 생애 최고의 그림을 그릴 수 있었다

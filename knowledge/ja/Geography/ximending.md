@@ -32,6 +32,10 @@ sourceCommitSha: '49728f9d'
 sourceContentHash: 'sha256:527d6f6d267c802a'
 sourceBodyHash: 'sha256:08db5a34a2ebbaab'
 translatedAt: '2026-07-14T16:43:31Z'
+image: '/article-images/geography/ximending-red-house-octagonal-2021.webp'
+imageCredit: 'Outlookxp'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E9%96%80%E7%B4%85%E6%A8%93%E5%85%AB%E8%A7%92%E6%A8%93.jpg'
 ---
 
 # 西門町：日本人が 1896 年につくった娯楽街は、130 年後も台北で最も若い街です

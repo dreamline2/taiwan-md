@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fd16d89c1109096c'
 sourceBodyHash: 'sha256:645f8f42e79639a7'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/economy/tsmc-factory-hsinchu-2009.webp'
+imageCredit: 'Arusanov'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG'
 ---
 
 > **30초 개요:** 2026년 5월 19일 장 마감 후 TSMC의 시가총액은 57.18조 대만달러였다. 한 회사가 대만 가권지수의 31.51%, 대만 주식시장 총시가총액의 약 40%, 세계 파운드리 시장의 71%를 차지했다. 그 뒤의 49개 자리는 금융지주 12곳, 반도체 11곳, 전자 위탁생산 6곳, 전통 산업 노장 5곳이 나눠 가졌다. 이른바 전자·금융·전통 산업의 삼각 구도는 실제로는 전자 산업 한 다리가 몸의 절반을 떠받치는 구조다. AI 물결은 2024년부터 콴타, 위스트론, 위윈, 훙진을 중위권에서 끌어올렸고 집중도를 다시 높였다. 50대 기업 표를 읽는 일은 대만 경제의 신체 구조도를 읽는 일과 같다. 척추가 어디에 있는지, 단일 장애점이 어디에 있는지, 표 밖에 숨은 내장이 어디에 있는지를 읽는 것이다.

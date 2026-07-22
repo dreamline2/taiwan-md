@@ -37,6 +37,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:bcc022be65ff89b5'
 sourceBodyHash: 'sha256:b3b5dbb9d7dd34fc'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/geography/gongguan-ntu-main-gate-2017.webp'
+imageCredit: '寺人孟子'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%9C%8B%E7%AB%8B%E5%8F%B0%E7%81%A3%E5%A4%A7%E5%AD%B8%E6%A0%A1%E9%96%80.jpg'
 ---
 
 # Gongguan: The Japanese Empire's Laboratory, Martial-Law-Era Underground Salons, and NTU Students' Fried Chicken Cutlets: Three Centuries in 500 Meters

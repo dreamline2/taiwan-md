@@ -26,6 +26,7 @@ sourceCommitSha: '67e5b3684'
 sourceContentHash: 'sha256:b56a9c2f52721e09'
 sourceBodyHash: 'sha256:4f355b3d3c9b0f43'
 translatedAt: '2026-06-23T00:40:06+08:00'
+image: '/article-images/technology/computex-jensen-huang-2016.webp'
 ---
 
 # NVIDIA en Taiwán: la empresa más valiosa del mundo no fabrica ni uno solo de sus chips

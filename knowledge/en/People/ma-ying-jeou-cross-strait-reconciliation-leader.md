@@ -32,6 +32,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-05-23'
     url: 'https://x.com/taiwandotmd/status/2057861183848550878'
+image: '/article-images/people/ma-xi-meeting-singapore-2015.webp'
+imageCredit: '總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://www.flickr.com/photos/presidentialoffice/22472046408'
 ---
 
 # Ma Ying-jeou: The Harvard Doctor of Law Who Entered Chiang Ching-kuo's Office as an English Interpreter, Served Eight Years as a President Grounded in a "Clean" Image, and Left Behind Cross-Strait Policy, the Sunflower Movement, and 22K

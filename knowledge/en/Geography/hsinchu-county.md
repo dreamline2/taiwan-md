@@ -30,6 +30,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:eefcd1a536e4ddf5'
 sourceBodyHash: 'sha256:a716f79b2442afc5'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: /article-images/geography/hsinchu-county-hero.webp
+imageCredit: Outlookxp
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg
 ---
 
 # Hsinchu County: A 235-Year Yimin Faith and Taiwan’s Highest Per Capita Income Along the Same Touqian River

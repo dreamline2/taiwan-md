@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:75c25926a0cdd0a8'
 sourceBodyHash: 'sha256:02638f04673a14f6'
 translatedAt: '2026-05-17T05:06:52+08:00'
+image: '/article-images/culture/austronesian-migration-map.webp'
+imageCredit: 'Kikilipse / Wikimedia Commons (CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chronological_dispersal_of_Austronesian_people_across_the_Pacific_(per_Benton_et_al,_2012,_adapted_from_Bellwood,_2011).svg'
 ---
 
 > **30초 개관:** 타이완 지도를 펼치면, 많은 사람은 중국 대륙 가장자리에 놓인 작은 섬 하나를 본다. 그러나 지도를 시계 방향으로 30도 돌리고 다시 남쪽으로 확장하면, 똑같이 성립하는 또 하나의 지도를 보게 된다. 타이완은 동시에 말레이 세계(Nusantara)의 동북단, 오스트로네시아어족 4억 인구의 언어적 원향, 태평양 확산사의 출발점이다. 화롄 펑톈에서 채취된 옥결 하나는 3500년 전 이미 필리핀 바탄섬, 루손, 베트남, 태국의 고고 유적에 나타나 있었다. 언어학자 Robert Blust는 어휘 다양성으로부터 오스트로네시아어족의 10대 분파 가운데 9개가 모두 타이완에 있음을 추산했다. 란위의 타오족이 쓰는 말은 바탄 Ivatan 사람들과 60%가 통한다. 이 글이 하려는 일은, 누락되어 온 또 하나의 지도를 되돌려 놓아 두 장의 지도가 함께 진짜 타이완을 보이게 하는 것이다.

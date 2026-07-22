@@ -24,6 +24,8 @@ sourceCommitSha: '10fe99c59'
 sourceContentHash: 'sha256:8843f64848a3d381'
 sourceBodyHash: 'sha256:722551eb5f4a1b6b'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: /article-images/people/jimmy-liao-square-yilan-2016.webp
+imageCredit: '迷惘的人生 / Wikimedia Commons / CC BY-SA 2.0'
 ---
 
 # Jimmy Liao : ces images classées comme « thérapeutiques » sont celles qu'un survivant de la leucémie a rapportées d'un bocal de verre

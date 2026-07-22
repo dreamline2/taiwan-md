@@ -27,6 +27,8 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:6543b35dfb15923b'
 sourceBodyHash: 'sha256:f574bc1058bd407e'
 translatedAt: '2026-06-16T17:12:11Z'
+image: '/article-images/people/audrey-tang-portrait-2016.webp'
+imageCredit: 'Camille McOuat (Flickr / Wikimedia Commons, CC BY 2.0)'
 ---
 
 # Audrey Tang: cada una de sus decisiones célebres ha sido una forma de rechazar la etiqueta de «genio»

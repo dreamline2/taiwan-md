@@ -24,6 +24,10 @@ sourceCommitSha: 'f5975a22'
 sourceContentHash: 'sha256:c742af5d03f4c9ab'
 sourceBodyHash: 'sha256:a358cb4047d78691'
 translatedAt: '2026-07-16T00:48:40+08:00'
+image: '/article-images/people/howhow-sevenfat-band-2017.webp'
+imageCredit: 'RJ廉傑克曼'
+imageLicense: 'CC BY 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:七月半.jpeg'
 ---
 
 > **30초 개요:** 천쯔하오(Howhow)는 타이완 YouTube 역사상 가장 직관에 반하는 일을 했다. 다른 이들이 협찬 광고(業配, 브랜드 유료 광고)를 어떻게든 숨기려 할 때, 그는 커다란 자막으로 “바로 협찬 광고 주제로 들어갑니다!”라고 적어 창작자들이 가장 민망해하는 것을 간판으로 바꾸었다. 그는 혼자 각본을 쓰고, 연출하고, 연기하고, 편집하면서 구독자 154만 명, 조회수 7억 6천만 회의 HowFun 채널을 떠받쳤다. 그러나 여기에는 독자가 예상하지 못했을 세 겹의 모순이 있다. 칭찬받는 그의 “정직한 협찬 광고”는 학계가 말하는 “광고 같지 않은 광고”의 기만 메커니즘이기도 하다. 그의 “1인 팀”은 타인이 붙인 꼬리표일 뿐, 그는 고독을 싫어하고 줄곧 팀을 원했다. 또한 그가 고집하는 제작비 높은 긴 영상은 쇼트폼 영상에 가장 거세게 눌리는 바로 그 경주로 위에 있다. 이 글은 한 창작자가 어떻게 자기 리듬을 지켜 왔는지, 그리고 그 고집이 어떻게 점점 더 비싸지고 있는지를 다룬다.

@@ -22,6 +22,7 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:0d133f631d4db985'
 sourceBodyHash: 'sha256:f135e504997bf040'
 translatedAt: 2026-05-01T20:54:23+08:00
+image: ''
 ---
 
 # La guerra sino-francesa: ocho meses en Keelung y Tamsui

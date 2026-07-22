@@ -31,6 +31,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:62a474db99f7907b'
 sourceBodyHash: 'sha256:df0b89348caf6487'
 translatedAt: '2026-06-23T00:40:06+08:00'
+image: '/article-images/people/caodong-the-servile-2016.webp'
+imageCredit: '© 石皮有限公司／草東沒有派對'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://music.apple.com/tw/album/1676735354'
 ---
 
 > **30 秒概覽：** 草東沒有派對是 2012 年在台北陽明山「建賢街與草東街路口」成立的四人獨立樂團。2016 年自費壓 2,000 張手工 CD 三天賣光；2017 年第 28 屆金曲獎以第一輪 19、19、18 票壓倒性奪下最佳樂團（擊敗五月天）、最佳新人、年度歌曲（[〈大風吹〉](https://www.youtube.com/watch?v=HqmpIQ9l-uA)）三座。2021 年 10 月 30 日鼓手凡凡（蔡憶凡，26 歲）在台北防疫旅館過世，樂團陷入將近兩年沉默。2023 年 5 月 20 日發行第二張專輯《瓦合》——「瓦合」見於《史記．儒林列傳》，延伸義「破瓦相合，雖聚合而不齊同」源自唐朝顏師古對《漢書．酈陸朱劉叔孫傳》的註釋。[^19]2024 年以《瓦合》拿下第 35 屆金曲獎年度專輯 + 最佳華語專輯 + 最佳樂團三冠；領獎當晚樂團缺席，由經紀人代領宣告：「草東沒有派對從來都不是只有站在舞台上的 4 個人。」這是一個十二年的故事，核心是**失去、沉默、回來，再失去、再沉默、再回來**。

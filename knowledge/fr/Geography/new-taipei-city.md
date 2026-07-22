@@ -1,11 +1,27 @@
 ---
 title: 'New Taipei : la métropole annulaire qui entoure Taipei, où 4,01 millions d’habitants portent les trajets pendulaires, l’industrie et la mémoire de la capitale'
-description: "Depuis que les Espagnols ont posé la première brique du fort San Domingo de Tamsui en 1628, 398 ans se sont écoulés. C’était 247 ans avant que Shen Baozhen n’établisse la préfecture de Taipei en 1875. Aujourd’hui, les 29 districts de New Taipei entourent les 12 districts de Taipei ; 4,01 millions de personnes vivent dans cette municipalité spéciale, la plus peuplée de Taïwan, et 390 000 traversent les limites municipales pour aller travailler à Taipei. Mais cette « métropole annulaire » n’est pas une cité-dortoir de Taipei : elle porte la famille Lin de Banqiao en 1853, le thé oolong expédié de Tamsui jusqu’à New York en 1869, les premières mines d’or d’Asie à Jiufen et Jinguashi dans les années 1890, la ligne ferroviaire de Pingxi qui transportait le charbon en 1929, les sculptures du temple Zushi de Sanxia commencées par Li Meishu en 1947, et le village Tranan des Atayal de Wulai. New Taipei est un condensé de 400 ans d’histoire taïwanaise, situé précisément hors de la ville de Taipei."
+description: 'Depuis que les Espagnols ont posé la première brique du fort San Domingo de Tamsui en 1628, 398 ans se sont écoulés. C’était 247 ans avant que Shen Baozhen n’établisse la préfecture de Taipei en 1875. Aujourd’hui, les 29 districts de New Taipei entourent les 12 districts de Taipei ; 4,01 millions de personnes vivent dans cette municipalité spéciale, la plus peuplée de Taïwan, et 390 000 traversent les limites municipales pour aller travailler à Taipei. Mais cette « métropole annulaire » n’est pas une cité-dortoir de Taipei : elle porte la famille Lin de Banqiao en 1853, le thé oolong expédié de Tamsui jusqu’à New York en 1869, les premières mines d’or d’Asie à Jiufen et Jinguashi dans les années 1890, la ligne ferroviaire de Pingxi qui transportait le charbon en 1929, les sculptures du temple Zushi de Sanxia commencées par Li Meishu en 1947, et le village Tranan des Atayal de Wulai. New Taipei est un condensé de 400 ans d’histoire taïwanaise, situé précisément hors de la ville de Taipei.'
 date: '2026-05-18'
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['New Taipei', 'ville de New Taipei', 'Nord', 'Banqiao', 'Tamsui', 'Jiufen', 'Jinguashi', 'Sanxia', 'Yingge', 'Wulai', 'Pingxi', 'Gongliao', 'métropole annulaire', 'série des 22 villes et comtés']
+tags:
+  [
+    'New Taipei',
+    'ville de New Taipei',
+    'Nord',
+    'Banqiao',
+    'Tamsui',
+    'Jiufen',
+    'Jinguashi',
+    'Sanxia',
+    'Yingge',
+    'Wulai',
+    'Pingxi',
+    'Gongliao',
+    'métropole annulaire',
+    'série des 22 villes et comtés',
+  ]
 readingTime: 18
 lastVerified: '2026-05-18'
 lastHumanReview: false
@@ -15,6 +31,10 @@ sourceCommitSha: '4aa49c873'
 sourceContentHash: 'sha256:112ba1c658fb3b9a'
 sourceBodyHash: 'sha256:8f043620c961da1e'
 translatedAt: '2026-05-19T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2017_Fort_San_Domingo.jpg/1280px-2017_Fort_San_Domingo.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/Category:Fort_Santo_Domingo
 ---
 
 # New Taipei : la métropole annulaire qui entoure Taipei, où 4,01 millions d’habitants portent les trajets pendulaires, l’industrie et la mémoire de la capitale

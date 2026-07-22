@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c80f3accc7342bb8'
 sourceBodyHash: 'sha256:9116715a2d516221'
 translatedAt: '2026-06-16T17:05:15Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sun_Moon_Lake_in_Twilight.JPG/1280px-Sun_Moon_Lake_in_Twilight.JPG
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Sun_Moon_Lake_in_Twilight.JPG
 ---
 
 # 南投県：唯一海に面さない県、921の震央はその中心にあった

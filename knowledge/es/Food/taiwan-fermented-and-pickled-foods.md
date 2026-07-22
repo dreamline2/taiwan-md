@@ -5,7 +5,16 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '食材與調味'
-tags: ['alimentos fermentados', 'cultura del encurtido', 'tofu apestoso', 'queso de soja fermentado', 'kimchi taiwanés', 'técnica tradicional', 'microorganismos']
+tags:
+  [
+    'alimentos fermentados',
+    'cultura del encurtido',
+    'tofu apestoso',
+    'queso de soja fermentado',
+    'kimchi taiwanés',
+    'técnica tradicional',
+    'microorganismos',
+  ]
 readingTime: 15
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -15,13 +24,15 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:c2ef664839dd9cc6'
 sourceBodyHash: 'sha256:b693c93c53efd3dc'
 translatedAt: '2026-05-20T05:08:32+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg/960px-%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Alimentos fermentados y cultura del encurtido en Taiwán
 
 ## Panorama en 30 segundos
 
-La cultura de alimentos fermentados y encurtidos de Taiwán fusiona técnicas hokkienas, hakka, indígenas y japonesas, desarrollando un sistema de sabores único. Desde el tofu apestoso que se encuentra en callejones y mercados nocturnos (night market) hasta el queso de soja fermentado presente en cada hogar, desde las verduras encurtidas hasta el vino de arroz fermentado (*jiuniang*), estos alimentos en apariencia comunes esconden profundos principios científicos y una rica herencia cultural. La industria de fermentación de Taiwán tiene una producción anual superior a 35 mil millones de dólares taiwaneses[^3], constituyendo tanto un sector central de la industria alimentaria como un puente cultural que conecta la memoria étnica con la vida moderna.
+La cultura de alimentos fermentados y encurtidos de Taiwán fusiona técnicas hokkienas, hakka, indígenas y japonesas, desarrollando un sistema de sabores único. Desde el tofu apestoso que se encuentra en callejones y mercados nocturnos (night market) hasta el queso de soja fermentado presente en cada hogar, desde las verduras encurtidas hasta el vino de arroz fermentado (_jiuniang_), estos alimentos en apariencia comunes esconden profundos principios científicos y una rica herencia cultural. La industria de fermentación de Taiwán tiene una producción anual superior a 35 mil millones de dólares taiwaneses[^3], constituyendo tanto un sector central de la industria alimentaria como un puente cultural que conecta la memoria étnica con la vida moderna.
 
 **Palabras clave**: tofu apestoso, queso de soja fermentado, verduras encurtidas, técnica de fermentación, microorganismos, artesanía tradicional
 
@@ -49,7 +60,7 @@ Aunque el tofu apestoso tiene su origen en China, en Taiwán experimentó un pro
 
 ### Proceso de elaboración y principios científicos
 
-**Elaboración tradicional de la salmuera fermentada (*chou lu shui*)**:
+**Elaboración tradicional de la salmuera fermentada (_chou lu shui_)**:
 
 **Receta básica**:
 
@@ -108,14 +119,14 @@ La salmuera fermentada utiliza verduras frescas (col, brotes de bambú, amaranto
 **Método tradicional**:
 
 1. **Preparación del tofu**: se selecciona tofu firme y se corta en cubos pequeños
-2. **Inoculación y fermentación**: inoculación natural o artificial con *Mucor*
+2. **Inoculación y fermentación**: inoculación natural o artificial con _Mucor_
 3. **Cultivo del moho**: control de temperatura y humedad hasta que crecen hifas blancas
 4. **Maduración en sal**: se añade sal, vino y especias para la maduración
 
 **Variaciones de sabor**:
 
 - **Queso de soja blanco**: suave y ligero, aderezo ideal
-- **Queso de soja rojo**: con adición de *Monascus purpureus* (cultivo de arroz rojo), color brillante
+- **Queso de soja rojo**: con adición de _Monascus purpureus_ (cultivo de arroz rojo), color brillante
 - **Queso de soja picante**: con chile y pimienta de Sichuan, sabor intenso y especiado
 
 ### Valor nutricional y beneficios para la salud
@@ -136,7 +147,7 @@ La salmuera fermentada utiliza verduras frescas (col, brotes de bambú, amaranto
 
 ### Tipos comunes de verduras encurtidas
 
-Las verduras encurtidas domésticas más populares en Taiwán son las de col, deshidratadas con sal y luego sazonadas: crujientes y ligeramente ácidas, son la guarnición fresca ideal para acompañar el arroz en verano. Las zanahorias deshidratadas se elaboran mediante secado solar combinado con salado, con un sabor salado-dulce, y se usan frecuentemente como ingrediente para salteados. Los pepinos encurtidos se sazonan con vinagre y azúcar, crujientes y dulces; sirven tanto como aperitivo como ingrediente habitual en hamburguesas. El *caipu* (白蘿蔔乾) se obtiene de rábano blanco secado al sol y luego encurtido en sal: cuanto más añejo, más aromático, y es un ingrediente indispensable en el *caipu dan* (huevo con rábano seco) y los fideos de arroz salteados.
+Las verduras encurtidas domésticas más populares en Taiwán son las de col, deshidratadas con sal y luego sazonadas: crujientes y ligeramente ácidas, son la guarnición fresca ideal para acompañar el arroz en verano. Las zanahorias deshidratadas se elaboran mediante secado solar combinado con salado, con un sabor salado-dulce, y se usan frecuentemente como ingrediente para salteados. Los pepinos encurtidos se sazonan con vinagre y azúcar, crujientes y dulces; sirven tanto como aperitivo como ingrediente habitual en hamburguesas. El _caipu_ (白蘿蔔乾) se obtiene de rábano blanco secado al sol y luego encurtido en sal: cuanto más añejo, más aromático, y es un ingrediente indispensable en el _caipu dan_ (huevo con rábano seco) y los fideos de arroz salteados.
 
 ### Principios de la técnica de encurtido
 
@@ -146,7 +157,7 @@ La presión osmótica de la sal reduce la actividad de agua del alimento, inhibi
 
 ### Bebidas alcohólicas tradicionales taiwanas
 
-Entre las bebidas alcohólicas tradicionales de Taiwán, el vino de arroz Shaoxing elaborado por la destilería de Puli es el más representativo, utilizando agua de manantial natural de Puli, con un sabor rico y capas complejas. El *gaoliangjiu* de Kinmen se produce mediante fermentación sólida tradicional, con aroma intenso y alta graduación alcohólica, siendo el licor más reconocido de Taiwán. El vino de arroz de la Taiwan Tobacco and Liquor Corporation tiene un sabor suave y es el vino de cocina más utilizado en la gastronomía taiwanesa.
+Entre las bebidas alcohólicas tradicionales de Taiwán, el vino de arroz Shaoxing elaborado por la destilería de Puli es el más representativo, utilizando agua de manantial natural de Puli, con un sabor rico y capas complejas. El _gaoliangjiu_ de Kinmen se produce mediante fermentación sólida tradicional, con aroma intenso y alta graduación alcohólica, siendo el licor más reconocido de Taiwán. El vino de arroz de la Taiwan Tobacco and Liquor Corporation tiene un sabor suave y es el vino de cocina más utilizado en la gastronomía taiwanesa.
 
 ### Bebidas alcohólicas tradicionales indígenas
 
@@ -156,7 +167,7 @@ El vino de mijo[^4] tiene tradición de elaboración en todos los pueblos indíg
 
 ### Productos encurtidos característicos
 
-Entre los productos encurtidos hakka, el *fucai* es el resultado de la fermentación prolongada de la mostaza, con un aroma ácido único; el *meigancai* es mostaza secada y encurtida en sal, con un sabor salado intenso y el alma del plato *meigankourou* (cerdo estofado con mostaza seca). El cerdo salado se elabora mediante salado y secado al aire, con un período de conservación prolongado y un sabor profundo y rico.
+Entre los productos encurtidos hakka, el _fucai_ es el resultado de la fermentación prolongada de la mostaza, con un aroma ácido único; el _meigancai_ es mostaza secada y encurtida en sal, con un sabor salado intenso y el alma del plato _meigankourou_ (cerdo estofado con mostaza seca). El cerdo salado se elabora mediante salado y secado al aire, con un período de conservación prolongado y un sabor profundo y rico.
 
 ### Características de la técnica de encurtido hakka
 
@@ -212,11 +223,18 @@ Desde la suavidad de un tarro de queso de soja fermentado hasta la intensidad de
 
 ## Referencias
 
-[^1]: *Taiwan Panorama* (1993), «El aroma prodigioso de China: el tofu apestoso», https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+[^1]: _Taiwan Panorama_ (1993), «El aroma prodigioso de China: el tofu apestoso», https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+
 [^2]: Sitio web bilingüe de ONG del Ministerio de Asuntos Exteriores, «Cuando lo apestoso alcanza su extremo, se convierte en fragancia: el código del sabor del tofu apestoso», https://taiwanngo.tw/Post/86007
-[^3]: Instituto de Desarrollo de la Industria Alimentaria, *Informe de análisis de la industria de alimentos fermentados de Taiwán* (2023), https://www.firdi.org.tw/
-[^4]: Consejo de Pueblos Indígenas, *Investigación sobre la cultura tradicional de elaboración de bebidas alcohólicas de los pueblos indígenas* (2022), https://www.cip.gov.tw/
-[^5]: Administración de Alimentos y Medicamentos del Ministerio de Salud y Bienestar, *Normas sanitarias para alimentos fermentados*, https://www.fda.gov.tw/
-[^6]: Ministerio de Agricultura, *Investigación sobre técnicas de alimentos fermentados tradicionales de Taiwán* (2022), https://www.moa.gov.tw/
-[^7]: Consejo Hakka, *Plan de preservación y promoción de la cultura del encurtido hakka* (2023), https://www.hakka.gov.tw/
+
+[^3]: Instituto de Desarrollo de la Industria Alimentaria, _Informe de análisis de la industria de alimentos fermentados de Taiwán_ (2023), https://www.firdi.org.tw/
+
+[^4]: Consejo de Pueblos Indígenas, _Investigación sobre la cultura tradicional de elaboración de bebidas alcohólicas de los pueblos indígenas_ (2022), https://www.cip.gov.tw/
+
+[^5]: Administración de Alimentos y Medicamentos del Ministerio de Salud y Bienestar, _Normas sanitarias para alimentos fermentados_, https://www.fda.gov.tw/
+
+[^6]: Ministerio de Agricultura, _Investigación sobre técnicas de alimentos fermentados tradicionales de Taiwán_ (2022), https://www.moa.gov.tw/
+
+[^7]: Consejo Hakka, _Plan de preservación y promoción de la cultura del encurtido hakka_ (2023), https://www.hakka.gov.tw/
+
 [^8]: Wikipedia, entrada «Tofu apestoso», https://zh.wikipedia.org/zh-tw/%E8%87%AD%E8%B1%86%E8%85%90

@@ -23,6 +23,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:0005eee4bd863414'
 sourceBodyHash: 'sha256:de293f816b2012e3'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/society/pts-building-b-2024.webp'
+imageCredit: 'Yu tptw / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Public_Television_Service_B_Building_20240316.jpg'
 ---
 
 > **30-second overview:**

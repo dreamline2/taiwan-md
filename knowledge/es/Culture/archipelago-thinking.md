@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:75c25926a0cdd0a8'
 sourceBodyHash: 'sha256:02638f04673a14f6'
 translatedAt: '2026-05-17T05:06:52+08:00'
+image: '/article-images/culture/austronesian-migration-map.webp'
+imageCredit: 'Kikilipse / Wikimedia Commons (CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chronological_dispersal_of_Austronesian_people_across_the_Pacific_(per_Benton_et_al,_2012,_adapted_from_Bellwood,_2011).svg'
 ---
 
 > **Panorama en 30 segundos:** Al desplegar un mapa de Taiwán, la mayoría ve una pequeña isla en el borde del continente chino. Pero si giras el mapa 30 grados en sentido horario y lo prolongas hacia el sur, verás otro mapa igualmente válido: Taiwán es también el extremo nororiental del mundo malayo (Nusantara), la patria lingüística de 400 millones de austronesios y el punto de partida de la historia de expansión por el Pacífico. Un arete de jade excavado en Fengtian, Hualien, ya aparecía hace 3500 años en yacimientos arqueológicos de las islas Batanes, Luzón, Vietnam y Tailandia. El lingüista Robert Blust calculó, a partir de la diversidad léxica, que nueve de las diez grandes ramas austronesias están en Taiwán. La lengua tao de la isla Orquídea es inteligible en un 60% con la de los ivatan de Batanes. Lo que este artículo busca hacer es restituir ese otro mapa omitido, para que ambos mapas permitan ver el Taiwán real.

@@ -27,6 +27,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:4bb0752dfbb4d3f2'
 sourceBodyHash: 'sha256:9da1c30493a70f8a'
 translatedAt: 2026-05-02T01:17:17+08:00
+image: '/article-images/people/kowen-ko-portrait.webp'
+imageCredit: 'forgood music（好多音樂）'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://open.spotify.com/artist/3KdU8KfkDy7xHmQS00B5wd'
 ---
 
 ## Kowen Ko: el cantautor taiwanés de folk británico que cambió siete años de silencio por un álbum

@@ -14,6 +14,10 @@ sourceCommitSha: '01d9d0e73'
 sourceContentHash: 'sha256:a449ffee99fa24a3'
 sourceBodyHash: 'sha256:ba46b21b9cb6be40'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: '/article-images/history/formosa-dutch-map-1640.webp'
+imageCredit: '荷蘭人繪 / Wikimedia Commons'
+imageLicense: '公有領域 (Public domain)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:1640_Map_of_Formosa-Taiwan_by_Dutch_荷蘭人所繪福爾摩沙-臺灣.jpg'
 ---
 
 > **30秒概観：** 長い間、台湾史は「政権交代の記録」、あるいは何らかの大陸帝国の辺境として見なされてきました。しかし歴史家・曹永和が提起した「台湾島史観」は、この視角を根本的に反転させました。彼は、台湾史の主体は「台湾島」そのものだと主張しました。政権は次々に登場する俳優のようなものですが、島こそが常に存在し続ける舞台です。台湾は400年のあいだに8つの統治者を経験した島であり、人々は多重の統治の狭間で世界級の強靭性と適応力を身につけ、外来の制度を自らの養分へと転化し、最終的に海洋の合流点において、島自身の時間と民主を発明したのです。

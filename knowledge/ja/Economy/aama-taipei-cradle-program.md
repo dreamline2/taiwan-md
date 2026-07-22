@@ -24,6 +24,10 @@ sourceCommitSha: 'cfaa22a5d'
 sourceContentHash: 'sha256:5e0729d9b7c768df'
 sourceBodyHash: 'sha256:de8072f2a65793f8'
 translatedAt: '2026-07-07T02:28:52+08:00'
+image: '/article-images/economy/aama-15th-cohort-2026.webp'
+imageCredit: 'AAMA台北搖籃計畫'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.aamataipei.com.tw/archives/44255'
 ---
 
 > **30秒で概要：** AAMA台北揺籃プログラムは台湾において珍しい存在です。投資も株式取得もせず、学費も徴収しない起業家向けメンター制プログラムです。2012年に『デジタル時代』発行人の詹宏志氏と、退職した会計顧問の顔漏有氏によって立ち上げられ、ベテラン経営者が2年をかけて1人の成長期の起業家を1対1で伴走します。毎年募集人数は20名程度に限定され、13年かけて第15期まで進んでいますが、Appierや社企流、Portalyといった名前を輩出してきました。最も直感に反するのはこの選択です：本来なら定年を迎えて安穏に暮らせる人々が、最も遅く、規模の経済が期待できない方法を選び、「いかに企業を大きくするか」という言葉で表しにくい技を、手渡すように次の世代に伝え、見返りを求めないという点です。

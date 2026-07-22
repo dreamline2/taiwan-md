@@ -20,6 +20,10 @@ sourceCommitSha: 'd40e5042'
 sourceContentHash: 'sha256:1d592674c8a22f46'
 sourceBodyHash: 'sha256:74e768331f7f3a8b'
 translatedAt: '2026-06-17T01:18:25+08:00'
+image: '/article-images/culture/wretch-downtime-notice-2005.webp'
+imageCredit: 'Alan Sung'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Wretch_notice_(24364911).jpg'
 ---
 
 # Wretch: Picked‑up Computers, Sold‑off Youth, and a Disappearance No One Mourned

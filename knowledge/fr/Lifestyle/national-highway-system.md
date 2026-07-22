@@ -22,6 +22,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:5a8bf0cfcaa7dbd2'
 sourceBodyHash: 'sha256:6f25b03f0ed1d8d2'
 translatedAt: '2026-05-03T21:10:10+08:00'
+image: '/article-images/lifestyle/macarthur-thruway-opening-1964.webp'
+imageCredit: '台灣新生報'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:臺灣第一條高速公路—麥克阿瑟公路通車典禮_01.jpg'
 ---
 
 > **Aperçu en trente secondes**

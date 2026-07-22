@@ -20,6 +20,9 @@ sourceCommitSha: '2d46f0882'
 sourceContentHash: 'sha256:c380b9667fee1858'
 sourceBodyHash: 'sha256:b921828e83ff4f4d'
 translatedAt: '2026-07-14T00:51:45+08:00'
+image: '/article-images/nature/maanshan-nuclear-plant-nan-wan-2014.webp'
+imageCredit: 'M. Weitzel / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
 ---
 
 # 台湾の電力と半導体：護国神山の電力請求書

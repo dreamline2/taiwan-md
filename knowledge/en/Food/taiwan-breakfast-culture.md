@@ -1,11 +1,20 @@
 ---
 title: 'Taiwanese Breakfast Culture'
-description: "From danbing, shaobing, and youtiao to the global expansion of Yonghe Soy Milk, breakfast-shop aunties and Taiwanese morning rituals"
+description: 'From danbing, shaobing, and youtiao to the global expansion of Yonghe Soy Milk, breakfast-shop aunties and Taiwanese morning rituals'
 date: '2026-03-18'
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '飲品文化'
-tags: ['breakfast', 'danbing', 'shaobing and youtiao', 'Yonghe Soy Milk', 'Mei & Mei', 'breakfast shops', 'soy milk shops']
+tags:
+  [
+    'breakfast',
+    'danbing',
+    'shaobing and youtiao',
+    'Yonghe Soy Milk',
+    'Mei & Mei',
+    'breakfast shops',
+    'soy milk shops',
+  ]
 lastVerified: '2026-05-16'
 lastHumanReview: true
 featured: false
@@ -14,6 +23,8 @@ sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:03f68d8696f5da84'
 sourceBodyHash: 'sha256:dc5728577e386104'
 translatedAt: '2026-05-20T05:08:27+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Taiwanese_danbing_and_sandwitch.jpg/960px-Taiwanese_danbing_and_sandwitch.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwanese Breakfast Culture

@@ -14,6 +14,10 @@ sourceCommitSha: 'fb010188'
 sourceContentHash: 'sha256:5c3f4c327ba8e029'
 sourceBodyHash: 'sha256:12c31fa42e4be425'
 translatedAt: 2026-05-01T19:52:32+08:00
+image: '/article-images/people/andre-chiang-archi-2025.webp'
+imageCredit: 'archi 藝廚／凱渡廣場酒店提供'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.archipelago.com.tw/restaurant-detail/archi/'
 ---
 
 # 江振誠（André Chiang）

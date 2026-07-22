@@ -33,6 +33,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:e3cf0ff2d18ee6c2'
 sourceBodyHash: 'sha256:ceea55d78cdbac6b'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: /article-images/geography/sisi-south-village-overview-2013.webp
+imageCredit: Men1399
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%9B%9B%E5%8D%97%E6%9D%91.jpg
 ---
 
 # 四四南村：兵器工場の眷村、現在は台北101そばの文創園区

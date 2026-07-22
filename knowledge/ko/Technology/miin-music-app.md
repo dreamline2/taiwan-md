@@ -15,6 +15,8 @@ sourceCommitSha: '83f479d60'
 sourceContentHash: 'sha256:aee5ba49019fb762'
 sourceBodyHash: 'sha256:183d8e607cc534cd'
 translatedAt: '2026-06-17T01:18:25+08:00'
+image: '/article-images/technology/miin-homepage-2026.webp'
+imageCredit: '迷音 Miin 官方網站（miin.cc）首頁截圖'
 ---
 
 > **30초 개요:** 2026년 6월, 타이완 독립 성향의 네티즌들이 Threads에서 모두에게 “미인 Miin”으로 옮겨 가자고 호소했고, 그 게시물은 3천 개가 넘는 좋아요를 받았다. 미인은 [PTT](/ko/Technology/ptt-bulletin-board-system/) 창립자 [두이진](/ko/People/ethan-tu/)이 주도한 오픈소스 플랫폼으로, “자유로운 발언”을 내세우며 AI로 [인지전](/ko/Society/cognitive-warfare-against-taiwan/)의 협동 계정을 잡아낸다. 방법은 직관과 반대다. 뉴스의 진위를 따지는 것이 아니라, 평소에는 말이 없던 계정들이 기자회견이 시작되는 바로 그 순간 동시에 공격을 시작하는지를 본다. 그러나 2025년 말, 넥스트애플뉴스는 미인이 허가 없이 자사 뉴스 250건 이상을 사용했다며 고소했다. PTT를 만들고 플랫폼 검열에 반대해 온 한 인물이 타이완으로 돌아와 “누가 조작하는가”를 잡아내는 도구를 만들었고, 다시 허위정보에 맞서겠다며 타인의 뉴스를 모았다. 같은 “정보는 자유로워야 한다”라는 말은 그의 30년 신념이자 지금 미인의 판매 포인트이며, 동시에 그의 소송이 되었다.

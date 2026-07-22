@@ -23,6 +23,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2521a3fdec4ce789'
 sourceBodyHash: 'sha256:a1690337698d47c6'
 translatedAt: 2026-05-01T22:19:01+08:00
+image: '/article-images/society/yungta-gate-2013.webp'
+imageCredit: 'SSR2000 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gate_of_Yung_Ta_Institute_of_Technology_%26_Commerce.JPG'
 ---
 
 > **30초 개요:** 1994년 대만에는 58개의 대학 및 단과대학이 있었다. 교육개혁위원회가 "고등학교와 대학을 널리 설립하자"고 제창한 후, 정부는 사립 대학 설립을 장려하고 대학 설립 승인 제도를 "인가제"에서 "신고제"로 전환했다. 10년 만에 대학 수가 거의 세 배로 증가하여 2017년에는 129개 대학과 15개 단과대학을 합쳐 총 144개에 달했다. 사립 대학 및 단과대학은 26개에서 94개로 늘어나 전체의 67%를 차지했다. 그러나 2022년 대만의 신생아 수가 13만 8천 명으로 감소하고 출산율 1.08로 세계 최저를 기록하면서 대학 "시장"이 급격히 위축되고 있다. 사립 대학들이 퇴장하기 시작한 것이다. 비판 교육학 연구에 따르면, "너무 적음"에서 "너무 많음"으로, 다시 "문을 닫음"으로 이어지는 이 과정의 근원은 교육개혁이 처음부터 신자유주의적 시장 논리에 의해 주도되어 고등교육을 공공재에서 상품으로 전환시켰기 때문이다[^1].

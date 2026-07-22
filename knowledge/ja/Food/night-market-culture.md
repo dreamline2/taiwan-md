@@ -14,6 +14,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:cad0161e7864d0ae'
 sourceBodyHash: 'sha256:ea37a51a6e2ccfcd'
 translatedAt: '2026-05-01T18:02:56+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TWShiLinNightMarketRichy2.jpg/960px-TWShiLinNightMarketRichy2.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の夜市文化

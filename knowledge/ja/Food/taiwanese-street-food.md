@@ -24,6 +24,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:97a6acec72ee0e79'
 sourceBodyHash: 'sha256:70ab08dbd7b43fbc'
 translatedAt: '2026-05-01T19:52:32+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/East_Entrance_of_Raohe_Street_Night_Market_20170530_night.jpg/960px-East_Entrance_of_Raohe_Street_Night_Market_20170530_night.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の屋台料理（台湾小吃）

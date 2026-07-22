@@ -27,6 +27,10 @@ sourceCommitSha: '905aa4a82'
 sourceContentHash: 'sha256:93ceaae8bc44512f'
 sourceBodyHash: 'sha256:941fb85e8f2fbb98'
 translatedAt: '2026-06-26T00:38:47+08:00'
+image: '/article-images/technology/mini-taiwan-pulse-map-2026.webp'
+imageCredit: 'Migu / sciwork 2026'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://github.com/ianlkl11234s/0613-sci-work-share'
 ---
 
 # Mini Taiwan Pulse: 큐레이터의 눈으로 타이완을 숨 쉬는 지도로 그리다

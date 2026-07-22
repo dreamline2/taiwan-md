@@ -1,19 +1,30 @@
 ---
-title: "Cultura del desayuno en Taiwán"
-description: "De danbing, shaobing y youtiao a la expansión global de Yonghe Doujiang: las tías de las tiendas de desayuno y el ritual matutino de los taiwaneses"
+title: 'Cultura del desayuno en Taiwán'
+description: 'De danbing, shaobing y youtiao a la expansión global de Yonghe Doujiang: las tías de las tiendas de desayuno y el ritual matutino de los taiwaneses'
 date: 2026-03-18
-author: "Taiwan.md"
-category: "Food"
-subcategory: "飲品文化"
-tags: ["desayuno", "danbing", "shaobing y youtiao", "Yonghe Doujiang", "Mei & Mei", "tienda de desayuno", "tienda de leche de soya"]
+author: 'Taiwan.md'
+category: 'Food'
+subcategory: '飲品文化'
+tags:
+  [
+    'desayuno',
+    'danbing',
+    'shaobing y youtiao',
+    'Yonghe Doujiang',
+    'Mei & Mei',
+    'tienda de desayuno',
+    'tienda de leche de soya',
+  ]
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: false
-translatedFrom: "Food/台灣早餐文化.md"
-sourceCommitSha: "85926aa3b"
-sourceContentHash: "sha256:03f68d8696f5da84"
-sourceBodyHash: "sha256:dc5728577e386104"
-translatedAt: "2026-05-20T05:08:32+08:00"
+translatedFrom: 'Food/台灣早餐文化.md'
+sourceCommitSha: '85926aa3b'
+sourceContentHash: 'sha256:03f68d8696f5da84'
+sourceBodyHash: 'sha256:dc5728577e386104'
+translatedAt: '2026-05-20T05:08:32+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Taiwanese_danbing_and_sandwitch.jpg/960px-Taiwanese_danbing_and_sandwitch.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Cultura del desayuno en Taiwán

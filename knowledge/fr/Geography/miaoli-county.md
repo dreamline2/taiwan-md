@@ -26,6 +26,10 @@ sourceCommitSha: 'b457dbbb1'
 sourceContentHash: 'sha256:0d7e5732a8513df0'
 sourceBodyHash: 'sha256:f743a82d302f341a'
 translatedAt: '2026-06-12T03:51:14+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/6/6d/2023_Tung_Blossom_Festival.jpg
+imageCredit: 中華民國客家委員會
+imageLicense: CC BY 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:2023_Tung_Blossom_Festival.jpg
 ---
 
 # Comté de Miaoli : le comté des Hakka au cou raide, qui a élu en huit ans un magistrat ayant doublé la dette du Trésor départemental

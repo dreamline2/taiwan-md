@@ -22,6 +22,8 @@ sourceCommitSha: 'b0e441fa'
 sourceContentHash: 'sha256:976bf813ab549fe2'
 sourceBodyHash: 'sha256:c76694b44c893f41'
 translatedAt: '2026-06-10T16:45:00+00:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sanbeiji.jpg/960px-Sanbeiji.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 > **Panorama en 30 segundos:** La "cocina de mano maestra" es la expresión taiwanesa para "plato estrella"[^1], refiriéndose a aquellos platos que exigen verdadera destreza, carecen de receta estándar y se transmiten de maestro a discípulo por tradición oral. Su escenario por excelencia es el _banquete callejero_ (_pān-toh_): la tradición taiwanesa de montar banquetes al aire libre, con carpas y fogones improvisados. La pobreza del suelo de Neimen, en Kaohsiung, convirtió paradójicamente a este distrito en el de mayor densidad de maestros de banquetes del país, con empresas que llegaron a servir 25 000 mesas al año en su apogeo. Pero la migración de las bodas a los hoteles y la pandemia de COVID-19 redujeron los pedidos de banquetes en un 90 % en dos décadas, llevándose no solo el sabor de los platos, sino también costumbres de solidaridad vecinal como la devolución de los restos de comida.

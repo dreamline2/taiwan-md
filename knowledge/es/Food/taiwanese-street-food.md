@@ -13,6 +13,8 @@ sourceContentHash: 'sha256:97a6acec72ee0e79'
 sourceBodyHash: 'sha256:70ab08dbd7b43fbc'
 translatedAt: '2026-05-13T01:08:31Z'
 category: 'Food'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/East_Entrance_of_Raohe_Street_Night_Market_20170530_night.jpg/960px-East_Entrance_of_Raohe_Street_Night_Market_20170530_night.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Comida Callejera Taiwanesa

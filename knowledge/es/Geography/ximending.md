@@ -32,6 +32,10 @@ sourceCommitSha: '49728f9d'
 sourceContentHash: 'sha256:527d6f6d267c802a'
 sourceBodyHash: 'sha256:08db5a34a2ebbaab'
 translatedAt: '2026-07-14T16:44:38Z'
+image: '/article-images/geography/ximending-red-house-octagonal-2021.webp'
+imageCredit: 'Outlookxp'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E9%96%80%E7%B4%85%E6%A8%93%E5%85%AB%E8%A7%92%E6%A8%93.jpg'
 ---
 
 # Ximending: la calle de entretenimiento que los japoneses construyeron en 1896 y que, 130 años después, sigue siendo la calle más joven de Taipéi

@@ -20,6 +20,9 @@ sourceCommitSha: '2d46f0882'
 sourceContentHash: 'sha256:e3dbfa5f81690467'
 sourceBodyHash: 'sha256:45c1175dae9b247b'
 translatedAt: '2026-07-14T00:51:45+08:00'
+image: '/article-images/technology/tainan-science-park-tsmc-fab18-fields-2025.webp'
+imageCredit: '4300streetcar / Wikimedia Commons'
+imageLicense: 'CC BY 4.0'
 ---
 
 # Agua para semiconductores y recursos hídricos de Taiwán: el embalse junto a la fábrica de obleas

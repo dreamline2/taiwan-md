@@ -38,6 +38,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:fb76ac27fc6cd3ba'
 sourceBodyHash: 'sha256:a32189fb31dd0c7d'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/geography/beitou-hot-spring-museum-2020.webp'
+imageCredit: 'Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg'
 ---
 
 # Calle de aguas termales de Beitou: de la extracción de azufre en 1697 al Museo de Aguas Termales en 2026, la misma fuente de montaña pasó por cuatro generaciones de habitantes

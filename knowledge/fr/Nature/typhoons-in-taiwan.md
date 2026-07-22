@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:b0a47a120aff0621'
 sourceBodyHash: 'sha256:b8ebcfc4e0a96ce7'
 translatedAt: '2026-06-16T17:05:54Z'
+image: '/article-images/nature/morakot-modis-satellite-2009.webp'
+imageCredit: 'NASA MODIS Rapid Response (Aqua)'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
 ---
 
 # Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons

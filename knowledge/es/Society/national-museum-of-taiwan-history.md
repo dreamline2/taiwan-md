@@ -21,6 +21,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:0a19013fbe675c85'
 sourceBodyHash: 'sha256:16078470c5f07551'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/society/nmth-main-building-2011.webp'
+imageCredit: 'Fcuk1203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg'
 ---
 
 > **Panorama en 30 segundos:** El 29 de octubre de 2011, tras 13 años de preparación, el Museo Nacional de Historia de Taiwán abrió sus puertas en el distrito de Annan, Tainan. Convirtió en espacio expositivo físico la «perspectiva histórica insular de Taiwán» propuesta por Ts’ao Yung-ho en 1990: la exposición permanente «Esta tierra y esta gente: la historia de Taiwán» se divide en ocho grandes zonas, desde la llegada de los pueblos austronesios hasta la contemporánea «Tú también escribes historia». El museo abrió 140.000 piezas de su colección bajo la Open Government Data License 1.0, equivalente a CC BY 4.0. Tras ser elevado en 2021 a institución de tercer nivel, su director Chang Lung-chih definió el museo como una «plataforma de acción para la escritura y creación colectiva de toda la ciudadanía»[^13]. Cuando este museo nacional se encuentra con una base de conocimiento abierta, impulsada por la comunidad en la era de la IA, la memoria colectiva adquiere una segunda forma curatorial.

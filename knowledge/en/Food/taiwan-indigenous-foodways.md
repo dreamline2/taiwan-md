@@ -22,6 +22,8 @@ sourceContentHash: 'sha256:d67f3581051e39e8'
 sourceBodyHash: 'sha256:50386f161e8d186f'
 translatedAt: '2026-04-14T12:25:09+08:00'
 category: Food
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Indigenous_group_dancers_at_Amis_Music_Festival_2016_IMF0936.jpg/960px-Indigenous_group_dancers_at_Amis_Music_Festival_2016_IMF0936.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwan Indigenous Foodways

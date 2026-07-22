@@ -23,6 +23,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:7aeb090ae7f880d7'
 sourceBodyHash: 'sha256:07d9c3b482846ce9'
 translatedAt: '2026-04-14T12:29:25+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tan_Tsai_Noodle_of_Tu_Hsiao_Yue_2015.jpg/960px-Tan_Tsai_Noodle_of_Tu_Hsiao_Yue_2015.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # La culture des nouilles à Taïwan : soixante-dix ans d'histoire, de mémoire et d'innovation

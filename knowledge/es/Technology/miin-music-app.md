@@ -22,6 +22,8 @@ sourceCommitSha: '83f479d60'
 sourceContentHash: 'sha256:aee5ba49019fb762'
 sourceBodyHash: 'sha256:183d8e607cc534cd'
 translatedAt: '2026-06-17T01:18:26+08:00'
+image: '/article-images/technology/miin-homepage-2026.webp'
+imageCredit: '迷音 Miin 官方網站（miin.cc）首頁截圖'
 ---
 
 > **Panorama en 30 segundos:** En junio de 2026, un grupo de internautas pro-Taiwán convocó en Threads a migrar a «Miin», y la publicación superó los tres mil «me gusta». Miin es una plataforma de código abierto impulsada por [Ethan Tu](/es/People/ethan-tu/), fundador de [PTT](/es/Technology/ptt-bulletin-board-system/). Su bandera es la «libertad de expresión» y usa IA para detectar cuentas coordinadas de [operaciones cognitivas](/es/Society/cognitive-warfare-against-taiwan/). El método es contraintuitivo: no verifica si una noticia es verdadera o falsa, sino que observa qué cuentas normalmente silenciosas abren fuego al mismo tiempo cuando empieza una conferencia de prensa. Pero a fines de 2025, NextApple News denunció a Miin por haber usado sin autorización más de 250 de sus noticias. Una persona que construyó PTT y se opuso a la censura de plataformas volvió a Taiwán para crear una herramienta que detecta «quién manipula», y al mismo tiempo agregó noticias ajenas para combatir la desinformación. La misma frase, «la información debe ser libre», es su convicción de treinta años, el actual argumento de venta de Miin y también su causa judicial.

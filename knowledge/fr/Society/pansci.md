@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fc2836e9d3ebf9e7'
 sourceBodyHash: 'sha256:498dc3f8b99093f6'
 translatedAt: '2026-06-16T17:05:54Z'
+image: '/article-images/society/cheng-kuo-wei-portnoy-2026.webp'
+imageCredit: '© 鏡週刊 Mirror Media（陳昌遠攝）'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.mirrormedia.mg/story/20260402pol001'
 ---
 
 > **Vue d'ensemble en 30 secondes :** PanSci est un site et une communauté scientifiques taïwanais fondés en 2011. Né d'un projet supprimé de l'Association taïwanaise de culture numérique, il a survécu dans ses premières années grâce aux visites de Cheng Kuo-wei et Hsu Ting-yao auprès de blogueurs scientifiques, à leurs invitations à écrire et à leur animation de communauté ; en 2013, il comptait déjà plus de 80 blogueurs scientifiques et plus de 2 780 articles. Les recherches ultérieures en communication ont replacé PanSci dans la démocratisation de la communication scientifique à Taïwan, la participation publique sur les médias sociaux et la comparaison entre sites de vulgarisation scientifique des deux rives. Dans les années 2020, PanSci a relié articles, Académie PanSci, Kexuesheng, vidéo, projets publicitaires, commerce en ligne et MCN YouTube en un réseau de services de savoir. Sa tension centrale est très claire : pour que la science reste dans la discussion publique, la plateforme doit d'abord survivre dans les projets commerciaux et les algorithmes.

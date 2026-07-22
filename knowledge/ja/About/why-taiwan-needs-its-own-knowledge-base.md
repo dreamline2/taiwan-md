@@ -13,6 +13,8 @@ sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:62ec81a90f901dec'
 sourceBodyHash: 'sha256:352de879384e19e9'
 translatedAt: '2026-06-16T17:10:30Z'
+image: /article-images/about/taiwan-md-homepage-2026.webp
+imageCredit: 'Taiwan.md 首頁 · taiwan.md · CC BY-SA 4.0'
 ---
 
 # なぜ台湾には独自の知識ベースが必要なのか

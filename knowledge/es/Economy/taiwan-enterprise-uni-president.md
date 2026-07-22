@@ -22,6 +22,10 @@ sourceContentHash: 'sha256:3fb7c059831bdebb'
 sourceBodyHash: 'sha256:481f2cb6cfdcbd21'
 translatedAt: '2026-05-01T22:19:10+08:00'
 category: Economy
+image: '/article-images/economy/seven-eleven-taiwan-storefront-2024.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:7-Eleven_Nanjing_Store_front_view_20240214.jpg'
 ---
 
 > **Resumen en 30 segundos:** En 1967, Kao Ching-yuan, a los 38 años, fundó Uni-President Enterprise en Xuejia, Tainan,

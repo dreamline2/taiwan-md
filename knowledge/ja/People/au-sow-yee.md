@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4e807297f5dfcc70'
 sourceBodyHash: 'sha256:9bd8f0aa157f38ef'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/people/au-sow-yee-prelude-interstellar-still-2024.webp'
+imageCredit: 'Au Sow Yee'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://ausowyee.cargo.site/'
 ---
 
 # 区秀詒：「群島」を台湾芸術界にもたらしたマレーシアのキュレーター

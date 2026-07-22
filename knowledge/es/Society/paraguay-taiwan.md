@@ -30,6 +30,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:2883551ecafd55b9'
 sourceBodyHash: 'sha256:a482ae599cab265e'
 translatedAt: 2026-05-09T11:09:57+08:00
+image: '/article-images/society/taiwan-paraguay-embassy-inauguration-2016.webp'
+imageCredit: '中華民國總統府'
+imageLicense: '政府公開資訊（OGDL — Open Government Data License）'
+imageSource: 'https://www.president.gov.tw/NEWS/20543'
 ---
 
 > **Resumen en 30 segundos:** Paraguay y la República de China establecieron relaciones diplomáticas en 1957, y en 2026 se cumplen 69 años. Es el único aliado diplomático de Taiwán en Sudamérica y el de mayor superficie entre los aliados actuales, aunque su población es inferior a la de algunos aliados centroamericanos. Del 7 al 10 de mayo de 2026, el presidente paraguayo Santiago Peña encabezó una delegación en su primera visita de Estado a Taiwán; el Ministerio de Asuntos Exteriores anunció que el presidente Lai Ching-te lo recibirá el 8 de mayo con honores militares, un banquete de Estado y la concesión de la Orden Gran Jade. Esta alianza ha resistido la presión de China gracias al reconocimiento diplomático, el acceso al mercado de productos agropecuarios, la Universidad Politécnica Taiwán-Paraguay, el Parque Tecnológico Inteligente y la cooperación técnica a largo plazo.[^1][^2]

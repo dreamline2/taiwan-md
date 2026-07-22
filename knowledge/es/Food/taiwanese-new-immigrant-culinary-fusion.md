@@ -22,6 +22,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:bd8e4eaaa3e395c7'
 sourceBodyHash: 'sha256:6806ae061b784232'
 translatedAt: '2026-05-13T01:08:31Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pho%2C_popular_Vietnamese_noodle_soup.jpg/960px-Pho%2C_popular_Vietnamese_noodle_soup.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Fusión culinaria de los nuevos residentes en Taiwán

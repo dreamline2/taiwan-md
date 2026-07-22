@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7854f820ae13e37'
 sourceBodyHash: 'sha256:5340a77820daae23'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/music/golden-horse-awards-entrance-2016.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons, CC BY-SA 4.0'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Golden_Horse_Awards_Ceremony_entrance_20161126.jpg'
 ---
 
 > **30 秒概覽：** 台湾の映像音楽は、しばしば「規模がますます国際級になった」と語られます。たとえば何國杰が海を越えてシドニーへ行き、60 人編成の交響楽団で《賽德克》を録音したこと[^1]、譚盾の《臥虎藏龍》がアカデミー賞を受賞したこと[^2]などです。しかし、この流れで本当に心を動かすのは規模ではありません。1980 年代のアカデミックな管弦楽語法から、林強が電子音の余白を侯孝賢の映画に持ち込み[^3]、林生祥が 2,000 台湾ドルで買った月琴で白黒映画に音楽を付け[^4]、柯智豪が大稻埕の廟口で聞いた歌仔戲と南北管を大スクリーンに移し[^5]、張衞帆が台湾の葬儀の哀楽「西索ミ」をホラーゲームに書き込むまで[^6]、台湾の作曲家が歩んだ道は、画面に感情を敷くことから、少しずつこの島の固有の音を掘り起こすことへと変わっていきました。音には地層があります。作曲家は、その下へ掘り進む人です。

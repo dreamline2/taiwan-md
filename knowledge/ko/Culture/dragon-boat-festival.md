@@ -26,6 +26,8 @@ sourceCommitSha: '58fa84f01'
 sourceContentHash: 'sha256:aac6019521f0bc32'
 sourceBodyHash: 'sha256:5410e4f9f881b327'
 translatedAt: '2026-06-20T00:37:14+08:00'
+image: /article-images/culture/duanwu-two-zongzi-styles.webp
+imageCredit: 'Dllu / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 # 단오절: 고대인이 죽음에 맞서기 위해 마련한 도구 꾸러미, 타이완인은 이를 해마다 돌아오는 가족의 재회로 만들었다

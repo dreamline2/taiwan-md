@@ -22,6 +22,10 @@ sourceCommitSha: '17b63fe83'
 sourceContentHash: 'sha256:5d83fb5eff7a2309'
 sourceBodyHash: 'sha256:da4269ea46f7ec77'
 translatedAt: '2026-07-15T00:51:51+08:00'
+image: '/article-images/culture/shopping-design-designbiz-2022-banner.jpg'
+imageCredit: 'Shopping Design／DesignBIZ Fest'
+imageLicense: 'Fair use（editorial commentary）'
+imageSource: 'https://designbiz.shoppingdesign.com.tw/2022/'
 ---
 
 > **30-Second Overview:** Launched in 2006, Shopping Design (Design Curation Magazine) has spent two decades turning "design" from a specialized term confined to exhibition halls into a daily practice for browsing stores and selecting objects. What it truly taught Taiwan is that "discernment" can be cultivated as a skill: recognizing the difference between this shade of white and that, and articulating why. It expanded the act of "discerning for you" from a single magazine into an annual Top 100 list, a quarterly publication, and a design carnival; it also expanded it onto its parent company's single "magazine publishing + advertising services" license. Thus, this magazine that teaches you to discern ultimately asks you to discern itself.

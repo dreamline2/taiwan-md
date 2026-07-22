@@ -32,6 +32,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:86be5fe44de05439'
 sourceBodyHash: 'sha256:ad35178eae665c53'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: /article-images/geography/yongkang-street-morning-2024.webp
+imageCredit: MAm ROFOW 022
+imageLicense: CC0
+imageSource: https://commons.wikimedia.org/wiki/File:TW_台灣_Taiwan_台北_Taipei_大安區_Da%27An_永康街_Yongkang_Street_morning_March_2024_R12S_110.jpg
 ---
 
 # 永康街：日本人教授が住み、外省人が避難して来て、いまは日韓観光客の台北

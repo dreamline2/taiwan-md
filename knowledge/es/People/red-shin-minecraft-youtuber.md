@@ -18,6 +18,10 @@ sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:c0745c4b9d2ae295'
 sourceBodyHash: 'sha256:c2f250d5a21d59eb'
 translatedAt: '2026-06-12T00:53:42+08:00'
+image: '/article-images/people/ashan-2026-return-minecraft.webp'
+imageCredit: '阿神官方 YouTube 頻道'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.youtube.com/watch?v=60n6gPUEl7s'
 ---
 
 ## Ashan: de la «máquina de trabajo» del daily upload de 11 años a un YouTuber millonario que recupera su vida

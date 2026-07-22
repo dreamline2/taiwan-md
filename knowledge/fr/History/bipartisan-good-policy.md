@@ -22,6 +22,10 @@ sourceCommitSha: '6e4cfc200'
 sourceContentHash: 'sha256:15ae499dfcb97aac'
 sourceBodyHash: 'sha256:01c949b0613e035a'
 translatedAt: '2026-06-14T00:37:05+08:00'
+image: '/article-images/history/cross-party-freeway-no1-2015.webp'
+imageCredit: 'Koika / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Freeway_No._1_Taishan_section.jpg'
 ---
 
 > **Vue d’ensemble en 30 secondes :** Sur Threads, un lecteur disait être lassé des invectives bleu-vert à table et vouloir seulement se souvenir des choses réellement bénéfiques pour Taïwan, de celles qui durent. Cet article recense pour lui onze politiques sur soixante-dix ans, depuis la réforme agraire menée par réquisition autoritaire des terres agricoles jusqu’au plan d’infrastructures prospectives, encore disputé en 2026. Nous renonçons délibérément au critère bleu-vert pour leur substituer quatre critères : les conditions de vie, c’est-à-dire si le quotidien s’est amélioré ; la démocratie, c’est-à-dire si le pouvoir de gouverner a été rendu au peuple ; les droits civiques, c’est-à-dire si les droits des minorités ont été pris en compte ; et la souveraineté, c’est-à-dire si Taïwan peut faire face au monde debout. Ces quatre critères ne demandent pas « qui l’a fait », mais « ce qui est resté pour les personnes qui vivent sur cette île ». La conclusion est quelque peu contre-intuitive : les politiques qui survivent réellement à leur propre politique sont souvent celles qui, le jour de leur naissance, ont suscité les querelles les plus vives.

@@ -16,6 +16,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc46568183dd9cc2'
 sourceBodyHash: 'sha256:dc489fbbe5744c82'
 translatedAt: '2026-06-16T17:15:00Z'
+image: '/article-images/society/ntu-hospital-pond-2011.webp'
+imageCredit: '玄史生'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg'
 ---
 
 > **30 秒概観**：医療法が規律するのは医師個人ではありません（それは 1943 年の医師法です）。健保給付でもありません（それは 1994 年の健保法です）。対象は、**病院、診療所、医療法人**といった機関がどのように存在し、どのように広告を出し、どのように紛争を処理するかです。1986 年に全 91 条として公布され、2004 年の大改正で 123 条となり「医療法人」制度が導入されました。2017 年には第 82 条が改正され、医師の刑事責任は「二重要件」へと変更されました。2026 年 5 月には看護師対患者比が法制化されました。しかし四十年を経て、第 1 条が掲げる「医療事業の健全な発展の促進」が直面している現実は、病院の 83%、病床の 74% が私立に属し、救急医の離職率が米国の 2、3 倍に達し、看護師が波のように離職し、崩壊寸前まで耐えてようやく国会が看護師対患者比を法制化した、というものです。

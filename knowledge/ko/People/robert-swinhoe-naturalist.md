@@ -21,6 +21,7 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:50b13c3a31e0a1c0'
 sourceBodyHash: 'sha256:e6b263814c7b1995'
 translatedAt: 2026-05-01T20:54:10+08:00
+image: ''
 ---
 
 # 스원후: 외교관이 박물학자가 되다

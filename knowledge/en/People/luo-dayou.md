@@ -24,6 +24,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:a360c7a135e403dc'
 sourceBodyHash: 'sha256:fe7b545ee2048324'
 translatedAt: '2026-06-20T01:01:36+08:00'
+image: '/article-images/people/lo-ta-yu-2011.webp'
+imageCredit: 'Daniel M Shih'
+imageLicense: 'CC BY-SA 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Lo_Ta-yu_羅大佑_2011.jpg'
 ---
 
 > **30-Second Overview:** Lo Ta-yu (born 1954) is a singer-songwriter who trained as a radiologist. His 1982 album _Zhi Hu Zhe Ye_ transformed pop lyrics from emotional ornament into something capable of carrying an argument; Taiwanese music critics later ranked it first among the hundred greatest classic albums. He wrote the rootlessness of “Lukang, the Little Town,” the isolation of “Orphan of Asia,” and the estrangement of “Pearl of the Orient,” asking “Who am I?” along the way. The irony is that this man who sang Taiwan’s drifting so completely himself wandered from Taipei to New York, Hong Kong, and Beijing; researchers have calculated that he moved nineteen times in twenty-nine years. At seventy, he returned to Taiwan, stood onstage, and said that among musicians of his generation, “at least 70 percent were eliminated,” and those who remained were all remarkable survivors.

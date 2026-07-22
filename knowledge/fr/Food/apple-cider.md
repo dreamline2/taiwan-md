@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:843fecc188f1e99a'
 sourceBodyHash: 'sha256:e2ac1f8b1495c588'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/food/apple-sidra-ximending-2025.webp'
+imageCredit: 'Solomon203 (Wikimedia Commons)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg'
 ---
 
 > **Aperçu en 30 secondes :** En 1965, l’homme d’affaires philippin Lee Hong-lueh achète à la société américaine CosCo la marque et la formule de « 蘋菓西打 » (Apple Sidra), puis construit une usine à Pingzhen, Taoyuan. En 60 ans, cette boisson gazeuse dorée est devenue un incontournable des restaurants rechao, des banquets ba’n-doh et des salons de KTV, avant d’être découverte à Tainan chez Du Hsiao Yueh par l’idole sud-coréenne Kyuhyun. Pourtant, pendant ses 30 premières années, sa marque n’a jamais vraiment appartenu à Taïwan : elle passe par Cathay Trust en 1979, le groupe Hongyuan en 1985, puis est rachetée en 1995 par Sun You-ying, qui débourse 800 000 dollars américains de sa poche. Après deux crises de sécurité alimentaire liées à des dépôts en 2018 et 2023, Atlantic Beverage vend en 2024 un terrain de 7 222 ping à Hunei, Kaohsiung, encaisse 960 millions de dollars taïwanais, affiche 493 millions de bénéfice net après impôt et un BPA de 8,71 dollars taïwanais. En 2025, des rumeurs de remplacement du directeur général éclatent de nouveau. Un goût taïwanais vieux de soixante ans, plus complexe que ce verre de vin rosé mélangé à de l’Apple Sidra dans un salon de KTV.

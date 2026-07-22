@@ -22,6 +22,10 @@ sourceCommitSha: 'f7484ebea'
 sourceContentHash: 'sha256:faa63331d7b3eae1'
 sourceBodyHash: 'sha256:296b2f47a01a03eb'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/culture/tatung-cooker-100th-2019.webp'
+imageCredit: 'Solomon203'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tatung_100th_Anniversary_Cooker_20190706.jpg'
 ---
 
 > **Resumen en 30 segundos:** La memoria publicitaria compartida por la gente de Taiwán casi siempre consiste en una frase que no puedes evitar continuar, o una melodía que sabes tararear aunque no recuerdes qué vendía: “¡Fuqi la!”, “sólo lo fresco se atreve a hablar fuerte”, “Tatung, Tatung, los productos nacionales son buenos”. Esa capacidad de “recordar al mismo tiempo en todo Taiwán” dependía de una época sin alternativas, con sólo tres canales de televisión: TTV (1962), CTV (1969) y CTS (1971), que ataban la atención de toda una generación a una misma señal. Tras dos rupturas, la entrada en vigor de la Ley de Televisión por Cable en 1993 y el primer año en que la inversión en publicidad digital superó a la televisiva en 2016, terminó la era de la publicidad nacional compartida.

@@ -24,6 +24,10 @@ sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a199eb8f6aa7f0fc'
 sourceBodyHash: 'sha256:2680b892b33ad9fa'
 translatedAt: '2026-05-28T05:08:35+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%EF%BC%81_%281%29.jpg/1280px-%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%EF%BC%81_%281%29.jpg'
+imageCredit: 'Puramyun31, Wikimedia Commons'
+imageLicense: 'CC BY 2.5'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%EF%BC%81_(1).jpg'
 ---
 
 # Sunset Rollercoaster : d'une photo de fond Photo Booth à Coachella, 14 ans à chanter le crépuscule de Taipei en anglais

@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:94e9b57891092909'
 sourceBodyHash: 'sha256:15f9472d4c0b19f9'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/art/nml-trial-issue-hero-2011.webp'
+imageCredit: "數位荒原 No Man's Land 試刊號封面（2011-11）"
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.heath.tw/nml-issue/trial-issue-of-no-mans-land/'
 ---
 
 # 디지털 황무지: 상업 모델 없는 온라인 예술비평 플랫폼은 어떻게 12년을 버텼는가

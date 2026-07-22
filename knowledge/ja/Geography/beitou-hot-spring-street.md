@@ -38,6 +38,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fb76ac27fc6cd3ba'
 sourceBodyHash: 'sha256:a32189fb31dd0c7d'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/geography/beitou-hot-spring-museum-2020.webp'
+imageCredit: 'Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_2.jpg'
 ---
 
 # 北投温泉街：1697年の硫黄採取から2026年の温泉博物館まで、同じ山の泉は四世代の住民を迎えました

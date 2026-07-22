@@ -14,6 +14,10 @@ sourceCommitSha: '6e4cfc200'
 sourceContentHash: 'sha256:15ae499dfcb97aac'
 sourceBodyHash: 'sha256:01c949b0613e035a'
 translatedAt: '2026-06-14T00:37:04+08:00'
+image: '/article-images/history/cross-party-freeway-no1-2015.webp'
+imageCredit: 'Koika / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Freeway_No._1_Taishan_section.jpg'
 ---
 
 > **30초 개관:** 한 독자가 Threads에서 말했다. 그는 범람과 범록이 식탁에서 서로 욕하는 장면에 지쳤고, 진정으로 타이완에 좋았으며 오래 살아남을 일을 기억하고 싶다고 했다. 이 글은 그를 위해 지난 70년의 열한 가지 정책을 찾아보았다. 권위주의가 농지를 강제 징수한 토지개혁부터 2026년에도 여전히 논쟁 중인 전향적 인프라 건설까지다. 우리는 일부러 범람과 범록의 자로 재지 않고 네 자를 썼다. 민생(삶이 나아졌는가), 민주(누가 통치할지를 국민에게 돌려주었는가), 민권(소수자의 권리를 받아냈는가), 주권(타이완이 세계를 마주하고 설 수 있는가)이다. 이 네 자는 “누가 했는가”를 묻지 않는다. “이 섬에 사는 사람들에게 무엇을 남겼는가”만 묻는다. 결론은 조금 직관에 어긋난다. 진정으로 자신의 정치를 넘어 살아남은 정책은, 태어난 날 대개 가장 격렬하게 다투어진 바로 그 정책이었다.

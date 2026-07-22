@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:1be78dcd03c2e2ba'
 sourceBodyHash: 'sha256:f65ef91c0cd14c9b'
 translatedAt: '2026-06-16T16:38:41Z'
+image: '/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp'
+imageCredit: 'Bea Phi (Phibeatrice)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_at_the_2024_National_Book_Awards.jpg'
 ---
 
 ![2024년 11월 20일 뉴욕 미국 내셔널 북 어워드 시상식에서 양솽쯔가 어두운색 외투를 입고 트로피 옆에 차분한 표정으로 서 있다](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)

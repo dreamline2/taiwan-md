@@ -14,6 +14,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:f5aebb543340d143'
 sourceBodyHash: 'sha256:2f3617098391a7c1'
 translatedAt: '2026-06-16T17:04:12Z'
+image: '/article-images/people/monaneng-daren-township-2011.webp'
+imageCredit: 'Bernard Gagnon / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg'
 ---
 
 # モナネン：二つの盲目、一冊の詩集

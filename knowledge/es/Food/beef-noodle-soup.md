@@ -22,6 +22,8 @@ sourceCommitSha: '30569f742'
 sourceContentHash: 'sha256:2d9ee979d4f7479e'
 sourceBodyHash: 'sha256:fcb7ba6bb70c92d6'
 translatedAt: '2026-05-22T05:08:47+08:00'
+image: '/images/wiki/5be514264de6.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA 2.0'
 ---
 
 # Sopa de fideos con carne de res

@@ -24,6 +24,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:0b1a3c6909f4b2bd'
 sourceBodyHash: 'sha256:06471c32d8e8a9fd'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/people/mona-rudao-seediq-leaders-1931.webp'
+imageCredit: '海老原耕平《霧社討伐寫眞帖》（1931）'
+imageLicense: 'Public domain (PD-Japan-oldphoto)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Mona_Rudao_and_Seediq_tribal_leaders.jpg'
 ---
 
 # モーナ・ルダオ：20元硬貨に刻まれた抗日英雄と、中国も日本もなかった世界

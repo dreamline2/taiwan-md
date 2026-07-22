@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:de2ace5a9d645535'
 sourceBodyHash: 'sha256:0efd20b7166e441a'
 translatedAt: '2026-06-16T17:15:00Z'
+image: '/article-images/technology/chung-shyang-ii-uav-2007.webp'
+imageCredit: 'Kliu1'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chung_Shyang_II_UAV.jpg'
 ---
 
 > **30秒概要：** 台湾のドローン産業は、地政学によって駆動される急成長を迎えている。国防部は500億元（新台湾ドル）で約5万機の軍用ドローンを調達する計画を策定し、行政院の1.25兆特別予算においてもドローンは中核プロジェクトの一つである。雷虎科技は米国のブルーUAS認証を取得した初の台湾企業となった。農薬散布から戦場偵察まで、台湾のドローン産業は「受託製造」から「国防の自律」へと移行し、半導体に次ぐ次世代の戦略産業を目指している。

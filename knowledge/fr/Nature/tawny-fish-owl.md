@@ -26,6 +26,10 @@ sourceCommitSha: '3c781dba'
 sourceContentHash: 'sha256:f082c2bfc65ade6e'
 sourceBodyHash: 'sha256:2a057438270935d7'
 translatedAt: '2026-05-12T11:51:05+08:00'
+image: '/article-images/nature/tawny-fish-owl-gailhampshire-2009.webp'
+imageCredit: 'gailhampshire (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg'
 ---
 
 > **Vue d’ensemble en 30 secondes :** Le kétoupa à pattes jaunes (_Ketupa flavipes_) est le plus grand hibou de Taïwan ; son envergure approche la taille d’un adulte, ses doigts sont couverts de plumes jaunes et ses plantes portent des spicules charnus qui lui permettent de saisir des proies glissantes. Il n’a été signalé pour la première fois qu’en 1916 par le savant japonais Nagamichi Kuroda[^1], et le premier nid de reproduction précisément localisé à Taïwan ne date que de 1994[^2]. Le laboratoire de Sun Yuan-hsun, à l’Université nationale des sciences et technologies de Pingtung, le suit depuis trente ans : il a découvert qu’un couple de kétoupas à pattes jaunes a besoin de 6,2 kilomètres de rivière, entourés à 44,6 % de forêt naturelle, pour maintenir son territoire[^3]. En avril 2026, l’équipe de recherche a trouvé, dans la cavité d’un vieux Michelia formosana d’environ 1,5 mètre de diamètre à hauteur de poitrine au bord de la rivière Qijiawan, à Wuling, le site de nidification le plus élevé connu à Taïwan[^4]. Le parc national de Shei-Pa a lancé une diffusion en direct de l’élevage des jeunes, 24 heures sur 24, donnant pour la première fois à l’île l’occasion de voir collectivement l’un de ses rapaces les plus familièrement inconnus.

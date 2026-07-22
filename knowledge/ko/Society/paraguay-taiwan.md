@@ -30,6 +30,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:2883551ecafd55b9'
 sourceBodyHash: 'sha256:a482ae599cab265e'
 translatedAt: '2026-05-09T11:09:57+08:00'
+image: '/article-images/society/taiwan-paraguay-embassy-inauguration-2016.webp'
+imageCredit: '中華民國總統府'
+imageLicense: '政府公開資訊（OGDL — Open Government Data License）'
+imageSource: 'https://www.president.gov.tw/NEWS/20543'
 ---
 
 > **30초 개요:** 파라과이와 중화민국은 1957년에 외교 관계를 수립하였으며, 2026년 현재 69년째를 맞고 있다. 파라과이는 대만의 남미 유일 수교국이자 현 수교국 중 면적이 가장 나라이며, 인구는 중미 일부 수교국보다 적다. 2026년 5월 7일부터 10일까지 파라과이 대통령 산티아고 페냐(Santiago Peña)가 수행단을 이끌고 대만을 국빈 방문하였으며, 외교부는 라이칭더 대통령이 5월 8일 군사 의전, 국빈 만찬 및 채옥대훈장 수여로 맞이할 것이라고 발표했다. 이 수교 관계가 중국의 회유를 견뎌낼 수 있었던 것은 외교적 승인, 농축산물 시장, 대만-파라과이 과학기술대학, 스마트 과학기술단지 및 장기 기술 협력이 함께 작용한 결과이다.[^1][^2]

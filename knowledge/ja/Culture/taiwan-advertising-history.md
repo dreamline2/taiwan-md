@@ -15,6 +15,10 @@ sourceCommitSha: 'f7484ebea'
 sourceContentHash: 'sha256:faa63331d7b3eae1'
 sourceBodyHash: 'sha256:296b2f47a01a03eb'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/culture/tatung-cooker-100th-2019.webp'
+imageCredit: 'Solomon203'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tatung_100th_Anniversary_Cooker_20190706.jpg'
 ---
 
 > **30 秒概要：** 台湾の人々が共有する広告の記憶は、ほとんどが思わず続きを言いたくなる一言、あるいは何を売っていたかは覚えていないのに口ずさめる旋律です。「福氣啦！」、「有青才敢大聲」、「大同大同國貨好」。こうした「台湾全体が同時に覚える」力を支えていたのは、台視（1962）、中視（1969）、華視（1971）の三つのテレビ局しかなく、ほかに選択肢がなかった時代でした。一世代全体の注意が同じチャンネルに結びつけられていたのです。1993 年に《有線電視法》が施行され、2016 年にはデジタル広告費が初めてテレビを超えました。この二つの断絶を経て、国民的広告の時代は終わりました。

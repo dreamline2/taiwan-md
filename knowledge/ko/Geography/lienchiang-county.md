@@ -5,7 +5,21 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['롄장현', '마쭈', '난간', '베이간', '둥쥐', '둥인', '전지정무', '푸른 눈물', '친비', '푸저우어', '민둥어', '22현시 시리즈']
+tags:
+  [
+    '롄장현',
+    '마쭈',
+    '난간',
+    '베이간',
+    '둥쥐',
+    '둥인',
+    '전지정무',
+    '푸른 눈물',
+    '친비',
+    '푸저우어',
+    '민둥어',
+    '22현시 시리즈',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
@@ -15,6 +29,10 @@ sourceCommitSha: 'ecd9f7b06'
 sourceContentHash: 'sha256:bed7ca568c30fdad'
 sourceBodyHash: 'sha256:1637fa66ecda0e7f'
 translatedAt: '2026-05-18T05:08:08+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Matsu_Montage.png/560px-Matsu_Montage.png
+imageCredit: Sleepingstar
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Matsu_Montage.png
 ---
 
 # 롄장현: 타이완에서 가장 먼 현, 냉전에 가장 가까운 현
@@ -153,7 +171,7 @@ Taiwan Insight의 한 마쭈어 연구 영문 글은 직설적으로 쓴다. “
 
 **푸른 눈물의 이야기**는 과학 현상이 관광 엔진으로 변한 사례다.
 
-푸른 눈물의 학명은 *Noctiluca scintillans*(야광충, 야광조)로, 와편모조류에 속하는 단세포 생물이다. 해마다 민장 홍수기가 육원 무기 영양염을 해역으로 들여오면 규조류가 대량 번식하고, 야광충은 규조류를 먹이로 폭발적으로 증식한다. 파도, 노, 인간의 발걸음이 자극할 때 야광충은 짧은 푸른 생물 냉광을 내며, 한 번의 발광은 약 80밀리초 지속된다[^30]. 타이완해양대학의 연구는 수온이 섭씨 27도보다 낮은 것이 폭발의 핵심이라는 점을 발견했다. 폭발 계절은 보통 4월에서 6월이며, 일부 해에는 3월이나 9월까지 이어진다.
+푸른 눈물의 학명은 _Noctiluca scintillans_(야광충, 야광조)로, 와편모조류에 속하는 단세포 생물이다. 해마다 민장 홍수기가 육원 무기 영양염을 해역으로 들여오면 규조류가 대량 번식하고, 야광충은 규조류를 먹이로 폭발적으로 증식한다. 파도, 노, 인간의 발걸음이 자극할 때 야광충은 짧은 푸른 생물 냉광을 내며, 한 번의 발광은 약 80밀리초 지속된다[^30]. 타이완해양대학의 연구는 수온이 섭씨 27도보다 낮은 것이 폭발의 핵심이라는 점을 발견했다. 폭발 계절은 보통 4월에서 6월이며, 일부 해에는 3월이나 9월까지 이어진다.
 
 ![마쭈열도의 푸른 눈물 야경, 2014년 5월. Noctiluca scintillans가 자극을 받을 때 내는 푸른 생물 냉광은 한 번에 약 80밀리초 지속된다. e_ella 촬영.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Blue_Tears_in_the_Matsu_Islands.jpg/1280px-Blue_Tears_in_the_Matsu_Islands.jpg)
 
@@ -242,7 +260,7 @@ Hero 이미지(frontmatter)는 Sleepingstar가 제작한 “[Matsu Montage](http
 
 [^2]: [롄장현 역사 연혁 — 위키백과](https://zh.wikipedia.org/zh-tw/%E9%80%A3%E6%B1%9F%E7%B8%A3) — 1949년 8월 공산군의 대륙 롄장현성 점령, 1950년 12월 15일 마쭈행정공서 설치, 1953년 8월 난간에서 롄장현 정부 재설치, 1959년 톄반촌 이전, 1978년 현 위치 제서우촌 이전에 이르는 현정부 이전사.
 
-[^3]: [푸젠성 정부 — 위키백과](https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)) — 1998년 푸젠성 정부의 허급화, 2019년 공식 임무 해제, 업무를 행정원 진마연합복무센터가 이어받은 성정부 변천사.
+[^3]: [푸젠성 정부 — 위키백과](<https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)>) — 1998년 푸젠성 정부의 허급화, 2019년 공식 임무 해제, 업무를 행정원 진마연합복무센터가 이어받은 성정부 변천사.
 
 [^4]: [량다오인 고고학 — 공시뉴스](https://news.pts.org.tw/article/245304) — 2012년 량다오에서 완전한 인골이 출토되어 “량다오인 1호”, “량다오인 2호”로 명명된 사실, 미토콘드리아 DNA 대조에서 타이야족·아메이족과 공통 모계 혈연이 확인되고 오스트로네시아어족의 가장 이른 조상 가운데 하나로 추론된 고고학 발견 보도.
 
@@ -296,7 +314,7 @@ Hero 이미지(frontmatter)는 Sleepingstar가 제작한 “[Matsu Montage](http
 
 [^29]: [마쭈징 천후궁 영혈 전설 — Lord Cat 문사 기록](https://lordcat.tw/archives/89439) — 마쭈징 천후궁(마강 천후궁) 정전 지하 영혈 전설 원문 기록: “민국 52년, 국군 공병이 공경심 없이 임의로 묘석 위에 바닥 벽돌을 덮었는데, 다음 날 묘석 위의 바닥 벽돌이 모두 산산이 부서진 것을 발견했고, 나머지 지면은 처음처럼 온전했다”는 현지 전설 버전. 난간향공소의 “의관총” 버전과 나란히 제시된다.
 
-[^30]: [푸른 눈물의 과학 원리 — 타이완해양대학](https://mprp.ntou.edu.tw/p/404-1017-68517.php) — 타이완해양대학 푸른 눈물 연구계획 공식 홈페이지: 학명 *Noctiluca scintillans*(야광충, 야광조), 와편모조류 단세포 생물, 자극을 받으면 푸른 생물 냉광을 내며 한 번에 약 80밀리초 지속, 민장 홍수기가 무기 영양염을 들여와 규조류를 대량 번식시키고, 수온이 섭씨 27도보다 낮은 것이 핵심이라는 과학적 메커니즘. 연구는 《Frontiers in Marine Science》에 발표되었다.
+[^30]: [푸른 눈물의 과학 원리 — 타이완해양대학](https://mprp.ntou.edu.tw/p/404-1017-68517.php) — 타이완해양대학 푸른 눈물 연구계획 공식 홈페이지: 학명 _Noctiluca scintillans_(야광충, 야광조), 와편모조류 단세포 생물, 자극을 받으면 푸른 생물 냉광을 내며 한 번에 약 80밀리초 지속, 민장 홍수기가 무기 영양염을 들여와 규조류를 대량 번식시키고, 수온이 섭씨 27도보다 낮은 것이 핵심이라는 과학적 메커니즘. 연구는 《Frontiers in Marine Science》에 발표되었다.
 
 [^31]: [마쭈 관광객 통계 — 마쭈국가풍경구관리처](https://www.matsu-nsa.gov.tw/) — 마쭈 연간 관광객 통계: 2019년 21만 260명, 2020년 22만 5,517명, 2021년 13만 8,181명(코로나), 2022년 22만 4,719명, 2023년 22만 4,317명의 공식 통계. 푸른 눈물이 성수기의 가장 중요한 동력이다.
 

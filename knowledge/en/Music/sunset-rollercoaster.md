@@ -24,6 +24,10 @@ sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:a199eb8f6aa7f0fc'
 sourceBodyHash: 'sha256:2680b892b33ad9fa'
 translatedAt: '2026-05-28T05:08:33+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%EF%BC%81_%281%29.jpg/1280px-%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%EF%BC%81_%281%29.jpg'
+imageCredit: 'Puramyun31, Wikimedia Commons'
+imageLicense: 'CC BY 2.5'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%EF%BC%81_(1).jpg'
 ---
 
 # Sunset Rollercoaster: From a Photo Booth Background Shot to Coachella, 14 Years of Singing Taipei Sunsets in English

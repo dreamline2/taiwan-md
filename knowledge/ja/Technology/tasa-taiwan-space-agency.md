@@ -15,6 +15,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:a54685fba76c9f68'
 sourceBodyHash: 'sha256:5ca31c80049b9985'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/formosat8-tasa-banner.webp'
+imageCredit: '國家太空中心 TASA（官方釋出，fair use editorial commentary）'
+imageLicense: 'Fair use editorial commentary（©TASA）'
+imageSource: 'https://www.tasa.org.tw/zh-TW/missions/detail/FORMOSAT-8'
 ---
 
 2016年、メイデイ（五月天）「頑固」のMVには、荒れ地でロケットを造る中年男性が登場します。彼は白昼夢を見る変人のように扱われ、最後には自作ロケットを背負って空へ飛び立ちます。多くの台湾人が初めて呉宗信（ご・そうしん／ウー・ゾンシン）を知ったのは、どの国家機関を通じてもなく、このMVを通じてでした。つまり、あの「ロケットおじさん」です[^1]。

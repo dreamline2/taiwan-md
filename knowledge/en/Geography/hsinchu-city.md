@@ -1,31 +1,53 @@
 ---
-title: "Hsinchu City: The Bamboo Fortress Planted in 1733, the Cradle That Grew TSMC in 1980"
+title: 'Hsinchu City: The Bamboo Fortress Planted in 1733, the Cradle That Grew TSMC in 1980'
 description: "In 1733, the 11th year of the Yongzheng reign, Magistrate Xu Zhimin of the Tamsui Subprefecture planted thorny bamboo all around the settlement, enclosing a circular earthen wall 1,408 meters in circumference. In 1829, the brick-and-stone city was completed; the East Gate, Yingximen (Gate of Greeting the Dawn), still stands beside its moat today. 247 years later, on December 15, 1980, Chiang Ching-kuo cut the red ribbon for Taiwan's first science park, just 5 kilometers from Yingximen. Between 1953 and 1974, 148 members of the Black Bat Squadron took off from this Wind City to conduct reconnaissance over mainland China and never came back. A provincial city of 450,000 people that held the Cold War front line, the earliest Han-built city in northern Taiwan, two top universities, and the starting point of 90% of the world's advanced semiconductor chips. The nickname 'Wind City' sounds literary, but every industry in this city is connected to the wind."
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Hsinchu", "Hsinchu City", "Northern Taiwan", "Wind City", "Zhujian City", "Yingximen", "Black Bat Squadron", "Hsinchu Science Park", "TSMC", "City God Temple", "Rice Noodles", "Meatballs", "Glass Craft", "National Tsing Hua University", "National Yang Ming Chiao Tung University", "22 Counties and Cities Series"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Hsinchu',
+    'Hsinchu City',
+    'Northern Taiwan',
+    'Wind City',
+    'Zhujian City',
+    'Yingximen',
+    'Black Bat Squadron',
+    'Hsinchu Science Park',
+    'TSMC',
+    'City God Temple',
+    'Rice Noodles',
+    'Meatballs',
+    'Glass Craft',
+    'National Tsing Hua University',
+    'National Yang Ming Chiao Tung University',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 17
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/新竹市.md"
-sourceCommitSha: "85634f83b"
-sourceContentHash: "sha256:7e6b8ee6fb86d020"
-sourceBodyHash: "sha256:be043e8d5036e0e2"
-translatedAt: "2026-05-19T05:08:06+08:00"
+translatedFrom: 'Geography/新竹市.md'
+sourceCommitSha: '85634f83b'
+sourceContentHash: 'sha256:7e6b8ee6fb86d020'
+sourceBodyHash: 'sha256:be043e8d5036e0e2'
+translatedAt: '2026-05-19T05:08:06+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hsinchu_East_Gate_%280421%29.JPG/1280px-Hsinchu_East_Gate_%280421%29.JPG
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate_(0421).JPG
 ---
 
 # Hsinchu City: The Bamboo Fortress Planted in 1733, the Cradle That Grew TSMC in 1980
 
-> **30-second overview:** In 1733, the 11th year of the Yongzheng reign, Magistrate Xu Zhimin of the Tamsui Subprefecture planted thorny bamboo all around Zhujian, enclosing a circular earthen wall 440 *zhang* in circumference (approximately 1,408 meters)[^1]. Construction of the brick-and-stone city began in 1828 and was completed in the ninth year of the Daoguang reign (1829); the East Gate, Yingximen, still stands beside its moat today[^2]. 247 years later, on December 15, 1980, Chiang Ching-kuo cut the red ribbon for Taiwan's first science park, just 5 kilometers from Yingximen[^3]. On June 15, 1953, the Black Bat Squadron relocated to Hsinchu Air Force Base, and by the end of December 1974, when reconnaissance missions ceased, the squadron had flown 838 special missions; 10 aircraft were shot down or crashed in accidents, and 148 crew members were killed in action—two-thirds of the entire unit[^4]. In 1748, the 13th year of the Qianlong reign, the City God Temple was completed. In 1890, the Guangxu Emperor bestowed the imperial plaque "Jinmen Baozhang" (Golden Gate Protection) and elevated the Hsinchu City God to the rank of "Weiling Gong, Metropolitan City God of Hsinchu"—a rank equivalent to a provincial governor—making it the only temple in Taiwan to receive the Qing court's official "Metropolitan City God" designation[^5]. A provincial city of 450,000 people that held the Cold War front line, the earliest Han-built city in northern Taiwan, two top universities, and a semiconductor cluster with NT$1.70 trillion in revenue in 2025[^6]. The nickname "Wind City" sounds literary, but every industry in this city is connected to the wind.
+> **30-second overview:** In 1733, the 11th year of the Yongzheng reign, Magistrate Xu Zhimin of the Tamsui Subprefecture planted thorny bamboo all around Zhujian, enclosing a circular earthen wall 440 _zhang_ in circumference (approximately 1,408 meters)[^1]. Construction of the brick-and-stone city began in 1828 and was completed in the ninth year of the Daoguang reign (1829); the East Gate, Yingximen, still stands beside its moat today[^2]. 247 years later, on December 15, 1980, Chiang Ching-kuo cut the red ribbon for Taiwan's first science park, just 5 kilometers from Yingximen[^3]. On June 15, 1953, the Black Bat Squadron relocated to Hsinchu Air Force Base, and by the end of December 1974, when reconnaissance missions ceased, the squadron had flown 838 special missions; 10 aircraft were shot down or crashed in accidents, and 148 crew members were killed in action—two-thirds of the entire unit[^4]. In 1748, the 13th year of the Qianlong reign, the City God Temple was completed. In 1890, the Guangxu Emperor bestowed the imperial plaque "Jinmen Baozhang" (Golden Gate Protection) and elevated the Hsinchu City God to the rank of "Weiling Gong, Metropolitan City God of Hsinchu"—a rank equivalent to a provincial governor—making it the only temple in Taiwan to receive the Qing court's official "Metropolitan City God" designation[^5]. A provincial city of 450,000 people that held the Cold War front line, the earliest Han-built city in northern Taiwan, two top universities, and a semiconductor cluster with NT$1.70 trillion in revenue in 2025[^6]. The nickname "Wind City" sounds literary, but every industry in this city is connected to the wind.
 
 ## 1733: The Tamsui Magistrate Starts Planting Bamboo
 
 The verbatim entry from Wikipedia's Zhujian City article reads:
 
-> **✦** "In the 11th year of the Yongzheng reign (1733), when the Tamsui Coastal Defense Office was officially moved from Changhua City to Zhujian, Magistrate Xu Zhimin planted thorny bamboo all around the perimeter. The entire area was circular, with a circumference of 440 *zhang* (approximately 1,408 meters), and had four gates—east, west, south, and north—marking the beginning of Zhujian's city-building."[^1]
+> **✦** "In the 11th year of the Yongzheng reign (1733), when the Tamsui Coastal Defense Office was officially moved from Changhua City to Zhujian, Magistrate Xu Zhimin planted thorny bamboo all around the perimeter. The entire area was circular, with a circumference of 440 _zhang_ (approximately 1,408 meters), and had four gates—east, west, south, and north—marking the beginning of Zhujian's city-building."[^1]
 
 Pay attention to the wording: **planted thorny bamboo all around**.
 
@@ -33,10 +55,10 @@ The material was thorny bamboo—not brick, not stone, not rammed earth. The fir
 
 The Tamsui Subprefecture was not originally here. The subprefecture was established in 1723, the first year of the Yongzheng reign, carved out of Zhulu County, and its initial seat was in Shalu, Changhua[^7]. In 1731, the ninth year of Yongzheng, the territory from north of the Dajia River to Keelung was formally designated as its jurisdiction, and in 1733 the Tamsui magistrate moved the subprefecture seat to Zhujian[^7]. In other words, two things happened in the same year: the administrative center of northern Taiwan was moved to this small city that had just sprouted its ring of thorny bamboo, and the thorny bamboo was planted. **The relocation of the seat and the founding of the city happened in the same year.** From that day on, Zhujian remained the administrative center of northern Taiwan for 150 years.
 
-Ninety-six years later, in 1827, the seventh year of the Daoguang reign, the metropolitan graduate Zheng Yongxi and others petitioned the Governor-General of Fujian and Zhejiang, Sun Erzhun, to rebuild the city in brick and stone. Approval was granted, construction began in 1828, and the brick-and-stone walls were completed in the autumn of 1829, with a circumference of 860 *zhang* (approximately 2,752 meters) and a wall height of 1 *zhang* 5 *chi* (approximately 4.8 meters)[^2]. The four gates were named "Yingxi" (Greeting the Dawn), "Yishuang" (Drawing in the Cool Breeze), "Gexun" (Singing the Warm Wind), and "Gongchen" (Saluting the North Star). The entire city cost approximately 147,498 taels of silver.
+Ninety-six years later, in 1827, the seventh year of the Daoguang reign, the metropolitan graduate Zheng Yongxi and others petitioned the Governor-General of Fujian and Zhejiang, Sun Erzhun, to rebuild the city in brick and stone. Approval was granted, construction began in 1828, and the brick-and-stone walls were completed in the autumn of 1829, with a circumference of 860 _zhang_ (approximately 2,752 meters) and a wall height of 1 _zhang_ 5 _chi_ (approximately 4.8 meters)[^2]. The four gates were named "Yingxi" (Greeting the Dawn), "Yishuang" (Drawing in the Cool Breeze), "Gexun" (Singing the Warm Wind), and "Gongchen" (Saluting the North Star). The entire city cost approximately 147,498 taels of silver.
 
 ![Yingximen, the East Gate of Zhujian City. The gate tower was built in 1829 when the Daoguang-era brick-and-stone city was completed. In 1902, the Japanese demolished the other three gates and the city walls during urban street realignment, leaving only this East Gate. It is now a National Historic Monument.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hsinchu_East_Gate_%280421%29.JPG/1280px-Hsinchu_East_Gate_%280421%29.JPG)
-_Yingximen, the East Gate of Hsinchu. Photo: Wikimedia Commons contributor, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate_(0421).JPG)._
+_Yingximen, the East Gate of Hsinchu. Photo: Wikimedia Commons contributor, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate_(0421).JPG).\_
 
 In 1902, the 35th year of the Meiji era, the Japanese carried out urban street realignment in Hsinchu, demolishing the brick-and-stone walls and the other three gate towers, "leaving only the East Gate, Yingximen"[^2]. This remaining East Gate has stood for 197 years to the present day and was designated a National Historic Monument in 1985. During the 1999 beautification of the East Gate Plaza, stone bridge piers from the underground moat structure were discovered—the only surviving example of an ancient moat constructed using traditional methods in all of Taiwan.
 
@@ -80,7 +102,7 @@ But this history was sealed in Hsinchu for 35 years before it began to be told. 
 
 The third chapter of Hsinchu's history begins with a ribbon-cutting.
 
-The Hsinchu Science Park Administration's *20th Anniversary* special issue states verbatim: "**On December 15, 1969 (Republic of China calendar), the Science-Based Industrial Park was formally unveiled, with President Chiang Ching-kuo presiding in person.**"[^3]
+The Hsinchu Science Park Administration's _20th Anniversary_ special issue states verbatim: "**On December 15, 1969 (Republic of China calendar), the Science-Based Industrial Park was formally unveiled, with President Chiang Ching-kuo presiding in person.**"[^3]
 
 ROC year 69 = 1980. The ribbon Chiang Ching-kuo cut that day was for Taiwan's first science-based industrial park.
 
@@ -109,7 +131,7 @@ In the fourth quarter of 2025, TSMC's 2-nanometer process (N2) began mass produc
 
 But the city's earliest specialty was not chips—it was rice noodles.
 
-The name "Jiufeng" (Nine Descending Winds) first appeared in the 33rd year of the Kangxi reign (1694), in the *Gazetteer of Taiwan Prefecture · Treatise on Local Customs*: "In September the north wind is fierce, sometimes lasting for consecutive months; it is commonly called the Jiufeng wind"[^16]. **Hsinchu is approximately 150 kilometers from the narrowest point of the Taiwan Strait (Quanzhou, Fujian, on the opposite shore).** When the northeast monsoon crosses the Central Mountain Range from the Pacific Ocean and enters the Hsinchu Plain, it encounters a topographic trap.
+The name "Jiufeng" (Nine Descending Winds) first appeared in the 33rd year of the Kangxi reign (1694), in the _Gazetteer of Taiwan Prefecture · Treatise on Local Customs_: "In September the north wind is fierce, sometimes lasting for consecutive months; it is commonly called the Jiufeng wind"[^16]. **Hsinchu is approximately 150 kilometers from the narrowest point of the Taiwan Strait (Quanzhou, Fujian, on the opposite shore).** When the northeast monsoon crosses the Central Mountain Range from the Pacific Ocean and enters the Hsinchu Plain, it encounters a topographic trap.
 
 Story Studio states verbatim: "**Because Hsinchu is a 'dustpan mouth' opening in a trumpet shape from southeast to northwest, when the monsoon blows toward Hsinchu, the terrain restricts it, making it difficult for the wind to escape once it enters.**"[^16]
 
@@ -196,7 +218,7 @@ Next time you visit Hsinchu, don't just look at the chip fabs inside the park. T
 
 This article uses 3 Wikimedia Commons CC BY-SA-licensed images:
 
-- **Hero (frontmatter + §1733):** [Hsinchu East Gate (0421).JPG](https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate_(0421).JPG) (CC BY-SA 4.0) — Yingximen (East Gate), the gate tower built in 1829 when the Daoguang-era brick-and-stone city was completed; the only surviving gate after the Japanese urban realignment of 1902.
+- **Hero (frontmatter + §1733):** [Hsinchu East Gate (0421).JPG](<https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate_(0421).JPG>) (CC BY-SA 4.0) — Yingximen (East Gate), the gate tower built in 1829 when the Daoguang-era brick-and-stone city was completed; the only surviving gate after the Japanese urban realignment of 1902.
 - **Scene §1980 Science City Triangle:** [Tsmc factory hsinchu.JPG](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG) (CC BY-SA) — TSMC Hsinchu wafer fab, binding this park into the global semiconductor supply chain.
 - **Scene §City God Temple 1748:** [Hsinchu City God Temple 30.JPG](https://commons.wikimedia.org/wiki/File:Hsinchu_City_God_Temple_30.JPG) (CC BY-SA) — The plaza in front of the Hsinchu Metropolitan City God Temple, the only temple in Taiwan to receive the Qing court's official "Metropolitan City God" designation.
 
@@ -206,9 +228,9 @@ For supplementary images of Hsinchu Science Park aerial views, the Black Bat Squ
 
 ## References
 
-[^1]: [Zhujian City — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%AB%B9%E5%A1%B9%E5%9F%8E) — "In the 11th year of the Yongzheng reign (1733), when the Tamsui Coastal Defense Office was officially moved from Changhua City to Zhujian, Magistrate Xu Zhimin planted thorny bamboo all around the perimeter. The entire area was circular, with a circumference of 440 *zhang* (approximately 1,408 meters), and had four gates—east, west, south, and north—marking the beginning of Zhujian's city-building." Original verbatim source, including the city-building process, the four gate names (Yingxi, Yishuang, Gexun, Gongchen), and the complete history of the 1902 Japanese demolition that left only Yingximen.
+[^1]: [Zhujian City — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%AB%B9%E5%A1%B9%E5%9F%8E) — "In the 11th year of the Yongzheng reign (1733), when the Tamsui Coastal Defense Office was officially moved from Changhua City to Zhujian, Magistrate Xu Zhimin planted thorny bamboo all around the perimeter. The entire area was circular, with a circumference of 440 _zhang_ (approximately 1,408 meters), and had four gates—east, west, south, and north—marking the beginning of Zhujian's city-building." Original verbatim source, including the city-building process, the four gate names (Yingxi, Yishuang, Gexun, Gongchen), and the complete history of the 1902 Japanese demolition that left only Yingximen.
 
-[^2]: [Bureau of Cultural Heritage, Ministry of Culture: Zhujian City Yingximen](https://nchdb.boch.gov.tw/assets/overview/monument/19850819000054) — Official cultural heritage record: Zheng Yongxi's petition in 1827 (Daoguang 7), construction began in 1828, completed in 1829, circumference 860 *zhang* (approximately 2,752 meters), wall height 1 *zhang* 5 *chi*, total cost approximately 147,498 taels of silver, designated a National Historic Monument in 1985.
+[^2]: [Bureau of Cultural Heritage, Ministry of Culture: Zhujian City Yingximen](https://nchdb.boch.gov.tw/assets/overview/monument/19850819000054) — Official cultural heritage record: Zheng Yongxi's petition in 1827 (Daoguang 7), construction began in 1828, completed in 1829, circumference 860 _zhang_ (approximately 2,752 meters), wall height 1 _zhang_ 5 _chi_, total cost approximately 147,498 taels of silver, designated a National Historic Monument in 1985.
 
 [^3]: [Science-Based Industrial Park 20th Anniversary Special Issue — Hsinchu Science Park Administration](https://www.sipa.gov.tw/home.jsp?serno=201002250007&mserno=201001210118&menudata=ChineseMenu&contlink=content/20years_10.jsp) — "On December 15, 1969 (ROC calendar), the Science-Based Industrial Park was formally unveiled, with President Chiang Ching-kuo presiding in person" + "Given that the area already had National Tsing Hua University (specializing in atomic science), National Chiao Tung University (specializing in electronic science), and the ITRI Union Industrial Research Institute (specializing in chemical engineering), it was deemed feasible to establish a science research park" + Sun Yun-suan as quoted: "You should thank Minister Chiang (Yen-shu) ... Chiao Tung won't be moving ..." Three official verbatim sources.
 
@@ -236,7 +258,7 @@ For supplementary images of Hsinchu Science Park aerial views, the Black Bat Squ
 
 [^15]: [TSMC 2nm N2 Process Launches — Economic Daily News 2025 Report](https://money.udn.com/) — Industry report: mass production began at the Baoshan plant (Fab 20) in Hsinchu in Q4 2025; monthly capacity target of 60,000 to 65,000 wafers by the end of 2026.
 
-[^16]: [Hsinchu's Jiufeng Wind — Story Studio](https://storystudio.tw/article/gushi/ten-questions-of-hsinchu/) — "The Jiufeng wind is the northeast monsoon crossing the mountains, producing fierce winds ... third is Hsinchu (25–35 knots/second or greater winds)" + "Because Hsinchu is a 'dustpan mouth' opening in a trumpet shape from southeast to northwest, when the monsoon blows toward Hsinchu, the terrain restricts it, making it difficult for the wind to escape once it enters." Two verbatim sources on Wind City geography, including the Jiufeng wind典故 from the *Gazetteer of Taiwan Prefecture · Treatise on Local Customs*, 33rd year of the Kangxi reign (1694).
+[^16]: [Hsinchu's Jiufeng Wind — Story Studio](https://storystudio.tw/article/gushi/ten-questions-of-hsinchu/) — "The Jiufeng wind is the northeast monsoon crossing the mountains, producing fierce winds ... third is Hsinchu (25–35 knots/second or greater winds)" + "Because Hsinchu is a 'dustpan mouth' opening in a trumpet shape from southeast to northwest, when the monsoon blows toward Hsinchu, the terrain restricts it, making it difficult for the wind to escape once it enters." Two verbatim sources on Wind City geography, including the Jiufeng wind典故 from the _Gazetteer of Taiwan Prefecture · Treatise on Local Customs_, 33rd year of the Kangxi reign (1694).
 
 [^17]: [Hsinchu Rice Noodles — National Cultural Memory Bank](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=147076) — "The Hsinchu City Gazetteer records: Hsinchu rice noodles were introduced from Fujian. Many elder rice noodles artisans consistently state that their ancestors came from Huian County, Fujian Province, and were already in the rice noodle business on the mainland" + "The techniques for making rice noodles across the province were originally much the same, but the reason Hsinchu rice noodles came to dominate the market was the wind" + "The founding ancestors of Lao Guo Rice Noodles, the Guo Qian brothers ... introduced the technology from Huian, Fujian, to Taiwan in 1858." Three official verbatim sources, including the geographic distribution of over 100 rice noodle factories in Nanshi Li.
 
@@ -250,4 +272,4 @@ For supplementary images of Hsinchu Science Park aerial views, the Black Bat Squ
 
 [^22]: [National Yang Ming Chiao Tung University Merger History — National Yang Ming Chiao Tung University Official Website](https://www.nycu.edu.tw/) — National Chiao Tung University and National Yang Ming University formally merged to become "National Yang Ming Chiao Tung University" on February 1, 2021; National Chiao Tung University was re-established in Taiwan in 1958 on Bo'ai Street, Guangfu Road, Hsinchu; National Tsing Hua University was re-established in Taiwan in 1956 in the Chihutsi area of Hsinchu's East District. Complete higher education history.
 
-[^23]: [Longen Irrigation Canal (Hsinchu) — Wikipedia](https://zh.wikipedia.org/wiki/%E9%9A%86%E6%81%A9%E5%9C%B3_(%E6%96%B0%E7%AB%B9)) — "In the 54th year of the Kangxi reign (1715), Wang Shijie and his nephew excavated a canal drawing water from the Jiulinglin River to reclaim the Nanshi and Beishi wastelands. The initial irrigation area was 114 *jia*, and through subsequent expansion, by the third year of the Yongzheng reign (1725) the irrigation area had reached 400 *jia*." Original verbatim source; Longen Canal, along with Chiayi's Daojiang Canal and Zhanghua's Eight-Bao Canal, is known as one of the "Three Great Ancient Canals of Taiwan."
+[^23]: [Longen Irrigation Canal (Hsinchu) — Wikipedia](<https://zh.wikipedia.org/wiki/%E9%9A%86%E6%81%A9%E5%9C%B3_(%E6%96%B0%E7%AB%B9)>) — "In the 54th year of the Kangxi reign (1715), Wang Shijie and his nephew excavated a canal drawing water from the Jiulinglin River to reclaim the Nanshi and Beishi wastelands. The initial irrigation area was 114 _jia_, and through subsequent expansion, by the third year of the Yongzheng reign (1725) the irrigation area had reached 400 _jia_." Original verbatim source; Longen Canal, along with Chiayi's Daojiang Canal and Zhanghua's Eight-Bao Canal, is known as one of the "Three Great Ancient Canals of Taiwan."

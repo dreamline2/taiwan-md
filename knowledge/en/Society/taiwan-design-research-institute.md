@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc9a16af37eefe47'
 sourceBodyHash: 'sha256:f7df18837078b48f'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/society/tdri-songshan-entrance-2022.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Entrance_2,_Songshan_Cultural_and_Creative_Park_20220423.jpg'
 ---
 
 Xizhi’s health‑center waiting area now looks hardly like a health center. The fluorescent lights, plastic chairs, and tightly packed medication windows have disappeared, replaced by a set of modular “building‑block” installations—one each for “new‑town,” “new‑city,” and “rural” typologies. New Taipei City Health Bureau spent thirteen months, starting from pilot sites in Xizhi and Yingge[^1]. You probably didn’t notice it. When you go for a vaccine, blood‑pressure check, or to pick up chronic‑illness medication, the flow is a bit smoother, the wait less irritating, and then you leave.

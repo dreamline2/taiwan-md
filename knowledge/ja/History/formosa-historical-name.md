@@ -24,6 +24,7 @@ sourceCommitSha: '01d9d0e73'
 sourceContentHash: 'sha256:7935e86b210536e5'
 sourceBodyHash: 'sha256:dd15e8c65b7a98f1'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: ''
 ---
 
 # フォルモサ：西洋人はいかにして、すでに人が住んでいた島を「発見」したのか

@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d4d60849e9ff119e'
 sourceBodyHash: 'sha256:7464b15b7c6d840e'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/geography/taiwan-island-nasa-mosaic.webp'
+imageCredit: 'NASA'
+imageLicense: 'Public domain（NASA）'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Main_Island_Mosaic_NASA_2020.jpg'
 ---
 
 # Reading Taiwan's 22 Counties and Cities Through Data: the Most Crowded and the Most Empty Differ by 151 Times, the Oldest and Youngest by a Generation

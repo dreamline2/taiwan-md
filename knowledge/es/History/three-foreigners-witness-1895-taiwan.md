@@ -18,6 +18,7 @@ sourceCommitSha: '01d9d0e7'
 sourceContentHash: 'sha256:dd0456fc58fe6d55'
 sourceBodyHash: 'sha256:f4c2468d7055a6c1'
 translatedAt: 2026-05-01T22:19:10+08:00
+image: ''
 ---
 
 # Tres extranjeros miran el Yiwei: el álbum del fotógrafo, las notas del periodista, el diario del pastor

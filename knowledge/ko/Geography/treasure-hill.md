@@ -34,6 +34,10 @@ sourceCommitSha: 31a05c44
 sourceContentHash: 'sha256:e34125e4b520b62c'
 sourceBodyHash: 'sha256:6490dd989b255fd9'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/geography/treasure-hill-2018-aerial.webp'
+imageCredit: '臺北市政府文化局'
+imageLicense: 'Attribution (政府開放授權)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Treasure_Hill_20181005.jpg'
 ---
 
 # 바오장옌: 30년 동안 철거 대상이었던 무허가 취락이 마침내 타이베이에서 가장 멋진 예술촌이 되다

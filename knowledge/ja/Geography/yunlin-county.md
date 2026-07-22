@@ -1,20 +1,40 @@
 ---
-title: "雲林県：宜蘭が選ばなかったものを、雲林は三十年分の肺と引き換えに受け入れました"
-description: "1987 年 12 月 13 日、陳定南は華視のスタジオ内で第六ナフサ分解工場を宜蘭から退け、1991 年 6 月 26 日、行政院は第六ナフサ分解工場を雲林・麥寮沖へ移すことを認可し、1994 年 7 月に正式着工、1998 年に第 1 期が稼働しました。現在までに 2,255 ヘクタールが埋め立てられています。2011 年、台湾大学公衆衛生学院の詹長権チームは、第六ナフサ分解工場周辺 10 キロの住民のがん発生率が台湾全体の 1.29 倍であることを発見しました。しかし同じ県内には、1694 年、清の康熙 33 年から 332 年にわたり媽祖を祀ってきた北港朝天宮があり、1953 年 1 月 28 日には米国援助の鋼材が 1,939 メートルの西螺大橋を支えました。一つの県が、台湾最古級の媽祖廟、最重要の米どころ、最大の石油化学王国であるのです。"
+title: '雲林県：宜蘭が選ばなかったものを、雲林は三十年分の肺と引き換えに受け入れました'
+description: '1987 年 12 月 13 日、陳定南は華視のスタジオ内で第六ナフサ分解工場を宜蘭から退け、1991 年 6 月 26 日、行政院は第六ナフサ分解工場を雲林・麥寮沖へ移すことを認可し、1994 年 7 月に正式着工、1998 年に第 1 期が稼働しました。現在までに 2,255 ヘクタールが埋め立てられています。2011 年、台湾大学公衆衛生学院の詹長権チームは、第六ナフサ分解工場周辺 10 キロの住民のがん発生率が台湾全体の 1.29 倍であることを発見しました。しかし同じ県内には、1694 年、清の康熙 33 年から 332 年にわたり媽祖を祀ってきた北港朝天宮があり、1953 年 1 月 28 日には米国援助の鋼材が 1,939 メートルの西螺大橋を支えました。一つの県が、台湾最古級の媽祖廟、最重要の米どころ、最大の石油化学王国であるのです。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["雲林", "雲林県", "第六ナフサ分解工場", "麥寮", "北港朝天宮", "媽祖", "西螺大橋", "西螺米", "虎尾糖廠", "古坑コーヒー", "陳定南", "王永慶", "濁水溪", "22県市シリーズ"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '雲林',
+    '雲林県',
+    '第六ナフサ分解工場',
+    '麥寮',
+    '北港朝天宮',
+    '媽祖',
+    '西螺大橋',
+    '西螺米',
+    '虎尾糖廠',
+    '古坑コーヒー',
+    '陳定南',
+    '王永慶',
+    '濁水溪',
+    '22県市シリーズ',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/雲林縣.md"
-sourceCommitSha: "036da279d"
-sourceContentHash: "sha256:68dcc74d52d8c737"
-sourceBodyHash: "sha256:24b0d8d16f592539"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'Geography/雲林縣.md'
+sourceCommitSha: '036da279d'
+sourceContentHash: 'sha256:68dcc74d52d8c737'
+sourceBodyHash: 'sha256:24b0d8d16f592539'
+translatedAt: '2026-05-18T05:08:08+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg
+imageCredit: Mk2010
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg
 ---
 
 # 雲林県：宜蘭が選ばなかったものを、雲林は三十年分の肺と引き換えに受け入れました
@@ -48,7 +68,7 @@ translatedAt: "2026-05-18T05:08:08+08:00"
 冬の西部沿岸については特に述べる必要があります。毎年 11 月から翌年 3 月にかけて、北東季節風が台湾海峡を越えて吹き、雲林西部では典型的な「濃霧と強風」が交互に現れる天候になります。麥寮、台西、口湖一帯では視程が 500 メートル以下に下がることがしばしばあり、これは第六ナフサ分解工場の排ガスが最も拡散しにくい季節であり、肺への負担が最も重い季節でもあります[^11]。降雨量の分布を見ると、西部沿岸の年間降雨量は約 1,200 ミリと少なめで、東部丘陵では 2,500 ミリ以上に達します。この差が、雲林の農業構造を東西でまったく異なるものにしています。
 
 ![第六ナフサ分解工場・麥寮工場地区、2010 年撮影。1991 年に行政院が認可し、1994 年に着工、1998 年に第 1 期が稼働しました。埋立面積は 2,255 ヘクタールです。](https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg)
-_第六ナフサ分解工場・麥寮工業区、2010 年。Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)._
+_第六ナフサ分解工場・麥寮工業区、2010 年。Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg).\_
 
 ## 笨港の根：媽祖が湄洲から海を渡ってきた年
 
@@ -222,7 +242,7 @@ PM2.5 のデータは次の通りです。雲林県、とくに麥寮、台西�
 
 本文では Wikimedia Commons の CC ライセンス画像を 4 点使用しています。
 
-- **Hero（frontmatter）**：[Formosa Plastics Group Mail-Liao Industrial Complex](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)（Mk2010、[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)、第六ナフサ分解工場・麥寮工業区）
+- **Hero（frontmatter）**：[Formosa Plastics Group Mail-Liao Industrial Complex](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg>)（Mk2010、[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)、第六ナフサ分解工場・麥寮工業区）
 - **Scene §1694 年の笨港**：[Beigang Chaotian Temple-01](https://commons.wikimedia.org/wiki/File:Beigang_Chaotian_Temple-01.2024-09-18.jpg)（阿道、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)、北港朝天宮 2024 年 9 月）
 - **Scene §1909 年の最初の煙突**：[Scene in Huwei Sugar Factory 05](https://commons.wikimedia.org/wiki/File:Scene_in_Huwei_Sugar_Factory_05.jpg)（WC-QHS、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)、虎尾糖廠 2018 年）
 - **Scene §1953 年 1 月 28 日**：[Xiluo Bridge at noon on 2 August 2014](https://commons.wikimedia.org/wiki/File:Xiluo_Bridge_at_noon_on_2_August_2014.jpg)（JianEn Yu、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、西螺大橋 2014 年 8 月）

@@ -27,6 +27,8 @@ sourceCommitSha: 'ff92f3866'
 sourceContentHash: 'sha256:3ee4be522cff1a4e'
 sourceBodyHash: 'sha256:5dcfd938f21ea513'
 translatedAt: '2026-06-25T00:43:06+08:00'
+image: '/article-images/nature/taiwania-nantou-shihchuan.webp'
+imageCredit: '石川 Shihchuan / Wikimedia Commons (CC BY-SA 2.0)'
 ---
 
 > **30-Second Overview:** Taiwan has a tree 84.1 meters tall, roughly the height of a 28-story building, and it is currently the tallest known tree in East Asia[^1]. It is called the "Daan River Heaven Sword," a Taiwania (_Taiwania cryptomerioides_) growing in a deep valley near the headwaters of the Daan River at about 1,650 meters above sea level. It is estimated to have lived for seven or eight hundred years[^2]. During the 2023 Lunar New Year, the "Tree Finder" team spent seven days tracing the river upstream, with nighttime temperatures falling to minus 2 degrees Celsius, before climbing into its crown and lowering a tape measure to obtain that number[^3]. The most counterintuitive fact is this: on a country swept by typhoons every year, with fragile geology prone to landslides and floods, height like this should not, in theory, exist. It could grow to 84 meters and live for seven hundred years precisely because it was hidden in a valley humans could barely reach. The same "inaccessibility" that let it escape large-scale logging during the Japanese colonial period and after the war also meant that only after nearly a decade of work and a laser scan of the entire country did we see it for the first time that year[^4].

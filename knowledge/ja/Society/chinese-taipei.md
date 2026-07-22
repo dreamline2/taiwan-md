@@ -22,6 +22,9 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:139126ed14d761b3'
 translatedAt: '2026-06-16T16:55:14Z'
 sourceBodyHash: 'sha256:67435314dcab3a3a'
+image: '/article-images/society/under-protest-rome-1960.webp'
+imageCredit: '1960 年羅馬奧運開幕，福爾摩沙（台灣）代表團持「UNDER PROTEST」抗議牌進場。攝影 Harry Pot，荷蘭國家檔案館，CC0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Olympische_Spelen_te_Rome_Opening_Formosa_liep_onder_protest,_Bestanddeelnr_911-5406.jpg'
 ---
 
 # Chinese Taipei: The Ticket That Lets Taiwan Play, But Won't Print Its Own Name

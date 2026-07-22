@@ -25,6 +25,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:af655ef71174b4b7'
 sourceBodyHash: 'sha256:8bdb4d64fdb3b5e7'
 translatedAt: '2026-06-16T17:05:07Z'
+image: '/article-images/people/aaron-nieh-portrait-2018.webp'
+imageCredit: 'Gene Wang'
+imageLicense: 'CC BY-SA 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E8%81%B6%E6%B0%B8%E7%9C%9F_(40799138092).jpg'
 ---
 
 > **Panorama en 30 segundos:** Nieh Yung-jen (n. 1977) es el primer diseñador de Taiwán en incorporarse a Alliance Graphique Internationale (AGI), y ha ganado tres veces el premio Golden Melody al mejor diseño de empaque de álbum. Ha diseñado portadas musicales para Yoga Lin, Sodagreen, Jolin Tsai y Hebe Tien, así como cubiertas de libros para Rye Field, China Times Publishing, Ink y Linking; el anuncio del Movimiento Girasol en The New York Times a las cuatro de la madrugada de 2014 y la campaña de micromecenazgo “Taiwan Can Help” en The New York Times de 2020 salieron de su mano; también estuvieron a cargo suyo y de su estudio la identidad visual principal de la campaña presidencial “Light Up Taiwan” de Tsai Ing-wen en 2016 y las identidades visuales principales de dos ceremonias de investidura presidencial. Aaron Nieh Workshop abrió en 2024 una segunda sede en los almacenes Pier-2 de Kaohsiung; desde ese mismo año ganó consecutivamente contratos para los sistemas de identidad de Taipower, CPC Taiwan, la Administración de Turismo y el Ministerio de Asuntos Económicos. El día en que se lanzó el nuevo LOGO de Taipower en 2026, estalló una controversia por “recompensa política”, a la que respondió con una declaración en cinco puntos. La frase que él mismo subraya una y otra vez, “antes de ser el diseñador Nieh Yung-jen, fue el ciudadano Nieh Yung-jen”, ha sido releída desde 2014 hasta hoy en posiciones distintas.

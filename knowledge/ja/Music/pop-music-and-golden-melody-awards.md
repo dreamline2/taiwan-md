@@ -24,6 +24,8 @@ sourceCommitSha: '6897c6571'
 sourceContentHash: 'sha256:b00d48ce7d3f9ffa'
 sourceBodyHash: 'sha256:f8572e451edfc640'
 translatedAt: '2026-06-29T00:47:38+08:00'
+image: '/article-images/music/golden-melody-awards-2021.webp'
+imageCredit: 'Solomon203'
 ---
 
 # 金曲奨：台湾が自らの音楽に賞を贈り、三十五年にわたり一生記憶に残る瞬間を刻んできた場所

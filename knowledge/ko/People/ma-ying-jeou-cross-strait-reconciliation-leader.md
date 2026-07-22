@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:7ebf03343b7d94a6'
 sourceBodyHash: 'sha256:3ba24a255fbd26bc'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/people/ma-xi-meeting-singapore-2015.webp'
+imageCredit: '總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://www.flickr.com/photos/presidentialoffice/22472046408'
 ---
 
 # 마잉주: 하버드 법학박사가 장징궈 집무실에서 영어 통역을 맡고, 8년 동안 '청렴' 이미지를 기반으로 대통령직을 수행했으나 양안, 해바라기와 22K를 남긴 인물

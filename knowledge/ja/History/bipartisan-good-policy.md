@@ -14,6 +14,10 @@ sourceCommitSha: '6e4cfc200'
 sourceContentHash: 'sha256:15ae499dfcb97aac'
 sourceBodyHash: 'sha256:01c949b0613e035a'
 translatedAt: '2026-06-14T00:37:04+08:00'
+image: '/article-images/history/cross-party-freeway-no1-2015.webp'
+imageCredit: 'Koika / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Freeway_No._1_Taishan_section.jpg'
 ---
 
 > **30秒概観：** ある読者が Threads で、青と緑が食卓で罵り合うことにうんざりし、ただ本当に台湾にとってよく、長く生き残るものを記憶したいのだと語りました。この記事は、その読者のために過去七十年の十一の政策を探します。権威主義体制が農地を強制徴収した土地改革から、2026年現在も議論が続く前瞻基礎建設までです。私たちはあえて青と緑の物差しでは測らず、四つの物差しを使います。民生（暮らしはよくなったか）、民主（誰が統治するかは人民に返されたか）、民権（少数者の権利は受け止められたか）、主権（台湾は世界に向き合って立てるか）です。この四つの物差しは「誰がやったか」ではなく、「この島に住む人々に何を残したか」を問います。結論は少し直感に反します。自らの政治を越えて本当に生き残る政策は、生まれたその日にこそ、最も激しく争われていたことが多いのです。

@@ -26,6 +26,8 @@ sourceCommitSha: '58fa84f01'
 sourceContentHash: 'sha256:aac6019521f0bc32'
 sourceBodyHash: 'sha256:5410e4f9f881b327'
 translatedAt: '2026-06-20T00:37:13+08:00'
+image: /article-images/culture/duanwu-two-zongzi-styles.webp
+imageCredit: 'Dllu / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 # Dragon Boat Festival: A Toolkit Ancient People Used to Fight Death, Which Taiwanese Turned into an Annual Reunion

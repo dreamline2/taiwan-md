@@ -15,6 +15,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:6fe952ad9ad0a5fa'
 sourceBodyHash: 'sha256:6b2255cbc29cf54c'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/food/gua-bao-yuanfang-2023.webp'
+imageCredit: '王昱晴 / 中華民國總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gua-bao_by_the_Yuan_Fang_Guabao_at_Huaxi_Street_2023-04-28_01.jpg'
 ---
 
 ![Yuan Fang Guabao on Huaxi Street: a semicircular folded wheat bun filled with braised pork belly, pickled mustard greens, peanut powder, and cilantro, one of Taipei’s most representative traditional gua bao](/article-images/food/gua-bao-yuanfang-2023.webp)

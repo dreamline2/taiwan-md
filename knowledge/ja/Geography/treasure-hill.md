@@ -34,6 +34,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:e34125e4b520b62c'
 sourceBodyHash: 'sha256:6490dd989b255fd9'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/geography/treasure-hill-2018-aerial.webp'
+imageCredit: '臺北市政府文化局'
+imageLicense: 'Attribution (政府開放授權)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Treasure_Hill_20181005.jpg'
 ---
 
 # 宝岩（宝蔵巖）：30年間取り壊し続けられた違法建築集落が、台北で最もクールなアート村になったまで

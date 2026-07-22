@@ -17,6 +17,10 @@ sourceBodyHash: 'sha256:74e768331f7f3a8b'
 translatedAt: '2026-06-16T18:19:09Z'
 relatedDiary:
   - 2026-06-14-154636-無名小卒勘誤
+image: '/article-images/culture/wretch-downtime-notice-2005.webp'
+imageCredit: 'Alan Sung'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Wretch_notice_(24364911).jpg'
 ---
 
 # 우밍샤오잔(無名小站): 주워 온 컴퓨터, 팔려나간 청춘, 그리고 아무도 장송하지 않은 소멸

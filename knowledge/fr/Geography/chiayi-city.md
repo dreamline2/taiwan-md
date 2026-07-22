@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:ae83f3951e0a47fc'
 sourceBodyHash: 'sha256:d3fc69c2026ce4f3'
 translatedAt: '2026-06-16T16:40:09Z'
+image: /article-images/geography/chiayi-city-hero.webp
+imageCredit: B2322858
+imageLicense: Public Domain
+imageSource: https://commons.wikimedia.org/wiki/File:Sixth_Generation_Tropic_of_Cancer_in_Chiayi.jpg
 ---
 
 # Chiayi : nommée « Jiayi » par l’empereur, mais devenue la ville provinciale la plus facile à négliger

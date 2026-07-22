@@ -24,6 +24,10 @@ sourceCommitSha: '88f47159'
 sourceContentHash: 'sha256:e294ff8cf9b9ac0a'
 sourceBodyHash: 'sha256:dd3ab574ead8013b'
 translatedAt: '2026-06-16T17:13:36Z'
+image: '/article-images/people/yaxian-portrait-2012.webp'
+imageCredit: '目宿媒體股份有限公司 (Wikimedia Commons, CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%98%82%E5%BC%A6.tif'
 ---
 
 # Ya Hsien : après avoir écrit L'Abîme, il posa la plume ; la seconde moitié de sa vie fit de la page littéraire de l'United Daily News une page d'histoire poétique

@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:2758b5b1f9c739df'
 sourceBodyHash: 'sha256:5c5a60eea00bbc8d'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/society/guangfu-921-memorial-2003.webp'
+imageCredit: 'Hsu.shihhung via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Guang_Fu_921.JPG'
 ---
 
 # Shovel Supermen and Island Synchronicity: How Taiwan's Disaster Volunteer Culture Shapes National Identity

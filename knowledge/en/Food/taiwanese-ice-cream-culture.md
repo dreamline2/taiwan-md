@@ -14,6 +14,8 @@ sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:4dac67a4f3297b76'
 sourceBodyHash: 'sha256:aae5f010fab3924f'
 translatedAt: '2026-05-20T05:08:27+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Taipei_mangguobing.JPG/960px-Taipei_mangguobing.JPG'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwanese Ice Cream Culture
@@ -107,10 +109,15 @@ The underlying logic of Taiwanese ice cream culture is this: every era has had p
 ## References
 
 [^1]: [ICE MONSTER Official Website](https://www.icemonster.com.tw/) — Brand history, including the 1995 founding of Yongkang 15 Ice Hall and the 2010 rebranding and relocation.
+
 [^2]: [Taiwan Tourism Bureau "Taiwan Cuisine" Official Page](https://www.taiwan.net.tw/) — Introduction to representative Taiwanese ice desserts, including mango shaved ice and snow ice.
+
 [^3]: [CNN Travel: Taiwanese Mango Shaved Ice Report](https://edition.cnn.com/travel) — CNN's international media coverage of Taiwanese mango shaved ice, citing ICE MONSTER and Yujing mango shaved ice as representative cases.
+
 [^4]: [Lonely Planet Taiwan: Food Guide](https://www.lonelyplanet.com/taiwan) — International travel guide's introduction to Taiwanese ice cream culture and recommended shops.
+
 [^5]: [Wikipedia: ICE MONSTER](https://zh.wikipedia.org/wiki/ICE_MONSTER) — ICE MONSTER brand history, predecessor "Yongkang 15 Ice Hall," and international expansion information.
+
 [^6]: [Kaki Kōri — Wikipedia](https://zh.wikipedia.org/wiki/%E5%89%89%E5%86%B0) — Origins of Japanese shaved ice culture and its introduction to Taiwan during the colonial period, along with the evolution of traditional Taiwanese shaved ice toppings.
 
 ## Further Reading

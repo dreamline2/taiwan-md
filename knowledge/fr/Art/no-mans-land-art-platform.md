@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:94e9b57891092909'
 sourceBodyHash: 'sha256:15f9472d4c0b19f9'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/art/nml-trial-issue-hero-2011.webp'
+imageCredit: "數位荒原 No Man's Land 試刊號封面（2011-11）"
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.heath.tw/nml-issue/trial-issue-of-no-mans-land/'
 ---
 
 # Désert numérique : comment une plateforme de critique d’art en ligne sans modèle économique a survécu 12 ans

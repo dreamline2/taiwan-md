@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7854f820ae13e37'
 sourceBodyHash: 'sha256:5340a77820daae23'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/music/golden-horse-awards-entrance-2016.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons, CC BY-SA 4.0'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Golden_Horse_Awards_Ceremony_entrance_20161126.jpg'
 ---
 
 > **30초 개요:** 대만의 영상음악은 흔히 “규모가 점점 국제적 수준이 되었다”는 식으로 이야기된다. 예컨대 허궈제는 바다를 건너 시드니에서 60인조 교향악단을 찾아 《세디크 발레》를 녹음했고[^1], 탄둔의 《와호장룡》은 오스카를 받았다[^2]. 그러나 이 흐름에서 진정으로 감동적인 지점은 규모가 아니다. 1980년대 학원파의 관현악 어법에서, 린창이 전자음의 여백을 허우샤오셴 영화 안으로 들여오고[^3], 린성샹이 2,000대만달러에 산 월금 하나로 흑백영화에 음악을 붙이며[^4], 커즈하오가 다다오청 절 앞마당의 가자희와 남북관을 대형 스크린 위로 옮기고[^5], 장웨이판이 대만 장례식의 애도 음악 “시솔미”를 공포 게임에 써 넣기까지[^6], 대만 작곡가들이 걸어온 길은 화면에 감정을 깔아 주는 일에서 서서히 이 섬의 고유한 소리를 발굴하는 일로 바뀌어 온 과정이었다. 소리에는 지층이 있고, 작곡가는 그 아래를 파고드는 사람이다.

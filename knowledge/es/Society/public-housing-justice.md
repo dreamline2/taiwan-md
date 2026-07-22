@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:bd9b1e07ed885b16'
 sourceBodyHash: 'sha256:547ee1d3b342a025'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/society/taipei-skyline-housing-2026.webp'
+imageCredit: 'Heeheemalu'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
 ---
 
 # Vivienda pública nacional y justicia habitacional: las viviendas baratas construidas por el gobierno, y la escalera de activos que terminaron creando

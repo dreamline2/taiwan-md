@@ -25,6 +25,10 @@ sourceCommitSha: '11b9ab5c'
 sourceContentHash: 'sha256:da37ca4aa7f65da7'
 sourceBodyHash: 'sha256:e86f8f550c13eab0'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/geography/houtong-keelung-river-2016.webp'
+imageCredit: 'CharlieDigital / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stairway_to_Keelung_River_near_Houtong_Cat_Village_20160401.jpg'
 ---
 
 > **30초 개요:**

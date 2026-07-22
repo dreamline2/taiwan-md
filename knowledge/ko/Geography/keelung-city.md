@@ -28,6 +28,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d96d5a768e497ec1'
 sourceBodyHash: 'sha256:a875e0cc381f5fed'
 translatedAt: '2026-06-16T16:38:41Z'
+image: /article-images/geography/keelung-hero.webp
+imageCredit: Taiwankengo
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:2020_Zhengbin_Fishing_Port.jpg
 ---
 
 # 타이베이에서 가장 가까운 항구, 타이베이에서 가장 보이지 않는 도시 — 지롱(基隆)

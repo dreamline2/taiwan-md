@@ -24,6 +24,8 @@ sourceCommitSha: 'f187773fe'
 sourceContentHash: 'sha256:d506ddde43d15d15'
 sourceBodyHash: 'sha256:bbf94bacf1d03bd7'
 translatedAt: '2026-05-18T05:08:09+08:00'
+image: /article-images/geography/jinguashi-13-levels-lighting-2019.webp
+imageCredit: 'Taiwankengo / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 > **30 second overview :** la plupart des visiteurs de Jinguashi viennent pour la grande brique d’or de 220 kg du Musée de l’or, ou pour la lampe orange allumée en 2019 au site des Treize Étages[^1][^2]. Mais l’histoire réelle de la montagne ne réside pas dans l’or — de 1942 à 1945, les Japonais y ont enfermé plus d’un millier de prisonniers de guerre alliés, principalement britanniques, dans les galeries de cuivre, qu’ils appelaient « Kinkaseki », tandis que les Taïwanais l’appelaient « 凸鼻仔寮 »[^3][^4]. Le 23 novembre 1997, le Canadien Michael Hurst et 150 survivants ainsi que leurs familles ont érigé un monument commémoratif sur le site original[^3]. Aujourd’hui, les touristes marchent sur le conduit de fumée devenu un lieu de selfie, alors que le sol reste plusieurs fois au-dessus des seuils de sécurité pour l’arsenic et les métaux lourds[^5][^6].

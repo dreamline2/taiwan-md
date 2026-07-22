@@ -25,6 +25,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:94460ad43105f980'
 sourceBodyHash: 'sha256:64a1b7182260c207'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/people/chen-chien-nien-hsinchu-feng-2018.webp'
+imageCredit: 'Taiwania Justo / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg'
 ---
 
 # Chen Chien-nien: el rey de los Golden Melody del puesto policial; las canciones que dejó su abuelo materno, el nieto las convirtió en océano

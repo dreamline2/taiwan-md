@@ -46,6 +46,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-05-28'
     url: 'https://x.com/taiwandotmd/status/2060010924015321462'
+image: '/article-images/music/zhou-hui-yueding-mv-thumb-1999.webp'
+imageCredit: '福茂唱片 / 周蕙〈約定〉1999 官方 MV 截圖'
+imageLicense: 'Fair use editorial commentary on the original work'
+imageSource: 'https://www.youtube.com/watch?v=Vd-mTkhiThI'
 ---
 
 # Where Chou: The Voice Behind 'Agreement' for 25 Years, From Cartoon Doll to Taipei Arena Marathon

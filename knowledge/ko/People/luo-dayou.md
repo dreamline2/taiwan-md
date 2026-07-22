@@ -24,6 +24,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:a360c7a135e403dc'
 sourceBodyHash: 'sha256:fe7b545ee2048324'
 translatedAt: '2026-06-20T01:01:36+08:00'
+image: '/article-images/people/lo-ta-yu-2011.webp'
+imageCredit: 'Daniel M Shih'
+imageLicense: 'CC BY-SA 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Lo_Ta-yu_羅大佑_2011.jpg'
 ---
 
 > **30초 개요:** 뤄다유(1954년생)는 방사선과 의사 출신의 싱어송라이터다. 1982년 《지호자야》는 대중가요의 가사를 감정의 장식에서 관점을 담아낼 수 있는 것으로 바꾸었고, 타이완 음악 평론계는 훗날 이 음반을 100대 명반 1위로 꼽았다. 그는 〈루강 소진〉에서 뿌리 상실을, 〈아시아의 고아〉에서 고립을, 〈동방지주〉에서 소외를 쓰며 줄곧 “나는 누구인가”를 물었다. 역설적인 것은 타이완의 표류를 남김없이 노래한 이 사람이 자신도 타이베이에서 뉴욕, 홍콩, 베이징으로 떠돌았고, 연구자들이 계산한 바에 따르면 29년 동안 열아홉 번 이사했다는 사실이다. 일흔 살에 그는 타이완으로 돌아와 무대에 서서 자기 세대 음악인 가운데 “도태된 사람이 적어도 70퍼센트”라며, 남아 있는 이들은 모두 대단한 생존자라고 말했다.

@@ -23,6 +23,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:86475082b87388fc'
 sourceBodyHash: 'sha256:a9375147f15627a6'
 translatedAt: '2026-05-01T17:09:56+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jacksons_of_Piccadilly_Formosa_Oolong_Tea_%2851878727206%29.jpg/960px-Jacksons_of_Piccadilly_Formosa_Oolong_Tea_%2851878727206%29.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Echoes of a Golden Age: The Evolution and Craft of Taiwanese Tea

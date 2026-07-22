@@ -15,6 +15,10 @@ sourceCommitSha: 'beb07b8e'
 sourceContentHash: 'sha256:cd395bed8d239f41'
 sourceBodyHash: 'sha256:903fa4c14f6a516c'
 translatedAt: '2026-07-16T00:45:14+08:00'
+image: '/article-images/economy/stan-shih-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **30초 요약:** 1992년, 아세르 창립자 스진융은 위로 열린 '미소 곡선(Smile Curve)'을 그려 대만 제조업에 일갈했다. "부가가치 최저의 조립 중간단계에 갇히지 말고, 연구개발과 브랜드 양단으로 올라가라." 이 문장은 대만 산업계가 30년 동안 경청해온 전략의 핵심이었다. 그러나 선을 그린 사람 스스로 브랜드 단으로 돌진하는 길에서 세 번이나 쓰러졌다—2000년 브랜드와 하청의 충돌로 '대분가'를 강요당했고, 2011년 세계 2위 치솟은 후 유럽 창고가 폭주하며 주가가 반토막 났으며, 2013년 1년 만에 205억 위안 적자를 내며 68세의 창립자를 복귀시켰다. 가장 아이러니한 결말은 20년 후에야 드러났다. 당시 그가 잘라내어 가장 비관시되던 하청 파트너 위스트론은 AI 서버 시대에 미소 곡선의 정점에 올랐다.

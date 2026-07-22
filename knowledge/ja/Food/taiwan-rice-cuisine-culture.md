@@ -15,6 +15,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:0e38833f3cafaf68'
 sourceBodyHash: 'sha256:2354ee60853945b0'
 translatedAt: '2026-05-01T18:09:43+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/6/66/Rice_Dumpling_%28Zongzi%29.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の米食文化

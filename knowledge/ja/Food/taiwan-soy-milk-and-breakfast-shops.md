@@ -15,6 +15,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ba7ff819ca0777d2'
 sourceBodyHash: 'sha256:a157234d7add2561'
 translatedAt: '2026-05-01T19:52:32+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Exit_C_of_Doujiang_Station_in_Shaoxing.jpg/960px-Exit_C_of_Doujiang_Station_in_Shaoxing.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾豆漿と朝食店

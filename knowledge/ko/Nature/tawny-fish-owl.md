@@ -26,6 +26,10 @@ sourceCommitSha: '3c781dba'
 sourceContentHash: 'sha256:f082c2bfc65ade6e'
 sourceBodyHash: 'sha256:2a057438270935d7'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: '/article-images/nature/tawny-fish-owl-gailhampshire-2009.webp'
+imageCredit: 'gailhampshire (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg'
 ---
 
 > **30초 개요:** 황갈색물고기올빼미(_Ketupa flavipes_)는 대만에서 가장 큰 올빼미로, 양 날개를 펼치면 성인 한 명의 키에 가까우며, 발가락은 노란 깃털로 덮여 있고 발바닥에는 젖고 미끄러운 먹이를 움켜쥐기 위한 육질 돌기가 있다. 1916년에야 일본인 학자 구로다 나가미치가 처음 기록했으며[^1], 1994년에야 대만 최초로 정확히 위치가 확인된 번식 둥지가 발견되었다[^2]. 국립핑둥과학기술대학 쑨위안쉰 연구실은 30년 동안 이 새를 추적했다. 그들은 황갈색물고기올빼미 한 쌍이 영역을 유지하려면 길이 6.2킬로미터, 주변의 44.6%가 천연림인 계류가 필요하다는 사실을 밝혔다[^3]. 2026년 4월, 연구팀은 우링 치자완시 계곡가의 흉고직경 약 1.5미터 후박나무 고목 수동에서 대만에서 현재까지 알려진 가장 높은 둥지를 찾았다[^4]. 쉐이바 국가공원은 24시간 육추 생중계를 시작했고, 섬은 처음으로 자신에게 가장 익숙한 낯선 맹금을 함께 바라볼 기회를 얻었다.

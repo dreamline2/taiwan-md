@@ -21,6 +21,7 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:a7c71b7402009bc6'
 sourceBodyHash: 'sha256:5b34ca12ffeca314'
 translatedAt: '2026-06-16T02:24:16+08:00'
+image: '/article-images/society/woo-fanpage.webp'
 ---
 
 > **Resumen de 30 segundos:** Probablemente hayas seguido al menos una página local del tipo “Soy de Kaohsiung” o “Soy de Taichung”, que comparte noticias de mercados nocturnos, pronósticos del tiempo y da la sensación de “nosotros, los locales”. En febrero de 2026, alguien encontró en una publicación de “Soy de Taipéi” una instrucción de IA que no se había borrado: «Eliminar palabras sensibles, reforzar el lenguaje local de Taiwán». Siguiendo esa pista, el rastro termina en un edificio de Neihu, en el que una familia Lin dirige una empresa que reescribe las noticias de medios pro‑China con tono de “compañero” y las publica en páginas que se hacen pasar por locales de distintos municipios. Lo más paradójico es que casi no falsifica noticias, por lo que la herramienta de verificación de hechos no puede medirlo.

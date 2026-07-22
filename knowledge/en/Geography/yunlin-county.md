@@ -1,20 +1,40 @@
 ---
-title: "Yunlin County: What Yilan Chose to Reject, Yunlin Paid for with Thirty Years of Its Lungs"
+title: 'Yunlin County: What Yilan Chose to Reject, Yunlin Paid for with Thirty Years of Its Lungs'
 description: "On December 13, 1987, Chen Ding-nan kept the Sixth Naphtha Cracker out of Yilan in a CTS studio. On June 26, 1991, the Executive Yuan approved moving the Sixth Naphtha Cracker to the waters off Mailiao, Yunlin. Construction formally began in July 1994, Phase I fired up in 1998, and 2,255 hectares have since been reclaimed from the sea. In 2011, a team led by Chan Chang-chuan at National Taiwan University's College of Public Health found that residents within 10 kilometers of the Sixth Naphtha Cracker had a cancer incidence 1.29 times Taiwan's average. Yet within the same county, Beigang Chaotian Temple has worshipped Mazu for 332 years since 1694, the 33rd year of the Qing Kangxi reign, and U.S. aid steel held up the 1,939-meter Xiluo Bridge on January 28, 1953. One county is at once home to one of Taiwan's oldest Mazu temples, its most important rice granary, and its largest petrochemical kingdom."
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Yunlin", "Yunlin County", "Sixth Naphtha Cracker", "Mailiao", "Beigang Chaotian Temple", "Mazu", "Xiluo Bridge", "Xiluo Rice", "Huwei Sugar Refinery", "Gukeng Coffee", "Chen Ding-nan", "Wang Yung-ching", "Zhuoshui River", "22 Counties and Cities Series"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Yunlin',
+    'Yunlin County',
+    'Sixth Naphtha Cracker',
+    'Mailiao',
+    'Beigang Chaotian Temple',
+    'Mazu',
+    'Xiluo Bridge',
+    'Xiluo Rice',
+    'Huwei Sugar Refinery',
+    'Gukeng Coffee',
+    'Chen Ding-nan',
+    'Wang Yung-ching',
+    'Zhuoshui River',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/雲林縣.md"
-sourceCommitSha: "036da279d"
-sourceContentHash: "sha256:68dcc74d52d8c737"
-sourceBodyHash: "sha256:24b0d8d16f592539"
-translatedAt: "2026-05-18T05:08:07+08:00"
+translatedFrom: 'Geography/雲林縣.md'
+sourceCommitSha: '036da279d'
+sourceContentHash: 'sha256:68dcc74d52d8c737'
+sourceBodyHash: 'sha256:24b0d8d16f592539'
+translatedAt: '2026-05-18T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg
+imageCredit: Mk2010
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg
 ---
 
 # Yunlin County: What Yilan Chose to Reject, Yunlin Paid for with Thirty Years of Its Lungs
@@ -48,7 +68,7 @@ Administratively, Yunlin has 20 townships, towns, and cities: 1 county-administe
 The western coast in winter needs special attention. Every year from November to the following March, the northeast monsoon blows across the Taiwan Strait, and western Yunlin sees a typical alternation of "dense fog and strong wind." In Mailiao, Taixi, and Kouhu, visibility often falls below 500 meters. This is the season when the dispersion of emissions from the Sixth Naphtha Cracker is poorest, and also the season when the burden on lungs is heaviest[^11]. In rainfall distribution, the western coast receives relatively little annual rainfall, about 1,200 millimeters, while the eastern hills can exceed 2,500 millimeters annually. This gap makes Yunlin's agricultural structure completely different from east to west.
 
 ![The Mailiao complex of the Sixth Naphtha Cracker, photographed in 2010. Approved by the Executive Yuan in 1991, construction began in 1994, Phase I fired up in 1998, and the reclaimed area is 2,255 hectares.](https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg)
-_The Mailiao Industrial Complex of the Sixth Naphtha Cracker, 2010. Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)._
+_The Mailiao Industrial Complex of the Sixth Naphtha Cracker, 2010. Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg).\_
 
 ## The Root of Bengang: The Year Mazu Crossed the Sea from Meizhou
 
@@ -222,7 +242,7 @@ Next time you go to Yunlin, do not only go to Gukeng for coffee. Try going to th
 
 This article uses 4 Wikimedia Commons CC-licensed images:
 
-- **Hero, frontmatter**: [Formosa Plastics Group Mail-Liao Industrial Complex](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg) (Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), Mailiao Industrial Complex of the Sixth Naphtha Cracker)
+- **Hero, frontmatter**: [Formosa Plastics Group Mail-Liao Industrial Complex](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg>) (Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), Mailiao Industrial Complex of the Sixth Naphtha Cracker)
 - **Scene §Bengang in 1694**: [Beigang Chaotian Temple-01](https://commons.wikimedia.org/wiki/File:Beigang_Chaotian_Temple-01.2024-09-18.jpg) (阿道, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Beigang Chaotian Temple in September 2024)
 - **Scene §The first smokestack in 1909**: [Scene in Huwei Sugar Factory 05](https://commons.wikimedia.org/wiki/File:Scene_in_Huwei_Sugar_Factory_05.jpg) (WC-QHS, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Huwei Sugar Refinery in 2018)
 - **Scene §January 28, 1953**: [Xiluo Bridge at noon on 2 August 2014](https://commons.wikimedia.org/wiki/File:Xiluo_Bridge_at_noon_on_2_August_2014.jpg) (JianEn Yu, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), Xiluo Bridge in August 2014)

@@ -5,7 +5,14 @@ date: '2026-03-19'
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
-tags: ['科技與企業', 'Google', 'Inteligencia artificial', 'Academia Sinica', 'Educación en IA']
+tags:
+  [
+    '科技與企業',
+    'Google',
+    'Inteligencia artificial',
+    'Academia Sinica',
+    'Educación en IA',
+  ]
 readingTime: 7
 lastVerified: '2026-05-07'
 lastHumanReview: true
@@ -15,6 +22,10 @@ sourceCommitSha: '0f8fae0ae'
 sourceContentHash: 'sha256:fbf9f60162ac4b29'
 sourceBodyHash: 'sha256:820519fbefcc8fbc'
 translatedAt: '2026-05-20T05:08:32+08:00'
+image: '/article-images/people/lee-feng-chien-tsai-google-2019.webp'
+imageCredit: '總統府 / Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: "https://commons.wikimedia.org/wiki/File:Google_Taiwan_Branch_Engineering_Director_Lee-Feng_Chien_speaking_with_Taiwanese_President_Tsai_Ing-wen_upon_her_visit_at_Google's_office_at_Taipei_101_20190417.jpg"
 ---
 
 # Jamie Lin: del Academia Sinica a Google Taiwán, activo en la primera línea del emprendimiento tras su retiro en 2020

@@ -14,6 +14,8 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:e4c169783e32f5c2'
 sourceBodyHash: 'sha256:79036ef58165be78'
 translatedAt: '2026-05-17T05:33:00Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/TaiwanesePineappleCake.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 타이완 빵과 제과
@@ -85,9 +87,13 @@ translatedAt: '2026-05-17T05:33:00Z'
 ## 참고 자료
 
 [^1]: [우바오춘 마이팡덴 공식 홈페이지](https://www.wu-pao-chun.com/) — 미양려향 작품 소개와 2010년 Mondial du Pain 우승 경과.
+
 [^2]: [Mondial du Pain 공식 사이트](https://www.mondialdupain.com/) — 역대 개인 부문 우승자 명단, 타이완 선수의 2010/2015/2017/2022 네 차례 기록 포함.
+
 [^3]: [85도씨 투자자 관계](https://www.85cafe.com/) — 85도씨 브랜드 연혁과 해외 출점 자료.
+
 [^4]: [중화곡류식품공업기술연구소](https://www.cgprdi.org.tw/) — 타이완 제과 기술 연구기관. 대회 트레이닝과 기술 지원 자료 포함.
+
 [^5]: [중화민국 제과상업 동업공회 전국연합회](https://www.twbakery.org.tw/) — 제과 업종 공회. 산업 통계와 국제 대회 정보 포함.
 
 ## 심화 자료

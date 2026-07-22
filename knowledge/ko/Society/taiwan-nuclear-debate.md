@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:644a9c58c9027809'
 sourceBodyHash: 'sha256:9d34f10c11b5b667'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.webp'
+imageCredit: '2013 年 4 月，反核民間團體包圍立法院。Voice of America，Public Domain'
+imageLicense: 'Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Longmen_Nuclear_Power_Plant_from_VOA_(1).jpg'
 ---
 
 # 타이완과 원자력 논의: 탈핵은 한때 민주화 운동의 공통 언어였으나, 기후 위기가 모든 진영의 판을 다시 짰다

@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc46568183dd9cc2'
 sourceBodyHash: 'sha256:dc489fbbe5744c82'
 translatedAt: '2026-06-16T17:14:05Z'
+image: '/article-images/society/ntu-hospital-pond-2011.webp'
+imageCredit: '玄史生'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg'
 ---
 
 > **30초 개요**: 의료법이 규율하는 것은 의사 개인이 아니다. 그것은 1943년의 의사법이 맡는다. 건강보험 급여도 아니다. 그것은 1994년의 건강보험법이 맡는다. 의료법은 **병원, 진료소, 의료법인** 같은 기관이 어떻게 존재하고, 어떻게 광고하며, 분쟁을 어떻게 처리하는지를 규율한다. 1986년 전문 91개 조문으로 공포되었고, 2004년 대대적 개정으로 123개 조문이 되며 “의료법인” 제도를 도입했다. 2017년에는 제82조를 개정해 의사의 형사책임을 “이중 요건”으로 바꾸었고, 2026년 5월에는 간호사 대 환자 비율을 법에 편입했다. 그러나 40년이 흐른 뒤, 제1조가 천명한 “의료사업의 건전한 발전 촉진”이 마주한 현실은 이렇다. 병원의 83%, 병상의 74%가 사립이고, 응급의학과 의사의 이탈률은 미국보다 두세 배 높으며, 간호사들이 급물살처럼 사직하고 붕괴 직전까지 버틴 뒤에야 국회가 간호사 대 환자 비율을 법에 넣었다.

@@ -15,6 +15,7 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:218a1627dd56bfb5'
 sourceBodyHash: 'sha256:ca6d9cb8b6ed52e7'
 translatedAt: '2026-05-17T06:35:00Z'
+image: '/article-images/food/taiwan-food-alishan-yuyupas-tea-garden-2011.webp'
 ---
 
 # 黄金時代の残響：台湾茶文化の変遷と工藝

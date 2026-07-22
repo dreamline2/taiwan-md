@@ -1,42 +1,46 @@
 ---
-title: "Tainan : 261 ans de capitale, 400 ans de vestiges, des puces du XXIe siècle superposés sur une même terre"
+title: 'Tainan : 261 ans de capitale, 400 ans de vestiges, des puces du XXIe siècle superposés sur une même terre'
 description: "En 1624, les Néerlandais commencèrent à construire Fort Zeelandia sur les dunes de Tayouan ; le 1er février 1662, Coyett signa dans cette forteresse l'acte de reddition, puis le 9 février quitta la plage avec deux mille Néerlandais. En 1665, Chen Yonghua fit construire le temple de Confucius, devenu la « première école de tout Taïwan ». En 1684, les Qing établirent la préfecture de Taïwan dans l'actuel Tainan ; en 1885, Taïwan devint province, la capitale provinciale fut déplacée vers le nord à Taipei, et 261 ans de statut de capitale prirent fin. Le 13 mars 1947 à midi, Tang Te-chang fut ligoté, hissé sur un camion à Minsheng Green Park, promené dans les rues, puis trois coups de feu retentirent. Le 25 décembre 2010, la fusion ville-comté créa 37 districts et 1,86 million d'habitants. En 2023, le chiffre d'affaires annuel du STSP atteignit 1 500 milliards de dollars taïwanais et dépassa celui du Hsinchu Science Park. Trois strates d'histoire pèsent sur un même tronçon central de la plaine de Jianan."
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
 tags:
   [
-    "Tainan",
-    "Ville de Tainan",
-    "Sud",
-    "Ville préfectorale",
-    "Époque néerlandaise",
-    "Royaume de Tungning",
-    "Fort Zeelandia",
+    'Tainan',
+    'Ville de Tainan',
+    'Sud',
+    'Ville préfectorale',
+    'Époque néerlandaise',
+    'Royaume de Tungning',
+    'Fort Zeelandia',
     "Fort d'Anping",
-    "Tour Chihkan",
-    "Temple de Confucius",
+    'Tour Chihkan',
+    'Temple de Confucius',
     "Château d'or éternel",
-    "Tang Te-chang",
-    "Incident du 28 février",
+    'Tang Te-chang',
+    'Incident du 28 février',
     "Feux d'artifice de Yanshui",
-    "Parc national de Taijiang",
-    "Spatule à face noire",
-    "STSP",
-    "TSMC",
-    "Siraya",
-    "Série des 22 villes et comtés",
+    'Parc national de Taijiang',
+    'Spatule à face noire',
+    'STSP',
+    'TSMC',
+    'Siraya',
+    'Série des 22 villes et comtés',
   ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/台南市.md"
-sourceCommitSha: "925aca59e"
-sourceContentHash: "sha256:a92ec79c444536b4"
-sourceBodyHash: "sha256:2dcae5a0df1cbb16"
-translatedAt: "2026-05-19T05:08:07+08:00"
+translatedFrom: 'Geography/台南市.md'
+sourceCommitSha: '925aca59e'
+sourceContentHash: 'sha256:a92ec79c444536b4'
+sourceBodyHash: 'sha256:2dcae5a0df1cbb16'
+translatedAt: '2026-05-19T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Anping_Fort_1.JPG/1280px-Anping_Fort_1.JPG
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Anping_Fort_1.JPG
 ---
 
 # Tainan : 261 ans de capitale, 400 ans de vestiges, des puces du XXIe siècle superposés sur une même terre

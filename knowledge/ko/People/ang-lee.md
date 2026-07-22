@@ -14,6 +14,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:5e0878a68a9e472e'
 sourceBodyHash: 'sha256:b22fe95649d7be32'
 translatedAt: '2026-06-16T17:05:51Z'
+image: '/article-images/people/ang-lee-bafta-2013.webp'
+imageCredit: 'Sean Reynolds'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Ang_Lee_(8464864982).jpg'
 ---
 
 # 이안: 두 개의 오스카 뒤에, 아버지에게 제대로 작별을 말하지 못한 아들

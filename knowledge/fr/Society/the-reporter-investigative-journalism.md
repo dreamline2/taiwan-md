@@ -22,6 +22,10 @@ sourceCommitSha: 'fd09526d2'
 sourceContentHash: 'sha256:c9f5767205c4ec79'
 sourceBodyHash: 'sha256:ca526dda99de158c'
 translatedAt: '2026-06-17T01:18:26+08:00'
+image: '/article-images/society/the-reporter-brand-logo.webp'
+imageCredit: '報導者 The Reporter'
+imageLicense: 'Fair use（editorial commentary）'
+imageSource: 'https://www.twreporter.org'
 ---
 
 > **Vue d'ensemble en 30 secondes :** The Reporter est le premier média numérique d'enquête non lucratif de Taïwan financé par les dons citoyens. Lors de sa mise en ligne en décembre 2015, il ne comptait que 4 donateurs mensuels réguliers, un chiffre que son fondateur Ho Jung-hsing n'osait pas révéler à ses collègues[^1]. Dix ans plus tard, en octobre 2025, ce nombre était passé à environ 8 000, avec un prochain objectif fixé à 10 000[^2]. Le média a produit « Les pêcheries de sang et de larmes », une enquête menée jusque dans trois pays[^3], a révélé l'affaire des travailleurs noirs piégés par l'endettement qui a valu à un responsable de l'Université Chung Chou une peine de 5 ans et 6 mois[^4], et a publié « La vague Chokubi », après quoi le ministère de la Santé et du Bien-être a réformé les règles imposant la formation PGY avant la pratique de la médecine esthétique[^5]. Sa discipline publiquement proclamée tient en trois formules : « ne pas posséder, ne pas intervenir, ne pas récupérer »[^6]. Les coûts que The Reporter ne peut pas réduire sont précisément ce que l'ère algorithmique donne le moins envie de payer pour lire ; cette île, par des prélèvements mensuels de 200 ou 300 dollars taïwanais effectués auprès d'inconnus, a transformé le journalisme d'enquête d'une activité déficitaire en un bien public sans cesse reconduit, entretenu en permanence, mais dont le coût brûle toujours plus vite.

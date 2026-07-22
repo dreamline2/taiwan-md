@@ -15,6 +15,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:7ebf03343b7d94a6'
 sourceBodyHash: 'sha256:3ba24a255fbd26bc'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/people/ma-xi-meeting-singapore-2015.webp'
+imageCredit: '總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://www.flickr.com/photos/presidentialoffice/22472046408'
 ---
 
 # マ英九：ハーバード法学博士が蔣経国事務所の英語通訳に就任し、「清廉」のイメージで八年間大統領を務め、両岸関係・太陽花・22Kを遺した人物

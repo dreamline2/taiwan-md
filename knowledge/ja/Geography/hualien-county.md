@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7da2390cfed253e'
 sourceBodyHash: 'sha256:4e86fa147bee5767'
 translatedAt: '2026-06-16T17:04:12Z'
+image: https://upload.wikimedia.org/wikipedia/commons/0/03/Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
+imageCredit: Fred Hsu
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
 ---
 
 # 花蓮県：129年間身を隠したサキザヤ族、正名で取り戻したタロコ、0403が再び遠ざけました

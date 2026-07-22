@@ -22,6 +22,8 @@ sourceCommitSha: '30569f74'
 sourceContentHash: 'sha256:6170c025ca20811f'
 sourceBodyHash: 'sha256:41cfdb3eed2dcde1'
 translatedAt: '2026-05-17T05:33:00Z'
+image: '/images/food/braised-pork-rice.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # El arroz con cerdo estofado de Taiwán

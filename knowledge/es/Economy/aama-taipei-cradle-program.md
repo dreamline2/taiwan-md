@@ -24,6 +24,10 @@ sourceCommitSha: 'cfaa22a5d'
 sourceContentHash: 'sha256:5e0729d9b7c768df'
 sourceBodyHash: 'sha256:de8072f2a65793f8'
 translatedAt: '2026-07-07T02:28:53+08:00'
+image: '/article-images/economy/aama-15th-cohort-2026.webp'
+imageCredit: 'AAMA台北搖籃計畫'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.aamataipei.com.tw/archives/44255'
 ---
 
 > **30 segundos de resumen:** El Programa Cuna de Taipéi de AAMA es una presencia poco común en Taiwán: un programa de mentoría para emprendedores que no invierte, no adquiere participaciones y tampoco cobra matrícula. Lanzado en 2012 por Jen Hung-tzu, editor de _Digital Times_, y Yen Lou-yu, consultor de contabilidad jubilado, permite que empresarios experimentados acompañen durante dos años a un emprendedor en etapa de crecimiento de forma individual. Solo acepta alrededor de veinte participantes al año; tras trece años, ha llegado hasta su decimoquinta cohorte, pero ha consolidado nombres como Appier, Sheqiliu y Portaly. Lo más contraintuitivo de su elección es que un grupo de personas que podían haberse jubilado para disfrutar de la vida eligió el método más lento y menos eficiente en términos de escala para entregar, de forma manual y sin pedir nada a cambio, a la siguiente generación el oficio de «cómo hacer crecer una empresa», algo difícil de verbalizar.

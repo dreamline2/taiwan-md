@@ -26,6 +26,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:51547944c653872d'
 sourceBodyHash: 'sha256:bc9b5cd80bcd52ef'
 translatedAt: '2026-05-03T21:10:09+08:00'
+image: '/article-images/lifestyle/taishan-toll-station-2008.webp'
+imageCredit: 'MiNe (Flickr), via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taishan_Toll_Station_20080818a.jpg'
 ---
 
 > **«En aquella cabina de apenas un metro cuadrado, lo que recibíamos no era un boleto, sino el alma de incontables viajeros. Cuando bajábamos la ventanilla, lo que entraba era el viento gélido del invierno, el bochorno del verano y aquel suave "gracias por su trabajo".»**

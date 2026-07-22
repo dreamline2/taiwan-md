@@ -22,6 +22,10 @@ sourceCommitSha: '6e4cfc200'
 sourceContentHash: 'sha256:15ae499dfcb97aac'
 sourceBodyHash: 'sha256:01c949b0613e035a'
 translatedAt: '2026-06-14T00:37:05+08:00'
+image: '/article-images/history/cross-party-freeway-no1-2015.webp'
+imageCredit: 'Koika / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Freeway_No._1_Taishan_section.jpg'
 ---
 
 > **Resumen en 30 segundos:** Un lector dijo en Threads que estaba cansado de los insultos entre azules y verdes en la mesa familiar, y que solo quería recordar las cosas que realmente fueron buenas para Taiwán y pudieron perdurar. Este artículo busca para él once políticas de los últimos setenta años: desde la reforma agraria que expropió tierras bajo el autoritarismo hasta la infraestructura prospectiva que sigue siendo discutida en 2026. Deliberadamente no las medimos con la vara azul-verde, sino con cuatro medidas: medios de vida (si la vida cotidiana mejoró), democracia (si la decisión sobre quién gobierna volvió al pueblo), derechos civiles (si se protegieron los derechos de las minorías) y soberanía (si Taiwán puede plantarse ante el mundo). Estas cuatro medidas no preguntan "quién lo hizo", sino "qué dejó para quienes viven en esta isla". La conclusión es algo contraintuitiva: las políticas que de verdad sobreviven a su propia política suelen haber nacido el día en que más se discutía por ellas.

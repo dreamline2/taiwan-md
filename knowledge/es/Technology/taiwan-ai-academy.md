@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4e403df024cd43dc'
 sourceBodyHash: 'sha256:04e9009c16ede3cb'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.webp'
+imageCredit: '台灣人工智慧學校官方'
+imageLicense: 'Fair use editorial commentary on AIA founder portrait'
+imageSource: 'https://aiacademy.tw/swc/'
 ---
 
 # Escuela Taiwanesa de Inteligencia Artificial: la llamada inconclusa y diez mil ingenieros de IA

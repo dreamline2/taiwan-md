@@ -23,6 +23,10 @@ sourceCommitSha: 'ce74fa26'
 sourceContentHash: 'sha256:d7bd090bae6990bf'
 sourceBodyHash: 'sha256:381c1171bf2bf67f'
 translatedAt: '2026-06-06T00:00:00Z'
+image: /article-images/music/saxophone-craft-object-2017.webp
+imageCredit: '薩克斯風本體示意 · Wikimedia Commons · CC BY-SA 4.0（非后里特定廠牌實拍）'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:A_Saxophone.jpg'
 ---
 
 # L'industrie taïwanaise de la fabrication d'instruments de musique : des saxophones de Houli aux usines musicales mondiales

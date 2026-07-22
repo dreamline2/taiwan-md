@@ -35,6 +35,10 @@ sourceCommitSha: 'fe48ea49'
 sourceContentHash: 'sha256:6d18e9e22ea3f7db'
 sourceBodyHash: 'sha256:53b18682028046a0'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/geography/dalongdong-baoan-temple-2010s.webp'
+imageCredit: 'Tianmu peter via panoramio'
+imageLicense: 'CC BY 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%BE%8D%E5%B3%92%E4%BF%9D%E5%AE%89%E5%AE%AE_Dalongdong_Baoan_Temple_-_panoramio.jpg'
 ---
 
 # 大龍峒：保安宮の香、孔廟の鐘、圓山の青天白日、三つの時代の台北信仰

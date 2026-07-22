@@ -26,6 +26,10 @@ sourceCommitSha: '6f05295a'
 sourceContentHash: 'sha256:3f29bb0238e156dd'
 sourceBodyHash: 'sha256:2ef28056f6ad3ed1'
 translatedAt: '2026-06-21T00:36:02+08:00'
+image: '/article-images/art/li-poetry-wu-sheng-2016.webp'
+imageCredit: 'Rico Shen via Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:2016TIBE_D3_Wu_Sheng.jpg'
 ---
 
 # Sociedad Poética Li: un grupo obligado a olvidar el japonés sostuvo la revista de poesía en chino más longeva de Taiwán

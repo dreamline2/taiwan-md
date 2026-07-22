@@ -35,6 +35,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:5b2be7a2e0aa64aa'
 sourceBodyHash: 'sha256:18f3978bd2f84e6f'
 translatedAt: '2026-06-16T02:24:17+08:00'
+image: '/article-images/geography/shilin-cixian-temple-2010.webp'
+imageCredit: '龍本'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Shilin_Cixian_Temple_20100213.jpg'
 ---
 
 # Shilin : terre des Ketagalan, temple des affrontements Zhangzhou-Quanzhou, aujourd'hui le marché de nuit le plus dense de Taipei

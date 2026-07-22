@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:3ae429b55b3339f0'
 sourceBodyHash: 'sha256:00c160f3d2bfc5b4'
 translatedAt: '2026-06-14T00:37:05+08:00'
+image: '/article-images/art/invisible-nation-tsai-walks.webp'
+imageCredit: '《看不見的國家》（Invisible Nation, dir. Vanessa Hope）官方劇照'
+imageLicense: 'Fair use editorial commentary on Invisible Nation (2023)'
+imageSource: 'https://www.invisiblenation.net/'
 ---
 
 > **Vue d’ensemble en 30 secondes :** 《看不見的國家》（Invisible Nation） est un documentaire que la réalisatrice américaine Vanessa Hope a mis sept ans à tourner. À travers cinq entretiens au plus près de la présidente de l’époque, Tsai Ing-wen, il place devant la caméra mondiale une île exclue de l’ONU, contrainte de participer aux Jeux olympiques sous le nom de « Taipei chinois », et dont les alliés diplomatiques sont passés de 22 à 12. Présenté en première mondiale au Woodstock Film Festival en 2023[^1], il est sorti en salles à Taïwan en juin 2025 ; ses recettes ont dépassé 37,71 millions de dollars taïwanais, ce qui l’a porté au troisième rang de l’histoire du documentaire taïwanais[^2]. Mais ce film censé rendre Taïwan « visible » possède lui aussi ses angles morts : les critiques ont surtout visé la proximité obtenue en sept ans grâce à la coopération du bureau de Tsai, ainsi que ce nom qui n’est jamais prononcé du début à la fin : Chen Shui-bian.

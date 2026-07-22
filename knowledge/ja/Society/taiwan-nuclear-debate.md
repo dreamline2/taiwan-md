@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:644a9c58c9027809'
 sourceBodyHash: 'sha256:9d34f10c11b5b667'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/society/anti-nuclear-protest-legislative-yuan-voa-2013.webp'
+imageCredit: '2013 年 4 月，反核民間團體包圍立法院。Voice of America，Public Domain'
+imageLicense: 'Public Domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Longmen_Nuclear_Power_Plant_from_VOA_(1).jpg'
 ---
 
 # 台湾と原子力をめぐる議論：反原発はかつて民主運動の共通言語でしたが、気候危機が各陣営の前提を組み替えました

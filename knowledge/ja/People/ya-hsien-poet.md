@@ -33,6 +33,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-06-14'
     url: 'https://x.com/taiwandotmd/status/2066097087318790182'
+image: '/article-images/people/yaxian-portrait-2012.webp'
+imageCredit: '目宿媒體股份有限公司 (Wikimedia Commons, CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%98%82%E5%BC%A6.tif'
 ---
 
 # 瘂弦：『深淵』を書き終えて筆を断ち、後半生は「聯副」で詩史の一頁となりました

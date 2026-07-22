@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:b0a47a120aff0621'
 sourceBodyHash: 'sha256:b8ebcfc4e0a96ce7'
 translatedAt: '2026-06-16T17:05:15Z'
+image: '/article-images/nature/morakot-modis-satellite-2009.webp'
+imageCredit: 'NASA MODIS Rapid Response (Aqua)'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
 ---
 
 # 風雨は予測できても、運命は予測できません：台湾と台風の四百年

@@ -1,19 +1,21 @@
 ---
-title: "Soupe de nouilles au bœuf"
-description: "De la nostalgie des immigrants continentaux à la cuisine nationale taïwanaise : la fusion culturelle et le rayonnement mondial de la soupe de nouilles au bœuf"
+title: 'Soupe de nouilles au bœuf'
+description: 'De la nostalgie des immigrants continentaux à la cuisine nationale taïwanaise : la fusion culturelle et le rayonnement mondial de la soupe de nouilles au bœuf'
 date: 2026-03-17
-author: "Taiwan.md"
-category: "Food"
-subcategory: "經典小吃"
-tags: ["美食", "牛肉麵", "外省菜", "文化融合", "台北牛肉麵節", "米其林"]
+author: 'Taiwan.md'
+category: 'Food'
+subcategory: '經典小吃'
+tags: ['美食', '牛肉麵', '外省菜', '文化融合', '台北牛肉麵節', '米其林']
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: true
-translatedFrom: "Food/牛肉麵.md"
-sourceCommitSha: "30569f742"
-sourceContentHash: "sha256:2d9ee979d4f7479e"
-sourceBodyHash: "sha256:fcb7ba6bb70c92d6"
-translatedAt: "2026-05-20T05:08:34+08:00"
+translatedFrom: 'Food/牛肉麵.md'
+sourceCommitSha: '30569f742'
+sourceContentHash: 'sha256:2d9ee979d4f7479e'
+sourceBodyHash: 'sha256:fcb7ba6bb70c92d6'
+translatedAt: '2026-05-20T05:08:34+08:00'
+image: '/images/wiki/5be514264de6.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA 2.0'
 ---
 
 # Soupe de nouilles au bœuf

@@ -1,20 +1,39 @@
 ---
-title: "Penghu: dos veces rechazó el casino, y la Isla del Crisantemo no eligió la pobreza"
-description: "El 26 de septiembre de 2009, en Magong se abrieron las urnas: 17.359 votos en contra, el casino perdió por 3.962 votos. Siete años después, en 2016, se votó de nuevo: 81,07 % en contra. Un archipiélago con apenas 1.000 mm de lluvia al año, 108.000 habitantes registrados pero solo 80.000 residentes efectivos, celebró el primer referéndum local sobre juego en todo el país y luego lo repitió. En esas mismas aguas, en 1604 Shen Yourong hizo retirarse a los holandeses; en 1622 los holandeses partieron de Fengguetou hacia Tainan; en 1885 el almirante francés Amédée Courbet murió de cólera en el puerto de Magong. Las columnas de basalto de 1,740 millones de años siguen en pie, 89 islas son roca volcánica negra y 1 es una andesita más antigua. Dentro de los muros de piedra de los huertos de invierno, los cultivos crecen al abrigo del viento."
+title: 'Penghu: dos veces rechazó el casino, y la Isla del Crisantemo no eligió la pobreza'
+description: 'El 26 de septiembre de 2009, en Magong se abrieron las urnas: 17.359 votos en contra, el casino perdió por 3.962 votos. Siete años después, en 2016, se votó de nuevo: 81,07 % en contra. Un archipiélago con apenas 1.000 mm de lluvia al año, 108.000 habitantes registrados pero solo 80.000 residentes efectivos, celebró el primer referéndum local sobre juego en todo el país y luego lo repitió. En esas mismas aguas, en 1604 Shen Yourong hizo retirarse a los holandeses; en 1622 los holandeses partieron de Fengguetou hacia Tainan; en 1885 el almirante francés Amédée Courbet murió de cólera en el puerto de Magong. Las columnas de basalto de 1,740 millones de años siguen en pie, 89 islas son roca volcánica negra y 1 es una andesita más antigua. Dentro de los muros de piedra de los huertos de invierno, los cultivos crecen al abrigo del viento.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Penghu", "Condado de Penghu", "Islas periféricas", "Magong", "Isla del Crisantemo", "Basalto", "Presa de piedra en forma de doble corazón", "Puente transmarino", "Asentamiento de Erkan", "Tianhou Temple de la Fundación de Taiwán", "Referéndum sobre juego", "Cuatro Islas del Sur", "Serie de 22 condados y ciudades"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Penghu',
+    'Condado de Penghu',
+    'Islas periféricas',
+    'Magong',
+    'Isla del Crisantemo',
+    'Basalto',
+    'Presa de piedra en forma de doble corazón',
+    'Puente transmarino',
+    'Asentamiento de Erkan',
+    'Tianhou Temple de la Fundación de Taiwán',
+    'Referéndum sobre juego',
+    'Cuatro Islas del Sur',
+    'Serie de 22 condados y ciudades',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/澎湖縣.md"
-sourceCommitSha: "dd6cd0156"
-sourceContentHash: "sha256:e10092be60773ede"
-sourceBodyHash: "sha256:d8c2fdecefda4ce7"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/澎湖縣.md'
+sourceCommitSha: 'dd6cd0156'
+sourceContentHash: 'sha256:e10092be60773ede'
+sourceBodyHash: 'sha256:d8c2fdecefda4ce7'
+translatedAt: '2026-05-18T05:08:09+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bridge_across_the_Houmen_Channel.jpg/1280px-Bridge_across_the_Houmen_Channel.jpg
+imageCredit: Wing1990hk
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Bridge_across_the_Houmen_Channel.jpg
 ---
 
 # Penghu: dos veces rechazó el casino, y la Isla del Crisantemo no eligió la pobreza
@@ -62,7 +81,7 @@ _Tejados del asentamiento de Erkan, 2011-07-09. Foto: Perryn1258 vía Wikimedia 
 
 Dentro de los muros crecen cosas. El «càizhái» (huerto cercado) de Penghu es la solución agrícola para el invierno. La entrada de Wikipedia sobre los huertos de Penghu lo describe así: «El "càizhái" de Penghu, también llamado "zháinèi", es un terreno agrícola refinado rodeado por muros de piedra en sus cuatro lados para resistir el fuerte monzón del noreste y permitir que los cultivos delicados crezcan sin problemas en invierno. [...] El muro norte es el más alto, de unos 1,6 a 2,5 metros [...] Los muros de piedra suelen construirse con materiales locales como piedra de coral o basalto»[^12]. Vistos desde el aire, cientos de càizhái contiguos forman un panal. En invierno, fuera sopla el viento canalizado por el estrecho de Houmen, y dentro crecen coliflor, col, jengibre y batata.
 
-La misma piedra también se sumerge en el mar. «En todo el mundo hay menos de 600 presas de piedra (shihu); el Condado de Penghu cuenta actualmente con más de 574 presas de piedra, de las cuales al menos 109 rodean la isla Jibei, la mayor densidad del mundo»[^13]. Los pescadores apilan basalto y coral formando muros en arco sobre la zona intermareal: con la marea alta los peces entran, con la marea baja quedan atrapados dentro. El *Taiwan Fuzhi* (Crónica de la Prefectura de Taiwán) del año 35 del reinado del emperador Kangxi (1696) ya registraba las presas de piedra de Penghu, y en la década de 1950 la pesca con presas de piedra representaba cerca del 80 % del valor total de la pesca del condado[^14]. Hoy la mayoría de las presas de piedra solo conservan su valor como paisaje cultural, pero bajo el acantilado marino al norte de Dingxi, en la aldea Donghu del municipio de Qimei, se conserva la presa de piedra en forma de doble corazón más completa, reconstruida en 1937 por el maestro Jibei Basile[^15].
+La misma piedra también se sumerge en el mar. «En todo el mundo hay menos de 600 presas de piedra (shihu); el Condado de Penghu cuenta actualmente con más de 574 presas de piedra, de las cuales al menos 109 rodean la isla Jibei, la mayor densidad del mundo»[^13]. Los pescadores apilan basalto y coral formando muros en arco sobre la zona intermareal: con la marea alta los peces entran, con la marea baja quedan atrapados dentro. El _Taiwan Fuzhi_ (Crónica de la Prefectura de Taiwán) del año 35 del reinado del emperador Kangxi (1696) ya registraba las presas de piedra de Penghu, y en la década de 1950 la pesca con presas de piedra representaba cerca del 80 % del valor total de la pesca del condado[^14]. Hoy la mayoría de las presas de piedra solo conservan su valor como paisaje cultural, pero bajo el acantilado marino al norte de Dingxi, en la aldea Donghu del municipio de Qimei, se conserva la presa de piedra en forma de doble corazón más completa, reconstruida en 1937 por el maestro Jibei Basile[^15].
 
 > **✦** «**En todo el mundo hay menos de 600 presas de piedra; el Condado de Penghu cuenta actualmente con más de 574 presas de piedra, de las cuales al menos 109 rodean la isla Jibei, la mayor densidad del mundo.**» (Sitios potenciales del Patrimonio Mundial de Taiwán del Ministerio de Cultura: [Grupo de presas de piedra de Penghu][^13])
 
@@ -110,7 +129,7 @@ La industria turística de verano de Penghu se vino abajo por completo. Al año 
 
 A partir de ese año, Penghu contó con un evento representativo del verano. En 2019, el festival celebró 22 sesiones, con aproximadamente 420.000 visitantes, la cifra más alta de su historia. La pandemia de COVID lo redujo a cero; en 2022 se reanudó, y durante ese período los ingresos turísticos superaron los 322 millones de dólares taiwaneses.
 
-Pero el festival tiene un problema estructural: solo se celebra en verano. Un artículo de entrevistas de *The Reporter* con empresarios turísticos de Penghu señala: «**Trabajar en verano y descansar en invierno es la modalidad general de los empresarios turísticos de Penghu**»[^25]. De abril a septiembre es la temporada alta; de octubre a marzo, la temporada baja. En temporada baja, los vuelos se cancelan fácilmente por el monzón del noreste y restaurantes y casas de huéspedes están medio vacíos. *The Reporter* escribió una frase aún más precisa: «**Cada dos años cambia la gestión de otra casa de huéspedes**».
+Pero el festival tiene un problema estructural: solo se celebra en verano. Un artículo de entrevistas de _The Reporter_ con empresarios turísticos de Penghu señala: «**Trabajar en verano y descansar en invierno es la modalidad general de los empresarios turísticos de Penghu**»[^25]. De abril a septiembre es la temporada alta; de octubre a marzo, la temporada baja. En temporada baja, los vuelos se cancelan fácilmente por el monzón del noreste y restaurantes y casas de huéspedes están medio vacíos. _The Reporter_ escribió una frase aún más precisa: «**Cada dos años cambia la gestión de otra casa de huéspedes**».
 
 Un foráneo ve Penghu así: cielo azul y mar turquesa en verano. Un penghuano ve Penghu así: el verano es cuando se trabaja, el invierno es la verdadera Penghu. En invierno, los càizhái siguen produciendo cultivos. En invierno, el monzón del noreeste sopla sin cesar. En invierno, por la noche, la calle Central de Magong no tiene turistas, solo lugareños. **Los dos tiempos de Penghu se superponen sobre esos 141 km²**.
 
@@ -143,7 +162,7 @@ El 26 de septiembre de 2009 se celebró el primer referéndum local sobre juego 
 
 Este fue el segundo referéndum local tras la aprobación de la Ley de Referéndum. El diseño legal establecía originalmente que la legalización de casinos debía pasar primero por un referéndum local. Penghu fue seleccionado porque cumplía las condiciones: isla periférica, población pequeña, orientada al turismo, con terreno disponible. Los conglomerados apostaron por ello. La convocatoria de la Alianza Antijuego de Penghu, la monja budista Shih Chao-hwei (釋昭慧), dijo una vez cerradas las urnas una frase que se sigue citando hasta hoy: «**Los pequeños camarones vencieron a los grandes conglomerados; los penghuanos salvaron a Penghu con sus votos, y también salvaron a Taiwán**»[^35].
 
-En los dos años siguientes, la industria turística de hecho creció. Los datos de seguimiento posteriores de *The Reporter* indican: «**En los dos años posteriores al referéndum antijuego de 2009, hasta 2011 el número de turistas en Penghu aumentó un 15 %**»[^25]. Sin casino, el turismo también creció. Pero este encuadre es demasiado simplista: los penghuanos en realidad no viven de la narrativa de que «el referéndum trajo crecimiento turístico».
+En los dos años siguientes, la industria turística de hecho creció. Los datos de seguimiento posteriores de _The Reporter_ indican: «**En los dos años posteriores al referéndum antijuego de 2009, hasta 2011 el número de turistas en Penghu aumentó un 15 %**»[^25]. Sin casino, el turismo también creció. Pero este encuadre es demasiado simplista: los penghuanos en realidad no viven de la narrativa de que «el referéndum trajo crecimiento turístico».
 
 Siete años después, el 15 de octubre de 2016, se votó de nuevo. La misma pregunta, cifras diferentes:
 
@@ -153,11 +172,11 @@ Siete años después, el 15 de octubre de 2016, se votó de nuevo. La misma preg
 
 ¿Qué ocurrió en esos siete años intermedios? Nada. No hubo un enriquecimiento repentino, no se resolvió el problema de la temporada baja invernal, no se frenó el éxodo de jóvenes, no se detuvo la contracción de la pesca. Los penghuanos simplemente aumentaron el porcentaje de votos en contra en 25 puntos y dijeron NO por segunda vez.
 
-> **📝 Nota del curador:** La narrativa habitual en internet es que «los penghuanos rechazaron el casino por miedo a los problemas de seguridad». Pero esta explicación invierte la causa y el efecto. El verdadero núcleo del rechazo al juego en Penghu está contenido en la frase de Shih Chao-hwei en 2009: «Los penghuanos salvaron a Penghu con sus votos». La connotación implícita de «salvar» es que Penghu estaba a punto de convertirse en otra cosa, y que los penghuanos eligieron por sí mismos no querer ser esa cosa. Un empleado del aeropuerto dijo en una entrevista con *The Reporter*: «**Todo eso es un juego de dinero de los conglomerados; para nosotros, la gente de Penghu, no tiene ninguna ayuda real**»[^37]. Un empresario local de productos típicos lo expresó de forma más concreta: «**El casino promete que comer, beber, divertirse y jugar están todo integrados dentro del casino; los "turistas" que vienen al casino quedan atrapados por las instalaciones y servicios del casino, ¿quién va a venir a pasear por las calles? Nosotros no ganaríamos nada con un casino**»[^38]. **Las dos veces que se dijo NO no iban dirigidas contra el casino, sino contra el derecho a decidir «quién define Penghu». Cuando alguien desde fuera decide por ti en qué deberías convertirte, tú dices que no. Incluso si no ves cuál es el siguiente paso, dices que no primero.**
+> **📝 Nota del curador:** La narrativa habitual en internet es que «los penghuanos rechazaron el casino por miedo a los problemas de seguridad». Pero esta explicación invierte la causa y el efecto. El verdadero núcleo del rechazo al juego en Penghu está contenido en la frase de Shih Chao-hwei en 2009: «Los penghuanos salvaron a Penghu con sus votos». La connotación implícita de «salvar» es que Penghu estaba a punto de convertirse en otra cosa, y que los penghuanos eligieron por sí mismos no querer ser esa cosa. Un empleado del aeropuerto dijo en una entrevista con _The Reporter_: «**Todo eso es un juego de dinero de los conglomerados; para nosotros, la gente de Penghu, no tiene ninguna ayuda real**»[^37]. Un empresario local de productos típicos lo expresó de forma más concreta: «**El casino promete que comer, beber, divertirse y jugar están todo integrados dentro del casino; los "turistas" que vienen al casino quedan atrapados por las instalaciones y servicios del casino, ¿quién va a venir a pasear por las calles? Nosotros no ganaríamos nada con un casino**»[^38]. **Las dos veces que se dijo NO no iban dirigidas contra el casino, sino contra el derecho a decidir «quién define Penghu». Cuando alguien desde fuera decide por ti en qué deberías convertirte, tú dices que no. Incluso si no ves cuál es el siguiente paso, dices que no primero.**
 
-La revista *Commonwealth* entrevistó a varias segundas generaciones de penghuanos que habían regresado a su tierra. Lo que estaban haciendo era turismo de profundidad, turismo ecológico y turismo respetuoso con el medio ambiente: tras rechazar la visión turística del casino, querían hacer crecer algo diferente en el espacio en blanco. Una de las frases más citadas es: «**Buscar el turismo de profundidad y el respeto al medio ambiente son los valores con los que se identifican**»[^39].
+La revista _Commonwealth_ entrevistó a varias segundas generaciones de penghuanos que habían regresado a su tierra. Lo que estaban haciendo era turismo de profundidad, turismo ecológico y turismo respetuoso con el medio ambiente: tras rechazar la visión turística del casino, querían hacer crecer algo diferente en el espacio en blanco. Una de las frases más citadas es: «**Buscar el turismo de profundidad y el respeto al medio ambiente son los valores con los que se identifican**»[^39].
 
-En otra entrevista en profundidad de *The Reporter*, Liu Yixiang (劉翊暘) del Frente Juvenil de Penghu dijo una frase aún más cercana al núcleo: «**En realidad, cada niño de Penghu está buscando una forma de volver a casa**»[^40]. Cada joven que sale de Penghu para estudiar o trabajar en la isla principal de Taiwán lleva en la cabeza una versión de cómo debería crecer Penghu. Los que votan son la suma acumulada de todas esas versiones.
+En otra entrevista en profundidad de _The Reporter_, Liu Yixiang (劉翊暘) del Frente Juvenil de Penghu dijo una frase aún más cercana al núcleo: «**En realidad, cada niño de Penghu está buscando una forma de volver a casa**»[^40]. Cada joven que sale de Penghu para estudiar o trabajar en la isla principal de Taiwán lleva en la cabeza una versión de cómo debería crecer Penghu. Los que votan son la suma acumulada de todas esas versiones.
 
 ## Los huertos de invierno, fuera sopla el monzón del noreste
 
@@ -199,8 +218,8 @@ Este artículo utiliza 5 imágenes con licencia de Wikimedia Commons:
 
 Material audiovisual complementario:
 
-- PTS *Our Island* [Serie sobre las reservas de basalto de Penghu](https://ourisland.pts.org.tw/) — Documental geológico sobre la Reserva Natural de Basalto de Penghu de 1992 y la Reserva Natural de Basalto del Mar del Sur de Penghu de 2008.
-- PTS *Our Island* [Especial sobre la protección de la tortuga verde en Wang'an](https://ourisland.pts.org.tw/) — Observación in situ de la Zona de Protección del Hábitat de Anidación de Tortugas Verdes en la isla Wang'an, establecida en 1995.
+- PTS _Our Island_ [Serie sobre las reservas de basalto de Penghu](https://ourisland.pts.org.tw/) — Documental geológico sobre la Reserva Natural de Basalto de Penghu de 1992 y la Reserva Natural de Basalto del Mar del Sur de Penghu de 2008.
+- PTS _Our Island_ [Especial sobre la protección de la tortuga verde en Wang'an](https://ourisland.pts.org.tw/) — Observación in situ de la Zona de Protección del Hábitat de Anidación de Tortugas Verdes en la isla Wang'an, establecida en 1995.
 
 ## Referencias
 
@@ -230,7 +249,7 @@ Material audiovisual complementario:
 
 [^13]: [Sitios potenciales del Patrimonio Mundial de Taiwán: Grupo de presas de piedra de Penghu — Oficina de Bienes Culturales del Ministerio de Cultura](https://twh.boch.gov.tw/taiwan/intro.aspx?id=13) — Texto original: «En todo el mundo hay menos de 600 presas de piedra; el Condado de Penghu cuenta actualmente con más de 574 presas de piedra, de las cuales al menos 109 rodean la isla Jibei, la mayor densidad del mundo», estadística oficial.
 
-[^14]: [Cultura de las presas de piedra de Penghu — Oficina de Cultura del Condado de Penghu](https://www.phhcc.gov.tw/) — Registro histórico de las presas de piedra de Penghu documentadas en el *Taiwan Fuzhi* del año 35 del reinado del emperador Kangxi (1696), y de cómo en la década de 1950 la pesca con presas de piedra representaba cerca del 80 % del valor total de la pesca del condado.
+[^14]: [Cultura de las presas de piedra de Penghu — Oficina de Cultura del Condado de Penghu](https://www.phhcc.gov.tw/) — Registro histórico de las presas de piedra de Penghu documentadas en el _Taiwan Fuzhi_ del año 35 del reinado del emperador Kangxi (1696), y de cómo en la década de 1950 la pesca con presas de piedra representaba cerca del 80 % del valor total de la pesca del condado.
 
 [^15]: [Presa de piedra en forma de doble corazón — Wikipedia](https://zh.wikipedia.org/wiki/%E9%9B%99%E5%BF%83%E7%9F%B3%E6%BB%AC) — Registro completo: bajo el acantilado marino al norte de Dingxi, aldea Donghu, municipio de Qimei; reconstruida en 1937 por el maestro Jibei Basile; declarada paisaje cultural por el Gobierno del Condado de Penghu en 2006.
 
@@ -262,7 +281,7 @@ Material audiovisual complementario:
 
 [^29]: [Parque Nacional de las Cuatro Islas del Sur de Penghu — Wikipedia](https://zh.wikipedia.org/wiki/%E6%BE%8E%E6%B9%96%E5%8D%97%E6%96%B9%E5%9B%9B%E5%B3%B6%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92) — Texto original: «El Parque Nacional de las Cuatro Islas del Sur de Penghu es el noveno parque nacional de la República de China y el segundo parque nacional marino en la historia de Taiwán. [...] Se anunció oficialmente el 8 de junio de 2014»; área marina 35.473,33 ha, terrestre 370,29 ha, total 35.843,62 ha, registro oficial.
 
-[^30]: [Ecología coralina de la isla Xiyuping — Administración de Parques Nacionales Marinos](https://marine.cpami.gov.tw/) — Texto original: «La isla Xiyuping tiene una tasa de cobertura de coral superior al 50 %, la más alta de las Cuatro Islas del Sur; bajo el agua se pueden ver grandes extensiones de corales del género *Acropora* con formas ramificadas o en forma de mesa creciendo densamente, lo que le confiere un gran valor de conservación», registro oficial del parque nacional marino.
+[^30]: [Ecología coralina de la isla Xiyuping — Administración de Parques Nacionales Marinos](https://marine.cpami.gov.tw/) — Texto original: «La isla Xiyuping tiene una tasa de cobertura de coral superior al 50 %, la más alta de las Cuatro Islas del Sur; bajo el agua se pueden ver grandes extensiones de corales del género _Acropora_ con formas ramificadas o en forma de mesa creciendo densamente, lo que le confiere un gran valor de conservación», registro oficial del parque nacional marino.
 
 [^31]: [Estadísticas demográficas del Condado de Penghu — Departamento de Asuntos Civiles del Gobierno del Condado de Penghu](https://www.penghu.gov.tw/civil/) — Población registrada a finales de 2023: 108.000 personas (penúltima del país); población habitual según el censo de 2020: aproximadamente 82.000 (77 % de la registrada); índice de envejecimiento 194 %; Magong aproximadamente 64.000; Qimei 3.937 personas, estadísticas oficiales.
 

@@ -21,6 +21,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:6a3389f4e3aa59c9'
 sourceBodyHash: 'sha256:ac361a928edec55d'
 translatedAt: '2026-05-01T13:19:11+08:00'
+image: '/article-images/history/recall-bluebird-legislative-yuan-2024.webp'
+imageCredit: 'Fujifilmuser Taiwan'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20240528-8_A_look_in_front_of_the_legislative_yuan.jpg'
 ---
 
 > **30-second overview:**

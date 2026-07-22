@@ -5,7 +5,15 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '飲品文化'
-tags: ['gastronomía', 'bebidas preparadas a mano', 'té de burbujas', 'bebidas de té', 'exportación cultural', 'internacionalización de marcas']
+tags:
+  [
+    'gastronomía',
+    'bebidas preparadas a mano',
+    'té de burbujas',
+    'bebidas de té',
+    'exportación cultural',
+    'internacionalización de marcas',
+  ]
 readingTime: 8
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -15,6 +23,8 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:874c652bf8f5b63c'
 sourceBodyHash: 'sha256:53b616e81595b8c6'
 translatedAt: '2026-05-20T05:08:32+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # La cultura de las bebidas preparadas a mano en Taiwán
@@ -236,7 +246,11 @@ La cultura de las bebidas preparadas a mano en Taiwán, que comenzó con la inno
 ## Referencias
 
 [^1]: Chun Shui Tang, «Historia de la invención del té de burbujas», https://www.chunshuitang.com.tw/article-detail/invent-bubble-milk-tea/
+
 [^2]: Asociación de Franquicias y Cadenas de Taiwán, https://www.cfatwn.org.tw/
+
 [^3]: United Daily News, «El té de burbujas no tiene controversia de patente», https://udn.com/news/story/7321/3960989
+
 [^4]: Departamento de Estadísticas del Ministerio de Asuntos Económicos, Estadísticas operativas de la industria de bebidas, https://www.moea.gov.tw/
+
 [^5]: Sitio web oficial de Chun Shui Tang, https://www.chunshuitang.com.tw/

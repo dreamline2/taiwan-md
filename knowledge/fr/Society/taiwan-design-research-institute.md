@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc9a16af37eefe47'
 sourceBodyHash: 'sha256:f7df18837078b48f'
 translatedAt: '2026-06-16T16:40:09Z'
+image: '/article-images/society/tdri-songshan-entrance-2022.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Entrance_2,_Songshan_Cultural_and_Creative_Park_20220423.jpg'
 ---
 
 La salle d'attente du centre de santé de Xizhi ne ressemble plus vraiment à un centre de santé. Les tubes fluorescents, les chaises en plastique et les guichets de retrait de médicaments serrés les uns contre les autres ont disparu, remplacés par un ensemble de modules démontables et assemblables comme des briques : une version urbaine, une version pour villes nouvelles et une version pour bourgs et cantons. Le bureau de la santé publique du Nouveau Taipei y a consacré treize mois, en commençant par deux sites pilotes, Xizhi et Yingge[^1]. Vous n'avez probablement jamais prêté attention à cette histoire. Vous allez vous faire vacciner, prendre votre tension, récupérer des médicaments pour une maladie chronique ; le parcours est un peu plus fluide qu'avant, l'attente un peu moins irritante, puis vous partez.

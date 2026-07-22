@@ -22,6 +22,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:3c2872e562b3f229'
 sourceBodyHash: 'sha256:43f231d59e183f8e'
 translatedAt: '2026-05-01T22:19:10+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bunun_pasibutbut.jpg/1280px-Bunun_pasibutbut.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 > **Resumen en 30 segundos:** En 1943, el musicólogo japonés Takemitsu Takashina llevó equipos de grabación hasta el pueblo Kanding en las montañas de Taitung y registró el Pasibutbut, la canción de oración por la cosecha mijo del pueblo Bunun. Nueve años después, esta grabación fue enviada a la UNESCO, y los musicólogos presentes quedaron estupefactos: la teoría occidental sostenía que el canto polifónico era producto de civilizaciones avanzadas, pero los Bunun, sin escritura ni instrumentos, en lo profundo de las montañas, lo lograron mediante la resonancia de la voz humana. Este sonido celestial, conocido como "ocho voces en armonía", sigue siendo el sonido con mayor reconocimiento internacional de Taiwán.

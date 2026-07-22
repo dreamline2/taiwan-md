@@ -1,20 +1,40 @@
 ---
-title: "新北市：台北を囲む環状都市圏、401万人が首都の通勤・工業・記憶を支えています"
-description: "淡水紅毛城は、1628年にスペイン人が最初のレンガを積んでから398年になります。1875年に沈葆楨が台北府を設置する247年前のことです。現在、新北市の29区は台北市の12区を囲み、401万人が台湾最大の直轄市に暮らし、39万人が県市を越えて台北へ通勤しています。しかしこの「環状都市圏」は台北のベッドタウンではありません。1853年の板橋林家、1869年に淡水から輸出されニューヨークで売られた烏龍茶、1890年代のアジア第一の金鉱である九份・金瓜石、1929年に石炭を運んだ平渓鉄道、1947年に李梅樹が始めた三峡祖師廟の彫刻、烏来タイヤル族の德拉楠部落があります。新北は台湾400年の縮図であり、たまたま台北市の中にないだけです。"
+title: '新北市：台北を囲む環状都市圏、401万人が首都の通勤・工業・記憶を支えています'
+description: '淡水紅毛城は、1628年にスペイン人が最初のレンガを積んでから398年になります。1875年に沈葆楨が台北府を設置する247年前のことです。現在、新北市の29区は台北市の12区を囲み、401万人が台湾最大の直轄市に暮らし、39万人が県市を越えて台北へ通勤しています。しかしこの「環状都市圏」は台北のベッドタウンではありません。1853年の板橋林家、1869年に淡水から輸出されニューヨークで売られた烏龍茶、1890年代のアジア第一の金鉱である九份・金瓜石、1929年に石炭を運んだ平渓鉄道、1947年に李梅樹が始めた三峡祖師廟の彫刻、烏来タイヤル族の德拉楠部落があります。新北は台湾400年の縮図であり、たまたま台北市の中にないだけです。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["新北", "新北市", "北部", "板橋", "淡水", "九份", "金瓜石", "三峡", "鶯歌", "烏来", "平渓", "貢寮", "環状都市圏", "22県市シリーズ"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '新北',
+    '新北市',
+    '北部',
+    '板橋',
+    '淡水',
+    '九份',
+    '金瓜石',
+    '三峡',
+    '鶯歌',
+    '烏来',
+    '平渓',
+    '貢寮',
+    '環状都市圏',
+    '22県市シリーズ',
+  ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/新北市.md"
-sourceCommitSha: "4aa49c873"
-sourceContentHash: "sha256:112ba1c658fb3b9a"
-sourceBodyHash: "sha256:8f043620c961da1e"
-translatedAt: "2026-05-19T05:08:06+08:00"
+translatedFrom: 'Geography/新北市.md'
+sourceCommitSha: '4aa49c873'
+sourceContentHash: 'sha256:112ba1c658fb3b9a'
+sourceBodyHash: 'sha256:8f043620c961da1e'
+translatedAt: '2026-05-19T05:08:06+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2017_Fort_San_Domingo.jpg/1280px-2017_Fort_San_Domingo.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/Category:Fort_Santo_Domingo
 ---
 
 # 新北市：台北を囲む環状都市圏、401万人が首都の通勤・工業・記憶を支えています

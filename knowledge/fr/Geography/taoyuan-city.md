@@ -29,6 +29,10 @@ sourceCommitSha: '32ce121bf'
 sourceContentHash: 'sha256:7640ea7a9c81bfb6'
 sourceBodyHash: 'sha256:29eb70a9d2662cc7'
 translatedAt: '2026-06-12T03:51:14+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Taoyuan_Airport_Terminal_2_Aerial.jpg/1280px-Taoyuan_Airport_Terminal_2_Aerial.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/Category:Taiwan_Taoyuan_International_Airport
 ---
 
 # Taoyuan : les importations-exportations de Taïwan, le plus grand nombre de Hakkas, le plus grand nombre de travailleurs migrants, tout sur ce plateau

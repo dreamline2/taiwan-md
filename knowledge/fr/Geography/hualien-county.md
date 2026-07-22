@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7da2390cfed253e'
 sourceBodyHash: 'sha256:4e86fa147bee5767'
 translatedAt: '2026-06-16T17:05:54Z'
+image: https://upload.wikimedia.org/wikipedia/commons/0/03/Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
+imageCredit: Fred Hsu
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
 ---
 
 # Comté de Hualien : les Sakizaya dissimulés pendant 129 ans, Taroko retrouvé par la rectification du nom, puis de nouveau éloigné par le 0403

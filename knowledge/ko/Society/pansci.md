@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fc2836e9d3ebf9e7'
 sourceBodyHash: 'sha256:498dc3f8b99093f6'
 translatedAt: '2026-06-16T17:05:51Z'
+image: '/article-images/society/cheng-kuo-wei-portnoy-2026.webp'
+imageCredit: '© 鏡週刊 Mirror Media（陳昌遠攝）'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.mirrormedia.mg/story/20260402pol001'
 ---
 
 > **30초 개요:** PanSci 팬사이는 2011년에 설립된 대만의 과학 웹사이트이자 커뮤니티다. 대만디지털문화협회의 중단된 프로젝트에서 자라났고, 초기에는 정궈웨이와 쉬팅야오가 과학 블로거들을 찾아가 원고를 청탁하고 커뮤니티를 운영하며 버텼다. 2013년에는 이미 80여 명의 과학 블로거와 2,780편 이상의 글을 보유했다. 이후 커뮤니케이션 연구는 팬사이를 대만 과학 커뮤니케이션의 민주화, 소셜미디어 기반 공중 참여, 양안 과학 대중화 웹사이트 비교라는 틀 안에서 보았다. 2020년대에 이르러 팬사이는 글, 팬사이 아카데미, 과학생, 영상, 광고 프로젝트, 전자상거래, YouTube MCN을 하나의 지식 서비스망으로 연결했다. 그 핵심 긴장은 분명하다. 과학이 공공 토론 안에 머물려면, 플랫폼은 먼저 상업 프로젝트와 알고리즘 속에서 살아남아야 한다.

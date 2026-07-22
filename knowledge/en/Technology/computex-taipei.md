@@ -39,6 +39,10 @@ sourceCommitSha: 'f42792f5b'
 sourceContentHash: 'sha256:449abef15e4dd610'
 sourceBodyHash: 'sha256:accbe76a7072df77'
 translatedAt: '2026-07-01T16:45:24Z'
+image: '/article-images/technology/computex-nangang-floor-2011.webp'
+imageCredit: 'Masaru Kamikura via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Computex_Taipei_sign_inside_of_Taipei_Nangang_Exhibition_Center_20110531.jpg'
 ---
 
 # Computex: Two of the Big Three International Computer Shows Are Gone — the Last One Grew in Taipei

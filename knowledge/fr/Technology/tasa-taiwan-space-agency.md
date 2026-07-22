@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:a54685fba76c9f68'
 sourceBodyHash: 'sha256:5ca31c80049b9985'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/technology/formosat8-tasa-banner.webp'
+imageCredit: '國家太空中心 TASA（官方釋出，fair use editorial commentary）'
+imageLicense: 'Fair use editorial commentary（©TASA）'
+imageSource: 'https://www.tasa.org.tw/zh-TW/missions/detail/FORMOSAT-8'
 ---
 
 En 2016, dans le clip de « Stubborn » du groupe Mayday, un homme d'âge mûr construit une fusée dans un terrain vague. On le prend pour un fou qui rêve en plein jour ; à la fin, il s'attache une fusée artisanale sur le dos et s'envole vers le ciel. Pour la plupart des Taïwanais, la première rencontre avec Wu Jong-shinn ne s'est pas faite par l'intermédiaire d'une institution nationale, mais par ce clip : celui de l'« oncle des fusées »[^1].

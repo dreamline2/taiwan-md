@@ -32,6 +32,10 @@ sourceCommitSha: '1fbb3adf1'
 sourceContentHash: 'sha256:6b1de66c12b3c38a'
 sourceBodyHash: 'sha256:c557c6ff09961dc3'
 translatedAt: '2026-05-19T05:08:06+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Taipei_skyline_cityscape_at_dusk.jpg/1600px-Taipei_skyline_cityscape_at_dusk.jpg
+imageCredit: peellden
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taipei_skyline_cityscape_at_dusk.jpg
 ---
 
 # Taipei City: Three Times Within One City, Longshan Temple of 1738 Looking at Taipei 101 of 2004

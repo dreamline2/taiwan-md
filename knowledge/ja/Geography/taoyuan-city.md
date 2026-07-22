@@ -5,7 +5,21 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['桃園', '桃園市', '北部', '機場', '客家', '中壢事件', '石門水庫', '大溪老街', '埤塘', '移工', '泰雅族', '22縣市系列']
+tags:
+  [
+    '桃園',
+    '桃園市',
+    '北部',
+    '機場',
+    '客家',
+    '中壢事件',
+    '石門水庫',
+    '大溪老街',
+    '埤塘',
+    '移工',
+    '泰雅族',
+    '22縣市系列',
+  ]
 readingTime: 10
 lastVerified: 2026-05-18
 lastHumanReview: false
@@ -15,6 +29,10 @@ sourceCommitSha: 32ce121bf
 sourceContentHash: sha256:7640ea7a9c81bfb6
 sourceBodyHash: sha256:29eb70a9d2662cc7
 translatedAt: 2026-05-19T05:08:06+08:00
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Taoyuan_Airport_Terminal_2_Aerial.jpg/1280px-Taoyuan_Airport_Terminal_2_Aerial.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/Category:Taiwan_Taoyuan_International_Airport
 ---
 
 # 桃園市：台湾の輸出入、最多の客家人、最多の外国人労働者、すべてがこの台地の上にある
@@ -102,7 +120,7 @@ _新屋范姜祖堂。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikime
 1964年6月14日、副総統陳誠が石門ダムの竣工式を主宰しました[^16]。**堤高133.1メートル、総貯水量309,120,000立方メートル**で、当時「**東洋最大のダム**」でした[^16]。建設費用は「**約新台湾ドル32億元、そのうち米国援助による新台湾ドル19億元の資金援助を含む**」[^16]でした。1954年から起算した準備期間と8年の工期を合わせて、7,500人以上が動員されました。石門ダムは桃園市龍潭区と大溪区、復興区の境界に位置しています。石門大圳は1964年6月に完工し、22,000ヘクタールの農地を灌漑しました。
 
 ![石門ダム、桃園市龍潭区と大溪区、復興区の境界に位置する。1964年6月14日、副総統陳誠が竣工式を主宰。堤高133.1メートル、総貯水量3.09億立方メートルで、当時東洋最大のダムであった。](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Shihmen_Reservoir_%280275%29.JPG/1280px-Shihmen_Reservoir_%280275%29.JPG)
-_石門ダム。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Shihmen_Reservoir_(0275).JPG)._
+_石門ダム。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Shihmen_Reservoir_(0275).JPG).\_
 
 ダムができる前、桃園台地は埤塘に頼っていました。
 
@@ -171,7 +189,7 @@ _拉拉山。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](http
 
 - **ヒーロー画像（フロントマター）+ シーン「午前4時」**：[桃園国際空港第2ターミナル](https://commons.wikimedia.org/wiki/Category:Taiwan_Taoyuan_International_Airport) — Wikimedia Commons contributor、CC BY-SA 4.0。1979年に開業した台湾の対外の玄関口、2024年の年間4,492万人の旅客の物理的な現場。
 - **シーン「客家系住民80万人以上」**：[新屋范姜祖堂](https://commons.wikimedia.org/wiki/File:Fan-Chiang_Family_Shrine_20140118.jpg) — Wikimedia Commons contributor、CC BY-SA 3.0。1855年范姜一族が祖堂を建設、「起新厝」すなわち「新屋」の地名の由来、桃園市定古蹟。
-- **シーン「ダムは133.1メートルに立ち上がり」**：[石門ダム](https://commons.wikimedia.org/wiki/File:Shihmen_Reservoir_(0275).JPG) — Wikimedia Commons contributor、CC BY-SA 3.0。1964年完工、東洋最大のダム、堤高133.1メートル。
+- **シーン「ダムは133.1メートルに立ち上がり」**：[石門ダム](<https://commons.wikimedia.org/wiki/File:Shihmen_Reservoir_(0275).JPG>) — Wikimedia Commons contributor、CC BY-SA 3.0。1964年完工、東洋最大のダム、堤高133.1メートル。
 - **シーン「乙未の戦場、慈湖、泰雅族」**：[拉拉山](https://commons.wikimedia.org/wiki/Category:Lalashan) — Wikimedia Commons contributor、CC BY-SA 4.0。泰雅族語「R'ra」は「美しい、感嘆の、見張り見守る」の意、桃園復興区と新北烏来の境界。
 
 ライセンス条項：[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
@@ -210,7 +228,7 @@ _拉拉山。Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](http
 
 [^15]: [桃園市工業統計 — 桃園市政府経済発展局](https://edb.tycg.gov.tw/) — 桃園市政府経済発展局公式統計。台湾の大手製造業500社の3分の1以上が桃園に工場を設置、工業団地42、工業生産額連年全台一、主要産業はTFT-LCD/半導体/航空宇宙維修/光電/自動車部品/紡織染色の完全な産業構造記録。
 
-[^16]: [石門ダム — ウィキペディア](https://zh.wikipedia.org/zh-tw/%E7%9F%B3%E9%96%80%E6%B0%B4%E5%BA%AB_(%E8%87%BA%E7%81%A3)) — Wikipedia中文版石門ダム記事。原文逐字：「1964年6月14日、8年の建設期間を経て石門ダムが正式に竣工した」+「石門ダムはかつて東洋最大のダムであった」+「最大堤高：133.1メートル」+「総貯水量：309,120,000立方メートル」+「建設費用は約新台湾ドル32億元に達し、そのうち米国援助による新台湾ドル19億元の資金援助を含む」+ 副総統陳誠が竣工式を主宰、台湾初の多目的ダム、石門大圳が22,000ヘクタールを灌漑した完全な記録。
+[^16]: [石門ダム — ウィキペディア](<https://zh.wikipedia.org/zh-tw/%E7%9F%B3%E9%96%80%E6%B0%B4%E5%BA%AB_(%E8%87%BA%E7%81%A3)>) — Wikipedia中文版石門ダム記事。原文逐字：「1964年6月14日、8年の建設期間を経て石門ダムが正式に竣工した」+「石門ダムはかつて東洋最大のダムであった」+「最大堤高：133.1メートル」+「総貯水量：309,120,000立方メートル」+「建設費用は約新台湾ドル32億元に達し、そのうち米国援助による新台湾ドル19億元の資金援助を含む」+ 副総統陳誠が竣工式を主宰、台湾初の多目的ダム、石門大圳が22,000ヘクタールを灌漑した完全な記録。
 
 [^17]: [千塘之郷：桃園陂塘 — 台湾光華雑誌](https://www.taiwan-panorama.com/Articles/Details?Guid=550d3fbd-d929-4b7d-83af-ed5358f2a13c) — 台湾光華雑誌『千塘之郷』特集記事。原文逐字：「飛行機が桃園中正空港にゆっくりと降下するにつれ、目に飛び込んでくるのは一面に輝く鏡のようないのちです。桃園台地の上に星のごとく散りばめられた陂塘（すなわち埤塘）は、先人たちが荒野を良田に変えた水利工事の傑作であり、その面積の広さ、密度の高さは世界的にも珍しいものです」+「30年間で都市と工商の発展により、かつて万基に達した桃園の陂塘が一つ一つ埋め立てられ、現在は2,800基しか残っていません」+「一つの陂塘は生産、生活、生態のシステムを表しています」（中原大学陳其澎教授）+「例えば桃園新屋郷で有名な范姜古厝とその周辺の新屋埤などの複数の陂塘は、客家部落の開発史を探る生きた素材です」+ 1913年大干ばつ前の桃園台地の万基の埤塘、桃園庁の埤圳数6,685箇所が全台で最も密度が高かったこと、桃園大圳が1916年着工1924年完工で285基・貯水量3,400万トンが石門ダムの1/3に相当すること、「世界文化遺産候補」に登録された完全な記録。
 

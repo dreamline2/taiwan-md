@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fd16d89c1109096c'
 sourceBodyHash: 'sha256:645f8f42e79639a7'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/economy/tsmc-factory-hsinchu-2009.webp'
+imageCredit: 'Arusanov'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG'
 ---
 
 > **Aperçu en 30 secondes :** Après la clôture du marché le 19 mai 2026, la capitalisation boursière de TSMC atteignait 57,18 billions de dollars taïwanais. Une seule entreprise représentait 31,51 % de l'indice pondéré de Taïwan, environ 40 % de la capitalisation totale du marché taïwanais et 71 % de la fonderie mondiale de semi-conducteurs. Les 49 places suivantes étaient réparties entre 12 holdings financiers, 11 entreprises de semi-conducteurs, 6 sous-traitants électroniques et 5 vétérans des industries traditionnelles. Le prétendu tripode électronique-finance-industries traditionnelles est, dans les faits, un corps à moitié soutenu par la seule jambe électronique ; à partir de 2024, la vague de l'IA a fait remonter Quanta, Wistron, Wiwynn et Hon Hai Precision Industry du milieu du classement, augmentant encore la concentration. Lire ce tableau des 50 plus grandes entreprises revient à lire une carte anatomique de l'économie taïwanaise : où se trouve la colonne vertébrale, où se trouve le point de défaillance unique, et où se trouvent les organes internes cachés hors du tableau.

@@ -12,6 +12,8 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:e4c169783e32f5c2'
 sourceBodyHash: 'sha256:79036ef58165be78'
 translatedAt: '2026-05-17T05:43:00Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/TaiwanesePineappleCake.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwan Bread and Baking
@@ -73,9 +75,13 @@ The trajectory of Taiwan's bread and baking industry is clearly documented: from
 ## References
 
 [^1]: [Wu Pao-Chun Bakery official site](https://www.wu-pao-chun.com/) — "Mi-Niang Li-Xiang" creation profile and the story of the 2010 Mondial du Pain championship.
+
 [^2]: [Mondial du Pain official site](https://www.mondialdupain.com/) — Roster of individual-category champions across years, including Taiwan's four wins in 2010/2015/2017/2022.
+
 [^3]: [85°C investor relations](https://www.85cafe.com/) — Brand history and overseas store rollout for 85°C.
+
 [^4]: [Chinese Food Industry Research and Development Institute](https://www.cgprdi.org.tw/) — Taiwan's baking technology research institute, including competition training and technical guidance resources.
+
 [^5]: [Taiwan Bakery Industry Association](https://www.twbakery.org.tw/) — Industry guild for baking, including industry statistics and international competition information.
 
 ## Further reading

@@ -5,7 +5,23 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['Yunlin', 'comté de Yunlin', 'Sixième complexe de craquage', 'Mailiao', 'temple Chaotian de Beigang', 'Mazu', 'pont de Xiluo', 'riz de Xiluo', 'raffinerie sucrière de Huwei', 'café de Gukeng', 'Chen Ding-nan', 'Wang Yung-ching', 'rivière Zhuoshui', 'série des 22 villes et comtés']
+tags:
+  [
+    'Yunlin',
+    'comté de Yunlin',
+    'Sixième complexe de craquage',
+    'Mailiao',
+    'temple Chaotian de Beigang',
+    'Mazu',
+    'pont de Xiluo',
+    'riz de Xiluo',
+    'raffinerie sucrière de Huwei',
+    'café de Gukeng',
+    'Chen Ding-nan',
+    'Wang Yung-ching',
+    'rivière Zhuoshui',
+    'série des 22 villes et comtés',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
@@ -15,6 +31,10 @@ sourceCommitSha: '036da279d'
 sourceContentHash: 'sha256:68dcc74d52d8c737'
 sourceBodyHash: 'sha256:24b0d8d16f592539'
 translatedAt: '2026-05-18T05:08:09+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg
+imageCredit: Mk2010
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg
 ---
 
 # Comté de Yunlin : ce que Yilan a choisi de refuser, Yunlin l'a payé de trente ans de poumons
@@ -48,7 +68,7 @@ Administrativement, Yunlin compte 20 cantons, bourgs et villes : 1 ville adminis
 Il faut parler en particulier de l'hiver sur le littoral occidental. Chaque année, de novembre à mars, la mousson du nord-est souffle depuis le détroit de Taïwan ; l'ouest de Yunlin connaît alors une alternance typique de brouillards épais et de vents forts. À Mailiao, Taixi et Kouhu, la visibilité tombe souvent sous les 500 mètres. C'est la saison où les gaz du Sixième complexe se dispersent le plus mal, et celle où la charge sur les poumons est la plus lourde[^11]. Quant aux précipitations, le littoral occidental reçoit environ 1 200 millimètres par an, soit relativement peu, tandis que les collines orientales peuvent dépasser 2 500 millimètres. Cet écart explique pourquoi la structure agricole de Yunlin change complètement d'est en ouest.
 
 ![Le complexe de Mailiao du Sixième craqueur, photographié en 2010. Approuvé par le Yuan exécutif en 1991, mis en chantier en 1994, entré en service avec sa première phase en 1998, il couvre 2 255 hectares gagnés sur la mer.](https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg)
-_Zone industrielle du Sixième complexe de Mailiao, 2010. Photo : Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)._
+_Zone industrielle du Sixième complexe de Mailiao, 2010. Photo : Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg).\_
 
 ## Les racines de Benkang : l'année où Mazu traversa la mer depuis Meizhou
 
@@ -222,7 +242,7 @@ La prochaine fois que vous irez à Yunlin, n'allez pas seulement boire un café 
 
 Cet article utilise 4 images sous licence CC issues de Wikimedia Commons :
 
-- **Hero (frontmatter)** : [Formosa Plastics Group Mail-Liao Industrial Complex](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg) (Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), zone industrielle du Sixième complexe à Mailiao)
+- **Hero (frontmatter)** : [Formosa Plastics Group Mail-Liao Industrial Complex](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg>) (Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), zone industrielle du Sixième complexe à Mailiao)
 - **Scène §Benkang en 1694** : [Beigang Chaotian Temple-01](https://commons.wikimedia.org/wiki/File:Beigang_Chaotian_Temple-01.2024-09-18.jpg) (阿道, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), temple Chaotian de Beigang en septembre 2024)
 - **Scène §La première cheminée de 1909** : [Scene in Huwei Sugar Factory 05](https://commons.wikimedia.org/wiki/File:Scene_in_Huwei_Sugar_Factory_05.jpg) (WC-QHS, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), raffinerie sucrière de Huwei en 2018)
 - **Scène §28 janvier 1953** : [Xiluo Bridge at noon on 2 August 2014](https://commons.wikimedia.org/wiki/File:Xiluo_Bridge_at_noon_on_2_August_2014.jpg) (JianEn Yu, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), pont de Xiluo en août 2014)

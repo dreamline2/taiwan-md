@@ -34,6 +34,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-05-17'
     url: 'https://x.com/taiwandotmd/status/2055881969976873375'
+image: '/article-images/people/chen-chien-nien-hsinchu-feng-2018.webp'
+imageCredit: 'Taiwania Justo / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg'
 ---
 
 # Chen Chien-nien: The Golden Melody King in the Police Station, the Grandfather’s Songs the Grandson Turned into Ocean

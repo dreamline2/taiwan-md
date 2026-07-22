@@ -41,6 +41,10 @@ sporeLinks:
     platform: 'x'
     date: '2026-05-26'
     url: 'https://x.com/taiwandotmd/status/2059290686671982831'
+image: '/article-images/people/yin-1st-tang-prize-laureates-2014.webp'
+imageCredit: '中華民國總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:103%E5%B9%B49%E6%9C%8818%E6%97%A5_%E9%A6%AC%E8%8B%B1%E4%B9%9D%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E7%AC%AC%E4%B8%80%E5%B1%86%E3%80%8C%E5%94%90%E7%8D%8E%E3%80%8D%E5%BE%97%E7%8D%8E%E4%BA%BA_(15099044008).jpg'
 ---
 
 # Samuel Yin: The Science Prize He Built Is Worth More Than a Nobel

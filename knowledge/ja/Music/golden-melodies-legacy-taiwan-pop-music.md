@@ -36,6 +36,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:0380d6db1f823bf1'
 sourceBodyHash: 'sha256:bd48e5c9c0054342'
 translatedAt: '2026-06-20T01:01:36+08:00'
+image: '/article-images/music/sunflower-movement-crowd-2014.webp'
+imageCredit: 'tomscy2000'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan%27s_Sunflower_Movement_Look_At_All_These_People!.jpg'
 ---
 
 # 台湾ポップミュージック：世界のために花嫁衣装を仕立てた島に、最後に残ったのは他者が歌えないものを歌えることでした

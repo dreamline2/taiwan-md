@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d4d60849e9ff119e'
 sourceBodyHash: 'sha256:7464b15b7c6d840e'
 translatedAt: '2026-06-16T17:05:51Z'
+image: '/article-images/geography/taiwan-island-nasa-mosaic.webp'
+imageCredit: 'NASA'
+imageLicense: 'Public domain（NASA）'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Main_Island_Mosaic_NASA_2020.jpg'
 ---
 
 # 데이터로 보는 타이완 22개 시현: 가장 붐비는 곳과 가장 한적한 곳 151배 차이, 가장 늙은 곳과 가장 젊은 곳은 한 세대 차이

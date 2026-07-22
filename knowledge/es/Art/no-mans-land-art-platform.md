@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:94e9b57891092909'
 sourceBodyHash: 'sha256:15f9472d4c0b19f9'
 translatedAt: '2026-06-16T17:05:07Z'
+image: '/article-images/art/nml-trial-issue-hero-2011.webp'
+imageCredit: "數位荒原 No Man's Land 試刊號封面（2011-11）"
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.heath.tw/nml-issue/trial-issue-of-no-mans-land/'
 ---
 
 # Tierra baldía digital: cómo sobrevivió 12 años una plataforma en línea de crítica de arte sin modelo de negocio

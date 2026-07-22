@@ -32,6 +32,9 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:7ecc75e3d3f02f0a'
 sourceBodyHash: 'sha256:0d3c13e2c5763c28'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/people/huang-shan-liao-portrait-2025.webp'
+imageCredit: '鏡週刊（fair use editorial commentary）'
+imageLicense: 'Fair use editorial commentary'
 ---
 
 # Huang Shanliao: No one looked at the champion's clothes, so he started selling 'a sentence of comfort'

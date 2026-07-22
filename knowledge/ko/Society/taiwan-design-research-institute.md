@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc9a16af37eefe47'
 sourceBodyHash: 'sha256:f7df18837078b48f'
 translatedAt: '2026-06-16T16:38:41Z'
+image: '/article-images/society/tdri-songshan-entrance-2022.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Entrance_2,_Songshan_Cultural_and_Creative_Park_20220423.jpg'
 ---
 
 시즈의 보건소 대기 공간은 이제 그다지 보건소처럼 보이지 않는다. 원래 있던 형광등, 플라스틱 의자, 빽빽하게 늘어선 약 수령 창구는 사라졌다. 대신 블록처럼 분해하고 조립할 수 있는 모듈 세트가 들어섰다. 도시형, 신도시형, 향진형이 각각 한 세트씩이다. 신베이시 위생국은 13개월을 들여 시즈와 잉거 두 시범 지점에서부터 이 작업을 시작했다[^1]. 당신은 아마 이 일을 눈여겨본 적이 없을 것이다. 백신을 맞고, 혈압을 재고, 만성질환 약을 받으러 갔을 때 동선이 예전보다 조금 더 매끄럽고, 기다리는 동안 조금 덜 짜증났을 뿐, 그러고는 그냥 나왔을 것이다.

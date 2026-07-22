@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:dc46568183dd9cc2'
 sourceBodyHash: 'sha256:dc489fbbe5744c82'
 translatedAt: '2026-06-16T17:12:11Z'
+image: '/article-images/society/ntu-hospital-pond-2011.webp'
+imageCredit: '玄史生'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NTU_Hospital_View_from_Pond_of_Taipei_New_Park_20110510.jpg'
 ---
 
 > **Panorama en 30 segundos**: La Ley de Atención Médica no regula a los médicos individuales (eso corresponde a la Ley de Médicos de 1943), ni los pagos del Seguro Nacional de Salud (eso corresponde a la Ley del Seguro Nacional de Salud de 1994). Regula cómo existen **hospitales, clínicas y personas jurídicas médicas**, cómo publicitan sus servicios y cómo gestionan disputas. En 1986 se promulgó con 91 artículos; en 2004 fue reformada ampliamente hasta 123 artículos e introdujo el sistema de “persona jurídica médica”; en 2017 se reformó el artículo 82 para convertir la responsabilidad penal médica en un estándar de “doble requisito”; en mayo de 2026 se incorporó por ley la proporción enfermera-paciente. Pero, tras cuarenta años, el objetivo declarado en el artículo 1, “promover el desarrollo sano de los servicios médicos”, se enfrenta a esta realidad: 83% de los hospitales y 74% de las camas son privados; la tasa de salida de los médicos de urgencias supera en dos o tres veces la de Estados Unidos; y solo cuando enfermeras renunciaron en oleadas y el sistema llegó al borde del colapso el Parlamento incorporó la proporción enfermera-paciente a la ley.

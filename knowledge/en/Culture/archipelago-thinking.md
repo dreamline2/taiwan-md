@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:75c25926a0cdd0a8'
 sourceBodyHash: 'sha256:02638f04673a14f6'
 translatedAt: '2026-05-17T05:06:52+08:00'
+image: '/article-images/culture/austronesian-migration-map.webp'
+imageCredit: 'Kikilipse / Wikimedia Commons (CC BY-SA 4.0)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chronological_dispersal_of_Austronesian_people_across_the_Pacific_(per_Benton_et_al,_2012,_adapted_from_Bellwood,_2011).svg'
 ---
 
 > **30-second overview:** Spread out a map of Taiwan, and most people see a small island on the edge of the Chinese mainland. But rotate the map clockwise by 30 degrees, then extend your view southward, and you will see another map that is just as valid: Taiwan is also the northeastern edge of the Malay world (Nusantara), the linguistic homeland of 400 million Austronesian speakers, and the starting point of Pacific dispersal history. A jade slit-ring earring made from stone quarried in Fengtian, Hualien had already appeared 3,500 years ago in archaeological sites in Batanes, Luzon, Vietnam, and Thailand. Linguist Robert Blust inferred from lexical diversity that nine of the ten primary branches of Austronesian are in Taiwan. The language spoken by the Tao people of Orchid Island shares about 60% intelligibility with Ivatan in Batanes. What this article aims to do is restore another overlooked map, so that Taiwan can be seen more truthfully through both maps together.

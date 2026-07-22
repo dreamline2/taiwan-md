@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:1be78dcd03c2e2ba'
 sourceBodyHash: 'sha256:f65ef91c0cd14c9b'
 translatedAt: '2026-06-16T16:40:09Z'
+image: '/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp'
+imageCredit: 'Bea Phi (Phibeatrice)'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Yang_Shuang-zi_at_the_2024_National_Book_Awards.jpg'
 ---
 
 ![Yang Shuangzi le 20 novembre 2024, lors de la cérémonie de remise du National Book Award à New York, debout à côté du trophée, vêtue d'un manteau sombre, le visage serein](/article-images/art/taiwan-travelogue-yang-shuang-zi-nba-2024.webp)

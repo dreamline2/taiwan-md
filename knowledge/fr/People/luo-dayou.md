@@ -24,6 +24,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:a360c7a135e403dc'
 sourceBodyHash: 'sha256:fe7b545ee2048324'
 translatedAt: '2026-06-20T01:01:36+08:00'
+image: '/article-images/people/lo-ta-yu-2011.webp'
+imageCredit: 'Daniel M Shih'
+imageLicense: 'CC BY-SA 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Lo_Ta-yu_羅大佑_2011.jpg'
 ---
 
 > **Vue d'ensemble en 30 secondes :** Lo Ta-yu (né en 1954) est un auteur-compositeur-interprète issu de la radiologie médicale. En 1982, _Zhihuzheye_ transforma les paroles de chansons populaires : d'ornements affectifs, elles devinrent des supports d'idées. La critique musicale taïwanaise classa plus tard cet album au premier rang des cent albums classiques. Il écrivit le déracinement de « La petite ville de Lukang », l'isolement de « L'Orphelin d'Asie », l'éloignement de « Perle de l'Orient », posant sans cesse la question : « Qui suis-je ? » Le paradoxe est que cet homme qui a chanté toute l'errance taïwanaise a lui-même vagabondé de Taipei à New York, Hong Kong et Pékin ; des chercheurs ont calculé qu'il avait déménagé dix-neuf fois en vingt-neuf ans. À soixante-dix ans, revenu à Taïwan, il monta sur scène et déclara que, dans sa génération de musiciens, « au moins 70 % ont été éliminés » ; ceux qui restent sont tous des survivants remarquables.

@@ -14,6 +14,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:0a19013fbe675c85'
 sourceBodyHash: 'sha256:16078470c5f07551'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/society/nmth-main-building-2011.webp'
+imageCredit: 'Fcuk1203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg'
 ---
 
 > **30초 개요:** 2011년 10월 29일, 13년간 준비된 국립타이완역사박물관이 타이난 안난구에서 개관했다. 이 박물관은 차오융허가 1990년에 제기한 「타이완 섬 역사관」을 실제 전시장으로 구현했다. 상설전 「이 땅과 이 사람들--타이완의 이야기」는 오스트로네시아어족의 도착에서 현대의 「당신도 역사를 쓰는 사람」까지 여덟 개 전시구역으로 구성된다. 박물관 측은 《정부자료 개방수권조항 1.0판》(CC BY 4.0과 동등)으로 14만 점의 소장품을 공개했고, 2021년 3급 기관으로 승격된 뒤 관장 장룽즈는 박물관을 「전 국민이 공동 집필하고 공동 창작하는 행동 플랫폼」으로 자리매김했다[^13]. 이 국가급 박물관이 AI 시대의 커뮤니티 주도형 오픈소스 지식베이스와 만날 때, 집단기억은 두 번째 큐레이션의 형태를 갖게 된다.

@@ -15,6 +15,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:bd9b1e07ed885b16'
 sourceBodyHash: 'sha256:547ee1d3b342a025'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/society/taipei-skyline-housing-2026.webp'
+imageCredit: 'Heeheemalu'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
 ---
 
 # 국민주택과 주거 정의: 정부가 지은 저렴한 주택은 결국 누구의 자산 사다리를 키웠나

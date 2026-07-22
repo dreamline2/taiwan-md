@@ -24,6 +24,8 @@ sourceCommitSha: 10fe99c59
 sourceContentHash: 'sha256:8843f64848a3d381'
 sourceBodyHash: 'sha256:722551eb5f4a1b6b'
 translatedAt: '2026-06-22T01:13:22+08:00'
+image: /article-images/people/jimmy-liao-square-yilan-2016.webp
+imageCredit: '迷惘的人生 / Wikimedia Commons / CC BY-SA 2.0'
 ---
 
 # 지미: 치유 장르로 여겨지는 그 그림들은 백혈병 생존자가 유리 어항에서 가져온 것이다

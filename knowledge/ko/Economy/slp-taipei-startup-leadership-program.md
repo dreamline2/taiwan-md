@@ -15,6 +15,10 @@ sourceCommitSha: cfaa22a5d
 sourceContentHash: sha256:68e3e5788b724298
 sourceBodyHash: sha256:320873c44e3f6c2e
 translatedAt: 2026-07-10T01:14:44+08:00
+image: '/article-images/economy/slp-taipei-annual-party-2023.webp'
+imageCredit: 'SLP台北創業領導計畫'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://slptaipei.com/'
 ---
 
 # SLP 타이베이 창업 리더십 프로그램：6 천 위안으로 시작한 수업, 5 만 8 천 위원이 되어도 여전히 구하기 힘들다

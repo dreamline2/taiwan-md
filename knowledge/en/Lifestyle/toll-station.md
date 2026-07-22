@@ -26,6 +26,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:51547944c653872d'
 sourceBodyHash: 'sha256:bc9b5cd80bcd52ef'
 translatedAt: '2026-05-03T21:10:03+08:00'
+image: '/article-images/lifestyle/taishan-toll-station-2008.webp'
+imageCredit: 'MiNe (Flickr), via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taishan_Toll_Station_20080818a.jpg'
 ---
 
 > **"In that three-foot-square booth, what we received was not just a ticket — it was the souls of countless travelers. When the window rolled down, what rushed in was the bitter cold of winter, the sweltering heat of summer, and that softly spoken 'thank you for your hard work.'"**

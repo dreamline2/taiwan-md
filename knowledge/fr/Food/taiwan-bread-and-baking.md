@@ -13,6 +13,8 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:e4c169783e32f5c2'
 sourceBodyHash: 'sha256:79036ef58165be78'
 translatedAt: '2026-05-17T05:33:00Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/TaiwanesePineappleCake.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Le pain et la pâtisserie à Taïwan
@@ -84,9 +86,13 @@ La trajectoire du pain et de la pâtisserie taïwanais se lit clairement : du sa
 ## Références
 
 [^1]: [Site officiel de Wu Pao-chun Bakery](https://www.wu-pao-chun.com/) — Présentation de la création « Mi Niang Li Xiang » et récit du sacre au Mondial du Pain 2010.
+
 [^2]: [Site officiel du Mondial du Pain](https://www.mondialdupain.com/) — Palmarès des champions individuels, incluant les quatre titres taïwanais en 2010, 2015, 2017 et 2022.
+
 [^3]: [Relations investisseurs de 85°C](https://www.85cafe.com/) — Historique de la marque 85°C et données d'expansion à l'étranger.
+
 [^4]: [Institut taïwanais de recherche sur les céréales (CGPRDI)](https://www.cgprdi.org.tw/) — Centre de recherche en techniques boulangères, formation aux concours et soutien technique.
+
 [^5]: [Fédération nationale des associations professionnelles de la boulangerie de la République de Chine](https://www.twbakery.org.tw/) — Syndicat professionnel de la boulangerie, statistiques sectorielles et informations sur les concours internationaux.
 
 ## Pour aller plus loin

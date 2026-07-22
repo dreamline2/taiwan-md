@@ -31,6 +31,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:62a474db99f7907b'
 sourceBodyHash: 'sha256:df0b89348caf6487'
 translatedAt: '2026-06-23T00:40:05+08:00'
+image: '/article-images/people/caodong-the-servile-2016.webp'
+imageCredit: '© 石皮有限公司／草東沒有派對'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://music.apple.com/tw/album/1676735354'
 ---
 
 > **30-second overview:** No Party for Cao Dong is a four-piece independent band founded in 2012 at the "intersection of Jianxian Street and Cao Dong Street" on Yangmingshan in Taipei. In 2016, they self-funded 2,000 handmade CDs and sold them out in three days; at the 28th Golden Melody Awards in 2017, they won Best Band, defeating Mayday, Best New Artist, and Song of the Year, [“Simon Says”](https://www.youtube.com/watch?v=HqmpIQ9l-uA), by overwhelming first-round vote counts of 19, 19, and 18. On October 30, 2021, drummer Fanfan (Tsai Yi-fan, age 26) died in a Taipei quarantine hotel, and the band fell into nearly two years of silence. On May 20, 2023, they released their second album, _The Clod_. The term _wahe_ appears in “Biographies of Confucian Scholars” in _Records of the Grand Historian_; its extended meaning, “broken tiles joined together, gathered but not made uniform,” comes from the Tang dynasty scholar Yan Shigu’s annotation to “Biographies of Li, Lu, Zhu, Liu, Shusun” in the _Book of Han_.[^19] In 2024, _The Clod_ won the 35th Golden Melody Awards triple crown of Album of the Year, Best Mandarin Album, and Best Band; the band was absent on the night of the ceremony, and their manager accepted on their behalf, declaring: “No Party for Cao Dong has never been only the four people standing onstage.” This is a twelve-year story whose core is **loss, silence, return; then loss again, silence again, return again**.

@@ -26,6 +26,10 @@ sourceCommitSha: '3c781dba'
 sourceContentHash: 'sha256:f082c2bfc65ade6e'
 sourceBodyHash: 'sha256:2a057438270935d7'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: '/article-images/nature/tawny-fish-owl-gailhampshire-2009.webp'
+imageCredit: 'gailhampshire (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg'
 ---
 
 > **30-second overview:** The Tawny Fish Owl (_Ketupa flavipes_) is Taiwan's largest owl. Its spread wings approach the height of an adult human; its toes are covered in yellow feathers, and the soles of its feet have spicules for gripping slippery prey. It was first recorded only in 1916 by the Japanese scholar Nagamichi Kuroda[^1], and Taiwan's first precisely located breeding nest was not found until 1994[^2]. Sun Yuan-hsun's laboratory at National Pingtung University of Science and Technology has tracked it for thirty years. They found that a pair of Tawny Fish Owls needs 6.2 kilometers of stream, 44.6% surrounded by natural forest, to maintain a territory[^3]. In April 2026, the research team found Taiwan's highest known nest in the hollow of an old Michelia compressa tree with a diameter at breast height of about 1.5 meters beside Qijiawan Creek in Wuling[^4]. Shei-Pa National Park launched a 24-hour nestling livestream, giving the island its first chance to collectively see a strange raptor that is also one of its own.

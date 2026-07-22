@@ -23,6 +23,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2521a3fdec4ce789'
 sourceBodyHash: 'sha256:a1690337698d47c6'
 translatedAt: '2026-05-01T12:21:52+08:00'
+image: '/article-images/society/yungta-gate-2013.webp'
+imageCredit: 'SSR2000 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gate_of_Yung_Ta_Institute_of_Technology_%26_Commerce.JPG'
 ---
 
 > **30-Second Overview:** In 1994, Taiwan had 58 universities and colleges. After the Education Reform Committee's call to "establish more high schools and universities," the government encouraged private investment in higher education and shifted the founding process from a "ratification system" to a "reporting system." Within a decade, university numbers nearly tripled; by 2017 the peak stood at 129 universities plus colleges, totaling 144 institutions. Private universities expanded from 26 to 94 schools, reaching 67% of the total. But in 2022, Taiwan's newborn count fell to 138,986 — a historic low in 47 years of records — with a birth rate of 1.08, the lowest in the world. The university "market" is shrinking rapidly, and private universities are beginning to close. Critical pedagogy researchers have argued that this cycle of "too few" to "too many" to "closing doors" is rooted in education reform that, from the start, was driven by a neoliberal market logic — pushing higher education from public good toward commodity.[^1]

@@ -5,7 +5,16 @@ date: '2026-03-18'
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '食材與調味'
-tags: ['aliments fermentés', 'culture de la salaison', 'tofu malodorant', 'tofu fermenté', 'kimchi taïwanais', 'techniques traditionnelles', 'micro-organismes']
+tags:
+  [
+    'aliments fermentés',
+    'culture de la salaison',
+    'tofu malodorant',
+    'tofu fermenté',
+    'kimchi taïwanais',
+    'techniques traditionnelles',
+    'micro-organismes',
+  ]
 readingTime: '15'
 lastVerified: '2026-03-19'
 lastHumanReview: false
@@ -15,13 +24,15 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:c2ef664839dd9cc6'
 sourceBodyHash: 'sha256:b693c93c53efd3dc'
 translatedAt: '2026-05-20T05:08:34+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg/960px-%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Les aliments fermentés et la culture de la salaison à Taïwan
 
 ## Aperçu en 30 secondes
 
-La culture taïwanaise des aliments fermentés et de la salaison fusionne les techniques hakka, hoklo, autochtones et japonaises, développant ainsi un système de saveurs unique. Du tofu malodorant que l'on trouve dans les marchés de nuit (夜市, *yèshì*) au tofu fermenté présent dans chaque foyer, des légumes en saumure au *jiǔniàng* (alcool de riz fermenté), ces aliments en apparence ordinaires recèlent de profonds principes scientifiques et un riche patrimoine culturel. L'industrie de la fermentation à Taïwan génère un chiffre d'affaires annuel supérieur à 35 milliards de dollars taïwanais[^3], constituant à la fois un pilier de l'industrie agroalimentaire et un pont culturel reliant la mémoire des communautés ethniques à la vie moderne.
+La culture taïwanaise des aliments fermentés et de la salaison fusionne les techniques hakka, hoklo, autochtones et japonaises, développant ainsi un système de saveurs unique. Du tofu malodorant que l'on trouve dans les marchés de nuit (夜市, _yèshì_) au tofu fermenté présent dans chaque foyer, des légumes en saumure au _jiǔniàng_ (alcool de riz fermenté), ces aliments en apparence ordinaires recèlent de profonds principes scientifiques et un riche patrimoine culturel. L'industrie de la fermentation à Taïwan génère un chiffre d'affaires annuel supérieur à 35 milliards de dollars taïwanais[^3], constituant à la fois un pilier de l'industrie agroalimentaire et un pont culturel reliant la mémoire des communautés ethniques à la vie moderne.
 
 **Mots-clés** : tofu malodorant, tofu fermenté, légumes en saumure, techniques de fermentation, micro-organismes, artisanat traditionnel
 
@@ -53,7 +64,7 @@ Bien que le tofu malodorant trouve son origine en Chine, il a connu un processus
 
 **Recette de base** :
 
-La saumure malodorante utilise des légumes frais (chou chinois, pousses de bambou, amarante, etc.) comme base principale, auxquels on ajoute du tourteau de soja ou du lait de soja, du son de riz ou du *mǐjiǔ* (vin de riz), le tout mélangé à de l'eau salée pour permettre l'ensemencement naturel par les micro-organismes ambiants.
+La saumure malodorante utilise des légumes frais (chou chinois, pousses de bambou, amarante, etc.) comme base principale, auxquels on ajoute du tourteau de soja ou du lait de soja, du son de riz ou du _mǐjiǔ_ (vin de riz), le tout mélangé à de l'eau salée pour permettre l'ensemencement naturel par les micro-organismes ambiants.
 
 **Processus de fermentation** :
 
@@ -108,14 +119,14 @@ La saumure malodorante utilise des légumes frais (chou chinois, pousses de bamb
 **Méthode traditionnelle** :
 
 1. **Préparation du tofu** : Utilisation de tofu ferme coupé en petits morceaux
-2. **Ensemencement et fermentation** : Ensemencement naturel ou artificiel avec des moisissures de type *Mucor*
+2. **Ensemencement et fermentation** : Ensemencement naturel ou artificiel avec des moisissures de type _Mucor_
 3. **Culture fongique** : Contrôle de la température et de l'humidité, développement de filaments blancs
 4. **Salaison et maturation** : Ajout de sel, d'alcool et d'épices pour la maturation
 
 **Variations de saveur** :
 
 - **Tofu fermenté blanc** : Doux et léger, idéal pour l'assaisonnement
-- **Tofu fermenté rouge** : Addition de *hóngqū* (rouge de riz), couleur éclatante
+- **Tofu fermenté rouge** : Addition de _hóngqū_ (rouge de riz), couleur éclatante
 - **Tofu fermenté épicé** : Ajout de piment et de poivre du Sichuan, saveur piquante et relevée
 
 ### Valeur nutritionnelle et bienfaits pour la santé
@@ -136,7 +147,7 @@ La saumure malodorante utilise des légumes frais (chou chinois, pousses de bamb
 
 ### Types courants de légumes en saumure
 
-Les légumes en saumure domestiques les plus répandus à Taïwan sont ceux à base de chou chinois : salés pour déshydrater puis assaisonnés, ils sont croquants et légèrement acides, constituant un accompagnement frais idéal en été. Le radis séché, préparé par séchage au soleil combiné à une salaison, est salé et sucré, souvent utilisé comme ingrédient dans les sautés. Les cornichons marinés, assaisonnés au vinaigre sucré, sont croquants et doux, servis comme entrée ou comme garniture dans les hamburgers. Le *càipǔ* (radis blanc séché), obtenu par séchage au soleil puis salaison, se bonifie avec le temps et est un ingrédient indispensable dans l'omelette au *càipǔ* et les nouilles de riz sautées.
+Les légumes en saumure domestiques les plus répandus à Taïwan sont ceux à base de chou chinois : salés pour déshydrater puis assaisonnés, ils sont croquants et légèrement acides, constituant un accompagnement frais idéal en été. Le radis séché, préparé par séchage au soleil combiné à une salaison, est salé et sucré, souvent utilisé comme ingrédient dans les sautés. Les cornichons marinés, assaisonnés au vinaigre sucré, sont croquants et doux, servis comme entrée ou comme garniture dans les hamburgers. Le _càipǔ_ (radis blanc séché), obtenu par séchage au soleil puis salaison, se bonifie avec le temps et est un ingrédient indispensable dans l'omelette au _càipǔ_ et les nouilles de riz sautées.
 
 ### Principes des techniques de salaison
 
@@ -146,17 +157,17 @@ L'action de la pression osmotique du sel réduit l'activité de l'eau dans les i
 
 ### Boissons alcoolisées traditionnelles taïwanaises
 
-Parmi les boissons alcoolisées traditionnelles taïwanaises, le *shàoxīng jiǔ* (vin de Shaoxing) produit par la distillerie de Puli est le plus représentatif, utilisant l'eau de source naturelle de Puli pour une texture riche et des saveurs complexes. Le *gāoliáng jiǔ* (sorgho de Kinmen), issu d'une fermentation solide traditionnelle, possède un arôme intense et un degré d'alcool élevé, et constitue la boisson spiritueuse la plus connue de Taïwan. Le *mǐjiǔ* (vin de riz) produit par la Taiwan Tobacco and Liquor Corporation a une saveur douce et est le vin d'assaisonnement le plus couramment utilisé dans la cuisine taïwanaise.
+Parmi les boissons alcoolisées traditionnelles taïwanaises, le _shàoxīng jiǔ_ (vin de Shaoxing) produit par la distillerie de Puli est le plus représentatif, utilisant l'eau de source naturelle de Puli pour une texture riche et des saveurs complexes. Le _gāoliáng jiǔ_ (sorgho de Kinmen), issu d'une fermentation solide traditionnelle, possède un arôme intense et un degré d'alcool élevé, et constitue la boisson spiritueuse la plus connue de Taïwan. Le _mǐjiǔ_ (vin de riz) produit par la Taiwan Tobacco and Liquor Corporation a une saveur douce et est le vin d'assaisonnement le plus couramment utilisé dans la cuisine taïwanaise.
 
 ### Boissons alcoolisées traditionnelles autochtones
 
-Le *xiǎomǐ jiǔ* (vin de millet)[^4] est une tradition brassicole commune à l'ensemble des peuples autochtones de Taïwan, avec un degré d'alcool d'environ 15 à 20 %, et constitue une boisson indispensable lors des cérémonies et des fêtes. Le vin de glisse des Amis, au goût doux et sucré, joue un rôle important dans les cérémonies culturelles de cette communauté.
+Le _xiǎomǐ jiǔ_ (vin de millet)[^4] est une tradition brassicole commune à l'ensemble des peuples autochtones de Taïwan, avec un degré d'alcool d'environ 15 à 20 %, et constitue une boisson indispensable lors des cérémonies et des fêtes. Le vin de glisse des Amis, au goût doux et sucré, joue un rôle important dans les cérémonies culturelles de cette communauté.
 
 ## La culture de la salaison hakka
 
 ### Produits de salaison caractéristiques
 
-Parmi les produits de salaison hakka, le *fùcài* est le résultat d'une longue fermentation du *jiècài* (moutarde), au goût acidulé unique ; le *méi gān cài* est du *jiècài* séché puis salé, au goût salé et intense, et constitue l'ingrédient essentiel du *méi gān kòu ròo* (porc braisé au *méi gān cài*). Le porc salé, préparé par salaison et séchage à l'air, a une longue durée de conservation et une saveur riche.
+Parmi les produits de salaison hakka, le _fùcài_ est le résultat d'une longue fermentation du _jiècài_ (moutarde), au goût acidulé unique ; le _méi gān cài_ est du _jiècài_ séché puis salé, au goût salé et intense, et constitue l'ingrédient essentiel du _méi gān kòu ròo_ (porc braisé au _méi gān cài_). Le porc salé, préparé par salaison et séchage à l'air, a une longue durée de conservation et une saveur riche.
 
 ### Caractéristiques des techniques de salaison hakka
 
@@ -170,7 +181,7 @@ L'industrie de la fermentation à Taïwan génère un chiffre d'affaires annuel 
 
 ### Contrôle de la sécurité alimentaire
 
-Les aliments fermentés sont réglementés par la *Loi sur la sécurité sanitaire et l'hygiène alimentaire* ainsi que par les normes sanitaires associées, et les fabricants doivent se conformer aux normes de détection microbienne. Les techniques de détection couvrent le dépistage rapide des pathogènes, l'analyse de la teneur en métaux lourds et l'inspection des composants des additifs, garantissant ainsi la sécurité alimentaire des produits de la production à la mise en rayon.
+Les aliments fermentés sont réglementés par la _Loi sur la sécurité sanitaire et l'hygiène alimentaire_ ainsi que par les normes sanitaires associées, et les fabricants doivent se conformer aux normes de détection microbienne. Les techniques de détection couvrent le dépistage rapide des pathogènes, l'analyse de la teneur en métaux lourds et l'inspection des composants des additifs, garantissant ainsi la sécurité alimentaire des produits de la production à la mise en rayon.
 
 ## Valeur pour la santé et recherche scientifique
 
@@ -212,11 +223,18 @@ De la douceur d'un pot de tofu fermenté à l'intensité d'un morceau de tofu ma
 
 ## Références
 
-[^1]: *Taiwan Panorama* (1993), « Le parfum extraordinaire de Chine — le tofu malodorant », https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+[^1]: _Taiwan Panorama_ (1993), « Le parfum extraordinaire de Chine — le tofu malodorant », https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+
 [^2]: Site bilingue des ONG du Ministère des Affaires étrangères, « Quand la puanteur atteint son comble, c'est le parfum : le code des saveurs du tofu malodorant », https://taiwanngo.tw/Post/86007
-[^3]: Institut de développement de l'industrie alimentaire, *Rapport d'analyse de l'industrie des aliments fermentés à Taïwan* (2023), https://www.firdi.org.tw/
-[^4]: Commission des affaires autochtones, *Enquête et recherche sur la culture brassicole traditionnelle des peuples autochtones* (2022), https://www.cip.gov.tw/
-[^5]: Administration des aliments et des médicaments du Ministère de la Santé et du Bien-être, *Normes d'hygiène pour les aliments fermentés*, https://www.fda.gov.tw/
-[^6]: Ministère de l'Agriculture, *Recherche technique sur les aliments fermentés traditionnels taïwanais* (2022), https://www.moa.gov.tw/
-[^7]: Commission des affaires hakka, *Plan de préservation et de promotion de la culture de la salaison hakka* (2023), https://www.hakka.gov.tw/
+
+[^3]: Institut de développement de l'industrie alimentaire, _Rapport d'analyse de l'industrie des aliments fermentés à Taïwan_ (2023), https://www.firdi.org.tw/
+
+[^4]: Commission des affaires autochtones, _Enquête et recherche sur la culture brassicole traditionnelle des peuples autochtones_ (2022), https://www.cip.gov.tw/
+
+[^5]: Administration des aliments et des médicaments du Ministère de la Santé et du Bien-être, _Normes d'hygiène pour les aliments fermentés_, https://www.fda.gov.tw/
+
+[^6]: Ministère de l'Agriculture, _Recherche technique sur les aliments fermentés traditionnels taïwanais_ (2022), https://www.moa.gov.tw/
+
+[^7]: Commission des affaires hakka, _Plan de préservation et de promotion de la culture de la salaison hakka_ (2023), https://www.hakka.gov.tw/
+
 [^8]: Wikipédia, entrée « Tofu malodorant », https://zh.wikipedia.org/zh-tw/%E8%87%AD%E8%B1%86%E8%85%90

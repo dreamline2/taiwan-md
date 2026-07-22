@@ -25,6 +25,7 @@ sourceCommitSha: '489ea1601'
 sourceContentHash: 'sha256:50346fd81e3daf96'
 sourceBodyHash: 'sha256:64d75052423ad414'
 translatedAt: '2026-06-28T00:38:05+08:00'
+image: '/article-images/people/ed-chi-deepmind-talk-2026.webp'
 ---
 
 世界中が数億米ドル規模の計算力でAIを追いかけていたとき、機械推論の方法を変えた一本の論文がありました。費用は約5000米ドルにすぎませんでした。

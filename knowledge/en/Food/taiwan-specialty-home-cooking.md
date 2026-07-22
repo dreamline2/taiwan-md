@@ -22,6 +22,8 @@ sourceCommitSha: 'b0e441fa'
 sourceContentHash: 'sha256:976bf813ab549fe2'
 sourceBodyHash: 'sha256:c76694b44c893f41'
 translatedAt: '2026-06-10T16:43:34Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sanbeiji.jpg/960px-Sanbeiji.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 > **30-Second Overview:** "Handmade cuisine" (shoulu cai) is a Teochew term for "signature dishes" [^1], referring to dishes that require genuine skill, have no standard recipes, and are passed down orally from master to apprentice. Its most concentrated display field is the "banquet" (banzhuo)—a Taiwanese banquet tradition where tents are erected by the roadside and cooking stations are set up on-site. Neimen in Kaohsiung, due to its barren land, inadvertently became the township with the highest density of banquet chefs (zongpushi) in Taiwan. In its golden age, one banquet company hosted 25,000 banquets a year. However, from hotel weddings to COVID-19, banquet orders shrank by 90% over twenty years, taking away not just the taste of the food, but also the neighborly mutual aid of "returning the leftover soup" (huan caiwei).

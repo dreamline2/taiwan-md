@@ -28,6 +28,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:2883551ecafd55b9'
 sourceBodyHash: 'sha256:a482ae599cab265e'
 translatedAt: '2026-06-12T00:53:40+08:00'
+image: '/article-images/society/taiwan-paraguay-embassy-inauguration-2016.webp'
+imageCredit: '中華民國總統府'
+imageLicense: '政府公開資訊（OGDL — Open Government Data License）'
+imageSource: 'https://www.president.gov.tw/NEWS/20543'
 ---
 
 > **30 秒概覽：** パラグアイと中華民国は 1957 年に外交関係を樹立し、2026 年で第 69 年を迎えました。これは台湾の南米唯一の友好国であり、現存友好国の中で最も面積が大きい国です。人口は中米の一部友好国より少ないです。2026 年 5 月 7 日から 10 日にかけて、パラグアイ大統領ベニア（Santiago Peña）が初めて国家訪問のために来台し、外交部は賴清徳総統が 5 月 8 日に軍礼、国宴、采玉大勲章で迎えることを発表しました。この友好関係は中国の誘致に耐え、外交承認、農畜産品市場、台巴科技大学、スマートテックパーク、長期技術協力によって支えられています。[^1][^2]

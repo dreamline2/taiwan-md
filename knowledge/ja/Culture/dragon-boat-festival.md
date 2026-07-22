@@ -26,6 +26,8 @@ sourceCommitSha: '58fa84f01'
 sourceContentHash: 'sha256:aac6019521f0bc32'
 sourceBodyHash: 'sha256:5410e4f9f881b327'
 translatedAt: '2026-06-20T00:37:14+08:00'
+image: /article-images/culture/duanwu-two-zongzi-styles.webp
+imageCredit: 'Dllu / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 # 端午節：古人が死に対抗するための道具一式を、台湾人は年に一度の団らんにしました

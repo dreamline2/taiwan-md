@@ -29,6 +29,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fe1941c4ac5aac8a'
 sourceBodyHash: 'sha256:8dca2bcfa6293bb2'
 translatedAt: '2026-06-16T17:05:54Z'
+image: '/article-images/society/taiwan-eswatini-military-honor-2026.webp'
+imageCredit: '中華民國總統府'
+imageLicense: 'OGDL (Open Government Data License) — 政府公開資訊'
+imageSource: 'https://english.president.gov.tw/News/7121'
 ---
 
 > **En 30 secondes :** Eswatini (renommé en 2018, anciennement « Swaziland ») est le dernier allié diplomatique de Taïwan en Afrique. Les relations ont été établies en septembre 1968 et atteignent 58 ans en 2026. Le roi Mswati III est né en avril 1968 ; cinq mois plus tard, le pays accédait à l'indépendance et établissait des relations avec la République de Chine le même jour. Sa vie coïncide presque entièrement avec l'histoire des relations bilatérales. En 2024, il avait déjà effectué plus de 17 visites à Taïwan[^1]. Après la rupture diplomatique avec Nauru en janvier 2024, Eswatini est devenu le seul allié africain de Taïwan[^2]. Le 2 mai 2026, Lai Ching-te a effectué sa première visite dans un pays ami depuis son entrée en fonction. Initialement prévue le 22 avril, la visite avait été annulée après que les Seychelles, Maurice et Madagascar, sous pression chinoise, avaient retiré sans préavis les autorisations de survol. Mswati a alors dépêché l'Airbus A340 de la maison royale, avec à son bord la vice-première ministre Thulisile Dladla, pour venir chercher Lai à Taipei. Celui-ci a décollé de Taipei le 2 mai et atterri directement à Mbabane[^3]. Le 1er mai de la même année, la Chine a accordé l'exonération de droits de douane sur 8 % des lignes tarifaires à 53 pays africains, excluant délibérément Eswatini[^4]. La plus grande variable de cette artère diplomatique réside dans la capacité du successeur de Mswati à convaincre une génération confrontée à 56 % de chômage jeune de continuer à considérer Taïwan comme une amie — une question plus difficile à résoudre que « combien la Chine est prête à payer ».

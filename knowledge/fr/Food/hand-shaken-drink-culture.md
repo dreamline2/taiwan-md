@@ -5,7 +5,15 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '飲品文化'
-tags: ['gastronomie', 'boissons à emporter', 'bubble tea', 'boissons au thé', 'rayonnement culturel', 'internationalisation de marques']
+tags:
+  [
+    'gastronomie',
+    'boissons à emporter',
+    'bubble tea',
+    'boissons au thé',
+    'rayonnement culturel',
+    'internationalisation de marques',
+  ]
 readingTime: 8
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -15,6 +23,8 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:874c652bf8f5b63c'
 sourceBodyHash: 'sha256:53b616e81595b8c6'
 translatedAt: '2026-05-20T05:08:34+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # La culture des boissons à emporter taïwanaises
@@ -81,7 +91,7 @@ Le comté de Nantou (thé oolong de haute montagne, thé noir de Sun Moon Lake),
 
 - **Produits laitiers** : lait frais, crème en poudre, lait concentré sucré
 - **Sucres** : saccharose, fructose, édulcorants de substitution
-- **Toppings** : perles de tapioca, gelée de coco, flan, herbe aux méduses (*xiancao*)
+- **Toppings** : perles de tapioca, gelée de coco, flan, herbe aux méduses (_xiancao_)
 
 ### En aval de la chaîne intermédiaire : gestion de marques et franchises
 
@@ -143,7 +153,7 @@ Depuis les années 2010, les marques taïwanaises de boissons à emporter ont ac
 - **Chine continentale** : le plus grand marché d'outre-mer, le plus concurrentiel.
 - **Asie du Sud-Est** : Malaisie, Singapour, Thaïlande, Philippines.
 - **Japon** : approche haut de gamme, accent sur la qualité et le service.
-- **Corée du Sud** : intégration à la culture *hallyu*, importance de la présentation visuelle.
+- **Corée du Sud** : intégration à la culture _hallyu_, importance de la présentation visuelle.
 
 **Marché occidental :**
 
@@ -194,7 +204,7 @@ En matière d'équipements intelligents, les machines à dosage automatique du s
 
 ### Vecteur de la culture de vie
 
-Les boissons à emporter sont profondément intégrées dans la vie quotidienne des Taïwanais. « Boire une boisson en bavardant » est devenu un mode social courant, les boutiques de boissons à emporter sont des lieux de rendez-vous et de rencontres fréquents, et le partage de nouvelles saveurs alimente les conversations sur les réseaux sociaux. Certaines marques ou saveurs sont porteuses de souvenirs personnels : une bubble tea avant un examen ou un grand thé vert pendant les heures supplémentaires sont des reflets de la vie émotionnelle taïwanaise. La densité des boutiques de boissons à emporter est également un indicateur informel du degré d'urbanisation : dans les marchés nocturnes (*night markets*) et les quartiers commerçants, l'absence d'un étal de boissons à emporter donne une impression d'incomplétude.
+Les boissons à emporter sont profondément intégrées dans la vie quotidienne des Taïwanais. « Boire une boisson en bavardant » est devenu un mode social courant, les boutiques de boissons à emporter sont des lieux de rendez-vous et de rencontres fréquents, et le partage de nouvelles saveurs alimente les conversations sur les réseaux sociaux. Certaines marques ou saveurs sont porteuses de souvenirs personnels : une bubble tea avant un examen ou un grand thé vert pendant les heures supplémentaires sont des reflets de la vie émotionnelle taïwanaise. La densité des boutiques de boissons à emporter est également un indicateur informel du degré d'urbanisation : dans les marchés nocturnes (_night markets_) et les quartiers commerçants, l'absence d'un étal de boissons à emporter donne une impression d'incomplétude.
 
 ### Contribution économique
 
@@ -236,7 +246,11 @@ La culture des boissons à emporter taïwanaises, née de l'innovation de la bub
 ## Références
 
 [^1]: Chun Shuitang, « L'histoire de l'invention de la bubble tea », https://www.chunshuitang.com.tw/article-detail/invent-bubble-milk-tea/
+
 [^2]: Association taïwanaise de la franchise et de la chaîne, https://www.cfatwn.org.tw/
+
 [^3]: United Daily News, « La bubble tea sans controverse de brevet », https://udn.com/news/story/7321/3960989
+
 [^4]: Département des statistiques du ministère de l'Économie, Statistiques d'exploitation de l'industrie des boissons, https://www.moea.gov.tw/
+
 [^5]: Site officiel de Chun Shuitang, https://www.chunshuitang.com.tw/

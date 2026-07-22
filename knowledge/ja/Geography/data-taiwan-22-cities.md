@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d4d60849e9ff119e'
 sourceBodyHash: 'sha256:7464b15b7c6d840e'
 translatedAt: '2026-06-16T17:05:15Z'
+image: '/article-images/geography/taiwan-island-nasa-mosaic.webp'
+imageCredit: 'NASA'
+imageLicense: 'Public domain（NASA）'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Main_Island_Mosaic_NASA_2020.jpg'
 ---
 
 # データで見る台湾22県市：最も密な地域と最も疎な地域は151倍差、最も高齢の地域と最も若い地域は一世代差

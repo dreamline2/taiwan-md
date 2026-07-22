@@ -1,11 +1,25 @@
 ---
-title: "Lienchiang County: The County Farthest from Taiwan, and Closest to the Cold War"
-description: "Looking out from the mountaintop on Nangan, Fuzhou lies just 16 kilometers away. Taipei is 200 kilometers away, and the Lienchiang county seat is on the Communist side. In 1617, Shen Yourong captured 69 wokou pirates alive below Dongju’s hills; in 1956, the ROC military turned these five islands into a warzone administration area; in 1992, Kinmen and Matsu lifted martial law five years later than Taiwan. Today, 13,646 people live here; the attrition rate of the Matsu language is 94%; and the only gambling referendum ever passed in Taiwan, in 2012, has still led nowhere. Blue tears bring 200,000 tourists a year, but locals remember blackout controls. A county of 28.8 square kilometers compresses Taiwan’s Cold War history onto itself."
+title: 'Lienchiang County: The County Farthest from Taiwan, and Closest to the Cold War'
+description: 'Looking out from the mountaintop on Nangan, Fuzhou lies just 16 kilometers away. Taipei is 200 kilometers away, and the Lienchiang county seat is on the Communist side. In 1617, Shen Yourong captured 69 wokou pirates alive below Dongju’s hills; in 1956, the ROC military turned these five islands into a warzone administration area; in 1992, Kinmen and Matsu lifted martial law five years later than Taiwan. Today, 13,646 people live here; the attrition rate of the Matsu language is 94%; and the only gambling referendum ever passed in Taiwan, in 2012, has still led nowhere. Blue tears bring 200,000 tourists a year, but locals remember blackout controls. A county of 28.8 square kilometers compresses Taiwan’s Cold War history onto itself.'
 date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['Lienchiang County', 'Matsu', 'Nangan', 'Beigan', 'Dongju', 'Dongyin', 'warzone administration', 'blue tears', 'Qinbi', 'Fuzhou dialect', 'Eastern Min', '22 Counties and Cities Series']
+tags:
+  [
+    'Lienchiang County',
+    'Matsu',
+    'Nangan',
+    'Beigan',
+    'Dongju',
+    'Dongyin',
+    'warzone administration',
+    'blue tears',
+    'Qinbi',
+    'Fuzhou dialect',
+    'Eastern Min',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
@@ -15,6 +29,10 @@ sourceCommitSha: 'ecd9f7b06'
 sourceContentHash: 'sha256:bed7ca568c30fdad'
 sourceBodyHash: 'sha256:1637fa66ecda0e7f'
 translatedAt: '2026-05-18T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Matsu_Montage.png/560px-Matsu_Montage.png
+imageCredit: Sleepingstar
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Matsu_Montage.png
 ---
 
 # Lienchiang County: The County Farthest from Taiwan, and Closest to the Cold War
@@ -47,7 +65,7 @@ Carbon-14 dating of the Liangdao Daowei archaeological site places it at 7,000 t
 
 Liang Island itself is a military stronghold, and civilians cannot land there. The archaeological project had to negotiate access windows with the ROC military, and soldiers stood guard during excavation. **A 7,900-year-old human skeleton was guarded for more than 70 years by a Cold War military restricted zone**. That contrast itself is Lienchiang County’s historical compression.
 
-Liang Kejia’s Song-dynasty *Sanshan Zhi* already recorded “Gantang,” an old name for the Matsu Islands; a stone inscription at Daqing Temple in Tieban Village, Nangan, reads “Zhongtong jiaochao, twenty strings,” referring to Zhongtong paper money of the Yuan dynasty, proving that Nangan already had settlements in the Yuan period[^6]. Eastern Fujian fishers settled on different islands according to their native places: Dongju and Xiju originally belonged to Changle County, while Dongyin and Xiyin originally belonged to Luoyuan County[^7]. Fujian fishers have lived on these islands for more than a thousand years. They were not “discovered” into being.
+Liang Kejia’s Song-dynasty _Sanshan Zhi_ already recorded “Gantang,” an old name for the Matsu Islands; a stone inscription at Daqing Temple in Tieban Village, Nangan, reads “Zhongtong jiaochao, twenty strings,” referring to Zhongtong paper money of the Yuan dynasty, proving that Nangan already had settlements in the Yuan period[^6]. Eastern Fujian fishers settled on different islands according to their native places: Dongju and Xiju originally belonged to Changle County, while Dongyin and Xiyin originally belonged to Luoyuan County[^7]. Fujian fishers have lived on these islands for more than a thousand years. They were not “discovered” into being.
 
 > **📝 Curator’s note:** The mainstream offshore-island narrative is “battlefield tourism,” “blue tears,” and “supply ships.” This frame compresses Matsu into a Cold War product, as if the islands began to exist only in 1949. The significance of the Liangdao Man archaeology is that it stretches the timeline open: **human activity in this sea area has lasted 8,000 years, and the 75 years of the Chinese Civil War and its aftermath are only the final short segment**. The ancestral graves of Eastern Fujian fishers, the stone coffin of the Mazu legend, and Song-Yuan copper coins are all temporal layers that existed before the Cold War, not annotations to Cold War history.
 
@@ -99,7 +117,7 @@ This “passport” is a material legacy of warzone administration, and also a k
 
 > **✦** “**If Taiwan does not want us, and we do not want to be Chinese, what are we supposed to do?**”[^18]
 
-This sentence comes from a *Mingrenta* report on identity among young people in Matsu. It precisely states Lienchiang County’s existential dilemma in 2026: administratively, we belong to Taiwan, but our ancestral origins, language, geography, and religion are closer to Fujian; we have an elected county magistrate and voting rights, but our history was formed by the Cold War front line.
+This sentence comes from a _Mingrenta_ report on identity among young people in Matsu. It precisely states Lienchiang County’s existential dilemma in 2026: administratively, we belong to Taiwan, but our ancestral origins, language, geography, and religion are closer to Fujian; we have an elected county magistrate and voting rights, but our history was formed by the Cold War front line.
 
 ## The 2012 Gambling Referendum: No Follow-Up for 13 Years
 
@@ -129,7 +147,7 @@ In 2017, the ROC government formally recognized the Matsu language as one of the
 
 But language loss is extremely severe.
 
-An English-language article on the Matsu language in *Taiwan Insight* states bluntly: “**Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.**” The same article records another sentence: “**The ban on speaking in dialects was painful and hastened the crisis of language extinction.**”[^25]
+An English-language article on the Matsu language in _Taiwan Insight_ states bluntly: “**Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.**” The same article records another sentence: “**The ban on speaking in dialects was painful and hastened the crisis of language extinction.**”[^25]
 
 The language situation in Matsu is far more severe than on Taiwan proper. The Wikipedia entry for the Matsu language records verbatim: “**In recent years, with the Matsu area opening to tourism and large numbers of people migrating to Taiwan Island, many local Matsu residents have begun to speak Southern Min Taiwanese; the Matsu language, as a mother tongue, faces decline, and the younger generation seldom speaks it or even cannot speak it.**”[^26]
 
@@ -153,13 +171,13 @@ The name “Mazu Island” later evolved orally into “Matsu Island,” giving 
 
 **The story of blue tears** is a case of a scientific phenomenon becoming a tourism engine.
 
-The scientific name of blue tears is *Noctiluca scintillans*, a single-celled dinoflagellate also known in Chinese as “night-light insect” or “night-light algae.” Every year, during the Min River flood season, terrestrial inorganic nutrients enter the sea, diatoms multiply in large numbers, and *Noctiluca scintillans*, which feeds on diatoms, blooms explosively. When waves, oars, or human footsteps disturb the water, the organisms emit brief blue bioluminescence, each flash lasting about 80 milliseconds[^30]. Research by National Taiwan Ocean University found that water temperatures below 27 degrees Celsius are key to blooms; the outbreak season is usually April to June, extending into March or September in some years.
+The scientific name of blue tears is _Noctiluca scintillans_, a single-celled dinoflagellate also known in Chinese as “night-light insect” or “night-light algae.” Every year, during the Min River flood season, terrestrial inorganic nutrients enter the sea, diatoms multiply in large numbers, and _Noctiluca scintillans_, which feeds on diatoms, blooms explosively. When waves, oars, or human footsteps disturb the water, the organisms emit brief blue bioluminescence, each flash lasting about 80 milliseconds[^30]. Research by National Taiwan Ocean University found that water temperatures below 27 degrees Celsius are key to blooms; the outbreak season is usually April to June, extending into March or September in some years.
 
 ![Blue tears nightscape in the Matsu Islands, May 2014. Blue bioluminescence emitted by disturbed *Noctiluca scintillans*, each flash lasting about 80 milliseconds. Photo by e_ella.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Blue_Tears_in_the_Matsu_Islands.jpg/1280px-Blue_Tears_in_the_Matsu_Islands.jpg)
 
 After social media rose in the 2010s, “blue tears” became famous overnight. Annual visitor numbers to Matsu rose from 210,000 before the pandemic in 2019 to 224,000 after the pandemic in 2023, and blue tears are the main driver of the peak season[^31]. The Beihai Tunnel was originally an underground dock for underwater guerrilla boats, built from 1968 as part of the “Beihai Project.” Today, tourists paddle boats into it to see the blue glow inside the tunnel, making it Matsu’s most representative tourism experience. **An underwater tunnel excavated by the ROC military in 1968 to hide speedboats for guerrilla warfare became, in the 2020s, the best viewing spot for a blue-tears experience**.
 
-But behind the blue-tears blooms lies another story. Red *N. scintillans* is associated with red tides, consumes dissolved oxygen in the water, and has destructive effects on fisheries. Scientists believe the intensification of blooms may be related to eutrophication caused by industrialization and agricultural fertilizer along China’s coast. In other words, **the blue tears Matsu residents see may be directly proportional to pollution density on the other side**.
+But behind the blue-tears blooms lies another story. Red _N. scintillans_ is associated with red tides, consumes dissolved oxygen in the water, and has destructive effects on fisheries. Scientists believe the intensification of blooms may be related to eutrophication caused by industrialization and agricultural fertilizer along China’s coast. In other words, **the blue tears Matsu residents see may be directly proportional to pollution density on the other side**.
 
 **The story of Qinbi Village** is the most dramatic.
 
@@ -242,13 +260,13 @@ Licenses: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC 
 
 [^2]: [History of Lienchiang County — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%80%A3%E6%B1%9F%E7%B8%A3) — County government relocation history: Communist forces occupied the mainland Lianjiang county seat in August 1949; the Matsu Administrative Office was established on December 15, 1950; the Lienchiang County Government was reestablished on Nangan in August 1953; it moved to Tieban Village in 1959 and to its present location in Jieshou Village in 1978.
 
-[^3]: [Fujian Provincial Government — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)) — History of the provincial government’s transformation: the Fujian Provincial Government was downgraded to nominal status in 1998, formally de-tasked in 2019, and its operations were taken over by the Executive Yuan’s Kinmen-Matsu Joint Services Center.
+[^3]: [Fujian Provincial Government — Wikipedia](<https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)>) — History of the provincial government’s transformation: the Fujian Provincial Government was downgraded to nominal status in 1998, formally de-tasked in 2019, and its operations were taken over by the Executive Yuan’s Kinmen-Matsu Joint Services Center.
 
 [^4]: [Liangdao Man archaeology — PTS News](https://news.pts.org.tw/article/245304) — Report on the 2012 discovery of complete human skeletons on Liang Island, named “Liangdao Man No. 1” and “Liangdao Man No. 2”; mitochondrial DNA comparisons showed shared maternal ancestry with the Atayal and Amis peoples, leading to the inference that Liangdao Man may have been among the earliest ancestors of the Austronesian peoples.
 
 [^5]: [Liangdao Daowei Archaeological Site listed as a national archaeological site — Ministry of Culture](https://www.moc.gov.tw/News_Content.aspx?n=105&s=205384) — Official 2023 Ministry of Culture announcement designating the Liangdao Daowei Archaeological Site as Taiwan’s 11th national archaeological site; carbon-14 dating places it 7,000-8,300 years before present, making it the earliest Neolithic site currently found within Taiwan’s territory.
 
-[^6]: [Prehistory of the Matsu Islands — Lienchiang County Government](https://www.matsu.gov.tw/) — County cultural materials documenting the Song-dynasty Liang Kejia’s *Sanshan Zhi* reference to Gantang, the Yuan-dynasty monetary inscription “Zhongtong jiaochao, twenty strings” on the Daqing Temple stele in Tieban Village, Nangan, and evidence that Nangan already had settlements in the Yuan period.
+[^6]: [Prehistory of the Matsu Islands — Lienchiang County Government](https://www.matsu.gov.tw/) — County cultural materials documenting the Song-dynasty Liang Kejia’s _Sanshan Zhi_ reference to Gantang, the Yuan-dynasty monetary inscription “Zhongtong jiaochao, twenty strings” on the Daqing Temple stele in Tieban Village, Nangan, and evidence that Nangan already had settlements in the Yuan period.
 
 [^7]: [Administrative history of Juguang Township — Juguang Township Office](https://www.juguang.gov.tw/) — Juguang Township administrative history showing that Dongju and Xiju originally belonged to Changle County, while Dongyin and Xiyin originally belonged to Luoyuan County, and that Eastern Fujian fishers from different native places settled on different islands.
 
@@ -268,11 +286,11 @@ Licenses: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC 
 
 [^15]: [Everyday controls under Kinmen-Matsu warzone administration — Taipei Times 2007](https://www.taipeitimes.com/News/feat/archives/2007/11/19/2003388976) — English record of control details: radios and televisions required permits; refrigerators, washing machines, rice cookers, air conditioners, and other high-energy appliances were banned; buildings could not exceed two stories; cameras could not be used freely; tires, lifebuoys, basketballs, and other “floating devices” were banned from import; firecrackers, betel-nut chewing, pigeon-raising, and kite-flying were prohibited; and Kinmen and Matsu had separate currency, or military scrip.
 
-[^16]: [Battlefield slogans left behind in the Matsu Islands — Voice of Matsu](https://voiceofmatsu.com/) — Local media outlet *Voice of Matsu* documents and researches battlefield-era slogans, including “枕戈待旦” in Nangan’s Jieshou Park, written by Chiang Kai-shek in 1958; “毋忘在莒” at Xiju Pier; and village slogans such as “Defend Matsu,” “Be loyal to the leader,” “Recover the Mainland Territory,” and “Rescue Our Mainland Compatriots.”
+[^16]: [Battlefield slogans left behind in the Matsu Islands — Voice of Matsu](https://voiceofmatsu.com/) — Local media outlet _Voice of Matsu_ documents and researches battlefield-era slogans, including “枕戈待旦” in Nangan’s Jieshou Park, written by Chiang Kai-shek in 1958; “毋忘在莒” at Xiju Pier; and village slogans such as “Defend Matsu,” “Be loyal to the leader,” “Recover the Mainland Territory,” and “Rescue Our Mainland Compatriots.”
 
-[^17]: [Matsu residents needed passport-like permits to enter Taiwan 30 years ago — City Learning 2023](https://city.gvm.com.tw/article/112972) — In-depth report from *City Learning*, a *Global Views Monthly* series, in which incumbent Lienchiang County Magistrate Wang Chung-ming reveals that before warzone administration was abolished in 1992, Matsu residents traveling to Taiwan had to apply to the Ministry of the Interior’s Entry and Exit Service Bureau for entry-exit permits “like passports”; the report also notes that descendants of Matsu migrants in Bade, Taoyuan, number 50,000-60,000, four to five times the island population, and that the Matsu language in Bade has lost 94% over three generations, placing it at the severely endangered level.
+[^17]: [Matsu residents needed passport-like permits to enter Taiwan 30 years ago — City Learning 2023](https://city.gvm.com.tw/article/112972) — In-depth report from _City Learning_, a _Global Views Monthly_ series, in which incumbent Lienchiang County Magistrate Wang Chung-ming reveals that before warzone administration was abolished in 1992, Matsu residents traveling to Taiwan had to apply to the Ministry of the Interior’s Entry and Exit Service Bureau for entry-exit permits “like passports”; the report also notes that descendants of Matsu migrants in Bade, Taoyuan, number 50,000-60,000, four to five times the island population, and that the Matsu language in Bade has lost 94% over three generations, placing it at the severely endangered level.
 
-[^18]: [If Taiwan does not want us — Mingrenta](https://opinion.udn.com/opinion/story/11664/6801786) — *Mingrenta* report on identity dilemmas among young people in Matsu, with the verbatim quote “If Taiwan does not want us, and we do not want to be Chinese, what are we supposed to do?” reflecting the dual identity tension of Lienchiang County as an area under Fujian Province but also ROC territory.
+[^18]: [If Taiwan does not want us — Mingrenta](https://opinion.udn.com/opinion/story/11664/6801786) — _Mingrenta_ report on identity dilemmas among young people in Matsu, with the verbatim quote “If Taiwan does not want us, and we do not want to be Chinese, what are we supposed to do?” reflecting the dual identity tension of Lienchiang County as an area under Fujian Province but also ROC territory.
 
 [^19]: [2012 Lienchiang County gambling referendum — Wikipedia](https://zh.wikipedia.org/wiki/2012%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3%E5%8D%9A%E5%BC%88%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8) — Full election data for the July 7, 2012 Lienchiang County gambling referendum: 7,762 registered voters, 40.76% turnout, 3,164 voters, 1,795 votes in favor (57.24%), 1,341 against (42.76%), 3,136 valid votes, and the first successful local referendum in Taiwan’s history.
 
@@ -286,7 +304,7 @@ Licenses: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC 
 
 [^24]: [Development of National Languages Act — Ministry of Culture](https://www.moc.gov.tw/) — Language policy history: in 2017, the ROC government formally recognized the Matsu language as one of the ROC’s national languages; in 2019, the Development of National Languages Act passed, making the Matsu language an object of legal protection.
 
-[^25]: [Matsu Language: A Language Too Unique To Forget — Taiwan Insight](https://taiwaninsight.org/2022/03/31/matsu-language-a-language-too-unique-to-forget/) — *Taiwan Insight*’s 2022 in-depth report on the survival crisis of the Matsu language records verbatim: “Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.” + “The ban on speaking in dialects was painful and hastened the crisis of language extinction.” + “Others have been traumatised since they were discriminated against as foreigners or mainlanders because of their unique 'an' and 'ang' accents.”
+[^25]: [Matsu Language: A Language Too Unique To Forget — Taiwan Insight](https://taiwaninsight.org/2022/03/31/matsu-language-a-language-too-unique-to-forget/) — _Taiwan Insight_’s 2022 in-depth report on the survival crisis of the Matsu language records verbatim: “Less than 30% of Matsu households currently speak in their mother tongue. Some elders believe that this is a dying language.” + “The ban on speaking in dialects was painful and hastened the crisis of language extinction.” + “Others have been traumatised since they were discriminated against as foreigners or mainlanders because of their unique 'an' and 'ang' accents.”
 
 [^26]: [Current loss of the Matsu language — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%A6%AC%E7%A5%96%E8%A9%B1) — Verbatim Chinese record: “In recent years, with the Matsu area opening to tourism and large numbers of people migrating to Taiwan Island, many local Matsu residents have begun to speak Southern Min Taiwanese; the Matsu language, as a mother tongue, faces decline, and the younger generation seldom speaks it or even cannot speak it.”
 
@@ -296,11 +314,11 @@ Licenses: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / [CC 
 
 [^29]: [Sacred-cave legend of Matsu Tianhou Temple — Lord Cat historical record](https://lordcat.tw/archives/89439) — Local legend from the sacred cave beneath the main hall of Matsu Tianhou Temple, or Magang Tianhou Temple, records verbatim: “In ROC year 52, ROC military engineers, showing disrespect, arbitrarily paved floor tiles over the grave stone; the next day, they discovered that all the tiles above the grave stone had shattered, while the rest of the floor remained intact.” This local-legend version is presented alongside the Nangan Township Office “cenotaph” version.
 
-[^30]: [Scientific principles of blue tears — National Taiwan Ocean University](https://mprp.ntou.edu.tw/p/404-1017-68517.php) — National Taiwan Ocean University blue-tears research project website: the scientific name is *Noctiluca scintillans*, a single-celled dinoflagellate; when disturbed, it emits blue bioluminescence lasting about 80 milliseconds each time; the Min River flood season brings inorganic nutrients, causing diatoms to multiply; water temperatures below 27 degrees Celsius are key to the mechanism. The research was published in *Frontiers in Marine Science*.
+[^30]: [Scientific principles of blue tears — National Taiwan Ocean University](https://mprp.ntou.edu.tw/p/404-1017-68517.php) — National Taiwan Ocean University blue-tears research project website: the scientific name is _Noctiluca scintillans_, a single-celled dinoflagellate; when disturbed, it emits blue bioluminescence lasting about 80 milliseconds each time; the Min River flood season brings inorganic nutrients, causing diatoms to multiply; water temperatures below 27 degrees Celsius are key to the mechanism. The research was published in _Frontiers in Marine Science_.
 
 [^31]: [Matsu tourism visitor statistics — Matsu National Scenic Area Administration](https://www.matsu-nsa.gov.tw/) — Official Matsu annual visitor statistics: 210,260 visits in 2019; 225,517 in 2020; 138,181 in 2021 during the pandemic; 224,719 in 2022; and 224,317 in 2023. Blue tears are the main driver of the peak season.
 
-[^32]: [Naming of Qinbi Village and Eastern Fujian stone houses — Voice of Matsu](https://voiceofmatsu.com/) — Local media outlet *Voice of Matsu* records verbatim: “The Matsu word for turtle is pronounced ‘qin-a’; because the settlement was built against the mountain and facing the sea, inlaid into the mountain wall, it was called ‘Qinbi,’” explaining the origin of the name.
+[^32]: [Naming of Qinbi Village and Eastern Fujian stone houses — Voice of Matsu](https://voiceofmatsu.com/) — Local media outlet _Voice of Matsu_ records verbatim: “The Matsu word for turtle is pronounced ‘qin-a’; because the settlement was built against the mountain and facing the sea, inlaid into the mountain wall, it was called ‘Qinbi,’” explaining the origin of the name.
 
 [^33]: [Qinbi architectural techniques and history — chadars.com](https://chadars.com/qinbi-village-matsu-2021/) — Verbatim record: “More than 200 years ago, the Chen family from Changle County in Fujian crossed the sea and settled here. On an island of scarce resources, they used uncut granite as building material, piling rubble into square, freestanding, two-story buildings; stones weighed down the roof tiles, while small, high windows blocked wind and pirates,” documenting Eastern Fujian stone-house techniques.
 

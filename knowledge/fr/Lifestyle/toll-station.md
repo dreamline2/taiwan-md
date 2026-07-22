@@ -27,6 +27,10 @@ sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:51547944c653872d'
 sourceBodyHash: 'sha256:bc9b5cd80bcd52ef'
 translatedAt: '2026-06-12T00:53:43+08:00'
+image: '/article-images/lifestyle/taishan-toll-station-2008.webp'
+imageCredit: 'MiNe (Flickr), via Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taishan_Toll_Station_20080818a.jpg'
 ---
 
 > **« Dans cette petite cabine carrée de trois pieds, nous ne recevions pas simplement un ticket, mais les âmes de nombreux voyageurs pressés. Quand la fenêtre s’abaissait, le vent d’hiver, la chaleur étouffante de l’été, et le doux « merci pour votre effort » entraient. »**

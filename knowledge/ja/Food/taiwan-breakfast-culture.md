@@ -5,7 +5,16 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '飲品文化'
-tags: ['朝食', '卵焼きパン（蛋餅）', '焼餅油条（焼きパンと揚げパン）', '永和豆漿（ヨウワドウジャン）', '美而美（ビールミー）', '朝食店', '豆漿店（豆乳専門店）']
+tags:
+  [
+    '朝食',
+    '卵焼きパン（蛋餅）',
+    '焼餅油条（焼きパンと揚げパン）',
+    '永和豆漿（ヨウワドウジャン）',
+    '美而美（ビールミー）',
+    '朝食店',
+    '豆漿店（豆乳専門店）',
+  ]
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: false
@@ -14,6 +23,8 @@ sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:03f68d8696f5da84'
 sourceBodyHash: 'sha256:dc5728577e386104'
 translatedAt: '2026-05-20T05:08:29+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Taiwanese_danbing_and_sandwitch.jpg/960px-Taiwanese_danbing_and_sandwitch.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 台湾の朝食文化

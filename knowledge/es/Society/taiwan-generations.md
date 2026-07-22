@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c08e2d9389a9aa31'
 sourceBodyHash: 'sha256:006a7ebb808c91b9'
 translatedAt: '2026-06-16T17:04:27Z'
+image: '/article-images/society/budaixi-puppets-2023.webp'
+imageCredit: 'Wang Yu Ching / Office of the President'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Hand_puppets_of_Taiwanese_Glove_puppetry_2023-04-11.jpg'
 ---
 
 > **30-Second Overview:** Taiwanese people identify themselves by "Grade" (based on the Republic of China calendar), taking the tens digit of their birth year: Fifth Grade refers to those born in ROC years 50–59 (1961–1970), extending all the way to Ninth Grade (2001–2010). The term "Strawberry Generation," which has been used as an insult for 30 years, was first printed in 1993, targeting the then-twenty-something, now fifty-something Fifth Graders[^1]; it has since passed down to Seventh, Eighth, and Ninth Graders. The people being criticized have changed batches, but the label remains exactly the same. What has moved between these five generations is the "escalator" beneath their feet, symbolizing "hard work brings rewards": it slowed down around 2002, when real wages decoupled from productivity[^2]; its entrance was simultaneously raised by housing prices, with Taipei's price-to-income ratio rising from 6.4 times in 2004 to 15.41 times in 2025[^3]; and then it split into two lines. The line relying solely on salaries has nearly stopped, while the line relying on parental down payments is still moving. This article aims to deconstruct this label.

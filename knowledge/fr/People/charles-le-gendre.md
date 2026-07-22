@@ -22,6 +22,7 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b35bf2bd112055a5'
 sourceBodyHash: 'sha256:bbb48d4bf913e4a0'
 translatedAt: 2026-05-01T20:54:17+08:00
+image: ''
 ---
 
 # Le Gendre : le signataire et le traître étaient la même personne

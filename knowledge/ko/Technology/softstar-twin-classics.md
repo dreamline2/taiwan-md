@@ -25,6 +25,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:99d1ed1be7085b4c'
 sourceBodyHash: 'sha256:6aa8eb64a1458368'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/technology/guanghua-computer-market-2007.webp'
+imageCredit: 'pacificmorningpost (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:2007-10-15_Guanhua_Computer_Market_Shop.jpg'
 ---
 
 > **30초 개요:** 1990년, 대학생 한 무리가 광화(光華) 컴퓨터 상가에서 기술 매뉴얼을 뒤지며, 컴퓨터 한 대를 돌려가며 사용해 최초의 중문 무협 RPG 《현원검》을 만들었다. 5년 후, 스물여섯 살의 청년이 이별의 아픔을 《선협기전》의 결말에 담았고, 발매 첫날 만 장이 팔려나갔다. 이 두 게임은 이후 "대우쌍검"이라 불리며 30년에 걸쳐 드라마와 영화로 파생되고 누적 판매량 100만 장을 넘겼다. 2024년 9월, 대우는 5억 대만달러에 쌍검 IP를 매각했다. 2025년 6월 현원검 IP는 환동(歡動)에서 청두 성열진석(成都星閱辰石)으로 이전되었다. 2025년 11월 3일, 대우 본체는 "광집정전연합(光聚晶電聯合)"으로 사명을 변경했으며, 반도체 비중이 65%를 차지한다. 하지만 한 세대 전체의 플레이어에게 있어, DOS 창 앞에서 처음으로 울음을 터뜨렸던 그 오후는 팔리지 않는다.

@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:63b47718f8145b2c'
 sourceBodyHash: 'sha256:04f5859af8f97035'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/art/yeh-ting-hao-reverberation-hero-2024.webp'
+imageCredit: '臺中國家歌劇院 NTT'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.youtube.com/watch?v=_-L_wAYDmBs'
 ---
 
 ## 葉廷皓：テクノロジーの「正しくない」使い方から予期せぬ音像を引き出したアーティスト、43歳でひとつの生態系を遺しました

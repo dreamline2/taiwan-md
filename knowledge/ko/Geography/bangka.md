@@ -34,6 +34,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c05a8c5cb2792eea'
 sourceBodyHash: 'sha256:da886e84510f3d63'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/geography/wanhua-longshan-temple-2016.webp'
+imageCredit: 'Bernard Gagnon'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Longshan_Temple,_Taipei_01.jpg'
 ---
 
 # 멍자: 청대 타이베이에서 가장 번화했던 곳, 지금은 타이베이에서 평균연령이 가장 높은 구

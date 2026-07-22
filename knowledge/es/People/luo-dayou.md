@@ -24,6 +24,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:a360c7a135e403dc'
 sourceBodyHash: 'sha256:fe7b545ee2048324'
 translatedAt: '2026-06-20T01:01:36+08:00'
+image: '/article-images/people/lo-ta-yu-2011.webp'
+imageCredit: 'Daniel M Shih'
+imageLicense: 'CC BY-SA 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Lo_Ta-yu_羅大佑_2011.jpg'
 ---
 
 > **Panorama en 30 segundos:** Lo Ta-yu (nacido en 1954) es un cantautor formado como médico radiólogo. En 1982, _Zhihuzheye_ transformó la letra pop: dejó de ser un adorno sentimental para convertirse en un vehículo de posición crítica, y la crítica musical taiwanesa eligió después ese álbum como el número uno entre los cien discos clásicos. Escribió el desarraigo de <Lukang, la pequeña ciudad>, el aislamiento de <El huérfano de Asia> y la distancia de <La perla de Oriente>, preguntando una y otra vez: «¿quién soy?». Lo paradójico es que este hombre que cantó la errancia de Taiwán también vagó de Taipéi a Nueva York, Hong Kong y Beijing; según investigadores, en veintinueve años se mudó diecinueve veces. A los setenta volvió a Taiwán, subió al escenario y dijo que al menos «el setenta por ciento» de los músicos de su generación habían sido eliminados, y que quienes permanecían eran sobrevivientes extraordinarios.

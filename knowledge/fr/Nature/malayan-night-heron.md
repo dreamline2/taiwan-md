@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4926f151d268c5db'
 sourceBodyHash: 'sha256:215f7a81312f6fac'
 translatedAt: '2026-06-16T17:13:36Z'
+image: '/article-images/nature/malayan-night-heron-taipei-foraging-2010.webp'
+imageCredit: 'Dr. Raju Kasambe'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Malayan_Night_Heron_(Gorsachius_melanolophus),_Taipei_Taiwan.jpg'
 ---
 
 # Le bihoreau malais : espèce de rêve des ornithologues, grand oiseau gauche des campus universitaires

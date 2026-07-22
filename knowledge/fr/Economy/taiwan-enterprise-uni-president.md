@@ -21,6 +21,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:3fb7c059831bdebb'
 sourceBodyHash: 'sha256:481f2cb6cfdcbd21'
 translatedAt: '2026-04-14T19:20:58+08:00'
+image: '/article-images/economy/seven-eleven-taiwan-storefront-2024.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:7-Eleven_Nanjing_Store_front_view_20240214.jpg'
 ---
 
 > **En 30 secondes :** En 1967, Kao Ching-yuan, alors âgé de 38 ans, fonde Uni-President Enterprises à Xuejia, dans le comté de Tainan. Parti d'une modeste minoterie, le groupe affiche en 2024 un chiffre d'affaires record de 657,6 milliards de TWD. Mais Uni-President ne vend pas que des nouilles : en inaugurant son premier 7-ELEVEN le 9 février 1980 à Taipei, l'entreprise a réinventé le quotidien des Taïwanais et fait de la « disponibilité 24h/24 » un symbole culturel propre à Taïwan.

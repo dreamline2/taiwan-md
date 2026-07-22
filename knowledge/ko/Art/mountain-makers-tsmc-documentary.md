@@ -22,6 +22,10 @@ sourceCommitSha: '349e7b4fa'
 sourceContentHash: 'sha256:6be45e1cb9e9d665'
 sourceBodyHash: 'sha256:e381e9da7e6b89c3'
 translatedAt: '2026-06-17T01:45:00+08:00'
+image: '/article-images/technology/hsinchu-science-park-main-gate-2025.webp'
+imageCredit: 'T Gordon Cheng'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Hsinchu_Science_Park_%E5%85%89%E5%BE%A9%E8%B7%AF%E5%9C%92%E5%8D%80%E5%A4%A7%E9%96%80%E7%AB%8B%E6%9F%B1_2025-12-02.jpg'
 ---
 
 # 조산자(造山者): 세기의 도박 — 제목에서 한 글자를 깎아내야 비로소 입에 올릴 수 있었던 타이완 반도체 서사시

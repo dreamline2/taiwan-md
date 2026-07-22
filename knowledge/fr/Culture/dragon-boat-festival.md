@@ -26,6 +26,8 @@ sourceCommitSha: '58fa84f01'
 sourceContentHash: 'sha256:aac6019521f0bc32'
 sourceBodyHash: 'sha256:5410e4f9f881b327'
 translatedAt: '2026-06-20T00:37:14+08:00'
+image: /article-images/culture/duanwu-two-zongzi-styles.webp
+imageCredit: 'Dllu / Wikimedia Commons (CC BY-SA 4.0)'
 ---
 
 # Fête des Bateaux-Dragons : la boîte à outils des anciens contre la mort, devenue à Taïwan une réunion annuelle

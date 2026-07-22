@@ -46,6 +46,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:bd9b1e07ed885b16'
 sourceBodyHash: 'sha256:547ee1d3b342a025'
 translatedAt: '2026-06-14T00:35:00+08:00'
+image: '/article-images/society/taipei-skyline-housing-2026.webp'
+imageCredit: 'Heeheemalu'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg'
 ---
 
 # 国民住宅と居住正義：政府が建てた安い住宅は、最後に誰の資産エスカレーターを育てたのか

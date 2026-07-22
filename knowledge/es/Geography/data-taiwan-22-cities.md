@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d4d60849e9ff119e'
 sourceBodyHash: 'sha256:7464b15b7c6d840e'
 translatedAt: '2026-06-16T17:05:07Z'
+image: '/article-images/geography/taiwan-island-nasa-mosaic.webp'
+imageCredit: 'NASA'
+imageLicense: 'Public domain（NASA）'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Main_Island_Mosaic_NASA_2020.jpg'
 ---
 
 # Ver Taiwán a través de los datos de sus 22 condados y ciudades: entre lo más denso y lo más vacío hay una diferencia de 151 veces; entre lo más viejo y lo más joven, casi una generación

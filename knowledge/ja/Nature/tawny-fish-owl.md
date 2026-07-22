@@ -26,6 +26,10 @@ sourceCommitSha: '3c781dba'
 sourceContentHash: 'sha256:f082c2bfc65ade6e'
 sourceBodyHash: 'sha256:2a057438270935d7'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: '/article-images/nature/tawny-fish-owl-gailhampshire-2009.webp'
+imageCredit: 'gailhampshire (Flickr)'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg'
 ---
 
 > **30秒概要：** キバシウオミミズク（_Ketupa flavipes_）は台湾最大のフクロウで、翼を広げると成人の身長に近くなります。足指は黄色い羽毛に覆われ、足裏には濡れて滑りやすい獲物をつかむ肉棘があります。1916年になって日本人研究者の黒田長礼により初めて記録され[^1]、台湾で初めて正確に位置が特定された繁殖巣は1994年のことでした[^2]。屏東科技大学の孫元勳研究室は三十年にわたり追跡しました。彼らは、一つがいのキバシウオミミズクがなわばりを維持するには、長さ6.2キロメートル、44.6%が天然林に囲まれた渓流が必要であることを発見しました[^3]。2026年4月、研究チームは武陵の七家湾渓のほとりで、胸高直径約1.5メートルのタイワンオガタマの老木の樹洞に、台湾で既知のものとして最も標高の高い巣を見つけました[^4]。雪覇国家公園は24時間の育雛ライブ配信を始め、島の人々が、自分たちにとって最も身近でありながら見知らぬ猛禽を、初めて集団で目にする機会を得ました。

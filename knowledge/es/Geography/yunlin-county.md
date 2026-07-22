@@ -1,20 +1,40 @@
 ---
-title: "Condado de Yunlin: lo que Yilan decidió rechazar, Yunlin lo pagó con treinta años de pulmones"
-description: "El 13 de diciembre de 1987, Chen Ding-nan bloqueó la entrada del Sexto Complejo de Craqueo de Nafta a Yilan en un estudio de CTS; el 26 de junio de 1991, el Yuan Ejecutivo aprobó trasladarlo al mar frente a Mailiao, Yunlin; en julio de 1994 comenzó formalmente la construcción; en 1998 se encendió la primera fase, y hasta hoy se han ganado 2.255 hectáreas al mar. En 2011, el equipo de Chan Chang-chuan, de la Escuela de Salud Pública de la Universidad Nacional de Taiwán, encontró que la incidencia de cáncer entre residentes a 10 kilómetros del complejo era 1,29 veces la media de todo Taiwán. Pero en el mismo condado, el templo Beigang Chaotian ya veneraba a Mazu desde 1694, año 33 del reinado Kangxi de la dinastía Qing, hace 332 años; y el 28 de enero de 1953, acero de la ayuda estadounidense sostuvo los 1.939 metros del puente Xiluo. Un solo condado es, al mismo tiempo, sede de uno de los templos de Mazu más antiguos de Taiwán, uno de sus graneros más importantes y su mayor reino petroquímico."
+title: 'Condado de Yunlin: lo que Yilan decidió rechazar, Yunlin lo pagó con treinta años de pulmones'
+description: 'El 13 de diciembre de 1987, Chen Ding-nan bloqueó la entrada del Sexto Complejo de Craqueo de Nafta a Yilan en un estudio de CTS; el 26 de junio de 1991, el Yuan Ejecutivo aprobó trasladarlo al mar frente a Mailiao, Yunlin; en julio de 1994 comenzó formalmente la construcción; en 1998 se encendió la primera fase, y hasta hoy se han ganado 2.255 hectáreas al mar. En 2011, el equipo de Chan Chang-chuan, de la Escuela de Salud Pública de la Universidad Nacional de Taiwán, encontró que la incidencia de cáncer entre residentes a 10 kilómetros del complejo era 1,29 veces la media de todo Taiwán. Pero en el mismo condado, el templo Beigang Chaotian ya veneraba a Mazu desde 1694, año 33 del reinado Kangxi de la dinastía Qing, hace 332 años; y el 28 de enero de 1953, acero de la ayuda estadounidense sostuvo los 1.939 metros del puente Xiluo. Un solo condado es, al mismo tiempo, sede de uno de los templos de Mazu más antiguos de Taiwán, uno de sus graneros más importantes y su mayor reino petroquímico.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ['Yunlin', 'condado de Yunlin', 'Sexto Complejo de Craqueo de Nafta', 'Mailiao', 'templo Beigang Chaotian', 'Mazu', 'puente Xiluo', 'arroz de Xiluo', 'azucarera de Huwei', 'café de Gukeng', 'Chen Ding-nan', 'Wang Yung-ching', 'río Zhuoshui', 'serie de 22 condados y ciudades']
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Yunlin',
+    'condado de Yunlin',
+    'Sexto Complejo de Craqueo de Nafta',
+    'Mailiao',
+    'templo Beigang Chaotian',
+    'Mazu',
+    'puente Xiluo',
+    'arroz de Xiluo',
+    'azucarera de Huwei',
+    'café de Gukeng',
+    'Chen Ding-nan',
+    'Wang Yung-ching',
+    'río Zhuoshui',
+    'serie de 22 condados y ciudades',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/雲林縣.md"
-sourceCommitSha: "036da279d"
-sourceContentHash: "sha256:68dcc74d52d8c737"
-sourceBodyHash: "sha256:24b0d8d16f592539"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/雲林縣.md'
+sourceCommitSha: '036da279d'
+sourceContentHash: 'sha256:68dcc74d52d8c737'
+sourceBodyHash: 'sha256:24b0d8d16f592539'
+translatedAt: '2026-05-18T05:08:09+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg
+imageCredit: Mk2010
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg
 ---
 
 # Condado de Yunlin: lo que Yilan decidió rechazar, Yunlin lo pagó con treinta años de pulmones
@@ -48,7 +68,7 @@ Administrativamente hay 20 municipios: 1 ciudad administrada por el condado (Dou
 Hay que hablar en particular del invierno en la costa occidental. Cada año, de noviembre a marzo, el monzón del noreste sopla desde el estrecho de Taiwán y produce en el oeste de Yunlin un clima típico de alternancia entre “niebla densa y vientos fuertes”. En Mailiao, Taixi y Kouhu la visibilidad cae con frecuencia por debajo de 500 metros. Es la estación en que peor se dispersan los gases del Sexto Craqueador y también la de mayor carga para los pulmones[^11]. En cuanto a lluvias, la costa occidental recibe unos 1.200 milímetros anuales, relativamente poco; las colinas orientales pueden superar los 2.500 milímetros. Esa diferencia hace que la estructura agrícola de Yunlin sea completamente distinta de este a oeste.
 
 ![Complejo del Sexto Craqueador en Mailiao, fotografiado en 2010. Aprobado por el Yuan Ejecutivo en 1991, iniciado en 1994 y con la primera fase encendida en 1998, con 2.255 hectáreas ganadas al mar.](https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg)
-_Complejo industrial del Sexto Craqueador en Mailiao, 2010. Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)._
+_Complejo industrial del Sexto Craqueador en Mailiao, 2010. Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg).\_
 
 ## La raíz de Bengang: el año en que Mazu cruzó el mar desde Meizhou
 
@@ -222,7 +242,7 @@ La próxima vez que vayas a Yunlin, no vayas solo a Gukeng a tomar café. Prueba
 
 Este artículo usa 4 imágenes con licencia CC de Wikimedia Commons:
 
-- **Hero (frontmatter)**: [Formosa Plastics Group Mail-Liao Industrial Complex](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg) (Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), complejo industrial del Sexto Craqueador en Mailiao)
+- **Hero (frontmatter)**: [Formosa Plastics Group Mail-Liao Industrial Complex](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg>) (Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), complejo industrial del Sexto Craqueador en Mailiao)
 - **Escena §Bengang en 1694**: [Beigang Chaotian Temple-01](https://commons.wikimedia.org/wiki/File:Beigang_Chaotian_Temple-01.2024-09-18.jpg) (阿道, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), templo Beigang Chaotian en septiembre de 2024)
 - **Escena §La primera chimenea de 1909**: [Scene in Huwei Sugar Factory 05](https://commons.wikimedia.org/wiki/File:Scene_in_Huwei_Sugar_Factory_05.jpg) (WC-QHS, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), azucarera de Huwei en 2018)
 - **Escena §28 de enero de 1953**: [Xiluo Bridge at noon on 2 August 2014](https://commons.wikimedia.org/wiki/File:Xiluo_Bridge_at_noon_on_2_August_2014.jpg) (JianEn Yu, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), puente Xiluo en agosto de 2014)

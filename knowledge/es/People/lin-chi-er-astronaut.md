@@ -22,6 +22,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:386b664532b04d0d'
 sourceBodyHash: 'sha256:85e505009fb05c24'
 translatedAt: '2026-06-16T17:14:33Z'
+image: '/article-images/people/lindgren-emu-2014.webp'
+imageCredit: 'NASA/Bill Stafford'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
 ---
 
 > **Panorama en 30 segundos:** Kjell N. Lindgren nació en Taipéi en 1973. Su padre era un oficial de la Fuerza Aérea estadounidense estacionado en Ching Chuan Kang, Taichung, y su madre, Zhang Chuyun, de origen en Wuhan, llegó a Taiwán de niña con el gobierno. Partió de Taiwán a los dos años y medio y pasó su infancia en Inglaterra y Virginia. Tras graduarse en la Academia de la Fuerza Aérea, un diagnóstico erróneo de asma durante el entrenamiento de pilotaje le obligó a abandonar la carrera de piloto. Se reorientó hacia la medicina y, once años después, aprobó el examen médico de la NASA. En 2009 fue seleccionado entre 3.565 candidatos para la vigésima promoción de astronautas. En la estación espacial cultivó lechuga romana roja, tocó una gaita de plástico en el interior del módulo para honrar a un amigo, y fue comandante de la misión SpaceX Crew-4 «Freedom», acumulando un total de 312 días 5 horas y 11 minutos en órbita. En abril de 2026 regresó a Taiwán con la misión «Freedom 250» y dijo en el Palacio Presidencial: «Mi carrera como astronauta de la NASA comenzó en Taiwán.»

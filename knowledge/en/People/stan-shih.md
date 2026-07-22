@@ -23,6 +23,10 @@ sourceCommitSha: '648966ea'
 sourceContentHash: 'sha256:4207f3d1db6eb633'
 sourceBodyHash: 'sha256:a0ff299644c9b0cc'
 translatedAt: '2026-07-16T00:45:14+08:00'
+image: '/article-images/people/stanshih-taipei-2014.webp'
+imageCredit: 'Tony Tseng'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg'
 ---
 
 > **30-Second Overview:** Stan Shih (born 1944) is a child of a Lukang incense-making lineage. His father died from overwork when Stan was three, and his mother raised him by selling duck eggs, stationery, and patriotic bonds. He built Acer into a top-five global PC brand and drew the Smiling Curve, a concept that entered textbooks and is still studied by international economists. He is also one of Taiwan’s rare tech patriarchs willing to stand before the camera and say, "I am the biggest loser." Even in his eighties, with over ten heart stents in place, he continues to run venture capital funds and develop an AI avatar. What he has always cared about most are the invisible metrics that take years to calculate: talent, brand equity, and what he calls the "King's Way."

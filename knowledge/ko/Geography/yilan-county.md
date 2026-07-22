@@ -30,6 +30,10 @@ sourceCommitSha: 'e27a20a4'
 sourceContentHash: 'sha256:a11b339547d8ad31'
 sourceBodyHash: 'sha256:9fcd1f01c87f0494'
 translatedAt: '2026-06-16T17:05:51Z'
+image: /article-images/geography/yilan-hero.webp
+imageCredit: 曾成訓 Tseng
+imageLicense: CC BY 2.0
+imageSource: https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg
 ---
 
 # 이란현: 두 차례 스스로의 운명을 선택한 뒤 란양평원은 되돌아가지 않았다

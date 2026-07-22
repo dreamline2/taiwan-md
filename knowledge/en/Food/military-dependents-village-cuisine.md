@@ -22,6 +22,8 @@ sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:7463882ad93990e3'
 sourceBodyHash: 'sha256:c6f4891abde841e9'
 translatedAt: '2026-05-16T05:07:54+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Spring_onion_pancake_2013.JPG/960px-Spring_onion_pancake_2013.JPG'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Taiwanese Military Dependents' Village Cuisine

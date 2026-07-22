@@ -26,6 +26,10 @@ sourceCommitSha: '195a57899'
 sourceContentHash: 'sha256:6fd747b2b0893c21'
 sourceBodyHash: 'sha256:a1e49238035eece5'
 translatedAt: '2026-06-26T00:38:47+08:00'
+image: '/article-images/lifestyle/scooters-and-bus-taipei-1996.webp'
+imageCredit: 'Holly Cheng'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taipei_street_scene.jpg'
 ---
 
 On the morning of September 15, 2024, in front of Tongluo Railway Station in Miaoli. More than 30 people stood beneath the bus stop sign; the youngest were still in kindergarten, the oldest was 90. They were not waiting for a bus to work, nor for a bus to school. They were waiting for the last Hsinchu Bus 5658 service.

@@ -25,6 +25,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:0689f4ef37606e24'
 sourceBodyHash: 'sha256:ad9bd62c3f44776c'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/food/bando-ghost-festival-banquet-2017.webp'
+imageCredit: '玄史生 / Wikimedia Commons'
+imageLicense: 'CC0 1.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:The_End_of_Ghost_Festival_Party_at_Dongsha_Tzufu_Temple_20170919a.jpg'
 ---
 
 # Les banquets de Taïwan : le _pān-toh_ qui ouvre sous l'orage, et un savoir rituel en train de plier le chapiteau

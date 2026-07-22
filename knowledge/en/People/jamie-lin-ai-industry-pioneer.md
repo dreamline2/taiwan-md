@@ -1,20 +1,24 @@
 ---
-title: "Jamie Lin: From Academia Sinica to Google Taiwan, Still on the Startup Front Line After Retiring in 2020"
-description: "Born in 1963, Jamie Lin holds a B.S. in Computer Science and Engineering from National Taiwan University; his doctoral degree is unconfirmed (reportedly from the University of Maryland, USA). He served as Deputy Director of the Institute of Information Science at Academia Sinica from 1993 to 2005. He joined Google in 2006, becoming Employee No. 1 at the Google Taiwan R&D Center, and retired on January 31, 2020. After retirement, he took board positions at startups including iKala and Appier, and has continued promoting AI education."
+title: 'Jamie Lin: From Academia Sinica to Google Taiwan, Still on the Startup Front Line After Retiring in 2020'
+description: 'Born in 1963, Jamie Lin holds a B.S. in Computer Science and Engineering from National Taiwan University; his doctoral degree is unconfirmed (reportedly from the University of Maryland, USA). He served as Deputy Director of the Institute of Information Science at Academia Sinica from 1993 to 2005. He joined Google in 2006, becoming Employee No. 1 at the Google Taiwan R&D Center, and retired on January 31, 2020. After retirement, he took board positions at startups including iKala and Appier, and has continued promoting AI education.'
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "科技與企業"
-tags: ["科技與企業", "Google", "人工智慧", "中研院", "AI教育"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '科技與企業'
+tags: ['科技與企業', 'Google', '人工智慧', '中研院', 'AI教育']
 readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
-translatedFrom: "People/簡立峰.md"
-sourceCommitSha: "0f8fae0ae"
-sourceContentHash: "sha256:fbf9f60162ac4b29"
-sourceBodyHash: "sha256:820519fbefcc8fbc"
-translatedAt: "2026-05-20T05:08:27+08:00"
+translatedFrom: 'People/簡立峰.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:fbf9f60162ac4b29'
+sourceBodyHash: 'sha256:820519fbefcc8fbc'
+translatedAt: '2026-05-20T05:08:27+08:00'
+image: '/article-images/people/lee-feng-chien-tsai-google-2019.webp'
+imageCredit: '總統府 / Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: "https://commons.wikimedia.org/wiki/File:Google_Taiwan_Branch_Engineering_Director_Lee-Feng_Chien_speaking_with_Taiwanese_President_Tsai_Ing-wen_upon_her_visit_at_Google's_office_at_Taipei_101_20190417.jpg"
 ---
 
 # Jamie Lin: From Academia Sinica to Google Taiwan, Still on the Startup Front Line After Retiring in 2020

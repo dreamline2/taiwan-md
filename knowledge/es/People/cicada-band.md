@@ -36,6 +36,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:4a53480bbe9aa83b'
 sourceBodyHash: 'sha256:5091127dea208f82'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: '/article-images/people/cicada-cuichi-xueshan-glacial-lake.webp'
+imageCredit: 'Blackjack633 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%BF%A0%E6%B1%A0_%E6%B1%AA%E5%A4%A7%E6%99%BA_05.jpg'
 ---
 
 > **Panorama en 30 segundos:** Cicada es una banda independiente enteramente instrumental, formada en Taipéi en 2009 y liderada por la pianista Chiang Chih-chieh (Jesy Chiang, maestría en Historia del Arte por la Universidad Nacional de las Artes de Taipéi). Su formación de cuatro integrantes incluye piano, violín, violonchelo y guitarra acústica. Desde Pieces, su debut publicado en 2011 por White Wabbit Records, todas las obras que han lanzado a lo largo de dieciséis años carecen de voces. Sus temas han pasado de la erosión de la costa oeste (Coastland, 2013), la costa este y el Pacífico (Light Shining Through the Sea, 2015), y la ecología marina (White Forest, 2017), a los bosques de montaña (Hiking in the Mist, 2019) y los nacientes de arroyos (Seeking the Sources of Streams, 2022, una expedición de 15 días y 120 kilómetros por la cordillera Central). En 2024, su antología por el 15.º aniversario, Coastland Revisited, reinterpretó los temas costeros; en 2025, Gazing the Shades of White salió por primera vez de Taiwán, siguiendo glaciares a través de los hemisferios norte y sur antes de volver a Xueshan para buscar las huellas de antiguos glaciares. Compusieron la banda sonora de la película japonesa A Man y recibieron el Premio a la Música Destacada de la Academia Japonesa de Cine; en 2024 realizaron una gira completa por Japón y han compartido escenario con el compositor islandés Ólafur Arnalds. Su metodología central: **dejar que la naturaleza hable por sí misma**.

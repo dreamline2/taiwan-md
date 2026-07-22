@@ -5,7 +5,16 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '飲品文化'
-tags: ['아침', '계란빵', '샤오빠오유탸오', '융허두장', '메이얼메이', '아침집', '두장집']
+tags:
+  [
+    '아침',
+    '계란빵',
+    '샤오빠오유탸오',
+    '융허두장',
+    '메이얼메이',
+    '아침집',
+    '두장집',
+  ]
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: false
@@ -14,6 +23,8 @@ sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:03f68d8696f5da84'
 sourceBodyHash: 'sha256:dc5728577e386104'
 translatedAt: '2026-05-20T05:08:30+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Taiwanese_danbing_and_sandwitch.jpg/960px-Taiwanese_danbing_and_sandwitch.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 타이완 아침 문화

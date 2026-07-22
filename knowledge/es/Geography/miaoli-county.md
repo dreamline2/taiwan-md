@@ -1,20 +1,37 @@
 ---
-title: "Condado de Miaoli: el condado hakka de cuello duro que eligió en ocho años a un magistrado que duplicó con creces la deuda del erario"
-description: "Durante el dominio japonés, el alcanfor de Miaoli representaba el 95% del total de Taiwán; Sanyi inició su talla en madera con los tocones sobrantes de destilar alcanforeros. En 2002, la aldea Beihe de Gongguan organizó el primer Festival de la Flor de Tung. En 2008, Liu Cheng-hung recibió un condado con 20.200 millones de deuda; al dejar el cargo en 2014, la deuda contable era de 67.600 millones. Entre medio ocurrieron el suicidio con pesticida de Zhu Feng-min, la demolición forzosa de la Farmacia Zhang y el Hakka Round House, construido por 120 millones y convertido en un edificio mosquito. Hoy, 530.000 personas viven en este condado, el segundo de Taiwán con mayor proporción hakka: 62,5%."
-date: "2026-05-18"
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Miaoli", "condado de Miaoli", "hakka", "cultura hakka", "incidente de Dapu", "talla en madera de Sanyi", "flor de tung", "pueblo saisiyat", "Festival de los Espíritus Pequeños", "Liu Cheng-hung", "serie de 22 ciudades y condados"]
+title: 'Condado de Miaoli: el condado hakka de cuello duro que eligió en ocho años a un magistrado que duplicó con creces la deuda del erario'
+description: 'Durante el dominio japonés, el alcanfor de Miaoli representaba el 95% del total de Taiwán; Sanyi inició su talla en madera con los tocones sobrantes de destilar alcanforeros. En 2002, la aldea Beihe de Gongguan organizó el primer Festival de la Flor de Tung. En 2008, Liu Cheng-hung recibió un condado con 20.200 millones de deuda; al dejar el cargo en 2014, la deuda contable era de 67.600 millones. Entre medio ocurrieron el suicidio con pesticida de Zhu Feng-min, la demolición forzosa de la Farmacia Zhang y el Hakka Round House, construido por 120 millones y convertido en un edificio mosquito. Hoy, 530.000 personas viven en este condado, el segundo de Taiwán con mayor proporción hakka: 62,5%.'
+date: '2026-05-18'
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Miaoli',
+    'condado de Miaoli',
+    'hakka',
+    'cultura hakka',
+    'incidente de Dapu',
+    'talla en madera de Sanyi',
+    'flor de tung',
+    'pueblo saisiyat',
+    'Festival de los Espíritus Pequeños',
+    'Liu Cheng-hung',
+    'serie de 22 ciudades y condados',
+  ]
 readingTime: 16
-lastVerified: "2026-05-18"
+lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/苗栗縣.md"
-sourceCommitSha: "b457dbbb1"
-sourceContentHash: "sha256:0d7e5732a8513df0"
-sourceBodyHash: "sha256:f743a82d302f341a"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/苗栗縣.md'
+sourceCommitSha: 'b457dbbb1'
+sourceContentHash: 'sha256:0d7e5732a8513df0'
+sourceBodyHash: 'sha256:f743a82d302f341a'
+translatedAt: '2026-05-18T05:08:09+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/6/6d/2023_Tung_Blossom_Festival.jpg
+imageCredit: 中華民國客家委員會
+imageLicense: CC BY 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:2023_Tung_Blossom_Festival.jpg
 ---
 
 # Condado de Miaoli: el condado hakka de cuello duro que eligió en ocho años a un magistrado que duplicó con creces la deuda del erario
@@ -141,7 +158,7 @@ El incidente de Dapu ocurrió durante el segundo mandato de Liu Cheng-hung. Fue 
 **18 de agosto de 2013**. El movimiento “Demoler el gobierno” se reunió en la avenida Ketagalan. La consigna fue: "Today Miaoli is demolished, tomorrow we demolish the government." (**Hoy demuelen Dapu; mañana demolimos el gobierno**)[^31]. Esa frase volvería a escucharse luego en el Movimiento Girasol de 2014.
 
 ![Movimiento callejero “Demoler el gobierno” del 18 de agosto de 2013. Grupos cívicos taiwaneses protestan en la avenida Ketagalan contra las demoliciones forzosas de Dapu; la consigna “Hoy demuelen Dapu; mañana demolimos el gobierno” se volvió luego uno de los gritos del Movimiento Girasol de 2014.](https://upload.wikimedia.org/wikipedia/commons/b/ba/2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C_P8180109_%289555113047%29.jpg)
-_Escena del movimiento “Demoler el gobierno”, 2013-08-18. Foto: Fanjiang Zhongcen. [CC BY-SA 2.0 vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C_P8180109_%289555113047%29.jpg)._
+_Escena del movimiento “Demoler el gobierno”, 2013-08-18. Foto: Fanjiang Zhongcen. [CC BY-SA 2.0 vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013-08-18_%E6%8B%86%E6%94%BF%E5%BA%9C*P8180109*%289555113047%29.jpg).\_
 
 **18 de septiembre de 2013**. El dueño de la Farmacia Zhang, **Zhang Senwen** (1953-2013), desapareció por la mañana; por la tarde, su cuerpo fue encontrado en una acequia de desagüe cerca de su casa. La fiscalía cerró el caso como suicidio[^30]. Zhang Senwen era un funcionario jubilado de la oficina de salud; sostenía a su familia con una pensión de poco más de 20.000 al mes y los ingresos de la farmacia. Su familia contó que desde el día de la demolición forzosa no podía dormir.
 

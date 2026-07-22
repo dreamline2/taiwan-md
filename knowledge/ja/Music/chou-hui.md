@@ -37,6 +37,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:e82ab2af4a170315'
 sourceBodyHash: 'sha256:4c01fb53198217ef'
 translatedAt: '2026-06-16T16:55:14Z'
+image: '/article-images/music/zhou-hui-yueding-mv-thumb-1999.webp'
+imageCredit: '福茂唱片 / 周蕙〈約定〉1999 官方 MV 截圖'
+imageLicense: 'Fair use editorial commentary on the original work'
+imageSource: 'https://www.youtube.com/watch?v=Vd-mTkhiThI'
 ---
 
 # 周蕙：25年にわたり〈約定〉を歌い続けた女性歌手、漫画の人形から台北アリーナまでの長距離走

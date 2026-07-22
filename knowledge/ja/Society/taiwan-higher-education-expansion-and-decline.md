@@ -23,6 +23,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2521a3fdec4ce789'
 sourceBodyHash: 'sha256:a1690337698d47c6'
 translatedAt: '2026-05-01T18:02:56+08:00'
+image: '/article-images/society/yungta-gate-2013.webp'
+imageCredit: 'SSR2000 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gate_of_Yung_Ta_Institute_of_Technology_%26_Commerce.JPG'
 ---
 
 > **30秒でわかる概要：** 1994年、台湾には58の大学・短大がありました。教育改革審議委員会が「高校・大学の拡充」を提唱した後、政府は民間による設立を奨設し、新設認可を「審査制」から「届出制」に変更しました。10年以内に大学数は約3倍に増加し、2017年には大学と短大を合わせて144校に達しました。私立大学・短大は26校から94校へと膨張し、全体の67%を占めました。しかし、2022年の新生児数は13万8千人にまで減少し、出生率1.08は世界最低水準です。大学の「市場」は急速に縮小しており、私立大学の退場が始まっています。「少なすぎる」から「多すぎる」へ、そして「閉校」へと至るこの過程の根源は、教育改革が当初から新自由主義的な市場論理を主導し、高等教育を公共財から商品へと押し進めたことにあります[^1]。

@@ -14,6 +14,8 @@ sourceCommitSha: '8b61d368'
 sourceContentHash: 'sha256:819a7ee143f7b981'
 sourceBodyHash: 'sha256:efd1cd3b8e9f03d6'
 translatedAt: '2026-06-27T00:54:19+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TWShiLinNightMarketRichy2.jpg/960px-TWShiLinNightMarketRichy2.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 타이완의 사운드스케이프: 쓰레기차의 클래식, 지하철의 새소리, 그리고 들리지만 좀처럼 경청되지 않는 섬

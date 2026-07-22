@@ -24,6 +24,7 @@ sourceCommitSha: '01d9d0e73'
 sourceContentHash: 'sha256:7935e86b210536e5'
 sourceBodyHash: 'sha256:dd15e8c65b7a98f1'
 translatedAt: '2026-05-12T11:51:04+08:00'
+image: ''
 ---
 
 # 포르모사: 서양인은 이미 사람이 살고 있던 섬을 어떻게 "발견"했는가

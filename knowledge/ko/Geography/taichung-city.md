@@ -29,6 +29,10 @@ sourceCommitSha: '8edb8f96'
 sourceContentHash: 'sha256:70bc4982eb0f5b56'
 sourceBodyHash: 'sha256:3689cbfc4a7bdf30'
 translatedAt: '2026-06-16T17:14:05Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/National_Taichung_Theater_20180317.jpg/1280px-National_Taichung_Theater_20180317.jpg
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 4.0
+imageSource: https://commons.wikimedia.org/wiki/File:National_Taichung_Theater_20180317.jpg
 ---
 
 # 타이중시: 1887년에 수도가 될 뻔했고, 2010년에야 두 번째로 큰 직할시가 되다

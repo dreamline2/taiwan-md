@@ -15,6 +15,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:f8bd2efe9c0ce5ef'
 sourceBodyHash: 'sha256:1f654961432cc687'
 translatedAt: '2026-06-16T17:19:04Z'
+image: '/article-images/culture/pingxi-lantern-festival-2014.webp'
+imageCredit: 'Jirka Matousek / Wikimedia Commons'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Pingxi_Sky_Lantern_Festival_2014_in_Taiwan.jpg'
 ---
 
 > **30秒でわかる概要：**

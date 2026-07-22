@@ -34,6 +34,10 @@ sporeLinks:
     platform: 'threads'
     date: '2026-05-26'
     url: 'https://www.threads.com/@taiwandotmd/post/DYzG-R1k5Ze'
+image: '/article-images/history/nhrm-tsai-unveil-2018.webp'
+imageCredit: '總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:05.17_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E5%9C%8B%E5%AE%B6%E4%BA%BA%E6%AC%8A%E5%8D%9A%E7%89%A9%E9%A4%A8%E6%8F%AD%E7%89%8C%E5%84%80%E5%BC%8F%E3%80%8D_(27296236457).jpg'
 ---
 
 # National Human Rights Museum: The Names Not Written on the Tearful Monument

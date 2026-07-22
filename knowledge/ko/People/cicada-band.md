@@ -36,6 +36,10 @@ sourceCommitSha: 'ac1d187a'
 sourceContentHash: 'sha256:4a53480bbe9aa83b'
 sourceBodyHash: 'sha256:5091127dea208f82'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: '/article-images/people/cicada-cuichi-xueshan-glacial-lake.webp'
+imageCredit: 'Blackjack633 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E7%BF%A0%E6%B1%A0_%E6%B1%AA%E5%A4%A7%E6%99%BA_05.jpg'
 ---
 
 > **30초 개관:** Cicada는 2009년 타이베이에서 결성된 전곡 기악 독립 밴드다. 피아니스트 장즈제(Jesy Chiang, 타이베이예술대 예술사 석사)가 이끌며, 피아노, 바이올린, 첼로, 어쿠스틱 기타의 4인 편성이다. 2011년 White Wabbit Records에서 첫 《散落的時光》을 발표한 이후 16년 동안 낸 모든 작품에는 보컬이 없다. 주제는 서해안 침식(《邊境消逝》2013), 동해안과 태평양(《仰望海平面》2015), 해양 생태(《不在的你們都去了哪裡》2017), 산림(《走入有霧的森林》2019)을 거쳐 계류의 원천(《棲居在溪源之上》2022, 중앙산맥을 15일 동안 120km 걷는 원정)으로 나아갔다. 2024년 15주년 자선집 《回返》은 해안이라는 주제를 다시 해석했다. 2025년 《凝視白色的邊界》는 처음으로 타이완 밖으로 나가 빙하를 따라 남북반구를 가로지른 뒤, 다시 쉐산으로 돌아와 고대 빙하의 흔적을 찾는다. 이들은 일본 영화 《한 남자》 음악을 맡아 일본 아카데미상 우수 음악상을 받았고, 2024년에는 일본 전역 투어를 완주했으며, 아이슬란드 작곡가 올라퓌르 아르날즈와 같은 무대에 선 적도 있다. 핵심 방법론은 **자연이 스스로 말하게 하는 것**이다.

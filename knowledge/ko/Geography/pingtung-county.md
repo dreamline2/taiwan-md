@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:74a76153ce0680fe'
 sourceBodyHash: 'sha256:f6d31ce0f8b471cc'
 translatedAt: '2026-06-16T16:38:41Z'
+image: /article-images/geography/pingtung-hero.webp
+imageCredit: Bernard Gagnon
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Eluanbi_Lighthouse_02.jpg
 ---
 
 # 핑둥현: 국가 운명의 전환은 이곳에서 일어났지만, 타이베이는 거의 기억하지 않았다

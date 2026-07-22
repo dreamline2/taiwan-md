@@ -1,20 +1,40 @@
 ---
-title: "윈린현: 이란이 거부한 것을 윈린은 30년의 폐로 받아냈다"
-description: "1987년 12월 13일 천딩난은 CTS 스튜디오 안에서 제6 나프타 분해공장의 이란 진입을 막아냈고, 1991년 6월 26일 행정원은 제6 나프타 분해공장을 윈린 마이랴오 앞바다로 이전하는 안을 승인했다. 1994년 7월 정식 착공, 1998년 1기 가동을 거쳐 지금까지 2,255헥타르의 바다를 매립했다. 2011년 국립대만대 공중보건대학 잔창취안 연구팀은 제6 나프타 분해공장 반경 10킬로미터 주민의 암 발생률이 대만 전체의 1.29배임을 발견했다. 그러나 같은 현 안에서 1694년 청 강희 33년에 세워진 베이강 차오톈궁은 이미 332년 동안 마쭈를 모셔 왔고, 1953년 1월 28일에는 미국 원조 철강재가 1,939미터의 시뤄대교를 지탱했다. 하나의 현은 동시에 대만에서 가장 오래된 마쭈 사원 가운데 하나이자, 가장 중요한 곡창이며, 최대의 석유화학 왕국이다."
+title: '윈린현: 이란이 거부한 것을 윈린은 30년의 폐로 받아냈다'
+description: '1987년 12월 13일 천딩난은 CTS 스튜디오 안에서 제6 나프타 분해공장의 이란 진입을 막아냈고, 1991년 6월 26일 행정원은 제6 나프타 분해공장을 윈린 마이랴오 앞바다로 이전하는 안을 승인했다. 1994년 7월 정식 착공, 1998년 1기 가동을 거쳐 지금까지 2,255헥타르의 바다를 매립했다. 2011년 국립대만대 공중보건대학 잔창취안 연구팀은 제6 나프타 분해공장 반경 10킬로미터 주민의 암 발생률이 대만 전체의 1.29배임을 발견했다. 그러나 같은 현 안에서 1694년 청 강희 33년에 세워진 베이강 차오톈궁은 이미 332년 동안 마쭈를 모셔 왔고, 1953년 1월 28일에는 미국 원조 철강재가 1,939미터의 시뤄대교를 지탱했다. 하나의 현은 동시에 대만에서 가장 오래된 마쭈 사원 가운데 하나이자, 가장 중요한 곡창이며, 최대의 석유화학 왕국이다.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["윈린", "윈린현", "제6 나프타 분해공장", "마이랴오", "베이강 차오톈궁", "마쭈", "시뤄대교", "시뤄 쌀", "후웨이 제당공장", "구컹 커피", "천딩난", "왕융칭", "줘수이강", "22개 현시 시리즈"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '윈린',
+    '윈린현',
+    '제6 나프타 분해공장',
+    '마이랴오',
+    '베이강 차오톈궁',
+    '마쭈',
+    '시뤄대교',
+    '시뤄 쌀',
+    '후웨이 제당공장',
+    '구컹 커피',
+    '천딩난',
+    '왕융칭',
+    '줘수이강',
+    '22개 현시 시리즈',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/雲林縣.md"
-sourceCommitSha: "036da279d"
-sourceContentHash: "sha256:68dcc74d52d8c737"
-sourceBodyHash: "sha256:24b0d8d16f592539"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'Geography/雲林縣.md'
+sourceCommitSha: '036da279d'
+sourceContentHash: 'sha256:68dcc74d52d8c737'
+sourceBodyHash: 'sha256:24b0d8d16f592539'
+translatedAt: '2026-05-18T05:08:08+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg
+imageCredit: Mk2010
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg
 ---
 
 # 윈린현: 이란이 거부한 것을 윈린은 30년의 폐로 받아냈다
@@ -48,7 +68,7 @@ translatedAt: "2026-05-18T05:08:08+08:00"
 겨울철 서부 해안은 특별히 언급해야 한다. 해마다 11월부터 이듬해 3월까지 동북계절풍이 대만해협에서 불어오면, 윈린 서부에는 전형적인 “짙은 안개와 강풍”이 번갈아 나타난다. 마이랴오, 타이시, 커우후 일대의 가시거리는 자주 500미터 아래로 떨어진다. 이는 제6 나프타 분해공장 배기가스 확산이 가장 나쁜 계절이자, 폐 부담이 가장 무거운 계절이다[^11]. 강우 분포를 보면 서부 해안의 연강수량은 약 1,200밀리미터로 적은 편이고, 동부 구릉지는 2,500밀리미터 이상에 이를 수 있다. 이 격차가 윈린의 농업 구조를 동쪽에서 서쪽까지 완전히 다르게 만든다.
 
 ![제6 나프타 분해공장 마이랴오 단지, 2010년 촬영. 1991년 행정원 승인, 1994년 착공, 1998년 1기 가동, 매립 면적 2,255헥타르.](https://upload.wikimedia.org/wikipedia/commons/f/f7/Formosa_Plastics_Group_Mail-Liao_Industrial_Complex%2CMailiao%2C_Yunlin_%28Taiwan%29.jpg)
-_제6 나프타 분해공장 마이랴오 공업구, 2010년. Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)._
+_제6 나프타 분해공장 마이랴오 공업구, 2010년. Photo: Mk2010, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg).\_
 
 ## 번강의 뿌리: 마쭈가 메이저우에서 바다를 건너온 그해
 
@@ -222,7 +242,7 @@ PM2.5 데이터는 이렇다. 윈린현, 특히 마이랴오, 타이시, 커우�
 
 이 글은 Wikimedia Commons의 CC 라이선스 이미지 4장을 사용했다.
 
-- **Hero(frontmatter)**: [Formosa Plastics Group Mail-Liao Industrial Complex](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg)(Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), 제6 나프타 분해공장 마이랴오 공업구)
+- **Hero(frontmatter)**: [Formosa Plastics Group Mail-Liao Industrial Complex](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,Mailiao,_Yunlin_(Taiwan).jpg>)(Mk2010, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), 제6 나프타 분해공장 마이랴오 공업구)
 - **Scene §1694년의 번강**: [Beigang Chaotian Temple-01](https://commons.wikimedia.org/wiki/File:Beigang_Chaotian_Temple-01.2024-09-18.jpg)(阿道, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), 베이강 차오톈궁 2024년 9월)
 - **Scene §1909년의 첫 굴뚝**: [Scene in Huwei Sugar Factory 05](https://commons.wikimedia.org/wiki/File:Scene_in_Huwei_Sugar_Factory_05.jpg)(WC-QHS, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), 후웨이 제당공장 2018년)
 - **Scene §1953년 1월 28일**: [Xiluo Bridge at noon on 2 August 2014](https://commons.wikimedia.org/wiki/File:Xiluo_Bridge_at_noon_on_2_August_2014.jpg)(JianEn Yu, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 시뤄대교 2014년 8월)

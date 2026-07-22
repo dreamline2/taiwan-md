@@ -24,6 +24,10 @@ sourceCommitSha: 'e1b5668ad'
 sourceContentHash: 'sha256:ccbab3f1822e47af'
 sourceBodyHash: 'sha256:ec031917f07c2762'
 translatedAt: '2026-06-22T00:40:58+08:00'
+image: /article-images/people/puma-shen-election-2024.webp
+imageCredit: 曾成訓 / Flickr
+imageLicense: CC BY 2.0
+imageSource: https://commons.wikimedia.org/wiki/File:Puma_Shen_in_2024_Taiwan_general_election.jpg
 ---
 
 # 沈伯洋：彼は中国の認知戦を研究し、やがて中国は彼を衛星画像上に描き込みました

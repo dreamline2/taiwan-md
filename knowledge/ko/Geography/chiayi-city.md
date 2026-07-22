@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:ae83f3951e0a47fc'
 sourceBodyHash: 'sha256:d3fc69c2026ce4f3'
 translatedAt: '2026-06-16T16:38:41Z'
+image: /article-images/geography/chiayi-city-hero.webp
+imageCredit: B2322858
+imageLicense: Public Domain
+imageSource: https://commons.wikimedia.org/wiki/File:Sixth_Generation_Tropic_of_Cancer_in_Chiayi.jpg
 ---
 
 # 자이시: 황제가 자이라는 이름을 하사했으나 가장 쉽게 지나쳐지는 성할시가 된 도시

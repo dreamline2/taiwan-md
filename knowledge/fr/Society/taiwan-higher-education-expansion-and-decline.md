@@ -23,6 +23,10 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2521a3fdec4ce789'
 sourceBodyHash: 'sha256:a1690337698d47c6'
 translatedAt: '2026-05-01T22:19:06+08:00'
+image: '/article-images/society/yungta-gate-2013.webp'
+imageCredit: 'SSR2000 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Gate_of_Yung_Ta_Institute_of_Technology_%26_Commerce.JPG'
 ---
 
 > **En 30 secondes :** En 1994, Taïwan comptait 58 établissements universitaires. Après que la commission de réforme de l'éducation a lancé le slogan « multiplier les lycées et les universités », le gouvernement a encouragé la création d'écoles privées et transformé le régime d'autorisation des établissements d'un système d'« agrément » à un système de « déclaration ». En dix ans, le nombre d'universités a presque triplé, atteignant un pic en 2017 avec 129 universités et 15 collèges, soit 144 établissements au total. Les établissements privés sont passés de 26 à 94, représentant 67 % du total. Mais en 2022, le nombre de naissances à Taïwan est tombé à 138 000, avec un taux de fécondité de 1,08, le plus bas au monde. Le « marché » universitaire se contracte brutalement, et les universités privées commencent à fermer. Des travaux en pédagogie critique montrent que ce processus, allant de « trop peu » à « trop » puis à « fermeture », trouve sa racine dans la logique néolibérale et marchande qui a dominé la réforme dès le départ, transformant l'enseignement supérieur d'un bien public en marchandise[^1].

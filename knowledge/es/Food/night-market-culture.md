@@ -9,6 +9,8 @@ sourceContentHash: 'sha256:cad0161e7864d0ae'
 sourceBodyHash: 'sha256:ea37a51a6e2ccfcd'
 translatedAt: '2026-04-14T12:25:09+08:00'
 category: Food
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TWShiLinNightMarketRichy2.jpg/960px-TWShiLinNightMarketRichy2.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Cultura del Mercado Nocturno de Taiwán

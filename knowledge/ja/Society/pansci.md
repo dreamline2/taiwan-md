@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fc2836e9d3ebf9e7'
 sourceBodyHash: 'sha256:498dc3f8b99093f6'
 translatedAt: '2026-06-16T17:05:15Z'
+image: '/article-images/society/cheng-kuo-wei-portnoy-2026.webp'
+imageCredit: '© 鏡週刊 Mirror Media（陳昌遠攝）'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://www.mirrormedia.mg/story/20260402pol001'
 ---
 
 > **30秒概観：** PanSci泛科学は、2011年に設立された台湾の科学サイトおよびコミュニティです。台湾デジタル文化協会の打ち切られたプロジェクトから生まれ、初期には鄭国威と徐挺耀が科学ブロガーを訪ね、寄稿を依頼し、コミュニティを運営することで支えられました。2013年にはすでに80人以上の科学ブロガーと2,780本以上の記事を擁していました。後のコミュニケーション研究は、泛科学を台湾における科学コミュニケーションの民主化、ソーシャルメディア上の公共参加、そして中台の科学普及サイト比較の文脈で捉えています。2020年代に入ると、泛科学は記事、泛科学院、科学生、動画、広告案件、EC、YouTube MCNをつなぎ、知識サービスのネットワークへと発展しました。その核心的な緊張関係は明確です。科学が公共的な討論に残るためには、プラットフォームがまず商業案件とアルゴリズムの中で生き延びなければならないのです。

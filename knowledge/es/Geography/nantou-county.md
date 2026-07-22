@@ -32,6 +32,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c80f3accc7342bb8'
 sourceBodyHash: 'sha256:9116715a2d516221'
 translatedAt: '2026-06-16T17:05:07Z'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sun_Moon_Lake_in_Twilight.JPG/1280px-Sun_Moon_Lake_in_Twilight.JPG
+imageCredit: Wikimedia Commons contributor
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Sun_Moon_Lake_in_Twilight.JPG
 ---
 
 # Condado de Nantou: el único condado sin costa, el epicentro del terremoto 921 está en su centro

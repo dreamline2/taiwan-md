@@ -26,6 +26,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:5cbfd8399802ed3e'
 sourceBodyHash: 'sha256:3076adea6a4c366b'
 translatedAt: '2026-06-16T17:04:27Z'
+image: '/article-images/lifestyle/nhi-taipei-building-2018.webp'
+imageCredit: 'Solomon203 / Wikimedia Commons'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:NHI_Building,_ROC-MOHW-NHIA_Taipei_Division_main_entrance_20180616.jpg'
 ---
 
 # Sistema de salud y Seguro Nacional de Salud de Taiwán: el número uno del mundo con un 99.6% sostenido sobre un 12.61%

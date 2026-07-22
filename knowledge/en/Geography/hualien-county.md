@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7da2390cfed253e'
 sourceBodyHash: 'sha256:4e86fa147bee5767'
 translatedAt: '2026-06-16T17:03:25Z'
+image: https://upload.wikimedia.org/wikipedia/commons/0/03/Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
+imageCredit: Fred Hsu
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
 ---
 
 # Hualien County: The Sakizaya Hidden for 129 Years, the Truku Reclaimed Through Name Rectification, and 0403 Pushed It Away Again

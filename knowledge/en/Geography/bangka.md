@@ -34,6 +34,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:c05a8c5cb2792eea'
 sourceBodyHash: 'sha256:da886e84510f3d63'
 translatedAt: '2026-06-16T17:03:25Z'
+image: '/article-images/geography/wanhua-longshan-temple-2016.webp'
+imageCredit: 'Bernard Gagnon'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Longshan_Temple,_Taipei_01.jpg'
 ---
 
 # Bangka: Qing-Era Taipei’s Busiest Place, Now the District with Taipei’s Oldest Average Age

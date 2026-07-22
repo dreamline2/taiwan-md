@@ -27,6 +27,10 @@ sourceCommitSha: '51eb3afd'
 sourceContentHash: 'sha256:b7c990c00c65ffb1'
 sourceBodyHash: 'sha256:7720c8db697d0d57'
 translatedAt: '2026-07-06'
+image: '/article-images/culture/meinong-paper-umbrella-2013.webp'
+imageCredit: 'Outlookxp'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Yuanxiangyuan_Paper_Umbrella,_Taiwan_2013-07.JPG'
 ---
 
 # Taiwan's Traditional Crafts and Intangible Cultural Heritage: Institutional Recognition Arrived, but the Apprentices Were Gone

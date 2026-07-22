@@ -27,6 +27,8 @@ sourceCommitSha: 'ff92f3866'
 sourceContentHash: 'sha256:3ee4be522cff1a4e'
 sourceBodyHash: 'sha256:5dcfd938f21ea513'
 translatedAt: '2026-06-25T00:43:06+08:00'
+image: '/article-images/nature/taiwania-nantou-shihchuan.webp'
+imageCredit: '石川 Shihchuan / Wikimedia Commons (CC BY-SA 2.0)'
 ---
 
 > **Resumen en 30 segundos:** En Taiwán hay un árbol de 84,1 metros de altura, aproximadamente como un edificio de 28 pisos, y es el árbol más alto conocido actualmente en Asia Oriental[^1]. Se llama «Espada Yitian del río Da'an» y es un taiwania (_Taiwania cryptomerioides_). Crece en una quebrada profunda de la cabecera del río Da'an, a unos 1.650 metros de altitud, y se estima que ha vivido setecientos u ochocientos años[^2]. Durante el Año Nuevo Lunar de 2023, el equipo de «Buscadores de Árboles» remontó el río durante siete días, con temperaturas nocturnas que bajaron a -2 °C, hasta trepar a su copa y dejar caer una cinta métrica para obtener esa cifra[^3]. Lo más contraintuitivo es esto: en una isla barrida cada año por tifones, de geología frágil, propensa a derrumbes e inundaciones, una altura así en teoría no debería existir. Pudo alcanzar los 84 metros y sobrevivir más de setecientos años precisamente porque se escondía en un valle fluvial casi inaccesible para los humanos. Esa misma condición de «inaccesible» le permitió escapar de la gran tala durante el período japonés y la posguerra, y también hizo que tardáramos casi diez años, escaneando toda la isla con láser, en verlo por primera vez ese año[^4].

@@ -15,6 +15,8 @@ sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:b6884a554f5b7c89'
 sourceBodyHash: 'sha256:6d448c8add3f1fbd'
 translatedAt: '2026-05-17T05:33:00Z'
+image: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Taiwanese_vegetarian_sign.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 타이완 채식 문화

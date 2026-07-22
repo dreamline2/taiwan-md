@@ -25,6 +25,10 @@ sourceCommitSha: 'dd39065b'
 sourceContentHash: 'sha256:413833a72961c88e'
 sourceBodyHash: 'sha256:9858a809538deaaf'
 translatedAt: '2026-06-07T00:37:30+08:00'
+image: '/article-images/culture/changhua-iron-window-grille-2021.webp'
+imageCredit: 'Outlookxp'
+imageLicense: 'CC BY-SA 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%B8%82%E4%B8%89%E5%92%8C%E5%A4%A7%E6%97%85%E7%A4%BE%E9%90%B5%E7%AA%97%E8%8A%B1.jpg'
 ---
 
 # Taiwanese Sensibility: Taiwanese Aesthetics Through Korean Eyes

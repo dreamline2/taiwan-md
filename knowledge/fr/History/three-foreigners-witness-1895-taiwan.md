@@ -18,6 +18,7 @@ sourceCommitSha: '01d9d0e7'
 sourceContentHash: 'sha256:dd0456fc58fe6d55'
 sourceBodyHash: 'sha256:f4c2468d7055a6c1'
 translatedAt: '2026-05-01T20:54:17+08:00'
+image: ''
 ---
 
 # Trois étrangers face à l'Yiwei : l'album du photographe, les notes du journaliste, le journal du pasteur

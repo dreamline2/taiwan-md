@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:de2ace5a9d645535'
 sourceBodyHash: 'sha256:0efd20b7166e441a'
 translatedAt: '2026-06-16T17:13:36Z'
+image: '/article-images/technology/chung-shyang-ii-uav-2007.webp'
+imageCredit: 'Kliu1'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Chung_Shyang_II_UAV.jpg'
 ---
 
 > **En 30 secondes :** L'industrie taïwanaise des drones connaît une explosion portée par la géopolitique. Le ministère de la Défense prévoit un budget de 50 milliards de dollars taïwanais pour l'acquisition de près de 50 000 drones militaires. Dans le budget spécial de 12 500 milliards de dollars taïwanais approuvé par le Yuan exécutif, les drones constituent l'un des projets centraux. Thunder Tiger est devenue la première entreprise taïwanaise à obtenir la certification Blue UAS (Blue UAS Cleared List) du département de la Défense des États-Unis. De la pulvérisisation agricole à la reconnaissance sur le champ de bataille, l'industrie taïwanaise des drones passe de la « sous-traitance » à l'« autonomie défensive », cherchant à devenir la prochaine industrie stratégique après les semi-conducteurs.

@@ -23,6 +23,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:c08065304af9db33'
 sourceBodyHash: 'sha256:6cd75de33ed1027c'
 translatedAt: '2026-06-16T17:13:36Z'
+image: '/article-images/society/diane-ying-magsaysay.webp'
+imageCredit: 'Ramon Magsaysay Award Foundation'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://rmaward.asia/rmawardees/ying-diane-yun-peng/'
 ---
 
 > **Vue d’ensemble en 30 secondes :** Le 1er juin 1981, un magazine économique appelé CommonWealth Magazine fut fondé à Taïwan, alors sous loi martiale et tout juste privé de scène internationale ; son premier tirage de dix mille exemplaires fut épuisé en deux jours[^1]. Son initiateur était l’économiste Kao Hsi-chun, qui, porté par l’idée de « servir le pays en lettré », invita Wang Li-hsing, Chang Tso-chin et Diane Ying à lancer l’aventure avec lui[^2] ; Diane Ying, qui avait été journaliste à United Press International, au New York Times et à l’Asian Wall Street Journal, en fut l’âme éditoriale, puis celle qui préserva le magazine après la séparation de 1986[^3]. En quarante ans, cette publication, qui voulait « raconter l’économie sous forme d’histoires compréhensibles par tous », est devenue une fabrique de classements pour le monde des affaires et la gouvernance locale à Taïwan : les 2 000 plus grandes entreprises, les 50 plus grands groupes, les entreprises de référence, les villes heureuses. Ces palmarès ont défini en silence, pour les Taïwanais, ce que signifie « réussir ». Il est l’un des médias les plus fiables de Taïwan dans le rapport Reuters[^4], et a reçu le prix Ramon Magsaysay comme le prix SOPA pour l’ensemble d’une carrière. Mais la position qui lui vaut cette confiance est aussi celle où il se trouve au plus près du capital et du pouvoir. Cette crédibilité, et ce pouvoir de classer les autres, viennent d’une seule et même distance.

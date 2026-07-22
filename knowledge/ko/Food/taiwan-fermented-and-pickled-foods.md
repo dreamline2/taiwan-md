@@ -5,7 +5,8 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '食材與調味'
-tags: ['발효식품', '절임 문화', '취두부', '두부유', '김치', '전통 기술', '미생물']
+tags:
+  ['발효식품', '절임 문화', '취두부', '두부유', '김치', '전통 기술', '미생물']
 readingTime: 15
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -15,6 +16,8 @@ sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:c2ef664839dd9cc6'
 sourceBodyHash: 'sha256:b693c93c53efd3dc'
 translatedAt: '2026-05-20T05:08:30+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg/960px-%E8%A5%BF%E9%95%87%E8%87%AD%E8%B1%86%E8%85%90.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 대만 발효식품과 절임 문화
@@ -213,10 +216,17 @@ translatedAt: '2026-05-20T05:08:30+08:00'
 ## 참고 문헌
 
 [^1]: 대만 광화잡지(台灣光華雜誌, 1993), 〈중국의 기이한 향기——취두부〉, https://www.taiwan-panorama.com/Articles/Details?Guid=beb7ff70-9a54-42a4-8a57-49f402159aab
+
 [^2]: 외교부 NGO 이중언어 웹사이트, 〈취(臭)의 극치가 향(香)이다: 취두부의 풍미 비밀〉, https://taiwanngo.tw/Post/86007
+
 [^3]: 식품공업발연구소(食品工業發展研究所), 《대만 발효식품 산업 분석 보고서》(2023), https://www.firdi.org.tw/
+
 [^4]: 원주민위원회(原住民族委員會), 《원주민 전통 양주 문화 조사 연구》(2022), https://www.cip.gov.tw/
+
 [^5]: 위생복리부 식품약물관리서(衛生福利部食品藥物管理署), 《발효식품 위생 기준》, https://www.fda.gov.tw/
+
 [^6]: 농업부(農業部), 《대만 전통 발효식품 기술 연구》(2022), https://www.moa.gov.tw/
+
 [^7]: 객위회(客委會), 《객가 절임 문화 보존 및 홍보 계획》(2023), https://www.hakka.gov.tw/
+
 [^8]: 위키백과, 〈취두부〉 항목, https://zh.wikipedia.org/zh-tw/%E8%87%AD%E8%B1%86%E8%85%90

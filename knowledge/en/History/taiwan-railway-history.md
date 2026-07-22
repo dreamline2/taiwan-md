@@ -26,6 +26,10 @@ sourceCommitSha: 'bb411ee0'
 sourceContentHash: 'sha256:045bcc00442a33a7'
 sourceBodyHash: 'sha256:e1c11d2761783f3b'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/history/tra-taitung-line-fireman-1970s.webp'
+imageCredit: '周永富（提供者）'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Locomotive_fireman_of_TRA_Taitung_Line_1970s.jpg'
 ---
 
 # Taiwan Railway History

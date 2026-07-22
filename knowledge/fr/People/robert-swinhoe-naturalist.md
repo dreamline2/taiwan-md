@@ -21,6 +21,7 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:50b13c3a31e0a1c0'
 sourceBodyHash: 'sha256:e6b263814c7b1995'
 translatedAt: 2026-05-01T20:54:17+08:00
+image: ''
 ---
 
 # Robert Swinhoe : Quand un diplomate devenait naturaliste

@@ -5,7 +5,16 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Food'
 subcategory: '飲品文化'
-tags: ['petit-déjeuner', 'crêpe aux œufs', 'shaobing-youtiao', 'lait de soja de Yonghe', 'Meiermei', 'comptoir de petit-déjeuner', 'maison de lait de soja']
+tags:
+  [
+    'petit-déjeuner',
+    'crêpe aux œufs',
+    'shaobing-youtiao',
+    'lait de soja de Yonghe',
+    'Meiermei',
+    'comptoir de petit-déjeuner',
+    'maison de lait de soja',
+  ]
 lastVerified: 2026-05-16
 lastHumanReview: true
 featured: false
@@ -14,6 +23,8 @@ sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:03f68d8696f5da84'
 sourceBodyHash: 'sha256:dc5728577e386104'
 translatedAt: '2026-05-20T05:08:34+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Taiwanese_danbing_and_sandwitch.jpg/960px-Taiwanese_danbing_and_sandwitch.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # La culture du petit-déjeuner à Taïwan

@@ -25,6 +25,8 @@ sourceCommitSha: 'ddb9590b6'
 sourceContentHash: 'sha256:322c4c022d4678f9'
 sourceBodyHash: 'sha256:68d627d331e8bf54'
 translatedAt: '2026-06-20T00:37:14+08:00'
+image: '/article-images/society/taipei-zhongshan-hall-2023.webp'
+imageCredit: '台北中山堂（原台北公會堂），1945 年中國戰區臺灣省受降典禮在此舉行，隔年這天成為放假的光復節。攝影 Yu tptw，Wikimedia Commons，CC BY-SA 4.0'
 ---
 
 # Jours fériés nationaux : une histoire de Taïwan écrite par les jours où l'on ne travaille pas

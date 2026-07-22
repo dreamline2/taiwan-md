@@ -24,6 +24,8 @@ sourceCommitSha: '6897c6571'
 sourceContentHash: 'sha256:b00d48ce7d3f9ffa'
 sourceBodyHash: 'sha256:f8572e451edfc640'
 translatedAt: '2026-06-29T00:47:38+08:00'
+image: '/article-images/music/golden-melody-awards-2021.webp'
+imageCredit: 'Solomon203'
 ---
 
 # Golden Melody Awards: Taiwan Honors Its Own Music, and the Moments Remembered for a Lifetime Across Thirty-Five Years

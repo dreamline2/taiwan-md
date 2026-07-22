@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:5e0878a68a9e472e'
 sourceBodyHash: 'sha256:b22fe95649d7be32'
 translatedAt: '2026-06-16T17:05:54Z'
+image: '/article-images/people/ang-lee-bafta-2013.webp'
+imageCredit: 'Sean Reynolds'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Ang_Lee_(8464864982).jpg'
 ---
 
 # Ang Lee : derrière deux Oscars, le fils qui n’a pas pu dire vraiment adieu à son père

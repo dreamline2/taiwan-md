@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4e403df024cd43dc'
 sourceBodyHash: 'sha256:04e9009c16ede3cb'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/technology/taiwan-ai-academy-chen-shengwei-portrait-2018.webp'
+imageCredit: '台灣人工智慧學校官方'
+imageLicense: 'Fair use editorial commentary on AIA founder portrait'
+imageSource: 'https://aiacademy.tw/swc/'
 ---
 
 # 대만 인공지능학교: 끝내지 못한 전화 한 통과 1만 명의 AI 엔지니어

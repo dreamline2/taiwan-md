@@ -22,6 +22,10 @@ sourceCommitSha: '6e4cfc200'
 sourceContentHash: 'sha256:15ae499dfcb97aac'
 sourceBodyHash: 'sha256:01c949b0613e035a'
 translatedAt: '2026-06-14T00:37:04+08:00'
+image: '/article-images/history/cross-party-freeway-no1-2015.webp'
+imageCredit: 'Koika / Wikimedia Commons'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Taiwan_Freeway_No._1_Taishan_section.jpg'
 ---
 
 > **30-second overview:** A reader said on Threads that he was tired of blue-green bickering at the dinner table and wanted only to remember the things that had truly helped Taiwan and endured. This article finds eleven such policies from the past seventy years, from land reform that coercively expropriated farmland under authoritarian rule to the Forward-looking Infrastructure Development Program still being fought over in 2026. We deliberately do not measure them by blue or green standards, but by four measures: livelihood (did everyday life improve?), democracy (was the power to decide who governs returned to the people?), civil rights (were minority rights protected?), and sovereignty (can Taiwan stand before the world?). These four measures do not ask “who did it”; they ask only “what did it leave for the people who live on this island?” The conclusion is a little counterintuitive: policies that truly outlive their own politics are often the ones that were most fiercely contested on the day they were born.

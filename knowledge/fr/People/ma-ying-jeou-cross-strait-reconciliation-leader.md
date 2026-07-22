@@ -23,6 +23,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:7ebf03343b7d94a6'
 sourceBodyHash: 'sha256:3ba24a255fbd26bc'
 translatedAt: '2026-06-16T16:54:51Z'
+image: '/article-images/people/ma-xi-meeting-singapore-2015.webp'
+imageCredit: '總統府'
+imageLicense: 'CC BY 2.0'
+imageSource: 'https://www.flickr.com/photos/presidentialoffice/22472046408'
 ---
 
 # Ma Ying-jeou : docteur en droit de Harvard entré au bureau de Chiang Ching-kuo comme traducteur anglais, président pendant huit ans appuyé sur une image d'« intégrité », et qui a laissé derrière lui les deux rives, les Tournesols et les 22K

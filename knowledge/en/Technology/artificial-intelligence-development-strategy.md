@@ -24,6 +24,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:ea05ddc3465f02eb'
 sourceBodyHash: 'sha256:c1a908bbd971d40d'
 translatedAt: '2026-06-16T16:59:03Z'
+image: '/article-images/technology/alphafold-cbln1-structure-2025.webp'
+imageCredit: 'BQUB25-UPoch (own work, AlphaFold + PyMOL)'
+imageLicense: 'CC BY 4.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Estructura_tridimensional_de_la_prote%C3%AFna_CBLN1_per_AlphaFold_amb_codificaci%C3%B3_rainbow.png'
 ---
 
 # Taiwan’s Artificial Intelligence Development and Future Strategy: The Hardware Ticket Is in Hand. Where Is the Next Battle?

@@ -22,6 +22,8 @@ sourceCommitSha: '83f479d60'
 sourceContentHash: 'sha256:aee5ba49019fb762'
 sourceBodyHash: 'sha256:183d8e607cc534cd'
 translatedAt: '2026-06-17T01:18:25+08:00'
+image: '/article-images/technology/miin-homepage-2026.webp'
+imageCredit: '迷音 Miin 官方網站（miin.cc）首頁截圖'
 ---
 
 > **30-second overview:** In June 2026, a group of pro-Taiwan internet users on Threads urged people to switch to “Miin,” and the post shot past 3,000 likes. Miin is an open-source platform led by [PTT Bulletin Board System](/en/Technology/ptt-bulletin-board-system/) founder [Ethan Tu](/en/People/ethan-tu/). It markets itself around “free expression” and uses AI to identify coordinated accounts involved in [cognitive warfare](/en/Society/cognitive-warfare-against-taiwan/). Its method is counterintuitive: it does not judge whether news is true or false, but watches which usually silent accounts begin firing in sync the moment a press conference starts. But at the end of 2025, NextApple sued Miin, accusing it of using more than 250 of its news articles without authorization. A person who built PTT and opposed platform censorship returned to Taiwan to build a tool for identifying “who is manipulating the conversation,” and then aggregated other people’s news in order to fight disinformation. The same claim that “information wants to be free” has been his conviction for 30 years, Miin’s current selling point, and now the lawsuit against him.

@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:4e807297f5dfcc70'
 sourceBodyHash: 'sha256:9bd8f0aa157f38ef'
 translatedAt: '2026-06-16T16:55:29Z'
+image: '/article-images/people/au-sow-yee-prelude-interstellar-still-2024.webp'
+imageCredit: 'Au Sow Yee'
+imageLicense: 'Fair use editorial commentary'
+imageSource: 'https://ausowyee.cargo.site/'
 ---
 
 # 구슈이: ‘군도’를 대만 미술계로 가져온 말레이시아 큐레이터

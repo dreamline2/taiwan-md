@@ -32,6 +32,10 @@ sourceCommitSha: '1fbb3adf1'
 sourceContentHash: 'sha256:6b1de66c12b3c38a'
 sourceBodyHash: 'sha256:c557c6ff09961dc3'
 translatedAt: '2026-05-19T05:08:07+08:00'
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Taipei_skyline_cityscape_at_dusk.jpg/1600px-Taipei_skyline_cityscape_at_dusk.jpg
+imageCredit: peellden
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taipei_skyline_cityscape_at_dusk.jpg
 ---
 
 # 타이베이시: 한 도시 안의 세 시간, 1738년 룽산사가 2004년의 101을 바라보다

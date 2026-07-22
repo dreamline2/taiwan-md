@@ -14,6 +14,10 @@ sourceCommitSha: '01d9d0e73'
 sourceContentHash: 'sha256:a449ffee99fa24a3'
 sourceBodyHash: 'sha256:ba46b21b9cb6be40'
 translatedAt: '2026-05-12T11:51:05+08:00'
+image: '/article-images/history/formosa-dutch-map-1640.webp'
+imageCredit: '荷蘭人繪 / Wikimedia Commons'
+imageLicense: '公有領域 (Public domain)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:1640_Map_of_Formosa-Taiwan_by_Dutch_荷蘭人所繪福爾摩沙-臺灣.jpg'
 ---
 
 > **Panorama en 30 segundos:** Durante mucho tiempo, la historia de Taiwán fue entendida como un “registro de cambios de régimen” o como la periferia de algún imperio continental. Pero la “perspectiva historiográfica de la isla de Taiwán” propuesta por el historiador Ts’ao Yung-ho invirtió por completo ese punto de vista: sostuvo que el sujeto de la historia taiwanesa es la “isla de Taiwán” misma. Los regímenes son como actores que aparecen uno tras otro, pero la isla es el escenario que permanece. Esta es una isla que, en 400 años, cambió de gobernante 8 veces; sus habitantes, en los intersticios de múltiples dominios, desarrollaron una resiliencia y una capacidad de adaptación de nivel mundial, transformaron las instituciones llegadas de fuera en nutrientes propios y, finalmente, en el punto de convergencia del océano, inventaron un tiempo y una democracia pertenecientes a la propia isla.

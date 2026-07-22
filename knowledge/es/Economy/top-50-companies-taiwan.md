@@ -27,6 +27,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:fd16d89c1109096c'
 sourceBodyHash: 'sha256:645f8f42e79639a7'
 translatedAt: '2026-06-16T16:54:57Z'
+image: '/article-images/economy/tsmc-factory-hsinchu-2009.webp'
+imageCredit: 'Arusanov'
+imageLicense: 'Public domain'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG'
 ---
 
 > **Panorama en 30 segundos:** Tras el cierre del mercado el 19 de mayo de 2026, TSMC tenía una capitalización bursátil de 57,18 billones de dólares taiwaneses. Una sola empresa representaba el 31,51% del índice ponderado de Taiwán, cerca del 40% del valor total del mercado accionario taiwanés y el 71% del mercado mundial de fundición de obleas. Los otros 49 puestos se repartían entre 12 holdings financieros, 11 empresas de semiconductores, 6 fabricantes electrónicos por contrato y 5 veteranos de las industrias tradicionales. El llamado trípode de electrónica, finanzas e industrias tradicionales, en la práctica, sostiene medio cuerpo con una sola pierna, la electrónica; desde 2024, la ola de IA llevó a Quanta, Wistron, Wiwynn y GMI desde la mitad de la tabla hacia arriba, elevando aún más la concentración. Leer esta tabla de las 50 mayores empresas equivale a leer un mapa anatómico de la economía taiwanesa: dónde está la columna vertebral, dónde está el punto único de falla y dónde están los órganos internos ocultos fuera de la tabla.

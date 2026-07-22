@@ -31,6 +31,10 @@ sourceCommitSha: '31a05c44'
 sourceContentHash: 'sha256:d7da2390cfed253e'
 sourceBodyHash: 'sha256:4e86fa147bee5767'
 translatedAt: '2026-06-16T17:05:07Z'
+image: https://upload.wikimedia.org/wikipedia/commons/0/03/Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
+imageCredit: Fred Hsu
+imageLicense: CC BY-SA 3.0
+imageSource: https://commons.wikimedia.org/wiki/File:Taiwan_2009_CingShui_Cliffs_on_SuHua_Highway_FRD_6762_Pano_Extracted.jpg
 ---
 
 # Condado de Hualien: los sakizaya ocultos durante 129 años, el Taroko recuperado mediante la rectificación del nombre, y el 0403 que volvió a alejarlo

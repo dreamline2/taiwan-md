@@ -34,6 +34,10 @@ sourceCommitSha: '31a05c44b'
 sourceContentHash: 'sha256:e34125e4b520b62c'
 sourceBodyHash: 'sha256:6490dd989b255fd9'
 translatedAt: '2026-06-16T00:44:26+08:00'
+image: '/article-images/geography/treasure-hill-2018-aerial.webp'
+imageCredit: '臺北市政府文化局'
+imageLicense: 'Attribution (政府開放授權)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Treasure_Hill_20181005.jpg'
 ---
 
 # Treasure Hill: The Informal Settlement Slated for Demolition for 30 Years That Became Taipei’s Coolest Artist Village

@@ -25,6 +25,10 @@ sourceCommitSha: '11b9ab5c'
 sourceContentHash: 'sha256:b2e42e39e2b6099a'
 sourceBodyHash: 'sha256:08cc37391882e836'
 translatedAt: '2026-06-22T00:30:00+08:00'
+image: '/article-images/technology/hsinchu-science-park-tsmc-fab5-2010.webp'
+imageCredit: 'Peellden'
+imageLicense: 'CC BY-SA 3.0'
+imageSource: 'https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG'
 ---
 
 # 타이완 과학단지: 논 한 평의 도박이 세계의 생명선을 만들고, 동시에 치명적 약점이 되다

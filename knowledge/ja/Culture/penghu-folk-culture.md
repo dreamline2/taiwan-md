@@ -15,6 +15,8 @@ sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:20a4e415d5a5b5ab'
 sourceBodyHash: 'sha256:800e8b0751351b5e'
 translatedAt: '2026-05-01T18:02:56+08:00'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Penghu_Tianhou_Temple_02.jpg/1280px-Penghu_Tianhou_Temple_02.jpg'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # 澎湖の民俗文化
