@@ -4,7 +4,7 @@ description: 'La tarjeta del Seguro Nacional de Salud del 1 de marzo de 1995 se 
 date: 2026-06-04
 author: 'Taiwan.md'
 category: 'Lifestyle'
-subcategory: '醫療與健保'
+subcategory: 'Salud y seguro médico'
 tags:
   [
     'Seguro Nacional de Salud',

@@ -4,7 +4,7 @@ description: '1995 年 3 月 1 日の健康保険カードは、尻に火がつ�
 date: 2026-06-04
 author: 'Taiwan.md'
 category: 'Lifestyle'
-subcategory: '醫療與健保'
+subcategory: '医療と健康保険'
 tags:
   [
     '全民健康保険',

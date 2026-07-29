@@ -4,7 +4,7 @@ description: '1995년 3월 1일의 건강보험 카드는 발등에 불이 떨�
 date: 2026-06-04
 author: 'Taiwan.md'
 category: 'Lifestyle'
-subcategory: '醫療與健保'
+subcategory: '의료와 건강'
 tags:
   [
     '국민건강보험',

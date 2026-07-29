@@ -4,7 +4,7 @@ description: "La carte d'assurance maladie du 1er mars 1995 a été produite dan
 date: 2026-06-04
 author: 'Taiwan.md'
 category: 'Lifestyle'
-subcategory: '醫療與健保'
+subcategory: 'Santé et assurance maladie'
 tags:
   [
     'Assurance maladie nationale',

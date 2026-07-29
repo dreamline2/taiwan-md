@@ -4,7 +4,7 @@ description: 'The National Health Insurance card used on March 1, 1995, was rush
 date: 2026-06-04
 author: 'Taiwan.md'
 category: 'Lifestyle'
-subcategory: '醫療與健保'
+subcategory: 'Healthcare and NHI'
 tags:
   [
     'National Health Insurance',
