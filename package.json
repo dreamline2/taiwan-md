@@ -37,7 +37,7 @@
     "build": "astro build",
     "test": "npm run test:markdown && npm run test:heading-id && node scripts/core/test-frontmatter.mjs",
     "test:ci": "npm run test:markdown && npm run test:heading-id && node scripts/core/test-frontmatter.mjs --ci",
-    "test:markdown": "node --test tests/markdown-cjk.test.mjs",
+    "test:markdown": "node --test tests/markdown-cjk.test.mjs tests/category-hub-links.test.mjs",
     "test:heading-id": "node --experimental-strip-types --test tests/article-heading-id.test.mjs",
     "test:terminology-wording": "node --experimental-strip-types --test tests/terminology-wording.test.mjs",
     "postbuild": "node scripts/core/emit-sitemap-alias.mjs && node scripts/tools/check-url-contract.mjs --strict",

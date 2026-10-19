@@ -132,7 +132,7 @@ function resolveWikilinks(md: string, currentCategory: string) {
         a.slug === encodeURIComponent(target),
     );
     if (matchArticle) {
-      const url = `/${currentCategory}/${matchArticle.slug}`;
+      const url = `${langUrlPrefix}/${currentCategory}/${matchArticle.slug}`;
       return bold
         ? `<a class="topic-pill" href="${url}"><strong>${label}</strong></a>`
         : `<a class="topic-pill" href="${url}">${label}</a>`;
