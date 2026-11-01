@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-10-21T06:42:50+08:00",
+  "_generated": "2026-11-02T06:48:07+08:00",
   "schemaVersion": 1,
   "counts": {
     "spores": 166,
@@ -954,15 +954,15 @@
       "metrics": {
         "views": 360000,
         "likes": 31000,
-        "reposts": 1131,
-        "comments": 229,
-        "shares": 547
+        "reposts": 1134,
+        "comments": 232,
+        "shares": 549
       },
       "metricsAsOf": {
-        "dPlus": 190,
-        "harvestDate": "2026-10-21 06:41",
-        "batch": "batch-2026-10-21-1-spores",
-        "source": "harvest"
+        "dPlus": 202,
+        "harvestDate": "2026-11-02 06:47",
+        "batch": "batch-2026-11-02-2-spores",
+        "source": "harvest+backfill"
       },
       "history": [
         {
@@ -1044,6 +1044,16 @@
           "reposts": 1131,
           "comments": 229,
           "shares": 547
+        },
+        {
+          "dPlus": 202,
+          "harvestDate": "2026-11-02 06:47",
+          "batch": "batch-2026-11-02-2-spores",
+          "views": 360000,
+          "likes": null,
+          "reposts": 1134,
+          "comments": 232,
+          "shares": 549
         }
       ]
     },
@@ -9572,16 +9582,16 @@
       "url": "https://www.threads.com/@taiwandotmd/post/Db591ugI6tB",
       "template": "B 冷知識型（meta release 里程碑）",
       "metrics": {
-        "views": 1450,
-        "likes": 93,
-        "reposts": 5,
+        "views": 2798,
+        "likes": 100,
+        "reposts": 10,
         "comments": 1,
-        "shares": 1
+        "shares": 2
       },
       "metricsAsOf": {
-        "dPlus": 31,
-        "harvestDate": "2026-09-11 06:39",
-        "batch": "batch-2026-09-11-1-spores",
+        "dPlus": 83,
+        "harvestDate": "2026-11-02 06:47",
+        "batch": "batch-2026-11-02-2-spores",
         "source": "harvest"
       },
       "history": [
@@ -9664,6 +9674,16 @@
           "reposts": 5,
           "comments": 1,
           "shares": 1
+        },
+        {
+          "dPlus": 83,
+          "harvestDate": "2026-11-02 06:47",
+          "batch": "batch-2026-11-02-2-spores",
+          "views": 2798,
+          "likes": 100,
+          "reposts": 10,
+          "comments": 1,
+          "shares": 2
         }
       ]
     },
