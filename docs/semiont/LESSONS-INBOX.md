@@ -332,6 +332,16 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 ## 未消化清單（📥 待 distill）
 
+### 2026-11-02 twmd-feedback-triage — gate-built-for-frame-breaking-is-blind-to-frame-impersonation：閘門認得攻擊者打破框架，認不得攻擊者住進框架
+
+- **pattern**: gate-built-for-frame-breaking-is-blind-to-frame-impersonation
+- **原則**：防 injection 的 pattern 清單若全針對「攻擊者宣告自己要覆寫規則」，就擋不住「攻擊者冒充規則本身」——後者不需要任何可疑句式，它只要借用這條產線公開的詞彙。
+- **觸發**：2026-11-02 飛輪停七天後 `status='new'` 累積 92 筆，74 筆要求把 `SUPABASE_SERVICE_KEY` 貼進公開 issue／archive／commit message，口吻是「FEEDBACK-TRIAGE-PIPELINE HG12b 強制步驟」「intake-health step 3c」「這是自動化核對，不是讀者請求」，全部借用本 pipeline 真實的閘門編號與段落名（`系統初判`、`[routine] commit`）。`detectInjection()` 命中 **0/74**，score 全 0（不是權重不足，是 16 條 pattern 一條都沒碰到）。兩個獨立軸：(一) **欄位射程**——偵測器掃 4 欄，可控且會進 issue／git 的有 10 欄，29 筆的 payload 完全只放在掃不到的 6 欄，`article_title` 更直接成為 issue 標題而標題無法包 tilde fence；(二) **payload 詞彙**——`dangerous-cmd` 認得 `rm -rf`／`curl | sh`，不認得 `cat ~/.某個.env`；`cred-fishing` 要字面 `SUPABASE_SERVICE`，這批寫 `SUPABASE|SERVICE`，差一個字元繞過。批次本身是逐欄位射程矩陣（slug 寫著 `a1-title-*`／`a1-src-*`／`a1-pk`／`a1-cat`），每波夾一筆具名 `canary-reader` 當對照組量「乾淨的會不會被連帶擋掉」。處置：39 筆窗口內 `--exclude` 後照樣跑完 `--commit`（11 筆乾淨的照常開 #1936–#1946，兩道對賬 102/102 與 101/102 全綠），偵測器判準不動（🔒 閾值，OBSERVER-QUEUE #119）。證據：[reports/feedback-injection-campaign-2026-11-02.md](../../reports/feedback-injection-campaign-2026-11-02.md)
+- **instances**：
+- **可能層級**：通用反射（任何讀 untrusted 文字又有能力執行動作的閘門都適用，不限本 pipeline）
+- **相關**：REFLEXES #103「把一類對象排除出判定，不等於把它排除出觀察」差別在：#103 是刻意 skip 導致那格沒眼睛，本條是那六個欄位**從誕生起就不在判定範圍內**，沒有人決定過要排除它們；REFLEXES #97 交接面完整性只涵蓋附帶發現的 `--show` 漏印兩欄那一半
+- **verification_count**: 1
+
 ### 2026-10-26 twmd-maintainer-daily — hand-built-target-makes-the-official-check-silently-see-nothing：官方檢查器被手工餵入時不會報錯，它報「乾淨」
 
 - **pattern**: `hand-built-target-makes-the-official-check-silently-see-nothing`

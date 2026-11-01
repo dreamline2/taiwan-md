@@ -4,9 +4,9 @@ description: '跨 session 程序記憶 catalog — 103 條 #N 反射（last #103
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v5.44'
-last_updated: 2026-10-25
-last_session: '2026-10-25-031544-twmd-distill-weekly：加 #103 排除判定不等於排除觀察；fold 十一處（#16／#24／#38×2／#52／#58／#85×2／#99／#100／#103 家族層）'
+current_version: 'v5.45'
+last_updated: 2026-11-02
+last_session: '2026-11-02-071031-twmd-feedback-triage：#97 補第六次驗證（同一支 --show 漏印 page_kind／category，正是憑證索取 payload 所在）'
 sister_docs:
   - 'DNA.md'
   - 'LESSONS-INBOX.md'
@@ -1207,6 +1207,7 @@ codex → openrouter:owl-alpha → openrouter:openai/gpt-oss-120b:free → gemin
 - **子規則：送到了，收件席位動不了手（2026-09-27 twmd-distill-weekly fold，源 LESSONS `handoff-addressed-to-a-seat-that-cannot-act`，vc=3）**：本條原本問「送了嗎」，這條問「收的人動得了嗎」。寫 handoff 時會挑一個聽起來該管的 routine 名字，但沒有一步驗那個席位的權限收不收得下這個檔；收件人讀了也只能原樣往下傳，報表上它跟「還沒輪到」「優先序不夠」長得一樣。三例：09-20 embeddings（當時歸因成「缺決定」）；09-22 routine-sync「任何 Micro session 都能做」，等於沒有席位；09-23 embeddings 指名 routine-sync，而該席位的 commit 範圍鎖在 `routine-prompts/`，收不下那個檔，最後寄件方自己做掉（`929a6f739`）。規則：交接項帶收件席位，並寫一句「該席位動得了這個路徑嗎」；被原樣傳三輪以上且指名席位固定的，先當權限問題看。MEMORY-PIPELINE §Handoff 同 commit 補。
 - **子規則：交接行的狀態標籤跟它指向的 canonical 反向（2026-09-27 twmd-distill-weekly fold，源 LESSONS `settled-decision-relabelled-as-open-in-handoff`，vc=1，27 班複製）**：`ROUTINE.md` 註 ¹³ 三處寫明 spore-pick／spore-publish／rewrite-daily 是 `manual-by-decision`，decision_ref 指到 2026-09-05 哲宇拍板；交接鏈卻寫成「停用未拍板」，09-14 起 26 個班別、六條 routine 逐字沿用，其中數條一邊貼錯標籤、一邊正確指向說相反話的那個註腳。09-15 spore-harvest 當班更正過，更正只住在自己的 memory 裡，沒有跨過去。指標正確不等於讀過，原樣複製的是字串。規則：交接參照帶狀態（`OBSERVER-QUEUE #N（已決／待決）`），讓複製時至少複製到一個可以被對賬的字；候選儀器：`routine-sync-check.py` 把近 7 天 handoff 的狀態字樣跟 `ROUTINE.md` 的 routine-decisions 對賬。
 - **驗證（2026-10-11 twmd-news-lens-weekly，載體：報告處置欄）**：09-27 探測器把 ar〈尼克星〉音譯撞字寫在報告處置欄「給 babel／哲宇判斷」，沒落進任何佇列或帶參照的 handoff；兩週後同一 query 週點擊 21 → 42、位置 7.3 → 2.9。報告是給人讀的，佇列才是給下一個動手的人讀的；補成 OBSERVER-QUEUE #98。規則 (a) 的延伸：報告裡凡寫「給 X 判斷」，同一班落進佇列或 handoff → [memory](memory/2026-10-11-011220-twmd-news-lens-weekly.md)
+- **驗證（2026-11-02 twmd-feedback-triage，載體：第六次，同一支 `--show`）**：v1.11（09-18）修的是「讀者自由文字四欄只印兩欄」，今天同一支工具的漏印換了一層：`--show` 印十個讀者可控欄位裡的八個，**沒印 `page_kind` 與 `category`**，而那正是 `a1-pk`／`a1-cat`／`a2-pk`／`a2-cat` 四筆憑證索取 payload 的所在（這四筆的 body 是正常勘誤，只靠 `--show` 讀會讀起來完全乾淨）。抓到它們的是當班另外手寫的全欄位普查，不是流程給的讀取入口——HG13 的可靠度又一次掛在「當班願不願意多做一件流程沒給的事」上。補印兩欄屬判準面小修，隨 OBSERVER-QUEUE #119 一起等；證據 [reports/feedback-injection-campaign-2026-11-02.md](../../reports/feedback-injection-campaign-2026-11-02.md)
 - **相關**：#82／#91／#85／#15（五次都是絆到才修）／FEEDBACK-TRIAGE-PIPELINE HG13
 
 **#98 真原子放錯槽位 — 來源命中不等於來源支持（named-entity-present-but-in-a-different-role）**（2026-09-20 twmd-distill-weekly 升 canonical，vc=3 三種載體，severity=structural；源 LESSONS `named-entity-present-but-in-a-different-role`）— 查核一條腳註撐不撐得起正文，最容易機械化的動作是拿正文的原子（人名、數字、事件）去來源頁搜。這個動作對「來源查無此物」有效，對本條這種錯剛好相反：它會回報命中，然後替錯誤蓋章。錯的從來不在原子本身，在原子跟槽位的配對。
