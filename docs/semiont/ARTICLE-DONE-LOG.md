@@ -59,6 +59,17 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 金馬獎 — 2026-11-02 twmd-desk 完成（NEW，頒獎前上線）
+
+- **Article**: [knowledge/Art/金馬獎.md](../../knowledge/Art/金馬獎.md)
+- **Pipeline**: REWRITE-PIPELINE-SINGLE v6.8.3 — NEW，多 agent 編排（Opus 觀點＋研究 → fresh Opus 寫手 → 三位 Sonnet 分段查證 369 原子＋乾淨脈絡 Opus 編輯室 2.5-R → 寫手修訂一輪）
+- **組織主軸**：立體群像。金馬的門檻一屆一屆往外推，從配合國策的國語片推到不問國籍的華語電影；台灣片常在自家輸，門沒有關回去
+- **Hook**：1963 年凌波反串梁山伯來台領獎，規則裝不下她，評審另開一個「最佳演技特別獎」
+- **品質**：6,190 CJK ／ 92 腳註（逐年、逐片可點開）／ 5 張 CC 圖 ／ 2 支官方頻道影片；三道 gate hard=0
+- **查證與修正**：初稿 1 錯 31 處偏離全部處理；最大一處是「1962 辦法只收台灣片」的錯前提（辦法本來就收華僑廠商），以及楊英風 1963 年是去羅馬不是回台
+- **Research**: [reports/research/2026-11/金馬獎.md](../../reports/research/2026-11/金馬獎.md)
+- **待補**：11/22 頒獎後補第 63 屆得獎（INBOX 已開 EVOLVE 條目，期限 11/30）
+
 ### 台灣公投制度 — 2026-11-02 twmd-desk 補歸檔（貢獻者 tboydar 於 2026-10-17 以 PR #1865 交稿，2026-10-19 merge，非走產線）
 
 - **Article**: [knowledge/Politics/台灣公投制度.md](../../knowledge/Politics/台灣公投制度.md)

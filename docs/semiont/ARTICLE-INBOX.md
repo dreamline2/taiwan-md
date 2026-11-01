@@ -177,6 +177,23 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+### 金馬獎 EVOLVE — 11/22 第 63 屆頒獎後補得獎結果
+
+- **Type**: `EVOLVE`
+- **Category**: Art
+- **Path**: knowledge/Art/金馬獎.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-11-02 by twmd-desk（〈金馬獎〉NEW 頒獎前上線，結構預留補段位置）
+- **Angle-expires**: 2026-11-30（頒獎後一週內補完，晚了就成舊聞）
+- **Notes**:
+  - 只改四處：H2「第 63 屆入圍最多的，是日本導演 SABU 的片」那一節（主要是最後一段）、30 秒概覽最後一句、description 最後一句、`lastVerified`。其餘段落不動
+  - tw-stack 那列 2019–2025 改成 2019–2026，2026 最佳劇情片的國別取官網影片頁「國家/地區」欄
+  - 以官網得獎頁 `goldenhorse.org.tw/awards/nw/?search_regist_year=2026` 的得獎列為準，中央社交叉；感言引語要對官方影片或兩家以上逐字一致
+  - 有政治新聞就照一手記一句，沒有就不寫；不預先揣測
+  - 設計細節：研究報告 [reports/research/2026-11/金馬獎.md](../../reports/research/2026-11/金馬獎.md) §6.6
+- **Reference**: [knowledge/Art/金馬獎.md](../../knowledge/Art/金馬獎.md)
+
 ### 中華職棒 NEW — 37 年的聯盟差點死掉兩次，站上沒有它自己的條目
 
 - **Type**: `NEW`
