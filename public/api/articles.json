@@ -808,7 +808,7 @@
       "ताइवान का इतिहास"
     ],
     "url": "https://taiwan.md/hi/history/animal-protection-in-taiwan",
-    "readingTime": 33,
+    "readingTime": 34,
     "featured": false,
     "date": "2026-07-28",
     "path": "hi/History/animal-protection-in-taiwan.md"
@@ -835,7 +835,7 @@
       "대만 역사"
     ],
     "url": "https://taiwan.md/ko/history/animal-protection-in-taiwan",
-    "readingTime": 16,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-07-28",
     "path": "ko/History/animal-protection-in-taiwan.md"
@@ -2371,18 +2371,10 @@
     "path": "ja/People/hatta-yoichi.md"
   },
   {
-    "title": "八田與一：從水利傳奇到「咬人大圳」，技術官僚的殖民印記",
+    "title": "八田與一：從水利工程到「咬人大圳」，技術官僚的殖民印記",
     "description": "1920年代，日本工程師八田與一在台灣嘉南平原興建烏山頭水庫與嘉南大圳。這項世界級工程在帶來農業豐收的同時，也因其殖民剝削本質與農民沉重負擔，被部分農民稱為「咬人大圳」。本文將深入探討八田與一的功過、其管理哲學的兩面性，以及這段歷史在台灣社會留下的複雜印記。",
     "category": "People",
-    "tags": [
-      "八田與一",
-      "嘉南大圳",
-      "烏山頭水庫",
-      "日治時期",
-      "殖民剝削",
-      "台灣農業",
-      "歷史評價"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/people/%E5%85%AB%E7%94%B0%E8%88%87%E4%B8%80",
     "readingTime": 22,
     "featured": false,
@@ -3098,7 +3090,7 @@
       "數位轉型"
     ],
     "url": "https://taiwan.md/lifestyle/%E5%B0%8F%E5%8C%97%E7%99%BE%E8%B2%A8",
-    "readingTime": 10,
+    "readingTime": 11,
     "featured": false,
     "date": "2026-07-25",
     "path": "Lifestyle/小北百貨.md"
@@ -3115,7 +3107,7 @@
       "デジタル転換"
     ],
     "url": "https://taiwan.md/ja/lifestyle/xiaobei-department-store",
-    "readingTime": 13,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-07-25",
     "path": "ja/Lifestyle/xiaobei-department-store.md"
@@ -3499,7 +3491,7 @@
     "path": "ja/Economy/taiwan-companies-china-steel.md"
   },
   {
-    "title": "中鋼：鐵頭部長與十大建設的鋼鐵傳奇",
+    "title": "中鋼：鐵頭部長與十大建設的鋼鐵脊樑",
     "description": "從趙耀東歐美談判智取技術，到高雄小港升起的第一縷白煙，中鋼用50年打造台灣重工業脊樑，是十大建設最成功的明珠",
     "category": "Economy",
     "tags": [
@@ -3510,7 +3502,7 @@
       "重工業"
     ],
     "url": "https://taiwan.md/economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E4%B8%AD%E9%8B%BC",
-    "readingTime": 9,
+    "readingTime": 10,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：中鋼.md"
@@ -5441,7 +5433,7 @@
     "path": "ja/Economy/taiwan-cement-taipower-green-transformation.md"
   },
   {
-    "title": "台泥：台灣第一上市公司的綠色轉型傳奇",
+    "title": "台泥：台灣第一上市公司的綠色轉型",
     "description": "1962年台灣證交所為它而生，股票代號1101象徵台股起源。從辜家三代經營76年，台泥用一座座水泥窯見證台灣建設奇蹟，如今轉型綠色企業迎戰碳中和時代",
     "category": "Economy",
     "tags": [
@@ -11154,7 +11146,7 @@
     "path": "Economy/台灣企業：鴻海精密.md"
   },
   {
-    "title": "台灣全齡共融旅遊與生活文化：當人情味成為最強的無障礙設施",
+    "title": "台灣全齡共融旅遊與生活文化：當人情味成為無障礙設施",
     "description": "從家庭視角觀察台灣社會如何透過人情味與共融設施，在邁向超高齡社會的路上，重新定義「一家人一起旅行」的意義。",
     "category": "Society",
     "tags": [
@@ -16484,7 +16476,7 @@
     "path": "Art/江賢二.md"
   },
   {
-    "title": "江蕙：北投那卡西出身的臺語天后",
+    "title": "江蕙：北投那卡西出身的臺語歌手",
     "description": "江蕙（本名江淑惠，1961 年生於高雄）9 歲隨家人連夜搬到臺北，到北投那卡西走唱。1992 年《酒後的心聲》在臺灣賣出 116 萬張，是官方紀錄中唯一破百萬的臺語專輯。2000 至 2003 年連拿四屆金曲獎臺語女演唱人，2015 年封麥，2024 年在大巨蛋國慶晚會復出。",
     "category": "People",
     "tags": [
@@ -16586,6 +16578,28 @@
     "featured": false,
     "date": "2026-08-17",
     "path": "People/百靈果 News.md"
+  },
+  {
+    "title": "竹山：前山第一城，後來把名字交給竹子",
+    "description": "南投縣西南角的竹山鎮，清代叫林圯埔，曾是雲林縣城所在、號稱「前山第一城」；1920 年才因竹林密布改名竹山。這座近五萬人的小鎮，把明鄭屯墾、濁水溪義渡、竹排船伕、竹編傳習所、921 地震與一間舊客運站的改造，疊在同一條時間線上。",
+    "category": "Geography",
+    "tags": [
+      "竹山",
+      "南投縣",
+      "林圯埔",
+      "雲林縣城",
+      "竹編",
+      "紫南宮",
+      "連興宮",
+      "永濟義渡",
+      "921地震",
+      "地方創生"
+    ],
+    "url": "https://taiwan.md/geography/%E7%AB%B9%E5%B1%B1%E9%8E%AE",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-11-01",
+    "path": "Geography/竹山鎮.md"
   },
   {
     "title": "竹筒飯：在火堆中與燃點博弈的獵人便當",
@@ -16800,6 +16814,28 @@
     "path": "History/西班牙北台灣十六年.md"
   },
   {
+    "title": "西螺：赤い橋はランドマーク、醤油こそが日常",
+    "description": "濁水渓南岸の西螺鎮は、黒豆醤油の180日、1920年代のバロック様式街屋が並ぶ延平老街、300年の歴史を持つ太平媽、清代移民の七崁武館、そして一本の赤い大橋を、人口4万余りの小さな町に重ね合わせている。よそ者が覚えるのは橋だが、地元の人々が生きるのは醤油の日々だ。この記事は産業・信仰・地方の記憶を同じタイムラインに戻す。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/geography/xiluo-township",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "ja/Geography/xiluo-township.md"
+  },
+  {
+    "title": "西螺：紅橋是地標，醬油才是日常",
+    "description": "濁水溪南岸的西螺鎮，把黑豆醬油的 180 天、延平老街 1920 年代的巴洛克街屋、三百年的太平媽、清代移民的七崁武館與一座紅色大橋，疊在同一座四萬人的小鎮裡。外地人記住的是橋，在地人過的是醬油的日子。這篇文章把產業、信仰與地方記憶放回同一條時間線。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/geography/%E8%A5%BF%E8%9E%BA%E9%8E%AE",
+    "readingTime": 15,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "Geography/西螺鎮.md"
+  },
+  {
     "title": "西螺大橋：十五年停擺，七個月把南北接起來",
     "description": "1937 年，濁水溪上的橋先完成了 32 座橋墩，橋身卻被戰爭留下的鋼鐵短缺卡住。十五年後，美援鋼材、地方請願與跨國工程隊伍在 1952 年七個月內把它接完。西螺大橋因此不只是遠東第一長橋，也是一段戰後台灣把交通、冷戰、臺糖運輸與地方記憶疊在同一條鋼桁架上的歷史。如今它仍在使用，也持續面對保存與安全的選擇。",
     "category": "History",
@@ -16968,7 +17004,7 @@
     "path": "ja/People/tai-yu-wu.md"
   },
   {
-    "title": "吳百福（安藤百福）：從嘉義朴子到全球餐桌，台灣基因與日本包裝的全球傳奇",
+    "title": "吳百福（安藤百福）：從嘉義朴子到全球餐桌，台灣基因與日本包裝",
     "description": "1961年，安藤百福以2300萬日圓買下張國文的泡麵專利申請權。這不僅是一場商業交易，更是一場關於發明定義權的跨國角力。這位出身嘉義朴子的企業家，將台灣傳統雞絲麵的靈魂轉化為日本國民食，並透過「合味道」杯麵徹底改變全球飲食習慣。本文深入探討他在日治台灣的創業起點、戰後入獄的體悟、以及身份與家庭在兩國間的糾葛。",
     "category": "People",
     "tags": [],
@@ -18954,17 +18990,6 @@
     "featured": false,
     "date": "2026-08-15",
     "path": "ja/Society/gsat-taiwan.md"
-  },
-  {
-    "title": "学校給食：脱脂粉乳から蛍光カレーまで、台湾の子どもたちの食卓をめぐる百年の変革",
-    "description": "1951年、国連の脱脂粉乳が台湾の学校給食の幕を開けました。米国援助の小麦粉から地場の米食へ、そして今日の食農教育と無償給食政策へ。この百年にわたる変革は世代を超えた子どもたちを養うだけでなく、台湾の社会経済・教育理念・食文化の深い変遷を映し出しています。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/food/school-lunch-reform",
-    "readingTime": 60,
-    "featured": false,
-    "date": "2026-05-04",
-    "path": "ja/Food/school-lunch-reform.md"
   },
   {
     "title": "学習貧困：教室に座っているのに何も学んでいない",
@@ -21334,6 +21359,17 @@
     "featured": false,
     "date": "2026-07-07",
     "path": "People/柯智棠.md"
+  },
+  {
+    "title": "栄養給食：脱脂粉乳から蛍光カレーまで、台湾の児童の食卓における百年の変革",
+    "description": "1951年、国連の脱脂粉乳が台湾の栄養給食の幕開けとなりました。米援助の小麦粉から地元の米食へ、そして今日の食育と無償化政策へ、この百年の変革は児童を満腹させただけでなく、社会経済、教育理念、食文化の深い変遷を映し出しています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/food/school-lunch-reform",
+    "readingTime": 62,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ja/Food/school-lunch-reform.md"
   },
   {
     "title": "毒馬鈴薯：200 ppm 之外，還有 30 ppm、14 天、與 15 年的食安傷疤",
@@ -27292,7 +27328,7 @@
     "path": "Culture/黑白大廚在台灣.md"
   },
   {
-    "title": "黑松汽水與沙士：從被嘲笑的「三流貨」到擊退可樂霸主的百年傳奇",
+    "title": "黑松汽水與沙士：從被嘲笑的「三流貨」到擊退可樂霸主",
     "description": "這不是一瓶普通的碳酸飲料，而是一段台灣民族資本在日治統制與全球化浪潮中，如何靠著「17元資產」與「我的未來不是夢」活下來的生存史。",
     "category": "Food",
     "tags": [
@@ -31221,7 +31257,7 @@
       "文化祭"
     ],
     "url": "https://taiwan.md/ja/food/shulin-red-yeast-rice",
-    "readingTime": 46,
+    "readingTime": 47,
     "featured": false,
     "date": "2026-08-11",
     "path": "ja/Food/shulin-red-yeast-rice.md"
@@ -31986,7 +32022,7 @@
     "category": "Food",
     "tags": [],
     "url": "https://taiwan.md/food/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
-    "readingTime": 46,
+    "readingTime": 47,
     "featured": false,
     "date": "2026-05-04",
     "path": "Food/營養午餐.md"
@@ -32383,7 +32419,7 @@
       "結冰水"
     ],
     "url": "https://taiwan.md/society/%E6%AA%B3%E6%A6%94",
-    "readingTime": 11,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-07-25",
     "path": "Society/檳榔.md"
@@ -32829,7 +32865,7 @@
     "path": "Geography/寶藏巖.md"
   },
   {
-    "title": "競技疊杯：從 1.915 秒的網拍「潮物」到橫掃亞洲的 43 金傳奇",
+    "title": "競技疊杯：從 1.915 秒的網拍「潮物」到橫掃亞洲的 43 面金牌",
     "description": "2025 年台灣代表隊在大連亞洲盃奪下 43 金並刷新 7 項世界紀錄，讓這項曾被譏諷為「疊有洞杯子」的運動，成為台灣最具統治力的競技項目。從林孟欣到賽德克族少女莎瑪巴紹，台灣疊杯不僅追求 0.001 秒的極限，更在特教復健與普特融合教育中疊出社會新高度。",
     "category": "Society",
     "tags": [
@@ -35139,15 +35175,7 @@
     "title": "AI 硬體供應鏈：台灣把雲端變成機器的地方",
     "description": "生成式 AI 看起來像雲端服務，其實需要一整條實體道路：有人設計晶片、有人製造晶圓、有人封裝、有人處理記憶體、電力、散熱、主機板與機櫃。台灣的重要性不只在台積電，而在這條道路上有許多關鍵關口集中於此；這份共同利益真實存在，也伴隨水電、碳排、所得分配、海外設廠與地緣風險，把抽象口號變成可檢查的供應鏈證據。",
     "category": "Technology",
-    "tags": [
-      "AI硬體",
-      "半導體",
-      "供應鏈",
-      "AI伺服器",
-      "先進製程",
-      "先進封裝",
-      "台灣科技業"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/technology/AI%E7%A1%AC%E9%AB%94%E4%BE%9B%E6%87%89%E9%8F%88",
     "readingTime": 35,
     "featured": false,
@@ -35732,15 +35760,26 @@
     "path": "en/History/alishan-empire-forest-and-uongu-yatauyungana.md"
   },
   {
-    "title": "Almoço Escolar Nutritivo: Do Leite em Pó Desnatado ao Caril Fluorescente, um Século de Transformação na Mesa dos Estudantes de Taiwan",
-    "description": "Em 1951, o leite em pó desnatado da ONU inaugurou o almoço escolar nutritivo em Taiwan. Da farinha de trigo da ajuda americana ao arroz local, até às atuais políticas de educação alimentar e gratuidade, esta transformação centenária não apenas alimentou gerações de estudantes, como também reflete a profunda evolução socioeconómica, educacional e cultural de Taiwan.",
+    "title": "Almoço Nutritivo: do leite em pó desnatado ao curry fluorescente, um século de transformação nas mesas dos estudantes de Taiwan",
+    "description": "Em 1951, o leite em pó desnatado da ONU inaugurou o almoço nutritivo em Taiwan. Da farinha de trigo da ajuda americana ao arroz local, até a educação alimentar e as políticas de gratuidade atuais, essa transformação de um século não apenas alimentou os estudantes, mas também reflete a profunda evolução socioeconômica, dos ideais educacionais e da cultura alimentar.",
     "category": "pt",
     "tags": [],
     "url": "https://taiwan.md/pt/food/school-lunch-reform",
-    "readingTime": 174,
+    "readingTime": 183,
     "featured": false,
     "date": "2026-05-04",
     "path": "pt/Food/school-lunch-reform.md"
+  },
+  {
+    "title": "Almuerzo escolar nutritivo: desde la leche en polvo desnatada hasta el curry fluorescente, un siglo de cambios en la mesa de los estudiantes taiwaneses",
+    "description": "En 1951, la leche en polvo desnatada de las Naciones Unidas marcó el inicio del almuerzo nutritivo en Taiwán. Desde la harina de la ayuda estadounidense hasta el consumo de arroz local, pasando por la educación alimentaria y las políticas gratuitas actuales, este siglo de transformación no solo ha alimentado a los estudiantes, sino que también refleja profundos procesos socioeconómicos, conceptos educativos y cultura gastronómica.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/food/school-lunch-reform",
+    "readingTime": 200,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "es/Food/school-lunch-reform.md"
   },
   {
     "title": "Als die Pandemie verschwand, wurde der Feuerwerkskultur Tradition: Die unerwartete Evolution der taiwanesischen Festsaison",
@@ -36507,7 +36546,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/society/betel-nut",
-    "readingTime": 45,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-07-25",
     "path": "es/Society/betel-nut.md"
@@ -40040,12 +40079,12 @@
     "path": "de/Food/taiwan-bread-and-baking.md"
   },
   {
-    "title": "Bữa trưa dinh dưỡng: Từ sữa tách béo đến cà ri huỳnh quang, một thế kỷ chuyển đổi trên bàn ăn học sinh Đài Loan",
-    "description": "Năm 1951, sữa tách béo của Liên Hợp Quốc mở ra kỷ nguyên bữa trưa dinh dưỡng tại Đài Loan. Từ bột mì viện trợ Mỹ đến lúa gạo địa phương, rồi đến chính sách giáo dục thực phẩm và miễn phí ngày nay, quá trình chuyển đổi một thế kỷ này không chỉ đảm bảo được bữa ăn cho học sinh mà còn phản ánh quá trình sâu sắc của phát triển kinh tế-xã hội, lý tưởng giáo dục và văn hóa ẩm thực của Đài Loan.",
+    "title": "Bữa trưa dinh dưỡng: Từ sữa bột tách béo đến cà ri phát quang, cuộc biến đổi thế kỷ trên bàn ăn của học sinh Đài Loan",
+    "description": "Năm 1951, sữa bột tách béo từ Liên Hợp Quốc đã mở ra chương đầu tiên cho bữa trưa dinh dưỡng tại Đài Loan. Từ bột mì viện trợ Hoa Kỳ đến thực phẩm gạo địa phương, và nay là giáo dục ẩm thực cùng chính sách miễn phí, cuộc biến đổi thế kỷ này không chỉ lấp đầy dạ dày học sinh mà còn phản chiếu tiến trình sâu sắc của kinh tế xã hội, triết lý giáo dục và văn hóa ẩm thực.",
     "category": "vi",
     "tags": [],
     "url": "https://taiwan.md/vi/food/school-lunch-reform",
-    "readingTime": 161,
+    "readingTime": 176,
     "featured": false,
     "date": "2026-05-04",
     "path": "vi/Food/school-lunch-reform.md"
@@ -51759,7 +51798,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/history/animal-protection-in-taiwan",
-    "readingTime": 38,
+    "readingTime": 39,
     "featured": false,
     "date": "2026-07-28",
     "path": "es/History/animal-protection-in-taiwan.md"
@@ -56805,17 +56844,6 @@
     "featured": false,
     "date": "2026-08-16",
     "path": "es/Society/energy-poverty-and-cooling.md"
-  },
-  {
-    "title": "El almuerzo escolar en Taiwán: un siglo de transformaciones, del leche en polvo desnatada al curry amarillo fosforescente",
-    "description": "En 1951, la leche en polvo desnatada donada por la ONU marcó el inicio del comedor escolar en Taiwán. De la harina norteamericana a los alimentos locales, y de ahí hasta la educación alimentaria y la política de almuerzo gratuito: un siglo de cambios que refleja la economía, la pedagogía y la cultura culinaria de la sociedad taiwanesa.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/food/school-lunch-reform",
-    "readingTime": 164,
-    "featured": false,
-    "date": "2026-05-04",
-    "path": "es/Food/school-lunch-reform.md"
   },
   {
     "title": "El arcoíris de Taiwán: de las protestas callejeras al amor y la igualdad en el \"Planeta Weimeng\"",
@@ -70048,7 +70076,7 @@
     "category": "vi",
     "tags": [],
     "url": "https://taiwan.md/vi/people/jensen-huang",
-    "readingTime": 104,
+    "readingTime": 103,
     "featured": true,
     "date": "2026-03-25",
     "path": "vi/People/jensen-huang.md"
@@ -79145,17 +79173,6 @@
     "path": "fr/Nature/bird-window-collision-taiwan.md"
   },
   {
-    "title": "Le repas scolaire à Taïwan : un siècle de transformation, du lait écrémé au curry fluorescent",
-    "description": "En 1951, des dons de lait écrémé de l'UNICEF ouvrent l'ère du repas scolaire à Taïwan. De la farine américaine aux céréales locales, puis à l'éducation alimentaire d'aujourd'hui et à la gratuité progressive, cette évolution centenaire nourrit les écoliers tout en reflétant les mutations économiques, éducatives et culturelles du pays.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/food/school-lunch-reform",
-    "readingTime": 142,
-    "featured": false,
-    "date": "2026-05-04",
-    "path": "fr/Food/school-lunch-reform.md"
-  },
-  {
     "title": "Le repli du gouvernement nationaliste à Taïwan et la reconstruction d'après-guerre",
     "description": "Yan Chia-kan a quitté le Fujian pour assister à l'exil du gouvernement nationaliste en 1949. 1,2 million de civils et soldats, 38 ans de loi martiale, réforme agraire — comment cette période a-t-elle redessiné Taïwan ?",
     "category": "fr",
@@ -85600,12 +85617,12 @@
     "path": "id/Culture/magazine.md"
   },
   {
-    "title": "Makan Siang Bergizi: Dari Susu Bubuk Skim ke Kari Neon, Satu Abad Perubahan di Meja Makan Siswa Taiwan",
-    "description": "Pada 1951, susu bubuk skim dari PBB membuka babak awal makan siang bergizi di Taiwan. Dari tepung terigu bantuan Amerika hingga beras lokal, lalu ke pendidikan pangan dan kebijakan makan siang gratis hari ini, satu abad perubahan ini tidak hanya mengenyangkan perut siswa, tetapi juga mencerminkan proses mendalam ekonomi sosial, gagasan pendidikan, dan budaya pangan Taiwan.",
+    "title": "Makan Siang Bergizi: Dari Susu Bubuk Skim ke Kari Kuning Cerah, Transformasi Seratus Tahun di Meja Makan Anak Sekolah Taiwan",
+    "description": "Pada 1951, susu bubuk skim PBB membuka tirai program makan siang bergizi Taiwan. Dari tepung terigu bantuan AS ke makanan beras lokal, hingga hari ini dengan pendidikan pangan dan kebijakan gratis, transformasi seratus tahun ini tidak hanya mengenyangkan para siswa, tetapi juga merefleksikan perkembangan mendalam sosial-ekonomi, filsafat pendidikan, dan budaya kuliner.",
     "category": "id",
     "tags": [],
     "url": "https://taiwan.md/id/food/school-lunch-reform",
-    "readingTime": 154,
+    "readingTime": 161,
     "featured": false,
     "date": "2026-05-04",
     "path": "id/Food/school-lunch-reform.md"
@@ -89532,6 +89549,17 @@
     "featured": false,
     "date": "2026-03-21",
     "path": "de/Food/night-market-culture.md"
+  },
+  {
+    "title": "Nährstoff-Lunch: Von Magermilchpulver zu Leuchtcurry – ein Jahrhundertwandel auf den Tischen taiwanesischer Schulkinder",
+    "description": "1951 läutete UN-Magermilchpulver Taiwans Nährstoff-Lunch ein. Von amerikanischem Hilfsmehl zu lokalen Reisgerichten, hin zu heutiger Ernährungsbildung und kostenlosen Mittagessen – dieser jahrhundertelange Wandel füllte nicht nur die Mägen der Schüler, sondern spiegelt auch den tiefgreifenden Wandel von Sozialökonomie, Bildungsideologie und Esskultur wider.",
+    "category": "de",
+    "tags": [],
+    "url": "https://taiwan.md/de/food/school-lunch-reform",
+    "readingTime": 174,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "de/Food/school-lunch-reform.md"
   },
   {
     "title": "Naissance du Parti progressiste démocrate : comment les indépendants ont transformé l'interdit en organisation au Grand Hôtel de Yuanshan",
@@ -95214,7 +95242,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/lifestyle/xiaobei-department-store",
-    "readingTime": 40,
+    "readingTime": 41,
     "featured": false,
     "date": "2026-07-25",
     "path": "es/Lifestyle/xiaobei-department-store.md"
@@ -98681,7 +98709,7 @@
     "category": "vi",
     "tags": [],
     "url": "https://taiwan.md/vi/culture/truku-people",
-    "readingTime": 95,
+    "readingTime": 94,
     "featured": false,
     "date": "2026-08-15",
     "path": "vi/Culture/truku-people.md"
@@ -99516,7 +99544,7 @@
     "category": "vi",
     "tags": [],
     "url": "https://taiwan.md/vi/food/shulin-red-yeast-rice",
-    "readingTime": 114,
+    "readingTime": 115,
     "featured": false,
     "date": "2026-08-11",
     "path": "vi/Food/shulin-red-yeast-rice.md"
@@ -99820,6 +99848,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/Culture/renjian-magazine.md"
+  },
+  {
+    "title": "Repas nutritifs : de la poudre de lait écrémé au curry fluorescent, un siècle de transformation sur les tables des écoliers taïwanais",
+    "description": "En 1951, la poudre de lait écrémé des Nations unies ouvre le rideau des repas nutritifs à Taïwan. De la farine d'aide américaine au riz local, jusqu'à l'éducation alimentaire et aux politiques de gratuité d'aujourd'hui, cette transformation centennale n'a pas seulement nourri les élèves, elle reflète aussi l'évolution profonde de l'économie, des idées éducatives et de la culture culinaire de la société.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/food/school-lunch-reform",
+    "readingTime": 192,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "fr/Food/school-lunch-reform.md"
   },
   {
     "title": "Reproduksi Buatan Taiwan: Satu Embrio Bisa Melintasi Batas Negara, Keluarga Tak Bisa Otomatis Melintasi Hukum",
@@ -101107,12 +101146,12 @@
     "path": "en/Lifestyle/cooperatives-in-taiwan.md"
   },
   {
-    "title": "School Lunch in Taiwan: A Century of Change, from Skim Milk Powder to Neon Curry",
-    "description": "In 1951, a UNICEF donation of skim milk powder launched Taiwan's school lunch program. From American aid flour to local rice, and from food education to free-lunch policies, a century of change has fed generations of students while tracing Taiwan's social, economic, and culinary evolution.",
+    "title": "School Lunches: From Skimmed Milk Powder to Fluorescent Curry, a Century of Transformation on Taiwan's Students' Tables",
+    "description": "In 1951, United Nations skimmed milk powder marked the beginning of school lunches in Taiwan. From US-aid flour to local rice, and moving toward today's food education and free meal policies, this century of transformation has not only fed students but also reflected profound shifts in socio-economics, educational philosophies, and culinary culture.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/food/school-lunch-reform",
-    "readingTime": 135,
+    "readingTime": 170,
     "featured": false,
     "date": "2026-05-04",
     "path": "en/Food/school-lunch-reform.md"
@@ -101138,17 +101177,6 @@
     "featured": false,
     "date": "2026-06-21",
     "path": "de/Society/kuma-academy-civil-defense-school.md"
-  },
-  {
-    "title": "Schulverpflegung: Ein Jahrhundert des Wandels – von Magermilchpulver bis fluoreszierendem Curry auf Taiwans Schülertischen",
-    "description": "1951 markierte das Magermilchpulver der Vereinten Nationen den Beginn von Taiwans Schulverpflegungsprogramm. Von amerikanischer Hilfsmehl über lokale Reisgerichte bis hin zu heutigen Ernährungserziehungs- und kostenlosen Verpflegungsrichtlinien spiegelt diese hundertjährige Transformation nicht nur die Ernährung von Schülern wider, sondern auch tiefgreifende Veränderungen in Gesellschaft, Wirtschaft, Bildungsphilosophie und Esskultur.",
-    "category": "de",
-    "tags": [],
-    "url": "https://taiwan.md/de/food/school-lunch-reform",
-    "readingTime": 175,
-    "featured": false,
-    "date": "2026-05-04",
-    "path": "de/Food/school-lunch-reform.md"
   },
   {
     "title": "Schutz des Taiwan-Leopardenkatzen",
@@ -102054,7 +102082,7 @@
   },
   {
     "title": "Shen Pao-chen: un cañón, un camino de montaña y el imperio Qing obligado a ver Taiwán",
-    "description": "Tras el incidente de Mínguān​ 1874, Shen Pao-chen llegó a Anping con la marina de Fuzhou, colegios y técnicas de levantamiento de mapas; construyó el fuerte Yǒu​zǎi Jīngchéng, estableció el condado de Hengchun, pidió aliviar la prohibición de cruzar el estrecho de Taiwán, e incluso empujó al imperio Qing a imaginar una defensa costera y una administración provincial para Taiwán. Pero cuando el camino, el cañón y el templo se materializaron, la tierra y la autonomía de los pueblos indígenenas también fueron reordenados.",
+    "description": "Tras el incidente de Mínguān 1874, Shen Pao-chen llegó a Anping con la marina de Fuzhou, colegios y técnicas de levantamiento de mapas; construyó el fuerte Yǒuzǎi Jīngchéng, estableció el condado de Hengchun, pidió aliviar la prohibición de cruzar el estrecho de Taiwán, e incluso empujó al imperio Qing a imaginar una defensa costera y una administración provincial para Taiwán. Pero cuando el camino, el cañón y el templo se materializaron, la tierra y la autonomía de los pueblos indígenenas también fueron reordenados.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/people/shen-pao-chen",
@@ -102870,7 +102898,7 @@
     "category": "vi",
     "tags": [],
     "url": "https://taiwan.md/vi/lifestyle/xiaobei-department-store",
-    "readingTime": 33,
+    "readingTime": 34,
     "featured": false,
     "date": "2026-07-25",
     "path": "vi/Lifestyle/xiaobei-department-store.md"
@@ -114008,6 +114036,17 @@
     "path": "en/Nature/tawny-fish-owl.md"
   },
   {
+    "title": "Tây La: Hồng Kiều là điểm mốc, xì dầu mới là nhật thường",
+    "description": "Trấn Tây La ở bờ nam sông Trọc Thủy, dung nạp trong một thị trấn 40.000 người: 180 ngày nấu xì dầu đậu đen, những nhà phố phong cách Baroque thập niên 1920 trên phố cổ Diễn Bình, bà Thái Bình Mẫu 300 năm tuổi, võ quán Thất Khảm của người di cư thời Thanh, và một cây cầu đỏ lớn. Người ngoài nhớ đến cây cầu, người địa phương sống cuộc đời xì dầu. Bài viết này đưa sản nghiệp, tín ngưỡng và ký ức địa phương trở về một dòng thời gian chung.",
+    "category": "vi",
+    "tags": [],
+    "url": "https://taiwan.md/vi/geography/xiluo-township",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "vi/Geography/xiluo-township.md"
+  },
+  {
     "title": "Tayal: Após a proibição das tatuagens faciais, como a tecelagem trouxe o gaga de volta à aldeia",
     "description": "A tatuagem facial era a marca da maioridade do povo Tayal, mas foi proibida no início do século XX; a partir da jornada de raízes de Yuma Taru e das tecelãs da aldeia, vê-se como a cultura renasce no cotidiano à beira da perda.",
     "category": "pt",
@@ -116939,7 +116978,7 @@
       "青年文化"
     ],
     "url": "https://taiwan.md/technology/Threads%E5%9C%A8%E5%8F%B0%E7%81%A3",
-    "readingTime": 131,
+    "readingTime": 154,
     "featured": false,
     "date": "2026-03-24",
     "path": "Technology/Threads在台灣.md"
@@ -119781,7 +119820,7 @@
     "category": "vi",
     "tags": [],
     "url": "https://taiwan.md/vi/history/animal-protection-in-taiwan",
-    "readingTime": 33,
+    "readingTime": 34,
     "featured": false,
     "date": "2026-07-28",
     "path": "vi/History/animal-protection-in-taiwan.md"
@@ -124885,7 +124924,7 @@
     "category": "id",
     "tags": [],
     "url": "https://taiwan.md/id/lifestyle/xiaobei-department-store",
-    "readingTime": 34,
+    "readingTime": 36,
     "featured": false,
     "date": "2026-07-25",
     "path": "id/Lifestyle/xiaobei-department-store.md"
@@ -124896,7 +124935,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/lifestyle/xiaobei-department-store",
-    "readingTime": 32,
+    "readingTime": 34,
     "featured": false,
     "date": "2026-07-25",
     "path": "en/Lifestyle/xiaobei-department-store.md"
@@ -124907,7 +124946,7 @@
     "category": "de",
     "tags": [],
     "url": "https://taiwan.md/de/lifestyle/xiaobei-department-store",
-    "readingTime": 34,
+    "readingTime": 36,
     "featured": false,
     "date": "2026-07-25",
     "path": "de/Lifestyle/xiaobei-department-store.md"
@@ -124951,7 +124990,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/lifestyle/xiaobei-department-store",
-    "readingTime": 38,
+    "readingTime": 39,
     "featured": false,
     "date": "2026-07-25",
     "path": "fr/Lifestyle/xiaobei-department-store.md"
@@ -124962,7 +125001,7 @@
     "category": "pt",
     "tags": [],
     "url": "https://taiwan.md/pt/lifestyle/xiaobei-department-store",
-    "readingTime": 34,
+    "readingTime": 35,
     "featured": false,
     "date": "2026-07-25",
     "path": "pt/Lifestyle/xiaobei-department-store.md"
@@ -124977,6 +125016,17 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "vi/Art/tehching-hsieh-performance-artist.md"
+  },
+  {
+    "title": "Xiluo : le pont est un monument, la sauce soja est un quotidien",
+    "description": "À Xiluo, sur la rive sud de la rivière Zhuoshui, les maisons baroques des années 1920, la déesse Taiping Ma et l'histoire des arts martiaux se mêlent à une culture de la sauce soja vieille de plusieurs siècles.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/geography/xiluo-township",
+    "readingTime": 55,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "fr/Geography/xiluo-township.md"
   },
   {
     "title": "Xiluo Bridge: Fifteen Years at a Standstill, Seven Months to Connect North and South",
@@ -124999,6 +125049,61 @@
     "featured": false,
     "date": "2026-08-21",
     "path": "de/History/xiluo-bridge.md"
+  },
+  {
+    "title": "Xiluo: A ponte é o marco, mas o molho de soja é o cotidiano",
+    "description": "Em Xiluo, na margem sul do rio Zhuoshui, a história sobrepõe casas barrocas da década de 1920, uma Deusa Mazu de 300 anos e uma ponte vermelha icônica. Para os visitantes, a ponte é o símbolo; para os locais, a vida é temperada com molho de soja.",
+    "category": "pt",
+    "tags": [],
+    "url": "https://taiwan.md/pt/geography/xiluo-township",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "pt/Geography/xiluo-township.md"
+  },
+  {
+    "title": "Xiluo: Die Brücke ist das Wahrzeichen, die Sojasauce der Alltag",
+    "description": "In Xiluo am Südufer des Zhuoshui-Flusses verschmelzen 180 Tage Sojasaucen-Fermentation, Barockarchitektur der 1920er Jahre und 300 Jahre alte Traditionen in einer Kleinstadt mit 40.000 Einwohnern.",
+    "category": "de",
+    "tags": [],
+    "url": "https://taiwan.md/de/geography/xiluo-township",
+    "readingTime": 53,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "de/Geography/xiluo-township.md"
+  },
+  {
+    "title": "Xiluo: el puente rojo es el hito, la salsa de soja es lo cotidiano",
+    "description": "En la orilla sur del río Zhuoshui, el pueblo de Xiluo superpone en una misma localidad de cuarenta mil habitantes los 180 días de la salsa de soja de soja negra, las casas comerciales barrocas de los años 1920 de la calle Yanping, los tres siglos de la Mazu Taiping, el salón marcial Qikeng de los inmigrantes de la dinastía Qing y un gran puente rojo. Los forasteros recuerdan el puente; los lugareños viven la vida de la salsa de soja. Este artículo devuelve la industria, la fe y la memoria local a una misma línea temporal.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/geography/xiluo-township",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "es/Geography/xiluo-township.md"
+  },
+  {
+    "title": "Xiluo: Jembatan adalah Ikon, Kecap adalah Keseharian",
+    "description": "Kota Xiluo di tepi selatan Sungai Zhuoshui menyatukan fermentasi kecap hitam 180 hari, bangunan Barok Jalan Lama Yanping era 1920-an, Tao Ping Ma yang berusia tiga abad, perguruan bela diri Qikan dari imigran Dinasti Qing, dan sebuah jembatan merah dalam satu kota berpenduduk 40.000 jiwa.",
+    "category": "id",
+    "tags": [],
+    "url": "https://taiwan.md/id/geography/xiluo-township",
+    "readingTime": 57,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "id/Geography/xiluo-township.md"
+  },
+  {
+    "title": "Xiluo: The Red Bridge Is the Landmark, Soy Sauce Is Daily Life",
+    "description": "Xiluo Township on the south bank of the Zhuoshui River stacks 180 days of black-bean soy sauce, 1920s Baroque shophouses on Yanping Old Street, three centuries of Taiping Ma, a Qing-era Qikeng martial hall, and a red bridge into one town of 40,000. Visitors remember the bridge; locals live the soy sauce life. This article puts industry, faith, and local memory back on a single timeline.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/geography/xiluo-township",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "en/Geography/xiluo-township.md"
   },
   {
     "title": "Ximen Red House: Wie ein Markt zum kulturellen Wohnzimmer von Ximending wurde",
@@ -129018,7 +129123,7 @@
     "category": "ru",
     "tags": [],
     "url": "https://taiwan.md/ru/geography/kaohsiung-city",
-    "readingTime": 237,
+    "readingTime": 238,
     "featured": false,
     "date": "2026-05-18",
     "path": "ru/Geography/kaohsiung-city.md"
@@ -134534,6 +134639,17 @@
     "path": "ru/People/ximurong.md"
   },
   {
+    "title": "Силуо: красный мост — ориентир, соевый соус — повседневность",
+    "description": "Силуо на южном берегу реки Чжоушуйси собирает в одном городе с населением 40 тысяч человек: 180 дней ферментации соевого соуса из чёрных бобов, барочные шоп-хаусы 1920-х на старой улице Яньпин, Тайпинма, почитаемую уже триста лет, уцзяня «Цыцзянь» эпохи Цин и красный большой мост. Приезжие запоминают мост, а местные живут жизнью соевого соуса. Статья возвращает промышленность, веру и местную память на единую временную линию.",
+    "category": "ru",
+    "tags": [],
+    "url": "https://taiwan.md/ru/geography/xiluo-township",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "ru/Geography/xiluo-township.md"
+  },
+  {
     "title": "Симен Хунлоу: как рынок стал культурной гостиной Симендин",
     "description": "В 1896 году за западными воротами Тайбэя уже стоял деревянный рынок; в 1908 году восьмиугольная и крестообразная башни поместили под одну крышу покупку продуктов, посещение театра и городской порядок. После включения в список памятников 1997 года и передачи на культурное управление в 2007 году здание прошло путь от рынка через театр и кинотеатр до креативного рынка, снова став входом в общественную культуру для западного района; оставшийся вопрос — не в том, как сохранить старое здание, а в том, кто готов пользоваться им каждый день.",
     "category": "ru",
@@ -135256,7 +135372,7 @@
     "category": "ru",
     "tags": [],
     "url": "https://taiwan.md/ru/lifestyle/xiaobei-department-store",
-    "readingTime": 35,
+    "readingTime": 37,
     "featured": false,
     "date": "2026-07-25",
     "path": "ru/Lifestyle/xiaobei-department-store.md"
@@ -139511,12 +139627,12 @@
     "path": "ru/Technology/taiwan-ai-academy.md"
   },
   {
-    "title": "Школьные обеды: столетие перемен от обезжиренного молочного порошка до светящегося карри на столах тайваньских учащихся",
-    "description": "В 1951 году обезжиренный молочный порошок ООН открыл эпоху школьных обедов на Тайване. От американской муки помощи к местному рису, а затем к современной пищевой грамотности и бесплатной политике — это столетие перемен не только накормило учащихся, но и отразило глубокие процессы социально-экономического развития, образовательных идей и пищевой культуры.",
+    "title": "Школьные обеды: от обезжиренного сухого молока до светящегося карри — вековая трансформация стола тайваньских школьников",
+    "description": "В 1951 году использование обезжиренного сухого молока ООН положило начало истории школьного питания на Тайване. Путь от муки, поставляемой по программе помощи США, к местному рису, а затем к современным программам пищевого воспитания и политике бесплатных обедов — эта вековая трансформация не только обеспечила учащихся питанием, но и отразила глубокие процессы в социально-экономической сфере, образовательных концепциях и культуре питания.",
     "category": "ru",
     "tags": [],
     "url": "https://taiwan.md/ru/food/school-lunch-reform",
-    "readingTime": 169,
+    "readingTime": 177,
     "featured": false,
     "date": "2026-05-04",
     "path": "ru/Food/school-lunch-reform.md"
@@ -140870,12 +140986,12 @@
     "path": "ar/Nature/formosan-salamander.md"
   },
   {
-    "title": "احتفالية استقبال الملك بسلام في تونغ‌قانغ: كيف تحمل سفينة لا تنزل إلى الماء ذاكرة المكان",
-    "description": "احتفالية استقبال الملك بسلام في تونغ‌قانغ ليست مجرد احتفال معبد يحرق سفينة الملك، بل هي محفوظة من خلال سفينة الملك والحاملين والالتفاف حول المعبد وحفل سفينة الملك وطقس الإرسال، وتحافظ على الذاكرة البحرية لتجمع ميناء الصيد في بينتونغ والنظام العقائدي والمهارات الحرفية والمساعدة المتبادلة المحلية. تتناول هذه المقالة سفينة الملك والزوايا السبع والدورة الثلاثية وحفظ الممتلكات الثقافية، لفهم كيف يستمر هذا التقليد الشعبي في العصر المعاصر.",
+    "title": "احتفالية استقبال الملك بسلام في تونغقانغ: كيف تحمل سفينة لا تنزل إلى الماء ذاكرة المكان",
+    "description": "احتفالية استقبال الملك بسلام في تونغقانغ ليست مجرد احتفال معبد يحرق سفينة الملك، بل هي محفوظة من خلال سفينة الملك والحاملين والالتفاف حول المعبد وحفل سفينة الملك وطقس الإرسال، وتحافظ على الذاكرة البحرية لتجمع ميناء الصيد في بينتونغ والنظام العقائدي والمهارات الحرفية والمساعدة المتبادلة المحلية. تتناول هذه المقالة سفينة الملك والزوايا السبع والدورة الثلاثية وحفظ الممتلكات الثقافية، لفهم كيف يستمر هذا التقليد الشعبي في العصر المعاصر.",
     "category": "ar",
     "tags": [],
     "url": "https://taiwan.md/ar/culture/donggang-king-boat-festival",
-    "readingTime": 89,
+    "readingTime": 88,
     "featured": false,
     "date": "2026-08-18",
     "path": "ar/Culture/donggang-king-boat-festival.md"
@@ -142232,6 +142348,17 @@
     "path": "ar/Culture/temple-architecture-duichang.md"
   },
   {
+    "title": "الغداء المدرسي المغذي: من حليب البودرة منزوع الدسم إلى الكاري الفلوري، قرن من التحول على موائد الطلاب التايوانيين",
+    "description": "في عام 1951، افتتح حليب البودرة منزوع الدسم من الأمم المتحدة حقبة الغداء المدرسي المغذي في تايوان. من دقيق المساعدات الأمريكية إلى وجبات الأرز المحلية، وصولاً إلى تعليم الغذاء والسياسات المجانية اليوم، لم يقتصر هذا التحول الذي استمر قرناً على إشباع الطلاب، بل عكس أيضاً العمليات العميقة للاقتصاد الاجتماعي وفلسفة التعليم والثقافة الغذائية.",
+    "category": "ar",
+    "tags": [],
+    "url": "https://taiwan.md/ar/food/school-lunch-reform",
+    "readingTime": 141,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ar/Food/school-lunch-reform.md"
+  },
+  {
     "title": "الغراب الأزرق التايواني: عصابة زرقاء في غابة المدينة، ومعركة دفاع جيني استمرت لأكثر من قرن",
     "description": "بعد فوزه بمنصب الطائر الوطني بـ 180 ألف صوت في عام 2007، تبين أن هذه الجوهرة الجبلية هي عائلة قوية تجيد «القتال الجماعي». إنه نوع مستوطن في تايوان، ومنذ أول عينة تم جمعها بواسطة هيرمان في عام 1862، وصولاً إلى اليوم حيث يسرق طعام القطط في حدائق المدن، يعتمد هذا الطائر على نظام المساعدين حول العش بنسبة تصل إلى 97% للفوز في المنافسات؛ وعلى مدار أكثر من مائة عام، حافظت هذه الطيور أيضًا على الحدود الجينية بينها وبين الغراب الأزرق ذو المنقار الأحمر في الصين. إنها قصة جزيرة عن البقاء، والتماسك العائلي، ومعركة الدفاع الجيني، وحكمة التعايش بين الإنسان والطائر.",
     "category": "ar",
@@ -142795,17 +142922,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ar/Technology/digital-id-and-digital-government.md"
-  },
-  {
-    "title": "الوجبة الغذائية المدرسية: من الحليب المجفف منزوع الدسم إلى الكاري الفلوري، قرن من التحول على موائد التلاميذ التايوانيين",
-    "description": "في عام 1951، افتتح الحليب المجفف منزوع الدسم من الأمم المتحدة حقبة الوجبات الغذائية المدرسية في تايوان. من دقيق المساعدات الأمريكية إلى الأرز المحلي، وصولاً إلى سياسات التربية الغذائية والوجبات المجانية اليوم، لم يقتصر هذا التحول المئوي على إطعام أجيال من التلاميذ، بل عكس أيضاً التطور العميق للاقتصاد والمجتمع التايواني، والفلسفة التربوية، والثقافة الغذائية.",
-    "category": "ar",
-    "tags": [],
-    "url": "https://taiwan.md/ar/food/school-lunch-reform",
-    "readingTime": 139,
-    "featured": false,
-    "date": "2026-05-04",
-    "path": "ar/Food/school-lunch-reform.md"
   },
   {
     "title": "الوجهان لطريق النصر: من انقلاب سلاح المدرعات إلى \"موقف السيارات الكبير\" — ذاكرة هوكو",
@@ -148279,7 +148395,7 @@
     "category": "ar",
     "tags": [],
     "url": "https://taiwan.md/ar/lifestyle/xiaobei-department-store",
-    "readingTime": 28,
+    "readingTime": 30,
     "featured": false,
     "date": "2026-07-25",
     "path": "ar/Lifestyle/xiaobei-department-store.md"
@@ -148338,6 +148454,17 @@
     "featured": false,
     "date": "2026-08-20",
     "path": "ar/Culture/taiwanese-colloquial-speech.md"
+  },
+  {
+    "title": "شيلو: الجسر الأحمر معلم، وصلصة الصويا هي الحياة اليومية",
+    "description": "بلدة شيلو على الضفة الجنوبية لنهر تشوشوي، تجمع في بلدة واحدة يسكنها أربعون ألف نسمة: صلصة الصويا من الفول الأسود التي تستغرق 180 يوماً، وبيوت الشارع القديمة ذات الطراز الباروكي من عشرينيات القرن العشرين في شارع يانبينغ، والإلهة تايبينغ ما ذات الثلاثمائة عام، ومدرسة الفنون القتالية \"تشيكان\" لمهاجري حقبة تشينغ، وجسر أحمر كبير. الزوار يتذكرون الجسر، أما السكان فيعيشون حياة صلصة الصويا. هذه المقالة تعيد الصناعة والإيمان والذاكرة المحلية إلى خط زمني واحد.",
+    "category": "ar",
+    "tags": [],
+    "url": "https://taiwan.md/ar/geography/xiluo-township",
+    "readingTime": 42,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "ar/Geography/xiluo-township.md"
   },
   {
     "title": "شيلين: أرض كيتاغالان، معبد صراع تشانغ-تشوان، والليلة الأكثر ازدحامًا في تايبيه",
@@ -151580,7 +151707,7 @@
       "تاريخ تايوان"
     ],
     "url": "https://taiwan.md/ar/history/animal-protection-in-taiwan",
-    "readingTime": 30,
+    "readingTime": 31,
     "featured": false,
     "date": "2026-07-28",
     "path": "ar/History/animal-protection-in-taiwan.md"
@@ -155002,14 +155129,14 @@
     "path": "hi/People/chien-chien-eating.md"
   },
   {
-    "title": "चिकित्सा कानून: संस्थागत मानक और बाजार का खींचतान चालीस साल",
-    "description": "ताइवान चिकित्सा कानून 1986 में प्रकाशित हुआ, 2017 में चिकित्सक के आपराधिक दायित्व को संशोधित किया गया, और 2026 में तीन शिफ्ट नर्स-रोगी अनुपात को कानून बनाया जाएगा। कानून यह लिख सकता है कि 'एक नर्स अधिकतम कितने बिस्तर की देखभाल कर सकती है', लेकिन वह यह नहीं लिख सकता कि 'क्या वह नर्स मौजूद है'—32 लाख नर्सिंग लाइसेंस हैं, लेकिन क्लिनिक में केवल 1.9 लाख हाथ बचे हैं। यह स्वास्थ्य बीमा कानून या चिकित्सक कानून नहीं है; यह ताइवान के 'अस्पताल' नामक संस्था के अस्तित्व का मूल आधार है, और चिकित्सा परोपकारिता तथा बाजार तंत्र की चालीस वर्षों से अनसुलझी खींचतान है।",
+    "title": "चिकित्सा कानून: संस्थागत नियमन और बाजार के बीच खींचतान के चालीस वर्ष",
+    "description": "ताइवान का चिकित्सा कानून 1986 में घोषित किया गया, 2017 में डॉक्टरों की आपराधिक जिम्मेदारी में संशोधन किया गया, और 2026 में तीन-शिफ्ट नर्स-रोगी अनुपात को कानून में शामिल किया जाएगा। कानून यह तो लिख सकता है कि \"एक नर्स अधिकतम कितने बिस्तरों की देखभाल कर सकती है\", लेकिन यह नहीं लिख सकता कि \"क्या वहां वास्तव में नर्स मौजूद हैं\" — 3.2 लाख नर्सिंग लाइसेंस होने के बावजूद, क्लिनिकल स्तर पर केवल 1.9 लाख हाथ ही बचे हैं। यह स्वास्थ्य बीमा कानून या डॉक्टर कानून नहीं है, बल्कि यह ताइवान में \"अस्पताल\" नामक संस्था के अस्तित्व का आधारभूत कानून है, और चिकित्सा की सार्वजनिक भलाई एवं बाजार तंत्र के बीच चालीस वर्षों से अनसुलझी खींचतान का प्रतीक है।",
     "category": "hi",
     "tags": [],
     "url": "https://taiwan.md/hi/society/medical-care-act",
-    "readingTime": 278,
+    "readingTime": 291,
     "featured": false,
-    "date": "2026-05-10",
+    "date": "2026-07-15",
     "path": "hi/Society/medical-care-act.md"
   },
   {
@@ -161855,12 +161982,12 @@
     "path": "hi/People/potter-king-youtuber.md"
   },
   {
-    "title": "पौष्टिक दोपहर का भोजन: स्किम्ड मिल्क पाउडर से फ्लोरोसेंट करी तक, ताइवानी छात्रों की थाली पर एक सदी का बदलाव",
-    "description": "1951 में, संयुक्त राष्ट्र के स्किम्ड मिल्क पाउडर ने ताइवान में पौष्टिक दोपहर के भोजन की शुरुआत की। अमेरिकी सहायता के आटे से लेकर स्थानीय चावल व्यंजनों तक, और आज की खाद्य शिक्षा व मुफ्त नीतियों तक, इस सदी भर के बदलाव ने न केवल छात्रों का पेट भरा, बल्कि सामाजिक-आर्थिक, शैक्षिक दर्शन और खाद्य संस्कृति की गहरी प्रक्रिया को भी दर्शाया।",
+    "title": "पौष्टिक दोपहर का भोजन: स्किम्ड मिल्क पाउडर से फ्लोरेसेंट करी तक, ताइवानी स्कूली बच्चों की थाली पर सौ साल का परिवर्तन",
+    "description": "1951 में, संयुक्त राष्ट्र के स्किम्ड मिल्क पाउडर ने ताइवान के पौष्टिक दोपहर के भोजन की शुरुआत की। अमेरिकी सहायता के आटे से लेकर स्थानीय चावल-आधारित भोजन तक, और आज खाद्य शिक्षा और मुफ्त नीति तक, यह शताब्दी भर का परिवर्तन न केवल छात्रों का पेट भरता है, बल्कि सामाजिक-आर्थिक, शैक्षिक विचारों और खान-पान की संस्कृति की गहन प्रक्रिया को भी प्रतिबिंबित करता है।",
     "category": "hi",
     "tags": [],
     "url": "https://taiwan.md/hi/food/school-lunch-reform",
-    "readingTime": 159,
+    "readingTime": 164,
     "featured": false,
     "date": "2026-05-04",
     "path": "hi/Food/school-lunch-reform.md"
@@ -164900,7 +165027,7 @@
     "category": "hi",
     "tags": [],
     "url": "https://taiwan.md/hi/lifestyle/xiaobei-department-store",
-    "readingTime": 33,
+    "readingTime": 34,
     "featured": false,
     "date": "2026-07-25",
     "path": "hi/Lifestyle/xiaobei-department-store.md"
@@ -165011,6 +165138,17 @@
     "path": "hi/People/ximurong.md"
   },
   {
+    "title": "शी-लुओ: लाल पुल एक स्थलचिह्न है, सोया सॉस ही दैनिक जीवन है",
+    "description": "झुओशुई नदी के दक्षिणी तट पर स्थित शी-लुओ कस्बे में, काले बीन सोया सॉस के 180 दिन, 1920 के दशक के बारोक शॉपहाउस वाली यानपिंग पुरानी गली, 300 साल पुरानी ताइपिंग मा, किंग राजवंश के प्रवासियों का चिकान मार्शल आर्ट्स हॉल और एक लाल पुल — ये सब 40,000 आबादी वाले एक ही छोटे कस्बे में समाहित हैं। बाहरी लोग पुल को याद रखते हैं, स्थानीय लोग सोया सॉस वाला जीवन जीते हैं। यह लेख उद्योग, आस्था और स्थानीय स्मृति को उसी टाइमलाइन पर वापस लाता है।",
+    "category": "hi",
+    "tags": [],
+    "url": "https://taiwan.md/hi/geography/xiluo-township",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "hi/Geography/xiluo-township.md"
+  },
+  {
     "title": "शीमेन हॉन्गलाउ: एक बाज़ार कैसे शिमेनडिंग का सांस्कृतिक ड्रॉइंग रूम बना",
     "description": "1896 में ताइपे के शिमेन के बाहर एक लकड़ी का बाज़ार था; 1908 में अष्टकोणीय टॉवर और क्रॉस-आकार के टॉवर ने सब्ज़ी ख़रीदने, नाटक देखने और शहरी व्यवस्था को एक ही छत के नीचे ला दिया। 1997 में प्राचीन स्मारक घोषित, 2007 में सांस्कृतिक संचालन को सौंपे जाने के बाद, यह बाज़ार, थिएटर, सिनेमा और सांस्कृतिक-रचनात्मक बाज़ार से गुज़रा, और पश्चिमी ज़िले को सार्वजनिक संस्कृति का प्रवेश द्वार फिर से दिलाया; रह गया सवाल यह नहीं कि पुरानी इमारत कैसे बचाई जाए, बल्कि यह कि कौन अब भी उसका रोज़ाना इस्तेमाल करना चाहता है।",
     "category": "hi",
@@ -165038,7 +165176,7 @@
     "category": "hi",
     "tags": [],
     "url": "https://taiwan.md/hi/food/shulin-red-yeast-rice",
-    "readingTime": 103,
+    "readingTime": 104,
     "featured": false,
     "date": "2026-08-11",
     "path": "hi/Food/shulin-red-yeast-rice.md"
@@ -165670,7 +165808,7 @@
     "category": "hi",
     "tags": [],
     "url": "https://taiwan.md/hi/society/betel-nut",
-    "readingTime": 36,
+    "readingTime": 37,
     "featured": false,
     "date": "2026-07-25",
     "path": "hi/Society/betel-nut.md"
@@ -168873,7 +169011,7 @@
       "백신피해구제"
     ],
     "url": "https://taiwan.md/ko/society/taiwan-covid-pandemic-and-vaccines",
-    "readingTime": 228,
+    "readingTime": 236,
     "featured": false,
     "date": "2026-08-08",
     "path": "ko/Society/taiwan-covid-pandemic-and-vaccines.md"
@@ -171818,7 +171956,7 @@
   },
   {
     "title": "산샤 올드 스트리트: 붉은 벽돌 아케이드 아래의 권력 다툼과 끝나지 않은 문화유산 실험",
-    "description": "2007년 FIABCI 글로벌 우수 건설상을 수상하며 인정받은 산샤 올드 스트리트는 타이완 최초의 대규모 '복구 공사' 모델이다. 청대 '산자오융(三角湧)'의 염색 무역부터 2​016년 석판로 철거라는 비극에 이르기까지, 이 붉은 벽돌 거리는 문화재 보존과 관광 발전 사이에서 타이완이 겪은 격렬한 갈등을 기록하고 있다.",
+    "description": "2007년 FIABCI 글로벌 우수 건설상을 수상하며 인정받은 산샤 올드 스트리트는 타이완 최초의 대규모 '복구 공사' 모델이다. 청대 '산자오융(三角湧)'의 염색 무역부터 2016년 석판로 철거라는 비극에 이르기까지, 이 붉은 벽돌 거리는 문화재 보존과 관광 발전 사이에서 타이완이 겪은 격렬한 갈등을 기록하고 있다.",
     "category": "ko",
     "tags": [
       "산샤",
@@ -171991,7 +172129,7 @@
       "디지털 전환"
     ],
     "url": "https://taiwan.md/ko/lifestyle/xiaobei-department-store",
-    "readingTime": 16,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-07-25",
     "path": "ko/Lifestyle/xiaobei-department-store.md"
@@ -172609,6 +172747,17 @@
     "featured": false,
     "date": "2026-08-21",
     "path": "ko/History/xiluo-bridge.md"
+  },
+  {
+    "title": "시뤄: 랜드마크는 붉은 다리, 일상은 간장",
+    "description": "탁수계 남안의 시뤄진(西螺鎭), 검은콩 간장의 180일, 옌핑 노가의 1920년대 바로크 양식 가옥, 300년 역사의 타이핑마(太平媽), 청대 이주민의 치칸 무관과 붉은 다리가 인구 4만 명의 작은 마을에 중첩되어 있다. 외지인은 다리를 기억하지만, 현지인은 간장과 함께 살아간다. 이 글은 산업, 신앙, 지역의 기억을 하나의 시간선 위에 놓는다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/geography/xiluo-township",
+    "readingTime": 25,
+    "featured": false,
+    "date": "2026-10-25",
+    "path": "ko/Geography/xiluo-township.md"
   },
   {
     "title": "시먼 훙로우: 시장이 어떻게 시먼팅의 문화 거실로 살아남았는가",
@@ -173505,12 +173654,12 @@
     "path": "ko/Culture/yanshui-beehive-fireworks.md"
   },
   {
-    "title": "영양 급식: 탈지분유에서 형광 카레까지, 대만 학교 급식 100년의 변천",
-    "description": "1951년, 유니세프의 탈지분유 기증으로 시작된 대만 학교 급식의 역사. 미국 원조 밀가루 시대부터 쌀 중심 급식으로의 전환, 그리고 오늘날의 식농교육과 무료 급식 정책까지, 이 100년의 변천은 세대를 먹여 살렸을 뿐 아니라 대만 사회의 경제·교육·음식 문화의 깊은 변화를 담고 있다.",
+    "title": "영양 점심: 무지방 분유에서 형광색 카레까지, 대만 학생 식탁의 100년 변천사",
+    "description": "1951년 유엔의 무지방 분유 지원으로 시작된 대만의 영양 점심. 미국 원조 밀가루에서 현지 쌀 식단으로, 그리고 오늘날의 식육(食育)과 무상 급식 정책에 이르기까지, 이 100년의 변천사는 단순히 학생들의 배를 채우는 것을 넘어 사회 경제, 교육 이념, 식문화의 깊은 진보를 반영합니다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/food/school-lunch-reform",
-    "readingTime": 62,
+    "readingTime": 75,
     "featured": false,
     "date": "2026-05-04",
     "path": "ko/Food/school-lunch-reform.md"
@@ -175265,7 +175414,7 @@
   },
   {
     "title": "정성공이 가져온 것이 아니다: 虱目魚(밀어)의 400년 양식사",
-    "description": "타이난 사람들은 虱目魚를 '집에서 기르는 물고기'라 부르지만, 그 기원은 네덜란드 동인도 회사가 인도네리아에서 도입한 양식 기술로 정성공의 타이완 상륙보다 37년이나 앞선다. 치구(七股)의 4,5​500헥타르에 달하는 어장과 물고기 한 마리를 일곱 가지 이상의 요리로 나누는 방식은 이 400년 양식사가 남긴 살아있는 화석이다.",
+    "description": "타이난 사람들은 虱目魚를 '집에서 기르는 물고기'라 부르지만, 그 기원은 네덜란드 동인도 회사가 인도네리아에서 도입한 양식 기술로 정성공의 타이완 상륙보다 37년이나 앞선다. 치구(七股)의 4,5500헥타르에 달하는 어장과 물고기 한 마리를 일곱 가지 이상의 요리로 나누는 방식은 이 400년 양식사가 남긴 살아있는 화석이다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/food/milkfish-congee",

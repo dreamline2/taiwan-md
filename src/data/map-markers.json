@@ -1364,7 +1364,7 @@
     "city": "彰化"
   },
   {
-    "title": "中鋼：鐵頭部長與十大建設的鋼鐵傳奇",
+    "title": "中鋼：鐵頭部長與十大建設的鋼鐵脊樑",
     "lat": 22.629063,
     "lng": 120.305661,
     "category": "economy",
@@ -1397,7 +1397,7 @@
     "city": "雲林"
   },
   {
-    "title": "台泥：台灣第一上市公司的綠色轉型傳奇",
+    "title": "台泥：台灣第一上市公司的綠色轉型",
     "lat": 22.996305,
     "lng": 120.163867,
     "category": "economy",
@@ -3344,6 +3344,17 @@
     "city": "台北"
   },
   {
+    "title": "竹山：前山第一城，後來把名字交給竹子",
+    "lat": 23.7489,
+    "lng": 120.690427,
+    "category": "geography",
+    "region": "central",
+    "link": "/geography/%E7%AB%B9%E5%B1%B1%E9%8E%AE",
+    "lang": "zh-TW",
+    "desc": "南投縣西南角的竹山鎮，清代叫林圯埔，曾是雲林縣城所在、號稱「前山第一城」；1920 年才因竹林密布改名竹山。這座近五萬人的小鎮，把明鄭屯墾、濁水溪義渡、竹排船伕、竹編傳習所、921 地震與一間舊客運站的改造，疊在同一條時間線上。",
+    "city": "南投"
+  },
+  {
     "title": "縱貫鐵路：1908 年一條線把島嶼縫起來，也把殖民的速度留下來",
     "lat": 24.144546,
     "lng": 120.670768,
@@ -3408,6 +3419,17 @@
     "lang": "zh-TW",
     "desc": "終年約 22°C 的水不以低溫取勝，而是以二氧化碳氣泡、百年浴場與彈珠汽水，改變一座港鎮的日常記憶",
     "city": "宜蘭"
+  },
+  {
+    "title": "西螺：紅橋是地標，醬油才是日常",
+    "lat": 23.715882,
+    "lng": 120.42854,
+    "category": "geography",
+    "region": "central",
+    "link": "/geography/%E8%A5%BF%E8%9E%BA%E9%8E%AE",
+    "lang": "zh-TW",
+    "desc": "濁水溪南岸的西螺鎮，把黑豆醬油的 180 天、延平老街 1920 年代的巴洛克街屋、三百年的太平媽、清代移民的七崁武館與一座紅色大橋，疊在同一座四萬人的小鎮裡。外地人記住的是橋，在地人過的是醬油的日子。這篇文章把產業、信仰與地方記憶放回同一條時間線。",
+    "city": "雲林"
   },
   {
     "title": "西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街",
@@ -5610,7 +5632,7 @@
     "city": "台北"
   },
   {
-    "title": "吳百福（安藤百福）：從嘉義朴子到全球餐桌，台灣基因與日本包裝的全球傳奇",
+    "title": "吳百福（安藤百福）：從嘉義朴子到全球餐桌，台灣基因與日本包裝",
     "lat": 23.478009,
     "lng": 120.447185,
     "category": "people",
@@ -6292,7 +6314,7 @@
     "city": "台北"
   },
   {
-    "title": "江蕙：北投那卡西出身的臺語天后",
+    "title": "江蕙：北投那卡西出身的臺語歌手",
     "lat": 22.634177,
     "lng": 120.296629,
     "category": "people",
@@ -7645,7 +7667,7 @@
     "city": "台北"
   },
   {
-    "title": "台灣全齡共融旅遊與生活文化：當人情味成為最強的無障礙設施",
+    "title": "台灣全齡共融旅遊與生活文化：當人情味成為無障礙設施",
     "lat": 25.030774,
     "lng": 121.557282,
     "category": "society",
@@ -11671,17 +11693,6 @@
     "city": "南投"
   },
   {
-    "title": "Makan Siang Bergizi: Dari Susu Bubuk Skim ke Kari Neon, Satu Abad Perubahan di Meja Makan Siswa Taiwan",
-    "lat": 25.03883,
-    "lng": 121.568255,
-    "category": "food",
-    "region": "north",
-    "link": "/food/school-lunch-reform",
-    "lang": "zh-TW",
-    "desc": "Pada 1951, susu bubuk skim dari PBB membuka babak awal makan siang bergizi di Taiwan. Dari tepung terigu bantuan Amerika hingga beras lokal, lalu ke pendidikan pangan dan kebijakan makan siang gratis hari ini, satu abad perubahan ini tidak hanya mengenyangkan perut siswa, tetapi juga mencerminkan proses mendalam ekonomi sosial, gagasan pendidikan, dan budaya pangan Taiwan.",
-    "city": "台北"
-  },
-  {
     "title": "Pembagian Administratif Taiwan: Dari \"Pertemuan Lokal\" ke \"Lima Kota\" - Puzzle Kekuasaan",
     "lat": 22.624501,
     "lng": 120.297913,
@@ -14289,14 +14300,14 @@
     "city": "宜蘭"
   },
   {
-    "title": "学校給食：脱脂粉乳から蛍光カレーまで、台湾の子どもたちの食卓をめぐる百年の変革",
+    "title": "栄養給食：脱脂粉乳から蛍光カレーまで、台湾の児童の食卓における百年の変革",
     "lat": 25.036439,
     "lng": 121.560003,
     "category": "food",
     "region": "north",
     "link": "/ja/food/school-lunch-reform",
     "lang": "ja",
-    "desc": "1951年、国連の脱脂粉乳が台湾の学校給食の幕を開けました。米国援助の小麦粉から地場の米食へ、そして今日の食農教育と無償給食政策へ。この百年にわたる変革は世代を超えた子どもたちを養うだけでなく、台湾の社会経済・教育理念・食文化の深い変遷を映し出しています。",
+    "desc": "1951年、国連の脱脂粉乳が台湾の栄養給食の幕開けとなりました。米援助の小麦粉から地元の米食へ、そして今日の食育と無償化政策へ、この百年の変革は児童を満腹させただけでなく、社会経済、教育理念、食文化の深い変遷を映し出しています。",
     "city": "台北"
   },
   {
@@ -15464,6 +15475,17 @@
     "lang": "ja",
     "desc": "烏坵は台湾で最も偏遠な行政区であり、大坵・小坵から構成される。行政上は金門に属しながら交通の命脈は台中に繋がるこの孤島は、かつて国共対峙の前線ゲリラ基地であった。本稿では烏坵嶼灯台の再点灯が持つ主体性の意義、興化語文化の継承、そして20年にわたる核廃棄物処分場選定をめぐる住民投票の論争を深く分析し、この辺境の島嶼が国家の物語の中で見せる孤独と韌性を描く。",
     "city": "金門"
+  },
+  {
+    "title": "西螺：赤い橋はランドマーク、醤油こそが日常",
+    "lat": 23.714098,
+    "lng": 120.425587,
+    "category": "geography",
+    "region": "central",
+    "link": "/ja/geography/xiluo-township",
+    "lang": "ja",
+    "desc": "濁水渓南岸の西螺鎮は、黒豆醤油の180日、1920年代のバロック様式街屋が並ぶ延平老街、300年の歴史を持つ太平媽、清代移民の七崁武館、そして一本の赤い大橋を、人口4万余りの小さな町に重ね合わせている。よそ者が覚えるのは橋だが、地元の人々が生きるのは醤油の日々だ。この記事は産業・信仰・地方の記憶を同じタイムラインに戻す。",
+    "city": "雲林"
   },
   {
     "title": "西門町：日本人が 1896 年につくった娯楽街は、130 年後も台北で最も若い街です",
@@ -20854,6 +20876,17 @@
     "lang": "ko",
     "desc": "대만에서 중원절은 단순히 귀신에 대한 경외심이 아니라, 개척(開墾), 충돌, 그리고 민족 간의 융합에 관한 생존 기록이다. 지룽(基隆)에서의 피눈물 같은 화해부터 두청(頭城)에서의 극한적인 망자 구출 경쟁까지, 이 축제는 대만 사람들이 어떻게 공포를 사회적 평화 조약으로 전환했는지 보여준다.",
     "city": "基隆"
+  },
+  {
+    "title": "전보(擲筊): 50%의 확률 뒤에 숨겨진 신의 목소리",
+    "lat": 23.480465,
+    "lng": 120.448758,
+    "category": "culture",
+    "region": "south",
+    "link": "/ko/culture/jiaobei-divination-blocks",
+    "lang": "ko",
+    "desc": "자이(嘉義) 주터우자오(竹頭筊) 장인 황이쉰(黃奕薰)의 집념부터 핑둥(屏東) 치텐궁(慈天宮) 20연속 성보(聖筊) 300만 대기록까지, 타이완인의 신과 소통하는 확률과 온기를 탐구한다.",
+    "city": "嘉義"
   },
   {
     "title": "펑후 민속 문화",

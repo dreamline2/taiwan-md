@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T22:06:49.443Z",
+  "lastUpdated": "2026-11-01T22:07:17.510Z",
   "organs": [
     {
       "id": "heart",
@@ -10,17 +10,17 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 51,
-        "articlesLast30Days": 193,
-        "totalArticles": 1152,
-        "selfProducedLast7Days": 1,
+        "articlesLast7Days": 12,
+        "articlesLast30Days": 195,
+        "totalArticles": 1154,
+        "selfProducedLast7Days": 0,
         "selfProducedLast30Days": 1,
-        "contributedLast7Days": 50,
-        "newArticlesLast7Days": 17,
-        "newArticlesLast30Days": 30,
-        "contributedNewLast7Days": 16,
-        "updatedNotNewLast7Days": 34,
-        "shadowScoreNewOnly": 90
+        "contributedLast7Days": 12,
+        "newArticlesLast7Days": 2,
+        "newArticlesLast30Days": 31,
+        "contributedNewLast7Days": 2,
+        "updatedNotNewLast7Days": 10,
+        "shadowScoreNewOnly": 30
       }
     },
     {
@@ -34,14 +34,14 @@
       "version": "v2-2026-05-16",
       "metrics": {
         "humanReviewedCount": 198,
-        "totalArticles": 1152,
+        "totalArticles": 1154,
         "humanReviewedPercent": 17.2,
         "v2Status": "漂移 — 多維度退化中",
         "v2Components": {
           "review_coverage": 18.2,
           "plugin_pass_rate": 70.1,
           "plugin_health": 100,
-          "citation_density": 94.1,
+          "citation_density": 94.3,
           "tool_freshness": 60,
           "drift_velocity": 90,
           "external_rulers": 9.2
@@ -54,7 +54,7 @@
       "nameZh": "遺傳密碼",
       "metaphor": "品質基因",
       "emoji": "🧬",
-      "score": 95,
+      "score": 80,
       "scoreKind": "recency-indicator",
       "scoreBasis": "Days since EDITORIAL.md was last modified; not quality health",
       "trend": "up",
@@ -97,7 +97,7 @@
       "score": 100,
       "trend": "up",
       "metrics": {
-        "recentContributors": 13,
+        "recentContributors": 12,
         "recentSpores": 7,
         "topPerformerCount": 5,
         "topPerformerAvgViews": 239179,
@@ -127,19 +127,19 @@
       "trend": "up",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 1152,
-          "en": 1152,
-          "ja": 1152,
-          "ko": 1152,
-          "es": 1152,
-          "fr": 1152,
-          "vi": 1152,
-          "id": 1152,
-          "pt": 1152,
-          "hi": 1152,
-          "ar": 1152,
-          "ru": 1152,
-          "de": 1152
+          "zh-TW": 1154,
+          "en": 1153,
+          "ja": 1153,
+          "ko": 1153,
+          "es": 1153,
+          "fr": 1153,
+          "vi": 1153,
+          "id": 1153,
+          "pt": 1153,
+          "hi": 1153,
+          "ar": 1153,
+          "ru": 1153,
+          "de": 1153
         },
         "translationPct": 92,
         "langHealthDetails": {
@@ -230,7 +230,7 @@
               "pct": 92
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 97
@@ -317,15 +317,15 @@
               ]
             },
             "hubs": {
-              "filled": 1,
+              "filled": 2,
               "total": 13,
-              "pct": 8
+              "pct": 15
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
-            "score": 80
+            "score": 81
           },
           "ko": {
             "ui": {
@@ -414,7 +414,7 @@
               "pct": 92
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 96
@@ -506,7 +506,7 @@
               "pct": 92
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 96
@@ -598,7 +598,7 @@
               "pct": 31
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 84
@@ -690,7 +690,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 98
@@ -782,7 +782,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 98
@@ -874,7 +874,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 98
@@ -966,7 +966,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 98
@@ -1053,15 +1053,15 @@
               ]
             },
             "hubs": {
-              "filled": 0,
+              "filled": 1,
               "total": 13,
-              "pct": 0
+              "pct": 8
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
-            "score": 78
+            "score": 80
           },
           "ru": {
             "ui": {
@@ -1145,15 +1145,15 @@
               ]
             },
             "hubs": {
-              "filled": 0,
+              "filled": 1,
               "total": 13,
-              "pct": 0
+              "pct": 8
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
-            "score": 78
+            "score": 80
           },
           "de": {
             "ui": {
@@ -1242,7 +1242,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 1152,
+              "count": 1153,
               "pct": 100
             },
             "score": 100
