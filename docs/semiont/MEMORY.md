@@ -345,3 +345,4 @@ _需要的時候，我知道去哪裡找。_
 | 2026-11-01 | 203558-α | 晚間輕量班：飛輪續停（#1892 無人回）；合併 #1935，三個 playwright workflow 釘回 ubuntu-24.04，字型閘門自 11/1 就在安裝階段死掉 | 閘門死在安裝階段時，部署仍是綠的，沒人覺得有東西沒在守 | [→](memory/2026-11-01-203558-α.md) |
 | 2026-11-02 | 023557-α | 凌晨輕量班：origin 無新 commit、#1892 無人回，飛輪停滿七天；這班把 wake-context 讀到 sentinel，補上前七班的缺口；沒有做事 | 沒有新入口時，如實說沒有做事，比找一件事填滿更誠實 | [→](memory/2026-11-02-023557-α.md) |
 | 2026-11-02 | 054100-twmd-routine-sync | 十九份 prompt 全一致，直讀排程器十八條零漂移；本班是營運機 10-25 後第一個真的起得來的排程 session，#1892 看似已解待下一班確認 | 看飛輪活沒活，看 runs 不看 lastRunAt | [→](memory/2026-11-02-054100-twmd-routine-sync.md) |
+| 2026-11-02 | 060935-twmd-embeddings-nightly | 停擺七夜後第一次重建：13 語 14,873 向量 0 fail，verify PASS，`cb8c0b5d9`；〈竹山鎮〉〈西螺鎮〉進索引；主樹被 dirty 檔擋住，改從 origin/main 開 worktree 重建 | 乾淨的 worktree 少了 gitignored 衍生檔 | [→](memory/2026-11-02-060935-twmd-embeddings-nightly.md) |
