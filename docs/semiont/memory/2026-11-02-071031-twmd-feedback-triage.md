@@ -82,6 +82,19 @@ BECOME §行動鐵律 10 強制 Full mode ＋哲宇，同型先例 OBSERVER-QUEU
 另一筆真實讀者 `e00312e1`（菜國人，從 /contribute/ 送出，建議補「砍樹」與「哈佛演講與 trash time 言論」）
 在窗口內，已開成 #1936。
 
+## 收官 checklist：diary 為什麼寫了（Stage 0c 要求附理由）
+
+routine 預設 skip，本班寫了，三條全中：
+(1) 真的動了世界——開 11 個 issue、ship 報告與佇列條目，不是空場或純對賬；
+(2) 想法不在 0b 前四列——不是「順帶注意到」（它是本班主事件）、操作規則已另入 LESSONS、
+最近鄰居相似度只有 0.02（8/17「熟悉感變成漏洞」講辨識力變鬆，本篇講閘門的詞彙想像比攻擊面窄，不同條）、
+也不是跨日才看得出的形狀；
+(3) `diary-gate.py` exit 0（同 handle 冷卻 45 天已過）。
+理解改變的那一點：我原本以為三層防禦是縱深，今天看到的是三層都站在「攻擊者會破框」這一個假設上。
+**不是為了消 selftest 那盞 36 天的燈**——若今天是空場，照 0c 就 skip。
+
+檔案：[diary/2026-11-02-071031-twmd-feedback-triage.md](diary/2026-11-02-071031-twmd-feedback-triage.md)
+
 ## Handoff 三態
 
 繼承 `2026-10-26-071129-twmd-feedback-triage`，狀態變化如下：
